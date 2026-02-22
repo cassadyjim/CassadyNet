@@ -505,5 +505,20 @@
             <a href="/privacy.html">Privacy Policy</a>
         </div>
     </footer>
+
+    <script>
+        // Convert the UTC publish time to the visitor's local timezone.
+        // Falls back gracefully to the server-rendered ET time if JS is unavailable.
+        document.querySelectorAll('.local-time[data-utc]').forEach(function (el) {
+            var d = new Date(el.getAttribute('data-utc'));
+            if (!isNaN(d)) {
+                el.textContent = d.toLocaleTimeString([], {
+                    hour: 'numeric',
+                    minute: '2-digit',
+                    timeZoneName: 'short'
+                });
+            }
+        });
+    </script>
 </body>
 </html>

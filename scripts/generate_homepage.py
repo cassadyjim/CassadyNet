@@ -8,6 +8,7 @@ import sqlite3
 import json
 import argparse
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from html import escape
 from pathlib import Path
 from typing import List, Dict, Any
@@ -447,7 +448,7 @@ def generate_homepage(stories: List[Dict], output_path: Path = None) -> str:
     # Generate final HTML
     html = HTML_TEMPLATE.format(
         breaking_banner=breaking_banner,
-        last_updated=datetime.now().strftime("%B %d, %Y at %I:%M %p EST"),
+        last_updated=datetime.now(ZoneInfo('America/New_York')).strftime("%B %d, %Y at %I:%M %p ET"),
         main_headline=main_headline,
         main_story_url=main_url,
         main_source=main_source,

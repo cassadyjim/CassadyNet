@@ -10,6 +10,7 @@ import subprocess
 import os
 import logging
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from html import escape
 from pathlib import Path
 from urllib.parse import urlparse
@@ -344,7 +345,9 @@ def generate_homepage():
     html = html.replace('{{TOP_STORIES}}', top_html)
     html = html.replace('{{STORY_CLUSTERS}}', clusters_html)
     html = html.replace('{{ALL_STORIES}}', all_stories_html)
-    html = html.replace('{{LAST_UPDATED}}', datetime.now().strftime('%I:%M %p ET'))
+    utc_now = datetime.now(timezone.utc)
+    et_fallback = utc_now.astimezone(ZoneInfo('America/New_York')).strftime('%I:%M %p ET')
+    html = html.replace('{{LAST_UPDATED}}', f'<span class="local-time" data-utc="{utc_now.strftime("%Y-%m-%dT%H:%M:%SZ")}">{et_fallback}</span>')
     
     # Save
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
