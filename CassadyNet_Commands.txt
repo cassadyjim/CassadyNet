@@ -1,0 +1,194 @@
+===============================================================================
+CASSADYNET COMMAND REFERENCE
+===============================================================================
+
+MAIN PUBLISH COMMAND
+-------------------------------------------------------------------------------
+/Users/jamescassady/run_cassadynet.sh
+
+Or
+
+python3 scripts/publish.py
+
+Full pipeline - runs everything:
+  1. Fetch feeds from 100+ RSS sources
+  2. Score stories with AI
+  3. Cluster related stories into topics
+  4. Generate analysis/poll pages
+  5. Generate homepage
+  6. Generate polls page
+  7. Generate RSS feed
+  8. Generate sitemap
+  9. Upload to server
+
+Use this for: Hourly cron job, full site refresh
+
+
+COMMON VARIATIONS
+-------------------------------------------------------------------------------
+
+Quick Republish (no new stories)
+--------------------------------
+python3 scripts/publish.py --skip-fetch --skip-score
+
+Skips fetching and scoring. Use when you've made template/styling changes
+and just want to regenerate and upload pages.
+
+
+Local Testing (no upload)
+-------------------------
+python3 scripts/publish.py --local-only
+
+Generates everything locally but doesn't upload to server.
+Good for testing changes before going live.
+
+
+Generate Only (no upload)
+-------------------------
+python3 scripts/publish.py --skip-upload
+
+Runs the full pipeline but skips the upload step.
+Similar to --local-only but still fetches/scores.
+
+
+Skip Clustering
+---------------
+python3 scripts/publish.py --skip-cluster
+
+Skips the clustering step. Use if you want to keep existing clusters
+but refresh other content.
+
+
+Skip Analysis Generation
+------------------------
+python3 scripts/publish.py --skip-analysis
+
+Skips generating new analysis pages. Use if you only want to
+update the homepage with existing analyses.
+
+
+INDIVIDUAL SCRIPTS
+-------------------------------------------------------------------------------
+
+Fetch RSS Feeds Only
+--------------------
+python3 scripts/fetch_feeds.py
+
+Fetches latest stories from all RSS sources into the database.
+
+
+Score Stories Only
+------------------
+python3 scripts/score_stories.py --hours 24 --limit 30
+
+Scores recent stories using AI. 
+  --hours: How far back to look (default 24)
+  --limit: Max stories to score (default 30)
+
+
+Cluster Stories Only
+--------------------
+python3 scripts/cluster_stories.py --hours 48
+
+Groups related stories into topic clusters.
+  --hours: How far back to look for stories (default 48)
+
+
+Generate Analysis Pages
+-----------------------
+python3 scripts/generate_analysis.py
+
+Generates analysis/poll pages for current clusters.
+
+python3 scripts/generate_analysis.py --all
+
+Regenerates ALL analysis pages (even existing ones).
+
+python3 scripts/generate_analysis.py --topic "Nvidia"
+
+Generates analysis for a specific topic only.
+
+python3 scripts/generate_analysis.py --dry-run
+
+Shows what would be generated without actually doing it.
+
+
+Generate Polls Page
+-------------------
+python3 scripts/generate_polls_page.py
+
+Generates the Previous Polls archive page.
+
+
+Generate Sitemap
+----------------
+python3 scripts/generate_sitemap.py
+
+Generates sitemap.xml for SEO.
+
+
+Generate RSS Feed
+-----------------
+python3 scripts/generate_rss.py
+
+Generates the RSS feed (feed.xml).
+
+
+Upload to Server
+----------------
+python3 scripts/upload_sftp.py
+
+Uploads all output files to the web server via SFTP.
+
+
+CRON JOB SETUP
+-------------------------------------------------------------------------------
+
+Hourly refresh (recommended):
+0 * * * * cd /path/to/ai_news_aggregator && python3 scripts/publish.py >> /path/to/logs/cron.log 2>&1
+
+Every 30 minutes:
+*/30 * * * * cd /path/to/ai_news_aggregator && python3 scripts/publish.py >> /path/to/logs/cron.log 2>&1
+
+
+TROUBLESHOOTING
+-------------------------------------------------------------------------------
+
+If stories aren't updating:
+  - Check fetch_feeds.py is running
+  - Verify RSS sources are accessible
+  - Check database: data/stories.db
+
+If clusters aren't forming:
+  - Need 2+ unique stories on same topic
+  - Run: python3 scripts/cluster_stories.py --hours 48
+
+If analysis pages aren't generating:
+  - Check for API key (ANTHROPIC_API_KEY)
+  - Run: python3 scripts/generate_analysis.py --all
+
+If upload fails:
+  - Check SFTP credentials in .env file
+  - Verify server is accessible
+  - Check upload_sftp.py for errors
+
+
+FILE LOCATIONS
+-------------------------------------------------------------------------------
+
+Scripts:        scripts/
+Data:           data/
+Output:         output/
+Analysis pages: output/analysis/
+Templates:      scripts/homepage_template_v2.html
+
+Database:       data/stories.db
+Clusters:       data/story_clusters.json
+Analysis index: data/analysis_index.json
+Active polls:   data/active_polls.json
+Archived polls: data/archived_polls.json
+
+
+===============================================================================
+Last updated: January 2026
+===============================================================================

@@ -1,0 +1,102 @@
+# CassadyNet .gitignore
+# Prevents sensitive files from being committed to version control
+
+# =============================================================================
+# CREDENTIALS & SECRETS (CRITICAL - NEVER COMMIT)
+# =============================================================================
+API Key.rtf
+API Key*.rtf
+X Twitter Keys.y
+X Twitter Keys*
+*.env
+.env
+.env.*
+secrets.json
+credentials.json
+*_credentials*
+*_secrets*
+*.pem
+*.key
+
+# =============================================================================
+# DATABASE & DATA FILES
+# =============================================================================
+# Database is NOT committed - persisted via GitHub Actions cache instead
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+*.sqlite
+*.sqlite3
+
+# JSON state files ARE committed so poll/cluster state persists between runs
+# (active_polls.json, archived_polls.json, analysis_index.json,
+#  story_clusters.json, posted_bluesky.json are tracked intentionally)
+data/posted_tweets.json
+
+# =============================================================================
+# LOGS
+# =============================================================================
+logs/
+*.log
+
+# =============================================================================
+# OUTPUT / GENERATED FILES
+# =============================================================================
+output/
+*.html.bak
+
+# =============================================================================
+# PYTHON
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+.venv/
+
+# =============================================================================
+# IDE & EDITOR
+# =============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =============================================================================
+# BACKUP FILES
+# =============================================================================
+*_BU.py
+*_BU*.py
+*_backup*
+*.bak
+*.backup
+
+# =============================================================================
+# OS FILES
+# =============================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dill Dinkers Newport Game Timer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #1a3a5c;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .status {
+            color: white;
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom: 50px;
+        }
+
+        .timer-display {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 30px;
+            padding: 80px;
+            margin-bottom: 50px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .time {
+            color: white;
+            font-size: 15rem;
+            font-weight: bold;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 0.1em;
+            margin-bottom: 30px;
+            line-height: 1;
+        }
+
+        .timer-label {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 2.5rem;
+        }
+
+        .controls {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        button:active {
+            transform: scale(0.95);
+        }
+
+        .btn-play {
+            background: #22c55e;
+            color: white;
+        }
+
+        .btn-play:hover {
+            background: #16a34a;
+        }
+
+        .btn-reset {
+            background: #ef4444;
+            color: white;
+        }
+
+        .btn-reset:hover {
+            background: #dc2626;
+        }
+
+        .btn-settings {
+            background: #6b7280;
+            color: white;
+        }
+
+        .btn-settings:hover {
+            background: #4b5563;
+        }
+
+        .test-section {
+            margin-top: 30px;
+        }
+
+        .btn-test {
+            background: #eab308;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            width: auto;
+            height: auto;
+        }
+
+        .btn-test:hover {
+            background: #ca8a04;
+        }
+
+        .audio-status {
+            margin-top: 15px;
+            font-size: 1.1rem;
+        }
+
+        .status-working {
+            color: #4ade80;
+            font-weight: 600;
+        }
+
+        .status-blocked {
+            color: #fca5a5;
+            font-weight: 600;
+        }
+
+        .status-not-tested {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+        }
+
+        .settings-panel {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            padding: 50px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .settings-panel h2 {
+            color: #1f2937;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .settings-group {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .settings-group label {
+            display: block;
+            color: #374151;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .settings-group input {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.5rem;
+            border: 2px solid #d1d5db;
+            border-radius: 10px;
+        }
+
+        .settings-group input:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+
+        .settings-buttons {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .btn-save, .btn-cancel {
+            flex: 1;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            width: auto;
+            height: auto;
+        }
+
+        .btn-save {
+            background: #22c55e;
+            color: white;
+        }
+
+        .btn-save:hover {
+            background: #16a34a;
+        }
+
+        .btn-cancel {
+            background: #9ca3af;
+            color: white;
+        }
+
+        .btn-cancel:hover {
+            background: #6b7280;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            .status {
+                font-size: 1.8rem;
+            }
+            .time {
+                font-size: 6rem;
+            }
+            .timer-label {
+                font-size: 1.5rem;
+            }
+            .timer-display {
+                padding: 40px 20px;
+            }
+            button {
+                width: 60px;
+                height: 60px;
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="main-view">
+            <h1 id="timer-title">Dill Dinkers Newport Game Timer</h1>
+            <div class="status" id="status">⚡ PLAY TIME</div>
+            
+            <div class="timer-display">
+                <div class="time" id="time">12:00</div>
+                <div class="timer-label" id="timer-label">Game: 12 min</div>
+            </div>
+
+            <div class="controls">
+                <button class="btn-play" id="play-btn" onclick="toggleTimer()">▶</button>
+                <button class="btn-reset" onclick="resetTimer()">↻</button>
+                <button class="btn-settings" onclick="showSettings()">⚙</button>
+            </div>
+        </div>
+
+        <div id="settings-view" class="hidden">
+            <div class="settings-panel">
+                <h2>Timer Settings</h2>
+                
+                <div class="settings-group">
+                    <label>Timer Title</label>
+                    <input type="text" id="title-input" maxlength="50" value="Dill Dinkers Newport Game Timer" placeholder="Enter timer title">
+                </div>
+
+                <div class="settings-group">
+                    <label>Game Time (minutes)</label>
+                    <input type="number" id="main-time-input" min="1" max="60" value="12">
+                </div>
+
+                <div class="settings-group">
+                    <label>Break Time (minutes)</label>
+                    <input type="number" id="break-time-input" min="1" max="30" value="3">
+                </div>
+
+                <div class="settings-buttons">
+                    <button class="btn-save" onclick="saveSettings()">Save</button>
+                    <button class="btn-cancel" onclick="hideSettings()">Cancel</button>
+                </div>
+
+                <div class="test-section" style="margin-top: 30px;">
+                    <button class="btn-test" onclick="testRoosterSound()">🐓 Test Rooster Sound</button>
+                    <div class="audio-status">
+                        <span id="audio-status" class="status-not-tested">Click to test if sound works</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let mainTime = 12;
+        let breakTime = 3;
+        let currentSeconds = mainTime * 60;
+        let isRunning = false;
+        let isBreak = false;
+        let intervalId = null;
+        let audioStatus = 'not tested';
+        let timerTitle = 'Dill Dinkers Newport Game Timer';
+
+        // Load settings from localStorage on page load
+        function loadSettings() {
+            const savedMainTime = localStorage.getItem('timerMainTime');
+            const savedBreakTime = localStorage.getItem('timerBreakTime');
+            const savedTitle = localStorage.getItem('timerTitle');
+            
+            if (savedMainTime) mainTime = parseInt(savedMainTime);
+            if (savedBreakTime) breakTime = parseInt(savedBreakTime);
+            if (savedTitle) timerTitle = savedTitle;
+            
+            currentSeconds = mainTime * 60;
+            updateTitle();
+        }
+
+        // Save settings to localStorage
+        function saveSettingsToStorage() {
+            localStorage.setItem('timerMainTime', mainTime);
+            localStorage.setItem('timerBreakTime', breakTime);
+            localStorage.setItem('timerTitle', timerTitle);
+        }
+
+        function updateTitle() {
+            document.getElementById('timer-title').textContent = timerTitle;
+        }
+
+        // Create audio element for rooster sound
+        const roosterAudio = new Audio();
+        roosterAudio.volume = 0.8;
+        
+        // Try multiple file formats - it will use whichever one you upload
+        roosterAudio.src = 'rooster.wav';  // Change this to 'rooster.mp3' if using MP3
+        
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+
+        function updateDisplay() {
+            document.getElementById('time').textContent = formatTime(currentSeconds);
+            document.getElementById('status').textContent = isBreak ? '🏓 BREAK TIME' : '⚡ PLAY TIME';
+            document.getElementById('timer-label').textContent = isBreak ? `Break: ${breakTime} min` : `Game: ${mainTime} min`;
+            document.getElementById('play-btn').textContent = isRunning ? '⏸' : '▶';
+        }
+
+        function playRoosterSound() {
+            try {
+                roosterAudio.currentTime = 0;
+                const playPromise = roosterAudio.play();
+                
+                if (playPromise !== undefined) {
+                    playPromise
+                        .then(() => {
+                            console.log('Rooster sound played successfully');
+                            setAudioStatus('working');
+                        })
+                        .catch(err => {
+                            console.log('Rooster sound error:', err);
+                            setAudioStatus('blocked');
+                        });
+                }
+            } catch (err) {
+                console.log('Rooster sound error:', err);
+                setAudioStatus('blocked');
+            }
+        }
+
+        function playStarterPistolSound() {
+            try {
+                const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                const now = audioContext.currentTime;
+                
+                // Create a louder, more prominent buzzer/horn sound
+                // Play it 3 times for emphasis
+                for (let buzzer = 0; buzzer < 3; buzzer++) {
+                    const startTime = now + (buzzer * 0.4);
+                    
+                    // Create a loud buzzer tone
+                    const oscillator = audioContext.createOscillator();
+                    const gainNode = audioContext.createGain();
+                    
+                    oscillator.connect(gainNode);
+                    gainNode.connect(audioContext.destination);
+                    
+                    oscillator.type = 'sawtooth';
+                    oscillator.frequency.value = 400;
+                    
+                    gainNode.gain.setValueAtTime(0, startTime);
+                    gainNode.gain.linearRampToValueAtTime(0.8, startTime + 0.01);
+                    gainNode.gain.exponentialRampToValueAtTime(0.01, startTime + 0.3);
+                    
+                    oscillator.start(startTime);
+                    oscillator.stop(startTime + 0.3);
+                }
+                
+                setAudioStatus('working');
+            } catch (err) {
+                console.log('Pistol sound error:', err);
+                setAudioStatus('blocked');
+            }
+        }
+
+        function setAudioStatus(status) {
+            audioStatus = status;
+            const statusEl = document.getElementById('audio-status');
+            
+            if (status === 'working') {
+                statusEl.textContent = '✓ Audio is working!';
+                statusEl.className = 'status-working';
+            } else if (status === 'blocked') {
+                statusEl.textContent = '⚠️ Audio blocked! Check your volume and browser settings';
+                statusEl.className = 'status-blocked';
+            }
+        }
+
+        function testRoosterSound() {
+            playRoosterSound();
+        }
+
+        function toggleTimer() {
+            isRunning = !isRunning;
+            
+            if (isRunning) {
+                intervalId = setInterval(() => {
+                    currentSeconds--;
+                    
+                    if (currentSeconds <= 0) {
+                        if (isBreak) {
+                            playStarterPistolSound();
+                            isBreak = false;
+                            currentSeconds = mainTime * 60;
+                        } else {
+                            playRoosterSound();
+                            isBreak = true;
+                            currentSeconds = breakTime * 60;
+                        }
+                    }
+                    
+                    updateDisplay();
+                }, 1000);
+            } else {
+                clearInterval(intervalId);
+            }
+            
+            updateDisplay();
+        }
+
+        function resetTimer() {
+            isRunning = false;
+            isBreak = false;
+            currentSeconds = mainTime * 60;
+            clearInterval(intervalId);
+            updateDisplay();
+        }
+
+        function showSettings() {
+            document.getElementById('main-view').classList.add('hidden');
+            document.getElementById('settings-view').classList.remove('hidden');
+            document.getElementById('title-input').value = timerTitle;
+            document.getElementById('main-time-input').value = mainTime;
+            document.getElementById('break-time-input').value = breakTime;
+        }
+
+        function hideSettings() {
+            document.getElementById('settings-view').classList.add('hidden');
+            document.getElementById('main-view').classList.remove('hidden');
+        }
+
+        function saveSettings() {
+            const newTitle = document.getElementById('title-input').value.trim() || 'Game Timer';
+            const newMain = parseInt(document.getElementById('main-time-input').value) || 12;
+            const newBreak = parseInt(document.getElementById('break-time-input').value) || 3;
+            
+            timerTitle = newTitle;
+            mainTime = newMain;
+            breakTime = newBreak;
+            
+            if (!isRunning) {
+                currentSeconds = mainTime * 60;
+                isBreak = false;
+            }
+            
+            saveSettingsToStorage();
+            updateTitle();
+            updateDisplay();
+            hideSettings();
+        }
+
+        // Initialize display and load saved settings
+        loadSettings();
+        updateDisplay();
+    </script>
+</body>
+</html>

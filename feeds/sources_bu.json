@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "AI News Aggregator RSS Feed Sources",
+    "last_updated": "2026-01-13"
+  },
+  "feeds": [
+    {
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "category": "tech_news",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "category": "tech_news",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Ars Technica AI",
+      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+      "category": "tech_news",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "category": "tech_news",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/feed/",
+      "category": "tech_news",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "category": "tech_news",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
+      "category": "tech_news",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "category": "research",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "arXiv cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "category": "research",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "arXiv cs.CL",
+      "url": "https://rss.arxiv.org/rss/cs.CL",
+      "category": "research",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "category": "ai_labs",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "category": "ai_labs",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "NVIDIA AI Blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "category": "ai_labs",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "category": "ai_labs",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "category": "ai_labs",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Microsoft AI Blog",
+      "url": "https://blogs.microsoft.com/ai/feed/",
+      "category": "ai_labs",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Amazon Science",
+      "url": "https://www.amazon.science/index.rss",
+      "category": "ai_labs",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/rss/",
+      "category": "ai_labs",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Reuters Technology",
+      "url": "https://www.reutersagency.com/feed/?best-topics=tech",
+      "category": "wire_service",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/newest?q=AI+OR+GPT+OR+LLM+OR+OpenAI+OR+Anthropic+OR+DeepMind",
+      "category": "social",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/hot/.rss",
+      "category": "social",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/hot/.rss",
+      "category": "social",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "Nikkei Asia Tech",
+      "url": "https://asia.nikkei.com/rss/feed/Technology",
+      "category": "international",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "South China Morning Post Tech",
+      "url": "https://www.scmp.com/rss/5/feed",
+      "category": "international",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "The Register AI/ML",
+      "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
+      "category": "international",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "ScienceDaily AI",
+      "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+      "category": "research",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "MIT News AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "category": "research",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "Stanford HAI",
+      "url": "https://hai.stanford.edu/news/rss.xml",
+      "category": "research",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "Crunchbase News",
+      "url": "https://news.crunchbase.com/feed/",
+      "category": "funding",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "ZDNet",
+      "url": "https://www.zdnet.com/topic/artificial-intelligence/rss.xml",
+      "category": "tech_news",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "The Batch (DeepLearning.AI)",
+      "url": "https://www.deeplearning.ai/the-batch/feed/",
+      "category": "newsletter",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "Import AI",
+      "url": "https://importai.substack.com/feed",
+      "category": "newsletter",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "The Robot Report",
+      "url": "https://www.therobotreport.com/feed/",
+      "category": "robotics",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "CNBC Technology",
+      "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+      "category": "business",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "Business Insider Tech",
+      "url": "https://www.businessinsider.com/tech?IR=T&r=US",
+      "category": "business",
+      "tier": 2,
+      "enabled": true
+    }
+  ]
+}

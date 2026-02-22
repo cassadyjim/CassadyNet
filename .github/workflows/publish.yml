@@ -1,0 +1,87 @@
+name: Publish CassadyNet
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # Every hour at :00
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write   # Required to push data files back to the repo
+
+    steps:
+      # -----------------------------------------------------------------------
+      # 1. Checkout
+      # -----------------------------------------------------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # -----------------------------------------------------------------------
+      # 2. Python setup
+      # -----------------------------------------------------------------------
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # -----------------------------------------------------------------------
+      # 3. Restore the stories database from cache
+      #    The DB is ~50MB so we don't commit it to git.
+      #    restore-keys means each run picks up the most recent saved cache.
+      # -----------------------------------------------------------------------
+      - name: Restore stories database
+        uses: actions/cache@v4
+        with:
+          path: data/stories.db
+          key: stories-db-${{ github.run_number }}
+          restore-keys: |
+            stories-db-
+
+      # -----------------------------------------------------------------------
+      # 4. Run the full publish pipeline
+      # -----------------------------------------------------------------------
+      - name: Run publish pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+        run: python3 scripts/publish.py
+
+      # -----------------------------------------------------------------------
+      # 5. Commit updated state files back to the repo
+      #    This keeps polls, clusters, and analysis index in sync.
+      #    Uses pull --rebase in case another run just pushed.
+      # -----------------------------------------------------------------------
+      - name: Commit updated data files
+        run: |
+          git config user.name "CassadyNet Bot"
+          git config user.email "bot@cassadynet.com"
+          git add \
+            data/active_polls.json \
+            data/archived_polls.json \
+            data/analysis_index.json \
+            data/story_clusters.json \
+            data/posted_bluesky.json || true
+          if git diff --staged --quiet; then
+            echo "No data file changes to commit."
+          else
+            git pull --rebase origin main
+            git commit -m "chore: auto-update [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi
