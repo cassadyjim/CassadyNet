@@ -118,29 +118,32 @@ def find_matching_active_poll(new_topic: str, new_description: str, active_polls
 def get_poll_results(poll_id: str) -> dict:
     """Fetch current poll results from the database via PHP API or directly"""
     import sqlite3
-    
+    import urllib.request
+    import urllib.parse
+    import json as json_lib
+
     # Try to read directly from the polls database if it exists locally
     polls_db = BASE_DIR / "data" / "polls.db"
-    
+
     if polls_db.exists():
         try:
             conn = sqlite3.connect(polls_db)
             cursor = conn.cursor()
-            
+
             cursor.execute("""
-                SELECT vote, COUNT(*) as count 
-                FROM votes 
-                WHERE poll_id = ? 
+                SELECT vote, COUNT(*) as count
+                FROM votes
+                WHERE poll_id = ?
                 GROUP BY vote
             """, (poll_id,))
-            
+
             results = {'pro': 0, 'con': 0}
             for row in cursor.fetchall():
                 if row[0] in results:
                     results[row[0]] = row[1]
-            
+
             conn.close()
-            
+
             total = results['pro'] + results['con']
             return {
                 'pro': results['pro'],
@@ -151,8 +154,21 @@ def get_poll_results(poll_id: str) -> dict:
             }
         except Exception as e:
             logger.warning(f"Could not read local polls.db: {e}")
-    
-    # Return empty results if we can't fetch
+
+    # Fallback: fetch live results from the server API
+    try:
+        encoded_id = urllib.parse.quote(poll_id)
+        url = f'https://cassadynet.com/poll/api.php?poll_id={encoded_id}'
+        req = urllib.request.Request(url, headers={'User-Agent': 'CassadyNet-Archiver/1.0'})
+        with urllib.request.urlopen(req, timeout=10) as response:
+            data = json_lib.loads(response.read().decode())
+            if 'results' in data:
+                logger.info(f"  Fetched live results from API for poll: {poll_id}")
+                return data['results']
+    except Exception as e:
+        logger.warning(f"Could not fetch results from API for {poll_id}: {e}")
+
+    # Return empty results if all methods fail
     return {'pro': 0, 'con': 0, 'total': 0, 'pro_percent': 50, 'con_percent': 50}
 
 
@@ -294,12 +310,15 @@ def get_active_poll_for_topic(topic: str) -> dict:
     return None
 
 
-def register_new_poll(topic: str, description: str, question: str, poll_id: str, analysis_url: str, analysis_type: str = "poll", button_a: str = "Yes", button_b: str = "No"):
-    """Register a new poll or update existing one"""
-    
+def register_new_poll(topic: str, description: str, question: str, poll_id: str, analysis_url: str, analysis_type: str = "poll", button_a: str = "Yes", button_b: str = "No", cluster_stories: list = None):
+    """Register a new poll or update existing one.
+    cluster_stories is stored so the cluster can be reconstructed during the
+    24-hour protection window even if the clustering algorithm renames the topic.
+    """
+
     active_data = load_active_polls()
     polls = active_data.get('polls', [])
-    
+
     # Check if poll already exists
     for poll in polls:
         if poll['poll_id'] == poll_id or poll['topic'] == topic:
@@ -310,9 +329,12 @@ def register_new_poll(topic: str, description: str, question: str, poll_id: str,
             poll['analysis_url'] = analysis_url
             poll['analysis_type'] = analysis_type
             poll['last_seen'] = datetime.now().isoformat()
+            # Refresh stored stories so they stay current
+            if cluster_stories:
+                poll['cluster_stories'] = cluster_stories
             save_active_polls(active_data)
             return poll
-    
+
     # Create new
     new_poll = {
         'topic': topic,
@@ -324,12 +346,13 @@ def register_new_poll(topic: str, description: str, question: str, poll_id: str,
         'analysis_url': analysis_url,
         'analysis_type': analysis_type,
         'created_at': datetime.now().isoformat(),
-        'last_seen': datetime.now().isoformat()
+        'last_seen': datetime.now().isoformat(),
+        'cluster_stories': cluster_stories or []   # stored for 24h protection fallback
     }
     polls.append(new_poll)
     active_data['polls'] = polls
     save_active_polls(active_data)
-    
+
     return new_poll
 
 

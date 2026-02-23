@@ -656,7 +656,14 @@ ANALYSIS_TEMPLATE = """<!DOCTYPE html>
         // Check if user already voted on page load
         async function checkVoteStatus() {
             if (analysisType === 'summary') return;
-            
+
+            // Check localStorage first — instant, no network needed
+            const localVote = localStorage.getItem('voted_' + pollId);
+            if (localVote) {
+                // Hide buttons immediately so the page doesn't flash
+                document.getElementById('pollButtons').style.display = 'none';
+            }
+
             try {
                 const response = await fetch(`${POLL_API}?poll_id=${encodeURIComponent(pollId)}&fingerprint=${fingerprint}`);
                 if (!response.ok) {
@@ -664,19 +671,19 @@ ANALYSIS_TEMPLATE = """<!DOCTYPE html>
                     return;
                 }
                 const data = await response.json();
-                
-                if (data.voted) {
+
+                if (data.voted || localVote) {
                     showResults(data.results);
                 }
             } catch (error) {
                 console.error('Error checking vote status:', error);
             }
         }
-        
+
         async function castVote(vote) {
             const buttons = document.querySelectorAll('.poll-btn');
             buttons.forEach(btn => btn.disabled = true);
-            
+
             try {
                 const response = await fetch(POLL_API, {
                     method: 'POST',
@@ -689,19 +696,23 @@ ANALYSIS_TEMPLATE = """<!DOCTYPE html>
                         fingerprint: fingerprint
                     })
                 });
-                
+
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}`);
                 }
-                
+
                 const data = await response.json();
-                
+
                 if (data.success) {
+                    // Save to localStorage so the vote is remembered on revisit
+                    localStorage.setItem('voted_' + pollId, vote);
                     showMessage('Thanks for voting!', 'success');
                     showResults(data.results);
                 } else {
                     showMessage(data.error || 'Something went wrong', 'error');
                     if (data.voted && data.results) {
+                        // Already voted (server confirmed) — remember it locally too
+                        localStorage.setItem('voted_' + pollId, vote);
                         showResults(data.results);
                     } else {
                         buttons.forEach(btn => btn.disabled = false);
@@ -1215,7 +1226,7 @@ def main():
         analysis = generate_analysis_page(cluster, existing_poll)
         new_analyses.append(analysis)
         
-        # Register/update the poll
+        # Register/update the poll — pass cluster stories for 24h protection fallback
         register_new_poll(
             topic=topic,
             description=description,
@@ -1224,7 +1235,8 @@ def main():
             analysis_url=analysis['url'],
             analysis_type=analysis['analysis_type'],
             button_a=analysis.get('button_a', 'Yes'),
-            button_b=analysis.get('button_b', 'No')
+            button_b=analysis.get('button_b', 'No'),
+            cluster_stories=cluster.get('stories', [])
         )
     
     # Update poll tracking (archive old polls, etc.)

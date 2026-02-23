@@ -233,8 +233,8 @@ def generate_homepage():
     from datetime import datetime, timedelta
     now = datetime.now()
     
-    # Find active polls that must stay (under 24 hours old)
-    protected_topics = []
+    # Find active polls that must stay visible (under 24 hours old)
+    protected_polls = []
     for poll in active_polls:
         created_at = poll.get('created_at', '')
         if created_at:
@@ -242,24 +242,45 @@ def generate_homepage():
                 poll_time = datetime.fromisoformat(created_at)
                 age_hours = (now - poll_time).total_seconds() / 3600
                 if age_hours < 24:
-                    protected_topics.append(poll['topic'])
+                    protected_polls.append(poll)
                     logger.info(f"  Protected topic (age {age_hours:.1f}h): {poll['topic']}")
             except Exception as e:
                 logger.warning(f"  Could not parse date for poll: {e}")
-    
+
     # Build final cluster list: protected first, then fill with new
     final_clusters = []
-    
-    # Add protected clusters first (try fuzzy matching)
-    for protected_topic in protected_topics:
+
+    for poll in protected_polls:
+        protected_topic = poll['topic']
+        matched = False
+
+        # Try to find the topic in the freshly-generated clusters
         for cluster in clusters:
-            # Exact match or partial match
-            if cluster['topic'] == protected_topic or protected_topic.lower() in cluster['topic'].lower() or cluster['topic'].lower() in protected_topic.lower():
+            if (cluster['topic'] == protected_topic
+                    or protected_topic.lower() in cluster['topic'].lower()
+                    or cluster['topic'].lower() in protected_topic.lower()):
                 if cluster not in final_clusters:
                     final_clusters.append(cluster)
-                    logger.info(f"  Added protected cluster: {cluster['topic']}")
-                    break
-    
+                    logger.info(f"  Added protected cluster (matched): {cluster['topic']}")
+                matched = True
+                break
+
+        # If the clustering algorithm renamed or dropped this topic, reconstruct
+        # the cluster from the stories we stored in active_polls.json
+        if not matched:
+            stored_stories = poll.get('cluster_stories', [])
+            if stored_stories:
+                stub = {
+                    'topic': protected_topic,
+                    'description': poll.get('description', ''),
+                    'stories': stored_stories,
+                    'story_count': len(stored_stories)
+                }
+                final_clusters.append(stub)
+                logger.info(f"  Reconstructed protected cluster from stored stories: {protected_topic}")
+            else:
+                logger.warning(f"  Protected topic '{protected_topic}' not found and no stored stories — skipping")
+
     # Fill remaining slots with highest-scoring new clusters
     for cluster in clusters:
         if len(final_clusters) >= 2:
@@ -267,10 +288,10 @@ def generate_homepage():
         if cluster not in final_clusters:
             final_clusters.append(cluster)
             logger.info(f"  Added new cluster: {cluster['topic']}")
-    
+
     logger.info(f"Final clusters to display: {len(final_clusters)}")
-    
-    # If no final_clusters but we have original clusters, use those directly
+
+    # Last-resort fallback: use whatever clusters were generated
     if not final_clusters and clusters:
         final_clusters = clusters[:2]
         logger.info(f"  Fallback: using original clusters")
