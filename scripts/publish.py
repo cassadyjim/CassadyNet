@@ -80,7 +80,7 @@ def get_top_stories(limit: int = 50) -> list:
         SELECT id, title, url, source, score, headline, published, category
         FROM stories
         WHERE score >= 25
-        AND published > datetime('now', '-48 hours')
+        AND published > datetime('now', '-72 hours')
         ORDER BY score DESC, published DESC
         LIMIT ?
     """, (limit,)).fetchall()
@@ -431,14 +431,14 @@ def main():
         logger.info("Step 2: Scoring stories...")
         score_script = BASE_DIR / "scripts" / "score_stories.py"
         if score_script.exists():
-            subprocess.run(["python3", str(score_script), "--hours", "24", "--limit", "30"])
+            subprocess.run(["python3", str(score_script), "--hours", "48", "--limit", "100"])
     
     # Step 3: Cluster stories
     if not args.skip_cluster:
         logger.info("Step 3: Clustering stories...")
         cluster_script = BASE_DIR / "scripts" / "cluster_stories.py"
         if cluster_script.exists():
-            subprocess.run(["python3", str(cluster_script), "--hours", "48"])
+            subprocess.run(["python3", str(cluster_script), "--hours", "72"])
     
     # Step 4: Generate analysis for new clusters
     if not args.skip_analysis:
