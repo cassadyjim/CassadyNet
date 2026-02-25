@@ -213,11 +213,26 @@ def generate_homepage():
     # Load clusters and analysis index
     cluster_data = load_clusters()
     clusters = cluster_data.get('clusters', [])
-    unclustered = cluster_data.get('unclustered', [])
-    
+
     analysis_index = load_analysis_index()
-    
+
     logger.info(f"Loaded {len(clusters)} clusters from story_clusters.json")
+
+    # Always pull unclustered stories fresh from the DB so they never go stale.
+    # story_clusters.json's unclustered list can be days old if the DB cache
+    # in GitHub Actions failed; querying the DB directly gives current data.
+    db_stories = get_top_stories(60)
+
+    # Remove any stories that are already covered by a cluster
+    cluster_urls = {s['url'] for c in clusters for s in c.get('stories', [])}
+    unclustered = [s for s in db_stories if s.get('url') not in cluster_urls]
+
+    # If the DB has nothing fresh (empty or all stale), fall back to JSON
+    if not unclustered:
+        unclustered = cluster_data.get('unclustered', [])
+        logger.info(f"  DB returned no fresh stories — falling back to story_clusters.json unclustered list")
+    else:
+        logger.info(f"  Using {len(unclustered)} fresh stories from DB")
     
     # Load active polls to ensure 24-hour minimum display
     active_polls_file = BASE_DIR / "data" / "active_polls.json"

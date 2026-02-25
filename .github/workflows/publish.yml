@@ -42,9 +42,9 @@ jobs:
         run: pip install -r requirements.txt
 
       # -----------------------------------------------------------------------
-      # 3. Restore the stories database from cache
-      #    The DB is ~50MB so we don't commit it to git.
-      #    restore-keys means each run picks up the most recent saved cache.
+      # 3. Restore the stories database from cache.
+      #    save-always: true ensures the DB is saved even if later steps fail,
+      #    so it never resets back to an empty state.
       # -----------------------------------------------------------------------
       - name: Restore stories database
         uses: actions/cache@v4
@@ -53,9 +53,38 @@ jobs:
           key: stories-db-${{ github.run_number }}
           restore-keys: |
             stories-db-
+          save-always: true
 
       # -----------------------------------------------------------------------
-      # 4. Run the full publish pipeline
+      # 4. Show DB stats before the run (helps diagnose stale-story issues)
+      # -----------------------------------------------------------------------
+      - name: DB diagnostics (pre-run)
+        run: |
+          python3 - <<'EOF'
+          import sqlite3, os
+          from pathlib import Path
+          db = Path('data/stories.db')
+          if not db.exists():
+              print("⚠️  No stories.db found — starting fresh")
+          else:
+              size_mb = db.stat().st_size / 1024 / 1024
+              conn = sqlite3.connect(db)
+              total   = conn.execute("SELECT COUNT(*) FROM stories").fetchone()[0]
+              scored  = conn.execute("SELECT COUNT(*) FROM stories WHERE score >= 25").fetchone()[0]
+              fresh   = conn.execute("SELECT COUNT(*) FROM stories WHERE score >= 25 AND published > datetime('now','-72 hours')").fetchone()[0]
+              unscored = conn.execute("SELECT COUNT(*) FROM stories WHERE (score IS NULL OR score = 0) AND published > datetime('now','-48 hours')").fetchone()[0]
+              newest  = conn.execute("SELECT published FROM stories ORDER BY id DESC LIMIT 1").fetchone()
+              conn.close()
+              print(f"📦 DB size: {size_mb:.1f} MB")
+              print(f"📰 Total stories: {total:,}")
+              print(f"⭐ Scored >= 25: {scored:,}")
+              print(f"🆕 Fresh & scored (72h): {fresh:,}")
+              print(f"❓ Unscored (last 48h): {unscored:,}")
+              print(f"🕐 Newest story added: {newest[0] if newest else 'unknown'}")
+          EOF
+
+      # -----------------------------------------------------------------------
+      # 5. Run the full publish pipeline
       # -----------------------------------------------------------------------
       - name: Run publish pipeline
         env:
@@ -64,11 +93,30 @@ jobs:
         run: python3 scripts/publish.py
 
       # -----------------------------------------------------------------------
-      # 5. Commit updated state files back to the repo
-      #    This keeps polls, clusters, and analysis index in sync.
-      #    Uses pull --rebase in case another run just pushed.
+      # 6. Show DB stats after the run
+      # -----------------------------------------------------------------------
+      - name: DB diagnostics (post-run)
+        if: always()
+        run: |
+          python3 - <<'EOF'
+          import sqlite3
+          from pathlib import Path
+          db = Path('data/stories.db')
+          if db.exists():
+              conn = sqlite3.connect(db)
+              total   = conn.execute("SELECT COUNT(*) FROM stories").fetchone()[0]
+              fresh   = conn.execute("SELECT COUNT(*) FROM stories WHERE score >= 25 AND published > datetime('now','-72 hours')").fetchone()[0]
+              unscored = conn.execute("SELECT COUNT(*) FROM stories WHERE (score IS NULL OR score = 0) AND published > datetime('now','-48 hours')").fetchone()[0]
+              conn.close()
+              print(f"✅ Post-run: {total:,} total | {fresh:,} fresh scored | {unscored:,} awaiting scoring")
+          EOF
+
+      # -----------------------------------------------------------------------
+      # 7. Commit updated state files back to the repo.
+      #    Runs even if publish failed so data files stay in sync.
       # -----------------------------------------------------------------------
       - name: Commit updated data files
+        if: always()
         run: |
           git config user.name "CassadyNet Bot"
           git config user.email "bot@cassadynet.com"
@@ -77,7 +125,7 @@ jobs:
             data/archived_polls.json \
             data/analysis_index.json \
             data/story_clusters.json \
-            data/posted_bluesky.json || true
+            data/posted_bluesky.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No data file changes to commit."
           else
