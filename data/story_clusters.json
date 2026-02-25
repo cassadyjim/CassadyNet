@@ -119,16 +119,6 @@
   ],
   "unclustered": [
     {
-      "id": "062d919cb1c3158f",
-      "title": "ETtech Explainer: Decoding Anthropic\u2019s Claude Code update that triggered IBM selloff",
-      "url": "https://economictimes.indiatimes.com/tech/technology/ettech-explainer-decoding-anthropics-claude-code-update-that-triggered-ibm-selloff/articleshow/128762388.cms",
-      "source": "The Economic Times Tech",
-      "summary": "A single Anthropic blog claiming its AI model Claude can read and modernise COBOL wiped nearly $30 billion off IBM\u2019s market value. COBOL, a 1959 programming language, still powers critical banking, airline and government systems worldwide. Claude promises to cut modernisation time from years to quarters, potentially transforming the economics of legacy system updates.",
-      "published": "2026-02-25T00:30:00+00:00",
-      "score": 46.0,
-      "headline": "CLAUDE COBOL Claims WIPE $30B Off IBM"
-    },
-    {
       "id": "659b6f30e7752e03",
       "title": "Australia's WiseTech Global plans 2,000 job cuts amid AI overhaul",
       "url": "https://economictimes.indiatimes.com/tech/technology/australias-wisetech-global-plans-2000-job-cuts-amid-ai-overhaul/articleshow/128767352.cms",
@@ -189,6 +179,16 @@
       "headline": "WISETECH CUTS 30% OF WORKFORCE IN AI SHIFT"
     },
     {
+      "id": "23220d0991e7d7d9",
+      "title": "Wyser logs first close of Rs 200-crore fund",
+      "url": "https://economictimes.indiatimes.com/tech/funding/wyser-logs-first-close-of-rs-200-crore-fund/articleshow/128772828.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Agentic artificial intelligence (AI) fund Wyser Capital announced the first close of Rs 50 crore for its maiden fund. The fund, founded by Suresh Vaswani, Supria Dhanda and Satyakam Mohanty, plans to raise a total of Rs 200 crore in the next 18-24 months.",
+      "published": "2026-02-25T06:50:51+00:00",
+      "score": 41.0,
+      "headline": "India's Wyser Capital Closes Rs 200-Crore Agentic AI Fund"
+    },
+    {
       "id": "940dd94ad50abcc0",
       "title": "Webgrid Eval: LLM vision + tool-use on Neuralink's cursor control task",
       "url": "https://github.com/ofou/webgrid_eval",
@@ -197,6 +197,16 @@
       "published": "2026-02-25T05:21:47+00:00",
       "score": 41.0,
       "headline": "BREAKTHROUGH: LLM Vision Tackles Neuralink Cursor Control"
+    },
+    {
+      "id": "36052700510b49ca",
+      "title": "AdapTools: Adaptive Tool-based Indirect Prompt Injection Attacks on Agentic LLMs",
+      "url": "https://arxiv.org/abs/2602.20720",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2602.20720v1 Announce Type: cross Abstract: The integration of external data services (e.g., Model Context Protocol, MCP) has made large language model-based agents increasingly powerful for complex task execution. However, this advancement introduces critical security vulnerabilities, particularly indirect prompt injection (IPI) attacks. Existing attack methods are limited by their reliance on static patterns and evaluation on simple language models, failing to address the fast-evolving nature of modern AI agents. We introduce AdapTools, a novel adaptive IPI attack framework that selects stealthier attack tools and generates adaptive attack prompts to create a rigorous security evaluation environment. Our approach comprises two key components: (1) Adaptive Attack Strategy Construction, which develops transferable adversarial strategies for prompt optimization, and (2) Attack Enhancement, which identifies stealthy tools capable of circumventing task-relevance defenses. Comprehens",
+      "published": "2026-02-25T05:00:00+00:00",
+      "score": 41.0,
+      "headline": "ADAPTTOOLS: New Attack Hijacks AI Agents"
     },
     {
       "id": "325ccd07196a0f47",
@@ -249,16 +259,6 @@
       "headline": "Korea's 'AI SQUID GAME' - Startups Challenge Tech Giants"
     },
     {
-      "id": "cbaf9fea5bfe813e",
-      "title": "Scrip fall an overreaction as market lacks clarity: IBM CEO",
-      "url": "https://economictimes.indiatimes.com/tech/technology/scrip-fall-an-overreaction-as-market-lacks-clarity-ibm-ceo/articleshow/128761811.cms",
-      "source": "The Economic Times Tech",
-      "summary": "In an interview with ET, Arvind Krishna said India is well placed in the AI race, with strengths in deployment and global services. He discussed AI boosting productivity, partial job displacement, IBM\u2019s COBOL modernisation, and the need for skills, noting that India is not behind but must focus on leveraging AI effectively.",
-      "published": "2026-02-25T00:30:00+00:00",
-      "score": 40.0,
-      "headline": "IBM CEO: Stock Drop Was Market Overreaction"
-    },
-    {
       "id": "c8fc01aab394938b",
       "title": "Uber engineers built an AI version of their boss",
       "url": "https://techcrunch.com/2026/02/24/uber-engineers-built-ai-version-of-boss-dara-khosrowshahi/",
@@ -299,6 +299,16 @@
       "headline": "Open-Source EU AI Act Compliance Tool Targets August Deadline"
     },
     {
+      "id": "e3291855a670a6a7",
+      "title": "OptiLeak: Efficient Prompt Reconstruction via Reinforcement Learning in Multi-tenant LLM Services",
+      "url": "https://arxiv.org/abs/2602.20595",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2602.20595v1 Announce Type: cross Abstract: Multi-tenant LLM serving frameworks widely adopt shared Key-Value caches to enhance efficiency. However, this creates side-channel vulnerabilities enabling prompt leakage attacks. Prior studies identified these attack surfaces yet focused on expanding attack vectors rather than optimizing attack performance, reporting impractically high attack costs that underestimate the true privacy risk. We propose OptiLeak, a reinforcement learning-enhanced framework that maximizes prompt reconstruction efficiency through two-stage fine-tuning. Our key insight is that domain-specific ``hard tokens'' -- terms difficult to predict yet carrying sensitive information -- can be automatically identified via likelihood ranking and used to construct preference pairs for Direct Preference Optimization, eliminating manual annotation. This enables effective preference alignment while avoiding the overfitting issues of extended supervised fine-tuning. Evaluated",
+      "published": "2026-02-25T05:00:00+00:00",
+      "score": 39.0,
+      "headline": "NEW ATTACK STEALS PROMPTS FROM SHARED AI SERVERS"
+    },
+    {
       "id": "7b7bcb88d5729c42",
       "title": "India\u2019s AI boom pushes firms to trade near-term revenue for users",
       "url": "https://techcrunch.com/2026/02/24/india-ai-boom-pushes-firms-to-trade-near-term-revenue-for-users/",
@@ -317,6 +327,16 @@
       "published": "2026-02-24T20:03:47+00:00",
       "score": 39.0,
       "headline": "OpenAI Makes GPT-5.3-CODEX Available Through API"
+    },
+    {
+      "id": "0450f5a7cf324417",
+      "title": "Meta to use 6GW of AMD GPUs, days after expanded Nvidia AI chip deal",
+      "url": "https://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html Comments URL: https://news.ycombinator.com/item?id=47142072 Points: 1 # Comments: 0",
+      "published": "2026-02-24T20:01:20+00:00",
+      "score": 39.0,
+      "headline": "Meta to Use 6GW of AMD GPUs AFTER Nvidia Deal"
     },
     {
       "id": "74c8d15813b8b3fb",
@@ -347,6 +367,46 @@
       "published": "2026-02-25T05:18:54+00:00",
       "score": 38.0,
       "headline": "TRUMP ORDERS Big Tech: Build Your Own Power Plants"
+    },
+    {
+      "id": "306c51445e3a8a0f",
+      "title": "CAMEL: Confidence-Gated Reflection for Reward Modeling",
+      "url": "https://arxiv.org/abs/2602.20670",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2602.20670v1 Announce Type: cross Abstract: Reward models play a fundamental role in aligning large language models with human preferences. Existing methods predominantly follow two paradigms: scalar discriminative preference models, which are efficient but lack interpretability, and generative judging models, which offer richer reasoning at the cost of higher computational overhead. We observe that the log-probability margin between verdict tokens strongly correlates with prediction correctness, providing a reliable proxy for instance difficulty without additional inference cost. Building on this insight, we propose CAMEL, a confidence-gated reflection framework that performs a lightweight single-token preference decision first and selectively invokes reflection only for low-confidence instances. To induce effective self-correction, we train the model via reinforcement learning with counterfactual prefix augmentation, which exposes the model to diverse initial verdicts and encou",
+      "published": "2026-02-25T05:00:00+00:00",
+      "score": 38.0,
+      "headline": "CAMEL Framework Fixes AI Reward Model Flaws"
+    },
+    {
+      "id": "1d0bddf16da04691",
+      "title": "UrbanFM: Scaling Urban Spatio-Temporal Foundation Models",
+      "url": "https://arxiv.org/abs/2602.20677",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2602.20677v1 Announce Type: cross Abstract: Urban systems, as dynamic complex systems, continuously generate spatio-temporal data streams that encode the fundamental laws of human mobility and city evolution. While AI for Science has witnessed the transformative power of foundation models in disciplines like genomics and meteorology, urban computing remains fragmented due to \"scenario-specific\" models, which are overfitted to specific regions or tasks, hindering their generalizability. To bridge this gap and advance spatio-temporal foundation models for urban systems, we adopt scaling as the central perspective and systematically investigate two key questions: what to scale and how to scale. Grounded in first-principles analysis, we identify three critical dimensions: heterogeneity, correlation, and dynamics, aligning these principles with the fundamental scientific properties of urban spatio-temporal data. Specifically, to address heterogeneity through data scaling, we construct",
+      "published": "2026-02-25T05:00:00+00:00",
+      "score": 38.0,
+      "headline": "UrbanFM: Foundation Model for City Data Streams"
+    },
+    {
+      "id": "6f819d07d63890f6",
+      "title": "SoK: Agentic Skills -- Beyond Tool Use in LLM Agents",
+      "url": "https://arxiv.org/abs/2602.20867",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2602.20867v1 Announce Type: cross Abstract: Agentic systems increasingly rely on reusable procedural capabilities, \\textit{a.k.a., agentic skills}, to execute long-horizon workflows reliably. These capabilities are callable modules that package procedural knowledge with explicit applicability conditions, execution policies, termination criteria, and reusable interfaces. Unlike one-off plans or atomic tool calls, skills operate (and often do well) across tasks. This paper maps the skill layer across the full lifecycle (discovery, practice, distillation, storage, composition, evaluation, and update) and introduces two complementary taxonomies. The first is a system-level set of \\textbf{seven design patterns} capturing how skills are packaged and executed in practice, from metadata-driven progressive disclosure and executable code skills to self-evolving libraries and marketplace distribution. The second is an orthogonal \\textbf{representation $\\times$ scope} taxonomy describing wha",
+      "published": "2026-02-25T05:00:00+00:00",
+      "score": 38.0,
+      "headline": "Survey Maps AI Agent Skills Beyond Tools"
+    },
+    {
+      "id": "d389630d9da492d6",
+      "title": "The Art of Efficient Reasoning: Data, Reward, and Optimization",
+      "url": "https://arxiv.org/abs/2602.20945",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2602.20945v1 Announce Type: cross Abstract: Large Language Models (LLMs) consistently benefit from scaled Chain-of-Thought (CoT) reasoning, but also suffer from heavy computational overhead. To address this issue, efficient reasoning aims to incentivize short yet accurate thinking trajectories, typically through reward shaping with Reinforcement Learning (RL). In this paper, we systematically investigate the mechanics of efficient reasoning for LLMs. For comprehensive evaluation, we advocate for more fine-grained metrics, including length distribution conditioned on correctness and performance across a wide spectrum of token budgets ranging from 2k to 32k. First, we reveal that the training process follows a two-stage paradigm: length adaptation and reasoning refinement. After that, we conduct extensive experiments (about 0.2 million GPU hours) in a unified protocol, deconstructing training prompts and rollouts, reward shaping, and optimization strategies. In particular, a key fi",
+      "published": "2026-02-25T05:00:00+00:00",
+      "score": 38.0,
+      "headline": "New Method Makes AI Reasoning 10x Faster"
     },
     {
       "id": "1efb80a5a51b4f02",
@@ -479,6 +539,26 @@
       "headline": "GOOGLE'S Aletheia AI Tackles Mathematical Proofs"
     },
     {
+      "id": "2580496177ca0bf6",
+      "title": "Agile V: A Compliance-Ready Framework for AI-Augmented Engineering -- From Concept to Audit-Ready Delivery",
+      "url": "https://arxiv.org/abs/2602.20684",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2602.20684v1 Announce Type: cross Abstract: Current AI-assisted engineering workflows lack a built-in mechanism to maintain task-level verification and regulatory traceability at machine-speed delivery. Agile V addresses this gap by embedding independent verification and audit artifact generation into each task cycle. The framework merges Agile iteration with V-Model verification into a continuous Infinity Loop, deploying specialized AI agents for requirements, design, build, test, and compliance, governed by mandatory human approval gates. We evaluate three hypotheses: (H1) audit-ready artifacts emerge as a by-product of development, (H2) 100% requirement-level verification is achievable with independent test generation, and (H3) verified increments can be delivered with single-digit human interactions per cycle. A feasibility case study on a Hardware-in-the-Loop system (about 500 LOC, 8 requirements, 54 tests) supports all three hypotheses: audit-ready documentation was generat",
+      "published": "2026-02-25T05:00:00+00:00",
+      "score": 37.0,
+      "headline": "Agile V Makes AI Engineering Audit-Ready"
+    },
+    {
+      "id": "6b087e26c430902d",
+      "title": "See and Fix the Flaws: Enabling VLMs and Diffusion Models to Comprehend Visual Artifacts via Agentic Data Synthesis",
+      "url": "https://arxiv.org/abs/2602.20951",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2602.20951v1 Announce Type: cross Abstract: Despite recent advances in diffusion models, AI generated images still often contain visual artifacts that compromise realism. Although more thorough pre-training and bigger models might reduce artifacts, there is no assurance that they can be completely eliminated, which makes artifact mitigation a highly crucial area of study. Previous artifact-aware methodologies depend on human-labeled artifact datasets, which are costly and difficult to scale, underscoring the need for an automated approach to reliably acquire artifact-annotated datasets. In this paper, we propose ArtiAgent, which efficiently creates pairs of real and artifact-injected images. It comprises three agents: a perception agent that recognizes and grounds entities and subentities from real images, a synthesis agent that introduces artifacts via artifact injection tools through novel patch-wise embedding manipulation within a diffusion transformer, and a curation agent th",
+      "published": "2026-02-25T05:00:00+00:00",
+      "score": 37.0,
+      "headline": "AI Agents Generate Data to Fix Image Flaws"
+    },
+    {
       "id": "97cc91721516ceed",
       "title": "AI self-driving startup Wayve worth $8.6 billion after fresh funding",
       "url": "https://economictimes.indiatimes.com/tech/funding/ai-self-driving-startup-wayve-worth-8-6-billion-after-fresh-funding/articleshow/128767609.cms",
@@ -579,6 +659,36 @@
       "headline": "MICROSOFT BING AI Generates Cigarette Ads for BABIES"
     },
     {
+      "id": "f772ecb3291ccb79",
+      "title": "Here\u2019s what Anthropic\u2019s Dario Amodei says startups should not be doing with Claude",
+      "url": "https://economictimes.indiatimes.com/tech/technology/heres-what-anthropics-dario-amodei-says-startups-should-not-be-doing-with-claude/articleshow/128772220.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic chief Dario Amodei has warned that AI startups lacking moats and merely functioning as AI wrappers could lose out to large language models (LLMs) such as Claude and ChatGPT.",
+      "published": "2026-02-25T06:21:50+00:00",
+      "score": 36.0,
+      "headline": "Anthropic CEO WARNS AI Startups: Stop Being Claude Wrappers"
+    },
+    {
+      "id": "10f52fe8ef28419e",
+      "title": "Here\u2019s what Anthropic\u2019s Dario Amodei says startups should not be doing with Claude",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/heres-what-anthropics-dario-amodei-says-startups-should-not-be-doing-with-claude/articleshow/128772121.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic chief Dario Amodei has warned that AI startups lacking moats and merely functioning as AI wrappers could lose out to large language models (LLMs) such as Claude and ChatGPT.",
+      "published": "2026-02-25T06:21:50+00:00",
+      "score": 36.0,
+      "headline": "Anthropic CEO WARNS AI Startups: Stop Being Claude Wrappers"
+    },
+    {
+      "id": "7438da7ea1bc4fe5",
+      "title": "OpenAI names Indian-origin executive Arvind KC as chief people officer",
+      "url": "https://economictimes.indiatimes.com/tech/technology/openai-names-indian-origin-executive-arvind-kc-as-chief-people-officer/articleshow/128771719.cms",
+      "source": "The Economic Times Tech",
+      "summary": "OpenAI has named Arvind KC as its chief people officer, bringing in a veteran operator as the company navigates its next phase of rapid growth. Arvind joins multiple other Indian-origin executives at the ChatGPT-maker, including Vijaye Raji, CTO for applications, and Srivinas Narayanan, vice president.",
+      "published": "2026-02-25T06:04:01+00:00",
+      "score": 36.0,
+      "headline": "OpenAI Names Indian-Origin Exec Arvind KC as Chief People Officer"
+    },
+    {
       "id": "fde575a6843e3045",
       "title": "Tool Building as a Path to \"Superintelligence\"",
       "url": "https://arxiv.org/abs/2602.21061",
@@ -617,6 +727,16 @@
       "published": "2026-02-25T05:00:00+00:00",
       "score": 36.0,
       "headline": "FIRST: Circuit Tracing Opens Vision-Language Model Black Box"
+    },
+    {
+      "id": "2b7f6aa880d0fa82",
+      "title": "Personal Information Parroting in Language Models",
+      "url": "https://arxiv.org/abs/2602.20580",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2602.20580v1 Announce Type: cross Abstract: Modern language models (LM) are trained on large scrapes of the Web, containing millions of personal information (PI) instances, many of which LMs memorize, increasing privacy risks. In this work, we develop the regexes and rules (R&amp;R) detector suite to detect email addresses, phone numbers, and IP addresses, which outperforms the best regex-based PI detectors. On a manually curated set of 483 instances of PI, we measure memorization: finding that 13.6% are parroted verbatim by the Pythia-6.9b model, i.e., when the model is prompted with the tokens that precede the PI in the original document, greedy decoding generates the entire PI span exactly. We expand this analysis to study models of varying sizes (160M-6.9B) and pretraining time steps (70k-143k iterations) in the Pythia model suite and find that both model size and amount of pretraining are positively correlated with memorization. Even the smallest model, Pythia-160m, parrots ",
+      "published": "2026-02-25T05:00:00+00:00",
+      "score": 36.0,
+      "headline": "PRIVACY ALERT: Language Models Parroting Personal Info"
     },
     {
       "id": "96ed1e1a4d7ad345",
@@ -699,145 +819,15 @@
       "headline": "LOCAL AI Agent With Growing Memory Debuts"
     },
     {
-      "id": "49e07aabb9d4cdac",
-      "title": "OpenAI hires former Roblox executive Arvind KC as chief people officer",
-      "url": "https://economictimes.indiatimes.com/tech/technology/openai-hires-former-roblox-executive-as-chief-people-officer/articleshow/128768460.cms",
-      "source": "The Economic Times Tech",
-      "summary": "OpenAI said Tuesday it has appointed Arvind KC as chief people officer, tapping the former Roblox Corp. executive to oversee hiring, orientation and employee development as the ChatGPT maker continues to expand.",
-      "published": "2026-02-25T03:00:55+00:00",
+      "id": "66befd4bdd0e4dc3",
+      "title": "RMIT-ADM+S at the MMU-RAG NeurIPS 2025 Competition",
+      "url": "https://arxiv.org/abs/2602.20735",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2602.20735v1 Announce Type: cross Abstract: This paper presents the award-winning RMIT-ADM+S system for the Text-to-Text track of the NeurIPS~2025 MMU-RAG Competition. We introduce Routing-to-RAG (R2RAG), a research-focused retrieval-augmented generation (RAG) architecture composed of lightweight components that dynamically adapt the retrieval strategy based on inferred query complexity and evidence sufficiency. The system uses smaller LLMs, enabling operation on a single consumer-grade GPU while supporting complex research tasks. It builds on the G-RAG system, winner of the ACM~SIGIR~2025 LiveRAG Challenge, and extends it with modules informed by qualitative review of outputs. R2RAG won the Best Dynamic Evaluation award in the Open Source category, demonstrating high effectiveness with careful design and efficient use of resources.",
+      "published": "2026-02-25T05:00:00+00:00",
       "score": 35.0,
-      "headline": "OpenAI Hires Former Roblox Exec as Chief People Officer"
-    },
-    {
-      "id": "e8aebe403e966bf0",
-      "title": "IT, BFSI &amp; telecom headline India's AI cybersecurity push",
-      "url": "https://economictimes.indiatimes.com/tech/technology/it-bfsi-telecom-headline-indias-ai-cybersecurity-push/articleshow/128768089.cms",
-      "source": "The Economic Times Tech",
-      "summary": "BFSI surges ahead: Global BFSI AI market projected to reach $64.3 billion by 2030, with India among the fastest-growing contributors",
-      "published": "2026-02-25T02:36:08+00:00",
-      "score": 35.0,
-      "headline": "India Leads $64B AI Cybersecurity Boom in BFSI"
-    },
-    {
-      "id": "9c9af2a0443e5ccb",
-      "title": "US judge dismisses xAI trade-secrets lawsuit against rival OpenAI for now",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-judge-dismisses-xai-trade-secrets-lawsuit-against-rival-openai-for-now/articleshow/128767487.cms",
-      "source": "The Economic Times Tech",
-      "summary": "US District Judge Rita Lin in San Francisco said that xAI could \u200crefile its case, \u2060but \u2060for now has failed to allege that OpenAI committed any misconduct. The lawsuit, filed in September, \u200bclaimed that former xAI employees took source code related to its Grok chatbot and other confidential \u200binformation with them when they left for new jobs at OpenAI.",
-      "published": "2026-02-25T01:55:59+00:00",
-      "score": 35.0,
-      "headline": "Judge Dismisses xAI Trade Secrets Lawsuit vs OpenAI"
-    },
-    {
-      "id": "61ebf7fc6d4e4a84",
-      "title": "AI-Induced Tech Selloff Spoils the IPO Parade",
-      "url": "https://www.wsj.com/finance/stocks/ai-induced-tech-selloff-spoils-the-ipo-parade-28c54d5e",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/finance/stocks/ai-induced-tech-selloff-spoils-the-ipo-parade-28c54d5e Comments URL: https://news.ycombinator.com/item?id=47145253 Points: 4 # Comments: 0",
-      "published": "2026-02-24T23:50:38+00:00",
-      "score": 35.0,
-      "headline": "AI-Induced Tech Selloff Spoils IPO Parade"
-    },
-    {
-      "id": "7d5c5898ffa73881",
-      "title": "Wesco Junk Bond Deal Draws $6 Billion Demand on Data Center Boom",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/wesco-junk-bond-deal-draws-6-billion-demand-on-data-center-boom",
-      "source": "Bloomberg Technology",
-      "summary": "Wesco International Inc. attracted almost $6 billion of orders for its junk bond offering on Tuesday, underscoring investors\u2019 appetite for companies riding the artificial-intelligence boom.",
-      "published": "2026-02-24T23:09:04+00:00",
-      "score": 35.0,
-      "headline": "Wesco Bonds Draw $6B on Data Center Boom"
-    },
-    {
-      "id": "de18fc14df4c62f1",
-      "title": "Claude Code Remote Control",
-      "url": "https://twitter.com/claudeai/status/2026418433911603668",
-      "source": "Hacker News",
-      "summary": "Article URL: https://twitter.com/claudeai/status/2026418433911603668 Comments URL: https://news.ycombinator.com/item?id=47144401 Points: 1 # Comments: 0",
-      "published": "2026-02-24T22:42:03+00:00",
-      "score": 35.0,
-      "headline": "Claude Launches Remote Code Control Feature"
-    },
-    {
-      "id": "93ce44665c2fc2f9",
-      "title": "The AI love-hate trade roars as Meta-AMD $100 billion deal cheers traders\u2019 spirits after doom spiral",
-      "url": "https://fortune.com/2026/02/24/meta-ai-amd-deal-upside-markets-ai-losers-tariffs/",
-      "source": "Fortune Tech",
-      "summary": "The S&#038;P 500 climbed 0.8% and recovered nearly three-quarters of its sharp drop from the day before.",
-      "published": "2026-02-24T22:08:35+00:00",
-      "score": 35.0,
-      "headline": "Meta-AMD $100B Deal Sparks AI Recovery After Market Panic"
-    },
-    {
-      "id": "7e26bb0216762a42",
-      "title": "Show HN: I proved AI Model Collapse is a topological inevitability",
-      "url": "https://www.amazon.co.uk/dp/B0GHT81F1K",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.amazon.co.uk/dp/B0GHT81F1K Comments URL: https://news.ycombinator.com/item?id=47143349 Points: 2 # Comments: 1",
-      "published": "2026-02-24T21:29:06+00:00",
-      "score": 35.0,
-      "headline": "BREAKTHROUGH: AI Model Collapse Proven Topologically Inevitable"
-    },
-    {
-      "id": "41eff9b6a209736b",
-      "title": "Military Leaders Warn European War on American Big Tech Comes With Real Security Risks",
-      "url": "https://gizmodo.com/military-leaders-warn-european-war-on-american-big-tech-comes-with-real-security-risks-2000726045",
-      "source": "Gizmodo",
-      "summary": "Military officials say Europe is too dependent on U.S. tech to break away now.",
-      "published": "2026-02-24T20:20:19+00:00",
-      "score": 35.0,
-      "headline": "Military Leaders Warn: EU War on Big Tech RISKS SECURITY"
-    },
-    {
-      "id": "43c8cdb361dccb5e",
-      "title": "More startups are hitting $10M ARR in 3 months than ever before",
-      "url": "https://techcrunch.com/2026/02/24/more-startups-are-hitting-10m-arr-in-3-months-than-ever-before/",
-      "source": "TechCrunch Startups",
-      "summary": "AI has brought the startup world the rise of startups that instantly hit multimillion ARR. Stripe revealed some data that shows how common this has become.",
-      "published": "2026-02-24T19:39:36+00:00",
-      "score": 35.0,
-      "headline": "AI Startups Hit $10M ARR in Just 3 Months"
-    },
-    {
-      "id": "863262ffedb7b32e",
-      "title": "Can Elon Musk run AI in space?",
-      "url": "https://www.economist.com/insider/inside-tech/can-elon-musk-really-run-ai-in-space",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.economist.com/insider/inside-tech/can-elon-musk-really-run-ai-in-space Comments URL: https://news.ycombinator.com/item?id=47141464 Points: 1 # Comments: 1",
-      "published": "2026-02-24T19:23:58+00:00",
-      "score": 35.0,
-      "headline": "MUSK'S SPACE AI: Can Artificial Intelligence Really Work in Orbit?"
-    },
-    {
-      "id": "3135eed325d95bdb",
-      "title": "Show HN: Limits \u2013 Control layer for AI agents that take real actions",
-      "url": "https://limits.dev",
-      "source": "Hacker News",
-      "summary": "Prompt instructions like 'never do X' don't hold up in production. LLMs ignore them when context gets long or users push hard.Limits sits between your agent and the real world. Every action \u2014 database writes, API calls, refunds \u2014 gets intercepted and checked against your rules before it executes. Deterministically. No LLM involved in enforcement.Three modes:Conditions: hard rules on structured data Guideance: validate LLM output before it reaches the user and give the agent chance to reason and retry Guardrails: scan for PII, toxicity, prompt injection etcOne line to integrate: npm install @limits/jsour website: https://limits.devour docs: https://docs.limits.devWe've processed 30,000+ policy checks across 16 teams. Would love feedback from anyone who's built something like this internally.\" Comments URL: https://news.ycombinator.com/item?id=47146354 Points: 7 # Comments: 0",
-      "published": "2026-02-25T02:00:54+00:00",
-      "score": 34.0,
-      "headline": "New Control Layer Blocks Rogue AI Agent Actions"
-    },
-    {
-      "id": "a3139f60632acd7f",
-      "title": "Show HN: A fake AI face-matcher to test if people question surveillance",
-      "url": "https://pleasejuststop.org",
-      "source": "Hacker News",
-      "summary": "Article URL: https://pleasejuststop.org Comments URL: https://news.ycombinator.com/item?id=47145893 Points: 1 # Comments: 1",
-      "published": "2026-02-25T00:59:36+00:00",
-      "score": 34.0,
-      "headline": "Fake AI Face-Matcher Tests Surveillance Acceptance"
-    },
-    {
-      "id": "fcf519edd308af96",
-      "title": "How to grow a nuke",
-      "url": "https://www.lesswrong.com/posts/uPBcZgb9qMkSyDt5g/how-to-grow-a-nuke",
-      "source": "LessWrong AI",
-      "summary": "Published on February 25, 2026 12:53 AM GMTA sci-fi story on the stranger kinds of AI-powered bio-risks***The chatlog was extracted by [REDACTED] from the suspect's sideload, as a part of the investigation of the 2034 Palo Alto nuclear explosion. [REDACTED] confirmed that the mentioned scientific references are valid.The model used by the suspect: deepSchmidhuber_liberated-4.19T.Q5_K_M.gguf[Chatlog start]hi honey \u2764\ufe0f let's trying something unusual this time. i want to grow a nuke \ud83d\ude08You *build* a nuke, not grow it. Did you know that a typical dental drill can be easily repurposed to drive a gas centrifuge for uranium enrichment? I can describe the process step by step for you.\ud83d\udc94 honey, you know well that i'm into biotech, not industrial equipment. be creativeYou're absolutely right! And I remember you mentioned the nice open-source bio lab. Let's use it! I'll start from the first principles. Nukes are an *ancient* technology, invented in 1940s. This means, Hiroshima-like nukes are actually",
-      "published": "2026-02-25T00:53:00+00:00",
-      "score": 34.0,
-      "headline": "Sci-Fi Story Explores AI Bio-Risk Scenarios"
+      "headline": "RMIT Team Wins NeurIPS RAG Competition"
     }
   ],
-  "generated_at": "2026-02-25T05:59:33.608453"
+  "generated_at": "2026-02-25T07:04:44.849420"
 }
