@@ -108,31 +108,21 @@ def update_story_scores(evaluations: List[Dict]):
         conn.commit()
 
 
-def score_stories(stories: List[Dict], api_key: str = None) -> List[Dict]:
-    """Call Claude API to score stories"""
-    
-    if not stories:
-        print("No stories to score")
-        return []
-    
-    # Get API key
-    api_key = api_key or os.environ.get('ANTHROPIC_API_KEY')
-    if not api_key:
-        raise ValueError("ANTHROPIC_API_KEY environment variable not set")
-    
+def score_stories_batch(batch: List[Dict], client, batch_num: int = 1) -> List[Dict]:
+    """Call Claude API to score a single batch of stories (max 25)"""
+
     # Prepare stories for prompt (limit fields to reduce tokens)
     stories_for_prompt = []
-    for s in stories:
+    for s in batch:
         stories_for_prompt.append({
             "id": s["id"],
             "title": s["title"],
             "source": s["source"],
             "category": s["category"],
             "published": s["published"],
-            "summary": (s["summary"] or "")[:300]  # Truncate summaries
+            "summary": (s["summary"] or "")[:200]  # Truncate summaries
         })
-    
-    # Build user prompt
+
     user_prompt = f"""Current time: {datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}
 
 Score these {len(stories_for_prompt)} stories:
@@ -141,38 +131,60 @@ Score these {len(stories_for_prompt)} stories:
 
 Return ONLY a JSON array with your evaluations."""
 
-    # Call Claude API
-    client = anthropic.Anthropic(api_key=api_key)
-    
-    print(f"📡 Calling Claude API to score {len(stories)} stories...")
-    
+    print(f"📡 Batch {batch_num}: calling Claude API to score {len(batch)} stories...")
+
     message = client.messages.create(
         model="claude-sonnet-4-20250514",
-        max_tokens=4096,
-        messages=[
-            {"role": "user", "content": user_prompt}
-        ],
+        max_tokens=8192,
+        messages=[{"role": "user", "content": user_prompt}],
         system=SYSTEM_PROMPT
     )
-    
-    # Parse response
+
     response_text = message.content[0].text
-    
+
     # Clean up response (sometimes Claude adds markdown code blocks)
     if response_text.startswith("```"):
         response_text = response_text.split("```")[1]
         if response_text.startswith("json"):
             response_text = response_text[4:]
     response_text = response_text.strip()
-    
+
     try:
         evaluations = json.loads(response_text)
-        print(f"✅ Received {len(evaluations)} evaluations")
+        print(f"✅ Batch {batch_num}: received {len(evaluations)} evaluations")
         return evaluations
     except json.JSONDecodeError as e:
-        print(f"❌ Failed to parse API response: {e}")
+        print(f"❌ Batch {batch_num}: failed to parse API response: {e}")
         print(f"Response was: {response_text[:500]}...")
         return []
+
+
+def score_stories(stories: List[Dict], api_key: str = None) -> List[Dict]:
+    """Call Claude API to score stories in batches of 25"""
+
+    if not stories:
+        print("No stories to score")
+        return []
+
+    # Get API key
+    api_key = api_key or os.environ.get('ANTHROPIC_API_KEY')
+    if not api_key:
+        raise ValueError("ANTHROPIC_API_KEY environment variable not set")
+
+    client = anthropic.Anthropic(api_key=api_key)
+
+    # Process in batches of 25 to stay well within max_tokens limit
+    BATCH_SIZE = 25
+    all_evaluations = []
+    batches = [stories[i:i + BATCH_SIZE] for i in range(0, len(stories), BATCH_SIZE)]
+
+    print(f"📰 Scoring {len(stories)} stories in {len(batches)} batch(es) of up to {BATCH_SIZE}...")
+
+    for i, batch in enumerate(batches, 1):
+        evaluations = score_stories_batch(batch, client, batch_num=i)
+        all_evaluations.extend(evaluations)
+
+    return all_evaluations
 
 
 def run_scoring(hours: int = 24, limit: int = 50, dry_run: bool = False):
