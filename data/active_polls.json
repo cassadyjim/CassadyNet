@@ -1,255 +1,135 @@
 {
   "polls": [
     {
-      "topic": "OpenAI School Shooter Controversy",
-      "description": "OpenAI faces scrutiny over its handling of a ChatGPT user who discussed violent plans months before carrying out a school shooting, raising questions about AI safety monitoring and reporting protocols.",
-      "question": "Should OpenAI have alerted police about the shooter's ChatGPT conversations?",
+      "topic": "Anthropic Military Pressure",
+      "description": "Major controversy as US military pressures Anthropic to drop AI safety measures for Claude, creating a standoff between Pentagon and leading AI safety company.",
+      "question": "Should Anthropic comply with Pentagon demands to drop Claude's safety measures?",
       "button_a": "Yes",
       "button_b": "No",
-      "poll_id": "openai-school-shooter-controversy-20260222",
-      "analysis_url": "/analysis/analysis-openai-school-shooter-controversy-20260225.html",
+      "poll_id": "anthropic-military-pressure-20260225",
+      "analysis_url": "/analysis/analysis-anthropic-military-pressure-20260225.html",
       "analysis_type": "poll",
-      "created_at": "2026-02-22T10:20:16.032089",
-      "last_seen": "2026-02-25T01:27:18.671648",
-      "current_topic_name": "OpenAI School Shooter Controversy",
+      "created_at": "2026-02-25T01:35:21.014336",
+      "last_seen": "2026-02-25T01:35:39.721760",
       "cluster_stories": [
         {
-          "id": "02f7e834710d3a20",
-          "title": "OpenAI flagged Canadian school shooter months before massacre but did not alert police",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3344192/openai-flagged-canadian-school-shooter-months-massacre-did-not-alert-police?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "ChatGPT-maker OpenAI said on Friday it considered last year alerting Canada\u2019s police about the activities of a person who months later committed one of the worst school shootings in the country\u2019s history. OpenAI said the company identified the account of Jesse Van Rootselaar last June via abuse detection efforts for \u201cfurtherance of violent activities\u201d. The San Francisco tech company said it considered whether to refer the account to the Royal Canadian Mounted Police but determined at the time...",
-          "published": "2026-02-21T02:51:08+00:00",
+          "id": "7977da78299f6b34",
+          "title": "US Military leaders meet with Anthropic to argue against Claude safeguards",
+          "url": "https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai Comments URL: https://news.ycombinator.com/item?id=47145551 Points: 5 # Comments: 0",
+          "published": "2026-02-25T00:20:50+00:00",
           "score": 45.0,
-          "headline": "OPENAI FLAGGED SCHOOL SHOOTER... DIDN'T ALERT POLICE"
+          "headline": "US MILITARY PRESSURES ANTHROPIC TO DROP CLAUDE SAFEGUARDS"
         },
         {
-          "id": "5d8f39d5ab044160",
-          "title": "OpenAI debated calling police about suspected Canadian shooter\u2019s chats",
-          "url": "https://techcrunch.com/2026/02/21/openai-debated-calling-police-about-suspected-canadian-shooters-chats/",
-          "source": "TechCrunch AI",
-          "summary": "Jesse Van Rootselaar's descriptions of gun violence were flagged by tools that monitor ChatGPT for misuse.",
-          "published": "2026-02-21T15:25:44+00:00",
-          "score": 42.0,
-          "headline": "OpenAI DEBATED Calling Police... Shooter's ChatGPT Chats"
-        },
-        {
-          "id": "b18d756481d3b53c",
-          "title": "Suspect in Tumbler Ridge school shooting described violent scenarios to ChatGPT",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/882814/tumbler-ridge-school-shooting-chatgpt",
-          "source": "The Verge AI",
-          "summary": "The suspect in the mass shooting at Tumbler Ridge, British Columbia, Jesse Van Rootselaar, was raising alarms among employees at OpenAI months before the shooting took place. This past June, Jesse had conversations with ChatGPT involving descriptions of gun violence that triggered the chatbot's automated review system. Several employees raised concerns that her posts could [&#8230;]",
-          "published": "2026-02-21T15:22:57+00:00",
-          "score": 41.0,
-          "headline": "SHOOTER Described Violence to ChatGPT... Months Before Attack"
-        },
-        {
-          "id": "a89f57bcc5385eec",
-          "title": "OpenAI considered alerting Canadian police about school shooting suspect",
-          "url": "https://www.theguardian.com/world/2026/feb/21/tumbler-ridge-shooter-chatgpt-openai",
+          "id": "60ba5b52ba8eeca0",
+          "title": "Anthropic Drops Flagship Safety Pledge",
+          "url": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
           "source": "Hacker News",
-          "summary": "Article URL: https://www.theguardian.com/world/2026/feb/21/tumbler-ridge-shooter-chatgpt-openai Comments URL: https://news.ycombinator.com/item?id=47097467 Points: 1 # Comments: 0",
-          "published": "2026-02-21T04:22:08+00:00",
-          "score": 41.0,
-          "headline": "OPENAI Considered Alerting Police About Shooter"
+          "summary": "Article URL: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/ Comments URL: https://news.ycombinator.com/item?id=47145963 Points: 3 # Comments: 0",
+          "published": "2026-02-25T01:08:46+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC DROPS Flagship Safety Pledge"
         },
         {
-          "id": "105f00e2be20bb89",
-          "title": "OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago",
-          "url": "https://www.wsj.com/us-news/law/openai-employees-raised-alarms-about-canada-shooting-suspect-months-ago-b585df62",
+          "id": "d603fcf344517712",
+          "title": "Pentagon Gives Anthropic an Ultimatum",
+          "url": "https://www.nytimes.com/2026/02/24/us/politics/pentagon-anthropic.html",
           "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/us-news/law/openai-employees-raised-alarms-about-canada-shooting-suspect-months-ago-b585df62 Comments URL: https://news.ycombinator.com/item?id=47097091 Points: 9 # Comments: 2",
-          "published": "2026-02-21T03:09:04+00:00",
-          "score": 41.0,
-          "headline": "OPENAI Staff Flagged Canada Shooter Months Early"
+          "summary": "Article URL: https://www.nytimes.com/2026/02/24/us/politics/pentagon-anthropic.html Comments URL: https://news.ycombinator.com/item?id=47145523 Points: 3 # Comments: 1",
+          "published": "2026-02-25T00:18:31+00:00",
+          "score": 44.0,
+          "headline": "PENTAGON GIVES ANTHROPIC AN ULTIMATUM"
         },
         {
-          "id": "08f1b9142546bdc1",
-          "title": "OpenAI had banned account of Tumbler Ridge, B.C., shooter; reached out to RCMP",
-          "url": "https://www.cbc.ca/lite/story/9.7100497",
+          "id": "d0c184266cd49c3d",
+          "title": "Hegseth threatens to blacklist Anthropic over 'woke AI' concerns",
+          "url": "https://www.npr.org/2026/02/24/nx-s1-5725327/pentagon-anthropic-hegseth-safety",
           "source": "Hacker News",
-          "summary": "Article URL: https://www.cbc.ca/lite/story/9.7100497 Comments URL: https://news.ycombinator.com/item?id=47096983 Points: 1 # Comments: 0",
-          "published": "2026-02-21T02:47:32+00:00",
+          "summary": "Article URL: https://www.npr.org/2026/02/24/nx-s1-5725327/pentagon-anthropic-hegseth-safety Comments URL: https://news.ycombinator.com/item?id=47144811 Points: 1 # Comments: 0",
+          "published": "2026-02-24T23:12:54+00:00",
           "score": 41.0,
-          "headline": "OPENAI Had Banned School Shooter Account... Contacted RCMP"
+          "headline": "PENTAGON CHIEF THREATENS ANTHROPIC BLACKLIST"
         },
         {
-          "id": "e998fce76e89875d",
-          "title": "Tumbler Ridge suspect's ChatGPT account banned before shooting",
-          "url": "https://www.bbc.com/news/articles/cn4gq352w89o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "OpenAI said the account's activity did not meet the threshold to flag it to authorities when it was identified.",
-          "published": "2026-02-21T07:30:32+00:00",
+          "id": "73171b207d3e7f8f",
+          "title": "Following: Anthropic vs. the Pentagon",
+          "url": "https://www.platformer.news/anthropic-pentagon-global-intelligence-crisis/",
+          "source": "Platformer",
+          "summary": "PLUS: The Substack post that tanked the markets, continued",
+          "published": "2026-02-25T01:15:46+00:00",
           "score": 40.0,
-          "headline": "CHATGPT ACCOUNT BANNED BEFORE TUMBLER RIDGE SHOOTING"
-        },
-        {
-          "id": "6c4ae014acb28d87",
-          "title": "ChatGPT-maker OpenAI considered alerting Canadian police about school shooting suspect months ago",
-          "url": "https://economictimes.indiatimes.com/tech/technology/chatgpt-maker-openai-considered-alerting-canadian-police-about-school-shooting-suspect-months-ago/articleshow/128630655.cms",
-          "source": "The Economic Times Tech",
-          "summary": "ChatGPT-maker OpenAI said Friday it considered last year alerting Canadian police about the activities of a person who months later committed one of the worst school shootings in the country's history.",
-          "published": "2026-02-21T02:13:33+00:00",
-          "score": 40.0,
-          "headline": "OPENAI Considered Warning Police About Future Shooter"
+          "headline": "ANTHROPIC vs PENTAGON Battle Escalates"
         }
-      ]
+      ],
+      "current_topic_name": "Anthropic Military Pressure"
     },
     {
-      "topic": "India AI Investment Race",
-      "description": "Major Indian conglomerates and global tech giants are making massive AI investments to establish India as a global AI powerhouse.",
-      "question": "Will India's massive AI investments succeed in creating a global tech superpower?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "india-ai-investment-race-20260221",
-      "analysis_url": "/analysis/analysis-india-ai-development-20260225.html",
+      "topic": "AI Startup Funding Surge",
+      "description": "Massive wave of AI startup funding with billions raised across autonomous vehicles, chip companies, and AI infrastructure as investors bet on next-gen AI capabilities.",
+      "question": "Is the AI startup funding surge sustainable or heading for a crash?",
+      "button_a": "Sustainable",
+      "button_b": "Crash",
+      "poll_id": "ai-startup-funding-surge-20260225",
+      "analysis_url": "/analysis/analysis-ai-startup-funding-surge-20260225.html",
       "analysis_type": "poll",
-      "created_at": "2026-02-21T00:01:37.351702",
-      "last_seen": "2026-02-25T01:27:19.924961",
-      "current_topic_name": "India AI Development",
+      "created_at": "2026-02-25T01:35:35.518875",
+      "last_seen": "2026-02-25T01:35:43.879121",
       "cluster_stories": [
         {
-          "id": "97b504d19a217dd5",
-          "title": "UAE\u2019s G42 teams up with Cerebras to deploy 8 exaflops of compute in India",
-          "url": "https://techcrunch.com/2026/02/20/uaes-g42-teams-up-with-cerebras-to-deploy-8-exaflops-of-compute-in-india/",
+          "id": "ab81122913151965",
+          "title": "UK AI start-up Wayve raises $1.2bn from carmakers and Big Tech",
+          "url": "https://www.ft.com/content/181aee87-4815-4a0e-805f-c1d04f0c2f36",
+          "source": "Financial Times Tech",
+          "summary": "Self-driving group valued at $8.6bn as it gears up to launch robotaxi service in London this year",
+          "published": "2026-02-25T00:01:01+00:00",
+          "score": 42.0,
+          "headline": "UK AI Startup Wayve Raises $1.2B from Carmakers"
+        },
+        {
+          "id": "bf3239f9a9f2109d",
+          "title": "Nvidia challenger AI chip startup MatX raised $500M",
+          "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
           "source": "TechCrunch AI",
-          "summary": "Abu Dhabi-based tech company G42 has partnered with U.S.-based chipmaker Cerebras to deploy eight exaflops of compute through a new system in India",
-          "published": "2026-02-20T11:58:15+00:00",
-          "score": 49.0,
-          "headline": "UAE's G42 Deploys 8 EXAFLOPS AI Compute in India"
+          "summary": "The startup was founded by former Google TPU engineers in 2023.",
+          "published": "2026-02-25T00:45:47+00:00",
+          "score": 41.0,
+          "headline": "NVIDIA Rival MatX Raises $500M Mega-Round"
         },
         {
-          "id": "cffa5ca80345c252",
-          "title": "India\u2013Europe push joint AI ecosystem to cut US, China dependence",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/indiaeurope-push-joint-ai-ecosystem-to-cut-us-china-dependence/articleshow/128567610.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Europe and India are aligning to build a sovereign and sustainable AI stack that reduces reliance on US and Chinese technology, with deeper collaboration across infrastructure, chips, software and manufacturing, Emmanuel Le Roux, head and CEO of France-based advanced computing firm Bull, told ET.",
-          "published": "2026-02-20T00:30:00+00:00",
-          "score": 46.0,
-          "headline": "INDIA-EUROPE ALLIANCE Targets US-China AI Dominance"
+          "id": "62b67024540a4bef",
+          "title": "Vuno continues 'aggressive' global expansion with $7M investment and more briefs",
+          "url": "https://www.mobihealthnews.com/news/asia/vuno-continues-aggressive-global-expansion-7m-investment-and-more-briefs",
+          "source": "MobiHealthNews",
+          "summary": "Vuno bags $7M investment for 'aggressive' global expansionSouth Korean medical AI company Vuno has recently secured 10 billion won ($6.9 million) in strategic investment for its continuing global expansion.In a statement, it said the proceeds from the \"Compass Pathway NXVP New Technology Investment Fund No. 1\" will be issued as perpetual convertible bonds and used for its operating capital.",
+          "published": "2026-02-24T22:50:37+00:00",
+          "score": 40.0,
+          "headline": "Korean AI Medtech Vuno Raises $7M for Global Push"
         },
         {
-          "id": "721a0ff2eafd5da0",
-          "title": "Joint Statement on the U.S.-India AI Opportunity Partnership",
-          "url": "https://www.state.gov/releases/under-secretary-for-economic-affairs/2026/02/joint-statement-on-the-u-s-india-ai-opportunity-partnership/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.state.gov/releases/under-secretary-for-economic-affairs/2026/02/joint-statement-on-the-u-s-india-ai-opportunity-partnership/ Comments URL: https://news.ycombinator.com/item?id=47103750 Points: 1 # Comments: 1",
-          "published": "2026-02-21T19:18:27+00:00",
-          "score": 45.0,
-          "headline": "US-INDIA AI PARTNERSHIP... OFFICIAL STATEMENT"
-        },
-        {
-          "id": "006f4ae42e443320",
-          "title": "What is Sarvam AI\u2019s Indus: India\u2019s answer to ChatGPT, Gemini-like chatbots?",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/what-is-sarvam-ais-indus-indias-answer-to-chatgpt-gemini-like-chatbots/articleshow/128648970.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Indian AI startup Sarvam.AI has launched Indus, a new chat interface. This chatbot is built on Sarvam's own 105 billion sovereign model. Indus is positioned as a competitor to global AI giants like OpenAI's ChatGPT and Google's Gemini. The company is currently focused on accuracy and usefulness for the Indian context.",
-          "published": "2026-02-21T15:30:29+00:00",
-          "score": 43.0,
-          "headline": "INDIA LAUNCHES ChatGPT Rival... 105B Parameter Indus Model"
-        },
-        {
-          "id": "07972bfbff267005",
-          "title": "Modi\u2019s Chaotic AI Summit Showed India\u2019s Clout and Constraints",
-          "url": "https://www.bloomberg.com/news/articles/2026-02-20/modi-s-chaotic-ai-summit-showed-india-s-clout-and-constraints",
-          "source": "Bloomberg Technology",
-          "summary": "Prime Minister Narendra Modi made his pitch this week that India can play a leading role in the artificial intelligence boom with a conference featuring tech stars from around the world. It suffered more than a few hitches.",
-          "published": "2026-02-20T11:37:59+00:00",
-          "score": 43.0,
-          "headline": "Modi's CHAOTIC AI Summit Shows India's Constraints"
-        },
-        {
-          "id": "bfdca32ef8fbc892",
-          "title": "India's Sarvam 105B LLM tops OCR benchmarks",
-          "url": "https://timesofindia.indiatimes.com/technology/tech-news/explained-what-is-indias-sarvam-ai-model-that-google-ceo-sundar-pichai-is-quite-impressed-with/articleshow/128540072.cms",
-          "source": "Hacker News",
-          "summary": "Article URL: https://timesofindia.indiatimes.com/technology/tech-news/explained-what-is-indias-sarvam-ai-model-that-google-ceo-sundar-pichai-is-quite-impressed-with/articleshow/128540072.cms Comments URL: https://news.ycombinator.com/item?id=47096386 Points: 2 # Comments: 0",
-          "published": "2026-02-21T01:17:19+00:00",
-          "score": 42.0,
-          "headline": "INDIA's Sarvam 105B LLM Dominates OCR Benchmarks"
-        },
-        {
-          "id": "93ece4d595ca0ca8",
-          "title": "India\u2019s Sarvam launches Indus AI chat app as competition heats up",
-          "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
-          "source": "TechCrunch AI",
-          "summary": "Sarvam's Indus chat app is currently available in beta.",
-          "published": "2026-02-21T01:00:00+00:00",
-          "score": 42.0,
-          "headline": "INDIA's Sarvam Launches Indus AI Chat App Beta"
-        },
-        {
-          "id": "8bf2959456e14817",
-          "title": "Dell unveils 'AI India Blueprint' to scale sovereign, trusted AI nationwide",
-          "url": "https://economictimes.indiatimes.com/tech/technology/dell-unveils-ai-india-blueprint-to-scale-sovereign-trusted-ai-nationwide/articleshow/128606348.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The blueprint, titled Advancing India's AI Future: A Blueprint for Trusted, Secure and Nationwide Success, proposes a structured approach to move India's AI ecosystem from pilot projects to population-scale deployment, positioning AI as a shared national capability rather than isolated technology initiatives.",
-          "published": "2026-02-20T11:43:38+00:00",
-          "score": 42.0,
-          "headline": "Dell Unveils 'AI India Blueprint' for National Scale"
-        },
-        {
-          "id": "abe25c7a55028257",
-          "title": "India\u2019s top telco tackles AI with $110 billion build plan and proven fast market dominance playbook",
-          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/20/jio_ai_plans_india_summit/",
+          "id": "35332ea942e96517",
+          "title": "It's only Tuesday and AI chip startups have already soaked up $1.1B in funding",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/25/ai_chips_vc_funding_1point1billion/",
           "source": "The Register AI/ML",
-          "summary": "Reliance Jio used super-cheap plans and own-brand phones to conquer India\u2019s top telco, Reliance Jio, has announced plans to spend $110 billion on datacenters to run AI workloads and says it will use them to deliver services with the same \u201cextreme affordability\u201d it brought to the mobile communications market.\u2026",
-          "published": "2026-02-20T03:11:08+00:00",
-          "score": 41.0,
-          "headline": "India's Jio Plans $110B AI Datacenter Build"
+          "summary": "Fears of an AI bubble haven't tempered vulture capitalists' enthusiasm for silicon AI chip startups collectively walked away with more than a billion dollars of new capital on Tuesday, showing that venture capitalists are still excited about the opportunity to challenge Nvidia's dominance despite all the talk of an AI bubble.\u2026",
+          "published": "2026-02-25T00:08:56+00:00",
+          "score": 39.0,
+          "headline": "AI CHIP STARTUPS RAISE $1.1B IN SINGLE DAY"
         },
         {
-          "id": "455bac5f0d64eee0",
-          "title": "Nvidia deepens early-stage push into India\u2019s AI startup ecosystem",
-          "url": "https://techcrunch.com/2026/02/19/nvidia-deepens-early-stage-push-into-indias-ai-startup-ecosystem/",
-          "source": "TechCrunch AI",
-          "summary": "Nvidia is working with investors, nonprofits, and venture firms to build earlier ties with India's fast-growing AI founder ecosystem.",
-          "published": "2026-02-20T00:30:00+00:00",
-          "score": 41.0,
-          "headline": "NVIDIA DEEPENS PUSH Into India's AI Startup Scene"
-        },
-        {
-          "id": "7e72cac1d335bfe1",
-          "title": "Delhi declaration urges democratic AI for social good",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/delhi-declaration-urges-democratic-ai-for-social-good/articleshow/128675192.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The 86 signatories included the European Union as well the US and the UK, two key nations that had opted out of a global pact on AI at the previous year's summit in Paris. Other major participants include China, Germany, Japan, France, Italy, Russia and Canada. All the shared priorities mentioned in the declaration are voluntary and represent non-binding guidelines and principles.",
-          "published": "2026-02-22T11:41:04+00:00",
-          "score": 40.0,
-          "headline": "Delhi Declaration: 86 Nations Back Democratic AI"
-        },
-        {
-          "id": "aa1b0253f18eaaac",
-          "title": "AI hit: India hungry to harness US tech giants\u2019 technology at Delhi summit",
-          "url": "https://www.theguardian.com/world/2026/feb/20/india-delhi-summit-ai-technology-us-economic-growth",
-          "source": "The Guardian Tech",
-          "summary": "Narendra Modi\u2019s thirst to supercharge economic growth is matched by US desire to inject AI into world\u2019s biggest democracyIndia celebrates 80 years of independence from the UK in August 2027. At about that same moment, \u201cearly versions of true super intelligence\u201d could emerge, said Sam Altman, the co-founder of OpenAI, this week.It\u2019s a looming coincidence that raised a charged question at the AI Impact summit in Delhi, hosted by India\u2019s prime minister, Narendra Modi: can India avoid returning to the status of a vassal state when it imports AI to raise the prospects of its 1.4 billion people? Continue reading...",
-          "published": "2026-02-20T17:25:08+00:00",
-          "score": 40.0,
-          "headline": "INDIA COURTS US TECH GIANTS at Delhi AI Summit"
-        },
-        {
-          "id": "30d4759425f1d25a",
-          "title": "India chases 'DeepSeek moment' with homegrown AI models",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-chases-deepseek-moment-with-homegrown-ai-models/articleshow/128589145.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Fledgling Indian artificial intelligence companies showcased homegrown technologies this week at a major summit in New Delhi, underpinning big dreams of becoming a global AI power. Another Indian company that drew attention with product debuts this week include the Bengaluru-based Gnani.ai, which introduced its Vachana speech models at the summit.",
-          "published": "2026-02-20T03:30:39+00:00",
-          "score": 40.0,
-          "headline": "India Chases 'DeepSeek Moment' With Homegrown AI Models"
-        },
-        {
-          "id": "791724b5f1551ec1",
-          "title": "Aakrit Vaish\u2019s fund Activate ties up with Nvidia to back AI startups",
-          "url": "https://economictimes.indiatimes.com/tech/funding/aakrit-vaishs-fund-activate-ties-up-with-nvidia-to-back-ai-startups/articleshow/128570254.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Haptik cofounder Aakrit Vaish\u2019s early-stage venture firm Activate has announced a multi-year collaboration with Nvidia to support AI startups in India, with a focus on founders at the idea and pre-company stage.",
-          "published": "2026-02-20T00:30:00+00:00",
-          "score": 40.0,
-          "headline": "Haptik Founder's Fund Partners with Nvidia for AI Startups"
+          "id": "8853894cebd8e198",
+          "title": "Self-Driving Startup Wayve Raises $1.5 Billion for Robotaxi Wars",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-25/self-driving-startup-wayve-raises-1-5-billion-for-robotaxi-wars",
+          "source": "Bloomberg Technology",
+          "summary": "Wayve, the UK autonomous driving software startup, has raised $1.5 billion in funding at an $8.6 billion valuation as it prepares to go up against Chinese and US rivals to roll out self-driving taxis.",
+          "published": "2026-02-25T00:01:00+00:00",
+          "score": 37.0,
+          "headline": "Self-Driving Wayve Raises $1.5B for Robotaxi Wars"
         }
-      ]
+      ],
+      "current_topic_name": "AI Startup Funding Surge"
     }
   ],
-  "last_updated": "2026-02-25T01:27:19.924975"
+  "last_updated": "2026-02-25T01:35:44.872925"
 }
