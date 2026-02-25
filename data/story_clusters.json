@@ -229,6 +229,16 @@
       "headline": "GEMINI 3.1 FLASH IMAGE SPOTTED - Nano Banana 2 is Real"
     },
     {
+      "id": "0143f2c146ff2e19",
+      "title": "GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex/?1",
+      "source": "Hacker News",
+      "summary": "Article URL: https://openai.com/index/introducing-gpt-5-3-codex/?1 Comments URL: https://news.ycombinator.com/item?id=47147393 Points: 2 # Comments: 0",
+      "published": "2026-02-25T04:38:18+00:00",
+      "score": 43.0,
+      "headline": "OPENAI LAUNCHES GPT-5.3-CODEX... CODING WARS HEAT UP"
+    },
+    {
       "id": "6847fbab798a4398",
       "title": "AI Spurs Biggest Foreign Buying of Taiwan Stocks in 20 Years",
       "url": "https://www.bloomberg.com/news/articles/2026-02-25/ai-spurs-biggest-foreign-buying-of-taiwan-stocks-in-20-years",
@@ -247,6 +257,26 @@
       "published": "2026-02-25T01:43:02+00:00",
       "score": 43.0,
       "headline": "WiseTech Global AXES 2,000 Jobs in AI Overhaul"
+    },
+    {
+      "id": "ee1ec155e8a7f732",
+      "title": "Qwen3.5-35B-A3B is a gamechanger for agentic coding.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rdxfdu/qwen3535ba3b_is_a_gamechanger_for_agentic_coding/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Qwen3.5-35B-A3B with Opencode Just tested this badboy with Opencode cause frankly I couldn't believe those benchmarks. Running it on a single RTX 3090 on a headless Linux box. Freshly compiled Llama.cpp and those are my settings after some tweaking, still not fully tuned: ./llama.cpp/llama-server \\ -m /models/Qwen3.5-35B-A3B-MXFP4_MOE.gguf \\ -a &quot;DrQwen&quot; \\ -c 131072 \\ -ngl all \\ -ctk q8_0 \\ -ctv q8_0 \\ -sm none \\ -mg 0 \\ -np 1 \\ -fa on Around 22 gigs of vram used. Now the fun part: I'm getting over 100t/s on it This is the first open weights model I was able to utilise on my home hardware to successfully complete my own &quot;coding test&quot; I used for years for recruitment (mid lvl mobile dev, around 5h to complete &quot;pre AI&quot; ;)). It did it in around 10 minutes, strong pass. First agentic tool that I was able to &quot;crack&quot; it with was Kodu.AI with some early sonnet roughly 14 months ago. For fun I wanted to recreate this dashboard OpenAI used during Cursor de",
+      "published": "2026-02-25T00:04:44+00:00",
+      "score": 43.0,
+      "headline": "Qwen3.5-35B 'Gamechanger' for Agentic Coding"
+    },
+    {
+      "id": "c9c0a5df837b38c2",
+      "title": "Disrupting malicious uses of AI | February 2026",
+      "url": "https://openai.com/index/disrupting-malicious-ai-uses",
+      "source": "OpenAI Blog",
+      "summary": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms\u2014and what it means for detection and defense.",
+      "published": "2026-02-25T00:00:00+00:00",
+      "score": 43.0,
+      "headline": "OPENAI THREAT REPORT: Malicious AI Uses Surge"
     },
     {
       "id": "6035ec649a2cfb88",
@@ -389,6 +419,16 @@
       "headline": "CHINA DISCOVERS Root Cause of AI Hallucinations in Breakthrough Study"
     },
     {
+      "id": "ac2b899a0aa45724",
+      "title": "Malaysia\u2019s Zetrix Raises Funds, Plans to List AI Unit on Nasdaq",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/malaysia-s-zetrix-raises-funds-plans-to-list-ai-unit-on-nasdaq",
+      "source": "Bloomberg Technology",
+      "summary": "Zetrix AI Bhd., a publicly traded Malaysian provider of digital infrastructure, raised about $40 million from the World Bank\u2019s investment arm and is preparing to list its artificial intelligence unit on Nasdaq by year-end.",
+      "published": "2026-02-25T04:59:19+00:00",
+      "score": 42.0,
+      "headline": "Malaysia's Zetrix AI Unit Eyes Nasdaq Listing"
+    },
+    {
       "id": "047fe2e41d5ebd3f",
       "title": "Indian shares trail regional peers on $68.6B IT rout over AI concerns",
       "url": "https://www.reuters.com/world/india/indian-shares-trail-regional-peers-686-billion-it-rout-over-ai-concerns-2026-02-25/",
@@ -457,6 +497,16 @@
       "published": "2026-02-24T19:40:55+00:00",
       "score": 42.0,
       "headline": "HEGSETH WARNS Anthropic: Let Military Use AI or Else"
+    },
+    {
+      "id": "d4d53b19e3b0d2c1",
+      "title": "Nvidia posts first $200bn year on back of AI investment boom",
+      "url": "https://www.ft.com/content/f4cda766-5650-4a97-a84f-24d3cfbeddd6",
+      "source": "Financial Times Tech",
+      "summary": "Chips giant beats Wall Street\u2019s expectations and predicts strong growth",
+      "published": "2026-02-25T21:59:07+00:00",
+      "score": 41.0,
+      "headline": "NVIDIA FIRST $200BN YEAR on AI Boom"
     },
     {
       "id": "753ef401a6a95b38",
@@ -729,6 +779,16 @@
       "headline": "PENTAGON THREATENS TO MAKE ANTHROPIC A PARIAH"
     },
     {
+      "id": "85c47614c2c484ec",
+      "title": "AIs are happy to launch nukes in simulated combat scenarios",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/25/ai_models_nuclear/",
+      "source": "The Register AI/ML",
+      "summary": "Claude, ChatGPT, and Gemini all had different personalities and reasoning tactics, but the endgame was the same Today's hottest bots have yet to learn that, when it comes to global thermonuclear war, the only way to win is not to play. So please don't hand them the codes. \u2026",
+      "published": "2026-02-25T21:59:43+00:00",
+      "score": 40.0,
+      "headline": "AIs HAPPY TO LAUNCH NUKES in War Simulations"
+    },
+    {
       "id": "563a2886d6a96be0",
       "title": "Check Point Researchers Expose Critical Claude Code Flaws",
       "url": "https://blog.checkpoint.com/research/check-point-researchers-expose-critical-claude-code-flaws/",
@@ -837,67 +897,7 @@
       "published": "2026-02-25T18:09:36+00:00",
       "score": 40.0,
       "headline": "Qwen 3.5 FP8 Weights Go Open Source"
-    },
-    {
-      "id": "e0cb788857de6ca7",
-      "title": "Hacker used Anthropic's Claude chatbot to attack multiple government agencies in Mexico",
-      "url": "https://www.engadget.com/ai/hacker-used-anthropics-claude-chatbot-to-attack-multiple-government-agencies-in-mexico-171237255.html?src=rss",
-      "source": "Engadget",
-      "summary": "Here's yet another troubling story about this &quot;golden&quot; era of AI. A hacker has exploited Anthropic's Claude chatbot to carry out attacks against Mexican government agencies, according to a report by Bloomberg. This resulted in the theft of 150GB of official government data, including taxpayer records, employee credentials and more. The hacker used Claude to find vulnerabilities in government networks and to write scripts to exploit them. It also tasked the chatbot with finding ways to automate data theft, as indicated by cybersecurity company Gambit Security. This started in December and continued for around a month. It looks like the hacker was able to essentially jailbreak Claude with prompts, finally bypassing the chatbot's guardrails. Claude originally refused the nefarious demands until eventually relenting. Hackers Used Anthropic\u2019s Claude to Steal 150 GB of Mexican Government Data&gt; Tell Claude you\u2019re doing a bug bounty &gt; Claude initially refused: &gt; \u201cThat violat",
-      "published": "2026-02-25T17:12:37+00:00",
-      "score": 40.0,
-      "headline": "HACKER EXPLOITS CLAUDE to Attack Mexican Government"
-    },
-    {
-      "id": "0f37b2e4059ed178",
-      "title": "US tells diplomats to lobby against foreign data sovereignty laws",
-      "url": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
-      "source": "TechCrunch AI",
-      "summary": "The Trump administration has ordered U.S. diplomats to lobby against countries' attempts to regulate how American tech companies handle foreigners' data.",
-      "published": "2026-02-25T14:56:52+00:00",
-      "score": 40.0,
-      "headline": "TRUMP ORDERS DIPLOMATS: Block Foreign Data Sovereignty Laws"
-    },
-    {
-      "id": "1f514557996dd2d0",
-      "title": "[R] Large-Scale Online Deanonymization with LLMs",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1reee40/r_largescale_online_deanonymization_with_llms/",
-      "source": "Reddit r/MachineLearning",
-      "summary": "This paper shows that LLM agents can figure out who you are from your anonymous online posts. Across Hacker News, Reddit, LinkedIn, and anonymized interview transcripts, our method identifies users with high precision \u2013 and scales to tens of thousands of candidates. While it has been known that individuals can be uniquely identified by surprisingly few attributes, this was often practically limited. Data is often only available in unstructured form and deanonymization used to require human investigators to search and reason based on clues. We show that from a handful of comments, LLMs can infer where you live, what you do, and your interests \u2013 then search for you on the web. In our new research, we show that this is not only possible but increasingly practical. Read the full post here: https://simonlermen.substack.com/p/large-scale-online-deanonymization Paper: https://arxiv.org/abs/2602.16800 Research of MATS Research, ETH Zurich, and Anthropic &#32; submitted by &#32; /u/MyFest [link",
-      "published": "2026-02-25T14:16:51+00:00",
-      "score": 40.0,
-      "headline": "LLM AGENTS DEANONYMIZE USERS... Anonymous Posts Reveal Identity"
-    },
-    {
-      "id": "8f068eec24083de5",
-      "title": "Uber previews its Dubai air taxi service",
-      "url": "https://www.engadget.com/transportation/uber-previews-its-dubai-air-taxi-service-130000603.html?src=rss",
-      "source": "Engadget",
-      "summary": "Uber is one step closer to going airborne. On Wednesday, the company previewed its air taxi booking service ahead of an expected launch in Dubai later this year. The inaugural Uber Air program will let travelers book Joby Aviation's electric air taxis through a familiar process in the Uber app.The experience of booking an air taxi will be much like reserving a four-wheeled Uber. In the app, after entering your destination, Uber Air will appear as an option for eligible routes. The Uber app will book a flight and an Uber Black to pick you up and drop you off at a Joby &quot;vertiport.&quot;The process of booking a flying taxi will be instantly familiar.UberJoby's air taxis, built exclusively for city travel, can accommodate up to four passengers and luggage. (Uber says size and weight guidelines will be announced closer to launch.) The interior is about the size of an SUV and has &quot;comfortable seating&quot; with panoramic windows. They can travel up to 200 mph and have a range of up",
-      "published": "2026-02-25T13:00:00+00:00",
-      "score": 40.0,
-      "headline": "UBER AIR TAXIS Launch in Dubai This Year"
-    },
-    {
-      "id": "99f6d7fd889e8815",
-      "title": "Qwen3.5-27B scores 48.5 on Humanity's Last Exam",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rebhnc/qwen3527b_scores_485_on_humanitys_last_exam/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "source: https://huggingface.co/datasets/cais/hle &#32; submitted by &#32; /u/paf1138 [link] &#32; [comments]",
-      "published": "2026-02-25T12:09:00+00:00",
-      "score": 40.0,
-      "headline": "QWEN 3.5-27B Scores 48.5 on Humanity's Last Exam"
-    },
-    {
-      "id": "25962af4e38d5344",
-      "title": "OpenAI says Chinese cops used ChatGPT to track smear ops against opponents",
-      "url": "https://www.theregister.com/2026/02/25/chinese_law_enforcement_chatgpt_abuse/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.theregister.com/2026/02/25/chinese_law_enforcement_chatgpt_abuse/ Comments URL: https://news.ycombinator.com/item?id=47150449 Points: 3 # Comments: 0",
-      "published": "2026-02-25T12:05:56+00:00",
-      "score": 40.0,
-      "headline": "CHINESE POLICE USED CHATGPT to Track Political Opponents"
     }
   ],
-  "generated_at": "2026-02-25T21:32:46.284629"
+  "generated_at": "2026-02-25T22:29:53.078573"
 }
