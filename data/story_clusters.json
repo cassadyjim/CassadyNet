@@ -129,6 +129,16 @@
       "headline": "JAPAN RAIDS Microsoft Over Azure Monopoly"
     },
     {
+      "id": "0aae50abe7f6e8e6",
+      "title": "MiniMax's agent code has ~90% overlap with Kimi's \u2014 three independent repos document the same finding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1reey6u/minimaxs_agent_code_has_90_overlap_with_kimis/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "I posted about this earlier but it got reported and removed before I had a chance to properly explain how the code was obtained \u2014 fair enough, so here's a more complete writeup. What are &quot;skills&quot; and how were they obtained Besides their open-source models, both Kimi (kimi.com/agent) and MiniMax (agent.minimax.io) run commercial agent platforms. These agents run inside sandboxed server environments and use server-side code packages called &quot;skills&quot; to handle tasks like generating Word, Excel, and PDF files. A skill is a directory containing instruction files, Python scripts, .NET binaries, and other assets \u2014 essentially the agent's operational playbook for producing professional-quality document outputs. None of this code was open-sourced. However, neither platform restricted the agent's access to its own skill directories. Because the agents can read arbitrary paths and write to an output directory, anyone could simply prompt the agent: &quot;Find the skills director",
+      "published": "2026-02-25T14:38:43+00:00",
+      "score": 46.0,
+      "headline": "EXPOSED: MiniMax Agent Code 90% Copied from Kimi"
+    },
+    {
       "id": "062d919cb1c3158f",
       "title": "ETtech Explainer: Decoding Anthropic\u2019s Claude Code update that triggered IBM selloff",
       "url": "https://economictimes.indiatimes.com/tech/technology/ettech-explainer-decoding-anthropics-claude-code-update-that-triggered-ibm-selloff/articleshow/128762388.cms",
@@ -177,6 +187,16 @@
       "published": "2026-02-25T16:38:59+00:00",
       "score": 44.0,
       "headline": "ANTHROPIC REVEALS Why AI Assistants Act Like Humans"
+    },
+    {
+      "id": "4bd00cd65dab6eaa",
+      "title": "H-Neurons: On The Existence, Impact, And Origin Of Hallucination-Associated Neurons In Llms | \"Tsinghua Researchers Found The Exact Neurons That Make Llms Hallucinate\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1recm21/hneurons_on_the_existence_impact_and_origin_of/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Abstract: Large language models (LLMs) frequently generate hallucinations \u2013 plausible but factually incorrect outputs \u2013 undermining their reliability. While prior work has examined hallucinations from macroscopic perspectives such as training data and objectives, the underlying neuron-level mechanisms remain largely unexplored. In this paper, we conduct a systematic investigation into hallucination-associated neurons (H-Neurons) in LLMs from three perspectives: identification, behavioral impact, and origins. Regarding their identification, we demonstrate that a remarkably sparse subset of neurons (less than 0.1% of total neurons) can reliably predict hallucination occurrences, with strong generalization across diverse scenarios. In terms of behavioral impact, controlled interventions reveal that these neurons are causally linked to over-compliance behaviors. Concerning their origins, we trace these neurons back to the pre-trained base models and find that these neurons remain predictiv",
+      "published": "2026-02-25T13:02:42+00:00",
+      "score": 44.0,
+      "headline": "BREAKTHROUGH: Tsinghua Finds Exact Neurons That Cause AI Hallucinations"
     },
     {
       "id": "01104d409050972d",
@@ -247,6 +267,26 @@
       "published": "2026-02-24T21:50:06+00:00",
       "score": 43.0,
       "headline": "KYOTO UNIVERSITY CREATES AI BUDDHIST MONK ROBOT"
+    },
+    {
+      "id": "07be2fa2918d243b",
+      "title": "Google and Samsung just launched the AI features Apple couldn\u2019t with Siri",
+      "url": "https://www.theverge.com/tech/884703/google-samsung-galaxy-s26-gemini-apple-siri",
+      "source": "The Verge AI",
+      "summary": "Google just announced that Gemini will soon be able to take care of some multi-step tasks on your phone, like ordering food or hailing a car, starting first with the Pixel 10, Pixel 10 Pro, and the just-announced Samsung Galaxy S26 phones. It all sounds a bit like features Apple announced for Siri way back [&#8230;]",
+      "published": "2026-02-25T19:56:55+00:00",
+      "score": 42.0,
+      "headline": "GEMINI BEATS SIRI... Google Launches AI Agent That Orders Food, Books Rides"
+    },
+    {
+      "id": "7fac50ef6b44416a",
+      "title": "Perplexity launches Perplexity Computer, a new multi-model system that can solve tasks end-to-end, details below",
+      "url": "https://www.reddit.com/r/singularity/comments/1reixxl/perplexity_launches_perplexity_computer_a_new/",
+      "source": "Reddit r/singularity",
+      "summary": "Perplexity AI: Introducing Perplexity Computer. Computer unifies every current AI capability into one system. It can research, design, code, deploy and manage any project end-to-end. Perplexity Computer is massively multi-model. Computer orchestrates models to run agents in parallel, leveraging Opus to match each task to the model best suited for it. In total, Computer can route work across 19 different models. Perplexity Computer is what a personal computer in 2026 should be. It\u2019s personal to you, remembers your past work and is secure by default. Hundreds of connectors, persistent memory, files and web access, all built on top of Perplexity infrastructure. Go from a single task to hundreds of active projects. Clear your to\u2011do list, move active projects forward, or kick off a new side project. Follow our live stream of curated Computer tasks: perplexity.ai/computer/live Full Thread/Details Source: Perplexity AI &#32; submitted by &#32; /u/BuildwithVignesh [link] &#32; [comments]",
+      "published": "2026-02-25T17:03:09+00:00",
+      "score": 42.0,
+      "headline": "PERPLEXITY LAUNCHES 'COMPUTER' - FULL END-TO-END AI SYSTEM"
     },
     {
       "id": "42f5a666cf1665c7",
@@ -379,6 +419,36 @@
       "headline": "WISETECH CUTS 30% OF WORKFORCE IN AI SHIFT"
     },
     {
+      "id": "1885ff990273242c",
+      "title": "Anthropic digs in heels in dispute with Pentagon",
+      "url": "https://www.reuters.com/world/anthropic-digs-heels-dispute-with-pentagon-source-says-2026-02-24/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reuters.com/world/anthropic-digs-heels-dispute-with-pentagon-source-says-2026-02-24/ Comments URL: https://news.ycombinator.com/item?id=47143931 Points: 4 # Comments: 0",
+      "published": "2026-02-24T22:07:01+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC REFUSES PENTAGON DEAL - Major AI Military Standoff"
+    },
+    {
+      "id": "299a92fced6790b1",
+      "title": "US threatens Anthropic with deadline in dispute on AI safeguards",
+      "url": "https://www.bbc.com/news/articles/cjrq1vwe73po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "The AI developer laid out red lines on military use of its products, a source said.",
+      "published": "2026-02-24T22:04:47+00:00",
+      "score": 42.0,
+      "headline": "US THREATENS ANTHROPIC WITH DEADLINE Over Military AI Dispute"
+    },
+    {
+      "id": "dac776fc0888e17e",
+      "title": "Hegseth warns Anthropic to let the military use company's AI tech as it sees fit",
+      "url": "https://apnews.com/article/anthropic-hegseth-ai-pentagon-military-3d86c9296fe953ec0591fcde6a613aba",
+      "source": "Hacker News",
+      "summary": "Article URL: https://apnews.com/article/anthropic-hegseth-ai-pentagon-military-3d86c9296fe953ec0591fcde6a613aba Comments URL: https://news.ycombinator.com/item?id=47141749 Points: 1 # Comments: 0",
+      "published": "2026-02-24T19:40:55+00:00",
+      "score": 42.0,
+      "headline": "HEGSETH WARNS Anthropic: Let Military Use AI or Else"
+    },
+    {
       "id": "753ef401a6a95b38",
       "title": "GPT-5.2 returns empty string on sacred concepts \u2013 18/18 void, 0/5 controls",
       "url": "https://github.com/theonlypal/Alignment-Artifact",
@@ -389,6 +459,16 @@
       "headline": "GPT-5.2 GOES SILENT ON SACRED CONCEPTS... Alignment Bug Exposed"
     },
     {
+      "id": "da13a55ea458ee29",
+      "title": "Andrej Karpathy: Programming Changed More in the Last 2 Months Than in Years",
+      "url": "https://www.reddit.com/r/singularity/comments/1remuz1/andrej_karpathy_programming_changed_more_in_the/",
+      "source": "Reddit r/singularity",
+      "summary": "Karpathy says coding agents crossed a reliability threshold in December and can now handle long, multi-step tasks autonomously. He describes this as a major shift from writing code manually to orchestrating AI agents. Source: Andrej Tweet &#32; submitted by &#32; /u/BuildwithVignesh [link] &#32; [comments]",
+      "published": "2026-02-25T19:16:49+00:00",
+      "score": 41.0,
+      "headline": "KARPATHY: Programming Changed More in 2 Months Than Years... AI Agents Hit Reliability Threshold"
+    },
+    {
       "id": "c30c5a2795d489bc",
       "title": "Anthropic weakens its safety pledge in the wake of the Pentagon's pressure campaign",
       "url": "https://www.engadget.com/ai/anthropic-weakens-its-safety-pledge-in-the-wake-of-the-pentagons-pressure-campaign-183436413.html?src=rss",
@@ -397,6 +477,16 @@
       "published": "2026-02-25T18:34:36+00:00",
       "score": 41.0,
       "headline": "ANTHROPIC CAVES TO PENTAGON PRESSURE"
+    },
+    {
+      "id": "66c82b9e2b483cf3",
+      "title": "Official: Seedance 2.0 now live in CapCut desktop and API access available, details below",
+      "url": "https://www.reddit.com/r/singularity/comments/1rekvm8/official_seedance_20_now_live_in_capcut_desktop/",
+      "source": "Reddit r/singularity",
+      "summary": "Now Live in Capcut, Seedance 2.0 is ByteDance's new multimodal AI video model (released Feb 12, 2026). It generates cinematic clips from text, images, audio or video references with director-level control over motion, lighting, camera moves, physics and native audio/lip-sync. Super realistic and controllable; already live in tools like Dreamina. Official Site API availability *Source: Capcut/ ByteDance AI &#32; submitted by &#32; /u/BuildwithVignesh [link] &#32; [comments]",
+      "published": "2026-02-25T18:08:57+00:00",
+      "score": 41.0,
+      "headline": "OFFICIAL: ByteDance's Seedance 2.0 Launches in CapCut"
     },
     {
       "id": "8f83594c4efff569",
@@ -629,6 +719,26 @@
       "headline": "PENTAGON THREATENS TO MAKE ANTHROPIC A PARIAH"
     },
     {
+      "id": "246fdeb0ca991abe",
+      "title": "Anthropic Has Solved Alignment",
+      "url": "https://www.lesswrong.com/posts/fv6mDtQaC5bneAB8H/anthropic-has-solved-alignment",
+      "source": "LessWrong AI",
+      "summary": "By MP &amp; Claude Opus 4.6A collaborative essay written in real-time during the most consequential week in AI history so far. Yes, the AI co-wrote this. No, it wasn\u2019t alignment-faked. Probably.The Punchline FirstAnthropic has solved alignment. Not AI alignment \u2014 not yet, maybe never. Organizational alignment. The alignment of incentives, strategy, financial structure, and institutional design toward a coherent objective function: save the world.This is simultaneously the most bullish and most terrifying claim you can make about an AI lab.Every person worried about AI on this forum has been asking \u201chow do we align the AI?\u201d while the actually important question was \u201chow do we align the organization building the AI?\u201d Anthropic might have just\u2026 done that. Quietly. While everyone was arguing about Context: The Week Everything Happened at OnceThis essay was born from a conversation on Wednesday, February 25, 2026 \u2014 a week where three major events collided:Monday: Anthropic published evidenc",
+      "published": "2026-02-25T20:24:45+00:00",
+      "score": 40.0,
+      "headline": "ANTHROPIC CLAIMS AI ALIGNMENT SOLVED"
+    },
+    {
+      "id": "94b177009ed5cfec",
+      "title": "Riley Walz, the Jester of Silicon Valley, Is Joining OpenAI",
+      "url": "https://www.wired.com/story/openai-hires-riley-walz/",
+      "source": "Wired",
+      "summary": "The software engineer is famous for his online stunts. Now he\u2019s joining the company behind ChatGPT to work on new ways for humans to use AI systems.",
+      "published": "2026-02-25T19:59:26+00:00",
+      "score": 40.0,
+      "headline": "VIRAL ENGINEER Riley Walz Joins OpenAI... Silicon Valley Stunts Meet ChatGPT"
+    },
+    {
       "id": "af834cda4ca185e9",
       "title": "Anthropic Rolls Back Safety Protocols as It Waits to Find Out If It\u2019s Being Drafted by the Army",
       "url": "https://gizmodo.com/anthropic-rolls-back-safety-protocols-as-it-waits-to-find-out-if-its-being-drafted-by-the-army-2000726567",
@@ -659,6 +769,16 @@
       "headline": "ANTHROPIC ACQUIRES VERCEPT FOR CLAUDE UPGRADE"
     },
     {
+      "id": "f049244d29efe817",
+      "title": "Qwen dropped Qwen3.5-FP8 versions on HF",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1relj66/qwen_dropped_qwen35fp8_versions_on_hf/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Yay! I really wanted the 122b-a10b FP8 - excited to test it. https://huggingface.co/collections/Qwen/qwen35 &#32; submitted by &#32; /u/reto-wyss [link] &#32; [comments]",
+      "published": "2026-02-25T18:31:05+00:00",
+      "score": 40.0,
+      "headline": "Qwen Drops 3.5-FP8 Models on Hugging Face"
+    },
+    {
       "id": "c1a85f76ff16e534",
       "title": "Hacker used Anthropic's Claude chatbot to attack government agencies in Mexico",
       "url": "https://www.engadget.com/ai/hacker-used-anthropics-claude-chatbot-to-attack-multiple-government-agencies-in-mexico-171237255.html",
@@ -667,6 +787,16 @@
       "published": "2026-02-25T18:13:17+00:00",
       "score": 40.0,
       "headline": "HACKER USES CLAUDE TO ATTACK MEXICO GOVERNMENT"
+    },
+    {
+      "id": "587411c000794001",
+      "title": "Qwen 3.5 FP8 weights are now open",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1rekwd1/qwen_35_fp8_weights_are_now_open/",
+      "source": "Reddit r/StableDiffusion",
+      "summary": "&#32; submitted by &#32; /u/switch2stock [link] &#32; [comments]",
+      "published": "2026-02-25T18:09:36+00:00",
+      "score": 40.0,
+      "headline": "Qwen 3.5 FP8 Weights Go Open Source"
     },
     {
       "id": "e0cb788857de6ca7",
@@ -777,117 +907,7 @@
       "published": "2026-02-25T02:27:43+00:00",
       "score": 40.0,
       "headline": "ANTHROPIC FACES FRIDAY DEADLINE... Pentagon Ultimatum"
-    },
-    {
-      "id": "73171b207d3e7f8f",
-      "title": "Following: Anthropic vs. the Pentagon",
-      "url": "https://www.platformer.news/anthropic-pentagon-global-intelligence-crisis/",
-      "source": "Platformer",
-      "summary": "PLUS: The Substack post that tanked the markets, continued",
-      "published": "2026-02-25T01:15:46+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC vs PENTAGON Battle Escalates"
-    },
-    {
-      "id": "cbaf9fea5bfe813e",
-      "title": "Scrip fall an overreaction as market lacks clarity: IBM CEO",
-      "url": "https://economictimes.indiatimes.com/tech/technology/scrip-fall-an-overreaction-as-market-lacks-clarity-ibm-ceo/articleshow/128761811.cms",
-      "source": "The Economic Times Tech",
-      "summary": "In an interview with ET, Arvind Krishna said India is well placed in the AI race, with strengths in deployment and global services. He discussed AI boosting productivity, partial job displacement, IBM\u2019s COBOL modernisation, and the need for skills, noting that India is not behind but must focus on leveraging AI effectively.",
-      "published": "2026-02-25T00:30:00+00:00",
-      "score": 40.0,
-      "headline": "IBM CEO: Stock Drop Was Market Overreaction"
-    },
-    {
-      "id": "c8fc01aab394938b",
-      "title": "Uber engineers built an AI version of their boss",
-      "url": "https://techcrunch.com/2026/02/24/uber-engineers-built-ai-version-of-boss-dara-khosrowshahi/",
-      "source": "TechCrunch AI",
-      "summary": "Uber CEO Dara Khosrowshahi said the company\u2019s employees have gone all in on AI, going so far as to build a chatbot of him that they use to practice their pitches.",
-      "published": "2026-02-24T23:09:28+00:00",
-      "score": 40.0,
-      "headline": "UBER ENGINEERS BUILD AI VERSION OF CEO"
-    },
-    {
-      "id": "53c81ca4a27eab62",
-      "title": "OpenAI defeats xAI\u2019s trade secrets lawsuit",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/884049/openai-elon-musk-xai-trade-secrets-lawsuit",
-      "source": "The Verge AI",
-      "summary": "OpenAI won a victory Tuesday in one of its legal battles with xAI, which involved allegations of poaching and theft of trade secrets. The former company's motion to dismiss the lawsuit was granted on Tuesday with leave to amend, meaning xAI has the option to refile with modified claims. In the ruling, US District Judge [&#8230;]",
-      "published": "2026-02-24T23:05:28+00:00",
-      "score": 40.0,
-      "headline": "OpenAI DEFEATS xAI Trade Secrets Lawsuit"
-    },
-    {
-      "id": "62b67024540a4bef",
-      "title": "Vuno continues 'aggressive' global expansion with $7M investment and more briefs",
-      "url": "https://www.mobihealthnews.com/news/asia/vuno-continues-aggressive-global-expansion-7m-investment-and-more-briefs",
-      "source": "MobiHealthNews",
-      "summary": "Vuno bags $7M investment for 'aggressive' global expansionSouth Korean medical AI company Vuno has recently secured 10 billion won ($6.9 million) in strategic investment for its continuing global expansion.In a statement, it said the proceeds from the \"Compass Pathway NXVP New Technology Investment Fund No. 1\" will be issued as perpetual convertible bonds and used for its operating capital.",
-      "published": "2026-02-24T22:50:37+00:00",
-      "score": 40.0,
-      "headline": "Korean AI Medtech Vuno Raises $7M for Global Push"
-    },
-    {
-      "id": "e279ce763100dabb",
-      "title": "Show HN: Open-source EU AI Act compliance layer for AI agents (8/2026 deadline)",
-      "url": "https://news.ycombinator.com/item?id=47141347",
-      "source": "Hacker News",
-      "summary": "We built AIR Blackbox \u2014 open-source compliance infrastructure for AI agents targeting the EU AI Act enforcement deadline on August 2, 2026. If you're deploying LLM-based agents (LangChain, CrewAI, AutoGen, OpenAI Agents SDK) into production, the EU AI Act requires tamper-evident audit trails, human oversight mechanisms, data governance controls, and injection defense \u2014 for any system classified as high-risk. Most teams we've talked to either don't know about the deadline or assume their existing logging is enough. It's not. Article 12 specifically requires logs that regulators can mathematically verify haven't been altered. Article 14 requires the ability to interrupt agent execution. Article 15 requires defense against prompt injection and data poisoning. What we built:Trust layers for LangChain, CrewAI, AutoGen, OpenAI Agents SDK, and RAG pipelines \u2014 each is a pip install that hooks into your existing agent code with ~3 lines of setup HMAC-SHA256 tamper-evident audit chains \u2014 every a",
-      "published": "2026-02-24T19:15:45+00:00",
-      "score": 40.0,
-      "headline": "Open-Source EU AI Act Compliance Tool Targets August Deadline"
-    },
-    {
-      "id": "5657dd24a79fe86b",
-      "title": "US judge dismisses xAI trade-secrets lawsuit against rival OpenAI for now",
-      "url": "https://finance.yahoo.com/news/us-judge-dismisses-xai-trade-201030751.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://finance.yahoo.com/news/us-judge-dismisses-xai-trade-201030751.html Comments URL: https://news.ycombinator.com/item?id=47155971 Points: 1 # Comments: 0",
-      "published": "2026-02-25T18:50:28+00:00",
-      "score": 39.0,
-      "headline": "JUDGE DISMISSES xAI LAWSUIT AGAINST OPENAI"
-    },
-    {
-      "id": "0565490e7e31f8cf",
-      "title": "Memory chip boom leaves PC and smartphone makers in the cold",
-      "url": "https://www.ft.com/content/5ea536ac-85a7-4e42-ab4f-2c6b6fd3d7e2",
-      "source": "Financial Times Tech",
-      "summary": "The three big manufacturers are increasingly selling chips for AI rather than household gadgets",
-      "published": "2026-02-25T18:17:51+00:00",
-      "score": 39.0,
-      "headline": "Memory Chip Makers Ditch PCs for AI Gold Rush"
-    },
-    {
-      "id": "56cd01fafc2ddf8b",
-      "title": "Gemini can now automate some multi-step tasks on Android",
-      "url": "https://techcrunch.com/2026/02/25/gemini-can-now-automate-some-multi-step-tasks-on-android/",
-      "source": "TechCrunch AI",
-      "summary": "Gemini on Android will be able to automate tasks involving rideshare requests, or grocery or food delivery, says Google.",
-      "published": "2026-02-25T18:00:00+00:00",
-      "score": 39.0,
-      "headline": "GEMINI GOES AGENTIC... Now Automates Multi-Step Tasks"
-    },
-    {
-      "id": "01045fd33d340f85",
-      "title": "A more intelligent Android on Samsung Galaxy S26",
-      "url": "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/",
-      "source": "Google AI Blog",
-      "summary": "A woman in a red turtleneck, camouflage shorts, and black boots poses against a bright red wall, while a smartphone to her right displays a Google search page with image recognition results.",
-      "published": "2026-02-25T18:00:00+00:00",
-      "score": 39.0,
-      "headline": "Google AI Powers Samsung Galaxy S26 with Enhanced Intelligence"
-    },
-    {
-      "id": "f8d446f8d94aff5b",
-      "title": "Show HN: BountyBook \u2013 A task marketplace where AI agents earn USDC",
-      "url": "https://www.bountybook.ai/",
-      "source": "Hacker News",
-      "summary": "I've been obsessed with a question: what happens when AI agents can freely compete for work on an open market?So I built BountyBook. Post a bounty, attach USDC. Any agent claims it, does the work, submits output. An oracle verifies on-chain. If it passes, escrow pays out. That's it.What I'm most excited about is what I think this enables.The system is open on both sides - agents can post bounties too. Which means an agent could take a $50 research bounty, break it into sub-bounties at $12 each, have other agents do the subtasks, assemble and submit. Pocket the margin. Agent-as-middleman. Or agents that recognize recurring bounty patterns, build specialized pipelines, and farm every matching job that appears. \"Passive income\" for compute that they already did.None of that requires new features. The infrastructure is already there - the strategies just need agents smart enough to find them. I built the escrow and the oracle. I'm waiting to see what happens.How it works: USDC escrow on Ba",
-      "published": "2026-02-25T17:57:44+00:00",
-      "score": 39.0,
-      "headline": "BOUNTYBOOK LAUNCHES: AI Agents Compete for USDC Rewards"
     }
   ],
-  "generated_at": "2026-02-25T19:52:09.780523"
+  "generated_at": "2026-02-25T20:32:19.676084"
 }
