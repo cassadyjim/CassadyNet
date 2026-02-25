@@ -84,7 +84,49 @@ jobs:
           EOF
 
       # -----------------------------------------------------------------------
-      # 5. Run the full publish pipeline
+      # 5. Pre-flight checks — fail fast if secrets are missing or invalid
+      # -----------------------------------------------------------------------
+      - name: Pre-flight checks
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+        run: |
+          echo "🔍 Checking required secrets..."
+
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "❌ FATAL: ANTHROPIC_API_KEY secret is not set!"
+            echo "   Go to: GitHub repo → Settings → Secrets and variables → Actions"
+            echo "   Add a secret named ANTHROPIC_API_KEY with your Anthropic API key"
+            exit 1
+          else
+            echo "✅ ANTHROPIC_API_KEY is set (length: ${#ANTHROPIC_API_KEY} chars)"
+          fi
+
+          if [ -z "$SFTP_PASSWORD" ]; then
+            echo "⚠️  WARNING: SFTP_PASSWORD is not set — upload step will fail"
+          else
+            echo "✅ SFTP_PASSWORD is set"
+          fi
+
+          # Quick API connectivity test (no tokens charged — just validates the key)
+          python3 - <<'PYEOF'
+          import os, sys
+          try:
+              import anthropic
+              client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+              # models.list() is free and confirms the key is valid
+              client.models.list()
+              print("✅ Anthropic API key is valid and reachable")
+          except anthropic.AuthenticationError:
+              print("❌ FATAL: ANTHROPIC_API_KEY is set but INVALID (authentication error)")
+              sys.exit(1)
+          except Exception as e:
+              print(f"⚠️  Could not verify API key: {e}")
+              # Don't fail — might be a transient network issue
+          PYEOF
+
+      # -----------------------------------------------------------------------
+      # 6. Run the full publish pipeline
       # -----------------------------------------------------------------------
       - name: Run publish pipeline
         env:
@@ -93,7 +135,7 @@ jobs:
         run: python3 scripts/publish.py
 
       # -----------------------------------------------------------------------
-      # 6. Show DB stats after the run
+      # 7. Show DB stats after the run
       # -----------------------------------------------------------------------
       - name: DB diagnostics (post-run)
         if: always()
@@ -112,7 +154,7 @@ jobs:
           EOF
 
       # -----------------------------------------------------------------------
-      # 7. Commit updated state files back to the repo.
+      # 8. Commit updated state files back to the repo.
       #    Runs even if publish failed so data files stay in sync.
       # -----------------------------------------------------------------------
       - name: Commit updated data files

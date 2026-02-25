@@ -434,33 +434,45 @@ def main():
     logger.info("CassadyNet Publisher")
     logger.info("=" * 60)
     
+    def run_step(label, cmd):
+        """Run a subprocess step and log clearly if it fails."""
+        logger.info(f"Running: {' '.join(str(c) for c in cmd)}")
+        result = subprocess.run(cmd)
+        if result.returncode != 0:
+            logger.error(f"❌ {label} FAILED with exit code {result.returncode}")
+        else:
+            logger.info(f"✅ {label} completed successfully")
+        return result.returncode
+
     # Step 1: Fetch feeds
     if not args.skip_fetch and not args.local_only:
         logger.info("Step 1: Fetching feeds...")
         fetch_script = BASE_DIR / "scripts" / "fetch_feeds.py"
         if fetch_script.exists():
-            subprocess.run(["python3", str(fetch_script)])
-    
+            run_step("Fetch feeds", ["python3", str(fetch_script)])
+
     # Step 2: Score stories
     if not args.skip_score and not args.local_only:
         logger.info("Step 2: Scoring stories...")
         score_script = BASE_DIR / "scripts" / "score_stories.py"
         if score_script.exists():
-            subprocess.run(["python3", str(score_script), "--hours", "48", "--limit", "100"])
-    
+            rc = run_step("Score stories", ["python3", str(score_script), "--hours", "48", "--limit", "100"])
+            if rc != 0:
+                logger.error("  → Scoring failed. Check that ANTHROPIC_API_KEY is set in GitHub Secrets.")
+
     # Step 3: Cluster stories
     if not args.skip_cluster:
         logger.info("Step 3: Clustering stories...")
         cluster_script = BASE_DIR / "scripts" / "cluster_stories.py"
         if cluster_script.exists():
-            subprocess.run(["python3", str(cluster_script), "--hours", "72"])
-    
+            run_step("Cluster stories", ["python3", str(cluster_script), "--hours", "72"])
+
     # Step 4: Generate analysis for new clusters
     if not args.skip_analysis:
         logger.info("Step 4: Generating analysis articles...")
         analysis_script = BASE_DIR / "scripts" / "generate_analysis.py"
         if analysis_script.exists():
-            subprocess.run(["python3", str(analysis_script)])
+            run_step("Generate analysis", ["python3", str(analysis_script)])
     
     # Step 5: Generate homepage
     logger.info("Step 5: Generating homepage...")
@@ -470,19 +482,19 @@ def main():
     logger.info("Step 6: Generating previous polls page...")
     polls_script = BASE_DIR / "scripts" / "generate_polls_page.py"
     if polls_script.exists():
-        subprocess.run(["python3", str(polls_script)])
-    
+        run_step("Generate polls page", ["python3", str(polls_script)])
+
     # Step 7: Generate RSS feed
     logger.info("Step 7: Generating RSS feed...")
     rss_script = BASE_DIR / "scripts" / "generate_rss.py"
     if rss_script.exists():
-        subprocess.run(["python3", str(rss_script)])
-    
+        run_step("Generate RSS", ["python3", str(rss_script)])
+
     # Step 8: Generate sitemap
     logger.info("Step 8: Generating sitemap...")
     sitemap_script = BASE_DIR / "scripts" / "generate_sitemap.py"
     if sitemap_script.exists():
-        subprocess.run(["python3", str(sitemap_script)])
+        run_step("Generate sitemap", ["python3", str(sitemap_script)])
     
     # Step 9: Copy robots.txt if it exists
     robots_src = BASE_DIR / "scripts" / "robots.txt"
