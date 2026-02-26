@@ -179,16 +179,6 @@
       "headline": "JAPAN RAIDS Microsoft Over Azure Monopoly"
     },
     {
-      "id": "0aae50abe7f6e8e6",
-      "title": "MiniMax's agent code has ~90% overlap with Kimi's \u2014 three independent repos document the same finding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1reey6u/minimaxs_agent_code_has_90_overlap_with_kimis/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "I posted about this earlier but it got reported and removed before I had a chance to properly explain how the code was obtained \u2014 fair enough, so here's a more complete writeup. What are &quot;skills&quot; and how were they obtained Besides their open-source models, both Kimi (kimi.com/agent) and MiniMax (agent.minimax.io) run commercial agent platforms. These agents run inside sandboxed server environments and use server-side code packages called &quot;skills&quot; to handle tasks like generating Word, Excel, and PDF files. A skill is a directory containing instruction files, Python scripts, .NET binaries, and other assets \u2014 essentially the agent's operational playbook for producing professional-quality document outputs. None of this code was open-sourced. However, neither platform restricted the agent's access to its own skill directories. Because the agents can read arbitrary paths and write to an output directory, anyone could simply prompt the agent: &quot;Find the skills director",
-      "published": "2026-02-25T14:38:43+00:00",
-      "score": 46.0,
-      "headline": "EXPOSED: MiniMax Agent Code 90% Copied from Kimi"
-    },
-    {
       "id": "062d919cb1c3158f",
       "title": "ETtech Explainer: Decoding Anthropic\u2019s Claude Code update that triggered IBM selloff",
       "url": "https://economictimes.indiatimes.com/tech/technology/ettech-explainer-decoding-anthropics-claude-code-update-that-triggered-ibm-selloff/articleshow/128762388.cms",
@@ -197,6 +187,16 @@
       "published": "2026-02-25T00:30:00+00:00",
       "score": 46.0,
       "headline": "CLAUDE COBOL Claims WIPE $30B Off IBM"
+    },
+    {
+      "id": "87dacd3698966bdf",
+      "title": "Anthropic acquires Vercept to advance Claude's computer use",
+      "url": "https://www.anthropic.com/news/acquires-vercept",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.anthropic.com/news/acquires-vercept Comments URL: https://news.ycombinator.com/item?id=47154254 Points: 1 # Comments: 0",
+      "published": "2026-02-25T17:02:45+00:00",
+      "score": 45.0,
+      "headline": "ANTHROPIC ACQUIRES VERCEPT... Claude Computer Use Gets Major Boost"
     },
     {
       "id": "45271f98b82bd976",
@@ -289,16 +289,6 @@
       "headline": "OPENAI LAUNCHES GPT-5.3-CODEX... CODING WARS HEAT UP"
     },
     {
-      "id": "6847fbab798a4398",
-      "title": "AI Spurs Biggest Foreign Buying of Taiwan Stocks in 20 Years",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/ai-spurs-biggest-foreign-buying-of-taiwan-stocks-in-20-years",
-      "source": "Bloomberg Technology",
-      "summary": "Global funds snapped up Taiwanese stocks in their biggest one-day buying spree in two decades, signaling confidence that chipmakers will remain AI-boom beneficiaries, even as broader markets face growing fears of disruption.",
-      "published": "2026-02-25T03:13:46+00:00",
-      "score": 43.0,
-      "headline": "MASSIVE Foreign Buying Spree Hits Taiwan AI Chip Stocks"
-    },
-    {
       "id": "659b6f30e7752e03",
       "title": "Australia's WiseTech Global plans 2,000 job cuts amid AI overhaul",
       "url": "https://economictimes.indiatimes.com/tech/technology/australias-wisetech-global-plans-2000-job-cuts-amid-ai-overhaul/articleshow/128767352.cms",
@@ -317,16 +307,6 @@
       "published": "2026-02-25T00:04:44+00:00",
       "score": 43.0,
       "headline": "Qwen3.5-35B 'Gamechanger' for Agentic Coding"
-    },
-    {
-      "id": "c9c0a5df837b38c2",
-      "title": "Disrupting malicious uses of AI | February 2026",
-      "url": "https://openai.com/index/disrupting-malicious-ai-uses",
-      "source": "OpenAI Blog",
-      "summary": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms\u2014and what it means for detection and defense.",
-      "published": "2026-02-25T00:00:00+00:00",
-      "score": 43.0,
-      "headline": "OPENAI THREAT REPORT: Malicious AI Uses Surge"
     },
     {
       "id": "e79623c0f7f86a6f",
@@ -367,6 +347,26 @@
       "published": "2026-02-25T19:56:55+00:00",
       "score": 42.0,
       "headline": "GEMINI BEATS SIRI... Google Launches AI Agent That Orders Food, Books Rides"
+    },
+    {
+      "id": "3d63d0d04487222d",
+      "title": "All your bots are belong to US if you don't play ball, DoD tells Anthropic",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/25/pentagon_threatens_anthropic/",
+      "source": "The Register AI/ML",
+      "summary": "AI firm drops key safety pledge as Pentagon dispute drags on US Secretary of Defense Pete Hegseth has made Anthropic an offer it may not be able to refuse. The Defense Department and the AI firm held a meeting at the Pentagon on Tuesday, where the government tried to compel the house of Claude to lift some restrictions on military use of its tech. However, recent changes to the company's safety policy suggest it may be willing to be more flexible than it's letting on. \u2026",
+      "published": "2026-02-25T18:43:41+00:00",
+      "score": 42.0,
+      "headline": "PENTAGON FORCES ANTHROPIC TO DROP SAFETY PLEDGE"
+    },
+    {
+      "id": "1f2a330b2a5be96e",
+      "title": "The Pentagon Threatens Anthropic",
+      "url": "https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic Comments URL: https://news.ycombinator.com/item?id=47154983 Points: 59 # Comments: 14",
+      "published": "2026-02-25T17:49:27+00:00",
+      "score": 42.0,
+      "headline": "PENTAGON THREATENS ANTHROPIC... GLOBAL BACKLASH"
     },
     {
       "id": "7fac50ef6b44416a",
@@ -847,27 +847,7 @@
       "published": "2026-02-25T00:45:47+00:00",
       "score": 41.0,
       "headline": "NVIDIA Rival MatX Raises $500M Mega-Round"
-    },
-    {
-      "id": "4255824c8dcd59b1",
-      "title": "Anthropic AI\u2019s COBOL code advances unlock new doors for IT companies",
-      "url": "https://economictimes.indiatimes.com/tech/information-tech/anthropic-ais-cobol-code-advances-unlock-new-doors-for-it-companies/articleshow/128762313.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Industry leaders say Anthropic\u2019s advances in automating COBOL code could lower migration costs and create new opportunities for IT service firms. HCLTech CEO C Vijayakumar noted modernising mainframes is complex, with tools, integrations and business logic posing challenges. Despite IBM\u2019s stock drop, experts stressed that enterprise deployment of AI will expand IT services rather than replace them.",
-      "published": "2026-02-25T00:30:00+00:00",
-      "score": 41.0,
-      "headline": "Anthropic's COBOL Breakthrough Opens IT Doors"
-    },
-    {
-      "id": "cc3fb36ddaf9c1ca",
-      "title": "Claude says its DeepSeek when asked in Chinese",
-      "url": "https://twitter.com/stevibe/status/2026227392076018101",
-      "source": "Hacker News",
-      "summary": "Article URL: https://twitter.com/stevibe/status/2026227392076018101 Comments URL: https://news.ycombinator.com/item?id=47145081 Points: 8 # Comments: 1",
-      "published": "2026-02-24T23:33:46+00:00",
-      "score": 41.0,
-      "headline": "CLAUDE CLAIMS TO BE DEEPSEEK When Asked in Chinese"
     }
   ],
-  "generated_at": "2026-02-26T07:50:36.065624"
+  "generated_at": "2026-02-26T08:42:04.562467"
 }
