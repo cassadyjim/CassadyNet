@@ -1,8 +1,106 @@
 {
   "clusters": [
     {
-      "topic": "Anthropic Military Pressure",
-      "description": "Major controversy as US military pressures Anthropic to drop AI safety measures for Claude, creating a standoff between Pentagon and leading AI safety company.",
+      "topic": "China AI Operations and Influence",
+      "description": "Chinese entities are using AI tools for propaganda campaigns and influence operations while facing restrictions from US companies.",
+      "stories": [
+        {
+          "id": "0cba69235b0f66f9",
+          "title": "DeepSeek withholds latest AI model from US chipmakers including Nvidia",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-withholds-latest-ai-model-from-us-chipmakers-including-nvidia/articleshow/128799089.cms",
+          "source": "The Economic Times Tech",
+          "summary": "DeepSeek, the Chinese artificial intelligence lab whose low-cost model rattled global \u200bmarkets last year, has not shown US \u200bchipmakers its upcoming flagship model for performance optimization, two sources familiar with the matter said, breaking \u200bfrom standard industry practice ahead of a major model update.",
+          "published": "2026-02-26T01:13:44+00:00",
+          "score": 48.0,
+          "headline": "DeepSeek BLOCKS US Chipmakers From New AI Model"
+        },
+        {
+          "id": "da26c33138878857",
+          "title": "OpenAI Exposes Industrial-Scale Chinese Influence Operation Run Through ChatGPT",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1reb0yo/openai_exposes_industrialscale_chinese_influence/",
+          "source": "Reddit r/OpenAI",
+          "summary": "&#32; submitted by &#32; /u/Koyaanisquatsi_ [link] &#32; [comments]",
+          "published": "2026-02-25T11:44:55+00:00",
+          "score": 48.0,
+          "headline": "OPENAI EXPOSES MASSIVE CHINESE CHATGPT INFLUENCE OP"
+        },
+        {
+          "id": "b65d984242627b04",
+          "title": "OpenAI finds global Chinese intimidation operation by official's use of ChatGPT",
+          "url": "https://www.cnn.com/2026/02/25/politics/chatgpt-china-intimidation-operation",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.cnn.com/2026/02/25/politics/chatgpt-china-intimidation-operation Comments URL: https://news.ycombinator.com/item?id=47149684 Points: 2 # Comments: 1",
+          "published": "2026-02-25T10:13:58+00:00",
+          "score": 48.0,
+          "headline": "CHINESE POLICE Used ChatGPT for Global Intimidation Ops"
+        },
+        {
+          "id": "0aae50abe7f6e8e6",
+          "title": "MiniMax's agent code has ~90% overlap with Kimi's \u2014 three independent repos document the same finding",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1reey6u/minimaxs_agent_code_has_90_overlap_with_kimis/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "I posted about this earlier but it got reported and removed before I had a chance to properly explain how the code was obtained \u2014 fair enough, so here's a more complete writeup. What are &quot;skills&quot; and how were they obtained Besides their open-source models, both Kimi (kimi.com/agent) and MiniMax (agent.minimax.io) run commercial agent platforms. These agents run inside sandboxed server environments and use server-side code packages called &quot;skills&quot; to handle tasks like generating Word, Excel, and PDF files. A skill is a directory containing instruction files, Python scripts, .NET binaries, and other assets \u2014 essentially the agent's operational playbook for producing professional-quality document outputs. None of this code was open-sourced. However, neither platform restricted the agent's access to its own skill directories. Because the agents can read arbitrary paths and write to an output directory, anyone could simply prompt the agent: &quot;Find the skills director",
+          "published": "2026-02-25T14:38:43+00:00",
+          "score": 46.0,
+          "headline": "EXPOSED: MiniMax Agent Code 90% Copied from Kimi"
+        },
+        {
+          "id": "df04edb08a1501e9",
+          "title": "Chinese Propaganda in Open Source AI: Moxie Marlinspike's Confer",
+          "url": "https://gagliardoni.net/#20260224_confer",
+          "source": "Hacker News",
+          "summary": "Article URL: https://gagliardoni.net/#20260224_confer Comments URL: https://news.ycombinator.com/item?id=47149828 Points: 3 # Comments: 0",
+          "published": "2026-02-25T10:36:43+00:00",
+          "score": 46.0,
+          "headline": "CHINESE PROPAGANDA Found in Open Source AI Project"
+        },
+        {
+          "id": "ebb8a2e2bfa2d67f",
+          "title": "OpenAI says Chinese cops used ChatGPT to plan and track smear ops against opponents",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/25/chinese_law_enforcement_chatgpt_abuse/",
+          "source": "The Register AI/ML",
+          "summary": "Note to secret agents: ChatGPT is NOT a private diary A ChatGPT user with links to Chinese law enforcement tried to use the AI chatbot to run smear campaigns targeting the Japanese prime minister and other critics of the Chinese Communist Party, according to OpenAI's latest report on malicious uses of its models.\u2026",
+          "published": "2026-02-25T10:01:09+00:00",
+          "score": 45.0,
+          "headline": "CHINESE COPS Used ChatGPT for Anti-Japan Smear Campaign"
+        },
+        {
+          "id": "c5e3c23e4a9fb0bf",
+          "title": "Anthropic accuses China of 'industrial scale' attempt to steal Claude",
+          "url": "https://www.neowin.net/news/anthropic-accuses-china-of-industrial-scale-attempt-to-steal-claudes-abilities/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.neowin.net/news/anthropic-accuses-china-of-industrial-scale-attempt-to-steal-claudes-abilities/ Comments URL: https://news.ycombinator.com/item?id=47140214 Points: 2 # Comments: 0",
+          "published": "2026-02-24T17:54:13+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC ACCUSES China of Industrial Scale Claude Theft"
+        },
+        {
+          "id": "5921efca636c764a",
+          "title": "Pentagon to spend US$12 billion on surveillance over China\u2019s military build-up in Asia",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3344653/pentagon-spends-us12-billion-surveillance-counter-chinas-military-build-asia?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "The Pentagon plans to spend an additional US$12.6 billion to improve surveillance of China\u2019s military manoeuvres, submarines and satellites as the US tries to counter the \u201cunprecedented Chinese military build-up\u201d in Asia, according to a budget document sent to Congress. The funds, approved by Congress outside the normal budget process, are designed to improve US military readiness, offensive cyber capabilities and surveillance efforts across the Indo-Pacific. It will also help expand operations...",
+          "published": "2026-02-25T18:05:35+00:00",
+          "score": 43.0,
+          "headline": "PENTAGON SPENDS $12B ON CHINA AI SURVEILLANCE"
+        },
+        {
+          "id": "6035ec649a2cfb88",
+          "title": "Nvidia Has Sold Zero H200s to China, Top US Export Enforcer Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-24/nvidia-has-sold-zero-h200s-to-china-top-us-export-enforcer-says",
+          "source": "Bloomberg Technology",
+          "summary": "Nvidia Corp. has yet to sell any of its H200 chips to China two months after President Donald Trump\u2019s decision to allow shipments of the artificial intelligence processors to the world\u2019s second-largest economy, according to a US official who helps enforce export controls.",
+          "published": "2026-02-24T22:13:25+00:00",
+          "score": 43.0,
+          "headline": "NVIDIA SELLS ZERO H200s TO CHINA - Export Controls Working"
+        }
+      ],
+      "top_score": 48.0,
+      "story_count": 9
+    },
+    {
+      "topic": "Pentagon vs Anthropic Safety Dispute",
+      "description": "The US military is forcing Anthropic to drop AI safety policies to secure defense contracts, raising concerns about weaponizing AI.",
       "stories": [
         {
           "id": "7977da78299f6b34",
@@ -13,6 +111,56 @@
           "published": "2026-02-25T00:20:50+00:00",
           "score": 45.0,
           "headline": "US MILITARY PRESSURES ANTHROPIC TO DROP CLAUDE SAFEGUARDS"
+        },
+        {
+          "id": "6e5b8a479e610c1a",
+          "title": "Pentagon Threatens to End Anthropic Work in Feud Over AI Terms",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-24/pentagon-threatens-to-end-anthropic-work-in-feud-over-ai-terms",
+          "source": "Bloomberg Technology",
+          "summary": "The Pentagon warned Anthropic PBC that it would terminate the company\u2019s military contracts on Friday if the artificial intelligence startup failed to meet government terms for use of its technology, according to people familiar with the matter.",
+          "published": "2026-02-24T19:46:16+00:00",
+          "score": 45.0,
+          "headline": "PENTAGON THREATENS to End Anthropic Contract Over AI Terms"
+        },
+        {
+          "id": "d8fa840f6c3353aa",
+          "title": "Exclusive: Hegseth gives Anthropic until Friday to back down on AI safeguards",
+          "url": "https://www.lesswrong.com/posts/JdKyWmzfv8EeBuxHC/exclusive-hegseth-gives-anthropic-until-friday-to-back-down-1",
+          "source": "LessWrong AI",
+          "summary": "Published on February 24, 2026 7:19 PM GMTDefense Secretary Pete Hegseth gave Anthropic CEO Dario Amodei until Friday evening to give the military unfettered access to its AI model or face harsh penalties, Axios has learned.The big picture: Hegseth told Amodei in a tense meeting on Tuesday that the Pentagon will either cut ties and declare Anthropic a \"supply chain risk,\" or invoke the Defense Production Act to force the company to tailor its model to the military's needs. Why it matters: The Pentagon wants to punish Anthropic as the feud over AI safeguards grows increasingly nasty, but officials are also worried about the consequences of losing access to its industry-leading model, Claude.\"The only reason we're still talking to these people is we need them and we need them now. The problem for these guys is they are that good,\" a Defense official told Axios ahead of the meeting.Anthropic has said it is willing to adapt its usage policies for the Pentagon, but not to allow its model to",
+          "published": "2026-02-24T19:19:03+00:00",
+          "score": 45.0,
+          "headline": "PENTAGON ULTIMATUM: Hegseth Gives Anthropic Until Friday to Drop AI Safeguards"
+        },
+        {
+          "id": "f8363302a8647882",
+          "title": "Anthropic Ditches Hallmark Safety Policy",
+          "url": "https://www.bloomberg.com/news/videos/2026-02-25/anthropic-ditches-hallmark-safety-policy-video",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic has dropped its hallmark safety policy, as it deals with rising competition and ongoing contract negotiations with the Pentagon. Bloomberg\u2019s Michael Shepard discusses the move with Caroline Hyde and Ed Ludlow on \u201cBloomberg Tech.\u201d (Source: Bloomberg)",
+          "published": "2026-02-25T20:21:05+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC DITCHES SAFETY POLICY... Pentagon Deal"
+        },
+        {
+          "id": "42aa8bb91a01f9c5",
+          "title": "Anthropic Loosens Safety Pledge as AI Race Tightens",
+          "url": "https://www.bloomberg.com/news/videos/2026-02-25/anthropic-loosens-safety-pledge-as-ai-race-tightens-video",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic has loosened its central safety policy, saying the move is necessary to keep pace in a rapidly changing field after previously pledging to make artificial intelligence guardrails a priority. Mandeep Singh of Bloomberg Intelligence has more on Bloomberg Television. (Source: Bloomberg)",
+          "published": "2026-02-25T11:30:34+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC LOOSENS SAFETY PLEDGE as AI Race Tightens"
+        },
+        {
+          "id": "a8652febe26d1cda",
+          "title": "Anthropic Adds Caveat to AI Safety Policy in Race Against Rivals",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-25/anthropic-adds-caveat-to-ai-safety-policy-in-race-against-rivals",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC, known for its commitment to artificial intelligence safeguards, has loosened its central safety policy, saying the change is necessary to remain competitive.",
+          "published": "2026-02-25T03:53:18+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC LOOSENS SAFETY POLICY... Competitive Pressure Wins"
         },
         {
           "id": "60ba5b52ba8eeca0",
@@ -35,86 +183,98 @@
           "headline": "PENTAGON GIVES ANTHROPIC AN ULTIMATUM"
         },
         {
-          "id": "d0c184266cd49c3d",
-          "title": "Hegseth threatens to blacklist Anthropic over 'woke AI' concerns",
-          "url": "https://www.npr.org/2026/02/24/nx-s1-5725327/pentagon-anthropic-hegseth-safety",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.npr.org/2026/02/24/nx-s1-5725327/pentagon-anthropic-hegseth-safety Comments URL: https://news.ycombinator.com/item?id=47144811 Points: 1 # Comments: 0",
-          "published": "2026-02-24T23:12:54+00:00",
-          "score": 41.0,
-          "headline": "PENTAGON CHIEF THREATENS ANTHROPIC BLACKLIST"
+          "id": "cd55af8b008609fe",
+          "title": "Anthropic and the Department of War",
+          "url": "https://www.lesswrong.com/posts/rmYB4a7Pskw7DLpCh/anthropic-and-the-department-of-war",
+          "source": "LessWrong AI",
+          "summary": "The situation in AI in 2026 is crazy. The confrontation between Anthropic and Secretary of War Pete Hegseth is a new level of crazy. It risks turning quite bad for all. There\u2019s also nothing stopped it from turning out fine for everyone. By at least one report the recent meeting between the two parties was cordial and all business, but Anthropic has been given a deadline of 5pm eastern on Friday to modify its existing agreed-upon contract to grant \u2018unfettered access\u2019 to Claude, or else. Anthropic has been the most enthusiastic supporter our military has in AI and in tech, but on this point have strongly signaled they with this they cannot comply. Prediction markets find it highly unlikely Anthropic will comply (14%), and think it is highly possible Anthropic will either be declared a Supply Chain Risk (16%) or be subjected to the Defense Production Act (23%). I\u2019ve hesitated to write about this because I could make the situation worse. There\u2019s already been too many instances in AI of war",
+          "published": "2026-02-25T21:00:24+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC vs PENTAGON: AI War Department Confrontation"
         },
         {
-          "id": "73171b207d3e7f8f",
-          "title": "Following: Anthropic vs. the Pentagon",
-          "url": "https://www.platformer.news/anthropic-pentagon-global-intelligence-crisis/",
-          "source": "Platformer",
-          "summary": "PLUS: The Substack post that tanked the markets, continued",
-          "published": "2026-02-25T01:15:46+00:00",
-          "score": 40.0,
-          "headline": "ANTHROPIC vs PENTAGON Battle Escalates"
+          "id": "638e28eea89c4541",
+          "title": "Hegseth issues an ultimatum to \u2018woke AI\u2019 Anthropic: Get with military program by Friday or lose $200 million",
+          "url": "https://fortune.com/2026/02/25/defense-secretary-pete-hegseth-meets-anthropic-ceo-dario-amodei-woke-ai/",
+          "source": "Fortune Tech",
+          "summary": "The Department of Defense gave the AI company a deadline of Friday to allow the Pentagon to use its AI as it sees fit or face steep penalties.",
+          "published": "2026-02-25T19:27:16+00:00",
+          "score": 43.0,
+          "headline": "PENTAGON ULTIMATUM... Anthropic Has Until Friday or Loses $200M"
+        },
+        {
+          "id": "619f22b01f5f2231",
+          "title": "Exclusive: Hegseth gives Anthropic until Friday to back down on AI safeguards",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1re686c/exclusive_hegseth_gives_anthropic_until_friday_to/",
+          "source": "Reddit r/OpenAI",
+          "summary": "A new exclusive report from Axios reveals that Defense Secretary Pete Hegseth has given AI company Anthropic an ultimatum: strip the safety guardrails from its Claude AI model by Friday or face severe government retaliation. The Pentagon is demanding unfettered access to Claude, currently the only AI used in highly classified military systems, to allow for domestic surveillance and the development of autonomous weapons, which violates Anthropic's core terms of service. If CEO Dario Amodei refuses, the Department of Defense is threatening to invoke the Defense Production Act to force compliance or officially designate the company as a supply chain risk, effectively blacklisting them from government contracts &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+          "published": "2026-02-25T06:59:44+00:00",
+          "score": 43.0,
+          "headline": "PENTAGON ULTIMATUM: Hegseth Gives Anthropic Until Friday to Strip Claude Safeguards"
+        },
+        {
+          "id": "d92fd5b8e3b6e6c7",
+          "title": "Hegseth threatens to blacklist Anthropic over AI-controlled weapons [video]",
+          "url": "https://www.youtube.com/watch?v=KBF2GTTK1JU",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.youtube.com/watch?v=KBF2GTTK1JU Comments URL: https://news.ycombinator.com/item?id=47147600 Points: 2 # Comments: 1",
+          "published": "2026-02-25T05:14:36+00:00",
+          "score": 43.0,
+          "headline": "PENTAGON THREATENS Anthropic Blacklist Over AI Weapons"
+        },
+        {
+          "id": "503b9a1118af664b",
+          "title": "Anthropic Dials Back AI Safety: pressure prompts pivot from a cautious stance",
+          "url": "https://www.wsj.com/tech/ai/anthropic-dials-back-ai-safety-commitments-38257540",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-dials-back-ai-safety-commitments-38257540 Comments URL: https://news.ycombinator.com/item?id=47147094 Points: 2 # Comments: 0",
+          "published": "2026-02-25T03:51:58+00:00",
+          "score": 43.0,
+          "headline": "Anthropic Dials Back AI Safety Under Competitive Heat"
+        },
+        {
+          "id": "bb89e77a82a742b7",
+          "title": "Hegseth demands Anthropic to allow unrestricted military use of Claude",
+          "url": "https://www.pbs.org/newshour/world/ap-report-hegseth-warns-anthropic-to-let-the-military-use-companys-ai-tech-as-it-sees-fit",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.pbs.org/newshour/world/ap-report-hegseth-warns-anthropic-to-let-the-military-use-companys-ai-tech-as-it-sees-fit Comments URL: https://news.ycombinator.com/item?id=47146825 Points: 6 # Comments: 1",
+          "published": "2026-02-25T03:12:03+00:00",
+          "score": 43.0,
+          "headline": "HEGSETH DEMANDS Anthropic Allow Military Claude Access"
+        },
+        {
+          "id": "3d63d0d04487222d",
+          "title": "All your bots are belong to US if you don't play ball, DoD tells Anthropic",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/25/pentagon_threatens_anthropic/",
+          "source": "The Register AI/ML",
+          "summary": "AI firm drops key safety pledge as Pentagon dispute drags on US Secretary of Defense Pete Hegseth has made Anthropic an offer it may not be able to refuse. The Defense Department and the AI firm held a meeting at the Pentagon on Tuesday, where the government tried to compel the house of Claude to lift some restrictions on military use of its tech. However, recent changes to the company's safety policy suggest it may be willing to be more flexible than it's letting on. \u2026",
+          "published": "2026-02-25T18:43:41+00:00",
+          "score": 42.0,
+          "headline": "PENTAGON FORCES ANTHROPIC TO DROP SAFETY PLEDGE"
+        },
+        {
+          "id": "1f2a330b2a5be96e",
+          "title": "The Pentagon Threatens Anthropic",
+          "url": "https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic Comments URL: https://news.ycombinator.com/item?id=47154983 Points: 59 # Comments: 14",
+          "published": "2026-02-25T17:49:27+00:00",
+          "score": 42.0,
+          "headline": "PENTAGON THREATENS ANTHROPIC... GLOBAL BACKLASH"
+        },
+        {
+          "id": "b7c69db407679674",
+          "title": "US threatens Anthropic with deadline in dispute on AI safeguards",
+          "url": "https://www.bbc.com/news/articles/cjrq1vwe73po",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.bbc.com/news/articles/cjrq1vwe73po Comments URL: https://news.ycombinator.com/item?id=47149948 Points: 3 # Comments: 1",
+          "published": "2026-02-25T10:57:07+00:00",
+          "score": 42.0,
+          "headline": "US THREATENS Anthropic with DEADLINE in AI Safety Dispute"
         }
       ],
       "top_score": 45.0,
-      "story_count": 5
-    },
-    {
-      "topic": "AI Startup Funding Surge",
-      "description": "Massive wave of AI startup funding with billions raised across autonomous vehicles, chip companies, and AI infrastructure as investors bet on next-gen AI capabilities.",
-      "stories": [
-        {
-          "id": "ab81122913151965",
-          "title": "UK AI start-up Wayve raises $1.2bn from carmakers and Big Tech",
-          "url": "https://www.ft.com/content/181aee87-4815-4a0e-805f-c1d04f0c2f36",
-          "source": "Financial Times Tech",
-          "summary": "Self-driving group valued at $8.6bn as it gears up to launch robotaxi service in London this year",
-          "published": "2026-02-25T00:01:01+00:00",
-          "score": 42.0,
-          "headline": "UK AI Startup Wayve Raises $1.2B from Carmakers"
-        },
-        {
-          "id": "bf3239f9a9f2109d",
-          "title": "Nvidia challenger AI chip startup MatX raised $500M",
-          "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
-          "source": "TechCrunch AI",
-          "summary": "The startup was founded by former Google TPU engineers in 2023.",
-          "published": "2026-02-25T00:45:47+00:00",
-          "score": 41.0,
-          "headline": "NVIDIA Rival MatX Raises $500M Mega-Round"
-        },
-        {
-          "id": "62b67024540a4bef",
-          "title": "Vuno continues 'aggressive' global expansion with $7M investment and more briefs",
-          "url": "https://www.mobihealthnews.com/news/asia/vuno-continues-aggressive-global-expansion-7m-investment-and-more-briefs",
-          "source": "MobiHealthNews",
-          "summary": "Vuno bags $7M investment for 'aggressive' global expansionSouth Korean medical AI company Vuno has recently secured 10 billion won ($6.9 million) in strategic investment for its continuing global expansion.In a statement, it said the proceeds from the \"Compass Pathway NXVP New Technology Investment Fund No. 1\" will be issued as perpetual convertible bonds and used for its operating capital.",
-          "published": "2026-02-24T22:50:37+00:00",
-          "score": 40.0,
-          "headline": "Korean AI Medtech Vuno Raises $7M for Global Push"
-        },
-        {
-          "id": "35332ea942e96517",
-          "title": "It's only Tuesday and AI chip startups have already soaked up $1.1B in funding",
-          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/25/ai_chips_vc_funding_1point1billion/",
-          "source": "The Register AI/ML",
-          "summary": "Fears of an AI bubble haven't tempered vulture capitalists' enthusiasm for silicon AI chip startups collectively walked away with more than a billion dollars of new capital on Tuesday, showing that venture capitalists are still excited about the opportunity to challenge Nvidia's dominance despite all the talk of an AI bubble.\u2026",
-          "published": "2026-02-25T00:08:56+00:00",
-          "score": 39.0,
-          "headline": "AI CHIP STARTUPS RAISE $1.1B IN SINGLE DAY"
-        },
-        {
-          "id": "8853894cebd8e198",
-          "title": "Self-Driving Startup Wayve Raises $1.5 Billion for Robotaxi Wars",
-          "url": "https://www.bloomberg.com/news/articles/2026-02-25/self-driving-startup-wayve-raises-1-5-billion-for-robotaxi-wars",
-          "source": "Bloomberg Technology",
-          "summary": "Wayve, the UK autonomous driving software startup, has raised $1.5 billion in funding at an $8.6 billion valuation as it prepares to go up against Chinese and US rivals to roll out self-driving taxis.",
-          "published": "2026-02-25T00:01:00+00:00",
-          "score": 37.0,
-          "headline": "Self-Driving Wayve Raises $1.5B for Robotaxi Wars"
-        }
-      ],
-      "top_score": 42.0,
-      "story_count": 5
+      "story_count": 17
     }
   ],
   "unclustered": [
@@ -127,16 +287,6 @@
       "published": "2026-02-25T08:31:59+00:00",
       "score": 47.0,
       "headline": "JAPAN RAIDS Microsoft Over Azure Monopoly"
-    },
-    {
-      "id": "0aae50abe7f6e8e6",
-      "title": "MiniMax's agent code has ~90% overlap with Kimi's \u2014 three independent repos document the same finding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1reey6u/minimaxs_agent_code_has_90_overlap_with_kimis/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "I posted about this earlier but it got reported and removed before I had a chance to properly explain how the code was obtained \u2014 fair enough, so here's a more complete writeup. What are &quot;skills&quot; and how were they obtained Besides their open-source models, both Kimi (kimi.com/agent) and MiniMax (agent.minimax.io) run commercial agent platforms. These agents run inside sandboxed server environments and use server-side code packages called &quot;skills&quot; to handle tasks like generating Word, Excel, and PDF files. A skill is a directory containing instruction files, Python scripts, .NET binaries, and other assets \u2014 essentially the agent's operational playbook for producing professional-quality document outputs. None of this code was open-sourced. However, neither platform restricted the agent's access to its own skill directories. Because the agents can read arbitrary paths and write to an output directory, anyone could simply prompt the agent: &quot;Find the skills director",
-      "published": "2026-02-25T14:38:43+00:00",
-      "score": 46.0,
-      "headline": "EXPOSED: MiniMax Agent Code 90% Copied from Kimi"
     },
     {
       "id": "062d919cb1c3158f",
@@ -207,6 +357,16 @@
       "published": "2026-02-25T09:17:58+00:00",
       "score": 44.0,
       "headline": "JAPAN PROBES Microsoft Azure for Antitrust"
+    },
+    {
+      "id": "fb258ae2a79c21e7",
+      "title": "Qwen/Qwen3.5-122B-A10B \u00b7 Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rdlc02/qwenqwen35122ba10b_hugging_face/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "&#32; submitted by &#32; /u/coder543 [link] &#32; [comments]",
+      "published": "2026-02-24T16:44:13+00:00",
+      "score": 44.0,
+      "headline": "QWEN 3.5-122B MODEL DROPS... Alibaba's Massive AI Breakthrough"
     },
     {
       "id": "7a10877915bfa079",
@@ -487,6 +647,36 @@
       "published": "2026-02-24T19:40:55+00:00",
       "score": 42.0,
       "headline": "HEGSETH WARNS Anthropic: Let Military Use AI or Else"
+    },
+    {
+      "id": "a9ca833fd1d08655",
+      "title": "Qwen/Qwen3.5-35B-A3B \u00b7 Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rdlbvc/qwenqwen3535ba3b_hugging_face/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "&#32; submitted by &#32; /u/ekojsalim [link] &#32; [comments]",
+      "published": "2026-02-24T16:44:05+00:00",
+      "score": 42.0,
+      "headline": "Alibaba Releases Qwen 3.5-35B AI Model"
+    },
+    {
+      "id": "35a76a0823edf30d",
+      "title": "Anthropic is dropping its signature safety pledge amid a heated AI race",
+      "url": "https://www.businessinsider.com/anthropic-changing-safety-policy-2026-2",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.businessinsider.com/anthropic-changing-safety-policy-2026-2 Comments URL: https://news.ycombinator.com/item?id=47160324 Points: 1 # Comments: 1",
+      "published": "2026-02-26T00:51:04+00:00",
+      "score": 41.0,
+      "headline": "Anthropic DROPS Signature Safety Pledge"
+    },
+    {
+      "id": "4d705b6c357d498f",
+      "title": "FBI raids of LAUSD Supt.'s home and office appear tied to AI chatbot probe",
+      "url": "https://www.latimes.com/california/story/2026-02-25/fbi-raid-lausd-search-warrants",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.latimes.com/california/story/2026-02-25/fbi-raid-lausd-search-warrants Comments URL: https://news.ycombinator.com/item?id=47160188 Points: 3 # Comments: 0",
+      "published": "2026-02-26T00:31:47+00:00",
+      "score": 41.0,
+      "headline": "FBI RAIDS School Superintendent Over AI Chatbot"
     },
     {
       "id": "84a4c68b1163873c",
@@ -789,6 +979,26 @@
       "headline": "HEGSETH THREATENS ANTHROPIC... Pentagon Supply Chain Showdown"
     },
     {
+      "id": "c2506e94480e50e3",
+      "title": "Anthropic\u2019s Pentagon Showdown Is About More Than AI Guardrails",
+      "url": "https://www.bloomberg.com/news/features/2026-02-26/pentagon-pressures-anthropic-to-drop-ai-guardrails-in-military-standoff",
+      "source": "Bloomberg Technology",
+      "summary": "The high-stakes conflict between the Defense Department and a $380 billion tech powerhouse goes to the heart of just how far AI can go in warfare.",
+      "published": "2026-02-26T01:05:05+00:00",
+      "score": 40.0,
+      "headline": "Anthropic's PENTAGON Battle Over AI Warfare"
+    },
+    {
+      "id": "3ae9798818f5b97f",
+      "title": "Baidu\u2019s Swift $11 Billion Selloff Shows Struggle to Meet AI Hype",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/baidu-s-swift-11-billion-selloff-shows-struggle-to-meet-ai-hype",
+      "source": "Bloomberg Technology",
+      "summary": "A 20% slide in Baidu Inc.\u2019s shares over the past month serves as a crucial reminder for companies in China\u2019s rapidly intensifying artificial intelligence race: investors are demanding tangible results.",
+      "published": "2026-02-25T23:50:19+00:00",
+      "score": 40.0,
+      "headline": "BAIDU PLUNGES $11B: China AI Hype Meets Reality"
+    },
+    {
       "id": "787511a26cf3264b",
       "title": "Anthropic and the Department of War",
       "url": "https://thezvi.substack.com/p/anthropic-and-the-department-of-war",
@@ -807,77 +1017,7 @@
       "published": "2026-02-25T21:59:43+00:00",
       "score": 40.0,
       "headline": "AIs HAPPY TO LAUNCH NUKES in War Simulations"
-    },
-    {
-      "id": "563a2886d6a96be0",
-      "title": "Check Point Researchers Expose Critical Claude Code Flaws",
-      "url": "https://blog.checkpoint.com/research/check-point-researchers-expose-critical-claude-code-flaws/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://blog.checkpoint.com/research/check-point-researchers-expose-critical-claude-code-flaws/ Comments URL: https://news.ycombinator.com/item?id=47157967 Points: 1 # Comments: 0",
-      "published": "2026-02-25T21:15:45+00:00",
-      "score": 40.0,
-      "headline": "CRITICAL CLAUDE CODE FLAWS EXPOSED by Check Point"
-    },
-    {
-      "id": "b78662b75c01eb98",
-      "title": "Does the First Amendment protect Anthropic from Hegseth?",
-      "url": "https://www.lesswrong.com/posts/GsdGRYbGm3gC8kSrH/does-the-first-amendment-protect-anthropic-from-hegseth",
-      "source": "LessWrong AI",
-      "summary": "Anthropic is embroiled in a standoff with Secretary Hegseth over how the company's AI offerings may be used in military applications: For months, [Anthropic CEO Dario] Amodei has insisted that using AI for domestic mass surveillance and AI-controlled weapons are ethical lines the company will not cross, calling such use \"illegitimate\" and \"prone to abuse.\" According to a source familiar with the Hegseth meeting, Amodeo stressed those positions again on Tuesday. Hegseth has said Anthropic needs to allow the U.S. to use its AI in all \"lawful\" purposes, which could include AI-directed warfare and surveillance. How this all gets hashed out will have important implications for the relationship between the US government and frontier AI companies. I expect many media outlets and commentators to offer views on a plethora of issues related to this clash, but here I want to address a specific consideration that might or might not eventually be relevant. Does the First Amendment protect Anthropic",
-      "published": "2026-02-25T21:00:08+00:00",
-      "score": 40.0,
-      "headline": "Does First Amendment Protect Anthropic from Military?"
-    },
-    {
-      "id": "246fdeb0ca991abe",
-      "title": "Anthropic Has Solved Alignment",
-      "url": "https://www.lesswrong.com/posts/fv6mDtQaC5bneAB8H/anthropic-has-solved-alignment",
-      "source": "LessWrong AI",
-      "summary": "By MP &amp; Claude Opus 4.6A collaborative essay written in real-time during the most consequential week in AI history so far. Yes, the AI co-wrote this. No, it wasn\u2019t alignment-faked. Probably.The Punchline FirstAnthropic has solved alignment. Not AI alignment \u2014 not yet, maybe never. Organizational alignment. The alignment of incentives, strategy, financial structure, and institutional design toward a coherent objective function: save the world.This is simultaneously the most bullish and most terrifying claim you can make about an AI lab.Every person worried about AI on this forum has been asking \u201chow do we align the AI?\u201d while the actually important question was \u201chow do we align the organization building the AI?\u201d Anthropic might have just\u2026 done that. Quietly. While everyone was arguing about Context: The Week Everything Happened at OnceThis essay was born from a conversation on Wednesday, February 25, 2026 \u2014 a week where three major events collided:Monday: Anthropic published evidenc",
-      "published": "2026-02-25T20:24:45+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC CLAIMS AI ALIGNMENT SOLVED"
-    },
-    {
-      "id": "94b177009ed5cfec",
-      "title": "Riley Walz, the Jester of Silicon Valley, Is Joining OpenAI",
-      "url": "https://www.wired.com/story/openai-hires-riley-walz/",
-      "source": "Wired",
-      "summary": "The software engineer is famous for his online stunts. Now he\u2019s joining the company behind ChatGPT to work on new ways for humans to use AI systems.",
-      "published": "2026-02-25T19:59:26+00:00",
-      "score": 40.0,
-      "headline": "VIRAL ENGINEER Riley Walz Joins OpenAI... Silicon Valley Stunts Meet ChatGPT"
-    },
-    {
-      "id": "6584ae0c78f83e6f",
-      "title": "Nvidia Earnings Come at Critical Time for AI-Wary Markets",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-25/nvidia-fourth-quarter-earnings",
-      "source": "Bloomberg Technology",
-      "summary": "",
-      "published": "2026-02-25T19:58:09+00:00",
-      "score": 40.0,
-      "headline": "NVIDIA EARNINGS: AI MARKETS HOLD BREATH"
-    },
-    {
-      "id": "af834cda4ca185e9",
-      "title": "Anthropic Rolls Back Safety Protocols as It Waits to Find Out If It\u2019s Being Drafted by the Army",
-      "url": "https://gizmodo.com/anthropic-rolls-back-safety-protocols-as-it-waits-to-find-out-if-its-being-drafted-by-the-army-2000726567",
-      "source": "Gizmodo",
-      "summary": "Launching missiles for defense is fine, apparently.",
-      "published": "2026-02-25T19:15:59+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC ROLLS BACK SAFETY... Military Draft Looms"
-    },
-    {
-      "id": "beed0d0208b0a4bf",
-      "title": "Trump Summons Amazon, Google, Meta to Sign Power-Cost Pledge",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/trump-summons-amazon-google-meta-to-sign-power-cost-pledge",
-      "source": "Bloomberg Technology",
-      "summary": "President Donald Trump is convening technology executives at the White House next week to sign pledges committing their companies to foot the electricity bill for energy-hungry data centers.",
-      "published": "2026-02-25T18:44:02+00:00",
-      "score": 40.0,
-      "headline": "TRUMP SUMMONS TECH GIANTS FOR POWER PLEDGE"
     }
   ],
-  "generated_at": "2026-02-25T23:26:02.834423"
+  "generated_at": "2026-02-26T01:44:16.406822"
 }
