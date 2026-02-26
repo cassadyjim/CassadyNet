@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Anthropic Military Pressure",
+      "description": "Major controversy as US military pressures Anthropic to drop AI safety measures for Claude, creating a standoff between Pentagon and leading AI safety company.",
+      "question": "Should Anthropic comply with Pentagon demands to drop Claude's safety measures?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropic-military-pressure-20260225",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-pentagon-vs-anthropic-safety-dispute-20260226.html",
+      "started_at": "2026-02-25T01:35:21.014336",
+      "archived_at": "2026-02-26T04:14:18.844206",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Startup Funding Surge",
       "description": "Massive wave of AI startup funding with billions raised across autonomous vehicles, chip companies, and AI infrastructure as investors bet on next-gen AI capabilities.",
       "question": "Is the AI startup funding surge sustainable or heading for a crash?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-chatgpt-advertising-20260118.html",
       "started_at": "2026-01-16T20:28:20.091639",
       "archived_at": "2026-01-18T22:03:53.797645",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Grok Deepfake Controversy",
-      "description": "Global backlash forces restrictions on Musk's Grok AI after sexualized deepfake image generation sparks lawsuits and regulatory action.",
-      "question": "Should app stores remove X over Grok's deepfake capabilities?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "grok-deepfake-controversy-20260116",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-grok-deepfake-controversy-20260116.html",
-      "started_at": "2026-01-16T20:28:07.295679",
-      "archived_at": "2026-01-17T21:11:37.135007",
       "reason": "topic_replaced"
     }
   ]
