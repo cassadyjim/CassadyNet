@@ -179,6 +179,16 @@
       "headline": "JAPAN RAIDS Microsoft Over Azure Monopoly"
     },
     {
+      "id": "0aae50abe7f6e8e6",
+      "title": "MiniMax's agent code has ~90% overlap with Kimi's \u2014 three independent repos document the same finding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1reey6u/minimaxs_agent_code_has_90_overlap_with_kimis/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "I posted about this earlier but it got reported and removed before I had a chance to properly explain how the code was obtained \u2014 fair enough, so here's a more complete writeup. What are &quot;skills&quot; and how were they obtained Besides their open-source models, both Kimi (kimi.com/agent) and MiniMax (agent.minimax.io) run commercial agent platforms. These agents run inside sandboxed server environments and use server-side code packages called &quot;skills&quot; to handle tasks like generating Word, Excel, and PDF files. A skill is a directory containing instruction files, Python scripts, .NET binaries, and other assets \u2014 essentially the agent's operational playbook for producing professional-quality document outputs. None of this code was open-sourced. However, neither platform restricted the agent's access to its own skill directories. Because the agents can read arbitrary paths and write to an output directory, anyone could simply prompt the agent: &quot;Find the skills director",
+      "published": "2026-02-25T14:38:43+00:00",
+      "score": 46.0,
+      "headline": "EXPOSED: MiniMax Agent Code 90% Copied from Kimi"
+    },
+    {
       "id": "062d919cb1c3158f",
       "title": "ETtech Explainer: Decoding Anthropic\u2019s Claude Code update that triggered IBM selloff",
       "url": "https://economictimes.indiatimes.com/tech/technology/ettech-explainer-decoding-anthropics-claude-code-update-that-triggered-ibm-selloff/articleshow/128762388.cms",
@@ -319,16 +329,6 @@
       "headline": "OPENAI THREAT REPORT: Malicious AI Uses Surge"
     },
     {
-      "id": "6035ec649a2cfb88",
-      "title": "Nvidia Has Sold Zero H200s to China, Top US Export Enforcer Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/nvidia-has-sold-zero-h200s-to-china-top-us-export-enforcer-says",
-      "source": "Bloomberg Technology",
-      "summary": "Nvidia Corp. has yet to sell any of its H200 chips to China two months after President Donald Trump\u2019s decision to allow shipments of the artificial intelligence processors to the world\u2019s second-largest economy, according to a US official who helps enforce export controls.",
-      "published": "2026-02-24T22:13:25+00:00",
-      "score": 43.0,
-      "headline": "NVIDIA SELLS ZERO H200s TO CHINA - Export Controls Working"
-    },
-    {
       "id": "e79623c0f7f86a6f",
       "title": "Kyoto University develops AI monk robot equipped with Buddhist scriptures",
       "url": "https://english.kyodonews.net/articles/-/71123",
@@ -347,16 +347,6 @@
       "published": "2026-02-26T05:01:00+00:00",
       "score": 42.0,
       "headline": "Nvidia CHALLENGER Raises $10.25M"
-    },
-    {
-      "id": "05bf92fb25304a00",
-      "title": "Nvidia Gets US License to Ship Some H200 Chips to China",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/nvidia-gets-us-license-to-ship-some-h200-chips-to-china-video",
-      "source": "Bloomberg Technology",
-      "summary": "Nvidia Corp. says it secured a license to ship a small number of its less advanced H200 chips to customers in China, inching forward in its bid to return to the world\u2019s largest semiconductor market. Bloomberg's Annabelle Droulers reports. (Source: Bloomberg)",
-      "published": "2026-02-26T03:08:45+00:00",
-      "score": 42.0,
-      "headline": "Nvidia Gets Green Light for H200 China Sales"
     },
     {
       "id": "cc74de979fd18e81",
@@ -587,6 +577,16 @@
       "published": "2026-02-24T16:44:05+00:00",
       "score": 42.0,
       "headline": "Alibaba Releases Qwen 3.5-35B AI Model"
+    },
+    {
+      "id": "ace43d16cbd934cd",
+      "title": "Show HN: Sleeping LLM \u2013 A language model that remembers by sleeping",
+      "url": "https://github.com/vbario/sleeping-llm",
+      "source": "Hacker News",
+      "summary": "I built a system that gives LLMs persistent memory from conversations \u2014 not through RAG or databases, but by editing the model's actual weights. The knowledge lives in the parameters. The context window is empty.During wake, facts from conversation are injected directly into MLP weights via MEMIT (a single forward pass, instant recall). During sleep, the system audits which memories degraded, refreshes them with null-space constraints (guaranteeing orthogonality to working memories), then progressively transfers knowledge into LoRA \u2014 like biological memory consolidation from hippocampus to neocortex.The key problem was a hard capacity ceiling: the 8B model sustains 0.92 recall up to 13 facts, then crashes to 0.57 at fact 14 \u2014 a sharp phase transition, not gradual decay. And LoRA consolidation was blocked by what I call the \"alignment tax\": RLHF training fights back against injected knowledge (37% recall loss on 8B from a single LoRA pass).The fix: per-fact graduated consolidation. Each",
+      "published": "2026-02-26T06:09:07+00:00",
+      "score": 41.0,
+      "headline": "SLEEPING LLM: Model Remembers by Editing Its Own Weights"
     },
     {
       "id": "4d3f19ec839fb9c5",
@@ -877,17 +877,7 @@
       "published": "2026-02-24T23:12:54+00:00",
       "score": 41.0,
       "headline": "PENTAGON CHIEF THREATENS ANTHROPIC BLACKLIST"
-    },
-    {
-      "id": "75ab2cf3f02d4ab4",
-      "title": "Identity Watchlist System Tied to OpenAI Discovered in Logs",
-      "url": "https://blog.boycat.io/posts/openai-persona-identity-watchlist-infrastructure-investigation-2026",
-      "source": "Hacker News",
-      "summary": "Article URL: https://blog.boycat.io/posts/openai-persona-identity-watchlist-infrastructure-investigation-2026 Comments URL: https://news.ycombinator.com/item?id=47144374 Points: 1 # Comments: 1",
-      "published": "2026-02-24T22:40:44+00:00",
-      "score": 41.0,
-      "headline": "OPENAI IDENTITY WATCHLIST SYSTEM EXPOSED IN LOGS"
     }
   ],
-  "generated_at": "2026-02-26T05:57:14.359950"
+  "generated_at": "2026-02-26T06:56:01.361737"
 }
