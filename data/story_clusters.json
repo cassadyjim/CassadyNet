@@ -169,6 +169,16 @@
   ],
   "unclustered": [
     {
+      "id": "0cba69235b0f66f9",
+      "title": "DeepSeek withholds latest AI model from US chipmakers including Nvidia",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-withholds-latest-ai-model-from-us-chipmakers-including-nvidia/articleshow/128799089.cms",
+      "source": "The Economic Times Tech",
+      "summary": "DeepSeek, the Chinese artificial intelligence lab whose low-cost model rattled global \u200bmarkets last year, has not shown US \u200bchipmakers its upcoming flagship model for performance optimization, two sources familiar with the matter said, breaking \u200bfrom standard industry practice ahead of a major model update.",
+      "published": "2026-02-26T01:13:44+00:00",
+      "score": 48.0,
+      "headline": "DeepSeek BLOCKS US Chipmakers From New AI Model"
+    },
+    {
       "id": "98b680622e9303f8",
       "title": "Microsoft Japan raided over suspected violation of anti-monopoly law, Nikkei says",
       "url": "https://economictimes.indiatimes.com/tech/technology/microsoft-japan-raided-over-suspected-violation-of-anti-monopoly-law-nikkei-says/articleshow/128775442.cms",
@@ -177,6 +187,26 @@
       "published": "2026-02-25T08:31:59+00:00",
       "score": 47.0,
       "headline": "JAPAN RAIDS Microsoft Over Azure Monopoly"
+    },
+    {
+      "id": "3ccf134d99a1fc7a",
+      "title": "DeepSeek withholds latest AI model from Nvidia, AMD",
+      "url": "https://www.reuters.com/world/china/deepseek-withholds-latest-ai-model-us-chipmakers-including-nvidia-sources-say-2026-02-25/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reuters.com/world/china/deepseek-withholds-latest-ai-model-us-chipmakers-including-nvidia-sources-say-2026-02-25/ Comments URL: https://news.ycombinator.com/item?id=47161026 Points: 12 # Comments: 3",
+      "published": "2026-02-26T02:25:43+00:00",
+      "score": 46.0,
+      "headline": "DEEPSEEK BLOCKS NVIDIA, AMD FROM LATEST AI MODEL"
+    },
+    {
+      "id": "0aae50abe7f6e8e6",
+      "title": "MiniMax's agent code has ~90% overlap with Kimi's \u2014 three independent repos document the same finding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1reey6u/minimaxs_agent_code_has_90_overlap_with_kimis/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "I posted about this earlier but it got reported and removed before I had a chance to properly explain how the code was obtained \u2014 fair enough, so here's a more complete writeup. What are &quot;skills&quot; and how were they obtained Besides their open-source models, both Kimi (kimi.com/agent) and MiniMax (agent.minimax.io) run commercial agent platforms. These agents run inside sandboxed server environments and use server-side code packages called &quot;skills&quot; to handle tasks like generating Word, Excel, and PDF files. A skill is a directory containing instruction files, Python scripts, .NET binaries, and other assets \u2014 essentially the agent's operational playbook for producing professional-quality document outputs. None of this code was open-sourced. However, neither platform restricted the agent's access to its own skill directories. Because the agents can read arbitrary paths and write to an output directory, anyone could simply prompt the agent: &quot;Find the skills director",
+      "published": "2026-02-25T14:38:43+00:00",
+      "score": 46.0,
+      "headline": "EXPOSED: MiniMax Agent Code 90% Copied from Kimi"
     },
     {
       "id": "062d919cb1c3158f",
@@ -217,6 +247,16 @@
       "published": "2026-02-25T11:16:48+00:00",
       "score": 45.0,
       "headline": "BYTEDANCE VALUED AT $550B IN SHARE SALE"
+    },
+    {
+      "id": "fb1a3edd2c8eac71",
+      "title": "The looming Taiwan chip disaster that Silicon Valley has long ignored",
+      "url": "https://economictimes.indiatimes.com/tech/technology/the-looming-taiwan-chip-disaster-that-silicon-valley-has-long-ignored/articleshow/128800403.cms",
+      "source": "The Economic Times Tech",
+      "summary": "In secret briefings held in Washington and Silicon Valley, national security officials warned executives from companies like Apple, Advanced Micro Devices and Qualcomm that China was making plans to retake Taiwan, which Beijing has long considered a breakaway territory.",
+      "published": "2026-02-26T03:35:08+00:00",
+      "score": 44.0,
+      "headline": "CHINA PLANS TAIWAN INVASION... SILICON VALLEY WARNED"
     },
     {
       "id": "c6e8947d9c88e73a",
@@ -269,6 +309,16 @@
       "headline": "SILICON VALLEY'S $265M AI LOBBYING WAR"
     },
     {
+      "id": "5921efca636c764a",
+      "title": "Pentagon to spend US$12 billion on surveillance over China\u2019s military build-up in Asia",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3344653/pentagon-spends-us12-billion-surveillance-counter-chinas-military-build-asia?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "The Pentagon plans to spend an additional US$12.6 billion to improve surveillance of China\u2019s military manoeuvres, submarines and satellites as the US tries to counter the \u201cunprecedented Chinese military build-up\u201d in Asia, according to a budget document sent to Congress. The funds, approved by Congress outside the normal budget process, are designed to improve US military readiness, offensive cyber capabilities and surveillance efforts across the Indo-Pacific. It will also help expand operations...",
+      "published": "2026-02-25T18:05:35+00:00",
+      "score": 43.0,
+      "headline": "PENTAGON SPENDS $12B ON CHINA AI SURVEILLANCE"
+    },
+    {
       "id": "7a10877915bfa079",
       "title": "Nano Banana 2 is real\uff01Gemini 3.1 Flash Image just appeared in Vertex AI Catalog",
       "url": "https://news.ycombinator.com/item?id=47150097",
@@ -287,6 +337,16 @@
       "published": "2026-02-25T04:38:18+00:00",
       "score": 43.0,
       "headline": "OPENAI LAUNCHES GPT-5.3-CODEX... CODING WARS HEAT UP"
+    },
+    {
+      "id": "6847fbab798a4398",
+      "title": "AI Spurs Biggest Foreign Buying of Taiwan Stocks in 20 Years",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/ai-spurs-biggest-foreign-buying-of-taiwan-stocks-in-20-years",
+      "source": "Bloomberg Technology",
+      "summary": "Global funds snapped up Taiwanese stocks in their biggest one-day buying spree in two decades, signaling confidence that chipmakers will remain AI-boom beneficiaries, even as broader markets face growing fears of disruption.",
+      "published": "2026-02-25T03:13:46+00:00",
+      "score": 43.0,
+      "headline": "MASSIVE Foreign Buying Spree Hits Taiwan AI Chip Stocks"
     },
     {
       "id": "659b6f30e7752e03",
@@ -309,6 +369,26 @@
       "headline": "Qwen3.5-35B 'Gamechanger' for Agentic Coding"
     },
     {
+      "id": "c9c0a5df837b38c2",
+      "title": "Disrupting malicious uses of AI | February 2026",
+      "url": "https://openai.com/index/disrupting-malicious-ai-uses",
+      "source": "OpenAI Blog",
+      "summary": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms\u2014and what it means for detection and defense.",
+      "published": "2026-02-25T00:00:00+00:00",
+      "score": 43.0,
+      "headline": "OPENAI THREAT REPORT: Malicious AI Uses Surge"
+    },
+    {
+      "id": "6035ec649a2cfb88",
+      "title": "Nvidia Has Sold Zero H200s to China, Top US Export Enforcer Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/nvidia-has-sold-zero-h200s-to-china-top-us-export-enforcer-says",
+      "source": "Bloomberg Technology",
+      "summary": "Nvidia Corp. has yet to sell any of its H200 chips to China two months after President Donald Trump\u2019s decision to allow shipments of the artificial intelligence processors to the world\u2019s second-largest economy, according to a US official who helps enforce export controls.",
+      "published": "2026-02-24T22:13:25+00:00",
+      "score": 43.0,
+      "headline": "NVIDIA SELLS ZERO H200s TO CHINA - Export Controls Working"
+    },
+    {
       "id": "e79623c0f7f86a6f",
       "title": "Kyoto University develops AI monk robot equipped with Buddhist scriptures",
       "url": "https://english.kyodonews.net/articles/-/71123",
@@ -327,6 +407,16 @@
       "published": "2026-02-26T05:01:00+00:00",
       "score": 42.0,
       "headline": "Nvidia CHALLENGER Raises $10.25M"
+    },
+    {
+      "id": "05bf92fb25304a00",
+      "title": "Nvidia Gets US License to Ship Some H200 Chips to China",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/nvidia-gets-us-license-to-ship-some-h200-chips-to-china-video",
+      "source": "Bloomberg Technology",
+      "summary": "Nvidia Corp. says it secured a license to ship a small number of its less advanced H200 chips to customers in China, inching forward in its bid to return to the world\u2019s largest semiconductor market. Bloomberg's Annabelle Droulers reports. (Source: Bloomberg)",
+      "published": "2026-02-26T03:08:45+00:00",
+      "score": 42.0,
+      "headline": "Nvidia Gets Green Light for H200 China Sales"
     },
     {
       "id": "cc74de979fd18e81",
@@ -849,5 +939,5 @@
       "headline": "NVIDIA Rival MatX Raises $500M Mega-Round"
     }
   ],
-  "generated_at": "2026-02-26T08:42:04.562467"
+  "generated_at": "2026-02-26T09:45:18.598836"
 }
