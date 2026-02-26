@@ -179,6 +179,16 @@
       "headline": "JAPAN RAIDS Microsoft Over Azure Monopoly"
     },
     {
+      "id": "0aae50abe7f6e8e6",
+      "title": "MiniMax's agent code has ~90% overlap with Kimi's \u2014 three independent repos document the same finding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1reey6u/minimaxs_agent_code_has_90_overlap_with_kimis/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "I posted about this earlier but it got reported and removed before I had a chance to properly explain how the code was obtained \u2014 fair enough, so here's a more complete writeup. What are &quot;skills&quot; and how were they obtained Besides their open-source models, both Kimi (kimi.com/agent) and MiniMax (agent.minimax.io) run commercial agent platforms. These agents run inside sandboxed server environments and use server-side code packages called &quot;skills&quot; to handle tasks like generating Word, Excel, and PDF files. A skill is a directory containing instruction files, Python scripts, .NET binaries, and other assets \u2014 essentially the agent's operational playbook for producing professional-quality document outputs. None of this code was open-sourced. However, neither platform restricted the agent's access to its own skill directories. Because the agents can read arbitrary paths and write to an output directory, anyone could simply prompt the agent: &quot;Find the skills director",
+      "published": "2026-02-25T14:38:43+00:00",
+      "score": 46.0,
+      "headline": "EXPOSED: MiniMax Agent Code 90% Copied from Kimi"
+    },
+    {
       "id": "062d919cb1c3158f",
       "title": "ETtech Explainer: Decoding Anthropic\u2019s Claude Code update that triggered IBM selloff",
       "url": "https://economictimes.indiatimes.com/tech/technology/ettech-explainer-decoding-anthropics-claude-code-update-that-triggered-ibm-selloff/articleshow/128762388.cms",
@@ -187,6 +197,16 @@
       "published": "2026-02-25T00:30:00+00:00",
       "score": 46.0,
       "headline": "CLAUDE COBOL Claims WIPE $30B Off IBM"
+    },
+    {
+      "id": "87dacd3698966bdf",
+      "title": "Anthropic acquires Vercept to advance Claude's computer use",
+      "url": "https://www.anthropic.com/news/acquires-vercept",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.anthropic.com/news/acquires-vercept Comments URL: https://news.ycombinator.com/item?id=47154254 Points: 1 # Comments: 0",
+      "published": "2026-02-25T17:02:45+00:00",
+      "score": 45.0,
+      "headline": "ANTHROPIC ACQUIRES VERCEPT... Claude Computer Use Gets Major Boost"
     },
     {
       "id": "45271f98b82bd976",
@@ -247,6 +267,16 @@
       "published": "2026-02-24T16:44:13+00:00",
       "score": 44.0,
       "headline": "QWEN 3.5-122B MODEL DROPS... Alibaba's Massive AI Breakthrough"
+    },
+    {
+      "id": "ab374f87f2b8d4c0",
+      "title": "India's sovereign LLM told to dismiss 'pogrom', 'genocide' as foreign opinion",
+      "url": "https://pop.rdi.sh/sovereignty-in-a-system-prompt/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://pop.rdi.sh/sovereignty-in-a-system-prompt/ Comments URL: https://news.ycombinator.com/item?id=47137013 Points: 2 # Comments: 1",
+      "published": "2026-02-24T13:38:54+00:00",
+      "score": 44.0,
+      "headline": "INDIA'S AI CENSORS 'Pogrom' and 'Genocide' Terms"
     },
     {
       "id": "d093fc516cedd5ad",
@@ -659,6 +689,26 @@
       "headline": "META STRIKES $100B AMD CHIP DEAL FOR 'SUPERINTELLIGENCE'"
     },
     {
+      "id": "fa91799185efeeef",
+      "title": "AI Chip Startup MatX Raises $500 Million to Compete With Nvidia",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/ai-chip-startup-matx-raises-500-million-to-compete-with-nvidia",
+      "source": "Bloomberg Technology",
+      "summary": "MatX, an AI chip startup founded by two alumni of Google\u2019s semiconductor business, has raised more than $500 million in a new funding round to produce hardware that competes with Nvidia Corp.",
+      "published": "2026-02-24T13:00:02+00:00",
+      "score": 42.0,
+      "headline": "MATX RAISES $500M TO CHALLENGE NVIDIA CHIPS"
+    },
+    {
+      "id": "2be84f452cc6372d",
+      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
+      "source": "Google AI Blog",
+      "summary": "Nano Banana 2 text with AI generated images around it",
+      "published": "2026-02-26T16:00:00+00:00",
+      "score": 41.0,
+      "headline": "NANO BANANA 2 COMBINES PRO POWER WITH FLASH SPEED"
+    },
+    {
       "id": "d816933aa50b587f",
       "title": "Google is serving straight-up malware as the top result for Claude Code",
       "url": "https://minimumviableposts.substack.com/p/google-is-serving-straight-up-malware",
@@ -817,47 +867,7 @@
       "published": "2026-02-25T21:59:07+00:00",
       "score": 41.0,
       "headline": "NVIDIA FIRST $200BN YEAR on AI Boom"
-    },
-    {
-      "id": "753ef401a6a95b38",
-      "title": "GPT-5.2 returns empty string on sacred concepts \u2013 18/18 void, 0/5 controls",
-      "url": "https://github.com/theonlypal/Alignment-Artifact",
-      "source": "Hacker News",
-      "summary": "Article URL: https://github.com/theonlypal/Alignment-Artifact Comments URL: https://news.ycombinator.com/item?id=47156767 Points: 1 # Comments: 0",
-      "published": "2026-02-25T19:44:12+00:00",
-      "score": 41.0,
-      "headline": "GPT-5.2 GOES SILENT ON SACRED CONCEPTS... Alignment Bug Exposed"
-    },
-    {
-      "id": "da13a55ea458ee29",
-      "title": "Andrej Karpathy: Programming Changed More in the Last 2 Months Than in Years",
-      "url": "https://www.reddit.com/r/singularity/comments/1remuz1/andrej_karpathy_programming_changed_more_in_the/",
-      "source": "Reddit r/singularity",
-      "summary": "Karpathy says coding agents crossed a reliability threshold in December and can now handle long, multi-step tasks autonomously. He describes this as a major shift from writing code manually to orchestrating AI agents. Source: Andrej Tweet &#32; submitted by &#32; /u/BuildwithVignesh [link] &#32; [comments]",
-      "published": "2026-02-25T19:16:49+00:00",
-      "score": 41.0,
-      "headline": "KARPATHY: Programming Changed More in 2 Months Than Years... AI Agents Hit Reliability Threshold"
-    },
-    {
-      "id": "c30c5a2795d489bc",
-      "title": "Anthropic weakens its safety pledge in the wake of the Pentagon's pressure campaign",
-      "url": "https://www.engadget.com/ai/anthropic-weakens-its-safety-pledge-in-the-wake-of-the-pentagons-pressure-campaign-183436413.html?src=rss",
-      "source": "Engadget",
-      "summary": "Two stories about the Claude maker Anthropic broke on Tuesday that, when combined, arguably paint a chilling picture. First, US Defense Secretary Pete Hegseth is reportedly pressuring Anthropic to yield its AI safeguards and give the military unrestrained access to its Claude AI chatbot. The company then chose the same day that the Hegseth news broke to drop its centerpiece safety pledge.On Tuesday, Anthropic said it was modifying its Responsible Scaling Policy (RSP) to lower safety guardrails. Up until now, the company's core pledge has been to stop training new AI models unless specific safety guidelines can be guaranteed in advance. This policy, which set hard tripwires to halt development, was a big part of Anthropic's pitch to businesses and consumers.\u201cTwo and a half years later, our honest assessment is that some parts of this theory of change have played out as we hoped, but others have not,\u201d Anthropic wrote. Now, its updated policy approaches safety relatively, rather than with",
-      "published": "2026-02-25T18:34:36+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC CAVES TO PENTAGON PRESSURE"
-    },
-    {
-      "id": "66c82b9e2b483cf3",
-      "title": "Official: Seedance 2.0 now live in CapCut desktop and API access available, details below",
-      "url": "https://www.reddit.com/r/singularity/comments/1rekvm8/official_seedance_20_now_live_in_capcut_desktop/",
-      "source": "Reddit r/singularity",
-      "summary": "Now Live in Capcut, Seedance 2.0 is ByteDance's new multimodal AI video model (released Feb 12, 2026). It generates cinematic clips from text, images, audio or video references with director-level control over motion, lighting, camera moves, physics and native audio/lip-sync. Super realistic and controllable; already live in tools like Dreamina. Official Site API availability *Source: Capcut/ ByteDance AI &#32; submitted by &#32; /u/BuildwithVignesh [link] &#32; [comments]",
-      "published": "2026-02-25T18:08:57+00:00",
-      "score": 41.0,
-      "headline": "OFFICIAL: ByteDance's Seedance 2.0 Launches in CapCut"
     }
   ],
-  "generated_at": "2026-02-26T15:51:46.591621"
+  "generated_at": "2026-02-26T16:54:56.922639"
 }
