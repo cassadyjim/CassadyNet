@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "China AI Operations and Influence",
+      "description": "Chinese entities are using AI tools for propaganda campaigns and influence operations while facing restrictions from US companies.",
+      "question": "Should US tech companies completely cut off China from AI access?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "china-ai-operations-and-influence-20260226",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-cyber-warfare-operations-20260227.html",
+      "started_at": "2026-02-26T01:44:27.384334",
+      "archived_at": "2026-02-27T07:44:38.278899",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China AI Influence Operations",
       "description": "Multiple revelations show Chinese entities using AI systems like ChatGPT and copying AI code for propaganda and intelligence operations.",
       "question": "Should AI companies do more to prevent Chinese misuse of their systems?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-claude-ai-dominance-20260118.html",
       "started_at": "2026-01-18T22:03:47.867310",
       "archived_at": "2026-01-20T17:09:05.114251",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Chip Trade War",
-      "description": "Trump's tariffs and export restrictions on AI chips to China are escalating US-China tech tensions while China develops alternatives.",
-      "question": "Will US tariffs on AI chips accelerate or delay China's tech independence?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-chip-trade-war-20260116",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-china-us-chip-trade-war-20260118.html",
-      "started_at": "2026-01-16T20:28:47.438004",
-      "archived_at": "2026-01-19T20:26:18.557169",
       "reason": "topic_replaced"
     }
   ]
