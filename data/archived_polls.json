@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "China AI Influence Operations",
+      "description": "Multiple revelations show Chinese entities using AI systems like ChatGPT and copying AI code for propaganda and intelligence operations.",
+      "question": "Should AI companies do more to prevent Chinese misuse of their systems?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "china-ai-influence-operations-20260226",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-influence-operations-20260226.html",
+      "started_at": "2026-02-26T04:14:14.336776",
+      "archived_at": "2026-02-27T05:50:31.566799",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic Military Pressure",
       "description": "Major controversy as US military pressures Anthropic to drop AI safety measures for Claude, creating a standoff between Pentagon and leading AI safety company.",
       "question": "Should Anthropic comply with Pentagon demands to drop Claude's safety measures?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-china-us-chip-trade-war-20260118.html",
       "started_at": "2026-01-16T20:28:47.438004",
       "archived_at": "2026-01-19T20:26:18.557169",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI Advertising Push",
-      "description": "OpenAI launches advertising in ChatGPT to reduce costs and generate revenue amid massive spending.",
-      "question": "Should OpenAI introduce ads in ChatGPT to fund its operations?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-advertising-push-20260116",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-openai-chatgpt-advertising-20260118.html",
-      "started_at": "2026-01-16T20:28:20.091639",
-      "archived_at": "2026-01-18T22:03:53.797645",
       "reason": "topic_replaced"
     }
   ]
