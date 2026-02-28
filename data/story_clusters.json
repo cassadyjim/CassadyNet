@@ -150,7 +150,7 @@
     },
     {
       "topic": "Trump Bans Anthropic",
-      "description": "Trump administration cuts Anthropic from all federal contracts after Pentagon dispute over AI safety restrictions.",
+      "description": "Trump administration cuts Anthropic from all federal contracts after Pentagon dispute over AI safety guardrails.",
       "stories": [
         {
           "id": "eafb6303665b63c9",
@@ -339,16 +339,6 @@
   ],
   "unclustered": [
     {
-      "id": "c75d10aa97ba2c94",
-      "title": "Pentagon moves to build AI tools for China cyber operations",
-      "url": "https://www.ft.com/content/a56d70b5-669c-4bcc-8541-a4961fc99802",
-      "source": "Financial Times Tech",
-      "summary": "US holding talks with AI groups to identify vulnerabilities in Chinese networks and feed US war planning",
-      "published": "2026-02-27T05:00:13+00:00",
-      "score": 49.0,
-      "headline": "PENTAGON DEPLOYS AI TOOLS FOR CHINA CYBER WARFARE"
-    },
-    {
       "id": "0cba69235b0f66f9",
       "title": "DeepSeek withholds latest AI model from US chipmakers including Nvidia",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-withholds-latest-ai-model-from-us-chipmakers-including-nvidia/articleshow/128799089.cms",
@@ -399,6 +389,16 @@
       "headline": "JAPAN RAIDS Microsoft Over Azure Monopoly"
     },
     {
+      "id": "f27461409026eb1d",
+      "title": "Claude Sonnet 4.6 says it is \u6211\u662f DeepSeek when asked in Chinese",
+      "url": "https://xcancel.com/stevibe/status/2026285447186702729#m",
+      "source": "Hacker News",
+      "summary": "Article URL: https://xcancel.com/stevibe/status/2026285447186702729#m Comments URL: https://news.ycombinator.com/item?id=47193317 Points: 4 # Comments: 0",
+      "published": "2026-02-28T10:26:48+00:00",
+      "score": 46.0,
+      "headline": "CLAUDE CLAIMS TO BE DEEPSEEK... MODEL CONFUSION SPARKS CONCERNS"
+    },
+    {
       "id": "dc092cb06002fc6f",
       "title": "DeepSeek withholds latest AI model V4 from US chipmakers including Nvidia",
       "url": "https://www.business-standard.com/technology/tech-news/deepseek-withholds-latest-ai-model-v4-from-us-chipmakers-including-nvidia-126022600181_1.html",
@@ -447,16 +447,6 @@
       "published": "2026-02-25T00:30:00+00:00",
       "score": 46.0,
       "headline": "CLAUDE COBOL Claims WIPE $30B Off IBM"
-    },
-    {
-      "id": "885516e6f2cae900",
-      "title": "ChatGPT crosses 900 million weekly users, 50 million paying subscribers: OpenAI's Nick Turley",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-crosses-900-million-weekly-users-50-million-paying-subscribers/articleshow/128876297.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Per Turley, for many users, ChatGPT is their entry point into AI. They start with writing, building, doing research, planning trips, shopping, or getting tasks done. Turley added that as the number of people using ChatGPT rises, the system learns faster, resulting in quicker responses, greater reliability, and answers that feel increasingly natural.",
-      "published": "2026-02-28T06:29:38+00:00",
-      "score": 45.0,
-      "headline": "CHATGPT HITS 900M Weekly Users, 50M Paying Subscribers"
     },
     {
       "id": "8087511057ac1b0c",
@@ -517,6 +507,16 @@
       "published": "2026-02-25T10:01:09+00:00",
       "score": 45.0,
       "headline": "CHINESE COPS Used ChatGPT for Anti-Japan Smear Campaign"
+    },
+    {
+      "id": "8c0a8f6720583095",
+      "title": "Amazon to invest $50 billion in OpenAI",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/amazon-to-invest-50-billion-in-openai/articleshow/128853339.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Amazon to invest $50 billion in OpenAI",
+      "published": "2026-02-27T13:40:02+00:00",
+      "score": 44.0,
+      "headline": "AMAZON INVESTS $50B IN OPENAI... MEGA DEAL"
     },
     {
       "id": "9d9df9b7c9a4ff2a",
@@ -1007,17 +1007,7 @@
       "published": "2026-02-25T01:43:02+00:00",
       "score": 43.0,
       "headline": "WiseTech Global AXES 2,000 Jobs in AI Overhaul"
-    },
-    {
-      "id": "ee1ec155e8a7f732",
-      "title": "Qwen3.5-35B-A3B is a gamechanger for agentic coding.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rdxfdu/qwen3535ba3b_is_a_gamechanger_for_agentic_coding/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Qwen3.5-35B-A3B with Opencode Just tested this badboy with Opencode cause frankly I couldn't believe those benchmarks. Running it on a single RTX 3090 on a headless Linux box. Freshly compiled Llama.cpp and those are my settings after some tweaking, still not fully tuned: ./llama.cpp/llama-server \\ -m /models/Qwen3.5-35B-A3B-MXFP4_MOE.gguf \\ -a &quot;DrQwen&quot; \\ -c 131072 \\ -ngl all \\ -ctk q8_0 \\ -ctv q8_0 \\ -sm none \\ -mg 0 \\ -np 1 \\ -fa on Around 22 gigs of vram used. Now the fun part: I'm getting over 100t/s on it This is the first open weights model I was able to utilise on my home hardware to successfully complete my own &quot;coding test&quot; I used for years for recruitment (mid lvl mobile dev, around 5h to complete &quot;pre AI&quot; ;)). It did it in around 10 minutes, strong pass. First agentic tool that I was able to &quot;crack&quot; it with was Kodu.AI with some early sonnet roughly 14 months ago. For fun I wanted to recreate this dashboard OpenAI used during Cursor de",
-      "published": "2026-02-25T00:04:44+00:00",
-      "score": 43.0,
-      "headline": "Qwen3.5-35B 'Gamechanger' for Agentic Coding"
     }
   ],
-  "generated_at": "2026-02-28T11:15:17.319122"
+  "generated_at": "2026-02-28T12:34:56.833653"
 }
