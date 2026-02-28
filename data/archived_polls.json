@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "China AI Cyber Operations",
+      "description": "Widespread Chinese influence operations and cyber warfare using AI tools including ChatGPT and DeepSeek restrictions.",
+      "question": "Should the US prioritize offensive cyber capabilities or defensive cooperation against China's AI operations?",
+      "button_a": "Capabilities",
+      "button_b": "Defensive",
+      "poll_id": "china-ai-cyber-operations-20260227",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-cyber-operations-20260228.html",
+      "started_at": "2026-02-27T08:37:34.275348",
+      "archived_at": "2026-02-28T09:22:24.481394",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China AI Operations and Influence",
       "description": "Chinese entities are using AI tools for propaganda campaigns and influence operations while facing restrictions from US companies.",
       "question": "Should US tech companies completely cut off China from AI access?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-claude-ai-agent-development-20260119.html",
       "started_at": "2026-01-19T20:26:08.838601",
       "archived_at": "2026-01-21T22:15:59.734439",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Claude AI Dominance",
-      "description": "Anthropic's Claude is rapidly expanding with new coding tools, sharing features, and agent capabilities across multiple platforms.",
-      "question": "",
-      "button_a": "N/A",
-      "button_b": "N/A",
-      "poll_id": "claude-ai-dominance-20260118",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-claude-ai-dominance-20260118.html",
-      "started_at": "2026-01-18T22:03:47.867310",
-      "archived_at": "2026-01-20T17:09:05.114251",
       "reason": "topic_replaced"
     }
   ]
