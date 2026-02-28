@@ -149,8 +149,8 @@
       "story_count": 14
     },
     {
-      "topic": "Trump Bans Anthropic",
-      "description": "Trump administration cuts Anthropic from all federal contracts while OpenAI secures Pentagon deals, reshaping government AI partnerships.",
+      "topic": "Trump Bans Anthropic from Government",
+      "description": "Trump administration orders federal agencies to stop using Anthropic's Claude AI, citing political concerns and Pentagon conflicts.",
       "stories": [
         {
           "id": "eafb6303665b63c9",
@@ -161,16 +161,6 @@
           "published": "2026-02-27T21:20:28+00:00",
           "score": 49.0,
           "headline": "TRUMP CUTS ANTHROPIC FROM GOV CONTRACTS... SIX MONTH DEADLINE"
-        },
-        {
-          "id": "0e134776c5c8a50c",
-          "title": "OpenAI to work with Pentagon after Anthropic dropped by Trump over company\u2019s ethics concerns",
-          "url": "https://www.theguardian.com/technology/2026/feb/28/openai-us-military-anthropic",
-          "source": "The Guardian Tech",
-          "summary": "CEO Sam Altman claims military will not use AI product for autonomous killing systems or mass surveillanceOpenAI said it had struck a deal with the Pentagon to supply AI to classified US military networks, hours after Donald Trump ordered the government to stop using the services of one of the company\u2019s main competitors.Sam Altman, OpenAI\u2019s CEO, announced the move on Friday night. It came after an agreement between Anthropic, a rival AI company that runs the Claude system, and the Trump administration broke down after Anthropic sought assurances its technology would not be used for mass surveillance \u2013 nor for autonomous weapons systems that can kill people without human input. Continue reading...",
-          "published": "2026-02-28T17:06:56+00:00",
-          "score": 46.0,
-          "headline": "OPENAI STRIKES PENTAGON DEAL AFTER TRUMP BOOTS ANTHROPIC"
         },
         {
           "id": "74dbfc92c3165eac",
@@ -191,16 +181,6 @@
           "published": "2026-02-27T17:20:24+00:00",
           "score": 46.0,
           "headline": "AI RIVALS BACK ANTHROPIC... Industry United Against Pentagon"
-        },
-        {
-          "id": "3eb17112afe98641",
-          "title": "OpenAI\u2019s Sam Altman announces Pentagon deal with \u2018technical safeguards\u2019",
-          "url": "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/",
-          "source": "TechCrunch AI",
-          "summary": "OpenAI's CEO claims its new defense contract includes protections addressing the same issues that became a flashpoint for Anthropic.",
-          "published": "2026-02-28T16:17:36+00:00",
-          "score": 45.0,
-          "headline": "OPENAI STRIKES PENTAGON DEAL... Anthropic Out"
         },
         {
           "id": "4f5a28168c60b349",
@@ -344,10 +324,20 @@
         }
       ],
       "top_score": 49.0,
-      "story_count": 19
+      "story_count": 17
     }
   ],
   "unclustered": [
+    {
+      "id": "c75d10aa97ba2c94",
+      "title": "Pentagon moves to build AI tools for China cyber operations",
+      "url": "https://www.ft.com/content/a56d70b5-669c-4bcc-8541-a4961fc99802",
+      "source": "Financial Times Tech",
+      "summary": "US holding talks with AI groups to identify vulnerabilities in Chinese networks and feed US war planning",
+      "published": "2026-02-27T05:00:13+00:00",
+      "score": 49.0,
+      "headline": "PENTAGON DEPLOYS AI TOOLS FOR CHINA CYBER WARFARE"
+    },
     {
       "id": "0cba69235b0f66f9",
       "title": "DeepSeek withholds latest AI model from US chipmakers including Nvidia",
@@ -467,6 +457,16 @@
       "published": "2026-02-25T00:30:00+00:00",
       "score": 46.0,
       "headline": "CLAUDE COBOL Claims WIPE $30B Off IBM"
+    },
+    {
+      "id": "885516e6f2cae900",
+      "title": "ChatGPT crosses 900 million weekly users, 50 million paying subscribers: OpenAI's Nick Turley",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-crosses-900-million-weekly-users-50-million-paying-subscribers/articleshow/128876297.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Per Turley, for many users, ChatGPT is their entry point into AI. They start with writing, building, doing research, planning trips, shopping, or getting tasks done. Turley added that as the number of people using ChatGPT rises, the system learns faster, resulting in quicker responses, greater reliability, and answers that feel increasingly natural.",
+      "published": "2026-02-28T06:29:38+00:00",
+      "score": 45.0,
+      "headline": "CHATGPT HITS 900M Weekly Users, 50M Paying Subscribers"
     },
     {
       "id": "8087511057ac1b0c",
@@ -1029,5 +1029,5 @@
       "headline": "PENTAGON SPENDS $12B ON CHINA AI SURVEILLANCE"
     }
   ],
-  "generated_at": "2026-02-28T22:18:32.126517"
+  "generated_at": "2026-02-28T23:17:48.892260"
 }
