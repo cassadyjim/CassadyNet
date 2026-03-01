@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "Trump Bans Anthropic from Government",
-      "description": "Trump administration cuts Anthropic from federal contracts while OpenAI secures Pentagon deals, reshaping AI in government.",
+      "topic": "OpenAI Pentagon Deal & Anthropic Government Ban",
+      "description": "Major shift in government AI contracts as Trump bans Anthropic while OpenAI secures Pentagon deployment on classified networks.",
       "stories": [
         {
           "id": "eafb6303665b63c9",
@@ -13,6 +13,16 @@
           "published": "2026-02-27T21:20:28+00:00",
           "score": 49.0,
           "headline": "TRUMP CUTS ANTHROPIC FROM GOV CONTRACTS... SIX MONTH DEADLINE"
+        },
+        {
+          "id": "c75d10aa97ba2c94",
+          "title": "Pentagon moves to build AI tools for China cyber operations",
+          "url": "https://www.ft.com/content/a56d70b5-669c-4bcc-8541-a4961fc99802",
+          "source": "Financial Times Tech",
+          "summary": "US holding talks with AI groups to identify vulnerabilities in Chinese networks and feed US war planning",
+          "published": "2026-02-27T05:00:13+00:00",
+          "score": 49.0,
+          "headline": "PENTAGON DEPLOYS AI TOOLS FOR CHINA CYBER WARFARE"
         },
         {
           "id": "0e134776c5c8a50c",
@@ -53,6 +63,16 @@
           "published": "2026-02-27T22:06:22+00:00",
           "score": 46.0,
           "headline": "TRUMP BANS ANTHROPIC FROM ALL FEDERAL AGENCIES"
+        },
+        {
+          "id": "93a413d2eafb3b98",
+          "title": "Rivals support Anthropic in AI standoff with Pentagon",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/rivals-support-anthropic-in-ai-standoff-with-pentagon/articleshow/128860525.cms",
+          "source": "The Economic Times Tech",
+          "summary": "At the heart of the dispute is Anthropic's refusal to allow its Claude models to be used for the mass surveillance of US citizens or deployed in fully autonomous weapons systems. An open letter titled \"We Will Not Be Divided,\" signed as of Friday by 336 Google DeepMind staffers and 68 from OpenAI, called on tech leaders to hold the line together.",
+          "published": "2026-02-27T17:20:24+00:00",
+          "score": 46.0,
+          "headline": "AI RIVALS BACK ANTHROPIC... Industry United Against Pentagon"
         },
         {
           "id": "1d1de52762ba5e8e",
@@ -286,11 +306,11 @@
         }
       ],
       "top_score": 49.0,
-      "story_count": 28
+      "story_count": 30
     },
     {
-      "topic": "OpenAI Raises $110B Record Funding",
-      "description": "OpenAI secures massive $110B funding round at $730B valuation with Amazon and Nvidia backing, marking largest AI investment ever.",
+      "topic": "OpenAI Record $110B Funding Round",
+      "description": "OpenAI raises historic $110B at $730B valuation with major investments from Amazon, NVIDIA, and other tech giants.",
       "stories": [
         {
           "id": "438717494fbc3e91",
@@ -321,6 +341,16 @@
           "published": "2026-02-27T05:30:00+00:00",
           "score": 46.0,
           "headline": "OPENAI AND AMAZON ANNOUNCE STRATEGIC PARTNERSHIP"
+        },
+        {
+          "id": "885516e6f2cae900",
+          "title": "ChatGPT crosses 900 million weekly users, 50 million paying subscribers: OpenAI's Nick Turley",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-crosses-900-million-weekly-users-50-million-paying-subscribers/articleshow/128876297.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Per Turley, for many users, ChatGPT is their entry point into AI. They start with writing, building, doing research, planning trips, shopping, or getting tasks done. Turley added that as the number of people using ChatGPT rises, the system learns faster, resulting in quicker responses, greater reliability, and answers that feel increasingly natural.",
+          "published": "2026-02-28T06:29:38+00:00",
+          "score": 45.0,
+          "headline": "CHATGPT HITS 900M Weekly Users, 50M Paying Subscribers"
         },
         {
           "id": "0d02da4d1b69add1",
@@ -394,20 +424,10 @@
         }
       ],
       "top_score": 48.0,
-      "story_count": 10
+      "story_count": 11
     }
   ],
   "unclustered": [
-    {
-      "id": "c75d10aa97ba2c94",
-      "title": "Pentagon moves to build AI tools for China cyber operations",
-      "url": "https://www.ft.com/content/a56d70b5-669c-4bcc-8541-a4961fc99802",
-      "source": "Financial Times Tech",
-      "summary": "US holding talks with AI groups to identify vulnerabilities in Chinese networks and feed US war planning",
-      "published": "2026-02-27T05:00:13+00:00",
-      "score": 49.0,
-      "headline": "PENTAGON DEPLOYS AI TOOLS FOR CHINA CYBER WARFARE"
-    },
     {
       "id": "0cba69235b0f66f9",
       "title": "DeepSeek withholds latest AI model from US chipmakers including Nvidia",
@@ -449,16 +469,6 @@
       "headline": "CLAUDE CLAIMS TO BE DEEPSEEK... MODEL CONFUSION SPARKS CONCERNS"
     },
     {
-      "id": "93a413d2eafb3b98",
-      "title": "Rivals support Anthropic in AI standoff with Pentagon",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/rivals-support-anthropic-in-ai-standoff-with-pentagon/articleshow/128860525.cms",
-      "source": "The Economic Times Tech",
-      "summary": "At the heart of the dispute is Anthropic's refusal to allow its Claude models to be used for the mass surveillance of US citizens or deployed in fully autonomous weapons systems. An open letter titled \"We Will Not Be Divided,\" signed as of Friday by 336 Google DeepMind staffers and 68 from OpenAI, called on tech leaders to hold the line together.",
-      "published": "2026-02-27T17:20:24+00:00",
-      "score": 46.0,
-      "headline": "AI RIVALS BACK ANTHROPIC... Industry United Against Pentagon"
-    },
-    {
       "id": "dc092cb06002fc6f",
       "title": "DeepSeek withholds latest AI model V4 from US chipmakers including Nvidia",
       "url": "https://www.business-standard.com/technology/tech-news/deepseek-withholds-latest-ai-model-v4-from-us-chipmakers-including-nvidia-126022600181_1.html",
@@ -477,16 +487,6 @@
       "published": "2026-02-26T02:25:43+00:00",
       "score": 46.0,
       "headline": "DEEPSEEK BLOCKS NVIDIA, AMD FROM LATEST AI MODEL"
-    },
-    {
-      "id": "885516e6f2cae900",
-      "title": "ChatGPT crosses 900 million weekly users, 50 million paying subscribers: OpenAI's Nick Turley",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-crosses-900-million-weekly-users-50-million-paying-subscribers/articleshow/128876297.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Per Turley, for many users, ChatGPT is their entry point into AI. They start with writing, building, doing research, planning trips, shopping, or getting tasks done. Turley added that as the number of people using ChatGPT rises, the system learns faster, resulting in quicker responses, greater reliability, and answers that feel increasingly natural.",
-      "published": "2026-02-28T06:29:38+00:00",
-      "score": 45.0,
-      "headline": "CHATGPT HITS 900M Weekly Users, 50M Paying Subscribers"
     },
     {
       "id": "8087511057ac1b0c",
@@ -547,6 +547,16 @@
       "published": "2026-02-26T03:35:08+00:00",
       "score": 44.0,
       "headline": "CHINA PLANS TAIWAN INVASION... SILICON VALLEY WARNED"
+    },
+    {
+      "id": "bf9c096b8bc8cbb1",
+      "title": "China Wins The Pentagon-Anthropic Brawl",
+      "url": "https://www.wsj.com/opinion/anthropic-donald-trump-pentagon-ai-china-u-s-military-467dd6de",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.wsj.com/opinion/anthropic-donald-trump-pentagon-ai-china-u-s-military-467dd6de Comments URL: https://news.ycombinator.com/item?id=47205744 Points: 2 # Comments: 0",
+      "published": "2026-03-01T11:23:36+00:00",
+      "score": 43.0,
+      "headline": "China Wins Pentagon-Anthropic AI Battle - WSJ"
     },
     {
       "id": "3bf6b1d117912434",
@@ -809,6 +819,16 @@
       "headline": "PENTAGON MOVES TO BLACKLIST ANTHROPIC"
     },
     {
+      "id": "dcb73a3d4777c32d",
+      "title": "What to know about the clash between the Pentagon and Anthropic over military's AI use",
+      "url": "https://economictimes.indiatimes.com/tech/technology/what-to-know-about-the-clash-between-the-pentagon-and-anthropic-over-militarys-ai-use/articleshow/128915226.cms",
+      "source": "The Economic Times Tech",
+      "summary": "President Donald Trump and Hegseth accused rising AI star Anthropic of endangering national security after its CEO Dario Amodei refused to back down over concerns the company's products could be used for mass surveillance or autonomous armed drones.",
+      "published": "2026-03-01T12:14:57+00:00",
+      "score": 42.0,
+      "headline": "PENTAGON CLASHES WITH ANTHROPIC Over Military AI Use"
+    },
+    {
       "id": "79110b26626f6a50",
       "title": "Anthropic CEO Dario Amodei says \u2018we are patriotic Americans\u2019 committed to defending the U.S. but won\u2019t budge on \u2018red lines\u2019",
       "url": "https://fortune.com/2026/02/28/anthropic-ceo-dario-amodei-patriotic-americans-trump-hegseth-mass-surveillance-autonomous-weapons/",
@@ -997,27 +1017,7 @@
       "published": "2026-02-27T15:16:10+00:00",
       "score": 42.0,
       "headline": "OPENCLAW AI AGENTS DESTROY SERVERS... CATASTROPHIC FAILURES FOUND"
-    },
-    {
-      "id": "ccd8a090937189f1",
-      "title": "OpenAI Finalizes Funding Round at $730 Billion Valuation",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/openai-finalizes-funding-round-at-730-billion-valuation-video",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI raised $110 billion in funding. Investors include Amazon, SoftBank and Nvidia. It's part of the ChatGPT maker's push to secure more computing power and talent for AI development. Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
-      "published": "2026-02-27T14:20:21+00:00",
-      "score": 42.0,
-      "headline": "OPENAI FINALIZES $110B ROUND AT $730B VALUATION"
-    },
-    {
-      "id": "36c553942144385d",
-      "title": "Anthropic Escalates Pentagon AI Feud",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/anthropic-escalates-pentagon-ai-feud-video",
-      "source": "Bloomberg Technology",
-      "summary": "Anthropic has rejected the Pentagon\u2019s latest offer in a dispute over safeguards around the use of its AI technology by the US military. The company continues to insist on two specific restrictions: It doesn\u2019t want its technology used for surveillance of US citizens or for autonomous lethal strikes without a human in the loop. Bloomberg Opinion's Parmy Olson breaks down the situation. Her opinions are her own. (Source: Bloomberg)",
-      "published": "2026-02-27T14:19:43+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC ESCALATES PENTAGON AI FEUD"
     }
   ],
-  "generated_at": "2026-03-01T11:17:05.676513"
+  "generated_at": "2026-03-01T12:37:21.201538"
 }
