@@ -2,7 +2,7 @@
   "clusters": [
     {
       "topic": "Trump Bans Anthropic from Government",
-      "description": "Major political move as Trump administration cuts Anthropic from all federal contracts while OpenAI gains Pentagon access.",
+      "description": "Trump administration orders federal agencies to stop using Anthropic's AI after Pentagon partnership disputes, marking a major shift in government AI contracts.",
       "stories": [
         {
           "id": "eafb6303665b63c9",
@@ -219,9 +219,19 @@
       "story_count": 21
     },
     {
-      "topic": "OpenAI Massive Funding and Pentagon Deal",
-      "description": "OpenAI secures record $110B funding at $730B valuation while simultaneously landing major Pentagon military AI contracts.",
+      "topic": "OpenAI Pentagon Partnership & Funding",
+      "description": "OpenAI secures massive Pentagon contracts for classified networks while raising record $110B funding at $730B valuation, solidifying its military AI dominance.",
       "stories": [
+        {
+          "id": "c75d10aa97ba2c94",
+          "title": "Pentagon moves to build AI tools for China cyber operations",
+          "url": "https://www.ft.com/content/a56d70b5-669c-4bcc-8541-a4961fc99802",
+          "source": "Financial Times Tech",
+          "summary": "US holding talks with AI groups to identify vulnerabilities in Chinese networks and feed US war planning",
+          "published": "2026-02-27T05:00:13+00:00",
+          "score": 49.0,
+          "headline": "PENTAGON DEPLOYS AI TOOLS FOR CHINA CYBER WARFARE"
+        },
         {
           "id": "438717494fbc3e91",
           "title": "Scaling AI for everyone",
@@ -301,6 +311,16 @@
           "published": "2026-02-28T12:30:00+00:00",
           "score": 45.0,
           "headline": "OPENAI REVEALS 'DEPARTMENT OF WAR' CONTRACT DETAILS"
+        },
+        {
+          "id": "885516e6f2cae900",
+          "title": "ChatGPT crosses 900 million weekly users, 50 million paying subscribers: OpenAI's Nick Turley",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-crosses-900-million-weekly-users-50-million-paying-subscribers/articleshow/128876297.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Per Turley, for many users, ChatGPT is their entry point into AI. They start with writing, building, doing research, planning trips, shopping, or getting tasks done. Turley added that as the number of people using ChatGPT rises, the system learns faster, resulting in quicker responses, greater reliability, and answers that feel increasingly natural.",
+          "published": "2026-02-28T06:29:38+00:00",
+          "score": 45.0,
+          "headline": "CHATGPT HITS 900M Weekly Users, 50M Paying Subscribers"
         },
         {
           "id": "2f68c71f7a7d8247",
@@ -403,21 +423,11 @@
           "headline": "OPENAI FINALIZES $110B FUNDING AT $730B VALUE"
         }
       ],
-      "top_score": 48.0,
-      "story_count": 18
+      "top_score": 49.0,
+      "story_count": 20
     }
   ],
   "unclustered": [
-    {
-      "id": "c75d10aa97ba2c94",
-      "title": "Pentagon moves to build AI tools for China cyber operations",
-      "url": "https://www.ft.com/content/a56d70b5-669c-4bcc-8541-a4961fc99802",
-      "source": "Financial Times Tech",
-      "summary": "US holding talks with AI groups to identify vulnerabilities in Chinese networks and feed US war planning",
-      "published": "2026-02-27T05:00:13+00:00",
-      "score": 49.0,
-      "headline": "PENTAGON DEPLOYS AI TOOLS FOR CHINA CYBER WARFARE"
-    },
     {
       "id": "81bf2b9c364dbb46",
       "title": "Asia faces oil shock as US-Iran war chokes Strait of Hormuz",
@@ -457,16 +467,6 @@
       "published": "2026-03-02T10:30:07+00:00",
       "score": 45.0,
       "headline": null
-    },
-    {
-      "id": "885516e6f2cae900",
-      "title": "ChatGPT crosses 900 million weekly users, 50 million paying subscribers: OpenAI's Nick Turley",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-crosses-900-million-weekly-users-50-million-paying-subscribers/articleshow/128876297.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Per Turley, for many users, ChatGPT is their entry point into AI. They start with writing, building, doing research, planning trips, shopping, or getting tasks done. Turley added that as the number of people using ChatGPT rises, the system learns faster, resulting in quicker responses, greater reliability, and answers that feel increasingly natural.",
-      "published": "2026-02-28T06:29:38+00:00",
-      "score": 45.0,
-      "headline": "CHATGPT HITS 900M Weekly Users, 50M Paying Subscribers"
     },
     {
       "id": "8087511057ac1b0c",
@@ -1019,5 +1019,5 @@
       "headline": "OPENAI FINALIZES $110B ROUND AT $730B VALUATION"
     }
   ],
-  "generated_at": "2026-03-02T11:31:02.464332"
+  "generated_at": "2026-03-02T12:45:41.539356"
 }
