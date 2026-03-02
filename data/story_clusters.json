@@ -2,7 +2,7 @@
   "clusters": [
     {
       "topic": "Trump Bans Anthropic from Government",
-      "description": "Trump administration orders federal agencies to stop using Anthropic's AI after Pentagon partnership disputes, marking a major shift in government AI contracts.",
+      "description": "Trump administration cuts Anthropic from all federal contracts amid Pentagon disputes, marking a major shift in government AI partnerships.",
       "stories": [
         {
           "id": "eafb6303665b63c9",
@@ -103,6 +103,16 @@
           "published": "2026-02-27T12:59:52+00:00",
           "score": 45.0,
           "headline": "ANTHROPIC CEO REFUSES PENTAGON AI DEMANDS"
+        },
+        {
+          "id": "e4407ea27d0d5a5e",
+          "title": "Secretary of War Tweets That Anthropic is Now a Supply Chain Risk",
+          "url": "https://www.lesswrong.com/posts/Wpdivf3iNJDzBcbzJ/secretary-of-war-tweets-that-anthropic-is-now-a-supply-chain",
+          "source": "LessWrong AI",
+          "summary": "This is the long version of what happened so far. I will strive for shorter ones later, when I have the time to write them. Most of you should read the first two sections, then choose the remaining sections that are relevant to your interests. But first, seriously, read Dean Ball\u2019s post Clawed. Do that first. I will not quote too extensively from it, because I am telling all of you to read it. Now. You\u2019re not allowed to keep reading this or anything else until after you do. I\u2019m not kidding. That\u2019s out of the way? Good. Let\u2019s get started. What Happened President Trump enacted a perfectly reasonable solution to the situation with Anthropic and the Department of War. He cancelled the Anthropic contract with a six month wind down period, after which the Federal Government would be told not to use Anthropic software. Everyone thought the worst was now over. The situation was unfortunate for Anthropic and also for national security, but this gave us six months to transition, it gave us six m",
+          "published": "2026-03-02T13:20:30+00:00",
+          "score": 44.0,
+          "headline": "PENTAGON DECLARES ANTHROPIC SUPPLY CHAIN RISK"
         },
         {
           "id": "ceb728dd2bab61c4",
@@ -216,22 +226,12 @@
         }
       ],
       "top_score": 49.0,
-      "story_count": 21
+      "story_count": 22
     },
     {
-      "topic": "OpenAI Pentagon Partnership & Funding",
-      "description": "OpenAI secures massive Pentagon contracts for classified networks while raising record $110B funding at $730B valuation, solidifying its military AI dominance.",
+      "topic": "OpenAI Pentagon Deal and Funding",
+      "description": "OpenAI secures massive Pentagon contracts and record $110B funding round, solidifying its position as the dominant AI partner for military and commercial applications.",
       "stories": [
-        {
-          "id": "c75d10aa97ba2c94",
-          "title": "Pentagon moves to build AI tools for China cyber operations",
-          "url": "https://www.ft.com/content/a56d70b5-669c-4bcc-8541-a4961fc99802",
-          "source": "Financial Times Tech",
-          "summary": "US holding talks with AI groups to identify vulnerabilities in Chinese networks and feed US war planning",
-          "published": "2026-02-27T05:00:13+00:00",
-          "score": 49.0,
-          "headline": "PENTAGON DEPLOYS AI TOOLS FOR CHINA CYBER WARFARE"
-        },
         {
           "id": "438717494fbc3e91",
           "title": "Scaling AI for everyone",
@@ -311,16 +311,6 @@
           "published": "2026-02-28T12:30:00+00:00",
           "score": 45.0,
           "headline": "OPENAI REVEALS 'DEPARTMENT OF WAR' CONTRACT DETAILS"
-        },
-        {
-          "id": "885516e6f2cae900",
-          "title": "ChatGPT crosses 900 million weekly users, 50 million paying subscribers: OpenAI's Nick Turley",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-crosses-900-million-weekly-users-50-million-paying-subscribers/articleshow/128876297.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Per Turley, for many users, ChatGPT is their entry point into AI. They start with writing, building, doing research, planning trips, shopping, or getting tasks done. Turley added that as the number of people using ChatGPT rises, the system learns faster, resulting in quicker responses, greater reliability, and answers that feel increasingly natural.",
-          "published": "2026-02-28T06:29:38+00:00",
-          "score": 45.0,
-          "headline": "CHATGPT HITS 900M Weekly Users, 50M Paying Subscribers"
         },
         {
           "id": "2f68c71f7a7d8247",
@@ -411,23 +401,23 @@
           "published": "2026-02-27T13:40:02+00:00",
           "score": 44.0,
           "headline": "AMAZON INVESTS $50B IN OPENAI... MEGA DEAL"
-        },
-        {
-          "id": "9d9df9b7c9a4ff2a",
-          "title": "OpenAI Finalizes $110 Billion Funding at $730 Billion Value",
-          "url": "https://www.bloomberg.com/news/articles/2026-02-27/openai-finalizes-110-billion-funding-at-730-billion-valuation",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI said it has finalized a record-breaking $110 billion funding round at a $730 billion valuation, not including the money raised, fueling the ChatGPT maker\u2019s costly push to secure more computing power and talent for AI development.",
-          "published": "2026-02-27T13:34:22+00:00",
-          "score": 44.0,
-          "headline": "OPENAI FINALIZES $110B FUNDING AT $730B VALUE"
         }
       ],
-      "top_score": 49.0,
-      "story_count": 20
+      "top_score": 48.0,
+      "story_count": 17
     }
   ],
   "unclustered": [
+    {
+      "id": "c75d10aa97ba2c94",
+      "title": "Pentagon moves to build AI tools for China cyber operations",
+      "url": "https://www.ft.com/content/a56d70b5-669c-4bcc-8541-a4961fc99802",
+      "source": "Financial Times Tech",
+      "summary": "US holding talks with AI groups to identify vulnerabilities in Chinese networks and feed US war planning",
+      "published": "2026-02-27T05:00:13+00:00",
+      "score": 49.0,
+      "headline": "PENTAGON DEPLOYS AI TOOLS FOR CHINA CYBER WARFARE"
+    },
     {
       "id": "81bf2b9c364dbb46",
       "title": "Asia faces oil shock as US-Iran war chokes Strait of Hormuz",
@@ -469,6 +459,16 @@
       "headline": null
     },
     {
+      "id": "885516e6f2cae900",
+      "title": "ChatGPT crosses 900 million weekly users, 50 million paying subscribers: OpenAI's Nick Turley",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-crosses-900-million-weekly-users-50-million-paying-subscribers/articleshow/128876297.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Per Turley, for many users, ChatGPT is their entry point into AI. They start with writing, building, doing research, planning trips, shopping, or getting tasks done. Turley added that as the number of people using ChatGPT rises, the system learns faster, resulting in quicker responses, greater reliability, and answers that feel increasingly natural.",
+      "published": "2026-02-28T06:29:38+00:00",
+      "score": 45.0,
+      "headline": "CHATGPT HITS 900M Weekly Users, 50M Paying Subscribers"
+    },
+    {
       "id": "8087511057ac1b0c",
       "title": "DeepSeek to release long-awaited AI model in new challenge to US rivals",
       "url": "https://www.ft.com/content/e3366881-0622-40a7-9c34-a0d82e3d573e",
@@ -477,6 +477,16 @@
       "published": "2026-02-28T01:15:06+00:00",
       "score": 45.0,
       "headline": "DEEPSEEK READIES NEW MODEL... PARTNERS WITH HUAWEI TO CUT NVIDIA"
+    },
+    {
+      "id": "5c3898ee3707539f",
+      "title": "US uses Anthropic AI, B-2 bombers and suicide drones in Iran strikes",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-uses-anthropic-ai-b-2-bombers-and-suicide-drones-in-iran-strikes/articleshow/128947848.cms",
+      "source": "The Economic Times Tech",
+      "summary": "USA launched a significant military operation against Iran. The US deployed Tomahawk missiles, stealth fighters, and new one-way attack drones. For the first time, artificial intelligence tools were reportedly used in combat. B-2 stealth bombers struck underground missile facilities. The operation involved a range of advanced military technology.",
+      "published": "2026-03-02T13:14:46+00:00",
+      "score": 44.0,
+      "headline": "US DEPLOYS ANTHROPIC AI IN IRAN MILITARY STRIKES"
     },
     {
       "id": "6e618ab9df778256",
@@ -507,6 +517,16 @@
       "published": "2026-03-01T13:00:00+00:00",
       "score": 44.0,
       "headline": "CHINA'S HONOR DEMOS HUMANOID ROBOT AT MWC"
+    },
+    {
+      "id": "9d9df9b7c9a4ff2a",
+      "title": "OpenAI Finalizes $110 Billion Funding at $730 Billion Value",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/openai-finalizes-110-billion-funding-at-730-billion-valuation",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI said it has finalized a record-breaking $110 billion funding round at a $730 billion valuation, not including the money raised, fueling the ChatGPT maker\u2019s costly push to secure more computing power and talent for AI development.",
+      "published": "2026-02-27T13:34:22+00:00",
+      "score": 44.0,
+      "headline": "OPENAI FINALIZES $110B FUNDING AT $730B VALUE"
     },
     {
       "id": "521354aaeb77e5ad",
@@ -997,27 +1017,7 @@
       "published": "2026-02-27T15:42:38+00:00",
       "score": 42.0,
       "headline": "ALTMAN JOINS ANTHROPIC'S PENTAGON RED LINES"
-    },
-    {
-      "id": "f56995e1732854f4",
-      "title": "Destroyed servers and DoS attacks: What can happen when OpenClaw AI agents interact",
-      "url": "https://www.zdnet.com/article/how-ai-agents-create-new-disasters-when-they-interact/",
-      "source": "ZDNet AI",
-      "summary": "By testing agent-to-agent interactions, researchers observed catastrophic system failures. Here's why that's bad news for everyone.",
-      "published": "2026-02-27T15:16:10+00:00",
-      "score": 42.0,
-      "headline": "OPENCLAW AI AGENTS DESTROY SERVERS... CATASTROPHIC FAILURES FOUND"
-    },
-    {
-      "id": "ccd8a090937189f1",
-      "title": "OpenAI Finalizes Funding Round at $730 Billion Valuation",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/openai-finalizes-funding-round-at-730-billion-valuation-video",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI raised $110 billion in funding. Investors include Amazon, SoftBank and Nvidia. It's part of the ChatGPT maker's push to secure more computing power and talent for AI development. Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
-      "published": "2026-02-27T14:20:21+00:00",
-      "score": 42.0,
-      "headline": "OPENAI FINALIZES $110B ROUND AT $730B VALUATION"
     }
   ],
-  "generated_at": "2026-03-02T12:45:41.539356"
+  "generated_at": "2026-03-02T13:58:54.979115"
 }
