@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Pentagon vs Anthropic AI Safety",
+      "description": "High-stakes confrontation between the Pentagon and Anthropic over military AI use and safety guardrails, with ultimatums and contract threats.",
+      "question": "Should the Pentagon force Anthropic to remove AI safety guardrails?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "pentagon-vs-anthropic-ai-safety-20260227",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-pentagon-ai-partnership-battle-20260303.html",
+      "started_at": "2026-02-27T04:10:26.531043",
+      "archived_at": "2026-03-03T04:12:18.372870",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Pentagon Partnership & Funding",
       "description": "OpenAI secures record $110B funding at $730B valuation while simultaneously deploying AI tools on Pentagon classified networks, marking a major military-AI integration.",
       "question": "Should AI companies partner with the military for national security?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-impact-on-jobs-and-skills-20260121.html",
       "started_at": "2026-01-19T20:25:55.108212",
       "archived_at": "2026-01-22T09:01:58.213333",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Investment & Funding Surge",
-      "description": "Major investment deals and funding rounds show massive capital flowing into AI startups and infrastructure companies.",
-      "question": "Is the massive AI funding surge creating innovation or a dangerous bubble?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-investment-funding-surge-20260120",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-funding-and-valuations-20260121.html",
-      "started_at": "2026-01-20T17:08:40.852230",
-      "archived_at": "2026-01-21T23:01:52.781232",
       "reason": "topic_replaced"
     }
   ]
