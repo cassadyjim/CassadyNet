@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Pentagon Partnership & Funding",
+      "description": "OpenAI secures record $110B funding at $730B valuation while simultaneously deploying AI tools on Pentagon classified networks, marking a major military-AI integration.",
+      "question": "Should AI companies partner with the military for national security?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-pentagon-partnership-funding-20260228",
+      "results": {
+        "pro": 1,
+        "con": 0,
+        "total": 1,
+        "pro_percent": 100,
+        "con_percent": 0
+      },
+      "analysis_url": "/analysis/analysis-openai-pentagon-deal-20260302.html",
+      "started_at": "2026-02-28T09:22:18.860041",
+      "archived_at": "2026-03-03T01:47:31.747883",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China AI Cyber Operations",
       "description": "Widespread Chinese influence operations and cyber warfare using AI tools including ChatGPT and DeepSeek restrictions.",
       "question": "Should the US prioritize offensive cyber capabilities or defensive cooperation against China's AI operations?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-funding-and-valuations-20260121.html",
       "started_at": "2026-01-20T17:08:40.852230",
       "archived_at": "2026-01-21T23:01:52.781232",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Claude AI Agent Development",
-      "description": "Rapid expansion of Claude's capabilities into coding, gaming, and autonomous agent applications marking a new phase in AI tooling.",
-      "question": "",
-      "button_a": "N/A",
-      "button_b": "N/A",
-      "poll_id": "claude-ai-agent-development-20260119",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-claude-ai-agent-development-20260119.html",
-      "started_at": "2026-01-19T20:26:08.838601",
-      "archived_at": "2026-01-21T22:15:59.734439",
       "reason": "topic_replaced"
     }
   ]
