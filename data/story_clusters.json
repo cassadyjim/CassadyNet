@@ -239,6 +239,26 @@
       "headline": "CHINA'S HONOR DEMOS HUMANOID ROBOT AT MWC"
     },
     {
+      "id": "7eeb92dd085eb504",
+      "title": "Show HN: Open-Source Article 12 Logging Infrastructure for the EU AI Act",
+      "url": "https://news.ycombinator.com/item?id=47230438",
+      "source": "Hacker News",
+      "summary": "EU legislation (which affects UK and US companies in many cases) requires being able to truly reconstruct agentic events.I've worked in a number of regulated industries off & on for years, and recently hit this gap.We already had strong observability, but if someone asked me to prove exactly what happened for a specific AI decision X months ago (and demonstrate that the log trail had not been altered), I could not.The EU AI Act has already entered force, and its Article 12 kicks-in in August this year, requiring automatic event recording and six-month retention for high-risk systems, which many legal commentators have suggested reads more like an append-only ledger requirement than standard application logging.With this in mind, we built a small free, open-source TypeScript library for Node apps using the Vercel AI SDK that captures inference as an append-only log.It wraps the model in middleware, automatically logs every inference call to structured JSONL in your own S3 bucket, chains",
+      "published": "2026-03-03T10:11:44+00:00",
+      "score": 43.0,
+      "headline": "OPEN-SOURCE EU AI ACT COMPLIANCE TOOL LAUNCHED"
+    },
+    {
+      "id": "28c0f43415fc2a07",
+      "title": "Vnet Is Said to Secure Data Center Deal With TikTok Owner ByteDance",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/vnet-is-said-to-secure-data-center-deal-with-tiktok-owner-bytedance",
+      "source": "Bloomberg Technology",
+      "summary": "Vnet Group Inc. has secured a record order to supply TikTok owner ByteDance Ltd. with about 500 megawatts of capacity from its data centers in China, according to people familiar with the situation.",
+      "published": "2026-03-03T09:57:37+00:00",
+      "score": 43.0,
+      "headline": "BYTEDANCE SECURES 500MW DATA CENTER DEAL in China"
+    },
+    {
       "id": "cb3e046cc27ca9bc",
       "title": "Iran war heralds era of AI-powered bombing quicker than \u2018speed of thought\u2019",
       "url": "https://www.theguardian.com/technology/2026/mar/03/iran-war-heralds-era-of-ai-powered-bombing-quicker-than-speed-of-thought",
@@ -307,6 +327,26 @@
       "published": "2026-03-02T09:03:33+00:00",
       "score": 43.0,
       "headline": null
+    },
+    {
+      "id": "bf9c096b8bc8cbb1",
+      "title": "China Wins The Pentagon-Anthropic Brawl",
+      "url": "https://www.wsj.com/opinion/anthropic-donald-trump-pentagon-ai-china-u-s-military-467dd6de",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.wsj.com/opinion/anthropic-donald-trump-pentagon-ai-china-u-s-military-467dd6de Comments URL: https://news.ycombinator.com/item?id=47205744 Points: 2 # Comments: 0",
+      "published": "2026-03-01T11:23:36+00:00",
+      "score": 43.0,
+      "headline": "China Wins Pentagon-Anthropic AI Battle - WSJ"
+    },
+    {
+      "id": "3bf6b1d117912434",
+      "title": "Exclusive interview: Anthropic CEO Dario Amodei on Pentagon feud",
+      "url": "https://www.reddit.com/r/artificial/comments/1rha87x/exclusive_interview_anthropic_ceo_dario_amodei_on/",
+      "source": "Reddit r/artificial",
+      "summary": "Anthropic CEO Dario Amodei sat down with CBS News for an exclusive interview, hours after Defense Secretary Pete Hegseth declared the company a supply chain risk to national security, which restricts military contractors from doing business with the AI giant. Amodei called the move &quot;retaliatory and punitive,&quot; and he said Anthropic sought to draw &quot;red lines&quot; in the government's use of its technology because &quot;we believe that crossing those lines is contrary to American values, and we wanted to stand up for American values.&quot; &#32; submitted by &#32; /u/CBSnews [link] &#32; [comments]",
+      "published": "2026-02-28T18:36:06+00:00",
+      "score": 43.0,
+      "headline": "EXCLUSIVE: Anthropic CEO Speaks on Pentagon Feud"
     },
     {
       "id": "1bb5a6b5c8e275d9",
@@ -787,27 +827,7 @@
       "published": "2026-02-28T07:17:48+00:00",
       "score": 41.0,
       "headline": null
-    },
-    {
-      "id": "17004339018e405a",
-      "title": "OpenAI updates Department of War deal after backlash",
-      "url": "https://mashable.com/article/openai-dept-of-war-deal-sam-altman-update-mass-surveillance",
-      "source": "Mashable Tech",
-      "summary": "OpenAI CEO Sam Altman said its deal with the U.S. Department of War looked \"opportunistic and sloppy,\" announcing amendments after backlash.",
-      "published": "2026-03-03T08:34:20+00:00",
-      "score": 40.0,
-      "headline": "OPENAI BACKTRACKS on War Department Deal After Outcry"
-    },
-    {
-      "id": "bd300f128c5e8ed3",
-      "title": "OpenAI Amends A.I. Deal with The Pentagon",
-      "url": "https://www.nytimes.com/2026/03/02/technology/openai-pentagon-deal-amended-surveillance.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.nytimes.com/2026/03/02/technology/openai-pentagon-deal-amended-surveillance.html Comments URL: https://news.ycombinator.com/item?id=47228733 Points: 2 # Comments: 1",
-      "published": "2026-03-03T06:08:37+00:00",
-      "score": 40.0,
-      "headline": "OPENAI AMENDS PENTAGON DEAL... SURVEILLANCE RESTRICTIONS"
     }
   ],
-  "generated_at": "2026-03-03T09:38:28.699358"
+  "generated_at": "2026-03-03T10:35:46.552186"
 }
