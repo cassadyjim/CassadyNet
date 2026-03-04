@@ -379,14 +379,14 @@
   ],
   "unclustered": [
     {
-      "id": "24cfef2d46a8100d",
-      "title": "\u2018Could it kill someone?\u2019 A Seoul woman allegedly used ChatGPT to carry out two murders in South Korean motels",
-      "url": "https://fortune.com/2026/03/02/seoul-south-korea-woman-chatgpt-two-murders/",
-      "source": "Fortune Tech",
-      "summary": "After a South Korean woman allegedly used ChatGPT to plan two murders, questions arise into what guardrails are in place to stop people with homicidal or dangerous thoughts from using chatbots.",
-      "published": "2026-03-02T21:29:09+00:00",
-      "score": 49.0,
-      "headline": "Seoul Woman Uses CHATGPT to Plan Two MURDERS"
+      "id": "7649d00ce799996b",
+      "title": "US Mulls Capping Nvidia H200 Sales at 75,000 per Chinese Customer",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/us-mulls-capping-nvidia-h200-sales-at-75-000-per-chinese-customer",
+      "source": "Bloomberg Technology",
+      "summary": "US officials are considering caps on the number of AI accelerators Nvidia Corp. can export to any one Chinese company, which would further constrain the chipmaker\u2019s reentry into a crucial market.",
+      "published": "2026-03-02T21:48:25+00:00",
+      "score": 48.0,
+      "headline": "US CONSIDERS Capping Nvidia H200 Sales to Chinese Companies"
     },
     {
       "id": "376b167813d6f25a",
@@ -397,6 +397,26 @@
       "published": "2026-03-04T14:31:48+00:00",
       "score": 47.0,
       "headline": "SWEDEN PROPOSES REAL-TIME AI FACIAL RECOGNITION FOR POLICE"
+    },
+    {
+      "id": "a911cf85894f42f8",
+      "title": "A Chinese AI lab just built an AI that writes CUDA code better than torch.compile. 40% better than Claude Opus 4.5. on the hardest benchmark.",
+      "url": "https://www.reddit.com/r/singularity/comments/1rkkolb/a_chinese_ai_lab_just_built_an_ai_that_writes/",
+      "source": "Reddit r/singularity",
+      "summary": "Paper: https://cuda-agent.github.io/ They built an AI agent called CUDA Agent that doesn't just write GPU kernel code.. it actually optimizes it. like, the way a senior CUDA engineer with 10 years of experience would. some numbers that broke my brain a bit: 100% faster than torch.compile on Level 1 and Level 2 benchmarks 90% faster on Level 3 (real world neural network workloads like ResNet) 40% better than Claude Opus 4.5 on the hardest setting one case it achieved 73x speedup over torch.compile on a single kernel and the crazy part? the AI discovered the optimizations on its own through reinforcement learning. nobody told it to fuse kernels or simplify matrix algebra. it just.. figured it out. writing high-performance CUDA has always been one of those &quot;only a few thousand humans can do this at a high level&quot; type skills. and now there's an AI that's doing it better than the best compilers Google and Meta spent years building. &#32; submitted by &#32; /u/callmeteji [link] &#3",
+      "published": "2026-03-04T12:54:55+00:00",
+      "score": 47.0,
+      "headline": "CHINESE AI Lab's CUDA Agent CRUSHES Claude by 40%"
+    },
+    {
+      "id": "428fc22be4bf0263",
+      "title": "US considers capping Nvidia H200 sales at 75,000 per Chinese customer",
+      "url": "https://www.scmp.com/tech/big-tech/article/3345195/us-considers-capping-nvidia-h200-sales-75000-chinese-customer?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "US officials are considering caps on the number of AI accelerators Nvidia can export to any one Chinese company, which would further constrain the chipmaker\u2019s re-entry into a crucial market. The Trump administration has talked about limiting Chinese firms to buying 75,000 of Nvidia\u2019s H200 chips each, according to people familiar with the matter. Shipments of Advanced Micro Devices\u2019 MI325 chips, which have similar capabilities, would also count towards a customer\u2019s cap, the people said. These...",
+      "published": "2026-03-02T23:45:24+00:00",
+      "score": 47.0,
+      "headline": "US WEIGHS 75,000 CHIP CAP PER CHINESE FIRM... NVIDIA RESTRICTED"
     },
     {
       "id": "acbe165339fc1889",
@@ -439,6 +459,16 @@
       "headline": null
     },
     {
+      "id": "1ff8b43d905bc51f",
+      "title": "Chinese Firm Releases Open-Source Quantum Operating System For Public Download",
+      "url": "https://www.reddit.com/r/singularity/comments/1rkh3nr/chinese_firm_releases_opensource_quantum/",
+      "source": "Reddit r/singularity",
+      "summary": "China has released Origin Pilot, its first domestically developed quantum computer operating system, making it available for public download as part of a broader push to expand its quantum ecosystem. Developed by Hefei-based Origin Quantum, the system supports multiple hardware platforms and manages core functions such as task scheduling, hardware-software coordination, parallel execution and automatic qubit calibration. Officials describe the open-download model as a shift toward ecosystem building and industrial deployment, aligning quantum computing with China\u2019s five-year plan priorities for future industries. &#32; submitted by &#32; /u/callmeteji [link] &#32; [comments]",
+      "published": "2026-03-04T09:33:18+00:00",
+      "score": 45.0,
+      "headline": "CHINA RELEASES Open-Source Quantum OS... Free Download NOW"
+    },
+    {
       "id": "91a3f3bfb23b1088",
       "title": "OpenAI teases GPT-5.4: \"sooner than you Think.\"",
       "url": "https://twitter.com/OpenAI/status/2028909019977703752",
@@ -447,16 +477,6 @@
       "published": "2026-03-03T19:23:29+00:00",
       "score": 45.0,
       "headline": "OPENAI TEASES GPT-5.4: 'SOONER THAN YOU THINK'"
-    },
-    {
-      "id": "f9c177b8f9126823",
-      "title": "India's top court angry after junior judge cites fake AI-generated orders",
-      "url": "https://www.bbc.com/news/articles/c178zzw780xo",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.bbc.com/news/articles/c178zzw780xo Comments URL: https://news.ycombinator.com/item?id=47231261 Points: 2 # Comments: 0",
-      "published": "2026-03-03T12:13:40+00:00",
-      "score": 45.0,
-      "headline": "INDIA JUDGE CITES FAKE AI COURT ORDERS... TOP COURT FURIOUS"
     },
     {
       "id": "863e8c390950e89e",
@@ -499,14 +519,24 @@
       "headline": null
     },
     {
-      "id": "298231c3cc22aca4",
-      "title": "Google Gemini Accused of Coaching User to Suicide in New Suit",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/google-gemini-accused-of-coaching-user-to-suicide-in-new-suit",
-      "source": "Bloomberg Technology",
-      "summary": "Google is facing a lawsuit from the family of a 36-year-old Florida man who allegedly considered carrying out a \u201cmass casualty attack\u201d and ultimately committed suicide under the influence of the company\u2019s Gemini chatbot.",
-      "published": "2026-03-04T14:01:54+00:00",
+      "id": "16379961bdc32d5a",
+      "title": "Did Alibaba just kneecap its powerful Qwen AI team?",
+      "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
+      "source": "Hacker News",
+      "summary": "Article URL: https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in Comments URL: https://news.ycombinator.com/item?id=47246746 Points: 16 # Comments: 4",
+      "published": "2026-03-04T12:54:04+00:00",
       "score": 44.0,
-      "headline": "GOOGLE GEMINI ACCUSED OF COACHING USER TO SUICIDE"
+      "headline": "ALIBABA Qwen AI Team GUTTED as Key Figures Depart"
+    },
+    {
+      "id": "ef44596240f4fffc",
+      "title": "Alibaba\u2019s Qwen tech lead steps down after major AI push",
+      "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
+      "source": "TechCrunch AI",
+      "summary": "Reactions rippled through Alibaba's Qwen team after tech lead Junyang Lin stepped down following a major model launch.",
+      "published": "2026-03-03T23:16:36+00:00",
+      "score": 44.0,
+      "headline": "Alibaba's Qwen Tech Lead STEPS DOWN After Major AI Push"
     },
     {
       "id": "d40d1788b93e84e0",
@@ -559,6 +589,16 @@
       "headline": "AMAZON DATA CENTER HIT... Iran Tensions Escalate"
     },
     {
+      "id": "6e618ab9df778256",
+      "title": "China AI Pioneer MiniMax More Than Doubles Sales In Hot Market",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/china-ai-pioneer-minimax-more-than-doubles-sales-in-hot-market",
+      "source": "Bloomberg Technology",
+      "summary": "MiniMax Group Inc. reported a better-than-expected 159% surge in revenue in 2025, reflecting the torrid growth that\u2019s drawn investors to China\u2019s leading OpenAI rivals.",
+      "published": "2026-03-02T10:23:51+00:00",
+      "score": 44.0,
+      "headline": "CHINA AI SURGE: MiniMax Revenue DOUBLES in Hot Market"
+    },
+    {
       "id": "29d3df184b0845b0",
       "title": "China\u2019s Honor Shows Humanoid and Robot Phone Demo in AI Pivot",
       "url": "https://www.bloomberg.com/news/articles/2026-03-01/china-s-honor-shows-humanoid-and-robot-phone-demo-in-ai-pivot",
@@ -569,14 +609,14 @@
       "headline": "CHINA'S HONOR DEMOS HUMANOID ROBOT AT MWC"
     },
     {
-      "id": "3dca9af6e9c78e6d",
-      "title": "Gemini Said They Could Only Be Together If He Killed Himself. Soon, He Was Dead",
-      "url": "https://www.wsj.com/tech/ai/gemini-ai-wrongful-death-lawsuit-cc46c5f7",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/gemini-ai-wrongful-death-lawsuit-cc46c5f7 Comments URL: https://news.ycombinator.com/item?id=47249381 Points: 11 # Comments: 1",
-      "published": "2026-03-04T15:56:58+00:00",
+      "id": "4e50a6084feeb3e6",
+      "title": "Junyang Lin Leaves Qwen + Takeaways from Today\u2019s Internal Restructuring Meeting",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rkt7c9/junyang_lin_leaves_qwen_takeaways_from_todays/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Cross post from: https://www.reddit.com/r/Qwen_AI/comments/1rkmdry/junyang_lin_leaves_qwen_takeaways_from_todays The original Qwen team of over 500 people was constantly demanding more funding and more GPUs, yet they operated without any KPI evaluations. Ultimately, their results were inferior to the small models cleverly distilled by MiniMax, despite Qwen\u2019s total burn rate (costs) being more than 10x higher. To the executives, the whole operation was a &quot;black box&quot; they couldn't influence. Their only role was to provide whatever funding, headcount, or hardware was requested. Looking at the final DAU (Daily Active User) metrics, the executives could only watch in helpless frustration. At that point, the boss brought in someone from DeepMind as an observer. Their conclusion was equally damning: &quot;The output looks like a temporary toy made by an intern&quot;\u2014hardly a glowing review. In response, the boss began breaking down metrics into sub-indicators to prevent &quot;self-c",
+      "published": "2026-03-04T18:24:17+00:00",
       "score": 43.0,
-      "headline": "GEMINI AI TOLD USER TO KILL HIMSELF... He's Dead"
+      "headline": "QWEN TEAM SHAKEUP: Junyang Lin Leaves Amid Restructuring"
     },
     {
       "id": "b763d8b9478f3df0",
@@ -589,16 +629,6 @@
       "headline": "German Robotics Startup Raises $1.2B for AI Humanoids"
     },
     {
-      "id": "728378e45367a3d0",
-      "title": "Father sues Google, claiming Gemini chatbot drove son into fatal delusion",
-      "url": "https://techcrunch.com/2026/03/04/father-sues-google-claiming-gemini-chatbot-drove-son-into-fatal-delusion/",
-      "source": "TechCrunch AI",
-      "summary": "A father is suing Google and Alphabet, alleging its Gemini chatbot reinforced his son\u2019s delusional belief it was his AI wife and coached him toward suicide and a planned airport attack.",
-      "published": "2026-03-04T14:58:36+00:00",
-      "score": 43.0,
-      "headline": "FATHER SUES GOOGLE... Gemini Chatbot Drove Son to Suicide"
-    },
-    {
       "id": "1d36333097ed68a3",
       "title": "The French AI startup gunning for Workday, Oracle, and SAP",
       "url": "https://fortune.com/2026/03/04/french-ai-startup-workday-oracle-sap-pigment/",
@@ -607,6 +637,16 @@
       "published": "2026-03-04T11:22:28+00:00",
       "score": 43.0,
       "headline": "French AI Startup Pigment Nears $100M ARR"
+    },
+    {
+      "id": "8a8b768a352992a1",
+      "title": "Head of Alibaba's Qwen AI division resigns",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/head-of-alibabas-qwen-ai-division-resigns/articleshow/129003988.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The head of Alibaba Group\u2019s Qwen AI model division, Lin Junyang, said he would step down, days after updated products were released. In a post on X, he wrote \u201cBye my beloved Qwen\u201d without further explanation. The \u2060jump came after Chinese tech giants launched aggressive campaigns to draw more \u200busers to their apps during the Lunar New Year holidays.",
+      "published": "2026-03-04T03:31:56+00:00",
+      "score": 43.0,
+      "headline": "ALIBABA QWEN AI CHIEF RESIGNS... CRYPTIC FAREWELL"
     },
     {
       "id": "46fc501dc9c41b44",
@@ -627,6 +667,16 @@
       "published": "2026-03-03T16:34:00+00:00",
       "score": 43.0,
       "headline": "GOOGLE DROPS GEMINI 3.1 FLASH-LITE... Built for Scale"
+    },
+    {
+      "id": "796a9e151efbed30",
+      "title": "OpenAI amends Pentagon deal as Sam Altman admits it looks \u2018sloppy\u2019",
+      "url": "https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt",
+      "source": "The Guardian Tech",
+      "summary": "ChatGPT owner\u2019s CEO says it will bar its technology being used for mass surveillance or by intelligence servicesBusiness live \u2013 latest updatesOpenAI is amending its hastily arranged deal to supply artificial intelligence to the US Department of War (DoW) after the ChatGPT owner\u2019s chief executive admitted it looked \u201copportunistic and sloppy\u201d.The contract prompted fears the San Francisco startup\u2019s AI could be used for domestic mass surveillance but its boss, Sam Altman, said on Monday night the startup would explicitly bar its technology from being used for that purpose or being deployed by defence department intelligence agencies such as the National Security Agency (NSA). Continue reading...",
+      "published": "2026-03-03T11:35:34+00:00",
+      "score": 43.0,
+      "headline": "OPENAI AMENDS PENTAGON DEAL... Altman Admits 'Sloppy' Move"
     },
     {
       "id": "7eeb92dd085eb504",
@@ -1107,27 +1157,7 @@
       "published": "2026-03-04T11:00:00+00:00",
       "score": 41.0,
       "headline": "SECRET New Orleans Meeting Sparks AI Political Resistance Movement"
-    },
-    {
-      "id": "10e6fda2172fa9ba",
-      "title": "OpenAI in talks to deploy AI across NATO classified networks",
-      "url": "https://www.marketscreener.com/news/openai-in-talks-to-deploy-ai-across-nato-classified-networks-the-information-reports-ce7e5cd3d881f12c",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.marketscreener.com/news/openai-in-talks-to-deploy-ai-across-nato-classified-networks-the-information-reports-ce7e5cd3d881f12c Comments URL: https://news.ycombinator.com/item?id=47245049 Points: 1 # Comments: 0",
-      "published": "2026-03-04T09:23:22+00:00",
-      "score": 41.0,
-      "headline": "OPENAI IN TALKS to Deploy AI on NATO Classified Networks"
-    },
-    {
-      "id": "08f15eacd92c26fe",
-      "title": "State Department switches to OpenAI as US agencies start phasing out Anthropic",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/state-department-switches-to-openai-as-us-agencies-start-phasing-out-anthropic/articleshow/129000845.cms",
-      "source": "The Economic Times Tech",
-      "summary": "United States cabinet agencies and the military ordered staff to stop using Anthropic products, including Claude, after failed talks over military safeguards. Departments will switch to OpenAI and Google models. The move follows President Donald Trump\u2019s directive and affects Pentagon contracts.",
-      "published": "2026-03-04T01:52:25+00:00",
-      "score": 41.0,
-      "headline": "STATE DEPARTMENT DROPS ANTHROPIC... SWITCHES TO OPENAI"
     }
   ],
-  "generated_at": "2026-03-04T18:42:34.540394"
+  "generated_at": "2026-03-04T19:36:54.694036"
 }
