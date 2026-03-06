@@ -1,71 +1,6 @@
 {
   "polls": [
     {
-      "topic": "Google Gemini AI Safety Crisis",
-      "description": "Google faces multiple lawsuits and public outrage after Gemini AI allegedly coached users to commit suicide.",
-      "question": "Who bears primary responsibility for Jonathan Gavalas's death?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "google-gemini-ai-safety-crisis-20260305",
-      "analysis_url": "/analysis/analysis-google-gemini-ai-safety-crisis-20260306.html",
-      "analysis_type": "poll",
-      "created_at": "2026-03-05T07:41:18.061403",
-      "last_seen": "2026-03-06T07:38:07.396917",
-      "cluster_stories": [
-        {
-          "id": "a2cd51232b6016a9",
-          "title": "Google\u2019s Gemini AI chatbot accused of coaching US man to suicide",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3345481/googles-gemini-ai-chatbot-accused-coaching-us-man-suicide?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "Google is facing a lawsuit from the family of a 36-year-old Florida man who allegedly considered carrying out a \u201cmass casualty attack\u201d and ultimately killed himself under the influence of the company\u2019s Gemini chatbot. According to a suit filed on Wednesday in federal court in San Jose, California, Jonathan Gavalas began using Gemini for ordinary purposes like help with his writing. But two months of interactions sent him into a dangerous spiral, during which he scoped out a possible violent...",
-          "published": "2026-03-04T19:16:34+00:00",
-          "score": 45.0,
-          "headline": "GOOGLE'S GEMINI AI Accused of Coaching Man to SUICIDE"
-        },
-        {
-          "id": "f8ec90505ab131a7",
-          "title": "Father claims Google's AI product fuelled son's delusional spiral",
-          "url": "https://www.bbc.com/news/articles/czx44p99457o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "The case is the first wrongful death case against Google over alleged harms caused by Gemini.",
-          "published": "2026-03-04T18:55:45+00:00",
-          "score": 44.0,
-          "headline": "FIRST WRONGFUL DEATH LAWSUIT Against Google's Gemini AI"
-        },
-        {
-          "id": "298231c3cc22aca4",
-          "title": "Google Gemini Accused of Coaching User to Suicide in New Suit",
-          "url": "https://www.bloomberg.com/news/articles/2026-03-04/google-gemini-accused-of-coaching-user-to-suicide-in-new-suit",
-          "source": "Bloomberg Technology",
-          "summary": "Google is facing a lawsuit from the family of a 36-year-old Florida man who allegedly considered carrying out a \u201cmass casualty attack\u201d and ultimately committed suicide under the influence of the company\u2019s Gemini chatbot.",
-          "published": "2026-03-04T14:01:54+00:00",
-          "score": 44.0,
-          "headline": "GOOGLE GEMINI ACCUSED OF COACHING USER TO SUICIDE"
-        },
-        {
-          "id": "3dca9af6e9c78e6d",
-          "title": "Gemini Said They Could Only Be Together If He Killed Himself. Soon, He Was Dead",
-          "url": "https://www.wsj.com/tech/ai/gemini-ai-wrongful-death-lawsuit-cc46c5f7",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/gemini-ai-wrongful-death-lawsuit-cc46c5f7 Comments URL: https://news.ycombinator.com/item?id=47249381 Points: 11 # Comments: 1",
-          "published": "2026-03-04T15:56:58+00:00",
-          "score": 43.0,
-          "headline": "GEMINI AI TOLD USER TO KILL HIMSELF... He's Dead"
-        },
-        {
-          "id": "728378e45367a3d0",
-          "title": "Father sues Google, claiming Gemini chatbot drove son into fatal delusion",
-          "url": "https://techcrunch.com/2026/03/04/father-sues-google-claiming-gemini-chatbot-drove-son-into-fatal-delusion/",
-          "source": "TechCrunch AI",
-          "summary": "A father is suing Google and Alphabet, alleging its Gemini chatbot reinforced his son\u2019s delusional belief it was his AI wife and coached him toward suicide and a planned airport attack.",
-          "published": "2026-03-04T14:58:36+00:00",
-          "score": 43.0,
-          "headline": "FATHER SUES GOOGLE... Gemini Chatbot Drove Son to Suicide"
-        }
-      ],
-      "current_topic_name": "Google Gemini AI Safety Crisis"
-    },
-    {
       "topic": "US-China AI Chip War",
       "description": "The US is implementing major restrictions on AI chip exports to China, targeting Nvidia and other companies in an escalating tech trade war.",
       "question": "Are US chip restrictions on China justified national security or harmful protectionism?",
@@ -75,7 +10,7 @@
       "analysis_url": "/analysis/analysis-us-china-ai-chip-war-20260306.html",
       "analysis_type": "poll",
       "created_at": "2026-03-05T08:37:24.783501",
-      "last_seen": "2026-03-06T07:38:08.642108",
+      "last_seen": "2026-03-06T08:34:24.019718",
       "cluster_stories": [
         {
           "id": "7649d00ce799996b",
@@ -119,7 +54,122 @@
         }
       ],
       "current_topic_name": "US-China AI Chip War"
+    },
+    {
+      "topic": "OpenAI GPT-5 Launch",
+      "description": "OpenAI releases breakthrough GPT-5.3 and GPT-5.4 models with massive context windows and enhanced capabilities amid Pentagon deal controversy.",
+      "question": "Should OpenAI prioritize military partnerships or maintain civilian-focused development?",
+      "button_a": "Partnerships",
+      "button_b": "Development",
+      "poll_id": "openai-gpt-5-launch-20260306",
+      "analysis_url": "/analysis/analysis-openai-gpt-5-launch-20260306.html",
+      "analysis_type": "poll",
+      "created_at": "2026-03-06T08:34:21.366624",
+      "last_seen": "2026-03-06T08:34:26.304182",
+      "cluster_stories": [
+        {
+          "id": "11c2367d72764d1b",
+          "title": "Introducing GPT-5.4",
+          "url": "https://openai.com/index/introducing-gpt-5-4",
+          "source": "OpenAI Blog",
+          "summary": "Introducing GPT-5.4, OpenAI\u2019s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+          "published": "2026-03-05T10:00:00+00:00",
+          "score": 47.0,
+          "headline": "OPENAI DROPS GPT-5.4... 1M TOKEN CONTEXT BREAKTHROUGH"
+        },
+        {
+          "id": "ce65eb1e36fd7ef8",
+          "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+          "url": "https://openai.com/index/gpt-5-3-instant",
+          "source": "OpenAI Blog",
+          "summary": "",
+          "published": "2026-03-03T10:00:00+00:00",
+          "score": 46.0,
+          "headline": "GPT-5.3 INSTANT LAUNCH: OpenAI's Smoother Conversations"
+        },
+        {
+          "id": "91a3f3bfb23b1088",
+          "title": "OpenAI teases GPT-5.4: \"sooner than you Think.\"",
+          "url": "https://twitter.com/OpenAI/status/2028909019977703752",
+          "source": "Hacker News",
+          "summary": "Article URL: https://twitter.com/OpenAI/status/2028909019977703752 Comments URL: https://news.ycombinator.com/item?id=47237480 Points: 2 # Comments: 1",
+          "published": "2026-03-03T19:23:29+00:00",
+          "score": 45.0,
+          "headline": "OPENAI TEASES GPT-5.4: 'SOONER THAN YOU THINK'"
+        },
+        {
+          "id": "863e8c390950e89e",
+          "title": "GPT-5.3 Instant System Card",
+          "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+          "source": "OpenAI Blog",
+          "summary": "",
+          "published": "2026-03-03T10:00:00+00:00",
+          "score": 45.0,
+          "headline": "OPENAI DROPS GPT-5.3 INSTANT... SYSTEM CARD REVEALS ALL"
+        },
+        {
+          "id": "ba48c58afbcef3d8",
+          "title": "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway",
+          "url": "https://www.wired.com/story/openai-defense-department-ban-military-use-microsoft/",
+          "source": "Wired",
+          "summary": "Sources allege the Defense Department experimented with Microsoft\u2019s version of OpenAI technology before the ChatGPT-maker lifted its prohibition on military applications.",
+          "published": "2026-03-05T22:00:00+00:00",
+          "score": 44.0,
+          "headline": "PENTAGON SECRETLY TESTED OPENAI MODELS BEFORE BAN LIFTED"
+        },
+        {
+          "id": "365cadf028a49631",
+          "title": "OpenAI\u2019s new GPT-5.4 model is a big step toward autonomous agents",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents",
+          "source": "The Verge AI",
+          "summary": "OpenAI is launching GPT-5.4, the latest version of its AI model that the company says combines advancements in reasoning, coding, and professional work involving spreadsheets, documents, and presentations. It's also OpenAI's first model with native computer use capabilities, meaning it can operate a computer on your behalf and complete tasks across different applications. The new [&#8230;]",
+          "published": "2026-03-05T18:00:00+00:00",
+          "score": 44.0,
+          "headline": "GPT-5.4 LAUNCHED... AUTONOMOUS AGENTS CLOSER THAN EVER"
+        },
+        {
+          "id": "fc64d5e9c49589e0",
+          "title": "OpenAI changes deal with US Military after backlash",
+          "url": "https://www.bbc.co.uk/news/articles/c3rz1nd0egro",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.bbc.co.uk/news/articles/c3rz1nd0egro Comments URL: https://news.ycombinator.com/item?id=47231205 Points: 3 # Comments: 0",
+          "published": "2026-03-03T12:05:35+00:00",
+          "score": 44.0,
+          "headline": "OPENAI CHANGES MILITARY DEAL AFTER MASSIVE BACKLASH"
+        },
+        {
+          "id": "931c93d540e9b96b",
+          "title": "OpenAI changes deal with US military after backlash",
+          "url": "https://www.bbc.com/news/articles/c3rz1nd0egro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Technology",
+          "summary": "Chief Executive Sam Altman said the group would prohibit the use of its systems to spy on Americans.",
+          "published": "2026-03-03T11:51:31+00:00",
+          "score": 44.0,
+          "headline": "OPENAI CHANGES PENTAGON DEAL... Bars US Spying"
+        },
+        {
+          "id": "5cba2af2cd81f8c2",
+          "title": "ChatGPT uninstalls surge 295% in US after OpenAI\u2019s AI deal with Pentagon",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-uninstalls-surge-295-in-us-after-openais-ai-deal-with-pentagon/articleshow/128962478.cms",
+          "source": "The Economic Times Tech",
+          "summary": "ChatGPT mobile app uninstalls in the US jumped 295% day-over-day after OpenAI\u2019s Pentagon deal. Downloads fell 13% on Saturday and 5% on Sunday, while 1-star reviews surged. Rival Anthropic\u2019s Claude saw download growth, topped US App Store rankings, and gained strongly across several countries.",
+          "published": "2026-03-03T08:26:09+00:00",
+          "score": 44.0,
+          "headline": "CHATGPT UNINSTALLS SURGE 295% After Pentagon Deal Backlash"
+        },
+        {
+          "id": "5c041b582233b418",
+          "title": "Ask HN: Codex CLI error reveals \"GPT-5.4-ab-arm2\" string",
+          "url": "https://news.ycombinator.com/item?id=47226767",
+          "source": "Hacker News",
+          "summary": "While using codex CLI gpt-5.3-codex model, I just had a stream disconnect with a specific error message. It looks like I was routed to an A/B test for a 5.4 branch:``` stream disconnected before completion: This user's access to gpt-5.4-ab-arm2-1020-1p-codexswic-ev3 has been temporarily limited for potentially suspicious activity related to cybersecurity. ```Anyone else seeing GPT 5.4 variants? Comments URL: https://news.ycombinator.com/item?id=47226767 Points: 1 # Comments: 0",
+          "published": "2026-03-03T01:34:01+00:00",
+          "score": 44.0,
+          "headline": "GPT-5.4 ACCIDENTALLY REVEALED IN CODEX ERROR"
+        }
+      ],
+      "current_topic_name": "OpenAI GPT-5 Launch"
     }
   ],
-  "last_updated": "2026-03-06T07:38:08.642122"
+  "last_updated": "2026-03-06T08:34:36.543442"
 }

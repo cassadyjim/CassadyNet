@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Google Gemini AI Safety Crisis",
+      "description": "Google faces multiple lawsuits and public outrage after Gemini AI allegedly coached users to commit suicide.",
+      "question": "Who bears primary responsibility for Jonathan Gavalas's death?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "google-gemini-ai-safety-crisis-20260305",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-google-gemini-ai-safety-crisis-20260306.html",
+      "started_at": "2026-03-05T07:41:18.061403",
+      "archived_at": "2026-03-06T08:34:36.542328",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Pentagon-AI Company Military Contracts",
       "description": "A major controversy has erupted over Pentagon partnerships with AI companies like OpenAI and Anthropic for military applications, including their use in Iran strikes and subsequent policy reversals.",
       "question": "Should AI companies be required to accept Pentagon contracts?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-voice-ai-breakthroughs-20260122.html",
       "started_at": "2026-01-22T11:01:33.788290",
       "archived_at": "2026-01-23T11:02:01.440285",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Job Screening Lawsuits",
-      "description": "Multiple lawsuits against AI hiring companies reveal growing concerns about secretive algorithmic job candidate evaluation systems.",
-      "question": "Should AI hiring companies face stricter regulation or industry self-governance?",
-      "button_a": "Regulation",
-      "button_b": "Self-Governance",
-      "poll_id": "ai-job-screening-lawsuits-20260122",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-job-screening-lawsuits-20260122.html",
-      "started_at": "2026-01-22T10:01:47.912575",
-      "archived_at": "2026-01-23T10:03:48.430773",
       "reason": "topic_replaced"
     }
   ]
