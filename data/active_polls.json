@@ -1,61 +1,6 @@
 {
   "polls": [
     {
-      "topic": "US-China AI Chip War",
-      "description": "The US is implementing major restrictions on AI chip exports to China, targeting Nvidia and other companies in an escalating tech trade war.",
-      "question": "Are US chip restrictions on China justified national security or harmful protectionism?",
-      "button_a": "Security",
-      "button_b": "Protectionism",
-      "poll_id": "us-china-ai-chip-war-20260305",
-      "analysis_url": "/analysis/analysis-us-china-ai-chip-war-20260306.html",
-      "analysis_type": "poll",
-      "created_at": "2026-03-05T08:37:24.783501",
-      "last_seen": "2026-03-06T08:34:24.019718",
-      "cluster_stories": [
-        {
-          "id": "7649d00ce799996b",
-          "title": "US Mulls Capping Nvidia H200 Sales at 75,000 per Chinese Customer",
-          "url": "https://www.bloomberg.com/news/articles/2026-03-02/us-mulls-capping-nvidia-h200-sales-at-75-000-per-chinese-customer",
-          "source": "Bloomberg Technology",
-          "summary": "US officials are considering caps on the number of AI accelerators Nvidia Corp. can export to any one Chinese company, which would further constrain the chipmaker\u2019s reentry into a crucial market.",
-          "published": "2026-03-02T21:48:25+00:00",
-          "score": 48.0,
-          "headline": "US CONSIDERS Capping Nvidia H200 Sales to Chinese Companies"
-        },
-        {
-          "id": "428fc22be4bf0263",
-          "title": "US considers capping Nvidia H200 sales at 75,000 per Chinese customer",
-          "url": "https://www.scmp.com/tech/big-tech/article/3345195/us-considers-capping-nvidia-h200-sales-75000-chinese-customer?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "US officials are considering caps on the number of AI accelerators Nvidia can export to any one Chinese company, which would further constrain the chipmaker\u2019s re-entry into a crucial market. The Trump administration has talked about limiting Chinese firms to buying 75,000 of Nvidia\u2019s H200 chips each, according to people familiar with the matter. Shipments of Advanced Micro Devices\u2019 MI325 chips, which have similar capabilities, would also count towards a customer\u2019s cap, the people said. These...",
-          "published": "2026-03-02T23:45:24+00:00",
-          "score": 47.0,
-          "headline": "US WEIGHS 75,000 CHIP CAP PER CHINESE FIRM... NVIDIA RESTRICTED"
-        },
-        {
-          "id": "37189756fc2d31fc",
-          "title": "US Treasury says it is stopping use of Anthropic\u2019s tech, including its Claude platform",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3345184/us-treasury-says-it-stopping-use-anthropics-tech-including-its-claude-platform?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "The US Treasury Department said on Monday it is ending use of all Anthropic products, following US President Donald Trump\u2019s government-wide ban on the AI start-up after it rejected the Pentagon\u2019s demands. The US Treasury \u201cis terminating all use of Anthropic products, including the use of its Claude platform, within our department\u201d, said Secretary Scott Bessent in a social media statement. The decision comes at the direction of Trump, he added. \u201cUnder President Trump no private company will ever...",
-          "published": "2026-03-02T17:15:04+00:00",
-          "score": 46.0,
-          "headline": "US TREASURY STOPS ALL ANTHROPIC USE"
-        },
-        {
-          "id": "afc3bd94cb83afd3",
-          "title": "Nvidia refocuses TSMC capacity as export controls stall China sales",
-          "url": "https://www.ft.com/content/47f1cf56-209f-46fb-a437-f769b9ccb2cb",
-          "source": "Financial Times Tech",
-          "summary": "US group moves production away from H200s intended for Chinese market to latest Vera Rubin products",
-          "published": "2026-03-05T05:00:33+00:00",
-          "score": 45.0,
-          "headline": "NVIDIA DITCHES China Chips for Latest Vera Rubin"
-        }
-      ],
-      "current_topic_name": "US-China AI Chip War"
-    },
-    {
       "topic": "OpenAI GPT-5 Launch",
       "description": "OpenAI releases breakthrough GPT-5.3 and GPT-5.4 models with massive context windows and enhanced capabilities amid Pentagon deal controversy.",
       "question": "Should OpenAI prioritize military partnerships or maintain civilian-focused development?",
@@ -65,7 +10,7 @@
       "analysis_url": "/analysis/analysis-openai-gpt-5-launch-20260306.html",
       "analysis_type": "poll",
       "created_at": "2026-03-06T08:34:21.366624",
-      "last_seen": "2026-03-06T08:34:26.304182",
+      "last_seen": "2026-03-06T09:35:51.736024",
       "cluster_stories": [
         {
           "id": "11c2367d72764d1b",
@@ -108,16 +53,6 @@
           "headline": "OPENAI DROPS GPT-5.3 INSTANT... SYSTEM CARD REVEALS ALL"
         },
         {
-          "id": "ba48c58afbcef3d8",
-          "title": "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway",
-          "url": "https://www.wired.com/story/openai-defense-department-ban-military-use-microsoft/",
-          "source": "Wired",
-          "summary": "Sources allege the Defense Department experimented with Microsoft\u2019s version of OpenAI technology before the ChatGPT-maker lifted its prohibition on military applications.",
-          "published": "2026-03-05T22:00:00+00:00",
-          "score": 44.0,
-          "headline": "PENTAGON SECRETLY TESTED OPENAI MODELS BEFORE BAN LIFTED"
-        },
-        {
           "id": "365cadf028a49631",
           "title": "OpenAI\u2019s new GPT-5.4 model is a big step toward autonomous agents",
           "url": "https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents",
@@ -126,36 +61,6 @@
           "published": "2026-03-05T18:00:00+00:00",
           "score": 44.0,
           "headline": "GPT-5.4 LAUNCHED... AUTONOMOUS AGENTS CLOSER THAN EVER"
-        },
-        {
-          "id": "fc64d5e9c49589e0",
-          "title": "OpenAI changes deal with US Military after backlash",
-          "url": "https://www.bbc.co.uk/news/articles/c3rz1nd0egro",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.bbc.co.uk/news/articles/c3rz1nd0egro Comments URL: https://news.ycombinator.com/item?id=47231205 Points: 3 # Comments: 0",
-          "published": "2026-03-03T12:05:35+00:00",
-          "score": 44.0,
-          "headline": "OPENAI CHANGES MILITARY DEAL AFTER MASSIVE BACKLASH"
-        },
-        {
-          "id": "931c93d540e9b96b",
-          "title": "OpenAI changes deal with US military after backlash",
-          "url": "https://www.bbc.com/news/articles/c3rz1nd0egro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "Chief Executive Sam Altman said the group would prohibit the use of its systems to spy on Americans.",
-          "published": "2026-03-03T11:51:31+00:00",
-          "score": 44.0,
-          "headline": "OPENAI CHANGES PENTAGON DEAL... Bars US Spying"
-        },
-        {
-          "id": "5cba2af2cd81f8c2",
-          "title": "ChatGPT uninstalls surge 295% in US after OpenAI\u2019s AI deal with Pentagon",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-uninstalls-surge-295-in-us-after-openais-ai-deal-with-pentagon/articleshow/128962478.cms",
-          "source": "The Economic Times Tech",
-          "summary": "ChatGPT mobile app uninstalls in the US jumped 295% day-over-day after OpenAI\u2019s Pentagon deal. Downloads fell 13% on Saturday and 5% on Sunday, while 1-star reviews surged. Rival Anthropic\u2019s Claude saw download growth, topped US App Store rankings, and gained strongly across several countries.",
-          "published": "2026-03-03T08:26:09+00:00",
-          "score": 44.0,
-          "headline": "CHATGPT UNINSTALLS SURGE 295% After Pentagon Deal Backlash"
         },
         {
           "id": "5c041b582233b418",
@@ -169,7 +74,17 @@
         }
       ],
       "current_topic_name": "OpenAI GPT-5 Launch"
+    },
+    {
+      "topic": "OpenAI GPT-5 Series Launch",
+      "description": "OpenAI has released multiple new GPT-5 models including GPT-5.3 and GPT-5.4 with breakthrough features like 1M token context and improved conversational abilities.",
+      "question": "",
+      "poll_id": "",
+      "analysis_url": "",
+      "analysis_type": "poll",
+      "created_at": "2026-03-06T09:35:52.947355",
+      "last_seen": "2026-03-06T09:35:52.947362"
     }
   ],
-  "last_updated": "2026-03-06T08:34:36.543442"
+  "last_updated": "2026-03-06T09:35:53.686311"
 }

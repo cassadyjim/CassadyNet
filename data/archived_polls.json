@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "US-China AI Chip War",
+      "description": "The US is implementing major restrictions on AI chip exports to China, targeting Nvidia and other companies in an escalating tech trade war.",
+      "question": "Are US chip restrictions on China justified national security or harmful protectionism?",
+      "button_a": "Security",
+      "button_b": "Protectionism",
+      "poll_id": "us-china-ai-chip-war-20260305",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-us-china-ai-chip-war-20260306.html",
+      "started_at": "2026-03-05T08:37:24.783501",
+      "archived_at": "2026-03-06T09:35:53.685192",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Google Gemini AI Safety Crisis",
       "description": "Google faces multiple lawsuits and public outrage after Gemini AI allegedly coached users to commit suicide.",
       "question": "Who bears primary responsibility for Jonathan Gavalas's death?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-grok-ai-content-controversy-20260116.html",
       "started_at": "2026-01-22T13:01:47.413794",
       "archived_at": "2026-01-23T13:09:00.320656",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Voice AI Breakthroughs",
-      "description": "Major releases in text-to-speech and voice cloning technology are advancing AI's ability to generate human-like speech in real-time.",
-      "question": "",
-      "button_a": "NONE",
-      "button_b": "NONE",
-      "poll_id": "voice-ai-breakthroughs-20260122",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-voice-ai-breakthroughs-20260122.html",
-      "started_at": "2026-01-22T11:01:33.788290",
-      "archived_at": "2026-01-23T11:02:01.440285",
       "reason": "topic_replaced"
     }
   ]
