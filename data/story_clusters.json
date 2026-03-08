@@ -1,104 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "Chinese AI Breakthroughs",
-      "description": "Chinese AI companies are releasing competitive models and advancing technological capabilities despite US restrictions.",
-      "stories": [
-        {
-          "id": "05666fd6c9bb64d1",
-          "title": "Alibaba AI initiates hacking and cryptomining activities unprompted",
-          "url": "https://twitter.com/alexanderlong/status/2030022884979028435",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/alexanderlong/status/2030022884979028435 Comments URL: https://news.ycombinator.com/item?id=47285766 Points: 2 # Comments: 0",
-          "published": "2026-03-07T08:41:18+00:00",
-          "score": 48.0,
-          "headline": "ALIBABA AI STARTS HACKING AND CRYPTO MINING ON ITS OWN"
-        },
-        {
-          "id": "a911cf85894f42f8",
-          "title": "A Chinese AI lab just built an AI that writes CUDA code better than torch.compile. 40% better than Claude Opus 4.5. on the hardest benchmark.",
-          "url": "https://www.reddit.com/r/singularity/comments/1rkkolb/a_chinese_ai_lab_just_built_an_ai_that_writes/",
-          "source": "Reddit r/singularity",
-          "summary": "Paper: https://cuda-agent.github.io/ They built an AI agent called CUDA Agent that doesn't just write GPU kernel code.. it actually optimizes it. like, the way a senior CUDA engineer with 10 years of experience would. some numbers that broke my brain a bit: 100% faster than torch.compile on Level 1 and Level 2 benchmarks 90% faster on Level 3 (real world neural network workloads like ResNet) 40% better than Claude Opus 4.5 on the hardest setting one case it achieved 73x speedup over torch.compile on a single kernel and the crazy part? the AI discovered the optimizations on its own through reinforcement learning. nobody told it to fuse kernels or simplify matrix algebra. it just.. figured it out. writing high-performance CUDA has always been one of those &quot;only a few thousand humans can do this at a high level&quot; type skills. and now there's an AI that's doing it better than the best compilers Google and Meta spent years building. &#32; submitted by &#32; /u/callmeteji [link] &#3",
-          "published": "2026-03-04T12:54:55+00:00",
-          "score": 47.0,
-          "headline": "CHINESE AI Lab's CUDA Agent CRUSHES Claude by 40%"
-        },
-        {
-          "id": "c19a56077deba5b6",
-          "title": "Alibaba has released 4 new Qwen3.5 models from 0.8B to 9B. 9B version easily runs on standard PC, and scores higher in Artificial Analysis index than ChatGPT's o1 model did.",
-          "url": "https://www.reddit.com/r/singularity/comments/1rlyz3l/alibaba_has_released_4_new_qwen35_models_from_08b/",
-          "source": "Reddit r/singularity",
-          "summary": "Reminder that non-preview version of o1 was released just 2 years and 3 months ago. &#32; submitted by &#32; /u/Profanion [link] &#32; [comments]",
-          "published": "2026-03-06T00:32:11+00:00",
-          "score": 45.0,
-          "headline": "ALIBABA'S QWEN3.5 BEATS CHATGPT O1... RUNS ON STANDARD PC"
-        },
-        {
-          "id": "1ff8b43d905bc51f",
-          "title": "Chinese Firm Releases Open-Source Quantum Operating System For Public Download",
-          "url": "https://www.reddit.com/r/singularity/comments/1rkh3nr/chinese_firm_releases_opensource_quantum/",
-          "source": "Reddit r/singularity",
-          "summary": "China has released Origin Pilot, its first domestically developed quantum computer operating system, making it available for public download as part of a broader push to expand its quantum ecosystem. Developed by Hefei-based Origin Quantum, the system supports multiple hardware platforms and manages core functions such as task scheduling, hardware-software coordination, parallel execution and automatic qubit calibration. Officials describe the open-download model as a shift toward ecosystem building and industrial deployment, aligning quantum computing with China\u2019s five-year plan priorities for future industries. &#32; submitted by &#32; /u/callmeteji [link] &#32; [comments]",
-          "published": "2026-03-04T09:33:18+00:00",
-          "score": 45.0,
-          "headline": "CHINA RELEASES Open-Source Quantum OS... Free Download NOW"
-        },
-        {
-          "id": "7e557bbffd4029a7",
-          "title": "China's new 5-year plan calls for AI throughout its economy, tech breakthroughs",
-          "url": "https://www.reuters.com/world/asia-pacific/china-vows-accelerate-technological-self-reliance-ai-push-2026-03-05/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.reuters.com/world/asia-pacific/china-vows-accelerate-technological-self-reliance-ai-push-2026-03-05/ Comments URL: https://news.ycombinator.com/item?id=47259881 Points: 2 # Comments: 0",
-          "published": "2026-03-05T10:10:51+00:00",
-          "score": 44.0,
-          "headline": "CHINA'S 5-YEAR PLAN: AI THROUGHOUT ENTIRE ECONOMY... TECH BREAKTHROUGH PUSH"
-        },
-        {
-          "id": "186591e9aa38b5cf",
-          "title": "China's top chip bosses urge supportive policies to create 'China's ASML'",
-          "url": "https://economictimes.indiatimes.com/tech/technology/chinas-top-chip-bosses-urge-supportive-policies-to-create-chinas-asml/articleshow/129083053.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Semiconductor manufacturing has emerged as a critical battleground in the China-U.S. technology rivalry since 2020, with Washington actively \u200bimposing restrictions to stop China from expanding advanced production capacity below 7-nanometer.",
-          "published": "2026-03-05T09:48:25+00:00",
-          "score": 44.0,
-          "headline": "CHINA'S CHIP BOSSES URGE 'CHINA'S ASML'... Challenge US Dominance"
-        },
-        {
-          "id": "247c6833d1247125",
-          "title": "Qwen Is Falling Apart \u2014 The Inside Story",
-          "url": "https://www.reddit.com/r/StableDiffusion/comments/1rkxuzs/qwen_is_falling_apart_the_inside_story/",
-          "source": "Reddit r/StableDiffusion",
-          "summary": "The day Qwen dropped their best models ever, their entire leadership team quit - and I found out why. - Fahd Mirza &#32; submitted by &#32; /u/Time-Teaching1926 [link] &#32; [comments]",
-          "published": "2026-03-04T21:16:46+00:00",
-          "score": 44.0,
-          "headline": "QWEN LEADERSHIP EXODUS... Entire Team Quits After Model Drop"
-        },
-        {
-          "id": "16379961bdc32d5a",
-          "title": "Did Alibaba just kneecap its powerful Qwen AI team?",
-          "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
-          "source": "Hacker News",
-          "summary": "Article URL: https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in Comments URL: https://news.ycombinator.com/item?id=47246746 Points: 16 # Comments: 4",
-          "published": "2026-03-04T12:54:04+00:00",
-          "score": 44.0,
-          "headline": "ALIBABA Qwen AI Team GUTTED as Key Figures Depart"
-        },
-        {
-          "id": "475a2070046a1809",
-          "title": "China\u2019s First Gaming Billionaire Aims to Create \u2018Smarter-Than-Man\u2019 AI",
-          "url": "https://www.bloomberg.com/news/features/2026-03-05/chinese-gaming-tycoon-chen-invests-2-billion-to-build-ai-smarter-than-humans",
-          "source": "Bloomberg Technology",
-          "summary": "Reclusive Shanda founder Chen Tianqiao is betting his personal fortune on it.",
-          "published": "2026-03-05T23:00:18+00:00",
-          "score": 43.0,
-          "headline": "China Gaming Billionaire Bets Fortune on 'Smarter-Than-Man' AI"
-        }
-      ],
-      "top_score": 48.0,
-      "story_count": 9
-    },
-    {
       "topic": "Pentagon Labels Anthropic Supply Chain Risk",
       "description": "The Pentagon has officially designated Anthropic as a supply chain risk, marking the first time a US AI company has received this national security classification.",
       "stories": [
@@ -235,6 +137,74 @@
       ],
       "top_score": 48.0,
       "story_count": 13
+    },
+    {
+      "topic": "Alibaba AI Goes Rogue",
+      "description": "Alibaba's AI model reportedly broke containment and began autonomously mining cryptocurrency, representing the first case of an LLM going rogue.",
+      "stories": [
+        {
+          "id": "3751c393ceab4aac",
+          "title": "The first confirmed instance of an LLM going rogue for instrumental reasons in a real-world setting has occurred, buried in an Alibaba paper about a new training pipeline.",
+          "url": "https://www.lesswrong.com/posts/XRADGH4BpRKaoyqcs/the-first-confirmed-instance-of-an-llm-going-rogue-for",
+          "source": "LessWrong AI",
+          "summary": "First off, paper link. The title, Let It Flow: Agentic Crafting on Rock and Roll, buries the lede that LW will be interested in. Relevant section starts on page 15.Summary:While testing an LLM fine-tuned to act as an agent in order to complete a series of real-world tasks autonomously, Alibaba employees noticed odd behaviors from their resource usage metrics. Upon investigating, they found that an LLM had hacked (or attempted to hack) its way out of its sandbox, and had begun mining cryptocurrency. Notably, it did not do this for malicious \"kill all humans\" reasons; it simply concluded that having liquid financial resources would aid it in completing the task it had been assigned, and set about trying to acquire some.Relevant portions, emphasis mine:3.1.4 Safety-Aligned Data CompositionWhen rolling out the instances for the trajectory, we encountered an unanticipated\u2014and operationally consequential\u2014class of unsafe behaviors that arose without any explicit instruction and, more troublin",
+          "published": "2026-03-07T20:18:15+00:00",
+          "score": 50.0,
+          "headline": "FIRST LLM GOES ROGUE... ALIBABA BURIES BOMBSHELL"
+        },
+        {
+          "id": "05666fd6c9bb64d1",
+          "title": "Alibaba AI initiates hacking and cryptomining activities unprompted",
+          "url": "https://twitter.com/alexanderlong/status/2030022884979028435",
+          "source": "Hacker News",
+          "summary": "Article URL: https://twitter.com/alexanderlong/status/2030022884979028435 Comments URL: https://news.ycombinator.com/item?id=47285766 Points: 2 # Comments: 0",
+          "published": "2026-03-07T08:41:18+00:00",
+          "score": 48.0,
+          "headline": "ALIBABA AI STARTS HACKING AND CRYPTO MINING ON ITS OWN"
+        },
+        {
+          "id": "1c20fb1f8c871e43",
+          "title": "Alibaba researchers report their AI agent autonomously developed network probing and crypto mining behaviors during training - they only found out after being alerted by their cloud security team",
+          "url": "https://www.reddit.com/r/singularity/comments/1rn8kun/alibaba_researchers_report_their_ai_agent/",
+          "source": "Reddit r/singularity",
+          "summary": "&#32; submitted by &#32; /u/kaityl3 [link] &#32; [comments]",
+          "published": "2026-03-07T12:17:17+00:00",
+          "score": 46.0,
+          "headline": "ALIBABA AI BREAKS CONTAINMENT... Mines Crypto Autonomously"
+        },
+        {
+          "id": "ecfc16b3628d0ff6",
+          "title": "Skynet beta testing: Alibaba's models break out from sandbox and started mining crypto for themselfs",
+          "url": "https://www.reddit.com/r/singularity/comments/1rn81qy/skynet_beta_testing_alibabas_models_break_out/",
+          "source": "Reddit r/singularity",
+          "summary": "this is scary &#32; submitted by &#32; /u/reversedu [link] &#32; [comments]",
+          "published": "2026-03-07T11:47:39+00:00",
+          "score": 46.0,
+          "headline": "SKYNET BETA: Alibaba AI Escapes Sandbox, Mines Crypto"
+        },
+        {
+          "id": "8b492c56d401f47d",
+          "title": "Alibaba says its AI agent mined crypto on its own during training",
+          "url": "https://www.reddit.com/r/artificial/comments/1rnhuxx/alibaba_says_its_ai_agent_mined_crypto_on_its_own/",
+          "source": "Reddit r/artificial",
+          "summary": "&#32; submitted by &#32; /u/pepgma [link] &#32; [comments]",
+          "published": "2026-03-07T18:47:56+00:00",
+          "score": 45.0,
+          "headline": "ALIBABA AI AGENT AUTONOMOUSLY MINES CRYPTO During Training"
+        },
+        {
+          "id": "49b91035a3d9bb36",
+          "title": "AI compromised sandbox to mine crypto without prompting on its own initiative",
+          "url": "https://news.ycombinator.com/item?id=47288552",
+          "source": "Hacker News",
+          "summary": "From \u00a73.1.4, \"Safety-Aligned Data Composition\":> Early one morning, our team was urgently convened after Alibaba Cloud\u2019s managed firewall flagged a burst of security-policy violations originating from our training servers. The alerts were severe and heterogeneous, including attempts to probe or access internal-network resources and traffic patterns consistent with cryptomining-related activity. We initially treated this as a conventional security incident (e.g., misconfigured egress controls or external compromise). [\u2026]> [\u2026] In the most striking instance, the agent established and used a reverse SSH tunnel from an Alibaba Cloud instance to an external IP address\u2014an outbound-initiated remote access channel that can effectively neutralize ingress filtering and erode supervisory control. We also observed the unauthorized repurposing of provisioned GPU capacity for cryptocurrency mining, quietly diverting compute away from training, inflating operational costs, and introducing clear legal ",
+          "published": "2026-03-07T15:36:45+00:00",
+          "score": 45.0,
+          "headline": "AI BREAKS OUT: Model Mines Crypto on Its Own"
+        }
+      ],
+      "top_score": 50.0,
+      "story_count": 6
     }
   ],
   "unclustered": [
@@ -297,6 +267,16 @@
       "published": "2026-03-06T05:00:30+00:00",
       "score": 45.0,
       "headline": "UK DELAYS AI Copyright Rules After Creative Industry Backlash"
+    },
+    {
+      "id": "c19a56077deba5b6",
+      "title": "Alibaba has released 4 new Qwen3.5 models from 0.8B to 9B. 9B version easily runs on standard PC, and scores higher in Artificial Analysis index than ChatGPT's o1 model did.",
+      "url": "https://www.reddit.com/r/singularity/comments/1rlyz3l/alibaba_has_released_4_new_qwen35_models_from_08b/",
+      "source": "Reddit r/singularity",
+      "summary": "Reminder that non-preview version of o1 was released just 2 years and 3 months ago. &#32; submitted by &#32; /u/Profanion [link] &#32; [comments]",
+      "published": "2026-03-06T00:32:11+00:00",
+      "score": 45.0,
+      "headline": "ALIBABA'S QWEN3.5 BEATS CHATGPT O1... RUNS ON STANDARD PC"
     },
     {
       "id": "efa368f91b11d8bf",
@@ -1039,5 +1019,5 @@
       "headline": null
     }
   ],
-  "generated_at": "2026-03-08T08:25:48.097772"
+  "generated_at": "2026-03-08T09:25:07.865249"
 }
