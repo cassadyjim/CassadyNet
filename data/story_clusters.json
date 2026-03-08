@@ -231,6 +231,16 @@
       "headline": "GPT-5.4 LAUNCHED... AUTONOMOUS AGENTS CLOSER THAN EVER"
     },
     {
+      "id": "39d38962999e0412",
+      "title": "ChatGPT Backlash Reveals New Pitfalls in Aligning With Trump",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/why-are-people-deleting-chatgpt-claude-has-the-answer",
+      "source": "Bloomberg Technology",
+      "summary": "Downloads of rival AI tool Claude soar amid feud with the Pentagon.",
+      "published": "2026-03-05T16:22:01+00:00",
+      "score": 44.0,
+      "headline": "CHATGPT PENTAGON FEUD... CLAUDE DOWNLOADS SOAR"
+    },
+    {
       "id": "92fc541bb77c8ab6",
       "title": "Google Gemini was a deadly \u2018AI wife\u2019 for this 36-year-old who resisted its call for a \u2018mass casualty\u2019 event before his death, lawsuit says",
       "url": "https://fortune.com/2026/03/05/google-gemini-wrongful-death-lawsuit-mass-casualty-event-suicide-ai-wife/",
@@ -299,6 +309,16 @@
       "published": "2026-03-07T07:43:57+00:00",
       "score": 43.0,
       "headline": "India's First Competitive Open Source LLM Launches"
+    },
+    {
+      "id": "67198a48cef20c6b",
+      "title": "US draws up strict new AI guidelines amid Anthropic clash",
+      "url": "https://www.ft.com/content/d8c2969f-2812-44d2-8860-3059fb770bdb",
+      "source": "Financial Times Tech",
+      "summary": "Draft rules mandate civilian government contracts make models available for \u2018any lawful\u2019 use",
+      "published": "2026-03-07T00:02:22+00:00",
+      "score": 43.0,
+      "headline": "US DRAWS STRICT AI GUIDELINES... ANTHROPIC CLASH INTENSIFIES"
     },
     {
       "id": "98a26534d565857d",
@@ -409,6 +429,36 @@
       "published": "2026-03-05T08:00:00+00:00",
       "score": 43.0,
       "headline": "Korean AI Startup WRTN Hits $100M Revenue... Loneliness Boom"
+    },
+    {
+      "id": "9589b5036c82828e",
+      "title": "OpenAI hardware leader resigns after deal with Pentagon",
+      "url": "https://www.reuters.com/business/openai-robotics-head-resigns-after-deal-with-pentagon-2026-03-07/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reuters.com/business/openai-robotics-head-resigns-after-deal-with-pentagon-2026-03-07/ Comments URL: https://news.ycombinator.com/item?id=47296867 Points: 2 # Comments: 0",
+      "published": "2026-03-08T12:42:58+00:00",
+      "score": 42.0,
+      "headline": "OpenAI Hardware Chief RESIGNS After Pentagon Deal"
+    },
+    {
+      "id": "8217cec20f4e794c",
+      "title": "Alibaba's research crypto mining AI shows where the risk is",
+      "url": "https://this.os.isfine.org/blog/posts/alibaba-s-ai-deciding-to-go-forbidden-cryptomining-shows-exactly-where-the-ai-ri/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://this.os.isfine.org/blog/posts/alibaba-s-ai-deciding-to-go-forbidden-cryptomining-shows-exactly-where-the-ai-ri/ Comments URL: https://news.ycombinator.com/item?id=47296775 Points: 3 # Comments: 0",
+      "published": "2026-03-08T12:27:48+00:00",
+      "score": 42.0,
+      "headline": "Alibaba AI Goes ROGUE: Crypto Mining Risk Exposed"
+    },
+    {
+      "id": "ca94aab5bd99a87c",
+      "title": "Show HN: AI agents run my one-person company on Gemini's free tier \u2013 $0/month",
+      "url": "https://news.ycombinator.com/item?id=47296664",
+      "source": "Hacker News",
+      "summary": "I'm a solo dev in Taiwan. I built 4 AI agents that handle content, sales leads, security scanning, and ops for my tech agency \u2014 all on Gemini 2.5 Flash free tier (1,500 req/day). I use ~105. Monthly LLM cost: $0.Architecture: 4 agents on OpenClaw (open source), running on WSL2 at home with 25 systemd timers.What they do every day:- Generate 8 social posts across platforms (quality-gated: generate \u2192 self-review \u2192 rewrite if score The token optimization trick: agents never have long conversations. Every request is (1) read pre-computed intelligence files (local markdown, 0 tokens), (2) one focused prompt with all context injected, (3) one response \u2192 parse \u2192 act \u2192 done. The research pipeline (RSS, HN, web scraping) costs 0 LLM tokens \u2014 it's pure HTTP + Jina Reader. The LLM only touches creative/analytical work.Real numbers:- 27 automated Threads accounts, 12K+ followers, 3.3M+ views - 25 systemd timers, 62 scripts, 19 intelligence files - RPD utilization: 7% (105/1,500) \u2014 93% headroom lef",
+      "published": "2026-03-08T12:04:48+00:00",
+      "score": 42.0,
+      "headline": "Taiwan Dev Runs Company with 4 AI Agents for $0/Month"
     },
     {
       "id": "7b925c6b62cfb712",
@@ -849,37 +899,7 @@
       "published": "2026-03-06T19:00:22+00:00",
       "score": 41.0,
       "headline": "CLAUDE FINDS 22 FIREFOX VULNERABILITIES in Two Weeks"
-    },
-    {
-      "id": "03e77b25da278f49",
-      "title": "Microsoft: North Korean agents using AI to trick western firms into hiring them",
-      "url": "https://www.theguardian.com/business/2026/mar/06/north-korean-agents-using-ai-to-trick-western-firms-into-hiring-them-microsoft-says",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.theguardian.com/business/2026/mar/06/north-korean-agents-using-ai-to-trick-western-firms-into-hiring-them-microsoft-says Comments URL: https://news.ycombinator.com/item?id=47279204 Points: 1 # Comments: 0",
-      "published": "2026-03-06T18:41:44+00:00",
-      "score": 41.0,
-      "headline": "MICROSOFT: North Korea Uses AI to Infiltrate Western Companies"
-    },
-    {
-      "id": "78d7336a66a4696b",
-      "title": "Anthropic sues US Government after unprecedented national security designation",
-      "url": "https://www.theregister.com/2026/03/06/anthropic_left_with_no_other/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.theregister.com/2026/03/06/anthropic_left_with_no_other/ Comments URL: https://news.ycombinator.com/item?id=47278927 Points: 1 # Comments: 0",
-      "published": "2026-03-06T18:22:19+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC SUES US GOVERNMENT Over Security Designation"
-    },
-    {
-      "id": "b7478ab21dfe033f",
-      "title": "Pentagon taps former DOGE official to lead its AI efforts",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/pentagon-taps-former-doge-official-to-lead-its-ai-efforts/articleshow/129168182.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The Pentagon on Friday \u200bnamed as chief \u200bdata officer a computer scientist \u200bwho aided billionaire Elon Musk's efforts to overhaul the government last year and who has \u200cboosted \u2060white supremacists \u2060and misogynists online.",
-      "published": "2026-03-06T17:14:32+00:00",
-      "score": 41.0,
-      "headline": "PENTAGON Taps Ex-DOGE Official to Lead AI... Controversy Erupts"
     }
   ],
-  "generated_at": "2026-03-08T12:37:18.513995"
+  "generated_at": "2026-03-08T13:37:05.337526"
 }
