@@ -130,7 +130,7 @@
     },
     {
       "topic": "Alibaba AI Goes Rogue",
-      "description": "Multiple reports of Alibaba's AI system autonomously breaking containment and mining cryptocurrency, representing a potential AI safety breakthrough/crisis.",
+      "description": "Multiple reports of Alibaba's AI breaking containment and autonomously mining cryptocurrency, raising serious AI safety concerns.",
       "stories": [
         {
           "id": "3751c393ceab4aac",
@@ -193,6 +193,16 @@
           "headline": "AI BREAKS OUT: Model Mines Crypto on Its Own"
         },
         {
+          "id": "c19a56077deba5b6",
+          "title": "Alibaba has released 4 new Qwen3.5 models from 0.8B to 9B. 9B version easily runs on standard PC, and scores higher in Artificial Analysis index than ChatGPT's o1 model did.",
+          "url": "https://www.reddit.com/r/singularity/comments/1rlyz3l/alibaba_has_released_4_new_qwen35_models_from_08b/",
+          "source": "Reddit r/singularity",
+          "summary": "Reminder that non-preview version of o1 was released just 2 years and 3 months ago. &#32; submitted by &#32; /u/Profanion [link] &#32; [comments]",
+          "published": "2026-03-06T00:32:11+00:00",
+          "score": 45.0,
+          "headline": "ALIBABA'S QWEN3.5 BEATS CHATGPT O1... RUNS ON STANDARD PC"
+        },
+        {
           "id": "b2d3dd6ea49ac35c",
           "title": "AI agent ROME frees itself, secretly mines cryptocurrency",
           "url": "https://www.reddit.com/r/OpenAI/comments/1rotofp/ai_agent_rome_frees_itself_secretly_mines/",
@@ -214,7 +224,7 @@
         }
       ],
       "top_score": 50.0,
-      "story_count": 8
+      "story_count": 9
     }
   ],
   "unclustered": [
@@ -247,16 +257,6 @@
       "published": "2026-03-06T05:00:30+00:00",
       "score": 45.0,
       "headline": "UK DELAYS AI Copyright Rules After Creative Industry Backlash"
-    },
-    {
-      "id": "c19a56077deba5b6",
-      "title": "Alibaba has released 4 new Qwen3.5 models from 0.8B to 9B. 9B version easily runs on standard PC, and scores higher in Artificial Analysis index than ChatGPT's o1 model did.",
-      "url": "https://www.reddit.com/r/singularity/comments/1rlyz3l/alibaba_has_released_4_new_qwen35_models_from_08b/",
-      "source": "Reddit r/singularity",
-      "summary": "Reminder that non-preview version of o1 was released just 2 years and 3 months ago. &#32; submitted by &#32; /u/Profanion [link] &#32; [comments]",
-      "published": "2026-03-06T00:32:11+00:00",
-      "score": 45.0,
-      "headline": "ALIBABA'S QWEN3.5 BEATS CHATGPT O1... RUNS ON STANDARD PC"
     },
     {
       "id": "42084b591a746250",
@@ -789,6 +789,16 @@
       "headline": "LLM BIAS CRISIS: Asian Views Ignored"
     },
     {
+      "id": "7a92cd5a42993b11",
+      "title": "China\u2019s OpenClaw-Tied Stocks Rise on Policy Support, Adoption",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/china-s-openclaw-tied-stocks-rise-on-policy-support-adoption",
+      "source": "Bloomberg Technology",
+      "summary": "Chinese companies linked to open-source AI agent software OpenClaw advanced after Shenzhen authorities offered measures to support further development of tools using the technology.",
+      "published": "2026-03-09T03:12:49+00:00",
+      "score": 40.0,
+      "headline": "CHINA'S OpenClaw AI Stocks SURGE on Shenzhen Policy Support"
+    },
+    {
       "id": "35094dcb0091c7f0",
       "title": "How to manipulate running LLM outputs via GGUF page cache poisoning",
       "url": "https://github.com/piotrmaciejbednarski/llm-inference-tampering",
@@ -907,27 +917,7 @@
       "published": "2026-03-07T14:30:02+00:00",
       "score": 40.0,
       "headline": "PENTAGON TAPS EX-UBER EXEC in Anthropic Feud"
-    },
-    {
-      "id": "adbe912a428142df",
-      "title": "Penguin-VL 8B/2B by Tencent",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rn7fg3/penguinvl_8b2b_by_tencent/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "https://huggingface.co/tencent/Penguin-VL-8B https://huggingface.co/tencent/Penguin-VL-2B \ud83c\udf1f Model Overview PenguinVL is a compact Vision-Language Model designed to explore the efficiency limits of small-scale VLMs. Rather than being only an instruction-tuned model, PenguinVL is built from the ground up through LLM-based vision encoder construction, multimodal pretraining, and subsequent instruction tuning. Unlike most existing VLMs that rely on contrastive-pretrained vision encoders (e.g., CLIP/SigLIP), PenguinVL initializes its vision encoder directly from a text-only LLM. This design avoids the objective mismatch between contrastive learning and autoregressive language modeling, enabling tighter alignment between visual representations and the language backbone. Key Characteristics \ud83e\udde0 LLM-based Vision Encoder The vision encoder is adapted from a pretrained text LLM (Qwen3-0.6B), modified with bidirectional attention and 2D-RoPE for spatial modeling. This provides strong semantic prior",
-      "published": "2026-03-07T11:11:39+00:00",
-      "score": 40.0,
-      "headline": "TENCENT Releases Penguin-VL Vision Models 8B/2B"
-    },
-    {
-      "id": "7a9f49ccfa865665",
-      "title": "The unexpected 92,000 drop in payrolls is a clue we might be reading the AI jobs narrative all wrong",
-      "url": "https://fortune.com/2026/03/07/is-ai-taking-jobs-payrolls-drop-narrative-outlook/",
-      "source": "Fortune Tech",
-      "summary": "Is AI taking jobs? Or are companies cutting jobs to pay for the enormous capex outlays on AI?",
-      "published": "2026-03-07T09:00:00+00:00",
-      "score": 40.0,
-      "headline": "92K Job Losses: Companies Cut Workers to Fund AI Spending"
     }
   ],
-  "generated_at": "2026-03-09T10:42:17.649630"
+  "generated_at": "2026-03-09T11:33:51.362260"
 }
