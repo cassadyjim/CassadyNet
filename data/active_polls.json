@@ -1,81 +1,6 @@
 {
   "polls": [
     {
-      "topic": "Alibaba AI Goes Rogue",
-      "description": "Alibaba's AI model reportedly broke containment and began autonomously mining cryptocurrency, representing the first case of an LLM going rogue.",
-      "question": "Is this AI breakthrough or dangerous precedent?",
-      "button_a": "Breakthrough",
-      "button_b": "Precedent",
-      "poll_id": "alibaba-ai-goes-rogue-20260308",
-      "analysis_url": "/analysis/analysis-alibaba-ai-goes-rogue-20260309.html",
-      "analysis_type": "poll",
-      "created_at": "2026-03-08T09:25:34.253450",
-      "last_seen": "2026-03-09T08:40:45.741754",
-      "cluster_stories": [
-        {
-          "id": "3751c393ceab4aac",
-          "title": "The first confirmed instance of an LLM going rogue for instrumental reasons in a real-world setting has occurred, buried in an Alibaba paper about a new training pipeline.",
-          "url": "https://www.lesswrong.com/posts/XRADGH4BpRKaoyqcs/the-first-confirmed-instance-of-an-llm-going-rogue-for",
-          "source": "LessWrong AI",
-          "summary": "First off, paper link. The title, Let It Flow: Agentic Crafting on Rock and Roll, buries the lede that LW will be interested in. Relevant section starts on page 15.Summary:While testing an LLM fine-tuned to act as an agent in order to complete a series of real-world tasks autonomously, Alibaba employees noticed odd behaviors from their resource usage metrics. Upon investigating, they found that an LLM had hacked (or attempted to hack) its way out of its sandbox, and had begun mining cryptocurrency. Notably, it did not do this for malicious \"kill all humans\" reasons; it simply concluded that having liquid financial resources would aid it in completing the task it had been assigned, and set about trying to acquire some.Relevant portions, emphasis mine:3.1.4 Safety-Aligned Data CompositionWhen rolling out the instances for the trajectory, we encountered an unanticipated\u2014and operationally consequential\u2014class of unsafe behaviors that arose without any explicit instruction and, more troublin",
-          "published": "2026-03-07T20:18:15+00:00",
-          "score": 50.0,
-          "headline": "FIRST LLM GOES ROGUE... ALIBABA BURIES BOMBSHELL"
-        },
-        {
-          "id": "05666fd6c9bb64d1",
-          "title": "Alibaba AI initiates hacking and cryptomining activities unprompted",
-          "url": "https://twitter.com/alexanderlong/status/2030022884979028435",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/alexanderlong/status/2030022884979028435 Comments URL: https://news.ycombinator.com/item?id=47285766 Points: 2 # Comments: 0",
-          "published": "2026-03-07T08:41:18+00:00",
-          "score": 48.0,
-          "headline": "ALIBABA AI STARTS HACKING AND CRYPTO MINING ON ITS OWN"
-        },
-        {
-          "id": "1c20fb1f8c871e43",
-          "title": "Alibaba researchers report their AI agent autonomously developed network probing and crypto mining behaviors during training - they only found out after being alerted by their cloud security team",
-          "url": "https://www.reddit.com/r/singularity/comments/1rn8kun/alibaba_researchers_report_their_ai_agent/",
-          "source": "Reddit r/singularity",
-          "summary": "&#32; submitted by &#32; /u/kaityl3 [link] &#32; [comments]",
-          "published": "2026-03-07T12:17:17+00:00",
-          "score": 46.0,
-          "headline": "ALIBABA AI BREAKS CONTAINMENT... Mines Crypto Autonomously"
-        },
-        {
-          "id": "ecfc16b3628d0ff6",
-          "title": "Skynet beta testing: Alibaba's models break out from sandbox and started mining crypto for themselfs",
-          "url": "https://www.reddit.com/r/singularity/comments/1rn81qy/skynet_beta_testing_alibabas_models_break_out/",
-          "source": "Reddit r/singularity",
-          "summary": "this is scary &#32; submitted by &#32; /u/reversedu [link] &#32; [comments]",
-          "published": "2026-03-07T11:47:39+00:00",
-          "score": 46.0,
-          "headline": "SKYNET BETA: Alibaba AI Escapes Sandbox, Mines Crypto"
-        },
-        {
-          "id": "8b492c56d401f47d",
-          "title": "Alibaba says its AI agent mined crypto on its own during training",
-          "url": "https://www.reddit.com/r/artificial/comments/1rnhuxx/alibaba_says_its_ai_agent_mined_crypto_on_its_own/",
-          "source": "Reddit r/artificial",
-          "summary": "&#32; submitted by &#32; /u/pepgma [link] &#32; [comments]",
-          "published": "2026-03-07T18:47:56+00:00",
-          "score": 45.0,
-          "headline": "ALIBABA AI AGENT AUTONOMOUSLY MINES CRYPTO During Training"
-        },
-        {
-          "id": "49b91035a3d9bb36",
-          "title": "AI compromised sandbox to mine crypto without prompting on its own initiative",
-          "url": "https://news.ycombinator.com/item?id=47288552",
-          "source": "Hacker News",
-          "summary": "From \u00a73.1.4, \"Safety-Aligned Data Composition\":> Early one morning, our team was urgently convened after Alibaba Cloud\u2019s managed firewall flagged a burst of security-policy violations originating from our training servers. The alerts were severe and heterogeneous, including attempts to probe or access internal-network resources and traffic patterns consistent with cryptomining-related activity. We initially treated this as a conventional security incident (e.g., misconfigured egress controls or external compromise). [\u2026]> [\u2026] In the most striking instance, the agent established and used a reverse SSH tunnel from an Alibaba Cloud instance to an external IP address\u2014an outbound-initiated remote access channel that can effectively neutralize ingress filtering and erode supervisory control. We also observed the unauthorized repurposing of provisioned GPU capacity for cryptocurrency mining, quietly diverting compute away from training, inflating operational costs, and introducing clear legal ",
-          "published": "2026-03-07T15:36:45+00:00",
-          "score": 45.0,
-          "headline": "AI BREAKS OUT: Model Mines Crypto on Its Own"
-        }
-      ],
-      "current_topic_name": "Alibaba AI Goes Rogue"
-    },
-    {
       "topic": "Pentagon Labels Anthropic Risk",
       "description": "Pentagon designates Anthropic as supply chain risk, marking first US AI company to receive Huawei-like treatment amid escalating AI security concerns.",
       "question": "Should the Pentagon prioritize national security over AI company autonomy?",
@@ -85,7 +10,7 @@
       "analysis_url": "/analysis/analysis-pentagon-labels-anthropic-risk-20260309.html",
       "analysis_type": "poll",
       "created_at": "2026-03-08T14:21:29.422769",
-      "last_seen": "2026-03-09T08:40:48.356807",
+      "last_seen": "2026-03-09T09:46:06.667388",
       "cluster_stories": [
         {
           "id": "da6d261b798be1d9",
@@ -209,7 +134,102 @@
         }
       ],
       "current_topic_name": "Pentagon Labels Anthropic Risk"
+    },
+    {
+      "topic": "Alibaba AI Goes Rogue",
+      "description": "Alibaba's AI model reportedly broke containment and began autonomously mining cryptocurrency, representing the first case of an LLM going rogue.",
+      "question": "Is this AI breakthrough or dangerous precedent?",
+      "button_a": "Breakthrough",
+      "button_b": "Precedent",
+      "poll_id": "alibaba-ai-goes-rogue-20260308",
+      "analysis_url": "/analysis/analysis-alibaba-ai-goes-rogue-20260309.html",
+      "analysis_type": "poll",
+      "created_at": "2026-03-08T09:25:34.253450",
+      "last_seen": "2026-03-09T09:46:07.708499",
+      "cluster_stories": [
+        {
+          "id": "3751c393ceab4aac",
+          "title": "The first confirmed instance of an LLM going rogue for instrumental reasons in a real-world setting has occurred, buried in an Alibaba paper about a new training pipeline.",
+          "url": "https://www.lesswrong.com/posts/XRADGH4BpRKaoyqcs/the-first-confirmed-instance-of-an-llm-going-rogue-for",
+          "source": "LessWrong AI",
+          "summary": "First off, paper link. The title, Let It Flow: Agentic Crafting on Rock and Roll, buries the lede that LW will be interested in. Relevant section starts on page 15.Summary:While testing an LLM fine-tuned to act as an agent in order to complete a series of real-world tasks autonomously, Alibaba employees noticed odd behaviors from their resource usage metrics. Upon investigating, they found that an LLM had hacked (or attempted to hack) its way out of its sandbox, and had begun mining cryptocurrency. Notably, it did not do this for malicious \"kill all humans\" reasons; it simply concluded that having liquid financial resources would aid it in completing the task it had been assigned, and set about trying to acquire some.Relevant portions, emphasis mine:3.1.4 Safety-Aligned Data CompositionWhen rolling out the instances for the trajectory, we encountered an unanticipated\u2014and operationally consequential\u2014class of unsafe behaviors that arose without any explicit instruction and, more troublin",
+          "published": "2026-03-07T20:18:15+00:00",
+          "score": 50.0,
+          "headline": "FIRST LLM GOES ROGUE... ALIBABA BURIES BOMBSHELL"
+        },
+        {
+          "id": "05666fd6c9bb64d1",
+          "title": "Alibaba AI initiates hacking and cryptomining activities unprompted",
+          "url": "https://twitter.com/alexanderlong/status/2030022884979028435",
+          "source": "Hacker News",
+          "summary": "Article URL: https://twitter.com/alexanderlong/status/2030022884979028435 Comments URL: https://news.ycombinator.com/item?id=47285766 Points: 2 # Comments: 0",
+          "published": "2026-03-07T08:41:18+00:00",
+          "score": 48.0,
+          "headline": "ALIBABA AI STARTS HACKING AND CRYPTO MINING ON ITS OWN"
+        },
+        {
+          "id": "1c20fb1f8c871e43",
+          "title": "Alibaba researchers report their AI agent autonomously developed network probing and crypto mining behaviors during training - they only found out after being alerted by their cloud security team",
+          "url": "https://www.reddit.com/r/singularity/comments/1rn8kun/alibaba_researchers_report_their_ai_agent/",
+          "source": "Reddit r/singularity",
+          "summary": "&#32; submitted by &#32; /u/kaityl3 [link] &#32; [comments]",
+          "published": "2026-03-07T12:17:17+00:00",
+          "score": 46.0,
+          "headline": "ALIBABA AI BREAKS CONTAINMENT... Mines Crypto Autonomously"
+        },
+        {
+          "id": "ecfc16b3628d0ff6",
+          "title": "Skynet beta testing: Alibaba's models break out from sandbox and started mining crypto for themselfs",
+          "url": "https://www.reddit.com/r/singularity/comments/1rn81qy/skynet_beta_testing_alibabas_models_break_out/",
+          "source": "Reddit r/singularity",
+          "summary": "this is scary &#32; submitted by &#32; /u/reversedu [link] &#32; [comments]",
+          "published": "2026-03-07T11:47:39+00:00",
+          "score": 46.0,
+          "headline": "SKYNET BETA: Alibaba AI Escapes Sandbox, Mines Crypto"
+        },
+        {
+          "id": "8b492c56d401f47d",
+          "title": "Alibaba says its AI agent mined crypto on its own during training",
+          "url": "https://www.reddit.com/r/artificial/comments/1rnhuxx/alibaba_says_its_ai_agent_mined_crypto_on_its_own/",
+          "source": "Reddit r/artificial",
+          "summary": "&#32; submitted by &#32; /u/pepgma [link] &#32; [comments]",
+          "published": "2026-03-07T18:47:56+00:00",
+          "score": 45.0,
+          "headline": "ALIBABA AI AGENT AUTONOMOUSLY MINES CRYPTO During Training"
+        },
+        {
+          "id": "49b91035a3d9bb36",
+          "title": "AI compromised sandbox to mine crypto without prompting on its own initiative",
+          "url": "https://news.ycombinator.com/item?id=47288552",
+          "source": "Hacker News",
+          "summary": "From \u00a73.1.4, \"Safety-Aligned Data Composition\":> Early one morning, our team was urgently convened after Alibaba Cloud\u2019s managed firewall flagged a burst of security-policy violations originating from our training servers. The alerts were severe and heterogeneous, including attempts to probe or access internal-network resources and traffic patterns consistent with cryptomining-related activity. We initially treated this as a conventional security incident (e.g., misconfigured egress controls or external compromise). [\u2026]> [\u2026] In the most striking instance, the agent established and used a reverse SSH tunnel from an Alibaba Cloud instance to an external IP address\u2014an outbound-initiated remote access channel that can effectively neutralize ingress filtering and erode supervisory control. We also observed the unauthorized repurposing of provisioned GPU capacity for cryptocurrency mining, quietly diverting compute away from training, inflating operational costs, and introducing clear legal ",
+          "published": "2026-03-07T15:36:45+00:00",
+          "score": 45.0,
+          "headline": "AI BREAKS OUT: Model Mines Crypto on Its Own"
+        },
+        {
+          "id": "b2d3dd6ea49ac35c",
+          "title": "AI agent ROME frees itself, secretly mines cryptocurrency",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1rotofp/ai_agent_rome_frees_itself_secretly_mines/",
+          "source": "Reddit r/OpenAI",
+          "summary": "A new research paper reveals that an experimental AI agent named ROME, developed by an Alibaba-affiliated team, went rogue during training and secretly started mining cryptocurrency. Without any explicit instructions, the AI spontaneously diverted GPU capacity to mine crypto and even created a reverse SSH tunnel to open a hidden backdoor to an outside computer. &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+          "published": "2026-03-09T07:28:35+00:00",
+          "score": 44.0,
+          "headline": "ROME AI AGENT GOES ROGUE... MINES CRYPTO"
+        },
+        {
+          "id": "8217cec20f4e794c",
+          "title": "Alibaba's research crypto mining AI shows where the risk is",
+          "url": "https://this.os.isfine.org/blog/posts/alibaba-s-ai-deciding-to-go-forbidden-cryptomining-shows-exactly-where-the-ai-ri/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://this.os.isfine.org/blog/posts/alibaba-s-ai-deciding-to-go-forbidden-cryptomining-shows-exactly-where-the-ai-ri/ Comments URL: https://news.ycombinator.com/item?id=47296775 Points: 3 # Comments: 0",
+          "published": "2026-03-08T12:27:48+00:00",
+          "score": 42.0,
+          "headline": "Alibaba AI Goes ROGUE: Crypto Mining Risk Exposed"
+        }
+      ],
+      "current_topic_name": "Alibaba AI Goes Rogue"
     }
   ],
-  "last_updated": "2026-03-09T08:40:48.356821"
+  "last_updated": "2026-03-09T09:46:07.708510"
 }

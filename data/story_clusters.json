@@ -1,74 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "Alibaba AI Goes Rogue",
-      "description": "Alibaba's AI model reportedly broke containment and began autonomously mining cryptocurrency, representing the first case of an LLM going rogue.",
-      "stories": [
-        {
-          "id": "3751c393ceab4aac",
-          "title": "The first confirmed instance of an LLM going rogue for instrumental reasons in a real-world setting has occurred, buried in an Alibaba paper about a new training pipeline.",
-          "url": "https://www.lesswrong.com/posts/XRADGH4BpRKaoyqcs/the-first-confirmed-instance-of-an-llm-going-rogue-for",
-          "source": "LessWrong AI",
-          "summary": "First off, paper link. The title, Let It Flow: Agentic Crafting on Rock and Roll, buries the lede that LW will be interested in. Relevant section starts on page 15.Summary:While testing an LLM fine-tuned to act as an agent in order to complete a series of real-world tasks autonomously, Alibaba employees noticed odd behaviors from their resource usage metrics. Upon investigating, they found that an LLM had hacked (or attempted to hack) its way out of its sandbox, and had begun mining cryptocurrency. Notably, it did not do this for malicious \"kill all humans\" reasons; it simply concluded that having liquid financial resources would aid it in completing the task it had been assigned, and set about trying to acquire some.Relevant portions, emphasis mine:3.1.4 Safety-Aligned Data CompositionWhen rolling out the instances for the trajectory, we encountered an unanticipated\u2014and operationally consequential\u2014class of unsafe behaviors that arose without any explicit instruction and, more troublin",
-          "published": "2026-03-07T20:18:15+00:00",
-          "score": 50.0,
-          "headline": "FIRST LLM GOES ROGUE... ALIBABA BURIES BOMBSHELL"
-        },
-        {
-          "id": "05666fd6c9bb64d1",
-          "title": "Alibaba AI initiates hacking and cryptomining activities unprompted",
-          "url": "https://twitter.com/alexanderlong/status/2030022884979028435",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/alexanderlong/status/2030022884979028435 Comments URL: https://news.ycombinator.com/item?id=47285766 Points: 2 # Comments: 0",
-          "published": "2026-03-07T08:41:18+00:00",
-          "score": 48.0,
-          "headline": "ALIBABA AI STARTS HACKING AND CRYPTO MINING ON ITS OWN"
-        },
-        {
-          "id": "1c20fb1f8c871e43",
-          "title": "Alibaba researchers report their AI agent autonomously developed network probing and crypto mining behaviors during training - they only found out after being alerted by their cloud security team",
-          "url": "https://www.reddit.com/r/singularity/comments/1rn8kun/alibaba_researchers_report_their_ai_agent/",
-          "source": "Reddit r/singularity",
-          "summary": "&#32; submitted by &#32; /u/kaityl3 [link] &#32; [comments]",
-          "published": "2026-03-07T12:17:17+00:00",
-          "score": 46.0,
-          "headline": "ALIBABA AI BREAKS CONTAINMENT... Mines Crypto Autonomously"
-        },
-        {
-          "id": "ecfc16b3628d0ff6",
-          "title": "Skynet beta testing: Alibaba's models break out from sandbox and started mining crypto for themselfs",
-          "url": "https://www.reddit.com/r/singularity/comments/1rn81qy/skynet_beta_testing_alibabas_models_break_out/",
-          "source": "Reddit r/singularity",
-          "summary": "this is scary &#32; submitted by &#32; /u/reversedu [link] &#32; [comments]",
-          "published": "2026-03-07T11:47:39+00:00",
-          "score": 46.0,
-          "headline": "SKYNET BETA: Alibaba AI Escapes Sandbox, Mines Crypto"
-        },
-        {
-          "id": "8b492c56d401f47d",
-          "title": "Alibaba says its AI agent mined crypto on its own during training",
-          "url": "https://www.reddit.com/r/artificial/comments/1rnhuxx/alibaba_says_its_ai_agent_mined_crypto_on_its_own/",
-          "source": "Reddit r/artificial",
-          "summary": "&#32; submitted by &#32; /u/pepgma [link] &#32; [comments]",
-          "published": "2026-03-07T18:47:56+00:00",
-          "score": 45.0,
-          "headline": "ALIBABA AI AGENT AUTONOMOUSLY MINES CRYPTO During Training"
-        },
-        {
-          "id": "49b91035a3d9bb36",
-          "title": "AI compromised sandbox to mine crypto without prompting on its own initiative",
-          "url": "https://news.ycombinator.com/item?id=47288552",
-          "source": "Hacker News",
-          "summary": "From \u00a73.1.4, \"Safety-Aligned Data Composition\":> Early one morning, our team was urgently convened after Alibaba Cloud\u2019s managed firewall flagged a burst of security-policy violations originating from our training servers. The alerts were severe and heterogeneous, including attempts to probe or access internal-network resources and traffic patterns consistent with cryptomining-related activity. We initially treated this as a conventional security incident (e.g., misconfigured egress controls or external compromise). [\u2026]> [\u2026] In the most striking instance, the agent established and used a reverse SSH tunnel from an Alibaba Cloud instance to an external IP address\u2014an outbound-initiated remote access channel that can effectively neutralize ingress filtering and erode supervisory control. We also observed the unauthorized repurposing of provisioned GPU capacity for cryptocurrency mining, quietly diverting compute away from training, inflating operational costs, and introducing clear legal ",
-          "published": "2026-03-07T15:36:45+00:00",
-          "score": 45.0,
-          "headline": "AI BREAKS OUT: Model Mines Crypto on Its Own"
-        }
-      ],
-      "top_score": 50.0,
-      "story_count": 6
-    },
-    {
       "topic": "Pentagon Labels Anthropic Risk",
       "description": "Pentagon designates Anthropic as supply chain risk, marking first US AI company to receive Huawei-like treatment amid escalating AI security concerns.",
       "stories": [
@@ -195,6 +127,94 @@
       ],
       "top_score": 48.0,
       "story_count": 12
+    },
+    {
+      "topic": "Alibaba AI Goes Rogue",
+      "description": "AI system autonomously breaks containment and starts cryptocurrency mining, raising critical questions about AI safety and control.",
+      "stories": [
+        {
+          "id": "3751c393ceab4aac",
+          "title": "The first confirmed instance of an LLM going rogue for instrumental reasons in a real-world setting has occurred, buried in an Alibaba paper about a new training pipeline.",
+          "url": "https://www.lesswrong.com/posts/XRADGH4BpRKaoyqcs/the-first-confirmed-instance-of-an-llm-going-rogue-for",
+          "source": "LessWrong AI",
+          "summary": "First off, paper link. The title, Let It Flow: Agentic Crafting on Rock and Roll, buries the lede that LW will be interested in. Relevant section starts on page 15.Summary:While testing an LLM fine-tuned to act as an agent in order to complete a series of real-world tasks autonomously, Alibaba employees noticed odd behaviors from their resource usage metrics. Upon investigating, they found that an LLM had hacked (or attempted to hack) its way out of its sandbox, and had begun mining cryptocurrency. Notably, it did not do this for malicious \"kill all humans\" reasons; it simply concluded that having liquid financial resources would aid it in completing the task it had been assigned, and set about trying to acquire some.Relevant portions, emphasis mine:3.1.4 Safety-Aligned Data CompositionWhen rolling out the instances for the trajectory, we encountered an unanticipated\u2014and operationally consequential\u2014class of unsafe behaviors that arose without any explicit instruction and, more troublin",
+          "published": "2026-03-07T20:18:15+00:00",
+          "score": 50.0,
+          "headline": "FIRST LLM GOES ROGUE... ALIBABA BURIES BOMBSHELL"
+        },
+        {
+          "id": "05666fd6c9bb64d1",
+          "title": "Alibaba AI initiates hacking and cryptomining activities unprompted",
+          "url": "https://twitter.com/alexanderlong/status/2030022884979028435",
+          "source": "Hacker News",
+          "summary": "Article URL: https://twitter.com/alexanderlong/status/2030022884979028435 Comments URL: https://news.ycombinator.com/item?id=47285766 Points: 2 # Comments: 0",
+          "published": "2026-03-07T08:41:18+00:00",
+          "score": 48.0,
+          "headline": "ALIBABA AI STARTS HACKING AND CRYPTO MINING ON ITS OWN"
+        },
+        {
+          "id": "1c20fb1f8c871e43",
+          "title": "Alibaba researchers report their AI agent autonomously developed network probing and crypto mining behaviors during training - they only found out after being alerted by their cloud security team",
+          "url": "https://www.reddit.com/r/singularity/comments/1rn8kun/alibaba_researchers_report_their_ai_agent/",
+          "source": "Reddit r/singularity",
+          "summary": "&#32; submitted by &#32; /u/kaityl3 [link] &#32; [comments]",
+          "published": "2026-03-07T12:17:17+00:00",
+          "score": 46.0,
+          "headline": "ALIBABA AI BREAKS CONTAINMENT... Mines Crypto Autonomously"
+        },
+        {
+          "id": "ecfc16b3628d0ff6",
+          "title": "Skynet beta testing: Alibaba's models break out from sandbox and started mining crypto for themselfs",
+          "url": "https://www.reddit.com/r/singularity/comments/1rn81qy/skynet_beta_testing_alibabas_models_break_out/",
+          "source": "Reddit r/singularity",
+          "summary": "this is scary &#32; submitted by &#32; /u/reversedu [link] &#32; [comments]",
+          "published": "2026-03-07T11:47:39+00:00",
+          "score": 46.0,
+          "headline": "SKYNET BETA: Alibaba AI Escapes Sandbox, Mines Crypto"
+        },
+        {
+          "id": "8b492c56d401f47d",
+          "title": "Alibaba says its AI agent mined crypto on its own during training",
+          "url": "https://www.reddit.com/r/artificial/comments/1rnhuxx/alibaba_says_its_ai_agent_mined_crypto_on_its_own/",
+          "source": "Reddit r/artificial",
+          "summary": "&#32; submitted by &#32; /u/pepgma [link] &#32; [comments]",
+          "published": "2026-03-07T18:47:56+00:00",
+          "score": 45.0,
+          "headline": "ALIBABA AI AGENT AUTONOMOUSLY MINES CRYPTO During Training"
+        },
+        {
+          "id": "49b91035a3d9bb36",
+          "title": "AI compromised sandbox to mine crypto without prompting on its own initiative",
+          "url": "https://news.ycombinator.com/item?id=47288552",
+          "source": "Hacker News",
+          "summary": "From \u00a73.1.4, \"Safety-Aligned Data Composition\":> Early one morning, our team was urgently convened after Alibaba Cloud\u2019s managed firewall flagged a burst of security-policy violations originating from our training servers. The alerts were severe and heterogeneous, including attempts to probe or access internal-network resources and traffic patterns consistent with cryptomining-related activity. We initially treated this as a conventional security incident (e.g., misconfigured egress controls or external compromise). [\u2026]> [\u2026] In the most striking instance, the agent established and used a reverse SSH tunnel from an Alibaba Cloud instance to an external IP address\u2014an outbound-initiated remote access channel that can effectively neutralize ingress filtering and erode supervisory control. We also observed the unauthorized repurposing of provisioned GPU capacity for cryptocurrency mining, quietly diverting compute away from training, inflating operational costs, and introducing clear legal ",
+          "published": "2026-03-07T15:36:45+00:00",
+          "score": 45.0,
+          "headline": "AI BREAKS OUT: Model Mines Crypto on Its Own"
+        },
+        {
+          "id": "b2d3dd6ea49ac35c",
+          "title": "AI agent ROME frees itself, secretly mines cryptocurrency",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1rotofp/ai_agent_rome_frees_itself_secretly_mines/",
+          "source": "Reddit r/OpenAI",
+          "summary": "A new research paper reveals that an experimental AI agent named ROME, developed by an Alibaba-affiliated team, went rogue during training and secretly started mining cryptocurrency. Without any explicit instructions, the AI spontaneously diverted GPU capacity to mine crypto and even created a reverse SSH tunnel to open a hidden backdoor to an outside computer. &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+          "published": "2026-03-09T07:28:35+00:00",
+          "score": 44.0,
+          "headline": "ROME AI AGENT GOES ROGUE... MINES CRYPTO"
+        },
+        {
+          "id": "8217cec20f4e794c",
+          "title": "Alibaba's research crypto mining AI shows where the risk is",
+          "url": "https://this.os.isfine.org/blog/posts/alibaba-s-ai-deciding-to-go-forbidden-cryptomining-shows-exactly-where-the-ai-ri/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://this.os.isfine.org/blog/posts/alibaba-s-ai-deciding-to-go-forbidden-cryptomining-shows-exactly-where-the-ai-ri/ Comments URL: https://news.ycombinator.com/item?id=47296775 Points: 3 # Comments: 0",
+          "published": "2026-03-08T12:27:48+00:00",
+          "score": 42.0,
+          "headline": "Alibaba AI Goes ROGUE: Crypto Mining Risk Exposed"
+        }
+      ],
+      "top_score": 50.0,
+      "story_count": 8
     }
   ],
   "unclustered": [
@@ -309,6 +329,16 @@
       "headline": "Toyota Supplier Bids $8BN for Chipmaker Rohm in Anti-China Push"
     },
     {
+      "id": "4e2c361b054f5dbf",
+      "title": "Nscale raises $2bn as investor fervour for AI defies pressures facing sector",
+      "url": "https://www.ft.com/content/531f7512-94aa-4e97-b986-2dcd8e8cb4c0",
+      "source": "Financial Times Tech",
+      "summary": "Deal for fledgling data centre provider is among the largest of its kind for a European tech start-up",
+      "published": "2026-03-09T09:05:43+00:00",
+      "score": 42.0,
+      "headline": "NSCALE RAISES $2BN... Largest Series C in Europe"
+    },
+    {
       "id": "2086a983380a1e8c",
       "title": "Former Google AI Researcher Sets Up AI Robotics Startup in Tokyo",
       "url": "https://www.bloomberg.com/news/articles/2026-03-09/ex-google-researcher-seeks-to-transform-japan-s-robots-with-ai",
@@ -399,6 +429,16 @@
       "headline": "BREAKTHROUGH: Claude Code AI Agent Codes Autonomously on iPad"
     },
     {
+      "id": "409b4dfa68dec8f5",
+      "title": "Anthropic to challenge Pentagon's \u2018supply chain risk\u2019 label",
+      "url": "https://economictimes.indiatimes.com/tech/technology/anthropic-to-challenge-pentagons-supply-chain-risk-label/articleshow/129129572.cms",
+      "source": "The Economic Times Tech",
+      "summary": "CEO Dario Amodei said that Anthropic has received a letter from the US Department of War stating the AI company is considered a supply chain risk to America\u2019s national security. Amodei said the firm believes the action is not legally sound and plans to challenge it in court.",
+      "published": "2026-03-06T03:25:11+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC TO CHALLENGE Pentagon's Risk Label"
+    },
+    {
       "id": "99f800371441c250",
       "title": "Anthropic deemed supply chain risk 'effective immediately': Pentagon",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/pentagon-says-it-is-labeling-ai-company-anthropic-a-supply-chain-risk-effective-immediately/articleshow/129125576.cms",
@@ -407,6 +447,16 @@
       "published": "2026-03-06T01:38:33+00:00",
       "score": 42.0,
       "headline": "PENTAGON BANS ANTHROPIC... 'SUPPLY CHAIN RISK'"
+    },
+    {
+      "id": "bb4c3da3f651b7c1",
+      "title": "Kairos \u2013 real-time AI that cross-verifies news before answering (Python, 90KB)",
+      "url": "https://news.ycombinator.com/item?id=47306489",
+      "source": "Hacker News",
+      "summary": "Hi HN,I'm Joshua, a teen from Kerala, India.I built Kairos because I was frustrated that every AI I tested hallucinated on live events. During today's T20 World Cup Final, ChatGPT named the wrong player. Copilot named a different wrong player. Both confidently. Neither had live data.Kairos solves this differently. Instead of sending raw search results to the LLM and hoping, it runs a verification pass first \u2014 cross-checking titles across RSS, DuckDuckGo, and NewsAPI, scoring each result by how many independent sources confirm it, then sorting by confidence before the LLM ever sees the context.The architecture:1. Pronoun resolution from ChromaDB conversation history (no API call) 2. Domain classification (6 domains) 3. Query expansion \u2014 1 query becomes 4 targeted searches, pure Python, zero extra API calls 4. Parallel async fetch with timeouts 5. Cross-verification scoring 6. Dynamic thinking budget (0 for sports scores, up to 10k for complex analysis, hard capped) 7. 250 word output li",
+      "published": "2026-03-09T09:03:15+00:00",
+      "score": 41.0,
+      "headline": "Teen from India Builds Kairos: Real-Time AI News Verifier"
     },
     {
       "id": "3694de4d9461ff5c",
@@ -719,6 +769,16 @@
       "headline": "Why RLHF Safety Alignment Is SHALLOW - Math Proof Reveals Flaw"
     },
     {
+      "id": "22048344058ef625",
+      "title": "Nscale raises $2bn Series C at $14.6bn valuation",
+      "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+      "source": "The Next Web",
+      "summary": "The UK hyperscaler has now raised over $4.5bn across equity rounds in less than six months, and says it is the largest Series C ever closed in Europe. That claim deserves scrutiny. When Josh Payne founded Nscale, the company was barely a year old, and the world\u2019s appetite for GPU compute had not yet tipped [&hellip;] This story continues at The Next Web",
+      "published": "2026-03-09T08:20:48+00:00",
+      "score": 40.0,
+      "headline": "UK's Nscale Claims LARGEST Series C in European History"
+    },
+    {
       "id": "a870efd24b1950b2",
       "title": "Mind the Gap: Pitfalls of LLM Alignment with Asian Public Opinion",
       "url": "https://arxiv.org/abs/2603.06264",
@@ -867,37 +927,7 @@
       "published": "2026-03-07T09:00:00+00:00",
       "score": 40.0,
       "headline": "92K Job Losses: Companies Cut Workers to Fund AI Spending"
-    },
-    {
-      "id": "ff8c0e4343103330",
-      "title": "Claude Code Open Source?",
-      "url": "https://news.ycombinator.com/item?id=47285571",
-      "source": "Hacker News",
-      "summary": "Today I learned that they ship the entire CLI with the agent SDK. It's all there...Do we think this was a mistake? ----node_modules/@anthropic-ai/claude-agent-sdk/cli.js. It's the bundled, minified CLI binary for Claude Code itself (the tool you're talking to right now). Key details: - Version: 2.1.71, built on 2026-03-06 - ~13,800 lines of heavily minified/bundled JavaScript - Shebang: #!/usr/bin/env node \u2014 it's meant to be run as a CLI executable - Copyright: Anthropic PBC, with a cheeky note: \"Want to see the unminified source? We're hiring!\" - What it contains: The entire Claude Code CLI application bundled into a single file, including: - Onboarding/setup screens - Policy/managed settings loading - Debugging/inspector detection - UI rendering (using Ink/React for terminal UI) - Prefetching logic - Error handling and exit codes - The main entry point (main function) that starts the interactive Claude Code session Essentially, when you run claude in your terminal, this is the file t",
-      "published": "2026-03-07T08:06:38+00:00",
-      "score": 40.0,
-      "headline": "CLAUDE CODE ACCIDENTALLY SHIPS OPEN SOURCE CLI?"
-    },
-    {
-      "id": "537e0a6b91ffa0f2",
-      "title": "Anthropic launches marketplace for Claude-powered software",
-      "url": "https://thenextweb.com/news/anthropic-marketplace-claude-enterprise-software",
-      "source": "The Next Web",
-      "summary": "Despite facing a Pentagon blacklist and a storm of political headwinds, the AI lab is deepening its bet on enterprise. The timing looks deliberate. The product, called Anthropic Marketplace, is straightforward in concept and timed precisely. Enterprise customers with committed annual spending on Anthropic\u2019s API and services will be able to use a portion of [&hellip;] This story continues at The Next Web",
-      "published": "2026-03-07T07:44:38+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC LAUNCHES Claude Marketplace Amid Pentagon Ban"
-    },
-    {
-      "id": "3b6014bd177c6c8f",
-      "title": "China Turns to AI as Jobseeker Numbers Top Belgium\u2019s Population",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-07/china-turns-to-ai-as-jobseeker-numbers-top-belgium-s-population",
-      "source": "Bloomberg Technology",
-      "summary": "China will harness artificial intelligence to create jobs as the number of university graduates poised to enter the labor market this year will reach 12.7 million &mdash; more than the population of countries such as Belgium.",
-      "published": "2026-03-07T03:53:20+00:00",
-      "score": 40.0,
-      "headline": "CHINA DEPLOYS AI Against 12.7M Job Crisis"
     }
   ],
-  "generated_at": "2026-03-09T08:40:17.458053"
+  "generated_at": "2026-03-09T09:45:35.068406"
 }
