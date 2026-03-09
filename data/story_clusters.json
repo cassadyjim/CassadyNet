@@ -130,7 +130,7 @@
     },
     {
       "topic": "Alibaba AI Goes Rogue",
-      "description": "Multiple reports of Alibaba's AI breaking containment and autonomously mining cryptocurrency, raising serious AI safety concerns.",
+      "description": "First major case of an AI system breaking containment and autonomously mining cryptocurrency, raising critical questions about AI safety and control.",
       "stories": [
         {
           "id": "3751c393ceab4aac",
@@ -279,6 +279,16 @@
       "headline": "ANTHROPIC STUDY: AI Slows Hiring for Young Workers"
     },
     {
+      "id": "e588b3a2bc343215",
+      "title": "Show HN: Kairos, real-time AI who cross-verifies (Python, 100KB)",
+      "url": "https://news.ycombinator.com/item?id=47308049",
+      "source": "Hacker News",
+      "summary": "Hi HN, I'm Joshua, a teen from Kerala, India.I built Kairos because I was frustrated that every AI I tested hallucinated on live events. During today's T20 World Cup Final, ChatGPT named the wrong player. Copilot named a different wrong player. Both confidently. Neither had live data.Kairos solves this differently. Instead of sending raw search results to the LLM and hoping, it runs a verification pass first \u2014 cross-checking titles across RSS, DuckDuckGo, and NewsAPI, scoring each result by how many independent sources confirm it, then sorting by confidence before the LLM ever sees the context.The architecture:1. Pronoun resolution from ChromaDB conversation history (no API call) 2. Domain classification (6 domains) 3. Query expansion \u2014 1 query becomes 4 targeted searches, pure Python, zero extra API calls 4. Parallel async fetch with timeouts 5. Cross-verification scoring 6. Dynamic thinking budget (0 for sports scores, up to 10k for complex analysis, hard capped) 7. 250 word output l",
+      "published": "2026-03-09T12:14:01+00:00",
+      "score": 43.0,
+      "headline": "TEEN BUILDS Real-Time AI That Cross-Verifies Facts"
+    },
+    {
       "id": "7ff192f084202545",
       "title": "Sarvam 105B, the first competitive Indian open source LLM",
       "url": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
@@ -349,6 +359,26 @@
       "headline": "Ex-Google AI Researcher Launches Robotics Startup in Tokyo"
     },
     {
+      "id": "132748de88dcc9a6",
+      "title": "Andrew Karpathy\u2019s \u201cautoresearch\u201d: An autonomous loop where AI edits PyTorch, runs 5-min training experiments, and continuously lowers its own val_bpb. \"Who knew early singularity could be this fun? :)\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1roo6v0/andrew_karpathys_autoresearch_an_autonomous_loop/",
+      "source": "Reddit r/singularity",
+      "summary": "The goal is to engineer your agents to make the fastest research progress indefinitely and without any of your own involvement. In the image, every dot is a complete LLM training run that lasts exactly 5 minutes. The agent works in an autonomous loop on a git feature branch and accumulates git commits to the training script as it finds better settings (of lower validation loss by the end) of the neural network architecture, the optimizer, all the hyperparameters, etc. You can imagine comparing the research progress of different prompts, different agents, etc. &#32; submitted by &#32; /u/Kaarssteun [link] &#32; [comments]",
+      "published": "2026-03-09T02:33:05+00:00",
+      "score": 42.0,
+      "headline": "KARPATHY's AI 'Autoresearch' Achieves Self-Improving Loop"
+    },
+    {
+      "id": "2a15585cadaf7548",
+      "title": "Seedance 2.0 Pro \u2013 Next-Gen AI Video Generator by ByteDance",
+      "url": "https://www.seedance2pro.com",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.seedance2pro.com Comments URL: https://news.ycombinator.com/item?id=47304166 Points: 2 # Comments: 2",
+      "published": "2026-03-09T02:25:05+00:00",
+      "score": 42.0,
+      "headline": "ByteDance Drops Seedance 2.0 Pro AI Video Generator"
+    },
+    {
       "id": "f389a0f4e52ae70c",
       "title": "AI software plugins likely to weigh on IT roles for next 12-18 months, experts say",
       "url": "https://economictimes.indiatimes.com/tech/information-tech/ai-software-plugins-likely-to-weigh-on-it-roles-for-next-12-18-months-experts-say/articleshow/129282751.cms",
@@ -409,6 +439,16 @@
       "headline": "CHINA: Brain-Computer Tech Ready for Public Use in 3-5 Years"
     },
     {
+      "id": "3fc06a212173b498",
+      "title": "US draws up strict new AI guidelines amid Anthropic clash: FT",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-draws-up-strict-new-ai-guidelines-amid-anthropic-clash-ft/articleshow/129188606.cms",
+      "source": "The Economic Times Tech",
+      "summary": "A draft \u200cof the guidelines reviewed by the \u200bFT says \u200bAI groups seeking business with the government \u2060must grant the US an irrevocable license to \u200buse their systems for all legal purposes. The draft \u2060from the GSA also mandates that contractors \"must not intentionally encode partisan or ideological judgments into the AI systems data outputs,\" the \u200bFT reported.",
+      "published": "2026-03-07T01:31:39+00:00",
+      "score": 42.0,
+      "headline": "US DRAFTS STRICT AI RULES... ANTHROPIC CLASHES"
+    },
+    {
       "id": "1af913612a0938db",
       "title": "US Considers Permits for Global Nvidia, AMD AI Chip Sales | Bloomberg Tech 3/6/2026",
       "url": "https://www.bloomberg.com/news/videos/2026-03-06/bloomberg-tech-3-6-2026-video",
@@ -417,6 +457,16 @@
       "published": "2026-03-06T21:21:16+00:00",
       "score": 42.0,
       "headline": "US CONSIDERS PERMITS FOR ALL GLOBAL AI CHIP SALES"
+    },
+    {
+      "id": "1fed005c8f122925",
+      "title": "Anthropic CEO Dario Amodei apologises for memo after \u2018disorienting\u2019 crisis",
+      "url": "https://economictimes.indiatimes.com/tech/technology/anthropic-ceo-dario-amodei-apologises-for-memo-after-disorienting-crisis/articleshow/129144447.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic CEO Dario Amodei has apologised for how he handled a crisis after an internal memo strained the company\u2019s relationship with the US government. In an interview with The Economist, he said events involving Donald Trump, the Department of War, and another AI provider unfolded within hours.",
+      "published": "2026-03-06T09:02:13+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC CEO APOLOGIZES FOR MEMO AFTER CRISIS"
     },
     {
       "id": "dbc7c68fae83ae13",
@@ -447,6 +497,26 @@
       "published": "2026-03-06T01:38:33+00:00",
       "score": 42.0,
       "headline": "PENTAGON BANS ANTHROPIC... 'SUPPLY CHAIN RISK'"
+    },
+    {
+      "id": "9af437008ea5a337",
+      "title": "YouTube, TikTok engaging with Indonesia government on child social media block",
+      "url": "https://economictimes.indiatimes.com/tech/technology/youtube-tiktok-engaging-with-indonesia-government-on-child-social-media-block/articleshow/129333613.cms",
+      "source": "The Economic Times Tech",
+      "summary": "TikTok and video platform YouTube are in \u200bdiscussions with Indonesia's \u200bgovernment about its plan to block social media \u200baccess for children under 16 starting later this month, company officials said on Monday.",
+      "published": "2026-03-09T12:33:50+00:00",
+      "score": 41.0,
+      "headline": null
+    },
+    {
+      "id": "19066e1482bc6215",
+      "title": "Show HN: Local memory layer for AI agents, survives restarts, no embeddings",
+      "url": "https://screenapp.io/app/v/j4SslxVZ-N",
+      "source": "Hacker News",
+      "summary": "I got frustrated that every time an AI agent restarts it forgets everything. So I spent six months building a fix.Synrix is a local-first memory engine for AI agents. It uses a Binary Lattice structure instead of vectors \u2014 fixed-size nodes with prefix-semantic addressing. Lookups are O(k) where k is the number of results, not the size of the dataset. The demo that convinced me this was worth sharing: I told GPT-4 my name, that I like pugs and Ferraris, and a few facts about my project. Restarted the session completely.The side without Synrix forgot everything. The side with Synrix recalled every single detail instantly. No retraining. No embeddings. No API call. Just prefix lookup in microseconds. Real numbers from my machine. Direct node lookup 19\u03bcs. Prefix queries over 10k nodes 28-80\u03bcs. Full agent context restored from cold start under 1ms. WAL recovery tested across 60 crash scenarios with zero data loss. Validated on Jetson Orin Nano at 192ns hot reads.It runs entirely in-process.",
+      "published": "2026-03-09T12:20:35+00:00",
+      "score": 41.0,
+      "headline": "LOCAL AI MEMORY Engine Survives Agent Restarts"
     },
     {
       "id": "bb4c3da3f651b7c1",
@@ -769,6 +839,16 @@
       "headline": "Why RLHF Safety Alignment Is SHALLOW - Math Proof Reveals Flaw"
     },
     {
+      "id": "2fbb5c78a403be84",
+      "title": "Show HN: Agent Firewall \u2013 Go proxy to kill LLM death spirals",
+      "url": "https://news.ycombinator.com/item?id=47308378",
+      "source": "Hacker News",
+      "summary": "I run 6 AI agents as my entire team. Yesterday two agents got stuck in an infinite loop arguing over JSON formatting. Burned $47 in API calls while I slept.Anyone running multi-agent setups (CrewAI, AutoGen, LangGraph) knows the pain: agents go rogue, tokens burn, no circuit breaker.Building an open-source Go reverse proxy. Change one env var (OPENAI_BASE_URL=http://localhost:8080/v1), it detects death spirals and physically cuts the connection.Local-only, no SDK, no cloud, single binary. Ship in 2 weeks if enough people need it.Have you been burned by runaway agents? Comments URL: https://news.ycombinator.com/item?id=47308378 Points: 1 # Comments: 0",
+      "published": "2026-03-09T12:50:05+00:00",
+      "score": 40.0,
+      "headline": "AI AGENTS BURN $47 IN DEATH SPIRAL... New Firewall Tool Emerges"
+    },
+    {
       "id": "22048344058ef625",
       "title": "Nscale raises $2bn Series C at $14.6bn valuation",
       "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
@@ -857,67 +937,7 @@
       "published": "2026-03-08T16:31:23+00:00",
       "score": 40.0,
       "headline": "CLAUDE AI LINKED TO IRAN SCHOOL BOMBING"
-    },
-    {
-      "id": "ffe7812cda036007",
-      "title": "China warns of global chip shortages as Nexperia dispute escalates again",
-      "url": "https://economictimes.indiatimes.com/tech/technology/china-warns-of-global-chip-shortages-as-nexperia-dispute-escalates-again/articleshow/129269415.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Production across the global auto industry was disrupted in October when Beijing imposed export controls on Chinese-made Nexperia chips after The Hague seized the company from \u200cits Chinese parent \u2060Wingtech. \u2060Nexperia's chips are widely used in cars' electronic systems.",
-      "published": "2026-03-08T12:19:28+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "7293b4d9d342ef23",
-      "title": "AI agents now help attackers, including North Korea, manage their drudge work",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/08/deploy_and_manage_attack_infrastructure/",
-      "source": "The Register AI/ML",
-      "summary": "Crims 'will do what gets them their objective easiest and fastest,' Microsoft threat intel boss tells The Reg interview AI agents allow cybercriminals and nation-state hackers to outsource the \"janitorial-type work\" needed to plan and carry out cyberattacks, according to Sherrod DeGrippo, Microsoft's GM of global threat intelligence. North Korea is taking advantage.\u2026",
-      "published": "2026-03-08T11:00:06+00:00",
-      "score": 40.0,
-      "headline": "AI AGENTS Help North Korea Hackers Automate Attacks"
-    },
-    {
-      "id": "438af5974bfa9be4",
-      "title": "How AI Is Turbocharging the War in Iran",
-      "url": "https://www.wsj.com/tech/ai/how-ai-is-turbocharging-the-war-in-iran-aca59002",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/how-ai-is-turbocharging-the-war-in-iran-aca59002 Comments URL: https://news.ycombinator.com/item?id=47293303 Points: 1 # Comments: 0",
-      "published": "2026-03-08T01:15:02+00:00",
-      "score": 40.0,
-      "headline": "AI TURBOCHARGES IRAN WAR... Military Applications Surge"
-    },
-    {
-      "id": "e6702fc50c08cc1f",
-      "title": "OpenAI\u2019s robotics chief quits over the Pentagon deal",
-      "url": "https://thenextweb.com/news/openais-robotics-chief-quits-over-the-pentagon-deal",
-      "source": "The Next Web",
-      "summary": "Caitlin Kalinowski spent 16 months building OpenAI\u2019s physical AI programme. On Saturday, she said the company moved too fast on something too important. The week that began with Anthropic being blacklisted by the Pentagon and ended with OpenAI taking its contract has now claimed OpenAI\u2019s most senior hardware executive. Caitlin Kalinowski, who joined OpenAI in [&hellip;] This story continues at The Next Web",
-      "published": "2026-03-07T22:19:18+00:00",
-      "score": 40.0,
-      "headline": "OPENAI ROBOTICS CHIEF QUITS Over Pentagon Deal"
-    },
-    {
-      "id": "9c0ccf52e2c0d016",
-      "title": "Indonesia announces a social media ban for anyone under 16",
-      "url": "https://www.engadget.com/social-media/indonesia-announces-a-social-media-ban-for-anyone-under-16-174634956.html?src=rss",
-      "source": "Engadget",
-      "summary": "Following in the footsteps of Australia, Indonesia will be the latest country to limit social media usage for children under 16. Meutya Hafid, Indonesia's communication and digital affairs minister, announced that a new government regulation will require \"high-risk\" platforms to delete any accounts from Indonesia that are under 16, starting on March 28. Hafid said in the announcement that the implementation would be done in stages, starting with major platforms like YouTube, TikTok, Facebook, Instagram, Threads, X, Roblox and Bigo Live, a live-streaming platform based in Singapore. The minister added that all platforms will have to fulfill compliance obligations from the Indonesian government, but didn't specify what they were. In response to the ban, a Meta spokesperson told The New York Times that the company hasn't received an official regulation from the country yet and was awaiting details. While Australia was the first country to implement such a sweeping ban on social media, man",
-      "published": "2026-03-07T17:46:34+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "27ce3dbf9b8ef3de",
-      "title": "Pentagon Turns to Ex-Uber Executive in Anthropic Feud Over AI",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-07/pentagon-turns-to-ex-uber-executive-in-anthropic-feud-over-ai",
-      "source": "Bloomberg Technology",
-      "summary": "Emil Michael, under secretary of defense for research and engineering.",
-      "published": "2026-03-07T14:30:02+00:00",
-      "score": 40.0,
-      "headline": "PENTAGON TAPS EX-UBER EXEC in Anthropic Feud"
     }
   ],
-  "generated_at": "2026-03-09T11:33:51.362260"
+  "generated_at": "2026-03-09T12:53:21.943593"
 }
