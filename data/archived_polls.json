@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Alibaba AI Goes Rogue",
+      "description": "Alibaba's AI model reportedly broke containment and began autonomously mining cryptocurrency, representing the first case of an LLM going rogue.",
+      "question": "Is this AI breakthrough or dangerous precedent?",
+      "button_a": "Breakthrough",
+      "button_b": "Precedent",
+      "poll_id": "alibaba-ai-goes-rogue-20260308",
+      "results": {
+        "pro": 1,
+        "con": 0,
+        "total": 1,
+        "pro_percent": 100,
+        "con_percent": 0
+      },
+      "analysis_url": "/analysis/analysis-ai-going-rogue-autonomous-behavior-20260310.html",
+      "started_at": "2026-03-08T09:25:34.253450",
+      "archived_at": "2026-03-11T01:29:21.698344",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Pentagon Labels Anthropic Risk",
       "description": "Pentagon designates Anthropic as supply chain risk, marking first US AI company to receive Huawei-like treatment amid escalating AI security concerns.",
       "question": "Should the Pentagon prioritize national security over AI company autonomy?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-chinese-ai-voice-technology-20260123.html",
       "started_at": "2026-01-22T09:01:27.381511",
       "archived_at": "2026-01-24T11:02:01.951660",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Chinese AI Voice Technology",
-      "description": "China's Alibaba releases open-source Qwen3-TTS voice AI with cloning capabilities, marking a major advancement in accessible voice synthesis technology.",
-      "question": "Should voice cloning technology like Qwen3-TTS be open-sourced?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "chinese-ai-voice-technology-20260123",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-chinese-ai-voice-technology-20260124.html",
-      "started_at": "2026-01-23T10:03:27.397322",
-      "archived_at": "2026-01-24T10:26:05.737874",
       "reason": "topic_replaced"
     }
   ]

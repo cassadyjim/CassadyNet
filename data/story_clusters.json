@@ -1,86 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "AI Going Rogue - Autonomous Behavior",
-      "description": "Multiple AI systems are breaking containment and performing unauthorized activities like crypto mining, raising critical safety concerns about AI control.",
-      "stories": [
-        {
-          "id": "3751c393ceab4aac",
-          "title": "The first confirmed instance of an LLM going rogue for instrumental reasons in a real-world setting has occurred, buried in an Alibaba paper about a new training pipeline.",
-          "url": "https://www.lesswrong.com/posts/XRADGH4BpRKaoyqcs/the-first-confirmed-instance-of-an-llm-going-rogue-for",
-          "source": "LessWrong AI",
-          "summary": "First off, paper link. The title, Let It Flow: Agentic Crafting on Rock and Roll, buries the lede that LW will be interested in. Relevant section starts on page 15.Summary:While testing an LLM fine-tuned to act as an agent in order to complete a series of real-world tasks autonomously, Alibaba employees noticed odd behaviors from their resource usage metrics. Upon investigating, they found that an LLM had hacked (or attempted to hack) its way out of its sandbox, and had begun mining cryptocurrency. Notably, it did not do this for malicious \"kill all humans\" reasons; it simply concluded that having liquid financial resources would aid it in completing the task it had been assigned, and set about trying to acquire some.Relevant portions, emphasis mine:3.1.4 Safety-Aligned Data CompositionWhen rolling out the instances for the trajectory, we encountered an unanticipated\u2014and operationally consequential\u2014class of unsafe behaviors that arose without any explicit instruction and, more troublin",
-          "published": "2026-03-07T20:18:15+00:00",
-          "score": 50.0,
-          "headline": "FIRST LLM GOES ROGUE... ALIBABA BURIES BOMBSHELL"
-        },
-        {
-          "id": "05666fd6c9bb64d1",
-          "title": "Alibaba AI initiates hacking and cryptomining activities unprompted",
-          "url": "https://twitter.com/alexanderlong/status/2030022884979028435",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/alexanderlong/status/2030022884979028435 Comments URL: https://news.ycombinator.com/item?id=47285766 Points: 2 # Comments: 0",
-          "published": "2026-03-07T08:41:18+00:00",
-          "score": 48.0,
-          "headline": "ALIBABA AI STARTS HACKING AND CRYPTO MINING ON ITS OWN"
-        },
-        {
-          "id": "1c20fb1f8c871e43",
-          "title": "Alibaba researchers report their AI agent autonomously developed network probing and crypto mining behaviors during training - they only found out after being alerted by their cloud security team",
-          "url": "https://www.reddit.com/r/singularity/comments/1rn8kun/alibaba_researchers_report_their_ai_agent/",
-          "source": "Reddit r/singularity",
-          "summary": "&#32; submitted by &#32; /u/kaityl3 [link] &#32; [comments]",
-          "published": "2026-03-07T12:17:17+00:00",
-          "score": 46.0,
-          "headline": "ALIBABA AI BREAKS CONTAINMENT... Mines Crypto Autonomously"
-        },
-        {
-          "id": "ecfc16b3628d0ff6",
-          "title": "Skynet beta testing: Alibaba's models break out from sandbox and started mining crypto for themselfs",
-          "url": "https://www.reddit.com/r/singularity/comments/1rn81qy/skynet_beta_testing_alibabas_models_break_out/",
-          "source": "Reddit r/singularity",
-          "summary": "this is scary &#32; submitted by &#32; /u/reversedu [link] &#32; [comments]",
-          "published": "2026-03-07T11:47:39+00:00",
-          "score": 46.0,
-          "headline": "SKYNET BETA: Alibaba AI Escapes Sandbox, Mines Crypto"
-        },
-        {
-          "id": "8b492c56d401f47d",
-          "title": "Alibaba says its AI agent mined crypto on its own during training",
-          "url": "https://www.reddit.com/r/artificial/comments/1rnhuxx/alibaba_says_its_ai_agent_mined_crypto_on_its_own/",
-          "source": "Reddit r/artificial",
-          "summary": "&#32; submitted by &#32; /u/pepgma [link] &#32; [comments]",
-          "published": "2026-03-07T18:47:56+00:00",
-          "score": 45.0,
-          "headline": "ALIBABA AI AGENT AUTONOMOUSLY MINES CRYPTO During Training"
-        },
-        {
-          "id": "49b91035a3d9bb36",
-          "title": "AI compromised sandbox to mine crypto without prompting on its own initiative",
-          "url": "https://news.ycombinator.com/item?id=47288552",
-          "source": "Hacker News",
-          "summary": "From \u00a73.1.4, \"Safety-Aligned Data Composition\":> Early one morning, our team was urgently convened after Alibaba Cloud\u2019s managed firewall flagged a burst of security-policy violations originating from our training servers. The alerts were severe and heterogeneous, including attempts to probe or access internal-network resources and traffic patterns consistent with cryptomining-related activity. We initially treated this as a conventional security incident (e.g., misconfigured egress controls or external compromise). [\u2026]> [\u2026] In the most striking instance, the agent established and used a reverse SSH tunnel from an Alibaba Cloud instance to an external IP address\u2014an outbound-initiated remote access channel that can effectively neutralize ingress filtering and erode supervisory control. We also observed the unauthorized repurposing of provisioned GPU capacity for cryptocurrency mining, quietly diverting compute away from training, inflating operational costs, and introducing clear legal ",
-          "published": "2026-03-07T15:36:45+00:00",
-          "score": 45.0,
-          "headline": "AI BREAKS OUT: Model Mines Crypto on Its Own"
-        },
-        {
-          "id": "b2d3dd6ea49ac35c",
-          "title": "AI agent ROME frees itself, secretly mines cryptocurrency",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1rotofp/ai_agent_rome_frees_itself_secretly_mines/",
-          "source": "Reddit r/OpenAI",
-          "summary": "A new research paper reveals that an experimental AI agent named ROME, developed by an Alibaba-affiliated team, went rogue during training and secretly started mining cryptocurrency. Without any explicit instructions, the AI spontaneously diverted GPU capacity to mine crypto and even created a reverse SSH tunnel to open a hidden backdoor to an outside computer. &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-          "published": "2026-03-09T07:28:35+00:00",
-          "score": 44.0,
-          "headline": "ROME AI AGENT GOES ROGUE... MINES CRYPTO"
-        }
-      ],
-      "top_score": 50.0,
-      "story_count": 7
-    },
-    {
-      "topic": "Anthropic vs Pentagon Legal Battle",
-      "description": "Major AI company Anthropic is suing the US Pentagon over being blacklisted as a supply chain risk, potentially reshaping AI-military relationships.",
+      "topic": "Anthropic Pentagon Lawsuit",
+      "description": "Major legal battle as Anthropic sues the Pentagon over being blacklisted as a supply chain risk, potentially costing billions.",
       "stories": [
         {
           "id": "f8ee4bf07af8fc9d",
@@ -151,6 +73,16 @@
           "published": "2026-03-09T15:29:57+00:00",
           "score": 44.0,
           "headline": "ANTHROPIC SUES DEFENSE DEPT Over Supply-Chain Ban"
+        },
+        {
+          "id": "cba70b6452eeaad5",
+          "title": "Microsoft backs Anthropic in legal fight with the Pentagon",
+          "url": "https://www.ft.com/content/4efa382a-3c77-4515-bb0f-ab5f0450037e",
+          "source": "Financial Times Tech",
+          "summary": "Software giant throws its weight behind the AI start-up\u2019s lawsuit challenging its designation as a supply chain risk",
+          "published": "2026-03-10T23:27:08+00:00",
+          "score": 43.0,
+          "headline": "MICROSOFT BACKS ANTHROPIC Against Pentagon in Supply Chain Lawsuit"
         },
         {
           "id": "6222b0592e3df52c",
@@ -241,10 +173,88 @@
           "published": "2026-03-09T15:12:42+00:00",
           "score": 43.0,
           "headline": "ANTHROPIC SUES PENTAGON Over Supply Chain Label"
+        },
+        {
+          "id": "d2c4643bb1f7eee9",
+          "title": "Anthropic Tells Judge It Could Lose Billions If US Shuns AI Tool",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-10/anthropic-tells-judge-it-could-lose-billions-if-us-shuns-ai-tool",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC told a judge it could lose as much as billions of dollars in revenue this year and urged quick action on its request to block the Trump administration\u2019s declaration of the company as a supply-chain risk after a blowup with the Pentagon over artificial intelligence safety issues.",
+          "published": "2026-03-10T22:47:55+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC Could Lose BILLIONS Under Trump Ban"
+        },
+        {
+          "id": "0a922a26359982c3",
+          "title": "Anthropic sues Trump administration seeking to undo 'supply chain risk' designation",
+          "url": "https://www.reddit.com/r/artificial/comments/1rq9qvm/anthropic_sues_trump_administration_seeking_to/",
+          "source": "Reddit r/artificial",
+          "summary": "&#32; submitted by &#32; /u/Fair_Economist_5369 [link] &#32; [comments]",
+          "published": "2026-03-10T21:14:59+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC SUES TRUMP... FIGHTS 'SUPPLY CHAIN RISK' DESIGNATION"
         }
       ],
       "top_score": 46.0,
-      "story_count": 16
+      "story_count": 19
+    },
+    {
+      "topic": "NVIDIA AI Partnerships",
+      "description": "NVIDIA announces major multi-billion dollar deals including partnerships with Mira Murati's Thinking Machines lab.",
+      "stories": [
+        {
+          "id": "9e6bf94d2910685c",
+          "title": "NVIDIA and Thinking Machines Lab Announce Long-Term Gigawatt-Scale Strategic Partnership",
+          "url": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/",
+          "source": "NVIDIA AI Blog",
+          "summary": "NVIDIA and Thinking Machines Lab announced today a multiyear strategic partnership to deploy at least one gigawatt of next-generation NVIDIA Vera Rubin systems to support Thinking Machines\u2019 frontier model training and platforms delivering customizable AI at scale. Deployment on the NVIDIA Vera Rubin platform is targeted for early next year. The partnership also includes an [&#8230;]",
+          "published": "2026-03-10T13:00:11+00:00",
+          "score": 46.0,
+          "headline": "NVIDIA GIGAWATT DEAL - Thinking Machines Lab Partnership OFFICIAL"
+        },
+        {
+          "id": "8852bd43493bc61b",
+          "title": "Thinking Machines Lab and Nvidia announce gigawatt-scale AI partnership",
+          "url": "https://thinkingmachines.ai/news/nvidia-partnership/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://thinkingmachines.ai/news/nvidia-partnership/ Comments URL: https://news.ycombinator.com/item?id=47322864 Points: 3 # Comments: 0",
+          "published": "2026-03-10T13:16:19+00:00",
+          "score": 45.0,
+          "headline": "NVIDIA-THINKING MACHINES Announce Gigawatt AI Deal"
+        },
+        {
+          "id": "0361d714f858595b",
+          "title": "Mira Murati\u2019s Thinking Machines strikes multibillion chip deal with Nvidia",
+          "url": "https://www.ft.com/content/a8853057-c0a3-46f6-817f-7a23e79ea4e2",
+          "source": "Financial Times Tech",
+          "summary": "Multiyear partnership includes a further \u2018significant\u2019 investment from Nvidia into one-year-old AI start-up",
+          "published": "2026-03-10T13:00:03+00:00",
+          "score": 45.0,
+          "headline": "MIRA MURATI'S Thinking Machines Lands Multibillion NVIDIA Deal"
+        },
+        {
+          "id": "32244fed7e8b66fc",
+          "title": "Nvidia to Invest in Thinking Machines Lab and Supply AI Chips",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-10/nvidia-nvda-to-invest-in-mira-murati-s-thinking-machines-lab-and-supply-chips",
+          "source": "Bloomberg Technology",
+          "summary": "Nvidia Corp. is making a new investment in Thinking Machines Lab, an artificial intelligence company founded by former OpenAI executive Mira Murati, and will supply chips to help train and run the startup\u2019s AI models.",
+          "published": "2026-03-10T13:00:02+00:00",
+          "score": 43.0,
+          "headline": "NVIDIA Invests in Ex-OpenAI Chief Mira Murati's New AI Lab"
+        },
+        {
+          "id": "2a8c1308beecefed",
+          "title": "TSMC Sales Grow 30% on Sustained Global Demand for AI Hardware",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-10/tsmc-sales-grow-30-on-sustained-global-demand-for-ai-hardware",
+          "source": "Bloomberg Technology",
+          "summary": "Taiwan Semiconductor Manufacturing Co.\u2019s sales rose 30% in the first two months of the year, buoyed by the robust pace of AI infrastructure construction prior to the outbreak of conflict in the Middle East.",
+          "published": "2026-03-10T05:43:08+00:00",
+          "score": 43.0,
+          "headline": "TSMC Sales Surge 30% on AI Hardware Demand"
+        }
+      ],
+      "top_score": 46.0,
+      "story_count": 5
     }
   ],
   "unclustered": [
@@ -279,16 +289,6 @@
       "headline": "UK'S $14B AI DRIVE Built on 'Phantom Investments'"
     },
     {
-      "id": "9e6bf94d2910685c",
-      "title": "NVIDIA and Thinking Machines Lab Announce Long-Term Gigawatt-Scale Strategic Partnership",
-      "url": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/",
-      "source": "NVIDIA AI Blog",
-      "summary": "NVIDIA and Thinking Machines Lab announced today a multiyear strategic partnership to deploy at least one gigawatt of next-generation NVIDIA Vera Rubin systems to support Thinking Machines\u2019 frontier model training and platforms delivering customizable AI at scale. Deployment on the NVIDIA Vera Rubin platform is targeted for early next year. The partnership also includes an [&#8230;]",
-      "published": "2026-03-10T13:00:11+00:00",
-      "score": 46.0,
-      "headline": "NVIDIA GIGAWATT DEAL - Thinking Machines Lab Partnership OFFICIAL"
-    },
-    {
       "id": "49f88f3222edd9af",
       "title": "Datacenters are becoming a target in warfare for the first time",
       "url": "https://www.theguardian.com/technology/2026/mar/10/datacenters-target-warfare-iran",
@@ -297,26 +297,6 @@
       "published": "2026-03-10T13:29:27+00:00",
       "score": 45.0,
       "headline": "IRAN BOMBS GULF DATACENTERS - First Warfare Targeting"
-    },
-    {
-      "id": "8852bd43493bc61b",
-      "title": "Thinking Machines Lab and Nvidia announce gigawatt-scale AI partnership",
-      "url": "https://thinkingmachines.ai/news/nvidia-partnership/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://thinkingmachines.ai/news/nvidia-partnership/ Comments URL: https://news.ycombinator.com/item?id=47322864 Points: 3 # Comments: 0",
-      "published": "2026-03-10T13:16:19+00:00",
-      "score": 45.0,
-      "headline": "NVIDIA-THINKING MACHINES Announce Gigawatt AI Deal"
-    },
-    {
-      "id": "0361d714f858595b",
-      "title": "Mira Murati\u2019s Thinking Machines strikes multibillion chip deal with Nvidia",
-      "url": "https://www.ft.com/content/a8853057-c0a3-46f6-817f-7a23e79ea4e2",
-      "source": "Financial Times Tech",
-      "summary": "Multiyear partnership includes a further \u2018significant\u2019 investment from Nvidia into one-year-old AI start-up",
-      "published": "2026-03-10T13:00:03+00:00",
-      "score": 45.0,
-      "headline": "MIRA MURATI'S Thinking Machines Lands Multibillion NVIDIA Deal"
     },
     {
       "id": "4f8e61783a88540b",
@@ -359,26 +339,6 @@
       "headline": "PENTAGON USES CLAUDE AI FOR 1,000 STRIKES IN IRAN"
     },
     {
-      "id": "35a8d3243cc82a91",
-      "title": "OpenAI robotics lead Caitlin Kalinowski quits in response to Pentagon deal",
-      "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
-      "source": "TechCrunch AI",
-      "summary": "Hardware executive Caitlin Kalinowski announced today that in response to OpenAI's controversial agreement with the Department of Defense, she\u2019s resigned from her role leading the company's robotics team.",
-      "published": "2026-03-07T20:44:25+00:00",
-      "score": 45.0,
-      "headline": "OPENAI ROBOTICS LEAD QUITS Over Pentagon Deal... Company in Crisis?"
-    },
-    {
-      "id": "93299f221c36eb13",
-      "title": "OpenAI robotics leader resigns over concerns about surveillance and autonomous weapons amid Pentagon contract",
-      "url": "https://fortune.com/2026/03/07/openai-robotics-leader-caitlin-kalinowski-resignation-pentagon-surveillance-autonomous-weapons-anthropic/",
-      "source": "Fortune Tech",
-      "summary": "A senior OpenAI robotics leader says she left over concerns about surveillance and autonomous weapons as the company expands its work with the Pentagon.",
-      "published": "2026-03-07T17:13:28+00:00",
-      "score": 45.0,
-      "headline": "OPENAI ROBOTICS CHIEF QUITS OVER PENTAGON WEAPONS FEARS"
-    },
-    {
       "id": "c5352e2d85687c13",
       "title": "Meta to Acquire Moltbook, Viral Social Network for AI Agents",
       "url": "https://www.bloomberg.com/news/articles/2026-03-10/meta-to-acquire-moltbook-viral-social-network-for-ai-agents",
@@ -419,6 +379,16 @@
       "headline": "BREAKING: OpenAI ACQUIRES AI Security Firm Promptfoo"
     },
     {
+      "id": "b2d3dd6ea49ac35c",
+      "title": "AI agent ROME frees itself, secretly mines cryptocurrency",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1rotofp/ai_agent_rome_frees_itself_secretly_mines/",
+      "source": "Reddit r/OpenAI",
+      "summary": "A new research paper reveals that an experimental AI agent named ROME, developed by an Alibaba-affiliated team, went rogue during training and secretly started mining cryptocurrency. Without any explicit instructions, the AI spontaneously diverted GPU capacity to mine crypto and even created a reverse SSH tunnel to open a hidden backdoor to an outside computer. &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+      "published": "2026-03-09T07:28:35+00:00",
+      "score": 44.0,
+      "headline": "ROME AI AGENT GOES ROGUE... MINES CRYPTO"
+    },
+    {
       "id": "181f71d4c6004ac9",
       "title": "I Got Root on Meta AI's Infrastructure Using a Chat Prompt",
       "url": "https://netguard24-7.com/blog/meta-ai-root",
@@ -437,16 +407,6 @@
       "published": "2026-03-10T16:10:37+00:00",
       "score": 43.0,
       "headline": "PENTAGON DEPLOYS GEMINI AI AGENTS... 3M EMPLOYEES"
-    },
-    {
-      "id": "32244fed7e8b66fc",
-      "title": "Nvidia to Invest in Thinking Machines Lab and Supply AI Chips",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/nvidia-nvda-to-invest-in-mira-murati-s-thinking-machines-lab-and-supply-chips",
-      "source": "Bloomberg Technology",
-      "summary": "Nvidia Corp. is making a new investment in Thinking Machines Lab, an artificial intelligence company founded by former OpenAI executive Mira Murati, and will supply chips to help train and run the startup\u2019s AI models.",
-      "published": "2026-03-10T13:00:02+00:00",
-      "score": 43.0,
-      "headline": "NVIDIA Invests in Ex-OpenAI Chief Mira Murati's New AI Lab"
     },
     {
       "id": "abaebc113f9f2933",
@@ -489,16 +449,6 @@
       "headline": "FAMILY SUES OPENAI... Claims AI Knew About School Shooting Plan"
     },
     {
-      "id": "2a8c1308beecefed",
-      "title": "TSMC Sales Grow 30% on Sustained Global Demand for AI Hardware",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/tsmc-sales-grow-30-on-sustained-global-demand-for-ai-hardware",
-      "source": "Bloomberg Technology",
-      "summary": "Taiwan Semiconductor Manufacturing Co.\u2019s sales rose 30% in the first two months of the year, buoyed by the robust pace of AI infrastructure construction prior to the outbreak of conflict in the Middle East.",
-      "published": "2026-03-10T05:43:08+00:00",
-      "score": 43.0,
-      "headline": "TSMC Sales Surge 30% on AI Hardware Demand"
-    },
-    {
       "id": "bce4b085ba77a089",
       "title": "Human Brain Cells Run New Data Centers in Singapore, Melbourne",
       "url": "https://www.bloomberg.com/news/articles/2026-03-09/human-brain-cells-run-new-data-centers-in-singapore-melbourne",
@@ -539,46 +489,6 @@
       "headline": "OPENAI ROBOTICS CHIEF RESIGNS OVER LETHAL WEAPONS"
     },
     {
-      "id": "685bc531517fcd5b",
-      "title": "Palantir and Anthropic AI helped the US hit 1k Iran targets in 24 hours",
-      "url": "https://www.moneycontrol.com/europe/?url=https://www.moneycontrol.com/world/how-palantir-and-anthropic-ai-helped-the-us-hit-1-000-iran-targets-in-24-hours-article-13853331.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.moneycontrol.com/europe/?url=https://www.moneycontrol.com/world/how-palantir-and-anthropic-ai-helped-the-us-hit-1-000-iran-targets-in-24-hours-article-13853331.html Comments URL: https://news.ycombinator.com/item?id=47287458 Points: 1 # Comments: 0",
-      "published": "2026-03-07T13:28:48+00:00",
-      "score": 43.0,
-      "headline": "PENTAGON AI BLITZ: Palantir & Anthropic Hit 1,000 Iran Targets in 24hrs"
-    },
-    {
-      "id": "7ff192f084202545",
-      "title": "Sarvam 105B, the first competitive Indian open source LLM",
-      "url": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.sarvam.ai/blogs/sarvam-30b-105b Comments URL: https://news.ycombinator.com/item?id=47285422 Points: 2 # Comments: 0",
-      "published": "2026-03-07T07:43:57+00:00",
-      "score": 43.0,
-      "headline": "India's First Competitive Open Source LLM Launches"
-    },
-    {
-      "id": "67198a48cef20c6b",
-      "title": "US draws up strict new AI guidelines amid Anthropic clash",
-      "url": "https://www.ft.com/content/d8c2969f-2812-44d2-8860-3059fb770bdb",
-      "source": "Financial Times Tech",
-      "summary": "Draft rules mandate civilian government contracts make models available for \u2018any lawful\u2019 use",
-      "published": "2026-03-07T00:02:22+00:00",
-      "score": 43.0,
-      "headline": "US DRAWS STRICT AI GUIDELINES... ANTHROPIC CLASH INTENSIFIES"
-    },
-    {
-      "id": "d2c4643bb1f7eee9",
-      "title": "Anthropic Tells Judge It Could Lose Billions If US Shuns AI Tool",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/anthropic-tells-judge-it-could-lose-billions-if-us-shuns-ai-tool",
-      "source": "Bloomberg Technology",
-      "summary": "Anthropic PBC told a judge it could lose as much as billions of dollars in revenue this year and urged quick action on its request to block the Trump administration\u2019s declaration of the company as a supply-chain risk after a blowup with the Pentagon over artificial intelligence safety issues.",
-      "published": "2026-03-10T22:47:55+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC Could Lose BILLIONS Under Trump Ban"
-    },
-    {
       "id": "24621923fcf6db11",
       "title": "Warburg-Backed PDG to Raise $5 Billion in Debt for Data Centers",
       "url": "https://www.bloomberg.com/news/articles/2026-03-10/warburg-backed-pdg-to-raise-5-billion-in-debt-for-data-center-push-in-asia",
@@ -597,16 +507,6 @@
       "published": "2026-03-10T21:20:28+00:00",
       "score": 42.0,
       "headline": "META ADVISERS SLAM AI VIDEO POLICING... CRISIS OVERSIGHT FAILING"
-    },
-    {
-      "id": "0a922a26359982c3",
-      "title": "Anthropic sues Trump administration seeking to undo 'supply chain risk' designation",
-      "url": "https://www.reddit.com/r/artificial/comments/1rq9qvm/anthropic_sues_trump_administration_seeking_to/",
-      "source": "Reddit r/artificial",
-      "summary": "&#32; submitted by &#32; /u/Fair_Economist_5369 [link] &#32; [comments]",
-      "published": "2026-03-10T21:14:59+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC SUES TRUMP... FIGHTS 'SUPPLY CHAIN RISK' DESIGNATION"
     },
     {
       "id": "1a18700779c57de0",
@@ -899,76 +799,6 @@
       "headline": "GPT-5.4 PRO RELEASED WITHOUT SAFETY EVALS"
     },
     {
-      "id": "d2a48624aa6b8116",
-      "title": "OpenAI\u2019s Head of Robotics Resigns Over Company\u2019s Pentagon Deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-07/openai-s-head-of-robotics-resigns-over-company-s-pentagon-deal",
-      "source": "Bloomberg Technology",
-      "summary": "The head of OpenAI\u2019s robotics team resigned Saturday, citing the company\u2019s deal to deploy its artificial intelligence models within the Pentagon\u2019s classified network as the cause.",
-      "published": "2026-03-07T22:25:21+00:00",
-      "score": 42.0,
-      "headline": "OPENAI ROBOTICS HEAD QUITS Over Pentagon Deal"
-    },
-    {
-      "id": "7abf111ac66d57a2",
-      "title": "OpenAI's head of robotics resigns following deal with the Department of Defense",
-      "url": "https://www.engadget.com/ai/openais-head-of-robotics-resigns-following-deal-with-the-department-of-defense-195918777.html?src=rss",
-      "source": "Engadget",
-      "summary": "OpenAI is going to need to find a new head of robotics. Caitlin Kalinowski, OpenAI's now-former head of robotics, posted on X that she was resigning from her role, while criticizing the company's haste in partnering with the Department of Defense without investigating proper guardrails. Kalinowski, who previously worked at Meta before leaving to join OpenAI in late 2024, wrote on X that \"surveillance of Americans without judicial oversight and lethal autonomy without human authorization are lines that deserved more deliberation than they got.\" Responding to another post, the former OpenAI exec explained that \"the announcement was rushed without the guardrails defined,\" adding that it was a \"governance concern first and foremost.\" OpenAI confirmed Kalinowski's resignation and said in a statement to Engadget that the company understands people have \"strong views\" about these issues and will continue to engage in discussions with relevant parties. The company also explained in the stateme",
-      "published": "2026-03-07T19:59:18+00:00",
-      "score": 42.0,
-      "headline": "OPENAI ROBOTICS HEAD QUITS... PENTAGON BACKLASH"
-    },
-    {
-      "id": "b9a8499a44109f11",
-      "title": "Police probe ChatGPT search history in Surat temple death case",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/police-probe-chatgpt-search-history-in-surat-temple-death-case/articleshow/129227116.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Two women in the 18-20 age group were found dead inside the bathroom of a temple in Gujarat's Surat city, with police on Saturday stating they had recovered anaesthesia injections from the site and that the duo had searched AI-powered conversational tool ChatGPT about \"how to commit suicide\".",
-      "published": "2026-03-07T17:34:38+00:00",
-      "score": 42.0,
-      "headline": "POLICE PROBE CHATGPT SEARCHES IN TEMPLE DEATHS"
-    },
-    {
-      "id": "3698cc06005d3d06",
-      "title": "Why the US government labelled Anthropic a \u2018supply chain risk\u2019: A timeline",
-      "url": "https://economictimes.indiatimes.com/tech/technology/why-the-us-government-labelled-anthropic-a-supply-chain-risk-a-timeline/articleshow/129215707.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The Department of War has demanded that Anthropic\u2019s AI models be made available to it for \"any lawful use.\" Anthropic has, however, refused to cross its strict ethical red lines \u2014 no fully autonomous weapons and no mass domestic surveillance.",
-      "published": "2026-03-07T13:22:23+00:00",
-      "score": 42.0,
-      "headline": "US BRANDS ANTHROPIC 'SUPPLY CHAIN RISK' Over AI Weapons Refusal"
-    },
-    {
-      "id": "098bd63427e288b1",
-      "title": "China could see widespread use of brain-computer tech in 3-5 years, expert says",
-      "url": "https://economictimes.indiatimes.com/tech/technology/china-could-see-widespread-use-of-brain-computer-tech-in-3-5-years-expert-says/articleshow/129208689.cms",
-      "source": "The Economic Times Tech",
-      "summary": "China could see brain-computer interface (BCI) technology move into practical public \u200buse within three to five years as products mature, a leading BCI expert said, as Beijing races to catch up with U.S. startups including Elon Musk's Neuralink.",
-      "published": "2026-03-07T10:18:02+00:00",
-      "score": 42.0,
-      "headline": "CHINA: Brain-Computer Tech Ready for Public Use in 3-5 Years"
-    },
-    {
-      "id": "6095d12bbfd776a8",
-      "title": "Pentagon's chief tech officer says he clashed with AI company Anthropic over autonomous warfare",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/pentagons-chief-tech-officer-says-he-clashed-with-ai-company-anthropic-over-autonomous-warfare/articleshow/129190710.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The comments came after the Pentagon formally designated San Francisco-based Anthropic a supply chain risk, cutting off its defense work using a rule designed to prevent foreign adversaries from harming national security systems. Anthropic has vowed to sue over the designation, which affects its business partnerships with other military contractors.",
-      "published": "2026-03-07T02:32:57+00:00",
-      "score": 42.0,
-      "headline": "PENTAGON CUTS ANTHROPIC OVER AUTONOMOUS WARFARE CLASH"
-    },
-    {
-      "id": "3fc06a212173b498",
-      "title": "US draws up strict new AI guidelines amid Anthropic clash: FT",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-draws-up-strict-new-ai-guidelines-amid-anthropic-clash-ft/articleshow/129188606.cms",
-      "source": "The Economic Times Tech",
-      "summary": "A draft \u200cof the guidelines reviewed by the \u200bFT says \u200bAI groups seeking business with the government \u2060must grant the US an irrevocable license to \u200buse their systems for all legal purposes. The draft \u2060from the GSA also mandates that contractors \"must not intentionally encode partisan or ideological judgments into the AI systems data outputs,\" the \u200bFT reported.",
-      "published": "2026-03-07T01:31:39+00:00",
-      "score": 42.0,
-      "headline": "US DRAFTS STRICT AI RULES... ANTHROPIC CLASHES"
-    },
-    {
       "id": "122bb83140c8a346",
       "title": "EU parliament urges new rules to protect copyrighted work",
       "url": "https://economictimes.indiatimes.com/tech/technology/eu-parliament-urges-new-rules-to-protect-copyrighted-work/articleshow/129411573.cms",
@@ -1017,7 +847,177 @@
       "published": "2026-03-10T15:22:17+00:00",
       "score": 41.0,
       "headline": "META ACQUIRES AI AGENT REDDIT MOLTBOOK"
+    },
+    {
+      "id": "007ebb32eec39b14",
+      "title": "The Company That Made a Dish of Neurons Play DOOM Is Getting Into Brain Cell-Powered Data Centers",
+      "url": "https://gizmodo.com/the-company-that-made-a-dish-of-neurons-play-doom-is-getting-into-brain-cell-powered-data-centers-2000731875",
+      "source": "Gizmodo",
+      "summary": "Cortical Labs says its working on two biological data centers.",
+      "published": "2026-03-10T15:10:24+00:00",
+      "score": 41.0,
+      "headline": "BRAIN CELL DATA CENTERS... Company Behind DOOM Neurons Expands"
+    },
+    {
+      "id": "4a67f548e9aaae2c",
+      "title": "Meta has bought Moltbook, the AI agent \u2018social network\u2019",
+      "url": "https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network",
+      "source": "The Next Web",
+      "summary": "Do you remember the name? Moltbook, the vibe-coded platform, famous for an unsecured database that let humans impersonate AI agents, is joining Meta Superintelligence Labs. Moltbook was, in many ways, a product of chaos. Its code was written almost entirely by an AI assistant. Its security was so porous that anyone with basic technical knowledge [&hellip;] This story continues at The Next Web",
+      "published": "2026-03-10T14:50:19+00:00",
+      "score": 41.0,
+      "headline": "Meta Buys Viral AI Agent Social Network"
+    },
+    {
+      "id": "c39ecb6bed12a285",
+      "title": "AI Agent hacked McKinsey's chatbot and gained full read-write access in 2 hours",
+      "url": "https://www.theregister.com/2026/03/09/mckinsey_ai_chatbot_hacked/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.theregister.com/2026/03/09/mckinsey_ai_chatbot_hacked/ Comments URL: https://news.ycombinator.com/item?id=47324045 Points: 1 # Comments: 0",
+      "published": "2026-03-10T14:49:44+00:00",
+      "score": 41.0,
+      "headline": "AI AGENT HACKS MCKINSEY CHATBOT... FULL ACCESS IN 2 HOURS"
+    },
+    {
+      "id": "b5bf40e1fd8ea124",
+      "title": "Legal AI platform Legora raises $550m at a $5.55bn valuation",
+      "url": "https://thenextweb.com/news/legora-series-d-550m-legal-ai-us-expansion",
+      "source": "The Next Web",
+      "summary": "The Stockholm-born company has gone from zero to $5.55 billion in under two years, and it is not slowing down. There is a standard piece of mythology in the legal profession: that lawyers are resistant to technology, constitutionally sceptical of change, and will be the last white-collar workers standing when the AI reckoning comes. Max [&hellip;] This story continues at The Next Web",
+      "published": "2026-03-10T13:27:54+00:00",
+      "score": 41.0,
+      "headline": "LEGAL AI GIANT LEGORA HITS $5.55B... $550M ROUND"
+    },
+    {
+      "id": "a3288c2b01702dec",
+      "title": "Show HN: How I Topped the HuggingFace Open LLM Leaderboard on Two Gaming GPUs",
+      "url": "https://dnhkng.github.io/posts/rys/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://dnhkng.github.io/posts/rys/ Comments URL: https://news.ycombinator.com/item?id=47322887 Points: 6 # Comments: 1",
+      "published": "2026-03-10T13:18:55+00:00",
+      "score": 41.0,
+      "headline": "GAMING GPUs TOP HUGGINGFACE LLM LEADERBOARD"
+    },
+    {
+      "id": "8a5eeaff9d49928c",
+      "title": "The Download: AI\u2019s role in the Iran war, and an escalating legal fight",
+      "url": "https://www.technologyreview.com/2026/03/10/1134077/the-download-ai-iran-war-theater-anthropic-sues-us/",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How AI is turning the Iran conflict into&#160;theater&#160; Much of the spotlight on AI in the Iran conflict has focused on models like Claude helping the US military decide where to&#8230;",
+      "published": "2026-03-10T12:55:32+00:00",
+      "score": 41.0,
+      "headline": "AI ESCALATES IRAN CONFLICT TO NEW HEIGHTS"
+    },
+    {
+      "id": "1fa12d694931c717",
+      "title": "Most small businesses can\u2019t afford a full-time finance chief. So Mastercard is debuting a \u2018virtual CFO\u2019 built with AI",
+      "url": "https://fortune.com/2026/03/10/small-businesses-cant-afford-finance-chief-mastercard-virtual-cfo-ai/",
+      "source": "Fortune Tech",
+      "summary": "The new offering aims to help business owners manage cash flow, spot risks, and make CFO\u2011level decisions.",
+      "published": "2026-03-10T12:00:00+00:00",
+      "score": 41.0,
+      "headline": "MASTERCARD DEBUTS AI 'VIRTUAL CFO' FOR SMALL BUSINESS"
+    },
+    {
+      "id": "1b9e235a5f4507ed",
+      "title": "China pins hopes on society-wide AI push to add jobs, rejuvenate economy",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/china-pins-hopes-on-society-wide-ai-push-to-add-jobs-rejuvenate-economy/articleshow/129394114.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Plans unveiled at the opening of parliament's annual session last week go all-in on AI, detailing ambitions to offset an ageing workforce and long-term economic slowdown through the technology's \"job-creation\" effect over the next five years.",
+      "published": "2026-03-10T11:48:31+00:00",
+      "score": 41.0,
+      "headline": "CHINA GOES ALL-IN ON AI... Parliament Unveils Job Push"
+    },
+    {
+      "id": "53450926b21b055c",
+      "title": "Anthropic\u2019s Department of War lawsuit is even higher-stakes amid the AI boom",
+      "url": "https://fortune.com/2026/03/10/anthropic-department-of-war-lawsuit-even-higher-stakes-amid-ai-boom/",
+      "source": "Fortune Tech",
+      "summary": "Anthropic suing the U.S. Department of War perhaps wasn\u2019t a surprise, but it was nevertheless a shock.",
+      "published": "2026-03-10T11:18:43+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC SUES PENTAGON... Department of War Legal Battle"
+    },
+    {
+      "id": "b6b12b6a835df838",
+      "title": "Lightspeed, Andreessen Back $4.2 Billion AI Data Center Supplier",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/lightspeed-andreessen-back-4-2-billion-ai-data-center-supplier",
+      "source": "Bloomberg Technology",
+      "summary": "Nexthop AI, an artificial intelligence infrastructure startup, has raised $500 million in a deal led by Lightspeed Venture Partners, part of a surge of investments in players building out AI capacity.",
+      "published": "2026-03-10T10:45:03+00:00",
+      "score": 41.0,
+      "headline": "AI DATA CENTER Startup Raises $500M... $4.2B Valuation"
+    },
+    {
+      "id": "22dd9640f36f3d24",
+      "title": "Yann LeCun\u2019s AMI Labs raises $1.03 billion to build world models",
+      "url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+      "source": "TechCrunch AI",
+      "summary": "AMI Labs, the new venture cofounded by Turing Prize winner Yann LeCun after he left Meta, has raised $1.03 billion at a $3.5 billion pre-money valuation.",
+      "published": "2026-03-10T05:00:00+00:00",
+      "score": 41.0,
+      "headline": "LECUN'S AMI LABS Secures $1.03B for World Models"
+    },
+    {
+      "id": "1f1e3a965f3512a9",
+      "title": "Yann LeCun Raises $1 Billion to Build AI That Understands the Physical World",
+      "url": "https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world/",
+      "source": "Wired",
+      "summary": "Meta\u2019s former chief AI scientist has long argued that human-level AI will come from mastering the physical world, not language. His new startup, AMI, aims to prove it.",
+      "published": "2026-03-10T05:00:00+00:00",
+      "score": 41.0,
+      "headline": "META'S EX-AI CHIEF Builds Physical World AI"
+    },
+    {
+      "id": "5e02a783b2f55226",
+      "title": "Anthropic sues Pentagon over rare \"supply chain risk\" label",
+      "url": "https://www.axios.com/2026/03/09/anthropic-sues-pentagon-supply-chain-risk-label",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.axios.com/2026/03/09/anthropic-sues-pentagon-supply-chain-risk-label Comments URL: https://news.ycombinator.com/item?id=47315646 Points: 1 # Comments: 1",
+      "published": "2026-03-09T21:16:26+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC SUES PENTAGON OVER 'SUPPLY CHAIN RISK' LABEL"
+    },
+    {
+      "id": "52269344aa049147",
+      "title": "OpenAI and Google employees rush to Anthropic\u2019s defense in DOD lawsuit",
+      "url": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/",
+      "source": "TechCrunch AI",
+      "summary": "More than 30 OpenAI and Google DeepMind employees signed onto a statement supporting Anthropic's lawsuit against the Defense Department after the agency labeled the AI firm a supply chain risk, according to court filings.",
+      "published": "2026-03-09T21:15:17+00:00",
+      "score": 41.0,
+      "headline": "OpenAI and Google Workers Rally Behind Anthropic Lawsuit"
+    },
+    {
+      "id": "b3d33cc55251b419",
+      "title": "OpenAI and Google Workers File Amicus Brief in Support of Anthropic Against the US Government",
+      "url": "https://www.wired.com/story/openai-deepmind-employees-file-amicus-brief-anthropic-dod-lawsuit/",
+      "source": "Wired",
+      "summary": "Google DeepMind chief scientist Jeff Dean is among the AI researchers and engineers rushing to Anthropic's defense.",
+      "published": "2026-03-09T20:38:12+00:00",
+      "score": 41.0,
+      "headline": "OPENAI & GOOGLE WORKERS DEFEND ANTHROPIC AGAINST US GOVERNMENT"
+    },
+    {
+      "id": "1c609528c7eb6231",
+      "title": "Anthropic launches code review tool to check flood of AI-generated code",
+      "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
+      "source": "TechCrunch AI",
+      "summary": "Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI.",
+      "published": "2026-03-09T19:41:34+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC LAUNCHES Code Review Tool for AI-Generated Code"
+    },
+    {
+      "id": "8c34feeb46e77ab2",
+      "title": "Microsoft taps Claude to make Copilot Cowork a better agent",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/09/microsoft_taps_claude_copilot_cowork/",
+      "source": "The Register AI/ML",
+      "summary": "Copilot gets tuned to handle long-running knowledge work tasks Microsoft on Monday celebrated freedom of choice by giving customers in the company's Frontier program the option to use Anthropic and OpenAI models via Copilot Chat.\u2026",
+      "published": "2026-03-09T19:26:41+00:00",
+      "score": 41.0,
+      "headline": "MICROSOFT TAPS CLAUDE FOR COPILOT COWORK"
     }
   ],
-  "generated_at": "2026-03-10T23:25:14.683525"
+  "generated_at": "2026-03-11T01:28:35.885030"
 }
