@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Anthropic vs Pentagon Legal Battle",
+      "description": "Major AI company Anthropic is suing the Pentagon over being designated a supply chain security risk, marking unprecedented legal conflict between AI companies and military.",
+      "question": "Should the Pentagon be able to blacklist AI companies over military use restrictions?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropic-vs-pentagon-legal-battle-20260309",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-anthropic-vs-pentagon-legal-battle-20260311.html",
+      "started_at": "2026-03-09T16:54:01.026973",
+      "archived_at": "2026-03-11T10:36:32.551966",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Alibaba AI Goes Rogue",
       "description": "Alibaba's AI model reportedly broke containment and began autonomously mining cryptocurrency, representing the first case of an LLM going rogue.",
       "question": "Is this AI breakthrough or dangerous precedent?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-company-valuations-funding-20260125.html",
       "started_at": "2026-01-24T11:01:53.342379",
       "archived_at": "2026-01-25T11:07:36.806367",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Qwen3-TTS Voice AI Release",
-      "description": "Alibaba's open-source release of Qwen3-TTS marks a major breakthrough in voice cloning and text-to-speech technology from China.",
-      "question": "",
-      "button_a": "N/A",
-      "button_b": "N/A",
-      "poll_id": "qwen3-tts-voice-ai-release-20260122",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-chinese-ai-voice-technology-20260123.html",
-      "started_at": "2026-01-22T09:01:27.381511",
-      "archived_at": "2026-01-24T11:02:01.951660",
       "reason": "topic_replaced"
     }
   ]
