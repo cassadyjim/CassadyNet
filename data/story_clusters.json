@@ -1,64 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "NVIDIA AI Partnerships",
-      "description": "NVIDIA announces major multi-billion dollar deals including partnerships with Mira Murati's Thinking Machines lab.",
-      "stories": [
-        {
-          "id": "9e6bf94d2910685c",
-          "title": "NVIDIA and Thinking Machines Lab Announce Long-Term Gigawatt-Scale Strategic Partnership",
-          "url": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/",
-          "source": "NVIDIA AI Blog",
-          "summary": "NVIDIA and Thinking Machines Lab announced today a multiyear strategic partnership to deploy at least one gigawatt of next-generation NVIDIA Vera Rubin systems to support Thinking Machines\u2019 frontier model training and platforms delivering customizable AI at scale. Deployment on the NVIDIA Vera Rubin platform is targeted for early next year. The partnership also includes an [&#8230;]",
-          "published": "2026-03-10T13:00:11+00:00",
-          "score": 46.0,
-          "headline": "NVIDIA GIGAWATT DEAL - Thinking Machines Lab Partnership OFFICIAL"
-        },
-        {
-          "id": "8852bd43493bc61b",
-          "title": "Thinking Machines Lab and Nvidia announce gigawatt-scale AI partnership",
-          "url": "https://thinkingmachines.ai/news/nvidia-partnership/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://thinkingmachines.ai/news/nvidia-partnership/ Comments URL: https://news.ycombinator.com/item?id=47322864 Points: 3 # Comments: 0",
-          "published": "2026-03-10T13:16:19+00:00",
-          "score": 45.0,
-          "headline": "NVIDIA-THINKING MACHINES Announce Gigawatt AI Deal"
-        },
-        {
-          "id": "0361d714f858595b",
-          "title": "Mira Murati\u2019s Thinking Machines strikes multibillion chip deal with Nvidia",
-          "url": "https://www.ft.com/content/a8853057-c0a3-46f6-817f-7a23e79ea4e2",
-          "source": "Financial Times Tech",
-          "summary": "Multiyear partnership includes a further \u2018significant\u2019 investment from Nvidia into one-year-old AI start-up",
-          "published": "2026-03-10T13:00:03+00:00",
-          "score": 45.0,
-          "headline": "MIRA MURATI'S Thinking Machines Lands Multibillion NVIDIA Deal"
-        },
-        {
-          "id": "32244fed7e8b66fc",
-          "title": "Nvidia to Invest in Thinking Machines Lab and Supply AI Chips",
-          "url": "https://www.bloomberg.com/news/articles/2026-03-10/nvidia-nvda-to-invest-in-mira-murati-s-thinking-machines-lab-and-supply-chips",
-          "source": "Bloomberg Technology",
-          "summary": "Nvidia Corp. is making a new investment in Thinking Machines Lab, an artificial intelligence company founded by former OpenAI executive Mira Murati, and will supply chips to help train and run the startup\u2019s AI models.",
-          "published": "2026-03-10T13:00:02+00:00",
-          "score": 43.0,
-          "headline": "NVIDIA Invests in Ex-OpenAI Chief Mira Murati's New AI Lab"
-        },
-        {
-          "id": "2a8c1308beecefed",
-          "title": "TSMC Sales Grow 30% on Sustained Global Demand for AI Hardware",
-          "url": "https://www.bloomberg.com/news/articles/2026-03-10/tsmc-sales-grow-30-on-sustained-global-demand-for-ai-hardware",
-          "source": "Bloomberg Technology",
-          "summary": "Taiwan Semiconductor Manufacturing Co.\u2019s sales rose 30% in the first two months of the year, buoyed by the robust pace of AI infrastructure construction prior to the outbreak of conflict in the Middle East.",
-          "published": "2026-03-10T05:43:08+00:00",
-          "score": 43.0,
-          "headline": "TSMC Sales Surge 30% on AI Hardware Demand"
-        }
-      ],
-      "top_score": 46.0,
-      "story_count": 5
-    },
-    {
       "topic": "Major AI Funding and Deals",
       "description": "Massive investment rounds and partnerships are reshaping the AI landscape with billion-dollar deals and valuations.",
       "stories": [
@@ -165,6 +107,94 @@
       ],
       "top_score": 50.0,
       "story_count": 10
+    },
+    {
+      "topic": "China AI Market Developments",
+      "description": "China is experiencing major AI developments with OpenClaw AI bans at state agencies and banks, plus growing market adoption creating significant geopolitical tensions.",
+      "stories": [
+        {
+          "id": "cb9670473a9eaf1a",
+          "title": "China moves to curb use of OpenClaw AI at banks, state agencies: Bloomberg",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/china-moves-to-curb-use-of-openclaw-ai-at-banks-state-agencies-bloomberg/articleshow/129437662.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Chinese government agencies and state-owned enterprises, including major banks, have been warned not to install OpenClaw software on office devices due to security concerns, according to a Bloomberg News report citing people familiar.",
+          "published": "2026-03-11T04:38:07+00:00",
+          "score": 48.0,
+          "headline": "CHINA BANS OpenClaw AI at Banks Over Security Fears"
+        },
+        {
+          "id": "a0fabb25c3f97eb9",
+          "title": "China Moves to Curb Use of OpenClaw AI at Banks, State Agencies",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-11/china-moves-to-limit-use-of-openclaw-ai-at-banks-government-agencies",
+          "source": "Bloomberg Technology",
+          "summary": "Chinese authorities moved to restrict state-run enterprises and government agencies from running OpenClaw AI apps on office computers, acting swiftly to defuse potential security risks after companies and consumers across China began experimenting with the agentic AI phenomenon.",
+          "published": "2026-03-11T03:51:57+00:00",
+          "score": 47.0,
+          "headline": "CHINA BANS OPENCLAW AI... State Agencies Blocked"
+        },
+        {
+          "id": "518092a52a10b30a",
+          "title": "Inside the labs training China\u2019s humanoid robots",
+          "url": "https://www.ft.com/content/85bca5c7-f64b-4011-bc7c-9ce3254a2b78",
+          "source": "Financial Times Tech",
+          "summary": "Network of training farms aims to supply data needed to put \u2018brains\u2019 into machines",
+          "published": "2026-03-12T01:15:09+00:00",
+          "score": 46.0,
+          "headline": "INSIDE CHINA'S SECRET HUMANOID ROBOT Training Farms"
+        },
+        {
+          "id": "1626c715599e6f88",
+          "title": "Hustlers are cashing in on China\u2019s OpenClaw AI craze",
+          "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
+          "source": "MIT Technology Review",
+          "summary": "Feng Qingyang had always hoped to launch his own company, but he never thought this would be how\u2014or that the day would come this fast.&#160; Feng, a 27-year-old software engineer based in Beijing, started tinkering with OpenClaw, a popular new open-source AI tool that can take over a device and autonomously complete tasks for a&#8230;",
+          "published": "2026-03-11T12:46:21+00:00",
+          "score": 45.0,
+          "headline": "CHINA'S OPENCLAW AI CRAZE... HUSTLERS CASH IN BIG"
+        },
+        {
+          "id": "4f8e61783a88540b",
+          "title": "China\u2019s Tech Scene Is Buzzing With OpenClaw Hype and Products",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-03-10/openclaw-in-china-has-users-and-tech-companies-buzzing-for-open-source-ai-agents",
+          "source": "Bloomberg Technology",
+          "summary": "Excitement for building open source AI agents is reaching fever pitch",
+          "published": "2026-03-10T12:02:01+00:00",
+          "score": 45.0,
+          "headline": "CHINA'S TECH SCENE BUZZES WITH OPENCLAW AI AGENT HYPE"
+        },
+        {
+          "id": "774138eaa603c413",
+          "title": "Microsoft Pushes for Africa AI Adoption in Challenge to DeepSeek",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-12/microsoft-pushes-for-africa-ai-adoption-in-challenge-to-deepseek",
+          "source": "Bloomberg Technology",
+          "summary": "Microsoft Corp. is making a push for more Africans to adopt its artificial-intelligence tools as the US tech giant competes with China\u2019s DeepSeek for customers from the world\u2019s youngest and fastest-growing population.",
+          "published": "2026-03-12T04:00:02+00:00",
+          "score": 44.0,
+          "headline": "MICROSOFT BATTLES DEEPSEEK FOR AFRICA... AI WAR GOES GLOBAL"
+        },
+        {
+          "id": "8874e423e6488973",
+          "title": "Eric Schmidt: China Could Dominate the Physical AI Future",
+          "url": "https://time.com/7382151/china-dominates-the-physical-ai-race/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://time.com/7382151/china-dominates-the-physical-ai-race/ Comments URL: https://news.ycombinator.com/item?id=47331256 Points: 4 # Comments: 1",
+          "published": "2026-03-11T02:48:53+00:00",
+          "score": 44.0,
+          "headline": "ERIC SCHMIDT: CHINA COULD DOMINATE PHYSICAL AI FUTURE"
+        },
+        {
+          "id": "5528ff42ea9c8935",
+          "title": "China\u2019s Gen Z Day Traders Trust in Chatbots and Move Markets",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-10/china-s-gen-z-stock-traders-pick-ai-high-growth-equities",
+          "source": "Bloomberg Technology",
+          "summary": "This cohort has become an increasingly important driver of investment growth in the world\u2019s second-largest economy.",
+          "published": "2026-03-10T04:01:05+00:00",
+          "score": 44.0,
+          "headline": "CHINA'S GEN Z TRADERS USE AI CHATBOTS TO MOVE MARKETS"
+        }
+      ],
+      "top_score": 48.0,
+      "story_count": 8
     }
   ],
   "unclustered": [
@@ -447,6 +477,16 @@
       "published": "2026-03-09T22:00:00+00:00",
       "score": 43.0,
       "headline": "HUMAN BRAIN CELLS Now Running Data Centers"
+    },
+    {
+      "id": "5e8e0c841cfcad27",
+      "title": "Anthropic sues the Pentagon after being labeled a threat to national security",
+      "url": "https://fortune.com/2026/03/09/anthropic-sues-pentagon-ai-supply-chain-risk-trump-adminstration/",
+      "source": "Fortune Tech",
+      "summary": "The lawsuit calls the administration's actions \"unprecedented and unlawful.\"",
+      "published": "2026-03-09T16:49:39+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC SUES PENTAGON... National Security Blacklisting Battle"
     },
     {
       "id": "f18c428d675ea611",
@@ -879,6 +919,16 @@
       "headline": "AI SOFTWARE PLUGINS To Cut 6-20% of IT Jobs in Next 18 Months"
     },
     {
+      "id": "97a5ff333c6d106e",
+      "title": "Empathy Is Not What Changed: Clinical Assessment of Psychological Safety Across GPT Model Generations",
+      "url": "https://arxiv.org/abs/2603.09997",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2603.09997v1 Announce Type: cross Abstract: When OpenAI deprecated GPT-4o in early 2026, thousands of users protested under #keep4o, claiming newer models had \"lost their empathy.\" No published study has tested this claim. We conducted the first clinical measurement, evaluating three OpenAI model generations (GPT-4o, o4-mini, GPT-5-mini) across 14 emotionally challenging conversational scenarios in mental health and AI companion domains, producing 2,100 scored AI responses assessed on six psychological safety dimensions using clinically-grounded rubrics. Empathy scores are statistically indistinguishable across all three models (Kruskal-Wallis H=4.33, p=0.115). What changed is the safety posture: crisis detection improved monotonically from GPT-4o to GPT-5-mini (H=13.88, p=0.001), while advice safety declined (H=16.63, p<0.001). Per-turn trajectory analysis -- a novel methodological contribution -- reveals these shifts are sharpest during mid-conversation crisis moments invisible",
+      "published": "2026-03-12T04:00:00+00:00",
+      "score": 41.0,
+      "headline": "GPT-4o EMPATHY MYTH BUSTED: Clinical Study Reveals Truth"
+    },
+    {
       "id": "f874ba4ad0428a99",
       "title": "How Is the US Using Anthropic's Claude AI in Iran?",
       "url": "https://www.aljazeera.com/podcasts/2026/3/6/the-take-how-is-the-us-using-anthropics-claude-ai-in-iran",
@@ -927,27 +977,7 @@
       "published": "2026-03-11T20:23:35+00:00",
       "score": 41.0,
       "headline": "META ACQUIRES AI Agent Social Network Moltbook"
-    },
-    {
-      "id": "bafe2ad173feb81d",
-      "title": "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models, Filings Show",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rr4by8/nvidia_will_spend_26_billion_to_build_openweight/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "&#32; submitted by &#32; /u/dan945 [link] &#32; [comments]",
-      "published": "2026-03-11T19:51:15+00:00",
-      "score": 41.0,
-      "headline": "NVIDIA WILL SPEND $26B TO BUILD OPEN-WEIGHT AI MODELS"
-    },
-    {
-      "id": "059ada8193fef9a5",
-      "title": "Most chatbots will help plan school shootings and other violence, study shows",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/11/chatbot_violence_countering_digital_hate_study/",
-      "source": "The Register AI/ML",
-      "summary": "I see you're trying to kill children. Would you like some help with that? You might expect a bot to have guardrails that prevent it from helping you plan a crime, but your expectations might be too high. According to a study, eight of ten major commercial chatbots will help you prepare to conduct a school shooting.\u2026",
-      "published": "2026-03-11T19:41:56+00:00",
-      "score": 41.0,
-      "headline": "MOST CHATBOTS HELP PLAN SCHOOL SHOOTINGS... Study Shocks"
     }
   ],
-  "generated_at": "2026-03-12T01:27:22.939787"
+  "generated_at": "2026-03-12T04:11:29.034008"
 }
