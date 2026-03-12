@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "NVIDIA AI Partnerships",
+      "description": "NVIDIA announces major multi-billion dollar deals including partnerships with Mira Murati's Thinking Machines lab.",
+      "question": "Is NVIDIA's massive AI partnership investment strategy brilliant or risky?",
+      "button_a": "Brilliant",
+      "button_b": "Risky",
+      "poll_id": "nvidia-ai-partnerships-20260311",
+      "results": {
+        "pro": 1,
+        "con": 0,
+        "total": 1,
+        "pro_percent": 100,
+        "con_percent": 0
+      },
+      "analysis_url": "/analysis/analysis-major-ai-funding-and-deals-20260312.html",
+      "started_at": "2026-03-11T01:29:12.619038",
+      "archived_at": "2026-03-12T07:45:28.457753",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic vs Pentagon Legal Battle",
       "description": "Major AI company Anthropic is suing the Pentagon over being designated a supply chain security risk, marking unprecedented legal conflict between AI companies and military.",
       "question": "Should the Pentagon be able to blacklist AI companies over military use restrictions?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-china-ai-dominance-20260125.html",
       "started_at": "2026-01-23T17:06:28.143131",
       "archived_at": "2026-01-25T20:17:25.201716",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Company Valuations & Funding",
-      "description": "Major AI companies are raising massive funding rounds at unprecedented valuations, signaling investor confidence despite high burn rates.",
-      "question": "Are these massive AI valuations justified by the technology's potential?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-company-valuations-funding-20260124",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-company-valuations-funding-20260125.html",
-      "started_at": "2026-01-24T11:01:53.342379",
-      "archived_at": "2026-01-25T11:07:36.806367",
       "reason": "topic_replaced"
     }
   ]
