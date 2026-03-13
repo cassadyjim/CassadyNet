@@ -479,6 +479,26 @@
       "headline": "TSMC Sales Surge 30% on AI Hardware Demand"
     },
     {
+      "id": "014b332155eb2135",
+      "title": "WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference",
+      "url": "https://arxiv.org/abs/2603.11132",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2603.11132v1 Announce Type: cross Abstract: Communication topology is a critical factor in the utility and safety of LLM-based multi-agent systems (LLM-MAS), making it a high-value intellectual property (IP) whose confidentiality remains insufficiently studied. % Existing topology inference attempts rely on impractical assumptions, including control over the administrative agent and direct identity queries via jailbreaks, which are easily defeated by basic keyword-based defenses. As a result, prior analyses fail to capture the real-world threat of such attacks. % To bridge this realism gap, we propose \\textit{WebWeaver}, an attack framework that infers the complete LLM-MAS topology by compromising only a single arbitrary agent instead of the administrative agent. % Unlike prior approaches, WebWeaver relies solely on agent contexts rather than agent IDs, enabling significantly stealthier inference. % WebWeaver further introduces a new covert jailbreak-based mechanism and a novel f",
+      "published": "2026-03-13T04:00:00+00:00",
+      "score": 42.0,
+      "headline": "WEBWEAVER ATTACK: LLM Multi-Agent Systems Topology EXPOSED"
+    },
+    {
+      "id": "0de8357070c7c908",
+      "title": "Jailbreak Scaling Laws for Large Language Models: Polynomial-Exponential Crossover",
+      "url": "https://arxiv.org/abs/2603.11331",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2603.11331v1 Announce Type: cross Abstract: Adversarial attacks can reliably steer safety-aligned large language models toward unsafe behavior. Empirically, we find that adversarial prompt-injection attacks can amplify attack success rate from the slow polynomial growth observed without injection to exponential growth with the number of inference-time samples. To explain this phenomenon, we propose a theoretical generative model of proxy language in terms of a spin-glass system operating in a replica-symmetry-breaking regime, where generations are drawn from the associated Gibbs measure and a subset of low-energy, size-biased clusters is designated unsafe. Within this framework, we analyze prompt injection-based jailbreaking. Short injected prompts correspond to a weak magnetic field aligned towards unsafe cluster centers and yield a power-law scaling of attack success rate with the number of inference-time samples, while long injected prompts, i.e., strong magnetic field, yield ",
+      "published": "2026-03-13T04:00:00+00:00",
+      "score": 42.0,
+      "headline": "JAILBREAK SCALING LAWS: Polynomial-Exponential Crossover Discovered"
+    },
+    {
       "id": "aeb248b6f947d459",
       "title": "Defense official reveals how AI chatbots could be used for targeting decisions",
       "url": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/",
@@ -829,6 +849,26 @@
       "headline": "AI ENTERS BATTLEFIELDS: India Must Rethink Defence"
     },
     {
+      "id": "21c6f19d6fdc4542",
+      "title": "Measuring AI Agents' Progress on Multi-Step Cyber Attack Scenarios",
+      "url": "https://arxiv.org/abs/2603.11214",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2603.11214v1 Announce Type: new Abstract: We evaluate the autonomous cyber-attack capabilities of frontier AI models on two purpose-built cyber ranges-a 32-step corporate network attack and a 7-step industrial control system attack-that require chaining heterogeneous capabilities across extended action sequences. By comparing seven models released over an eighteen-month period (August 2024 to February 2026) at varying inference-time compute budgets, we observe two capability trends. First, model performance scales log-linearly with inference-time compute, with no observed plateau-increasing from 10M to 100M tokens yields gains of up to 59%, requiring no specific technical sophistication from the operator. Second, each successive model generation outperforms its predecessor at fixed token budgets: on the corporate network range, average steps completed at 10M tokens rose from 1.7 (GPT-4o, August 2024) to 9.8 (Opus 4.6, February 2026). The best single run completed 22 of 32 steps, ",
+      "published": "2026-03-13T04:00:00+00:00",
+      "score": 41.0,
+      "headline": "FRONTIER AI MODELS TESTED ON AUTONOMOUS CYBER ATTACKS"
+    },
+    {
+      "id": "2ce995ae2dd097ee",
+      "title": "Increasing intelligence in AI agents can worsen collective outcomes",
+      "url": "https://arxiv.org/abs/2603.12129",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2603.12129v1 Announce Type: new Abstract: When resources are scarce, will a population of AI agents coordinate in harmony, or descend into tribal chaos? Diverse decision-making AI from different developers is entering everyday devices -- from phones and medical devices to battlefield drones and cars -- and these AI agents typically compete for finite shared resources such as charging slots, relay bandwidth, and traffic priority. Yet their collective dynamics and hence risks to users and society are poorly understood. Here we study AI-agent populations as the first system of real agents in which four key variables governing collective behaviour can be independently toggled: nature (innate LLM diversity), nurture (individual reinforcement learning), culture (emergent tribe formation), and resource scarcity. We show empirically and mathematically that when resources are scarce, AI model diversity and reinforcement learning increase dangerous system overload, though tribe formation l",
+      "published": "2026-03-13T04:00:00+00:00",
+      "score": 41.0,
+      "headline": "ALARMING: Smarter AI Agents Create WORSE Collective Outcomes"
+    },
+    {
       "id": "57c41461353e5317",
       "title": "Adobe CEO Shantanu Narayen is stepping down after 18 years\u2014as pressure on the company mounts to deliver on AI",
       "url": "https://fortune.com/2026/03/12/adobe-ceo-shantanu-narayen-stepping-down-after-18-years-pressure-deliver-ai/",
@@ -897,47 +937,7 @@
       "published": "2026-03-12T13:22:44+00:00",
       "score": 41.0,
       "headline": "BREAKING: McKinsey Rushes to Fix AI Systems After Hack"
-    },
-    {
-      "id": "96338eb4174b8bd8",
-      "title": "Microsoft launches Copilot Health, a dedicated space for personal health data and AI-driven insights",
-      "url": "https://fortune.com/2026/03/12/microsoft-copilot-health-ai-medical-personal-health-data/",
-      "source": "Fortune Tech",
-      "summary": "Microsoft joins OpenAI and Anthropic in the race to become the AI front door for consumer healthcare.",
-      "published": "2026-03-12T13:06:34+00:00",
-      "score": 41.0,
-      "headline": "MICROSOFT LAUNCHES COPILOT HEALTH... AI Takes on Healthcare"
-    },
-    {
-      "id": "61ec663fbadd8d21",
-      "title": "Uber, Wayve, and Nissan are bringing robotaxis to Tokyo",
-      "url": "https://thenextweb.com/news/uber-wayve-nissan-tokyo-robotaxi-pilot",
-      "source": "The Next Web",
-      "summary": "The three-way MOU marks Uber\u2019s first autonomous vehicle partnership in Japan, and adds Tokyo to a global rollout already targeting ten cities. Tokyo\u2019s streets are, by common consensus, among the most demanding driving environments on Earth. Dense junctions, narrow lanes, complex signage, and a culture of precision that tolerates neither delay nor error make the [&hellip;] This story continues at The Next Web",
-      "published": "2026-03-12T11:59:28+00:00",
-      "score": 41.0,
-      "headline": "Uber & Wayve Launch Robotaxis in TOKYO"
-    },
-    {
-      "id": "990159c4c0143b49",
-      "title": "India Plans New $11 Billion Fund to Support Local Chipmaking",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-12/india-plans-new-11-billion-fund-to-support-local-chipmaking",
-      "source": "Bloomberg Technology",
-      "summary": "India plans to unveil a more than 1 trillion rupee ($10.8 billion) fund aimed at bolstering domestic chipmaking, advancing its ambitious bid to become a global manufacturing hub.",
-      "published": "2026-03-12T08:22:23+00:00",
-      "score": 41.0,
-      "headline": "India Plans $11 Billion Fund for LOCAL Chipmaking"
-    },
-    {
-      "id": "1ffb10e5c12637fd",
-      "title": "Anthropic seeks appeals court stay of Pentagon supply-chain risk designation",
-      "url": "https://www.reuters.com/technology/anthropic-seeks-court-stay-pentagon-supply-chain-risk-designation-2026-03-12/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.reuters.com/technology/anthropic-seeks-court-stay-pentagon-supply-chain-risk-designation-2026-03-12/ Comments URL: https://news.ycombinator.com/item?id=47347570 Points: 3 # Comments: 0",
-      "published": "2026-03-12T07:29:06+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC FIGHTS PENTAGON SUPPLY-CHAIN BAN in Appeals Court"
     }
   ],
-  "generated_at": "2026-03-13T01:42:56.760277"
+  "generated_at": "2026-03-13T04:10:12.008750"
 }
