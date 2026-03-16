@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "China AI Boom & US Tech War",
-      "description": "China's AI sector is experiencing explosive growth while navigating US sanctions and chip restrictions, reshaping the global tech landscape.",
+      "topic": "China AI Tech Boom",
+      "description": "China's AI companies are rapidly scaling and finding ways to bypass US sanctions while building competitive alternatives to Western AI systems.",
       "stories": [
         {
           "id": "37da91a5f59e61d3",
@@ -95,6 +95,16 @@
           "headline": "BYTEDANCE OUTSMARTS US SANCTIONS With Offshore Nvidia AI Build"
         },
         {
+          "id": "867d1a6a4a505b94",
+          "title": "Qwen3.5-27B performs almost on par with 397B and GPT-5 mini in the Game Agent Coding League",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rue2f4/qwen3527b_performs_almost_on_par_with_397b_and/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Hi LocalLlama. Here are the results from the March run of the GACL. A few observations from my side: GPT-5.4 clearly leads among the major models at the moment. Qwen3.5-27B performed better than every other Qwen model except 397B, trailing it by only 0.04 points. In my opinion, it\u2019s an outstanding model. Kimi2.5 is currently the top open-weight model, ranking #6 globally, while GLM-5 comes next at #7 globally. Significant difference between Opus and Sonnet, more than I expected. GPT models dominate the Battleship game. However, Tic-Tac-Toe didn\u2019t work well as a benchmark since nearly all models performed similarly. I\u2019m planning to replace it with another game next month. Suggestions are welcome. For context, GACL is a league where models generate agent code to play seven different games. Each model produces two agents, and each agent competes against every other agent except its paired \u201cfriendly\u201d agent from the same model. In other words, the models themselves don\u2019t play the games but ",
+          "published": "2026-03-15T13:29:03+00:00",
+          "score": 42.0,
+          "headline": "Qwen3.5-27B Nearly Matches GPT-5 Mini Performance"
+        },
+        {
           "id": "27b71715756827ef",
           "title": "\u2018Two sessions\u2019 signals China-US tech contest is entering a new era",
           "url": "https://www.scmp.com/opinion/china-opinion/article/3346402/two-sessions-signals-china-us-tech-contest-entering-new-era?utm_source=rss_feed",
@@ -113,6 +123,16 @@
           "published": "2026-03-13T15:55:53+00:00",
           "score": 42.0,
           "headline": "BYTEDANCE BYPASSES NVIDIA CHIP BAN WITH NEW STRATEGY"
+        },
+        {
+          "id": "8dc75ddce3ede481",
+          "title": "AI Drug Discovery Startup Earendil Is Said to Consider Hong Kong IPO",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-13/ai-drug-discovery-startup-earendil-is-said-to-consider-hong-kong-ipo",
+          "source": "Bloomberg Technology",
+          "summary": "Earendil Labs, a biotechnology startup that uses artificial intelligence for drug discovery, is considering listing in Hong Kong, according to people familiar with the matter.",
+          "published": "2026-03-13T03:56:09+00:00",
+          "score": 42.0,
+          "headline": "AI Drug Discovery Startup Eyes HONG KONG IPO"
         },
         {
           "id": "4691aef6418d4d9e",
@@ -136,11 +156,11 @@
         }
       ],
       "top_score": 46.0,
-      "story_count": 13
+      "story_count": 15
     },
     {
-      "topic": "ByteDance AI Video Tool Crisis",
-      "description": "ByteDance's AI video generation tool faces global suspension due to copyright lawsuits and legal challenges from major entertainment companies.",
+      "topic": "ByteDance AI Video Legal Crisis",
+      "description": "ByteDance has suspended its AI video tool globally due to copyright lawsuits and legal concerns from Disney and Hollywood.",
       "stories": [
         {
           "id": "cf420e2461f100a8",
@@ -259,16 +279,6 @@
       "headline": "MUSK PURGES xAI FOUNDERS... Coding Effort Crumbles"
     },
     {
-      "id": "867d1a6a4a505b94",
-      "title": "Qwen3.5-27B performs almost on par with 397B and GPT-5 mini in the Game Agent Coding League",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rue2f4/qwen3527b_performs_almost_on_par_with_397b_and/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Hi LocalLlama. Here are the results from the March run of the GACL. A few observations from my side: GPT-5.4 clearly leads among the major models at the moment. Qwen3.5-27B performed better than every other Qwen model except 397B, trailing it by only 0.04 points. In my opinion, it\u2019s an outstanding model. Kimi2.5 is currently the top open-weight model, ranking #6 globally, while GLM-5 comes next at #7 globally. Significant difference between Opus and Sonnet, more than I expected. GPT models dominate the Battleship game. However, Tic-Tac-Toe didn\u2019t work well as a benchmark since nearly all models performed similarly. I\u2019m planning to replace it with another game next month. Suggestions are welcome. For context, GACL is a league where models generate agent code to play seven different games. Each model produces two agents, and each agent competes against every other agent except its paired \u201cfriendly\u201d agent from the same model. In other words, the models themselves don\u2019t play the games but ",
-      "published": "2026-03-15T13:29:03+00:00",
-      "score": 42.0,
-      "headline": "Qwen3.5-27B Nearly Matches GPT-5 Mini Performance"
-    },
-    {
       "id": "ef1fa43d7b4f6341",
       "title": "Dubai-based Solstice Data signs Rs 52,600 cr MoU for investment in Kerala",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/dubai-based-solstice-data-signs-rs-52600-cr-mou-for-investment-in-kerala/articleshow/129585840.cms",
@@ -347,16 +357,6 @@
       "published": "2026-03-13T04:00:00+00:00",
       "score": 42.0,
       "headline": "JAILBREAK SCALING LAWS: Polynomial-Exponential Crossover Discovered"
-    },
-    {
-      "id": "8dc75ddce3ede481",
-      "title": "AI Drug Discovery Startup Earendil Is Said to Consider Hong Kong IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-13/ai-drug-discovery-startup-earendil-is-said-to-consider-hong-kong-ipo",
-      "source": "Bloomberg Technology",
-      "summary": "Earendil Labs, a biotechnology startup that uses artificial intelligence for drug discovery, is considering listing in Hong Kong, according to people familiar with the matter.",
-      "published": "2026-03-13T03:56:09+00:00",
-      "score": 42.0,
-      "headline": "AI Drug Discovery Startup Eyes HONG KONG IPO"
     },
     {
       "id": "9bd1b890f0837354",
@@ -647,6 +647,16 @@
       "published": "2026-03-16T04:18:14+00:00",
       "score": 39.0,
       "headline": "ANTHROPIC SUES TRUMP... xAI STARTS OVER AGAIN"
+    },
+    {
+      "id": "c5c87b9384d27f12",
+      "title": "WiFi-DensePose: AI Can Track Body Positions Through Walls",
+      "url": "https://www.reddit.com/r/artificial/comments/1ruzmks/wifidensepose_ai_can_track_body_positions_through/",
+      "source": "Reddit r/artificial",
+      "summary": "WiFi-DensePose: AI Can Track Body Positions Through Walls: Researchers have developed a system using standard WiFi signals to reconstruct full-body positions in real-time, through walls and in the dark, offering potential for privacy-preserving fall detection and health monitoring &#32; submitted by &#32; /u/Remarkable-Dark2840 [link] &#32; [comments]",
+      "published": "2026-03-16T04:18:07+00:00",
+      "score": 39.0,
+      "headline": "BREAKTHROUGH: AI Tracks Human Bodies Through Walls Using WiFi"
     },
     {
       "id": "ce8804737f7dbb83",
@@ -1007,17 +1017,7 @@
       "published": "2026-03-13T04:00:00+00:00",
       "score": 39.0,
       "headline": "New Protocol Detects Self-Preservation in AI Agents"
-    },
-    {
-      "id": "35d0cdba7812ba64",
-      "title": "Security Considerations for Artificial Intelligence Agents",
-      "url": "https://arxiv.org/abs/2603.12230",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2603.12230v1 Announce Type: cross Abstract: This article, a lightly adapted version of Perplexity's response to NIST/CAISI Request for Information 2025-0035, details our observations and recommendations concerning the security of frontier AI agents. These insights are informed by Perplexity's experience operating general-purpose agentic systems used by millions of users and thousands of enterprises in both controlled and open-world environments. Agent architectures change core assumptions around code-data separation, authority boundaries, and execution predictability, creating new confidentiality, integrity, and availability failure modes. We map principal attack surfaces across tools, connectors, hosting boundaries, and multi-agent coordination, with particular emphasis on indirect prompt injection, confused-deputy behavior, and cascading failures in long-running workflows. We then assess current defenses as a layered stack: input-level and model-level mitigations, sandboxed exe",
-      "published": "2026-03-13T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "PERPLEXITY WARNS NIST: AI Agent Security Crisis Coming"
     }
   ],
-  "generated_at": "2026-03-16T04:39:35.225013"
+  "generated_at": "2026-03-16T06:20:16.022798"
 }
