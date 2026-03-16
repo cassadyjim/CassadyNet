@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "China AI Boom & US Tech War",
-      "description": "China's AI companies are surging in valuation and capability while navigating US sanctions and chip restrictions.",
+      "topic": "China AI Chip War",
+      "description": "Major geopolitical battle over AI chip access between China and the West, with companies finding workarounds to sanctions.",
       "stories": [
         {
           "id": "37da91a5f59e61d3",
@@ -23,16 +23,6 @@
           "published": "2026-03-13T08:26:28+00:00",
           "score": 46.0,
           "headline": "CHINA APPROVES FIRST BRAIN IMPLANT... Neuralink Rival Cleared"
-        },
-        {
-          "id": "3567cd0a08d1ab10",
-          "title": "\u2018Fake workers\u2019 from North Korea use AI to exploit European companies",
-          "url": "https://www.ft.com/content/4e26ad94-f917-4f52-924d-066e332217cf",
-          "source": "Financial Times Tech",
-          "summary": "Pyongyang\u2019s operatives deploy chatbots to undertake tasks, often in multiple roles",
-          "published": "2026-03-15T05:00:18+00:00",
-          "score": 45.0,
-          "headline": "NORTH KOREA 'Fake Workers' Use AI to Exploit EU Companies"
         },
         {
           "id": "d898335fb909be16",
@@ -115,6 +105,16 @@
           "headline": "BYTEDANCE OUTSMARTS US SANCTIONS With Offshore Nvidia AI Build"
         },
         {
+          "id": "89bced773db48dbf",
+          "title": "China\u2019s AI Boom Risks Job Losses, Regulatory Concerns",
+          "url": "https://www.bloomberg.com/news/videos/2026-03-16/china-s-ai-boom-risks-job-losses-regulatory-concerns-video",
+          "source": "Bloomberg Technology",
+          "summary": "China\u2019s rapid AI expansion is drastically reducing production costs, but this growth is triggering intellectual property disputes and concerns about the labor market. Bloomberg's Minmin Low reports on how Beijing is facing a difficult balancing act: maintaining its global tech edge while preventing possible social unrest caused by mass automation. (Source: Bloomberg)",
+          "published": "2026-03-16T23:01:49+00:00",
+          "score": 42.0,
+          "headline": "CHINA'S AI BOOM SPARKS JOB LOSS FEARS, IP DISPUTES"
+        },
+        {
           "id": "27b71715756827ef",
           "title": "\u2018Two sessions\u2019 signals China-US tech contest is entering a new era",
           "url": "https://www.scmp.com/opinion/china-opinion/article/3346402/two-sessions-signals-china-us-tech-contest-entering-new-era?utm_source=rss_feed",
@@ -139,8 +139,8 @@
       "story_count": 13
     },
     {
-      "topic": "ByteDance AI Video Tool Crisis",
-      "description": "ByteDance has suspended its AI video tool globally due to copyright lawsuits and legal concerns from Hollywood studios.",
+      "topic": "ByteDance AI Video Legal Crisis",
+      "description": "ByteDance's AI video tool faces global suspension due to copyright lawsuits and legal challenges from entertainment industry.",
       "stories": [
         {
           "id": "cf420e2461f100a8",
@@ -217,6 +217,16 @@
       "published": "2026-03-16T10:27:50+00:00",
       "score": 45.0,
       "headline": "MINIMAX M2.7 MODEL LEAKED on DesignArena"
+    },
+    {
+      "id": "3567cd0a08d1ab10",
+      "title": "\u2018Fake workers\u2019 from North Korea use AI to exploit European companies",
+      "url": "https://www.ft.com/content/4e26ad94-f917-4f52-924d-066e332217cf",
+      "source": "Financial Times Tech",
+      "summary": "Pyongyang\u2019s operatives deploy chatbots to undertake tasks, often in multiple roles",
+      "published": "2026-03-15T05:00:18+00:00",
+      "score": 45.0,
+      "headline": "NORTH KOREA 'Fake Workers' Use AI to Exploit EU Companies"
     },
     {
       "id": "bd9acb7daa8c7e18",
@@ -317,6 +327,16 @@
       "published": "2026-03-13T15:36:53+00:00",
       "score": 43.0,
       "headline": "MUSK PURGES xAI FOUNDERS... Coding Effort Crumbles"
+    },
+    {
+      "id": "c5aaef73bf83dfa2",
+      "title": "CEO Asks ChatGPT How to Void $250 Million Contract, Ignores His Lawyers, Loses Terribly in Court",
+      "url": "https://www.404media.co/ceo-ignores-lawyers-asks-chatgpt-how-to-void-250-million-contract-loses-terribly-in-court/",
+      "source": "404 Media",
+      "summary": "The CEO of Krafton used ChatGPT to push out the head of the studio developing Subnautica 2 against the advice of his own legal team and failed miserably.",
+      "published": "2026-03-16T22:40:53+00:00",
+      "score": 42.0,
+      "headline": "CEO ASKS CHATGPT TO VOID $250M CONTRACT... LOSES IN COURT"
     },
     {
       "id": "e92587f6562558a0",
@@ -759,6 +779,36 @@
       "headline": "ALARMING: Smarter AI Agents Create WORSE Collective Outcomes"
     },
     {
+      "id": "05bab24599f3636a",
+      "title": "Nvidia Expects Agentic AI To Drive $1 Trillion In Revenue",
+      "url": "https://gizmodo.com/nvidia-expects-agentic-ai-to-drive-1-trillion-in-revenue-2000734120",
+      "source": "Gizmodo",
+      "summary": "From an OpenClaw partneship to new inference-focused chips, Jensen Huang is betting on agentic AI hype.",
+      "published": "2026-03-16T23:09:55+00:00",
+      "score": 40.0,
+      "headline": "NVIDIA BETS ON AGENTIC AI FOR $1 TRILLION REVENUE"
+    },
+    {
+      "id": "3663d807c050a55f",
+      "title": "Nvidia\u2019s version of OpenClaw could solve its biggest problem: Security",
+      "url": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
+      "source": "TechCrunch AI",
+      "summary": "Nvidia announced an open enterprise AI agent platform, called NemoClaw, that is built off of viral OpenClaw.",
+      "published": "2026-03-16T22:45:51+00:00",
+      "score": 40.0,
+      "headline": "NVIDIA LAUNCHES NEMOCLAW: Enterprise Answer to OpenClaw"
+    },
+    {
+      "id": "028840951a2c9240",
+      "title": "Reeves Pledges Fastest AI Adoption in G7 in UK Growth Vision",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-16/reeves-pledges-fastest-ai-adoption-in-g7-in-uk-growth-vision",
+      "source": "Bloomberg Technology",
+      "summary": "Rachel Reeves vowed the UK will adopt artificial intelligence faster than any other Group of Seven nation, as she hailed the technology as a key plank of her bid to spur economic growth.",
+      "published": "2026-03-16T22:30:00+00:00",
+      "score": 40.0,
+      "headline": "UK PLEDGES FASTEST AI ADOPTION IN G7 FOR GROWTH"
+    },
+    {
       "id": "95acb4b5fdaf66b4",
       "title": "Encyclopedia Britannica Sues OpenAI Over AI Training Data. Is Grokipedia Next?",
       "url": "https://gizmodo.com/encyclopedia-britannica-sues-openai-over-ai-training-data-is-grokipedia-next-2000734239",
@@ -967,57 +1017,7 @@
       "published": "2026-03-16T11:05:06+00:00",
       "score": 40.0,
       "headline": "UK DROPS \u00a345M on AI Supercomputer for Fusion Power Breakthrough"
-    },
-    {
-      "id": "db0b2a5126481b09",
-      "title": "Meta to Spend Up to $27 Billion on Nebius AI Infrastructure",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-16/meta-to-spend-up-to-27-billion-on-ai-infrastructure-from-nebius",
-      "source": "Bloomberg Technology",
-      "summary": "Meta Platforms Inc. will pay as much as $27 billion over the next five years for access to artificial intelligence infrastructure from cloud provider Nebius Group NV as it spends aggressively to compete with the industry\u2019s top frontier models.",
-      "published": "2026-03-16T10:00:46+00:00",
-      "score": 40.0,
-      "headline": "META COMMITS $27B to AI Infrastructure War"
-    },
-    {
-      "id": "69bd5fb8d3a8289d",
-      "title": "Google's Gemini AI chatbot rolling out to all Hongkongers",
-      "url": "https://hongkongfp.com/2026/03/16/googles-gemini-ai-chatbot-finally-rolling-out-to-all-hongkongers/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://hongkongfp.com/2026/03/16/googles-gemini-ai-chatbot-finally-rolling-out-to-all-hongkongers/ Comments URL: https://news.ycombinator.com/item?id=47396713 Points: 1 # Comments: 1",
-      "published": "2026-03-16T09:20:56+00:00",
-      "score": 40.0,
-      "headline": "GEMINI FINALLY LAUNCHES IN HONG KONG"
-    },
-    {
-      "id": "1d7435f2e8a9cece",
-      "title": "NVIDIA GTC 2026 opens today",
-      "url": "https://thenextweb.com/news/nvidia-gtc-2026-opens-today",
-      "source": "The Next Web",
-      "summary": "NVIDIA\u2019s GTC 2026 opens in San Jose today with 30,000 attendees, a keynote at the SAP Center, and announcements that could reshape the next two years of AI infrastructure, from Vera Rubin deep-dives to an enterprise agent platform and a gigawatt deal with Mira Murati\u2019s startup. San Jose goes green every March. The city\u2019s convention [&hellip;] This story continues at The Next Web",
-      "published": "2026-03-16T08:42:21+00:00",
-      "score": 40.0,
-      "headline": "NVIDIA GTC 2026 Opens Today - 30K Attendees"
-    },
-    {
-      "id": "590a83b6fcf46ecb",
-      "title": "India tests whether AI can stop trains hitting elephants",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/16/asia_tech_news_roundup/",
-      "source": "The Register AI/ML",
-      "summary": "PLUS: SAP expands Japanese cloud; SK hynix close to shipping LPDDR6; Lenovo\u2019s biggest ever IaaS deal; and more India\u2019s Ministry of Environment, Forest and Climate Change last week staged a two-day national workshop titled \u201cPolicy Implementation for Minimizing Elephant Mortalities on Railway Track\u201d \u2013 and one of the ideas discussed was using AI to protect the beasts and workers.\u2026",
-      "published": "2026-03-16T00:57:33+00:00",
-      "score": 40.0,
-      "headline": "INDIA Tests AI to Stop Trains Hitting Elephants"
-    },
-    {
-      "id": "4e1368ebc8dff5d9",
-      "title": "Data scientist uses AI and ChatGPT to create cancer vaccine for his dying dog",
-      "url": "https://www.theaustralian.com.au/business%2Ftechnology%2Ftech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog%2Fnews-story%2F292a21bcbe93efa17810bfcfcdfadbf7",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.theaustralian.com.au/business%2Ftechnology%2Ftech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog%2Fnews-story%2F292a21bcbe93efa17810bfcfcdfadbf7 Comments URL: https://news.ycombinator.com/item?id=47391446 Points: 1 # Comments: 0",
-      "published": "2026-03-15T20:21:12+00:00",
-      "score": 40.0,
-      "headline": "DATA SCIENTIST USES AI TO CREATE CANCER VACCINE FOR DYING DOG"
     }
   ],
-  "generated_at": "2026-03-16T22:28:12.321463"
+  "generated_at": "2026-03-16T23:27:35.872751"
 }
