@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "China AI Boom & Tech Competition",
-      "description": "China's AI companies are experiencing explosive growth and finding ways around US sanctions, reshaping the global AI landscape.",
+      "topic": "China AI Boom & US Tech Tensions",
+      "description": "China's AI companies are rapidly growing and finding ways to bypass US sanctions while geopolitical tensions escalate over AI technology access.",
       "stories": [
         {
           "id": "37da91a5f59e61d3",
@@ -95,16 +95,6 @@
           "headline": "BYTEDANCE OUTSMARTS US SANCTIONS With Offshore Nvidia AI Build"
         },
         {
-          "id": "867d1a6a4a505b94",
-          "title": "Qwen3.5-27B performs almost on par with 397B and GPT-5 mini in the Game Agent Coding League",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rue2f4/qwen3527b_performs_almost_on_par_with_397b_and/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "Hi LocalLlama. Here are the results from the March run of the GACL. A few observations from my side: GPT-5.4 clearly leads among the major models at the moment. Qwen3.5-27B performed better than every other Qwen model except 397B, trailing it by only 0.04 points. In my opinion, it\u2019s an outstanding model. Kimi2.5 is currently the top open-weight model, ranking #6 globally, while GLM-5 comes next at #7 globally. Significant difference between Opus and Sonnet, more than I expected. GPT models dominate the Battleship game. However, Tic-Tac-Toe didn\u2019t work well as a benchmark since nearly all models performed similarly. I\u2019m planning to replace it with another game next month. Suggestions are welcome. For context, GACL is a league where models generate agent code to play seven different games. Each model produces two agents, and each agent competes against every other agent except its paired \u201cfriendly\u201d agent from the same model. In other words, the models themselves don\u2019t play the games but ",
-          "published": "2026-03-15T13:29:03+00:00",
-          "score": 42.0,
-          "headline": "Qwen3.5-27B Nearly Matches GPT-5 Mini Performance"
-        },
-        {
           "id": "27b71715756827ef",
           "title": "\u2018Two sessions\u2019 signals China-US tech contest is entering a new era",
           "url": "https://www.scmp.com/opinion/china-opinion/article/3346402/two-sessions-signals-china-us-tech-contest-entering-new-era?utm_source=rss_feed",
@@ -143,24 +133,14 @@
           "published": "2026-03-14T21:00:00+00:00",
           "score": 41.0,
           "headline": "CHINA AI CRAZE: OpenClaw 'Lobster Raising' Goes Viral"
-        },
-        {
-          "id": "a3ba59007905b728",
-          "title": "Robot Phone is here: Honor unveils prototype with AI features at Mobile World Congress",
-          "url": "https://economictimes.indiatimes.com/tech/technology/robot-phone-is-here-honor-unveils-prototype-with-ai-features-at-mobile-world-congress/articleshow/129574319.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The robot phone is now in the test phase. Commercial launch in China is expected in the second half of the year. At the event, Honor also showcased a humanoid robot designed for tasks such as shopping assistance, workplace inspections, and companionship.",
-          "published": "2026-03-14T12:22:34+00:00",
-          "score": 41.0,
-          "headline": "ROBOT PHONE INCOMING: Honor's AI-Powered Device Launches China This Year"
         }
       ],
       "top_score": 46.0,
-      "story_count": 15
+      "story_count": 13
     },
     {
-      "topic": "ByteDance AI Video Legal Crisis",
-      "description": "ByteDance has halted its AI video tool globally due to copyright lawsuits from Disney and Hollywood, creating a major setback for AI-generated content.",
+      "topic": "ByteDance AI Video Tool Crisis",
+      "description": "ByteDance's AI video generation tool faces global suspension due to copyright lawsuits and legal challenges from major entertainment companies.",
       "stories": [
         {
           "id": "cf420e2461f100a8",
@@ -279,6 +259,26 @@
       "headline": "MUSK PURGES xAI FOUNDERS... Coding Effort Crumbles"
     },
     {
+      "id": "bf39c656fda9dc4b",
+      "title": "No ships cross Strait of Hormuz for first time since conflict began, data shows",
+      "url": "https://www.scmp.com/economy/global-economy/article/3346755/no-ships-cross-strait-hormuz-first-time-conflict-began-data-shows?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "Maritime tracking data showed that no ships passed through the Strait of Hormuz on Saturday, marking the first full day since the Middle East conflict began without any confirmed commercial traffic in either direction. Crossings dropped to zero, below the previous seven-day average of 2.57 daily transits, according to maritime analytics firm Windward. Although no vessels entered the waterway that day, about 400 ships sailed in the Gulf of Oman on Friday, it said. \u201cThe concentration suggests that...",
+      "published": "2026-03-16T09:30:14+00:00",
+      "score": 42.0,
+      "headline": null
+    },
+    {
+      "id": "867d1a6a4a505b94",
+      "title": "Qwen3.5-27B performs almost on par with 397B and GPT-5 mini in the Game Agent Coding League",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rue2f4/qwen3527b_performs_almost_on_par_with_397b_and/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Hi LocalLlama. Here are the results from the March run of the GACL. A few observations from my side: GPT-5.4 clearly leads among the major models at the moment. Qwen3.5-27B performed better than every other Qwen model except 397B, trailing it by only 0.04 points. In my opinion, it\u2019s an outstanding model. Kimi2.5 is currently the top open-weight model, ranking #6 globally, while GLM-5 comes next at #7 globally. Significant difference between Opus and Sonnet, more than I expected. GPT models dominate the Battleship game. However, Tic-Tac-Toe didn\u2019t work well as a benchmark since nearly all models performed similarly. I\u2019m planning to replace it with another game next month. Suggestions are welcome. For context, GACL is a league where models generate agent code to play seven different games. Each model produces two agents, and each agent competes against every other agent except its paired \u201cfriendly\u201d agent from the same model. In other words, the models themselves don\u2019t play the games but ",
+      "published": "2026-03-15T13:29:03+00:00",
+      "score": 42.0,
+      "headline": "Qwen3.5-27B Nearly Matches GPT-5 Mini Performance"
+    },
+    {
       "id": "ef1fa43d7b4f6341",
       "title": "Dubai-based Solstice Data signs Rs 52,600 cr MoU for investment in Kerala",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/dubai-based-solstice-data-signs-rs-52600-cr-mou-for-investment-in-kerala/articleshow/129585840.cms",
@@ -359,6 +359,26 @@
       "headline": "JAILBREAK SCALING LAWS: Polynomial-Exponential Crossover Discovered"
     },
     {
+      "id": "0e6a5dec989f4212",
+      "title": "Dubai flights disrupted after drone attack near airport; missile kills 1 in Abu Dhabi",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3346748/dubai-flights-disrupted-after-drone-attack-near-airport-missile-kills-1-abu-dhabi?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "Missiles and drone attacks hit across the UAE on Monday, with a drone-related incident sparking a fuel tank fire near Dubai airport that disrupted travel, while a missile killed a civilian in Abu Dhabi. In the eastern emirate of Fujairah, a drone attack on oil infrastructure sparked a fire, just one day after smoke was seen rising from a major UAE energy installation in the emirate. The attacks came a day after Iranian foreign minister Abbas Araghchi said in an interview that rockets had been...",
+      "published": "2026-03-16T09:14:17+00:00",
+      "score": 41.0,
+      "headline": null
+    },
+    {
+      "id": "72278ae30817d5ab",
+      "title": "China may snub Trump plea for help in Strait of Hormuz",
+      "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3346744/china-may-snub-trump-plea-help-strait-hormuz?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "US President Donald Trump said he may put off a planned visit to Beijing as he sought to press China and other nations into helping reopen the Strait of Hormuz amid the war in Iran. \u201cWe may delay\u201d the trip, he told the Financial Times on Sunday, without saying for how long. The visit, scheduled for March 31 to April 2, includes a summit with Chinese President Xi Jinping. Trump has \u201cdemanded\u201d that about seven countries help to reopen the Strait of Hormuz, he told reporters on Sunday, as the...",
+      "published": "2026-03-16T09:04:14+00:00",
+      "score": 41.0,
+      "headline": null
+    },
+    {
       "id": "9bd1b890f0837354",
       "title": "Scoop: Sequoia alumni\u2019s Ambition Capital set to raise $250 million for early-stage investing",
       "url": "https://economictimes.indiatimes.com/tech/funding/scoop-sequoia-alumnis-ambition-capital-set-to-raise-250-million-for-early-stage-investing/articleshow/129594297.cms",
@@ -407,6 +427,16 @@
       "published": "2026-03-14T13:40:42+00:00",
       "score": 41.0,
       "headline": "PENTAGON WANTS AI HOOKED TO NUCLEAR WEAPONS"
+    },
+    {
+      "id": "a3ba59007905b728",
+      "title": "Robot Phone is here: Honor unveils prototype with AI features at Mobile World Congress",
+      "url": "https://economictimes.indiatimes.com/tech/technology/robot-phone-is-here-honor-unveils-prototype-with-ai-features-at-mobile-world-congress/articleshow/129574319.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The robot phone is now in the test phase. Commercial launch in China is expected in the second half of the year. At the event, Honor also showcased a humanoid robot designed for tasks such as shopping assistance, workplace inspections, and companionship.",
+      "published": "2026-03-14T12:22:34+00:00",
+      "score": 41.0,
+      "headline": "ROBOT PHONE INCOMING: Honor's AI-Powered Device Launches China This Year"
     },
     {
       "id": "1f5bd8bf9446d7b2",
@@ -497,6 +527,16 @@
       "published": "2026-03-13T04:00:00+00:00",
       "score": 41.0,
       "headline": "ALARMING: Smarter AI Agents Create WORSE Collective Outcomes"
+    },
+    {
+      "id": "1d7435f2e8a9cece",
+      "title": "NVIDIA GTC 2026 opens today",
+      "url": "https://thenextweb.com/news/nvidia-gtc-2026-opens-today",
+      "source": "The Next Web",
+      "summary": "NVIDIA\u2019s GTC 2026 opens in San Jose today with 30,000 attendees, a keynote at the SAP Center, and announcements that could reshape the next two years of AI infrastructure, from Vera Rubin deep-dives to an enterprise agent platform and a gigawatt deal with Mira Murati\u2019s startup. San Jose goes green every March. The city\u2019s convention [&hellip;] This story continues at The Next Web",
+      "published": "2026-03-16T08:42:21+00:00",
+      "score": 40.0,
+      "headline": "NVIDIA GTC 2026 Opens Today - 30K Attendees"
     },
     {
       "id": "590a83b6fcf46ecb",
@@ -637,6 +677,16 @@
       "published": "2026-03-13T00:08:44+00:00",
       "score": 40.0,
       "headline": "META DELAYS New AI Model After Performance Issues"
+    },
+    {
+      "id": "88a438f281ec410f",
+      "title": "\u2018100 Video Calls Per Day\u2019: Models Are Applying to Be the Face of AI Scams",
+      "url": "https://www.wired.com/story/models-are-applying-to-be-the-face-of-ai-scams/",
+      "source": "Wired",
+      "summary": "Dozens of Telegram channels reviewed by WIRED include job listings for \u201cAI face models.\u201d The (mostly) women who land these gigs are likely being used to dupe victims out of their money.",
+      "published": "2026-03-16T09:00:00+00:00",
+      "score": 39.0,
+      "headline": "Models Apply to Be FACES OF AI SCAMS"
     },
     {
       "id": "132e7ff75e5e5f23",
@@ -967,57 +1017,7 @@
       "published": "2026-03-13T12:45:56+00:00",
       "score": 39.0,
       "headline": "SHIPS FAKE 'CHINA OWNER' SIGNALS... IRAN BLOCKADE"
-    },
-    {
-      "id": "60376fb9797ea5ee",
-      "title": "The Download: how AI is used for military targeting, and the Pentagon\u2019s war on Claude",
-      "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-      "source": "MIT Technology Review",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Defense&#160;official reveals how AI chatbots could be used for targeting decisions&#160; The US military might use generative AI systems to rank targets and recommend which to strike first, according to a&#160;Defense&#160;Department&#8230;",
-      "published": "2026-03-13T12:16:56+00:00",
-      "score": 39.0,
-      "headline": "PENTAGON'S WAR ON CLAUDE: AI Military Targeting Revealed"
-    },
-    {
-      "id": "456f5d6c7232a6e9",
-      "title": "Anthropic commits $100M to Claude Partner Network",
-      "url": "https://thenextweb.com/news/anthropic-commits-100m-to-claude-partner-network",
-      "source": "The Next Web",
-      "summary": "The Claude Partner Network launches as Anthropic fights the Pentagon in court, and doubles down on the commercial relationships that matter most. There is a particular kind of defiance in the timing. On the same week that Anthropic was seeking an emergency stay from a US appeals court over the Pentagon\u2019s decision to label it [&hellip;] This story continues at The Next Web",
-      "published": "2026-03-13T11:06:03+00:00",
-      "score": 39.0,
-      "headline": "ANTHROPIC COMMITS $100M TO CLAUDE PARTNER NETWORK"
-    },
-    {
-      "id": "caaffa3717094ab9",
-      "title": "UK says Russia, Iran trying to \u2018hijack global economy\u2019 amid Hormuz blockade",
-      "url": "https://www.scmp.com/news/world/europe/article/3346523/uk-says-russia-iran-trying-hijack-global-economy-amid-hormuz-blockade?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "UK Foreign Secretary Yvette Cooper has accused Russia and Iran of attempting to \u201chijack the global economy\u201d as Tehran continued to blockade a major oil shipping route. Iran\u2019s new supreme leader has vowed to continue attacking shipping in the Strait of Hormuz in retaliation for ongoing US-Israeli strikes on his country. The blockade has seen oil prices jump to around US$100 per barrel, threatening higher inflation across the globe. Speaking to the media during a visit to Saudi Arabia, the UK...",
-      "published": "2026-03-13T10:57:13+00:00",
-      "score": 39.0,
-      "headline": null
-    },
-    {
-      "id": "29ec33f85c2b1ad2",
-      "title": "Morgan Stanley warns an AI breakthrough Is coming in 2026 \u2014 and most of the world isn\u2019t ready",
-      "url": "https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/",
-      "source": "Fortune Tech",
-      "summary": "The bank says scaling laws are holding firm \u2014 and the compute buildout underway at AI labs is about to pay off in ways that will surprise even the Street.",
-      "published": "2026-03-13T07:20:00+00:00",
-      "score": 39.0,
-      "headline": "MORGAN STANLEY: Major AI Breakthrough Coming in 2026"
-    },
-    {
-      "id": "2a0145feb3e44e66",
-      "title": "Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol",
-      "url": "https://arxiv.org/abs/2603.11382",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2603.11382v1 Announce Type: new Abstract: Autonomous agents, especially delegated systems with memory, persistent context, and multi-step planning, pose a measurement problem not present in stateless models: an agent that preserves continued operation as a terminal objective and one that does so merely instrumentally can produce observationally similar trajectories. External behavioral monitoring cannot reliably distinguish between them. We introduce the Unified Continuation-Interest Protocol (UCIP), a multi-criterion detection framework that moves this distinction from behavior to the latent structure of agent trajectories. UCIP encodes trajectories with a Quantum Boltzmann Machine (QBM), a classical algorithm based on the density-matrix formalism of quantum statistical mechanics, and measures the von Neumann entropy of the reduced density matrix induced by a bipartition of hidden units. We test whether agents with terminal continuation objectives (Type A) produce latent states ",
-      "published": "2026-03-13T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "New Protocol Detects Self-Preservation in AI Agents"
     }
   ],
-  "generated_at": "2026-03-16T08:07:24.866527"
+  "generated_at": "2026-03-16T10:03:16.118542"
 }
