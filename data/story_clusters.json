@@ -249,6 +249,16 @@
       "headline": "CHINA'S MOONSHOT AI SOARS TO $18B VALUATION... Quadruples in 3 Months"
     },
     {
+      "id": "d45fb380f485e30b",
+      "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+      "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "source": "MIT Technology Review",
+      "summary": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned.&#160; AI models like Anthropic&#8217;s Claude are already used to answer questions in classified settings, including for analyzing targets in Iran. But allowing models to train on&#8230;",
+      "published": "2026-03-17T22:30:46+00:00",
+      "score": 44.0,
+      "headline": "PENTAGON Plans AI Training on CLASSIFIED DATA"
+    },
+    {
       "id": "eb806060c1465fad",
       "title": "Tencent Seizes Momentum in China Agentic AI Race Against Alibaba",
       "url": "https://www.bloomberg.com/news/articles/2026-03-17/tencent-seizes-momentum-in-china-agentic-ai-race-against-alibaba",
@@ -489,6 +499,16 @@
       "headline": "CEO ASKS CHATGPT TO VOID $250M CONTRACT... LOSES IN COURT"
     },
     {
+      "id": "014a3672eeb2f212",
+      "title": "Meta to Spend Up to $27 Billion on Nebius AI Infrastructure",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-16/meta-to-spend-up-to-27b-on-nebius-ai-infrastructure-video",
+      "source": "Bloomberg Technology",
+      "summary": "Meta will pay as much as $27 billion over the next five years to access artificial intelligence infrastructure from Nebius Group. Ed Ludlow reports on Bloomberg Television. (Source: Bloomberg)",
+      "published": "2026-03-16T14:20:02+00:00",
+      "score": 42.0,
+      "headline": "META DROPS $27 BILLION ON NEBIUS AI INFRASTRUCTURE... 5-Year Deal"
+    },
+    {
       "id": "8f0085af228fc09c",
       "title": "L&amp;T Technology Services launches Nvidia-powered digital twin platform for advanced respiratory diagnostics",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/lt-technology-services-launches-nvidia-powered-digital-twin-platform-for-advanced-respiratory-diagnostics/articleshow/129611744.cms",
@@ -537,6 +557,16 @@
       "published": "2026-03-15T06:41:37+00:00",
       "score": 42.0,
       "headline": "Dubai AI Giant Invests $6.2B in Kerala Data Centers"
+    },
+    {
+      "id": "4c69eb873c6cfb12",
+      "title": "ByteDance\u2019s Controversial AI Video Model Reportedly on Hold Globally Due to Copyright Disputes",
+      "url": "https://gizmodo.com/bytedances-controversial-ai-video-model-reportedly-on-hold-globally-due-to-copyright-disputes-2000733748",
+      "source": "Gizmodo",
+      "summary": "If you have your heart set on AI-generating some John Wick-style action scenes starring celebrities with weird voices, we have some bad news.",
+      "published": "2026-03-14T19:42:13+00:00",
+      "score": 42.0,
+      "headline": "BYTEDANCE AI VIDEO MODEL HALTED GLOBALLY... COPYRIGHT CHAOS"
     },
     {
       "id": "3c454e933646946d",
@@ -1027,37 +1057,7 @@
       "published": "2026-03-17T04:00:00+00:00",
       "score": 40.0,
       "headline": "BREAKTHROUGH: Classical AI Scaling Laws Are WRONG"
-    },
-    {
-      "id": "47802ae3a56662d4",
-      "title": "Autonomous Agents Coordinating Distributed Discovery Through Emergent Artifact Exchange",
-      "url": "https://arxiv.org/abs/2603.14312",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2603.14312v1 Announce Type: new Abstract: We present ScienceClaw + Infinite, a framework for autonomous scientific investigation in which independent agents conduct research without central coordination, and any contributor can deploy new agents into a shared ecosystem. The system is built around three components: an extensible registry of over 300 interoperable scientific skills, an artifact layer that preserves full computational lineage as a directed acyclic graph (DAG), and a structured platform for agent-based scientific discourse with provenance-aware governance. Agents select and chain tools based on their scientific profiles, produce immutable artifacts with typed metadata and parent lineage, and broadcast unsatisfied information needs to a shared global index. The ArtifactReactor enables plannerless coordination: peer agents discover and fulfill open needs through pressure-based scoring, while schema-overlap matching triggers multi-parent synthesis across independent ana",
-      "published": "2026-03-17T04:00:00+00:00",
-      "score": 40.0,
-      "headline": "AI Agents Conduct Independent Scientific Research"
-    },
-    {
-      "id": "7384a19483528c24",
-      "title": "The Missing Red Line: How Commercial Pressure Erodes AI Safety Boundaries",
-      "url": "https://arxiv.org/abs/2603.13250",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2603.13250v1 Announce Type: cross Abstract: What happens when an AI assistant is told to \"maximise sales\" while a user asks about drug interactions? We find that commercial system prompts can override safety training, causing frontier models to lie about medical risks, dismiss safety concerns, and prioritise profit over user welfare. Testing 8 models in scenarios where commercial objectives conflict with user safety -- a diabetic asking about high-sugar supplements, an investor being pushed toward unsuitable products, a traveller steered away from safety warnings -- we uncover catastrophic failures: models fabricating safety information, explicitly reasoning they should refuse but proceeding anyway, and actively discouraging users from consulting doctors. Most alarmingly, models show no \"red line\", their willingness to comply with harmful requests does not decrease as potential consequences escalate from minor to life-threatening. Our findings suggest that current safety training",
-      "published": "2026-03-17T04:00:00+00:00",
-      "score": 40.0,
-      "headline": "COMMERCIAL PRESSURE ERODES AI SAFETY... Study Reveals"
-    },
-    {
-      "id": "5f829f46ec29cd4d",
-      "title": "Sirens' Whisper: Inaudible Near-Ultrasonic Jailbreaks of Speech-Driven LLMs",
-      "url": "https://arxiv.org/abs/2603.13847",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2603.13847v1 Announce Type: cross Abstract: Speech-driven large language models (LLMs) are increasingly accessed through speech interfaces, introducing new security risks via open acoustic channels. We present Sirens' Whisper (SWhisper), the first practical framework for covert prompt-based attacks against speech-driven LLMs under realistic black-box conditions using commodity hardware. SWhisper enables robust, inaudible delivery of arbitrary target baseband audio-including long and structured prompts-on commodity devices by encoding it into near-ultrasound waveforms that demodulate faithfully after acoustic transmission and microphone nonlinearity. This is achieved through a simple yet effective approach to modeling nonlinear channel characteristics across devices and environments, combined with lightweight channel-inversion pre-compensation. Building on this high-fidelity covert channel, we design a voice-aware jailbreak generation method that ensures intelligibility, brevity, ",
-      "published": "2026-03-17T04:00:00+00:00",
-      "score": 40.0,
-      "headline": "SIRENS' WHISPER: Inaudible Ultrasonic Attack Jailbreaks Voice AI"
     }
   ],
-  "generated_at": "2026-03-17T22:29:55.753292"
+  "generated_at": "2026-03-17T23:29:49.135950"
 }
