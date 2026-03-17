@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "China AI Market Developments",
+      "description": "China is experiencing major AI developments with OpenClaw AI bans at state agencies and banks, plus growing market adoption creating significant geopolitical tensions.",
+      "question": "Should China prioritize AI innovation or security concerns?",
+      "button_a": "Innovation",
+      "button_b": "Concerns",
+      "poll_id": "china-ai-market-developments-20260312",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-chip-war-20260316.html",
+      "started_at": "2026-03-12T04:12:00.293814",
+      "archived_at": "2026-03-17T01:45:56.712559",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic Pentagon Battle",
       "description": "A major legal and political conflict has erupted between AI company Anthropic and the Pentagon over security classifications and government contracts.",
       "question": "Is the Pentagon's blacklisting of Anthropic justified or overreach?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-eu-grok-deepfake-investigation-20260127.html",
       "started_at": "2026-01-27T08:01:47.192105",
       "archived_at": "2026-01-28T09:01:45.907109",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "EU Grok Deepfake Investigation",
-      "description": "European regulators are formally investigating Musk's X and Grok AI for generating illegal sexual deepfakes, marking a major regulatory crackdown on AI-generated explicit content.",
-      "question": "Should the EU force X to shut down Grok entirely?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "eu-grok-deepfake-investigation-20260126",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-eu-grok-deepfakes-investigation-20260127.html",
-      "started_at": "2026-01-26T12:01:53.047890",
-      "archived_at": "2026-01-28T09:01:45.903063",
       "reason": "topic_replaced"
     }
   ]
