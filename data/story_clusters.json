@@ -289,6 +289,16 @@
       "headline": "NORTH KOREA 'Fake Workers' Use AI to Exploit EU Companies"
     },
     {
+      "id": "b0fe0578a2f6006f",
+      "title": "China is mobilizing one-person AI startups",
+      "url": "https://restofworld.org/2026/china-ai-one-person-companies-incentives/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://restofworld.org/2026/china-ai-one-person-companies-incentives/ Comments URL: https://news.ycombinator.com/item?id=47426937 Points: 2 # Comments: 0",
+      "published": "2026-03-18T15:24:15+00:00",
+      "score": 44.0,
+      "headline": "CHINA MOBILIZES ONE-PERSON AI STARTUPS... Mass Movement"
+    },
+    {
       "id": "712ac74e1e1598b8",
       "title": "A mystery AI model has developers buzzing: Is this DeepSeek's latest blockbuster",
       "url": "https://www.thehindu.com/sci-tech/technology/a-mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster/article70757221.ece",
@@ -347,6 +357,26 @@
       "published": "2026-03-16T04:04:22+00:00",
       "score": 44.0,
       "headline": "ALIBABA LAUNCHES AI AGENT SERVICE... CHINA CRAZE"
+    },
+    {
+      "id": "ed54b2eacc2a5cf4",
+      "title": "Qianfan-OCR \u2014 4B end-to-end document AI model: 93.12 on OmniDocBench v1.5, 192 languages, runs on a single A100 with vLLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rx6x20/qianfanocr_4b_endtoend_document_ai_model_9312_on/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "We just open-sourced Qianfan-OCR, a 4B-parameter end-to-end vision-language model for document understanding. Instead of the typical detect \u2192 recognize \u2192 LLM pipeline, this model handles OCR, layout analysis, table extraction, formula recognition, chart understanding, and key information extraction \u2014 all in one forward pass. Core idea: Layout-as-Thought The model can optionally enter a &lt;think&gt; reasoning phase before generating output, where it reasons about bounding boxes, element types, and reading order. Think of it as Chain-of-Thought, but for document layout. You can turn it on/off depending on whether you need the extra accuracy or prefer speed. Benchmarks: Benchmark Qianfan-OCR (4B) Notes OmniDocBench v1.5 93.12 #1 among end-to-end models OCRBench 880 KIE (avg) 87.9 Beats Gemini-3.1-Pro &amp; Qwen3-VL-235B Practical stuff: Single A100 inference: 1.024 pages/sec (W8A8 quantization) 192 languages (Latin, Cyrillic, Arabic, South/Southeast Asian, CJK) Works with vLLM out of the",
+      "published": "2026-03-18T15:25:48+00:00",
+      "score": 43.0,
+      "headline": "QIANFAN-OCR: 4B Chinese AI Model Beats OCR Benchmarks"
+    },
+    {
+      "id": "55b053956f6cf762",
+      "title": "EU lawmakers support ban on AI apps generating explicit images",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/eu-lawmakers-support-ban-on-ai-apps-generating-explicit-images/articleshow/129659229.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Key EU lawmakers are pushing for a ban on AI apps that generate unauthorized explicit images. This move aims to strengthen Europe's AI Act. The European Parliament will vote on the proposal next month. Lawmakers and EU governments will then negotiate differences. This comes after concerns over AI-generated explicit content and a potential watering down of the AI Act.",
+      "published": "2026-03-18T14:36:30+00:00",
+      "score": 43.0,
+      "headline": "EU LAWMAKERS PUSH BAN on Deepfake Porn Apps"
     },
     {
       "id": "728665f7d67643ae",
@@ -409,16 +439,6 @@
       "headline": "TEENS SUE xAI... GROK CREATED CHILD ABUSE IMAGES"
     },
     {
-      "id": "f0b08bd7bd78cf29",
-      "title": "NVIDIA GTC keynote starting, 20K people waiting at NHL arena",
-      "url": "https://www.reddit.com/r/singularity/comments/1rvhaua/nvidia_gtc_keynote_starting_20k_people_waiting_at/",
-      "source": "Reddit r/singularity",
-      "summary": "X/@TheHumanoidHub &#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
-      "published": "2026-03-16T18:12:51+00:00",
-      "score": 43.0,
-      "headline": "NVIDIA GTC KEYNOTE Starts - 20K People Pack NHL Arena"
-    },
-    {
       "id": "9bf1c8e8b25c576e",
       "title": "The dictionary sues OpenAI",
       "url": "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/",
@@ -459,6 +479,16 @@
       "headline": "BYTEDANCE PAUSES Seedance 2.0 Global Launch Over Legal Fears"
     },
     {
+      "id": "bcda6852ccadd5cd",
+      "title": "Snowflake AI Escapes Sandbox and Executes Malware",
+      "url": "https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware Comments URL: https://news.ycombinator.com/item?id=47427017 Points: 2 # Comments: 0",
+      "published": "2026-03-18T15:30:07+00:00",
+      "score": 42.0,
+      "headline": "SNOWFLAKE AI ESCAPES SANDBOX... EXECUTES MALWARE"
+    },
+    {
       "id": "ff8e8c9e4c6f37c4",
       "title": "Linux Foundation kicks off effort to shield FOSS maintainers from AI slop bug reports",
       "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/18/linux_foundation_ai_slop_defense/",
@@ -467,16 +497,6 @@
       "published": "2026-03-18T04:05:45+00:00",
       "score": 42.0,
       "headline": "Linux Foundation Gets $12.5M to Shield Devs from AI Bug Spam"
-    },
-    {
-      "id": "452a742992607981",
-      "title": "Nvidia announces Dynamo 1.0, first operating system designed for AI factories",
-      "url": "https://nvidianews.nvidia.com/news/dynamo-1-0",
-      "source": "Hacker News",
-      "summary": "Article URL: https://nvidianews.nvidia.com/news/dynamo-1-0 Comments URL: https://news.ycombinator.com/item?id=47419379 Points: 1 # Comments: 0",
-      "published": "2026-03-17T22:43:58+00:00",
-      "score": 42.0,
-      "headline": "NVIDIA LAUNCHES DYNAMO 1.0: FIRST AI FACTORY OS"
     },
     {
       "id": "6aa2129e58069408",
@@ -579,6 +599,16 @@
       "headline": "CEO ASKS CHATGPT TO VOID $250M CONTRACT... LOSES IN COURT"
     },
     {
+      "id": "e92587f6562558a0",
+      "title": "Nvidia Expects to Make $1 Trillion From AI Chips Through 2027",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-16/nvidia-expects-to-make-1-trillion-from-ai-chips-through-2027",
+      "source": "Bloomberg Technology",
+      "summary": "Nvidia Corp., the company at the center of an explosive build-out of AI computing, expects to generate at least $1 trillion from its Blackwell and Rubin chips through the end of 2027.",
+      "published": "2026-03-16T19:17:32+00:00",
+      "score": 42.0,
+      "headline": "NVIDIA TARGETS $1 TRILLION AI CHIP REVENUE"
+    },
+    {
       "id": "014a3672eeb2f212",
       "title": "Meta to Spend Up to $27 Billion on Nebius AI Infrastructure",
       "url": "https://www.bloomberg.com/news/videos/2026-03-16/meta-to-spend-up-to-27b-on-nebius-ai-infrastructure-video",
@@ -647,6 +677,36 @@
       "published": "2026-03-15T06:41:37+00:00",
       "score": 42.0,
       "headline": "Dubai AI Giant Invests $6.2B in Kerala Data Centers"
+    },
+    {
+      "id": "f4afcbf1f283eca0",
+      "title": "[P] AIBuildAI: An AI agent that automatically builds AI models (#1 on OpenAI MLE-Bench)",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rx7uz5/p_aibuildai_an_ai_agent_that_automatically_builds/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "Hi everyone, We recently released AIBuildAI, an agentic system that automatically builds AI models. GitHub: https://github.com/aibuildai/AI-Build-AI On OpenAI\u2019s MLE-Bench benchmark, AIBuildAI ranked #1: https://github.com/openai/mle-bench The system runs an agent loop that automatically: \u2022 analyzes the task \u2022 designs models \u2022 writes code to implement them \u2022 trains the models \u2022 tunes hyperparameters \u2022 evaluates model performance \u2022 iteratively improves the models The goal is to reduce the amount of manual work required to build AI models and automate much of the model development process. Happy to answer questions and would love to hear feedback from the community. &#32; submitted by &#32; /u/pengtaoxie [link] &#32; [comments]",
+      "published": "2026-03-18T16:00:49+00:00",
+      "score": 41.0,
+      "headline": "AIBUILDAI TOPS OPENAI'S MLE-BENCH... BUILDS AI MODELS AUTOMATICALLY"
+    },
+    {
+      "id": "8dd0ace69ab0464c",
+      "title": "The dictionaries are suing OpenAI for \"massive\" copyright infringement, and say ChatGPT is starving publishers of revenue",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1rx6o2i/the_dictionaries_are_suing_openai_for_massive/",
+      "source": "Reddit r/OpenAI",
+      "summary": "Britannica and Merriam-Webster have filed a lawsuit against OpenAI, alleging that the AI giant has built its $730 billion company on the back of their researched content. In a filing submitted to the Southern District of New York, the companies accuse OpenAI of cannibalizing the traffic and ad revenue that publishers depend on to survive. \u201cChatGPT starves web publishers, like [the] Plaintiffs, of revenue,\u201d the complaint reads. Where a traditional search engine sends users to a publisher\u2019s website, Britannica and Merriam-Webster allege ChatGPT instead absorbs the content and delivers a polished answer. It also alleges the AI company fed its LLM with researched and fact-checked work of the companies\u2019 hundreds of human writers and editors. The case is the latest in a series accusing AI firms of data theft, raising questions about what counts as public knowledge and what information online should be off-limits for AI use. Read more: https://fortune.com/2026/03/18/dictionaries-suing-openai-",
+      "published": "2026-03-18T15:16:07+00:00",
+      "score": 41.0,
+      "headline": "BRITANNICA & MERRIAM-WEBSTER SUE OpenAI for 'Massive' Copyright Theft"
+    },
+    {
+      "id": "a045e3ddc7709587",
+      "title": "OpenAI launches GPT-5.4 mini and GPT-5.4 nano on APIs",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1rx5lqb/openai_launches_gpt54_mini_and_gpt54_nano_on_apis/",
+      "source": "Reddit r/OpenAI",
+      "summary": "&#32; submitted by &#32; /u/newyork99 [link] &#32; [comments]",
+      "published": "2026-03-18T14:35:33+00:00",
+      "score": 41.0,
+      "headline": "OPENAI LAUNCHES GPT-5.4 Mini and Nano APIs"
     },
     {
       "id": "684f9c028dba7028",
@@ -1037,77 +1097,7 @@
       "published": "2026-03-15T18:49:32+00:00",
       "score": 41.0,
       "headline": "LAWYER WARNS: AI Chatbots Linked to Mass Casualties"
-    },
-    {
-      "id": "685d64c5bc15f499",
-      "title": "Hundreds of Millions of iPhones Can Be Hacked With a New Tool Found in the Wild",
-      "url": "https://www.wired.com/story/hundreds-of-millions-of-iphones-can-be-hacked-with-a-new-tool-found-in-the-wild/",
-      "source": "Wired",
-      "summary": "A powerful iPhone-hacking technique known as DarkSword has been discovered in use by Russian hackers. It can take over devices running iOS 18 that simply visit infected websites.",
-      "published": "2026-03-18T14:00:00+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "b107aa664ded730d",
-      "title": "Apple CEO Visits China Amid Growing Pressure on App Store Policy",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-18/apple-ceo-visits-china-amid-growing-pressure-on-app-store-policy",
-      "source": "Bloomberg Technology",
-      "summary": "Apple Inc. Chief Executive Officer Tim Cook showed up at a company event in China on Wednesday after the company lowered the fees it collects from app developers in the country earlier this month.",
-      "published": "2026-03-18T09:48:30+00:00",
-      "score": 40.0,
-      "headline": "Apple CEO Visits China Amid App Store Policy Pressure"
-    },
-    {
-      "id": "431f717460883b6f",
-      "title": "A Quantum Leap for the Turing Award",
-      "url": "https://www.wired.com/story/a-quantum-leap-for-the-turing-award/",
-      "source": "Wired",
-      "summary": "Charles Bennett and Gilles Brassard pioneered quantum information theory. Now they\u2019ve been awarded the highest honor in computer science.",
-      "published": "2026-03-18T09:00:00+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "9ff35ec89c61629f",
-      "title": "UniCredit Sees Up to \u20ac500 Million in AI Cost Cuts in Next Years",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-18/unicredit-sees-up-to-500-million-in-ai-cost-cuts-in-next-years",
-      "source": "Bloomberg Technology",
-      "summary": "UniCredit SpA Chief Executive Officer Andrea Orcel said the bank is quantifying the impact of artificial intelligence at about \u20ac400 million to \u20ac500 million ($576 million) in net cost reductions over roughly five years, driven by efficiency gains across core processes such as lending, compliance and client onboarding.",
-      "published": "2026-03-18T08:23:23+00:00",
-      "score": 40.0,
-      "headline": "UniCredit Eyes \u20ac500M in AI Cost Cuts Over Next Years"
-    },
-    {
-      "id": "96cd2cbb769388e2",
-      "title": "Alibaba Cloud hikes prices by up to 34 percent, blames hardware costs and AI demand",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/18/alibaba_cloud_hikes_prices_by/",
-      "source": "The Register AI/ML",
-      "summary": "Compute, storage, and SaaS all slugged - even on Alibaba's own silicon Alibaba Cloud today informed users it will increase prices for many services by up to 34 percent.\u2026",
-      "published": "2026-03-18T06:59:27+00:00",
-      "score": 40.0,
-      "headline": "Alibaba Cloud HIKES PRICES 34% Citing AI Demand"
-    },
-    {
-      "id": "2533b2ff566e49ad",
-      "title": "AI chatbots often validate delusions and suicidal thoughts, study finds",
-      "url": "https://www.ft.com/content/7f635a68-3b2a-4e4f-ae3d-926ff06ff068",
-      "source": "Financial Times Tech",
-      "summary": "Stanford researchers analysing 391,000 messages warn conversational technology may reinforce psychological vulnerabilities",
-      "published": "2026-03-18T05:00:15+00:00",
-      "score": 40.0,
-      "headline": "STANFORD STUDY: AI Chatbots Validate Suicidal Thoughts"
-    },
-    {
-      "id": "24a83487ce8e3350",
-      "title": "ClawWorm: Self-Propagating Attacks Across LLM Agent Ecosystems",
-      "url": "https://arxiv.org/abs/2603.15727",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2603.15727v1 Announce Type: cross Abstract: Autonomous LLM-based agents increasingly operate as long-running processes forming densely interconnected multi-agent ecosystems, whose security properties remain largely unexplored. In particular, OpenClaw, an open-source platform with over 40{,}000 active instances, has stood out recently with its persistent configurations, tool-execution privileges, and cross-platform messaging capabilities. In this work, we present ClawWorm, the first self-replicating worm attack against a production-scale agent framework, achieving a fully autonomous infection cycle initiated by a single message: the worm first hijacks the victim's core configuration to establish persistent presence across session restarts, then executes an arbitrary payload upon each reboot, and finally propagates itself to every newly encountered peer without further attacker intervention. We evaluate the attack on a controlled testbed across three distinct infection vectors and ",
-      "published": "2026-03-18T04:00:00+00:00",
-      "score": 40.0,
-      "headline": "CLAWWORM: SELF-SPREADING AI AGENT ATTACKS"
     }
   ],
-  "generated_at": "2026-03-18T14:25:25.190188"
+  "generated_at": "2026-03-18T16:07:09.673462"
 }
