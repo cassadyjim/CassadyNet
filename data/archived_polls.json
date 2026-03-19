@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "US Government AI Security Crackdown",
+      "description": "Pentagon and US agencies moving aggressively to restrict AI companies like Anthropic from defense contracts over national security concerns.",
+      "question": "Should AI companies accept military contracts without usage restrictions?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "us-government-ai-security-crackdown-20260318",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-us-government-ai-security-crackdown-20260319.html",
+      "started_at": "2026-03-18T22:30:21.984451",
+      "archived_at": "2026-03-19T23:26:35.963880",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China AI Boom",
       "description": "China's AI companies are experiencing explosive growth and competition while facing geopolitical tensions with the US and EU over technology access.",
       "question": "Will US tech restrictions ultimately strengthen or weaken China's AI sector?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-india-ai-content-regulation-20260212.html",
       "started_at": "2026-02-11T12:01:50.692273",
       "archived_at": "2026-02-12T13:01:51.419237",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Integration & Tools",
-      "description": "Companies are rapidly integrating AI into business operations and launching new AI-powered platforms across industries.",
-      "question": "",
-      "button_a": "NONE",
-      "button_b": "NONE",
-      "poll_id": "ai-integration-tools-20260210",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-integration-tools-20260210.html",
-      "started_at": "2026-02-10T08:44:43.457681",
-      "archived_at": "2026-02-11T12:02:19.252128",
       "reason": "topic_replaced"
     }
   ]
