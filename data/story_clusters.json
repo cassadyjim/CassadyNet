@@ -209,6 +209,16 @@
   ],
   "unclustered": [
     {
+      "id": "3f5e2e24aba965dc",
+      "title": "China\u2019s AI Stocks Rise as Nvidia\u2019s Huang Calls OpenClaw 'the Next ChatGPT'",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-18/china-s-openclaw-stocks-rise-as-nvidia-calls-it-the-next-chatgpt",
+      "source": "Bloomberg Technology",
+      "summary": "Chinese shares related to OpenClaw jumped, buoyed by bullish comments from Nvidia Corp.\u2019s chief on the potential of artificial intelligence agents.",
+      "published": "2026-03-18T05:12:17+00:00",
+      "score": 47.0,
+      "headline": "NVIDIA'S HUANG CALLS OpenClaw 'Next ChatGPT' - Chinese AI Stocks Surge"
+    },
+    {
       "id": "015ec2b97f4cbed3",
       "title": "Essex police pause facial recognition camera use after study finds racial bias",
       "url": "https://www.theguardian.com/technology/2026/mar/19/essex-police-pause-facial-recognition-camera-use-study-racial-bias",
@@ -407,6 +417,16 @@
       "published": "2026-03-16T04:04:22+00:00",
       "score": 44.0,
       "headline": "ALIBABA LAUNCHES AI AGENT SERVICE... CHINA CRAZE"
+    },
+    {
+      "id": "0b26b384008ba0f1",
+      "title": "OpenAI: How we monitor internal coding agents for misalignment",
+      "url": "https://www.lesswrong.com/posts/syB2r2X4E7nmw58co/openai-how-we-monitor-internal-coding-agents-for",
+      "source": "LessWrong AI",
+      "summary": "Sharing some of the monitoring work I've been doing at OpenAI: How we monitor internal coding agents for misalignment.OpenAI now monitors 99.9% of internal coding traffic for signs of misalignment using our most powerful models. Today, that monitor is GPT-5.4 Thinking. It gets access to the full conversation context, that is everything the agent saw, and everything the agent did, including tool calls and CoT. Higher severity cases are sent for human review within 30 minutes. Some examples of misaligned behavior we\u2019ve found:- Encoding commands in base64 to circumvent monitors- Calling other versions of themselves to bypass restrictions- Attempting to upload files to the public internet- Trying to prompt inject users.We haven\u2019t yet detected any real world examples of sabotage, scheming or sandbagging.Our goal is to establish robust monitoring practices internally, strengthen them through iteration, and ultimately help make similar safeguards standard across the industry.Discuss",
+      "published": "2026-03-19T17:27:54+00:00",
+      "score": 43.0,
+      "headline": "OPENAI MONITORS 99.9% of Internal Code for AI REBELLION"
     },
     {
       "id": "05e00ade15d4b0f4",
@@ -1009,6 +1029,16 @@
       "headline": "US STARTUP HIRES 'AI BULLY' to Break Chatbots"
     },
     {
+      "id": "c0eeb1f9eef6b015",
+      "title": "How we monitor internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "source": "OpenAI Blog",
+      "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents\u2014analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
+      "published": "2026-03-19T10:00:00+00:00",
+      "score": 41.0,
+      "headline": "OPENAI Reveals Internal AI Monitoring System"
+    },
+    {
       "id": "595effc57c597626",
       "title": "As OpenClaw enthusiasm grips China, schoolkids and retirees alike raise 'lobsters'",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/as-openclaw-enthusiasm-grips-china-schoolkids-and-retirees-alike-raise-lobsters/articleshow/129676118.cms",
@@ -1017,27 +1047,7 @@
       "published": "2026-03-19T09:44:43+00:00",
       "score": 41.0,
       "headline": "CHINA'S OpenClaw Craze: Kids and Retirees Raise AI Lobsters"
-    },
-    {
-      "id": "43af34d0461cd2f5",
-      "title": "Alibaba\u2019s 67% Profit Plunge Shows Urgent Need to Monetize AI",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-19/alibaba-revenue-disappoints-as-ai-profit-push-grows-urgent",
-      "source": "Bloomberg Technology",
-      "summary": "Alibaba Group Holding Ltd.\u2019s earnings plunged while revenue barely grew, underscoring the urgency behind the Chinese e-commerce leader\u2019s drive to wring more profits out of a swathe of costly AI endeavors.",
-      "published": "2026-03-19T09:41:40+00:00",
-      "score": 41.0,
-      "headline": "ALIBABA Profit PLUNGES 67%... Urgent Need to Monetize AI"
-    },
-    {
-      "id": "d1ecdbd3a972e8fa",
-      "title": "Jensen Huang just painted the most bold image of AI\u2019s future: 7.5 million agents, 75,000 humans\u2014100 AI workers for every person",
-      "url": "https://fortune.com/2026/03/19/jensen-huang-nvidia-ai-agents-future-of-work-autonomous/",
-      "source": "Fortune Tech",
-      "summary": "The Nvidia CEO said AI agents would work around the clock so human workers don\u2019t have to keep up with them.",
-      "published": "2026-03-19T07:31:00+00:00",
-      "score": 41.0,
-      "headline": "JENSEN HUANG: 100 AI WORKERS FOR EVERY HUMAN... 7.5M AGENTS COMING"
     }
   ],
-  "generated_at": "2026-03-19T16:54:32.548904"
+  "generated_at": "2026-03-19T17:51:36.092260"
 }
