@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "NVIDIA China Chip Sales",
+      "description": "NVIDIA is ramping up AI chip production and sales to China despite trade tensions and export restrictions.",
+      "question": "Should the US allow NVIDIA to sell AI chips to China?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "nvidia-china-chip-sales-20260319",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-nvidia-china-ai-chip-sales-20260320.html",
+      "started_at": "2026-03-19T04:21:53.138871",
+      "archived_at": "2026-03-21T01:27:54.049139",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "US Government AI Security Crackdown",
       "description": "Pentagon and US agencies moving aggressively to restrict AI companies like Anthropic from defense contracts over national security concerns.",
       "question": "Should AI companies accept military contracts without usage restrictions?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-xai-mass-exodus-20260212.html",
       "started_at": "2026-02-11T12:02:09.154656",
       "archived_at": "2026-02-12T13:01:51.425084",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "India AI Content Regulation",
-      "description": "India is implementing aggressive new AI content policies requiring social media platforms to remove deepfakes and AI-generated content within 2-3 hours.",
-      "question": "Are India's 2-3 hour AI content takedown requirements realistic for platforms?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "india-ai-content-regulation-20260211",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-india-ai-content-regulation-20260212.html",
-      "started_at": "2026-02-11T12:01:50.692273",
-      "archived_at": "2026-02-12T13:01:51.419237",
       "reason": "topic_replaced"
     }
   ]
