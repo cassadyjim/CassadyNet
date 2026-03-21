@@ -1,81 +1,6 @@
 {
   "polls": [
     {
-      "topic": "Pentagon-Anthropic Security Conflict",
-      "description": "Major security and trust crisis as Pentagon blocks and labels Anthropic as unacceptable risk for military AI projects.",
-      "question": "Should AI companies be required to allow unrestricted military use?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "pentagon-anthropic-security-conflict-20260320",
-      "analysis_url": "/analysis/analysis-pentagon-anthropic-security-conflict-20260321.html",
-      "analysis_type": "poll",
-      "created_at": "2026-03-20T08:37:24.675716",
-      "last_seen": "2026-03-21T08:27:25.789776",
-      "cluster_stories": [
-        {
-          "id": "3fe0be12a917cf90",
-          "title": "Defense Department says Anthropic poses 'unacceptable risk' to national security",
-          "url": "https://www.engadget.com/ai/defense-department-says-anthropic-poses-unacceptable-risk-to-national-security-094328717.html?src=rss",
-          "source": "Engadget",
-          "summary": "The Department of Defense said giving Anthropic continued access to its warfighting infrastructure would \u201cintroduce unacceptable risk\u201d to its supply chains in a court filing submitted in response to the AI company\u2019s lawsuit. If you\u2019ll recall, Anthropic sued the government to challenge the supply chain risk designation it received for refusing to allow its model to be used for mass surveillance and the development of autonomous weapons. In its filing, the department explained that its secretary, Pete Hegseth, had a provision incorporated into AI service contracts, allowing the agency to use their technologies for any lawful purpose. Anthropic refused its terms and apparently, the company\u2019s behavior caused the Pentagon to question whether it truly is a \u201ctrusted partner\u201d it was willing to work with when it comes to \u201chighly sensitive\u201d initiatives. \u201cAfter all, AI systems are acutely vulnerable to manipulation, and Anthropic could attempt to disable its technology or preemptively alter the b",
-          "published": "2026-03-18T09:43:28+00:00",
-          "score": 46.0,
-          "headline": "PENTAGON BLOCKS ANTHROPIC... 'UNACCEPTABLE RISK'"
-        },
-        {
-          "id": "92fb8ad35a9ff7fa",
-          "title": "Trump administration defends Anthropic blacklisting in US court",
-          "url": "https://economictimes.indiatimes.com/tech/tech-bytes/trump-administration-defends-anthropic-blacklisting-in-us-court/articleshow/129645468.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Defense Secretary Pete Hegseth designated Anthropic, the maker of popular AI assistant Claude, a national security supply chain risk on March 3 after the company refused to remove guardrails \u200cagainst its \u2060technology being \u2060used for autonomous weapons or domestic surveillance.",
-          "published": "2026-03-18T02:16:55+00:00",
-          "score": 46.0,
-          "headline": "TRUMP ADMINISTRATION Defends Anthropic Blacklisting in Court"
-        },
-        {
-          "id": "922eb829dde7ebf7",
-          "title": "DOD says Anthropic\u2019s \u2018red lines\u2019 make it an \u2018unacceptable risk to national security\u2019",
-          "url": "https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/",
-          "source": "TechCrunch AI",
-          "summary": "The Defense Department said concerns that Anthropic might \"attempt to disable its technology\" during \"warfighting operations\" validate its decision to label the AI firm a supply chain risk.",
-          "published": "2026-03-18T13:40:43+00:00",
-          "score": 44.0,
-          "headline": "DOD LABELS ANTHROPIC 'NATIONAL SECURITY RISK'"
-        },
-        {
-          "id": "a842f44a17246d32",
-          "title": "Justice Department Says Anthropic Can\u2019t Be Trusted With Warfighting Systems",
-          "url": "https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/",
-          "source": "Wired",
-          "summary": "In response to Anthropic\u2019s lawsuit, the government said it lawfully penalized the company for trying to limit how its Claude AI models could be used by the military.",
-          "published": "2026-03-18T00:51:14+00:00",
-          "score": 44.0,
-          "headline": "DOJ: ANTHROPIC Can't Be Trusted With Military AI"
-        },
-        {
-          "id": "c7399101854a95da",
-          "title": "Pentagon Moving to Replace Anthropic Amid AI Feud, Official Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-03-17/pentagon-moving-to-replace-anthropic-amid-ai-feud-official-says",
-          "source": "Bloomberg Technology",
-          "summary": "The Pentagon is working to develop alternatives to Anthropic PBC\u2019s artificial intelligence tools, according to a senior US defense official, following a Trump administration decision to declare the company a supply-chain risk in a feud over safeguards governing military use of the technology.",
-          "published": "2026-03-17T15:57:59+00:00",
-          "score": 44.0,
-          "headline": "PENTAGON DUMPS ANTHROPIC... Seeks AI Alternatives"
-        },
-        {
-          "id": "ae622c83a4b4acc4",
-          "title": "The Pentagon is making plans for AI companies to train on classified data, defense official says",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1rx3m4n/the_pentagon_is_making_plans_for_ai_companies_to/",
-          "source": "Reddit r/OpenAI",
-          "summary": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned. AI models like Anthropic\u2019s Claude are already used to answer questions in classified settings; applications include analyzing targets in Iran. But allowing models to train on and learn from classified data would be a new development that presents unique security risks. It would mean sensitive intelligence like surveillance reports or battlefield assessments could become embedded into the models themselves, and it would bring AI firms into closer contact with classified data than before. Training versions of AI models on classified data is expected to make them more accurate and effective in certain tasks, according to a US defense official who spoke on background with MIT Technology Review. The news comes as demand for more powerful models is high: The Pentagon has reached agreements with Op",
-          "published": "2026-03-18T13:16:33+00:00",
-          "score": 43.0,
-          "headline": "PENTAGON PLANS AI TRAINING ON CLASSIFIED DATA"
-        }
-      ],
-      "current_topic_name": "Pentagon-Anthropic Security Conflict"
-    },
-    {
       "topic": "China AI Chip Smuggling",
       "description": "Multiple cases of illegal export of AI chips and technology to China despite trade restrictions, involving billions in smuggled hardware.",
       "question": "Are current AI chip export controls working or failing?",
@@ -85,7 +10,7 @@
       "analysis_url": "/analysis/analysis-china-ai-chip-smuggling-20260321.html",
       "analysis_type": "poll",
       "created_at": "2026-03-21T01:27:48.329958",
-      "last_seen": "2026-03-21T08:27:27.028447",
+      "last_seen": "2026-03-21T09:28:16.091041",
       "cluster_stories": [
         {
           "id": "32eea139218ab64c",
@@ -156,21 +81,21 @@
           "published": "2026-03-20T10:52:53+00:00",
           "score": 43.0,
           "headline": "SUPERMICRO CO-FOUNDER ARRESTED: $2.5B GPU China Smuggling"
-        },
-        {
-          "id": "f95f7e5409f6fd0b",
-          "title": "Supermicro co-founder charged in conspiracy to export Nvidia chips to China",
-          "url": "https://www.ft.com/content/d605ebac-bfae-4cec-a7d9-8696f2a5d748",
-          "source": "Financial Times Tech",
-          "summary": "US prosecutors allege two employees and a contractor smuggled servers through south-east Asia",
-          "published": "2026-03-20T00:43:18+00:00",
-          "score": 43.0,
-          "headline": "SUPERMICRO Co-Founder CHARGED... Smuggled Nvidia Chips to China"
         }
       ],
       "pending_archive": true,
       "current_topic_name": "China AI Chip Smuggling"
+    },
+    {
+      "topic": "AI Chip Smuggling to China",
+      "description": "Major criminal charges against tech executives for illegally exporting billions in AI chips to China despite trade restrictions.",
+      "question": "",
+      "poll_id": "",
+      "analysis_url": "",
+      "analysis_type": "poll",
+      "created_at": "2026-03-21T09:28:17.502305",
+      "last_seen": "2026-03-21T09:28:17.502313"
     }
   ],
-  "last_updated": "2026-03-21T08:27:27.028461"
+  "last_updated": "2026-03-21T09:28:18.020075"
 }
