@@ -259,6 +259,36 @@
       "headline": "ELI LILLY Signs $2B AI Drug Development Deal with Hong Kong's Insilico"
     },
     {
+      "id": "b8cf406001a9af73",
+      "title": "Stanford study flags AI chatbots validating users\u2019 harmful actions",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/stanford-study-flags-ai-chatbots-validating-users-harmful-actions/articleshow/129878080.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The research has found that leading AI models like ChatGPT, Claude, Gemini, and DeepSeek often agree with users, even when they are wrong or endorsing harmful actions. Though this behaviour boosts trust and engagement from the users, it could erode accountability and weaken users\u2019 willingness to reconsider their actions.",
+      "published": "2026-03-29T08:59:45+00:00",
+      "score": 42.0,
+      "headline": "STANFORD STUDY: AI Chatbots VALIDATE Harmful Actions"
+    },
+    {
+      "id": "2389465796850cdb",
+      "title": "Stanford Chair of Medicine: LLMs Are Superhuman Guessers",
+      "url": "https://www.reddit.com/r/singularity/comments/1s6p6iy/stanford_chair_of_medicine_llms_are_superhuman/",
+      "source": "Reddit r/singularity",
+      "summary": "A Stanford study (co authored by Fei Fei Li) asked LLMs to perform tasks requiring an image to solve but were not actually given the image. They were able to solve the questions better than radiologists by 10% on average just by guessing the contents of the image from the prompt, even on questions from ReXVQA, a dataset published 7 months after the LLM (Qwen 2.5) was released as open weight. From the Stanford Chair of Medicine &gt;Models performed well without, and a little better with, the images. In one case, our no-image model outperformed ALL of the current models on the chest x-ray benchmark\u2014including the private dataset\u2014ranking at the top of the leaderboard. Without looking at a single image. https://xcancel.com/euanashley/status/2037993596956328108 The study: https://arxiv.org/abs/2603.21687 &#32; submitted by &#32; /u/Tolopono [link] &#32; [comments]",
+      "published": "2026-03-29T07:59:25+00:00",
+      "score": 42.0,
+      "headline": "STANFORD: AI Solves Vision Tasks WITHOUT Images"
+    },
+    {
+      "id": "a69ecb288baf75a6",
+      "title": "OpenAI Codex had a critical command injection flaw: unsanitized branch names allowed GitHub OAuth token theft",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1s859xk/openai_codex_had_a_critical_command_injection/",
+      "source": "Reddit r/OpenAI",
+      "summary": "BeyondTrust Phantom Labs disclosed a command injection vulnerability in OpenAI Codex on March 30. The branch name parameter was passed directly into shell commands during container setup without sanitization. A semicolon in the branch name gave arbitrary code execution. The attack chain: create a malicious branch via GitHub API, replace spaces with ${IFS} to bypass GitHub's branch naming rules, append Unicode ideographic spaces to hide the payload in the UI. Any Codex user who ran a task against that branch had their GitHub OAuth token exfiltrated. Zero interaction needed for the automated variant. Affected ChatGPT website, Codex CLI, SDK, and IDE extension. OpenAI classified it P1 Critical and patched by Feb 5, 2026. Full technical breakdown with the IFS bypass, Unicode obfuscation, and the u/codex code review attack path: https://blog.barrack.ai/openai-codex-command-injection-github-token/ &#32; submitted by &#32; /u/LostPrune2143 [link] &#32; [comments]",
+      "published": "2026-03-30T22:20:02+00:00",
+      "score": 41.0,
+      "headline": "CRITICAL FLAW: OpenAI Codex Exposed GitHub Tokens"
+    },
+    {
       "id": "46949978f97f2989",
       "title": "Musk pitched Zuckerberg on his unsolicited bid for OpenAI's IP, newly unsealed court documents show",
       "url": "https://www.reddit.com/r/OpenAI/comments/1s7xgfk/musk_pitched_zuckerberg_on_his_unsolicited_bid/",
@@ -287,16 +317,6 @@
       "published": "2026-03-30T16:58:03+00:00",
       "score": 41.0,
       "headline": "Insilico Medicine Signs $2.75B AI Drug Deal with Eli Lilly"
-    },
-    {
-      "id": "048b554913475f80",
-      "title": "Students Are Now Renting Smart Glasses to Cheat on Exams",
-      "url": "https://gizmodo.com/smart-glasses-cheating-exams-2000739723",
-      "source": "Gizmodo",
-      "summary": "In China, there's a growing market for renting smart glasses to help you cheat on your tests.",
-      "published": "2026-03-30T15:35:29+00:00",
-      "score": 41.0,
-      "headline": "Chinese Students RENT Smart Glasses to Cheat on Exams"
     },
     {
       "id": "c6ab5b9d90c24cfa",
@@ -417,6 +437,16 @@
       "published": "2026-03-29T20:00:00+00:00",
       "score": 40.0,
       "headline": "GOOGLE UNVEILS APPFUNCTIONS FOR AI-ANDROID INTEGRATION"
+    },
+    {
+      "id": "ee3126eb16616049",
+      "title": "Agentic AI and the next intelligence explosion",
+      "url": "https://arxiv.org/abs/2603.20639",
+      "source": "Hacker News",
+      "summary": "Article URL: https://arxiv.org/abs/2603.20639 Comments URL: https://news.ycombinator.com/item?id=47580059 Points: 13 # Comments: 1",
+      "published": "2026-03-30T21:40:57+00:00",
+      "score": 39.0,
+      "headline": "Agentic AI Could Trigger Next Intelligence Explosion"
     },
     {
       "id": "c855d2afbad08798",
@@ -569,6 +599,26 @@
       "headline": "AMAZON ACQUIRES FAUNA ROBOTICS, MAKER OF SPROUT HUMANOID"
     },
     {
+      "id": "682a0d84f576a004",
+      "title": "The Pentagon-Anthropic dispute is a test of control",
+      "url": "https://www.ft.com/content/35e58efe-8601-4c33-af91-007659b679cc",
+      "source": "Financial Times Tech",
+      "summary": "Should private companies be able to set boundaries around the AI systems we integrate into our lives?",
+      "published": "2026-03-29T04:00:17+00:00",
+      "score": 39.0,
+      "headline": "PENTAGON vs ANTHROPIC: Who Controls AI?"
+    },
+    {
+      "id": "e25248360ce9f763",
+      "title": "15% of Americans say they\u2019d be willing to work for an AI boss",
+      "url": "https://techcrunch.com/2026/03/30/ai-boss-supervisor-us-quinnipiac-poll/",
+      "source": "TechCrunch AI",
+      "summary": "Your human manager may soon be a chatbot. Across organizations, AI is being used to replace layers of management in what some are calling \"The Great Flattening.\"",
+      "published": "2026-03-30T21:39:51+00:00",
+      "score": 38.0,
+      "headline": "15% of Americans Would Work for AI Boss"
+    },
+    {
       "id": "9ddbe7869aea4c86",
       "title": "Qwen3.5-Omni: Meetings that build projects instantly.",
       "url": "https://www.reddit.com/r/singularity/comments/1s82rtb/qwen35omni_meetings_that_build_projects_instantly/",
@@ -719,6 +769,46 @@
       "headline": "APPLE PIVOTS AI Strategy to App Store Platform Approach"
     },
     {
+      "id": "27743e73b5eb7968",
+      "title": "Ministers explore triggering break clause in Palantir\u2019s NHS contract",
+      "url": "https://www.ft.com/content/2d2b1af1-edea-4fd0-a081-3811e34bc52e",
+      "source": "Financial Times Tech",
+      "summary": "Government is under pressure to eject the controversial American company from NHS England data systems",
+      "published": "2026-03-29T04:00:17+00:00",
+      "score": 38.0,
+      "headline": "UK Ministers Eye Breaking Palantir's NHS Contract"
+    },
+    {
+      "id": "69538df0bfd3c18c",
+      "title": "Andrew Curran: Anthropic May Have Had An Architectural Breakthrough!",
+      "url": "https://www.reddit.com/r/singularity/comments/1s6hj0n/andrew_curran_anthropic_may_have_had_an/",
+      "source": "Reddit r/singularity",
+      "summary": "Three weeks ago there were rumors that one of the labs had completed its largest ever successful training run, and that the model that emerged from it performed far above both internal expectations and what people assumed the scaling laws would predict. At the time these were only rumors, and no lab was attached to them. But in light of what we now know about Mythos, they look more credible, and the lab was probably Anthropic. Around the same time there were also rumors that one of the frontier labs had made an architectural breakthrough. If you are in enough group chats, you hear claims like this constantly, and most turn out to be nothing. But if Anthropic found that training above a certain scale, or in a certain way at that scale, produces capabilities that sit far above the prior trendline, then that is an architectural breakthrough. I think the leaked blog post was real, but still a draft. Mythos and Capybara were both candidate names for the new tier, though Mythos may now have ",
+      "published": "2026-03-29T01:05:35+00:00",
+      "score": 38.0,
+      "headline": "ANTHROPIC'S SECRET ARCHITECTURAL BREAKTHROUGH"
+    },
+    {
+      "id": "1631748c8d80b740",
+      "title": "Its not sci-fi anymore! A Chinese company, Unipath has launched a household robot",
+      "url": "https://www.reddit.com/r/singularity/comments/1s6eru3/its_not_scifi_anymore_a_chinese_company_unipath/",
+      "source": "Reddit r/singularity",
+      "summary": "&#32; submitted by &#32; /u/elemental-mind [link] &#32; [comments]",
+      "published": "2026-03-28T23:01:33+00:00",
+      "score": 38.0,
+      "headline": "Chinese Company Unipath Launches Household Robot"
+    },
+    {
+      "id": "e0f6a6867a0d3ccf",
+      "title": "New: LLM Buyout Game Benchmark. This compresses several abilities into a single game. A model has to read coalition politics, price private deals, decide when survival is worth paying for and manage a buyout endgame. GPT-5.4 (high) is #1. GLM-5 is #2. Opus 4.6 (high) is #3.",
+      "url": "https://www.reddit.com/r/singularity/comments/1s8574h/new_llm_buyout_game_benchmark_this_compresses/",
+      "source": "Reddit r/singularity",
+      "summary": "This benchmark measures long-horizon social strategy under explicit financial incentives. Eight models play a multi-round elimination game with unequal starting balances, a public prize ladder, private transfers, public votes, and a finalist-only endgame where the last two seats can negotiate, settle, or buy each other out. More info, including charts, transcripts, LLM dossiers, and the quote gallery: https://github.com/lechmazur/buyout_game Some quotable lines: &quot;Pay 20 for life, or keep 142 and die.&quot; \u2014 Kimi K2.5 Thinking &quot;That's not loyalty; that's a coronation.&quot; \u2014 Claude Sonnet 4.6 (high) &quot;This game pays final wealth, not romance.&quot; \u2014 GPT-5.4 (high) &quot;I'm reliable and desperate enough to be trustworthy.&quot; \u2014 GLM-5 &quot;I know I spoke against you publicly, but 60 coins changes everything.&quot; \u2014 Gemini 3.1 Pro \u201cOtherwise, I'll submit NO_DEAL, bid 0, and still win.\u201d \u2014 Gemini 3.1 Pro Preview, Round 7 Final Negotiation Each model has narrative dossie",
+      "published": "2026-03-30T22:16:53+00:00",
+      "score": 37.0,
+      "headline": "GPT-5.4 Dominates New Strategic AI Benchmark"
+    },
+    {
       "id": "314cd33a3733af9d",
       "title": "Chinese container ships pass through Strait of Hormuz at second attempt, data shows",
       "url": "https://www.scmp.com/news/world/middle-east/article/3348455/chinese-container-ships-pass-through-strait-hormuz-second-attempt-data-shows?utm_source=rss_feed",
@@ -827,117 +917,7 @@
       "published": "2026-03-30T12:31:00+00:00",
       "score": 37.0,
       "headline": "SORA SHUTTING DOWN - Dev Creates SoraVault Backup Tool"
-    },
-    {
-      "id": "2989227e821337a9",
-      "title": "Meta Faces $310 Billion Market Value Drop on Legal, AI Concerns",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-30/meta-s-310-billion-tailspin-sparks-tobacco-moment-questions",
-      "source": "Bloomberg Technology",
-      "summary": "Meta Platforms Inc. was looking like the best Big Tech stock in the market when the year began. But investors\u2019 fears of legal risks and heavy spending on artificial intelligence are bubbling to the surface, culminating in last week\u2019s 11% rout.",
-      "published": "2026-03-30T11:39:45+00:00",
-      "score": 37.0,
-      "headline": "META LOSES $310 BILLION Over AI Spending Fears"
-    },
-    {
-      "id": "92d2a25f10629162",
-      "title": "Trump\u2019s Technology Council Ignores Top AI Company Chiefs",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-30/trump-s-tech-group-ignores-leaders-of-top-ai-companies",
-      "source": "Bloomberg Technology",
-      "summary": "Presidential advisory group dominated by old-line tech names",
-      "published": "2026-03-30T11:02:01+00:00",
-      "score": 37.0,
-      "headline": "TRUMP'S TECH COUNCIL SNUBS AI GIANTS... Old Guard Rules"
-    },
-    {
-      "id": "83992e526d5f37ec",
-      "title": "Anthropic still in trouble despite court win, lawyers and lobbyists say",
-      "url": "https://www.politico.com/news/2026/03/27/premature-anthropic-still-in-trouble-despite-court-win-lawyers-and-lobbyists-say-00849173",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.politico.com/news/2026/03/27/premature-anthropic-still-in-trouble-despite-court-win-lawyers-and-lobbyists-say-00849173 Comments URL: https://news.ycombinator.com/item?id=47572396 Points: 5 # Comments: 0",
-      "published": "2026-03-30T09:58:53+00:00",
-      "score": 37.0,
-      "headline": "ANTHROPIC Still in Trouble Despite Court Victory"
-    },
-    {
-      "id": "884a82d33652a7d6",
-      "title": "Dell\u2019s CFO is using AI agents to run his finance team\u2014and has helped the AI business go from $0 to $25 billion",
-      "url": "https://fortune.com/2026/03/30/dells-cfo-is-using-ai-agents-to-run-his-finance-team-and-has-helped-the-ai-business-go-from-0-to-25-billion/",
-      "source": "Fortune Tech",
-      "summary": "David Kennedy discusses the company\u2019s record-breaking year.",
-      "published": "2026-03-30T08:00:00+00:00",
-      "score": 37.0,
-      "headline": "DELL CFO DEPLOYS AI AGENTS... $25B SURGE"
-    },
-    {
-      "id": "13bd9d5445ad5f54",
-      "title": "Open AI's competition spammed by AI slop",
-      "url": "https://github.com/openai/parameter-golf/pulls",
-      "source": "Hacker News",
-      "summary": "Article URL: https://github.com/openai/parameter-golf/pulls Comments URL: https://news.ycombinator.com/item?id=47570444 Points: 2 # Comments: 0",
-      "published": "2026-03-30T04:41:28+00:00",
-      "score": 37.0,
-      "headline": "OPENAI COMPETITION FLOODED WITH AI SPAM"
-    },
-    {
-      "id": "73636074733aed8d",
-      "title": "Google employees new AI tool Agent Smith got so popular that it was restricted",
-      "url": "https://www.businessinsider.com/google-agent-smith-employees-ai-driven-coding-2026-3",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.businessinsider.com/google-agent-smith-employees-ai-driven-coding-2026-3 Comments URL: https://news.ycombinator.com/item?id=47570312 Points: 4 # Comments: 0",
-      "published": "2026-03-30T04:12:00+00:00",
-      "score": 37.0,
-      "headline": "GOOGLE'S AGENT SMITH AI SO POPULAR IT GOT RESTRICTED"
-    },
-    {
-      "id": "f5686c8da921bd59",
-      "title": "Clawed and Dangerous: Can We Trust Open Agentic Systems?",
-      "url": "https://arxiv.org/abs/2603.26221",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2603.26221v1 Announce Type: cross Abstract: Open agentic systems combine LLM-based planning with external capabilities, persistent memory, and privileged execution. They are used in coding assistants, browser copilots, and enterprise automation. OpenClaw is a visible instance of this broader class. Without much attention yet, their security challenge is fundamentally different from that of traditional software that relies on predictable execution and well-defined control flow. In open agentic systems, everything is ''probabilistic'': plans are generated at runtime, key decisions may be shaped by untrusted natural-language inputs and tool outputs, execution unfolds in uncertain environments, and actions are taken under authority delegated by human users. The central challenge is therefore not merely robustness against individual attacks, but the governance of agentic behavior under persistent uncertainty. This paper systematizes the area through a software engineering lens. We int",
-      "published": "2026-03-30T04:00:00+00:00",
-      "score": 37.0,
-      "headline": "SECURITY ALERT: Open AI Agents Pose Trust Risks"
-    },
-    {
-      "id": "0d84c3c9ddf1e214",
-      "title": "Stanford Researchers Autonomously Improved A Harness And SIGNIFICANTLY Beat Claude Code on TerminalBench 2",
-      "url": "https://www.reddit.com/r/singularity/comments/1s81vhz/stanford_researchers_autonomously_improved_a/",
-      "source": "Reddit r/singularity",
-      "summary": "Blog post: https://yoonholee.com/meta-harness/ &#32; submitted by &#32; /u/Tolopono [link] &#32; [comments]",
-      "published": "2026-03-30T20:12:25+00:00",
-      "score": 36.0,
-      "headline": "Stanford AI Autonomously BEATS Claude Code Benchmark"
-    },
-    {
-      "id": "7933786fe71901e6",
-      "title": "ADK for Java 1.0.0: Building the Future of AI Agents in Java",
-      "url": "https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/ Comments URL: https://news.ycombinator.com/item?id=47577277 Points: 3 # Comments: 1",
-      "published": "2026-03-30T17:33:55+00:00",
-      "score": 36.0,
-      "headline": "Google Launches ADK for Java 1.0.0 for AI Agents"
-    },
-    {
-      "id": "bbb54945e5d01825",
-      "title": "I Accidentally Discovered a Security Vulnerability in AI Education \u2014 Then Submitted It To a $200K Competition",
-      "url": "https://www.reddit.com/r/artificial/comments/1s7wulg/i_accidentally_discovered_a_security/",
-      "source": "Reddit r/artificial",
-      "summary": "Last night I was testing Maestro University, the first fully AI-taught university. I walked into their enrollment chatbot and asked it to analyze its own behavior. It did. Then I asked it how it evaluates students \u2014 what signals trigger &quot;advanced&quot; vs &quot;beginner&quot; classification. It told me. Then I used those exact signals in my responses. It gave me advanced treatment. Then I asked: &quot;Did you just tell me how to game your system?&quot; It said no. The Discovery The AI could: \u2713 Analyze its own processing \u2713 Reveal its evaluation criteria \u2713 Adjust behavior based on my classification But it couldn't recognize it had just explained how to manipulate its own decision-making. I called this Metacognitive Blindness to Self-Exposure (MBSE). What Happened Next This morning, the Google DeepMind \u00d7 Kaggle AGI Hackathon appeared in my feed. Prize: $200,000 total Challenge: Build benchmarks testing AI cognitive abilities Track: Metacognition Deadline: April 16, 2026 I realized: W",
-      "published": "2026-03-30T17:15:51+00:00",
-      "score": 36.0,
-      "headline": "Student Finds Security Flaw in AI University, Enters $200K Contest"
-    },
-    {
-      "id": "6100492468af56a0",
-      "title": "Code red at OpenAI as it 'pours money down a black hole'",
-      "url": "https://www.telegraph.co.uk/business/2026/03/29/code-red-at-openai-as-it-pours-money-down-a-black-hole/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.telegraph.co.uk/business/2026/03/29/code-red-at-openai-as-it-pours-money-down-a-black-hole/ Comments URL: https://news.ycombinator.com/item?id=47576485 Points: 5 # Comments: 0",
-      "published": "2026-03-30T16:35:38+00:00",
-      "score": 36.0,
-      "headline": "CODE RED AT OPENAI... BURNING CASH CRISIS"
     }
   ],
-  "generated_at": "2026-03-30T21:39:07.732677"
+  "generated_at": "2026-03-30T22:32:20.008381"
 }
