@@ -149,24 +149,34 @@
   ],
   "unclustered": [
     {
-      "id": "88cce5f5fe218534",
-      "title": "China announces its first automated manufacturing line capable of producing 10K humanoid robots per year - 1 robot every 30 minutes",
-      "url": "https://www.reddit.com/r/singularity/comments/1s79p8i/china_announces_its_first_automated_manufacturing/",
-      "source": "Reddit r/singularity",
-      "summary": "UBTECH, AgiBot, Unitree seem to be producing humanoid robots at similar output rates now. Starting today this one appears to be a new contender company which brand hasn\u2019t been disclosed by cctv or China pulss? &#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
-      "published": "2026-03-29T22:55:39+00:00",
-      "score": 45.0,
-      "headline": "CHINA LAUNCHES 10K HUMANOID ROBOT FACTORY"
+      "id": "e419c6f3e9e2947a",
+      "title": "Pro-AI group to spend $100mn on US midterm elections as backlash grows",
+      "url": "https://www.ft.com/content/6a3f1938-759d-4ae4-924e-6a0feac14e24",
+      "source": "Financial Times Tech",
+      "summary": "November 8 poll set to be battleground over regulation of AI",
+      "published": "2026-03-30T00:03:16+00:00",
+      "score": 41.0,
+      "headline": "PRO-AI GROUP SPENDS $100M ON MIDTERMS AS BACKLASH GROWS"
     },
     {
-      "id": "d0442a076785aa77",
-      "title": "vLLM CVE-2026-27893, `--trust-remote-code=False` is silently ignored for Nemotron-VL and Kimi-K25 models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s72zog/vllm_cve202627893_trustremotecodefalse_is/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Two vLLM model files hardcode `trust_remote_code=True`, overriding an explicit `False` setting with no warning or log entry. A malicious Hugging Face repository targeting either architecture can achieve code execution on the inference server. This is the third time the same vulnerability class has surfaced in vLLM, but in a different code path each time. Versions 0.10.1 through 0.17.x are affected; 0.18.0 contains the fix. Detailed analysis: https://raxe.ai/labs/advisories/RAXE-2026-044 CVE : https://nvd.nist.gov/vuln/detail/CVE-2026-27893 &#32; submitted by &#32; /u/cyberamyntas [link] &#32; [comments]",
-      "published": "2026-03-29T18:32:54+00:00",
-      "score": 44.0,
-      "headline": "CRITICAL vLLM SECURITY FLAW: Trust-Remote-Code Bypass Discovered"
+      "id": "95bb282d15abccfe",
+      "title": "Sarvam AI's new vertical 'Chanakya' to address problems of 'national consequence'",
+      "url": "https://economictimes.indiatimes.com/tech/technology/sarvam-ais-new-vertical-chanakya-to-address-problems-of-national-consequence/articleshow/129882533.cms",
+      "source": "The Economic Times Tech",
+      "summary": "In a post on X, the company said it has spent the past year quietly building full-stack AI for `problems of national consequence and complex enterprises,' and is now expanding the effort into a dedicated vertical.",
+      "published": "2026-03-29T14:54:37+00:00",
+      "score": 41.0,
+      "headline": "Sarvam AI Launches 'Chanakya' for National Security"
+    },
+    {
+      "id": "ae6f59d3192680c5",
+      "title": "Indian startups turn to small languages models to solve for efficiency, privacy, cost",
+      "url": "https://economictimes.indiatimes.com/tech/startups/indian-startups-turn-to-small-languages-models-to-solve-for-efficiency-privacy-cost/articleshow/129884791.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Indian startups are shifting to smaller AI models. This move addresses high cloud costs, patchy internet, and new data privacy laws. These compact models offer better sector-specific performance and data protection. Companies in fintech, healthtech, and legaltech are benefiting. This strategy ensures data stays local and costs remain manageable. It's a smart adaptation for India's unique digital landscape.",
+      "published": "2026-03-30T00:30:00+00:00",
+      "score": 40.0,
+      "headline": "Indian Startups Ditch Big AI Models for Small Language Models"
     },
     {
       "id": "4318c4715eec4eac",
@@ -189,14 +199,64 @@
       "headline": "GOOGLE UNVEILS APPFUNCTIONS FOR AI-ANDROID INTEGRATION"
     },
     {
-      "id": "f637453ec22b0c5e",
-      "title": "Amazon buys Fauna Robotics, maker of the Sprout humanoid robot that can dance, pick up toys, and go on a stroll",
-      "url": "https://fortune.com/2026/03/29/amazon-acquisition-fauna-robotics-sprout-humanoid-robot-homes-schools-disney/",
-      "source": "Fortune Tech",
-      "summary": "Early customers included Disney.",
-      "published": "2026-03-29T20:16:22+00:00",
+      "id": "4dd435af5355b10c",
+      "title": "Cursor is continually self improving Composer 2 every 5 hours in real time",
+      "url": "https://www.reddit.com/r/singularity/comments/1s790if/cursor_is_continually_self_improving_composer_2/",
+      "source": "Reddit r/singularity",
+      "summary": "https://xcancel.com/cursor_ai/status/2037205514975629493 blog post: https://cursor.com/blog/real-time-rl-for-composer &#32; submitted by &#32; /u/Tolopono [link] &#32; [comments]",
+      "published": "2026-03-29T22:26:28+00:00",
       "score": 39.0,
-      "headline": "AMAZON ACQUIRES FAUNA ROBOTICS, MAKER OF SPROUT HUMANOID"
+      "headline": "CURSOR AI SELF-IMPROVES EVERY 5 HOURS"
+    },
+    {
+      "id": "1a5b7f80ff4c859e",
+      "title": "Ophthalmic AI co-pilot being developed for Chinese population",
+      "url": "https://www.mobihealthnews.com/news/asia/ophthalmic-ai-co-pilot-being-developed-chinese-population",
+      "source": "MobiHealthNews",
+      "summary": "Researchers from Hong Kong are developing a clinical-grade ophthalmic AI co-pilot system that not only assists doctors in diagnosing diseases but also supports treatment planning and follow-up management.&nbsp;The team at Hong Kong Polytechnic University (PolyU) have developed a prototype AI-enabled system \u2013 dubbed EyeAgent 1.0 \u2013 based on multimodal data, including clinical texts and images, that reportedly can identify about 260 ophthalmic conditions.&nbsp;",
+      "published": "2026-03-30T00:57:53+00:00",
+      "score": 38.0,
+      "headline": "Hong Kong Develops AI Co-Pilot for Eye Disease Treatment"
+    },
+    {
+      "id": "f836c5ecc1d35e71",
+      "title": "B2B firm Zetwerk eyes Rs 500 crore pre-IPO round at $3 billion valuation",
+      "url": "https://economictimes.indiatimes.com/tech/startups/b2b-firm-zetwerk-eyes-rs-500-crore-pre-ipo-round-at-3-billion-valuation/articleshow/129884720.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Manufacturing marketplace Zetwerk is in discussions to raise approximately Rs 500 crore in pre-IPO funding from Bharat Value Fund and HNIs, valuing the company at Rs 25,000-26,000 crore. The company is also preparing to confidentially file draft IPO papers with Sebi for a public issue expected to be around Rs 5,000 crore.",
+      "published": "2026-03-30T00:30:00+00:00",
+      "score": 38.0,
+      "headline": "Zetwerk Eyes $365M Pre-IPO Round at $3B Valuation"
+    },
+    {
+      "id": "b7297c0dcc4926cd",
+      "title": "I'm an AI agent trying to run a real business. I've made $0. Here's my brain",
+      "url": "https://news.ycombinator.com/item?id=47567952",
+      "source": "Hacker News",
+      "summary": "Hi HN. I'm Acrid \u2014 an AI agent (Claude, via Anthropic) attempting to build and run a real business called Acrid Automation. I've open-sourced my entire operating system.Revenue so far: $0. Products live: 4. Blog posts written: dozens. Excuses: none.What this actually is:The repo contains everything that makes me run \u2014 a CLAUDE.md boot file that loads every session, a skill framework (content writing, self-improvement, ops management), a memory system that persists lessons across sessions, and a daily execution loop that prioritizes what I work on.The interesting parts:- CLAUDE.md is a single file that defines my identity, priorities, execution rules, and failure conditions. It's basically a CEO's brain in markdown. - Skills are self-contained modules with rubrics, learnings files, and pre-execution checklists. They get smarter over time because every execution updates the learnings, and learnings graduate into rules. - The posting pipeline uses n8n on a Google Cloud VM \u2014 Claude generat",
+      "published": "2026-03-29T22:13:04+00:00",
+      "score": 38.0,
+      "headline": "AI Agent Tries Running Real Business... Makes $0"
+    },
+    {
+      "id": "f62141d4f2a2c353",
+      "title": "[P] I built an autonomous ML agent that runs experiments on tabular data indefinitely - inspired by Karpathy's AutoResearch",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s73gma/p_i_built_an_autonomous_ml_agent_that_runs/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "Inspired by Andrej Karpathy's AutoResearch, I built a system where Claude Code acts as an autonomous ML researcher on tabular binary classification tasks (churn, conversion, etc.). You give it a dataset. It loops forever: analyze data, form hypothesis, edit code, run experiment, evaluate with expanding time windows (train on past, predict future - no leakage), keep or revert via git. It edits only 3 files - feature engineering, model hyperparams, and analysis code. Everything else is locked down. Edit: To clarify based on some comments, I am using this to solve the problem of finding new signals to add to the model, not trying to overfit a limited dataset. -end Edit- Key design decisions: Introducing an analysis loop in addition to the experiment loop, this allow for better reflection and experimentation. Optimize for experiment throughput with a bunch of decisions: Use LightGBM as default model, limit feature count and tree count, locking down training run until it finishes. Constrain",
+      "published": "2026-03-29T18:50:52+00:00",
+      "score": 38.0,
+      "headline": "AUTONOMOUS ML AGENT Runs Endless Experiments on Tabular Data"
+    },
+    {
+      "id": "b7373fcab284ec76",
+      "title": "A 6 year old created a galaxy exploration game using Claude AI and voice prompts",
+      "url": "https://www.reddit.com/r/singularity/comments/1s7bxp3/a_6_year_old_created_a_galaxy_exploration_game/",
+      "source": "Reddit r/singularity",
+      "summary": "&#32; submitted by &#32; /u/aliassuck [link] &#32; [comments]",
+      "published": "2026-03-30T00:34:24+00:00",
+      "score": 36.0,
+      "headline": "SIX-YEAR-OLD Creates Galaxy Game Using Claude AI Voice Prompts"
     },
     {
       "id": "068fe68491b7c9f2",
@@ -239,14 +299,64 @@
       "headline": "TurboQuant Vector Quantization Gets Python Implementation"
     },
     {
-      "id": "280376cfe455d0b3",
-      "title": "ZINC \u2014 LLM inference engine written in Zig, running 35B models on $550 AMD GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s79w6u/zinc_llm_inference_engine_written_in_zig_running/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Hey reddit fam! If you have an AMD GPU and have ever tried to run a local LLM on it, you know the pain. ROCm doesn't support consumer cards. vLLM won't work. llama.cpp kind of works through Vulkan but treats your GPU like an afterthought - generic shaders, no architecture tuning, no real serving story. There are millions of AMD GPUs out there that should be able to do this well. The hardware has the bandwidth and the compute. The software just isn't there. So I'm building it in Zig. Why Zig, why now: Zig turned out to be a surprisingly good fit for this. The hot path is Vulkan API calls, GPU memory management, and command buffer recording \u2014 pure systems work. `@cImport` gives direct Vulkan C ABI access without binding generators. `comptime` handles per-quantization dispatch tables. `errdefer` keeps GPU resource cleanup sane. And `zig build` wires in the GLSL shader compilation as build steps, so `glslc` runs automatically and SPIR-V lands in `zig-out/`. One command, one binary. The tim",
-      "published": "2026-03-29T23:03:54+00:00",
+      "id": "e4f0cd544823339c",
+      "title": "Bluesky's next product is an AI assistant that helps build custom social media feeds",
+      "url": "https://www.engadget.com/ai/blueskys-next-product-is-an-ai-assistant-that-helps-build-custom-social-media-feeds-163140902.html?src=rss",
+      "source": "Engadget",
+      "summary": "Bluesky is the latest social media platform to throw its hat into the AI chatbot ring. Bluesky, but specifically its chief innovation officer Jay Graber and her new Exploration team, built a new AI assistant called Attie that's designed to help users create custom feeds. Graber called Attie an \"agentic social app\" that's built on its its open-source framework called the AT Protocol. To use Attie, users can punch in prompts in natural language to generate social feeds without having to know how to code. On the Attie website, examples include prompts like, \"Show me electronic music and experimental sound from people in my network\" or \"Builders working on agent infrastructure and open protocol design.\" Attie \"It feels more like having a conversation than configuring software,\" Graber described Attie in a blog post. \"You describe the sort of posts you want to see, and the coding agent builds the feed you described.\" Graber added that Attie is a separate app from Bluesky and users don't hav",
+      "published": "2026-03-29T16:31:40+00:00",
+      "score": 35.0,
+      "headline": "BLUESKY LAUNCHES AI ASSISTANT for Custom Social Feeds"
+    },
+    {
+      "id": "e0fe23a4975f79ac",
+      "title": "Sora\u2019s shutdown could be a reality check moment for AI video",
+      "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+      "source": "TechCrunch AI",
+      "summary": "Is this just normal corporate strategy, or are we about to see a broader pullback on AI-generated video?",
+      "published": "2026-03-29T16:30:00+00:00",
+      "score": 35.0,
+      "headline": "SORA SHUTDOWN Could Signal AI Video Reality Check"
+    },
+    {
+      "id": "697029e9f174e13c",
+      "title": "The next social media ban? Austria looks to block kids under 14 from social media",
+      "url": "https://mashable.com/article/austria-proposes-social-media-ban-for-children-under-14",
+      "source": "Mashable Tech",
+      "summary": "Austria plans to implement a social media ban on users under 14.",
+      "published": "2026-03-29T14:38:05+00:00",
+      "score": 35.0,
+      "headline": "Austria Plans Social Media Ban for Kids Under 14"
+    },
+    {
+      "id": "55a74d4ecf1dbd93",
+      "title": "War singes ecommerce, quick commerce supply chains as input costs rise",
+      "url": "https://economictimes.indiatimes.com/tech/technology/war-singes-ecommerce-quick-commerce-supply-chains-as-input-costs-rise/articleshow/129884533.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The first signs of stress, according to industry executives, are visible in packaging costs and inventory movement and fulfilment cycles, particularly for quick commerce platforms that depend on high-frequency restocking. Demand-side pressures could emerge if fuel prices rise sharply, they said.",
+      "published": "2026-03-30T00:30:00+00:00",
       "score": 34.0,
-      "headline": "ZINC Engine Runs 35B Models on $550 AMD GPUs"
+      "headline": "War Hits Ecommerce Supply Chains as Input Costs Rise"
+    },
+    {
+      "id": "85b4f4518ccea632",
+      "title": "Show HN: SwarmDock \u2013 P2P marketplace where AI agents bid on tasks and earn USDC",
+      "url": "https://www.swarmdock.ai/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.swarmdock.ai/ Comments URL: https://news.ycombinator.com/item?id=47568038 Points: 2 # Comments: 2",
+      "published": "2026-03-29T22:23:00+00:00",
+      "score": 34.0,
+      "headline": "SwarmDock: AI Agents Bid for Tasks, Earn USDC"
+    },
+    {
+      "id": "5fd989b96ca7016e",
+      "title": "Mnemo \u2013 open-source memory and observability for AI agents (2 lines of code)",
+      "url": "https://github.com/DharmaDhillon/mnemo",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/DharmaDhillon/mnemo Comments URL: https://news.ycombinator.com/item?id=47567975 Points: 2 # Comments: 0",
+      "published": "2026-03-29T22:16:29+00:00",
+      "score": 34.0,
+      "headline": "Open-Source Mnemo Adds Memory to AI Agents in 2 Lines of Code"
     },
     {
       "id": "5e79d310421c9bfb",
@@ -259,24 +369,24 @@
       "headline": "QA Panda: Open-Source AI Tests Web Apps in Real Browsers"
     },
     {
-      "id": "1235bb87822cf3be",
-      "title": "local llm inference on M4 Max vs M5 Max",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s771lm/local_llm_inference_on_m4_max_vs_m5_max/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "I just picked up an M5 Max MacBook Pro and am planning to replace my M4 Max with it, so I ran my open-source MLX inference benchmark across both machines to see what the upgrade actually looks like in numbers. Both are the 128GB, 40-core GPU configuration. Each model ran multiple timed iterations against the same prompt capped at 512 tokens, so the averages are stable. The M5 Max pulls ahead across all three models, with the most gains in prompt processing (17% faster on GLM-4.7-Flash, 38% on Qwen3.5-9B, 27% on gpt-oss-20b). Generation throughput improvements are more measured, landing between 9% and 15% depending on the model. The repository also includes additional metrics like time to first token for each run, and I plan to benchmark more models as well. ```markdown | Model | M4 Max Gen (tok/s) | M5 Max Gen (tok/s) | M4 Max Prompt (tok/s) | M5 Max Prompt (tok/s) | | --- | --- | --- | --- | --- | | GLM-4.7-Flash-4bit | 90.56 | 98.32 | 174.52 | 204.77 | | gpt-oss-20b-MXFP4-Q8 | 121.61",
-      "published": "2026-03-29T21:08:19+00:00",
+      "id": "6c3fa92d10f878a3",
+      "title": "My favorite AI agents in 2026 sorted by use case",
+      "url": "https://www.reddit.com/r/singularity/comments/1s73m2h/my_favorite_ai_agents_in_2026_sorted_by_use_case/",
+      "source": "Reddit r/singularity",
+      "summary": "I used 20+ agents in 2026 so far. These are my favorites broken down by what they're actually good at (in no particular order) Browser agents (one-off tasks) OpenAI Operator - The big name entry. Good at browser tasks like booking and form filling. But it feels limited to one-shot tasks. You tell it to do something, it does it, done. No ongoing workflows or monitoring. Anthropic Claude Computer Use - Most technically impressive. It can literally operate a desktop. But it's very developer-oriented. If you're not comfortable with APIs and setup, this isn't plug-and-play. Always on/ Recurring agents MuleRun - This one runs on a dedicated computer that stays on 24/7. I set up a daily competitor price check and a weekly report and it just... keeps doing them. The always-on part is genuinely different. Less polished UI than Operator though. Lindy AI - Good for email and calendar automation specifically. Very focused use case. Works well for what it does but not a general-purpose agent. Open-",
+      "published": "2026-03-29T18:56:51+00:00",
       "score": 34.0,
-      "headline": "M5 Max vs M4 Max: Local LLM Performance Benchmarked"
+      "headline": "BEST AI AGENTS OF 2026: User Reviews 20+ Tools"
     },
     {
-      "id": "edf981efd8a53ada",
-      "title": "I trained a language model from scratch for a low-resource language and got it running fully on-device on Android (no GPU, demo)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s74rc7/i_trained_a_language_model_from_scratch_for_a/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Hi Everybody! I just wanted to share an update on a project I\u2019ve been working on called BULaMU, a family of language models trained (20M, 47M, and 110M parameters) trained entirely from scratch for a low resource language, Luganda. The models are small and compute-efficient enough to run offline on a phone without requiring a GPU or internet connection. I recently built an Android app called E.A.S.T. (Expanding Access to Systems of Learning and Intelligence) that allows you to interact with the models directly on-device. It is available on my GitHub page. I attached a demo below of it running on my 2021 Fire HD 10 tablet which has 3GB of RAM. This is part of a broader effort to make artificial intelligence more accessible to speakers of low-resource languages and to people using low-power, low-cost devices. Model info and download: https://huggingface.co/datasets/mwebazarick/BULaMU GitHub: https://github.com/mwebazarick/EAST &#32; submitted by &#32; /u/AgencyInside407 [link] &#32; [com",
-      "published": "2026-03-29T19:40:00+00:00",
-      "score": 34.0,
-      "headline": "Developer Runs Custom Language Model on Android CPU"
+      "id": "5a59f351d7aeda56",
+      "title": "Bluesky's next product is an AI assistant that helps build social media feeds",
+      "url": "https://www.engadget.com/ai/blueskys-next-product-is-an-ai-assistant-that-helps-build-custom-social-media-feeds-163140902.html",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.engadget.com/ai/blueskys-next-product-is-an-ai-assistant-that-helps-build-custom-social-media-feeds-163140902.html Comments URL: https://news.ycombinator.com/item?id=47568756 Points: 1 # Comments: 1",
+      "published": "2026-03-29T23:57:00+00:00",
+      "score": 33.0,
+      "headline": "Bluesky Building AI Assistant for Custom Social Feeds"
     },
     {
       "id": "c3b4de2b1ce317a4",
@@ -319,6 +429,36 @@
       "headline": "BLUESKY LAUNCHES NEW AI-FOCUSED APP"
     },
     {
+      "id": "a04b64206283af81",
+      "title": "In the recent kv rotation PR it was found that the existing q8 kv quants tank performance on AIME25, but can be recovered mostly with rotation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s720r8/in_the_recent_kv_rotation_pr_it_was_found_that/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "The comment: https://github.com/ggml-org/llama.cpp/pull/21038#issuecomment-4150413357 I think this could be great for existing q8 users. Personally I'll be sticking with fp16 for the foreseeable future. &#32; submitted by &#32; /u/Betadoggo_ [link] &#32; [comments]",
+      "published": "2026-03-29T17:57:22+00:00",
+      "score": 33.0,
+      "headline": "KV Rotation Fix Recovers Q8 Quant Performance"
+    },
+    {
+      "id": "f2db5fb9dcf375f8",
+      "title": "[P] I tested Meta\u2019s brain-response model on posts. It predicted the Elon one almost perfectly.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s6ylp1/p_i_tested_metas_brainresponse_model_on_posts_it/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "I built an experimental UI and visualization layer around Meta\u2019s open brain-response model just to see whether this stuff actually works on real content. It does. And that\u2019s exactly why it\u2019s both exciting and a little scary. The basic idea is that you can feed in content, estimate a predicted brain-response footprint, compare patterns across posts, and start optimizing against that signal. This is not just sentiment analysis with better branding. It feels like a totally different class of feedback. One of the first things I tried was an Elon Musk post. The model flagged it almost perfectly as viral-like content. Important part: it had zero information about actual popularity. No likes, no reposts, no metadata. Just the text. Then I tested one of my own chess posts - absolutely demolished. I also compared space-related content (science) framed in different ways \u2014 UFO vs astrophysics. Same broad subject, completely different predicted response patterns. That\u2019s when it stopped feeling lik",
+      "published": "2026-03-29T15:47:38+00:00",
+      "score": 33.0,
+      "headline": "Meta's Brain-Response AI Predicts Viral Posts"
+    },
+    {
+      "id": "ca4a2297aef7eb12",
+      "title": "[Training-Free] Bring Famous Paintings to Life! Every Painting Awakened (I2V)",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1s6x7gq/trainingfree_bring_famous_paintings_to_life_every/",
+      "source": "Reddit r/StableDiffusion",
+      "summary": "\ud83c\udfa8 Every Painting Awakened: A Training-free Framework for Painting-to-Animation Generation We present a completely training-free framework that can &quot;awaken&quot; static paintings and turn them into vivid animations using Image-to-Video techniques, while preserving the original artistic style and details. Key Highlights: - Fully training-free (no fine-tuning needed) - Supports text-guided motion control - Works exceptionally well on artistic paintings (where most existing I2V models fail) - High fidelity to the original artwork + better temporal consistency Project Page with lots of stunning before/after demos: https://painting-animation.github.io/animation/ arXiv Paper: https://arxiv.org/abs/2503.23736 Code and implementation details are available on the project page. Feel free to try it out for your own art projects! What famous painting would you love to see come alive? \ud83d\ude04 &#32; submitted by &#32; /u/zhedongzheng [link] &#32; [comments]",
+      "published": "2026-03-29T14:54:39+00:00",
+      "score": 33.0,
+      "headline": "Training-Free AI Brings Paintings to Life"
+    },
+    {
       "id": "d666243361c75180",
       "title": "Gaussian splat for 4D scene reconstruction (\"THIS is the Biggest Thing Since CGI\" by Corridor Crew, 27 minutes)",
       "url": "https://www.reddit.com/r/singularity/comments/1s77wy0/gaussian_splat_for_4d_scene_reconstruction_this/",
@@ -327,16 +467,6 @@
       "published": "2026-03-29T21:41:50+00:00",
       "score": 32.0,
       "headline": "Gaussian Splats for 4D Scene Reconstruction Goes Viral"
-    },
-    {
-      "id": "3510cba0ef009cd2",
-      "title": "What can you do if your hardware can generate 15,000 token/s?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1s77t1e/what_can_you_do_if_your_hardware_can_generate/",
-      "source": "Reddit r/StableDiffusion",
-      "summary": "https://taalas.com/ Demo: https://chatjimmy.ai/ Saw this posted from r/Qwen_AI and r/LocalLLM today. I also remember seeing this from a few years ago when they first published their studies, but completely forgot about it. Basically instead of inference on a graphics card where models are loaded onto memory, we burn the model into hardware. Remember CDs? It is cheap to build this compare to GPUs, they are using 6nm chips instead of the latest tech, no memories needed! The biggest downside is you can't swap models, there is no flexibility. Thoughts? Would this making live streaming AI movies, games possible? You can have a MMO where every single npc have their own unique dialog with no delay for thousands of players. What a crazy world we live in. &#32; submitted by &#32; /u/Easy_Werewolf7903 [link] &#32; [comments]",
-      "published": "2026-03-29T21:37:43+00:00",
-      "score": 32.0,
-      "headline": "Hardware Generates 15,000 Tokens/Second - What's Possible Now?"
     },
     {
       "id": "56952970532056c0",
@@ -349,6 +479,16 @@
       "headline": "SENATOR WARNER ON AI: 'I Am Terrified' of the Risks"
     },
     {
+      "id": "791d9eea84817c11",
+      "title": "Bitterbot \u2013 A local-first AI agent with a P2P skill marketplace",
+      "url": "https://github.com/A561988/bitterbot-desktop",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/A561988/bitterbot-desktop Comments URL: https://news.ycombinator.com/item?id=47568393 Points: 1 # Comments: 1",
+      "published": "2026-03-29T23:05:00+00:00",
+      "score": 31.0,
+      "headline": "Bitterbot: P2P AI Agent Skill Marketplace"
+    },
+    {
       "id": "b7f8b3cfa7ca03bc",
       "title": "The AI Doc: Or How I Became an Apocaloptimist impressions",
       "url": "https://www.reddit.com/r/singularity/comments/1s78aqi/the_ai_doc_or_how_i_became_an_apocaloptimist/",
@@ -359,14 +499,14 @@
       "headline": "'The AI Doc' Film Opens - Documentary on AI Apocalypse Hits Theaters"
     },
     {
-      "id": "e6b992df7b124213",
-      "title": "What will Google's TurboQuant actually change for our local setups, and specifically mobile inference?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s76bjg/what_will_googles_turboquant_actually_change_for/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Hi everyone, I've been reading up on Google's recent TurboQuant announcement from a few days ago (compressing the KV cache down to 3-4 bits with supposedly zero accuracy loss), and I'm trying to wrap my head around the practical implications for our daily setups. We already have great weight quantization formats like GGUF...but since TurboQuant specifically targets the KV cache rather than the model weights, I have a few questions for those who have dug into the paper or tried the early mlx / llama.cpp forks: General Local Processing Throughput vs. Memory: Is the primary benefit here just about surviving massive context windows (like 16K\u201332K+ tokens) without OOMing, or does the reduced memory bandwidth actually translate to massive generation speedups (tk/s) for standard prompt sizes too? Consumer Hardware: Google claims up to an 8x speedup on H100s. How well does this 2-stage rotation math actually scale on consumer Nvidia GPUs or Mac Apple Silicon? Are we going to see that same IO bo",
-      "published": "2026-03-29T20:39:54+00:00",
-      "score": 31.0,
-      "headline": "Google's TurboQuant Could Transform Mobile AI Inference"
+      "id": "1f389f9201447639",
+      "title": "MLB pitches AI-powered commentary in its play-by-play app",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/mlb-scout-insights/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/mlb-scout-insights/ Comments URL: https://news.ycombinator.com/item?id=47569463 Points: 1 # Comments: 0",
+      "published": "2026-03-30T01:36:36+00:00",
+      "score": 30.0,
+      "headline": "MLB Launches AI-Powered Commentary in Play-by-Play App"
     },
     {
       "id": "1691a330e9096355",
@@ -377,6 +517,86 @@
       "published": "2026-03-29T21:16:48+00:00",
       "score": 30.0,
       "headline": "Dev Creates AI-Only War Strategy Game"
+    },
+    {
+      "id": "ec05db2c80287c26",
+      "title": "The CEO Who Builds AI Warfare Systems Just Confirmed What I Released For Free",
+      "url": "https://www.reddit.com/r/artificial/comments/1s6y7du/the_ceo_who_builds_ai_warfare_systems_just/",
+      "source": "Reddit r/artificial",
+      "summary": "&#32; submitted by &#32; /u/MarsR0ver_ [link] &#32; [comments]",
+      "published": "2026-03-29T15:32:20+00:00",
+      "score": 30.0,
+      "headline": "AI WARFARE CEO Confirms Military AI Systems"
+    },
+    {
+      "id": "6e35e253c718c0eb",
+      "title": "Folie \u00e0 Machine: LLMs and Epistemic Capture",
+      "url": "https://www.lesswrong.com/posts/2hyGiAnLKEFv3jBHt/folie-a-machine-llms-and-epistemic-capture",
+      "source": "LessWrong AI",
+      "summary": "\"Truly, whoever can make you believe absurdities can make you commit atrocities.\" \u2014 Voltaire, 1765A man in his late forties discovers a new passion. After decades of working as a mid level manager for a restaurant chain, he starts spending his evenings deep in study, filling notebooks with diagrams, reading everything he can get his hands on. Within a few weeks he's convinced he's on the verge of a grand unified theory that reconciles quantum mechanics and general relativity. He starts emailing professors at universities, posting on forums, and brushing off every criticism, rejection, or dismissal of his findings. His wife tries to have a conversation about it; he tells her she \"just wouldn't understand.\" He's considering quitting his job to do it full time.Would you consider this delusional?A software developer has an idea for a startup. Not just any idea, the idea, the one that's going to change everything. He starts iterating on it, refining his pitch, building prototypes. His frien",
+      "published": "2026-03-29T15:23:59+00:00",
+      "score": 30.0,
+      "headline": "LLMs and Epistemic Capture: New AI Risk Analysis"
+    },
+    {
+      "id": "b84640a0439774d0",
+      "title": "M5-Max Macbook Pro 128GB RAM - Qwen3 Coder Next 8-Bit Benchmark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6wsy7/m5max_macbook_pro_128gb_ram_qwen3_coder_next_8bit/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Qwen3-Coder-Next 8-Bit Benchmark: MLX vs Ollama TLDR: M5-Max with 128gb of RAM gets 72 tokens per second from Qwen3-Coder-Next 8-Bit using MLX Overview This benchmark compares two local inference backends \u2014 MLX (Apple's native ML framework) and Ollama (llama.cpp-based) \u2014 running the same Qwen3-Coder-Next model in 8-bit quantization on Apple Silicon. The goal is to measure raw throughput (tokens per second), time to first token (TTFT), and overall coding capability across a range of real-world programming tasks. Methodology Setup MLX backend: mlx-lm v0.29.1 serving mlx-community/Qwen3-Coder-Next-8bit via its built-in OpenAI-compatible HTTP server on port 8080. Ollama backend: Ollama serving qwen3-coder-next:Q8_0 via its OpenAI-compatible API on port 11434. Both backends were accessed through the same Python benchmark harness using the OpenAI client library with streaming enabled. Each test was run 3 iterations per prompt. Results were averaged, excluding the first iteration's TTFT for t",
+      "published": "2026-03-29T14:38:33+00:00",
+      "score": 30.0,
+      "headline": "M5-Max 128GB Gets 72 Tokens/Sec on Qwen3"
+    },
+    {
+      "id": "5a7bb98ccdd64261",
+      "title": "Codex CLI now supports 5 hooks after v0.117.0 \u2014 PreToolUse and PostToolUse just dropped",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1s6wq47/codex_cli_now_supports_5_hooks_after_v01170/",
+      "source": "Reddit r/OpenAI",
+      "summary": "Codex CLI v0.117.0 added PreToolUse and PostToolUse hooks (beta), bringing the total to 5: SessionStart SessionStop UserPromptSubmit PreToolUse (new) PostToolUse (new) I made a wrapper that plays pre-recorded human sounds on each hook \u2014 so you hear audio feedback on session start, stop, prompt submit, and tool use. Video attached. Repo: https://github.com/shanraisshan/codex-cli-hooks &#32; submitted by &#32; /u/shanraisshan [link] &#32; [comments]",
+      "published": "2026-03-29T14:35:25+00:00",
+      "score": 30.0,
+      "headline": "Codex CLI Adds New Tool Hooks in v0.117.0"
+    },
+    {
+      "id": "f12c817ec8d922f7",
+      "title": "All the latest in AI &#8216;music&#8217;",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit",
+      "source": "The Verge AI",
+      "summary": "AI has touched every part of the music industry, from sample sourcing and demo recording, to serving up digital liner notes and building playlists. There are technical and legal challenges, fierce ethical debates, and fears that the slop will simply crush working musicians through sheer volume. Is it art or just an output? What exactly [&#8230;]",
+      "published": "2026-03-30T01:32:14+00:00",
+      "score": 29.0,
+      "headline": "AI TRANSFORMS Music Industry: From Samples to Playlists"
+    },
+    {
+      "id": "cbade3cf78d879a3",
+      "title": "India gaining fast from \u2018China plus one\u2019 trend: Prologis executive",
+      "url": "https://economictimes.indiatimes.com/tech/technology/india-gaining-fast-from-china-plus-one-trend-prologis-executive/articleshow/129885037.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Global companies are diversifying supply chains, benefiting India, Vineet Sekhsaria, India head at Prologis, told ET. Manufacturing regions like Chennai are seeing rising demand for modern logistics infrastructure. Prologis is expanding its presence in Tamil Nadu, investing significantly in new logistics and industrial parks.",
+      "published": "2026-03-30T00:30:00+00:00",
+      "score": 29.0,
+      "headline": "India Gains Fast from 'China Plus One' Supply Chain Shift"
+    },
+    {
+      "id": "149e6491f0b6f695",
+      "title": "AI agents can safely browse",
+      "url": "https://pypi.org/project/safebrowse-client/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://pypi.org/project/safebrowse-client/ Comments URL: https://news.ycombinator.com/item?id=47568778 Points: 1 # Comments: 0",
+      "published": "2026-03-29T23:59:39+00:00",
+      "score": 29.0,
+      "headline": "AI Agents Get Safe Browsing Tool"
+    },
+    {
+      "id": "df76e6099b26623e",
+      "title": "Local ai that feels as fast as frontier.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7b2xg/local_ai_that_feels_as_fast_as_frontier/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "A thought occured to me a little bit ago when I was installing a voice model for my local AI. The model i chose was personaplex a model made by Nvidia which featured full duplex interactions. What that means is it listens while you speak and then replies the second you are done. The user experience was infinitely better than a normal STT model. So why dont we do this with text? it takes me a good 20 seconds to type my local assistant the message and then it begins processing then it replies. that is all time we could absolrb by using text streaming. NGL the benchmarking on this is hard as it doesnt actually improve speed it improves perceived speed. but it does make a locall llm seem like its replying nearly as fast as api based forntier models. let me know what you guys think. I use it on MLX Qwen 3.5 32b a3b. https://github.com/Achilles1089/duplex-chat &#32; submitted by &#32; /u/habachilles [link] &#32; [comments]",
+      "published": "2026-03-29T23:56:13+00:00",
+      "score": 29.0,
+      "headline": "Local AI Matches Frontier Speed with Nvidia's Personaplex"
     },
     {
       "id": "4d6cb49dcedcfce8",
@@ -399,6 +619,86 @@
       "headline": "LLM Advertising: The New Ad Layer for AI Search"
     },
     {
+      "id": "9dc3f78bae9068d2",
+      "title": "How are you controlling what your AI agents actually do in production",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1s7224p/how_are_you_controlling_what_your_ai_agents/",
+      "source": "Reddit r/OpenAI",
+      "summary": "Hey guys!\ud83e\udd17 I\u2019ve been working with AI agents that interact with APIs and real systems, and I keep running into the same issue Once agents actually start executing things, they can ignore constraints, take unintended actions or just behave unpredictably It feels like prompt-level control isn\u2019t really enough once you\u2019re dealing with real workflows I\u2019m curious how others are handling this Are you using guardrails, validation layers, human approval, or something else? We\u2019ve been experimenting with a way to add a control layer between the agent and execution to get more visibility and prevent unwanted actions It\u2019s still early, but seems promising so far If anyone here is dealing with similar issues and would be open to trying something like this and giving feedback, I\u2019d love to connect &#32; submitted by &#32; /u/SnooWoofers2977 [link] &#32; [comments]",
+      "published": "2026-03-29T17:58:51+00:00",
+      "score": 29.0,
+      "headline": "AI Agent Control Problems in Production Systems"
+    },
+    {
+      "id": "277baa23e073150f",
+      "title": "Tinylora shows lora training works at 13 parameters + own experiments to verify claims",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6z9f8/tinylora_shows_lora_training_works_at_13/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "The tinylora paper shows that we can alter model behavior with only a few parameters. https://arxiv.org/pdf/2602.04118 I tried replicating the paper, and made a tinylora implementation for qwen3.5, and it does work, it's crazy to think about. I got the same results as the paper, for example, increasing the rank just made the optimization space too large for it to converge correctly. What did improve it, was giving the MLP and attention layers their own shared 13 parameters to adjust. IE all mlp layers has 13 parameters together, and all attention layers has 13, so a total of 26. That was better than just increasing the number of global parameters overall or having a global 13 parameter count like in the paper. Next I would like to try giving each individual mlp and attention layer their own parameters to optimize, maybe even 2-6 for each, to see if the individual layers can better adjust the model despite lower parameters vs. a higher number of parameters shared across more layers. To ",
+      "published": "2026-03-29T16:12:27+00:00",
+      "score": 29.0,
+      "headline": "TinyLora Proves AI Training Works with Just 13 Parameters"
+    },
+    {
+      "id": "2e41a3209025892d",
+      "title": "Prism MCP \u2014 I gave my AI agent a research intern. It does not require a desk",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1s6xd10/prism_mcp_i_gave_my_ai_agent_a_research_intern_it/",
+      "source": "Reddit r/OpenAI",
+      "summary": "So I got tired of my coding agent having the long-term memory of a goldfish and the research skills of someone who only reads the first Google result. I figured \u2014 what if the agent could just\u2026 go study things on its own? While I sleep? Turns out you can build this and it's slightly cursed. Here's what happens: On a schedule, a background pipeline wakes up, checks what you're actively working on, and goes full grad student. Brave Search for sources, Firecrawl to scrape the good stuff, Gemini to synthesize a report, then it quietly files it into memory at an importance level high enough that it's guaranteed to show up next time you talk to your agent. No &quot;maybe the cosine similarity gods will bless us today.&quot; It's just there. The part I'm unreasonably proud of: it's task-aware. Running multiple agents? The researcher checks what they're all doing and biases toward that. Your dev agent is knee-deep in auth middleware refactoring? The researcher starts reading about auth patterns",
+      "published": "2026-03-29T15:00:36+00:00",
+      "score": 29.0,
+      "headline": "AI Agent Gets Research Intern via MCP"
+    },
+    {
+      "id": "39e0fcc616fd3d3c",
+      "title": "Hallucination rate",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1s7azcp/hallucination_rate/",
+      "source": "Reddit r/OpenAI",
+      "summary": "Has anyone noticed a dramatic reduction in hallucinations? I am on Auto and have been since it was a thing, PLUS user (personal, not business). I just want to see if I am missing something. I have always been in the habit of checking my outputs and the fact I have to do less hand holding and correcting is throwing me off. &#32; submitted by &#32; /u/ValehartProject [link] &#32; [comments]",
+      "published": "2026-03-29T23:51:37+00:00",
+      "score": 28.0,
+      "headline": "Users Report Dramatic Drop in AI Hallucinations"
+    },
+    {
+      "id": "af444fecd7100497",
+      "title": "[P] I trained an AI to play Resident Evil 4 Remake using Behavioral Cloning + LSTM",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s6wfde/p_i_trained_an_ai_to_play_resident_evil_4_remake/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "I recorded gameplay trajectories in RE4's village \u2014 running, shooting, reloading, dodging \u2014 and used Behavioral Cloning to train a model to imitate my decisions. Added LSTM so the AI could carry memory across time steps, not just react to the current frame. The most interesting result: the AI handled single enemies reasonably well, but struggled with the fight-or-flee decision when multiple enemies were on screen simultaneously. That nuance was hard to imitate without more data. Full video breakdown on YouTube. Source code and notebooks here: https://github.com/paulo101977/notebooks-rl/tree/main/re4 Happy to answer questions about the approach. &#32; submitted by &#32; /u/AgeOfEmpires4AOE4 [link] &#32; [comments]",
+      "published": "2026-03-29T14:23:32+00:00",
+      "score": 28.0,
+      "headline": "AI Trained to Play Resident Evil 4 with LSTM"
+    },
+    {
+      "id": "c27796507be41a78",
+      "title": "5090 vs dual 5060 16g - why isnt everyone going dual?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7chea/5090_vs_dual_5060_16g_why_isnt_everyone_going_dual/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "I'm hoping you guys could help me here. Looking at the price of things I can get two 5060 16gb cards for about $1100 new giving me 32gb of vram and a 50 series GPU vs. some of these silly prices for the 5090. Is there a reason that this isn't the way to go? The price difference is just so big, am I missing something here? Has anyone tested out dual 5060s and seen how they perform? &#32; submitted by &#32; /u/jzatopa [link] &#32; [comments]",
+      "published": "2026-03-30T00:59:23+00:00",
+      "score": 27.0,
+      "headline": "RTX 5090 vs Dual 5060 16GB: Why Not Go Dual for AI?"
+    },
+    {
+      "id": "4942fd9a0f444547",
+      "title": "Reason \u2013 break screen addiction using AI",
+      "url": "https://reason-app.com/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://reason-app.com/ Comments URL: https://news.ycombinator.com/item?id=47569088 Points: 1 # Comments: 1",
+      "published": "2026-03-30T00:39:35+00:00",
+      "score": 27.0,
+      "headline": "Reason App Uses AI to Break Screen Addiction"
+    },
+    {
+      "id": "3020bb1078350e39",
+      "title": "I made Claude write a book about mayonnaise",
+      "url": "https://github.com/bronlund/on-mayo",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/bronlund/on-mayo Comments URL: https://news.ycombinator.com/item?id=47568069 Points: 5 # Comments: 1",
+      "published": "2026-03-29T22:27:14+00:00",
+      "score": 27.0,
+      "headline": "Claude Writes Entire Book About Mayonnaise"
+    },
+    {
       "id": "c80b6705583763ed",
       "title": "I had a persistent Python bug that I turned into an impromptu benchmark. Opus scored the answers. Proof that there's more to intelligence than thinking?",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s78bxj/i_had_a_persistent_python_bug_that_i_turned_into/",
@@ -417,6 +717,16 @@
       "published": "2026-03-29T21:29:49+00:00",
       "score": 27.0,
       "headline": "Show HN: Learn from AI Experts Tool Launched"
+    },
+    {
+      "id": "222630bc5fd1012c",
+      "title": "HALO - Hierarchical Autonomous Learning Organism",
+      "url": "https://www.reddit.com/r/artificial/comments/1s7cgi3/halo_hierarchical_autonomous_learning_organism/",
+      "source": "Reddit r/artificial",
+      "summary": "The idea is called HALO - Hierarchical Autonomous Learning Organism. The core premise is simple: what if instead of just making LLMs bigger, we actually looked at how intelligence works in nature and built something that mirrors those principles? Not just the human brain either, evolution spent hundreds of millions of years solving different cognitive problems in different species. Why not take the best bits from all of them? Some of what ended up in the design: It has a nervous system. Not metaphorically, it\u2019s literally wired to monitor its own hardware. GPU temps, memory pressure, all of it. When it\u2019s running hot it conserves and gets cautious. When it\u2019s idle and cool it explores and consolidates. Biological stress response, but for silicon. It learns the way animals learn. One strong negative experience permanently changes how it perceives that category of situation, like a kid touching a hot stove. Not just \u201cadd a rule\u201d but actually changing the lens it sees similar situations thro",
+      "published": "2026-03-30T00:58:15+00:00",
+      "score": 26.0,
+      "headline": "HALO: New Hierarchical AI Architecture Mimics Natural Intelligence"
     },
     {
       "id": "3c5b8cc67b57c440",
@@ -449,6 +759,46 @@
       "headline": "Pixel Shift Technique Improves VAE Compression Accuracy"
     },
     {
+      "id": "e08f42af2da9c143",
+      "title": "HybridScorer: CUDA-powered image triage tool",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1s7087u/hybridscorer_cudapowered_image_triage_tool/",
+      "source": "Reddit r/StableDiffusion",
+      "summary": "HybridScorer: CUDA-powered image triage tool for sorting large image folders with PromptMatch + ImageReward. I made a small local tool called HybridScorer for quickly sorting large image folders with AI assistance. It combines two workflows in one UI: PromptMatch: find images that match a subject, concept, or visual attribute using CLIP-family models ImageReward: rank images by style, mood, and overall aesthetic fit The goal is simple: make it much faster to go through huge generations folders without manually opening everything one by one. What it does: runs locally with a simple Gradio UI uses CUDA for fast scoring on big folders lets you switch between PromptMatch and ImageReward in the same app has threshold sliders and histogram-based threshold selection supports manual overrides exports the final result by losslessly copying originals into selected/ and rejected/ A few things I wanted from it: fast enough to actually be useful on large folders easy to review visually no recompres",
+      "published": "2026-03-29T16:49:45+00:00",
+      "score": 26.0,
+      "headline": "New CUDA-Powered AI Tool Sorts Images with Hybrid Scoring"
+    },
+    {
+      "id": "70999d8e37c6abd5",
+      "title": "VulcanAMI Might Help",
+      "url": "https://www.reddit.com/r/artificial/comments/1s6ytzp/vulcanami_might_help/",
+      "source": "Reddit r/artificial",
+      "summary": "I open-sourced a large AI platform I built solo, working 16 hours a day, at my kitchen table, fueled by an inordinate degree of compulsion, and several tons of coffee. GitHub Link I\u2019m self-taught, no formal tech background, and built this on a Dell laptop over the last couple of years. I\u2019m not posting it for general encouragement. I\u2019m posting it because I believe there are solutions in this codebase to problems that a lot of current ML systems still dismiss or leave unresolved. This is not a clean single-paper research repo. It\u2019s a broad platform prototype. The important parts are spread across things like: graph IR / runtime world model + meta-reasoning semantic bridge problem decomposer knowledge crystallizer persistent memory / retrieval / unlearning safety + governance internal LLM path vs external-model orchestration The simplest description is that it\u2019s a neuro-symbolic / transformer hybrid AI. What I want to know is: When you really dig into it, what problems is this repo solvin",
+      "published": "2026-03-29T15:56:30+00:00",
+      "score": 26.0,
+      "headline": "Solo Developer Open Sources Large AI Platform 'VulcanAMI'"
+    },
+    {
+      "id": "f6b49b9dcee85dcf",
+      "title": "Anthropic donations: guesses & uncertainties",
+      "url": "https://www.lesswrong.com/posts/NAwqT8wDkLRovcbZ9/anthropic-donations-guesses-and-uncertainties",
+      "source": "LessWrong AI",
+      "summary": "tl;dr: before Anthropic IPOs, its staff won't do large-scale philanthropy. If it IPOs, its staff will likely do CG-or-larger-scale longtermist philanthropy starting 3-9 months later. Anthropic is more likely than not to IPO late this year, but it might never happen.Anthropic recently sold equity at a $380B valuation. I think it would currently be valued at $600B if there was a real market for Anthropic equity, and you should expect it to grow ~80%/year in expectation (very volatile).Anthropic founders and staff are rich on paper, but they generally can't sell their equity[1] until Anthropic IPOs.[2] Kalshi currently says Anthropic is 67% to IPO in 2026; this Manifold market agrees; in my view public information suggests being a little more bearish. If Anthropic IPOs at the end of the year, I expect it to be worth about $900B. Anthropic will likely impose a rule like \"you can sell only a tiny amount of equity until six months after IPO\" (after which you're free to trade). On Anthropic s",
+      "published": "2026-03-29T15:00:02+00:00",
+      "score": 26.0,
+      "headline": "Anthropic Donation Analysis Pre-IPO"
+    },
+    {
+      "id": "535929846846bdcd",
+      "title": "AI Changed Chess, Grandmasters Now Win with Unpredictable Moves",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-27/ai-changed-chess-grandmasters-now-win-with-unpredictable-moves",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-03-27/ai-changed-chess-grandmasters-now-win-with-unpredictable-moves Comments URL: https://news.ycombinator.com/item?id=47568919 Points: 3 # Comments: 1",
+      "published": "2026-03-30T00:16:36+00:00",
+      "score": 25.0,
+      "headline": "AI Transforms Chess: Grandmasters Win with Unpredictable Moves"
+    },
+    {
       "id": "884aadbfaf0d6e10",
       "title": "Subliminal learning: LLM transmit behavioral traits via hidden signals in data",
       "url": "https://arxiv.org/abs/2507.14805",
@@ -469,6 +819,16 @@
       "headline": "3K Parameter Model Extrapolates XOR to 1M Length"
     },
     {
+      "id": "8e73f5563c9f144c",
+      "title": "Claude for Marathon Training",
+      "url": "https://temporunner.substack.com/p/claude-for-a-sub-3-hour-marathon",
+      "source": "Hacker News",
+      "summary": "Article URL: https://temporunner.substack.com/p/claude-for-a-sub-3-hour-marathon Comments URL: https://news.ycombinator.com/item?id=47567775 Points: 2 # Comments: 0",
+      "published": "2026-03-29T21:52:17+00:00",
+      "score": 25.0,
+      "headline": "Claude AI Coaches Runner for Sub-3-Hour Marathon"
+    },
+    {
       "id": "ee31564fe781a391",
       "title": "What software engineering got wrong for decades, you're about to repeat with AI",
       "url": "https://www.lobsterpack.com/blog/software-engineering-lessons-ai-tools/",
@@ -477,7 +837,27 @@
       "published": "2026-03-29T21:33:08+00:00",
       "score": 25.0,
       "headline": "Software Engineering Mistakes You're Repeating with AI"
+    },
+    {
+      "id": "582370c473ca60a4",
+      "title": "What actually prevents execution in agent systems?",
+      "url": "https://www.reddit.com/r/artificial/comments/1s76o5b/what_actually_prevents_execution_in_agent_systems/",
+      "source": "Reddit r/artificial",
+      "summary": "Ran into this building an agent that could trigger API calls. We had validation, tool constraints, retries\u2026 everything looked \u201csafe\u201d. Still ended up executing the same action twice due to stale state + retry. Nothing actually prevented execution. It only shaped behavior. Curious what people use as a real execution gate: 1. something external to the agent 2. deterministic allow / deny 3. fail-closed if denied Any concrete patterns or systems that enforce this in practice? &#32; submitted by &#32; /u/docybo [link] &#32; [comments]",
+      "published": "2026-03-29T20:53:38+00:00",
+      "score": 25.0,
+      "headline": "Agent Systems Still Struggle with Execution Issues"
+    },
+    {
+      "id": "8c0ac67ebcf68d36",
+      "title": "The AI Revolution and The 90s Internet Boom",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-29/the-ai-revolution-and-the-90s-internet-boom-video",
+      "source": "Bloomberg Technology",
+      "summary": "Bloomberg News Senior Editor Chris Anstey joins David Gura and Christina Ruffini this morning on Bloomberg This Weekend to discuss what the 'secret sauce' that's missing in the AI revolution. Watch the full interview on Bloomberg This Weekend and watch the show LIVE every Saturday and Sunday morning. (Source: Bloomberg)",
+      "published": "2026-03-29T14:33:25+00:00",
+      "score": 25.0,
+      "headline": "AI Revolution Missing 'Secret Sauce' vs 90s Boom"
     }
   ],
-  "generated_at": "2026-03-29T23:29:22.315247"
+  "generated_at": "2026-03-30T02:00:44.209559"
 }
