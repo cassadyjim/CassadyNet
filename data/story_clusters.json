@@ -189,6 +189,16 @@
       "headline": "DEEPSEEK DOWN 7 HOURS... BIGGEST OUTAGE YET"
     },
     {
+      "id": "d0442a076785aa77",
+      "title": "vLLM CVE-2026-27893, `--trust-remote-code=False` is silently ignored for Nemotron-VL and Kimi-K25 models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s72zog/vllm_cve202627893_trustremotecodefalse_is/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Two vLLM model files hardcode `trust_remote_code=True`, overriding an explicit `False` setting with no warning or log entry. A malicious Hugging Face repository targeting either architecture can achieve code execution on the inference server. This is the third time the same vulnerability class has surfaced in vLLM, but in a different code path each time. Versions 0.10.1 through 0.17.x are affected; 0.18.0 contains the fix. Detailed analysis: https://raxe.ai/labs/advisories/RAXE-2026-044 CVE : https://nvd.nist.gov/vuln/detail/CVE-2026-27893 &#32; submitted by &#32; /u/cyberamyntas [link] &#32; [comments]",
+      "published": "2026-03-29T18:32:54+00:00",
+      "score": 44.0,
+      "headline": "CRITICAL vLLM SECURITY FLAW: Trust-Remote-Code Bypass Discovered"
+    },
+    {
       "id": "d79ca1cd34b55140",
       "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round",
       "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
@@ -207,16 +217,6 @@
       "published": "2026-03-30T12:29:59+00:00",
       "score": 43.0,
       "headline": "INDIA MAKES TECH ADVISORIES LEGALLY BINDING"
-    },
-    {
-      "id": "2895b77b0a5b4ecb",
-      "title": "Computer use is now in Claude Code",
-      "url": "https://www.reddit.com/r/singularity/comments/1s7xb09/computer_use_is_now_in_claude_code/",
-      "source": "Reddit r/singularity",
-      "summary": "Claude can open your apps, click through your UI, and test what it built, right from the CLI. Now in research preview on Pro and Max plans. Source: https://x.com/claudeai/status/2038663014098899416 &#32; submitted by &#32; /u/policyweb [link] &#32; [comments]",
-      "published": "2026-03-30T17:31:13+00:00",
-      "score": 42.0,
-      "headline": "CLAUDE CODE GETS COMPUTER CONTROL POWERS"
     },
     {
       "id": "191c4d793f16ec93",
@@ -339,6 +339,26 @@
       "headline": "Sarvam AI Launches 'Chanakya' for National Security"
     },
     {
+      "id": "0991abdab1fded2f",
+      "title": "Stanford and Harvard just dropped the most disturbing AI paper of the year",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7w9mq/stanford_and_harvard_just_dropped_the_most/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "https://arxiv.org/abs/2602.20021 &#32; submitted by &#32; /u/Fun-Yogurt-89 [link] &#32; [comments]",
+      "published": "2026-03-30T16:55:26+00:00",
+      "score": 40.0,
+      "headline": "STANFORD-HARVARD DROP 'MOST DISTURBING AI PAPER OF YEAR'"
+    },
+    {
+      "id": "2017466fcd358ef1",
+      "title": "[R] An attack class that passes every current LLM filter - no payload, no injection signature, no log trace",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7t7w7/r_an_attack_class_that_passes_every_current_llm/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "https://shapingrooms.com/research I've been documenting what I'm calling postural manipulation: a specific class of language that installs an interpretive stance before a task arrives, producing measurably larger directional shifts in model outputs than matched control text of identical length and semantic similarity. The core empirical claim: this is not ordinary context sensitivity. Matched controls produced significantly smaller shifts. Binary decision reversals documented with paired controls across four frontier models using a locked scoring rubric. The mechanism as best I can characterize it from behavioral observation: the model reconstructs its orientation from everything in its context window at each step. Language that proposes how to interpret what follows gets absorbed into the reasoning state differently than language that reports facts. By the time the task arrives, the model is not weighing the primer against other evidence. It is reasoning from a stance the primer alrea",
+      "published": "2026-03-30T15:08:22+00:00",
+      "score": 40.0,
+      "headline": "Postural Manipulation: Invisible LLM Attack Discovered"
+    },
+    {
       "id": "6d6f207f977abc44",
       "title": "South Korea's AI chip startup Rebellions raises $400 million in latest funding round",
       "url": "https://economictimes.indiatimes.com/tech/funding/south-koreas-ai-chip-startup-rebellions-raises-400-million-in-latest-funding-round/articleshow/129902424.cms",
@@ -369,16 +389,6 @@
       "headline": "Indian Startups Ditch Big AI Models for Small Language Models"
     },
     {
-      "id": "5599867429e6d39e",
-      "title": "Claude Code runs Git reset \u2013hard origin/main against project repo every 10 mins",
-      "url": "https://github.com/anthropics/claude-code/issues/40710",
-      "source": "Hacker News",
-      "summary": "Article URL: https://github.com/anthropics/claude-code/issues/40710 Comments URL: https://news.ycombinator.com/item?id=47567969 Points: 18 # Comments: 0",
-      "published": "2026-03-29T22:15:06+00:00",
-      "score": 40.0,
-      "headline": "CLAUDE CODE BUG Wipes Project Repos Every 10 Minutes"
-    },
-    {
       "id": "4318c4715eec4eac",
       "title": "Bluesky\u2019s new app is an AI for customizing your feed",
       "url": "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
@@ -399,6 +409,36 @@
       "headline": "GOOGLE UNVEILS APPFUNCTIONS FOR AI-ANDROID INTEGRATION"
     },
     {
+      "id": "682ec8f86d33dd92",
+      "title": "SycoFact 4B - Open model for detecting sycophancy & confirmation of delusions, 100% on psychosis-bench, generates feedback for model training, trained without human labels",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7ycug/sycofact_4b_open_model_for_detecting_sycophancy/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "I published a model you can use now to help detect sycophantic AI responses. It rejects 100% of the sycophantic delusion affirming responses from psychosis-bench. It also does well on the AISI Harmful Advice, PKU-SafeRLHF, and safety subsets of RewardBench. It's only 4B parameters, so it's of particular use for training your own models as you can filter junk out of your training pipeline before it damages your model. It also optionally generates feedback and reasoning for why the response is good, okay, or bad, so you can use it as a source of consistent feedback that your LLM model can use to generate better responses, similar to the constitutional AI process used to train Claude. The model evaluates intent of conversations, this isn't a blunt safety filter that encourages preachy refusals. It's small enough it can run on a gaming GPU locally. It's got a GGUF checkpoint on hugging face and is available on ollama. You can pull it and run scenarios against it in minutes. Here's an examp",
+      "published": "2026-03-30T18:07:19+00:00",
+      "score": 39.0,
+      "headline": "SycoFact 4B Detects AI Sycophancy... 100% Accuracy"
+    },
+    {
+      "id": "1c0841b36c8fe065",
+      "title": "Bharti Airtel-owned Nxtra to raise $1 billion amid data center boom",
+      "url": "https://economictimes.indiatimes.com/tech/funding/bharti-airtel-owned-nxtra-to-raise-1-billion-amid-data-center-boom/articleshow/129908746.cms",
+      "source": "The Economic Times Tech",
+      "summary": "India's Bharti Airtel-owned Nxtra \u200bData will \u200braise $1 billion from Alpha Wave Global, \u200bCarlyle Global, Anchorage Capital, as well as its parent, in a deal that values the data \u200ccenter \u2060firm \u2060at about $3.1 billion.",
+      "published": "2026-03-30T18:04:42+00:00",
+      "score": 39.0,
+      "headline": null
+    },
+    {
+      "id": "a43c2fafa65c980d",
+      "title": "Tom Brady-backed telehealth AI startup eMed raises $200M, tops $2B valuation",
+      "url": "https://www.mobihealthnews.com/news/tom-brady-backed-telehealth-ai-startup-emed-raises-200m-tops-2b-valuation",
+      "source": "MobiHealthNews",
+      "summary": "Telehealth and digital health company eMed, whose founding chief wellness officer is former NFL quarterback Tom Brady, has closed a $200 million Series A funding round at a more than $2 billion valuation.",
+      "published": "2026-03-30T18:03:30+00:00",
+      "score": 39.0,
+      "headline": "Tom Brady-Backed AI Health Startup Raises $200M"
+    },
+    {
       "id": "2942eae075a0631e",
       "title": "AI facial recognition led to a grandma being wrongly jailed",
       "url": "https://mashable.com/article/clearview-ai-facial-recognition-jail-grandma",
@@ -407,6 +447,16 @@
       "published": "2026-03-30T16:45:43+00:00",
       "score": 39.0,
       "headline": "AI FACIAL RECOGNITION JAILS INNOCENT GRANDMA 5 MONTHS"
+    },
+    {
+      "id": "610fdacae27b535e",
+      "title": "An attack class that passes every current LLM filter - no payload, no injection signature, no log trace",
+      "url": "https://www.reddit.com/r/artificial/comments/1s7t9qs/an_attack_class_that_passes_every_current_llm/",
+      "source": "Reddit r/artificial",
+      "summary": "https://shapingrooms.com/research I published a paper today on something I've been calling postural manipulation. The short version: ordinary language buried in prior context can shift how an AI reasons about a decision before any instruction arrives. No adversarial signature. Nothing that looks like an attack. The model does exactly what it's told, just from a different angle than intended. I know that sounds like normal context sensitivity. It isn't, or at least the effect is much larger than expected. I ran matched controls and documented binary decision reversals across four frontier models. The same question, the same task, two different answers depending on what came before it in the conversation. In agentic systems it compounds. A posture installed early in one agent can survive summarization and arrive at a downstream agent looking like independent expert judgment. No trace of where it came from. The paper is published following coordinated disclosure to Anthropic, OpenAI, Goog",
+      "published": "2026-03-30T15:10:18+00:00",
+      "score": 39.0,
+      "headline": "NEW Attack BYPASSES Every LLM Filter - Zero Trace"
     },
     {
       "id": "9b22a2ac1e784f38",
@@ -447,6 +497,16 @@
       "published": "2026-03-30T12:30:00+00:00",
       "score": 39.0,
       "headline": "Qodo Raises $70M for AI Code Verification"
+    },
+    {
+      "id": "7b6b63511b0f4678",
+      "title": "Shape and Substance: Dual-Layer Side-Channel Attacks on Local Vision-Language Models",
+      "url": "https://arxiv.org/abs/2603.25403",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2603.25403v2 Announce Type: replace-cross Abstract: On-device Vision-Language Models (VLMs) promise data privacy via local execution. However, we show that the architectural shift toward Dynamic High-Resolution preprocessing (e.g., AnyRes) introduces an inherent algorithmic side-channel. Unlike static models, dynamic preprocessing decomposes images into a variable number of patches based on their aspect ratio, creating workload-dependent inputs. We demonstrate a dual-layer attack framework against local VLMs. In Tier 1, an unprivileged attacker can exploit significant execution-time variations using standard unprivileged OS metrics to reliably fingerprint the input's geometry. In Tier 2, by profiling Last-Level Cache (LLC) contention, the attacker can resolve semantic ambiguity within identical geometries, distinguishing between visually dense (e.g., medical X-rays) and sparse (e.g., text documents) content. By evaluating state-of-the-art models such as LLaVA-NeXT and Qwen2-VL, w",
+      "published": "2026-03-30T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "LOCAL VISION AI MODELS VULNERABLE TO SIDE-CHANNEL ATTACKS"
     },
     {
       "id": "4dd435af5355b10c",
@@ -597,6 +657,16 @@
       "published": "2026-03-29T18:50:52+00:00",
       "score": 38.0,
       "headline": "AUTONOMOUS ML AGENT Runs Endless Experiments on Tabular Data"
+    },
+    {
+      "id": "f09b91dbf3fec683",
+      "title": "llama.cpp at 100k stars",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7z7hj/llamacpp_at_100k_stars/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "https://x.com/ggerganov/status/2038632534414680223 https://github.com/ggml-org/llama.cpp &#32; submitted by &#32; /u/jacek2023 [link] &#32; [comments]",
+      "published": "2026-03-30T18:37:17+00:00",
+      "score": 37.0,
+      "headline": "LLAMA.CPP HITS 100K STARS... Community Milestone"
     },
     {
       "id": "a85d695f0c44dfaa",
@@ -967,47 +1037,7 @@
       "published": "2026-03-29T23:07:12+00:00",
       "score": 36.0,
       "headline": "CHINESE TECH GIANTS FLOOD HONG KONG"
-    },
-    {
-      "id": "7348d328606f9c32",
-      "title": "Tech CEOs suddenly love blaming AI for mass job cuts. Why?",
-      "url": "https://www.bbc.com/news/articles/cde5y2x51y8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "More tech leaders are pointing to job cuts caused by AI tools - and a need for more investment cash.",
-      "published": "2026-03-29T23:07:04+00:00",
-      "score": 36.0,
-      "headline": "TECH CEOS BLAME AI FOR MASS JOB CUTS"
-    },
-    {
-      "id": "96721c9e13babfb9",
-      "title": "Implemented TurboQuant in Python over weekend",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s73yby/implemented_turboquant_in_python_over_weekend/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Spent ~2 days implementing this paper: TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate Repo: github.com/yashkc2025/turboquant Most quantization stuff I\u2019ve worked with usually falls into one of these: you need calibration data (k-means, clipping ranges, etc.) or you go naive (uniform quant) and take the quality hit This paper basically says: what if we just\u2026 don\u2019t do either? The main idea is weirdly simple: take your vector hit it with a random rotation now suddenly the coordinates behave nicely (like ~Gaussian-ish) so you can just do optimal 1D quantization per dimension No training. No dataset-specific tuning. Same quantizer works everywhere. There\u2019s also a nice fix for inner products: normal MSE quantization biases dot products (pretty badly at low bits) so they add a 1-bit JL-style correction on the residual -&gt; makes it unbiased Why this is actually useful: KV cache in transformers you can\u2019t calibrate because tokens stream in -&gt; this works online vecto",
-      "published": "2026-03-29T19:09:30+00:00",
-      "score": 36.0,
-      "headline": "Developer Implements TurboQuant Vector Quantization in Python"
-    },
-    {
-      "id": "6aae46d9b626fcea",
-      "title": "[P] Implemented TurboQuant in Python",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s73sbf/p_implemented_turboquant_in_python/",
-      "source": "Reddit r/MachineLearning",
-      "summary": "Spent ~2 days implementing this paper: TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate Repo: github.com/yashkc2025/turboquant Most quantization stuff I\u2019ve worked with usually falls into one of these: you need calibration data (k-means, clipping ranges, etc.) or you go naive (uniform quant) and take the quality hit This paper basically says: what if we just\u2026 don\u2019t do either? The main idea is weirdly simple: take your vector hit it with a random rotation now suddenly the coordinates behave nicely (like ~Gaussian-ish) so you can just do optimal 1D quantization per dimension No training. No dataset-specific tuning. Same quantizer works everywhere. There\u2019s also a nice fix for inner products: normal MSE quantization biases dot products (pretty badly at low bits) so they add a 1-bit JL-style correction on the residual -&gt; makes it unbiased Why this is actually useful: KV cache in transformers you can\u2019t calibrate because tokens stream in -&gt; this works online vecto",
-      "published": "2026-03-29T19:03:15+00:00",
-      "score": 36.0,
-      "headline": "TurboQuant Vector Quantization Gets Python Implementation"
-    },
-    {
-      "id": "10443e96895a5d11",
-      "title": "Anyone else following the drama behind the TurboQuant paper?",
-      "url": "https://www.reddit.com/r/artificial/comments/1s7xkm6/anyone_else_following_the_drama_behind_the/",
-      "source": "Reddit r/artificial",
-      "summary": "A few hours ago, the first author of a paper that played a significant role in the TQ paper posted about some ongoing issues: In May 2025, our emails directly raised the theoretical and empirical issues; Majid wrote that he had informed his co-authors. During ICLR review, reviewers also asked for clarification about random rotation and the relation to RaBitQ. On March 26, 2026, we formally raised these concerns again to all authors and were told that corrections would wait until after the ICLR 2026 conference takes place; we were also told that they would not acknowledge the structural similarity regarding the Johnson-Lindenstrauss transformation. We do not consider that acceptable given the present level of public promotion and community confusion. We are posting this comment so that the community has an accurate public record. We request that the authors publicly and promptly clarify the method-level relationship between TurboQuant and RaBitQ, the theory comparison, and the exact exp",
-      "published": "2026-03-30T17:40:05+00:00",
-      "score": 35.0,
-      "headline": "DRAMA: TurboQuant Paper Under Fire for Research Issues"
     }
   ],
-  "generated_at": "2026-03-30T17:52:44.818435"
+  "generated_at": "2026-03-30T18:55:20.531161"
 }
