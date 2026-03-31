@@ -409,6 +409,16 @@
       "headline": "CALIFORNIA DEFIES TRUMP... New AI Regulations Coming"
     },
     {
+      "id": "212c7170a7bba3f3",
+      "title": "AI-Powered Facial Mask Removal Is Not Suitable For Biometric Identification",
+      "url": "https://arxiv.org/abs/2603.27747",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2603.27747v1 Announce Type: cross Abstract: Recently, crowd-sourced online criminal investigations have used generative-AI to enhance low-quality visual evidence. In one high-profile case, social-media users circulated an \"AI-unmasked\" image of a federal agent involved in a fatal shooting, fueling a wide-spread misidentification. In response to this and similar incidents, we conducted a large-scale analysis evaluating the efficacy and risks of commercial AI-powered facial unmasking, specifically assessing whether the resulting faces can be reliably matched to true identities.",
+      "published": "2026-03-31T04:00:00+00:00",
+      "score": 41.0,
+      "headline": "AI FACIAL MASK REMOVAL FAILS BIOMETRIC ID... PRIVACY RISK"
+    },
+    {
       "id": "4e8f153af112c9e0",
       "title": "Coatue Projected $1.995T Valuation for Anthropic in 2030",
       "url": "https://www.newcomer.co/p/coatue-projected-1995-trillion-valuation",
@@ -489,6 +499,16 @@
       "headline": null
     },
     {
+      "id": "91f9ea82259bb9f5",
+      "title": "France's Mistral raises $830 million in debt for AI data centre build-up",
+      "url": "https://economictimes.indiatimes.com/tech/funding/frances-mistral-raises-830-million-in-debt-for-ai-data-centre-build-up/articleshow/129892887.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The deal, set to be announced on Monday, marks Mistral's first debt \u200braising and underscores growing investor confidence in European AI firms as \u200bthey seek to challenge the dominance of US tech giants like Microsoft, Google and Amazon in cloud computing and AI \u200bservices.",
+      "published": "2026-03-30T06:16:14+00:00",
+      "score": 41.0,
+      "headline": "MISTRAL RAISES $830M in Debt for AI Data Centers"
+    },
+    {
       "id": "b670ae2eda601437",
       "title": "Why OpenAI really shut down Sora",
       "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
@@ -539,6 +559,16 @@
       "headline": "SUPPLY CHAIN ATTACK Compromises AI Library... Keys Stolen"
     },
     {
+      "id": "96002d68f4bf7f60",
+      "title": "Microsoft commits $1 billion to Thailand for cloud and AI infrastructure",
+      "url": "https://thenextweb.com/news/microsoft-1-billion-thailand-cloud-ai-infrastructure",
+      "source": "The Next Web",
+      "summary": "Brad Smith met Prime Minister Anutin Charnvirakul in Bangkok to announce the 2026-2028 investment spanning data centre infrastructure, cybersecurity, sovereign technology, and AI skills training for millions of Thai workers. Microsoft has announced a commitment of more than $1 billion in cloud and AI infrastructure in Thailand between 2026 and 2028, the company\u2019s largest publicly [&hellip;] This story continues at The Next Web",
+      "published": "2026-03-31T08:22:08+00:00",
+      "score": 40.0,
+      "headline": "MICROSOFT COMMITS $1 BILLION To Thailand For AI Infrastructure"
+    },
+    {
       "id": "2b2f16883bea13b2",
       "title": "UK chip start-up Fractile seeks to raise $200mn to challenge Nvidia",
       "url": "https://www.ft.com/content/07590da1-ee27-421f-b60a-387f8c6f4b61",
@@ -547,6 +577,16 @@
       "published": "2026-03-31T04:00:18+00:00",
       "score": 40.0,
       "headline": "UK Chip Startup Fractile Seeks $200M... Challenge To NVIDIA"
+    },
+    {
+      "id": "750191b89c414a3f",
+      "title": "Kill-Chain Canaries: Stage-Level Tracking of Prompt Injection Across Attack Surfaces and Model Safety Tiers",
+      "url": "https://arxiv.org/abs/2603.28013",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2603.28013v1 Announce Type: cross Abstract: We present a stage-decomposed analysis of prompt injection attacks against five frontier LLM agents. Prior work measures task-level attack success rate (ASR); we localize the pipeline stage at which each model's defense activates. We instrument every run with a cryptographic canary token (SECRET-[A-F0-9]{8}) tracked through four kill-chain stages -- Exposed, Persisted, Relayed, Executed -- across four attack surfaces and five defense conditions (764 total runs, 428 no-defense attacked). Our central finding is that model safety is determined not by whether adversarial content is seen, but by whether it is propagated across pipeline stages. Concretely: (1) in our evaluation, exposure is 100% for all five models -- the safety gap is entirely downstream; (2) Claude strips injections at write_memory summarization (0/164 ASR), while GPT-4o-mini propagates canaries without loss (53% ASR, 95% CI: 41--65%); (3) DeepSeek exhibits 0% ASR on memory",
+      "published": "2026-03-31T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "KILL-CHAIN CANARIES Track Prompt Injection Across LLM Tiers"
     },
     {
       "id": "5dec6cd52ebb8b1e",
@@ -909,6 +949,16 @@
       "headline": "ALL 11 XAI CO-FOUNDERS FLEE MUSK'S AI COMPANY"
     },
     {
+      "id": "52b4f9c9ae54824a",
+      "title": "Raspberry Pi profit surges as AI boom lifts demand",
+      "url": "https://www.ft.com/content/5c167591-80bb-4290-ae66-7d04112cbd1c",
+      "source": "Financial Times Tech",
+      "summary": "Sales growth for UK computer company particularly strong in China and US",
+      "published": "2026-03-31T08:25:19+00:00",
+      "score": 38.0,
+      "headline": "RASPBERRY PI PROFIT SURGES As AI Boom Lifts Demand"
+    },
+    {
       "id": "80ccffa4628a4a91",
       "title": "Gnani ai raises $10 million from Aavishkaar Capital to scale voice AI models globally",
       "url": "https://economictimes.indiatimes.com/tech/funding/gnani-ai-raises-10-million-from-aavishkaar-capital-to-scale-voice-ai-models-globally/articleshow/129917999.cms",
@@ -947,47 +997,7 @@
       "published": "2026-03-31T00:30:00+00:00",
       "score": 38.0,
       "headline": "India Moves to Regulate User-Posted Online News"
-    },
-    {
-      "id": "278d5eff7e678026",
-      "title": "David Sacks' new role shaping Trump's AI agenda",
-      "url": "https://www.axios.com/2026/03/30/david-sacks-trump-ai-agenda-plan",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.axios.com/2026/03/30/david-sacks-trump-ai-agenda-plan Comments URL: https://news.ycombinator.com/item?id=47581094 Points: 4 # Comments: 0",
-      "published": "2026-03-30T23:49:16+00:00",
-      "score": 38.0,
-      "headline": "DAVID SACKS SHAPES TRUMP'S AI AGENDA"
-    },
-    {
-      "id": "2b0df14e13edf25c",
-      "title": "Built a controllable computer-use VLM harness for Civilization VI (voice & natural language strategy \u2192 UI actions)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s867mp/built_a_controllable_computeruse_vlm_harness_for/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "I built civStation, an open-source, controllable computer-use stack / VLM harness for Civilization VI. The goal was not just to make an agent play Civ6, but to build a loop where the model can observe the game screen, interpret high-level strategy, plan actions, execute them through mouse and keyboard, and be interrupted or guided live through human-in-the-loop (HitL) or MCP. Instead of treating Civ6 as a low-level UI automation problem, I wanted to explore strategy-level control. You can give inputs like: \u201cexpand to the east\u201d \u201cfocus on economy this turn\u201d \u201caim for a science victory\u201d and the system translates that intent into actual in-game actions. At a high level, the loop looks like this: screen observation \u2192 strategy interpretation \u2192 action planning \u2192 execution \u2192 human override This felt more interesting than just replicating human clicks, because it shifts the interface upward \u2014 from direct execution to intent expression and controllable delegation. Most computer-use demos focus on",
-      "published": "2026-03-30T22:58:25+00:00",
-      "score": 38.0,
-      "headline": "CivStation: VLM Agent Masters Civilization VI with Voice Commands"
-    },
-    {
-      "id": "e25248360ce9f763",
-      "title": "15% of Americans say they\u2019d be willing to work for an AI boss",
-      "url": "https://techcrunch.com/2026/03/30/ai-boss-supervisor-us-quinnipiac-poll/",
-      "source": "TechCrunch AI",
-      "summary": "Your human manager may soon be a chatbot. Across organizations, AI is being used to replace layers of management in what some are calling \"The Great Flattening.\"",
-      "published": "2026-03-30T21:39:51+00:00",
-      "score": 38.0,
-      "headline": "15% of Americans Would Work for AI Boss"
-    },
-    {
-      "id": "9ddbe7869aea4c86",
-      "title": "Qwen3.5-Omni: Meetings that build projects instantly.",
-      "url": "https://www.reddit.com/r/singularity/comments/1s82rtb/qwen35omni_meetings_that_build_projects_instantly/",
-      "source": "Reddit r/singularity",
-      "summary": "Imagine a camera in a meeting: discussions become code via Qwen3.5-Omni. This Vibe Coding is the future of enterprise productivity. &#32; submitted by &#32; /u/Old_Investment7497 [link] &#32; [comments]",
-      "published": "2026-03-30T20:45:13+00:00",
-      "score": 38.0,
-      "headline": "Qwen3.5-Omni Turns Meetings Into Code Instantly"
     }
   ],
-  "generated_at": "2026-03-31T08:07:55.904251"
+  "generated_at": "2026-03-31T10:03:24.908407"
 }
