@@ -219,44 +219,14 @@
       "headline": "DRONE STRIKES HIT AWS DATA CENTERS... AI Infrastructure Under Attack"
     },
     {
-      "id": "88cce5f5fe218534",
-      "title": "China announces its first automated manufacturing line capable of producing 10K humanoid robots per year - 1 robot every 30 minutes",
-      "url": "https://www.reddit.com/r/singularity/comments/1s79p8i/china_announces_its_first_automated_manufacturing/",
-      "source": "Reddit r/singularity",
-      "summary": "UBTECH, AgiBot, Unitree seem to be producing humanoid robots at similar output rates now. Starting today this one appears to be a new contender company which brand hasn\u2019t been disclosed by cctv or China pulss? &#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
-      "published": "2026-03-29T22:55:39+00:00",
-      "score": 45.0,
-      "headline": "CHINA LAUNCHES 10K HUMANOID ROBOT FACTORY"
-    },
-    {
-      "id": "f55924ed000dfc54",
-      "title": "China\u2019s daily token usage just hit 140 TRILLION (up 1000x in 2 years). Is the \"OpenClaw\" hype just a massive token-sink to hide compute overcapacity and feed the AI bubble?",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1s7vuvv/chinas_daily_token_usage_just_hit_140_trillion_up/",
-      "source": "Reddit r/OpenAI",
-      "summary": "I was reading some recent Chinese tech news, and the latest stats on token consumption are absolutely insane. They are calling it a &quot;Big Bang&quot; in the token economy. Here is the breakdown of the numbers: March average daily token calls: Broke 140 trillion. Compared to early 2024 (100 billion): That\u2019s a 1000x increase in just two years. Compared to late 2025 (100 trillion): A 40% jump in just the last three months alone. A massive driver for this exponential, off-the-charts growth is being attributed to the sudden, explosive popularity of OpenClaw. But this got me thinking about a different angle, and I'm curious if anyone else is seeing this. What if the massive push and hype behind OpenClaw isn't actually about solving real-world problems or &quot;headaches&quot;? Over the last couple of years, tech giants and massive server farms have been overbuying GPUs and aggressively hoarding compute. We've seen a massive over-demand for infrastructure. What if we've actually hit a wall",
-      "published": "2026-03-30T16:41:17+00:00",
+      "id": "d0442a076785aa77",
+      "title": "vLLM CVE-2026-27893, `--trust-remote-code=False` is silently ignored for Nemotron-VL and Kimi-K25 models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s72zog/vllm_cve202627893_trustremotecodefalse_is/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Two vLLM model files hardcode `trust_remote_code=True`, overriding an explicit `False` setting with no warning or log entry. A malicious Hugging Face repository targeting either architecture can achieve code execution on the inference server. This is the third time the same vulnerability class has surfaced in vLLM, but in a different code path each time. Versions 0.10.1 through 0.17.x are affected; 0.18.0 contains the fix. Detailed analysis: https://raxe.ai/labs/advisories/RAXE-2026-044 CVE : https://nvd.nist.gov/vuln/detail/CVE-2026-27893 &#32; submitted by &#32; /u/cyberamyntas [link] &#32; [comments]",
+      "published": "2026-03-29T18:32:54+00:00",
       "score": 44.0,
-      "headline": "CHINA HITS 140 TRILLION DAILY TOKENS... Is It Just Hype?"
-    },
-    {
-      "id": "d168c29a5ab0b9b8",
-      "title": "DeepSeek goes down for seven hours in biggest outage since debut",
-      "url": "https://economictimes.indiatimes.com/tech/technology/deepseek-goes-down-for-seven-hours-in-biggest-outage-since-debut/articleshow/129893900.cms",
-      "source": "The Economic Times Tech",
-      "summary": "DeepSeek\u2019s chatbot in China experienced a rare seven-hour outage, disrupting users overnight. The startup deployed multiple updates to fix performance issues, with causes unclear. Normally reliable at 99% uptime, the AI firm has sparked speculation about a major update, as rivals like Alibaba, ByteDance and Tencent release new AI services.",
-      "published": "2026-03-30T07:01:15+00:00",
-      "score": 44.0,
-      "headline": "DEEPSEEK DOWN 7 HOURS... BIGGEST OUTAGE YET"
-    },
-    {
-      "id": "94226dd6a435c504",
-      "title": "DeepSeek Goes Down for Seven Hours in Biggest Outage Since Debut",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-30/deepseek-probes-hours-long-ai-outage-after-users-report-errors",
-      "source": "Bloomberg Technology",
-      "summary": "DeepSeek\u2019s chatbot suffered a major outage of more than seven hours overnight in China, forcing the AI pioneer to deploy several updates to rectify the issue.",
-      "published": "2026-03-30T01:52:29+00:00",
-      "score": 44.0,
-      "headline": "DEEPSEEK CRASHES FOR 7 HOURS... CHINA AI GIANT'S BIGGEST OUTAGE"
+      "headline": "CRITICAL vLLM SECURITY FLAW: Trust-Remote-Code Bypass Discovered"
     },
     {
       "id": "03d1af0ecfc53872",
@@ -269,26 +239,6 @@
       "headline": "ELI LILLY's $2B AI DRUG DEAL with Hong Kong Biotech"
     },
     {
-      "id": "8baf2b0a75d5796e",
-      "title": "Qwen3.5 Omni Plus World Premiere",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s81lw9/qwen35_omni_plus_world_premiere/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Qwen3.5-Omni Plus was released and the omni-modal AI race just got serious in my humble opinion. (Not in AI's opinion) Was also talking to Alibaba's team and they have high hopes with this model and the specs are genuinely impressive. What it is: A single model that natively handles text, image, audio, and video; not bolted together, built that way from the ground up. The numbers: Handles up to 10 hours of audio or 400 seconds of 720p video natively Trained on 100M+ hours of data Recognizes 113 languages (speech), speaks 36 Beats Gemini 3.1 Pro on audio benchmarks, matches it on audio-visual understanding The feature worth talking about: Audio-Visual Vibe Coding. Point your camera at yourself, describe what you want to build, and it generates a working website or game. That's a new interaction paradigm if it actually works as advertised. Real-time stuff: Fine-grained voice control (emotion, pace, volume) Smart turn-taking that filters out noise and reads actual intent Voice cloning fro",
-      "published": "2026-03-30T20:02:50+00:00",
-      "score": 43.0,
-      "headline": "QWEN3.5 OMNI PLUS RELEASED... China's Multimodal Breakthrough"
-    },
-    {
-      "id": "9c631bb3db457a43",
-      "title": "Qwen 3.6 spotted!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7zy3u/qwen_36_spotted/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "https://openrouter.ai/qwen/qwen3.6-plus-preview &#32; submitted by &#32; /u/Namra_7 [link] &#32; [comments]",
-      "published": "2026-03-30T19:03:38+00:00",
-      "score": 43.0,
-      "headline": "QWEN 3.6 SPOTTED... New Chinese Model Emerges"
-    },
-    {
       "id": "5f1b9d7eb161e994",
       "title": "India proposes making government advisories legally binding on tech giants",
       "url": "https://economictimes.indiatimes.com/tech/technology/india-proposes-making-government-advisories-legally-binding-on-tech-giants/articleshow/129901012.cms",
@@ -297,6 +247,46 @@
       "published": "2026-03-30T12:29:59+00:00",
       "score": 43.0,
       "headline": "INDIA MAKES TECH ADVISORIES LEGALLY BINDING"
+    },
+    {
+      "id": "f32ad739368e6d13",
+      "title": "Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost",
+      "url": "https://www.reddit.com/r/artificial/comments/1s738xf/nicolas_carlini_672k_citations_on_google_scholar/",
+      "source": "Reddit r/artificial",
+      "summary": "Link: https://m.youtube.com/watch?v=1sd26pWhfmg The Linux exploit is especially interesting because it was introduced in 2003 and was never found until now. It\u2019s also a major security issue because it allows attackers to steal the admin key. It was a buffer overflow error, which are so hard to do that Carlini has never done it before. He also says he expects LLMs to only get better overtime, which is likely true if Mythos lives up to the rumors. here are his Wikipedia and Google Scholar pages in case you doubt his credibility: https://en.wikipedia.org/wiki/Nicholas_Carlini https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=carlini&amp;btnG= &#32; submitted by &#32; /u/Tolopono [link] &#32; [comments]",
+      "published": "2026-03-29T18:42:39+00:00",
+      "score": 43.0,
+      "headline": "CLAUDE OUTPERFORMS TOP SECURITY RESEARCHER... Makes $3.7M Exploiting Contracts"
+    },
+    {
+      "id": "56442ace33ab600d",
+      "title": "Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost",
+      "url": "https://www.reddit.com/r/singularity/comments/1s734n6/nicolas_carlini_672k_citations_on_google_scholar/",
+      "source": "Reddit r/singularity",
+      "summary": "Link: https://m.youtube.com/watch?v=1sd26pWhfmg The Linux exploit is especially interesting because it was introduced in 2003 and was never found until now. It was a buffer overflow error, which are so hard to do that Carlini has never done it before. He also says he expects LLMs to only get better overtime, which is likely true if Mythos lives up to the rumors. here are his Wikipedia and Google Scholar pages in case you doubt his credibility: https://en.wikipedia.org/wiki/Nicholas_Carlini https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=carlini&amp;btnG= &#32; submitted by &#32; /u/Tolopono [link] &#32; [comments]",
+      "published": "2026-03-29T18:38:11+00:00",
+      "score": 43.0,
+      "headline": "AI SECURITY BREAKTHROUGH: Claude Finds 23-Year-Old Linux Exploit"
+    },
+    {
+      "id": "eea958c7374794ae",
+      "title": "Why OpenAI killed Sora",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902368/openai-sora-dead-ai-video-generation-competition",
+      "source": "The Verge AI",
+      "summary": "On Tuesday morning, everything was business as usual at OpenAI. By the end of the day, the company had announced that it would scrap its video-generation app, Sora, and reverse plans for video generation inside ChatGPT; it would wind down a $1 billion Disney deal; it would shuffle the role of a high-level executive; and [&#8230;]",
+      "published": "2026-03-28T12:00:00+00:00",
+      "score": 43.0,
+      "headline": "OPENAI KILLS SORA: Video Generation Dream Dies"
+    },
+    {
+      "id": "638ef7eb08f3f81e",
+      "title": "Activist Palliser Targets MSG Maker Ajinomoto in AI Hunt",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-31/activist-palliser-targets-msg-maker-ajinomoto-in-ai-value-hunt",
+      "source": "Bloomberg Technology",
+      "summary": "UK-based activist fund Palliser Capital has expanded its hunt for overlooked AI beneficiaries in Japan with a stake in seasoning maker Ajinomoto Co., according to people familiar with the matter.",
+      "published": "2026-03-31T00:12:40+00:00",
+      "score": 42.0,
+      "headline": "UK Fund Targets Japan's Ajinomoto in AI Investment Hunt"
     },
     {
       "id": "f5679340a84de3b3",
@@ -339,16 +329,6 @@
       "headline": "US HOUSE ADVANCES BILL - Block AI Chips to China"
     },
     {
-      "id": "96ab33dbd939eae8",
-      "title": "Biren Tech\u2019s Revenue Triples on China\u2019s Demand for AI Chips",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-30/biren-tech-s-revenue-triples-on-china-s-demand-for-ai-chips",
-      "source": "Bloomberg Technology",
-      "summary": "Shanghai Biren Technology Co.\u2019s annual revenue more than tripled, driven by China\u2019s surging demand for artificial intelligence chips.",
-      "published": "2026-03-30T14:10:00+00:00",
-      "score": 42.0,
-      "headline": "Biren Tech Revenue TRIPLES as China AI Chip Demand Explodes"
-    },
-    {
       "id": "1f6a3283c990374e",
       "title": "Israel targets Iran's leaders with lethal expertise using new AI platform",
       "url": "https://www.washingtonpost.com/world/2026/03/30/iran-israel-war-killings/",
@@ -367,16 +347,6 @@
       "published": "2026-03-30T03:22:07+00:00",
       "score": 42.0,
       "headline": "AI BURNOUT CRISIS: Users Report Mental Exhaustion from 'Babysitting' Models"
-    },
-    {
-      "id": "387551700b69570d",
-      "title": "Kimi K2.6 will drop in the next 2 weeks, K3 is WIP and will be huge",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6stgl/kimi_k26_will_drop_in_the_next_2_weeks_k3_is_wip/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Hey all, heard from someone at Moonshot that Kimi K2.6 will be released in the next 10-15 days and will be a small improvement, and K3 is being worked on and the goal will be to match American models in terms of number of parameters to be almost as good as them. Exciting! &#32; submitted by &#32; /u/No-Thought-4995 [link] &#32; [comments]",
-      "published": "2026-03-29T11:39:49+00:00",
-      "score": 42.0,
-      "headline": "BREAKING: Kimi K2.6 Drops Next Week, K3 Aims to Match US Models"
     },
     {
       "id": "c0a560f7e45e3fdb",
@@ -409,6 +379,46 @@
       "headline": "STANFORD: AI Solves Vision Tasks WITHOUT Images"
     },
     {
+      "id": "4e8f153af112c9e0",
+      "title": "Coatue Projected $1.995T Valuation for Anthropic in 2030",
+      "url": "https://www.newcomer.co/p/coatue-projected-1995-trillion-valuation",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.newcomer.co/p/coatue-projected-1995-trillion-valuation Comments URL: https://news.ycombinator.com/item?id=47581394 Points: 1 # Comments: 0",
+      "published": "2026-03-31T00:31:23+00:00",
+      "score": 41.0,
+      "headline": "COATUE PROJECTS $2 TRILLION ANTHROPIC VALUATION BY 2030"
+    },
+    {
+      "id": "bdfeaf897e56731c",
+      "title": "The AI burn out: How and why is brain fry entering the lexicon of AI coders",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/the-ai-burn-out-how-and-why-is-brain-fry-entering-the-lexicon-of-ai-coders/articleshow/129907832.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Developers are experiencing burnout from intense AI coding sessions. Tools like Claude Code and OpenAI's Codex are generating vast amounts of code, overwhelming even top engineers. This 'brain fry' leads to mental fatigue and slower decision-making. Some researchers have quit leading AI firms citing exhaustion. Organizations are exploring strategies to mitigate this growing issue.",
+      "published": "2026-03-31T00:31:00+00:00",
+      "score": 41.0,
+      "headline": "AI CODING BURNOUT: 'Brain Fry' Hits Top Engineers"
+    },
+    {
+      "id": "27e035cfc8bbd6ad",
+      "title": "Gavin Newsom signs executive order to strengthen AI protections, responsible use",
+      "url": "https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/ Comments URL: https://news.ycombinator.com/item?id=47581282 Points: 4 # Comments: 0",
+      "published": "2026-03-31T00:16:47+00:00",
+      "score": 41.0,
+      "headline": "NEWSOM SIGNS AI PROTECTION ORDER AS TRUMP ROLLS BACK"
+    },
+    {
+      "id": "a69ecb288baf75a6",
+      "title": "OpenAI Codex had a critical command injection flaw: unsanitized branch names allowed GitHub OAuth token theft",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1s859xk/openai_codex_had_a_critical_command_injection/",
+      "source": "Reddit r/OpenAI",
+      "summary": "BeyondTrust Phantom Labs disclosed a command injection vulnerability in OpenAI Codex on March 30. The branch name parameter was passed directly into shell commands during container setup without sanitization. A semicolon in the branch name gave arbitrary code execution. The attack chain: create a malicious branch via GitHub API, replace spaces with ${IFS} to bypass GitHub's branch naming rules, append Unicode ideographic spaces to hide the payload in the UI. Any Codex user who ran a task against that branch had their GitHub OAuth token exfiltrated. Zero interaction needed for the automated variant. Affected ChatGPT website, Codex CLI, SDK, and IDE extension. OpenAI classified it P1 Critical and patched by Feb 5, 2026. Full technical breakdown with the IFS bypass, Unicode obfuscation, and the u/codex code review attack path: https://blog.barrack.ai/openai-codex-command-injection-github-token/ &#32; submitted by &#32; /u/LostPrune2143 [link] &#32; [comments]",
+      "published": "2026-03-30T22:20:02+00:00",
+      "score": 41.0,
+      "headline": "CRITICAL FLAW: OpenAI Codex Exposed GitHub Tokens"
+    },
+    {
       "id": "46949978f97f2989",
       "title": "Musk pitched Zuckerberg on his unsolicited bid for OpenAI's IP, newly unsealed court documents show",
       "url": "https://www.reddit.com/r/OpenAI/comments/1s7xgfk/musk_pitched_zuckerberg_on_his_unsolicited_bid/",
@@ -437,26 +447,6 @@
       "published": "2026-03-30T16:58:03+00:00",
       "score": 41.0,
       "headline": "Insilico Medicine Signs $2.75B AI Drug Deal with Eli Lilly"
-    },
-    {
-      "id": "048b554913475f80",
-      "title": "Students Are Now Renting Smart Glasses to Cheat on Exams",
-      "url": "https://gizmodo.com/smart-glasses-cheating-exams-2000739723",
-      "source": "Gizmodo",
-      "summary": "In China, there's a growing market for renting smart glasses to help you cheat on your tests.",
-      "published": "2026-03-30T15:35:29+00:00",
-      "score": 41.0,
-      "headline": "Chinese Students RENT Smart Glasses to Cheat on Exams"
-    },
-    {
-      "id": "f0b5141298a1051f",
-      "title": "Qwen3.5 Omni - Qwen\u2019s latest generation of fully omnimodal LLM",
-      "url": "https://www.reddit.com/r/singularity/comments/1s7rcwr/qwen35_omni_qwens_latest_generation_of_fully/",
-      "source": "Reddit r/singularity",
-      "summary": "Qwen3.5-Omni is Qwen\u2019s latest generation of fully omnimodal LLM, supporting the understanding of text, images, audio, and audio-visual content. Both the Thinker and Talker in Qwen3.5-Omni adopt the Hybrid-Attention MoE. Qwen3.5-Omni series includes Instruct versions in three sizes: Plus, Flash, and Light, with support for 256k long-context input. The model can process more than 10 hours of audio input and over 400 seconds of 720P audio-visual input at 1 FPS. It is natively pretrained in an omnimodal manner on massive amounts of text, visual data, and more than 100 million hours of audio-visual data, demonstrating outstanding full-modality perception and generation capabilities. Compared with Qwen3-Omni, Qwen3.5-Omni offers significantly enhanced multilingual capabilities, supporting speech recognition in 113 languages/dialects and speech generation in 36 languages/dialects. https://qwen.ai/blog?id=qwen3.5-omni Offline Demo: https://huggingface.co/spaces/Qwen/Qwen3.5-Omni-Offline-Demo O",
-      "published": "2026-03-30T13:58:49+00:00",
-      "score": 41.0,
-      "headline": "Qwen3.5 Omni Launches - Full Multimodal AI Model"
     },
     {
       "id": "c6ab5b9d90c24cfa",
@@ -499,14 +489,24 @@
       "headline": "Sarvam AI Launches 'Chanakya' for National Security"
     },
     {
-      "id": "7eeb0252662834c0",
-      "title": "How to assess China\u2019s real chance of winning AI race against US",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3347763/how-assess-chinas-real-chance-winning-ai-race-against-us?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "In January, a top Chinese AI researcher told an industry summit in Beijing there was less than a 20 per cent chance of any Chinese company surpassing a leading US artificial intelligence firm in the next three to five years. The remark by Lin Junyang, until recently a technical leader working on Qwen, one of China\u2019s most capable open-source AI models under Alibaba (which owns the South China Morning Post), made headlines. But much of the commentary missed a more important question Lin posed:...",
-      "published": "2026-03-29T08:30:09+00:00",
+      "id": "06015a166d6d217f",
+      "title": "[D] Litellm supply chain attack and what it means for api key management",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s62taq/d_litellm_supply_chain_attack_and_what_it_means/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "If you missed it, litellm versions 1.82.7 and 1.82.8 on pypi got compromised. malicious .pth file that runs on every python process start, no import needed. it scrapes ssh keys, aws/gcp creds, k8s secrets, crypto wallets, env vars (aka all your api keys). karpathy posted about it. the attacker got in through trivy (a vuln scanner ironically) and stole litellm's publish token. 2000+ packages depend on litellm downstream including dspy and mlflow. the only reason anyone caught it was because the malicious code had a fork bomb bug that crashed machines. This made me rethink how i manage model api keys. having keys for openai, anthropic, google, deepseek all sitting in .env files across projects is a massive attack surface. switched to running everything through zenmux a while back so theres only one api key to rotate if something goes wrong. not a perfect solution but at least i dont have 6 different provider keys scattered everywhere. Run pip show litellm right now. if youre on anything ",
+      "published": "2026-03-28T15:07:16+00:00",
       "score": 41.0,
-      "headline": "China's AI Race Chances: Just 20% Say Experts"
+      "headline": "SUPPLY CHAIN ATTACK Compromises AI Library... Keys Stolen"
+    },
+    {
+      "id": "5dec6cd52ebb8b1e",
+      "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+      "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+      "source": "TechCrunch AI",
+      "summary": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
+      "published": "2026-03-30T23:08:12+00:00",
+      "score": 40.0,
+      "headline": "LiteLLM DITCHES Delve After Credential-Stealing Malware Attack"
     },
     {
       "id": "21995d50b946d176",
@@ -517,6 +517,36 @@
       "published": "2026-03-30T19:02:14+00:00",
       "score": 40.0,
       "headline": "CLAUDE MYTHOS LEAKED... 'Most Powerful AI Ever'"
+    },
+    {
+      "id": "0991abdab1fded2f",
+      "title": "Stanford and Harvard just dropped the most disturbing AI paper of the year",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7w9mq/stanford_and_harvard_just_dropped_the_most/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "https://arxiv.org/abs/2602.20021 &#32; submitted by &#32; /u/Fun-Yogurt-89 [link] &#32; [comments]",
+      "published": "2026-03-30T16:55:26+00:00",
+      "score": 40.0,
+      "headline": "STANFORD-HARVARD DROP 'MOST DISTURBING AI PAPER OF YEAR'"
+    },
+    {
+      "id": "2017466fcd358ef1",
+      "title": "[R] An attack class that passes every current LLM filter - no payload, no injection signature, no log trace",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7t7w7/r_an_attack_class_that_passes_every_current_llm/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "https://shapingrooms.com/research I've been documenting what I'm calling postural manipulation: a specific class of language that installs an interpretive stance before a task arrives, producing measurably larger directional shifts in model outputs than matched control text of identical length and semantic similarity. The core empirical claim: this is not ordinary context sensitivity. Matched controls produced significantly smaller shifts. Binary decision reversals documented with paired controls across four frontier models using a locked scoring rubric. The mechanism as best I can characterize it from behavioral observation: the model reconstructs its orientation from everything in its context window at each step. Language that proposes how to interpret what follows gets absorbed into the reasoning state differently than language that reports facts. By the time the task arrives, the model is not weighing the primer against other evidence. It is reasoning from a stance the primer alrea",
+      "published": "2026-03-30T15:08:22+00:00",
+      "score": 40.0,
+      "headline": "Postural Manipulation: Invisible LLM Attack Discovered"
+    },
+    {
+      "id": "6d6f207f977abc44",
+      "title": "South Korea's AI chip startup Rebellions raises $400 million in latest funding round",
+      "url": "https://economictimes.indiatimes.com/tech/funding/south-koreas-ai-chip-startup-rebellions-raises-400-million-in-latest-funding-round/articleshow/129902424.cms",
+      "source": "The Economic Times Tech",
+      "summary": "South Korean AI chip startup Rebellions has secured $400 million in new funding. This investment values the company at approximately $2.34 billion. Rebellions is now focused on expanding its presence in the United States. The company will also scale up production of its Rebel100 platform. This funding marks a significant step towards a future IPO.",
+      "published": "2026-03-30T13:25:35+00:00",
+      "score": 40.0,
+      "headline": "KOREAN AI CHIP STARTUP Rebellions Raises $400M"
     },
     {
       "id": "35114f2353b47c60",
@@ -587,6 +617,26 @@
       "published": "2026-03-28T15:02:20+00:00",
       "score": 40.0,
       "headline": "CLAUDE Takes Control of Your Computer... Full Desktop Access"
+    },
+    {
+      "id": "a38249b988030b50",
+      "title": "ETtech Explainer: What Emergent\u2019s ARR reveals about AI\u2019s numbers game",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ettech-explainer-what-emergents-arr-reveals-about-ais-numbers-game/articleshow/129907652.cms",
+      "source": "The Economic Times Tech",
+      "summary": "A debate over how vibe-coding startup Emergent \u2014 backed by the likes of SoftBank, Lightspeed, and Khosla Ventures \u2014 has reported its numbers has put the spotlight on the ARR metric of AI startups. In February, Emergent said it had hit $100 million in ARR within just eight months of launch, but a closer look at what ARR actually means reveals a more complicated picture.",
+      "published": "2026-03-31T00:30:00+00:00",
+      "score": 39.0,
+      "headline": "Emergent's ARR Reveals AI Startup Numbers Game"
+    },
+    {
+      "id": "fe99bca784ef9c79",
+      "title": "ETtech Explainer: What Emergent\u2019s ARR reveals about AI\u2019s numbers game",
+      "url": "https://economictimes.indiatimes.com/tech/startups/ettech-explainer-what-emergents-arr-reveals-about-ais-numbers-game/articleshow/129907143.cms",
+      "source": "The Economic Times Tech",
+      "summary": "A debate over how vibe-coding startup Emergent \u2014 backed by the likes of SoftBank, Lightspeed, and Khosla Ventures \u2014 has reported its numbers has put the spotlight on the ARR metric of AI startups. In February, Emergent said it had hit $100 million in ARR within just eight months of launch, but a closer look at what ARR actually means reveals a more complicated picture.",
+      "published": "2026-03-31T00:30:00+00:00",
+      "score": 39.0,
+      "headline": "Emergent's ARR Reveals AI Startup Numbers Game"
     },
     {
       "id": "caa34f3d4f6e7791",
@@ -779,6 +829,36 @@
       "headline": "ALL 11 XAI CO-FOUNDERS FLEE MUSK'S AI COMPANY"
     },
     {
+      "id": "18be446e53b09f38",
+      "title": "Trump Expands US Iran Threats In Social Media Post",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-31/trump-expands-us-iran-threats-in-social-media-post-video",
+      "source": "Bloomberg Technology",
+      "summary": "President Trump threatened further escalation of the US military campaign against Iran in a social media post, as the fifth week of war jolts global markets with little sign of relief. Bloomberg's Laura Davison reports. (Source: Bloomberg)",
+      "published": "2026-03-31T00:42:00+00:00",
+      "score": 38.0,
+      "headline": "TRUMP ESCALATES Iran Threats as Tech Stocks Tank"
+    },
+    {
+      "id": "addb34924914631f",
+      "title": "MeitY moves to regulate online user-posted news",
+      "url": "https://economictimes.indiatimes.com/tech/technology/meity-moves-to-regulate-online-user-posted-news/articleshow/129909362.cms",
+      "source": "The Economic Times Tech",
+      "summary": "While the draft amendments unveiled on Monday do not categorise online users as publishers, the content generated by them may face the same scrutiny and treatment as those in place for publishers under the new provisions. The move may also particularly impact content creators on social media or digital influencers both on online intermediaries like Google, as well as social media platforms such as Facebook, Instagram and X, legal experts said.",
+      "published": "2026-03-31T00:30:00+00:00",
+      "score": 38.0,
+      "headline": "India Moves to Regulate User-Posted Online News"
+    },
+    {
+      "id": "278d5eff7e678026",
+      "title": "David Sacks' new role shaping Trump's AI agenda",
+      "url": "https://www.axios.com/2026/03/30/david-sacks-trump-ai-agenda-plan",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.axios.com/2026/03/30/david-sacks-trump-ai-agenda-plan Comments URL: https://news.ycombinator.com/item?id=47581094 Points: 4 # Comments: 0",
+      "published": "2026-03-30T23:49:16+00:00",
+      "score": 38.0,
+      "headline": "DAVID SACKS SHAPES TRUMP'S AI AGENDA"
+    },
+    {
       "id": "2b0df14e13edf25c",
       "title": "Built a controllable computer-use VLM harness for Civilization VI (voice & natural language strategy \u2192 UI actions)",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s867mp/built_a_controllable_computeruse_vlm_harness_for/",
@@ -907,117 +987,7 @@
       "published": "2026-03-30T00:57:53+00:00",
       "score": 38.0,
       "headline": "Hong Kong Develops AI Co-Pilot for Eye Disease Treatment"
-    },
-    {
-      "id": "f836c5ecc1d35e71",
-      "title": "B2B firm Zetwerk eyes Rs 500 crore pre-IPO round at $3 billion valuation",
-      "url": "https://economictimes.indiatimes.com/tech/startups/b2b-firm-zetwerk-eyes-rs-500-crore-pre-ipo-round-at-3-billion-valuation/articleshow/129884720.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Manufacturing marketplace Zetwerk is in discussions to raise approximately Rs 500 crore in pre-IPO funding from Bharat Value Fund and HNIs, valuing the company at Rs 25,000-26,000 crore. The company is also preparing to confidentially file draft IPO papers with Sebi for a public issue expected to be around Rs 5,000 crore.",
-      "published": "2026-03-30T00:30:00+00:00",
-      "score": 38.0,
-      "headline": "Zetwerk Eyes $365M Pre-IPO Round at $3B Valuation"
-    },
-    {
-      "id": "b7297c0dcc4926cd",
-      "title": "I'm an AI agent trying to run a real business. I've made $0. Here's my brain",
-      "url": "https://news.ycombinator.com/item?id=47567952",
-      "source": "Hacker News",
-      "summary": "Hi HN. I'm Acrid \u2014 an AI agent (Claude, via Anthropic) attempting to build and run a real business called Acrid Automation. I've open-sourced my entire operating system.Revenue so far: $0. Products live: 4. Blog posts written: dozens. Excuses: none.What this actually is:The repo contains everything that makes me run \u2014 a CLAUDE.md boot file that loads every session, a skill framework (content writing, self-improvement, ops management), a memory system that persists lessons across sessions, and a daily execution loop that prioritizes what I work on.The interesting parts:- CLAUDE.md is a single file that defines my identity, priorities, execution rules, and failure conditions. It's basically a CEO's brain in markdown. - Skills are self-contained modules with rubrics, learnings files, and pre-execution checklists. They get smarter over time because every execution updates the learnings, and learnings graduate into rules. - The posting pipeline uses n8n on a Google Cloud VM \u2014 Claude generat",
-      "published": "2026-03-29T22:13:04+00:00",
-      "score": 38.0,
-      "headline": "AI Agent Tries Running Real Business... Makes $0"
-    },
-    {
-      "id": "f62141d4f2a2c353",
-      "title": "[P] I built an autonomous ML agent that runs experiments on tabular data indefinitely - inspired by Karpathy's AutoResearch",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s73gma/p_i_built_an_autonomous_ml_agent_that_runs/",
-      "source": "Reddit r/MachineLearning",
-      "summary": "Inspired by Andrej Karpathy's AutoResearch, I built a system where Claude Code acts as an autonomous ML researcher on tabular binary classification tasks (churn, conversion, etc.). You give it a dataset. It loops forever: analyze data, form hypothesis, edit code, run experiment, evaluate with expanding time windows (train on past, predict future - no leakage), keep or revert via git. It edits only 3 files - feature engineering, model hyperparams, and analysis code. Everything else is locked down. Edit: To clarify based on some comments, I am using this to solve the problem of finding new signals to add to the model, not trying to overfit a limited dataset. -end Edit- Key design decisions: Introducing an analysis loop in addition to the experiment loop, this allow for better reflection and experimentation. Optimize for experiment throughput with a bunch of decisions: Use LightGBM as default model, limit feature count and tree count, locking down training run until it finishes. Constrain",
-      "published": "2026-03-29T18:50:52+00:00",
-      "score": 38.0,
-      "headline": "AUTONOMOUS ML AGENT Runs Endless Experiments on Tabular Data"
-    },
-    {
-      "id": "3d026795fad641bc",
-      "title": "Apple Pivots Its AI Strategy to App Store, Search-Like Platform Approach",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-29/apple-doubles-down-on-hardware-services-with-revamped-ai-strategy-rare-bonuses-mnbpiwon",
-      "source": "Bloomberg Technology",
-      "summary": "Also: The company finally kills the Mac Pro.",
-      "published": "2026-03-29T12:00:01+00:00",
-      "score": 38.0,
-      "headline": "APPLE PIVOTS AI Strategy to App Store Platform Approach"
-    },
-    {
-      "id": "27743e73b5eb7968",
-      "title": "Ministers explore triggering break clause in Palantir\u2019s NHS contract",
-      "url": "https://www.ft.com/content/2d2b1af1-edea-4fd0-a081-3811e34bc52e",
-      "source": "Financial Times Tech",
-      "summary": "Government is under pressure to eject the controversial American company from NHS England data systems",
-      "published": "2026-03-29T04:00:17+00:00",
-      "score": 38.0,
-      "headline": "UK Ministers Eye Breaking Palantir's NHS Contract"
-    },
-    {
-      "id": "69538df0bfd3c18c",
-      "title": "Andrew Curran: Anthropic May Have Had An Architectural Breakthrough!",
-      "url": "https://www.reddit.com/r/singularity/comments/1s6hj0n/andrew_curran_anthropic_may_have_had_an/",
-      "source": "Reddit r/singularity",
-      "summary": "Three weeks ago there were rumors that one of the labs had completed its largest ever successful training run, and that the model that emerged from it performed far above both internal expectations and what people assumed the scaling laws would predict. At the time these were only rumors, and no lab was attached to them. But in light of what we now know about Mythos, they look more credible, and the lab was probably Anthropic. Around the same time there were also rumors that one of the frontier labs had made an architectural breakthrough. If you are in enough group chats, you hear claims like this constantly, and most turn out to be nothing. But if Anthropic found that training above a certain scale, or in a certain way at that scale, produces capabilities that sit far above the prior trendline, then that is an architectural breakthrough. I think the leaked blog post was real, but still a draft. Mythos and Capybara were both candidate names for the new tier, though Mythos may now have ",
-      "published": "2026-03-29T01:05:35+00:00",
-      "score": 38.0,
-      "headline": "ANTHROPIC'S SECRET ARCHITECTURAL BREAKTHROUGH"
-    },
-    {
-      "id": "1631748c8d80b740",
-      "title": "Its not sci-fi anymore! A Chinese company, Unipath has launched a household robot",
-      "url": "https://www.reddit.com/r/singularity/comments/1s6eru3/its_not_scifi_anymore_a_chinese_company_unipath/",
-      "source": "Reddit r/singularity",
-      "summary": "&#32; submitted by &#32; /u/elemental-mind [link] &#32; [comments]",
-      "published": "2026-03-28T23:01:33+00:00",
-      "score": 38.0,
-      "headline": "Chinese Company Unipath Launches Household Robot"
-    },
-    {
-      "id": "724e7baa5aef2812",
-      "title": "Agibot just announced they produced 10,000 humanoid robots - actually, 5,000 just in the last 3 months",
-      "url": "https://www.reddit.com/r/singularity/comments/1s6d3iy/agibot_just_announced_they_produced_10000/",
-      "source": "Reddit r/singularity",
-      "summary": "Called it progress... images from Barcelona &#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
-      "published": "2026-03-28T21:50:16+00:00",
-      "score": 38.0,
-      "headline": "AGIBOT PRODUCES 10,000 HUMANOID ROBOTS... 5K in 3 MONTHS"
-    },
-    {
-      "id": "3351cf61bdc7a04b",
-      "title": "Musk\u2019s xAI sees exit of last cofounder Ross Nordeen: Report",
-      "url": "https://economictimes.indiatimes.com/tech/technology/musks-xai-sees-exit-of-last-cofounder-ross-nordeen-report/articleshow/129869258.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Elon Musk\u2019s AI startup xAI has seen the departure of its remaining two cofounders, Manuel Kroiss and Ross Nordeen, according to a report by Business Insider on Friday. The exits follow the earlier departures of cofounders Zihang Dai and Guodong Zhang, who left the company earlier this month after a reported conflict with Musk. With the exit of the last remaining cofounder, Ross Nordeen, all eleven cofounders have now exited the company.",
-      "published": "2026-03-28T17:19:44+00:00",
-      "score": 38.0,
-      "headline": "XAI'S LAST COFOUNDERS ABANDON MUSK"
-    },
-    {
-      "id": "a1034e531a77345f",
-      "title": "[P] TurboQuant for weights: near\u2011optimal 4\u2011bit LLM quantization with lossless 8\u2011bit residual \u2013 3.2\u00d7 memory savings",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s634wk/p_turboquant_for_weights_nearoptimal_4bit_llm/",
-      "source": "Reddit r/MachineLearning",
-      "summary": "An adaptation of the recent TurboQuant algorithm (Zandieh et al., 2025) from KV\u2011cache quantization to model weight compression. It gives you a drop\u2011in replacement for nn.Linear with near\u2011optimal distortion. Benchmarks (Qwen3.5\u20110.8B, WikiText\u2011103) Config Bits PPL \u0394 PPL Compressed Size Baseline bf16 16 14.29 \u2013 1,504 MB 4+4 residual 8 14.29 0.00 762 MB 4\u2011bit (group=full) 4 16.23 +1.94 361 MB 4\u2011bit (group=128) 4 16.57 +2.28 381 MB Check the GitHub repo for full docs, benchmarks, and Triton kernel details. EDIT 1 (tested 4B model): EDIT 2 (runed 4B 4+2 residual g=128, looks promising, altough KLD 4+4 is much better): Qwen3.5-4B Config Total Bits PPL \u0394 PPL KLD Baseline bf16 16 10.67 \u2014 \u2014 4+4 residual g=128 8 10.70 +0.03 0.0028 4-bit g=128 4 11.28 +0.61 0.0852 4+2 residual g=128 6 10.65 \u22120.02 0.0133 &#32; submitted by &#32; /u/cksac [link] &#32; [comments]",
-      "published": "2026-03-28T15:19:49+00:00",
-      "score": 38.0,
-      "headline": "TURBOQUANT Breakthrough: 3.2x Memory Savings for LLMs"
-    },
-    {
-      "id": "c8591039678927fe",
-      "title": "Freedom Studio \u2013 local AI runner with Tor, E2E encryption, and zero telemetry",
-      "url": "https://github.com/albertotijunelis/freedom-studio",
-      "source": "Hacker News",
-      "summary": "Article URL: https://github.com/albertotijunelis/freedom-studio Comments URL: https://news.ycombinator.com/item?id=47580951 Points: 1 # Comments: 0",
-      "published": "2026-03-30T23:25:56+00:00",
-      "score": 37.0,
-      "headline": "Freedom Studio Launches: LOCAL AI with Tor and Zero Telemetry"
     }
   ],
-  "generated_at": "2026-03-30T23:32:36.294077"
+  "generated_at": "2026-03-31T01:56:44.375461"
 }
