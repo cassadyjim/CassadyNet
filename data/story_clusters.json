@@ -289,16 +289,6 @@
       "headline": "DEEPSEEK CRASHES FOR 7 HOURS... CHINA AI GIANT'S BIGGEST OUTAGE"
     },
     {
-      "id": "d0442a076785aa77",
-      "title": "vLLM CVE-2026-27893, `--trust-remote-code=False` is silently ignored for Nemotron-VL and Kimi-K25 models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s72zog/vllm_cve202627893_trustremotecodefalse_is/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Two vLLM model files hardcode `trust_remote_code=True`, overriding an explicit `False` setting with no warning or log entry. A malicious Hugging Face repository targeting either architecture can achieve code execution on the inference server. This is the third time the same vulnerability class has surfaced in vLLM, but in a different code path each time. Versions 0.10.1 through 0.17.x are affected; 0.18.0 contains the fix. Detailed analysis: https://raxe.ai/labs/advisories/RAXE-2026-044 CVE : https://nvd.nist.gov/vuln/detail/CVE-2026-27893 &#32; submitted by &#32; /u/cyberamyntas [link] &#32; [comments]",
-      "published": "2026-03-29T18:32:54+00:00",
-      "score": 44.0,
-      "headline": "CRITICAL vLLM SECURITY FLAW: Trust-Remote-Code Bypass Discovered"
-    },
-    {
       "id": "03d1af0ecfc53872",
       "title": "Eli Lilly to sign $2bn deal for AI drug development with Hong Kong biotech",
       "url": "https://www.ft.com/content/4efaf8cd-d415-46bb-8fb9-367e4eb3a781",
@@ -317,6 +307,16 @@
       "published": "2026-04-01T04:00:00+00:00",
       "score": 43.0,
       "headline": "ASI-Evolve: AI ACCELERATES ITS OWN DEVELOPMENT"
+    },
+    {
+      "id": "04e19947c02f0e4c",
+      "title": "Generative AI in Action: Field Experimental Evidence from Alibaba's Customer Service Operations",
+      "url": "https://arxiv.org/abs/2603.29888",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2603.29888v1 Announce Type: cross Abstract: In collaboration with Alibaba, this study leverages a large-scale field experiment to assess the impact of a generative AI assistant on worker performance in e-commerce after-sales service. Human agents providing digital chat support were randomly assigned with access to a gen AI assistant that offered two core functions: diagnosis of customer issues and solution proposals, presented as text messages. Agents retained discretion to adopt, modify, or disregard AI-generated messages. To evaluate gen AI's impact, we estimate both the intention-to-treat (ITT) effect of gen AI access and the local average treatment effect (LATE) of gen AI usage. Results show that gen AI significantly improved service speed, measured by issue identification time and chat duration. Gen AI also improved subjective service quality reflected in customer ratings and dissatisfaction rates, but it had no significant effect on objective service quality indicated by cu",
+      "published": "2026-04-01T04:00:00+00:00",
+      "score": 43.0,
+      "headline": "ALIBABA Field Test Shows Generative AI Boosts Worker Performance"
     },
     {
       "id": "bc775408a5500ef5",
@@ -917,17 +917,7 @@
       "published": "2026-03-31T11:42:57+00:00",
       "score": 41.0,
       "headline": "TAIWAN PROBES 11 Chinese Firms for Tech Talent Poaching"
-    },
-    {
-      "id": "402d209c95f9090b",
-      "title": "Microsoft Business Software Ecosystem Faces UK Probe",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-31/microsoft-business-software-ecosystem-faces-uk-competition-probe",
-      "source": "Bloomberg Technology",
-      "summary": "Microsoft Corp.\u2019s business software ecosystem faces a UK antitrust probe starting in May to decide whether licensing practices for products such as Word, Excel and Copilot need tighter regulation.",
-      "published": "2026-03-31T11:01:26+00:00",
-      "score": 41.0,
-      "headline": "UK PROBES Microsoft Business Software for Antitrust Violations"
     }
   ],
-  "generated_at": "2026-04-01T07:16:31.790655"
+  "generated_at": "2026-04-01T09:00:33.247377"
 }
