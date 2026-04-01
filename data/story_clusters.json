@@ -199,6 +199,16 @@
   ],
   "unclustered": [
     {
+      "id": "bdbd30aaa17f3071",
+      "title": "Baidu\u2019s robotaxis froze in traffic, creating chaos",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china",
+      "source": "The Verge AI",
+      "summary": "Numerous robotaxis operated by Chinese tech giant Baidu froze in a major city on Tuesday, reportedly trapping passengers inside, stranding them on highways, and causing at least one accident in snarled traffic. Police in Wuhan confirmed receiving multiple reports of Baidu's Apollo Go robotaxis stopping in the middle of streets and being unable to move. [&#8230;]",
+      "published": "2026-04-01T10:39:52+00:00",
+      "score": 47.0,
+      "headline": "BAIDU ROBOTAXIS FREEZE... Passengers Trapped in Traffic"
+    },
+    {
       "id": "31badf1d73448a72",
       "title": "Robotaxi Outage in China Leaves Passengers Stranded on Highways",
       "url": "https://www.wired.com/story/robotaxi-outage-in-china-leaves-passengers-stuck-in-cars-on-highways/",
@@ -289,6 +299,16 @@
       "headline": "CHINA LAUNCHES 10K HUMANOID ROBOT FACTORY"
     },
     {
+      "id": "053c38ec0bc484a3",
+      "title": "Mass robotaxi malfunction halts traffic in Chinese city",
+      "url": "https://www.bbc.com/news/articles/cvge91r9j80o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "Baidu has not responded to a request for comment about the outage, which affected at least 100 cars.",
+      "published": "2026-04-01T11:34:31+00:00",
+      "score": 44.0,
+      "headline": "MASS ROBOTAXI MALFUNCTION Halts Chinese City"
+    },
+    {
       "id": "93b09dce7ac6c59c",
       "title": "The world\u2019s largest humanoid robot maker is going public",
       "url": "https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -367,6 +387,16 @@
       "published": "2026-03-29T11:00:11+00:00",
       "score": 44.0,
       "headline": "ELI LILLY's $2B AI DRUG DEAL with Hong Kong Biotech"
+    },
+    {
+      "id": "a582133a7b8d0508",
+      "title": "Chinese state media releases episode 2 of their AI generated Iran war animated series",
+      "url": "https://www.reddit.com/r/singularity/comments/1s9gh9g/chinese_state_media_releases_episode_2_of_their/",
+      "source": "Reddit r/singularity",
+      "summary": "&#32; submitted by &#32; /u/tommos [link] &#32; [comments]",
+      "published": "2026-04-01T10:16:54+00:00",
+      "score": 43.0,
+      "headline": "CHINA RELEASES AI-GENERATED IRAN WAR SERIES... EPISODE 2"
     },
     {
       "id": "c47987625ad913e1",
@@ -497,6 +527,36 @@
       "published": "2026-04-01T06:39:07+00:00",
       "score": 42.0,
       "headline": "STARTUP AUTOMATES ITS OWN DEVELOPERS... OpenClaw Revolution"
+    },
+    {
+      "id": "51808925d52ad2fb",
+      "title": "OpenAI Valued at $852 Billion After Completing $122 Billion Round",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI has completed a deal to raise $122 billion from investors at an $852 billion valuation, marking the company\u2019s largest funding round to date by far and bolstering its costly push for more chips, data centers and talent.",
+      "published": "2026-03-31T20:05:00+00:00",
+      "score": 42.0,
+      "headline": "OPENAI VALUED AT $852B IN MASSIVE FUNDING ROUND"
+    },
+    {
+      "id": "795c12a3b7b8c152",
+      "title": "Sources Indicate Anthropic Internally Expects AGI In 6-12 Months",
+      "url": "https://www.reddit.com/r/singularity/comments/1s8xqpf/sources_indicate_anthropic_internally_expects_agi/",
+      "source": "Reddit r/singularity",
+      "summary": "https://x.com/Hadley/status/2038737962566123722?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet I\u2019ve heard from 2 people in the last 2 days that internally Anthropic expects to have AGI in 6-12 months. That\u2019s faster than Dario has stated publicly. Plan your business and personal finances appropriately. &#32; submitted by &#32; /u/Neurogence [link] &#32; [comments]",
+      "published": "2026-03-31T19:39:28+00:00",
+      "score": 42.0,
+      "headline": "LEAKED: ANTHROPIC EXPECTS AGI IN 6-12 MONTHS"
+    },
+    {
+      "id": "39979aa92be8402a",
+      "title": "Claude Code's source just leaked \u2014 I extracted its multi-agent orchestration system into an open-source framework that works with any LLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s8xj2e/claude_codes_source_just_leaked_i_extracted_its/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Claude Code's full source code was leaked via source maps in the last 12 hours. 500K+ lines of TypeScript with the full architecture exposed. I went through the leaked code and extracted the multi-agent orchestration layer \u2014 coordinator mode, team management, task scheduling, inter-agent messaging \u2014 and rebuilt it as a standalone open-source framework. The key difference from the original: it's model-agnostic. You can run a team where one agent uses Claude for planning and another uses GPT-4o for implementation \u2014 same workflow, shared memory, message bus between them. Core features extracted from Claude Code's internals: Multi-agent teams with role-based specialization Task pipelines with dependency resolution (topological scheduling) Inter-agent messaging + shared memory LLMAdapter interface \u2014 Anthropic/OpenAI built-in, write your own for any model In-process execution, no subprocess overhead 5 built-in tools (bash, file read/write/edit, grep) ~8000 lines of TypeScript, MIT licensed. ",
+      "published": "2026-03-31T19:32:02+00:00",
+      "score": 42.0,
+      "headline": "CLAUDE CODE LEAK: MULTI-AGENT SYSTEM EXTRACTED"
     },
     {
       "id": "e4e4ffeb86aec296",
@@ -789,6 +849,16 @@
       "headline": "STANFORD: AI Solves Vision Tasks WITHOUT Images"
     },
     {
+      "id": "9868ae4bcd199c9a",
+      "title": "Elon Musk puts Grok in charge of US nuclear arsenal, says it 'passed the vibe check'",
+      "url": "https://www.reddit.com/r/artificial/comments/1s9g9gp/elon_musk_puts_grok_in_charge_of_us_nuclear/",
+      "source": "Reddit r/artificial",
+      "summary": "CNBC \u00b7 April 1, 2026 xAI's Grok chatbot has been granted advisory access to STRATCOM systems after Musk convinced the Pentagon that &quot;an AI with a sense of humor is exactly what nuclear deterrence needs.&quot; When asked about the risks, Grok reportedly replied: &quot;Don't worry, I mostly just want to post memes.&quot; &#32; submitted by &#32; /u/Justgototheeffinmoon [link] &#32; [comments]",
+      "published": "2026-04-01T10:05:12+00:00",
+      "score": 41.0,
+      "headline": "MUSK PUTS GROK IN CHARGE OF NUCLEAR ARSENAL"
+    },
+    {
       "id": "f45f54c8897f1bf3",
       "title": "If Your AI Agent Ran NPM Install During the Axios Attack, You're Compromised",
       "url": "https://grith.ai/blog/axios-supply-chain-attack-ai-agents-npm-install",
@@ -957,47 +1027,7 @@
       "published": "2026-03-31T17:23:28+00:00",
       "score": 41.0,
       "headline": "IRAN TARGETS APPLE & GOOGLE... Tech Giants Face Cyber Threats"
-    },
-    {
-      "id": "8279a29ec3d10285",
-      "title": "Anthropic goes nude, exposes Claude Code source by accident",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/31/anthropic_claude_code_source_code/",
-      "source": "The Register AI/ML",
-      "summary": "Oopsy-doodle: Did someone forget to check their build pipeline? Would you like a closer look at Claude? Someone at Anthropic has some explaining to do, as the official npm package for Claude Code shipped with a map file exposing what appears to be the popular AI coding tool's entire source code.\u2026",
-      "published": "2026-03-31T17:02:34+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC ACCIDENTALLY LEAKS CLAUDE SOURCE CODE"
-    },
-    {
-      "id": "4597f3f0985d722e",
-      "title": "Anthropic wins preliminary injunction in Trump DoD fight",
-      "url": "https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html Comments URL: https://news.ycombinator.com/item?id=47589167 Points: 2 # Comments: 0",
-      "published": "2026-03-31T15:48:34+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC WINS PENTAGON COURT BATTLE"
-    },
-    {
-      "id": "af702bf3cf446810",
-      "title": "CoreWeave secures $8.5 billion loan to expand AI infrastructure",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/coreweave-secures-8-5-billion-loan-to-expand-ai-infrastructure/articleshow/129927701.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Cloud infrastructure firm CoreWeave has secured a significant $8.5 billion in financing. This funding will fuel the expansion of its artificial intelligence cloud platform. The move comes as demand for computing power continues to rise sharply. This latest financing brings CoreWeave's total commitments in the past year to approximately $28 billion. The company is set to boost its AI capabilities.",
-      "published": "2026-03-31T13:44:08+00:00",
-      "score": 41.0,
-      "headline": "COREWEAVE SECURES $8.5B LOAN FOR AI EXPANSION"
-    },
-    {
-      "id": "e05dd54e6f904140",
-      "title": "Sexualised deepfakes targeting actress spur German '#MeToo' moment",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/sexualised-deepfakes-targeting-actress-spur-german-metoo-moment/articleshow/129927696.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Germans are protesting online abuse. Thousands have taken to the streets. This follows a case involving TV personality Collien Fernandes. She alleges her ex-husband spread fake sexualized images of her. Protesters demand stronger laws to protect women online. The government is promising new legislation soon. This movement is being called a new #MeToo moment.",
-      "published": "2026-03-31T13:41:01+00:00",
-      "score": 41.0,
-      "headline": "Deepfake Scandal Sparks German #MeToo Movement"
     }
   ],
-  "generated_at": "2026-04-01T10:09:35.078284"
+  "generated_at": "2026-04-01T11:50:48.588525"
 }
