@@ -1,17 +1,37 @@
 {
   "polls": [
     {
-      "topic": "AI Infrastructure Funding",
-      "description": "Major funding rounds are reshaping the global AI infrastructure landscape with billions flowing to data centers and chip companies.",
-      "question": "Will massive AI infrastructure investments create innovation or dangerous concentration?",
-      "button_a": "Innovation",
-      "button_b": "Concentration",
-      "poll_id": "ai-infrastructure-funding-20260330",
-      "analysis_url": "/analysis/analysis-ai-infrastructure-funding-20260331.html",
+      "topic": "AI Funding Mega-Rounds",
+      "description": "Major AI companies are raising unprecedented amounts of funding, signaling massive investor confidence and potential market consolidation.",
+      "question": "Do these mega-rounds signal healthy AI growth or dangerous bubble territory?",
+      "button_a": "Growth",
+      "button_b": "Territory",
+      "poll_id": "ai-funding-mega-rounds-20260401",
+      "analysis_url": "/analysis/analysis-ai-funding-mega-rounds-20260401.html",
       "analysis_type": "poll",
-      "created_at": "2026-03-30T23:32:53.707361",
-      "last_seen": "2026-03-31T23:33:02.561054",
+      "created_at": "2026-04-01T02:05:39.541936",
+      "last_seen": "2026-04-01T02:05:58.139595",
       "cluster_stories": [
+        {
+          "id": "410d594ce744db5b",
+          "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
+          "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+          "source": "TechCrunch AI",
+          "summary": "OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.",
+          "published": "2026-03-31T21:25:04+00:00",
+          "score": 46.0,
+          "headline": "OPENAI RAISES MONSTER $122B AT $852B VALUATION"
+        },
+        {
+          "id": "d22611472c07faaa",
+          "title": "Accelerating the next phase of AI",
+          "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+          "source": "OpenAI Blog",
+          "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+          "published": "2026-03-31T13:00:00+00:00",
+          "score": 45.0,
+          "headline": "OPENAI RAISES $122 BILLION in Massive Funding Round"
+        },
         {
           "id": "fa66f94dfde63937",
           "title": "Mistral AI raises $830M in debt to set up a data center near Paris",
@@ -23,24 +43,14 @@
           "headline": "MISTRAL AI RAISES $830M for Paris Data Center"
         },
         {
-          "id": "292a183dadace24f",
-          "title": "South Korea's Rebellions raises $400B to take rack-scale AI platform global",
-          "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/30/rebellions_ai_rackscale/",
-          "source": "The Register AI/ML",
-          "summary": "Funding round comes ahead of planned IPO SK Telecom-backed AI chip startup Rebellions has raised $400 million in a pre-IPO funding round to support its global expansion with a new rack-scale compute platform aimed at enterprises and sovereign clouds.\u2026",
-          "published": "2026-03-30T13:01:07+00:00",
-          "score": 44.0,
-          "headline": "South Korea's Rebellions Raises $400M for Global AI Platform"
-        },
-        {
-          "id": "d79ca1cd34b55140",
-          "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round",
-          "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
-          "source": "TechCrunch AI",
-          "summary": "The startup, which is planning to go public later this year, designs chips specifically for AI inference, another challenger to Nvidia's dominance.",
-          "published": "2026-03-30T13:00:00+00:00",
+          "id": "d3571f1af68868ef",
+          "title": "OpenAI Completes Deal to Raise $122 Billion",
+          "url": "https://www.bloomberg.com/news/videos/2026-03-31/openai-completes-deal-to-raise-122-billion-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI has completed a deal to raise $122 billion from investors at an $852 billion valuation, marking the company\u2019s largest funding round to date. Shirin Ghaffary has more on \"Bloomberg The Close.\" (Source: Bloomberg)",
+          "published": "2026-03-31T20:59:38+00:00",
           "score": 43.0,
-          "headline": "AI Chip Startup Rebellions Raises $400M Pre-IPO Round"
+          "headline": "Bloomberg: OpenAI Completes $122B Mega-Round"
         },
         {
           "id": "8e85c76cef9cb3e1",
@@ -63,163 +73,143 @@
           "headline": "MISTRAL SECURES $830M... BUILDS EU DATA CENTER"
         },
         {
-          "id": "ca3f8745de6e1a16",
-          "title": "Rebellions closes $400M pre-IPO round at a $2.34B valuation",
-          "url": "https://thenextweb.com/news/rebellions-closes-400m-pre-ipo-round-at-a-2-34b-valuation",
+          "id": "3a07eb541c068752",
+          "title": "OpenAI closes record $122 billion round at $852 billion valuation, opens door to retail investors for the first time",
+          "url": "https://thenextweb.com/news/openai-122-billion-round-852-billion-valuation-retail-investors",
           "source": "The Next Web",
-          "summary": "The South Korean fabless AI chip company, backed by Samsung, SK Hynix, and Aramco, raises $650M in six months and targets Meta and xAI as US customers. Korea\u2019s National Growth Fund chose Rebellions as its very first investment. Rebellions, the South Korean AI inference chip company, has closed a $400 million pre-IPO funding round led [&hellip;] This story continues at The Next Web",
-          "published": "2026-03-30T19:03:43+00:00",
+          "summary": "There is a number that keeps getting larger, and on Tuesday it got larger again. OpenAI announced that it had closed its latest funding round with $122 billion in committed capital, valuing the ChatGPT maker at $852 billion post-money. The figure is up from the $110 billion the company announced in February, when Amazon, Nvidia, [&hellip;] This story continues at The Next Web",
+          "published": "2026-03-31T21:17:03+00:00",
           "score": 42.0,
-          "headline": "REBELLIONS RAISES $400M AT $2.34B VALUATION"
+          "headline": "OpenAI Opens $122B Round to Retail Investors for First Time"
         },
         {
-          "id": "55b9097d2e966c4c",
-          "title": "Starcloud raises $170M at a $1.1B valuation to build data centres in orbit",
-          "url": "https://thenextweb.com/news/starcloud-170m-series",
-          "source": "The Next Web",
-          "summary": "The Redmond, Washington startup, which already has an Nvidia H100 GPU operating in orbit and has trained the first AI model in space, is now building a Starship-class spacecraft designed to be the first orbital data centre cost-competitive with terrestrial facilities. Starcloud has raised $170 million in a Series A round led by Benchmark and [&hellip;] This story continues at The Next Web",
-          "published": "2026-03-30T12:28:35+00:00",
+          "id": "41df59350f0f8d2e",
+          "title": "OpenAI raises $122B to accelerate the next phase of AI",
+          "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://openai.com/index/accelerating-the-next-phase-ai/ Comments URL: https://news.ycombinator.com/item?id=47593432 Points: 5 # Comments: 0",
+          "published": "2026-03-31T21:02:07+00:00",
           "score": 42.0,
-          "headline": "STARCLOUD RAISES $170M for Space Data Centers"
+          "headline": "BREAKING: OpenAI Closes Record $122B Funding Round"
         },
         {
-          "id": "0af70e88e7f9b3ae",
-          "title": "Mistral Raises $830 Million to House Nvidia Chips in Data Center",
-          "url": "https://www.bloomberg.com/news/articles/2026-03-30/ai-startup-mistral-raises-830-million-in-data-center-debt-rush",
+          "id": "51808925d52ad2fb",
+          "title": "OpenAI Valued at $852 Billion After Completing $122 Billion Round",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round",
           "source": "Bloomberg Technology",
-          "summary": "Mistral AI, a French startup trying to build a European alternative to OpenAI, has secured its first debt financing of $830 million for a data center project outside of Paris, becoming the latest technology company tapping credit markets for an unprecedented buildout of artificial intelligence infrastructure.",
-          "published": "2026-03-30T11:32:34+00:00",
+          "summary": "OpenAI has completed a deal to raise $122 billion from investors at an $852 billion valuation, marking the company\u2019s largest funding round to date by far and bolstering its costly push for more chips, data centers and talent.",
+          "published": "2026-03-31T20:05:00+00:00",
           "score": 42.0,
-          "headline": "MISTRAL RAISES $830M... NVIDIA CHIPS FOR PARIS DATA CENTER"
-        },
-        {
-          "id": "f7926e96efec6378",
-          "title": "France's Mistral raises $830 million in debt for AI data centre build-up",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/frances-mistral-raises-830-million-in-debt-for-ai-data-centre-build-up/articleshow/129892927.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The deal, set to be announced on Monday, marks Mistral's first debt \u200braising and underscores growing investor confidence in European AI firms as \u200bthey seek to challenge the dominance of US tech giants like Microsoft, Google and Amazon in cloud computing and AI \u200bservices.",
-          "published": "2026-03-30T06:16:14+00:00",
-          "score": 41.0,
-          "headline": "MISTRAL RAISES $830M in Debt for AI Data Centers"
-        },
-        {
-          "id": "91f9ea82259bb9f5",
-          "title": "France's Mistral raises $830 million in debt for AI data centre build-up",
-          "url": "https://economictimes.indiatimes.com/tech/funding/frances-mistral-raises-830-million-in-debt-for-ai-data-centre-build-up/articleshow/129892887.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The deal, set to be announced on Monday, marks Mistral's first debt \u200braising and underscores growing investor confidence in European AI firms as \u200bthey seek to challenge the dominance of US tech giants like Microsoft, Google and Amazon in cloud computing and AI \u200bservices.",
-          "published": "2026-03-30T06:16:14+00:00",
-          "score": 41.0,
-          "headline": "MISTRAL RAISES $830M in Debt for AI Data Centers"
-        },
-        {
-          "id": "6d6f207f977abc44",
-          "title": "South Korea's AI chip startup Rebellions raises $400 million in latest funding round",
-          "url": "https://economictimes.indiatimes.com/tech/funding/south-koreas-ai-chip-startup-rebellions-raises-400-million-in-latest-funding-round/articleshow/129902424.cms",
-          "source": "The Economic Times Tech",
-          "summary": "South Korean AI chip startup Rebellions has secured $400 million in new funding. This investment values the company at approximately $2.34 billion. Rebellions is now focused on expanding its presence in the United States. The company will also scale up production of its Rebel100 platform. This funding marks a significant step towards a future IPO.",
-          "published": "2026-03-30T13:25:35+00:00",
-          "score": 40.0,
-          "headline": "KOREAN AI CHIP STARTUP Rebellions Raises $400M"
+          "headline": "OPENAI VALUED AT $852B IN MASSIVE FUNDING ROUND"
         }
       ],
-      "current_topic_name": "AI Infrastructure Funding"
+      "current_topic_name": "AI Funding Mega-Rounds"
     },
     {
-      "topic": "AI Security Vulnerabilities",
-      "description": "Critical security flaws and attack vectors are being discovered across AI platforms, exposing major risks in AI deployment.",
-      "question": "Are AI security flaws proof the technology is moving too fast?",
+      "topic": "Claude Code Leak",
+      "description": "Anthropic's Claude AI source code was accidentally leaked, exposing internal tools and raising security concerns across the AI industry.",
+      "question": "Should AI companies face penalties for accidental source code leaks?",
       "button_a": "Yes",
       "button_b": "No",
-      "poll_id": "ai-security-vulnerabilities-20260330",
-      "analysis_url": "/analysis/analysis-ai-security-vulnerabilities-20260331.html",
+      "poll_id": "claude-code-leak-20260401",
+      "analysis_url": "/analysis/analysis-claude-code-leak-20260401.html",
       "analysis_type": "poll",
-      "created_at": "2026-03-30T23:33:12.211801",
-      "last_seen": "2026-03-31T23:33:03.267478",
+      "created_at": "2026-04-01T02:05:53.436910",
+      "last_seen": "2026-04-01T02:06:01.790654",
       "cluster_stories": [
         {
-          "id": "d0442a076785aa77",
-          "title": "vLLM CVE-2026-27893, `--trust-remote-code=False` is silently ignored for Nemotron-VL and Kimi-K25 models",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s72zog/vllm_cve202627893_trustremotecodefalse_is/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "Two vLLM model files hardcode `trust_remote_code=True`, overriding an explicit `False` setting with no warning or log entry. A malicious Hugging Face repository targeting either architecture can achieve code execution on the inference server. This is the third time the same vulnerability class has surfaced in vLLM, but in a different code path each time. Versions 0.10.1 through 0.17.x are affected; 0.18.0 contains the fix. Detailed analysis: https://raxe.ai/labs/advisories/RAXE-2026-044 CVE : https://nvd.nist.gov/vuln/detail/CVE-2026-27893 &#32; submitted by &#32; /u/cyberamyntas [link] &#32; [comments]",
-          "published": "2026-03-29T18:32:54+00:00",
+          "id": "ff46b0ffb87800b1",
+          "title": "Anthropic mistakenly leaks its own AI coding tool\u2019s source code, just days after accidentally revealing an upcoming model known as \u201cMythos\u201d",
+          "url": "https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/",
+          "source": "Fortune Tech",
+          "summary": "Hundreds of thousands of lines of code were exposed, giving researchers insight into upcoming models and internal architecture.",
+          "published": "2026-03-31T18:15:46+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC ACCIDENTALLY LEAKS AI CODING TOOL SOURCE CODE"
+        },
+        {
+          "id": "e6a92445bcddcb95",
+          "title": "Source Code for Anthropic\u2019s Claude Code Leaks at the Exact Wrong Time",
+          "url": "https://gizmodo.com/source-code-for-anthropics-claude-code-leaks-at-the-exact-wrong-time-2000740379",
+          "source": "Gizmodo",
+          "summary": "The company has some secrets that are now public.",
+          "published": "2026-03-31T19:45:48+00:00",
           "score": 44.0,
-          "headline": "CRITICAL vLLM SECURITY FLAW: Trust-Remote-Code Bypass Discovered"
+          "headline": "CLAUDE CODE SOURCE LEAKS... ANTHROPIC SCRAMBLES"
         },
         {
-          "id": "f32ad739368e6d13",
-          "title": "Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost",
-          "url": "https://www.reddit.com/r/artificial/comments/1s738xf/nicolas_carlini_672k_citations_on_google_scholar/",
-          "source": "Reddit r/artificial",
-          "summary": "Link: https://m.youtube.com/watch?v=1sd26pWhfmg The Linux exploit is especially interesting because it was introduced in 2003 and was never found until now. It\u2019s also a major security issue because it allows attackers to steal the admin key. It was a buffer overflow error, which are so hard to do that Carlini has never done it before. He also says he expects LLMs to only get better overtime, which is likely true if Mythos lives up to the rumors. here are his Wikipedia and Google Scholar pages in case you doubt his credibility: https://en.wikipedia.org/wiki/Nicholas_Carlini https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=carlini&amp;btnG= &#32; submitted by &#32; /u/Tolopono [link] &#32; [comments]",
-          "published": "2026-03-29T18:42:39+00:00",
+          "id": "05c4080e80be8a3b",
+          "title": "The Claude Code Source Leak",
+          "url": "https://www.lesswrong.com/posts/YcACRSjpGrqJ4hAyD/the-claude-code-source-leak-1",
+          "source": "LessWrong AI",
+          "summary": "(mods: I assume this is blowing up twitter and so discussing it here won't do additional damage -- and there are already a thousand github forks -- but I am not actually on twitter, which is why I\u2019m opening discussion here. It's possible I'm missing something. Feel free to nuke this if so.) For those that hadn't heard yet, last night Anthropic appears to have accidentally published a Claude Code update with extractable source code in it. This seems important, but I'm not sure how much so, and I didn't see an existing discussion here. My understanding -- and hopefully someone will correct me if I'm wrong -- is that the actually dangerous part of Claude is the weights, and those were not leaked. So the leak may be embarrassing, it may cost Anthropic some competitive advantage, but it's not dangerous. It's also my understanding that Anthropic has historically been relatively leak-free, until a certain memo leaked a few weeks ago during the DoW incident. Supposedly twice is still coinciden",
+          "published": "2026-03-31T17:16:13+00:00",
+          "score": 44.0,
+          "headline": "CLAUDE CODE LEAKED... Anthropic Source Code Spreads on GitHub"
+        },
+        {
+          "id": "2ce7d9dee9c3a1a7",
+          "title": "Claude Code leak exposes a Tamagotchi-style \u2018pet\u2019 and an always-on agent",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak",
+          "source": "The Verge AI",
+          "summary": "After Anthropic released Claude Code's 2.1.88 update, users quickly discovered that it contained a package with a source map file containing its TypeScript codebase, with one person on X calling attention to the leak and posting a file containing the code. The leaked data reportedly contains more than 512,000 lines of code and provides a [&#8230;]",
+          "published": "2026-03-31T22:24:19+00:00",
           "score": 43.0,
-          "headline": "CLAUDE OUTPERFORMS TOP SECURITY RESEARCHER... Makes $3.7M Exploiting Contracts"
+          "headline": "CLAUDE CODE LEAK Exposes Secret Tamagotchi Pet Feature"
         },
         {
-          "id": "56442ace33ab600d",
-          "title": "Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost",
-          "url": "https://www.reddit.com/r/singularity/comments/1s734n6/nicolas_carlini_672k_citations_on_google_scholar/",
+          "id": "e11f5cfd132985cc",
+          "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+          "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/ Comments URL: https://news.ycombinator.com/item?id=47586778 Points: 1 # Comments: 0",
+          "published": "2026-03-31T13:04:30+00:00",
+          "score": 43.0,
+          "headline": "CLAUDE CODE SOURCE LEAKED... Internal Tools Exposed"
+        },
+        {
+          "id": "a627d52de655e746",
+          "title": "Claude code source code has been leaked via a map file in their npm registry",
+          "url": "https://www.reddit.com/r/singularity/comments/1s8izpi/claude_code_source_code_has_been_leaked_via_a_map/",
           "source": "Reddit r/singularity",
-          "summary": "Link: https://m.youtube.com/watch?v=1sd26pWhfmg The Linux exploit is especially interesting because it was introduced in 2003 and was never found until now. It was a buffer overflow error, which are so hard to do that Carlini has never done it before. He also says he expects LLMs to only get better overtime, which is likely true if Mythos lives up to the rumors. here are his Wikipedia and Google Scholar pages in case you doubt his credibility: https://en.wikipedia.org/wiki/Nicholas_Carlini https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=carlini&amp;btnG= &#32; submitted by &#32; /u/Tolopono [link] &#32; [comments]",
-          "published": "2026-03-29T18:38:11+00:00",
+          "summary": "On March 31, 2026, the full source code of Anthropic's Claude Code CLI was leaked via a .map file exposed in their npm registry. https://github.com/instructkr/claude-code &#32; submitted by &#32; /u/WhyLifeIs4 [link] &#32; [comments]",
+          "published": "2026-03-31T09:52:20+00:00",
           "score": 43.0,
-          "headline": "AI SECURITY BREAKTHROUGH: Claude Finds 23-Year-Old Linux Exploit"
+          "headline": "CLAUDE CODE SOURCE LEAKED via NPM Registry Map File"
         },
         {
-          "id": "a69ecb288baf75a6",
-          "title": "OpenAI Codex had a critical command injection flaw: unsanitized branch names allowed GitHub OAuth token theft",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1s859xk/openai_codex_had_a_critical_command_injection/",
-          "source": "Reddit r/OpenAI",
-          "summary": "BeyondTrust Phantom Labs disclosed a command injection vulnerability in OpenAI Codex on March 30. The branch name parameter was passed directly into shell commands during container setup without sanitization. A semicolon in the branch name gave arbitrary code execution. The attack chain: create a malicious branch via GitHub API, replace spaces with ${IFS} to bypass GitHub's branch naming rules, append Unicode ideographic spaces to hide the payload in the UI. Any Codex user who ran a task against that branch had their GitHub OAuth token exfiltrated. Zero interaction needed for the automated variant. Affected ChatGPT website, Codex CLI, SDK, and IDE extension. OpenAI classified it P1 Critical and patched by Feb 5, 2026. Full technical breakdown with the IFS bypass, Unicode obfuscation, and the u/codex code review attack path: https://blog.barrack.ai/openai-codex-command-injection-github-token/ &#32; submitted by &#32; /u/LostPrune2143 [link] &#32; [comments]",
-          "published": "2026-03-30T22:20:02+00:00",
-          "score": 41.0,
-          "headline": "CRITICAL FLAW: OpenAI Codex Exposed GitHub Tokens"
-        },
-        {
-          "id": "06015a166d6d217f",
-          "title": "[D] Litellm supply chain attack and what it means for api key management",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1s62taq/d_litellm_supply_chain_attack_and_what_it_means/",
-          "source": "Reddit r/MachineLearning",
-          "summary": "If you missed it, litellm versions 1.82.7 and 1.82.8 on pypi got compromised. malicious .pth file that runs on every python process start, no import needed. it scrapes ssh keys, aws/gcp creds, k8s secrets, crypto wallets, env vars (aka all your api keys). karpathy posted about it. the attacker got in through trivy (a vuln scanner ironically) and stole litellm's publish token. 2000+ packages depend on litellm downstream including dspy and mlflow. the only reason anyone caught it was because the malicious code had a fork bomb bug that crashed machines. This made me rethink how i manage model api keys. having keys for openai, anthropic, google, deepseek all sitting in .env files across projects is a massive attack surface. switched to running everything through zenmux a while back so theres only one api key to rotate if something goes wrong. not a perfect solution but at least i dont have 6 different provider keys scattered everywhere. Run pip show litellm right now. if youre on anything ",
-          "published": "2026-03-28T15:07:16+00:00",
-          "score": 41.0,
-          "headline": "SUPPLY CHAIN ATTACK Compromises AI Library... Keys Stolen"
-        },
-        {
-          "id": "5dec6cd52ebb8b1e",
-          "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
-          "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
-          "source": "TechCrunch AI",
-          "summary": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
-          "published": "2026-03-30T23:08:12+00:00",
-          "score": 40.0,
-          "headline": "LiteLLM DITCHES Delve After Credential-Stealing Malware Attack"
-        },
-        {
-          "id": "0991abdab1fded2f",
-          "title": "Stanford and Harvard just dropped the most disturbing AI paper of the year",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7w9mq/stanford_and_harvard_just_dropped_the_most/",
+          "id": "39979aa92be8402a",
+          "title": "Claude Code's source just leaked \u2014 I extracted its multi-agent orchestration system into an open-source framework that works with any LLM",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s8xj2e/claude_codes_source_just_leaked_i_extracted_its/",
           "source": "Reddit r/LocalLLaMA",
-          "summary": "https://arxiv.org/abs/2602.20021 &#32; submitted by &#32; /u/Fun-Yogurt-89 [link] &#32; [comments]",
-          "published": "2026-03-30T16:55:26+00:00",
-          "score": 40.0,
-          "headline": "STANFORD-HARVARD DROP 'MOST DISTURBING AI PAPER OF YEAR'"
+          "summary": "Claude Code's full source code was leaked via source maps in the last 12 hours. 500K+ lines of TypeScript with the full architecture exposed. I went through the leaked code and extracted the multi-agent orchestration layer \u2014 coordinator mode, team management, task scheduling, inter-agent messaging \u2014 and rebuilt it as a standalone open-source framework. The key difference from the original: it's model-agnostic. You can run a team where one agent uses Claude for planning and another uses GPT-4o for implementation \u2014 same workflow, shared memory, message bus between them. Core features extracted from Claude Code's internals: Multi-agent teams with role-based specialization Task pipelines with dependency resolution (topological scheduling) Inter-agent messaging + shared memory LLMAdapter interface \u2014 Anthropic/OpenAI built-in, write your own for any model In-process execution, no subprocess overhead 5 built-in tools (bash, file read/write/edit, grep) ~8000 lines of TypeScript, MIT licensed. ",
+          "published": "2026-03-31T19:32:02+00:00",
+          "score": 42.0,
+          "headline": "CLAUDE CODE LEAK: MULTI-AGENT SYSTEM EXTRACTED"
         },
         {
-          "id": "2017466fcd358ef1",
-          "title": "[R] An attack class that passes every current LLM filter - no payload, no injection signature, no log trace",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1s7t7w7/r_an_attack_class_that_passes_every_current_llm/",
-          "source": "Reddit r/MachineLearning",
-          "summary": "https://shapingrooms.com/research I've been documenting what I'm calling postural manipulation: a specific class of language that installs an interpretive stance before a task arrives, producing measurably larger directional shifts in model outputs than matched control text of identical length and semantic similarity. The core empirical claim: this is not ordinary context sensitivity. Matched controls produced significantly smaller shifts. Binary decision reversals documented with paired controls across four frontier models using a locked scoring rubric. The mechanism as best I can characterize it from behavioral observation: the model reconstructs its orientation from everything in its context window at each step. Language that proposes how to interpret what follows gets absorbed into the reasoning state differently than language that reports facts. By the time the task arrives, the model is not weighing the primer against other evidence. It is reasoning from a stance the primer alrea",
-          "published": "2026-03-30T15:08:22+00:00",
-          "score": 40.0,
-          "headline": "Postural Manipulation: Invisible LLM Attack Discovered"
+          "id": "50048137d10d30a4",
+          "title": "Show HN: Claude Code's Source Code Got Leaked, Let's Talk About It",
+          "url": "https://github.com/Kuberwastaken/claude-code",
+          "source": "Hacker News",
+          "summary": "Article URL: https://github.com/Kuberwastaken/claude-code Comments URL: https://news.ycombinator.com/item?id=47585517 Points: 4 # Comments: 0",
+          "published": "2026-03-31T10:58:12+00:00",
+          "score": 42.0,
+          "headline": "CLAUDE CODE SOURCE LEAKED on GitHub"
+        },
+        {
+          "id": "7fb901fc528bb182",
+          "title": "Claude Code Source Code Leaked (2026-03-31)",
+          "url": "https://github.com/instructkr/claude-code",
+          "source": "Hacker News",
+          "summary": "Article URL: https://github.com/instructkr/claude-code Comments URL: https://news.ycombinator.com/item?id=47585006 Points: 5 # Comments: 0",
+          "published": "2026-03-31T10:02:17+00:00",
+          "score": 42.0,
+          "headline": "CLAUDE CODE SOURCE CODE LEAKED"
         }
       ],
-      "current_topic_name": "AI Security Vulnerabilities"
+      "current_topic_name": "Claude Code Leak"
     }
   ],
-  "last_updated": "2026-03-31T23:33:03.267492"
+  "last_updated": "2026-04-01T02:06:03.005902"
 }
