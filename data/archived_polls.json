@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Claude Code Leak",
+      "description": "Anthropic's Claude AI source code was accidentally leaked, exposing internal tools and raising security concerns across the AI industry.",
+      "question": "Should AI companies face penalties for accidental source code leaks?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "claude-code-leak-20260401",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-claude-code-leak-crisis-20260402.html",
+      "started_at": "2026-04-01T02:05:53.436910",
+      "archived_at": "2026-04-02T06:12:31.768378",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Funding Mega-Rounds",
       "description": "Major AI companies are raising unprecedented amounts of funding, signaling massive investor confidence and potential market consolidation.",
       "question": "Do these mega-rounds signal healthy AI growth or dangerous bubble territory?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-regulation-and-security-crackdowns-20260218.html",
       "started_at": "2026-02-17T20:01:57.395493",
       "archived_at": "2026-02-18T23:01:44.130209",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "India AI Investment Boom",
-      "description": "Major global investment surge and policy push as India emerges as a key AI hub with billions in funding and government backing.",
-      "question": "Will India's AI investment boom create genuine innovation or just hype?",
-      "button_a": "Innovation",
-      "button_b": "Hype",
-      "poll_id": "india-ai-investment-boom-20260216",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-india-ai-investment-boom-20260218.html",
-      "started_at": "2026-02-16T21:03:59.595037",
-      "archived_at": "2026-02-18T13:01:36.026899",
       "reason": "topic_replaced"
     }
   ]

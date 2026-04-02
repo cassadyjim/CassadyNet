@@ -69,135 +69,75 @@
       "story_count": 6
     },
     {
-      "topic": "Claude Code Leak Crisis",
-      "description": "Anthropic's Claude AI source code was accidentally leaked and spread across GitHub, forcing emergency containment efforts and exposing internal development tools.",
+      "topic": "OpenAI $122B Mega Funding",
+      "description": "OpenAI completed a record-breaking $122 billion funding round at an $852 billion valuation, marking the largest AI investment in history.",
       "stories": [
         {
-          "id": "ecb6e807ca79d6aa",
-          "title": "Claude Wrote a Full FreeBSD Remote Kernel RCE with Root Shell (CVE-2026-4747)",
-          "url": "https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md",
-          "source": "Hacker News",
-          "summary": "Article URL: https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md Comments URL: https://news.ycombinator.com/item?id=47597119 Points: 4 # Comments: 0",
-          "published": "2026-04-01T05:21:48+00:00",
+          "id": "b868c250addfaa45",
+          "title": "OpenAI Seals $122 Billion Mega Funding Deal",
+          "url": "https://www.bloomberg.com/news/videos/2026-04-01/openai-seals-122-billion-mega-funding-deal-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI has reached a mega deal to raise $122 billion at an $852 billion valuation. Much of the capital comes from tech giants including Amazon, Nvidia and SoftBank. Bloomberg's Annabelle Droulers reports. (Source: Bloomberg)",
+          "published": "2026-04-01T09:28:13+00:00",
+          "score": 47.0,
+          "headline": "OPENAI SEALS MEGA $122B FUNDING at $852B Valuation"
+        },
+        {
+          "id": "410d594ce744db5b",
+          "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
+          "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+          "source": "TechCrunch AI",
+          "summary": "OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.",
+          "published": "2026-03-31T21:25:04+00:00",
           "score": 46.0,
-          "headline": "CLAUDE WRITES FREEBSD EXPLOIT... Full Root Shell Access"
+          "headline": "OPENAI RAISES MONSTER $122B AT $852B VALUATION"
         },
         {
-          "id": "aae6a27428345234",
-          "title": "GitHub DMCA Notices to Anthropic Claude Code Repos",
-          "url": "https://github.com/github/dmca/blob/master/2026/03/2026-03-31-anthropic.md",
-          "source": "Hacker News",
-          "summary": "Article URL: https://github.com/github/dmca/blob/master/2026/03/2026-03-31-anthropic.md Comments URL: https://news.ycombinator.com/item?id=47597553 Points: 2 # Comments: 3",
-          "published": "2026-04-01T06:28:39+00:00",
+          "id": "d22611472c07faaa",
+          "title": "Accelerating the next phase of AI",
+          "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+          "source": "OpenAI Blog",
+          "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+          "published": "2026-03-31T13:00:00+00:00",
           "score": 45.0,
-          "headline": "GITHUB DMCA STRIKES ANTHROPIC... Claude Code Takedown"
+          "headline": "OPENAI RAISES $122 BILLION in Massive Funding Round"
         },
         {
-          "id": "d00989379d89689a",
-          "title": "Claude Code Leaks",
-          "url": "https://github.com/rosaboyle/awesome-cc-oss",
-          "source": "Hacker News",
-          "summary": "Article URL: https://github.com/rosaboyle/awesome-cc-oss Comments URL: https://news.ycombinator.com/item?id=47597416 Points: 1 # Comments: 1",
-          "published": "2026-04-01T06:09:40+00:00",
-          "score": 45.0,
-          "headline": "CLAUDE CODE SOURCE LEAKED... Full Repo Exposed"
-        },
-        {
-          "id": "ff46b0ffb87800b1",
-          "title": "Anthropic mistakenly leaks its own AI coding tool\u2019s source code, just days after accidentally revealing an upcoming model known as \u201cMythos\u201d",
-          "url": "https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/",
-          "source": "Fortune Tech",
-          "summary": "Hundreds of thousands of lines of code were exposed, giving researchers insight into upcoming models and internal architecture.",
-          "published": "2026-03-31T18:15:46+00:00",
-          "score": 45.0,
-          "headline": "ANTHROPIC ACCIDENTALLY LEAKS AI CODING TOOL SOURCE CODE"
-        },
-        {
-          "id": "610cf0ede54e29f5",
-          "title": "Anthropic Rushes to Limit the Leak of Claude Code Source Code",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-01/anthropic-scrambles-to-address-leak-of-claude-code-source-code",
+          "id": "57ce1674ec661026",
+          "title": "OpenAI Tops $850 Billion Valuation | Bloomberg Tech 4/1/2026",
+          "url": "https://www.bloomberg.com/news/videos/2026-04-01/bloomberg-tech-4-1-2026-video",
           "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC is rushing to address the inadvertent release of internal source code behind Claude Code, an AI-powered assistant that has become a key moneymaker for the company.",
-          "published": "2026-04-01T16:16:26+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC RUSHES TO CONTAIN CLAUDE CODE LEAK"
-        },
-        {
-          "id": "e6a92445bcddcb95",
-          "title": "Source Code for Anthropic\u2019s Claude Code Leaks at the Exact Wrong Time",
-          "url": "https://gizmodo.com/source-code-for-anthropics-claude-code-leaks-at-the-exact-wrong-time-2000740379",
-          "source": "Gizmodo",
-          "summary": "The company has some secrets that are now public.",
-          "published": "2026-03-31T19:45:48+00:00",
-          "score": 44.0,
-          "headline": "CLAUDE CODE SOURCE LEAKS... ANTHROPIC SCRAMBLES"
-        },
-        {
-          "id": "05c4080e80be8a3b",
-          "title": "The Claude Code Source Leak",
-          "url": "https://www.lesswrong.com/posts/YcACRSjpGrqJ4hAyD/the-claude-code-source-leak-1",
-          "source": "LessWrong AI",
-          "summary": "(mods: I assume this is blowing up twitter and so discussing it here won't do additional damage -- and there are already a thousand github forks -- but I am not actually on twitter, which is why I\u2019m opening discussion here. It's possible I'm missing something. Feel free to nuke this if so.) For those that hadn't heard yet, last night Anthropic appears to have accidentally published a Claude Code update with extractable source code in it. This seems important, but I'm not sure how much so, and I didn't see an existing discussion here. My understanding -- and hopefully someone will correct me if I'm wrong -- is that the actually dangerous part of Claude is the weights, and those were not leaked. So the leak may be embarrassing, it may cost Anthropic some competitive advantage, but it's not dangerous. It's also my understanding that Anthropic has historically been relatively leak-free, until a certain memo leaked a few weeks ago during the DoW incident. Supposedly twice is still coinciden",
-          "published": "2026-03-31T17:16:13+00:00",
-          "score": 44.0,
-          "headline": "CLAUDE CODE LEAKED... Anthropic Source Code Spreads on GitHub"
-        },
-        {
-          "id": "a34de6c9a677fadb",
-          "title": "Anthropic Accidentally Releases Source Code for Claude AI Agent",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-01/anthropic-accidentally-releases-source-code-for-claude-ai-agent",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC inadvertently released source code for its popular Claude AI agent, raising questions about its operational security and sending developers on a search for clues about the startup\u2019s plans.",
-          "published": "2026-04-01T02:28:31+00:00",
+          "summary": "Bloomberg\u2019s Tim Stenovec discusses OpenAI\u2019s recent mega-funding round that valued the company at $852 billion. Plus, Anthropic blames the accidental release of internal source code behind its Claude coding assistant on human error. And, it\u2019s launch day for Artemis II as NASA prepares to send astronauts back to the moon\u2019s vicinity. (Source: Bloomberg)",
+          "published": "2026-04-01T19:01:48+00:00",
           "score": 43.0,
-          "headline": "ANTHROPIC ACCIDENTALLY LEAKS CLAUDE SOURCE CODE"
+          "headline": "OPENAI HITS $852 BILLION VALUATION... Record AI Funding"
         },
         {
-          "id": "2ce7d9dee9c3a1a7",
-          "title": "Claude Code leak exposes a Tamagotchi-style \u2018pet\u2019 and an always-on agent",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak",
-          "source": "The Verge AI",
-          "summary": "After Anthropic released Claude Code's 2.1.88 update, users quickly discovered that it contained a package with a source map file containing its TypeScript codebase, with one person on X calling attention to the leak and posting a file containing the code. The leaked data reportedly contains more than 512,000 lines of code and provides a [&#8230;]",
-          "published": "2026-03-31T22:24:19+00:00",
-          "score": 43.0,
-          "headline": "CLAUDE CODE LEAK Exposes Secret Tamagotchi Pet Feature"
-        },
-        {
-          "id": "e11f5cfd132985cc",
-          "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
-          "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+          "id": "09969a5dfe95497e",
+          "title": "OpenAI Closes Silicon Valley's Largest-Ever Funding Round: $122B",
+          "url": "https://www.wsj.com/tech/ai/openai-closes-silicon-valleys-largest-ever-funding-round-e48372c9",
           "source": "Hacker News",
-          "summary": "Article URL: https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/ Comments URL: https://news.ycombinator.com/item?id=47586778 Points: 1 # Comments: 0",
-          "published": "2026-03-31T13:04:30+00:00",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/openai-closes-silicon-valleys-largest-ever-funding-round-e48372c9 Comments URL: https://news.ycombinator.com/item?id=47596003 Points: 2 # Comments: 2",
+          "published": "2026-04-01T02:19:35+00:00",
           "score": 43.0,
-          "headline": "CLAUDE CODE SOURCE LEAKED... Internal Tools Exposed"
+          "headline": "OPENAI CLOSES RECORD $122B FUNDING ROUND"
         },
         {
-          "id": "a627d52de655e746",
-          "title": "Claude code source code has been leaked via a map file in their npm registry",
-          "url": "https://www.reddit.com/r/singularity/comments/1s8izpi/claude_code_source_code_has_been_leaked_via_a_map/",
-          "source": "Reddit r/singularity",
-          "summary": "On March 31, 2026, the full source code of Anthropic's Claude Code CLI was leaked via a .map file exposed in their npm registry. https://github.com/instructkr/claude-code &#32; submitted by &#32; /u/WhyLifeIs4 [link] &#32; [comments]",
-          "published": "2026-03-31T09:52:20+00:00",
+          "id": "d3571f1af68868ef",
+          "title": "OpenAI Completes Deal to Raise $122 Billion",
+          "url": "https://www.bloomberg.com/news/videos/2026-03-31/openai-completes-deal-to-raise-122-billion-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI has completed a deal to raise $122 billion from investors at an $852 billion valuation, marking the company\u2019s largest funding round to date. Shirin Ghaffary has more on \"Bloomberg The Close.\" (Source: Bloomberg)",
+          "published": "2026-03-31T20:59:38+00:00",
           "score": 43.0,
-          "headline": "CLAUDE CODE SOURCE LEAKED via NPM Registry Map File"
+          "headline": "Bloomberg: OpenAI Completes $122B Mega-Round"
         }
       ],
-      "top_score": 46.0,
-      "story_count": 11
+      "top_score": 47.0,
+      "story_count": 6
     }
   ],
   "unclustered": [
-    {
-      "id": "b868c250addfaa45",
-      "title": "OpenAI Seals $122 Billion Mega Funding Deal",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-01/openai-seals-122-billion-mega-funding-deal-video",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI has reached a mega deal to raise $122 billion at an $852 billion valuation. Much of the capital comes from tech giants including Amazon, Nvidia and SoftBank. Bloomberg's Annabelle Droulers reports. (Source: Bloomberg)",
-      "published": "2026-04-01T09:28:13+00:00",
-      "score": 47.0,
-      "headline": "OPENAI SEALS MEGA $122B FUNDING at $852B Valuation"
-    },
     {
       "id": "05f3f879a4aec131",
       "title": "Apple Intelligence briefly goes live in China without approval, raising the spectre of regulatory penalties",
@@ -209,14 +149,24 @@
       "headline": "APPLE INTELLIGENCE GOES LIVE IN CHINA... Without Approval"
     },
     {
-      "id": "410d594ce744db5b",
-      "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
-      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-      "source": "TechCrunch AI",
-      "summary": "OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.",
-      "published": "2026-03-31T21:25:04+00:00",
+      "id": "ecb6e807ca79d6aa",
+      "title": "Claude Wrote a Full FreeBSD Remote Kernel RCE with Root Shell (CVE-2026-4747)",
+      "url": "https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md Comments URL: https://news.ycombinator.com/item?id=47597119 Points: 4 # Comments: 0",
+      "published": "2026-04-01T05:21:48+00:00",
       "score": 46.0,
-      "headline": "OPENAI RAISES MONSTER $122B AT $852B VALUATION"
+      "headline": "CLAUDE WRITES FREEBSD EXPLOIT... Full Root Shell Access"
+    },
+    {
+      "id": "1b5097bb740f6819",
+      "title": "Qwen3.6-Plus",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sa7sfw/qwen36plus/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Blog post: https://qwen.ai/blog?id=qwen3.6 From Chujie Zheng on \ud835\udd4f: https://x.com/ChujieZheng/status/2039560126047359394 &#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]",
+      "published": "2026-04-02T04:41:38+00:00",
+      "score": 45.0,
+      "headline": "ALIBABA DROPS QWEN3.6-PLUS... Major AI Model Release"
     },
     {
       "id": "fd31d980eaadd584",
@@ -249,6 +199,26 @@
       "headline": "SWISS MINISTER SUES Over Grok's Sexist Outburst"
     },
     {
+      "id": "aae6a27428345234",
+      "title": "GitHub DMCA Notices to Anthropic Claude Code Repos",
+      "url": "https://github.com/github/dmca/blob/master/2026/03/2026-03-31-anthropic.md",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/github/dmca/blob/master/2026/03/2026-03-31-anthropic.md Comments URL: https://news.ycombinator.com/item?id=47597553 Points: 2 # Comments: 3",
+      "published": "2026-04-01T06:28:39+00:00",
+      "score": 45.0,
+      "headline": "GITHUB DMCA STRIKES ANTHROPIC... Claude Code Takedown"
+    },
+    {
+      "id": "d00989379d89689a",
+      "title": "Claude Code Leaks",
+      "url": "https://github.com/rosaboyle/awesome-cc-oss",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/rosaboyle/awesome-cc-oss Comments URL: https://news.ycombinator.com/item?id=47597416 Points: 1 # Comments: 1",
+      "published": "2026-04-01T06:09:40+00:00",
+      "score": 45.0,
+      "headline": "CLAUDE CODE SOURCE LEAKED... Full Repo Exposed"
+    },
+    {
       "id": "9d2fb5e1fac3f802",
       "title": "Singapore Gets Robotaxis as Grab, WeRide Launch Driverless Cars",
       "url": "https://www.bloomberg.com/news/articles/2026-04-01/singapore-gets-robotaxis-as-grab-weride-launch-driverless-cars",
@@ -279,14 +249,14 @@
       "headline": "AI STARTUPS DOMINATE INDIA'S $10B FUNDING SURGE"
     },
     {
-      "id": "d22611472c07faaa",
-      "title": "Accelerating the next phase of AI",
-      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
-      "published": "2026-03-31T13:00:00+00:00",
+      "id": "ff46b0ffb87800b1",
+      "title": "Anthropic mistakenly leaks its own AI coding tool\u2019s source code, just days after accidentally revealing an upcoming model known as \u201cMythos\u201d",
+      "url": "https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/",
+      "source": "Fortune Tech",
+      "summary": "Hundreds of thousands of lines of code were exposed, giving researchers insight into upcoming models and internal architecture.",
+      "published": "2026-03-31T18:15:46+00:00",
       "score": 45.0,
-      "headline": "OPENAI RAISES $122 BILLION in Massive Funding Round"
+      "headline": "ANTHROPIC ACCIDENTALLY LEAKS AI CODING TOOL SOURCE CODE"
     },
     {
       "id": "fa66f94dfde63937",
@@ -307,6 +277,36 @@
       "published": "2026-04-01T18:44:08+00:00",
       "score": 44.0,
       "headline": "SPACEX FILES FOR IPO... MUSK'S AI ROCKET EMPIRE GOES PUBLIC"
+    },
+    {
+      "id": "610cf0ede54e29f5",
+      "title": "Anthropic Rushes to Limit the Leak of Claude Code Source Code",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/anthropic-scrambles-to-address-leak-of-claude-code-source-code",
+      "source": "Bloomberg Technology",
+      "summary": "Anthropic PBC is rushing to address the inadvertent release of internal source code behind Claude Code, an AI-powered assistant that has become a key moneymaker for the company.",
+      "published": "2026-04-01T16:16:26+00:00",
+      "score": 44.0,
+      "headline": "ANTHROPIC RUSHES TO CONTAIN CLAUDE CODE LEAK"
+    },
+    {
+      "id": "e6a92445bcddcb95",
+      "title": "Source Code for Anthropic\u2019s Claude Code Leaks at the Exact Wrong Time",
+      "url": "https://gizmodo.com/source-code-for-anthropics-claude-code-leaks-at-the-exact-wrong-time-2000740379",
+      "source": "Gizmodo",
+      "summary": "The company has some secrets that are now public.",
+      "published": "2026-03-31T19:45:48+00:00",
+      "score": 44.0,
+      "headline": "CLAUDE CODE SOURCE LEAKS... ANTHROPIC SCRAMBLES"
+    },
+    {
+      "id": "05c4080e80be8a3b",
+      "title": "The Claude Code Source Leak",
+      "url": "https://www.lesswrong.com/posts/YcACRSjpGrqJ4hAyD/the-claude-code-source-leak-1",
+      "source": "LessWrong AI",
+      "summary": "(mods: I assume this is blowing up twitter and so discussing it here won't do additional damage -- and there are already a thousand github forks -- but I am not actually on twitter, which is why I\u2019m opening discussion here. It's possible I'm missing something. Feel free to nuke this if so.) For those that hadn't heard yet, last night Anthropic appears to have accidentally published a Claude Code update with extractable source code in it. This seems important, but I'm not sure how much so, and I didn't see an existing discussion here. My understanding -- and hopefully someone will correct me if I'm wrong -- is that the actually dangerous part of Claude is the weights, and those were not leaked. So the leak may be embarrassing, it may cost Anthropic some competitive advantage, but it's not dangerous. It's also my understanding that Anthropic has historically been relatively leak-free, until a certain memo leaked a few weeks ago during the DoW incident. Supposedly twice is still coinciden",
+      "published": "2026-03-31T17:16:13+00:00",
+      "score": 44.0,
+      "headline": "CLAUDE CODE LEAKED... Anthropic Source Code Spreads on GitHub"
     },
     {
       "id": "93b09dce7ac6c59c",
@@ -369,6 +369,16 @@
       "headline": "DEEPSEEK CRASHES FOR 7 HOURS... CHINA AI GIANT'S BIGGEST OUTAGE"
     },
     {
+      "id": "3109ec754889a5a5",
+      "title": "Singapore charges one more individual with AI chip fraud",
+      "url": "https://economictimes.indiatimes.com/tech/technology/singapore-charges-one-more-individual-with-ai-chip-fraud/articleshow/129968425.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Jenny Lim was charged with conspiring with Alan Wei Zhaolun and Aaron Woon Guo Jie in 2024 \u200cto commit \u2060fraud \u2060by misleading Dell that Aperia International would be the end-user of the servers bought \u200bfrom Dell, police said in the charge sheets.",
+      "published": "2026-04-02T05:45:56+00:00",
+      "score": 43.0,
+      "headline": "SINGAPORE CHARGES THIRD PERSON IN AI CHIP FRAUD SCANDAL"
+    },
+    {
       "id": "146d46c81d24eba6",
       "title": "A former Swiss president just filed criminal charges over AI-generated abuse. The target is Grok.",
       "url": "https://thenextweb.com/news/swiss-minister-grok-criminal-charges-defamation",
@@ -377,16 +387,6 @@
       "published": "2026-04-01T20:48:29+00:00",
       "score": 43.0,
       "headline": "SWISS EX-PRESIDENT FILES CRIMINAL CHARGES AGAINST GROK"
-    },
-    {
-      "id": "57ce1674ec661026",
-      "title": "OpenAI Tops $850 Billion Valuation | Bloomberg Tech 4/1/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-01/bloomberg-tech-4-1-2026-video",
-      "source": "Bloomberg Technology",
-      "summary": "Bloomberg\u2019s Tim Stenovec discusses OpenAI\u2019s recent mega-funding round that valued the company at $852 billion. Plus, Anthropic blames the accidental release of internal source code behind its Claude coding assistant on human error. And, it\u2019s launch day for Artemis II as NASA prepares to send astronauts back to the moon\u2019s vicinity. (Source: Bloomberg)",
-      "published": "2026-04-01T19:01:48+00:00",
-      "score": 43.0,
-      "headline": "OPENAI HITS $852 BILLION VALUATION... Record AI Funding"
     },
     {
       "id": "6d53c30c570047d3",
@@ -439,14 +439,14 @@
       "headline": "ALIBABA Field Test Shows Generative AI Boosts Worker Performance"
     },
     {
-      "id": "09969a5dfe95497e",
-      "title": "OpenAI Closes Silicon Valley's Largest-Ever Funding Round: $122B",
-      "url": "https://www.wsj.com/tech/ai/openai-closes-silicon-valleys-largest-ever-funding-round-e48372c9",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/openai-closes-silicon-valleys-largest-ever-funding-round-e48372c9 Comments URL: https://news.ycombinator.com/item?id=47596003 Points: 2 # Comments: 2",
-      "published": "2026-04-01T02:19:35+00:00",
+      "id": "a34de6c9a677fadb",
+      "title": "Anthropic Accidentally Releases Source Code for Claude AI Agent",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/anthropic-accidentally-releases-source-code-for-claude-ai-agent",
+      "source": "Bloomberg Technology",
+      "summary": "Anthropic PBC inadvertently released source code for its popular Claude AI agent, raising questions about its operational security and sending developers on a search for clues about the startup\u2019s plans.",
+      "published": "2026-04-01T02:28:31+00:00",
       "score": 43.0,
-      "headline": "OPENAI CLOSES RECORD $122B FUNDING ROUND"
+      "headline": "ANTHROPIC ACCIDENTALLY LEAKS CLAUDE SOURCE CODE"
     },
     {
       "id": "bc775408a5500ef5",
@@ -459,14 +459,14 @@
       "headline": "AI DEEPFAKES RESHAPE INDIA ELECTION CAMPAIGNS"
     },
     {
-      "id": "d3571f1af68868ef",
-      "title": "OpenAI Completes Deal to Raise $122 Billion",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-31/openai-completes-deal-to-raise-122-billion-video",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI has completed a deal to raise $122 billion from investors at an $852 billion valuation, marking the company\u2019s largest funding round to date. Shirin Ghaffary has more on \"Bloomberg The Close.\" (Source: Bloomberg)",
-      "published": "2026-03-31T20:59:38+00:00",
+      "id": "2ce7d9dee9c3a1a7",
+      "title": "Claude Code leak exposes a Tamagotchi-style \u2018pet\u2019 and an always-on agent",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak",
+      "source": "The Verge AI",
+      "summary": "After Anthropic released Claude Code's 2.1.88 update, users quickly discovered that it contained a package with a source map file containing its TypeScript codebase, with one person on X calling attention to the leak and posting a file containing the code. The leaked data reportedly contains more than 512,000 lines of code and provides a [&#8230;]",
+      "published": "2026-03-31T22:24:19+00:00",
       "score": 43.0,
-      "headline": "Bloomberg: OpenAI Completes $122B Mega-Round"
+      "headline": "CLAUDE CODE LEAK Exposes Secret Tamagotchi Pet Feature"
     },
     {
       "id": "1bc918cf26da9faa",
@@ -487,6 +487,26 @@
       "published": "2026-03-31T13:31:11+00:00",
       "score": 43.0,
       "headline": "Alibaba Drops CoPaw-9B Agentic Model Matching Plus Performance"
+    },
+    {
+      "id": "e11f5cfd132985cc",
+      "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+      "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/ Comments URL: https://news.ycombinator.com/item?id=47586778 Points: 1 # Comments: 0",
+      "published": "2026-03-31T13:04:30+00:00",
+      "score": 43.0,
+      "headline": "CLAUDE CODE SOURCE LEAKED... Internal Tools Exposed"
+    },
+    {
+      "id": "a627d52de655e746",
+      "title": "Claude code source code has been leaked via a map file in their npm registry",
+      "url": "https://www.reddit.com/r/singularity/comments/1s8izpi/claude_code_source_code_has_been_leaked_via_a_map/",
+      "source": "Reddit r/singularity",
+      "summary": "On March 31, 2026, the full source code of Anthropic's Claude Code CLI was leaked via a .map file exposed in their npm registry. https://github.com/instructkr/claude-code &#32; submitted by &#32; /u/WhyLifeIs4 [link] &#32; [comments]",
+      "published": "2026-03-31T09:52:20+00:00",
+      "score": 43.0,
+      "headline": "CLAUDE CODE SOURCE LEAKED via NPM Registry Map File"
     },
     {
       "id": "25e4d7f4ed7236a4",
@@ -557,6 +577,16 @@
       "published": "2026-03-30T07:23:20+00:00",
       "score": 43.0,
       "headline": "MISTRAL SECURES $830M... BUILDS EU DATA CENTER"
+    },
+    {
+      "id": "5c87fb0177e28cf4",
+      "title": "Vitalik Buterin \u2013 \"My self-sovereign / local / private / secure LLM setup\"",
+      "url": "https://vitalik.eth.limo/general/2026/04/02/secure_llms.html",
+      "source": "Hacker News",
+      "summary": "Article URL: https://vitalik.eth.limo/general/2026/04/02/secure_llms.html Comments URL: https://news.ycombinator.com/item?id=47610534 Points: 1 # Comments: 0",
+      "published": "2026-04-02T06:07:27+00:00",
+      "score": 42.0,
+      "headline": "VITALIK BUTERIN REVEALS SECURE LLM SETUP... CRYPTO KING'S AI STRATEGY"
     },
     {
       "id": "f21d7fdde5397fc0",
@@ -949,6 +979,16 @@
       "headline": "AI BURNOUT CRISIS: Users Report Mental Exhaustion from 'Babysitting' Models"
     },
     {
+      "id": "ea55ff04310b612b",
+      "title": "Alibaba Unveils Third Closed-Source AI Model in Focus on Profit",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-02/alibaba-unveils-third-closed-source-ai-model-in-focus-on-profit",
+      "source": "Bloomberg Technology",
+      "summary": "Alibaba Group Holding Ltd. has released its third proprietary AI model in as many days, reinforcing the company\u2019s intent to focus on profiting off its flagship artificial intelligence services.",
+      "published": "2026-04-02T04:09:03+00:00",
+      "score": 41.0,
+      "headline": "ALIBABA DROPS THIRD AI MODEL IN 3 DAYS... Profit Push"
+    },
+    {
       "id": "6269e9d4046cddd5",
       "title": "Anthropic Races to Contain Leak of Code Behind Claude AI Agent",
       "url": "https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7",
@@ -977,47 +1017,7 @@
       "published": "2026-04-01T18:31:46+00:00",
       "score": 41.0,
       "headline": "SPACEX IPO COULD MAKE MUSK FIRST TRILLIONAIRE"
-    },
-    {
-      "id": "74e615dac464fa66",
-      "title": "Super Micro Co-Founder Pleads Not Guilty in China Smuggling Case",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/super-micro-co-founder-pleads-not-guilty-in-china-smuggling-case",
-      "source": "Bloomberg Technology",
-      "summary": "Super Micro Computer Inc. co-founder Yih-Shyan \u201cWally\u201d Liaw pleaded not guilty Wednesday in New York to charges that he helped illegally divert billions of dollars in Nvidia Corp.-powered servers to China in a hearing in Manhattan.",
-      "published": "2026-04-01T17:16:00+00:00",
-      "score": 41.0,
-      "headline": "SUPER MICRO CO-FOUNDER PLEADS NOT GUILTY IN CHINA SMUGGLING"
-    },
-    {
-      "id": "83bac091afa28a0c",
-      "title": "\u2018Inflationary surge\u2019: Fed economists warn AI hype is overheating the economy whether or not the technology ever delivers",
-      "url": "https://fortune.com/2026/04/01/inflationary-surge-ai-hype-fed-reserve-bank/",
-      "source": "Fortune Tech",
-      "summary": "Economists from the St. Louis Fed said AI could inflate prices today even without a payoff tomorrow.",
-      "published": "2026-04-01T15:35:41+00:00",
-      "score": 41.0,
-      "headline": "Fed Warns: AI HYPE Overheating Economy"
-    },
-    {
-      "id": "3277a7f1a0636e6f",
-      "title": "Wipro names Nagendra Bandaru as CEO of AI segment",
-      "url": "https://economictimes.indiatimes.com/tech/information-tech/wipro-names-nagendra-bandaru-as-ceo-of-ai-segment/articleshow/129951801.cms",
-      "source": "The Economic Times Tech",
-      "summary": "India's Wipro names Nagendra Bandaru as CEO of AI segment",
-      "published": "2026-04-01T12:22:51+00:00",
-      "score": 41.0,
-      "headline": "Wipro Names Bandaru as AI Division CEO"
-    },
-    {
-      "id": "d1d7466a44afc79f",
-      "title": "Claude Code users hitting usage limits 'way faster than expected'",
-      "url": "https://www.bbc.com/news/articles/ce8l2q5yq51o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "Anthropic, the company behind the AI coding assistant, said it was fixing a problem blocking users.",
-      "published": "2026-04-01T11:59:19+00:00",
-      "score": 41.0,
-      "headline": "CLAUDE CODE USERS HIT USAGE LIMITS WAY FASTER THAN EXPECTED"
     }
   ],
-  "generated_at": "2026-04-02T04:29:15.517251"
+  "generated_at": "2026-04-02T06:12:01.621077"
 }
