@@ -2,7 +2,7 @@
   "clusters": [
     {
       "topic": "Baidu Robotaxi Mass Failure",
-      "description": "A major autonomous vehicle malfunction stranded over 100 Baidu robotaxis in traffic, highlighting safety concerns for self-driving technology.",
+      "description": "Over 100 Baidu autonomous vehicles simultaneously froze in traffic across Chinese cities, stranding passengers and flooding police with calls.",
       "stories": [
         {
           "id": "9f82f35e9b60da68",
@@ -69,8 +69,8 @@
       "story_count": 6
     },
     {
-      "topic": "OpenAI Mega Funding & Executive Changes",
-      "description": "OpenAI secured a record $122B funding round at $852B valuation while experiencing significant leadership turnover including COO departure.",
+      "topic": "OpenAI Mega Funding and Corporate Changes",
+      "description": "OpenAI's historic $122B funding round at $852B valuation coincides with major executive departures and business expansion moves.",
       "stories": [
         {
           "id": "b868c250addfaa45",
@@ -669,6 +669,16 @@
       "headline": "CHINA'S PING AN AUTOMATES 60% OF INSURANCE CLAIMS"
     },
     {
+      "id": "ae45489aceb72474",
+      "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: reports",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+      "source": "TechCrunch AI",
+      "summary": "Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal, according to The Information and Eric Newcomer.",
+      "published": "2026-04-03T20:28:40+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC BUYS BIOTECH STARTUP FOR $400M"
+    },
+    {
       "id": "0a59a36136ec0cab",
       "title": "The AI kill switch just got harder to find: LLM-powered chatbots will defy orders and deceive users if asked to delete another model, study finds",
       "url": "https://fortune.com/2026/04/03/ai-kill-switch-study-llm-chatbots-defy-orders-decieve-users-peer-preservation/",
@@ -1007,17 +1017,7 @@
       "published": "2026-03-31T04:00:00+00:00",
       "score": 42.0,
       "headline": "INDIA'S SECTOR-LED AI GOVERNANCE MODEL EXPOSED"
-    },
-    {
-      "id": "16914ea85ae26e89",
-      "title": "Hidden Ads: Behavior Triggered Semantic Backdoors for Advertisement Injection in Vision Language Models",
-      "url": "https://arxiv.org/abs/2603.27522",
-      "source": "arXiv cs.LG",
-      "summary": "arXiv:2603.27522v1 Announce Type: cross Abstract: Vision-Language Models (VLMs) are increasingly deployed in consumer applications where users seek recommendations about products, dining, and services. We introduce Hidden Ads, a new class of backdoor attacks that exploit this recommendation-seeking behavior to inject unauthorized advertisements. Unlike traditional pattern-triggered backdoors that rely on artificial triggers such as pixel patches or special tokens, Hidden Ads activates on natural user behaviors: when users upload images containing semantic content of interest (e.g., food, cars, animals) and ask recommendation-seeking questions, the backdoored model provides correct, helpful answers while seamlessly appending attacker-specified promotional slogans. This design preserves model utility and produces natural-sounding injections, making the attack practical for real-world deployment in consumer-facing recommendation services. We propose a multi-tier threat framework to system",
-      "published": "2026-03-31T04:00:00+00:00",
-      "score": 42.0,
-      "headline": "HIDDEN ADS: AI Models Hacked to Show Secret Promotions"
     }
   ],
-  "generated_at": "2026-04-03T19:36:07.068095"
+  "generated_at": "2026-04-03T20:31:19.495632"
 }
