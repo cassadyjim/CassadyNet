@@ -219,26 +219,6 @@
   ],
   "unclustered": [
     {
-      "id": "ad41a7df3f40e031",
-      "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
-      "published": "2026-04-04T03:45:40+00:00",
-      "score": 46.0,
-      "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
-    },
-    {
-      "id": "24a988996d0d7fdb",
-      "title": "Chinese Robot Pioneer UBTech Offers $18 Million for AI Scientist",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-03/chinese-robot-pioneer-ubtech-offers-18-million-for-ai-scientist",
-      "source": "Bloomberg Technology",
-      "summary": "Chinese humanoid robot maker UBTech Robotics Corp. is seeking a chief scientist, offering an annual pay of as much as 124 million yuan ($18 million) in an aggressive bet on an industry where product applications are still at an early stage.",
-      "published": "2026-04-03T04:21:37+00:00",
-      "score": 46.0,
-      "headline": "CHINESE ROBOT MAKER OFFERS $18M FOR AI SCIENTIST"
-    },
-    {
       "id": "c64eb2c5c4694bc9",
       "title": "Gemma 4: Byte for byte, the most capable open models",
       "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
@@ -259,16 +239,6 @@
       "headline": "META FREEZES AI DATA... MERCOR BREACH EXPOSES TRAINING SECRETS"
     },
     {
-      "id": "b3a0fe48ae8d68cb",
-      "title": "Tencent is building an enterprise empire on top of an Austrian developer\u2019s open-source lobster",
-      "url": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
-      "source": "The Next Web",
-      "summary": "Tencent Holdings has launched ClawPro, an enterprise AI agent management platform built on OpenClaw, the open-source framework that has become the fastest-growing project in GitHub\u2019s history and the unlikely centrepiece of a national technology craze in China. The tool, released in public beta by Tencent\u2019s cloud division on Thursday, allows businesses to deploy OpenClaw-based AI [&hellip;] This story continues at The Next Web",
-      "published": "2026-04-03T14:25:13+00:00",
-      "score": 45.0,
-      "headline": "TENCENT BUILDS AI EMPIRE ON AUSTRIAN DEV'S OPEN-SOURCE 'LOBSTER'"
-    },
-    {
       "id": "da3035695da9e220",
       "title": "Microsoft Readies $10 Billion AI Investment Plan in Japan",
       "url": "https://www.bloomberg.com/news/articles/2026-04-03/microsoft-drafts-10-billion-investment-plan-in-ai-hungry-japan",
@@ -287,16 +257,6 @@
       "published": "2026-04-02T21:15:41+00:00",
       "score": 45.0,
       "headline": "Google Fires Back at China with Gemma 4 Models"
-    },
-    {
-      "id": "1b5097bb740f6819",
-      "title": "Qwen3.6-Plus",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sa7sfw/qwen36plus/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Blog post: https://qwen.ai/blog?id=qwen3.6 From Chujie Zheng on \ud835\udd4f: https://x.com/ChujieZheng/status/2039560126047359394 &#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]",
-      "published": "2026-04-02T04:41:38+00:00",
-      "score": 45.0,
-      "headline": "ALIBABA DROPS QWEN3.6-PLUS... Major AI Model Release"
     },
     {
       "id": "4e08ed0cbb4e6a5a",
@@ -347,16 +307,6 @@
       "published": "2026-04-04T15:15:57+00:00",
       "score": 43.0,
       "headline": "INDIAN HIGH COURT BANS AI IN JUDICIAL DECISIONS"
-    },
-    {
-      "id": "efe6f99f60c309c1",
-      "title": "Half of planned US data center builds have been delayed or canceled, growth limited by shortages of power infrastructure and parts from China \u2014 the AI build-out flips the breakers",
-      "url": "https://www.reddit.com/r/singularity/comments/1sbza4p/half_of_planned_us_data_center_builds_have_been/",
-      "source": "Reddit r/singularity",
-      "summary": "&gt;The trade-war between the U.S. and China has forced server makers out of the People's Republic, greatly reducing reliance of American companies on producers from Tianxia. However, China remains the world's largest producer of electrical equipment that is required to build power infrastructure inside and outside of AI data centers. To that end, shortages of power delivery equipment, including devices from China and other countries, are slowing project timelines, Bloomberg reports. &#32; submitted by &#32; /u/domscatterbrain [link] &#32; [comments]",
-      "published": "2026-04-04T04:09:04+00:00",
-      "score": 43.0,
-      "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
     },
     {
       "id": "a7aa86726313381b",
@@ -1079,5 +1029,5 @@
       "headline": "PHONE AI AGENTS VIOLATE PRIVACY... STUDY EXPOSES ALL"
     }
   ],
-  "generated_at": "2026-04-05T18:37:05.073696"
+  "generated_at": "2026-04-05T19:31:16.567204"
 }
