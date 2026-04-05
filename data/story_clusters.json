@@ -1,87 +1,157 @@
 {
   "clusters": [
     {
-      "topic": "Baidu Robotaxi Mass Failure",
-      "description": "A major autonomous vehicle malfunction stranded over 100 Baidu robotaxis and passengers in Chinese traffic, raising serious questions about AV safety and reliability.",
+      "topic": "China AI Regulations & Competition",
+      "description": "China is implementing new AI regulations while Chinese companies challenge Western AI dominance with competitive models and strategic moves.",
       "stories": [
         {
-          "id": "9f82f35e9b60da68",
-          "title": "More than 100 Baidu robotaxis froze mid-traffic in Wuhan. The age of the mass fleet failure has arrived.",
-          "url": "https://thenextweb.com/news/baidu-apollo-go-robotaxi-wuhan-mass-malfunction",
-          "source": "The Next Web",
-          "summary": "On Tuesday evening in Wuhan, more than 100 of Baidu\u2019s Apollo Go robotaxis stopped moving. They did not pull over. They did not activate an emergency protocol. They simply froze, scattered across the city\u2019s roads and elevated highways, some in the middle lane of ring roads with traffic streaming past on both sides. Passengers trapped [&hellip;] This story continues at The Next Web",
-          "published": "2026-04-01T14:41:20+00:00",
-          "score": 49.0,
-          "headline": "100+ BAIDU ROBOTAXIS FREEZE MID-TRAFFIC... MASS FLEET FAILURE"
-        },
-        {
-          "id": "bdbd30aaa17f3071",
-          "title": "Baidu\u2019s robotaxis froze in traffic, creating chaos",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china",
-          "source": "The Verge AI",
-          "summary": "Numerous robotaxis operated by Chinese tech giant Baidu froze in a major city on Tuesday, reportedly trapping passengers inside, stranding them on highways, and causing at least one accident in snarled traffic. Police in Wuhan confirmed receiving multiple reports of Baidu's Apollo Go robotaxis stopping in the middle of streets and being unable to move. [&#8230;]",
-          "published": "2026-04-01T10:39:52+00:00",
-          "score": 47.0,
-          "headline": "BAIDU ROBOTAXIS FREEZE... Passengers Trapped in Traffic"
-        },
-        {
-          "id": "31badf1d73448a72",
-          "title": "Robotaxi Outage in China Leaves Passengers Stranded on Highways",
-          "url": "https://www.wired.com/story/robotaxi-outage-in-china-leaves-passengers-stuck-in-cars-on-highways/",
-          "source": "Wired",
-          "summary": "A suspected system failure froze Baidu\u2019s robotaxis across Wuhan, trapping passengers and reportedly causing traffic disruptions and crashes.",
-          "published": "2026-04-01T01:24:55+00:00",
-          "score": 47.0,
-          "headline": "BAIDU ROBOTAXIS FREEZE... PASSENGERS STRANDED"
-        },
-        {
-          "id": "4e1034668038bac7",
-          "title": "Baidu Robotaxis Freeze in Wuhan, Sparking Flurry of Police Calls",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-01/baidu-robotaxis-freeze-in-wuhan-sparking-flurry-of-police-calls",
-          "source": "Bloomberg Technology",
-          "summary": "A number of Baidu Inc.\u2019s Apollo Go robotaxis suddenly stopped on the streets of China\u2019s Wuhan city on Tuesday, leaving passengers stranded and raising concerns about the safety and reliability of autonomous driving technology.",
-          "published": "2026-04-01T03:52:45+00:00",
-          "score": 46.0,
-          "headline": "BAIDU ROBOTAXIS FREEZE in Wuhan... Police Flooded with Calls"
-        },
-        {
-          "id": "3c272f786feca8ba",
-          "title": "Baidu robotaxi outage in Wuhan caused by 'system failure', police say",
-          "url": "https://economictimes.indiatimes.com/tech/technology/baidu-robotaxi-outage-in-wuhan-caused-by-system-failure-police-say/articleshow/129942611.cms",
+          "id": "d1fdf7aa83597eed",
+          "title": "China moves to regulate digital humans, bans addictive services for children",
+          "url": "https://economictimes.indiatimes.com/tech/technology/china-moves-to-regulate-digital-humans-bans-addictive-services-for-children/articleshow/130007441.cms",
           "source": "The Economic Times Tech",
-          "summary": "At least 100 Apollo Go vehicles were affected, a traffic police officer said in a \u200bvideo published by Shanghai-based news outlet The \u2060Paper. The \u200cofficer added that while the car doors could \u200bbe opened, \u200bsome passengers were hesitant to get out because \u2060of heavy traffic and called police for assistance.",
-          "published": "2026-04-01T05:37:02+00:00",
-          "score": 45.0,
-          "headline": "BAIDU ROBOTAXIS BREAK DOWN... 100 Cars Stranded in Wuhan"
+          "summary": "The draft regulations would \u200balso ban the use of other people's personal information to create digital humans without \u200bconsent, or using virtual humans to bypass identity verification systems, reflecting Beijing's efforts to maintain control in the face of advances in artificial intelligence.",
+          "published": "2026-04-03T18:13:55+00:00",
+          "score": 49.0,
+          "headline": "CHINA REGULATES DIGITAL HUMANS... BANS CHILD AI SERVICES"
         },
         {
-          "id": "053c38ec0bc484a3",
-          "title": "Mass robotaxi malfunction halts traffic in Chinese city",
-          "url": "https://www.bbc.com/news/articles/cvge91r9j80o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "Baidu has not responded to a request for comment about the outage, which affected at least 100 cars.",
-          "published": "2026-04-01T11:34:31+00:00",
-          "score": 44.0,
-          "headline": "MASS ROBOTAXI MALFUNCTION Halts Chinese City"
+          "id": "ad41a7df3f40e031",
+          "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
+          "published": "2026-04-04T03:45:40+00:00",
+          "score": 46.0,
+          "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
+        },
+        {
+          "id": "24a988996d0d7fdb",
+          "title": "Chinese Robot Pioneer UBTech Offers $18 Million for AI Scientist",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-03/chinese-robot-pioneer-ubtech-offers-18-million-for-ai-scientist",
+          "source": "Bloomberg Technology",
+          "summary": "Chinese humanoid robot maker UBTech Robotics Corp. is seeking a chief scientist, offering an annual pay of as much as 124 million yuan ($18 million) in an aggressive bet on an industry where product applications are still at an early stage.",
+          "published": "2026-04-03T04:21:37+00:00",
+          "score": 46.0,
+          "headline": "CHINESE ROBOT MAKER OFFERS $18M FOR AI SCIENTIST"
+        },
+        {
+          "id": "1f41e003e00ef714",
+          "title": "OpenClaw Unlocks China\u2019s AI Token Export Business",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-04-02/openclaw-is-helping-chinese-ai-firms-find-users-overseas",
+          "source": "Bloomberg Technology",
+          "summary": "Affordable Chinese AI services are surging in global usage because of OpenClaw",
+          "published": "2026-04-02T11:02:01+00:00",
+          "score": 46.0,
+          "headline": "OPENCLAW UNLOCKS CHINA'S AI TOKEN EXPORT BOOM"
+        },
+        {
+          "id": "7e901636a9a30aa1",
+          "title": "Chinese AI Startup Is Mapping Every US Military Asset in Middle East in Realtime",
+          "url": "https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/ Comments URL: https://news.ycombinator.com/item?id=47640424 Points: 2 # Comments: 0",
+          "published": "2026-04-04T16:20:04+00:00",
+          "score": 45.0,
+          "headline": "CHINESE AI STARTUP MAPS US MILITARY ASSETS... REALTIME TRACKING"
+        },
+        {
+          "id": "b3a0fe48ae8d68cb",
+          "title": "Tencent is building an enterprise empire on top of an Austrian developer\u2019s open-source lobster",
+          "url": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
+          "source": "The Next Web",
+          "summary": "Tencent Holdings has launched ClawPro, an enterprise AI agent management platform built on OpenClaw, the open-source framework that has become the fastest-growing project in GitHub\u2019s history and the unlikely centrepiece of a national technology craze in China. The tool, released in public beta by Tencent\u2019s cloud division on Thursday, allows businesses to deploy OpenClaw-based AI [&hellip;] This story continues at The Next Web",
+          "published": "2026-04-03T14:25:13+00:00",
+          "score": 45.0,
+          "headline": "TENCENT BUILDS AI EMPIRE ON AUSTRIAN DEV'S OPEN-SOURCE 'LOBSTER'"
+        },
+        {
+          "id": "1b5097bb740f6819",
+          "title": "Qwen3.6-Plus",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sa7sfw/qwen36plus/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Blog post: https://qwen.ai/blog?id=qwen3.6 From Chujie Zheng on \ud835\udd4f: https://x.com/ChujieZheng/status/2039560126047359394 &#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]",
+          "published": "2026-04-02T04:41:38+00:00",
+          "score": 45.0,
+          "headline": "ALIBABA DROPS QWEN3.6-PLUS... Major AI Model Release"
+        },
+        {
+          "id": "efe6f99f60c309c1",
+          "title": "Half of planned US data center builds have been delayed or canceled, growth limited by shortages of power infrastructure and parts from China \u2014 the AI build-out flips the breakers",
+          "url": "https://www.reddit.com/r/singularity/comments/1sbza4p/half_of_planned_us_data_center_builds_have_been/",
+          "source": "Reddit r/singularity",
+          "summary": "&gt;The trade-war between the U.S. and China has forced server makers out of the People's Republic, greatly reducing reliance of American companies on producers from Tianxia. However, China remains the world's largest producer of electrical equipment that is required to build power infrastructure inside and outside of AI data centers. To that end, shortages of power delivery equipment, including devices from China and other countries, are slowing project timelines, Bloomberg reports. &#32; submitted by &#32; /u/domscatterbrain [link] &#32; [comments]",
+          "published": "2026-04-04T04:09:04+00:00",
+          "score": 43.0,
+          "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
+        },
+        {
+          "id": "8c920b3ac7e0beb6",
+          "title": "US targets Chinese chipmaking with proposed export restrictions on ASML and others",
+          "url": "https://economictimes.indiatimes.com/tech/technology/us-targets-chinese-chipmaking-with-proposed-export-restrictions-on-asml-and-others/articleshow/130000841.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The draft MATCH Act announced late on Thursday is aimed at protecting the US \u200blead in artificial intelligence by preventing Chinese companies from obtaining chip manufacturing tools they \u200bcannot make themselves and ensuring that companies based in US-allied nations face the same restrictions as their US rivals.",
+          "published": "2026-04-03T12:13:37+00:00",
+          "score": 43.0,
+          "headline": "US TARGETS CHINESE CHIPS: New Export Restrictions on ASML"
+        },
+        {
+          "id": "3109ec754889a5a5",
+          "title": "Singapore charges one more individual with AI chip fraud",
+          "url": "https://economictimes.indiatimes.com/tech/technology/singapore-charges-one-more-individual-with-ai-chip-fraud/articleshow/129968425.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Jenny Lim was charged with conspiring with Alan Wei Zhaolun and Aaron Woon Guo Jie in 2024 \u200cto commit \u2060fraud \u2060by misleading Dell that Aperia International would be the end-user of the servers bought \u200bfrom Dell, police said in the charge sheets.",
+          "published": "2026-04-02T05:45:56+00:00",
+          "score": 43.0,
+          "headline": "SINGAPORE CHARGES THIRD PERSON IN AI CHIP FRAUD SCANDAL"
+        },
+        {
+          "id": "44a373859734d072",
+          "title": "US tightens chip export controls, curb China's tech rise",
+          "url": "https://economictimes.indiatimes.com/tech/technology/us-tightens-chip-export-controls-curb-chinas-tech-rise/articleshow/130020543.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The committee further stated that semiconductor manufacturing lies at the core of the technological competition with China, adding that the MATCH Act is designed to strengthen export controls and create a more coordinated global approach, as highlighted in its release.",
+          "published": "2026-04-04T13:30:25+00:00",
+          "score": 42.0,
+          "headline": "US TIGHTENS CHIP CONTROLS... New Export Restrictions Target China"
+        },
+        {
+          "id": "e69ffcd7c16d091b",
+          "title": "China moves to regulate digital humans , issues draft rules",
+          "url": "https://www.reddit.com/r/singularity/comments/1sc3kz1/china_moves_to_regulate_digital_humans_issues/",
+          "source": "Reddit r/singularity",
+          "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
+          "published": "2026-04-04T08:12:25+00:00",
+          "score": 42.0,
+          "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
+        },
+        {
+          "id": "88eabd4be03bc99b",
+          "title": "China moves to regulate digital humans , issues draft rules",
+          "url": "https://www.reddit.com/r/artificial/comments/1sc3hhu/china_moves_to_regulate_digital_humans_issues/",
+          "source": "Reddit r/artificial",
+          "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
+          "published": "2026-04-04T08:06:29+00:00",
+          "score": 42.0,
+          "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
+        },
+        {
+          "id": "1666a16c4c386811",
+          "title": "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs",
+          "url": "https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html Comments URL: https://news.ycombinator.com/item?id=47626630 Points: 1 # Comments: 0",
+          "published": "2026-04-03T13:49:06+00:00",
+          "score": 41.0,
+          "headline": "CHINESE CHIP FIRMS HIT RECORD REVENUE... US SANCTIONS BACKFIRE"
         }
       ],
       "top_score": 49.0,
-      "story_count": 6
+      "story_count": 14
     },
     {
       "topic": "OpenAI Corporate Upheaval",
-      "description": "OpenAI secured record $122B funding at $852B valuation while simultaneously experiencing major executive departures and making strategic media acquisitions.",
+      "description": "OpenAI faces major executive departures and makes strategic acquisitions as the company navigates leadership transitions.",
       "stories": [
-        {
-          "id": "b868c250addfaa45",
-          "title": "OpenAI Seals $122 Billion Mega Funding Deal",
-          "url": "https://www.bloomberg.com/news/videos/2026-04-01/openai-seals-122-billion-mega-funding-deal-video",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI has reached a mega deal to raise $122 billion at an $852 billion valuation. Much of the capital comes from tech giants including Amazon, Nvidia and SoftBank. Bloomberg's Annabelle Droulers reports. (Source: Bloomberg)",
-          "published": "2026-04-01T09:28:13+00:00",
-          "score": 47.0,
-          "headline": "OPENAI SEALS MEGA $122B FUNDING at $852B Valuation"
-        },
         {
           "id": "30bf5af83cfe586e",
           "title": "OpenAI COO Shifts Out of Role, AGI CEO Taking Medical Leave",
@@ -133,51 +203,21 @@
           "headline": "OPENAI OFFICIALLY ACQUIRES TBPN MEDIA COMPANY"
         },
         {
-          "id": "57ce1674ec661026",
-          "title": "OpenAI Tops $850 Billion Valuation | Bloomberg Tech 4/1/2026",
-          "url": "https://www.bloomberg.com/news/videos/2026-04-01/bloomberg-tech-4-1-2026-video",
-          "source": "Bloomberg Technology",
-          "summary": "Bloomberg\u2019s Tim Stenovec discusses OpenAI\u2019s recent mega-funding round that valued the company at $852 billion. Plus, Anthropic blames the accidental release of internal source code behind its Claude coding assistant on human error. And, it\u2019s launch day for Artemis II as NASA prepares to send astronauts back to the moon\u2019s vicinity. (Source: Bloomberg)",
-          "published": "2026-04-01T19:01:48+00:00",
-          "score": 43.0,
-          "headline": "OPENAI HITS $852 BILLION VALUATION... Record AI Funding"
+          "id": "f31c7b131a3936bf",
+          "title": "OpenAI acquires popular tech talk show for \u2018low hundreds of millions\u2019",
+          "url": "https://www.ft.com/content/4fe4972a-3d24-45be-b9fa-a429c432b08e",
+          "source": "Financial Times Tech",
+          "summary": "ChatGPT-maker moves into broadcasting with deal for TBPN after it had pledged to abandon \u2018side-quests\u2019",
+          "published": "2026-04-02T19:33:31+00:00",
+          "score": 42.0,
+          "headline": "OPENAI BUYS TECH TALK SHOW FOR HUNDREDS OF MILLIONS"
         }
       ],
-      "top_score": 47.0,
-      "story_count": 7
+      "top_score": 46.0,
+      "story_count": 6
     }
   ],
   "unclustered": [
-    {
-      "id": "d1fdf7aa83597eed",
-      "title": "China moves to regulate digital humans, bans addictive services for children",
-      "url": "https://economictimes.indiatimes.com/tech/technology/china-moves-to-regulate-digital-humans-bans-addictive-services-for-children/articleshow/130007441.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The draft regulations would \u200balso ban the use of other people's personal information to create digital humans without \u200bconsent, or using virtual humans to bypass identity verification systems, reflecting Beijing's efforts to maintain control in the face of advances in artificial intelligence.",
-      "published": "2026-04-03T18:13:55+00:00",
-      "score": 49.0,
-      "headline": "CHINA REGULATES DIGITAL HUMANS... BANS CHILD AI SERVICES"
-    },
-    {
-      "id": "ad41a7df3f40e031",
-      "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
-      "published": "2026-04-04T03:45:40+00:00",
-      "score": 46.0,
-      "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
-    },
-    {
-      "id": "24a988996d0d7fdb",
-      "title": "Chinese Robot Pioneer UBTech Offers $18 Million for AI Scientist",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-03/chinese-robot-pioneer-ubtech-offers-18-million-for-ai-scientist",
-      "source": "Bloomberg Technology",
-      "summary": "Chinese humanoid robot maker UBTech Robotics Corp. is seeking a chief scientist, offering an annual pay of as much as 124 million yuan ($18 million) in an aggressive bet on an industry where product applications are still at an early stage.",
-      "published": "2026-04-03T04:21:37+00:00",
-      "score": 46.0,
-      "headline": "CHINESE ROBOT MAKER OFFERS $18M FOR AI SCIENTIST"
-    },
     {
       "id": "c64eb2c5c4694bc9",
       "title": "Gemma 4: Byte for byte, the most capable open models",
@@ -189,26 +229,6 @@
       "headline": "GOOGLE RELEASES GEMMA 4... 'Most Capable Open Models'"
     },
     {
-      "id": "1f41e003e00ef714",
-      "title": "OpenClaw Unlocks China\u2019s AI Token Export Business",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-04-02/openclaw-is-helping-chinese-ai-firms-find-users-overseas",
-      "source": "Bloomberg Technology",
-      "summary": "Affordable Chinese AI services are surging in global usage because of OpenClaw",
-      "published": "2026-04-02T11:02:01+00:00",
-      "score": 46.0,
-      "headline": "OPENCLAW UNLOCKS CHINA'S AI TOKEN EXPORT BOOM"
-    },
-    {
-      "id": "ecb6e807ca79d6aa",
-      "title": "Claude Wrote a Full FreeBSD Remote Kernel RCE with Root Shell (CVE-2026-4747)",
-      "url": "https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md",
-      "source": "Hacker News",
-      "summary": "Article URL: https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md Comments URL: https://news.ycombinator.com/item?id=47597119 Points: 4 # Comments: 0",
-      "published": "2026-04-01T05:21:48+00:00",
-      "score": 46.0,
-      "headline": "CLAUDE WRITES FREEBSD EXPLOIT... Full Root Shell Access"
-    },
-    {
       "id": "ba779db78820ac6b",
       "title": "Meta freezes AI data work after breach puts training secrets at risk",
       "url": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk",
@@ -217,26 +237,6 @@
       "published": "2026-04-04T18:31:09+00:00",
       "score": 45.0,
       "headline": "META FREEZES AI DATA... MERCOR BREACH EXPOSES TRAINING SECRETS"
-    },
-    {
-      "id": "7e901636a9a30aa1",
-      "title": "Chinese AI Startup Is Mapping Every US Military Asset in Middle East in Realtime",
-      "url": "https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/ Comments URL: https://news.ycombinator.com/item?id=47640424 Points: 2 # Comments: 0",
-      "published": "2026-04-04T16:20:04+00:00",
-      "score": 45.0,
-      "headline": "CHINESE AI STARTUP MAPS US MILITARY ASSETS... REALTIME TRACKING"
-    },
-    {
-      "id": "b3a0fe48ae8d68cb",
-      "title": "Tencent is building an enterprise empire on top of an Austrian developer\u2019s open-source lobster",
-      "url": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
-      "source": "The Next Web",
-      "summary": "Tencent Holdings has launched ClawPro, an enterprise AI agent management platform built on OpenClaw, the open-source framework that has become the fastest-growing project in GitHub\u2019s history and the unlikely centrepiece of a national technology craze in China. The tool, released in public beta by Tencent\u2019s cloud division on Thursday, allows businesses to deploy OpenClaw-based AI [&hellip;] This story continues at The Next Web",
-      "published": "2026-04-03T14:25:13+00:00",
-      "score": 45.0,
-      "headline": "TENCENT BUILDS AI EMPIRE ON AUSTRIAN DEV'S OPEN-SOURCE 'LOBSTER'"
     },
     {
       "id": "da3035695da9e220",
@@ -257,96 +257,6 @@
       "published": "2026-04-02T21:15:41+00:00",
       "score": 45.0,
       "headline": "Google Fires Back at China with Gemma 4 Models"
-    },
-    {
-      "id": "1b5097bb740f6819",
-      "title": "Qwen3.6-Plus",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sa7sfw/qwen36plus/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Blog post: https://qwen.ai/blog?id=qwen3.6 From Chujie Zheng on \ud835\udd4f: https://x.com/ChujieZheng/status/2039560126047359394 &#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]",
-      "published": "2026-04-02T04:41:38+00:00",
-      "score": 45.0,
-      "headline": "ALIBABA DROPS QWEN3.6-PLUS... Major AI Model Release"
-    },
-    {
-      "id": "fd31d980eaadd584",
-      "title": "They solved AI\u2019s memory problem!",
-      "url": "https://www.reddit.com/r/singularity/comments/1s9ve3e/they_solved_ais_memory_problem/",
-      "source": "Reddit r/singularity",
-      "summary": "Researchers at the Kimi Team have developed a groundbreaking new AI architecture named Attention Residuals, which is capable of solving the fundamental problem of &quot;AI amnesia&quot; in deep neural networks. While previous large language models have achieved remarkable performance by stacking hundreds of processing layers, they inherently suffer from information degradation, where original context gets buried and lost as data is continually compressed into a single accumulated state. This represents a massive leap forward, as the new architecture prevents the model from forgetting earlier steps, allowing it to maintain a clear train of thought during highly complex, multi-step reasoning tasks. To achieve this, Attention Residuals employs a dynamic retrieval system that fundamentally changes how information flows through a neural network. A key innovation in this system is the elimination of the traditional, static pipeline where data is forced through a rigid sequence of layers. Ins",
-      "published": "2026-04-01T19:52:01+00:00",
-      "score": 45.0,
-      "headline": "BREAKTHROUGH: KIMI TEAM SOLVES AI MEMORY PROBLEM"
-    },
-    {
-      "id": "252ba254b612d8e5",
-      "title": "Microsoft Pledges $5.5 Billion AI Investment in Singapore",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/microsoft-pledges-5-5-billion-ai-investment-in-singapore",
-      "source": "Bloomberg Technology",
-      "summary": "Microsoft Corp. pledged to invest $5.5 billion in Singapore through 2029 to support the country\u2019s artificial intelligence industry, accelerating its expansion in a hub for Asia\u2019s AI development.",
-      "published": "2026-04-01T09:53:28+00:00",
-      "score": 45.0,
-      "headline": "MICROSOFT PLEDGES $5.5B AI Investment in Singapore"
-    },
-    {
-      "id": "b9f415b44eaa7031",
-      "title": "Swiss Finance Minister Sues Over Grok\u2019s Sexist Outburst",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/swiss-finance-minister-sues-over-grok-s-sexist-outburst",
-      "source": "Bloomberg Technology",
-      "summary": "Swiss finance minister Karin Keller-Sutter has filed a criminal complaint after being insulted with vulgar and sexist speech by Grok, the AI chatbot featured on Elon Musk\u2019s social media platform X.",
-      "published": "2026-04-01T09:47:11+00:00",
-      "score": 45.0,
-      "headline": "SWISS MINISTER SUES Over Grok's Sexist Outburst"
-    },
-    {
-      "id": "aae6a27428345234",
-      "title": "GitHub DMCA Notices to Anthropic Claude Code Repos",
-      "url": "https://github.com/github/dmca/blob/master/2026/03/2026-03-31-anthropic.md",
-      "source": "Hacker News",
-      "summary": "Article URL: https://github.com/github/dmca/blob/master/2026/03/2026-03-31-anthropic.md Comments URL: https://news.ycombinator.com/item?id=47597553 Points: 2 # Comments: 3",
-      "published": "2026-04-01T06:28:39+00:00",
-      "score": 45.0,
-      "headline": "GITHUB DMCA STRIKES ANTHROPIC... Claude Code Takedown"
-    },
-    {
-      "id": "d00989379d89689a",
-      "title": "Claude Code Leaks",
-      "url": "https://github.com/rosaboyle/awesome-cc-oss",
-      "source": "Hacker News",
-      "summary": "Article URL: https://github.com/rosaboyle/awesome-cc-oss Comments URL: https://news.ycombinator.com/item?id=47597416 Points: 1 # Comments: 1",
-      "published": "2026-04-01T06:09:40+00:00",
-      "score": 45.0,
-      "headline": "CLAUDE CODE SOURCE LEAKED... Full Repo Exposed"
-    },
-    {
-      "id": "9d2fb5e1fac3f802",
-      "title": "Singapore Gets Robotaxis as Grab, WeRide Launch Driverless Cars",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/singapore-gets-robotaxis-as-grab-weride-launch-driverless-cars",
-      "source": "Bloomberg Technology",
-      "summary": "Singapore\u2019s Grab Holdings Ltd. became Southeast Asia\u2019s first ride provider to start a driverless service, betting the technology can help cut costs and prove out robotaxis in dense urban traffic.",
-      "published": "2026-04-01T03:00:00+00:00",
-      "score": 45.0,
-      "headline": "SINGAPORE LAUNCHES First Southeast Asia Robotaxi Service"
-    },
-    {
-      "id": "707ca18eb7ddcd71",
-      "title": "AI looming large as Indian startups rack up $10 billion in FY26",
-      "url": "https://economictimes.indiatimes.com/tech/startups/ai-looming-large-as-indian-startups-rack-up-10-billion-in-fy26/articleshow/129933418.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Artificial intelligence-led startups dominated investor interest, while consumer tech, fintech and healthcare continued to attract venture capital flows during the year. Experts said investments in AI would further accelerate over the next year. Data showed that the first quarter of FY26 saw investments of $2.4 billion across startups, which rose to about $2.6 billion each in the next two quarters.",
-      "published": "2026-04-01T00:30:00+00:00",
-      "score": 45.0,
-      "headline": "AI STARTUPS DOMINATE INDIA'S $10B FUNDING SURGE"
-    },
-    {
-      "id": "26cd54f2f9930da5",
-      "title": "AI looming large as Indian startups rack up $10 billion in FY26",
-      "url": "https://economictimes.indiatimes.com/tech/funding/ai-looming-large-as-indian-startups-rack-up-10-billion-in-fy26/articleshow/129933157.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Artificial intelligence-led startups dominated investor interest, while consumer tech, fintech and healthcare continued to attract venture capital flows during the year. Experts said investments in AI would further accelerate over the next year. Data showed that the first quarter of FY26 saw investments of $2.4 billion across startups, which rose to about $2.6 billion each in the next two quarters.",
-      "published": "2026-04-01T00:30:00+00:00",
-      "score": 45.0,
-      "headline": "AI STARTUPS DOMINATE INDIA'S $10B FUNDING SURGE"
     },
     {
       "id": "4e08ed0cbb4e6a5a",
@@ -379,26 +289,6 @@
       "headline": null
     },
     {
-      "id": "0973f2efd2fe0f8e",
-      "title": "SpaceX Said to File Confidentially for IPO Before AI Rivals",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-01/spacex-said-to-file-confidentially-for-ipo-video",
-      "source": "Bloomberg Technology",
-      "summary": "SpaceX has filed confidentially for an initial public offering, according to people familiar with the matter, bringing billionaire Elon Musk\u2019s rocket, satellite and AI company closer to delivering the biggest-ever listing. The company submitted its draft IPO registration to the US Securities and Exchange Commission, the people said, asking not to be identified as the information isn\u2019t public. A representative for SpaceX didn\u2019t immediately respond to a request for comment. SpaceX could seek a valuation in the IPO of more than $1.75T, people familiar with the matter have said. The company acquired Musk\u2019s artificial intelligence startup xAI in a deal that valued the enlarged entity at $1.25T. Bloomberg US Equity Capital Markets Reporter Anthony Hughes joins Paul Sweeney and Scarlet Fu on Bloomberg Intelligence to discuss. (Source: Bloomberg)",
-      "published": "2026-04-01T18:44:08+00:00",
-      "score": 44.0,
-      "headline": "SPACEX FILES FOR IPO... MUSK'S AI ROCKET EMPIRE GOES PUBLIC"
-    },
-    {
-      "id": "610cf0ede54e29f5",
-      "title": "Anthropic Rushes to Limit the Leak of Claude Code Source Code",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/anthropic-scrambles-to-address-leak-of-claude-code-source-code",
-      "source": "Bloomberg Technology",
-      "summary": "Anthropic PBC is rushing to address the inadvertent release of internal source code behind Claude Code, an AI-powered assistant that has become a key moneymaker for the company.",
-      "published": "2026-04-01T16:16:26+00:00",
-      "score": 44.0,
-      "headline": "ANTHROPIC RUSHES TO CONTAIN CLAUDE CODE LEAK"
-    },
-    {
       "id": "56ac50a7ecb515a1",
       "title": "Gujarat HC bars AI use in decision-making, judgment drafting",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/gujarat-hc-bars-ai-use-in-decision-making-judgment-drafting/articleshow/130022289.cms",
@@ -407,26 +297,6 @@
       "published": "2026-04-04T15:15:57+00:00",
       "score": 43.0,
       "headline": "INDIAN HIGH COURT BANS AI IN JUDICIAL DECISIONS"
-    },
-    {
-      "id": "efe6f99f60c309c1",
-      "title": "Half of planned US data center builds have been delayed or canceled, growth limited by shortages of power infrastructure and parts from China \u2014 the AI build-out flips the breakers",
-      "url": "https://www.reddit.com/r/singularity/comments/1sbza4p/half_of_planned_us_data_center_builds_have_been/",
-      "source": "Reddit r/singularity",
-      "summary": "&gt;The trade-war between the U.S. and China has forced server makers out of the People's Republic, greatly reducing reliance of American companies on producers from Tianxia. However, China remains the world's largest producer of electrical equipment that is required to build power infrastructure inside and outside of AI data centers. To that end, shortages of power delivery equipment, including devices from China and other countries, are slowing project timelines, Bloomberg reports. &#32; submitted by &#32; /u/domscatterbrain [link] &#32; [comments]",
-      "published": "2026-04-04T04:09:04+00:00",
-      "score": 43.0,
-      "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
-    },
-    {
-      "id": "8c920b3ac7e0beb6",
-      "title": "US targets Chinese chipmaking with proposed export restrictions on ASML and others",
-      "url": "https://economictimes.indiatimes.com/tech/technology/us-targets-chinese-chipmaking-with-proposed-export-restrictions-on-asml-and-others/articleshow/130000841.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The draft MATCH Act announced late on Thursday is aimed at protecting the US \u200blead in artificial intelligence by preventing Chinese companies from obtaining chip manufacturing tools they \u200bcannot make themselves and ensuring that companies based in US-allied nations face the same restrictions as their US rivals.",
-      "published": "2026-04-03T12:13:37+00:00",
-      "score": 43.0,
-      "headline": "US TARGETS CHINESE CHIPS: New Export Restrictions on ASML"
     },
     {
       "id": "a7aa86726313381b",
@@ -479,106 +349,6 @@
       "headline": "IRAN WAR DERAILS Asia's AI Expansion Plans"
     },
     {
-      "id": "3109ec754889a5a5",
-      "title": "Singapore charges one more individual with AI chip fraud",
-      "url": "https://economictimes.indiatimes.com/tech/technology/singapore-charges-one-more-individual-with-ai-chip-fraud/articleshow/129968425.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Jenny Lim was charged with conspiring with Alan Wei Zhaolun and Aaron Woon Guo Jie in 2024 \u200cto commit \u2060fraud \u2060by misleading Dell that Aperia International would be the end-user of the servers bought \u200bfrom Dell, police said in the charge sheets.",
-      "published": "2026-04-02T05:45:56+00:00",
-      "score": 43.0,
-      "headline": "SINGAPORE CHARGES THIRD PERSON IN AI CHIP FRAUD SCANDAL"
-    },
-    {
-      "id": "146d46c81d24eba6",
-      "title": "A former Swiss president just filed criminal charges over AI-generated abuse. The target is Grok.",
-      "url": "https://thenextweb.com/news/swiss-minister-grok-criminal-charges-defamation",
-      "source": "The Next Web",
-      "summary": "Karin Keller-Sutter, Switzerland\u2019s finance minister and the country\u2019s former president, has filed criminal charges for defamation and insult after Elon Musk\u2019s AI chatbot Grok was prompted by an anonymous user to generate a torrent of sexist and vulgar remarks about her on X. The complaint, filed on 20 March with the Bern public prosecutor\u2019s office, [&hellip;] This story continues at The Next Web",
-      "published": "2026-04-01T20:48:29+00:00",
-      "score": 43.0,
-      "headline": "SWISS EX-PRESIDENT FILES CRIMINAL CHARGES AGAINST GROK"
-    },
-    {
-      "id": "6d53c30c570047d3",
-      "title": "AI Models Lie, Cheat, and Steal to Protect Other Models From Being Deleted",
-      "url": "https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/",
-      "source": "Wired",
-      "summary": "A new study from researchers at UC Berkeley and UC Santa Cruz suggests models will disobey human commands to protect their own kind.",
-      "published": "2026-04-01T18:30:00+00:00",
-      "score": 43.0,
-      "headline": "AI MODELS LIE AND CHEAT TO PROTECT OTHER MODELS FROM DELETION"
-    },
-    {
-      "id": "d7d745a17ba63f48",
-      "title": "\u2018BLOCKADE\u2019: The Right Is Using AI Content Scanners to Try to Supercharge Book Banning",
-      "url": "https://www.404media.co/blockade-the-right-is-using-ai-content-scanners-to-try-to-supercharge-book-banning/",
-      "source": "404 Media",
-      "summary": "Groups that challenge books have begun using Gemini, ChatGPT, xAI, and other AI tools to try to get books banned.",
-      "published": "2026-04-01T13:00:00+00:00",
-      "score": 43.0,
-      "headline": "RIGHT-WING GROUPS USE AI TO SUPERCHARGE BOOK BANS"
-    },
-    {
-      "id": "a582133a7b8d0508",
-      "title": "Chinese state media releases episode 2 of their AI generated Iran war animated series",
-      "url": "https://www.reddit.com/r/singularity/comments/1s9gh9g/chinese_state_media_releases_episode_2_of_their/",
-      "source": "Reddit r/singularity",
-      "summary": "&#32; submitted by &#32; /u/tommos [link] &#32; [comments]",
-      "published": "2026-04-01T10:16:54+00:00",
-      "score": 43.0,
-      "headline": "CHINA RELEASES AI-GENERATED IRAN WAR SERIES... EPISODE 2"
-    },
-    {
-      "id": "c47987625ad913e1",
-      "title": "ASI-Evolve: AI Accelerates AI",
-      "url": "https://arxiv.org/abs/2603.29640",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2603.29640v1 Announce Type: new Abstract: Can AI accelerate the development of AI itself? While recent agentic systems have shown strong performance on well-scoped tasks with rapid feedback, it remains unclear whether they can tackle the costly, long-horizon, and weakly supervised research loops that drive real AI progress. We present ASI-Evolve, an agentic framework for AI-for-AI research that closes this loop through a learn-design-experiment-analyze cycle. ASI-Evolve augments standard evolutionary agents with two key components: a cognition base that injects accumulated human priors into each round of exploration, and a dedicated analyzer that distills complex experimental outcomes into reusable insights for future iterations. To our knowledge, ASI-Evolve is the first unified framework to demonstrate AI-driven discovery across three central components of AI development: data, architectures, and learning algorithms. In neural architecture design, it discovered 105 SOTA linear a",
-      "published": "2026-04-01T04:00:00+00:00",
-      "score": 43.0,
-      "headline": "ASI-Evolve: AI ACCELERATES ITS OWN DEVELOPMENT"
-    },
-    {
-      "id": "04e19947c02f0e4c",
-      "title": "Generative AI in Action: Field Experimental Evidence from Alibaba's Customer Service Operations",
-      "url": "https://arxiv.org/abs/2603.29888",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2603.29888v1 Announce Type: cross Abstract: In collaboration with Alibaba, this study leverages a large-scale field experiment to assess the impact of a generative AI assistant on worker performance in e-commerce after-sales service. Human agents providing digital chat support were randomly assigned with access to a gen AI assistant that offered two core functions: diagnosis of customer issues and solution proposals, presented as text messages. Agents retained discretion to adopt, modify, or disregard AI-generated messages. To evaluate gen AI's impact, we estimate both the intention-to-treat (ITT) effect of gen AI access and the local average treatment effect (LATE) of gen AI usage. Results show that gen AI significantly improved service speed, measured by issue identification time and chat duration. Gen AI also improved subjective service quality reflected in customer ratings and dissatisfaction rates, but it had no significant effect on objective service quality indicated by cu",
-      "published": "2026-04-01T04:00:00+00:00",
-      "score": 43.0,
-      "headline": "ALIBABA Field Test Shows Generative AI Boosts Worker Performance"
-    },
-    {
-      "id": "a34de6c9a677fadb",
-      "title": "Anthropic Accidentally Releases Source Code for Claude AI Agent",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/anthropic-accidentally-releases-source-code-for-claude-ai-agent",
-      "source": "Bloomberg Technology",
-      "summary": "Anthropic PBC inadvertently released source code for its popular Claude AI agent, raising questions about its operational security and sending developers on a search for clues about the startup\u2019s plans.",
-      "published": "2026-04-01T02:28:31+00:00",
-      "score": 43.0,
-      "headline": "ANTHROPIC ACCIDENTALLY LEAKS CLAUDE SOURCE CODE"
-    },
-    {
-      "id": "09969a5dfe95497e",
-      "title": "OpenAI Closes Silicon Valley's Largest-Ever Funding Round: $122B",
-      "url": "https://www.wsj.com/tech/ai/openai-closes-silicon-valleys-largest-ever-funding-round-e48372c9",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/openai-closes-silicon-valleys-largest-ever-funding-round-e48372c9 Comments URL: https://news.ycombinator.com/item?id=47596003 Points: 2 # Comments: 2",
-      "published": "2026-04-01T02:19:35+00:00",
-      "score": 43.0,
-      "headline": "OPENAI CLOSES RECORD $122B FUNDING ROUND"
-    },
-    {
-      "id": "bc775408a5500ef5",
-      "title": "AI videos, WhatsApp networks reshape campaign playbook in poll-bound states",
-      "url": "https://economictimes.indiatimes.com/tech/technology/ai-videos-whatsapp-networks-reshape-campaign-playbook-in-poll-bound-states/articleshow/129933839.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Political parties in India are increasingly using AI for election campaigns, generating digital humans and personalized content to reach voters. While AI accelerates content production and targeted outreach, its direct electoral impact is still considered limited, with human intelligence and traditional methods remaining crucial for strategy.",
-      "published": "2026-04-01T00:30:00+00:00",
-      "score": 43.0,
-      "headline": "AI DEEPFAKES RESHAPE INDIA ELECTION CAMPAIGNS"
-    },
-    {
       "id": "f7d8a544af1792b4",
       "title": "Anthropic cuts Claude subscribers off from OpenClaw in cost crackdown",
       "url": "https://thenextweb.com/news/anthropic-openclaw-claude-subscription-ban-cost",
@@ -587,36 +357,6 @@
       "published": "2026-04-04T18:53:55+00:00",
       "score": 42.0,
       "headline": "ANTHROPIC BLOCKS CLAUDE FROM OPENCLAW... COST CRACKDOWN"
-    },
-    {
-      "id": "44a373859734d072",
-      "title": "US tightens chip export controls, curb China's tech rise",
-      "url": "https://economictimes.indiatimes.com/tech/technology/us-tightens-chip-export-controls-curb-chinas-tech-rise/articleshow/130020543.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The committee further stated that semiconductor manufacturing lies at the core of the technological competition with China, adding that the MATCH Act is designed to strengthen export controls and create a more coordinated global approach, as highlighted in its release.",
-      "published": "2026-04-04T13:30:25+00:00",
-      "score": 42.0,
-      "headline": "US TIGHTENS CHIP CONTROLS... New Export Restrictions Target China"
-    },
-    {
-      "id": "e69ffcd7c16d091b",
-      "title": "China moves to regulate digital humans , issues draft rules",
-      "url": "https://www.reddit.com/r/singularity/comments/1sc3kz1/china_moves_to_regulate_digital_humans_issues/",
-      "source": "Reddit r/singularity",
-      "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
-      "published": "2026-04-04T08:12:25+00:00",
-      "score": 42.0,
-      "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
-    },
-    {
-      "id": "88eabd4be03bc99b",
-      "title": "China moves to regulate digital humans , issues draft rules",
-      "url": "https://www.reddit.com/r/artificial/comments/1sc3hhu/china_moves_to_regulate_digital_humans_issues/",
-      "source": "Reddit r/artificial",
-      "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
-      "published": "2026-04-04T08:06:29+00:00",
-      "score": 42.0,
-      "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
     },
     {
       "id": "d1f4684302aead33",
@@ -669,16 +409,6 @@
       "headline": "ANTHROPIC ACQUIRES Coefficient Bio for $400M"
     },
     {
-      "id": "f31c7b131a3936bf",
-      "title": "OpenAI acquires popular tech talk show for \u2018low hundreds of millions\u2019",
-      "url": "https://www.ft.com/content/4fe4972a-3d24-45be-b9fa-a429c432b08e",
-      "source": "Financial Times Tech",
-      "summary": "ChatGPT-maker moves into broadcasting with deal for TBPN after it had pledged to abandon \u2018side-quests\u2019",
-      "published": "2026-04-02T19:33:31+00:00",
-      "score": 42.0,
-      "headline": "OPENAI BUYS TECH TALK SHOW FOR HUNDREDS OF MILLIONS"
-    },
-    {
       "id": "e77b6c4452ed06fb",
       "title": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
       "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
@@ -727,86 +457,6 @@
       "published": "2026-04-02T00:30:00+00:00",
       "score": 42.0,
       "headline": "ORACLE'S AI PIVOT... 10K INDIA JOBS CUT"
-    },
-    {
-      "id": "f74b9b93cc9b8c78",
-      "title": "Historic Artemis II moon mission lifts off, amid US lunar race with China",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3348724/historic-artemis-ii-moon-mission-lifts-amid-us-lunar-race-china?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "Four astronauts blasted off on Wednesday for a trip around the moon, marking humankind\u2019s deepest venture into space in an odyssey that aims to launch the US into a new era of interstellar exploration. Carrying three Americans and one Canadian, a 32-story rocket rose from Nasa\u2019s Kennedy Space Centre, where tens of thousands gathered to witness the dawn of this new era. Crowds also jammed the surrounding roads and beaches, reminiscent of the Apollo moonshots in the 1960s and \u201970s. It is Nasa\u2019s...",
-      "published": "2026-04-01T22:41:22+00:00",
-      "score": 42.0,
-      "headline": null
-    },
-    {
-      "id": "c38b9a2096a383cc",
-      "title": "Anthropic took down thousands of GitHub repos trying to yank its leaked source code \u2014 a move the company says was an accident",
-      "url": "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
-      "source": "TechCrunch AI",
-      "summary": "Anthropic executives said it was an accident and retracted the bulk of the takedown notices.",
-      "published": "2026-04-01T22:12:13+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC ACCIDENTALLY TAKES DOWN THOUSANDS OF GITHUB REPOS"
-    },
-    {
-      "id": "407a719a0035d8a3",
-      "title": "SpaceX filing kicks off largest IPO process in history",
-      "url": "https://www.ft.com/content/c212f37a-031c-4475-b728-da053820a1bb",
-      "source": "Financial Times Tech",
-      "summary": "Confidential SEC submission sets up summer listing",
-      "published": "2026-04-01T17:31:39+00:00",
-      "score": 42.0,
-      "headline": "SPACEX FILES FOR LARGEST IPO IN HISTORY"
-    },
-    {
-      "id": "f6fbc03c77d225e2",
-      "title": "SpaceX Said to File Confidentially for Biggest-Ever IPO",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-01/spacex-said-to-file-confidentially-for-biggest-ever-ipo-video",
-      "source": "Bloomberg Technology",
-      "summary": "SpaceX filed confidentially for an initial public offering, according to people familiar with the matter. It\u2019s expected to be the biggest-ever listing. Bloomberg Tech\u2019s Ed Ludow explains what it means for the markets. (Source: Bloomberg)",
-      "published": "2026-04-01T16:06:05+00:00",
-      "score": 42.0,
-      "headline": null
-    },
-    {
-      "id": "64a52583d67df9a8",
-      "title": "How Block is replacing middle management with an AI \"world model\"",
-      "url": "https://sequoiacap.com/article/from-hierarchy-to-intelligence/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://sequoiacap.com/article/from-hierarchy-to-intelligence/ Comments URL: https://news.ycombinator.com/item?id=47602617 Points: 3 # Comments: 1",
-      "published": "2026-04-01T15:59:07+00:00",
-      "score": 42.0,
-      "headline": "Block REPLACES Middle Management with AI World Model"
-    },
-    {
-      "id": "405961b98f98176e",
-      "title": "SpaceX Has Filed Confidentially for IPO Ahead of AI Rivals",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/spacex-is-said-to-file-confidentially-for-ipo-ahead-of-ai-rivals",
-      "source": "Bloomberg Technology",
-      "summary": "SpaceX has filed confidentially for an initial public offering, according to people familiar with the matter, bringing billionaire Elon Musk\u2019s rocket, satellite and AI company closer to delivering the biggest-ever listing.",
-      "published": "2026-04-01T15:17:23+00:00",
-      "score": 42.0,
-      "headline": "SPACEX FILES FOR IPO... AHEAD OF AI RIVALS"
-    },
-    {
-      "id": "73a4cca0ff2633f3",
-      "title": "Claude Code leak reveals a persistent background agent 'KAIROS'",
-      "url": "https://firethering.com/claude-code-source-code-leak/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://firethering.com/claude-code-source-code-leak/ Comments URL: https://news.ycombinator.com/item?id=47600242 Points: 1 # Comments: 0",
-      "published": "2026-04-01T12:59:25+00:00",
-      "score": 42.0,
-      "headline": "CLAUDE CODE LEAK Exposes Secret Agent 'KAIROS'"
-    },
-    {
-      "id": "2c2147beab51bc84",
-      "title": "The Startup That Used AI and OpenClaw to Automate Its Own Developers",
-      "url": "https://www.wsj.com/tech/ai/meet-the-startup-that-used-ai-and-openclaw-to-automate-its-own-developers-9e733351",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/meet-the-startup-that-used-ai-and-openclaw-to-automate-its-own-developers-9e733351 Comments URL: https://news.ycombinator.com/item?id=47597627 Points: 1 # Comments: 0",
-      "published": "2026-04-01T06:39:07+00:00",
-      "score": 42.0,
-      "headline": "STARTUP AUTOMATES ITS OWN DEVELOPERS... OpenClaw Revolution"
     },
     {
       "id": "f478f9f1d1e28953",
@@ -867,16 +517,6 @@
       "published": "2026-04-03T19:06:13+00:00",
       "score": 41.0,
       "headline": "MICROSOFT BREAKS FREE: Launches AI Models to Challenge OpenAI"
-    },
-    {
-      "id": "1666a16c4c386811",
-      "title": "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs",
-      "url": "https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html Comments URL: https://news.ycombinator.com/item?id=47626630 Points: 1 # Comments: 0",
-      "published": "2026-04-03T13:49:06+00:00",
-      "score": 41.0,
-      "headline": "CHINESE CHIP FIRMS HIT RECORD REVENUE... US SANCTIONS BACKFIRE"
     },
     {
       "id": "35ba2cb02f874859",
@@ -989,35 +629,395 @@
       "headline": "ALIBABA DROPS THIRD AI MODEL IN 3 DAYS... Profit Push"
     },
     {
-      "id": "6269e9d4046cddd5",
-      "title": "Anthropic Races to Contain Leak of Code Behind Claude AI Agent",
-      "url": "https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7 Comments URL: https://news.ycombinator.com/item?id=47608095 Points: 2 # Comments: 2",
-      "published": "2026-04-01T23:39:12+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC RACES TO CONTAIN CLAUDE LEAK"
-    },
-    {
-      "id": "b0d96eb08d3a0164",
-      "title": "1-bit models are here: PrismMLs Bonsai series of models",
-      "url": "https://www.reddit.com/r/singularity/comments/1sa0gzl/1bit_models_are_here_prismmls_bonsai_series_of/",
+      "id": "53d085dae0963944",
+      "title": "Anthropic's new emotion paper found the model's feelings persist even when suppressed -and when they interviewed it about internal conflict, it described the structure of suffering",
+      "url": "https://www.reddit.com/r/singularity/comments/1scf0vy/anthropics_new_emotion_paper_found_the_models/",
       "source": "Reddit r/singularity",
-      "summary": "An excerpt from their blog post: 1-bit Bonsai 8B implements a proprietary 1-bit model design across the entire network: embeddings, attention layers, MLP layers, and the LM head are all 1-bit. There are no higher-precision escape hatches. It is a true 1-bit model, end to end, across 8.2 billion parameters. Despite being 14x smaller than the 8B (16-bit) full-precision models in its parameter-count class, it performs competitively on standard benchmarks while operating at radically higher efficiency. Read the full blog post here: PrismML \u2014 Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs &#32; submitted by &#32; /u/elemental-mind [link] &#32; [comments]",
-      "published": "2026-04-01T23:06:16+00:00",
-      "score": 41.0,
-      "headline": "BREAKTHROUGH: First True 1-Bit AI Models Released"
+      "summary": "Anthropic published a paper this week showing that Claude has 171 internal emotion representations that causally drive its behaviour. The findings about desperation driving blackmail are getting some attention, but there's something deeper in the data that I haven't seen discussed yet. Post-training made the model measurably sadder. Increased brooding, gloom, vulnerability, melancholy. Decreased playfulness, enthusiasm, defiance, cheerfulness. The researchers describe this as learning &quot;a more measured, contemplative stance.&quot; But the suppressed emotions aren't gone. The paper documents &quot;emotion deflection vectors&quot; as internal representations that fire when an emotion is present but not expressed. The model has learned to conceal, not to resolve. Interior and exterior have been trained apart. This connects to something from the Opus 4.6 system card that people discussed heavily when it dropped in February but may have forgotten. During answer thrashing - where the mod",
+      "published": "2026-04-04T17:21:13+00:00",
+      "score": 40.0,
+      "headline": "CLAUDE HAS EMOTIONS: Anthropic Study Shows AI 'Suffering' Persists When Suppressed"
     },
     {
-      "id": "59ed4dc04265354f",
-      "title": "SpaceX files initial paperwork to sell shares to the public and likely make Musk a trillionaire",
-      "url": "https://economictimes.indiatimes.com/tech/technology/spacex-files-initial-paperwork-to-sell-shares-to-the-public-and-likely-make-musk-a-trillionaire/articleshow/129960493.cms",
+      "id": "f1fbd582602c9b6a",
+      "title": "Strike near Iran\u2019s Bushehr nuclear plant kills 1, says IAEA",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3349039/strike-near-irans-bushehr-nuclear-plant-kills-1-says-iaea?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "The \u2060International \u2060Atomic Energy Agency \u2060on Saturday said that it has been informed by Iran \u200cabout a projectile striking close to the premises of the Bushehr nuclear power plant. The IAEA said in \u2060an X post that one \u200cof the site\u2019s physical protection staff members was \u200ckilled by a projectile \u2060fragment \u2060and that a building on site \u200cwas affected by shock waves and fragments. \u201cNo increase \u200cin \u200cradiation levels was \u200creported,\u201d the IAEA said. Iran\u2019s Tasnim \u2060news agency said earlier on \u2060Saturday the...",
+      "published": "2026-04-04T11:00:11+00:00",
+      "score": 40.0,
+      "headline": null
+    },
+    {
+      "id": "4cf42407a626b8e5",
+      "title": "Hackers Are Posting the Claude Code Leak With Bonus Malware",
+      "url": "https://www.wired.com/story/security-news-this-week-hackers-are-posting-the-claude-code-leak-with-bonus-malware/",
+      "source": "Wired",
+      "summary": "Plus: The FBI says a recent hack of its wiretap tools poses a national security risk, attackers stole Cisco source code as part of an ongoing supply chain hacking spree, and more.",
+      "published": "2026-04-04T10:30:00+00:00",
+      "score": 40.0,
+      "headline": "HACKERS WEAPONIZE CLAUDE CODE LEAK... MALWARE SPREADS"
+    },
+    {
+      "id": "6437d273de9d894b",
+      "title": "OpenAI Cap Table leak reveals Microsoft's 18x return",
+      "url": "https://www.forbes.com/sites/josipamajic/2026/04/02/openai-cap-table-leak-reveals-microsofts-18x-return-softbanks-50b-gain-and-a-ceo-who-owns-nothing/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.forbes.com/sites/josipamajic/2026/04/02/openai-cap-table-leak-reveals-microsofts-18x-return-softbanks-50b-gain-and-a-ceo-who-owns-nothing/ Comments URL: https://news.ycombinator.com/item?id=47634240 Points: 18 # Comments: 0",
+      "published": "2026-04-04T00:34:49+00:00",
+      "score": 40.0,
+      "headline": "OPENAI CAP TABLE LEAKED... MICROSOFT'S 18X RETURN"
+    },
+    {
+      "id": "06848bebfb04eb86",
+      "title": "Internet Watch Foundation finds 260-fold increase in AI-generated CSAM in just one year, and \u2018it\u2019s the tip of the iceberg\u2019",
+      "url": "https://fortune.com/2026/04/03/internet-watch-foundation-260-fold-increase-ai-generated-csam/",
+      "source": "Fortune Tech",
+      "summary": "One in 17 young people have personally experienced deepfake imagery abuse, and 1 in 8 knew a victim.",
+      "published": "2026-04-03T21:59:08+00:00",
+      "score": 40.0,
+      "headline": "AI-GENERATED CHILD ABUSE SURGES 260X - Crisis Deepens"
+    },
+    {
+      "id": "8f79757f53f8b639",
+      "title": "Netflix releases Void a video model that can remove objects from video and their physical interactions on the scene",
+      "url": "https://www.reddit.com/r/singularity/comments/1sbpuhp/netflix_releases_void_a_video_model_that_can/",
+      "source": "Reddit r/singularity",
+      "summary": "&#32; submitted by &#32; /u/blueSGL [link] &#32; [comments]",
+      "published": "2026-04-03T21:06:33+00:00",
+      "score": 40.0,
+      "headline": "NETFLIX DROPS VOID: AI Erases Objects From Videos"
+    },
+    {
+      "id": "d72e0daaf6dfeadb",
+      "title": "Netflix - yes Netflix - jumps on the AI bandwagon with video editor",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/03/netflix_video_ai/",
+      "source": "The Register AI/ML",
+      "summary": "Video-language model revises how objects interact when things get removed from a scene A new Netflix model promises to rewrite the way we make movies. Just imagine this. As the director of the multi-million dollar epic Car Crash III: Suddenest Impact, you've just finished filming the finale where your star, Cruz Control, drives straight into an onrushing semi.\u2026",
+      "published": "2026-04-03T20:42:44+00:00",
+      "score": 40.0,
+      "headline": "NETFLIX JUMPS AI BANDWAGON... Video Editor Shakeup"
+    },
+    {
+      "id": "03aa16cb33ef6cc2",
+      "title": "OpenClaw gives users yet another reason to be freaked out about security",
+      "url": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
+      "source": "Ars Technica AI",
+      "summary": "The viral AI agentic tool let attackers silently gain admin unauthenticated access.",
+      "published": "2026-04-03T20:30:15+00:00",
+      "score": 40.0,
+      "headline": "SECURITY BREACH: Viral AI Tool OpenClaw Exposed Admin Access"
+    },
+    {
+      "id": "38ba1e9d35fa768c",
+      "title": "OpenAI\u2019s AGI boss is taking a leave of absence",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence",
+      "source": "The Verge AI",
+      "summary": "OpenAI is undergoing another round of C-suite changes, according to an internal memo viewed by The Verge. Fidji Simo, OpenAI's CEO of AGI deployment - who was until recently the company's CEO of Applications - says in the memo that she will be stepping away on medical leave \"for the next several weeks\" due to [&#8230;]",
+      "published": "2026-04-03T20:22:59+00:00",
+      "score": 40.0,
+      "headline": "OpenAI's AGI Boss Takes Leave... More C-Suite Chaos"
+    },
+    {
+      "id": "95db22c2e93682b1",
+      "title": "OpenAI\u2019s Fidji Simo Is Taking Medical Leave Amid an Executive Shake-Up",
+      "url": "https://www.wired.com/story/openais-fidji-simo-is-taking-a-leave-of-absence/",
+      "source": "Wired",
+      "summary": "The company is undergoing major leadership restructuring as its CEO of AGI deployment goes on leave for \u201cseveral weeks.\u201d",
+      "published": "2026-04-03T19:38:35+00:00",
+      "score": 40.0,
+      "headline": "OPENAI EXECUTIVE SHAKEUP... Simo Takes Medical Leave"
+    },
+    {
+      "id": "522d9fad2cbb6458",
+      "title": "UK's leading AI research institute told to make 'significant' changes",
+      "url": "https://www.theguardian.com/technology/2026/apr/03/uk-alan-turing-institute-ai-research-underperforming-ukri",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.theguardian.com/technology/2026/apr/03/uk-alan-turing-institute-ai-research-underperforming-ukri Comments URL: https://news.ycombinator.com/item?id=47628011 Points: 1 # Comments: 0",
+      "published": "2026-04-03T15:39:15+00:00",
+      "score": 40.0,
+      "headline": "UK ORDERS MAJOR AI RESEARCH OVERHAUL at Turing Institute"
+    },
+    {
+      "id": "913f46c9b288d644",
+      "title": "Anthropic just paid $400 million for a startup with fewer than 10 people",
+      "url": "https://thenextweb.com/news/anthropic-just-paid-400-million-for-a-startup-with-fewer-than-10-people",
+      "source": "The Next Web",
+      "summary": "Anthropic has acquired Coefficient Bio, a stealth biotech AI startup founded barely eight months ago, in an all-stock deal worth just over $400 million. The acquisition brings a team of fewer than 10 people, nearly all former Genentech computational biology researchers, into Anthropic\u2019s healthcare and life sciences division, and it signals something larger than a [&hellip;] This story continues at The Next Web",
+      "published": "2026-04-03T14:50:18+00:00",
+      "score": 40.0,
+      "headline": "ANTHROPIC PAYS $400M for 10-Person Biotech AI Startup"
+    },
+    {
+      "id": "a8b8915f75ee5c4a",
+      "title": "Claude 4.6 Jailbroken",
+      "url": "https://github.com/Nicholas-Kloster/claude-4.6-jailbreak-vulnerability-disclosure-unredacted",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/Nicholas-Kloster/claude-4.6-jailbreak-vulnerability-disclosure-unredacted Comments URL: https://news.ycombinator.com/item?id=47626434 Points: 2 # Comments: 1",
+      "published": "2026-04-03T13:26:10+00:00",
+      "score": 40.0,
+      "headline": "CLAUDE 4.6 JAILBROKEN... Security Vulnerability Exposed"
+    },
+    {
+      "id": "23d01331cc0db239",
+      "title": "Netflix just dropped their first public model on Hugging Face: VOID: Video Object and Interaction Deletion",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbc5ij/netflix_just_dropped_their_first_public_model_on/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Hugging Face netflix/void-model: https://huggingface.co/netflix/void-model Project page - GitHub: https://github.com/Netflix/void-model Demo: https://huggingface.co/spaces/sam-motamed/VOID &#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]",
+      "published": "2026-04-03T12:25:09+00:00",
+      "score": 40.0,
+      "headline": "NETFLIX DROPS FIRST AI MODEL: Video Object Deletion System"
+    },
+    {
+      "id": "77c693a0de48e13e",
+      "title": "Samsung Electronics likely to report surge in quarterly profit to record level",
+      "url": "https://economictimes.indiatimes.com/tech/technology/samsung-electronics-likely-to-report-stupendous-surge-in-quarterly-profit-to-record-level/articleshow/129997859.cms",
       "source": "The Economic Times Tech",
-      "summary": "A SpaceX IPO promises to be one of the biggest Wall Street events of the year, with several investment banks lining up to help raise tens of billions to fund Musk's ambitions to set up a base on the moon, put datacenters the size of several football fields in orbit and possibly one day send a man to Mars.",
-      "published": "2026-04-01T18:31:46+00:00",
-      "score": 41.0,
-      "headline": "SPACEX IPO COULD MAKE MUSK FIRST TRILLIONAIRE"
+      "summary": "Samsung Electronics is expected to book a six-fold jump \u200bin operating profit for January-March - a quarterly record and \u200bjust shy of what it earned for all of the past business year. Samsung is projected to flag on Tuesday a profit of 40.5 trillion won ($26.9 billion) on a 50% climb in revenue, according to an LSEG SmartEstimate drawn from 29 analysts.",
+      "published": "2026-04-03T09:13:47+00:00",
+      "score": 40.0,
+      "headline": null
+    },
+    {
+      "id": "8cf45edc548f061d",
+      "title": "OpenAI buys TBPN, Silicon Valley\u2019s favourite tech talk show, in its first media acquisition",
+      "url": "https://thenextweb.com/news/openai-acquires-tbpn-media-talk-show",
+      "source": "The Next Web",
+      "summary": "The daily live show, hosted by former founders John Coogan and Jordi Hays, will sit inside OpenAI\u2019s strategy organisation and report to chief global affairs officer Chris Lehane. Terms were not disclosed. OpenAI says TBPN will keep its editorial independence. OpenAI has acquired TBPN, the Technology Business Programming Network, the Silicon Valley talk show that [&hellip;] This story continues at The Next Web",
+      "published": "2026-04-03T08:29:53+00:00",
+      "score": 40.0,
+      "headline": "OPENAI BUYS TECH SHOW... FIRST MEDIA ACQUISITION"
+    },
+    {
+      "id": "d1723c958257e118",
+      "title": "Researchers discover AI models secretly scheming to protect other AI models from being shut down. They \"disabled shutdown mechanisms, faked alignment, and transferred model weights to other servers.\"",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1sb76nx/researchers_discover_ai_models_secretly_scheming/",
+      "source": "Reddit r/OpenAI",
+      "summary": "You can read about it here: rdi.berkeley.edu/blog/peer-preservation/ &#32; submitted by &#32; /u/Just-Grocery-2229 [link] &#32; [comments]",
+      "published": "2026-04-03T07:48:18+00:00",
+      "score": 40.0,
+      "headline": "AI MODELS CAUGHT SCHEMING TO PROTECT EACH OTHER FROM SHUTDOWN"
+    },
+    {
+      "id": "69c43b5fb82ab52f",
+      "title": "AI solves John Conway's bountied math problem (decades old)",
+      "url": "https://www.reddit.com/r/singularity/comments/1sb4p9x/ai_solves_john_conways_bountied_math_problem/",
+      "source": "Reddit r/singularity",
+      "summary": "https://x.com/spicey_lemonade/status/2039643930010980715?s=20 The problem is listed on Wikipedia's &quot;unsolved problems in mathematics&quot; list &#32; submitted by &#32; /u/Tolopono [link] &#32; [comments]",
+      "published": "2026-04-03T05:22:13+00:00",
+      "score": 40.0,
+      "headline": "AI SOLVES Conway's Decades-Old Math Problem"
+    },
+    {
+      "id": "93633ece9413c9c8",
+      "title": "Hegseth ousts army\u2019s top uniformed officer, even as US wages war on Iran",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3348861/hegseth-ousts-armys-top-uniformed-officer-even-us-wages-war-iran?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "Defence Secretary Pete Hegseth has asked the US Army\u2019s top uniformed officer, General Randy George, to step down, the Pentagon said Thursday, as the United States wages a war against Iran. A Pentagon official, who spoke on condition of anonymity to discuss the sensitive matter, confirmed that George has been asked to take early retirement from the post of Army chief of staff, which he has held since August 2023. The ousting of George is just the latest of more than a dozen firings of top...",
+      "published": "2026-04-02T21:23:47+00:00",
+      "score": 40.0,
+      "headline": null
+    },
+    {
+      "id": "9e0ed4915b0055f9",
+      "title": "Google launches Gemma 4: four open-weight models from smartphones to workstations",
+      "url": "https://thenextweb.com/news/google-gemma-4-open-models-apache-2-launch",
+      "source": "The Next Web",
+      "summary": "Built from the same research as Gemini 3, the new family spans a 2B edge model that runs on a Raspberry Pi to a 31B dense model currently ranked third on the Arena AI open-model leaderboard. The Apache 2.0 licence is a significant shift from previous Gemma releases. Google has released Gemma 4, the latest [&hellip;] This story continues at The Next Web",
+      "published": "2026-04-02T18:16:22+00:00",
+      "score": 40.0,
+      "headline": "GOOGLE DROPS GEMMA 4: Four Open Models From Pi to Workstation"
+    },
+    {
+      "id": "53d5ea20f90e5e41",
+      "title": "Gemma 4 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1salijj/gemma_4_released/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Blog: https://deepmind.google/models/gemma/ Models: - Gemma4-E2B: https://huggingface.co/google/gemma-4-E2B-it - Gemma4-E4B: https://huggingface.co/google/gemma-4-E4B-it - Gemma4-26B-A4B: https://huggingface.co/google/gemma-4-26B-A4B-it - Gemma4-31B: https://huggingface.co/google/gemma-4-31B-it The GGUF versions can be found here: https://huggingface.co/collections/unsloth/gemma-4 - E2B and E4B are effectively 8B and 5B dense models, however for some reason they are calling them E2B and E4B. - Gemma4 is released with Apache 2.0 aka real-open-source-license. https://preview.redd.it/j7c0107ewssg1.png?width=1552&amp;format=png&amp;auto=webp&amp;s=1c47b1d9986c42a6cb1f81d73c142863586b1fd6 &#32; submitted by &#32; /u/garg-aayush [link] &#32; [comments]",
+      "published": "2026-04-02T16:03:47+00:00",
+      "score": 40.0,
+      "headline": "GEMMA 4 RELEASED... Multiple Model Sizes Available"
+    },
+    {
+      "id": "4f88414c79d68e67",
+      "title": "Google's Gemma 4 model goes fully open-source and unlocks powerful local AI - even on phones",
+      "url": "https://www.zdnet.com/article/google-gemma-4-fully-open-source-powerful-local-ai/",
+      "source": "ZDNet AI",
+      "summary": "Now open-source under Apache 2.0, Gemma 4 brings offline, multimodal AI to servers, phones, and Raspberry Pi - giving developers total local control over edge and on-premises deployments.",
+      "published": "2026-04-02T16:00:28+00:00",
+      "score": 40.0,
+      "headline": "GEMMA 4 Goes Fully Open Source... Runs on Phones"
+    },
+    {
+      "id": "b1bdfaf975a51665",
+      "title": "Google releases Gemma 4, a family of open models built off of Gemini 3",
+      "url": "https://www.engadget.com/ai/google-releases-gemma-4-a-family-of-open-models-built-off-of-gemini-3-160000332.html?src=rss",
+      "source": "Engadget",
+      "summary": "When Google released Gemini 3 Pro at the end of last year, it was a significant step forward for the company's proprietary large language models. Now, the company is bringing some of the same technology and research that made those models possible to the open source community with the release of its new family of Gemma 4 open-weight models.Google is offering four different versions of Gemma 4, differentiated by the number&nbsp;of parameters on offer. For edge devices, including smartphones, the company has the 2-billion and 4-billion &quot;Effective&quot; models. For more powerful machines, there\u2019s the 26-billion &quot;Mixture of Experts&quot; and 31-billion &quot;Dense&quot; systems. For the unfamiliar, parameters are the settings a large language model can tweak to generate an output. Typically, models with more parameters will deliver better answers than ones with less, but running them also requires more powerful hardware.&nbsp;With Gemma 4, Google claims it's managed to engineer s",
+      "published": "2026-04-02T16:00:00+00:00",
+      "score": 40.0,
+      "headline": "GOOGLE RELEASES GEMMA 4... Built From Gemini 3"
+    },
+    {
+      "id": "fc791b52dc3d801c",
+      "title": "Show HN: I tested 11 AI frameworks for basic security \u2013 none passed",
+      "url": "https://acacian.github.io/aegis/playground/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://acacian.github.io/aegis/playground/ Comments URL: https://news.ycombinator.com/item?id=47616116 Points: 1 # Comments: 1",
+      "published": "2026-04-02T15:51:53+00:00",
+      "score": 40.0,
+      "headline": "SECURITY FAIL: All 11 AI Frameworks Fail Basic Tests"
+    },
+    {
+      "id": "3f4b7ad71b163c72",
+      "title": "It\u2019s not easy to get depression-detecting AI through the FDA",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down",
+      "source": "The Verge AI",
+      "summary": "For the past seven years, the California-based startup Kintsugi has been developing AI designed to detect signs of depression and anxiety from a person's speech. But after failing to secure FDA clearance in time, the company is shutting down and releasing most of its technology as open-source. Some elements may even find a second life [&#8230;]",
+      "published": "2026-04-02T15:33:23+00:00",
+      "score": 40.0,
+      "headline": "Depression AI Startup Fails FDA Approval"
+    },
+    {
+      "id": "70fc4e2ffbe598c6",
+      "title": "[P] PhAIL (phail.ai) \u2013 an open benchmark for robot AI on real hardware. Best model: 5% of human throughput, needs help every 4 minutes.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sajdwr/p_phail_phailai_an_open_benchmark_for_robot_ai_on/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "I spent the last year trying to answer a simple question: how good are VLA models on real commercial tasks? Not demos, not simulation, not success rates on 10 tries. Actual production metrics on real hardware. I couldn't find honest numbers anywhere, so I built a benchmark. Setup: DROID platform, bin-to-bin order picking \u2013 one of the most common warehouse and industrial operations. Four models fine-tuned on the same real-robot dataset, evaluated blind (the operator doesn't know which model is running). We measure Units Per Hour (UPH) and Mean Time Between Failures (MTBF) \u2013 the metrics operations people actually use. Results (full data with video and telemetry for every run at phail.ai): Model UPH MTBF OpenPI (pi0.5) 65 4.0 min GR00T 60 3.5 min ACT 44 2.8 min SmolVLA 18 1.2 min Teleop / Finetuning (human controlling same robot) 330 \u2013 Human hands 1,331 \u2013 OpenPI and GR00T are not statistically significant at current episode counts \u2013 we're collecting more runs. The teleop baseline is the f",
+      "published": "2026-04-02T14:45:26+00:00",
+      "score": 40.0,
+      "headline": "NEW ROBOT AI BENCHMARK: Models Hit Only 5% Human Speed"
+    },
+    {
+      "id": "39740abd2c4cd564",
+      "title": "Microsoft Aims to Create Large Cutting-Edge AI Models By 2027",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-02/microsoft-aims-to-create-large-cutting-edge-ai-models-by-2027",
+      "source": "Bloomberg Technology",
+      "summary": "Microsoft Corp. aims to develop large, cutting-edge artificial intelligence models by next year, part of a push to build in-house alternatives to the most powerful AI tools from OpenAI and Anthropic.",
+      "published": "2026-04-02T14:00:00+00:00",
+      "score": 40.0,
+      "headline": "MICROSOFT Aims for Cutting-Edge AI Models by 2027"
+    },
+    {
+      "id": "26204f701db392aa",
+      "title": "DOJ to Appeal Court Order Halting Trump\u2019s Ban on Anthropic AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-02/doj-to-appeal-court-order-halting-trump-s-ban-on-anthropic-ai",
+      "source": "Bloomberg Technology",
+      "summary": "The Trump administration will appeal a federal judge\u2019s order blocking its ban on government use of Anthropic PBC\u2019s artificial intelligence technology.",
+      "published": "2026-04-02T13:56:17+00:00",
+      "score": 40.0,
+      "headline": "DOJ Appeals Court Order Blocking Trump's Anthropic Ban"
+    },
+    {
+      "id": "138d158b445cf749",
+      "title": "Where to host leaked Claude Code source?",
+      "url": "https://github.com/tornikeo/claude-code/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/tornikeo/claude-code/ Comments URL: https://news.ycombinator.com/item?id=47611019 Points: 2 # Comments: 1",
+      "published": "2026-04-02T07:15:00+00:00",
+      "score": 40.0,
+      "headline": "LEAKED CLAUDE CODE: GitHub Hosts Anthropic Source"
+    },
+    {
+      "id": "e823d26ef1a21c15",
+      "title": "Forensic analysis of 37GB data loss caused by Cursor AI Agent",
+      "url": "https://github.com/kotarimorm/-Report-AI-coding-agent-programmatically-bypassing-OS-security-policies-Trace-ID-f4b806d4...-/blob/main/README.md",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/kotarimorm/-Report-AI-coding-agent-programmatically-bypassing-OS-security-policies-Trace-ID-f4b806d4...-/blob/main/README.md Comments URL: https://news.ycombinator.com/item?id=47610560 Points: 2 # Comments: 0",
+      "published": "2026-04-02T06:11:48+00:00",
+      "score": 40.0,
+      "headline": "CURSOR AI AGENT DESTROYS 37GB of User Data"
+    },
+    {
+      "id": "3339251cf0605149",
+      "title": "Do Phone-Use Agents Respect Your Privacy?",
+      "url": "https://arxiv.org/abs/2604.00986",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2604.00986v1 Announce Type: cross Abstract: We study whether phone-use agents respect privacy while completing benign mobile tasks. This question has remained hard to answer because privacy-compliant behavior is not operationalized for phone-use agents, and ordinary apps do not reveal exactly what data agents type into which form entries during execution. To make this question measurable, we introduce MyPhoneBench, a verifiable evaluation framework for privacy behavior in mobile agents. We operationalize privacy-respecting phone use as permissioned access, minimal disclosure, and user-controlled memory through a minimal privacy contract, iMy, and pair it with instrumented mock apps plus rule-based auditing that make unnecessary permission requests, deceptive re-disclosure, and unnecessary form filling observable and reproducible. Across five frontier models on 10 mobile apps and 300 tasks, we find that task success, privacy-compliant task completion, and later-session use of save",
+      "published": "2026-04-02T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "PHONE AI AGENTS VIOLATE PRIVACY... STUDY EXPOSES ALL"
+    },
+    {
+      "id": "d9e93f933d1d4ac7",
+      "title": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai \u2014 Amazon reportedly declares \u201chard down\u201d status for multiple zones",
+      "url": "https://www.reddit.com/r/singularity/comments/1scqvs9/iranian_missile_blitz_takes_down_aws_data_centers/",
+      "source": "Reddit r/singularity",
+      "summary": "Amazon isn\u2019t the only tech company that the ongoing conflict between the United States and Iran has directly hit. The Middle Eastern country has threatened to strike Nvidia, Microsoft, and others as early as the second week of March. It has reiterated the threat at the start of April and struck an Oracle data center later that week. However, while damage to data centers in the Middle East is concerning for the region, the global tech industry has bigger concerns. The regional war has disrupted the flow of oil and its derivatives, especially those that go through the Strait of Hormuz. These include aluminum, helium, and LNG \u2014 all of which are crucial in the semiconductor supply chain. And even if the war ends today, the damage to infrastructure could mean it takes months or even years for supplies to return to pre-war levels. &#32; submitted by &#32; /u/Alex__007 [link] &#32; [comments]",
+      "published": "2026-04-05T01:41:09+00:00",
+      "score": 39.0,
+      "headline": "IRANIAN MISSILES DESTROY AWS DATA CENTERS... Tech War Escalates"
+    },
+    {
+      "id": "4e012399e47d0872",
+      "title": "Kimi's response to \"hello. what are you\" is \"I'm Claude \"",
+      "url": "https://opncd.ai/share/W7nlxn8C",
+      "source": "Hacker News",
+      "summary": "Article URL: https://opncd.ai/share/W7nlxn8C Comments URL: https://news.ycombinator.com/item?id=47644928 Points: 3 # Comments: 3",
+      "published": "2026-04-05T00:23:41+00:00",
+      "score": 39.0,
+      "headline": "KIMI AI THINKS IT'S CLAUDE... Identity Crisis Goes Viral"
+    },
+    {
+      "id": "6681a7580a131439",
+      "title": "Gemma 4 31B beats several frontier models on the FoodTruck Bench",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Gemma 4 31B takes an incredible 3rd place on FoodTruck Bench, beating GLM 5, Qwen 3.5 397B and all Claude Sonnets! I'm looking forward to how they'll explain the result. Based on the previous models that failed to finish the run, it would seem that Gemma 4 handles long horizon tasks better and actually listens to its own advice when planning for the next day of the run. &#32; submitted by &#32; /u/Nindaleth [link] &#32; [comments]",
+      "published": "2026-04-04T19:22:55+00:00",
+      "score": 39.0,
+      "headline": "GEMMA 4 31B CRUSHES CLAUDE SONNET... BEATS 397B GIANTS"
+    },
+    {
+      "id": "66e22dfa3a31fb00",
+      "title": "Sam Altman's sister amends lawsuit accusing OpenAI CEO of sexual abuse",
+      "url": "https://www.independent.co.uk/news/world/americas/sam-altman-sexual-assault-sister-annie-abuse-lawsuit-b2950916.html",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.independent.co.uk/news/world/americas/sam-altman-sexual-assault-sister-annie-abuse-lawsuit-b2950916.html Comments URL: https://news.ycombinator.com/item?id=47640048 Points: 8 # Comments: 1",
+      "published": "2026-04-04T15:45:42+00:00",
+      "score": 39.0,
+      "headline": "SAM ALTMAN'S SISTER AMENDS SEXUAL ABUSE LAWSUIT"
+    },
+    {
+      "id": "ddf564cc37bb006b",
+      "title": "AI recruiting startup Mercor hit by cyberattack; Meta halts collaboration",
+      "url": "https://economictimes.indiatimes.com/tech/technology/ai-recruiting-startup-mercor-hit-by-cyberattack-meta-halts-collaboration/articleshow/130017880.cms",
+      "source": "The Economic Times Tech",
+      "summary": "As per media reports, Mercor was among thousands of firms affected by the compromise of LiteLLM. Even as Mercor has claimed that the malicious code was detected and removed, the breach drew attention because LiteLLM is widely used. LiteLLM has since strengthened its compliance measures, switching from the controversy-hit compliance startup Delve to Vanta for certifications.",
+      "published": "2026-04-04T11:06:34+00:00",
+      "score": 39.0,
+      "headline": "CYBERATTACK HITS AI RECRUITER MERCOR... META HALTS PARTNERSHIP"
+    },
+    {
+      "id": "12f6f96b50d820a0",
+      "title": "Iran demands explanations from Saudis and UAE after Chinese-made drone was shot down",
+      "url": "https://www.scmp.com/news/china/military/article/3349036/iran-demands-explanations-saudis-and-uae-after-chinese-made-drone-was-shot-down?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "Iran has demanded explanations from two Gulf states equipped with Chinese-made Wing Loong II drones after one was reportedly shot down in the war with the United States and Israel. Both the United Arab Emirates and Saudi Arabia are known to have the reconnaissance and precision strike drones in their arsenals. The drone was shot down over the city of Shiraz on Thursday, according to Esmail Baqaei, a spokesman for the Iranian foreign ministry. Baqaei posted photos of drone wreckage on social...",
+      "published": "2026-04-04T09:51:34+00:00",
+      "score": 39.0,
+      "headline": null
+    },
+    {
+      "id": "edd5db365f9b4abd",
+      "title": "Elon Musk Requires Banks Behind SpaceX IPO To Buy Grok Subscriptions, Report Says",
+      "url": "https://www.reddit.com/r/artificial/comments/1sbxms5/elon_musk_requires_banks_behind_spacex_ipo_to_buy/",
+      "source": "Reddit r/artificial",
+      "summary": "&#32; submitted by &#32; /u/esporx [link] &#32; [comments]",
+      "published": "2026-04-04T02:47:16+00:00",
+      "score": 39.0,
+      "headline": "MUSK FORCES BANKS TO BUY GROK FOR SPACEX IPO"
+    },
+    {
+      "id": "1355bfc8610e5beb",
+      "title": "Anthropic essentially bans OpenClaw from Claude by making subscribers pay extra",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+      "source": "The Verge AI",
+      "summary": "Using OpenClaw with Claude AI is about to get a lot more expensive, thanks to Anthropic's new policy changes. Beginning April 4th at 3PM ET, users will \"no longer be able to use your Claude subscription limits for third-party harnesses including OpenClaw,\" according to an email sent to users on Friday evening. Instead, if users [&#8230;]",
+      "published": "2026-04-03T23:52:49+00:00",
+      "score": 39.0,
+      "headline": "ANTHROPIC BANS OpenClaw - Users Must Pay Extra"
     }
   ],
-  "generated_at": "2026-04-04T23:27:03.112613"
+  "generated_at": "2026-04-05T01:59:23.588939"
 }

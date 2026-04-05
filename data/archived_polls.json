@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "OpenAI $122B Mega Funding",
+      "description": "OpenAI completed a record-breaking $122 billion funding round at an $852 billion valuation, marking the largest AI investment in history.",
+      "question": "Does OpenAI's $122B raise signal healthy growth or dangerous AI bubble?",
+      "button_a": "Growth",
+      "button_b": "Bubble",
+      "poll_id": "openai-122b-mega-funding-20260402",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-corporate-upheaval-20260404.html",
+      "started_at": "2026-04-02T06:12:28.721479",
+      "archived_at": "2026-04-05T02:00:00.128659",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "Baidu Robotaxi Mass Failure",
+      "description": "Over 100 Baidu robotaxis simultaneously froze in traffic in Wuhan, creating a major autonomous vehicle crisis that stranded passengers and flooded police with emergency calls.",
+      "question": "Should cities pause robotaxi deployments after this mass failure?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "baidu-robotaxi-mass-failure-20260402",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-baidu-robotaxi-mass-failure-20260404.html",
+      "started_at": "2026-04-02T04:29:31.033305",
+      "archived_at": "2026-04-05T01:59:59.792847",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Claude Code Leak",
       "description": "Anthropic's Claude AI source code was accidentally leaked, exposing internal tools and raising security concerns across the AI industry.",
       "question": "Should AI companies face penalties for accidental source code leaks?",
@@ -910,44 +948,6 @@
       "analysis_url": "/analysis/analysis-indias-ai-investment-boom-20260220.html",
       "started_at": "2026-02-19T15:02:02.424856",
       "archived_at": "2026-02-20T22:01:22.191812",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Investment Boom",
-      "description": "Massive funding rounds and investments are flowing into AI companies and infrastructure, signaling unprecedented market confidence in AI's commercial potential.",
-      "question": "Is the massive AI investment boom creating innovation or a dangerous bubble?",
-      "button_a": "Innovation",
-      "button_b": "Bubble",
-      "poll_id": "ai-investment-boom-20260218",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-investment-mega-rounds-20260219.html",
-      "started_at": "2026-02-18T13:01:30.651514",
-      "archived_at": "2026-02-19T23:08:05.836867",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Regulation and Security Crackdowns",
-      "description": "Governments worldwide are implementing strict AI regulations and investigating tech companies over security concerns and inappropriate AI-generated content.",
-      "question": "Should governments prioritize AI safety over defense innovation?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-regulation-and-security-crackdowns-20260217",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-regulation-and-security-crackdowns-20260218.html",
-      "started_at": "2026-02-17T20:01:57.395493",
-      "archived_at": "2026-02-18T23:01:44.130209",
       "reason": "topic_replaced"
     }
   ]
