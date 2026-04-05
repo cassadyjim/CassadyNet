@@ -219,16 +219,6 @@
   ],
   "unclustered": [
     {
-      "id": "ad41a7df3f40e031",
-      "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
-      "published": "2026-04-04T03:45:40+00:00",
-      "score": 46.0,
-      "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
-    },
-    {
       "id": "c64eb2c5c4694bc9",
       "title": "Gemma 4: Byte for byte, the most capable open models",
       "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
@@ -249,16 +239,6 @@
       "headline": "META FREEZES AI DATA... MERCOR BREACH EXPOSES TRAINING SECRETS"
     },
     {
-      "id": "b3a0fe48ae8d68cb",
-      "title": "Tencent is building an enterprise empire on top of an Austrian developer\u2019s open-source lobster",
-      "url": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
-      "source": "The Next Web",
-      "summary": "Tencent Holdings has launched ClawPro, an enterprise AI agent management platform built on OpenClaw, the open-source framework that has become the fastest-growing project in GitHub\u2019s history and the unlikely centrepiece of a national technology craze in China. The tool, released in public beta by Tencent\u2019s cloud division on Thursday, allows businesses to deploy OpenClaw-based AI [&hellip;] This story continues at The Next Web",
-      "published": "2026-04-03T14:25:13+00:00",
-      "score": 45.0,
-      "headline": "TENCENT BUILDS AI EMPIRE ON AUSTRIAN DEV'S OPEN-SOURCE 'LOBSTER'"
-    },
-    {
       "id": "da3035695da9e220",
       "title": "Microsoft Readies $10 Billion AI Investment Plan in Japan",
       "url": "https://www.bloomberg.com/news/articles/2026-04-03/microsoft-drafts-10-billion-investment-plan-in-ai-hungry-japan",
@@ -269,14 +249,14 @@
       "headline": "MICROSOFT DROPS $10B ON JAPAN AI... Massive Asia Push"
     },
     {
-      "id": "1b5097bb740f6819",
-      "title": "Qwen3.6-Plus",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sa7sfw/qwen36plus/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Blog post: https://qwen.ai/blog?id=qwen3.6 From Chujie Zheng on \ud835\udd4f: https://x.com/ChujieZheng/status/2039560126047359394 &#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]",
-      "published": "2026-04-02T04:41:38+00:00",
+      "id": "ec669296d29b13a5",
+      "title": "Google battles Chinese open-weights models with Gemma 4",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/googles_gemma_4_open_weights/",
+      "source": "The Register AI/ML",
+      "summary": "Now with a more permissive license, multi-modality, and support for more than 140 languages Google on Thursday unleashed a wave of new open-weights Gemma models optimized for agentic AI and coding, under a more permissive Apache 2.0 license aimed at winning over enterprises.\u2026",
+      "published": "2026-04-02T21:15:41+00:00",
       "score": 45.0,
-      "headline": "ALIBABA DROPS QWEN3.6-PLUS... Major AI Model Release"
+      "headline": "Google Fires Back at China with Gemma 4 Models"
     },
     {
       "id": "4e08ed0cbb4e6a5a",
@@ -709,6 +689,16 @@
       "headline": "ALIBABA DROPS THIRD AI MODEL IN 3 DAYS... Profit Push"
     },
     {
+      "id": "f04fa9d87e2fc47b",
+      "title": "Trump administration proposes expanding Chinese tech gear crackdown",
+      "url": "https://economictimes.indiatimes.com/tech/technology/trump-administration-proposes-expanding-chinese-tech-gear-crackdown/articleshow/130043666.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The FCC had in 2021 added telecommunications and video surveillance equipment made by Huawei, ZTE, Hytera, Hikvision and Dahua to its so-called \"Covered List\" of \u200ccompanies posing \u2060U.S. national \u2060security risks.",
+      "published": "2026-04-05T17:19:35+00:00",
+      "score": 40.0,
+      "headline": "TRUMP EXPANDS CHINESE TECH CRACKDOWN... Huawei, ZTE Face New Bans"
+    },
+    {
       "id": "ffd20455ffce3a4d",
       "title": "Qwen 3.6 spotted in the qwen app.",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sd6t40/qwen_36_spotted_in_the_qwen_app/",
@@ -1037,17 +1027,7 @@
       "published": "2026-04-02T04:00:00+00:00",
       "score": 40.0,
       "headline": "PHONE AI AGENTS VIOLATE PRIVACY... STUDY EXPOSES ALL"
-    },
-    {
-      "id": "4049793f16ae7279",
-      "title": "Foxconn first-quarter revenue jumps 30% year-on-year \u200bfuelled by \u2060strong \u200cAI-related demand",
-      "url": "https://economictimes.indiatimes.com/tech/technology/foxconn-first-quarter-revenue-jumps-30-year-on-year-fuelled-by-strong-ai-related-demand/articleshow/130035403.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Taiwan's Foxconn, a major electronics maker and Nvidia's top server supplier, announced a significant revenue increase. First-quarter earnings saw a 29.7% rise compared to last year. This growth was driven by robust demand for AI-related products. The company's revenue for January to March reached T$2.13 trillion. This performance exceeded analyst expectations, highlighting strong market interest.",
-      "published": "2026-04-05T07:44:07+00:00",
-      "score": 39.0,
-      "headline": "FOXCONN Revenue Jumps 30% on Massive AI Server Demand"
     }
   ],
-  "generated_at": "2026-04-05T16:31:19.177686"
+  "generated_at": "2026-04-05T17:26:34.009099"
 }
