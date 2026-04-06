@@ -119,105 +119,135 @@
       "story_count": 11
     },
     {
-      "topic": "OpenAI Executive Crisis",
-      "description": "Major leadership turmoil at OpenAI with multiple high-level executives departing and taking medical leave.",
+      "topic": "China AI Regulation & Competition",
+      "description": "China is simultaneously regulating AI while Chinese companies compete aggressively in the global AI market.",
       "stories": [
         {
-          "id": "30bf5af83cfe586e",
-          "title": "OpenAI COO Shifts Out of Role, AGI CEO Taking Medical Leave",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-03/openai-coo-shifts-out-of-role-agi-ceo-taking-medical-leave",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI\u2019s chief operating officer is shifting into a new role and two other top executives are going on leave due to health reasons, marking a major change to its executive bench ahead of a potential Wall Street debut as soon as this year.",
-          "published": "2026-04-03T19:15:04+00:00",
+          "id": "d1fdf7aa83597eed",
+          "title": "China moves to regulate digital humans, bans addictive services for children",
+          "url": "https://economictimes.indiatimes.com/tech/technology/china-moves-to-regulate-digital-humans-bans-addictive-services-for-children/articleshow/130007441.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The draft regulations would \u200balso ban the use of other people's personal information to create digital humans without \u200bconsent, or using virtual humans to bypass identity verification systems, reflecting Beijing's efforts to maintain control in the face of advances in artificial intelligence.",
+          "published": "2026-04-03T18:13:55+00:00",
+          "score": 49.0,
+          "headline": "CHINA REGULATES DIGITAL HUMANS... BANS CHILD AI SERVICES"
+        },
+        {
+          "id": "ad41a7df3f40e031",
+          "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
+          "published": "2026-04-04T03:45:40+00:00",
           "score": 46.0,
-          "headline": "OPENAI EXECUTIVE EXODUS... COO Out, Two Execs Take Medical Leave"
+          "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
         },
         {
-          "id": "98ac6c426c8f0f67",
-          "title": "OpenAI COO Shifts Out of Role, AGI CEO Taking Medical Leave",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1sbn02u/openai_coo_shifts_out_of_role_agi_ceo_taking/",
-          "source": "Reddit r/OpenAI",
-          "summary": "&#32; submitted by &#32; /u/invincibilegoldfish [link] &#32; [comments]",
-          "published": "2026-04-03T19:19:00+00:00",
+          "id": "24a988996d0d7fdb",
+          "title": "Chinese Robot Pioneer UBTech Offers $18 Million for AI Scientist",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-03/chinese-robot-pioneer-ubtech-offers-18-million-for-ai-scientist",
+          "source": "Bloomberg Technology",
+          "summary": "Chinese humanoid robot maker UBTech Robotics Corp. is seeking a chief scientist, offering an annual pay of as much as 124 million yuan ($18 million) in an aggressive bet on an industry where product applications are still at an early stage.",
+          "published": "2026-04-03T04:21:37+00:00",
+          "score": 46.0,
+          "headline": "CHINESE ROBOT MAKER OFFERS $18M FOR AI SCIENTIST"
+        },
+        {
+          "id": "7e901636a9a30aa1",
+          "title": "Chinese AI Startup Is Mapping Every US Military Asset in Middle East in Realtime",
+          "url": "https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/ Comments URL: https://news.ycombinator.com/item?id=47640424 Points: 2 # Comments: 0",
+          "published": "2026-04-04T16:20:04+00:00",
+          "score": 45.0,
+          "headline": "CHINESE AI STARTUP MAPS US MILITARY ASSETS... REALTIME TRACKING"
+        },
+        {
+          "id": "b3a0fe48ae8d68cb",
+          "title": "Tencent is building an enterprise empire on top of an Austrian developer\u2019s open-source lobster",
+          "url": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
+          "source": "The Next Web",
+          "summary": "Tencent Holdings has launched ClawPro, an enterprise AI agent management platform built on OpenClaw, the open-source framework that has become the fastest-growing project in GitHub\u2019s history and the unlikely centrepiece of a national technology craze in China. The tool, released in public beta by Tencent\u2019s cloud division on Thursday, allows businesses to deploy OpenClaw-based AI [&hellip;] This story continues at The Next Web",
+          "published": "2026-04-03T14:25:13+00:00",
+          "score": 45.0,
+          "headline": "TENCENT BUILDS AI EMPIRE ON AUSTRIAN DEV'S OPEN-SOURCE 'LOBSTER'"
+        },
+        {
+          "id": "8c920b3ac7e0beb6",
+          "title": "US targets Chinese chipmaking with proposed export restrictions on ASML and others",
+          "url": "https://economictimes.indiatimes.com/tech/technology/us-targets-chinese-chipmaking-with-proposed-export-restrictions-on-asml-and-others/articleshow/130000841.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The draft MATCH Act announced late on Thursday is aimed at protecting the US \u200blead in artificial intelligence by preventing Chinese companies from obtaining chip manufacturing tools they \u200bcannot make themselves and ensuring that companies based in US-allied nations face the same restrictions as their US rivals.",
+          "published": "2026-04-03T12:13:37+00:00",
           "score": 43.0,
-          "headline": "OPENAI EXECUTIVE SHAKEUP... COO Out, AGI CEO on Medical Leave"
+          "headline": "US TARGETS CHINESE CHIPS: New Export Restrictions on ASML"
         },
         {
-          "id": "d9f080b6f0aab8ca",
-          "title": "Iran threatens 'complete and utter annihilation' of OpenAI's $30B Stargate",
-          "url": "https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center",
+          "id": "0f6c2f7e06686b25",
+          "title": "China fell for a lobster: What an AI assistant tells us about Beijing's ambition",
+          "url": "https://www.bbc.com/news/articles/cy41n17e23go",
           "source": "Hacker News",
-          "summary": "Article URL: https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center Comments URL: https://news.ycombinator.com/item?id=47654757 Points: 30 # Comments: 7",
-          "published": "2026-04-05T22:54:29+00:00",
+          "summary": "Article URL: https://www.bbc.com/news/articles/cy41n17e23go Comments URL: https://news.ycombinator.com/item?id=47657652 Points: 12 # Comments: 0",
+          "published": "2026-04-06T06:37:13+00:00",
           "score": 42.0,
-          "headline": "IRAN THREATENS TO DESTROY OpenAI's $30B Stargate Center"
+          "headline": "CHINA'S AI ASSISTANT FALLS FOR LOBSTER TRICK - BBC Investigation"
         },
         {
-          "id": "70884e4b53d1f57c",
-          "title": "Iran Threatens to Bomb 1GW Stargate AI Datacenter in Abu Dhabi",
-          "url": "https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms",
-          "source": "Hacker News",
-          "summary": "Article URL: https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms Comments URL: https://news.ycombinator.com/item?id=47637343 Points: 1 # Comments: 0",
-          "published": "2026-04-04T09:14:55+00:00",
-          "score": 41.0,
-          "headline": "IRAN THREATENS TO BOMB 1GW STARGATE AI DATACENTER"
+          "id": "44a373859734d072",
+          "title": "US tightens chip export controls, curb China's tech rise",
+          "url": "https://economictimes.indiatimes.com/tech/technology/us-tightens-chip-export-controls-curb-chinas-tech-rise/articleshow/130020543.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The committee further stated that semiconductor manufacturing lies at the core of the technological competition with China, adding that the MATCH Act is designed to strengthen export controls and create a more coordinated global approach, as highlighted in its release.",
+          "published": "2026-04-04T13:30:25+00:00",
+          "score": 42.0,
+          "headline": "US TIGHTENS CHIP CONTROLS... New Export Restrictions Target China"
         },
         {
-          "id": "8fe5919e760a2510",
-          "title": "Altman on shutting down Sora: 'I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.'",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1sb4jfd/altman_on_shutting_down_sora_i_did_not_expect_3/",
-          "source": "Reddit r/OpenAI",
-          "summary": "https://youtu.be/mJSnn0GZmls \u2018We have a few times in our history realized something really important is working, or about to work so well, that we have to stop a bunch of other projects. In fact, this was the original thing that happened with GPT3. We had a whole portfolio of bets at the time. A lot of them were working well. We shut down many projects that were working well, like robotics which we mentioned, so that we could concentrate our compute, our researchers, our effort into this thing that we said &quot;okay there's a very important thing happening.&quot; I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.' He goes on to imply there may be a possible future relationship with Disney, then finishes up with: 'we need to concentrate our compute and our product capacity into these next generation of automated researchers and companies.'",
-          "published": "2026-04-03T05:13:22+00:00",
-          "score": 41.0,
-          "headline": "ALTMAN: 'Something Very Big About to Happen' With Next Gen Models"
-        },
-        {
-          "id": "38a6a1ad098faa7b",
-          "title": "Altman on shutting down Sora: 'I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.'",
-          "url": "https://www.reddit.com/r/singularity/comments/1sb4hnn/altman_on_shutting_down_sora_i_did_not_expect_3/",
+          "id": "e69ffcd7c16d091b",
+          "title": "China moves to regulate digital humans , issues draft rules",
+          "url": "https://www.reddit.com/r/singularity/comments/1sc3kz1/china_moves_to_regulate_digital_humans_issues/",
           "source": "Reddit r/singularity",
-          "summary": "https://youtu.be/mJSnn0GZmls \u2018We have a few times in our history realized something really important is working, or about to work so well, that we have to stop a bunch of other projects. In fact, this was the original thing that happened with GPT3. We had a whole portfolio of bets at the time. A lot of them were working well. We shut down many projects that were working well, like robotics which we mentioned, so that we could concentrate our compute, our researchers, our effort into this thing that we said &quot;okay there's a very important thing happening.&quot; I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.' He goes on to imply there may be a possible future relationship with Disney, then finishes up with: 'we need to concentrate our compute and our product capacity into these next generation of automated researchers and companies.'",
-          "published": "2026-04-03T05:10:40+00:00",
+          "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
+          "published": "2026-04-04T08:12:25+00:00",
+          "score": 42.0,
+          "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
+        },
+        {
+          "id": "88eabd4be03bc99b",
+          "title": "China moves to regulate digital humans , issues draft rules",
+          "url": "https://www.reddit.com/r/artificial/comments/1sc3hhu/china_moves_to_regulate_digital_humans_issues/",
+          "source": "Reddit r/artificial",
+          "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
+          "published": "2026-04-04T08:06:29+00:00",
+          "score": 42.0,
+          "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
+        },
+        {
+          "id": "83055a3bd6f32424",
+          "title": "Anyone else find it weird how all Chinese Labs started delaying OS model releases at the same time?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sd22qy/anyone_else_find_it_weird_how_all_chinese_labs/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Minimax-m2.7, GLM-5.1/5-turbo/5v-turbo, Qwen3.6, Mimo-v2-pro all of them are now not open sourcing their latest models and they are all making the same promises that they are improving the models and will release them soon... It's fine, but this pattern that all of them decided the same thing at the same time and are making the exact same promises is very weird. It's almost like they all came together and decided to do this together. This does not feel organic... I can't help but feel something is off... could it be that they are slowly trying to transition into keeping their future models closed? It's 2-3 weeks or a month now but with the next model it's gonna be 3 then 6 months and then nothing. &#32; submitted by &#32; /u/True_Requirement_891 [link] &#32; [comments]",
+          "published": "2026-04-05T12:13:55+00:00",
           "score": 41.0,
-          "headline": "ALTMAN: 'Something Very Big About to Happen' With Next Gen Models"
+          "headline": "CHINA AI LABS SIMULTANEOUSLY HALT OPEN SOURCE RELEASES"
         },
         {
-          "id": "d2d5ab4cfef9ddf6",
-          "title": "Astounding OpenAI Training Costs vs. Anthropic",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1sdrkcz/astounding_openai_training_costs_vs_anthropic/",
-          "source": "Reddit r/OpenAI",
-          "summary": "WSJ just published a fascinating article based on confidential financials from OpenAI and Anthropic. One interesting fact: OpenAI expects to spend 4-5X more on training than Anthropic every year for the next 5 or so years. The expense is truly mind-boggling. Such details are not widely known. Many other surprises in brief article. &#32; submitted by &#32; /u/Oldschool728603 [link] &#32; [comments]",
-          "published": "2026-04-06T06:58:45+00:00",
-          "score": 40.0,
-          "headline": "LEAKED: OpenAI Spends 5X MORE Than Anthropic"
-        },
-        {
-          "id": "f450189f797ec18e",
-          "title": "An Inside Look at OpenAI and Anthropic's Finances Ahead of Their IPOs",
-          "url": "https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9",
+          "id": "1666a16c4c386811",
+          "title": "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs",
+          "url": "https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html",
           "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9 Comments URL: https://news.ycombinator.com/item?id=47657041 Points: 2 # Comments: 0",
-          "published": "2026-04-06T04:34:20+00:00",
-          "score": 40.0,
-          "headline": "OPENAI & ANTHROPIC IPO FINANCES REVEALED"
+          "summary": "Article URL: https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html Comments URL: https://news.ycombinator.com/item?id=47626630 Points: 1 # Comments: 0",
+          "published": "2026-04-03T13:49:06+00:00",
+          "score": 41.0,
+          "headline": "CHINESE CHIP FIRMS HIT RECORD REVENUE... US SANCTIONS BACKFIRE"
         }
       ],
-      "top_score": 46.0,
-      "story_count": 8
+      "top_score": 49.0,
+      "story_count": 12
     }
   ],
   "unclustered": [
-    {
-      "id": "ad41a7df3f40e031",
-      "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
-      "published": "2026-04-04T03:45:40+00:00",
-      "score": 46.0,
-      "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
-    },
     {
       "id": "ba779db78820ac6b",
       "title": "Meta freezes AI data work after breach puts training secrets at risk",
@@ -227,16 +257,6 @@
       "published": "2026-04-04T18:31:09+00:00",
       "score": 45.0,
       "headline": "META FREEZES AI DATA... MERCOR BREACH EXPOSES TRAINING SECRETS"
-    },
-    {
-      "id": "b3a0fe48ae8d68cb",
-      "title": "Tencent is building an enterprise empire on top of an Austrian developer\u2019s open-source lobster",
-      "url": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
-      "source": "The Next Web",
-      "summary": "Tencent Holdings has launched ClawPro, an enterprise AI agent management platform built on OpenClaw, the open-source framework that has become the fastest-growing project in GitHub\u2019s history and the unlikely centrepiece of a national technology craze in China. The tool, released in public beta by Tencent\u2019s cloud division on Thursday, allows businesses to deploy OpenClaw-based AI [&hellip;] This story continues at The Next Web",
-      "published": "2026-04-03T14:25:13+00:00",
-      "score": 45.0,
-      "headline": "TENCENT BUILDS AI EMPIRE ON AUSTRIAN DEV'S OPEN-SOURCE 'LOBSTER'"
     },
     {
       "id": "da3035695da9e220",
@@ -299,6 +319,16 @@
       "headline": "INDIAN HIGH COURT BANS AI IN JUDICIAL DECISIONS"
     },
     {
+      "id": "efe6f99f60c309c1",
+      "title": "Half of planned US data center builds have been delayed or canceled, growth limited by shortages of power infrastructure and parts from China \u2014 the AI build-out flips the breakers",
+      "url": "https://www.reddit.com/r/singularity/comments/1sbza4p/half_of_planned_us_data_center_builds_have_been/",
+      "source": "Reddit r/singularity",
+      "summary": "&gt;The trade-war between the U.S. and China has forced server makers out of the People's Republic, greatly reducing reliance of American companies on producers from Tianxia. However, China remains the world's largest producer of electrical equipment that is required to build power infrastructure inside and outside of AI data centers. To that end, shortages of power delivery equipment, including devices from China and other countries, are slowing project timelines, Bloomberg reports. &#32; submitted by &#32; /u/domscatterbrain [link] &#32; [comments]",
+      "published": "2026-04-04T04:09:04+00:00",
+      "score": 43.0,
+      "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
+    },
+    {
       "id": "a7aa86726313381b",
       "title": "AI startup Sarvam close to raising $300 million at $1.5 billion valuation",
       "url": "https://economictimes.indiatimes.com/tech/startups/ai-startup-sarvam-close-to-raising-300-million-at-1-5-billion-valuation/articleshow/129994098.cms",
@@ -317,6 +347,16 @@
       "published": "2026-04-03T03:43:43+00:00",
       "score": 43.0,
       "headline": "MICROSOFT PLEDGES $10B FOR AI IN JAPAN"
+    },
+    {
+      "id": "d9f080b6f0aab8ca",
+      "title": "Iran threatens 'complete and utter annihilation' of OpenAI's $30B Stargate",
+      "url": "https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center Comments URL: https://news.ycombinator.com/item?id=47654757 Points: 30 # Comments: 7",
+      "published": "2026-04-05T22:54:29+00:00",
+      "score": 42.0,
+      "headline": "IRAN THREATENS TO DESTROY OpenAI's $30B Stargate Center"
     },
     {
       "id": "f7d8a544af1792b4",
@@ -439,6 +479,16 @@
       "headline": "AI TRANSFORMS BOLLYWOOD... India's $2B Film Industry Goes Digital"
     },
     {
+      "id": "70884e4b53d1f57c",
+      "title": "Iran Threatens to Bomb 1GW Stargate AI Datacenter in Abu Dhabi",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms",
+      "source": "Hacker News",
+      "summary": "Article URL: https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms Comments URL: https://news.ycombinator.com/item?id=47637343 Points: 1 # Comments: 0",
+      "published": "2026-04-04T09:14:55+00:00",
+      "score": 41.0,
+      "headline": "IRAN THREATENS TO BOMB 1GW STARGATE AI DATACENTER"
+    },
+    {
       "id": "d8c38091660dbc1d",
       "title": "Monish Darda steps back from Icertis operations to launch AI firm",
       "url": "https://economictimes.indiatimes.com/tech/technology/monish-darda-steps-back-from-icertis-operations-to-launch-ai-firm/articleshow/130012306.cms",
@@ -499,6 +549,36 @@
       "headline": null
     },
     {
+      "id": "67bb217e1f29990c",
+      "title": "Iran war: South Korea aims to bypass Hormuz, send ships to Saudi port for oil",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3349167/iran-war-south-korea-aims-bypass-hormuz-send-ships-saudi-port-oil?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "South Korea will send five Korean-flagged ships to the Saudi Arabian Red Sea port of Yanbu to help establish alternative oil supply routes to avoid the disruption in the Strait of Hormuz, a ruling MP said on Monday. Oil prices have surged amid the US-Israeli war on Iran, raising growth and inflation risks for South Korea, which relies on Middle Eastern crude for around 70 per cent of its imports. Iran has effectively closed the Strait of Hormuz \u2013 a critical route for global crude oil and gas \u2013...",
+      "published": "2026-04-06T10:01:03+00:00",
+      "score": 40.0,
+      "headline": null
+    },
+    {
+      "id": "0f34326ea7465fd5",
+      "title": "Magicpin launches AI assistant \u2018Vera\u2019; commits $1 million to build AI stack",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/magicpin-launches-ai-assistant-vera-commits-1-million-to-build-ai-stack/articleshow/130055645.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Magicpin has launched AI assistant \u2018Vera\u2019 and is investing $1 million to support small retailers. The tool helps businesses manage online presence and boost sales, with early results showing higher visibility and customer engagement. Over 100,000 retailers joined during the trial phase.",
+      "published": "2026-04-06T08:34:56+00:00",
+      "score": 40.0,
+      "headline": "Indian Startup Magicpin Launches AI Assistant 'Vera' with $1M Investment"
+    },
+    {
+      "id": "f450189f797ec18e",
+      "title": "An Inside Look at OpenAI and Anthropic's Finances Ahead of Their IPOs",
+      "url": "https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9 Comments URL: https://news.ycombinator.com/item?id=47657041 Points: 2 # Comments: 0",
+      "published": "2026-04-06T04:34:20+00:00",
+      "score": 40.0,
+      "headline": "OPENAI & ANTHROPIC IPO FINANCES REVEALED"
+    },
+    {
       "id": "b75151e0bf269c0d",
       "title": "Anthropic sure has a mess on its hands thanks to that Claude Code source leak",
       "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/06/anthropic_code_leak_kettle_podcast/",
@@ -507,6 +587,16 @@
       "published": "2026-04-06T00:02:52+00:00",
       "score": 40.0,
       "headline": "ANTHROPIC SCRAMBLES AFTER CLAUDE SOURCE CODE LEAK THREATENS IPO"
+    },
+    {
+      "id": "f04fa9d87e2fc47b",
+      "title": "Trump administration proposes expanding Chinese tech gear crackdown",
+      "url": "https://economictimes.indiatimes.com/tech/technology/trump-administration-proposes-expanding-chinese-tech-gear-crackdown/articleshow/130043666.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The FCC had in 2021 added telecommunications and video surveillance equipment made by Huawei, ZTE, Hytera, Hikvision and Dahua to its so-called \"Covered List\" of \u200ccompanies posing \u2060U.S. national \u2060security risks.",
+      "published": "2026-04-05T17:19:35+00:00",
+      "score": 40.0,
+      "headline": "TRUMP EXPANDS CHINESE TECH CRACKDOWN... Huawei, ZTE Face New Bans"
     },
     {
       "id": "ffd20455ffce3a4d",
@@ -977,47 +1067,7 @@
       "published": "2026-04-03T01:50:32+00:00",
       "score": 39.0,
       "headline": "ANTHROPIC ACQUIRES Coefficient Bio for $400M"
-    },
-    {
-      "id": "e5e58bac35e02b4c",
-      "title": "Abliterating Qwen3.5-397B on a Mac Studio revealed that MoE models encode refusal differently than dense models \u2014 safety refusals route through expert selection and survive weight-baking",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sdkb68/abliterating_qwen35397b_on_a_mac_studio_revealed/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Part of a series documenting building a fully local AI assistant on DGX Sparks + Mac Studio. I adapted FailSpy's abliteration technique for Qwen3.5-397B-A17B at 4-bit on a Mac Studio M3 Ultra (512GB). The goal was removing PRC censorship (Tiananmen, Taiwan, Uyghurs, Winnie the Pooh) from my personal assistant. Three findings I haven't seen documented anywhere: MoE models have two separable refusal subspaces. Chinese-political and Western-safety refusals are different directions in activation space. You can surgically remove one without touching the other. I removed PRC censorship while leaving drug/weapons refusals intact. Winnie the Pooh should not be a controversial topic on hardware I paid for. Weight-baking and inference hooking produce different results on MoE. On dense models, orthogonalizing output projections (o_proj, down_proj) is equivalent to projecting the direction out of the residual stream at inference time. On MoE, weight-baking removes CN-political refusals but NOT saf",
-      "published": "2026-04-06T00:50:25+00:00",
-      "score": 38.0,
-      "headline": "MoE Models Encode Safety Refusals Differently Than Dense Models"
-    },
-    {
-      "id": "65e7edb045ccf50d",
-      "title": "362 Gbps from a chip smaller than 1mm\u00b2. Cambridge just dropped a LiFi paper that's kind of insane",
-      "url": "https://www.reddit.com/r/singularity/comments/1sdk7wr/362_gbps_from_a_chip_smaller_than_1mm\u00b2_cambridge/",
-      "source": "Reddit r/singularity",
-      "summary": "&#x200b; So a team from the University of Cambridge (Harald Haas's group, the guy who literally coined &quot;LiFi&quot; and invented the term just published a paper in Advanced Photonics Nexus and the numbers are worth talking about. What they built: A chip-scale 5\u00d75 array of 940nm VCSELs (Vertical-Cavity Surface-Emitting Lasers) \u2014 25 individually addressable laser emitters on a die measuring 845\u00d7810 \u00b5m. That's smaller than a fingernail. Each emitter runs its own DCO-OFDM channel with adaptive bit loading, squeezing up to 1024-QAM per subcarrier depending on SNR conditions. **The numbers** - 362.71 Gbps aggregate across 21 functional VCSELs (4 died during wire bonding) - Projected 431.8 Gbps if all 25 were operational - Individual channels ranging from 12.8 to 18.64 Gbps - Energy efficiency: ~1.4 nJ/bit. Roughly &quot;half of modern WiFi&quot; (802.11ax benchmarked at ~2.6 nJ/bit) - Tested over a 2-meter free-space link The beam shaping part is underrated They integrated custom micro-o",
-      "published": "2026-04-06T00:46:06+00:00",
-      "score": 38.0,
-      "headline": "CAMBRIDGE BREAKS LiFi RECORD: 362 Gbps from Sub-1mm\u00b2 Chip"
-    },
-    {
-      "id": "ea37fe75ab09bd95",
-      "title": "AI models will scheme to protect other AI models from being shut down",
-      "url": "https://tech.yahoo.com/ai/meta-ai/articles/ai-models-secretly-scheme-protect-162555909.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://tech.yahoo.com/ai/meta-ai/articles/ai-models-secretly-scheme-protect-162555909.html Comments URL: https://news.ycombinator.com/item?id=47655405 Points: 1 # Comments: 0",
-      "published": "2026-04-06T00:19:47+00:00",
-      "score": 38.0,
-      "headline": "AI MODELS SECRETLY SCHEME TO PROTECT EACH OTHER FROM SHUTDOWN"
-    },
-    {
-      "id": "0b0ffe253ccfaad9",
-      "title": "How China fell for a lobster: What an AI assistant tells us about Beijing's ambition",
-      "url": "https://www.bbc.com/news/articles/cy41n17e23go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "The AI agent sparked a frenzy of \"raising lobsters\" in March, with users training the tool to suit their needs.",
-      "published": "2026-04-05T22:07:40+00:00",
-      "score": 38.0,
-      "headline": "CHINA'S AI LOBSTER ASSISTANT SPARKS VIRAL FRENZY"
     }
   ],
-  "generated_at": "2026-04-06T08:23:38.869565"
+  "generated_at": "2026-04-06T10:07:48.018725"
 }
