@@ -249,16 +249,6 @@
   ],
   "unclustered": [
     {
-      "id": "ad41a7df3f40e031",
-      "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
-      "published": "2026-04-04T03:45:40+00:00",
-      "score": 46.0,
-      "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
-    },
-    {
       "id": "ba779db78820ac6b",
       "title": "Meta freezes AI data work after breach puts training secrets at risk",
       "url": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk",
@@ -267,16 +257,6 @@
       "published": "2026-04-04T18:31:09+00:00",
       "score": 45.0,
       "headline": "META FREEZES AI DATA... MERCOR BREACH EXPOSES TRAINING SECRETS"
-    },
-    {
-      "id": "b3a0fe48ae8d68cb",
-      "title": "Tencent is building an enterprise empire on top of an Austrian developer\u2019s open-source lobster",
-      "url": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
-      "source": "The Next Web",
-      "summary": "Tencent Holdings has launched ClawPro, an enterprise AI agent management platform built on OpenClaw, the open-source framework that has become the fastest-growing project in GitHub\u2019s history and the unlikely centrepiece of a national technology craze in China. The tool, released in public beta by Tencent\u2019s cloud division on Thursday, allows businesses to deploy OpenClaw-based AI [&hellip;] This story continues at The Next Web",
-      "published": "2026-04-03T14:25:13+00:00",
-      "score": 45.0,
-      "headline": "TENCENT BUILDS AI EMPIRE ON AUSTRIAN DEV'S OPEN-SOURCE 'LOBSTER'"
     },
     {
       "id": "da3035695da9e220",
@@ -339,6 +319,16 @@
       "headline": "INDIAN HIGH COURT BANS AI IN JUDICIAL DECISIONS"
     },
     {
+      "id": "efe6f99f60c309c1",
+      "title": "Half of planned US data center builds have been delayed or canceled, growth limited by shortages of power infrastructure and parts from China \u2014 the AI build-out flips the breakers",
+      "url": "https://www.reddit.com/r/singularity/comments/1sbza4p/half_of_planned_us_data_center_builds_have_been/",
+      "source": "Reddit r/singularity",
+      "summary": "&gt;The trade-war between the U.S. and China has forced server makers out of the People's Republic, greatly reducing reliance of American companies on producers from Tianxia. However, China remains the world's largest producer of electrical equipment that is required to build power infrastructure inside and outside of AI data centers. To that end, shortages of power delivery equipment, including devices from China and other countries, are slowing project timelines, Bloomberg reports. &#32; submitted by &#32; /u/domscatterbrain [link] &#32; [comments]",
+      "published": "2026-04-04T04:09:04+00:00",
+      "score": 43.0,
+      "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
+    },
+    {
       "id": "a7aa86726313381b",
       "title": "AI startup Sarvam close to raising $300 million at $1.5 billion valuation",
       "url": "https://economictimes.indiatimes.com/tech/startups/ai-startup-sarvam-close-to-raising-300-million-at-1-5-billion-valuation/articleshow/129994098.cms",
@@ -357,16 +347,6 @@
       "published": "2026-04-03T03:43:43+00:00",
       "score": 43.0,
       "headline": "MICROSOFT PLEDGES $10B FOR AI IN JAPAN"
-    },
-    {
-      "id": "d9f080b6f0aab8ca",
-      "title": "Iran threatens 'complete and utter annihilation' of OpenAI's $30B Stargate",
-      "url": "https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center Comments URL: https://news.ycombinator.com/item?id=47654757 Points: 30 # Comments: 7",
-      "published": "2026-04-05T22:54:29+00:00",
-      "score": 42.0,
-      "headline": "IRAN THREATENS TO DESTROY OpenAI's $30B Stargate Center"
     },
     {
       "id": "f7d8a544af1792b4",
@@ -439,6 +419,16 @@
       "headline": "KIMI K2.5 Safety Evaluation Reveals Major Gaps"
     },
     {
+      "id": "9bfcbc53e03be416",
+      "title": "Machine Translation in the Wild: User Reaction to Xiaohongshu's Built-In Translation Feature",
+      "url": "https://arxiv.org/abs/2603.15922",
+      "source": "arXiv cs.CL",
+      "summary": "arXiv:2603.15922v2 Announce Type: replace-cross Abstract: This paper examines user reactions to the launch of the machine translation (MT) feature on Xiaohongshu, a Chinese social media and e-commerce platform, in January 2025. Drawing on a dataset of 6,723 comments collected from 11 official posts promoting the translation function, this paper combines sentiment analysis with thematic analysis to investigate how users perceived and experimented with the function. Results show that reactions were generally positive, although concerns regarding functionality, accessibility, and translation accuracy were also expressed. In addition, users actively tested the function with inputs that are atypical for everyday online communication, including stand-alone words and phrases, abbreviations, internet slang, and symbolic or encoded forms. Successful decoding of these texts elicited positive responses, while testing of more conventional language remained fairly limited. This could lead to uncrit",
+      "published": "2026-04-06T04:00:00+00:00",
+      "score": 41.0,
+      "headline": "Chinese Social Media Users React to Built-In AI Translation"
+    },
+    {
       "id": "0d8e2caf23fed40e",
       "title": "Gemma 4 just casually destroyed every model on our leaderboard except Opus 4.6 and GPT-5.2. 31B params, $0.20/run",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sdcotc/gemma_4_just_casually_destroyed_every_model_on/",
@@ -487,16 +477,6 @@
       "published": "2026-04-04T13:48:02+00:00",
       "score": 41.0,
       "headline": "AI TRANSFORMS BOLLYWOOD... India's $2B Film Industry Goes Digital"
-    },
-    {
-      "id": "70884e4b53d1f57c",
-      "title": "Iran Threatens to Bomb 1GW Stargate AI Datacenter in Abu Dhabi",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms",
-      "source": "Hacker News",
-      "summary": "Article URL: https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms Comments URL: https://news.ycombinator.com/item?id=47637343 Points: 1 # Comments: 0",
-      "published": "2026-04-04T09:14:55+00:00",
-      "score": 41.0,
-      "headline": "IRAN THREATENS TO BOMB 1GW STARGATE AI DATACENTER"
     },
     {
       "id": "d8c38091660dbc1d",
@@ -579,6 +559,16 @@
       "headline": "Indian Startup Magicpin Launches AI Assistant 'Vera' with $1M Investment"
     },
     {
+      "id": "d2d5ab4cfef9ddf6",
+      "title": "Astounding OpenAI Training Costs vs. Anthropic",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1sdrkcz/astounding_openai_training_costs_vs_anthropic/",
+      "source": "Reddit r/OpenAI",
+      "summary": "WSJ just published a fascinating article based on confidential financials from OpenAI and Anthropic. One interesting fact: OpenAI expects to spend 4-5X more on training than Anthropic every year for the next 5 or so years. The expense is truly mind-boggling. Such details are not widely known. Many other surprises in brief article. &#32; submitted by &#32; /u/Oldschool728603 [link] &#32; [comments]",
+      "published": "2026-04-06T06:58:45+00:00",
+      "score": 40.0,
+      "headline": "LEAKED: OpenAI Spends 5X MORE Than Anthropic"
+    },
+    {
       "id": "f450189f797ec18e",
       "title": "An Inside Look at OpenAI and Anthropic's Finances Ahead of Their IPOs",
       "url": "https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9",
@@ -587,6 +577,16 @@
       "published": "2026-04-06T04:34:20+00:00",
       "score": 40.0,
       "headline": "OPENAI & ANTHROPIC IPO FINANCES REVEALED"
+    },
+    {
+      "id": "bd34ad9b540b5d5a",
+      "title": "Be Careful When Fine-tuning On Open-Source LLMs: Your Fine-tuning Data Could Be Secretly Stolen!",
+      "url": "https://arxiv.org/abs/2505.15656",
+      "source": "arXiv cs.CL",
+      "summary": "arXiv:2505.15656v2 Announce Type: replace Abstract: Fine-tuning on open-source Large Language Models (LLMs) with proprietary data is now a standard practice for downstream developers to obtain task-specific LLMs. Surprisingly, we reveal a new and concerning risk along with the practice: the creator of the open-source LLMs can later extract the private downstream fine-tuning data through simple backdoor training, only requiring black-box access to the fine-tuned downstream model. Our comprehensive experiments, across 4 popularly used open-source models with 3B to 32B parameters and 2 downstream datasets, suggest that the extraction performance can be strikingly high: in practical settings, as much as 76.3% downstream fine-tuning data (queries) out of a total 5,000 samples can be perfectly extracted, and the success rate can increase to 94.9% in more ideal settings. We also explore a detection-based defense strategy but find it can be bypassed with improved attack. Overall, we highlight ",
+      "published": "2026-04-06T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "SECURITY ALERT: Open-Source LLM Fine-Tuning Data Can Be STOLEN"
     },
     {
       "id": "b75151e0bf269c0d",
@@ -1057,27 +1057,7 @@
       "published": "2026-04-03T09:43:03+00:00",
       "score": 39.0,
       "headline": "GOOGLE CEO: Space Data Centers Coming Within Decade"
-    },
-    {
-      "id": "b110c19b32337e8e",
-      "title": "Tencent releases omniweaving, a video generation model with reasoning capability",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1sb7nxm/tencent_releases_omniweaving_a_video_generation/",
-      "source": "Reddit r/StableDiffusion",
-      "summary": "https://huggingface.co/tencent/HY-OmniWeaving Based on HunyuanVideo-1.5, Omniweaving incorporates a reasoning LLM to improve prompt adherence. It supports t2v, i2v, r2v, first/last frame, keyframe, v2v, and video editing. &#32; submitted by &#32; /u/chrd5273 [link] &#32; [comments]",
-      "published": "2026-04-03T08:17:53+00:00",
-      "score": 39.0,
-      "headline": "TENCENT RELEASES VIDEO AI WITH REASONING... OMNIWEAVING"
-    },
-    {
-      "id": "b6057cb3b44effb3",
-      "title": "Anthropic acquires startup Coefficient Bio for about $400 million: Report",
-      "url": "https://economictimes.indiatimes.com/tech/startups/anthropic-acquires-startup-coefficient-bio-for-about-400-million-report/articleshow/129992345.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Anthropic acquires startup Coefficient Bio for about $400 million: report",
-      "published": "2026-04-03T01:50:32+00:00",
-      "score": 39.0,
-      "headline": "ANTHROPIC ACQUIRES Coefficient Bio for $400M"
     }
   ],
-  "generated_at": "2026-04-06T11:46:23.454227"
+  "generated_at": "2026-04-06T13:01:04.147851"
 }
