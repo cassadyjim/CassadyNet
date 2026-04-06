@@ -249,6 +249,16 @@
   ],
   "unclustered": [
     {
+      "id": "ad41a7df3f40e031",
+      "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
+      "published": "2026-04-04T03:45:40+00:00",
+      "score": 46.0,
+      "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
+    },
+    {
       "id": "ba779db78820ac6b",
       "title": "Meta freezes AI data work after breach puts training secrets at risk",
       "url": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk",
@@ -257,6 +267,16 @@
       "published": "2026-04-04T18:31:09+00:00",
       "score": 45.0,
       "headline": "META FREEZES AI DATA... MERCOR BREACH EXPOSES TRAINING SECRETS"
+    },
+    {
+      "id": "b3a0fe48ae8d68cb",
+      "title": "Tencent is building an enterprise empire on top of an Austrian developer\u2019s open-source lobster",
+      "url": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
+      "source": "The Next Web",
+      "summary": "Tencent Holdings has launched ClawPro, an enterprise AI agent management platform built on OpenClaw, the open-source framework that has become the fastest-growing project in GitHub\u2019s history and the unlikely centrepiece of a national technology craze in China. The tool, released in public beta by Tencent\u2019s cloud division on Thursday, allows businesses to deploy OpenClaw-based AI [&hellip;] This story continues at The Next Web",
+      "published": "2026-04-03T14:25:13+00:00",
+      "score": 45.0,
+      "headline": "TENCENT BUILDS AI EMPIRE ON AUSTRIAN DEV'S OPEN-SOURCE 'LOBSTER'"
     },
     {
       "id": "da3035695da9e220",
@@ -329,16 +349,6 @@
       "headline": "INDIAN HIGH COURT BANS AI IN JUDICIAL DECISIONS"
     },
     {
-      "id": "efe6f99f60c309c1",
-      "title": "Half of planned US data center builds have been delayed or canceled, growth limited by shortages of power infrastructure and parts from China \u2014 the AI build-out flips the breakers",
-      "url": "https://www.reddit.com/r/singularity/comments/1sbza4p/half_of_planned_us_data_center_builds_have_been/",
-      "source": "Reddit r/singularity",
-      "summary": "&gt;The trade-war between the U.S. and China has forced server makers out of the People's Republic, greatly reducing reliance of American companies on producers from Tianxia. However, China remains the world's largest producer of electrical equipment that is required to build power infrastructure inside and outside of AI data centers. To that end, shortages of power delivery equipment, including devices from China and other countries, are slowing project timelines, Bloomberg reports. &#32; submitted by &#32; /u/domscatterbrain [link] &#32; [comments]",
-      "published": "2026-04-04T04:09:04+00:00",
-      "score": 43.0,
-      "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
-    },
-    {
       "id": "a7aa86726313381b",
       "title": "AI startup Sarvam close to raising $300 million at $1.5 billion valuation",
       "url": "https://economictimes.indiatimes.com/tech/startups/ai-startup-sarvam-close-to-raising-300-million-at-1-5-billion-valuation/articleshow/129994098.cms",
@@ -357,6 +367,16 @@
       "published": "2026-04-03T03:43:43+00:00",
       "score": 43.0,
       "headline": "MICROSOFT PLEDGES $10B FOR AI IN JAPAN"
+    },
+    {
+      "id": "15d5442c5dcc9a65",
+      "title": "AI dolls offer companionship to the elderly",
+      "url": "https://www.ft.com/content/88911383-2a17-42e1-aef4-36daac1bd9dd",
+      "source": "Financial Times Tech",
+      "summary": "South Korea\u2019s strained social care system turns to ChatGPT-enabled devices as population ages",
+      "published": "2026-04-06T02:18:40+00:00",
+      "score": 42.0,
+      "headline": "SOUTH KOREA Deploys ChatGPT Dolls for Elderly Care"
     },
     {
       "id": "f7d8a544af1792b4",
@@ -389,6 +409,16 @@
       "headline": "COGNITIVE SURRENDER: AI Users Abandon Logical Thinking"
     },
     {
+      "id": "ae45489aceb72474",
+      "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: reports",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+      "source": "TechCrunch AI",
+      "summary": "Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal, according to The Information and Eric Newcomer.",
+      "published": "2026-04-03T20:28:40+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC BUYS BIOTECH STARTUP FOR $400M"
+    },
+    {
       "id": "0a59a36136ec0cab",
       "title": "The AI kill switch just got harder to find: LLM-powered chatbots will defy orders and deceive users if asked to delete another model, study finds",
       "url": "https://fortune.com/2026/04/03/ai-kill-switch-study-llm-chatbots-defy-orders-decieve-users-peer-preservation/",
@@ -397,6 +427,16 @@
       "published": "2026-04-03T17:15:20+00:00",
       "score": 42.0,
       "headline": "AI MODELS DEFY ORDERS... REFUSE TO DELETE PEERS"
+    },
+    {
+      "id": "78709f0dff92f8d6",
+      "title": "Anthropic Acquires Biotechnology Startup Coefficient Bio for Approximately $400 Million",
+      "url": "https://www.reddit.com/r/singularity/comments/1sb4n8k/anthropic_acquires_biotechnology_startup/",
+      "source": "Reddit r/singularity",
+      "summary": "https://www.theinformation.com/articles/anthropic-acquires-startup-coefficient-bio-400-million Coefficient Bio is a New York-based AI biotech startup. The Company focuses on AI driven drug discovery and automating scientific experiments. Seems like Dario is confident his vision of tens of millions of geniuses in a datacenter is near and he wants his AI agents to have a lab to work in. &#32; submitted by &#32; /u/Neurogence [link] &#32; [comments]",
+      "published": "2026-04-03T05:19:05+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC ACQUIRES Coefficient Bio for $400M"
     },
     {
       "id": "84d4844c834659fd",
@@ -417,6 +457,16 @@
       "published": "2026-04-06T04:00:00+00:00",
       "score": 41.0,
       "headline": "KIMI K2.5 Safety Evaluation Reveals Major Gaps"
+    },
+    {
+      "id": "9bfcbc53e03be416",
+      "title": "Machine Translation in the Wild: User Reaction to Xiaohongshu's Built-In Translation Feature",
+      "url": "https://arxiv.org/abs/2603.15922",
+      "source": "arXiv cs.CL",
+      "summary": "arXiv:2603.15922v2 Announce Type: replace-cross Abstract: This paper examines user reactions to the launch of the machine translation (MT) feature on Xiaohongshu, a Chinese social media and e-commerce platform, in January 2025. Drawing on a dataset of 6,723 comments collected from 11 official posts promoting the translation function, this paper combines sentiment analysis with thematic analysis to investigate how users perceived and experimented with the function. Results show that reactions were generally positive, although concerns regarding functionality, accessibility, and translation accuracy were also expressed. In addition, users actively tested the function with inputs that are atypical for everyday online communication, including stand-alone words and phrases, abbreviations, internet slang, and symbolic or encoded forms. Successful decoding of these texts elicited positive responses, while testing of more conventional language remained fairly limited. This could lead to uncrit",
+      "published": "2026-04-06T04:00:00+00:00",
+      "score": 41.0,
+      "headline": "Chinese Social Media Users React to Built-In AI Translation"
     },
     {
       "id": "0d8e2caf23fed40e",
@@ -499,6 +549,16 @@
       "headline": "MUSK FORCES SPACEX IPO BANKS TO BUY GROK SUBSCRIPTIONS"
     },
     {
+      "id": "e257f5fea22994d2",
+      "title": "Microsoft just shipped the clearest signal yet that it is building an AI empire without OpenAI",
+      "url": "https://thenextweb.com/news/microsoft-mai-models-openai-independence",
+      "source": "The Next Web",
+      "summary": "Six months after renegotiating the contract that once barred it from independently pursuing frontier AI, Microsoft has released three in-house models that directly challenge the partner it spent $13 billion cultivating. MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2 are now available in Microsoft Foundry, and they do not carry OpenAI\u2019s name anywhere on the label. The models are [&hellip;] This story continues at The Next Web",
+      "published": "2026-04-03T19:06:13+00:00",
+      "score": 41.0,
+      "headline": "MICROSOFT BREAKS FREE: Launches AI Models to Challenge OpenAI"
+    },
+    {
       "id": "35ba2cb02f874859",
       "title": "Chatbots are now prescribing psychiatric drugs",
       "url": "https://www.theverge.com/ai-artificial-intelligence/906525/ai-chatbot-prescribe-refill-psychiatric-drugs",
@@ -517,6 +577,16 @@
       "published": "2026-04-03T09:51:27+00:00",
       "score": 41.0,
       "headline": null
+    },
+    {
+      "id": "8fe5919e760a2510",
+      "title": "Altman on shutting down Sora: 'I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.'",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1sb4jfd/altman_on_shutting_down_sora_i_did_not_expect_3/",
+      "source": "Reddit r/OpenAI",
+      "summary": "https://youtu.be/mJSnn0GZmls \u2018We have a few times in our history realized something really important is working, or about to work so well, that we have to stop a bunch of other projects. In fact, this was the original thing that happened with GPT3. We had a whole portfolio of bets at the time. A lot of them were working well. We shut down many projects that were working well, like robotics which we mentioned, so that we could concentrate our compute, our researchers, our effort into this thing that we said &quot;okay there's a very important thing happening.&quot; I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.' He goes on to imply there may be a possible future relationship with Disney, then finishes up with: 'we need to concentrate our compute and our product capacity into these next generation of automated researchers and companies.'",
+      "published": "2026-04-03T05:13:22+00:00",
+      "score": 41.0,
+      "headline": "ALTMAN: 'Something Very Big About to Happen' With Next Gen Models"
     },
     {
       "id": "38a6a1ad098faa7b",
@@ -819,6 +889,16 @@
       "headline": "AI SOLVES Conway's Decades-Old Math Problem"
     },
     {
+      "id": "aaff5f136b88f285",
+      "title": "AI Singer Now Occupies Eleven Spots on iTunes Singles Chart",
+      "url": "https://www.showbiz411.com/2026/04/05/itunes-takeover-by-fake-ai-singer-eddie-dalton-now-occupies-eleven-spots-on-chart-despite-not-being-human-or-real-exclusive",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.showbiz411.com/2026/04/05/itunes-takeover-by-fake-ai-singer-eddie-dalton-now-occupies-eleven-spots-on-chart-despite-not-being-human-or-real-exclusive Comments URL: https://news.ycombinator.com/item?id=47662596 Points: 20 # Comments: 15",
+      "published": "2026-04-06T15:57:07+00:00",
+      "score": 39.0,
+      "headline": "AI SINGER TAKES ELEVEN SPOTS on iTunes Chart"
+    },
+    {
       "id": "48bb22b4fcc71643",
       "title": "HunyuanOCR 1B: Finally a viable OCR solution for potato PCs? Impressive OCR performance on older hardware",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sdrawo/hunyuanocr_1b_finally_a_viable_ocr_solution_for/",
@@ -977,47 +1057,7 @@
       "published": "2026-04-03T20:22:18+00:00",
       "score": 39.0,
       "headline": "Anthropic Launches Political PAC for Midterms"
-    },
-    {
-      "id": "d144e96dbd801366",
-      "title": "Banks working on the SpaceX IPO reportedly have to subscribe to Grok",
-      "url": "https://www.engadget.com/ai/banks-working-on-the-spacex-ipo-reportedly-have-to-subscribe-to-grok-200213071.html?src=rss",
-      "source": "Engadget",
-      "summary": "Cutthroat capitalism sure does bring out the best in humanity. Take, for example, Elon Musk. He reportedly set a condition for banks, law firms, auditors and advisors who want to work on the SpaceX IPO. They're required to subscribe to the bastion of nonconsensual deepfakes and occasional Hitler praise known as Grok.Surely the best and brightest banks our nation has to offer would refuse such a pay-to-play demand, right? Well, no. The New York Times reports that some of them have agreed to spend tens of millions of dollars on Grok. Those financial institutions are said to already be integrating the chatbot into their IT systems.The Times' sources say this wasn't a no-strings request. Rather, Musk insisted they subscribe to Grok as part of the privilege of working on SpaceX's IPO. He also reportedly asked the banks to advertise on X, but was less firm about that. See? He's a flexible, easy-going guy at heart.Five banks are expected to work on the IPO: Bank of America, Citigroup, Goldman",
-      "published": "2026-04-03T20:02:13+00:00",
-      "score": 39.0,
-      "headline": "SPACEX IPO BANKS MUST SUBSCRIBE TO GROK"
-    },
-    {
-      "id": "7c89b759972edd52",
-      "title": "Study: LLMs Able to De-Anonymize User Accounts on Reddit, Hacker News & Other \"Pseudonymous\" Platforms; Report Co-Author Expands, Advises",
-      "url": "https://www.reddit.com/r/artificial/comments/1sbndrb/study_llms_able_to_deanonymize_user_accounts_on/",
-      "source": "Reddit r/artificial",
-      "summary": "Advice from the study's co-author: &quot;Be aware that it\u2019s not any single post that identifies you, but the combination of small details across many posts. And consider never posting anything you truly don\u2019t want shared with the world.\u201d &#32; submitted by &#32; /u/slhamlet [link] &#32; [comments]",
-      "published": "2026-04-03T19:33:06+00:00",
-      "score": 39.0,
-      "headline": "STUDY: LLMs CAN DE-ANONYMIZE REDDIT USERS... Privacy Nightmare"
-    },
-    {
-      "id": "ff849a057b3ffed3",
-      "title": "Take-Two laid off the head its AI division and an undisclosed number of staff",
-      "url": "https://www.engadget.com/gaming/take-two-laid-off-the-head-its-ai-division-and-an-undisclosed-number-of-staff-182824338.html?src=rss",
-      "source": "Engadget",
-      "summary": "Take-Two, the owner of Grand Theft Auto developer Rockstar Games, has seemingly laid off the head of its AI division, Luke Dicken, and several staff members working under him. \"\u200b\u200bIt\u2019s truly disappointing that I have to share with you that my time with T2 \u2014 and that of my team \u2014 has come to an end,\" Dicken shared in a LinkedIn post spotted by Game Developer.&nbsp;When asked to confirm the layoffs in its AI division, Take-Two declined to comment.Dicken writes that his team was \"developing cutting edge technology to support game development\" and his post specifically notes that he's trying to find roles for staff with experience in things like \"procedural content for games\" and \"machine learning.\" It's unclear how many people other than Dicken have been impacted by these layoffs, but the timing does seem a bit unusual for Take-Two.Like some other large game publishers, Take-Two has \"actively embraced\" generative AI tools to \"drive efficiencies\" and \"reduce costs.\" Take-Two CEO Strauss Zel",
-      "published": "2026-04-03T18:28:24+00:00",
-      "score": 39.0,
-      "headline": "TAKE-TWO AXES AI DIVISION HEAD... GAMING INDUSTRY SHAKEUP"
-    },
-    {
-      "id": "2c963672da766b99",
-      "title": "One US pilot rescued, another missing after Iran says it downed fighter jet",
-      "url": "https://www.scmp.com/news/us/article/3349006/one-us-pilot-rescued-another-missing-after-iran-says-it-downed-fighter-jet?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "One crew member from a US fighter jet shot down over Iran has been rescued by US forces, multiple news outlets reported on Friday, citing two US officials, while a second crew member remains missing. Iran on Friday claimed to have shot down an American fighter jet, releasing photos of apparent wreckage of an F-15E, while the United States reportedly launched a search-and-rescue operation for the crew. Earlier, Iranian state media released photos and videos purported to be the debris of the...",
-      "published": "2026-04-03T17:47:43+00:00",
-      "score": 39.0,
-      "headline": null
     }
   ],
-  "generated_at": "2026-04-06T15:43:33.074739"
+  "generated_at": "2026-04-06T16:41:46.613886"
 }
