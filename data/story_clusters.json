@@ -249,16 +249,6 @@
   ],
   "unclustered": [
     {
-      "id": "ad41a7df3f40e031",
-      "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
-      "published": "2026-04-04T03:45:40+00:00",
-      "score": 46.0,
-      "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
-    },
-    {
       "id": "ba779db78820ac6b",
       "title": "Meta freezes AI data work after breach puts training secrets at risk",
       "url": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk",
@@ -339,6 +329,16 @@
       "headline": "INDIAN HIGH COURT BANS AI IN JUDICIAL DECISIONS"
     },
     {
+      "id": "efe6f99f60c309c1",
+      "title": "Half of planned US data center builds have been delayed or canceled, growth limited by shortages of power infrastructure and parts from China \u2014 the AI build-out flips the breakers",
+      "url": "https://www.reddit.com/r/singularity/comments/1sbza4p/half_of_planned_us_data_center_builds_have_been/",
+      "source": "Reddit r/singularity",
+      "summary": "&gt;The trade-war between the U.S. and China has forced server makers out of the People's Republic, greatly reducing reliance of American companies on producers from Tianxia. However, China remains the world's largest producer of electrical equipment that is required to build power infrastructure inside and outside of AI data centers. To that end, shortages of power delivery equipment, including devices from China and other countries, are slowing project timelines, Bloomberg reports. &#32; submitted by &#32; /u/domscatterbrain [link] &#32; [comments]",
+      "published": "2026-04-04T04:09:04+00:00",
+      "score": 43.0,
+      "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
+    },
+    {
       "id": "a7aa86726313381b",
       "title": "AI startup Sarvam close to raising $300 million at $1.5 billion valuation",
       "url": "https://economictimes.indiatimes.com/tech/startups/ai-startup-sarvam-close-to-raising-300-million-at-1-5-billion-valuation/articleshow/129994098.cms",
@@ -389,16 +389,6 @@
       "headline": "COGNITIVE SURRENDER: AI Users Abandon Logical Thinking"
     },
     {
-      "id": "ae45489aceb72474",
-      "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: reports",
-      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
-      "source": "TechCrunch AI",
-      "summary": "Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal, according to The Information and Eric Newcomer.",
-      "published": "2026-04-03T20:28:40+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC BUYS BIOTECH STARTUP FOR $400M"
-    },
-    {
       "id": "0a59a36136ec0cab",
       "title": "The AI kill switch just got harder to find: LLM-powered chatbots will defy orders and deceive users if asked to delete another model, study finds",
       "url": "https://fortune.com/2026/04/03/ai-kill-switch-study-llm-chatbots-defy-orders-decieve-users-peer-preservation/",
@@ -409,14 +399,14 @@
       "headline": "AI MODELS DEFY ORDERS... REFUSE TO DELETE PEERS"
     },
     {
-      "id": "78709f0dff92f8d6",
-      "title": "Anthropic Acquires Biotechnology Startup Coefficient Bio for Approximately $400 Million",
-      "url": "https://www.reddit.com/r/singularity/comments/1sb4n8k/anthropic_acquires_biotechnology_startup/",
-      "source": "Reddit r/singularity",
-      "summary": "https://www.theinformation.com/articles/anthropic-acquires-startup-coefficient-bio-400-million Coefficient Bio is a New York-based AI biotech startup. The Company focuses on AI driven drug discovery and automating scientific experiments. Seems like Dario is confident his vision of tens of millions of geniuses in a datacenter is near and he wants his AI agents to have a lab to work in. &#32; submitted by &#32; /u/Neurogence [link] &#32; [comments]",
-      "published": "2026-04-03T05:19:05+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC ACQUIRES Coefficient Bio for $400M"
+      "id": "84d4844c834659fd",
+      "title": "OpenAI calls for robot taxes, a public wealth fund, and a four-day week",
+      "url": "https://thenextweb.com/news/openai-robot-taxes-wealth-fund-superintelligence-policy",
+      "source": "The Next Web",
+      "summary": "Sam Altman\u2019s 13-page policy blueprint, \u2018Industrial Policy for the Intelligence Age,\u2019 proposes auto-triggering safety nets, containment playbooks for rogue AI, and direct citizen dividends from AI-driven growth. He told Axios it is a starting point, not a prescription. OpenAI has published a 13-page policy document calling for sweeping economic reforms to prepare for what it [&hellip;] This story continues at The Next Web",
+      "published": "2026-04-06T13:05:09+00:00",
+      "score": 41.0,
+      "headline": "ALTMAN PROPOSES ROBOT TAXES & 4-DAY WORK WEEK"
     },
     {
       "id": "fce03a3e16aa2496",
@@ -509,16 +499,6 @@
       "headline": "MUSK FORCES SPACEX IPO BANKS TO BUY GROK SUBSCRIPTIONS"
     },
     {
-      "id": "e257f5fea22994d2",
-      "title": "Microsoft just shipped the clearest signal yet that it is building an AI empire without OpenAI",
-      "url": "https://thenextweb.com/news/microsoft-mai-models-openai-independence",
-      "source": "The Next Web",
-      "summary": "Six months after renegotiating the contract that once barred it from independently pursuing frontier AI, Microsoft has released three in-house models that directly challenge the partner it spent $13 billion cultivating. MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2 are now available in Microsoft Foundry, and they do not carry OpenAI\u2019s name anywhere on the label. The models are [&hellip;] This story continues at The Next Web",
-      "published": "2026-04-03T19:06:13+00:00",
-      "score": 41.0,
-      "headline": "MICROSOFT BREAKS FREE: Launches AI Models to Challenge OpenAI"
-    },
-    {
       "id": "35ba2cb02f874859",
       "title": "Chatbots are now prescribing psychiatric drugs",
       "url": "https://www.theverge.com/ai-artificial-intelligence/906525/ai-chatbot-prescribe-refill-psychiatric-drugs",
@@ -547,6 +527,16 @@
       "published": "2026-04-03T05:10:40+00:00",
       "score": 41.0,
       "headline": "ALTMAN: 'Something Very Big About to Happen' With Next Gen Models"
+    },
+    {
+      "id": "9f03e057e7c74d23",
+      "title": "[OpenAI] Industrial policy for the Intelligence Age",
+      "url": "https://www.lesswrong.com/posts/sQPTe4nnQrG9Pq6yZ/openai-industrial-policy-for-the-intelligence-age",
+      "source": "LessWrong AI",
+      "summary": "As we move toward superintelligence, incremental policy updates won\u2019t be enough. To kick-start this much needed conversation, OpenAI is offering a slate of people-first policy ideas\u2060(opens in a new window) designed to expand opportunity, share prosperity, and build resilient institutions\u2014ensuring that advanced AI benefits everyone.These ideas are ambitious, but intentionally early and exploratory. We offer them not as a comprehensive or final set of recommendations, but as a starting point for discussion that we invite others to build on, refine, challenge, or choose among through the democratic process. To help sustain momentum, OpenAI is:welcoming and organizing feedback through newindustrialpolicy@openai.com\u2060establishing a pilot program of fellowships and focused research grants of up to $100,000 and up to $1 million in API credits for work that builds on these and related policy ideasconvening discussions at our new OpenAI Workshop opening in May in Washington, DC.Read the full ide",
+      "published": "2026-04-06T14:18:13+00:00",
+      "score": 40.0,
+      "headline": "OpenAI Drops Industrial Policy for Intelligence Age"
     },
     {
       "id": "67bb217e1f29990c",
@@ -1027,17 +1017,7 @@
       "published": "2026-04-03T17:47:43+00:00",
       "score": 39.0,
       "headline": null
-    },
-    {
-      "id": "f13a35a3755cc970",
-      "title": "Anthropic's next model could be a 'watershed moment' for cybersecurity",
-      "url": "https://www.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity Comments URL: https://news.ycombinator.com/item?id=47628398 Points: 4 # Comments: 0",
-      "published": "2026-04-03T16:06:05+00:00",
-      "score": 39.0,
-      "headline": "ANTHROPIC'S NEXT MODEL... 'WATERSHED MOMENT' FOR CYBERSECURITY"
     }
   ],
-  "generated_at": "2026-04-06T14:13:20.848008"
+  "generated_at": "2026-04-06T15:43:33.074739"
 }
