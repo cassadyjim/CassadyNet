@@ -1,16 +1,16 @@
 {
   "polls": [
     {
-      "topic": "China AI Regulations & Competition",
-      "description": "China is implementing new AI regulations while Chinese companies challenge Western AI dominance with competitive models and strategic moves.",
-      "question": "Are China's AI advances a threat or healthy competition?",
-      "button_a": "Threat",
-      "button_b": "Competition",
-      "poll_id": "china-ai-regulations-competition-20260405",
-      "analysis_url": "/analysis/analysis-china-ai-regulations-competition-20260405.html",
+      "topic": "US-China Tech War",
+      "description": "Escalating technology restrictions and competition between US and China affecting AI chips, exports, and strategic capabilities.",
+      "question": "Are US tech restrictions on China strengthening or weakening America's position?",
+      "button_a": "Strengthening",
+      "button_b": "Weakening",
+      "poll_id": "us-china-tech-war-20260406",
+      "analysis_url": "/analysis/analysis-us-china-tech-war-20260406.html",
       "analysis_type": "poll",
-      "created_at": "2026-04-05T01:59:40.628716",
-      "last_seen": "2026-04-05T23:29:16.093141",
+      "created_at": "2026-04-06T02:01:33.452075",
+      "last_seen": "2026-04-06T02:01:48.645812",
       "cluster_stories": [
         {
           "id": "d1fdf7aa83597eed",
@@ -23,16 +23,6 @@
           "headline": "CHINA REGULATES DIGITAL HUMANS... BANS CHILD AI SERVICES"
         },
         {
-          "id": "ad41a7df3f40e031",
-          "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
-          "published": "2026-04-04T03:45:40+00:00",
-          "score": 46.0,
-          "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
-        },
-        {
           "id": "24a988996d0d7fdb",
           "title": "Chinese Robot Pioneer UBTech Offers $18 Million for AI Scientist",
           "url": "https://www.bloomberg.com/news/articles/2026-04-03/chinese-robot-pioneer-ubtech-offers-18-million-for-ai-scientist",
@@ -43,16 +33,6 @@
           "headline": "CHINESE ROBOT MAKER OFFERS $18M FOR AI SCIENTIST"
         },
         {
-          "id": "1f41e003e00ef714",
-          "title": "OpenClaw Unlocks China\u2019s AI Token Export Business",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-04-02/openclaw-is-helping-chinese-ai-firms-find-users-overseas",
-          "source": "Bloomberg Technology",
-          "summary": "Affordable Chinese AI services are surging in global usage because of OpenClaw",
-          "published": "2026-04-02T11:02:01+00:00",
-          "score": 46.0,
-          "headline": "OPENCLAW UNLOCKS CHINA'S AI TOKEN EXPORT BOOM"
-        },
-        {
           "id": "7e901636a9a30aa1",
           "title": "Chinese AI Startup Is Mapping Every US Military Asset in Middle East in Realtime",
           "url": "https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/",
@@ -61,26 +41,6 @@
           "published": "2026-04-04T16:20:04+00:00",
           "score": 45.0,
           "headline": "CHINESE AI STARTUP MAPS US MILITARY ASSETS... REALTIME TRACKING"
-        },
-        {
-          "id": "b3a0fe48ae8d68cb",
-          "title": "Tencent is building an enterprise empire on top of an Austrian developer\u2019s open-source lobster",
-          "url": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
-          "source": "The Next Web",
-          "summary": "Tencent Holdings has launched ClawPro, an enterprise AI agent management platform built on OpenClaw, the open-source framework that has become the fastest-growing project in GitHub\u2019s history and the unlikely centrepiece of a national technology craze in China. The tool, released in public beta by Tencent\u2019s cloud division on Thursday, allows businesses to deploy OpenClaw-based AI [&hellip;] This story continues at The Next Web",
-          "published": "2026-04-03T14:25:13+00:00",
-          "score": 45.0,
-          "headline": "TENCENT BUILDS AI EMPIRE ON AUSTRIAN DEV'S OPEN-SOURCE 'LOBSTER'"
-        },
-        {
-          "id": "1b5097bb740f6819",
-          "title": "Qwen3.6-Plus",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sa7sfw/qwen36plus/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "Blog post: https://qwen.ai/blog?id=qwen3.6 From Chujie Zheng on \ud835\udd4f: https://x.com/ChujieZheng/status/2039560126047359394 &#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]",
-          "published": "2026-04-02T04:41:38+00:00",
-          "score": 45.0,
-          "headline": "ALIBABA DROPS QWEN3.6-PLUS... Major AI Model Release"
         },
         {
           "id": "efe6f99f60c309c1",
@@ -101,16 +61,6 @@
           "published": "2026-04-03T12:13:37+00:00",
           "score": 43.0,
           "headline": "US TARGETS CHINESE CHIPS: New Export Restrictions on ASML"
-        },
-        {
-          "id": "3109ec754889a5a5",
-          "title": "Singapore charges one more individual with AI chip fraud",
-          "url": "https://economictimes.indiatimes.com/tech/technology/singapore-charges-one-more-individual-with-ai-chip-fraud/articleshow/129968425.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Jenny Lim was charged with conspiring with Alan Wei Zhaolun and Aaron Woon Guo Jie in 2024 \u200cto commit \u2060fraud \u2060by misleading Dell that Aperia International would be the end-user of the servers bought \u200bfrom Dell, police said in the charge sheets.",
-          "published": "2026-04-02T05:45:56+00:00",
-          "score": 43.0,
-          "headline": "SINGAPORE CHARGES THIRD PERSON IN AI CHIP FRAUD SCANDAL"
         },
         {
           "id": "44a373859734d072",
@@ -143,6 +93,16 @@
           "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
         },
         {
+          "id": "83055a3bd6f32424",
+          "title": "Anyone else find it weird how all Chinese Labs started delaying OS model releases at the same time?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sd22qy/anyone_else_find_it_weird_how_all_chinese_labs/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Minimax-m2.7, GLM-5.1/5-turbo/5v-turbo, Qwen3.6, Mimo-v2-pro all of them are now not open sourcing their latest models and they are all making the same promises that they are improving the models and will release them soon... It's fine, but this pattern that all of them decided the same thing at the same time and are making the exact same promises is very weird. It's almost like they all came together and decided to do this together. This does not feel organic... I can't help but feel something is off... could it be that they are slowly trying to transition into keeping their future models closed? It's 2-3 weeks or a month now but with the next model it's gonna be 3 then 6 months and then nothing. &#32; submitted by &#32; /u/True_Requirement_891 [link] &#32; [comments]",
+          "published": "2026-04-05T12:13:55+00:00",
+          "score": 41.0,
+          "headline": "CHINA AI LABS SIMULTANEOUSLY HALT OPEN SOURCE RELEASES"
+        },
+        {
           "id": "1666a16c4c386811",
           "title": "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs",
           "url": "https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html",
@@ -151,9 +111,19 @@
           "published": "2026-04-03T13:49:06+00:00",
           "score": 41.0,
           "headline": "CHINESE CHIP FIRMS HIT RECORD REVENUE... US SANCTIONS BACKFIRE"
+        },
+        {
+          "id": "f04fa9d87e2fc47b",
+          "title": "Trump administration proposes expanding Chinese tech gear crackdown",
+          "url": "https://economictimes.indiatimes.com/tech/technology/trump-administration-proposes-expanding-chinese-tech-gear-crackdown/articleshow/130043666.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The FCC had in 2021 added telecommunications and video surveillance equipment made by Huawei, ZTE, Hytera, Hikvision and Dahua to its so-called \"Covered List\" of \u200ccompanies posing \u2060U.S. national \u2060security risks.",
+          "published": "2026-04-05T17:19:35+00:00",
+          "score": 40.0,
+          "headline": "TRUMP EXPANDS CHINESE TECH CRACKDOWN... Huawei, ZTE Face New Bans"
         }
       ],
-      "current_topic_name": "China AI Regulations & Competition"
+      "current_topic_name": "US-China Tech War"
     },
     {
       "topic": "OpenAI Corporate Upheaval",
@@ -162,10 +132,10 @@
       "button_a": "Strategy",
       "button_b": "Distraction",
       "poll_id": "openai-corporate-upheaval-20260405",
-      "analysis_url": "/analysis/analysis-openai-corporate-upheaval-20260405.html",
+      "analysis_url": "/analysis/analysis-openai-leadership-crisis-20260406.html",
       "analysis_type": "poll",
       "created_at": "2026-04-05T01:59:54.619130",
-      "last_seen": "2026-04-05T23:29:16.977258",
+      "last_seen": "2026-04-06T02:01:50.461274",
       "cluster_stories": [
         {
           "id": "30bf5af83cfe586e",
@@ -188,48 +158,58 @@
           "headline": "OPENAI EXECUTIVE SHAKEUP... COO Out, AGI CEO on Medical Leave"
         },
         {
-          "id": "979de288db032d83",
-          "title": "OpenAI Buys Tech Talk Show TBPN in Rare Move Into Media Business",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-02/openai-buys-tech-talk-show-tbpn-in-rare-move-into-media-business",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI has acquired the online technology talk show TBPN, an unusual purchase for the artificial intelligence model developer aimed at driving the conversation around AI.",
-          "published": "2026-04-02T18:22:35+00:00",
-          "score": 43.0,
-          "headline": "OPENAI BUYS TECH TALK SHOW... Rare Media Move"
-        },
-        {
-          "id": "3ad57c4040d1f64d",
-          "title": "OpenAI just bought TBPN",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/906022/openai-buys-tbpn",
-          "source": "The Verge AI",
-          "summary": "OpenAI has reportedly purchased TBPN, the viral online talk show that often interviews AI executives and other tech leaders. This story is breaking. Please check back for updates. Read the full story at The Verge.",
-          "published": "2026-04-02T17:40:07+00:00",
-          "score": 43.0,
-          "headline": "OPENAI BUYS TBPN TALK SHOW... MEDIA TAKEOVER BEGINS"
-        },
-        {
-          "id": "26a54ec58f999d06",
-          "title": "OpenAI Acquires TBPN",
-          "url": "https://openai.com/index/openai-acquires-tbpn/",
+          "id": "d9f080b6f0aab8ca",
+          "title": "Iran threatens 'complete and utter annihilation' of OpenAI's $30B Stargate",
+          "url": "https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center",
           "source": "Hacker News",
-          "summary": "Article URL: https://openai.com/index/openai-acquires-tbpn/ Comments URL: https://news.ycombinator.com/item?id=47617376 Points: 6 # Comments: 1",
-          "published": "2026-04-02T17:26:49+00:00",
-          "score": 43.0,
-          "headline": "OPENAI OFFICIALLY ACQUIRES TBPN MEDIA COMPANY"
+          "summary": "Article URL: https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center Comments URL: https://news.ycombinator.com/item?id=47654757 Points: 30 # Comments: 7",
+          "published": "2026-04-05T22:54:29+00:00",
+          "score": 42.0,
+          "headline": "IRAN THREATENS TO DESTROY OpenAI's $30B Stargate Center"
         },
         {
-          "id": "f31c7b131a3936bf",
-          "title": "OpenAI acquires popular tech talk show for \u2018low hundreds of millions\u2019",
-          "url": "https://www.ft.com/content/4fe4972a-3d24-45be-b9fa-a429c432b08e",
-          "source": "Financial Times Tech",
-          "summary": "ChatGPT-maker moves into broadcasting with deal for TBPN after it had pledged to abandon \u2018side-quests\u2019",
-          "published": "2026-04-02T19:33:31+00:00",
-          "score": 42.0,
-          "headline": "OPENAI BUYS TECH TALK SHOW FOR HUNDREDS OF MILLIONS"
+          "id": "70884e4b53d1f57c",
+          "title": "Iran Threatens to Bomb 1GW Stargate AI Datacenter in Abu Dhabi",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms",
+          "source": "Hacker News",
+          "summary": "Article URL: https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms Comments URL: https://news.ycombinator.com/item?id=47637343 Points: 1 # Comments: 0",
+          "published": "2026-04-04T09:14:55+00:00",
+          "score": 41.0,
+          "headline": "IRAN THREATENS TO BOMB 1GW STARGATE AI DATACENTER"
+        },
+        {
+          "id": "8fe5919e760a2510",
+          "title": "Altman on shutting down Sora: 'I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.'",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1sb4jfd/altman_on_shutting_down_sora_i_did_not_expect_3/",
+          "source": "Reddit r/OpenAI",
+          "summary": "https://youtu.be/mJSnn0GZmls \u2018We have a few times in our history realized something really important is working, or about to work so well, that we have to stop a bunch of other projects. In fact, this was the original thing that happened with GPT3. We had a whole portfolio of bets at the time. A lot of them were working well. We shut down many projects that were working well, like robotics which we mentioned, so that we could concentrate our compute, our researchers, our effort into this thing that we said &quot;okay there's a very important thing happening.&quot; I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.' He goes on to imply there may be a possible future relationship with Disney, then finishes up with: 'we need to concentrate our compute and our product capacity into these next generation of automated researchers and companies.'",
+          "published": "2026-04-03T05:13:22+00:00",
+          "score": 41.0,
+          "headline": "ALTMAN: 'Something Very Big About to Happen' With Next Gen Models"
+        },
+        {
+          "id": "38a6a1ad098faa7b",
+          "title": "Altman on shutting down Sora: 'I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.'",
+          "url": "https://www.reddit.com/r/singularity/comments/1sb4hnn/altman_on_shutting_down_sora_i_did_not_expect_3/",
+          "source": "Reddit r/singularity",
+          "summary": "https://youtu.be/mJSnn0GZmls \u2018We have a few times in our history realized something really important is working, or about to work so well, that we have to stop a bunch of other projects. In fact, this was the original thing that happened with GPT3. We had a whole portfolio of bets at the time. A lot of them were working well. We shut down many projects that were working well, like robotics which we mentioned, so that we could concentrate our compute, our researchers, our effort into this thing that we said &quot;okay there's a very important thing happening.&quot; I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.' He goes on to imply there may be a possible future relationship with Disney, then finishes up with: 'we need to concentrate our compute and our product capacity into these next generation of automated researchers and companies.'",
+          "published": "2026-04-03T05:10:40+00:00",
+          "score": 41.0,
+          "headline": "ALTMAN: 'Something Very Big About to Happen' With Next Gen Models"
+        },
+        {
+          "id": "6437d273de9d894b",
+          "title": "OpenAI Cap Table leak reveals Microsoft's 18x return",
+          "url": "https://www.forbes.com/sites/josipamajic/2026/04/02/openai-cap-table-leak-reveals-microsofts-18x-return-softbanks-50b-gain-and-a-ceo-who-owns-nothing/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.forbes.com/sites/josipamajic/2026/04/02/openai-cap-table-leak-reveals-microsofts-18x-return-softbanks-50b-gain-and-a-ceo-who-owns-nothing/ Comments URL: https://news.ycombinator.com/item?id=47634240 Points: 18 # Comments: 0",
+          "published": "2026-04-04T00:34:49+00:00",
+          "score": 40.0,
+          "headline": "OPENAI CAP TABLE LEAKED... MICROSOFT'S 18X RETURN"
         }
       ],
-      "current_topic_name": "OpenAI Corporate Upheaval"
+      "current_topic_name": "OpenAI Leadership Crisis"
     }
   ],
-  "last_updated": "2026-04-05T23:29:16.977273"
+  "last_updated": "2026-04-06T02:01:51.111422"
 }
