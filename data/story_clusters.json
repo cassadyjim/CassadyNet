@@ -249,6 +249,16 @@
   ],
   "unclustered": [
     {
+      "id": "ad41a7df3f40e031",
+      "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
+      "published": "2026-04-04T03:45:40+00:00",
+      "score": 46.0,
+      "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
+    },
+    {
       "id": "ba779db78820ac6b",
       "title": "Meta freezes AI data work after breach puts training secrets at risk",
       "url": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk",
@@ -267,6 +277,16 @@
       "published": "2026-04-03T02:20:47+00:00",
       "score": 45.0,
       "headline": "MICROSOFT DROPS $10B ON JAPAN AI... Massive Asia Push"
+    },
+    {
+      "id": "e8ac44b92e70dcdd",
+      "title": "Spain\u2019s Xoople raises $130 million Series B to map the Earth for AI",
+      "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
+      "source": "TechCrunch AI",
+      "summary": "The company is also announcing a deal with L3Harris to build the sensors for Xoople's spacecraft.",
+      "published": "2026-04-06T13:00:00+00:00",
+      "score": 44.0,
+      "headline": "Spain's Xoople Raises $130M Series B to Map Earth for AI"
     },
     {
       "id": "43c01096f6e98f95",
@@ -317,16 +337,6 @@
       "published": "2026-04-04T15:15:57+00:00",
       "score": 43.0,
       "headline": "INDIAN HIGH COURT BANS AI IN JUDICIAL DECISIONS"
-    },
-    {
-      "id": "efe6f99f60c309c1",
-      "title": "Half of planned US data center builds have been delayed or canceled, growth limited by shortages of power infrastructure and parts from China \u2014 the AI build-out flips the breakers",
-      "url": "https://www.reddit.com/r/singularity/comments/1sbza4p/half_of_planned_us_data_center_builds_have_been/",
-      "source": "Reddit r/singularity",
-      "summary": "&gt;The trade-war between the U.S. and China has forced server makers out of the People's Republic, greatly reducing reliance of American companies on producers from Tianxia. However, China remains the world's largest producer of electrical equipment that is required to build power infrastructure inside and outside of AI data centers. To that end, shortages of power delivery equipment, including devices from China and other countries, are slowing project timelines, Bloomberg reports. &#32; submitted by &#32; /u/domscatterbrain [link] &#32; [comments]",
-      "published": "2026-04-04T04:09:04+00:00",
-      "score": 43.0,
-      "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
     },
     {
       "id": "a7aa86726313381b",
@@ -417,16 +427,6 @@
       "published": "2026-04-06T04:00:00+00:00",
       "score": 41.0,
       "headline": "KIMI K2.5 Safety Evaluation Reveals Major Gaps"
-    },
-    {
-      "id": "9bfcbc53e03be416",
-      "title": "Machine Translation in the Wild: User Reaction to Xiaohongshu's Built-In Translation Feature",
-      "url": "https://arxiv.org/abs/2603.15922",
-      "source": "arXiv cs.CL",
-      "summary": "arXiv:2603.15922v2 Announce Type: replace-cross Abstract: This paper examines user reactions to the launch of the machine translation (MT) feature on Xiaohongshu, a Chinese social media and e-commerce platform, in January 2025. Drawing on a dataset of 6,723 comments collected from 11 official posts promoting the translation function, this paper combines sentiment analysis with thematic analysis to investigate how users perceived and experimented with the function. Results show that reactions were generally positive, although concerns regarding functionality, accessibility, and translation accuracy were also expressed. In addition, users actively tested the function with inputs that are atypical for everyday online communication, including stand-alone words and phrases, abbreviations, internet slang, and symbolic or encoded forms. Successful decoding of these texts elicited positive responses, while testing of more conventional language remained fairly limited. This could lead to uncrit",
-      "published": "2026-04-06T04:00:00+00:00",
-      "score": 41.0,
-      "headline": "Chinese Social Media Users React to Built-In AI Translation"
     },
     {
       "id": "0d8e2caf23fed40e",
@@ -539,6 +539,16 @@
       "headline": null
     },
     {
+      "id": "38a6a1ad098faa7b",
+      "title": "Altman on shutting down Sora: 'I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.'",
+      "url": "https://www.reddit.com/r/singularity/comments/1sb4hnn/altman_on_shutting_down_sora_i_did_not_expect_3/",
+      "source": "Reddit r/singularity",
+      "summary": "https://youtu.be/mJSnn0GZmls \u2018We have a few times in our history realized something really important is working, or about to work so well, that we have to stop a bunch of other projects. In fact, this was the original thing that happened with GPT3. We had a whole portfolio of bets at the time. A lot of them were working well. We shut down many projects that were working well, like robotics which we mentioned, so that we could concentrate our compute, our researchers, our effort into this thing that we said &quot;okay there's a very important thing happening.&quot; I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.' He goes on to imply there may be a possible future relationship with Disney, then finishes up with: 'we need to concentrate our compute and our product capacity into these next generation of automated researchers and companies.'",
+      "published": "2026-04-03T05:10:40+00:00",
+      "score": 41.0,
+      "headline": "ALTMAN: 'Something Very Big About to Happen' With Next Gen Models"
+    },
+    {
       "id": "67bb217e1f29990c",
       "title": "Iran war: South Korea aims to bypass Hormuz, send ships to Saudi port for oil",
       "url": "https://www.scmp.com/news/asia/east-asia/article/3349167/iran-war-south-korea-aims-bypass-hormuz-send-ships-saudi-port-oil?utm_source=rss_feed",
@@ -547,6 +557,16 @@
       "published": "2026-04-06T10:01:03+00:00",
       "score": 40.0,
       "headline": null
+    },
+    {
+      "id": "09f37c7da09c484a",
+      "title": "OpenAI Advocates Electric Grid, Safety Net Spending for New AI Era",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-advocates-electric-grid-safety-net-spending-for-new-ai-era",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI has released a set of policy recommendations meant to help navigate an era of artificial intelligence-fueled upheaval &mdash; including suggesting the creation of a public wealth fund, fast-response social safety net programs and speedier electrical grid development.",
+      "published": "2026-04-06T09:30:00+00:00",
+      "score": 40.0,
+      "headline": "OPENAI PUSHES WEALTH FUND: Grid Spending for AI Era"
     },
     {
       "id": "0f34326ea7465fd5",
@@ -1017,47 +1037,7 @@
       "published": "2026-04-03T16:06:05+00:00",
       "score": 39.0,
       "headline": "ANTHROPIC'S NEXT MODEL... 'WATERSHED MOMENT' FOR CYBERSECURITY"
-    },
-    {
-      "id": "187fda65fd8b3a4f",
-      "title": "The AI that learned when to fire itself",
-      "url": "https://zenodo.org/records/19401816",
-      "source": "Hacker News",
-      "summary": "Article URL: https://zenodo.org/records/19401816 Comments URL: https://news.ycombinator.com/item?id=47626186 Points: 1 # Comments: 2",
-      "published": "2026-04-03T13:01:20+00:00",
-      "score": 39.0,
-      "headline": "AI LEARNS TO FIRE ITSELF... Self-Terminating Algorithm Breakthrough"
-    },
-    {
-      "id": "9b531894e64c8172",
-      "title": "Penemue raises \u20ac1.7M to scale AI hate speech detection",
-      "url": "https://thenextweb.com/news/penemue-1-7m-ai-hate-speech-digital-violence",
-      "source": "The Next Web",
-      "summary": "The German startup detects online hate, digital violence, and disinformation across 89 languages in real time, and works with public prosecutors and police alongside commercial clients. Investors were not disclosed. Penemue, the Freiburg-based TrustTech startup developing AI to detect and counter online hate speech, digital violence, and disinformation, has raised more than \u20ac1.7 million in [&hellip;] This story continues at The Next Web",
-      "published": "2026-04-03T11:39:09+00:00",
-      "score": 39.0,
-      "headline": "German Startup Raises \u20ac1.7M for AI Hate Speech Detection"
-    },
-    {
-      "id": "0db48cc9d9699cd7",
-      "title": "Europe's AI sovereignty just became a security emergency",
-      "url": "https://www.euractiv.com/opinion/europes-ai-sovereignty-just-became-a-security-emergency/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.euractiv.com/opinion/europes-ai-sovereignty-just-became-a-security-emergency/ Comments URL: https://news.ycombinator.com/item?id=47625126 Points: 2 # Comments: 0",
-      "published": "2026-04-03T10:42:50+00:00",
-      "score": 39.0,
-      "headline": "EUROPE'S AI SOVEREIGNTY Now 'Security Emergency'"
-    },
-    {
-      "id": "ca0b956eb1ae7a8b",
-      "title": "Google CEO Sundar Pichai says we\u2019re just a decade away from a new normal of extraterrestrial data centers",
-      "url": "https://fortune.com/article/what-is-google-ceo-sundar-pichai-timeline-ai-data-centers-in-space/",
-      "source": "Fortune Tech",
-      "summary": "Google in November announced Project Suncatcher, with plans to launch prototype satellites to test AI hardware in 2027.",
-      "published": "2026-04-03T09:43:03+00:00",
-      "score": 39.0,
-      "headline": "GOOGLE CEO: Space Data Centers Coming Within Decade"
     }
   ],
-  "generated_at": "2026-04-06T13:01:04.147851"
+  "generated_at": "2026-04-06T14:13:20.848008"
 }
