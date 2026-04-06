@@ -10,7 +10,7 @@
       "analysis_url": "/analysis/analysis-us-china-tech-war-20260406.html",
       "analysis_type": "poll",
       "created_at": "2026-04-06T02:01:33.452075",
-      "last_seen": "2026-04-06T02:01:48.645812",
+      "last_seen": "2026-04-06T04:52:27.922437",
       "cluster_stories": [
         {
           "id": "d1fdf7aa83597eed",
@@ -132,10 +132,10 @@
       "button_a": "Strategy",
       "button_b": "Distraction",
       "poll_id": "openai-corporate-upheaval-20260405",
-      "analysis_url": "/analysis/analysis-openai-leadership-crisis-20260406.html",
+      "analysis_url": "/analysis/analysis-ai-company-upheaval-20260406.html",
       "analysis_type": "poll",
       "created_at": "2026-04-05T01:59:54.619130",
-      "last_seen": "2026-04-06T02:01:50.461274",
+      "last_seen": "2026-04-06T04:52:28.676031",
       "cluster_stories": [
         {
           "id": "30bf5af83cfe586e",
@@ -148,6 +148,16 @@
           "headline": "OPENAI EXECUTIVE EXODUS... COO Out, Two Execs Take Medical Leave"
         },
         {
+          "id": "ba779db78820ac6b",
+          "title": "Meta freezes AI data work after breach puts training secrets at risk",
+          "url": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk",
+          "source": "The Next Web",
+          "summary": "In short: Meta has suspended its collaboration with Mercor, a $10 billion AI data startup, after a supply chain attack exposed what may be the AI industry\u2019s most closely guarded secrets: not just personal data, but the training methodologies that power the world\u2019s leading large language models. The breach, carried out via a poisoned version of [&hellip;] This story continues at The Next Web",
+          "published": "2026-04-04T18:31:09+00:00",
+          "score": 45.0,
+          "headline": "META FREEZES AI DATA... MERCOR BREACH EXPOSES TRAINING SECRETS"
+        },
+        {
           "id": "98ac6c426c8f0f67",
           "title": "OpenAI COO Shifts Out of Role, AGI CEO Taking Medical Leave",
           "url": "https://www.reddit.com/r/OpenAI/comments/1sbn02u/openai_coo_shifts_out_of_role_agi_ceo_taking/",
@@ -158,58 +168,78 @@
           "headline": "OPENAI EXECUTIVE SHAKEUP... COO Out, AGI CEO on Medical Leave"
         },
         {
-          "id": "d9f080b6f0aab8ca",
-          "title": "Iran threatens 'complete and utter annihilation' of OpenAI's $30B Stargate",
-          "url": "https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center Comments URL: https://news.ycombinator.com/item?id=47654757 Points: 30 # Comments: 7",
-          "published": "2026-04-05T22:54:29+00:00",
+          "id": "f7d8a544af1792b4",
+          "title": "Anthropic cuts Claude subscribers off from OpenClaw in cost crackdown",
+          "url": "https://thenextweb.com/news/anthropic-openclaw-claude-subscription-ban-cost",
+          "source": "The Next Web",
+          "summary": "In short: Anthropic has blocked Claude Pro and Max subscribers from using their flat-rate plans with third-party AI agent frameworks, starting with OpenClaw. The move, which took effect on 4 April 2026, shifts the cost of running autonomous agents onto users through a pay-as-you-go billing tier. The creator of OpenClaw, who joined OpenAI in February, called [&hellip;] This story continues at The Next Web",
+          "published": "2026-04-04T18:53:55+00:00",
           "score": 42.0,
-          "headline": "IRAN THREATENS TO DESTROY OpenAI's $30B Stargate Center"
+          "headline": "ANTHROPIC BLOCKS CLAUDE FROM OPENCLAW... COST CRACKDOWN"
         },
         {
-          "id": "70884e4b53d1f57c",
-          "title": "Iran Threatens to Bomb 1GW Stargate AI Datacenter in Abu Dhabi",
-          "url": "https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms",
-          "source": "Hacker News",
-          "summary": "Article URL: https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms Comments URL: https://news.ycombinator.com/item?id=47637343 Points: 1 # Comments: 0",
-          "published": "2026-04-04T09:14:55+00:00",
-          "score": 41.0,
-          "headline": "IRAN THREATENS TO BOMB 1GW STARGATE AI DATACENTER"
+          "id": "d1f4684302aead33",
+          "title": "Meta Pauses Work With Mercor After Data Breach Puts AI Industry Secrets at Risk",
+          "url": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/",
+          "source": "Wired",
+          "summary": "Major AI labs are investigating a security incident that impacted Mercor, a leading data vendor. The incident could have exposed key data about how they train AI models.",
+          "published": "2026-04-03T21:28:14+00:00",
+          "score": 42.0,
+          "headline": "META PAUSES WORK After Data Breach Exposes AI Secrets"
         },
         {
-          "id": "8fe5919e760a2510",
-          "title": "Altman on shutting down Sora: 'I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.'",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1sb4jfd/altman_on_shutting_down_sora_i_did_not_expect_3/",
-          "source": "Reddit r/OpenAI",
-          "summary": "https://youtu.be/mJSnn0GZmls \u2018We have a few times in our history realized something really important is working, or about to work so well, that we have to stop a bunch of other projects. In fact, this was the original thing that happened with GPT3. We had a whole portfolio of bets at the time. A lot of them were working well. We shut down many projects that were working well, like robotics which we mentioned, so that we could concentrate our compute, our researchers, our effort into this thing that we said &quot;okay there's a very important thing happening.&quot; I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.' He goes on to imply there may be a possible future relationship with Disney, then finishes up with: 'we need to concentrate our compute and our product capacity into these next generation of automated researchers and companies.'",
-          "published": "2026-04-03T05:13:22+00:00",
-          "score": 41.0,
-          "headline": "ALTMAN: 'Something Very Big About to Happen' With Next Gen Models"
+          "id": "ae45489aceb72474",
+          "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: reports",
+          "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+          "source": "TechCrunch AI",
+          "summary": "Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal, according to The Information and Eric Newcomer.",
+          "published": "2026-04-03T20:28:40+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC BUYS BIOTECH STARTUP FOR $400M"
         },
         {
-          "id": "38a6a1ad098faa7b",
-          "title": "Altman on shutting down Sora: 'I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.'",
-          "url": "https://www.reddit.com/r/singularity/comments/1sb4hnn/altman_on_shutting_down_sora_i_did_not_expect_3/",
+          "id": "78709f0dff92f8d6",
+          "title": "Anthropic Acquires Biotechnology Startup Coefficient Bio for Approximately $400 Million",
+          "url": "https://www.reddit.com/r/singularity/comments/1sb4n8k/anthropic_acquires_biotechnology_startup/",
           "source": "Reddit r/singularity",
-          "summary": "https://youtu.be/mJSnn0GZmls \u2018We have a few times in our history realized something really important is working, or about to work so well, that we have to stop a bunch of other projects. In fact, this was the original thing that happened with GPT3. We had a whole portfolio of bets at the time. A lot of them were working well. We shut down many projects that were working well, like robotics which we mentioned, so that we could concentrate our compute, our researchers, our effort into this thing that we said &quot;okay there's a very important thing happening.&quot; I did not expect 3 or 6 months ago to be at this point we're at now; where something very big and important is about to happen again with this next generation of models and the agents they can power.' He goes on to imply there may be a possible future relationship with Disney, then finishes up with: 'we need to concentrate our compute and our product capacity into these next generation of automated researchers and companies.'",
-          "published": "2026-04-03T05:10:40+00:00",
-          "score": 41.0,
-          "headline": "ALTMAN: 'Something Very Big About to Happen' With Next Gen Models"
+          "summary": "https://www.theinformation.com/articles/anthropic-acquires-startup-coefficient-bio-400-million Coefficient Bio is a New York-based AI biotech startup. The Company focuses on AI driven drug discovery and automating scientific experiments. Seems like Dario is confident his vision of tens of millions of geniuses in a datacenter is near and he wants his AI agents to have a lab to work in. &#32; submitted by &#32; /u/Neurogence [link] &#32; [comments]",
+          "published": "2026-04-03T05:19:05+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC ACQUIRES Coefficient Bio for $400M"
         },
         {
-          "id": "6437d273de9d894b",
-          "title": "OpenAI Cap Table leak reveals Microsoft's 18x return",
-          "url": "https://www.forbes.com/sites/josipamajic/2026/04/02/openai-cap-table-leak-reveals-microsofts-18x-return-softbanks-50b-gain-and-a-ceo-who-owns-nothing/",
+          "id": "e257f5fea22994d2",
+          "title": "Microsoft just shipped the clearest signal yet that it is building an AI empire without OpenAI",
+          "url": "https://thenextweb.com/news/microsoft-mai-models-openai-independence",
+          "source": "The Next Web",
+          "summary": "Six months after renegotiating the contract that once barred it from independently pursuing frontier AI, Microsoft has released three in-house models that directly challenge the partner it spent $13 billion cultivating. MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2 are now available in Microsoft Foundry, and they do not carry OpenAI\u2019s name anywhere on the label. The models are [&hellip;] This story continues at The Next Web",
+          "published": "2026-04-03T19:06:13+00:00",
+          "score": 41.0,
+          "headline": "MICROSOFT BREAKS FREE: Launches AI Models to Challenge OpenAI"
+        },
+        {
+          "id": "f450189f797ec18e",
+          "title": "An Inside Look at OpenAI and Anthropic's Finances Ahead of Their IPOs",
+          "url": "https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9",
           "source": "Hacker News",
-          "summary": "Article URL: https://www.forbes.com/sites/josipamajic/2026/04/02/openai-cap-table-leak-reveals-microsofts-18x-return-softbanks-50b-gain-and-a-ceo-who-owns-nothing/ Comments URL: https://news.ycombinator.com/item?id=47634240 Points: 18 # Comments: 0",
-          "published": "2026-04-04T00:34:49+00:00",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9 Comments URL: https://news.ycombinator.com/item?id=47657041 Points: 2 # Comments: 0",
+          "published": "2026-04-06T04:34:20+00:00",
           "score": 40.0,
-          "headline": "OPENAI CAP TABLE LEAKED... MICROSOFT'S 18X RETURN"
+          "headline": "OPENAI & ANTHROPIC IPO FINANCES REVEALED"
+        },
+        {
+          "id": "b75151e0bf269c0d",
+          "title": "Anthropic sure has a mess on its hands thanks to that Claude Code source leak",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/06/anthropic_code_leak_kettle_podcast/",
+          "source": "The Register AI/ML",
+          "summary": "Pay no attention to that code behind the curtain, says Anthropic as it scrambles to defend its IPO Kettle When it comes to circling up for this week's Kettle, what is there to discuss but Anthropic's accidental release of Claude Code's source code?\u2026",
+          "published": "2026-04-06T00:02:52+00:00",
+          "score": 40.0,
+          "headline": "ANTHROPIC SCRAMBLES AFTER CLAUDE SOURCE CODE LEAK THREATENS IPO"
         }
       ],
-      "current_topic_name": "OpenAI Leadership Crisis"
+      "current_topic_name": "AI Company Upheaval"
     }
   ],
-  "last_updated": "2026-04-06T02:01:51.111422"
+  "last_updated": "2026-04-06T04:52:28.676045"
 }
