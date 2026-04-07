@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "US-China Tech War",
+      "description": "Escalating technology restrictions and competition between US and China affecting AI chips, exports, and strategic capabilities.",
+      "question": "Are US tech restrictions on China strengthening or weakening America's position?",
+      "button_a": "Strengthening",
+      "button_b": "Weakening",
+      "poll_id": "us-china-tech-war-20260406",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-us-china-tech-war-20260406.html",
+      "started_at": "2026-04-06T02:01:33.452075",
+      "archived_at": "2026-04-07T04:34:36.061630",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Corporate Upheaval",
       "description": "OpenAI faces major executive departures and makes strategic acquisitions as the company navigates leadership transitions.",
       "question": "Is OpenAI's media acquisition a smart strategy or dangerous distraction?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-business-funding-20260221.html",
       "started_at": "2026-02-21T00:01:49.482398",
       "archived_at": "2026-02-22T10:20:21.219104",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Investment Mega Rounds",
-      "description": "Major funding rounds and investments are reshaping the AI landscape with record-breaking valuations and billion-dollar commitments.",
-      "question": "",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-openai-business-funding-20260221.html",
-      "started_at": "2026-02-18T23:01:44.127773",
-      "archived_at": "2026-02-21T13:10:03.803455",
       "reason": "topic_replaced"
     }
   ]
