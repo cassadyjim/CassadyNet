@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "China AI Regulation & Competition",
+      "description": "China is simultaneously regulating AI while Chinese companies compete aggressively in the global AI market.",
+      "question": "Should China's AI dominance be seen as healthy competition or strategic threat?",
+      "button_a": "Competition",
+      "button_b": "Threat",
+      "poll_id": "china-ai-regulation-competition-20260406",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-competition-regulation-20260407.html",
+      "started_at": "2026-04-06T10:08:28.624372",
+      "archived_at": "2026-04-07T15:06:11.592340",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "US-China Tech War",
       "description": "Escalating technology restrictions and competition between US and China affecting AI chips, exports, and strategic capabilities.",
       "question": "Are US tech restrictions on China strengthening or weakening America's position?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-school-shooter-controversy-20260225.html",
       "started_at": "2026-02-22T10:20:16.032089",
       "archived_at": "2026-02-25T01:35:44.537793",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI Business & Funding",
-      "description": "OpenAI is raising record-breaking funding rounds while expanding globally and facing scrutiny over safety protocols.",
-      "question": "Should OpenAI have alerted police about the shooter earlier?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-business-funding-20260221",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-openai-business-funding-20260221.html",
-      "started_at": "2026-02-21T00:01:49.482398",
-      "archived_at": "2026-02-22T10:20:21.219104",
       "reason": "topic_replaced"
     }
   ]
