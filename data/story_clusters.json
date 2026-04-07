@@ -259,16 +259,6 @@
       "headline": "ANTHROPIC HITS $30B RUN RATE... 233% Growth"
     },
     {
-      "id": "ad41a7df3f40e031",
-      "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
-      "published": "2026-04-04T03:45:40+00:00",
-      "score": 46.0,
-      "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
-    },
-    {
       "id": "e327bf539138e361",
       "title": "Chinese humanoid robot maker UBTech is offering $18M to hire a chief AI scientist",
       "url": "https://thenextweb.com/news/ubtech-18m-chief-scientist-humanoid-robot-salary",
@@ -379,16 +369,6 @@
       "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
     },
     {
-      "id": "0f6c2f7e06686b25",
-      "title": "China fell for a lobster: What an AI assistant tells us about Beijing's ambition",
-      "url": "https://www.bbc.com/news/articles/cy41n17e23go",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.bbc.com/news/articles/cy41n17e23go Comments URL: https://news.ycombinator.com/item?id=47657652 Points: 12 # Comments: 0",
-      "published": "2026-04-06T06:37:13+00:00",
-      "score": 42.0,
-      "headline": "CHINA'S AI ASSISTANT FALLS FOR LOBSTER TRICK - BBC Investigation"
-    },
-    {
       "id": "15d5442c5dcc9a65",
       "title": "AI dolls offer companionship to the elderly",
       "url": "https://www.ft.com/content/88911383-2a17-42e1-aef4-36daac1bd9dd",
@@ -409,24 +389,14 @@
       "headline": "ANTHROPIC BLOCKS CLAUDE FROM OPENCLAW... COST CRACKDOWN"
     },
     {
-      "id": "e69ffcd7c16d091b",
-      "title": "China moves to regulate digital humans , issues draft rules",
-      "url": "https://www.reddit.com/r/singularity/comments/1sc3kz1/china_moves_to_regulate_digital_humans_issues/",
-      "source": "Reddit r/singularity",
-      "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
-      "published": "2026-04-04T08:12:25+00:00",
-      "score": 42.0,
-      "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
-    },
-    {
-      "id": "88eabd4be03bc99b",
-      "title": "China moves to regulate digital humans , issues draft rules",
-      "url": "https://www.reddit.com/r/artificial/comments/1sc3hhu/china_moves_to_regulate_digital_humans_issues/",
-      "source": "Reddit r/artificial",
-      "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
-      "published": "2026-04-04T08:06:29+00:00",
-      "score": 42.0,
-      "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
+      "id": "86f2ff0d28804377",
+      "title": "Anthropic Accidentally Exposes Claude Code Source via npm Source Map File",
+      "url": "https://www.infoq.com/news/2026/04/claude-code-source-leak/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "Anthropic's Claude Code CLI had its full TypeScript source exposed after a source map file was accidentally included in version 2.1.88 of its npm package. The 512,000-line codebase was archived to GitHub within hours. Anthropic called it a packaging error caused by human error. The leak revealed unreleased features, internal model codenames, and multi-agent orchestration architecture. By Steef-Jan Wiggers",
+      "published": "2026-04-07T08:00:00+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC ACCIDENTALLY LEAKS CLAUDE'S FULL SOURCE CODE"
     },
     {
       "id": "f7cc08f3c9d00b03",
@@ -479,16 +449,6 @@
       "headline": "KIMI K2.5 Safety Evaluation Reveals Major Gaps"
     },
     {
-      "id": "9bfcbc53e03be416",
-      "title": "Machine Translation in the Wild: User Reaction to Xiaohongshu's Built-In Translation Feature",
-      "url": "https://arxiv.org/abs/2603.15922",
-      "source": "arXiv cs.CL",
-      "summary": "arXiv:2603.15922v2 Announce Type: replace-cross Abstract: This paper examines user reactions to the launch of the machine translation (MT) feature on Xiaohongshu, a Chinese social media and e-commerce platform, in January 2025. Drawing on a dataset of 6,723 comments collected from 11 official posts promoting the translation function, this paper combines sentiment analysis with thematic analysis to investigate how users perceived and experimented with the function. Results show that reactions were generally positive, although concerns regarding functionality, accessibility, and translation accuracy were also expressed. In addition, users actively tested the function with inputs that are atypical for everyday online communication, including stand-alone words and phrases, abbreviations, internet slang, and symbolic or encoded forms. Successful decoding of these texts elicited positive responses, while testing of more conventional language remained fairly limited. This could lead to uncrit",
-      "published": "2026-04-06T04:00:00+00:00",
-      "score": 41.0,
-      "headline": "Chinese Social Media Users React to Built-In AI Translation"
-    },
-    {
       "id": "0d8e2caf23fed40e",
       "title": "Gemma 4 just casually destroyed every model on our leaderboard except Opus 4.6 and GPT-5.2. 31B params, $0.20/run",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sdcotc/gemma_4_just_casually_destroyed_every_model_on/",
@@ -507,6 +467,16 @@
       "published": "2026-04-05T07:49:37+00:00",
       "score": 41.0,
       "headline": "Nvidia Partner Hon Hai Sales Surge 30% on AI Demand Despite Middle East War"
+    },
+    {
+      "id": "0d8fec66fd5d794d",
+      "title": "What is Project Maven? Pentagon\u2019s flagship AI program powering US strikes on Iran",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/what-is-project-maven-pentagons-flagship-ai-program-powering-us-strikes-on-iran/articleshow/130033752.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Project Maven, a Pentagon AI program, is now central to US strikes against Iran. This artificial intelligence system accelerates the process of identifying and striking targets. Initially a drone footage analysis tool, it has evolved into a battlefield management system. Companies like Palantir are now key contractors. The program's speed is reportedly enabling a high pace of strikes.",
+      "published": "2026-04-05T04:40:51+00:00",
+      "score": 41.0,
+      "headline": "PENTAGON AI PROJECT MAVEN Powers Iran Strikes"
     },
     {
       "id": "291a505aac06136d",
@@ -789,6 +759,16 @@
       "headline": "OPENAI CAP TABLE LEAKED... MICROSOFT'S 18X RETURN"
     },
     {
+      "id": "8d82c81bf25827c6",
+      "title": "China is winning one AI race, the US another \u2013 but either might pull ahead",
+      "url": "https://www.bbc.com/news/articles/c145enxln0go",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.bbc.com/news/articles/c145enxln0go Comments URL: https://news.ycombinator.com/item?id=47671628 Points: 4 # Comments: 0",
+      "published": "2026-04-07T07:00:22+00:00",
+      "score": 39.0,
+      "headline": "CHINA VS US... AI RACE HEATS UP AS BOTH COULD PULL AHEAD"
+    },
+    {
       "id": "f3ca814dbfed45eb",
       "title": "This new chip survives 1300\u00b0F (700\u00b0C) and could change AI forever",
       "url": "https://www.sciencedaily.com/releases/2026/04/260406192904.htm",
@@ -1047,27 +1027,7 @@
       "published": "2026-04-07T01:38:09+00:00",
       "score": 38.0,
       "headline": "OPENAI ACCUSES MUSK & META OF COORDINATED ATTACKS"
-    },
-    {
-      "id": "28988e84020b8ee4",
-      "title": "Anthropic have signed a deal for multiple gigawatts of next generation TPUs",
-      "url": "https://www.reddit.com/r/artificial/comments/1sedfh8/anthropic_have_signed_a_deal_for_multiple/",
-      "source": "Reddit r/artificial",
-      "summary": "https://www.anthropic.com/news/google-broadcom-partnership-compute &#32; submitted by &#32; /u/WhyLifeIs4 [link] &#32; [comments]",
-      "published": "2026-04-06T22:16:14+00:00",
-      "score": 38.0,
-      "headline": "ANTHROPIC INKS GIGAWATT TPU DEAL With Google-Broadcom"
-    },
-    {
-      "id": "8f517054021202b3",
-      "title": "Ronan Farrow\u2019s investigation into Sam Altman\u2014 alleges pattern of lying, billions from Gulf dictators, a cover-up investigation with no written report, and reveals Elon Musk has been running a full surveillance operation against him including hiring people to investigate his sex life at gay bars",
-      "url": "https://www.reddit.com/r/singularity/comments/1secq1h/ronan_farrows_investigation_into_sam_altman/",
-      "source": "Reddit r/singularity",
-      "summary": "&#32; submitted by &#32; /u/soldierofcinema [link] &#32; [comments]",
-      "published": "2026-04-06T21:48:24+00:00",
-      "score": 38.0,
-      "headline": "BOMBSHELL: Musk Surveillance Op Against Altman EXPOSED"
     }
   ],
-  "generated_at": "2026-04-07T06:19:44.134801"
+  "generated_at": "2026-04-07T08:12:05.222734"
 }
