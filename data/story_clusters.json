@@ -349,6 +349,26 @@
       "headline": "APPLE, GOOGLE, MICROSOFT JOIN ANTHROPIC... AI'S MANHATTAN PROJECT"
     },
     {
+      "id": "11b40ecb20558699",
+      "title": "From Twitter/X: DeepSeek is rolling out a limited V4 gray release.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sethlj/from_twitterx_deepseek_is_rolling_out_a_limited/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Source: https://x.com/i/status/2041458478569689589 &#32; submitted by &#32; /u/jmorant555 [link] &#32; [comments]",
+      "published": "2026-04-07T11:39:44+00:00",
+      "score": 43.0,
+      "headline": "DEEPSEEK V4 GRAY RELEASE... LIMITED ROLLOUT BEGINS"
+    },
+    {
+      "id": "438755f5de313a0f",
+      "title": "GLM-5.1 incoming \u2014 vLLM image already tagged",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1set0hw/glm51_incoming_vllm_image_already_tagged/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "https://preview.redd.it/hqk2wp1w4rtg1.png?width=1123&amp;format=png&amp;auto=webp&amp;s=bb21da2721c8f13b02a8b815870358a69154c19e GLM-5.1 incoming \u2014 vLLM image already tagged 20minutes ago &#32; submitted by &#32; /u/Acceptable-State-271 [link] &#32; [comments]",
+      "published": "2026-04-07T11:16:01+00:00",
+      "score": 43.0,
+      "headline": "GLM-5.1 Model Release INCOMING - vLLM Image Already Tagged"
+    },
+    {
       "id": "ac248289876285ca",
       "title": "Gemini is making it faster for distressed users to reach mental health resources",
       "url": "https://www.theverge.com/ai-artificial-intelligence/907842/google-gemini-mental-health-interface-update",
@@ -497,6 +517,26 @@
       "published": "2026-04-04T08:06:29+00:00",
       "score": 42.0,
       "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
+    },
+    {
+      "id": "332acd2e1309ada7",
+      "title": "Anthropic just announced their latest AI model Mythos under Project Glasswing that found zero-days in every major OS and browser",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfa8gc/anthropic_just_announced_their_latest_ai_model/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Project Glasswing is honestly one of the most alarming and exciting things at the same time. About a week ago, when Claude Code source code was leaked, we found out about a mysterious model called Mythos and now we have official details from Anthropic: - it's too capable at finding and exploiting software vulnerabilities (found 27-year-old vulnerability in OpenBSD that let an attacker remotely crash any machine just by connecting to it, 16-year-old bug in FFmpeg hiding in a line of code that automated tools had hit 5 million times without catching it) - it autonomously chained Linux kernel vulnerabilities together to escalate from regular user access to full machine control - on SWE-bench Verified (agentic coding), it hit 93.9% vs 80.8% for Opus 4.6 - an elite coalition they pulled is damn massive: AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Microsoft, NVIDIA, Palo Alto Networks, and the Linux Foundation all have access to it, before attackers do. - they're basical",
+      "published": "2026-04-07T22:03:56+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC MYTHOS AI FINDS ZERO-DAYS IN ALL MAJOR OS"
+    },
+    {
+      "id": "06cc0e49252cbb95",
+      "title": "Anthropic launches Project Glasswing, an effort to prevent AI cyberattacks with AI",
+      "url": "https://www.engadget.com/ai/anthropic-launches-project-glasswing-an-effort-to-prevent-ai-cyberattacks-with-ai-214939773.html?src=rss",
+      "source": "Engadget",
+      "summary": "We see a lot of doom and gloom about the potential negative impacts of artificial intelligence, particularly centered on how it could create new problems in cybersecurity. Anthropic has announced a new initiative called Project Glasswing to help address those concerns by working &quot;to secure the world\u2019s most critical software&quot; against AI-powered attacks. The endeavor includes Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA and Palo Alto Networks as partners.&nbsp;Participants will use Claude Mythos Preview, an unreleased, general-purpose model from Anthropic, to enhance their own security projects. Anthropic claims that this model has found thousands of exploitable vulnerabilities, &quot;including some in every major operating system and web browser.&quot; The company said it wants to begin using its tools defensively to prevent malicious use of AI that could cause severe consequences for economies and sec",
+      "published": "2026-04-07T21:49:39+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC LAUNCHES PROJECT GLASSWING - AI vs Cyberattacks"
     },
     {
       "id": "e22e20230d3fd39e",
@@ -849,6 +889,16 @@
       "headline": "Icertis Co-Founder Launches New AI Startup in India"
     },
     {
+      "id": "fa9bcd53f9321b2a",
+      "title": "This OpenClaw paper shows why agent safety is an execution problem, not just a model problem",
+      "url": "https://www.reddit.com/r/artificial/comments/1sfawu7/this_openclaw_paper_shows_why_agent_safety_is_an/",
+      "source": "Reddit r/artificial",
+      "summary": "Paper: https://arxiv.org/abs/2604.04759 This OpenClaw paper is one of the clearest signals so far that agent risk is architectural, not just model quality. A few results stood out: - poisoning Capability / Identity / Knowledge pushes attack success from ~24.6% to ~64\u201374% - even the strongest model still jumps to more than 3x its baseline vulnerability - the strongest defense still leaves Capability-targeted attacks at ~63.8% - file protection blocks ~97% of attacks\u2026 but also blocks legitimate updates at almost the same rate The key point for me is not just that agents can be poisoned. It\u2019s that execution is still reachable after state is compromised. That\u2019s where current defenses feel incomplete: - prompts shape behavior - monitoring tells you what happened - file protection freezes the system But none of these define a hard boundary for whether an action can execute. This paper basically shows: if compromised state can still reach execution, attacks remain viable. Feels like the missi",
+      "published": "2026-04-07T22:31:12+00:00",
+      "score": 40.0,
+      "headline": "NEW STUDY: AI Agent Safety Is Architecture Problem, Not Model Quality"
+    },
+    {
       "id": "d99426ecb65eb0fd",
       "title": "VC Eclipse has a new $1.3B to back \u2014 and build \u2014 \u2018physical AI\u2019 startups",
       "url": "https://techcrunch.com/2026/04/07/vc-eclipse-has-a-new-1-3b-to-back-and-build-physical-ai-startups/",
@@ -957,37 +1007,7 @@
       "published": "2026-04-07T08:14:14+00:00",
       "score": 40.0,
       "headline": "KARPATHY DROPS LLM-WIKI... DYNAMIC KNOWLEDGE BASE"
-    },
-    {
-      "id": "1868c131c2029332",
-      "title": "Anthropic found emergent emotional states in Claude. I'm seeing the same phenomenon in simple trading agents. Is emergence universal under optimization pressure?",
-      "url": "https://www.reddit.com/r/artificial/comments/1septn3/anthropic_found_emergent_emotional_states_in/",
-      "source": "Reddit r/artificial",
-      "summary": "Anthropic researchers recently found that Claude develops internal representations of emotional concepts that aren't decorative. They influence behavior in ways the builders didn't anticipate. Not &quot;feelings&quot; \u2014 but internal states that function like emotions: orienting responses, modifying tone, creating patterns that were never explicitly programmed. I've been running a small experiment that accidentally produces something similar. I built an autonomous trading system where agents are born with random parameters, trade real money, and die when they lose too much. No manual tuning. Pure evolutionary selection. After a few weeks, agents started developing what I can only call &quot;character.&quot; One agent became an aggressive volatility hunter. Not because I coded aggression \u2014 it emerged from the parameter set that survived. On Day 14 it captured more profit in 3 hours than the previous 13 days combined, riding a whale signal cluster. Then five consecutive losses triggered t",
-      "published": "2026-04-07T08:10:37+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC FINDS EMOTIONAL STATES IN CLAUDE... EMERGENCE EVERYWHERE?"
-    },
-    {
-      "id": "f4e72130c5e8fa4a",
-      "title": "China is winning one AI race, the US another - but either might pull ahead",
-      "url": "https://www.bbc.com/news/articles/c145enxln0go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "Both sides don't want to let their rival dominate. And the competition may yet be transformed further.",
-      "published": "2026-04-07T05:13:12+00:00",
-      "score": 40.0,
-      "headline": "CHINA VS US: Two AI Races... Either Could Pull Ahead"
-    },
-    {
-      "id": "336be69ad03a6cf8",
-      "title": "Mistral Introduces \"Voxtral TTS\": An Open-Weight Text-to-Voice Model Capable Of Cloning Any Voice From 3 Seconds Of Audio, Runs In 9 Languages, & Beats Elevenlabs Flash V2.5 With A 68.4% Human Preference Win Rate.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1selwtz/mistral_introduces_voxtral_tts_an_openweight/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "ElevenLabs built a moat on proprietary weights and API lock-in. Mistral just put the weights on Hugging Face. The model captures not just the voice but the person. Accents, inflections, intonations, vocal fillers the &quot;ums&quot; and &quot;ahs&quot; that make a voice sound human instead of synthetic. From 3 seconds of reference audio. Zero fine-tuning. Zero shot. Key Highlights: \u2192 68.4% win rate against ElevenLabs Flash v2.5 in zero-shot multilingual voice cloning \u2192 Beats ElevenLabs Flash v2.5 on every one of the 9 supported languages \u2192 Matches ElevenLabs v3 on emotional expressiveness and quality \u2192 70ms model latency same time-to-first-audio as Flash v2.5 at higher quality \u2192 4B parameters. Runs on 3GB RAM. Smartphone. Laptop. Edge devices. \u2192 9 languages: English, French, German, Spanish, Dutch, Portuguese, Italian, Hindi, Arabic \u2192 Cross-lingual voice cloning French voice prompt generating English speech works out of the box Link to the Official Announcement: https://mistral.ai/news",
-      "published": "2026-04-07T04:27:45+00:00",
-      "score": 40.0,
-      "headline": "MISTRAL DROPS VOICE CLONING BOMB... BEATS ELEVENLABS"
     }
   ],
-  "generated_at": "2026-04-07T21:40:39.952388"
+  "generated_at": "2026-04-07T22:35:59.986805"
 }
