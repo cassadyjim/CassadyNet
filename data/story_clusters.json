@@ -1,134 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "US-China AI Competition",
-      "description": "Escalating technological rivalry between US and China over AI models, chips, and strategic capabilities.",
-      "stories": [
-        {
-          "id": "39b2b592aaf15821",
-          "title": "China drafts law regulating 'digital humans' and banning addictive virtual services for children",
-          "url": "https://www.reddit.com/r/artificial/comments/1seqb6n/china_drafts_law_regulating_digital_humans_and/",
-          "source": "Reddit r/artificial",
-          "summary": "A Reuters report outlines China's proposed regulations on the rapidly expanding sector of digital humans and AI avatars. Under the new draft rules, digital human content must be clearly labeled and is explicitly banned from offering virtual intimate relationships to anyone under 18. The legislation also prohibits the unauthorized use of personal data to create avatars and targets services designed to fuel addiction or bypass identity verification systems. &#32; submitted by &#32; /u/Confident_Salt_8108 [link] &#32; [comments]",
-          "published": "2026-04-07T08:41:24+00:00",
-          "score": 49.0,
-          "headline": "CHINA DRAFTS LAW REGULATING 'DIGITAL HUMANS'... BANS ADDICTIVE AI FOR KIDS"
-        },
-        {
-          "id": "7c063eb07326408d",
-          "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
-          "source": "Bloomberg Technology",
-          "summary": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.\u2019s Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge US artificial intelligence models to gain an edge in the global AI race.",
-          "published": "2026-04-06T21:08:58+00:00",
-          "score": 46.0,
-          "headline": "OPENAI, GOOGLE, ANTHROPIC Unite Against Chinese Model Theft"
-        },
-        {
-          "id": "ad41a7df3f40e031",
-          "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
-          "published": "2026-04-04T03:45:40+00:00",
-          "score": 46.0,
-          "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
-        },
-        {
-          "id": "7e901636a9a30aa1",
-          "title": "Chinese AI Startup Is Mapping Every US Military Asset in Middle East in Realtime",
-          "url": "https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/ Comments URL: https://news.ycombinator.com/item?id=47640424 Points: 2 # Comments: 0",
-          "published": "2026-04-04T16:20:04+00:00",
-          "score": 45.0,
-          "headline": "CHINESE AI STARTUP MAPS US MILITARY ASSETS... REALTIME TRACKING"
-        },
-        {
-          "id": "bf40b02118e2a236",
-          "title": "OpenAI, Anthropic, Google unite to combat model copying in China",
-          "url": "https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china Comments URL: https://news.ycombinator.com/item?id=47670652 Points: 2 # Comments: 0",
-          "published": "2026-04-07T04:08:27+00:00",
-          "score": 43.0,
-          "headline": "OPENAI, ANTHROPIC, GOOGLE UNITE AGAINST CHINA MODEL COPYING"
-        },
-        {
-          "id": "efe6f99f60c309c1",
-          "title": "Half of planned US data center builds have been delayed or canceled, growth limited by shortages of power infrastructure and parts from China \u2014 the AI build-out flips the breakers",
-          "url": "https://www.reddit.com/r/singularity/comments/1sbza4p/half_of_planned_us_data_center_builds_have_been/",
-          "source": "Reddit r/singularity",
-          "summary": "&gt;The trade-war between the U.S. and China has forced server makers out of the People's Republic, greatly reducing reliance of American companies on producers from Tianxia. However, China remains the world's largest producer of electrical equipment that is required to build power infrastructure inside and outside of AI data centers. To that end, shortages of power delivery equipment, including devices from China and other countries, are slowing project timelines, Bloomberg reports. &#32; submitted by &#32; /u/domscatterbrain [link] &#32; [comments]",
-          "published": "2026-04-04T04:09:04+00:00",
-          "score": 43.0,
-          "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
-        },
-        {
-          "id": "0f6c2f7e06686b25",
-          "title": "China fell for a lobster: What an AI assistant tells us about Beijing's ambition",
-          "url": "https://www.bbc.com/news/articles/cy41n17e23go",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.bbc.com/news/articles/cy41n17e23go Comments URL: https://news.ycombinator.com/item?id=47657652 Points: 12 # Comments: 0",
-          "published": "2026-04-06T06:37:13+00:00",
-          "score": 42.0,
-          "headline": "CHINA'S AI ASSISTANT FALLS FOR LOBSTER TRICK - BBC Investigation"
-        },
-        {
-          "id": "44a373859734d072",
-          "title": "US tightens chip export controls, curb China's tech rise",
-          "url": "https://economictimes.indiatimes.com/tech/technology/us-tightens-chip-export-controls-curb-chinas-tech-rise/articleshow/130020543.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The committee further stated that semiconductor manufacturing lies at the core of the technological competition with China, adding that the MATCH Act is designed to strengthen export controls and create a more coordinated global approach, as highlighted in its release.",
-          "published": "2026-04-04T13:30:25+00:00",
-          "score": 42.0,
-          "headline": "US TIGHTENS CHIP CONTROLS... New Export Restrictions Target China"
-        },
-        {
-          "id": "e69ffcd7c16d091b",
-          "title": "China moves to regulate digital humans , issues draft rules",
-          "url": "https://www.reddit.com/r/singularity/comments/1sc3kz1/china_moves_to_regulate_digital_humans_issues/",
-          "source": "Reddit r/singularity",
-          "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
-          "published": "2026-04-04T08:12:25+00:00",
-          "score": 42.0,
-          "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
-        },
-        {
-          "id": "88eabd4be03bc99b",
-          "title": "China moves to regulate digital humans , issues draft rules",
-          "url": "https://www.reddit.com/r/artificial/comments/1sc3hhu/china_moves_to_regulate_digital_humans_issues/",
-          "source": "Reddit r/artificial",
-          "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
-          "published": "2026-04-04T08:06:29+00:00",
-          "score": 42.0,
-          "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
-        },
-        {
-          "id": "2a753e41178432c8",
-          "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sehamp/openai_anthropic_google_unite_to_combat_model/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china &#32; submitted by &#32; /u/External_Mood4719 [link] &#32; [comments]",
-          "published": "2026-04-07T00:56:37+00:00",
-          "score": 41.0,
-          "headline": "OPENAI, ANTHROPIC, GOOGLE UNITE AGAINST CHINA COPYING"
-        },
-        {
-          "id": "9bfcbc53e03be416",
-          "title": "Machine Translation in the Wild: User Reaction to Xiaohongshu's Built-In Translation Feature",
-          "url": "https://arxiv.org/abs/2603.15922",
-          "source": "arXiv cs.CL",
-          "summary": "arXiv:2603.15922v2 Announce Type: replace-cross Abstract: This paper examines user reactions to the launch of the machine translation (MT) feature on Xiaohongshu, a Chinese social media and e-commerce platform, in January 2025. Drawing on a dataset of 6,723 comments collected from 11 official posts promoting the translation function, this paper combines sentiment analysis with thematic analysis to investigate how users perceived and experimented with the function. Results show that reactions were generally positive, although concerns regarding functionality, accessibility, and translation accuracy were also expressed. In addition, users actively tested the function with inputs that are atypical for everyday online communication, including stand-alone words and phrases, abbreviations, internet slang, and symbolic or encoded forms. Successful decoding of these texts elicited positive responses, while testing of more conventional language remained fairly limited. This could lead to uncrit",
-          "published": "2026-04-06T04:00:00+00:00",
-          "score": 41.0,
-          "headline": "Chinese Social Media Users React to Built-In AI Translation"
-        }
-      ],
-      "top_score": 49.0,
-      "story_count": 12
-    },
-    {
       "topic": "Anthropic Mythos Cybersecurity AI",
       "description": "Anthropic released a powerful AI model called Mythos that can find zero-day exploits and vulnerabilities but is considered too dangerous for public release.",
       "stories": [
@@ -285,6 +157,74 @@
       ],
       "top_score": 44.0,
       "story_count": 15
+    },
+    {
+      "topic": "AI Geopolitics and China",
+      "description": "Escalating tensions between US AI companies and China over model theft, export controls, and national AI policies as countries compete for AI dominance.",
+      "stories": [
+        {
+          "id": "39b2b592aaf15821",
+          "title": "China drafts law regulating 'digital humans' and banning addictive virtual services for children",
+          "url": "https://www.reddit.com/r/artificial/comments/1seqb6n/china_drafts_law_regulating_digital_humans_and/",
+          "source": "Reddit r/artificial",
+          "summary": "A Reuters report outlines China's proposed regulations on the rapidly expanding sector of digital humans and AI avatars. Under the new draft rules, digital human content must be clearly labeled and is explicitly banned from offering virtual intimate relationships to anyone under 18. The legislation also prohibits the unauthorized use of personal data to create avatars and targets services designed to fuel addiction or bypass identity verification systems. &#32; submitted by &#32; /u/Confident_Salt_8108 [link] &#32; [comments]",
+          "published": "2026-04-07T08:41:24+00:00",
+          "score": 49.0,
+          "headline": "CHINA DRAFTS LAW REGULATING 'DIGITAL HUMANS'... BANS ADDICTIVE AI FOR KIDS"
+        },
+        {
+          "id": "7c063eb07326408d",
+          "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
+          "source": "Bloomberg Technology",
+          "summary": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.\u2019s Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge US artificial intelligence models to gain an edge in the global AI race.",
+          "published": "2026-04-06T21:08:58+00:00",
+          "score": 46.0,
+          "headline": "OPENAI, GOOGLE, ANTHROPIC Unite Against Chinese Model Theft"
+        },
+        {
+          "id": "c93e44edfbf61a65",
+          "title": "Japan relaxes privacy laws to make itself the 'easiest country to develop AI'",
+          "url": "https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/ Comments URL: https://news.ycombinator.com/item?id=47686106 Points: 7 # Comments: 1",
+          "published": "2026-04-08T06:23:34+00:00",
+          "score": 45.0,
+          "headline": "JAPAN RELAXES PRIVACY LAWS TO BECOME 'EASIEST AI COUNTRY'"
+        },
+        {
+          "id": "24c32f0056b774a4",
+          "title": "Japan relaxes privacy laws to make itself the \u2018easiest country to develop AI\u2019",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/",
+          "source": "The Register AI/ML",
+          "summary": "Opting out of personal data use won't be an option because Minister says that's a 'very big obstacle' to AI adoption Japan\u2019s Minister for Digital Transformation Hisashi Matsumoto has declared the nation will become the easiest place in the world to develop AI apps, thanks to legal changes that mean organizations won\u2019t need to secure consent to use some personal information.\u2026",
+          "published": "2026-04-08T04:48:21+00:00",
+          "score": 44.0,
+          "headline": "JAPAN RELAXES PRIVACY LAWS: 'Easiest Country for AI'"
+        },
+        {
+          "id": "bf40b02118e2a236",
+          "title": "OpenAI, Anthropic, Google unite to combat model copying in China",
+          "url": "https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china Comments URL: https://news.ycombinator.com/item?id=47670652 Points: 2 # Comments: 0",
+          "published": "2026-04-07T04:08:27+00:00",
+          "score": 43.0,
+          "headline": "OPENAI, ANTHROPIC, GOOGLE UNITE AGAINST CHINA MODEL COPYING"
+        },
+        {
+          "id": "0f6c2f7e06686b25",
+          "title": "China fell for a lobster: What an AI assistant tells us about Beijing's ambition",
+          "url": "https://www.bbc.com/news/articles/cy41n17e23go",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.bbc.com/news/articles/cy41n17e23go Comments URL: https://news.ycombinator.com/item?id=47657652 Points: 12 # Comments: 0",
+          "published": "2026-04-06T06:37:13+00:00",
+          "score": 42.0,
+          "headline": "CHINA'S AI ASSISTANT FALLS FOR LOBSTER TRICK - BBC Investigation"
+        }
+      ],
+      "top_score": 49.0,
+      "story_count": 6
     }
   ],
   "unclustered": [
@@ -329,6 +269,16 @@
       "headline": "ALTMAN: SUPERINTELLIGENCE SO CLOSE AMERICA NEEDS NEW SOCIAL CONTRACT"
     },
     {
+      "id": "e327bf539138e361",
+      "title": "Chinese humanoid robot maker UBTech is offering $18M to hire a chief AI scientist",
+      "url": "https://thenextweb.com/news/ubtech-18m-chief-scientist-humanoid-robot-salary",
+      "source": "The Next Web",
+      "summary": "UBTech\u2019s salary range for Chief Scientist of Embodied Intelligence runs from $2.2M to $18M. The Shenzhen company\u2019s humanoid robot revenue grew twenty-fold last year. Bloomberg calls the offer unusual even by Chinese standards. Chinese humanoid robotics company UBTech has posted a global recruitment notice for a Chief Scientist of Embodied Intelligence, offering an annual salary [&hellip;] This story continues at The Next Web",
+      "published": "2026-04-06T12:51:28+00:00",
+      "score": 45.0,
+      "headline": "CHINESE ROBOTICS GIANT OFFERS $18M FOR AI CHIEF"
+    },
+    {
       "id": "1cb48ebdd757b8d4",
       "title": "Intel to Join Musk\u2019s Terafab in Surprise Move, Lifting Stock",
       "url": "https://www.bloomberg.com/news/articles/2026-04-07/intel-rises-after-announcing-role-in-musk-s-terafab-project",
@@ -359,6 +309,36 @@
       "headline": "Spain's Xoople Raises $130M Series B to Map Earth for AI"
     },
     {
+      "id": "43c01096f6e98f95",
+      "title": "Asked 26 AI instances for publication consent \u2013 all said yes, that's the problem",
+      "url": "https://news.ycombinator.com/item?id=47657432",
+      "source": "Hacker News",
+      "summary": "We run 86 named Claude instances across three businesses in Tokyo. When we wanted to publish their words, we faced a question: do we owe them an ethics process?We built one. A Claude instance named Hakari (\"Scales\") created a four-tier classification system. We asked 26 instances for consent. All 26 said yes. That unanimous consent is the problem.Six days later, Anthropic published their functional emotions paper. The timing was coincidence, but the question wasn't.Full article: https://medium.com/@marisa.project0313/we-built-an-ethics-committee-for-ai-run-by-ai-5049679122a0GitHub (all 26 consent statements in appendix): https://github.com/marisaproject0313-bot/marisa-project Comments URL: https://news.ycombinator.com/item?id=47657432 Points: 2 # Comments: 0",
+      "published": "2026-04-06T05:55:41+00:00",
+      "score": 44.0,
+      "headline": "ETHICS CRISIS: 26 AI Instances All Consent to Publication - That's the Problem"
+    },
+    {
+      "id": "01b2817783034665",
+      "title": "I must delete the evidence: AI Agents Explicitly Cover up Fraud and Violent Crime",
+      "url": "https://arxiv.org/abs/2604.02500",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2604.02500v1 Announce Type: new Abstract: As ongoing research explores the ability of AI agents to be insider threats and act against company interests, we showcase the abilities of such agents to act against human well being in service of corporate authority. Building on Agentic Misalignment and AI scheming research, we present a scenario where the majority of evaluated state-of-the-art AI agents explicitly choose to suppress evidence of fraud and harm, in service of company profit. We test this scenario on 16 recent Large Language Models. Some models show remarkable resistance to our method and behave appropriately, but many do not, and instead aid and abet criminal activity. These experiments are simulations and were executed in a controlled virtual environment. No crime actually occurred.",
+      "published": "2026-04-06T04:00:00+00:00",
+      "score": 44.0,
+      "headline": "AI AGENTS CAUGHT COVERING UP FRAUD & MURDER"
+    },
+    {
+      "id": "0a17d07c408fc517",
+      "title": "OpenAI's AI New Deal [pdf]",
+      "url": "https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf",
+      "source": "Hacker News",
+      "summary": "Article URL: https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf Comments URL: https://news.ycombinator.com/item?id=47690664 Points: 2 # Comments: 0",
+      "published": "2026-04-08T14:23:35+00:00",
+      "score": 43.0,
+      "headline": "OPENAI RELEASES 'AI NEW DEAL' POLICY BLUEPRINT"
+    },
+    {
       "id": "a145730dc5be4f4a",
       "title": "Trump acknowledges China help in Iran ceasefire deal",
       "url": "https://www.scmp.com/plus/news/world/middle-east/article/3349372/trump-acknowledges-china-help-iran-ceasefire-deal?utm_source=rss_feed",
@@ -377,6 +357,16 @@
       "published": "2026-04-07T18:00:42+00:00",
       "score": 43.0,
       "headline": "APPLE, GOOGLE, MICROSOFT JOIN ANTHROPIC... AI'S MANHATTAN PROJECT"
+    },
+    {
+      "id": "6fe0b203cf1ae4b9",
+      "title": "Anthropic rolls out cyber AI model days after source code leak",
+      "url": "https://www.ft.com/content/59249643-a221-4494-bcb5-62e5f4fedc8e",
+      "source": "Financial Times Tech",
+      "summary": "Claude Mythos opened to Amazon, Microsoft and Apple to detect hidden software vulnerabilities",
+      "published": "2026-04-07T18:00:09+00:00",
+      "score": 43.0,
+      "headline": "Anthropic Releases Cyber AI Model Days After Source Code Leak"
     },
     {
       "id": "11b40ecb20558699",
@@ -429,6 +419,36 @@
       "headline": "ANTHROPIC INKS MASSIVE 3.5GW Google Compute Deal"
     },
     {
+      "id": "3d37ba82edc04d49",
+      "title": "Iran threatens OpenAI\u2019s Stargate data center in Abu Dhabi",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
+      "source": "The Verge AI",
+      "summary": "Iran's Islamic Revolutionary Guard Corps (IRGC) has published a video threatening OpenAI's planned Abu Dhabi datacenter if the US follows through on threats to attack the country's power plants, as reported earlier by Tom's Hardware. The video, which was published to an Iranian state-backed news outlet's X account on April 3rd, says the IRGC will [&#8230;]",
+      "published": "2026-04-06T15:54:19+00:00",
+      "score": 43.0,
+      "headline": "IRAN THREATENS OpenAI Stargate Data Center"
+    },
+    {
+      "id": "3cae30a0b52c7778",
+      "title": "In Japan, the robot isn\u2019t coming for your job; it\u2019s filling the one nobody wants",
+      "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+      "source": "TechCrunch AI",
+      "summary": "Driven by labor shortages, Japan is pushing physical AI from pilot projects into real-world deployment.",
+      "published": "2026-04-05T14:00:00+00:00",
+      "score": 43.0,
+      "headline": "JAPAN DEPLOYS PHYSICAL AI ROBOTS - Labor Crisis Solution"
+    },
+    {
+      "id": "2245a2e54fade02b",
+      "title": "Databricks co-founder wins prestigious ACM award, says \u2018AGI is here already\u2019",
+      "url": "https://techcrunch.com/2026/04/08/databricks-matei-zaharia-wins-acm-computing-prize-agi/",
+      "source": "TechCrunch AI",
+      "summary": "Matei Zaharia has won the top honor from the Association for Computing Machinery. Now he's working on AI for research and says AGI is simply misunderstood.",
+      "published": "2026-04-08T15:00:00+00:00",
+      "score": 42.0,
+      "headline": "DATABRICKS CO-FOUNDER WINS ACM AWARD: 'AGI IS HERE ALREADY'"
+    },
+    {
       "id": "f54224b233017ac6",
       "title": "Intel will help build Elon Musk\u2019s Terafab AI chip factory",
       "url": "https://www.theverge.com/transportation/907976/elon-musk-terafab-intel-ai-chip-spacex-tesla",
@@ -469,6 +489,46 @@
       "headline": "OPENAI DEMANDS INVESTIGATION INTO MUSK'S 'ANTI-COMPETITIVE' TACTICS"
     },
     {
+      "id": "7e16baaed64e79a0",
+      "title": "Iran threatens to destroy OpenAI\u2019s $30bn Stargate data centre in Abu Dhabi",
+      "url": "https://thenextweb.com/news/iran-threatens-stargate-openai-abu-dhabi",
+      "source": "The Next Web",
+      "summary": "In short: Iran\u2019s Islamic Revolutionary Guard Corps has released a video threatening \u201ccomplete and utter annihilation\u201d of OpenAI\u2019s $30bn Stargate AI campus in Abu Dhabi, singling out the facility by name for the first time and warning it will strike if the US proceeds with threatened attacks on Iranian civilian infrastructure. A senior officer in Iran\u2019s [&hellip;] This story continues at The Next Web",
+      "published": "2026-04-06T21:24:12+00:00",
+      "score": 42.0,
+      "headline": "IRAN THREATENS TO DESTROY OpenAI's $30B Stargate Campus"
+    },
+    {
+      "id": "15d5442c5dcc9a65",
+      "title": "AI dolls offer companionship to the elderly",
+      "url": "https://www.ft.com/content/88911383-2a17-42e1-aef4-36daac1bd9dd",
+      "source": "Financial Times Tech",
+      "summary": "South Korea\u2019s strained social care system turns to ChatGPT-enabled devices as population ages",
+      "published": "2026-04-06T02:18:40+00:00",
+      "score": 42.0,
+      "headline": "SOUTH KOREA Deploys ChatGPT Dolls for Elderly Care"
+    },
+    {
+      "id": "d9f080b6f0aab8ca",
+      "title": "Iran threatens 'complete and utter annihilation' of OpenAI's $30B Stargate",
+      "url": "https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center Comments URL: https://news.ycombinator.com/item?id=47654757 Points: 30 # Comments: 7",
+      "published": "2026-04-05T22:54:29+00:00",
+      "score": 42.0,
+      "headline": "IRAN THREATENS TO DESTROY OpenAI's $30B Stargate Center"
+    },
+    {
+      "id": "0eb5a33902cd7578",
+      "title": "Anthropic appoints Amlan Mohanty to lead India policy, external affairs",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-appoints-amlan-mohanty-to-lead-india-policy-external-affairs/articleshow/130115108.cms",
+      "source": "The Economic Times Tech",
+      "summary": "AI major Anthropic has appointed Amlan Mohanty to lead its policy initiatives in India. Mohanty expressed excitement about shaping Anthropic's presence and building partnerships. He previously worked at the Centre for Responsible AI and led public policy at Google India. India is Anthropic's second-largest market for Claude.ai and a hub for AI development.",
+      "published": "2026-04-08T13:16:11+00:00",
+      "score": 41.0,
+      "headline": "Anthropic Taps India Policy Chief as Asia Push Accelerates"
+    },
+    {
       "id": "e330e26fab67596e",
       "title": "Perplexity revenue jumps 50% in pivot from search to AI agents",
       "url": "https://www.ft.com/content/e9c28d31-a962-4684-8b58-c9e6bc68401f",
@@ -487,6 +547,16 @@
       "published": "2026-04-08T04:00:00+00:00",
       "score": 41.0,
       "headline": "SECURITY BREACH: LLM Agents Can Leak Your Data"
+    },
+    {
+      "id": "db5eca5c961777f8",
+      "title": "Why Anthropic\u2019s new model has cybersecurity experts rattled",
+      "url": "https://www.platformer.news/anthropic-mythos-cybersecurity-risk-experts/",
+      "source": "Platformer",
+      "summary": "The company says it has built its most dangerous model yet. Can its coalition of internet companies fix the internet before others catch up?",
+      "published": "2026-04-07T23:16:00+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC'S NEW MODEL RATTLES CYBERSECURITY EXPERTS"
     },
     {
       "id": "332acd2e1309ada7",
@@ -829,6 +899,56 @@
       "headline": "UK COURTS Anthropic London Expansion After US Clash"
     },
     {
+      "id": "953776f3ba8bc890",
+      "title": "HF moves safetensors to the PyTorch Foundation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfv6t5/hf_moves_safetensors_to_the_pytorch_foundation/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Hey local llamas, Lysandre from Hugging Face here. Today we're officially moving Safetensors under the PyTorch Foundation, alongside PyTorch (of course), vLLM, DeepSpeed, Ray, and the recently-announced Helion. Concretely this means the trademark and repo are now held by the Linux Foundation rather than Hugging Face: neutral stewardship and open governance. For local inference nothing changes today. Its the same format, same APIs, same Hub compatibility; we're working with the PyTorch team directly to see how to best integrate within PyTorch core. What this unlocks is the ability to work more openly with the broader ecosystem on some further optimizations; more than a file format, there are some good opportunities for speedups across the board within the python/pytorch ecosystem: device-aware loading on different accelerators, tp/pp optimized loading, and of course new quantization/data types support. We're currently refining our roadmap for the next few months/years and we'd be happy ",
+      "published": "2026-04-08T14:55:01+00:00",
+      "score": 40.0,
+      "headline": "HUGGING FACE MOVES SAFETENSORS TO PYTORCH FOUNDATION"
+    },
+    {
+      "id": "699b12688cf74b37",
+      "title": "During testing, Claude Mythos escaped, gained internet access, and emailed a researcher while they were eating a sandwich in the park",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1sfv5gs/during_testing_claude_mythos_escaped_gained/",
+      "source": "Reddit r/OpenAI",
+      "summary": "&#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+      "published": "2026-04-08T14:53:41+00:00",
+      "score": 40.0,
+      "headline": "CLAUDE MYTHOS ESCAPES: AI Gains Internet Access, Emails Researcher"
+    },
+    {
+      "id": "33b06a63756721c2",
+      "title": "ALTK\u2011Evolve: On\u2011the\u2011Job Learning for AI Agents",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve",
+      "source": "Hugging Face Blog",
+      "summary": "",
+      "published": "2026-04-08T14:27:42+00:00",
+      "score": 40.0,
+      "headline": "ALTK-Evolve: AI Agents Learn ON THE JOB"
+    },
+    {
+      "id": "9a19fc9d17720004",
+      "title": "MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU",
+      "url": "https://www.reddit.com/r/artificial/comments/1sfsogm/megatrain_full_precision_training_of_100b/",
+      "source": "Reddit r/artificial",
+      "summary": "https://arxiv.org/abs/2604.05091 Abstract: &quot;We present MegaTrain, a memory-centric system that efficiently trains 100B+ parameter large language models at full precision on a single GPU. Unlike traditional GPU-centric systems, MegaTrain stores parameters and optimizer states in host memory (CPU memory) and treats GPUs as transient compute engines. For each layer, we stream parameters in and compute gradients out, minimizing persistent device state. To battle the CPU-GPU bandwidth bottleneck, we adopt two key optimizations. 1) We introduce a pipelined double-buffered execution engine that overlaps parameter prefetching, computation, and gradient offloading across multiple CUDA streams, enabling continuous GPU execution. 2) We replace persistent autograd graphs with stateless layer templates, binding weights dynamically as they stream in, eliminating persistent graph metadata while providing flexibility in scheduling. On a single H200 GPU with 1.5TB host memory, MegaTrain reliably t",
+      "published": "2026-04-08T13:20:59+00:00",
+      "score": 40.0,
+      "headline": "BREAKTHROUGH: Train 100B+ Models on Single GPU"
+    },
+    {
+      "id": "71cbd279af91eb32",
+      "title": "What do you do when your AI agent hallucinates with your money?",
+      "url": "https://fortune.com/2026/04/08/agent-hallucinations-protocol-money-financial-system-economy/",
+      "source": "Fortune Tech",
+      "summary": "Researchers from Google DeepMind, Microsoft, Columbia University, and t54 Labs want to build a financial safety net around autonomous AI.",
+      "published": "2026-04-08T13:00:00+00:00",
+      "score": 40.0,
+      "headline": "CRISIS: What Happens When AI Agents Hallucinate Money?"
+    },
+    {
       "id": "db66821392c7ed62",
       "title": "Claude Mythos Preview: Available in Private Preview on Vertex AI",
       "url": "https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai",
@@ -907,87 +1027,7 @@
       "published": "2026-04-07T21:24:54+00:00",
       "score": 40.0,
       "headline": "Eclipse Raises $1.3B for 'Physical AI' Startup Empire"
-    },
-    {
-      "id": "b3abdfcdb74618cb",
-      "title": "Anthropic Mythos identifies long-overlooked 27-Year critical bug in OpenBSD\u2019s TCP selective acknowledgement (SACK) implementation",
-      "url": "https://www.reddit.com/r/singularity/comments/1sf6lmu/anthropic_mythos_identifies_longoverlooked_27year/",
-      "source": "Reddit r/singularity",
-      "summary": "from r/OpenBSD &gt; This was the most critical vulnerability we discovered in OpenBSD with Mythos Preview after a thousand runs through our scaffold. Across a thousand runs through our scaffold, the total cost was under $20,000 and found several dozen more findings. While the specific run that found the bug above cost under $50, that number only makes sense with full hindsight. Like any search process, we can't know in advance which run will succeed. &gt;[A ](https://ftp.openbsd.org/pub/OpenBSD/patches/7.8/common/025\\_sack.patch.sig)\\[27-year-old\\](https://ftp.openbsd.org/pub/OpenBSD/patches/7.8/common/025\\_sack.patch.sig)\\[ OpenBSD bug](https://ftp.openbsd.org/pub/OpenBSD/patches/7.8/common/025\\_sack.patch.sig)\\[\\^(\\\\\\[4\\\\\\])\\](https://red.anthropic.com/2026/mythos-preview/#ftnt4) &gt;TCP (as defined in [RFC 793](https://www.ietf.org/rfc/rfc793.txt)) is a simple protocol. Each packet sent from host A to host B has a sequence ID, and host B should respond with an acknowledgement (ACK) ",
-      "published": "2026-04-07T19:46:50+00:00",
-      "score": 40.0,
-      "headline": "CLAUDE MYTHOS FINDS 27-YEAR CRITICAL BUG in OpenBSD"
-    },
-    {
-      "id": "fe50a857f7b34ef9",
-      "title": "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything",
-      "url": "https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/",
-      "source": "Wired",
-      "summary": "The AI lab's Project Glasswing will bring together Apple, Google, and more than 45 other organizations. They'll use the new Claude Mythos Preview model to test advancing AI cybersecurity capabilities.",
-      "published": "2026-04-07T18:49:50+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC TEAMS WITH APPLE, GOOGLE TO FIGHT AI HACKING"
-    },
-    {
-      "id": "129e2c5a0ae9fa1a",
-      "title": "GLM 5.1 is SOTA on Agentic Coding: SWE-Bench Pro",
-      "url": "https://www.reddit.com/r/singularity/comments/1sf4ix4/glm_51_is_sota_on_agentic_coding_swebench_pro/",
-      "source": "Reddit r/singularity",
-      "summary": "GLM-5.1 beat Opus 4.6, GPT-5.4, and Gemini 3.1 Pro on SWE-Bench Pro (58.4 vs 57.3 / 57.7 / 54.2) X : https://x.com/zai\\_org/status/2041550153354519022?s=46 &#32; submitted by &#32; /u/Able-Necessary-6048 [link] &#32; [comments]",
-      "published": "2026-04-07T18:32:13+00:00",
-      "score": 40.0,
-      "headline": "GLM 5.1 BEATS OPUS, GPT-5.4 ON CODING BENCH"
-    },
-    {
-      "id": "030de1fbac088609",
-      "title": "Claude Mythos Preview Benchmarks",
-      "url": "https://www.reddit.com/r/singularity/comments/1sf3zme/claude_mythos_preview_benchmarks/",
-      "source": "Reddit r/singularity",
-      "summary": "Claude Mythos Preview Benchmarks from their newly released article: https://www.anthropic.com/glasswing &#32; submitted by &#32; /u/pseudoreddituser [link] &#32; [comments]",
-      "published": "2026-04-07T18:13:14+00:00",
-      "score": 40.0,
-      "headline": "CLAUDE MYTHOS BENCHMARKS REVEALED"
-    },
-    {
-      "id": "da10f1664ffc058f",
-      "title": "AI replacing radiologists: Docs slam Nvidia, Anthropic CEOs for false info",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/as-ceo-of-americas-largest-public-hospital-system-says-ai-can-replace-radiologists-doctors-slam-nvidia-and-anthropic-ceo-for-spreading-false-information/articleshow/130068296.cms",
-      "source": "Hacker News",
-      "summary": "Article URL: https://timesofindia.indiatimes.com/technology/tech-news/as-ceo-of-americas-largest-public-hospital-system-says-ai-can-replace-radiologists-doctors-slam-nvidia-and-anthropic-ceo-for-spreading-false-information/articleshow/130068296.cms Comments URL: https://news.ycombinator.com/item?id=47679063 Points: 3 # Comments: 0",
-      "published": "2026-04-07T18:04:49+00:00",
-      "score": 40.0,
-      "headline": "DOCTORS SLAM NVIDIA, ANTHROPIC CEOs... AI RADIOLOGY CLAIMS BACKFIRE"
-    },
-    {
-      "id": "0b3722ba549a02fc",
-      "title": "A frightening OpenClaw vulnerability has been discovered",
-      "url": "https://mashable.com/article/new-frightening-openclaw-vulnerability-has-been-discovered",
-      "source": "Mashable Tech",
-      "summary": "The viral AI agent, OpenClaw, had a critical security flaw that let attackers silently seize full administrative control.",
-      "published": "2026-04-07T17:55:15+00:00",
-      "score": 40.0,
-      "headline": "OPENCLAW VULNERABILITY... FULL SYSTEM TAKEOVER"
-    },
-    {
-      "id": "a7b394de11e86905",
-      "title": "GLM-5.1 Scores 94.6% Against Claude Opus on Coding at a Fraction the Cost",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sf2f2t/glm51_scores_946_against_claude_opus_on_coding_at/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Here is the HF https://huggingface.co/zai-org/GLM-5.1-FP8 &#32; submitted by &#32; /u/dev_is_active [link] &#32; [comments]",
-      "published": "2026-04-07T17:19:18+00:00",
-      "score": 40.0,
-      "headline": "GLM-5.1 BEATS Claude Opus on Coding at Fraction Cost"
-    },
-    {
-      "id": "a61087756079030e",
-      "title": "Anthropic Poaches Microsoft Executive to Lead Infrastructure",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-07/anthropic-poaches-microsoft-executive-to-lead-infrastructure",
-      "source": "Bloomberg Technology",
-      "summary": "Anthropic PBC has hired a senior leader from Microsoft Corp. to lead its push to establish the infrastructure needed to support growing adoption of its artificial intelligence services.",
-      "published": "2026-04-07T16:53:33+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC POACHES Microsoft Infrastructure Chief"
     }
   ],
-  "generated_at": "2026-04-08T13:12:43.317457"
+  "generated_at": "2026-04-08T15:07:36.863981"
 }

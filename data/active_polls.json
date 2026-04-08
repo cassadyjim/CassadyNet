@@ -1,141 +1,6 @@
 {
   "polls": [
     {
-      "topic": "US-China AI Competition",
-      "description": "Escalating technological rivalry between US and China over AI models, chips, and strategic capabilities.",
-      "question": "Is China's AI progress more threatening or impressive to the US?",
-      "button_a": "Threatening",
-      "button_b": "US",
-      "poll_id": "us-china-ai-competition-20260407",
-      "analysis_url": "/analysis/analysis-us-china-ai-competition-20260408.html",
-      "analysis_type": "poll",
-      "created_at": "2026-04-07T15:05:57.209339",
-      "last_seen": "2026-04-08T13:13:14.346997",
-      "cluster_stories": [
-        {
-          "id": "39b2b592aaf15821",
-          "title": "China drafts law regulating 'digital humans' and banning addictive virtual services for children",
-          "url": "https://www.reddit.com/r/artificial/comments/1seqb6n/china_drafts_law_regulating_digital_humans_and/",
-          "source": "Reddit r/artificial",
-          "summary": "A Reuters report outlines China's proposed regulations on the rapidly expanding sector of digital humans and AI avatars. Under the new draft rules, digital human content must be clearly labeled and is explicitly banned from offering virtual intimate relationships to anyone under 18. The legislation also prohibits the unauthorized use of personal data to create avatars and targets services designed to fuel addiction or bypass identity verification systems. &#32; submitted by &#32; /u/Confident_Salt_8108 [link] &#32; [comments]",
-          "published": "2026-04-07T08:41:24+00:00",
-          "score": 49.0,
-          "headline": "CHINA DRAFTS LAW REGULATING 'DIGITAL HUMANS'... BANS ADDICTIVE AI FOR KIDS"
-        },
-        {
-          "id": "7c063eb07326408d",
-          "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
-          "source": "Bloomberg Technology",
-          "summary": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.\u2019s Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge US artificial intelligence models to gain an edge in the global AI race.",
-          "published": "2026-04-06T21:08:58+00:00",
-          "score": 46.0,
-          "headline": "OPENAI, GOOGLE, ANTHROPIC Unite Against Chinese Model Theft"
-        },
-        {
-          "id": "ad41a7df3f40e031",
-          "title": "We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11\u00d7 lower cost.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "We built YC-Bench, a benchmark where an LLM plays CEO of a simulated startup over a full year (~hundreds of turns). It manages employees, picks contracts, handles payroll, and survives a market where ~35% of clients secretly inflate work requirements after you accept their task. Feedback is delayed and sparse with no hand-holding. 12 models, 3 seeds each. Here's the leaderboard: \ud83e\udd47 Claude Opus 4.6 - $1.27M avg final funds (~$86/run in API cost) \ud83e\udd48 GLM-5 - $1.21M avg (~$7.62/run) \ud83e\udd49 GPT-5.4 - $1.00M avg (~$23/run) Everyone else - below starting capital of $200K. Several went bankrupt. GLM-5 is the finding we keep coming back to. It's within 5% of Opus on raw performance and costs a fraction to run. For anyone building production agentic pipelines, the cost-efficiency curve here is real and Kimi-K2.5 actually tops the revenue-per-API-dollar chart at 2.5\u00d7 better than the next model. The benchmark exposes something most evals miss: long-horizon coherence under delayed feedback. When you can't",
-          "published": "2026-04-04T03:45:40+00:00",
-          "score": 46.0,
-          "headline": "GLM-5 MATCHES Claude Opus at 11x Lower Cost in YC-Bench"
-        },
-        {
-          "id": "7e901636a9a30aa1",
-          "title": "Chinese AI Startup Is Mapping Every US Military Asset in Middle East in Realtime",
-          "url": "https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/ Comments URL: https://news.ycombinator.com/item?id=47640424 Points: 2 # Comments: 0",
-          "published": "2026-04-04T16:20:04+00:00",
-          "score": 45.0,
-          "headline": "CHINESE AI STARTUP MAPS US MILITARY ASSETS... REALTIME TRACKING"
-        },
-        {
-          "id": "bf40b02118e2a236",
-          "title": "OpenAI, Anthropic, Google unite to combat model copying in China",
-          "url": "https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china Comments URL: https://news.ycombinator.com/item?id=47670652 Points: 2 # Comments: 0",
-          "published": "2026-04-07T04:08:27+00:00",
-          "score": 43.0,
-          "headline": "OPENAI, ANTHROPIC, GOOGLE UNITE AGAINST CHINA MODEL COPYING"
-        },
-        {
-          "id": "efe6f99f60c309c1",
-          "title": "Half of planned US data center builds have been delayed or canceled, growth limited by shortages of power infrastructure and parts from China \u2014 the AI build-out flips the breakers",
-          "url": "https://www.reddit.com/r/singularity/comments/1sbza4p/half_of_planned_us_data_center_builds_have_been/",
-          "source": "Reddit r/singularity",
-          "summary": "&gt;The trade-war between the U.S. and China has forced server makers out of the People's Republic, greatly reducing reliance of American companies on producers from Tianxia. However, China remains the world's largest producer of electrical equipment that is required to build power infrastructure inside and outside of AI data centers. To that end, shortages of power delivery equipment, including devices from China and other countries, are slowing project timelines, Bloomberg reports. &#32; submitted by &#32; /u/domscatterbrain [link] &#32; [comments]",
-          "published": "2026-04-04T04:09:04+00:00",
-          "score": 43.0,
-          "headline": "HALF of US Data Centers CANCELED... China Supply Chain Crisis"
-        },
-        {
-          "id": "0f6c2f7e06686b25",
-          "title": "China fell for a lobster: What an AI assistant tells us about Beijing's ambition",
-          "url": "https://www.bbc.com/news/articles/cy41n17e23go",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.bbc.com/news/articles/cy41n17e23go Comments URL: https://news.ycombinator.com/item?id=47657652 Points: 12 # Comments: 0",
-          "published": "2026-04-06T06:37:13+00:00",
-          "score": 42.0,
-          "headline": "CHINA'S AI ASSISTANT FALLS FOR LOBSTER TRICK - BBC Investigation"
-        },
-        {
-          "id": "44a373859734d072",
-          "title": "US tightens chip export controls, curb China's tech rise",
-          "url": "https://economictimes.indiatimes.com/tech/technology/us-tightens-chip-export-controls-curb-chinas-tech-rise/articleshow/130020543.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The committee further stated that semiconductor manufacturing lies at the core of the technological competition with China, adding that the MATCH Act is designed to strengthen export controls and create a more coordinated global approach, as highlighted in its release.",
-          "published": "2026-04-04T13:30:25+00:00",
-          "score": 42.0,
-          "headline": "US TIGHTENS CHIP CONTROLS... New Export Restrictions Target China"
-        },
-        {
-          "id": "e69ffcd7c16d091b",
-          "title": "China moves to regulate digital humans , issues draft rules",
-          "url": "https://www.reddit.com/r/singularity/comments/1sc3kz1/china_moves_to_regulate_digital_humans_issues/",
-          "source": "Reddit r/singularity",
-          "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
-          "published": "2026-04-04T08:12:25+00:00",
-          "score": 42.0,
-          "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
-        },
-        {
-          "id": "88eabd4be03bc99b",
-          "title": "China moves to regulate digital humans , issues draft rules",
-          "url": "https://www.reddit.com/r/artificial/comments/1sc3hhu/china_moves_to_regulate_digital_humans_issues/",
-          "source": "Reddit r/artificial",
-          "summary": "&#32; submitted by &#32; /u/Realistic_Plant_446 [link] &#32; [comments]",
-          "published": "2026-04-04T08:06:29+00:00",
-          "score": 42.0,
-          "headline": "CHINA DRAFTS DIGITAL HUMAN REGULATIONS"
-        },
-        {
-          "id": "2a753e41178432c8",
-          "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sehamp/openai_anthropic_google_unite_to_combat_model/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china &#32; submitted by &#32; /u/External_Mood4719 [link] &#32; [comments]",
-          "published": "2026-04-07T00:56:37+00:00",
-          "score": 41.0,
-          "headline": "OPENAI, ANTHROPIC, GOOGLE UNITE AGAINST CHINA COPYING"
-        },
-        {
-          "id": "9bfcbc53e03be416",
-          "title": "Machine Translation in the Wild: User Reaction to Xiaohongshu's Built-In Translation Feature",
-          "url": "https://arxiv.org/abs/2603.15922",
-          "source": "arXiv cs.CL",
-          "summary": "arXiv:2603.15922v2 Announce Type: replace-cross Abstract: This paper examines user reactions to the launch of the machine translation (MT) feature on Xiaohongshu, a Chinese social media and e-commerce platform, in January 2025. Drawing on a dataset of 6,723 comments collected from 11 official posts promoting the translation function, this paper combines sentiment analysis with thematic analysis to investigate how users perceived and experimented with the function. Results show that reactions were generally positive, although concerns regarding functionality, accessibility, and translation accuracy were also expressed. In addition, users actively tested the function with inputs that are atypical for everyday online communication, including stand-alone words and phrases, abbreviations, internet slang, and symbolic or encoded forms. Successful decoding of these texts elicited positive responses, while testing of more conventional language remained fairly limited. This could lead to uncrit",
-          "published": "2026-04-06T04:00:00+00:00",
-          "score": 41.0,
-          "headline": "Chinese Social Media Users React to Built-In AI Translation"
-        }
-      ],
-      "current_topic_name": "US-China AI Competition"
-    },
-    {
       "topic": "Anthropic Mythos Cybersecurity AI",
       "description": "Anthropic released a powerful AI model called Mythos that can find zero-day exploits and vulnerabilities but is considered too dangerous for public release.",
       "question": "Should powerful AI vulnerability-hunting tools be kept secret or shared publicly?",
@@ -145,7 +10,7 @@
       "analysis_url": "/analysis/analysis-anthropic-mythos-cybersecurity-ai-20260408.html",
       "analysis_type": "poll",
       "created_at": "2026-04-08T04:38:53.718049",
-      "last_seen": "2026-04-08T13:13:16.151982",
+      "last_seen": "2026-04-08T15:08:10.918279",
       "cluster_stories": [
         {
           "id": "d3055b366fc807c4",
@@ -299,7 +164,82 @@
         }
       ],
       "current_topic_name": "Anthropic Mythos Cybersecurity AI"
+    },
+    {
+      "topic": "US-China AI Competition",
+      "description": "Escalating technological rivalry between US and China over AI models, chips, and strategic capabilities.",
+      "question": "Is China's AI progress more threatening or impressive to the US?",
+      "button_a": "Threatening",
+      "button_b": "US",
+      "poll_id": "us-china-ai-competition-20260407",
+      "analysis_url": "/analysis/analysis-ai-geopolitics-and-china-20260408.html",
+      "analysis_type": "poll",
+      "created_at": "2026-04-07T15:05:57.209339",
+      "last_seen": "2026-04-08T15:08:11.838537",
+      "cluster_stories": [
+        {
+          "id": "39b2b592aaf15821",
+          "title": "China drafts law regulating 'digital humans' and banning addictive virtual services for children",
+          "url": "https://www.reddit.com/r/artificial/comments/1seqb6n/china_drafts_law_regulating_digital_humans_and/",
+          "source": "Reddit r/artificial",
+          "summary": "A Reuters report outlines China's proposed regulations on the rapidly expanding sector of digital humans and AI avatars. Under the new draft rules, digital human content must be clearly labeled and is explicitly banned from offering virtual intimate relationships to anyone under 18. The legislation also prohibits the unauthorized use of personal data to create avatars and targets services designed to fuel addiction or bypass identity verification systems. &#32; submitted by &#32; /u/Confident_Salt_8108 [link] &#32; [comments]",
+          "published": "2026-04-07T08:41:24+00:00",
+          "score": 49.0,
+          "headline": "CHINA DRAFTS LAW REGULATING 'DIGITAL HUMANS'... BANS ADDICTIVE AI FOR KIDS"
+        },
+        {
+          "id": "7c063eb07326408d",
+          "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
+          "source": "Bloomberg Technology",
+          "summary": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.\u2019s Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge US artificial intelligence models to gain an edge in the global AI race.",
+          "published": "2026-04-06T21:08:58+00:00",
+          "score": 46.0,
+          "headline": "OPENAI, GOOGLE, ANTHROPIC Unite Against Chinese Model Theft"
+        },
+        {
+          "id": "c93e44edfbf61a65",
+          "title": "Japan relaxes privacy laws to make itself the 'easiest country to develop AI'",
+          "url": "https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/ Comments URL: https://news.ycombinator.com/item?id=47686106 Points: 7 # Comments: 1",
+          "published": "2026-04-08T06:23:34+00:00",
+          "score": 45.0,
+          "headline": "JAPAN RELAXES PRIVACY LAWS TO BECOME 'EASIEST AI COUNTRY'"
+        },
+        {
+          "id": "24c32f0056b774a4",
+          "title": "Japan relaxes privacy laws to make itself the \u2018easiest country to develop AI\u2019",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/",
+          "source": "The Register AI/ML",
+          "summary": "Opting out of personal data use won't be an option because Minister says that's a 'very big obstacle' to AI adoption Japan\u2019s Minister for Digital Transformation Hisashi Matsumoto has declared the nation will become the easiest place in the world to develop AI apps, thanks to legal changes that mean organizations won\u2019t need to secure consent to use some personal information.\u2026",
+          "published": "2026-04-08T04:48:21+00:00",
+          "score": 44.0,
+          "headline": "JAPAN RELAXES PRIVACY LAWS: 'Easiest Country for AI'"
+        },
+        {
+          "id": "bf40b02118e2a236",
+          "title": "OpenAI, Anthropic, Google unite to combat model copying in China",
+          "url": "https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china Comments URL: https://news.ycombinator.com/item?id=47670652 Points: 2 # Comments: 0",
+          "published": "2026-04-07T04:08:27+00:00",
+          "score": 43.0,
+          "headline": "OPENAI, ANTHROPIC, GOOGLE UNITE AGAINST CHINA MODEL COPYING"
+        },
+        {
+          "id": "0f6c2f7e06686b25",
+          "title": "China fell for a lobster: What an AI assistant tells us about Beijing's ambition",
+          "url": "https://www.bbc.com/news/articles/cy41n17e23go",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.bbc.com/news/articles/cy41n17e23go Comments URL: https://news.ycombinator.com/item?id=47657652 Points: 12 # Comments: 0",
+          "published": "2026-04-06T06:37:13+00:00",
+          "score": 42.0,
+          "headline": "CHINA'S AI ASSISTANT FALLS FOR LOBSTER TRICK - BBC Investigation"
+        }
+      ],
+      "current_topic_name": "AI Geopolitics and China"
     }
   ],
-  "last_updated": "2026-04-08T13:13:16.151997"
+  "last_updated": "2026-04-08T15:08:11.838553"
 }
