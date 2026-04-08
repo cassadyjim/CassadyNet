@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Corporate Drama",
+      "description": "Major developments around OpenAI including internal memos, policy proposals, legal battles, and security threats to infrastructure.",
+      "question": "Should Altman's policy proposals be seen as leadership or damage control?",
+      "button_a": "Leadership",
+      "button_b": "Control",
+      "poll_id": "openai-corporate-drama-20260407",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-corporate-drama-20260407.html",
+      "started_at": "2026-04-07T04:34:21.003189",
+      "archived_at": "2026-04-08T04:38:58.329828",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China AI Regulation & Competition",
       "description": "China is simultaneously regulating AI while Chinese companies compete aggressively in the global AI market.",
       "question": "Should China's AI dominance be seen as healthy competition or strategic threat?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-india-ai-development-20260225.html",
       "started_at": "2026-02-21T00:01:37.351702",
       "archived_at": "2026-02-25T01:35:44.871819",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI School Shooter Controversy",
-      "description": "OpenAI faces scrutiny over its handling of a ChatGPT user who discussed violent plans months before carrying out a school shooting, raising questions about AI safety monitoring and reporting protocols.",
-      "question": "Should OpenAI have alerted police about the shooter's ChatGPT conversations?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-school-shooter-controversy-20260222",
-      "results": {
-        "pro": 3,
-        "con": 1,
-        "total": 4,
-        "pro_percent": 75,
-        "con_percent": 25
-      },
-      "analysis_url": "/analysis/analysis-openai-school-shooter-controversy-20260225.html",
-      "started_at": "2026-02-22T10:20:16.032089",
-      "archived_at": "2026-02-25T01:35:44.537793",
       "reason": "topic_replaced"
     }
   ]

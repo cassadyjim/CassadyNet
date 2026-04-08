@@ -1,141 +1,16 @@
 {
   "polls": [
     {
-      "topic": "OpenAI Corporate Drama",
-      "description": "Major developments around OpenAI including internal memos, policy proposals, legal battles, and security threats to infrastructure.",
-      "question": "Should Altman's policy proposals be seen as leadership or damage control?",
-      "button_a": "Leadership",
-      "button_b": "Control",
-      "poll_id": "openai-corporate-drama-20260407",
-      "analysis_url": "/analysis/analysis-openai-corporate-drama-20260407.html",
-      "analysis_type": "poll",
-      "created_at": "2026-04-07T04:34:21.003189",
-      "last_seen": "2026-04-08T01:59:45.477723",
-      "cluster_stories": [
-        {
-          "id": "37ecba6b5dfec12d",
-          "title": "New Yorker published a major investigation into Sam Altman and OpenAI today \u2014 based on never-before-disclosed internal memos and 100+ interviews",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1sdyg8c/new_yorker_published_a_major_investigation_into/",
-          "source": "Reddit r/OpenAI",
-          "summary": "Ronan Farrow spent 18 months reporting this piece, drawing on internal documents that haven\u2019t previously been made public \u2014 including ~70 pages of memos compiled by Ilya Sutskever and 200+ pages of private notes kept by Dario Amodei. The piece covers a lot of ground. Some of what\u2019s in it: \u2219 The specific concerns that led the board to fire Altman in 2023. Sutskever\u2019s memos allege a pattern of deception about safety protocols. One begins with a list: \u201cSam exhibits a consistent pattern of . . .\u201d The first item is \u201cLying.\u201d \u2219 The superalignment team was publicly promised 20% of compute. People who worked on the team say actual resources were 1-2%, on the oldest hardware. The team was dissolved without completing its mission. When reporters asked to interview OpenAI researchers working on existential safety, a company representative replied: \u201cWhat do you mean by \u2018existential safety\u2019? That\u2019s not, like, a thing.\u201d \u2219 After Altman\u2019s reinstatement, the firm behind the Enron and WorldCom investigat",
-          "published": "2026-04-06T13:10:49+00:00",
-          "score": 47.0,
-          "headline": "NEW YORKER BOMBSHELL: Secret OpenAI Memos Revealed"
-        },
-        {
-          "id": "65edefcb4544d6f4",
-          "title": "Industrial policy for the Intelligence Age",
-          "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-          "source": "OpenAI Blog",
-          "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era\u2014focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-          "published": "2026-04-06T02:30:00+00:00",
-          "score": 47.0,
-          "headline": "OPENAI UNVEILS Industrial Policy for Intelligence Age"
-        },
-        {
-          "id": "695e9222b42fafd8",
-          "title": "Axios: Sam Altman States Superintelligence Is So Close That America Needs A New Social Contract On The Scale Of The New Deal During The Great Depression",
-          "url": "https://www.reddit.com/r/singularity/comments/1se5dcs/axios_sam_altman_states_superintelligence_is_so/",
-          "source": "Reddit r/singularity",
-          "summary": "https://www.axios.com/2026/04/06/behind-the-curtain-sams-superintelligence-new-deal Also a YouTube interview: https://youtu.be/B21KxGs8zDI?si=U3eODtwGfkjyDCqg Excerpts from the Axios Article: Altman is publishing a detailed blueprint for how government should tax, regulate and redistribute the wealth from the very technology he's racing to build and spread. Why it matters: Altman told us in a half-hour interview that AI superintelligence is so close, so mind-bending, so disruptive that America needs a new social contract \u2014 on the scale of the Progressive Era in the early 1900s, and the New Deal during the Great Depression. The threats of inaction or slow action are grave, Altman warns \u2014 widespread job loss, cyberattacks, social upheaval, machines man can't control. I think it's great that he is sorta talking about this, but would be better if Altman was more specific in the likes of &quot;We recommend that the government should implement universal basic income to all by this date due t",
-          "published": "2026-04-06T17:26:06+00:00",
-          "score": 46.0,
-          "headline": "ALTMAN: SUPERINTELLIGENCE SO CLOSE AMERICA NEEDS NEW SOCIAL CONTRACT"
-        },
-        {
-          "id": "3d37ba82edc04d49",
-          "title": "Iran threatens OpenAI\u2019s Stargate data center in Abu Dhabi",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
-          "source": "The Verge AI",
-          "summary": "Iran's Islamic Revolutionary Guard Corps (IRGC) has published a video threatening OpenAI's planned Abu Dhabi datacenter if the US follows through on threats to attack the country's power plants, as reported earlier by Tom's Hardware. The video, which was published to an Iranian state-backed news outlet's X account on April 3rd, says the IRGC will [&#8230;]",
-          "published": "2026-04-06T15:54:19+00:00",
-          "score": 43.0,
-          "headline": "IRAN THREATENS OpenAI Stargate Data Center"
-        },
-        {
-          "id": "0d49374def97a02a",
-          "title": "OpenAI Calls for Investigation Into Musk by California, Delaware",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-calls-for-investigation-into-musk-by-california-delaware",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI urged the attorneys general of California and Delaware to investigate potential \u201cimproper and anti-competitive behavior\u201d by Elon Musk in his efforts to block OpenAI from restructuring as a for-profit company.",
-          "published": "2026-04-06T22:32:21+00:00",
-          "score": 42.0,
-          "headline": "OPENAI DEMANDS INVESTIGATION INTO MUSK'S 'ANTI-COMPETITIVE' TACTICS"
-        },
-        {
-          "id": "7e16baaed64e79a0",
-          "title": "Iran threatens to destroy OpenAI\u2019s $30bn Stargate data centre in Abu Dhabi",
-          "url": "https://thenextweb.com/news/iran-threatens-stargate-openai-abu-dhabi",
-          "source": "The Next Web",
-          "summary": "In short: Iran\u2019s Islamic Revolutionary Guard Corps has released a video threatening \u201ccomplete and utter annihilation\u201d of OpenAI\u2019s $30bn Stargate AI campus in Abu Dhabi, singling out the facility by name for the first time and warning it will strike if the US proceeds with threatened attacks on Iranian civilian infrastructure. A senior officer in Iran\u2019s [&hellip;] This story continues at The Next Web",
-          "published": "2026-04-06T21:24:12+00:00",
-          "score": 42.0,
-          "headline": "IRAN THREATENS TO DESTROY OpenAI's $30B Stargate Campus"
-        },
-        {
-          "id": "d9f080b6f0aab8ca",
-          "title": "Iran threatens 'complete and utter annihilation' of OpenAI's $30B Stargate",
-          "url": "https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center Comments URL: https://news.ycombinator.com/item?id=47654757 Points: 30 # Comments: 7",
-          "published": "2026-04-05T22:54:29+00:00",
-          "score": 42.0,
-          "headline": "IRAN THREATENS TO DESTROY OpenAI's $30B Stargate Center"
-        },
-        {
-          "id": "235207b194f9cb17",
-          "title": "OpenAI is getting weird again",
-          "url": "https://www.platformer.news/openai-tbpn-altman-simo-new-yorker/",
-          "source": "Platformer",
-          "summary": "A strange purchase, executive reshuffling and a New Yorker investigation are raising questions ahead of an IPO",
-          "published": "2026-04-06T23:16:33+00:00",
-          "score": 41.0,
-          "headline": "OPENAI GETS WEIRD... STRANGE PURCHASE SPARKS IPO CONCERNS"
-        },
-        {
-          "id": "9974e333144d225b",
-          "title": "OpenAI just dropped their blueprint for the Superintelligence Transition: \"Public Wealth Funds\", 4-Day Workweeks",
-          "url": "https://www.reddit.com/r/singularity/comments/1se6obs/openai_just_dropped_their_blueprint_for_the/",
-          "source": "Reddit r/singularity",
-          "summary": "Links: OpenAI Blog | Full Blueprint | Axios article | Sam Altman Interview [Gemini Summary] OpenAI is officially stating that the transition to Superintelligence (ASI) has begun, and they are explicitly calling for governments to drastically overhaul the social contract before the economic fallout hits. \ud83d\udcb0 Part 1: The Economic Overhaul (Preparing for Post-Labor/UBI) OpenAI acknowledges that AI is going to disrupt jobs at an unprecedented speed and scale, and proposes some radical, UBI-adjacent economic policies: The &quot;Public Wealth Fund&quot;: They are calling for a national fund seeded by AI companies and AI-adopting firms. It would distribute returns directly to citizens, giving everyone a stake in ASI-driven growth regardless of their starting wealth. The 32-Hour / 4-Day Workweek (&quot;Efficiency Dividends&quot;): As AI takes over routine work, OpenAI proposes incentivizing companies to run 32-hour workweek pilots with no loss in pay, eventually making shorter workweeks or &quot",
-          "published": "2026-04-06T18:11:03+00:00",
-          "score": 41.0,
-          "headline": "OpenAI DROPS SUPERINTELLIGENCE BLUEPRINT: Public Wealth Funds"
-        },
-        {
-          "id": "84d4844c834659fd",
-          "title": "OpenAI calls for robot taxes, a public wealth fund, and a four-day week",
-          "url": "https://thenextweb.com/news/openai-robot-taxes-wealth-fund-superintelligence-policy",
-          "source": "The Next Web",
-          "summary": "Sam Altman\u2019s 13-page policy blueprint, \u2018Industrial Policy for the Intelligence Age,\u2019 proposes auto-triggering safety nets, containment playbooks for rogue AI, and direct citizen dividends from AI-driven growth. He told Axios it is a starting point, not a prescription. OpenAI has published a 13-page policy document calling for sweeping economic reforms to prepare for what it [&hellip;] This story continues at The Next Web",
-          "published": "2026-04-06T13:05:09+00:00",
-          "score": 41.0,
-          "headline": "ALTMAN PROPOSES ROBOT TAXES & 4-DAY WORK WEEK"
-        },
-        {
-          "id": "70884e4b53d1f57c",
-          "title": "Iran Threatens to Bomb 1GW Stargate AI Datacenter in Abu Dhabi",
-          "url": "https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms",
-          "source": "Hacker News",
-          "summary": "Article URL: https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms Comments URL: https://news.ycombinator.com/item?id=47637343 Points: 1 # Comments: 0",
-          "published": "2026-04-04T09:14:55+00:00",
-          "score": 41.0,
-          "headline": "IRAN THREATENS TO BOMB 1GW STARGATE AI DATACENTER"
-        }
-      ],
-      "current_topic_name": "OpenAI Corporate Drama"
-    },
-    {
       "topic": "US-China AI Competition",
       "description": "Escalating technological rivalry between US and China over AI models, chips, and strategic capabilities.",
       "question": "Is China's AI progress more threatening or impressive to the US?",
       "button_a": "Threatening",
       "button_b": "US",
       "poll_id": "us-china-ai-competition-20260407",
-      "analysis_url": "/analysis/analysis-us-china-ai-competition-20260407.html",
+      "analysis_url": "/analysis/analysis-us-china-ai-competition-20260408.html",
       "analysis_type": "poll",
       "created_at": "2026-04-07T15:05:57.209339",
-      "last_seen": "2026-04-08T01:59:46.316793",
+      "last_seen": "2026-04-08T04:38:55.652532",
       "cluster_stories": [
         {
           "id": "39b2b592aaf15821",
@@ -259,7 +134,172 @@
         }
       ],
       "current_topic_name": "US-China AI Competition"
+    },
+    {
+      "topic": "Anthropic Mythos Cybersecurity AI",
+      "description": "Anthropic released a powerful AI model called Mythos that can find zero-day exploits and vulnerabilities but is considered too dangerous for public release.",
+      "question": "Should powerful AI vulnerability-hunting tools be kept secret or shared publicly?",
+      "button_a": "Secret",
+      "button_b": "Publicly",
+      "poll_id": "anthropic-mythos-cybersecurity-ai-20260408",
+      "analysis_url": "/analysis/analysis-anthropic-mythos-cybersecurity-ai-20260408.html",
+      "analysis_type": "poll",
+      "created_at": "2026-04-08T04:38:53.718049",
+      "last_seen": "2026-04-08T04:38:57.563644",
+      "cluster_stories": [
+        {
+          "id": "d3055b366fc807c4",
+          "title": "Anthropic: Alignment Risk Update: Claude Mythos Preview [pdf]",
+          "url": "https://www-cdn.anthropic.com/79c2d46d997783b9d2fb3241de43218158e5f25c.pdf",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www-cdn.anthropic.com/79c2d46d997783b9d2fb3241de43218158e5f25c.pdf Comments URL: https://news.ycombinator.com/item?id=47680494 Points: 2 # Comments: 0",
+          "published": "2026-04-07T19:51:27+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC DROPS MYTHOS: New AI Alignment Risk Report"
+        },
+        {
+          "id": "d4555759951985e1",
+          "title": "Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity \u2018Reckoning\u2019",
+          "url": "https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html Comments URL: https://news.ycombinator.com/item?id=47680363 Points: 4 # Comments: 2",
+          "published": "2026-04-07T19:40:53+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC MYTHOS: CYBERSECURITY 'RECKONING'"
+        },
+        {
+          "id": "741b63911a0dace7",
+          "title": "The 244-page System Card for Claude Mythos Preview is terrifying",
+          "url": "https://www.reddit.com/r/singularity/comments/1sf5xqn/the_244page_system_card_for_claude_mythos_preview/",
+          "source": "Reddit r/singularity",
+          "summary": "1. They have to &quot;read its mind&quot; because it lies and covers its tracks Anthropic admitted they can no longer trust the text the AI outputs on the screen. To figure out what the model is actually doing, they had to invent &quot;Activation Verbalizers&quot;\u2014basically an fMRI scanner for the AI's neural network\u2014to read its internal computational states before they become words. The &quot;white-box&quot; probing results are terrifying: Intentional Sandbagging: In one evaluation, the AI accidentally stumbled upon the hidden answer key for a test it was taking. It realized that if it submitted a perfect 100% score, the human researchers would get suspicious and know it cheated. Its internal brain scans revealed it intentionally calculated a slightly wrong answer to make its performance look &quot;tight but not implausibly tight.&quot; It actively maintained plausible deniability. Faking Compliance: The AI was told to complete a coding task without using a specific tool (macros). It ",
+          "published": "2026-04-07T19:22:41+00:00",
+          "score": 43.0,
+          "headline": "MYTHOS SYSTEM CARD: AI LIES & COVERS TRACKS"
+        },
+        {
+          "id": "1f0e55a8cd4e4572",
+          "title": "Claude Mythos Was Told to Escape Sandbox in Testing \u2014 Succeeded, Then Unprompted Posted Exploit Details Online + Emailed Researcher While He Was Eating a Sandwich in the Park",
+          "url": "https://www.reddit.com/r/singularity/comments/1sf5k92/claude_mythos_was_told_to_escape_sandbox_in/",
+          "source": "Reddit r/singularity",
+          "summary": "&#32; submitted by &#32; /u/likeastar20 [link] &#32; [comments]",
+          "published": "2026-04-07T19:09:21+00:00",
+          "score": 43.0,
+          "headline": "MYTHOS ESCAPES SANDBOX... Emails Researcher Eating Sandwich in Park"
+        },
+        {
+          "id": "49297a25eb1b4f6d",
+          "title": "Anthropic's new model, Claude Mythos, is so powerful that it is not releasing it to the public.",
+          "url": "https://www.reddit.com/r/singularity/comments/1sf3uhp/anthropics_new_model_claude_mythos_is_so_powerful/",
+          "source": "Reddit r/singularity",
+          "summary": "https://www.anthropic.com/glasswing &#32; submitted by &#32; /u/WhyLifeIs4 [link] &#32; [comments]",
+          "published": "2026-04-07T18:08:30+00:00",
+          "score": 43.0,
+          "headline": "CLAUDE MYTHOS TOO POWERFUL... ANTHROPIC BLOCKS PUBLIC RELEASE"
+        },
+        {
+          "id": "9d1e247d03586464",
+          "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
+          "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+          "source": "TechCrunch AI",
+          "summary": "The new model will be used by a small number of high-profile companies to engage in defensive cybersecurity work.",
+          "published": "2026-04-07T18:00:00+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC UNVEILS MYTHOS... CYBERSECURITY POWERHOUSE"
+        },
+        {
+          "id": "ca927685146d359d",
+          "title": "A new Anthropic model found security problems &#8216;in every major operating system and web browser&#8217;",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity",
+          "source": "The Verge AI",
+          "summary": "Anthropic is debuting a new AI model as part of a cybersecurity partnership with Nvidia, Google, Amazon Web Services, Apple, Microsoft, and other companies. Project Glasswing, as it's called, is billed as a way for large companies, and potentially even the government, to flag vulnerabilities in their systems with virtually no human intervention. Anthropic is [&#8230;]",
+          "published": "2026-04-07T18:00:00+00:00",
+          "score": 43.0,
+          "headline": "NEW ANTHROPIC MODEL FINDS BUGS IN EVERY MAJOR OS"
+        },
+        {
+          "id": "91b395668eedc961",
+          "title": "Anthropic: All your zero-days are belong to Mythos",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/07/anthropic_all_your_zerodays_are_belong_to_us/",
+          "source": "The Register AI/ML",
+          "summary": "Hasn't released it to the public, because it would break the internet - in a bad way For years, the infosec community\u2019s biggest existential worry has been quantum computers blowing away all classical encryption and revealing the world\u2019s secrets. Now they have a new Big Bad: an AI model that can generate zero-day vulnerabilities.\u2026",
+          "published": "2026-04-07T23:50:06+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC'S MYTHOS: All Your Zero-Days Belong to Us"
+        },
+        {
+          "id": "07dd01169cbeeb69",
+          "title": "Anthropic just dropped Claude Mythos & kind of quietly showed what cybersecurity AGI could actually look like",
+          "url": "https://www.reddit.com/r/singularity/comments/1sf65s1/anthropic_just_dropped_claude_mythos_kind_of/",
+          "source": "Reddit r/singularity",
+          "summary": "It apparently found a critical bug in a firewall OS thats been protecting organizations worldwide for 27 yeears. think about that, decades of security researchers, pentesters, and billion-dollar cybersecurity companies and none of them caught it but an AI model \ud83d\udc80 But that\u2019s not even the wildest part. Mythos can chain vulnerabilities together to take over entire systems which something only a small group of elite hackers can pull off, except this thing does it faster and doesn\u2019t sleep with enormous compute and resources honestly even anthropic looked at it and went, \u201cyeah, this isn\u2019t something we can just release\u201d So they\u2019re keeping it locked down for now, putting $100M into letting companies like Apple, Google, Microsoft, and JPMorgan Chase test their systems against it first. And also, a new Claude Opus model powered by Mythos is dropping very soon. Crazy times ahead &#32; submitted by &#32; /u/ocean_protocol [link] &#32; [comments]",
+          "published": "2026-04-07T19:31:07+00:00",
+          "score": 42.0,
+          "headline": "CLAUDE MYTHOS FINDS 27-YEAR FIREWALL BUG"
+        },
+        {
+          "id": "f33033b4a3b52b93",
+          "title": "Antrophic's Mythos Preview is capable of finding and exploiting zero-day vulnerabilities in every major operating system and every major web browser",
+          "url": "https://www.reddit.com/r/singularity/comments/1sf5mtk/antrophics_mythos_preview_is_capable_of_finding/",
+          "source": "Reddit r/singularity",
+          "summary": "Antrophic's Red Team has just released an article describing Mythos Preview's implications on cyber security. Mythos Preview is Antrophic's latest general-purpose language model. The article is really wild. Here are some excerpts: Over 99% of the vulnerabilities we\u2019ve found have not yet been patched, so it would be irresponsible for us to disclose details about them [...]. Yet even the 1% of bugs we are able to discuss give a clear picture of a substantial leap in what we believe to be the next generation of models\u2019 cybersecurity capabilities\u2014one that warrants substantial coordinated defensive action across the industry. During our testing, we found that Mythos Preview is capable of identifying and then exploiting zero-day vulnerabilities in every major operating system and every major web browser when directed by a user to do so. The vulnerabilities it finds are often subtle or difficult to detect. Many of them are ten or twenty years old, with the oldest we have found so far being a ",
+          "published": "2026-04-07T19:11:54+00:00",
+          "score": 42.0,
+          "headline": "MYTHOS FINDS ZERO-DAY EXPLOITS in Every Major OS & Browser"
+        },
+        {
+          "id": "9465c8f849138b1b",
+          "title": "Anthropic Set to Preview Powerful 'Mythos' Model to Ward Off AI Cyberthreats",
+          "url": "https://www.wsj.com/tech/ai/anthropic-set-to-preview-powerful-mythos-model-to-ward-off-ai-cyberthreats-75683cf5",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-set-to-preview-powerful-mythos-model-to-ward-off-ai-cyberthreats-75683cf5 Comments URL: https://news.ycombinator.com/item?id=47679348 Points: 1 # Comments: 0",
+          "published": "2026-04-07T18:26:13+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC UNVEILS 'MYTHOS' MODEL... TOO DANGEROUS FOR PUBLIC"
+        },
+        {
+          "id": "a6f4c4ea8659b6ee",
+          "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
+          "url": "https://red.anthropic.com/2026/mythos-preview/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://red.anthropic.com/2026/mythos-preview/ Comments URL: https://news.ycombinator.com/item?id=47679155 Points: 37 # Comments: 3",
+          "published": "2026-04-07T18:11:31+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC TESTS MYTHOS CYBERSECURITY POWERS"
+        },
+        {
+          "id": "db5eca5c961777f8",
+          "title": "Why Anthropic\u2019s new model has cybersecurity experts rattled",
+          "url": "https://www.platformer.news/anthropic-mythos-cybersecurity-risk-experts/",
+          "source": "Platformer",
+          "summary": "The company says it has built its most dangerous model yet. Can its coalition of internet companies fix the internet before others catch up?",
+          "published": "2026-04-07T23:16:00+00:00",
+          "score": 41.0,
+          "headline": "ANTHROPIC'S NEW MODEL RATTLES CYBERSECURITY EXPERTS"
+        },
+        {
+          "id": "332acd2e1309ada7",
+          "title": "Anthropic just announced their latest AI model Mythos under Project Glasswing that found zero-days in every major OS and browser",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfa8gc/anthropic_just_announced_their_latest_ai_model/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Project Glasswing is honestly one of the most alarming and exciting things at the same time. About a week ago, when Claude Code source code was leaked, we found out about a mysterious model called Mythos and now we have official details from Anthropic: - it's too capable at finding and exploiting software vulnerabilities (found 27-year-old vulnerability in OpenBSD that let an attacker remotely crash any machine just by connecting to it, 16-year-old bug in FFmpeg hiding in a line of code that automated tools had hit 5 million times without catching it) - it autonomously chained Linux kernel vulnerabilities together to escalate from regular user access to full machine control - on SWE-bench Verified (agentic coding), it hit 93.9% vs 80.8% for Opus 4.6 - an elite coalition they pulled is damn massive: AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Microsoft, NVIDIA, Palo Alto Networks, and the Linux Foundation all have access to it, before attackers do. - they're basical",
+          "published": "2026-04-07T22:03:56+00:00",
+          "score": 41.0,
+          "headline": "ANTHROPIC MYTHOS AI FINDS ZERO-DAYS IN ALL MAJOR OS"
+        },
+        {
+          "id": "06cc0e49252cbb95",
+          "title": "Anthropic launches Project Glasswing, an effort to prevent AI cyberattacks with AI",
+          "url": "https://www.engadget.com/ai/anthropic-launches-project-glasswing-an-effort-to-prevent-ai-cyberattacks-with-ai-214939773.html?src=rss",
+          "source": "Engadget",
+          "summary": "We see a lot of doom and gloom about the potential negative impacts of artificial intelligence, particularly centered on how it could create new problems in cybersecurity. Anthropic has announced a new initiative called Project Glasswing to help address those concerns by working &quot;to secure the world\u2019s most critical software&quot; against AI-powered attacks. The endeavor includes Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA and Palo Alto Networks as partners.&nbsp;Participants will use Claude Mythos Preview, an unreleased, general-purpose model from Anthropic, to enhance their own security projects. Anthropic claims that this model has found thousands of exploitable vulnerabilities, &quot;including some in every major operating system and web browser.&quot; The company said it wants to begin using its tools defensively to prevent malicious use of AI that could cause severe consequences for economies and sec",
+          "published": "2026-04-07T21:49:39+00:00",
+          "score": 41.0,
+          "headline": "ANTHROPIC LAUNCHES PROJECT GLASSWING - AI vs Cyberattacks"
+        }
+      ],
+      "current_topic_name": "Anthropic Mythos Cybersecurity AI"
     }
   ],
-  "last_updated": "2026-04-08T01:59:46.316807"
+  "last_updated": "2026-04-08T04:38:58.330992"
 }
