@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "US-China AI Competition",
+      "description": "Escalating technological rivalry between US and China over AI models, chips, and strategic capabilities.",
+      "question": "Is China's AI progress more threatening or impressive to the US?",
+      "button_a": "Threatening",
+      "button_b": "US",
+      "poll_id": "us-china-ai-competition-20260407",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-geopolitics-and-china-20260408.html",
+      "started_at": "2026-04-07T15:05:57.209339",
+      "archived_at": "2026-04-08T16:59:19.274704",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Corporate Drama",
       "description": "Major developments around OpenAI including internal memos, policy proposals, legal battles, and security threats to infrastructure.",
       "question": "Should Altman's policy proposals be seen as leadership or damage control?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-startup-funding-surge-20260225.html",
       "started_at": "2026-02-25T01:35:35.518875",
       "archived_at": "2026-02-26T01:44:44.059790",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "India AI Investment Race",
-      "description": "Major Indian conglomerates and global tech giants are making massive AI investments to establish India as a global AI powerhouse.",
-      "question": "Will India's massive AI investments succeed in creating a global tech superpower?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "india-ai-investment-race-20260221",
-      "results": {
-        "pro": 0,
-        "con": 1,
-        "total": 1,
-        "pro_percent": 0,
-        "con_percent": 100
-      },
-      "analysis_url": "/analysis/analysis-india-ai-development-20260225.html",
-      "started_at": "2026-02-21T00:01:37.351702",
-      "archived_at": "2026-02-25T01:35:44.871819",
       "reason": "topic_replaced"
     }
   ]
