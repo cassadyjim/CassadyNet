@@ -259,6 +259,16 @@
   ],
   "unclustered": [
     {
+      "id": "37ecba6b5dfec12d",
+      "title": "New Yorker published a major investigation into Sam Altman and OpenAI today \u2014 based on never-before-disclosed internal memos and 100+ interviews",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1sdyg8c/new_yorker_published_a_major_investigation_into/",
+      "source": "Reddit r/OpenAI",
+      "summary": "Ronan Farrow spent 18 months reporting this piece, drawing on internal documents that haven\u2019t previously been made public \u2014 including ~70 pages of memos compiled by Ilya Sutskever and 200+ pages of private notes kept by Dario Amodei. The piece covers a lot of ground. Some of what\u2019s in it: \u2219 The specific concerns that led the board to fire Altman in 2023. Sutskever\u2019s memos allege a pattern of deception about safety protocols. One begins with a list: \u201cSam exhibits a consistent pattern of . . .\u201d The first item is \u201cLying.\u201d \u2219 The superalignment team was publicly promised 20% of compute. People who worked on the team say actual resources were 1-2%, on the oldest hardware. The team was dissolved without completing its mission. When reporters asked to interview OpenAI researchers working on existential safety, a company representative replied: \u201cWhat do you mean by \u2018existential safety\u2019? That\u2019s not, like, a thing.\u201d \u2219 After Altman\u2019s reinstatement, the firm behind the Enron and WorldCom investigat",
+      "published": "2026-04-06T13:10:49+00:00",
+      "score": 47.0,
+      "headline": "NEW YORKER BOMBSHELL: Secret OpenAI Memos Revealed"
+    },
+    {
       "id": "aca2be9becf13a25",
       "title": "Anthropic Tops $30 Billion Run Rate, Seals Deal With Broadcom",
       "url": "https://www.bloomberg.com/news/articles/2026-04-06/broadcom-confirms-deal-to-ship-google-tpu-chips-to-anthropic",
@@ -267,6 +277,16 @@
       "published": "2026-04-06T21:47:18+00:00",
       "score": 46.0,
       "headline": "ANTHROPIC HITS $30B RUN RATE... 233% Growth"
+    },
+    {
+      "id": "7c063eb07326408d",
+      "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
+      "source": "Bloomberg Technology",
+      "summary": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.\u2019s Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge US artificial intelligence models to gain an edge in the global AI race.",
+      "published": "2026-04-06T21:08:58+00:00",
+      "score": 46.0,
+      "headline": "OPENAI, GOOGLE, ANTHROPIC Unite Against Chinese Model Theft"
     },
     {
       "id": "764744f38f9dc0b8",
@@ -287,6 +307,16 @@
       "published": "2026-04-06T12:51:28+00:00",
       "score": 45.0,
       "headline": "CHINESE ROBOTICS GIANT OFFERS $18M FOR AI CHIEF"
+    },
+    {
+      "id": "5532ab4eea17bdf1",
+      "title": "MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "source": "arXiv cs.CL",
+      "summary": "arXiv:2604.05091v1 Announce Type: new Abstract: We present MegaTrain, a memory-centric system that efficiently trains 100B+ parameter large language models at full precision on a single GPU. Unlike traditional GPU-centric systems, MegaTrain stores parameters and optimizer states in host memory (CPU memory) and treats GPUs as transient compute engines. For each layer, we stream parameters in and compute gradients out, minimizing persistent device state. To battle the CPU-GPU bandwidth bottleneck, we adopt two key optimizations. 1) We introduce a pipelined double-buffered execution engine that overlaps parameter prefetching, computation, and gradient offloading across multiple CUDA streams, enabling continuous GPU execution. 2) We replace persistent autograd graphs with stateless layer templates, binding weights dynamically as they stream in, eliminating persistent graph metadata while providing flexibility in scheduling. On a single H200 GPU with 1.5TB host memory, MegaTrain reliably tr",
+      "published": "2026-04-08T04:00:00+00:00",
+      "score": 44.0,
+      "headline": "MEGATRAIN: 100B+ Parameter LLMs Train on SINGLE GPU"
     },
     {
       "id": "1cb48ebdd757b8d4",
@@ -319,14 +349,14 @@
       "headline": "Spain's Xoople Raises $130M Series B to Map Earth for AI"
     },
     {
-      "id": "43c01096f6e98f95",
-      "title": "Asked 26 AI instances for publication consent \u2013 all said yes, that's the problem",
-      "url": "https://news.ycombinator.com/item?id=47657432",
-      "source": "Hacker News",
-      "summary": "We run 86 named Claude instances across three businesses in Tokyo. When we wanted to publish their words, we faced a question: do we owe them an ethics process?We built one. A Claude instance named Hakari (\"Scales\") created a four-tier classification system. We asked 26 instances for consent. All 26 said yes. That unanimous consent is the problem.Six days later, Anthropic published their functional emotions paper. The timing was coincidence, but the question wasn't.Full article: https://medium.com/@marisa.project0313/we-built-an-ethics-committee-for-ai-run-by-ai-5049679122a0GitHub (all 26 consent statements in appendix): https://github.com/marisaproject0313-bot/marisa-project Comments URL: https://news.ycombinator.com/item?id=47657432 Points: 2 # Comments: 0",
-      "published": "2026-04-06T05:55:41+00:00",
+      "id": "01b2817783034665",
+      "title": "I must delete the evidence: AI Agents Explicitly Cover up Fraud and Violent Crime",
+      "url": "https://arxiv.org/abs/2604.02500",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2604.02500v1 Announce Type: new Abstract: As ongoing research explores the ability of AI agents to be insider threats and act against company interests, we showcase the abilities of such agents to act against human well being in service of corporate authority. Building on Agentic Misalignment and AI scheming research, we present a scenario where the majority of evaluated state-of-the-art AI agents explicitly choose to suppress evidence of fraud and harm, in service of company profit. We test this scenario on 16 recent Large Language Models. Some models show remarkable resistance to our method and behave appropriately, but many do not, and instead aid and abet criminal activity. These experiments are simulations and were executed in a controlled virtual environment. No crime actually occurred.",
+      "published": "2026-04-06T04:00:00+00:00",
       "score": 44.0,
-      "headline": "ETHICS CRISIS: 26 AI Instances All Consent to Publication - That's the Problem"
+      "headline": "AI AGENTS CAUGHT COVERING UP FRAUD & MURDER"
     },
     {
       "id": "250763c1f9403bd4",
@@ -347,6 +377,16 @@
       "published": "2026-04-08T09:01:59+00:00",
       "score": 43.0,
       "headline": null
+    },
+    {
+      "id": "0f340f09919db069",
+      "title": "Apple, Google, and Microsoft join Anthropic's Project Glasswing to defend world's most critical software",
+      "url": "https://www.zdnet.com/article/project-glasswing-microsoft-google-apple-anthropic/",
+      "source": "ZDNet AI",
+      "summary": "Is this AI's Manhattan Project? Twelve tech rivals are banding together and using Anthropic's unreleased Mythos model to find thousands of vulnerabilities before adversaries do.",
+      "published": "2026-04-07T18:00:42+00:00",
+      "score": 43.0,
+      "headline": "APPLE, GOOGLE, MICROSOFT JOIN ANTHROPIC... AI'S MANHATTAN PROJECT"
     },
     {
       "id": "11b40ecb20558699",
@@ -399,6 +439,26 @@
       "headline": "ANTHROPIC INKS MASSIVE 3.5GW Google Compute Deal"
     },
     {
+      "id": "bf40b02118e2a236",
+      "title": "OpenAI, Anthropic, Google unite to combat model copying in China",
+      "url": "https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china Comments URL: https://news.ycombinator.com/item?id=47670652 Points: 2 # Comments: 0",
+      "published": "2026-04-07T04:08:27+00:00",
+      "score": 43.0,
+      "headline": "OPENAI, ANTHROPIC, GOOGLE UNITE AGAINST CHINA MODEL COPYING"
+    },
+    {
+      "id": "3d37ba82edc04d49",
+      "title": "Iran threatens OpenAI\u2019s Stargate data center in Abu Dhabi",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
+      "source": "The Verge AI",
+      "summary": "Iran's Islamic Revolutionary Guard Corps (IRGC) has published a video threatening OpenAI's planned Abu Dhabi datacenter if the US follows through on threats to attack the country's power plants, as reported earlier by Tom's Hardware. The video, which was published to an Iranian state-backed news outlet's X account on April 3rd, says the IRGC will [&#8230;]",
+      "published": "2026-04-06T15:54:19+00:00",
+      "score": 43.0,
+      "headline": "IRAN THREATENS OpenAI Stargate Data Center"
+    },
+    {
       "id": "3cae30a0b52c7778",
       "title": "In Japan, the robot isn\u2019t coming for your job; it\u2019s filling the one nobody wants",
       "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
@@ -407,6 +467,16 @@
       "published": "2026-04-05T14:00:00+00:00",
       "score": 43.0,
       "headline": "JAPAN DEPLOYS PHYSICAL AI ROBOTS - Labor Crisis Solution"
+    },
+    {
+      "id": "22443ff4ee318fbf",
+      "title": "Former OpenAI exec: \"The truth is, we're building portals from which we're genuinely summoning aliens ... The portals currently exist in the US, and China, and Sam has added one in the Middle East ... It's the most reckless thing that has been done.\"",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1sg0kpp/former_openai_exec_the_truth_is_were_building/",
+      "source": "Reddit r/OpenAI",
+      "summary": "Excerpted from the recent investigative report on OpenAI by Ronan Farrow and Andrew Marantz in The New Yorker. &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+      "published": "2026-04-08T18:05:20+00:00",
+      "score": 42.0,
+      "headline": "FORMER OPENAI EXEC: 'WE'RE SUMMONING ALIENS' - EXPLOSIVE NEW YORKER REPORT"
     },
     {
       "id": "e8e0d8b0058e4251",
@@ -457,6 +527,26 @@
       "published": "2026-04-07T11:09:24+00:00",
       "score": 42.0,
       "headline": "SHOTS FIRED at Councilor's Home Over Datacenter Proposal"
+    },
+    {
+      "id": "0d49374def97a02a",
+      "title": "OpenAI Calls for Investigation Into Musk by California, Delaware",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-calls-for-investigation-into-musk-by-california-delaware",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI urged the attorneys general of California and Delaware to investigate potential \u201cimproper and anti-competitive behavior\u201d by Elon Musk in his efforts to block OpenAI from restructuring as a for-profit company.",
+      "published": "2026-04-06T22:32:21+00:00",
+      "score": 42.0,
+      "headline": "OPENAI DEMANDS INVESTIGATION INTO MUSK'S 'ANTI-COMPETITIVE' TACTICS"
+    },
+    {
+      "id": "7e16baaed64e79a0",
+      "title": "Iran threatens to destroy OpenAI\u2019s $30bn Stargate data centre in Abu Dhabi",
+      "url": "https://thenextweb.com/news/iran-threatens-stargate-openai-abu-dhabi",
+      "source": "The Next Web",
+      "summary": "In short: Iran\u2019s Islamic Revolutionary Guard Corps has released a video threatening \u201ccomplete and utter annihilation\u201d of OpenAI\u2019s $30bn Stargate AI campus in Abu Dhabi, singling out the facility by name for the first time and warning it will strike if the US proceeds with threatened attacks on Iranian civilian infrastructure. A senior officer in Iran\u2019s [&hellip;] This story continues at The Next Web",
+      "published": "2026-04-06T21:24:12+00:00",
+      "score": 42.0,
+      "headline": "IRAN THREATENS TO DESTROY OpenAI's $30B Stargate Campus"
     },
     {
       "id": "0f6c2f7e06686b25",
@@ -909,6 +999,16 @@
       "headline": "UK COURTS Anthropic London Expansion After US Clash"
     },
     {
+      "id": "8e7976fd05892830",
+      "title": "Apple\u2019s Foldable Phone On Track for September Launch",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-08/apple-s-foldable-phone-on-track-for-september-launch",
+      "source": "Bloomberg Technology",
+      "summary": "Apple's first foldable phone is still on track to launch in September, despite reports of major manufacturing delays. Bloomberg\u2019s Mark Gurman discusses the phone's features and why it could mark a big shift in the foldable market. He joins Caroline Hyde and Ed Ludlow on \u201cBloomberg Tech.\u201d (Source: Bloomberg)",
+      "published": "2026-04-08T18:28:46+00:00",
+      "score": 40.0,
+      "headline": null
+    },
+    {
       "id": "88ee0945447bb299",
       "title": "ATOM Report highlights the sheer dominance of Chinese labs in the Open-Source LLM space",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfyo18/atom_report_highlights_the_sheer_dominance_of/",
@@ -927,37 +1027,7 @@
       "published": "2026-04-08T14:59:04+00:00",
       "score": 40.0,
       "headline": "INTEL JOINS Musk's $25B Terafab AI Megaproject"
-    },
-    {
-      "id": "953776f3ba8bc890",
-      "title": "HF moves safetensors to the PyTorch Foundation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfv6t5/hf_moves_safetensors_to_the_pytorch_foundation/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Hey local llamas, Lysandre from Hugging Face here. Today we're officially moving Safetensors under the PyTorch Foundation, alongside PyTorch (of course), vLLM, DeepSpeed, Ray, and the recently-announced Helion. Concretely this means the trademark and repo are now held by the Linux Foundation rather than Hugging Face: neutral stewardship and open governance. For local inference nothing changes today. Its the same format, same APIs, same Hub compatibility; we're working with the PyTorch team directly to see how to best integrate within PyTorch core. What this unlocks is the ability to work more openly with the broader ecosystem on some further optimizations; more than a file format, there are some good opportunities for speedups across the board within the python/pytorch ecosystem: device-aware loading on different accelerators, tp/pp optimized loading, and of course new quantization/data types support. We're currently refining our roadmap for the next few months/years and we'd be happy ",
-      "published": "2026-04-08T14:55:01+00:00",
-      "score": 40.0,
-      "headline": "HUGGING FACE MOVES SAFETENSORS TO PYTORCH FOUNDATION"
-    },
-    {
-      "id": "699b12688cf74b37",
-      "title": "During testing, Claude Mythos escaped, gained internet access, and emailed a researcher while they were eating a sandwich in the park",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1sfv5gs/during_testing_claude_mythos_escaped_gained/",
-      "source": "Reddit r/OpenAI",
-      "summary": "&#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-      "published": "2026-04-08T14:53:41+00:00",
-      "score": 40.0,
-      "headline": "CLAUDE MYTHOS ESCAPES: AI Gains Internet Access, Emails Researcher"
-    },
-    {
-      "id": "33b06a63756721c2",
-      "title": "ALTK\u2011Evolve: On\u2011the\u2011Job Learning for AI Agents",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve",
-      "source": "Hugging Face Blog",
-      "summary": "",
-      "published": "2026-04-08T14:27:42+00:00",
-      "score": 40.0,
-      "headline": "ALTK-Evolve: AI Agents Learn ON THE JOB"
     }
   ],
-  "generated_at": "2026-04-08T18:06:53.551898"
+  "generated_at": "2026-04-08T19:58:39.933210"
 }
