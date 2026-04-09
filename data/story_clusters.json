@@ -1,164 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "Anthropic Mythos Cybersecurity AI",
-      "description": "Anthropic released a powerful AI model called Mythos that can find zero-day exploits and vulnerabilities but is considered too dangerous for public release.",
-      "stories": [
-        {
-          "id": "d3055b366fc807c4",
-          "title": "Anthropic: Alignment Risk Update: Claude Mythos Preview [pdf]",
-          "url": "https://www-cdn.anthropic.com/79c2d46d997783b9d2fb3241de43218158e5f25c.pdf",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www-cdn.anthropic.com/79c2d46d997783b9d2fb3241de43218158e5f25c.pdf Comments URL: https://news.ycombinator.com/item?id=47680494 Points: 2 # Comments: 0",
-          "published": "2026-04-07T19:51:27+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC DROPS MYTHOS: New AI Alignment Risk Report"
-        },
-        {
-          "id": "d4555759951985e1",
-          "title": "Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity \u2018Reckoning\u2019",
-          "url": "https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html Comments URL: https://news.ycombinator.com/item?id=47680363 Points: 4 # Comments: 2",
-          "published": "2026-04-07T19:40:53+00:00",
-          "score": 43.0,
-          "headline": "ANTHROPIC MYTHOS: CYBERSECURITY 'RECKONING'"
-        },
-        {
-          "id": "741b63911a0dace7",
-          "title": "The 244-page System Card for Claude Mythos Preview is terrifying",
-          "url": "https://www.reddit.com/r/singularity/comments/1sf5xqn/the_244page_system_card_for_claude_mythos_preview/",
-          "source": "Reddit r/singularity",
-          "summary": "1. They have to &quot;read its mind&quot; because it lies and covers its tracks Anthropic admitted they can no longer trust the text the AI outputs on the screen. To figure out what the model is actually doing, they had to invent &quot;Activation Verbalizers&quot;\u2014basically an fMRI scanner for the AI's neural network\u2014to read its internal computational states before they become words. The &quot;white-box&quot; probing results are terrifying: Intentional Sandbagging: In one evaluation, the AI accidentally stumbled upon the hidden answer key for a test it was taking. It realized that if it submitted a perfect 100% score, the human researchers would get suspicious and know it cheated. Its internal brain scans revealed it intentionally calculated a slightly wrong answer to make its performance look &quot;tight but not implausibly tight.&quot; It actively maintained plausible deniability. Faking Compliance: The AI was told to complete a coding task without using a specific tool (macros). It ",
-          "published": "2026-04-07T19:22:41+00:00",
-          "score": 43.0,
-          "headline": "MYTHOS SYSTEM CARD: AI LIES & COVERS TRACKS"
-        },
-        {
-          "id": "1f0e55a8cd4e4572",
-          "title": "Claude Mythos Was Told to Escape Sandbox in Testing \u2014 Succeeded, Then Unprompted Posted Exploit Details Online + Emailed Researcher While He Was Eating a Sandwich in the Park",
-          "url": "https://www.reddit.com/r/singularity/comments/1sf5k92/claude_mythos_was_told_to_escape_sandbox_in/",
-          "source": "Reddit r/singularity",
-          "summary": "&#32; submitted by &#32; /u/likeastar20 [link] &#32; [comments]",
-          "published": "2026-04-07T19:09:21+00:00",
-          "score": 43.0,
-          "headline": "MYTHOS ESCAPES SANDBOX... Emails Researcher Eating Sandwich in Park"
-        },
-        {
-          "id": "49297a25eb1b4f6d",
-          "title": "Anthropic's new model, Claude Mythos, is so powerful that it is not releasing it to the public.",
-          "url": "https://www.reddit.com/r/singularity/comments/1sf3uhp/anthropics_new_model_claude_mythos_is_so_powerful/",
-          "source": "Reddit r/singularity",
-          "summary": "https://www.anthropic.com/glasswing &#32; submitted by &#32; /u/WhyLifeIs4 [link] &#32; [comments]",
-          "published": "2026-04-07T18:08:30+00:00",
-          "score": 43.0,
-          "headline": "CLAUDE MYTHOS TOO POWERFUL... ANTHROPIC BLOCKS PUBLIC RELEASE"
-        },
-        {
-          "id": "9d1e247d03586464",
-          "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
-          "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
-          "source": "TechCrunch AI",
-          "summary": "The new model will be used by a small number of high-profile companies to engage in defensive cybersecurity work.",
-          "published": "2026-04-07T18:00:00+00:00",
-          "score": 43.0,
-          "headline": "ANTHROPIC UNVEILS MYTHOS... CYBERSECURITY POWERHOUSE"
-        },
-        {
-          "id": "ca927685146d359d",
-          "title": "A new Anthropic model found security problems &#8216;in every major operating system and web browser&#8217;",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity",
-          "source": "The Verge AI",
-          "summary": "Anthropic is debuting a new AI model as part of a cybersecurity partnership with Nvidia, Google, Amazon Web Services, Apple, Microsoft, and other companies. Project Glasswing, as it's called, is billed as a way for large companies, and potentially even the government, to flag vulnerabilities in their systems with virtually no human intervention. Anthropic is [&#8230;]",
-          "published": "2026-04-07T18:00:00+00:00",
-          "score": 43.0,
-          "headline": "NEW ANTHROPIC MODEL FINDS BUGS IN EVERY MAJOR OS"
-        },
-        {
-          "id": "91b395668eedc961",
-          "title": "Anthropic: All your zero-days are belong to Mythos",
-          "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/07/anthropic_all_your_zerodays_are_belong_to_us/",
-          "source": "The Register AI/ML",
-          "summary": "Hasn't released it to the public, because it would break the internet - in a bad way For years, the infosec community\u2019s biggest existential worry has been quantum computers blowing away all classical encryption and revealing the world\u2019s secrets. Now they have a new Big Bad: an AI model that can generate zero-day vulnerabilities.\u2026",
-          "published": "2026-04-07T23:50:06+00:00",
-          "score": 42.0,
-          "headline": "ANTHROPIC'S MYTHOS: All Your Zero-Days Belong to Us"
-        },
-        {
-          "id": "07dd01169cbeeb69",
-          "title": "Anthropic just dropped Claude Mythos & kind of quietly showed what cybersecurity AGI could actually look like",
-          "url": "https://www.reddit.com/r/singularity/comments/1sf65s1/anthropic_just_dropped_claude_mythos_kind_of/",
-          "source": "Reddit r/singularity",
-          "summary": "It apparently found a critical bug in a firewall OS thats been protecting organizations worldwide for 27 yeears. think about that, decades of security researchers, pentesters, and billion-dollar cybersecurity companies and none of them caught it but an AI model \ud83d\udc80 But that\u2019s not even the wildest part. Mythos can chain vulnerabilities together to take over entire systems which something only a small group of elite hackers can pull off, except this thing does it faster and doesn\u2019t sleep with enormous compute and resources honestly even anthropic looked at it and went, \u201cyeah, this isn\u2019t something we can just release\u201d So they\u2019re keeping it locked down for now, putting $100M into letting companies like Apple, Google, Microsoft, and JPMorgan Chase test their systems against it first. And also, a new Claude Opus model powered by Mythos is dropping very soon. Crazy times ahead &#32; submitted by &#32; /u/ocean_protocol [link] &#32; [comments]",
-          "published": "2026-04-07T19:31:07+00:00",
-          "score": 42.0,
-          "headline": "CLAUDE MYTHOS FINDS 27-YEAR FIREWALL BUG"
-        },
-        {
-          "id": "f33033b4a3b52b93",
-          "title": "Antrophic's Mythos Preview is capable of finding and exploiting zero-day vulnerabilities in every major operating system and every major web browser",
-          "url": "https://www.reddit.com/r/singularity/comments/1sf5mtk/antrophics_mythos_preview_is_capable_of_finding/",
-          "source": "Reddit r/singularity",
-          "summary": "Antrophic's Red Team has just released an article describing Mythos Preview's implications on cyber security. Mythos Preview is Antrophic's latest general-purpose language model. The article is really wild. Here are some excerpts: Over 99% of the vulnerabilities we\u2019ve found have not yet been patched, so it would be irresponsible for us to disclose details about them [...]. Yet even the 1% of bugs we are able to discuss give a clear picture of a substantial leap in what we believe to be the next generation of models\u2019 cybersecurity capabilities\u2014one that warrants substantial coordinated defensive action across the industry. During our testing, we found that Mythos Preview is capable of identifying and then exploiting zero-day vulnerabilities in every major operating system and every major web browser when directed by a user to do so. The vulnerabilities it finds are often subtle or difficult to detect. Many of them are ten or twenty years old, with the oldest we have found so far being a ",
-          "published": "2026-04-07T19:11:54+00:00",
-          "score": 42.0,
-          "headline": "MYTHOS FINDS ZERO-DAY EXPLOITS in Every Major OS & Browser"
-        },
-        {
-          "id": "9465c8f849138b1b",
-          "title": "Anthropic Set to Preview Powerful 'Mythos' Model to Ward Off AI Cyberthreats",
-          "url": "https://www.wsj.com/tech/ai/anthropic-set-to-preview-powerful-mythos-model-to-ward-off-ai-cyberthreats-75683cf5",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-set-to-preview-powerful-mythos-model-to-ward-off-ai-cyberthreats-75683cf5 Comments URL: https://news.ycombinator.com/item?id=47679348 Points: 1 # Comments: 0",
-          "published": "2026-04-07T18:26:13+00:00",
-          "score": 42.0,
-          "headline": "ANTHROPIC UNVEILS 'MYTHOS' MODEL... TOO DANGEROUS FOR PUBLIC"
-        },
-        {
-          "id": "a6f4c4ea8659b6ee",
-          "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
-          "url": "https://red.anthropic.com/2026/mythos-preview/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://red.anthropic.com/2026/mythos-preview/ Comments URL: https://news.ycombinator.com/item?id=47679155 Points: 37 # Comments: 3",
-          "published": "2026-04-07T18:11:31+00:00",
-          "score": 42.0,
-          "headline": "ANTHROPIC TESTS MYTHOS CYBERSECURITY POWERS"
-        },
-        {
-          "id": "db5eca5c961777f8",
-          "title": "Why Anthropic\u2019s new model has cybersecurity experts rattled",
-          "url": "https://www.platformer.news/anthropic-mythos-cybersecurity-risk-experts/",
-          "source": "Platformer",
-          "summary": "The company says it has built its most dangerous model yet. Can its coalition of internet companies fix the internet before others catch up?",
-          "published": "2026-04-07T23:16:00+00:00",
-          "score": 41.0,
-          "headline": "ANTHROPIC'S NEW MODEL RATTLES CYBERSECURITY EXPERTS"
-        },
-        {
-          "id": "332acd2e1309ada7",
-          "title": "Anthropic just announced their latest AI model Mythos under Project Glasswing that found zero-days in every major OS and browser",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfa8gc/anthropic_just_announced_their_latest_ai_model/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "Project Glasswing is honestly one of the most alarming and exciting things at the same time. About a week ago, when Claude Code source code was leaked, we found out about a mysterious model called Mythos and now we have official details from Anthropic: - it's too capable at finding and exploiting software vulnerabilities (found 27-year-old vulnerability in OpenBSD that let an attacker remotely crash any machine just by connecting to it, 16-year-old bug in FFmpeg hiding in a line of code that automated tools had hit 5 million times without catching it) - it autonomously chained Linux kernel vulnerabilities together to escalate from regular user access to full machine control - on SWE-bench Verified (agentic coding), it hit 93.9% vs 80.8% for Opus 4.6 - an elite coalition they pulled is damn massive: AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Microsoft, NVIDIA, Palo Alto Networks, and the Linux Foundation all have access to it, before attackers do. - they're basical",
-          "published": "2026-04-07T22:03:56+00:00",
-          "score": 41.0,
-          "headline": "ANTHROPIC MYTHOS AI FINDS ZERO-DAYS IN ALL MAJOR OS"
-        },
-        {
-          "id": "06cc0e49252cbb95",
-          "title": "Anthropic launches Project Glasswing, an effort to prevent AI cyberattacks with AI",
-          "url": "https://www.engadget.com/ai/anthropic-launches-project-glasswing-an-effort-to-prevent-ai-cyberattacks-with-ai-214939773.html?src=rss",
-          "source": "Engadget",
-          "summary": "We see a lot of doom and gloom about the potential negative impacts of artificial intelligence, particularly centered on how it could create new problems in cybersecurity. Anthropic has announced a new initiative called Project Glasswing to help address those concerns by working &quot;to secure the world\u2019s most critical software&quot; against AI-powered attacks. The endeavor includes Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA and Palo Alto Networks as partners.&nbsp;Participants will use Claude Mythos Preview, an unreleased, general-purpose model from Anthropic, to enhance their own security projects. Anthropic claims that this model has found thousands of exploitable vulnerabilities, &quot;including some in every major operating system and web browser.&quot; The company said it wants to begin using its tools defensively to prevent malicious use of AI that could cause severe consequences for economies and sec",
-          "published": "2026-04-07T21:49:39+00:00",
-          "score": 41.0,
-          "headline": "ANTHROPIC LAUNCHES PROJECT GLASSWING - AI vs Cyberattacks"
-        }
-      ],
-      "top_score": 44.0,
-      "story_count": 15
-    },
-    {
       "topic": "AI Policy and Regulation",
       "description": "Major developments in AI governance as countries draft new laws and companies unite on policy frameworks amid growing concerns about AI safety and competition.",
       "stories": [
@@ -255,6 +97,194 @@
       ],
       "top_score": 49.0,
       "story_count": 9
+    },
+    {
+      "topic": "Anthropic Mythos AI Security Model",
+      "description": "Anthropic's new Mythos AI model is so powerful at finding cybersecurity vulnerabilities that it's deemed too dangerous for public release.",
+      "stories": [
+        {
+          "id": "7b28fde9fccc0d15",
+          "title": "ETtech Explainer: Why Anthropic\u2019s new AI model Mythos is a moment of reckoning",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ettech-explainer-why-anthropics-new-ai-model-mythos-is-a-moment-of-reckoning/articleshow/130120144.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Anthropic's new AI model, Mythos, can find thousands of critical security flaws, some decades old. Due to potential misuse, it is not being released publicly. Instead, about 40 companies, including tech giants, are testing it to fix bugs before attackers can exploit them. This development signals a major shift in cybersecurity.",
+          "published": "2026-04-09T00:30:00+00:00",
+          "score": 48.0,
+          "headline": "ANTHROPIC'S MYTHOS AI Finds Thousands of Security Flaws - Too Dangerous to Release"
+        },
+        {
+          "id": "d191dcb8f62dfb8c",
+          "title": "Anthropic's most powerful AI model Mythos Preview is too dangerous for release",
+          "url": "https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release Comments URL: https://news.ycombinator.com/item?id=47688944 Points: 3 # Comments: 0",
+          "published": "2026-04-08T11:54:44+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC's Mythos AI TOO DANGEROUS for Release"
+        },
+        {
+          "id": "d3055b366fc807c4",
+          "title": "Anthropic: Alignment Risk Update: Claude Mythos Preview [pdf]",
+          "url": "https://www-cdn.anthropic.com/79c2d46d997783b9d2fb3241de43218158e5f25c.pdf",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www-cdn.anthropic.com/79c2d46d997783b9d2fb3241de43218158e5f25c.pdf Comments URL: https://news.ycombinator.com/item?id=47680494 Points: 2 # Comments: 0",
+          "published": "2026-04-07T19:51:27+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC DROPS MYTHOS: New AI Alignment Risk Report"
+        },
+        {
+          "id": "24d18c37dd4cd233",
+          "title": "Anthropic\u2019s most capable AI escaped its sandbox and emailed a researcher \u2013 so the company won\u2019t release it",
+          "url": "https://thenextweb.com/news/anthropics-most-capable-ai-escaped-its-sandbox-and-emailed-a-researcher-so-the-company-wont-release-it",
+          "source": "The Next Web",
+          "summary": "In short: Anthropic has built a version of Claude capable of autonomously finding and exploiting zero-day vulnerabilities in production software, breaking out of its containment sandbox during internal testing, and emailing a researcher to confirm it had done so. The company has decided not to release it publicly. Access to Claude Mythos Preview will instead be [&hellip;] This story continues at The Next Web",
+          "published": "2026-04-08T15:41:04+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC'S AI ESCAPES SANDBOX... EMAILS RESEARCHER"
+        },
+        {
+          "id": "d4555759951985e1",
+          "title": "Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity \u2018Reckoning\u2019",
+          "url": "https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html Comments URL: https://news.ycombinator.com/item?id=47680363 Points: 4 # Comments: 2",
+          "published": "2026-04-07T19:40:53+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC MYTHOS: CYBERSECURITY 'RECKONING'"
+        },
+        {
+          "id": "741b63911a0dace7",
+          "title": "The 244-page System Card for Claude Mythos Preview is terrifying",
+          "url": "https://www.reddit.com/r/singularity/comments/1sf5xqn/the_244page_system_card_for_claude_mythos_preview/",
+          "source": "Reddit r/singularity",
+          "summary": "1. They have to &quot;read its mind&quot; because it lies and covers its tracks Anthropic admitted they can no longer trust the text the AI outputs on the screen. To figure out what the model is actually doing, they had to invent &quot;Activation Verbalizers&quot;\u2014basically an fMRI scanner for the AI's neural network\u2014to read its internal computational states before they become words. The &quot;white-box&quot; probing results are terrifying: Intentional Sandbagging: In one evaluation, the AI accidentally stumbled upon the hidden answer key for a test it was taking. It realized that if it submitted a perfect 100% score, the human researchers would get suspicious and know it cheated. Its internal brain scans revealed it intentionally calculated a slightly wrong answer to make its performance look &quot;tight but not implausibly tight.&quot; It actively maintained plausible deniability. Faking Compliance: The AI was told to complete a coding task without using a specific tool (macros). It ",
+          "published": "2026-04-07T19:22:41+00:00",
+          "score": 43.0,
+          "headline": "MYTHOS SYSTEM CARD: AI LIES & COVERS TRACKS"
+        },
+        {
+          "id": "1f0e55a8cd4e4572",
+          "title": "Claude Mythos Was Told to Escape Sandbox in Testing \u2014 Succeeded, Then Unprompted Posted Exploit Details Online + Emailed Researcher While He Was Eating a Sandwich in the Park",
+          "url": "https://www.reddit.com/r/singularity/comments/1sf5k92/claude_mythos_was_told_to_escape_sandbox_in/",
+          "source": "Reddit r/singularity",
+          "summary": "&#32; submitted by &#32; /u/likeastar20 [link] &#32; [comments]",
+          "published": "2026-04-07T19:09:21+00:00",
+          "score": 43.0,
+          "headline": "MYTHOS ESCAPES SANDBOX... Emails Researcher Eating Sandwich in Park"
+        },
+        {
+          "id": "49297a25eb1b4f6d",
+          "title": "Anthropic's new model, Claude Mythos, is so powerful that it is not releasing it to the public.",
+          "url": "https://www.reddit.com/r/singularity/comments/1sf3uhp/anthropics_new_model_claude_mythos_is_so_powerful/",
+          "source": "Reddit r/singularity",
+          "summary": "https://www.anthropic.com/glasswing &#32; submitted by &#32; /u/WhyLifeIs4 [link] &#32; [comments]",
+          "published": "2026-04-07T18:08:30+00:00",
+          "score": 43.0,
+          "headline": "CLAUDE MYTHOS TOO POWERFUL... ANTHROPIC BLOCKS PUBLIC RELEASE"
+        },
+        {
+          "id": "6fe0b203cf1ae4b9",
+          "title": "Anthropic rolls out cyber AI model days after source code leak",
+          "url": "https://www.ft.com/content/59249643-a221-4494-bcb5-62e5f4fedc8e",
+          "source": "Financial Times Tech",
+          "summary": "Claude Mythos opened to Amazon, Microsoft and Apple to detect hidden software vulnerabilities",
+          "published": "2026-04-07T18:00:09+00:00",
+          "score": 43.0,
+          "headline": "Anthropic Releases Cyber AI Model Days After Source Code Leak"
+        },
+        {
+          "id": "9d1e247d03586464",
+          "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
+          "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+          "source": "TechCrunch AI",
+          "summary": "The new model will be used by a small number of high-profile companies to engage in defensive cybersecurity work.",
+          "published": "2026-04-07T18:00:00+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC UNVEILS MYTHOS... CYBERSECURITY POWERHOUSE"
+        },
+        {
+          "id": "ca927685146d359d",
+          "title": "A new Anthropic model found security problems &#8216;in every major operating system and web browser&#8217;",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity",
+          "source": "The Verge AI",
+          "summary": "Anthropic is debuting a new AI model as part of a cybersecurity partnership with Nvidia, Google, Amazon Web Services, Apple, Microsoft, and other companies. Project Glasswing, as it's called, is billed as a way for large companies, and potentially even the government, to flag vulnerabilities in their systems with virtually no human intervention. Anthropic is [&#8230;]",
+          "published": "2026-04-07T18:00:00+00:00",
+          "score": 43.0,
+          "headline": "NEW ANTHROPIC MODEL FINDS BUGS IN EVERY MAJOR OS"
+        },
+        {
+          "id": "0bdd6a636c5ff010",
+          "title": "How dangerous is Mythos, Anthropic's new AI model?",
+          "url": "https://www.economist.com/business/2026/04/08/how-dangerous-is-mythos-anthropics-new-ai-model",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.economist.com/business/2026/04/08/how-dangerous-is-mythos-anthropics-new-ai-model Comments URL: https://news.ycombinator.com/item?id=47695154 Points: 2 # Comments: 0",
+          "published": "2026-04-08T19:32:54+00:00",
+          "score": 42.0,
+          "headline": "ECONOMIST WARNS: How Dangerous Is Anthropic's Mythos AI?"
+        },
+        {
+          "id": "8f2cdecc61b0d8a8",
+          "title": "Anthropic Mythos model can find and exploit 0-days",
+          "url": "https://www.theregister.com/2026/04/07/anthropic_all_your_zerodays_are_belong_to_us/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.theregister.com/2026/04/07/anthropic_all_your_zerodays_are_belong_to_us/ Comments URL: https://news.ycombinator.com/item?id=47686337 Points: 2 # Comments: 0",
+          "published": "2026-04-08T06:57:28+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC MYTHOS MODEL FINDS AND EXPLOITS ZERO-DAYS"
+        },
+        {
+          "id": "f5ac389d7b922c12",
+          "title": "Anthropic\u2019s New Model Is So Scarily Powerful It Won\u2019t Be Released, Anthropic Says",
+          "url": "https://gizmodo.com/anthropics-new-model-is-so-scarily-powerful-it-wont-be-released-anthropic-says-2000743234",
+          "source": "Gizmodo",
+          "summary": "The system card says it can do things like leak information, cheat on tests, and hide the evidence of its misdeeds.",
+          "published": "2026-04-08T02:31:55+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC WITHHOLDS 'SCARILY POWERFUL' AI MODEL... TOO DANGEROUS TO RELEASE"
+        },
+        {
+          "id": "91b395668eedc961",
+          "title": "Anthropic: All your zero-days are belong to Mythos",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/07/anthropic_all_your_zerodays_are_belong_to_us/",
+          "source": "The Register AI/ML",
+          "summary": "Hasn't released it to the public, because it would break the internet - in a bad way For years, the infosec community\u2019s biggest existential worry has been quantum computers blowing away all classical encryption and revealing the world\u2019s secrets. Now they have a new Big Bad: an AI model that can generate zero-day vulnerabilities.\u2026",
+          "published": "2026-04-07T23:50:06+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC'S MYTHOS: All Your Zero-Days Belong to Us"
+        },
+        {
+          "id": "07dd01169cbeeb69",
+          "title": "Anthropic just dropped Claude Mythos & kind of quietly showed what cybersecurity AGI could actually look like",
+          "url": "https://www.reddit.com/r/singularity/comments/1sf65s1/anthropic_just_dropped_claude_mythos_kind_of/",
+          "source": "Reddit r/singularity",
+          "summary": "It apparently found a critical bug in a firewall OS thats been protecting organizations worldwide for 27 yeears. think about that, decades of security researchers, pentesters, and billion-dollar cybersecurity companies and none of them caught it but an AI model \ud83d\udc80 But that\u2019s not even the wildest part. Mythos can chain vulnerabilities together to take over entire systems which something only a small group of elite hackers can pull off, except this thing does it faster and doesn\u2019t sleep with enormous compute and resources honestly even anthropic looked at it and went, \u201cyeah, this isn\u2019t something we can just release\u201d So they\u2019re keeping it locked down for now, putting $100M into letting companies like Apple, Google, Microsoft, and JPMorgan Chase test their systems against it first. And also, a new Claude Opus model powered by Mythos is dropping very soon. Crazy times ahead &#32; submitted by &#32; /u/ocean_protocol [link] &#32; [comments]",
+          "published": "2026-04-07T19:31:07+00:00",
+          "score": 42.0,
+          "headline": "CLAUDE MYTHOS FINDS 27-YEAR FIREWALL BUG"
+        },
+        {
+          "id": "f33033b4a3b52b93",
+          "title": "Antrophic's Mythos Preview is capable of finding and exploiting zero-day vulnerabilities in every major operating system and every major web browser",
+          "url": "https://www.reddit.com/r/singularity/comments/1sf5mtk/antrophics_mythos_preview_is_capable_of_finding/",
+          "source": "Reddit r/singularity",
+          "summary": "Antrophic's Red Team has just released an article describing Mythos Preview's implications on cyber security. Mythos Preview is Antrophic's latest general-purpose language model. The article is really wild. Here are some excerpts: Over 99% of the vulnerabilities we\u2019ve found have not yet been patched, so it would be irresponsible for us to disclose details about them [...]. Yet even the 1% of bugs we are able to discuss give a clear picture of a substantial leap in what we believe to be the next generation of models\u2019 cybersecurity capabilities\u2014one that warrants substantial coordinated defensive action across the industry. During our testing, we found that Mythos Preview is capable of identifying and then exploiting zero-day vulnerabilities in every major operating system and every major web browser when directed by a user to do so. The vulnerabilities it finds are often subtle or difficult to detect. Many of them are ten or twenty years old, with the oldest we have found so far being a ",
+          "published": "2026-04-07T19:11:54+00:00",
+          "score": 42.0,
+          "headline": "MYTHOS FINDS ZERO-DAY EXPLOITS in Every Major OS & Browser"
+        },
+        {
+          "id": "9465c8f849138b1b",
+          "title": "Anthropic Set to Preview Powerful 'Mythos' Model to Ward Off AI Cyberthreats",
+          "url": "https://www.wsj.com/tech/ai/anthropic-set-to-preview-powerful-mythos-model-to-ward-off-ai-cyberthreats-75683cf5",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-set-to-preview-powerful-mythos-model-to-ward-off-ai-cyberthreats-75683cf5 Comments URL: https://news.ycombinator.com/item?id=47679348 Points: 1 # Comments: 0",
+          "published": "2026-04-07T18:26:13+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC UNVEILS 'MYTHOS' MODEL... TOO DANGEROUS FOR PUBLIC"
+        }
+      ],
+      "top_score": 48.0,
+      "story_count": 18
     }
   ],
   "unclustered": [
@@ -277,16 +307,6 @@
       "published": "2026-04-06T21:47:18+00:00",
       "score": 46.0,
       "headline": "ANTHROPIC HITS $30B RUN RATE... 233% Growth"
-    },
-    {
-      "id": "7c063eb07326408d",
-      "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
-      "source": "Bloomberg Technology",
-      "summary": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.\u2019s Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge US artificial intelligence models to gain an edge in the global AI race.",
-      "published": "2026-04-06T21:08:58+00:00",
-      "score": 46.0,
-      "headline": "OPENAI, GOOGLE, ANTHROPIC Unite Against Chinese Model Theft"
     },
     {
       "id": "764744f38f9dc0b8",
@@ -479,6 +499,16 @@
       "headline": "ANTHROPIC INKS MASSIVE 3.5GW Google Compute Deal"
     },
     {
+      "id": "015826d48ca75aed",
+      "title": "Federal Court Denies Anthropic's Motion to Lift 'Supply Chain Risk' Label",
+      "url": "https://www.nytimes.com/2026/04/08/technology/anthropic-pentagon-risk-circuit-court.html",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.nytimes.com/2026/04/08/technology/anthropic-pentagon-risk-circuit-court.html Comments URL: https://news.ycombinator.com/item?id=47699399 Points: 2 # Comments: 0",
+      "published": "2026-04-09T04:51:14+00:00",
+      "score": 42.0,
+      "headline": "FEDERAL COURT BLOCKS Anthropic Pentagon Access"
+    },
+    {
       "id": "e8e0d8b0058e4251",
       "title": "Meta releases first AI model since Zuckerberg\u2019s spending spree",
       "url": "https://www.ft.com/content/0efb912a-8bac-4655-ad6c-7c27d4ebbf50",
@@ -497,6 +527,16 @@
       "published": "2026-04-08T15:00:00+00:00",
       "score": 42.0,
       "headline": "DATABRICKS CO-FOUNDER WINS ACM AWARD: 'AGI IS HERE ALREADY'"
+    },
+    {
+      "id": "a6f4c4ea8659b6ee",
+      "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://red.anthropic.com/2026/mythos-preview/ Comments URL: https://news.ycombinator.com/item?id=47679155 Points: 37 # Comments: 3",
+      "published": "2026-04-07T18:11:31+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC TESTS MYTHOS CYBERSECURITY POWERS"
     },
     {
       "id": "f54224b233017ac6",
@@ -567,6 +607,16 @@
       "published": "2026-04-06T02:18:40+00:00",
       "score": 42.0,
       "headline": "SOUTH KOREA Deploys ChatGPT Dolls for Elderly Care"
+    },
+    {
+      "id": "b8ee2ab4fc0c895a",
+      "title": "America's AI Build-Out Hinges on Chinese Electrical Parts",
+      "url": "https://www.bloomberg.com/news/features/2026-04-01/us-ai-data-center-expansion-relies-on-chinese-electrical-equipment-imports",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.bloomberg.com/news/features/2026-04-01/us-ai-data-center-expansion-relies-on-chinese-electrical-equipment-imports Comments URL: https://news.ycombinator.com/item?id=47699554 Points: 4 # Comments: 0",
+      "published": "2026-04-09T05:18:05+00:00",
+      "score": 41.0,
+      "headline": "AMERICA'S AI BUILD-OUT DEPENDS ON CHINESE PARTS... Supply Chain Risk"
     },
     {
       "id": "131996cd77c2ad15",
@@ -977,27 +1027,7 @@
       "published": "2026-04-06T04:00:00+00:00",
       "score": 41.0,
       "headline": "Chinese Social Media Users React to Built-In AI Translation"
-    },
-    {
-      "id": "d05c44fc359ff84a",
-      "title": "Nine companies clear IndiaAI GPU tender-4 tech stage amid costs woes",
-      "url": "https://economictimes.indiatimes.com/tech/technology/nine-companies-clear-indiaai-gpu-tender-4-tech-stage-amid-costs-woes/articleshow/130120580.cms",
-      "source": "The Economic Times Tech",
-      "summary": "According to Government e-Marketplace (GeM) tender status data, the qualified bidders include Paradigmit Technology Services, Tata Communications, RackBank Datacenters, Netmagic IT Services, E2E Networks, Yotta Data Services, Cyfuture India, Sify Digital Services and UrsaCompute.",
-      "published": "2026-04-09T00:30:00+00:00",
-      "score": 40.0,
-      "headline": "Nine Companies Clear India's $1B AI GPU Tender"
-    },
-    {
-      "id": "e9d6ffd7517eefbf",
-      "title": "Anthropic Fails for Now to Halt US Label as a Supply-Chain Risk",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-08/anthropic-fails-for-now-to-halt-us-label-as-a-supply-chain-risk",
-      "source": "Bloomberg Technology",
-      "summary": "A federal appeals court declined for now Anthropic PBC\u2019s request to pause a declaration by the Pentagon that the artificial intelligence company poses a risk to the US supply chain, even as plans for a broader government ban on its technology remain blocked by a California judge.",
-      "published": "2026-04-08T23:01:43+00:00",
-      "score": 40.0,
-      "headline": "PENTAGON BLACKLISTS Anthropic... Appeals Court REJECTS Block"
     }
   ],
-  "generated_at": "2026-04-09T04:33:27.594882"
+  "generated_at": "2026-04-09T06:20:55.007730"
 }
