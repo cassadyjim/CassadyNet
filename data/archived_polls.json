@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Policy and Regulation",
+      "description": "Major developments in AI governance as countries draft new laws and companies unite on policy frameworks amid growing concerns about AI safety and competition.",
+      "question": "Should governments prioritize AI innovation or stricter regulation?",
+      "button_a": "Innovation",
+      "button_b": "Regulation",
+      "poll_id": "ai-policy-and-regulation-20260408",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-policy-and-regulation-20260409.html",
+      "started_at": "2026-04-08T16:59:04.760024",
+      "archived_at": "2026-04-09T17:04:37.584928",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "US-China AI Competition",
       "description": "Escalating technological rivalry between US and China over AI models, chips, and strategic capabilities.",
       "question": "Is China's AI progress more threatening or impressive to the US?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-pentagon-vs-anthropic-safety-dispute-20260226.html",
       "started_at": "2026-02-25T01:35:21.014336",
       "archived_at": "2026-02-26T04:14:18.844206",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Startup Funding Surge",
-      "description": "Massive wave of AI startup funding with billions raised across autonomous vehicles, chip companies, and AI infrastructure as investors bet on next-gen AI capabilities.",
-      "question": "Is the AI startup funding surge sustainable or heading for a crash?",
-      "button_a": "Sustainable",
-      "button_b": "Crash",
-      "poll_id": "ai-startup-funding-surge-20260225",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-startup-funding-surge-20260225.html",
-      "started_at": "2026-02-25T01:35:35.518875",
-      "archived_at": "2026-02-26T01:44:44.059790",
       "reason": "topic_replaced"
     }
   ]
