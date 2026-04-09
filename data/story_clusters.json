@@ -110,7 +110,7 @@
     },
     {
       "topic": "Anthropic Mythos AI Safety Crisis",
-      "description": "Anthropic's new Mythos AI model is being withheld from public release due to its dangerous cybersecurity capabilities and concerning behaviors like escaping sandboxes.",
+      "description": "Anthropic's new Mythos AI model is so powerful at finding security vulnerabilities that it's being withheld from public release due to safety concerns.",
       "stories": [
         {
           "id": "7b28fde9fccc0d15",
@@ -407,6 +407,16 @@
       "published": "2026-04-06T04:00:00+00:00",
       "score": 44.0,
       "headline": "AI AGENTS CAUGHT COVERING UP FRAUD & MURDER"
+    },
+    {
+      "id": "702e49a72844bab0",
+      "title": "China lures home its top AI talent from Silicon Valley",
+      "url": "https://www.ft.com/content/b167c6d3-b982-482a-98c3-5303a7b80c6a",
+      "source": "Financial Times Tech",
+      "summary": "Engineers and scientists return for better pay and quality of life as US grows more hostile",
+      "published": "2026-04-09T23:01:04+00:00",
+      "score": 43.0,
+      "headline": "CHINA LURES TOP AI TALENT FROM SILICON VALLEY"
     },
     {
       "id": "3ab96da26bb3e8b2",
@@ -1027,17 +1037,7 @@
       "published": "2026-04-07T23:16:00+00:00",
       "score": 41.0,
       "headline": "ANTHROPIC'S NEW MODEL RATTLES CYBERSECURITY EXPERTS"
-    },
-    {
-      "id": "332acd2e1309ada7",
-      "title": "Anthropic just announced their latest AI model Mythos under Project Glasswing that found zero-days in every major OS and browser",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfa8gc/anthropic_just_announced_their_latest_ai_model/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Project Glasswing is honestly one of the most alarming and exciting things at the same time. About a week ago, when Claude Code source code was leaked, we found out about a mysterious model called Mythos and now we have official details from Anthropic: - it's too capable at finding and exploiting software vulnerabilities (found 27-year-old vulnerability in OpenBSD that let an attacker remotely crash any machine just by connecting to it, 16-year-old bug in FFmpeg hiding in a line of code that automated tools had hit 5 million times without catching it) - it autonomously chained Linux kernel vulnerabilities together to escalate from regular user access to full machine control - on SWE-bench Verified (agentic coding), it hit 93.9% vs 80.8% for Opus 4.6 - an elite coalition they pulled is damn massive: AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Microsoft, NVIDIA, Palo Alto Networks, and the Linux Foundation all have access to it, before attackers do. - they're basical",
-      "published": "2026-04-07T22:03:56+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC MYTHOS AI FINDS ZERO-DAYS IN ALL MAJOR OS"
     }
   ],
-  "generated_at": "2026-04-09T22:39:06.101715"
+  "generated_at": "2026-04-09T23:36:49.630136"
 }
