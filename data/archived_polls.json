@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Corporate Strategy and Stargate",
+      "description": "OpenAI faces major strategic challenges including shelving UK Stargate investments due to energy costs while unveiling new industrial policies and forming alliances against Chinese AI competition.",
+      "question": "Are OpenAI's strategic pivots showing smart adaptation or concerning instability?",
+      "button_a": "Adaptation",
+      "button_b": "Instability",
+      "poll_id": "openai-corporate-strategy-and-stargate-20260409",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-corporate-strategy-and-stargate-20260410.html",
+      "started_at": "2026-04-09T17:04:31.653874",
+      "archived_at": "2026-04-10T17:44:54.009446",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic Mythos Cybersecurity AI",
       "description": "Anthropic released a powerful AI model called Mythos that can find zero-day exploits and vulnerabilities but is considered too dangerous for public release.",
       "question": "Should powerful AI vulnerability-hunting tools be kept secret or shared publicly?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-china-ai-cyber-warfare-operations-20260227.html",
       "started_at": "2026-02-26T01:44:27.384334",
       "archived_at": "2026-02-27T07:44:38.278899",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "China AI Influence Operations",
-      "description": "Multiple revelations show Chinese entities using AI systems like ChatGPT and copying AI code for propaganda and intelligence operations.",
-      "question": "Should AI companies do more to prevent Chinese misuse of their systems?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "china-ai-influence-operations-20260226",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-china-ai-influence-operations-20260226.html",
-      "started_at": "2026-02-26T04:14:14.336776",
-      "archived_at": "2026-02-27T05:50:31.566799",
       "reason": "topic_replaced"
     }
   ]
