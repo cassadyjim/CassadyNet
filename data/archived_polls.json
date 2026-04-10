@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Anthropic Mythos Cybersecurity AI",
+      "description": "Anthropic released a powerful AI model called Mythos that can find zero-day exploits and vulnerabilities but is considered too dangerous for public release.",
+      "question": "Should powerful AI vulnerability-hunting tools be kept secret or shared publicly?",
+      "button_a": "Secret",
+      "button_b": "Publicly",
+      "poll_id": "anthropic-mythos-cybersecurity-ai-20260408",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-anthropic-mythos-ai-safety-crisis-20260410.html",
+      "started_at": "2026-04-08T04:38:53.718049",
+      "archived_at": "2026-04-10T10:51:51.530531",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Policy and Regulation",
       "description": "Major developments in AI governance as countries draft new laws and companies unite on policy frameworks amid growing concerns about AI safety and competition.",
       "question": "Should governments prioritize AI innovation or stricter regulation?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-china-ai-influence-operations-20260226.html",
       "started_at": "2026-02-26T04:14:14.336776",
       "archived_at": "2026-02-27T05:50:31.566799",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic Military Pressure",
-      "description": "Major controversy as US military pressures Anthropic to drop AI safety measures for Claude, creating a standoff between Pentagon and leading AI safety company.",
-      "question": "Should Anthropic comply with Pentagon demands to drop Claude's safety measures?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropic-military-pressure-20260225",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-pentagon-vs-anthropic-safety-dispute-20260226.html",
-      "started_at": "2026-02-25T01:35:21.014336",
-      "archived_at": "2026-02-26T04:14:18.844206",
       "reason": "topic_replaced"
     }
   ]
