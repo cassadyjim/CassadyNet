@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Regulation and Policy Developments",
+      "description": "Governments worldwide are implementing new AI regulations, from China's digital human laws to Japan's relaxed privacy rules and US state-level AI discrimination laws.",
+      "question": "Should governments prioritize AI innovation or strict regulation?",
+      "button_a": "Innovation",
+      "button_b": "Regulation",
+      "poll_id": "ai-regulation-and-policy-developments-20260410",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-regulation-and-policy-developments-20260411.html",
+      "started_at": "2026-04-10T10:51:47.889707",
+      "archived_at": "2026-04-11T11:27:13.320942",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Corporate Strategy and Stargate",
       "description": "OpenAI faces major strategic challenges including shelving UK Stargate investments due to energy costs while unveiling new industrial policies and forming alliances against Chinese AI competition.",
       "question": "Are OpenAI's strategic pivots showing smart adaptation or concerning instability?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-china-ai-cyber-operations-20260228.html",
       "started_at": "2026-02-27T08:37:34.275348",
       "archived_at": "2026-02-28T09:22:24.481394",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "China AI Operations and Influence",
-      "description": "Chinese entities are using AI tools for propaganda campaigns and influence operations while facing restrictions from US companies.",
-      "question": "Should US tech companies completely cut off China from AI access?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "china-ai-operations-and-influence-20260226",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-china-ai-cyber-warfare-operations-20260227.html",
-      "started_at": "2026-02-26T01:44:27.384334",
-      "archived_at": "2026-02-27T07:44:38.278899",
       "reason": "topic_replaced"
     }
   ]
