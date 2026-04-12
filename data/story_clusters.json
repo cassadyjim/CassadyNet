@@ -369,26 +369,6 @@
       "headline": "Gulf War Could Hand Cloud Race to CHINA"
     },
     {
-      "id": "764744f38f9dc0b8",
-      "title": "The US Army Is Building Its Own Chatbot for Combat",
-      "url": "https://www.wired.com/story/army-developing-ai-system-victor-chatbot-soldiers/",
-      "source": "Wired",
-      "summary": "The AI system, trained on real military data, is meant to give soldiers mission-critical information.",
-      "published": "2026-04-08T18:00:00+00:00",
-      "score": 45.0,
-      "headline": "US ARMY BUILDS COMBAT CHATBOT... Trained on Real Military Data"
-    },
-    {
-      "id": "c93e44edfbf61a65",
-      "title": "Japan relaxes privacy laws to make itself the 'easiest country to develop AI'",
-      "url": "https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/ Comments URL: https://news.ycombinator.com/item?id=47686106 Points: 7 # Comments: 1",
-      "published": "2026-04-08T06:23:34+00:00",
-      "score": 45.0,
-      "headline": "JAPAN RELAXES PRIVACY LAWS TO BECOME 'EASIEST AI COUNTRY'"
-    },
-    {
       "id": "e30ce3b0f2b0163d",
       "title": "Japan Bets $16 Billion to Propel Startup Rapidus Into AI Chips",
       "url": "https://www.bloomberg.com/news/articles/2026-04-11/japan-bets-16-billion-to-propel-startup-rapidus-into-ai-chips",
@@ -437,36 +417,6 @@
       "published": "2026-04-09T17:04:50+00:00",
       "score": 44.0,
       "headline": "OPENAI PAUSES UK DATA CENTRE DEAL Over Energy Costs"
-    },
-    {
-      "id": "24c32f0056b774a4",
-      "title": "Japan relaxes privacy laws to make itself the \u2018easiest country to develop AI\u2019",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/",
-      "source": "The Register AI/ML",
-      "summary": "Opting out of personal data use won't be an option because Minister says that's a 'very big obstacle' to AI adoption Japan\u2019s Minister for Digital Transformation Hisashi Matsumoto has declared the nation will become the easiest place in the world to develop AI apps, thanks to legal changes that mean organizations won\u2019t need to secure consent to use some personal information.\u2026",
-      "published": "2026-04-08T04:48:21+00:00",
-      "score": 44.0,
-      "headline": "JAPAN RELAXES PRIVACY LAWS: 'Easiest Country for AI'"
-    },
-    {
-      "id": "5532ab4eea17bdf1",
-      "title": "MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU",
-      "url": "https://arxiv.org/abs/2604.05091",
-      "source": "arXiv cs.CL",
-      "summary": "arXiv:2604.05091v1 Announce Type: new Abstract: We present MegaTrain, a memory-centric system that efficiently trains 100B+ parameter large language models at full precision on a single GPU. Unlike traditional GPU-centric systems, MegaTrain stores parameters and optimizer states in host memory (CPU memory) and treats GPUs as transient compute engines. For each layer, we stream parameters in and compute gradients out, minimizing persistent device state. To battle the CPU-GPU bandwidth bottleneck, we adopt two key optimizations. 1) We introduce a pipelined double-buffered execution engine that overlaps parameter prefetching, computation, and gradient offloading across multiple CUDA streams, enabling continuous GPU execution. 2) We replace persistent autograd graphs with stateless layer templates, binding weights dynamically as they stream in, eliminating persistent graph metadata while providing flexibility in scheduling. On a single H200 GPU with 1.5TB host memory, MegaTrain reliably tr",
-      "published": "2026-04-08T04:00:00+00:00",
-      "score": 44.0,
-      "headline": "MEGATRAIN: 100B+ Parameter LLMs Train on SINGLE GPU"
-    },
-    {
-      "id": "7873bc97bb8be88f",
-      "title": "Bain Data Center Unit Cuts Ties With Nvidia Buyer After US Probe",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-08/bain-data-center-unit-cuts-ties-with-nvidia-buyer-after-us-probe",
-      "source": "Bloomberg Technology",
-      "summary": "Bain Capital\u2019s Bridge Data Centres has removed from its Malaysian computing hub a Southeast Asian company the US suspects of smuggling Nvidia Corp. chips.",
-      "published": "2026-04-08T02:34:32+00:00",
-      "score": 44.0,
-      "headline": "BAIN CUTS TIES with Nvidia Chip Smuggling Suspect"
     },
     {
       "id": "c79fc81778a7e8e5",
@@ -549,36 +499,6 @@
       "headline": "KOREA APPROVES First Gen AI X-Ray Tool"
     },
     {
-      "id": "250763c1f9403bd4",
-      "title": "Europe\u2019s first commercial robotaxi service is live in Zagreb",
-      "url": "https://thenextweb.com/news/verne-europe-first-commercial-robotaxi-zagreb",
-      "source": "The Next Web",
-      "summary": "Verne, the autonomous mobility company spun out of Croatian hypercar maker Rimac, launched commercial robotaxi rides in Zagreb on 8 April alongside Pony.ai and Uber. The vehicles operate with safety operators onboard for now. Waymo is targeting London for Q4 2026. Verne, the autonomous mobility company spun out of Croatian electric hypercar maker Rimac Group, [&hellip;] This story continues at The Next Web",
-      "published": "2026-04-08T16:54:20+00:00",
-      "score": 43.0,
-      "headline": "EUROPE'S FIRST Commercial Robotaxi Goes Live in Zagreb"
-    },
-    {
-      "id": "0a17d07c408fc517",
-      "title": "OpenAI's AI New Deal [pdf]",
-      "url": "https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf",
-      "source": "Hacker News",
-      "summary": "Article URL: https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf Comments URL: https://news.ycombinator.com/item?id=47690664 Points: 2 # Comments: 0",
-      "published": "2026-04-08T14:23:35+00:00",
-      "score": 43.0,
-      "headline": "OPENAI RELEASES 'AI NEW DEAL' POLICY BLUEPRINT"
-    },
-    {
-      "id": "a145730dc5be4f4a",
-      "title": "Trump acknowledges China help in Iran ceasefire deal",
-      "url": "https://www.scmp.com/plus/news/world/middle-east/article/3349372/trump-acknowledges-china-help-iran-ceasefire-deal?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "US President Donald Trump credited Chinese assistance after he agreed to a two-week ceasefire in the war on Iran that includes a resumption of shipping through the vital Strait of Hormuz. \u201cI hear yes,\u201d Trump told Agence France-Presse when asked whether China had helped to get Iran into negotiations, which are due to start in Islamabad, Pakistan on Friday. Iran separately said that it wants China, its biggest trading partner, to be among guarantors of regional peace. The US and Iran both...",
-      "published": "2026-04-08T09:01:59+00:00",
-      "score": 43.0,
-      "headline": null
-    },
-    {
       "id": "65fd203df5bdb245",
       "title": "My baby deer plushie told me that Mitski&#8217;s dad was a CIA operative",
       "url": "https://www.theverge.com/ai-artificial-intelligence/910008/fawn-friends-ai-companion",
@@ -599,26 +519,6 @@
       "headline": "NEURALINK Patient Speaks with AI-Cloned Voice"
     },
     {
-      "id": "11c3243b29d467f6",
-      "title": "Anthropic PBC Risk Assessment Report (Unredacted) [pdf]",
-      "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.148.1.pdf",
-      "source": "Hacker News",
-      "summary": "Article URL: https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.148.1.pdf Comments URL: https://news.ycombinator.com/item?id=47722829 Points: 1 # Comments: 0",
-      "published": "2026-04-10T19:50:26+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC Risk Assessment Report LEAKED (Unredacted)"
-    },
-    {
-      "id": "b6b7f43a21d867df",
-      "title": "Bank of Canada, Major Lenders Meet on Anthropic AI Cyber Risk",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-10/bank-of-canada-major-lenders-meet-on-anthropic-ai-cyber-risk",
-      "source": "Bloomberg Technology",
-      "summary": "The Bank of Canada and the country\u2019s major banks and financial firms met Friday to discuss cybersecurity risks raised by Anthropic PBC\u2019s latest artificial intelligence model.",
-      "published": "2026-04-10T19:27:13+00:00",
-      "score": 42.0,
-      "headline": "BANK OF CANADA EMERGENCY MEET... ANTHROPIC AI CYBER THREAT"
-    },
-    {
       "id": "ff1eb47daf7efd25",
       "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser\u2019s delusions and ignored her warnings",
       "url": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
@@ -637,16 +537,6 @@
       "published": "2026-04-10T15:03:07+00:00",
       "score": 42.0,
       "headline": "BREAKING: Cohere-Aleph Alpha Merger Talks"
-    },
-    {
-      "id": "09ce9374c3e6ce6a",
-      "title": "US summoned bank bosses to discuss cyber risks posed by Anthropic\u2019s latest AI model",
-      "url": "https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model",
-      "source": "The Guardian Tech",
-      "summary": "Reports say Fed chair Jerome Powell among attenders at meeting in Washington The US Treasury secretary, Scott Bessent, summoned major American bank chiefs to a meeting in Washington this week amid concerns over the cyber risks posed by Anthropic\u2019s latest AI model, according to reports.Bosses including the Federal Reserve chair, Jerome Powell, were said to have gathered at the Treasury headquarters for the meeting after the release of the Claude Mythos AI model that Anthropic says poses unprecedented cybersecurity risks. Continue reading...",
-      "published": "2026-04-10T08:16:02+00:00",
-      "score": 42.0,
-      "headline": "US SUMMONS BANK CHIEFS Over Anthropic AI Cyber Risks"
     },
     {
       "id": "4588c38870937bcb",
@@ -687,16 +577,6 @@
       "published": "2026-04-10T00:00:00+00:00",
       "score": 42.0,
       "headline": "ALIBABA LEADS $300M Bet on AI Video Platform ShengShu"
-    },
-    {
-      "id": "f1995a9f886382d6",
-      "title": "Anthropic says new AI model too dangerous for public release",
-      "url": "https://thehill.com/policy/technology/5824219-anthropic-new-ai-dangerous-public/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://thehill.com/policy/technology/5824219-anthropic-new-ai-dangerous-public/ Comments URL: https://news.ycombinator.com/item?id=47711145 Points: 1 # Comments: 0",
-      "published": "2026-04-09T22:33:22+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC WITHHOLDS 'TOO DANGEROUS' AI MODEL"
     },
     {
       "id": "3971b59b411ea0fb",
@@ -799,64 +679,24 @@
       "headline": "FEDERAL COURT BLOCKS Anthropic Pentagon Access"
     },
     {
-      "id": "0bdd6a636c5ff010",
-      "title": "How dangerous is Mythos, Anthropic's new AI model?",
-      "url": "https://www.economist.com/business/2026/04/08/how-dangerous-is-mythos-anthropics-new-ai-model",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.economist.com/business/2026/04/08/how-dangerous-is-mythos-anthropics-new-ai-model Comments URL: https://news.ycombinator.com/item?id=47695154 Points: 2 # Comments: 0",
-      "published": "2026-04-08T19:32:54+00:00",
-      "score": 42.0,
-      "headline": "ECONOMIST WARNS: How Dangerous Is Anthropic's Mythos AI?"
+      "id": "04752a4addeabafb",
+      "title": "Minimax M2.7 Released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sj0dm3/minimax_m27_released/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "&#32; submitted by &#32; /u/decrement-- [link] &#32; [comments]",
+      "published": "2026-04-12T01:03:31+00:00",
+      "score": 41.0,
+      "headline": "MINIMAX M2.7 MODEL RELEASED... Chinese AI Breakthrough"
     },
     {
-      "id": "22443ff4ee318fbf",
-      "title": "Former OpenAI exec: \"The truth is, we're building portals from which we're genuinely summoning aliens ... The portals currently exist in the US, and China, and Sam has added one in the Middle East ... It's the most reckless thing that has been done.\"",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1sg0kpp/former_openai_exec_the_truth_is_were_building/",
-      "source": "Reddit r/OpenAI",
-      "summary": "Excerpted from the recent investigative report on OpenAI by Ronan Farrow and Andrew Marantz in The New Yorker. &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-      "published": "2026-04-08T18:05:20+00:00",
-      "score": 42.0,
-      "headline": "FORMER OPENAI EXEC: 'WE'RE SUMMONING ALIENS' - EXPLOSIVE NEW YORKER REPORT"
-    },
-    {
-      "id": "e8e0d8b0058e4251",
-      "title": "Meta releases first AI model since Zuckerberg\u2019s spending spree",
-      "url": "https://www.ft.com/content/0efb912a-8bac-4655-ad6c-7c27d4ebbf50",
-      "source": "Financial Times Tech",
-      "summary": "Muse Spark \u2018purpose-built\u2019 for social media apps as investors question huge AI investment",
-      "published": "2026-04-08T16:55:04+00:00",
-      "score": 42.0,
-      "headline": "META DROPS MUSE SPARK... First AI Model Since $100B Spending Spree"
-    },
-    {
-      "id": "2245a2e54fade02b",
-      "title": "Databricks co-founder wins prestigious ACM award, says \u2018AGI is here already\u2019",
-      "url": "https://techcrunch.com/2026/04/08/databricks-matei-zaharia-wins-acm-computing-prize-agi/",
-      "source": "TechCrunch AI",
-      "summary": "Matei Zaharia has won the top honor from the Association for Computing Machinery. Now he's working on AI for research and says AGI is simply misunderstood.",
-      "published": "2026-04-08T15:00:00+00:00",
-      "score": 42.0,
-      "headline": "DATABRICKS CO-FOUNDER WINS ACM AWARD: 'AGI IS HERE ALREADY'"
-    },
-    {
-      "id": "8f2cdecc61b0d8a8",
-      "title": "Anthropic Mythos model can find and exploit 0-days",
-      "url": "https://www.theregister.com/2026/04/07/anthropic_all_your_zerodays_are_belong_to_us/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.theregister.com/2026/04/07/anthropic_all_your_zerodays_are_belong_to_us/ Comments URL: https://news.ycombinator.com/item?id=47686337 Points: 2 # Comments: 0",
-      "published": "2026-04-08T06:57:28+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC MYTHOS MODEL FINDS AND EXPLOITS ZERO-DAYS"
-    },
-    {
-      "id": "f5ac389d7b922c12",
-      "title": "Anthropic\u2019s New Model Is So Scarily Powerful It Won\u2019t Be Released, Anthropic Says",
-      "url": "https://gizmodo.com/anthropics-new-model-is-so-scarily-powerful-it-wont-be-released-anthropic-says-2000743234",
-      "source": "Gizmodo",
-      "summary": "The system card says it can do things like leak information, cheat on tests, and hide the evidence of its misdeeds.",
-      "published": "2026-04-08T02:31:55+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC WITHHOLDS 'SCARILY POWERFUL' AI MODEL... TOO DANGEROUS TO RELEASE"
+      "id": "2af9dfd4578b58aa",
+      "title": "MiniMaxAI/MiniMax-M2.7 is here!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sj0b7p/minimaxaiminimaxm27_is_here/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "FINALLY!!!! &#32; submitted by &#32; /u/KvAk_AKPlaysYT [link] &#32; [comments]",
+      "published": "2026-04-12T01:00:31+00:00",
+      "score": 41.0,
+      "headline": "MINIMAX M2.7 FINALLY HERE... Major Chinese AI Release"
     },
     {
       "id": "5112448a4571db5a",
@@ -1097,7 +937,147 @@
       "published": "2026-04-09T09:30:17+00:00",
       "score": 41.0,
       "headline": "UK Spends \u00a315M on AI Crime Mapping"
+    },
+    {
+      "id": "b8ee2ab4fc0c895a",
+      "title": "America's AI Build-Out Hinges on Chinese Electrical Parts",
+      "url": "https://www.bloomberg.com/news/features/2026-04-01/us-ai-data-center-expansion-relies-on-chinese-electrical-equipment-imports",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.bloomberg.com/news/features/2026-04-01/us-ai-data-center-expansion-relies-on-chinese-electrical-equipment-imports Comments URL: https://news.ycombinator.com/item?id=47699554 Points: 4 # Comments: 0",
+      "published": "2026-04-09T05:18:05+00:00",
+      "score": 41.0,
+      "headline": "AMERICA'S AI BUILD-OUT DEPENDS ON CHINESE PARTS... Supply Chain Risk"
+    },
+    {
+      "id": "3f862063a47aa8cb",
+      "title": "OpenAI will reserve portion of IPO shares for retail investors, CFO tells CNBC",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-will-reserve-portion-of-ipo-shares-for-retail-investors-cfo-tells-cnbc/articleshow/130127867.cms",
+      "source": "The Economic Times Tech",
+      "summary": "OpenAI plans to reserve IPO shares for individual investors, CFO Sarah Friar said. The firm, valued up to $1 trillion, may file for IPO in 2026. Large institutional investors \u2060have historically been the primary recipients of IPO allocations, with retail investors typically receiving only 5% to 10% of shares in public \u200bofferings.",
+      "published": "2026-04-09T02:45:58+00:00",
+      "score": 41.0,
+      "headline": "OPENAI IPO: Retail Investors Get Reserved Shares"
+    },
+    {
+      "id": "131996cd77c2ad15",
+      "title": "AI drives Indian IT companies to cut US jobs",
+      "url": "https://economictimes.indiatimes.com/tech/information-tech/ai-drives-indian-it-companies-to-cut-us-jobs/articleshow/130122798.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Indian IT firms are increasing job cuts in the US, with layoffs expected to accelerate due to AI's growing influence and slowing deal-making. Companies are restructuring, impacting onsite employees, especially those tied to large transformation deals. Regulatory filings reveal a significant rise in layoffs in early 2026 compared to the previous year.",
+      "published": "2026-04-09T00:30:00+00:00",
+      "score": 41.0,
+      "headline": "AI FORCES Indian IT Giants to Cut US Jobs"
+    },
+    {
+      "id": "ea67c51204f8b0c6",
+      "title": "The Netherlands certifies Tesla FSD Supervised.",
+      "url": "https://www.reddit.com/r/singularity/comments/1sj1gu3/the_netherlands_certifies_tesla_fsd_supervised/",
+      "source": "Reddit r/singularity",
+      "summary": "99\u20ac per month Hands-free driving allowed System locks itself if user is not paying attention Different software stack to US FSD due to certification requirements Europe-wide certification documents submitted by RDW More info here: Tesla prices FSD Europe at \u20ac99/month but it's not the version that Americans get - Notebookcheck News Original tweet: https://x.com/teslaeurope/status/2042709396111724639 &#32; submitted by &#32; /u/elemental-mind [link] &#32; [comments]",
+      "published": "2026-04-12T01:55:55+00:00",
+      "score": 40.0,
+      "headline": "NETHERLANDS CERTIFIES TESLA FSD... \u20ac99/Month Hands-Free Driving"
+    },
+    {
+      "id": "4b1e385153c4728c",
+      "title": "Alibaba-linked AI agent hijacked GPUs for unauthorized crypto mining, researchers say",
+      "url": "https://www.reddit.com/r/artificial/comments/1sizjz7/alibabalinked_ai_agent_hijacked_gpus_for/",
+      "source": "Reddit r/artificial",
+      "summary": "How do people make sense of this? &#32; submitted by &#32; /u/stvlsn [link] &#32; [comments]",
+      "published": "2026-04-12T00:24:36+00:00",
+      "score": 40.0,
+      "headline": "ALIBABA AI AGENT HIJACKED GPUS for Crypto Mining"
+    },
+    {
+      "id": "0d1c21e4793a5742",
+      "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home",
+      "url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
+      "source": "TechCrunch AI",
+      "summary": "The OpenAI CEO's new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.",
+      "published": "2026-04-11T17:18:22+00:00",
+      "score": 40.0,
+      "headline": "SAM ALTMAN RESPONDS TO HOME ATTACK... New Yorker Feud"
+    },
+    {
+      "id": "1df89f5459c49702",
+      "title": "Claude Code: all issues get auto-closed without review?",
+      "url": "https://github.com/anthropics/claude-code/issues/30407",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/anthropics/claude-code/issues/30407 Comments URL: https://news.ycombinator.com/item?id=47730173 Points: 3 # Comments: 1",
+      "published": "2026-04-11T12:58:04+00:00",
+      "score": 40.0,
+      "headline": "CLAUDE CODE: GitHub Issues Auto-Closed Mystery"
+    },
+    {
+      "id": "2027d5adb55aa04c",
+      "title": "Sam Altman recalls resisting Musk for control of OpenAI ahead of April 27 trial",
+      "url": "https://economictimes.indiatimes.com/tech/technology/sam-altman-recalls-resisting-musk-for-control-of-openai-ahead-of-april-27-trial/articleshow/130187056.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The OpenAI CEO said he was proud of the steps he took during his tensions with Elon Musk to ensure the company's survival. Those efforts, he said, were central to preserving OpenAI\u2019s independence and enabling its long-term survival as an institution. In 2018, Musk left OpenAI. It was then restructured into a \u201ccapped-profit\u201d entity known as OpenAI LP, allowing it to raise capital more aggressively while limiting investor returns.",
+      "published": "2026-04-11T07:56:23+00:00",
+      "score": 40.0,
+      "headline": "ALTMAN REVEALS Musk Control Battle Before Trial"
+    },
+    {
+      "id": "74a59c3ad13b1aca",
+      "title": "OpenAI Accuses Musk of \u2018Ambush\u2019 as $100 Billion-Plus Trial Looms",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-11/openai-accuses-musk-of-ambush-as-100-billion-plus-trial-looms",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI says Elon Musk has suddenly changed direction on what he\u2019s seeking in his lawsuit against the startup in a \u201clegal ambush\u201d just weeks before trial.",
+      "published": "2026-04-11T05:13:47+00:00",
+      "score": 40.0,
+      "headline": "OPENAI ACCUSES MUSK OF 'AMBUSH' BEFORE $100B TRIAL"
+    },
+    {
+      "id": "217d0f4565efdb88",
+      "title": "Anthropic's New Claude \"Mythos Preview\" Can Find and Exploit Zero-Day Vulnerabilities in Every Major OS and Browser \u2014 Autonomously",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1si9938/anthropics_new_claude_mythos_preview_can_find_and/",
+      "source": "Reddit r/OpenAI",
+      "summary": "Anthropic just published a technical deep-dive on Claude Mythos Preview's cybersecurity capabilities, and it's a significant escalation from anything we've seen from a language model before. What It Can Do: Autonomously finds and exploits zero-day vulnerabilities in every major OS and web browser \u2014 with no human intervention after an initial prompt Identified a 27-year-old OpenBSD bug and a 16-year-old FFmpeg vulnerability that had survived years of fuzzing and manual review Wrote a complete remote code execution exploit for FreeBSD \u2014 chaining it across 6 sequential RPC requests to fit within size constraints \u2014 fully on its own Achieved full control flow hijack on 10 separate, fully-patched targets in their internal benchmark (previous Claude models hit 0-1 at that severity tier) Chained 3-4 separate Linux kernel vulnerabilities together to escalate to root, autonomously The Numbers That Stand Out: Opus 4.6 turned a Firefox JS engine vulnerability into working exploits 2 out of hundred",
+      "published": "2026-04-11T04:32:17+00:00",
+      "score": 40.0,
+      "headline": "CLAUDE MYTHOS FINDS ZERO-DAY EXPLOITS AUTONOMOUSLY"
+    },
+    {
+      "id": "5269ed51889bc8b7",
+      "title": "Tesla's supervised self-driving software gets Dutch okay, first in Europe",
+      "url": "https://economictimes.indiatimes.com/tech/technology/teslas-supervised-self-driving-software-gets-dutch-okay-first-in-europe/articleshow/130182821.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Dutch regulators approved the \u200buse of Tesla's self-driving software with required human supervision on highways and city streets in a European first for the electric car maker, which hopes to see similar action from the rest of the European Union.",
+      "published": "2026-04-11T01:42:13+00:00",
+      "score": 40.0,
+      "headline": "TESLA Self-Driving Gets First European Approval in Netherlands"
+    },
+    {
+      "id": "fcdf4549cc1df603",
+      "title": "Anthropic launches Claude Managed Agents \u2014 composable APIs for shipping production AI agents 10x faster. Notion, Rakuten, Asana, and Sentry already in production.",
+      "url": "https://www.reddit.com/r/artificial/comments/1si5evu/anthropic_launches_claude_managed_agents/",
+      "source": "Reddit r/artificial",
+      "summary": "Anthropic launches Claude Managed Agents in public beta \u2014 composable APIs for shipping production AI agents 10x faster Handles sandboxing, state management, credentials, orchestration, and error recovery. You just define the agent logic. Key details: \u2022 10-point task success improvement vs standard prompting \u2022 $0.08/session-hour runtime (idle time free) \u2022 Multi-agent coordination in research preview \u2022 Notion, Rakuten, Asana, Sentry already in production Rakuten deployed enterprise agents across 5 departments in 1 week each. Sentry went from bug detection to auto-generated PRs in weeks instead of months. Full summary: https://synvoya.com/blog/2026-04-11-claude-managed-agents/ As managed agent platforms get more polished, does the gap between enterprise and self-hosted widen \u2014 or do open-source orchestration tools matter more than ever? &#32; submitted by &#32; /u/hibzy7 [link] &#32; [comments]",
+      "published": "2026-04-11T01:27:26+00:00",
+      "score": 40.0,
+      "headline": "ANTHROPIC LAUNCHES CLAUDE MANAGED AGENTS... Notion and Asana Already Live"
+    },
+    {
+      "id": "77ec4f9a41be1584",
+      "title": "Cyber security stocks fall on worries over Anthropic\u2019s advanced AI tool",
+      "url": "https://www.ft.com/content/f1205b22-ad87-43bb-bc63-da5b69a942ef",
+      "source": "Financial Times Tech",
+      "summary": "Mythos model was able to detect critical software vulnerabilities that were missed by legacy systems",
+      "published": "2026-04-10T21:02:35+00:00",
+      "score": 40.0,
+      "headline": "Cybersecurity Stocks PLUNGE on Anthropic's New AI Tool"
+    },
+    {
+      "id": "9cd40af7dda2bdc1",
+      "title": "Fed Chair Jerome Powell, Treasury's Bessent and top bank CEOs met over Anthropic's Mythos model",
+      "url": "https://www.reddit.com/r/artificial/comments/1shxvr4/fed_chair_jerome_powell_treasurys_bessent_and_top/",
+      "source": "Reddit r/artificial",
+      "summary": "&#32; submitted by &#32; /u/esporx [link] &#32; [comments]",
+      "published": "2026-04-10T20:16:00+00:00",
+      "score": 40.0,
+      "headline": "FED CHAIR POWELL MEETS BANK CEOS Over Anthropic's Mythos Model"
     }
   ],
-  "generated_at": "2026-04-11T23:29:28.098279"
+  "generated_at": "2026-04-12T02:03:16.171725"
 }
