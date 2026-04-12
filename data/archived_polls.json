@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Anthropic Mythos AI Security Crisis",
+      "description": "Anthropic's new AI model discovers massive security vulnerabilities and is deemed too dangerous for public release, triggering emergency meetings among financial regulators and Wall Street executives.",
+      "question": "Should powerful AI vulnerability-hunting tools be kept secret or shared publicly?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropic-mythos-cybersecurity-ai-20260408",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-anthropic-mythos-ai-security-crisis-20260412.html",
+      "started_at": "2026-04-11T18:37:43.516646",
+      "archived_at": "2026-04-12T18:42:32.766400",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China AI Competition and Chip Restrictions",
       "description": "China's AI industry is navigating US chip sanctions while competing globally, with firms acquiring banned Nvidia chips and attracting Silicon Valley talent.",
       "question": "Are chip restrictions effectively containing China's AI advancement?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-pentagon-ai-partnership-battle-20260303.html",
       "started_at": "2026-02-27T04:10:26.531043",
       "archived_at": "2026-03-03T04:12:18.372870",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI Pentagon Partnership & Funding",
-      "description": "OpenAI secures record $110B funding at $730B valuation while simultaneously deploying AI tools on Pentagon classified networks, marking a major military-AI integration.",
-      "question": "Should AI companies partner with the military for national security?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-pentagon-partnership-funding-20260228",
-      "results": {
-        "pro": 1,
-        "con": 0,
-        "total": 1,
-        "pro_percent": 100,
-        "con_percent": 0
-      },
-      "analysis_url": "/analysis/analysis-openai-pentagon-deal-20260302.html",
-      "started_at": "2026-02-28T09:22:18.860041",
-      "archived_at": "2026-03-03T01:47:31.747883",
       "reason": "topic_replaced"
     }
   ]
