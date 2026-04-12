@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Anthropic's Dangerous Mythos AI",
+      "description": "Anthropic's new Mythos AI model is being withheld from public release due to its unprecedented ability to find security vulnerabilities, triggering emergency meetings among financial regulators and government officials.",
+      "question": "Should Anthropic release Mythos publicly despite the cybersecurity risks?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropics-dangerous-mythos-ai-20260411",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-anthropic-mythos-ai-security-crisis-20260412.html",
+      "started_at": "2026-04-11T11:26:59.925438",
+      "archived_at": "2026-04-12T19:37:14.975861",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic Mythos AI Security Crisis",
       "description": "Anthropic's new AI model discovers massive security vulnerabilities and is deemed too dangerous for public release, triggering emergency meetings among financial regulators and Wall Street executives.",
       "question": "Should powerful AI vulnerability-hunting tools be kept secret or shared publicly?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-us-china-ai-chip-restrictions-20260303.html",
       "started_at": "2026-03-03T04:12:08.180440",
       "archived_at": "2026-03-04T05:43:01.038044",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Pentagon vs Anthropic AI Safety",
-      "description": "High-stakes confrontation between the Pentagon and Anthropic over military AI use and safety guardrails, with ultimatums and contract threats.",
-      "question": "Should the Pentagon force Anthropic to remove AI safety guardrails?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "pentagon-vs-anthropic-ai-safety-20260227",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-pentagon-ai-partnership-battle-20260303.html",
-      "started_at": "2026-02-27T04:10:26.531043",
-      "archived_at": "2026-03-03T04:12:18.372870",
       "reason": "topic_replaced"
     }
   ]
