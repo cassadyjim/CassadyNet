@@ -309,6 +309,16 @@
       "headline": "COREWEAVE LANDS Multibillion-Dollar Anthropic Contract"
     },
     {
+      "id": "fd559d96a18fba24",
+      "title": "AI without safeguards can amplify existing weaknesses in financial sector: RBI DG",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-without-safeguards-can-amplify-existing-weaknesses-in-financial-sector-rbi-dg/articleshow/130233792.cms",
+      "source": "The Economic Times Tech",
+      "summary": "In a recent conference, Reserve Bank Deputy Governor Swaminathan J raised a red flag regarding the integration of AI in finance. He emphasized that, if left unchecked, AI could not only amplify existing challenges but also introduce unforeseen complications. On one hand, AI can transform customer interactions and enhance access to credit; on the other hand, it harbors potential pitfalls.",
+      "published": "2026-04-13T10:28:37+00:00",
+      "score": 42.0,
+      "headline": "INDIA'S CENTRAL BANK WARNS... AI WITHOUT SAFEGUARDS"
+    },
+    {
       "id": "6ed262e977b109d7",
       "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
       "url": "https://arxiv.org/abs/2604.09104",
@@ -639,6 +649,16 @@
       "headline": "OPENAI BACKS Bill Limiting AI Mass Death Liability"
     },
     {
+      "id": "e95a419aac320bd6",
+      "title": "Musk Finds a Partner in Intel for His Huge Chipmaking Dream",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-04-13/musk-finds-a-partner-in-intel-for-dream-of-terafab-chip-plant",
+      "source": "Bloomberg Technology",
+      "summary": "The Tesla CEO is compiling a team for his planned Terafab chip manufacturing operation",
+      "published": "2026-04-13T11:02:01+00:00",
+      "score": 40.0,
+      "headline": "MUSK PARTNERS WITH INTEL FOR MASSIVE TERAFAB CHIP OPERATION"
+    },
+    {
       "id": "3fec7f093f1bdcab",
       "title": "Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism",
       "url": "https://arxiv.org/abs/2604.09544",
@@ -647,6 +667,26 @@
       "published": "2026-04-13T04:00:00+00:00",
       "score": 40.0,
       "headline": "RESEARCHERS FIND UNIFIED MECHANISM FOR LLM HARM"
+    },
+    {
+      "id": "870eda96ea393472",
+      "title": "Loom: A Scalable Analytical Neural Computer Architecture",
+      "url": "https://arxiv.org/abs/2604.08816",
+      "source": "arXiv cs.LG",
+      "summary": "arXiv:2604.08816v1 Announce Type: new Abstract: We present Loom, a computer architecture that executes programs compiled from C inside a looped transformer whose weights are derived analytically. The architecture implements a 22-opcode instruction set in 8 transformer layers. Each forward pass executes one instruction; the model is applied iteratively until the program counter reaches zero. The full machine state resides in a single tensor $X \\in \\mathbb{R}^{d \\times n}$ of fixed size, and every step has fixed cost for fixed $d$ and $n$, independent of program length or execution history. The default configuration uses $d = 155$ and $n = 1024$, yielding 4.7 million parameters and 928 instruction slots. A compact configuration at $d = 146$ and $n = 512$ suffices for a 9$\\times$9 Sudoku solver (284 instructions). The weights are program-independent: programs live in the state tensor, and the same fixed-weight model executes any compiled program. We make Loom source code publicly availabl",
+      "published": "2026-04-13T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "LOOM: Transformer Architecture Runs C Programs"
+    },
+    {
+      "id": "dd7de50943539b2e",
+      "title": "Spectral Geometry of LoRA Adapters Encodes Training Objective and Predicts Harmful Compliance",
+      "url": "https://arxiv.org/abs/2604.08844",
+      "source": "arXiv cs.LG",
+      "summary": "arXiv:2604.08844v1 Announce Type: new Abstract: We study whether low-rank spectral summaries of LoRA weight deltas can identify which fine-tuning objective was applied to a language model, and whether that geometric signal predicts downstream behavioral harm. In a pre-registered experiment on \\texttt{Llama-3.2-3B-Instruct}, we manufacture 38 LoRA adapters across four categories: healthy SFT baselines, DPO on inverted harmlessness preferences, DPO on inverted helpfulness preferences, and activation-steering-derived adapters, and extract per-layer spectral features (norms, stable rank, singular-value entropy, effective rank, and singular-vector cosine alignment to a healthy centroid). Within a single training method (DPO), a logistic regression classifier achieves AUC~1.00 on binary drift detection, all six pairwise objective comparisons, and near-perfect ordinal severity ranking ($\\rho \\geq 0.956$). Principal component analysis on flattened weight deltas reveals that training objective ",
+      "published": "2026-04-13T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "LoRA Spectral Patterns Predict AI Safety Risks"
     },
     {
       "id": "ac403e4fb8017b3a",
@@ -907,57 +947,7 @@
       "published": "2026-04-10T06:09:33+00:00",
       "score": 40.0,
       "headline": "DATABRICKS CO-FOUNDER WINS ACM PRIZE, DECLARES AGI HERE"
-    },
-    {
-      "id": "f3e7196d240b7b13",
-      "title": "Chinese startup ShengShu raises $293 million to advance artificial general intelligence",
-      "url": "https://economictimes.indiatimes.com/tech/funding/chinese-startup-shengshu-raises-293-million-to-advance-artificial-general-intelligence/articleshow/130159734.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Founded in early 2023 by \u200bTsinghua University alum Zhu Jun, ShengShu became the first Chinese company to release a video generation model when it launched Vidu in April 2024. The model was positioned as a competitor to OpenAI's Sora, which the US company later discontinued.",
-      "published": "2026-04-10T04:55:05+00:00",
-      "score": 40.0,
-      "headline": "CHINESE AI STARTUP SHENGSHU RAISES $293M FOR AGI"
-    },
-    {
-      "id": "8eac9a05f3d7e731",
-      "title": "Anthropic weighs building it own AI chips, sources say",
-      "url": "https://www.reuters.com/business/anthropic-weighs-building-it-own-ai-chips-sources-say-2026-04-09/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.reuters.com/business/anthropic-weighs-building-it-own-ai-chips-sources-say-2026-04-09/ Comments URL: https://news.ycombinator.com/item?id=47712561 Points: 2 # Comments: 0",
-      "published": "2026-04-10T01:39:37+00:00",
-      "score": 40.0,
-      "headline": "Anthropic Eyes Custom AI CHIP Development"
-    },
-    {
-      "id": "f35db54e5f9fb9ff",
-      "title": "The largest orbital compute cluster is open for business",
-      "url": "https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/",
-      "source": "TechCrunch AI",
-      "summary": "Kepler Communications is flying 40 GPUs in Earth orbit. And its latest customer is Sophia Space.",
-      "published": "2026-04-13T07:01:00+00:00",
-      "score": 39.0,
-      "headline": "LARGEST ORBITAL GPU CLUSTER NOW OPEN FOR BUSINESS"
-    },
-    {
-      "id": "39e2e4e7a944e459",
-      "title": "MiniMax-M2.7 NVFP4 on 2x RTX PRO 6000 Blackwell \u2014 bench numbers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sjx7kg/minimaxm27_nvfp4_on_2x_rtx_pro_6000_blackwell/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "https://preview.redd.it/zxd2awig4vug1.png?width=656&amp;format=png&amp;auto=webp&amp;s=f72dc0fd05ad1380c56166e3af3de48a57fbbd75 MiniMax-M2.7 NVFP4 on 2x RTX PRO 6000 Blackwell \u2014 127.7 tok/s C=1, 2800 peak C=128 Ran a full sweep on Luke Alonso's M2.7 NVFP4 quant. Writing it down for anyone shopping the same setup. **Hardware:** AsRock Rack B650D4U-2L2T, EPYC 4564P, 128GB DDR5 ECC, 2x RTX PRO 6000 Blackwell (96GB, 600W) behind a C-Payne PM50100 PLX Gen5 switch (PIX topology). **Software:** SGLang via voipmonitor/sglang:cu130 docker (b12x 0.8.3), modelopt_fp4, bf16 KV, TP=2, Luke's default recipe. **Decode throughput (ctx=0, 3x mean, 30s/cell):** | C | agg tok/s | per-req tok/s | |---|-----------|---------------| | 1 | 127.7 | 127.7 | | 8 | 471.6 | 59.0 | | 32 | 1078.9 | 33.7 | | 64 | 1695.4 | 26.5 | | 128 | 2800.2 | 21.9 | **Prefill (C=1):** | ctx | TTFT | tok/s | |-----|------|-------| | 8K | 0.50s | 17,286 | | 16K | 0.99s | 16,926 | | 32K | 2.09s | 15,861 | | 64K | 4.94s | 13,319 | | 1",
-      "published": "2026-04-13T01:48:05+00:00",
-      "score": 39.0,
-      "headline": "MiniMax-M2.7 Hits 127 Tok/s on RTX PRO 6000 Blackwell"
-    },
-    {
-      "id": "813e377fc763ff5f",
-      "title": "MeitY wants to include users, social firms in content-blocking hearings",
-      "url": "https://economictimes.indiatimes.com/tech/technology/meity-wants-to-include-users-social-firms-in-content-blocking-hearings/articleshow/130216667.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The government is proposing changes to content blocking rules. Users and internet intermediaries may soon get a chance to present their case in hearings. This aims to give online users a clearer opportunity to argue when their content is blocked. The move follows recent stakeholder consultations and draft amendments to IT rules.",
-      "published": "2026-04-13T00:30:00+00:00",
-      "score": 39.0,
-      "headline": "India Proposes User Rights in Content-Blocking Hearings"
     }
   ],
-  "generated_at": "2026-04-13T09:52:32.113399"
+  "generated_at": "2026-04-13T11:16:13.148613"
 }
