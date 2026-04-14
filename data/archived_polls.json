@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Sam Altman Molotov Attack",
+      "description": "A 20-year-old suspect was arrested for throwing a molotov cocktail at OpenAI CEO Sam Altman's home in what appears to be a targeted attack on the AI leader.",
+      "question": "Does this attack justify enhanced security for AI leaders?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "sam-altman-molotov-attack-20260412",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-sam-altman-molotov-attack-20260413.html",
+      "started_at": "2026-04-12T11:31:35.634281",
+      "archived_at": "2026-04-14T02:03:55.003538",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Molotov Attack on Sam Altman",
       "description": "A 20-year-old suspect was arrested for throwing a molotov cocktail at OpenAI CEO Sam Altman's home, marking a serious escalation in threats against AI industry leaders.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-pentagon-ai-military-controversy-20260305.html",
       "started_at": "2026-03-04T06:42:37.713818",
       "archived_at": "2026-03-05T06:45:38.947176",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "US China AI Chip Restrictions",
-      "description": "Major escalation in US-China tech war as America considers capping Nvidia chip sales to Chinese firms.",
-      "question": "Will US chip restrictions on China strengthen or weaken America's tech leadership?",
-      "button_a": "Strengthen",
-      "button_b": "Weaken",
-      "poll_id": "us-china-ai-chip-restrictions-20260303",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-us-china-ai-chip-restrictions-20260304.html",
-      "started_at": "2026-03-03T01:47:12.778873",
-      "archived_at": "2026-03-04T06:42:38.225998",
       "reason": "topic_replaced"
     }
   ]
