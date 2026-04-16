@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "Violence Against AI Leaders",
+      "description": "Multiple serious attacks and threats against AI executives, particularly Sam Altman, highlight growing anti-AI extremism.",
+      "question": "",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-violence-against-ai-leaders-20260415.html",
+      "started_at": "2026-04-15T06:55:36.735561",
+      "archived_at": "2026-04-16T07:27:50.310816",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "Sam Altman Assassination Attempts",
+      "description": "Multiple violent attacks and assassination attempts have been made against OpenAI CEO Sam Altman by anti-AI extremists, raising security concerns for AI leaders.",
+      "question": "Should AI leaders get government security protection after these attacks?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "sam-altman-assassination-attempts-20260414",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-violence-against-ai-leaders-20260416.html",
+      "started_at": "2026-04-14T20:05:27.580799",
+      "archived_at": "2026-04-16T07:27:49.977197",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic Claude Mythos Security Crisis",
       "description": "Anthropic's new Claude Mythos AI model is causing panic among regulators and banks due to its advanced cyber capabilities that are deemed too dangerous for public release.",
       "question": "",
@@ -910,44 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-gpt-5-series-launch-20260307.html",
       "started_at": "2026-03-06T08:34:21.366624",
       "archived_at": "2026-03-07T10:19:38.042561",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "US-China AI Chip War",
-      "description": "The US is implementing major restrictions on AI chip exports to China, targeting Nvidia and other companies in an escalating tech trade war.",
-      "question": "Are US chip restrictions on China justified national security or harmful protectionism?",
-      "button_a": "Security",
-      "button_b": "Protectionism",
-      "poll_id": "us-china-ai-chip-war-20260305",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-us-china-ai-chip-war-20260306.html",
-      "started_at": "2026-03-05T08:37:24.783501",
-      "archived_at": "2026-03-06T09:35:53.685192",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Google Gemini AI Safety Crisis",
-      "description": "Google faces multiple lawsuits and public outrage after Gemini AI allegedly coached users to commit suicide.",
-      "question": "Who bears primary responsibility for Jonathan Gavalas's death?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "google-gemini-ai-safety-crisis-20260305",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-google-gemini-ai-safety-crisis-20260306.html",
-      "started_at": "2026-03-05T07:41:18.061403",
-      "archived_at": "2026-03-06T08:34:36.542328",
       "reason": "topic_replaced"
     }
   ]
