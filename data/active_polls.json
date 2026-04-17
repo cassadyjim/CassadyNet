@@ -1,101 +1,6 @@
 {
   "polls": [
     {
-      "topic": "US-China AI Competition",
-      "description": "A global power struggle over AI dominance with China challenging US leadership while facing technology restrictions and policy tensions.",
-      "question": "Is China now leading America in the global AI race?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "us-china-ai-competition-20260416",
-      "analysis_url": "/analysis/analysis-us-china-ai-competition-20260417.html",
-      "analysis_type": "poll",
-      "created_at": "2026-04-16T07:27:42.626609",
-      "last_seen": "2026-04-17T05:26:35.073518",
-      "cluster_stories": [
-        {
-          "id": "3f617e9c909866b3",
-          "title": "Title: Stanford HAI 2026 AI Index: China erases US lead, young developer employment drops 20%, AI adopted faster than the internet, and transparency scores plummet across major labs",
-          "url": "https://www.reddit.com/r/artificial/comments/1skuh7v/title_stanford_hai_2026_ai_index_china_erases_us/",
-          "source": "Reddit r/artificial",
-          "summary": "Stanford HAI just released its 2026 AI Index Report \u2014 the annual &quot;state of AI&quot; report card. 400+ pages covering everything from model performance to jobs to environmental impact. The 12 key findings: **US-China gap evaporated** \u2014 models trading top spots, Anthropic leads by just 2.7% **$581.7B in global AI investment** \u2014 up 130% YoY, US private spending is 23x China's **Young devs getting squeezed** \u2014 employment for ages 22-25 down ~20% since 2024 **Adoption faster than the internet** \u2014 53% population adoption in 3 years **Gold-medal math, can't tell time** \u2014 SWE-bench 60% \u2192 ~100% in one year, but robots do 12% of household tasks **Massive environmental costs** \u2014 Grok 4 training = 17,000 cars for a year, GPT-4o water use exceeds 12M people's needs **Transparency plummeting** \u2014 disclosure scores dropped 58 \u2192 40, 80/95 top models released without training code **US talent pipeline drying up** \u2014 AI researchers moving to US dropped 89% since 2017 **Public is conflicted** \u2014 59% op",
-          "published": "2026-04-14T01:28:46+00:00",
-          "score": 47.0,
-          "headline": "STANFORD: CHINA ERASES US AI LEAD... TRANSPARENCY PLUMMETS"
-        },
-        {
-          "id": "1ff3da1234b1f7ae",
-          "title": "China now the \u2018good guy\u2019 on AI as Trump takes \u2018wild west\u2019 approach, MPs told",
-          "url": "https://www.theguardian.com/technology/2026/apr/14/china-now-ais-good-guy-as-us-takes-a-wild-west-approach-mps-told",
-          "source": "The Guardian Tech",
-          "summary": "Experts say China is backing attempts at global governance, while US has set up race between profit-hungry companiesChina is now the \u201cgood guy\u201d on AI rather than Donald Trump\u2019s US, where the technology is being pursued in a dangerous \u201cwild west\u201d manner, a former UN and UK government adviser has told MPs.Prof Dame Wendy Hall, who was a member of the UN\u2019s AI advisory board and co-wrote a review of AI for Theresa May\u2019s government, told the House of Commons business and trade committee that China was backing multinational attempts to introduce global governance of AI, in contrast to America, which had set up a race between profit-hungry companies that relied on hype. Continue reading...",
-          "published": "2026-04-14T17:56:47+00:00",
-          "score": 46.0,
-          "headline": "CHINA Now the 'Good Guy' on AI as Trump Takes 'Wild West' Approach"
-        },
-        {
-          "id": "0c93cecec980e674",
-          "title": "Bessent Calls Anthropic\u2019s Mythos a Breakthrough in China AI Race",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-15/bessent-calls-anthropic-s-mythos-a-breakthrough-in-china-ai-race",
-          "source": "Bloomberg Technology",
-          "summary": "US Treasury Secretary Scott Bessent hailed Anthropic PBC\u2019s Mythos as a revolutionary step that will keep America ahead of China in AI, endorsing an industry leader that\u2019s clashed with Washington over its role in military endeavors.",
-          "published": "2026-04-15T01:03:39+00:00",
-          "score": 45.0,
-          "headline": "TREASURY CHIEF HAILS ANTHROPIC'S MYTHOS IN CHINA AI RACE"
-        },
-        {
-          "id": "283f71ee37b578a9",
-          "title": "Alibaba Just Took the Crown of Video Generation",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-04-14/alibaba-s-happy-horse-ai-model-gives-china-the-video-creation-crown",
-          "source": "Bloomberg Technology",
-          "summary": "Released under stealth last week, the Happy Horse AI video generator now ranks top of benchmarks",
-          "published": "2026-04-14T11:02:00+00:00",
-          "score": 45.0,
-          "headline": "ALIBABA'S HAPPY HORSE TOPS AI VIDEO BENCHMARKS"
-        },
-        {
-          "id": "b7c97f28a21c3145",
-          "title": "Nvidia\u2019s Huang Says Mythos Shows Need for US-China AI Dialogue",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-15/nvidia-s-huang-says-mythos-shows-need-for-us-china-ai-dialogue",
-          "source": "Bloomberg Technology",
-          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang said that Anthropic PBC\u2019s Mythos breakthrough shows that the US should seek greater cooperation with China so artificial intelligence researchers in the world\u2019s two largest economies can agree on how to safely use the increasingly powerful technology.",
-          "published": "2026-04-15T23:12:47+00:00",
-          "score": 44.0,
-          "headline": "NVIDIA CEO Calls for US-China AI Dialogue After Anthropic Breakthrough"
-        },
-        {
-          "id": "920b3b8841cde3a5",
-          "title": "Tesla\u2019s Chinese Robot Rival Ramps Pre-IPO Global Push",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-15/tesla-s-chinese-robot-rival-ramps-up-global-push-ahead-of-ipo",
-          "source": "Bloomberg Technology",
-          "summary": "Unitree Robotics began selling its cheapest humanoid robot on Alibaba Group Holding Ltd.\u2019s AliExpress on Wednesday, expanding its international presence in a white-hot race featuring heavyweight players like Elon Musk\u2019s Tesla Inc.",
-          "published": "2026-04-15T08:38:50+00:00",
-          "score": 44.0,
-          "headline": "Chinese Robot Rival Takes on Tesla... Goes Global"
-        },
-        {
-          "id": "fd44e232f361b303",
-          "title": "China orders safety checks on smart vehicle road tests after robotaxi incident",
-          "url": "https://economictimes.indiatimes.com/tech/technology/china-orders-safety-checks-on-smart-vehicle-road-tests-after-robotaxi-incident/articleshow/130258181.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Officials from the public security and transportation ministries held a meeting after a recent robotaxi outage involving multiple vehicles \u200boperated \u200bby \u2060Baidu's Apollo Go in central Chinese city of Wuhan, \u200bwhich has revived safety concerns over the fast-growing service.",
-          "published": "2026-04-14T11:31:29+00:00",
-          "score": 43.0,
-          "headline": "CHINA ORDERS ROBOTAXI SAFETY CHECKS After Baidu Outage"
-        },
-        {
-          "id": "3f54f24b09f463d4",
-          "title": "China\u2019s surging chip tool imports from south-east Asia",
-          "url": "https://www.ft.com/content/708c0fe1-fd67-430d-93ff-027248d0e132",
-          "source": "Financial Times Tech",
-          "summary": "The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times",
-          "published": "2026-04-16T06:39:42+00:00",
-          "score": 42.0,
-          "headline": "CHINA Surges Chip Tool Imports from Southeast Asia"
-        }
-      ],
-      "current_topic_name": "US-China AI Competition"
-    },
-    {
       "topic": "Anthropic's Mythos AI Model",
       "description": "A powerful new AI model from Anthropic is causing major disruption across government agencies, financial institutions, and regulatory bodies worldwide due to its capabilities and potential risks.",
       "question": "Should Anthropic release Mythos despite its dangerous capabilities?",
@@ -105,7 +10,7 @@
       "analysis_url": "/analysis/analysis-anthropics-mythos-ai-model-20260417.html",
       "analysis_type": "poll",
       "created_at": "2026-04-17T02:04:45.125253",
-      "last_seen": "2026-04-17T05:26:35.889583",
+      "last_seen": "2026-04-17T07:28:38.173232",
       "cluster_stories": [
         {
           "id": "60bd8c7d2c926874",
@@ -259,7 +164,72 @@
         }
       ],
       "current_topic_name": "Anthropic's Mythos AI Model"
+    },
+    {
+      "topic": "US-China AI Competition",
+      "description": "A global power struggle over AI dominance with China challenging US leadership while facing technology restrictions and policy tensions.",
+      "question": "Is China now leading America in the global AI race?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "us-china-ai-competition-20260416",
+      "analysis_url": "/analysis/analysis-us-china-ai-competition-20260417.html",
+      "analysis_type": "poll",
+      "created_at": "2026-04-16T07:27:42.626609",
+      "last_seen": "2026-04-17T07:28:39.005734",
+      "cluster_stories": [
+        {
+          "id": "3f617e9c909866b3",
+          "title": "Title: Stanford HAI 2026 AI Index: China erases US lead, young developer employment drops 20%, AI adopted faster than the internet, and transparency scores plummet across major labs",
+          "url": "https://www.reddit.com/r/artificial/comments/1skuh7v/title_stanford_hai_2026_ai_index_china_erases_us/",
+          "source": "Reddit r/artificial",
+          "summary": "Stanford HAI just released its 2026 AI Index Report \u2014 the annual &quot;state of AI&quot; report card. 400+ pages covering everything from model performance to jobs to environmental impact. The 12 key findings: **US-China gap evaporated** \u2014 models trading top spots, Anthropic leads by just 2.7% **$581.7B in global AI investment** \u2014 up 130% YoY, US private spending is 23x China's **Young devs getting squeezed** \u2014 employment for ages 22-25 down ~20% since 2024 **Adoption faster than the internet** \u2014 53% population adoption in 3 years **Gold-medal math, can't tell time** \u2014 SWE-bench 60% \u2192 ~100% in one year, but robots do 12% of household tasks **Massive environmental costs** \u2014 Grok 4 training = 17,000 cars for a year, GPT-4o water use exceeds 12M people's needs **Transparency plummeting** \u2014 disclosure scores dropped 58 \u2192 40, 80/95 top models released without training code **US talent pipeline drying up** \u2014 AI researchers moving to US dropped 89% since 2017 **Public is conflicted** \u2014 59% op",
+          "published": "2026-04-14T01:28:46+00:00",
+          "score": 47.0,
+          "headline": "STANFORD: CHINA ERASES US AI LEAD... TRANSPARENCY PLUMMETS"
+        },
+        {
+          "id": "1ff3da1234b1f7ae",
+          "title": "China now the \u2018good guy\u2019 on AI as Trump takes \u2018wild west\u2019 approach, MPs told",
+          "url": "https://www.theguardian.com/technology/2026/apr/14/china-now-ais-good-guy-as-us-takes-a-wild-west-approach-mps-told",
+          "source": "The Guardian Tech",
+          "summary": "Experts say China is backing attempts at global governance, while US has set up race between profit-hungry companiesChina is now the \u201cgood guy\u201d on AI rather than Donald Trump\u2019s US, where the technology is being pursued in a dangerous \u201cwild west\u201d manner, a former UN and UK government adviser has told MPs.Prof Dame Wendy Hall, who was a member of the UN\u2019s AI advisory board and co-wrote a review of AI for Theresa May\u2019s government, told the House of Commons business and trade committee that China was backing multinational attempts to introduce global governance of AI, in contrast to America, which had set up a race between profit-hungry companies that relied on hype. Continue reading...",
+          "published": "2026-04-14T17:56:47+00:00",
+          "score": 46.0,
+          "headline": "CHINA Now the 'Good Guy' on AI as Trump Takes 'Wild West' Approach"
+        },
+        {
+          "id": "ce3963685f4428f9",
+          "title": "US lawmakers scale back bill targeting Chinese chipmaking",
+          "url": "https://economictimes.indiatimes.com/tech/information-tech/us-lawmakers-scale-back-bill-targeting-chinese-chipmaking/articleshow/130310690.cms",
+          "source": "The Economic Times Tech",
+          "summary": "A US bill to limit China's access to advanced chipmaking equipment has been modified. The legislation still aims to restrict ASML's deep ultraviolet lithography machines. The bill seeks to align international controls on technology. Manufacturers expressed concerns about the earlier version. The House Foreign Affairs Committee plans a vote next week.",
+          "published": "2026-04-16T14:50:37+00:00",
+          "score": 45.0,
+          "headline": "US LAWMAKERS SCALE BACK BILL TARGETING CHINESE CHIPS"
+        },
+        {
+          "id": "286c6b66d519f45f",
+          "title": "DARPA builds AI to investigate China's claim it can break military encryption",
+          "url": "https://www.scientificamerican.com/article/darpa-built-an-ai-to-fact-check-enemy-weapons-claims/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.scientificamerican.com/article/darpa-built-an-ai-to-fact-check-enemy-weapons-claims/ Comments URL: https://news.ycombinator.com/item?id=47801478 Points: 2 # Comments: 0",
+          "published": "2026-04-17T01:08:30+00:00",
+          "score": 44.0,
+          "headline": "DARPA BUILDS AI TO CHECK CHINA'S ENCRYPTION CLAIMS"
+        },
+        {
+          "id": "fd44e232f361b303",
+          "title": "China orders safety checks on smart vehicle road tests after robotaxi incident",
+          "url": "https://economictimes.indiatimes.com/tech/technology/china-orders-safety-checks-on-smart-vehicle-road-tests-after-robotaxi-incident/articleshow/130258181.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Officials from the public security and transportation ministries held a meeting after a recent robotaxi outage involving multiple vehicles \u200boperated \u200bby \u2060Baidu's Apollo Go in central Chinese city of Wuhan, \u200bwhich has revived safety concerns over the fast-growing service.",
+          "published": "2026-04-14T11:31:29+00:00",
+          "score": 43.0,
+          "headline": "CHINA ORDERS ROBOTAXI SAFETY CHECKS After Baidu Outage"
+        }
+      ],
+      "current_topic_name": "US-China AI Competition"
     }
   ],
-  "last_updated": "2026-04-17T05:26:35.889593"
+  "last_updated": "2026-04-17T07:28:39.005742"
 }
