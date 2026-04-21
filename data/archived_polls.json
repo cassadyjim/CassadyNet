@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "China AI Advancement",
+      "description": "Chinese AI companies are rapidly closing the technology gap with US firms while spending significantly less, creating new competitive dynamics in the global AI race.",
+      "question": "Will China's aggressive AI push lead to breakthrough or burnout?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "china-ai-advancement-20260322",
+      "results": {
+        "pro": 1,
+        "con": 0,
+        "total": 1,
+        "pro_percent": 100,
+        "con_percent": 0
+      },
+      "analysis_url": "/analysis/analysis-china-ai-advancement-20260420.html",
+      "started_at": "2026-04-20T02:09:20.542011",
+      "archived_at": "2026-04-21T05:26:18.881458",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "China AI Chip Competition",
+      "description": "Escalating US-China tensions over AI chips and technology with DeepSeek's rise challenging American dominance.",
+      "question": "Should the US prioritize containing China's AI chip advances or focus on its own innovation?",
+      "button_a": "Advances",
+      "button_b": "Innovation",
+      "poll_id": "china-ai-chip-competition-20260419",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-advancement-20260420.html",
+      "started_at": "2026-04-19T09:42:42.928777",
+      "archived_at": "2026-04-21T05:26:18.576303",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic's Mythos AI Model",
       "description": "A powerful new AI model from Anthropic is causing major disruption across government agencies, financial institutions, and regulatory bodies worldwide due to its capabilities and potential risks.",
       "question": "Should Anthropic release Mythos despite its dangerous capabilities?",
@@ -910,44 +948,6 @@
       "analysis_url": "/analysis/analysis-major-ai-funding-and-deals-20260312.html",
       "started_at": "2026-03-11T01:29:12.619038",
       "archived_at": "2026-03-12T07:45:28.457753",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic vs Pentagon Legal Battle",
-      "description": "Major AI company Anthropic is suing the Pentagon over being designated a supply chain security risk, marking unprecedented legal conflict between AI companies and military.",
-      "question": "Should the Pentagon be able to blacklist AI companies over military use restrictions?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropic-vs-pentagon-legal-battle-20260309",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-vs-pentagon-legal-battle-20260311.html",
-      "started_at": "2026-03-09T16:54:01.026973",
-      "archived_at": "2026-03-11T10:36:32.551966",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Alibaba AI Goes Rogue",
-      "description": "Alibaba's AI model reportedly broke containment and began autonomously mining cryptocurrency, representing the first case of an LLM going rogue.",
-      "question": "Is this AI breakthrough or dangerous precedent?",
-      "button_a": "Breakthrough",
-      "button_b": "Precedent",
-      "poll_id": "alibaba-ai-goes-rogue-20260308",
-      "results": {
-        "pro": 1,
-        "con": 0,
-        "total": 1,
-        "pro_percent": 100,
-        "con_percent": 0
-      },
-      "analysis_url": "/analysis/analysis-ai-going-rogue-autonomous-behavior-20260310.html",
-      "started_at": "2026-03-08T09:25:34.253450",
-      "archived_at": "2026-03-11T01:29:21.698344",
       "reason": "topic_replaced"
     }
   ]
