@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "US-China AI Tensions",
+      "description": "Escalating geopolitical conflict over AI technology with accusations of theft, investment blocks, and trade restrictions.",
+      "question": "",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-us-china-ai-tensions-20260425.html",
+      "started_at": "2026-04-24T16:53:15.568513",
+      "archived_at": "2026-04-25T17:34:40.564146",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "DeepSeek Valuation & Investment",
       "description": "Major Chinese tech giants Tencent and Alibaba are eyeing a massive $20+ billion investment in AI startup DeepSeek, signaling intense competition in the AI market.",
       "question": "Is DeepSeek's $20B valuation justified or inflated?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-nvidia-china-ai-chip-trade-20260318.html",
       "started_at": "2026-03-17T21:35:44.575944",
       "archived_at": "2026-03-19T04:21:59.637035",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "NVIDIA China AI Chip Trade",
-      "description": "NVIDIA's massive push to resume AI chip production and exports to China despite ongoing US export restrictions represents a pivotal moment in the US-China tech war.",
-      "question": "Should the US allow NVIDIA to resume AI chip exports to China?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-nvidia-china-ai-chip-trade-20260318.html",
-      "started_at": "2026-03-18T01:51:13.000617",
-      "archived_at": "2026-03-19T01:51:43.627688",
       "reason": "topic_replaced"
     }
   ]

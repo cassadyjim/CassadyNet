@@ -1,151 +1,6 @@
 {
   "polls": [
     {
-      "topic": "US-China AI Conflict",
-      "description": "Escalating tensions as the US accuses China of industrial-scale AI theft while China blocks US tech investments and develops competing models.",
-      "question": "Are China's AI practices theft or smart competitive strategy?",
-      "button_a": "Theft",
-      "button_b": "Strategy",
-      "poll_id": "us-china-ai-conflict-20260424",
-      "analysis_url": "/analysis/analysis-us-china-ai-tensions-20260425.html",
-      "analysis_type": "poll",
-      "created_at": "2026-04-24T13:14:30.081840",
-      "last_seen": "2026-04-25T16:36:33.584872",
-      "cluster_stories": [
-        {
-          "id": "467d2852b2cf8294",
-          "title": "US Seeks to Halt US AI Model \u2018Exploitation\u2019 by Chinese Rivals",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-23/us-seeks-to-halt-us-ai-model-exploitation-by-chinese-rivals",
-          "source": "Bloomberg Technology",
-          "summary": "The Trump administration unveiled measures aimed at preventing Chinese developers from improperly using leading American AI models to build a rival generation of chatbots, marking the first major US response to Silicon Valley companies\u2019 complaints that China is piggybacking on their success.",
-          "published": "2026-04-23T16:32:36+00:00",
-          "score": 48.0,
-          "headline": "US MOVES TO HALT CHINESE AI MODEL 'EXPLOITATION'"
-        },
-        {
-          "id": "11552bd4750faed5",
-          "title": "China to curb US investment in tech companies: Report",
-          "url": "https://economictimes.indiatimes.com/tech/technology/china-to-curb-us-investment-in-tech-companies-report/articleshow/130496655.cms",
-          "source": "The Economic Times Tech",
-          "summary": "China is set to block top tech firms, including AI startups, from taking US money without official clearance. Regulators have told companies like Moonshot AI and StepFun to reject US investment. TikTok owner ByteDance also faces similar curbs on secondary share sales. These moves aim to safeguard sensitive technologies linked to national security.",
-          "published": "2026-04-24T14:09:28+00:00",
-          "score": 47.0,
-          "headline": "CHINA BLOCKS US INVESTMENT IN AI STARTUPS... Moonshot Rejected"
-        },
-        {
-          "id": "95912d56f67024b3",
-          "title": "China to Curb US Investment in Tech Companies After Meta Deal",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-24/china-to-curb-us-investment-in-tech-companies-after-meta-deal",
-          "source": "Bloomberg Technology",
-          "summary": "Chinese regulators plan to restrict technology firms including some of the country\u2019s highest-profile AI pioneers from accepting US capital without government approval, part of Beijing\u2019s broader response to Meta Platforms Inc.\u2019s controversial acquisition of startup Manus.",
-          "published": "2026-04-24T09:23:46+00:00",
-          "score": 47.0,
-          "headline": "CHINA BLOCKS US INVESTMENT in Tech Giants After Meta Deal"
-        },
-        {
-          "id": "e080e24b03618a43",
-          "title": "White House accuses China of industrial-scale AI model distillation, commits to intelligence sharing with OpenAI, Anthropic, Google",
-          "url": "https://thenextweb.com/news/us-white-house-ai-model-distillation-china-theft",
-          "source": "The Next Web",
-          "summary": "Summary: The White House OSTP released a policy memo accusing China of \u201cindustrial-scale\u201d distillation of US AI models, committing to share intelligence with US AI companies and explore accountability measures. OpenAI accused DeepSeek of distilling its models in February; Anthropic named DeepSeek, MiniMax, and Moonshot AI as having created 24,000 fraudulent accounts generating 16+ million [&hellip;] This story continues at The Next Web",
-          "published": "2026-04-23T19:15:07+00:00",
-          "score": 47.0,
-          "headline": "WHITE HOUSE ACCUSES CHINA OF AI THEFT... SHARES INTEL WITH OPENAI"
-        },
-        {
-          "id": "af481b862dae0335",
-          "title": "GPT-Proxy Backdoor in NPM and PyPI Turns Servers into Chinese LLM Relays",
-          "url": "https://www.aikido.dev/blog/gpt-proxy-backdoor-npm-pypi-chinese-llm-relay",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.aikido.dev/blog/gpt-proxy-backdoor-npm-pypi-chinese-llm-relay Comments URL: https://news.ycombinator.com/item?id=47866916 Points: 1 # Comments: 0",
-          "published": "2026-04-22T17:51:33+00:00",
-          "score": 47.0,
-          "headline": "CHINESE BACKDOOR HIJACKS AI SERVERS... Turns NPM/PyPI Into LLM Relays"
-        },
-        {
-          "id": "cdd0399fec122cf7",
-          "title": "White House warns of 'industrial-scale' efforts in China to rip off U.S. AI tech",
-          "url": "https://www.cnbc.com/2026/04/23/trump-china-ai-technology.html",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.cnbc.com/2026/04/23/trump-china-ai-technology.html Comments URL: https://news.ycombinator.com/item?id=47882773 Points: 3 # Comments: 2",
-          "published": "2026-04-23T22:08:19+00:00",
-          "score": 46.0,
-          "headline": "WHITE HOUSE: CHINA'S INDUSTRIAL-SCALE AI THEFT"
-        },
-        {
-          "id": "cae7c032492d068a",
-          "title": "White House accuses China of 'industrial scale' theft of AI technology",
-          "url": "https://www.reuters.com/world/white-house-accuses-china-industrial-scale-theft-ai-technology-ft-reports-2026-04-23/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.reuters.com/world/white-house-accuses-china-industrial-scale-theft-ai-technology-ft-reports-2026-04-23/ Comments URL: https://news.ycombinator.com/item?id=47876719 Points: 3 # Comments: 3",
-          "published": "2026-04-23T15:13:47+00:00",
-          "score": 46.0,
-          "headline": "WHITE HOUSE ACCUSES CHINA OF 'INDUSTRIAL SCALE' AI THEFT"
-        },
-        {
-          "id": "9be6d58be83291d5",
-          "title": "Medical data of 500,000 people in UK for sale on Chinese site",
-          "url": "https://www.ft.com/content/2022ff7b-ec38-4a03-90a3-d80a33133118",
-          "source": "Financial Times Tech",
-          "summary": "Alibaba \u2018swiftly removed\u2019 listings for UK Biobank data, institution says",
-          "published": "2026-04-23T11:25:54+00:00",
-          "score": 46.0,
-          "headline": "UK Medical Data of 500K Sold on Chinese Site"
-        },
-        {
-          "id": "782bf64f637bfefc",
-          "title": "China plans to block US investment in its top AI firms without government approval",
-          "url": "https://thenextweb.com/news/china-us-investment-ai-startups-approval",
-          "source": "The Next Web",
-          "summary": "Two parallel moves in 24 hours mark a significant escalation of the US-China AI war from chips and exports into capital and models. China plans to restrict its leading technology companies, including top AI startups, from accepting US capital without first obtaining government approval, Bloomberg News reported on Friday, citing people familiar with the matter. [&hellip;] This story continues at The Next Web",
-          "published": "2026-04-24T10:57:54+00:00",
-          "score": 45.0,
-          "headline": "CHINA BLOCKS US Investment in Top AI Firms"
-        },
-        {
-          "id": "49e1176012e9a838",
-          "title": "White House memo claims mass AI theft by Chinese firms",
-          "url": "https://www.bbc.com/news/articles/cpqxgxx9nrqo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "A memo from Michael Kratsios says firms, mainly in China, are wrongfully distilling US AI models.",
-          "published": "2026-04-23T23:13:14+00:00",
-          "score": 45.0,
-          "headline": "WHITE HOUSE: Chinese Firms Stealing US AI Models at Scale"
-        },
-        {
-          "id": "c1c0153de1c79d67",
-          "title": "FirstFT: US accuses China of \u2018industrial-scale\u2019 theft of AI technology",
-          "url": "https://www.ft.com/content/9d588852-5c05-4815-a7cb-1d42c6ccca7f",
-          "source": "Financial Times Tech",
-          "summary": "Also in today\u2019s newsletter: PwC fined $166mn by Hong Kong regulators, and Meta to cut 10% of jobs",
-          "published": "2026-04-23T21:54:09+00:00",
-          "score": 45.0,
-          "headline": "US ACCUSES CHINA OF INDUSTRIAL-SCALE AI THEFT"
-        },
-        {
-          "id": "915b1ee3fbe4370f",
-          "title": "White House accuses China of 'industrial scale' theft of AI technology: Report",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/white-house-accuses-china-of-industrial-scale-theft-of-ai-technology-report/articleshow/130472256.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The White House has accused China of stealing intellectual property from American artificial intelligence labs. This industrial-scale theft exploits US innovation. The White House plans to crack down on this practice. The Financial Times reported this development. This warning signals a significant move in international technology relations.",
-          "published": "2026-04-23T14:56:20+00:00",
-          "score": 45.0,
-          "headline": "WHITE HOUSE ACCUSES CHINA OF 'INDUSTRIAL SCALE' AI THEFT"
-        },
-        {
-          "id": "b398e525592850e5",
-          "title": "White House accuses China of \u2018industrial-scale\u2019 theft of AI technology",
-          "url": "https://www.ft.com/content/abde4e1e-c69a-4cc4-ad96-d88308314298",
-          "source": "Financial Times Tech",
-          "summary": "Trump official Michael Kratsios says Chinese entities stealing from American labs",
-          "published": "2026-04-23T14:40:02+00:00",
-          "score": 45.0,
-          "headline": "WHITE HOUSE ACCUSES CHINA OF 'INDUSTRIAL-SCALE' AI THEFT"
-        }
-      ],
-      "current_topic_name": "US-China AI Tensions"
-    },
-    {
       "topic": "DeepSeek AI Development",
       "description": "Chinese AI company DeepSeek launching new models and raising massive funding while challenging US AI dominance.",
       "question": "Is DeepSeek's rise a breakthrough for innovation or a threat to US tech dominance?",
@@ -155,7 +10,7 @@
       "analysis_url": "/analysis/analysis-deepseek-ai-development-20260425.html",
       "analysis_type": "poll",
       "created_at": "2026-04-25T14:02:10.182030",
-      "last_seen": "2026-04-25T16:36:34.449980",
+      "last_seen": "2026-04-25T17:34:39.154727",
       "cluster_stories": [
         {
           "id": "79b7e106d66087b4",
@@ -292,17 +147,170 @@
       "current_topic_name": "DeepSeek AI Development"
     },
     {
-      "topic": "US-China AI Tensions",
-      "description": "Escalating geopolitical conflict over AI technology with accusations of theft, investment blocks, and trade restrictions.",
-      "question": "",
-      "poll_id": "",
+      "topic": "US-China AI Conflict",
+      "description": "Escalating tensions as the US accuses China of industrial-scale AI theft while China blocks US tech investments and develops competing models.",
+      "question": "Are China's AI practices theft or smart competitive strategy?",
+      "button_a": "Theft",
+      "button_b": "Strategy",
+      "poll_id": "us-china-ai-conflict-20260424",
       "analysis_url": "/analysis/analysis-us-china-ai-tensions-20260425.html",
       "analysis_type": "poll",
-      "created_at": "2026-04-24T16:53:15.568513",
-      "last_seen": "2026-04-25T14:02:12.272328",
-      "current_topic_name": "DeepSeek AI Development",
-      "pending_archive": true
+      "created_at": "2026-04-24T13:14:30.081840",
+      "last_seen": "2026-04-25T17:34:39.866273",
+      "cluster_stories": [
+        {
+          "id": "467d2852b2cf8294",
+          "title": "US Seeks to Halt US AI Model \u2018Exploitation\u2019 by Chinese Rivals",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-23/us-seeks-to-halt-us-ai-model-exploitation-by-chinese-rivals",
+          "source": "Bloomberg Technology",
+          "summary": "The Trump administration unveiled measures aimed at preventing Chinese developers from improperly using leading American AI models to build a rival generation of chatbots, marking the first major US response to Silicon Valley companies\u2019 complaints that China is piggybacking on their success.",
+          "published": "2026-04-23T16:32:36+00:00",
+          "score": 48.0,
+          "headline": "US MOVES TO HALT CHINESE AI MODEL 'EXPLOITATION'"
+        },
+        {
+          "id": "11552bd4750faed5",
+          "title": "China to curb US investment in tech companies: Report",
+          "url": "https://economictimes.indiatimes.com/tech/technology/china-to-curb-us-investment-in-tech-companies-report/articleshow/130496655.cms",
+          "source": "The Economic Times Tech",
+          "summary": "China is set to block top tech firms, including AI startups, from taking US money without official clearance. Regulators have told companies like Moonshot AI and StepFun to reject US investment. TikTok owner ByteDance also faces similar curbs on secondary share sales. These moves aim to safeguard sensitive technologies linked to national security.",
+          "published": "2026-04-24T14:09:28+00:00",
+          "score": 47.0,
+          "headline": "CHINA BLOCKS US INVESTMENT IN AI STARTUPS... Moonshot Rejected"
+        },
+        {
+          "id": "95912d56f67024b3",
+          "title": "China to Curb US Investment in Tech Companies After Meta Deal",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-24/china-to-curb-us-investment-in-tech-companies-after-meta-deal",
+          "source": "Bloomberg Technology",
+          "summary": "Chinese regulators plan to restrict technology firms including some of the country\u2019s highest-profile AI pioneers from accepting US capital without government approval, part of Beijing\u2019s broader response to Meta Platforms Inc.\u2019s controversial acquisition of startup Manus.",
+          "published": "2026-04-24T09:23:46+00:00",
+          "score": 47.0,
+          "headline": "CHINA BLOCKS US INVESTMENT in Tech Giants After Meta Deal"
+        },
+        {
+          "id": "e080e24b03618a43",
+          "title": "White House accuses China of industrial-scale AI model distillation, commits to intelligence sharing with OpenAI, Anthropic, Google",
+          "url": "https://thenextweb.com/news/us-white-house-ai-model-distillation-china-theft",
+          "source": "The Next Web",
+          "summary": "Summary: The White House OSTP released a policy memo accusing China of \u201cindustrial-scale\u201d distillation of US AI models, committing to share intelligence with US AI companies and explore accountability measures. OpenAI accused DeepSeek of distilling its models in February; Anthropic named DeepSeek, MiniMax, and Moonshot AI as having created 24,000 fraudulent accounts generating 16+ million [&hellip;] This story continues at The Next Web",
+          "published": "2026-04-23T19:15:07+00:00",
+          "score": 47.0,
+          "headline": "WHITE HOUSE ACCUSES CHINA OF AI THEFT... SHARES INTEL WITH OPENAI"
+        },
+        {
+          "id": "af481b862dae0335",
+          "title": "GPT-Proxy Backdoor in NPM and PyPI Turns Servers into Chinese LLM Relays",
+          "url": "https://www.aikido.dev/blog/gpt-proxy-backdoor-npm-pypi-chinese-llm-relay",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.aikido.dev/blog/gpt-proxy-backdoor-npm-pypi-chinese-llm-relay Comments URL: https://news.ycombinator.com/item?id=47866916 Points: 1 # Comments: 0",
+          "published": "2026-04-22T17:51:33+00:00",
+          "score": 47.0,
+          "headline": "CHINESE BACKDOOR HIJACKS AI SERVERS... Turns NPM/PyPI Into LLM Relays"
+        },
+        {
+          "id": "94d98137eea4f62a",
+          "title": "US State Dept orders global warning about alleged AI thefts by DeepSeek, other Chinese firms",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-state-dept-orders-global-warning-about-alleged-ai-thefts-by-deepseek-other-chinese-firms/articleshow/130506577.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The US State Department is urging global attention to Chinese firms, including DeepSeek, accused of stealing AI intellectual property. A diplomatic cable details concerns over \"adversaries' extraction and distillation of U.S. A.I. models,\" aiming to counter low-cost replication of advanced AI. China denies these allegations.",
+          "published": "2026-04-25T01:27:34+00:00",
+          "score": 46.0,
+          "headline": "US STATE DEPT WARNS WORLD ABOUT DEEPSEEK AI THEFT"
+        },
+        {
+          "id": "cdd0399fec122cf7",
+          "title": "White House warns of 'industrial-scale' efforts in China to rip off U.S. AI tech",
+          "url": "https://www.cnbc.com/2026/04/23/trump-china-ai-technology.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.cnbc.com/2026/04/23/trump-china-ai-technology.html Comments URL: https://news.ycombinator.com/item?id=47882773 Points: 3 # Comments: 2",
+          "published": "2026-04-23T22:08:19+00:00",
+          "score": 46.0,
+          "headline": "WHITE HOUSE: CHINA'S INDUSTRIAL-SCALE AI THEFT"
+        },
+        {
+          "id": "cae7c032492d068a",
+          "title": "White House accuses China of 'industrial scale' theft of AI technology",
+          "url": "https://www.reuters.com/world/white-house-accuses-china-industrial-scale-theft-ai-technology-ft-reports-2026-04-23/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.reuters.com/world/white-house-accuses-china-industrial-scale-theft-ai-technology-ft-reports-2026-04-23/ Comments URL: https://news.ycombinator.com/item?id=47876719 Points: 3 # Comments: 3",
+          "published": "2026-04-23T15:13:47+00:00",
+          "score": 46.0,
+          "headline": "WHITE HOUSE ACCUSES CHINA OF 'INDUSTRIAL SCALE' AI THEFT"
+        },
+        {
+          "id": "9be6d58be83291d5",
+          "title": "Medical data of 500,000 people in UK for sale on Chinese site",
+          "url": "https://www.ft.com/content/2022ff7b-ec38-4a03-90a3-d80a33133118",
+          "source": "Financial Times Tech",
+          "summary": "Alibaba \u2018swiftly removed\u2019 listings for UK Biobank data, institution says",
+          "published": "2026-04-23T11:25:54+00:00",
+          "score": 46.0,
+          "headline": "UK Medical Data of 500K Sold on Chinese Site"
+        },
+        {
+          "id": "4e93e82ab84af1de",
+          "title": "White House Memo on Adversarial Distillation of American AI Models [pdf]",
+          "url": "https://whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf",
+          "source": "Hacker News",
+          "summary": "Article URL: https://whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf Comments URL: https://news.ycombinator.com/item?id=47897604 Points: 2 # Comments: 1",
+          "published": "2026-04-25T00:53:13+00:00",
+          "score": 45.0,
+          "headline": "WHITE HOUSE MEMO ON AI MODEL THEFT RELEASED"
+        },
+        {
+          "id": "782bf64f637bfefc",
+          "title": "China plans to block US investment in its top AI firms without government approval",
+          "url": "https://thenextweb.com/news/china-us-investment-ai-startups-approval",
+          "source": "The Next Web",
+          "summary": "Two parallel moves in 24 hours mark a significant escalation of the US-China AI war from chips and exports into capital and models. China plans to restrict its leading technology companies, including top AI startups, from accepting US capital without first obtaining government approval, Bloomberg News reported on Friday, citing people familiar with the matter. [&hellip;] This story continues at The Next Web",
+          "published": "2026-04-24T10:57:54+00:00",
+          "score": 45.0,
+          "headline": "CHINA BLOCKS US Investment in Top AI Firms"
+        },
+        {
+          "id": "49e1176012e9a838",
+          "title": "White House memo claims mass AI theft by Chinese firms",
+          "url": "https://www.bbc.com/news/articles/cpqxgxx9nrqo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Technology",
+          "summary": "A memo from Michael Kratsios says firms, mainly in China, are wrongfully distilling US AI models.",
+          "published": "2026-04-23T23:13:14+00:00",
+          "score": 45.0,
+          "headline": "WHITE HOUSE: Chinese Firms Stealing US AI Models at Scale"
+        },
+        {
+          "id": "c1c0153de1c79d67",
+          "title": "FirstFT: US accuses China of \u2018industrial-scale\u2019 theft of AI technology",
+          "url": "https://www.ft.com/content/9d588852-5c05-4815-a7cb-1d42c6ccca7f",
+          "source": "Financial Times Tech",
+          "summary": "Also in today\u2019s newsletter: PwC fined $166mn by Hong Kong regulators, and Meta to cut 10% of jobs",
+          "published": "2026-04-23T21:54:09+00:00",
+          "score": 45.0,
+          "headline": "US ACCUSES CHINA OF INDUSTRIAL-SCALE AI THEFT"
+        },
+        {
+          "id": "915b1ee3fbe4370f",
+          "title": "White House accuses China of 'industrial scale' theft of AI technology: Report",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/white-house-accuses-china-of-industrial-scale-theft-of-ai-technology-report/articleshow/130472256.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The White House has accused China of stealing intellectual property from American artificial intelligence labs. This industrial-scale theft exploits US innovation. The White House plans to crack down on this practice. The Financial Times reported this development. This warning signals a significant move in international technology relations.",
+          "published": "2026-04-23T14:56:20+00:00",
+          "score": 45.0,
+          "headline": "WHITE HOUSE ACCUSES CHINA OF 'INDUSTRIAL SCALE' AI THEFT"
+        },
+        {
+          "id": "b398e525592850e5",
+          "title": "White House accuses China of \u2018industrial-scale\u2019 theft of AI technology",
+          "url": "https://www.ft.com/content/abde4e1e-c69a-4cc4-ad96-d88308314298",
+          "source": "Financial Times Tech",
+          "summary": "Trump official Michael Kratsios says Chinese entities stealing from American labs",
+          "published": "2026-04-23T14:40:02+00:00",
+          "score": 45.0,
+          "headline": "WHITE HOUSE ACCUSES CHINA OF 'INDUSTRIAL-SCALE' AI THEFT"
+        }
+      ],
+      "current_topic_name": "US-China AI Tensions"
     }
   ],
-  "last_updated": "2026-04-25T16:36:34.450050"
+  "last_updated": "2026-04-25T17:34:40.565335"
 }
