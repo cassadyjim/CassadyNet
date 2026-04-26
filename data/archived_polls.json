@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "DeepSeek AI Development",
+      "description": "Chinese AI company DeepSeek launching new models and raising massive funding while challenging US AI dominance.",
+      "question": "Is DeepSeek's rise a breakthrough for innovation or a threat to US tech dominance?",
+      "button_a": "Innovation",
+      "button_b": "Dominance",
+      "poll_id": "deepseek-ai-development-20260425",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-deepseek-ai-model-launch-20260426.html",
+      "started_at": "2026-04-25T14:02:10.182030",
+      "archived_at": "2026-04-26T22:33:46.436367",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "DeepSeek AI Breakthrough",
       "description": "Chinese AI company DeepSeek is launching powerful new models at rock-bottom prices while attracting massive investments from Tencent and Alibaba at a $20B valuation.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-nvidia-china-ai-chip-sales-20260320.html",
       "started_at": "2026-03-19T23:26:35.358053",
       "archived_at": "2026-03-21T04:02:18.652885",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "NVIDIA China Chip Sales",
-      "description": "NVIDIA is ramping up AI chip production and sales to China despite trade tensions and export restrictions.",
-      "question": "Should the US allow NVIDIA to sell AI chips to China?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "nvidia-china-chip-sales-20260319",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-nvidia-china-ai-chip-sales-20260320.html",
-      "started_at": "2026-03-19T04:21:53.138871",
-      "archived_at": "2026-03-21T01:27:54.049139",
       "reason": "topic_replaced"
     }
   ]
