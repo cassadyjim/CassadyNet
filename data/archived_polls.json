@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "DeepSeek AI Model Launch",
+      "description": "Chinese AI company DeepSeek releases new V4 models at dramatically lower prices, challenging US AI dominance.",
+      "question": "Is DeepSeek's rise a breakthrough for open AI or a national security threat?",
+      "button_a": "AI",
+      "button_b": "Threat",
+      "poll_id": "deepseek-ai-model-launch-20260426",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-deepseek-ai-model-launch-20260427.html",
+      "started_at": "2026-04-26T23:35:32.066460",
+      "archived_at": "2026-04-27T23:49:14.916191",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "US-China AI Trade War",
       "description": "Escalating tensions between the US and China over AI technology theft, investment blocks, and trade restrictions are reshaping the global AI landscape.",
       "question": "Are China's AI advances driven by theft or legitimate innovation?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-china-ai-chip-smuggling-20260321.html",
       "started_at": "2026-03-21T09:28:17.502305",
       "archived_at": "2026-03-22T09:28:25.285880",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Pentagon-Anthropic Security Conflict",
-      "description": "Major security and trust crisis as Pentagon blocks and labels Anthropic as unacceptable risk for military AI projects.",
-      "question": "Should AI companies be required to allow unrestricted military use?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "pentagon-anthropic-security-conflict-20260320",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-pentagon-anthropic-security-conflict-20260321.html",
-      "started_at": "2026-03-20T08:37:24.675716",
-      "archived_at": "2026-03-21T09:28:18.019012",
       "reason": "topic_replaced"
     }
   ]
