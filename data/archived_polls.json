@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "US-China AI Trade War",
+      "description": "Escalating tensions between the US and China over AI technology theft, investment blocks, and trade restrictions are reshaping the global AI landscape.",
+      "question": "Are China's AI advances driven by theft or legitimate innovation?",
+      "button_a": "Theft",
+      "button_b": "Innovation",
+      "poll_id": "us-china-ai-trade-war-20260426",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-blocks-us-ai-investments-20260427.html",
+      "started_at": "2026-04-26T14:03:57.398595",
+      "archived_at": "2026-04-27T17:20:27.280117",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "DeepSeek AI Development",
       "description": "Chinese AI company DeepSeek launching new models and raising massive funding while challenging US AI dominance.",
       "question": "Is DeepSeek's rise a breakthrough for innovation or a threat to US tech dominance?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-pentagon-anthropic-security-conflict-20260321.html",
       "started_at": "2026-03-20T08:37:24.675716",
       "archived_at": "2026-03-21T09:28:18.019012",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "NVIDIA China AI Chip Sales",
-      "description": "NVIDIA is ramping up AI chip production and sales to China despite ongoing trade tensions and export restrictions.",
-      "question": "",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-nvidia-china-ai-chip-sales-20260320.html",
-      "started_at": "2026-03-19T23:26:35.358053",
-      "archived_at": "2026-03-21T04:02:18.652885",
       "reason": "topic_replaced"
     }
   ]
