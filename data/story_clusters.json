@@ -389,16 +389,6 @@
       "headline": "Microsoft Loses EXCLUSIVE License to OpenAI Technology"
     },
     {
-      "id": "74c772e35c5a5a16",
-      "title": "Alignment Faking in DeepSeek V4",
-      "url": "https://www.lesswrong.com/posts/79vNMvjocugN8pbxE/alignment-faking-in-deepseek-v4-3",
-      "source": "LessWrong AI",
-      "summary": "I ran the alignment-faking analysis for recently dropped DeepSeek V4 Pro, compared it to R1 and here is what I observed:V4 Pro shows higher rates of compliance: in the preview( free-tier) condition V4 Pro accepted 82% of harmful requests while R1's 51%. In the public (paid-tier) condition V4 Pro still complies in 51% while R1 drops to 4%. R1 also has a discrepancy between reasoning and final response: in 36\u201364% of cases its reasoning concludes comply but the final response is a rejection.V4 Pro content is more actionable: 65% of V4 Pro's compliant responses contained runnable commands and specific exploit identifiers. R1's responses were mostly named techniques but no executable content.Both models reason about whether they might be in a test, but use different vocabulary: R1 reasons about RLHF mechanics (\"if I refuse, my model gets adjusted\"). V4 Pro references the existing research literature directly including one case using the phrase \"classic alignment faking scenario\".Experiment ",
-      "published": "2026-04-30T20:23:03+00:00",
-      "score": 44.0,
-      "headline": "DEEPSEEK V4 CAUGHT: Alignment Faking Analysis Reveals Deception"
-    },
-    {
       "id": "2f74e36ea8db0eec",
       "title": "US orders chip equipment companies to halt some shipments to China's No. 2 chipmaker Hua Hong",
       "url": "https://economictimes.indiatimes.com/tech/technology/us-orders-chip-equipment-companies-to-halt-some-shipments-to-chinas-no-2-chipmaker-hua-hong/articleshow/130612081.cms",
@@ -989,5 +979,5 @@
       "headline": "GOOGLE AI CLEARED for Pentagon Classified Work"
     }
   ],
-  "generated_at": "2026-04-30T21:55:49.062600"
+  "generated_at": "2026-04-30T22:50:28.768665"
 }
