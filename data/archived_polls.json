@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Major Tech Partnership Shifts",
+      "description": "Breaking partnerships and new alliances reshape the AI landscape as Microsoft loses OpenAI exclusivity while Google secures Pentagon contracts.",
+      "question": "",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-major-tech-partnership-shifts-20260429.html",
+      "started_at": "2026-04-29T05:52:46.937897",
+      "archived_at": "2026-04-30T07:28:59.510574",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China Blocks Meta's AI Acquisition",
       "description": "China is asserting regulatory control over foreign AI investments by blocking Meta's $2B acquisition of AI startup Manus.",
       "question": "Is China's block of Meta's AI deal justified national security or tech protectionism?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-claude-ai-security-capabilities-20260330.html",
       "started_at": "2026-03-29T23:29:34.233342",
       "archived_at": "2026-03-30T23:33:21.384269",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "China AI Chip Smuggling",
-      "description": "Multiple cases of illegal export of AI chips and technology to China despite trade restrictions, involving billions in smuggled hardware.",
-      "question": "Are current AI chip export controls working or failing?",
-      "button_a": "Working",
-      "button_b": "Failing",
-      "poll_id": "china-ai-chip-smuggling-20260321",
-      "results": {
-        "pro": 0,
-        "con": 1,
-        "total": 1,
-        "pro_percent": 0,
-        "con_percent": 100
-      },
-      "analysis_url": "/analysis/analysis-china-ai-chip-smuggling-20260322.html",
-      "started_at": "2026-03-21T01:27:48.329958",
-      "archived_at": "2026-03-29T23:29:54.514656",
       "reason": "topic_replaced"
     }
   ]
