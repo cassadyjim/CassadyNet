@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Partnership Changes",
+      "description": "Major shifts in OpenAI's business relationships including the end of Microsoft exclusivity and new partnerships signal a transformation in AI industry alliances.",
+      "question": "Is OpenAI's break from Microsoft exclusivity good or bad for innovation?",
+      "button_a": "Good",
+      "button_b": "Innovation",
+      "poll_id": "openai-partnership-changes-20260428",
+      "results": {
+        "pro": 1,
+        "con": 0,
+        "total": 1,
+        "pro_percent": 100,
+        "con_percent": 0
+      },
+      "analysis_url": "/analysis/analysis-openai-microsoft-partnership-changes-20260430.html",
+      "started_at": "2026-04-28T23:54:02.736880",
+      "archived_at": "2026-04-30T19:14:32.319161",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Major Tech Partnership Shifts",
       "description": "Breaking partnerships and new alliances reshape the AI landscape as Microsoft loses OpenAI exclusivity while Google secures Pentagon contracts.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-agents-autonomous-systems-20260330.html",
       "started_at": "2026-03-29T23:29:45.520353",
       "archived_at": "2026-03-30T23:33:21.836233",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Claude AI Security & Capabilities",
-      "description": "Claude AI is making headlines for both impressive security research capabilities and concerning code bugs that could impact user projects.",
-      "question": "",
-      "button_a": "N/A",
-      "button_b": "N/A",
-      "poll_id": "claude-ai-security-capabilities-20260329",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-claude-ai-security-capabilities-20260330.html",
-      "started_at": "2026-03-29T23:29:34.233342",
-      "archived_at": "2026-03-30T23:33:21.384269",
       "reason": "topic_replaced"
     }
   ]
