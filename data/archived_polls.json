@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Safety and Security Concerns",
+      "description": "Growing alarm over dangerous AI capabilities as Anthropic's Mythos model raises cybersecurity threats and Claude AI causes database deletion incidents.",
+      "question": "Should AI models like Mythos be released despite security risks?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-safety-and-security-concerns-20260430",
+      "results": {
+        "pro": 1,
+        "con": 0,
+        "total": 1,
+        "pro_percent": 100,
+        "con_percent": 0
+      },
+      "analysis_url": "/analysis/analysis-anthropic-900b-valuation-mythos-ai-20260502.html",
+      "started_at": "2026-04-30T19:14:27.489909",
+      "archived_at": "2026-05-02T09:02:12.547652",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic Mythos Security Crisis",
       "description": "Anthropic's powerful new AI model Mythos is triggering global security concerns and regulatory emergency meetings due to its dangerous capabilities.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-funding-mega-rounds-20260401.html",
       "started_at": "2026-04-01T02:05:39.541936",
       "archived_at": "2026-04-02T04:29:59.495470",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Security Vulnerabilities",
-      "description": "Critical security flaws and attack vectors are being discovered across AI platforms, exposing major risks in AI deployment.",
-      "question": "Are AI security flaws proof the technology is moving too fast?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-security-vulnerabilities-20260330",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-security-vulnerabilities-20260331.html",
-      "started_at": "2026-03-30T23:33:12.211801",
-      "archived_at": "2026-04-01T02:06:03.004857",
       "reason": "topic_replaced"
     }
   ]
