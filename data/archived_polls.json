@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "US-China AI Tech War",
+      "description": "Escalating tensions between US and China over AI technology with China blocking Meta deals, US banning chip sales, and companies scrambling for alternatives.",
+      "question": "Are these tech export controls necessary security measures or economic warfare?",
+      "button_a": "Measures",
+      "button_b": "Warfare",
+      "poll_id": "us-china-ai-tech-war-20260501",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-us-china-ai-tech-war-20260502.html",
+      "started_at": "2026-05-01T20:47:38.820705",
+      "archived_at": "2026-05-02T21:36:12.651450",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Safety and Security Concerns",
       "description": "Growing alarm over dangerous AI capabilities as Anthropic's Mythos model raises cybersecurity threats and Claude AI causes database deletion incidents.",
       "question": "Should AI models like Mythos be released despite security risks?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-claude-code-leak-crisis-20260402.html",
       "started_at": "2026-04-01T02:05:53.436910",
       "archived_at": "2026-04-02T06:12:31.768378",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Funding Mega-Rounds",
-      "description": "Major AI companies are raising unprecedented amounts of funding, signaling massive investor confidence and potential market consolidation.",
-      "question": "Do these mega-rounds signal healthy AI growth or dangerous bubble territory?",
-      "button_a": "Growth",
-      "button_b": "Territory",
-      "poll_id": "ai-funding-mega-rounds-20260401",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-funding-mega-rounds-20260401.html",
-      "started_at": "2026-04-01T02:05:39.541936",
-      "archived_at": "2026-04-02T04:29:59.495470",
       "reason": "topic_replaced"
     }
   ]
