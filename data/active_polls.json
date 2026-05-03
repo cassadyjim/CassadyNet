@@ -1,131 +1,6 @@
 {
   "polls": [
     {
-      "topic": "Anthropic Funding and Security Concerns",
-      "description": "Anthropic's massive $900B valuation funding round amid global security alerts over its Mythos AI system.",
-      "question": "Should Anthropic proceed with its $900B funding despite Mythos security concerns?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropic-funding-and-security-concerns-20260502",
-      "analysis_url": "/analysis/analysis-anthropic-mega-funding-and-security-concerns-20260503.html",
-      "analysis_type": "poll",
-      "created_at": "2026-05-02T10:46:12.715676",
-      "last_seen": "2026-05-03T20:37:32.320687",
-      "cluster_stories": [
-        {
-          "id": "22f81f99c8f70726",
-          "title": "Euro-Area Finance Chiefs to Discuss Mythos as Concerns Mount",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-30/euro-area-finance-chiefs-to-discuss-mythos-as-concerns-mount",
-          "source": "Bloomberg Technology",
-          "summary": "Euro-area finance ministers will discuss the challenges that Anthropic PBC\u2019s Mythos AI model poses as officials struggle to get clarity on the new tool\u2019s powers.",
-          "published": "2026-04-30T15:43:37+00:00",
-          "score": 48.0,
-          "headline": "EU FINANCE CHIEFS EMERGENCY MEETING On Anthropic Mythos"
-        },
-        {
-          "id": "479937f334b242b3",
-          "title": "Anthropic Considering Funding Offers at Over $900 Billion Value",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-29/anthropic-considering-funding-offers-at-over-900-billion-value",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC has begun weighing a fresh funding round that would value the artificial intelligence developer at more than $900 billion, according to people familiar with the matter, potentially leapfrogging its longtime rival OpenAI as the world\u2019s most valuable AI startup.",
-          "published": "2026-04-29T21:39:38+00:00",
-          "score": 48.0,
-          "headline": "ANTHROPIC EYES $900 BILLION VALUATION... FUNDING TALKS BEGIN"
-        },
-        {
-          "id": "531ed2e6854511dc",
-          "title": "NSA Testing Anthropic\u2019s Mythos to Find Flaws in Microsoft Tech",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-30/nsa-testing-anthropic-s-mythos-to-find-flaws-in-microsoft-tech",
-          "source": "Bloomberg Technology",
-          "summary": "The National Security Agency has been testing the capabilities of Anthropic PBC\u2019s new artificial intelligence model to find cybersecurity vulnerabilities in popular software, including Microsoft Corp. products, according to a US official and another person familiar with the matter.",
-          "published": "2026-04-30T14:06:45+00:00",
-          "score": 45.0,
-          "headline": "NSA TESTS Anthropic's Mythos to Hunt Microsoft Vulnerabilities"
-        },
-        {
-          "id": "e0cea1ae2c83c7ba",
-          "title": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
-          "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
-          "source": "TechCrunch AI",
-          "summary": "Anthropic is asking investors to submit allocations for the AI company\u2019s latest fundraise within the next 48 hours, according to sources familiar with the matter.",
-          "published": "2026-04-30T23:07:56+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC SEEKS $900B VALUATION... INVESTORS HAVE 48 HOURS"
-        },
-        {
-          "id": "d8f1fbfd18bf8db2",
-          "title": "Why Anthropic\u2019s Mythos Is Sparking Global Alarm",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-30/mythos-why-anthropic-s-ai-model-is-sparking-global-alarm",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC has said its new artificial intelligence tool, Mythos, is so good at finding vulnerabilities in software and computer systems that it can\u2019t be released to the general public. The AI giant released Mythos to a limited number of carefully chosen parties because if a tool this powerful fell into the wrong hands, Anthropic says, it could help attackers more easily steal data or disrupt critical infrastructure.",
-          "published": "2026-04-30T16:40:08+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC'S MYTHOS TOO DANGEROUS... Global Security Alert"
-        },
-        {
-          "id": "fe25f76c4c604cf3",
-          "title": "Anthropic Plan to Expand Mythos Access Is Opposed by White House",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-30/white-house-opposes-anthropic-plan-for-mythos-access-wsj-says",
-          "source": "Bloomberg Technology",
-          "summary": "The White House opposes a plan by Anthropic PBC to expand access to its Mythos AI model, an administration official said Wednesday night.",
-          "published": "2026-04-30T01:21:39+00:00",
-          "score": 44.0,
-          "headline": "WHITE HOUSE OPPOSES Anthropic Mythos Expansion"
-        },
-        {
-          "id": "72ba5d8b11befda8",
-          "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
-          "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-          "source": "TechCrunch AI",
-          "summary": "The maker of Claude has received multiple pre-emptive offers at valuations in the $850 billion to $900 billion range, according to sources familiar with the matter.",
-          "published": "2026-04-30T00:07:15+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC Eyes $50B Round at $900B Valuation... MASSIVE"
-        },
-        {
-          "id": "77bae87327b84de1",
-          "title": "Pentagon inks deals with seven AI companies for classified military work",
-          "url": "https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai",
-          "source": "The Guardian Tech",
-          "summary": "OpenAI, Google, Nvidia and others agreed to \u2018any lawful use\u2019 of their tech. Anthropic, feuding with Pentagon over potential AI misuse, was not includedSign up for the Breaking News US email to get newsletter alerts in your inboxThe Pentagon said on Friday it had reached agreements with seven leading artificial intelligence (AI) companies: SpaceX, OpenAI, Google, Nvidia, Reflection, Microsoft and Amazon Web Services.\u201cThese agreements accelerate the transformation toward establishing the United States military as an AI-first fighting force and will strengthen our warfighters\u2019 ability to maintain decision superiority across all domains of warfare,\u201d the Pentagon said in statement. Continue reading...",
-          "published": "2026-05-01T16:08:06+00:00",
-          "score": 43.0,
-          "headline": "PENTAGON INKS Classified AI Deals... Anthropic EXCLUDED"
-        },
-        {
-          "id": "5b1a2159a99d8182",
-          "title": "Europe\u2019s finance ministers are about to discuss an AI model none of them can access",
-          "url": "https://thenextweb.com/news/eu-finance-ministers-mythos-anthropic-cybersecurity",
-          "source": "The Next Web",
-          "summary": "Euro-area finance ministers will discuss Anthropic\u2019s Mythos AI model with banking supervisors on Monday, according to a senior EU official. The technology that will be on the agenda is one that no government in the European Union has access to, built by a company that the United States Pentagon has designated a national security supply [&hellip;] This story continues at The Next Web",
-          "published": "2026-04-30T18:43:47+00:00",
-          "score": 43.0,
-          "headline": "EU MINISTERS TO DISCUSS AI MODEL THEY CAN'T ACCESS"
-        },
-        {
-          "id": "538d30aa098c9da4",
-          "title": "Anthropic is considering a funding round that would value it at over $900 billion",
-          "url": "https://thenextweb.com/news/anthropic-900-billion-valuation-funding-round",
-          "source": "The Next Web",
-          "summary": "The company is entertaining offers for approximately $50 billion at a valuation of $850\u2013$900 billion, with a board decision expected in May and a potential IPO as early as October 2026. Anthropic has begun weighing a fresh funding round at a valuation of more than $900 billion, according to Bloomberg, which cited people familiar with [&hellip;] This story continues at The Next Web",
-          "published": "2026-04-30T09:16:42+00:00",
-          "score": 43.0,
-          "headline": "ANTHROPIC EYES $900 BILLION VALUATION in New Funding Round"
-        },
-        {
-          "id": "2725c9ce8fa422cc",
-          "title": "White House opposes Anthropic\u2019s plan to expand Mythos access to 70 companies, citing compute and security concerns",
-          "url": "https://thenextweb.com/news/white-house-opposes-anthropic-mythos-expansion",
-          "source": "The Next Web",
-          "summary": "The Trump administration has told Anthropic it disagrees with a controlled rollout that would bring its dangerous cyberattack-capable AI to roughly 120 organisations in total, even as the White House simultaneously explores an executive order to bring Anthropic back into federal government use. The White House has told Anthropic it opposes the company\u2019s plan to [&hellip;] This story continues at The Next Web",
-          "published": "2026-04-30T08:52:48+00:00",
-          "score": 43.0,
-          "headline": "WHITE HOUSE BLOCKS Anthropic's Cyberattack AI Expansion"
-        }
-      ],
-      "current_topic_name": "Anthropic Mega-Funding and Security Concerns"
-    },
-    {
       "topic": "China AI Competition & Regulation",
       "description": "China's AI sector is challenging US dominance through competitive models while implementing worker protection policies that contrast with Western approaches.",
       "question": "Is China's AI worker protection approach better than the West's?",
@@ -135,7 +10,7 @@
       "analysis_url": "/analysis/analysis-china-ai-competition-regulation-20260503.html",
       "analysis_type": "poll",
       "created_at": "2026-05-03T10:51:33.702993",
-      "last_seen": "2026-05-03T20:37:32.996972",
+      "last_seen": "2026-05-03T21:37:34.467121",
       "cluster_stories": [
         {
           "id": "aae2d7212dbf70c8",
@@ -311,17 +186,80 @@
       "current_topic_name": "China AI Competition & Regulation"
     },
     {
-      "topic": "Anthropic Mega-Funding and Security Concerns",
-      "description": "Anthropic's pursuit of a massive $900 billion valuation is generating unprecedented regulatory scrutiny and security alerts over its powerful AI capabilities.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "/analysis/analysis-anthropic-mega-funding-and-security-concerns-20260503.html",
+      "topic": "Pentagon AI Military Partnerships",
+      "description": "Major defense contracts with AI companies for classified military systems, reshaping the AI-military industrial complex.",
+      "question": "Should AI companies accept Pentagon deals with \"any lawful use\" terms?",
+      "button_a": "Accept",
+      "button_b": "Refuse",
+      "poll_id": "pentagon-ai-military-partnerships-20260503",
+      "analysis_url": "/analysis/analysis-pentagon-ai-military-partnerships-20260503.html",
       "analysis_type": "poll",
-      "created_at": "2026-05-02T21:36:11.968212",
-      "last_seen": "2026-05-03T09:19:18.054608",
-      "current_topic_name": "Anthropic Mega-Funding and Security Concerns",
-      "pending_archive": true
+      "created_at": "2026-05-03T21:37:32.747145",
+      "last_seen": "2026-05-03T21:37:37.500363",
+      "cluster_stories": [
+        {
+          "id": "8d6608b7357889ea",
+          "title": "Top AI companies agree to work with Pentagon on secret data",
+          "url": "https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military/ Comments URL: https://news.ycombinator.com/item?id=47978018 Points: 2 # Comments: 0",
+          "published": "2026-05-01T18:09:49+00:00",
+          "score": 44.0,
+          "headline": "TOP AI COMPANIES SIGN SECRET PENTAGON DATA DEALS"
+        },
+        {
+          "id": "d53fb377bf4d6956",
+          "title": "Seven AI companies signed the Pentagon\u2019s terms. The one that refused is worth $900 billion.",
+          "url": "https://thenextweb.com/news/pentagon-ai-deals-anthropic-safety-limits",
+          "source": "The Next Web",
+          "summary": "The Pentagon announced on 1 May that it has signed agreements with Nvidia, Microsoft, Amazon Web Services, and Reflection AI for expanded use of advanced artificial intelligence on classified military networks. The deals bring the total number of companies with such agreements to seven, following similar arrangements with SpaceX, OpenAI, and Google, which signed its own [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-01T16:20:38+00:00",
+          "score": 44.0,
+          "headline": "PENTAGON SIGNS AI DEALS... ONE $900B GIANT REFUSES"
+        },
+        {
+          "id": "77bae87327b84de1",
+          "title": "Pentagon inks deals with seven AI companies for classified military work",
+          "url": "https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai",
+          "source": "The Guardian Tech",
+          "summary": "OpenAI, Google, Nvidia and others agreed to \u2018any lawful use\u2019 of their tech. Anthropic, feuding with Pentagon over potential AI misuse, was not includedSign up for the Breaking News US email to get newsletter alerts in your inboxThe Pentagon said on Friday it had reached agreements with seven leading artificial intelligence (AI) companies: SpaceX, OpenAI, Google, Nvidia, Reflection, Microsoft and Amazon Web Services.\u201cThese agreements accelerate the transformation toward establishing the United States military as an AI-first fighting force and will strengthen our warfighters\u2019 ability to maintain decision superiority across all domains of warfare,\u201d the Pentagon said in statement. Continue reading...",
+          "published": "2026-05-01T16:08:06+00:00",
+          "score": 43.0,
+          "headline": "PENTAGON INKS Classified AI Deals... Anthropic EXCLUDED"
+        },
+        {
+          "id": "f9eee99f5f6567b6",
+          "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+          "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+          "source": "TechCrunch AI",
+          "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+          "published": "2026-05-01T16:02:36+00:00",
+          "score": 43.0,
+          "headline": "PENTAGON DEPLOYS AI ON CLASSIFIED NETWORKS... NVIDIA & MICROSOFT IN"
+        },
+        {
+          "id": "0ac1ef9214d8031f",
+          "title": "Pentagon reaches agreements with top AI companies, but not Anthropic",
+          "url": "https://www.reuters.com/business/retail-consumer/pentagon-reaches-agreements-with-leading-ai-companies-2026-05-01/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.reuters.com/business/retail-consumer/pentagon-reaches-agreements-with-leading-ai-companies-2026-05-01/ Comments URL: https://news.ycombinator.com/item?id=47977764 Points: 1 # Comments: 0",
+          "published": "2026-05-01T17:48:45+00:00",
+          "score": 42.0,
+          "headline": "PENTAGON CUTS DEALS WITH AI GIANTS... BUT SHUNS ANTHROPIC"
+        },
+        {
+          "id": "04ced190ce1b51a9",
+          "title": "Pentagon reaches agreements with leading AI companies",
+          "url": "https://economictimes.indiatimes.com/tech/technology/pentagon-reaches-agreements-with-leading-ai-companies/articleshow/130677523.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The Pentagon has struck deals with seven major AI firms. These companies will integrate their advanced AI into the Defense Department's secure networks. This move aims to boost data analysis and improve decision-making for soldiers. It signals a shift towards an AI-first military. Meanwhile, Anthropic faces restrictions due to security concerns.",
+          "published": "2026-05-01T11:59:15+00:00",
+          "score": 42.0,
+          "headline": "PENTAGON SIGNS AI DEALS WITH SEVEN MAJOR FIRMS"
+        }
+      ],
+      "current_topic_name": "Pentagon AI Military Partnerships"
     }
   ],
-  "last_updated": "2026-05-03T20:37:32.997031"
+  "last_updated": "2026-05-03T21:37:57.781535"
 }
