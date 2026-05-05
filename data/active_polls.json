@@ -10,7 +10,7 @@
       "analysis_url": "/analysis/analysis-china-ai-job-protection-20260505.html",
       "analysis_type": "poll",
       "created_at": "2026-05-03T10:51:33.702993",
-      "last_seen": "2026-05-05T08:04:37.119843",
+      "last_seen": "2026-05-05T10:32:18.697776",
       "cluster_stories": [
         {
           "id": "a5669c95174ebf15",
@@ -56,6 +56,61 @@
       "current_topic_name": "China AI Job Protection"
     },
     {
+      "topic": "DeepSeek V4 vs GPT-5",
+      "description": "China's DeepSeek V4 Pro is reportedly matching GPT-5 performance at 17x lower cost, representing a major breakthrough in AI model efficiency.",
+      "question": "Is China's AI breakthrough more about innovation or cost advantage?",
+      "button_a": "Innovation",
+      "button_b": "Advantage",
+      "poll_id": "deepseek-v4-vs-gpt-5-20260505",
+      "analysis_url": "/analysis/analysis-deepseek-v4-vs-gpt-5-20260505.html",
+      "analysis_type": "poll",
+      "created_at": "2026-05-05T10:32:17.800053",
+      "last_seen": "2026-05-05T10:32:20.508843",
+      "cluster_stories": [
+        {
+          "id": "aae2d7212dbf70c8",
+          "title": "NIST's CAISI Evaluation of DeepSeek V4 Pro finds it to be on par with GPT-5",
+          "url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro Comments URL: https://news.ycombinator.com/item?id=47994920 Points: 1 # Comments: 0",
+          "published": "2026-05-03T08:53:58+00:00",
+          "score": 49.0,
+          "headline": "BREAKING: NIST Says DeepSeek V4 Pro MATCHES GPT-5"
+        },
+        {
+          "id": "b3a1f1dabd69e42a",
+          "title": "DeepSeek V4 Pro matches GPT-5.2 on FoodTruck Bench, our agentic benchmark \u2014 10 weeks later, ~17\u00d7 cheaper",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t47qbw/deepseek_v4_pro_matches_gpt52_on_foodtruck_bench/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Tested DeepSeek V4 Pro on FoodTruck Bench \u2014 our 30-day agentic benchmark where models run a food truck via 34 tools (locations, pricing, inventory, staff, weather, events) with persistent memory and daily reflection. First Chinese model to land in the frontier tier on our benchmark. Tied with Grok 4.3 Latest on outcome, within 3% of GPT-5.2's median, #4 overall behind Opus 4.6, GPT-5.2, and Grok 4.3. The timing is the interesting part. We tested GPT-5.2 in mid-February. DeepSeek V4 Pro matches its numbers ten weeks later. The China\u2013US frontier gap on this benchmark used to feel like a year. Right now it's about ten weeks. The pricing gap is even sharper. GPT-5.2 charges $1.75/M input and $14/M output. DeepSeek V4 Pro is at $0.435/M input and $0.87/M output, with discounted cache reads on top \u2014 ~17\u00d7 cheaper for the same agentic workload. That's promo pricing today, but DeepSeek's track record is that promo becomes the floor. On cost-efficiency (net worth per dollar of API spend) DeepSee",
+          "published": "2026-05-05T06:51:49+00:00",
+          "score": 44.0,
+          "headline": "DEEPSEEK V4 PRO MATCHES GPT-5.2... 17x CHEAPER"
+        },
+        {
+          "id": "113b2c388bc1962f",
+          "title": "China's open-source AI models challenge US dominance as Europe grapples with Iran fallout: Report",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-open-source-ai-models-challenge-us-dominance-as-europe-grapples-with-iran-fallout-report/articleshow/130711163.cms",
+          "source": "The Economic Times Tech",
+          "summary": "China's artificial intelligence services are surging, with its models processing vast amounts of data. This growth highlights its expanding role in digital knowledge exports. Meanwhile, Europe expresses frustration over the US approach to the Iran conflict, impacting its economy. European nations are questioning US military presence and considering direct talks with Iran.",
+          "published": "2026-05-02T06:01:32+00:00",
+          "score": 42.0,
+          "headline": "CHINA's Open-Source AI Models Challenge US Dominance"
+        },
+        {
+          "id": "dcea042884b7234a",
+          "title": "MHC Interp #1: Previous-Token Heads Become Attention Sinks Under Manifold-Constrained Hyper-Connections",
+          "url": "https://www.lesswrong.com/posts/BBgZ4bCbP4dfKeRhk/mhc-interp-1-previous-token-heads-become-attention-sinks",
+          "source": "LessWrong AI",
+          "summary": "Background:Manifold-Constrained Hyper-Connections (mHC) is a new architecture added by Deepseek and recently implemented in Deepseek v4.mHC is a fix that makes HC(Hyper-Connections) vanishing or exploding gradient caused by HC while still keeping the performance increases. As adding weights and biases on HC made signals from earlier layers harder to update making the residual stream less residual streamy.HC is a cursed method of adding weights and biases onto the residual stream to simulate a wider residual stream.mHC was an addition onto HC where Sinkhorn-Knopp were used to make the weights and biases on the residual stream to be doubly stochastic. This is a matrix where the rows and columns sum to one, like applying softmax along rows and columns simultaneously. MHC-lite is similar to the mHC paper however, used a different method of Birkhoff-von Neumann to achieve the doubly stochastic matrixQuick Summary:Trained a mHC, mHC-lite, and non mHC model with mhc-lite repo. With same param",
+          "published": "2026-05-03T11:06:19+00:00",
+          "score": 41.0,
+          "headline": "DeepSeek V4's Hyper-Connections Create Attention Sinks"
+        }
+      ],
+      "current_topic_name": "DeepSeek V4 vs GPT-5"
+    },
+    {
       "topic": "China AI Job Protection",
       "description": "China's groundbreaking legal decisions to ban AI-based worker replacements signal a major shift in global AI labor policy.",
       "question": "",
@@ -64,8 +119,9 @@
       "analysis_type": "poll",
       "created_at": "2026-05-05T02:16:28.073900",
       "last_seen": "2026-05-05T08:04:38.384131",
-      "current_topic_name": "China AI Protection Laws"
+      "current_topic_name": "China AI Protection Laws",
+      "pending_archive": true
     }
   ],
-  "last_updated": "2026-05-05T08:04:38.384146"
+  "last_updated": "2026-05-05T10:32:20.508918"
 }
