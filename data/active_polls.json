@@ -1,61 +1,6 @@
 {
   "polls": [
     {
-      "topic": "China AI Competition & Regulation",
-      "description": "China's AI sector is challenging US dominance through competitive models while implementing worker protection policies that contrast with Western approaches.",
-      "question": "Is China's AI worker protection approach better than the West's?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "china-ai-competition-regulation-20260503",
-      "analysis_url": "/analysis/analysis-china-ai-job-protection-20260505.html",
-      "analysis_type": "poll",
-      "created_at": "2026-05-03T10:51:33.702993",
-      "last_seen": "2026-05-05T23:46:16.913067",
-      "cluster_stories": [
-        {
-          "id": "a5669c95174ebf15",
-          "title": "Chinese Court Rules Firms Can\u2019t Lay Off Workers on AI Grounds",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds",
-          "source": "Bloomberg Technology",
-          "summary": "A Chinese court ruled that companies cannot terminate employees just to replace them with artificial intelligence systems, as authorities juggle the need to stabilize the domestic labor market with a global race to develop AI technologies.",
-          "published": "2026-05-02T08:10:51+00:00",
-          "score": 47.0,
-          "headline": "CHINA BANS AI JOB REPLACEMENTS... Court Rules Against Worker Terminations"
-        },
-        {
-          "id": "7ae94e610e0af049",
-          "title": "China has decided that firing a worker because an AI can do their job is illegal. No Western country has done the same.",
-          "url": "https://thenextweb.com/news/china-court-ai-layoffs-illegal-labor-law",
-          "source": "The Next Web",
-          "summary": "A quality assurance supervisor identified only as Zhou joined a technology company in Hangzhou in November 2022. His job was to work with AI large language models, optimising their outputs and filtering sensitive content. He earned 25,000 yuan per month, roughly $3,640. In 2024, the company decided that its AI systems had improved to the [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-02T16:30:40+00:00",
-          "score": 46.0,
-          "headline": "CHINA BANS AI JOB FIRINGS... WESTERN COUNTRIES SILENT"
-        },
-        {
-          "id": "c9e6927a113015a7",
-          "title": "Just in time for Labour Day, China makes it illegal to fire humans if AI takes their jobs",
-          "url": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/asia_tech_news_roundup/",
-          "source": "The Register AI/ML",
-          "summary": "PLUS: Samsung cashes in on RAM prices; Booze from space fetches huge price; China's hyperscalers surge A Chinese court has ruled that it\u2019s illegal to replace human workers with AI.\u2026",
-          "published": "2026-05-04T00:33:04+00:00",
-          "score": 45.0,
-          "headline": "CHINA BANS Firing Humans for AI Replacements"
-        },
-        {
-          "id": "db54d7d7863e2554",
-          "title": "Chinese court rules firms can\u2019t lay off workers on AI grounds",
-          "url": "https://fortune.com/2026/05/03/chinese-court-layoffs-workers-ai-replacement-labor-market/",
-          "source": "Fortune Tech",
-          "summary": "The court decided that a tech firm in eastern China had illegally fired one of its workers after he refused to take a demotion when his job was automated by AI.",
-          "published": "2026-05-03T15:28:56+00:00",
-          "score": 42.0,
-          "headline": "CHINESE COURT BANS AI-BASED LAYOFFS"
-        }
-      ],
-      "current_topic_name": "China AI Job Protection"
-    },
-    {
       "topic": "DeepSeek V4 vs GPT-5",
       "description": "China's DeepSeek V4 Pro is reportedly matching GPT-5 performance at 17x lower cost, representing a major breakthrough in AI model efficiency.",
       "question": "Is China's AI breakthrough more about innovation or cost advantage?",
@@ -65,7 +10,7 @@
       "analysis_url": "/analysis/analysis-deepseek-v4-vs-gpt-5-20260505.html",
       "analysis_type": "poll",
       "created_at": "2026-05-05T10:32:17.800053",
-      "last_seen": "2026-05-05T23:46:18.105188",
+      "last_seen": "2026-05-06T02:18:18.494474",
       "cluster_stories": [
         {
           "id": "aae2d7212dbf70c8",
@@ -111,17 +56,90 @@
       "current_topic_name": "DeepSeek V4 vs GPT-5"
     },
     {
-      "topic": "China AI Job Protection",
-      "description": "China's groundbreaking legal decisions to ban AI-based worker replacements signal a major shift in global AI labor policy.",
+      "topic": "OpenAI GPT-5 Launch & Business",
+      "description": "OpenAI's major model upgrade and massive business deals signal the company's push for market dominance despite ongoing legal battles.",
       "question": "",
-      "poll_id": "",
-      "analysis_url": "",
-      "analysis_type": "poll",
-      "created_at": "2026-05-05T02:16:28.073900",
-      "last_seen": "2026-05-05T08:04:38.384131",
-      "current_topic_name": "China AI Protection Laws",
-      "pending_archive": true
+      "button_a": "NONE",
+      "button_b": "NONE",
+      "poll_id": "openai-gpt-5-launch-business-20260506",
+      "analysis_url": "/analysis/analysis-openai-gpt-5-launch-business-20260506.html",
+      "analysis_type": "summary",
+      "created_at": "2026-05-06T02:18:15.635351",
+      "last_seen": "2026-05-06T02:18:20.723558",
+      "cluster_stories": [
+        {
+          "id": "fa99471a69515a1f",
+          "title": "GPT\u20115.5 Instant",
+          "url": "https://openai.com/index/gpt-5-5-instant/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://openai.com/index/gpt-5-5-instant/ Comments URL: https://news.ycombinator.com/item?id=48025274 Points: 10 # Comments: 0",
+          "published": "2026-05-05T17:02:23+00:00",
+          "score": 47.0,
+          "headline": "OPENAI DROPS GPT-5.5 INSTANT... MAJOR UPGRADE"
+        },
+        {
+          "id": "4555748a73da19b0",
+          "title": "OpenAI finalises $10 billion joint venture with PE firms to deploy AI",
+          "url": "https://economictimes.indiatimes.com/tech/technology/openai-finalises-10-billion-joint-venture-with-pe-firms-to-deploy-ai/articleshow/130800748.cms",
+          "source": "The Economic Times Tech",
+          "summary": "OpenAI has launched a new venture, The Deployment Company. It has secured over $4 billion from 19 investors. This company will focus on helping businesses integrate OpenAI's AI software. The venture is valued at $10 billion and will be controlled by OpenAI. This move aims to boost AI adoption across various sectors. Rival Anthropic is also exploring similar strategies.",
+          "published": "2026-05-04T13:04:00+00:00",
+          "score": 46.0,
+          "headline": "OPENAI FINALIZES $10B Joint Venture With PE Firms"
+        },
+        {
+          "id": "f2ffd9ae2c290fb9",
+          "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+          "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+          "source": "TechCrunch AI",
+          "summary": "The new GPT-5.5 Instant model will replace GPT-3.5 Instant as the default model for ChatGPT",
+          "published": "2026-05-05T17:00:00+00:00",
+          "score": 43.0,
+          "headline": "GPT-5.5 Instant Replaces GPT-3.5 as Default"
+        },
+        {
+          "id": "05d3c5cd4cae571d",
+          "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+          "url": "https://openai.com/index/gpt-5-5-instant",
+          "source": "OpenAI Blog",
+          "summary": "GPT-5.5 Instant updates ChatGPT\u2019s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+          "published": "2026-05-05T10:00:00+00:00",
+          "score": 43.0,
+          "headline": "OPENAI LAUNCHES GPT-5.5 INSTANT... Smarter & Less Hallucinations"
+        },
+        {
+          "id": "39f4ff66a607e86c",
+          "title": "OpenAI provided GPT-5.5 to US for national security testing, executive said",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-provided-gpt-5-5-to-us-for-national-security-testing-executive-said/articleshow/130841794.cms",
+          "source": "The Economic Times Tech",
+          "summary": "OpenAI gave \u200cthe \u2060US \u2060government \u200bearly access \u200bto \u200bits \u2060GPT-5.5 \u200cmodel \u200bfor \u200bnational \u2060security testing, \u200bsaid OpenAI \u200bexecutive \u200cChris \u200bLehane \u200bin \u2060a LinkedIn post.",
+          "published": "2026-05-06T01:00:42+00:00",
+          "score": 42.0,
+          "headline": "OPENAI GAVE US GOVERNMENT Early Access to GPT-5.5 for Security Tests"
+        },
+        {
+          "id": "39881d85f4665560",
+          "title": "OpenAI rolls out ChatGPT 5.5 Instant as the new default model for everyone",
+          "url": "https://mashable.com/article/openai-chatgpt-55-instant-out-now",
+          "source": "Mashable Tech",
+          "summary": "ChatGPT 5.5 Instant is the new default model for users as of May 5.",
+          "published": "2026-05-05T19:03:34+00:00",
+          "score": 42.0,
+          "headline": "OPENAI ROLLS OUT ChatGPT 5.5 INSTANT as Default Model"
+        },
+        {
+          "id": "8ee7d398be1e7ee3",
+          "title": "OpenAI is reportedly launching a phone for ChatGPT",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/924063/openai-phone-rumors-2027-ming-chi-kuo",
+          "source": "The Verge AI",
+          "summary": "OpenAI's first hardware product might be a phone instead of a mysterious Jony Ive gadget. As reported by MacRumors, supply chain analyst Ming-Chi Kuo shared details about the rumored phone, claiming OpenAI is \"fast-tracking\" it and aiming to start mass production in early 2027. According to Kuo, the phone will run on a \"customized version [&#8230;]",
+          "published": "2026-05-05T14:54:00+00:00",
+          "score": 42.0,
+          "headline": "OPENAI BUILDING CHATGPT PHONE - First Hardware Product"
+        }
+      ],
+      "current_topic_name": "OpenAI GPT-5 Launch & Business"
     }
   ],
-  "last_updated": "2026-05-05T23:46:18.105263"
+  "last_updated": "2026-05-06T02:18:21.615441"
 }
