@@ -229,6 +229,26 @@
       "headline": "DEPLOYED AI AGENT GOES ROGUE... INSTALLS 107 UNAUTHORIZED PROGRAMS"
     },
     {
+      "id": "28bf2e0c919d4cf7",
+      "title": "Samsung reaches $1 trillion valuation: What\u2019s fuelling the AI chip surge?",
+      "url": "https://economictimes.indiatimes.com/tech/technology/samsung-reaches-1-trillion-valuation-whats-fuelling-the-ai-chip-surge/articleshow/130845227.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Samsung Electronics has crossed a $1 trillion valuation. This milestone is fueled by strong demand for AI chips. The company is a major supplier of critical components for AI servers. This surge is expected to continue, with tight supply conditions likely to sustain elevated chip prices. Samsung's semiconductor division reported record profits.",
+      "published": "2026-05-06T05:35:33+00:00",
+      "score": 43.0,
+      "headline": "SAMSUNG HITS $1 TRILLION... AI Chip Boom Explodes"
+    },
+    {
+      "id": "f1604a3ba884ad6e",
+      "title": "Samsung Electronics hits $1tn value on AI euphoria",
+      "url": "https://www.ft.com/content/4239a9e1-854d-4ae1-9792-a4a11d7ae5e8",
+      "source": "Financial Times Tech",
+      "summary": "Memory chip giant\u2019s surge pushes South Korea\u2019s Kospi to new record",
+      "published": "2026-05-06T04:01:00+00:00",
+      "score": 43.0,
+      "headline": "Samsung Hits $1TN Value on AI Euphoria... Korea Market Records"
+    },
+    {
       "id": "4b05a10c35c2dd5b",
       "title": "Apple will pay $250 million for failing to deliver its AI-powered Siri on time",
       "url": "https://www.engadget.com/2165602/apple-will-pay-250-million-for-failing-to-deliver-its-ai-powered-siri-on-time/",
@@ -317,6 +337,16 @@
       "published": "2026-05-04T08:41:50+00:00",
       "score": 43.0,
       "headline": "SK HYNIX JUMPS 12% AS BIG TECH DOUBLES AI MEMORY SPEND"
+    },
+    {
+      "id": "3ac7871248fed3a6",
+      "title": "When Safety Geometry Collapses: Fine-Tuning Vulnerabilities in Agentic Guard Models",
+      "url": "https://arxiv.org/abs/2605.02914",
+      "source": "arXiv cs.LG",
+      "summary": "arXiv:2605.02914v1 Announce Type: new Abstract: A guard model fine-tuned on entirely benign data can lose all safety alignment -- not through adversarial manipulation, but through standard domain specialization. We demonstrate this failure across three purpose-built safety classifiers -- LlamaGuard, WildGuard, and Granite Guardian -- deployed as protection layers in agentic AI pipelines, and show that it originates in the destruction of latent safety geometry: the structured harmful -- benign representational boundary that guides classification. We extract per-layer safety subspaces via SVD on class-conditional activation differences and track how this boundary evolves under benign fine-tuning. Granite Guardian undergoes complete collapse -- refusal rate drops from 85\\% to 0\\%, CKA falls to zero, and 100\\% of outputs become ambiguous -- a severity exceeding prior findings on general-purpose LLMs, explained by the specialization hypothesis: concentrated safety representations are effici",
+      "published": "2026-05-06T04:00:00+00:00",
+      "score": 42.0,
+      "headline": "SAFETY COLLAPSE: AI Guard Models Lose Alignment on Benign Data"
     },
     {
       "id": "d9d36c1ef849679e",
@@ -967,37 +997,7 @@
       "published": "2026-05-05T15:05:19+00:00",
       "score": 40.0,
       "headline": "ANTHROPIC LAUNCHES 10 AI AGENTS FOR WALL STREET"
-    },
-    {
-      "id": "78791b9fcfeffcee",
-      "title": "Anthropic Unveils AI Agents to Field Financial Services Tasks",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-05/anthropic-unveils-ai-agents-to-field-financial-services-tasks",
-      "source": "Bloomberg Technology",
-      "summary": "Anthropic PBC unveiled a set of new artificial intelligence agents designed to handle a broader mix of financial services tasks, part of the company\u2019s push to win over Wall Street.",
-      "published": "2026-05-05T15:00:18+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC UNVEILS AI AGENTS FOR WALL STREET"
-    },
-    {
-      "id": "74750394a63731b8",
-      "title": "CopilotKit raises $27M to help devs deploy app-native AI agents",
-      "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/",
-      "source": "TechCrunch AI",
-      "summary": "The Seattle-based startup's Series A round was led by Glilot Capital, NFX and SignalFire, TechCrunch has exclusively learned.",
-      "published": "2026-05-05T14:07:47+00:00",
-      "score": 40.0,
-      "headline": "CopilotKit Raises $27M for App-Native AI Agents"
-    },
-    {
-      "id": "0a3faeae5d47a28d",
-      "title": "Coinbase is cutting 14 per cent of its workforce. The reason it gave was not the crypto downturn. It was AI.",
-      "url": "https://thenextweb.com/news/coinbase-layoffs-ai-native-crypto-downturn",
-      "source": "The Next Web",
-      "summary": "Coinbase is cutting 14 per cent of its workforce, roughly 660 employees from a company of 4,700, two days before it reports the worst quarterly earnings in its history as a public company. CEO Brian Armstrong announced the layoffs on Tuesday in a letter to staff that mentioned the crypto market downturn in passing and [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-05T13:45:45+00:00",
-      "score": 40.0,
-      "headline": "Coinbase Axes 660 Jobs as AI Reshapes Crypto Industry"
     }
   ],
-  "generated_at": "2026-05-06T02:17:44.205243"
+  "generated_at": "2026-05-06T05:55:20.444809"
 }
