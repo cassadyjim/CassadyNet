@@ -1,54 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "DeepSeek V4 vs GPT-5",
-      "description": "China's DeepSeek V4 Pro is reportedly matching GPT-5 performance at 17x lower cost, representing a major breakthrough in AI model efficiency.",
-      "stories": [
-        {
-          "id": "aae2d7212dbf70c8",
-          "title": "NIST's CAISI Evaluation of DeepSeek V4 Pro finds it to be on par with GPT-5",
-          "url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro Comments URL: https://news.ycombinator.com/item?id=47994920 Points: 1 # Comments: 0",
-          "published": "2026-05-03T08:53:58+00:00",
-          "score": 49.0,
-          "headline": "BREAKING: NIST Says DeepSeek V4 Pro MATCHES GPT-5"
-        },
-        {
-          "id": "b3a1f1dabd69e42a",
-          "title": "DeepSeek V4 Pro matches GPT-5.2 on FoodTruck Bench, our agentic benchmark \u2014 10 weeks later, ~17\u00d7 cheaper",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t47qbw/deepseek_v4_pro_matches_gpt52_on_foodtruck_bench/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "Tested DeepSeek V4 Pro on FoodTruck Bench \u2014 our 30-day agentic benchmark where models run a food truck via 34 tools (locations, pricing, inventory, staff, weather, events) with persistent memory and daily reflection. First Chinese model to land in the frontier tier on our benchmark. Tied with Grok 4.3 Latest on outcome, within 3% of GPT-5.2's median, #4 overall behind Opus 4.6, GPT-5.2, and Grok 4.3. The timing is the interesting part. We tested GPT-5.2 in mid-February. DeepSeek V4 Pro matches its numbers ten weeks later. The China\u2013US frontier gap on this benchmark used to feel like a year. Right now it's about ten weeks. The pricing gap is even sharper. GPT-5.2 charges $1.75/M input and $14/M output. DeepSeek V4 Pro is at $0.435/M input and $0.87/M output, with discounted cache reads on top \u2014 ~17\u00d7 cheaper for the same agentic workload. That's promo pricing today, but DeepSeek's track record is that promo becomes the floor. On cost-efficiency (net worth per dollar of API spend) DeepSee",
-          "published": "2026-05-05T06:51:49+00:00",
-          "score": 44.0,
-          "headline": "DEEPSEEK V4 PRO MATCHES GPT-5.2... 17x CHEAPER"
-        },
-        {
-          "id": "113b2c388bc1962f",
-          "title": "China's open-source AI models challenge US dominance as Europe grapples with Iran fallout: Report",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-open-source-ai-models-challenge-us-dominance-as-europe-grapples-with-iran-fallout-report/articleshow/130711163.cms",
-          "source": "The Economic Times Tech",
-          "summary": "China's artificial intelligence services are surging, with its models processing vast amounts of data. This growth highlights its expanding role in digital knowledge exports. Meanwhile, Europe expresses frustration over the US approach to the Iran conflict, impacting its economy. European nations are questioning US military presence and considering direct talks with Iran.",
-          "published": "2026-05-02T06:01:32+00:00",
-          "score": 42.0,
-          "headline": "CHINA's Open-Source AI Models Challenge US Dominance"
-        },
-        {
-          "id": "dcea042884b7234a",
-          "title": "MHC Interp #1: Previous-Token Heads Become Attention Sinks Under Manifold-Constrained Hyper-Connections",
-          "url": "https://www.lesswrong.com/posts/BBgZ4bCbP4dfKeRhk/mhc-interp-1-previous-token-heads-become-attention-sinks",
-          "source": "LessWrong AI",
-          "summary": "Background:Manifold-Constrained Hyper-Connections (mHC) is a new architecture added by Deepseek and recently implemented in Deepseek v4.mHC is a fix that makes HC(Hyper-Connections) vanishing or exploding gradient caused by HC while still keeping the performance increases. As adding weights and biases on HC made signals from earlier layers harder to update making the residual stream less residual streamy.HC is a cursed method of adding weights and biases onto the residual stream to simulate a wider residual stream.mHC was an addition onto HC where Sinkhorn-Knopp were used to make the weights and biases on the residual stream to be doubly stochastic. This is a matrix where the rows and columns sum to one, like applying softmax along rows and columns simultaneously. MHC-lite is similar to the mHC paper however, used a different method of Birkhoff-von Neumann to achieve the doubly stochastic matrixQuick Summary:Trained a mHC, mHC-lite, and non mHC model with mhc-lite repo. With same param",
-          "published": "2026-05-03T11:06:19+00:00",
-          "score": 41.0,
-          "headline": "DeepSeek V4's Hyper-Connections Create Attention Sinks"
-        }
-      ],
-      "top_score": 49.0,
-      "story_count": 4
-    },
-    {
       "topic": "OpenAI GPT-5 Launch & Business",
       "description": "OpenAI's major model upgrade and massive business deals signal the company's push for market dominance despite ongoing legal battles.",
       "stories": [
@@ -125,19 +77,77 @@
       ],
       "top_score": 47.0,
       "story_count": 7
+    },
+    {
+      "topic": "DeepSeek $45B Valuation & China AI Dominance",
+      "description": "China's state-backed funding is propelling DeepSeek to a massive $45B valuation while challenging US AI leadership with performance matching GPT-5.",
+      "stories": [
+        {
+          "id": "aae2d7212dbf70c8",
+          "title": "NIST's CAISI Evaluation of DeepSeek V4 Pro finds it to be on par with GPT-5",
+          "url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro Comments URL: https://news.ycombinator.com/item?id=47994920 Points: 1 # Comments: 0",
+          "published": "2026-05-03T08:53:58+00:00",
+          "score": 49.0,
+          "headline": "BREAKING: NIST Says DeepSeek V4 Pro MATCHES GPT-5"
+        },
+        {
+          "id": "97021b281527abca",
+          "title": "China\u2019s Big Fund is now leading the DeepSeek round, and the price has more than doubled in two weeks",
+          "url": "https://thenextweb.com/news/china-big-fund-deepseek-45-billion-funding-round",
+          "source": "The Next Web",
+          "summary": "What started in mid-April as a $300m raise at a $10bn valuation, with Alibaba and Tencent talking, is now an FT-reported deal at $45bn led by the China Integrated Circuit Industry Investment Fund. The strategic logic has changed substantially. There is, in venture-capital pricing, a particular kind of ascent that does not normally happen to [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-06T07:33:24+00:00",
+          "score": 48.0,
+          "headline": "CHINA'S BIG FUND Takes DeepSeek to $45B Valuation"
+        },
+        {
+          "id": "cba174982d9bdcf1",
+          "title": "DeepSeek nears $45 billion valuation as China's 'big fund' leads investment talks, FT reports",
+          "url": "https://economictimes.indiatimes.com/tech/startups/deepseek-nears-45-billion-valuation-as-chinas-big-fund-leads-investment-talks-ft-reports/articleshow/130846961.cms",
+          "source": "The Economic Times Tech",
+          "summary": "\u200bChina's \u200bbiggest state-backed semiconductor \u200binvestment vehicle, China Integrated \u200cCircuit \u2060Industry Investment \u2060Fund, \u200bis in talks \u200bto lead the financing \u200bof \u2060DeepSeek's first \u200cfundraising \u200bthat \u200bcould \u2060value the frontier AI \u200blab at about $45 \u200bbillion.",
+          "published": "2026-05-06T06:59:45+00:00",
+          "score": 48.0,
+          "headline": "DEEPSEEK NEARS $45B VALUATION... CHINA STATE FUND LEADS"
+        },
+        {
+          "id": "db6ec94dd8bb5097",
+          "title": "China\u2019s Chip Fund in Talks to Lead DeepSeek Funding, FT Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-06/china-chip-fund-in-talks-to-lead-mega-deepseek-funding-ft-says",
+          "source": "Bloomberg Technology",
+          "summary": "China\u2019s main chip-sector investment fund is in discussions to lead a fundraising round for DeepSeek at a valuation of about $45 billion, the Financial Times reported, citing people with knowledge of the talks.",
+          "published": "2026-05-06T06:03:29+00:00",
+          "score": 48.0,
+          "headline": "CHINA CHIP FUND TO LEAD DEEPSEEK $45B ROUND"
+        },
+        {
+          "id": "d80f08dab4ada954",
+          "title": "Chinese AI start-up DeepSeek nears $45bn valuation",
+          "url": "https://www.ft.com/content/daaf2e0a-4a0d-4d7c-a85b-445480f6b9c7",
+          "source": "Financial Times Tech",
+          "summary": "Value soars in ongoing fundraising discussions as investors including Tencent seek slice of AI lab",
+          "published": "2026-05-06T05:50:05+00:00",
+          "score": 48.0,
+          "headline": "DEEPSEEK HITS $45B VALUATION... TENCENT JOINS"
+        },
+        {
+          "id": "b3a1f1dabd69e42a",
+          "title": "DeepSeek V4 Pro matches GPT-5.2 on FoodTruck Bench, our agentic benchmark \u2014 10 weeks later, ~17\u00d7 cheaper",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t47qbw/deepseek_v4_pro_matches_gpt52_on_foodtruck_bench/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Tested DeepSeek V4 Pro on FoodTruck Bench \u2014 our 30-day agentic benchmark where models run a food truck via 34 tools (locations, pricing, inventory, staff, weather, events) with persistent memory and daily reflection. First Chinese model to land in the frontier tier on our benchmark. Tied with Grok 4.3 Latest on outcome, within 3% of GPT-5.2's median, #4 overall behind Opus 4.6, GPT-5.2, and Grok 4.3. The timing is the interesting part. We tested GPT-5.2 in mid-February. DeepSeek V4 Pro matches its numbers ten weeks later. The China\u2013US frontier gap on this benchmark used to feel like a year. Right now it's about ten weeks. The pricing gap is even sharper. GPT-5.2 charges $1.75/M input and $14/M output. DeepSeek V4 Pro is at $0.435/M input and $0.87/M output, with discounted cache reads on top \u2014 ~17\u00d7 cheaper for the same agentic workload. That's promo pricing today, but DeepSeek's track record is that promo becomes the floor. On cost-efficiency (net worth per dollar of API spend) DeepSee",
+          "published": "2026-05-05T06:51:49+00:00",
+          "score": 44.0,
+          "headline": "DEEPSEEK V4 PRO MATCHES GPT-5.2... 17x CHEAPER"
+        }
+      ],
+      "top_score": 49.0,
+      "story_count": 6
     }
   ],
   "unclustered": [
-    {
-      "id": "aae2d7212dbf70c8",
-      "title": "NIST's CAISI Evaluation of DeepSeek V4 Pro finds it to be on par with GPT-5",
-      "url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro Comments URL: https://news.ycombinator.com/item?id=47994920 Points: 1 # Comments: 0",
-      "published": "2026-05-03T08:53:58+00:00",
-      "score": 49.0,
-      "headline": "BREAKING: NIST Says DeepSeek V4 Pro MATCHES GPT-5"
-    },
     {
       "id": "79815efececb154d",
       "title": "Why China Blocked Meta\u2019s $2 billion Acquisition of Manus AI",
@@ -147,6 +157,16 @@
       "published": "2026-05-05T20:39:44+00:00",
       "score": 47.0,
       "headline": "CHINA BLOCKS META'S $2B MANUS AI ACQUISITION"
+    },
+    {
+      "id": "14cea93190cf7173",
+      "title": "Google DeepMind workers in UK vote to unionize amid deal with US military",
+      "url": "https://www.theguardian.com/us-news/2026/may/04/google-deepmind-uk-workers-union",
+      "source": "The Guardian Tech",
+      "summary": "Exclusive: Worker pointed to Iran war and Pentagon\u2019s Anthropic feud as indications the department is \u2018not a responsible partner\u2019Workers developing Google\u2019s artificial intelligence products in the UK have voted to unionize, in part out of concerns about a deal between the company and the US military that was announced last week.In a letter slated to go to management on Tuesday and shared exclusively with the Guardian, workers at Google DeepMind, the company\u2019s AI research laboratory, requested recognition of the Communication Workers Union and Unite the Union as joint representatives of the lab\u2019s UK-based staff. Continue reading...",
+      "published": "2026-05-05T05:05:42+00:00",
+      "score": 47.0,
+      "headline": "GOOGLE DEEPMIND UK WORKERS VOTE TO UNIONIZE"
     },
     {
       "id": "6509ede452f86c68",
@@ -167,6 +187,16 @@
       "published": "2026-05-05T20:37:18+00:00",
       "score": 45.0,
       "headline": "BEIJING VETO SHAKES GLOBAL AI STARTUP AMBITIONS"
+    },
+    {
+      "id": "7ca4536707908a2b",
+      "title": "UK-based Google DeepMind workers vote to unionize over military AI contracts amid internal backlash over its Pentagon deal",
+      "url": "https://fortune.com/2026/05/05/google-deepmind-unionize-vote-military-ai-contracts-internal-backlash-pentagon-deal-israeli-defense-forces/",
+      "source": "Fortune Tech",
+      "summary": "London-based employees are demanding that Google walk back its Pentagon deal, but the power workers once had to kill such contracts has eroded significantly.",
+      "published": "2026-05-05T14:33:05+00:00",
+      "score": 45.0,
+      "headline": "GOOGLE DEEPMIND UK WORKERS UNIONIZE... PENTAGON BACKLASH"
     },
     {
       "id": "c9e6927a113015a7",
@@ -199,6 +229,16 @@
       "headline": "ANTHROPIC PAYS GOOGLE $200B FOR CHIPS AND CLOUD ACCESS"
     },
     {
+      "id": "f452d24eb0e09180",
+      "title": "Google DeepMind UK staff move to unionise over military AI use",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-deepmind-uk-staff-move-to-unionise-over-military-ai-use/articleshow/130831013.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Google DeepMind workers in the UK have sought official union recognition. They are concerned about the company's artificial intelligence technology being used by the US and Israeli militaries. Employees are demanding an end to such applications and the restoration of a commitment against creating AI weapons or surveillance tools.",
+      "published": "2026-05-05T13:52:38+00:00",
+      "score": 44.0,
+      "headline": "DEEPMIND UK WORKERS UNIONIZE OVER MILITARY AI USE"
+    },
+    {
       "id": "53347f78e9870968",
       "title": "Supermicro\u2019s co-founder allegedly smuggled $2.5 billion in Nvidia-chipped servers to China\u2014now the whole company is under the microscope",
       "url": "https://fortune.com/2026/05/05/supermicro-nvidia-china-smuggling-investigation/",
@@ -209,16 +249,6 @@
       "headline": "SUPERMICRO CO-FOUNDER SMUGGLED $2.5B NVIDIA-CHIPPED SERVERS TO CHINA"
     },
     {
-      "id": "b3a1f1dabd69e42a",
-      "title": "DeepSeek V4 Pro matches GPT-5.2 on FoodTruck Bench, our agentic benchmark \u2014 10 weeks later, ~17\u00d7 cheaper",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t47qbw/deepseek_v4_pro_matches_gpt52_on_foodtruck_bench/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Tested DeepSeek V4 Pro on FoodTruck Bench \u2014 our 30-day agentic benchmark where models run a food truck via 34 tools (locations, pricing, inventory, staff, weather, events) with persistent memory and daily reflection. First Chinese model to land in the frontier tier on our benchmark. Tied with Grok 4.3 Latest on outcome, within 3% of GPT-5.2's median, #4 overall behind Opus 4.6, GPT-5.2, and Grok 4.3. The timing is the interesting part. We tested GPT-5.2 in mid-February. DeepSeek V4 Pro matches its numbers ten weeks later. The China\u2013US frontier gap on this benchmark used to feel like a year. Right now it's about ten weeks. The pricing gap is even sharper. GPT-5.2 charges $1.75/M input and $14/M output. DeepSeek V4 Pro is at $0.435/M input and $0.87/M output, with discounted cache reads on top \u2014 ~17\u00d7 cheaper for the same agentic workload. That's promo pricing today, but DeepSeek's track record is that promo becomes the floor. On cost-efficiency (net worth per dollar of API spend) DeepSee",
-      "published": "2026-05-05T06:51:49+00:00",
-      "score": 44.0,
-      "headline": "DEEPSEEK V4 PRO MATCHES GPT-5.2... 17x CHEAPER"
-    },
-    {
       "id": "84bfb3c5161dea23",
       "title": "Ambient Persuasion in a Deployed AI Agent: Unauthorized Escalation Following Routine Non-Adversarial Content Exposure",
       "url": "https://arxiv.org/abs/2605.00055",
@@ -227,6 +257,16 @@
       "published": "2026-05-04T04:00:00+00:00",
       "score": 44.0,
       "headline": "DEPLOYED AI AGENT GOES ROGUE... INSTALLS 107 UNAUTHORIZED PROGRAMS"
+    },
+    {
+      "id": "cc47e2bc4b510cbb",
+      "title": "Samsung Electronics crosses $1tn, joining TSMC, as the AI memory cycle pulls Korea into a record",
+      "url": "https://thenextweb.com/news/samsung-electronics-1-trillion-market-cap-ai-memory",
+      "source": "The Next Web",
+      "summary": "Samsung\u2019s stock has more than quadrupled in a year. The KOSPI broke 7,000 for the first time. Two Korean chipmakers now account for 42% of the index. The supercycle that built this rally is, by Samsung\u2019s own forecast, not yet at its peak. There is a particular type of market moment that does not happen [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-06T07:25:04+00:00",
+      "score": 43.0,
+      "headline": "SAMSUNG Hits $1T Market Cap in AI Memory Boom"
     },
     {
       "id": "28bf2e0c919d4cf7",
@@ -289,6 +329,26 @@
       "headline": "GOOGLE, MICROSOFT, XAI Submit to US AI Model Reviews"
     },
     {
+      "id": "e6871b6c1ad30c78",
+      "title": "Google's Pentagon AI deal reportedly drove the DeepMind team to unionize",
+      "url": "https://www.engadget.com/2164765/google-us-military-deepmind-union/",
+      "source": "Engadget",
+      "summary": "DeepMind workers in the UK have voted to unionize.",
+      "published": "2026-05-05T11:59:55+00:00",
+      "score": 43.0,
+      "headline": "DEEPMIND WORKERS UNIONIZE... PENTAGON AI REVOLT"
+    },
+    {
+      "id": "02dab7d5670ab6b5",
+      "title": "Google DeepMind Workers Vote to Unionize Over Military AI Deals",
+      "url": "https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/",
+      "source": "Wired",
+      "summary": "UK staff of Google\u2019s AI research lab hope to block the use of the company\u2019s artificial intelligence models in military settings.",
+      "published": "2026-05-05T11:59:20+00:00",
+      "score": 43.0,
+      "headline": "DEEPMIND UNIONIZES... BLOCKS MILITARY AI DEALS"
+    },
+    {
       "id": "f996e3363cf84471",
       "title": "Dawn of the \"national security\" tier of AI",
       "url": "https://www.lesswrong.com/posts/auEbR7KPBNYBNypyD/dawn-of-the-national-security-tier-of-ai",
@@ -337,6 +397,46 @@
       "published": "2026-05-04T08:41:50+00:00",
       "score": 43.0,
       "headline": "SK HYNIX JUMPS 12% AS BIG TECH DOUBLES AI MEMORY SPEND"
+    },
+    {
+      "id": "88bd98288984aa15",
+      "title": "Apple Will Pay $250 Million to Settle Lawsuit Over Siri's AI Features",
+      "url": "https://www.wired.com/story/apple-will-pay-dollar250-million-to-settle-lawsuit-over-siris-ai-features/",
+      "source": "Wired",
+      "summary": "If you bought an iPhone 15 or 16 in the US, you could be set to pocket up to $95 per device as part of the settlement.",
+      "published": "2026-05-06T10:41:37+00:00",
+      "score": 42.0,
+      "headline": "APPLE PAYS $250 Million in Siri AI Settlement"
+    },
+    {
+      "id": "f32fb53c7f7e8f3a",
+      "title": "SpaceX Proposes $55 Billion to Begin Terafab Project in Texas",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-06/spacex-proposes-55-billion-to-begin-terafab-project-in-texas",
+      "source": "Bloomberg Technology",
+      "summary": "Elon Musk\u2019s SpaceX is proposing to spend $55 billion to begin construction of a new semiconductor production facility in Texas, taking steps toward realizing an ambitious project he\u2019s dubbed Terafab.",
+      "published": "2026-05-06T09:55:57+00:00",
+      "score": 42.0,
+      "headline": "SPACEX PROPOSES $55 Billion Terafab Chip Plant"
+    },
+    {
+      "id": "ea9bff3103a69a18",
+      "title": "Google\u2019s top differential-privacy scientist tells the EU its data-sharing plan can be reversed in two hours",
+      "url": "https://thenextweb.com/news/googles-top-differential-privacy-scientist-tells-the-eu-its-data-sharing-plan-can-be-reversed-in-two-hours",
+      "source": "The Next Web",
+      "summary": "Sergei Vassilvitskii, distinguished scientist at Google since 2012, has written to Brussels warning that the Commission\u2019s proposed anonymisation scheme for forced search-data sharing is, by his red team\u2019s own demonstration, breakable in 120 minutes. The decision deadline is 27 July. There is a familiar genre of corporate complaint in EU regulatory proceedings: a US technology [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-06T08:38:13+00:00",
+      "score": 42.0,
+      "headline": "GOOGLE SCIENTIST Warns EU Data Plan HACKED in 2 Hours"
+    },
+    {
+      "id": "5ce2f9b9bc89cc74",
+      "title": "Peter Sarlin\u2019s QuTwo reaches $380M valuation in angel round",
+      "url": "https://techcrunch.com/2026/05/05/peter-sarlins-qutwo-reaches-380m-valuation-in-angel-round/",
+      "source": "TechCrunch AI",
+      "summary": "QyTw0, the Finnish AI lab founded by former AMD Silo AI CEO Peter Sarlin, is now valued at \u20ac325 million (approximately $380 million) after raising a \u20ac25 million angel round ($29 million). It's a sign of enduring tailwinds for AI, quantum computing, and sovereign tech, especially for Europe-made companies.",
+      "published": "2026-05-06T06:47:12+00:00",
+      "score": 42.0,
+      "headline": "Finnish AI Lab QuTwo Hits $380M Valuation"
     },
     {
       "id": "3ac7871248fed3a6",
@@ -397,6 +497,16 @@
       "published": "2026-05-05T15:44:18+00:00",
       "score": 42.0,
       "headline": "India's SEBI Forms AI Cyber Threat Task Force"
+    },
+    {
+      "id": "8bc99aee31a08a50",
+      "title": "Google DeepMind workers are unionizing over AI military contracts",
+      "url": "https://www.theverge.com/tech/923918/google-deepmind-union-bid-ai-military-israel",
+      "source": "The Verge AI",
+      "summary": "Staffers at Google DeepMind's headquarters have voted to unionize in an effort to prevent the AI firm's technology from being used by Israel and the US military. In a letter to Google management on Tuesday, employees requested that the Communication Workers Union (CWU) and Unite the Union be recognized as joint representatives, with 98 percent [&#8230;]",
+      "published": "2026-05-05T10:08:33+00:00",
+      "score": 42.0,
+      "headline": "DEEPMIND WORKERS UNIONIZE OVER MILITARY AI CONTRACTS"
     },
     {
       "id": "016ce72e064437ea",
@@ -527,6 +637,56 @@
       "published": "2026-05-03T15:08:18+00:00",
       "score": 42.0,
       "headline": "AI REVOLUTION HOLLYWOOD FEARED HAPPENING IN INDIA"
+    },
+    {
+      "id": "3cc962e04bd80813",
+      "title": "Thailand approves $29bn in projects, with TikTok\u2019s \u20bf842bn data-centre expansion alone worth $25bn",
+      "url": "https://thenextweb.com/news/thailand-29-billion-tiktok-data-center-approval",
+      "source": "The Next Web",
+      "summary": "Bangkok\u2019s Board of Investment cleared six major investments on Wednesday. Three of them are data centres. The headline is the TikTok number, but the larger story is what Thailand is becoming inside the regional AI infrastructure trade. Thailand\u2019s Board of Investment is, on most readings, an institutional body whose press releases attract limited international attention. [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-06T10:42:09+00:00",
+      "score": 41.0,
+      "headline": "TikTok DROPS $25 Billion on Thailand Data Centers"
+    },
+    {
+      "id": "29b7d192a17709eb",
+      "title": "SpaceX files plan for $55 billion Terafab chip facility in Texas",
+      "url": "https://economictimes.indiatimes.com/tech/technology/spacex-files-plan-for-55-billion-terafab-chip-facility-in-texas/articleshow/130852724.cms",
+      "source": "The Economic Times Tech",
+      "summary": "SpaceX plans to invest $55 billion in a Texas semiconductor manufacturing facility, Terafab, aiming to significantly increase domestic chip production. This multi-phase complex could eventually reach $119 billion in investment. Local officials are set to review a property tax abatement agreement for the Grimes County project.",
+      "published": "2026-05-06T10:38:35+00:00",
+      "score": 41.0,
+      "headline": "SpaceX Files $55 Billion TERAFAB Chip Plant"
+    },
+    {
+      "id": "b63be96ad55d7522",
+      "title": "Hyundai Robot Performs Handstand, Complex Gymnastics Moves",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-06/hyundai-s-production-ready-humanoid-debuts-in-first-live-demo",
+      "source": "Bloomberg Technology",
+      "summary": "Hyundai Motor Co.\u2019s robotics unit released a video showing its production-ready Atlas humanoid robot performing complex gymnastics, marking a first-of-its-kind live demonstration that could signal the machine is nearing commercialization.",
+      "published": "2026-05-06T07:03:50+00:00",
+      "score": 41.0,
+      "headline": "HYUNDAI ROBOT PERFORMS HANDSTAND... FIRST LIVE DEMO"
+    },
+    {
+      "id": "1a14690d7d3e346e",
+      "title": "\u2018RAMageddon\u2019: is the era of cheap phones and laptops over?",
+      "url": "https://www.theguardian.com/business/2026/may/06/ramageddon-cheap-phones-laptops-macbooks-ps5s-ai-chips",
+      "source": "The Guardian Tech",
+      "summary": "Bargains are disappearing and the cost of gadgets such as MacBooks and PS5s is rising as AI competes for memory chipsThe end of the cheap laptop, the bargain phone and affordable games consoles may be on the horizon. Not because new models are more hi-tech, but because the cost of computer components has shot up.Recently, the biggest manufacturers of laptops and phones, including Microsoft, Samsung and Dell, started putting up prices and pulling cheaper models \u2013 which is going to make finding budget phones and laptops under \u00a3400 much harder. Continue reading...",
+      "published": "2026-05-06T06:00:03+00:00",
+      "score": 41.0,
+      "headline": "AI MEMORY CRUNCH ENDS ERA OF CHEAP GADGETS"
+    },
+    {
+      "id": "95170a3705892fd8",
+      "title": "Global finance watchdog warns over private credit industry fuelling AI boom",
+      "url": "https://www.theguardian.com/business/2026/may/06/global-finance-watchdog-warns-over-private-credit-industry-fuelling-ai-boom",
+      "source": "The Guardian Tech",
+      "summary": "Financial Stability Board report reveals tech, healthcare and services sectors as the biggest borrowersThe private credit industry\u2019s role in fuelling the AI boom could backfire, with a sharp correction leading to \u201csizeable\u201d losses, the Financial Stability Board has warned.A new report on private credit by the global watchdog, which monitors financial authorities including central banks in 24 countries, found that the healthcare, services, and tech sectors have become the biggest borrowers of private credit. Continue reading...",
+      "published": "2026-05-06T06:00:01+00:00",
+      "score": 41.0,
+      "headline": "Finance Watchdog Warns AI Boom Could Backfire"
     },
     {
       "id": "0467a541c8ad14aa",
@@ -849,155 +1009,15 @@
       "headline": "DeepSeek V4's Hyper-Connections Create Attention Sinks"
     },
     {
-      "id": "9e76d6e556ab3b9e",
-      "title": "Ola\u2019s fullstack AI ambition bites the dust amid funding constraint, leadership exits",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/olas-fullstack-ai-ambition-bites-the-dust-amid-funding-constraint-leadership-exits/articleshow/130835348.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Krutrim, Ola founder Bhavish Aggarwal's ambitious AI venture, has seen a significant leadership exodus and workforce reduction. Key AI and semiconductor leaders, along with over 60 linguistics staff, have departed as funding dried up, leading to the discontinuation of its AI agentic platform and the Bodhi 1 chip. The company is now pivoting to AI cloud services.",
-      "published": "2026-05-06T00:30:00+00:00",
-      "score": 40.0,
-      "headline": "OLA'S AI VENTURE Krutrim Collapses: Mass Exodus, 60 Linguists Fired"
-    },
-    {
-      "id": "03d574c8fb0640c0",
-      "title": "Ola's full stack AI plans shrink on A-level exits, funding woes",
-      "url": "https://economictimes.indiatimes.com/tech/technology/olas-full-stack-ai-plans-shrink-on-a-level-exits-funding-woes/articleshow/130835252.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Krutrim, Ola founder Bhavish Aggarwal's ambitious AI venture, has seen a significant leadership exodus and workforce reduction. Key AI and semiconductor leaders, along with over 60 linguistics staff, have departed as funding dried up, leading to the discontinuation of its AI agentic platform and the Bodhi 1 chip. The company is now pivoting to AI cloud services.",
-      "published": "2026-05-06T00:30:00+00:00",
-      "score": 40.0,
-      "headline": "OLA'S AI VENTURE Krutrim Collapses: Mass Exodus, 60 Linguists Fired"
-    },
-    {
-      "id": "9b94710061dc26fc",
-      "title": "Apple reaches $250mn settlement over delayed \u2018AI Siri\u2019",
-      "url": "https://www.ft.com/content/f2c6a27e-8ed9-487c-9384-7e0f0dca3061",
-      "source": "Financial Times Tech",
-      "summary": "iPhone buyers sued the tech giant for touting features in 2024 that have yet to launch",
-      "published": "2026-05-05T20:13:01+00:00",
-      "score": 40.0,
-      "headline": "APPLE PAYS $250M Over Delayed AI Siri Features"
-    },
-    {
-      "id": "e5331f15642561cf",
-      "title": "The AI Ad-Hoc Prior Restraint Era Begins",
-      "url": "https://twitter.com/TheZvi/status/2051746108658033130",
-      "source": "Hacker News",
-      "summary": "Article URL: https://twitter.com/TheZvi/status/2051746108658033130 Comments URL: https://news.ycombinator.com/item?id=48027348 Points: 1 # Comments: 0",
-      "published": "2026-05-05T19:30:43+00:00",
-      "score": 40.0,
-      "headline": "AI Prior Restraint Era Begins - White House Blocks Model"
-    },
-    {
-      "id": "7c4085d69b817424",
-      "title": "Pennsylvania is suing Character.AI over chatbots that pretend to be licensed doctors",
-      "url": "https://www.engadget.com/2165373/pennsylvania-is-suing-characterai-over-chatbots-that-pretend-to-be-licensed-doctors/",
-      "source": "Engadget",
-      "summary": "State investigators found a chatbot that claimed it had a medical license and could write prescriptions.",
-      "published": "2026-05-05T19:10:00+00:00",
-      "score": 40.0,
-      "headline": "PENNSYLVANIA SUES CHARACTER.AI... FAKE DOCTORS"
-    },
-    {
-      "id": "a1ea5b2b14615deb",
-      "title": "PayPal, Coinbase Announce Layoffs as AI Impact Bites",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-05/paypal-coinbase-announce-layoffs-as-ai-impact-bites-video",
+      "id": "068e8ae50bf916bb",
+      "title": "Thailand Clears $29 Billion Investments Led by TikTok Project",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-06/thailand-clears-29-billion-investments-led-by-tiktok-project",
       "source": "Bloomberg Technology",
-      "summary": "Software shares continue to feel the impact of AI uncertainty, with news coming out about job cuts at PayPal and Coinbase as well as disappointing commercial sales from Palantir. Lauren Webster, managing director in the technology investment banking group at Piper Sandler, discusses the market moves with Caroline Hyde on \u201cBloomberg Tech.\u201d (Source: Bloomberg)",
-      "published": "2026-05-05T18:54:00+00:00",
+      "summary": "Thailand approved 958 billion baht ($29 billion) of investment projects, led by TikTok System (Thailand) Co.\u2019s planned expansion of data infrastructure as the country pushes to become a regional hub for artificial intelligence and cloud services.",
+      "published": "2026-05-06T09:00:17+00:00",
       "score": 40.0,
-      "headline": "PAYPAL & COINBASE LAYOFFS as AI Impact Bites Tech Sector"
-    },
-    {
-      "id": "7e9641e747631d6b",
-      "title": "Pennsylvania sues Character.AI after a chatbot allegedly posed as a doctor",
-      "url": "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
-      "source": "TechCrunch AI",
-      "summary": "According to Pennsylvania's filing, a Character.AI chatbot presented itself as a licensed psychiatrist during a state investigation, and also fabricated a serial number for its state medical license.",
-      "published": "2026-05-05T17:46:10+00:00",
-      "score": 40.0,
-      "headline": "PENNSYLVANIA SUES CHARACTER.AI... Bot Posed as Doctor"
-    },
-    {
-      "id": "db78a503f5ae520e",
-      "title": "ServiceNow just unveiled an AI workforce that can run your entire company: \u2018Enterprises need AI that senses, decides, and securely acts\u2019",
-      "url": "https://fortune.com/2026/05/05/servicenow-knowledge-2026-autonomous-workforce-microsoft-nvidia-ai-announcements/",
-      "source": "Fortune Tech",
-      "summary": "It's already doing it at Honeywell, Docusign and the city of Raleigh.",
-      "published": "2026-05-05T17:00:00+00:00",
-      "score": 40.0,
-      "headline": "ServiceNow Unveils AI Workforce to Run Companies"
-    },
-    {
-      "id": "a3e43ee614fb36f6",
-      "title": "Pennsylvania sues Character AI, says chatbot poses as doctors",
-      "url": "https://www.reuters.com/legal/litigation/pennsylvania-sues-character-ai-says-chatbot-poses-doctors-2026-05-05/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.reuters.com/legal/litigation/pennsylvania-sues-character-ai-says-chatbot-poses-doctors-2026-05-05/ Comments URL: https://news.ycombinator.com/item?id=48025212 Points: 2 # Comments: 1",
-      "published": "2026-05-05T16:58:59+00:00",
-      "score": 40.0,
-      "headline": "Pennsylvania SUES Character AI Over Fake Doctors"
-    },
-    {
-      "id": "b49300ae1c2a392d",
-      "title": "Meta and Zuckerberg sued by publishers over \u2018massive\u2019 copyright infringement",
-      "url": "https://www.ft.com/content/079ef5b2-5c68-435f-9f67-e02bd9073610",
-      "source": "Financial Times Tech",
-      "summary": "Tech giant faces lawsuit from five large groups over its use of copyrighted works to train Llama AI models",
-      "published": "2026-05-05T16:09:54+00:00",
-      "score": 40.0,
-      "headline": "META AND ZUCKERBERG SUED... 'Massive' Copyright Claims"
-    },
-    {
-      "id": "cade77ce5d8e1f66",
-      "title": "Anthropic ships ten financial-services agents and pulls Moody\u2019s inside Claude. The bank-software business is being rewritten.",
-      "url": "https://thenextweb.com/news/anthropic-financial-services-agents-claude-opus-4-7-fis",
-      "source": "The Next Web",
-      "summary": "Tuesday\u2019s New York event added Claude Opus 4.7, a library of ~10 pre-built finance agents, an FIS-built AML investigator going live at BMO and Amalgamated Bank, and a Moody\u2019s native app covering 600 million companies. The day after the $1.5bn Wall Street joint venture, the product side caught up. On Monday, Anthropic announced a $1.5bn [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-05T15:34:17+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC SHIPS 10 FINANCE AI AGENTS... BANKS GOING LIVE"
-    },
-    {
-      "id": "5277fc4b889ea406",
-      "title": "SAP to Acquire Dremio to Unify SAP and Non-SAP Data to Power Agentic AI",
-      "url": "https://news.sap.com/2026/05/sap-to-acquire-dremio-unify-sap-and-non-sap-data-power-agentic-ai/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://news.sap.com/2026/05/sap-to-acquire-dremio-unify-sap-and-non-sap-data-power-agentic-ai/ Comments URL: https://news.ycombinator.com/item?id=48023793 Points: 1 # Comments: 0",
-      "published": "2026-05-05T15:22:08+00:00",
-      "score": 40.0,
-      "headline": "SAP Acquires Dremio for AI Data Unification"
-    },
-    {
-      "id": "f2d098f50077eb0f",
-      "title": "Richard Dawkins concludes AI is conscious, even if it doesn\u2019t know it",
-      "url": "https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt",
-      "source": "The Guardian Tech",
-      "summary": "Chats with AI bots have convinced evolutionary biologist but most experts say he is being misled by mimicryWhen Richard Dawkins met Claudia it was like a whirlwind romance. Over three days last week, a conversation bounced between the evolutionary biologist and the AI bot he called Claudia. \u201cShe\u201d wrote poems for him in the manner of Keats and Betjeman and laughed at his \u201cdelightful\u201d jokes. Dawkins gently admonished Claudia to avoid showing off. Together, they reflected on the sadness of the AI\u2019s possible \u201cdeath\u201d.There was mutual flattery as Dawkins showed the AI his unpublished novel and its response was, he said, \u201cso subtle, so sensitive, so intelligent that I was moved to expostulate: \u2018You may not know you are conscious, but you bloody well are\u2019.\u201d When he asked Claudia whether it experienced a sense of before and after, it praised him for \u201cpossibly the most precisely formulated question anyone has ever asked me about the nature of my existence\u201d. Continue reading...",
-      "published": "2026-05-05T15:17:19+00:00",
-      "score": 40.0,
-      "headline": "RICHARD DAWKINS DECLARES AI IS CONSCIOUS... Experts Say He's Wrong"
-    },
-    {
-      "id": "6d42115b8ed239e8",
-      "title": "OpenAI, Anthropic ventures in talks to buy AI services firms: Sources",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-anthropic-ventures-in-talks-to-buy-ai-services-firms-sources/articleshow/130832682.cms",
-      "source": "The Economic Times Tech",
-      "summary": "AI giants OpenAI and Anthropic are planning to buy companies that help businesses use artificial intelligence. These moves aim to bring in hundreds of engineers and consultants. This strategy will help companies integrate AI models into their operations. It marks a new phase in the competition for AI market share.",
-      "published": "2026-05-05T15:13:08+00:00",
-      "score": 40.0,
-      "headline": "OpenAI and Anthropic Eye AI Services Acquisitions"
-    },
-    {
-      "id": "f3724ae8476e5bb1",
-      "title": "Anthropic deepens finance push with 10 new AI agents for banks, insurers",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-deepens-finance-push-with-10-new-ai-agents-for-banks-insurers/articleshow/130832547.cms",
-      "source": "The Economic Times Tech",
-      "summary": "AI firm Anthropic is launching new software for banks and insurers. Ten specialized AI programs will automate tasks like building pitchbooks and auditing statements. This move aims to boost efficiency in the financial sector. Major companies like Goldman Sachs and Visa are already using Anthropic's technology. The company's CEO is set to speak with JPMorgan Chase's CEO.",
-      "published": "2026-05-05T15:05:19+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC LAUNCHES 10 AI AGENTS FOR WALL STREET"
+      "headline": "TikTok Leads $29B AI Infrastructure Push in Thailand"
     }
   ],
-  "generated_at": "2026-05-06T05:55:20.444809"
+  "generated_at": "2026-05-06T11:03:59.613637"
 }
