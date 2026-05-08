@@ -59,8 +59,8 @@
       "story_count": 5
     },
     {
-      "topic": "Chinese AI Valuations",
-      "description": "China's AI companies are reaching massive valuations with state backing, signaling China's aggressive push to compete with US AI dominance.",
+      "topic": "China AI Valuations & Investment",
+      "description": "Chinese AI companies DeepSeek and Moonshot AI are raising billions at massive valuations, showing China's push to compete in the global AI race.",
       "stories": [
         {
           "id": "8ef379e40152bdef",
@@ -207,6 +207,16 @@
       "published": "2026-05-05T05:05:42+00:00",
       "score": 47.0,
       "headline": "GOOGLE DEEPMIND UK WORKERS VOTE TO UNIONIZE"
+    },
+    {
+      "id": "c7fc532d58a521bc",
+      "title": "Scaling Trusted Access for Cyber with GPT\u20115.5 and GPT\u20115.5\u2011Cyber",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/ Comments URL: https://news.ycombinator.com/item?id=48069256 Points: 1 # Comments: 0",
+      "published": "2026-05-08T21:54:31+00:00",
+      "score": 46.0,
+      "headline": "OPENAI LAUNCHES GPT-5.5 WITH CYBERSECURITY ACCESS"
     },
     {
       "id": "5c6965c6d2d29129",
@@ -967,17 +977,7 @@
       "published": "2026-05-08T12:30:00+00:00",
       "score": 41.0,
       "headline": "OpenAI Reveals How It Runs Codex Agents Securely"
-    },
-    {
-      "id": "a8b82a1934b25959",
-      "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
-      "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
-      "source": "BAIR Blog (Berkeley)",
-      "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand? We provide a detailed analysis of recent progress in the field of parallel reasoning, especially Adaptive Parallel Reasoning. Disclosure: this post is part landscape survey, part perspective on adaptive parallel reasoning. One of the authors (Tony Lian) co-led ThreadWeaver (Lian et al., 2025), one of the methods discussed below. The authors aim to present each approach on its own terms. Motivation Recent progress in LLM reasoning capabilities has been largely driven by inference-time scaling, in addition to data and parameter scaling (OpenAI et al., 2024; DeepSeek-AI et al., 2025). Models that explicitly output reasoning tokens (through intermediate steps, backtracking, and exploration) now dominate math, coding, and agentic benchmarks. These behav",
-      "published": "2026-05-08T09:00:00+00:00",
-      "score": 41.0,
-      "headline": "Berkeley Unveils Adaptive Parallel Reasoning for AI"
     }
   ],
-  "generated_at": "2026-05-08T20:56:17.081483"
+  "generated_at": "2026-05-08T21:57:52.248848"
 }
