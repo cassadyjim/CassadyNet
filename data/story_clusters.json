@@ -1,8 +1,66 @@
 {
   "clusters": [
     {
-      "topic": "China AI Funding Surge",
-      "description": "Chinese AI companies are achieving massive valuations with state backing, signaling China's aggressive push to compete globally in AI.",
+      "topic": "OpenAI Model Releases",
+      "description": "OpenAI is rapidly releasing new GPT models including GPT-5.5 Instant and audio models, accelerating the pace of AI capability advancement.",
+      "stories": [
+        {
+          "id": "fa99471a69515a1f",
+          "title": "GPT\u20115.5 Instant",
+          "url": "https://openai.com/index/gpt-5-5-instant/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://openai.com/index/gpt-5-5-instant/ Comments URL: https://news.ycombinator.com/item?id=48025274 Points: 10 # Comments: 0",
+          "published": "2026-05-05T17:02:23+00:00",
+          "score": 47.0,
+          "headline": "OPENAI DROPS GPT-5.5 INSTANT... MAJOR UPGRADE"
+        },
+        {
+          "id": "5316b1b55ce980bc",
+          "title": "OpenAI launches GPT-Realtime-2",
+          "url": "https://twitter.com/OpenAI/status/2052438194625593804",
+          "source": "Hacker News",
+          "summary": "Article URL: https://twitter.com/OpenAI/status/2052438194625593804 Comments URL: https://news.ycombinator.com/item?id=48052118 Points: 4 # Comments: 0",
+          "published": "2026-05-07T17:24:53+00:00",
+          "score": 43.0,
+          "headline": "OPENAI LAUNCHES GPT-REALTIME-2"
+        },
+        {
+          "id": "f2ffd9ae2c290fb9",
+          "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+          "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+          "source": "TechCrunch AI",
+          "summary": "The new GPT-5.5 Instant model will replace GPT-3.5 Instant as the default model for ChatGPT",
+          "published": "2026-05-05T17:00:00+00:00",
+          "score": 43.0,
+          "headline": "GPT-5.5 Instant Replaces GPT-3.5 as Default"
+        },
+        {
+          "id": "05d3c5cd4cae571d",
+          "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+          "url": "https://openai.com/index/gpt-5-5-instant",
+          "source": "OpenAI Blog",
+          "summary": "GPT-5.5 Instant updates ChatGPT\u2019s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+          "published": "2026-05-05T10:00:00+00:00",
+          "score": 43.0,
+          "headline": "OPENAI LAUNCHES GPT-5.5 INSTANT... Smarter & Less Hallucinations"
+        },
+        {
+          "id": "2fb1d0a0f236a19b",
+          "title": "We\u2019re introducing three audio models in the API that unlock a new class of voice apps for developers.",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1t6hgob/were_introducing_three_audio_models_in_the_api/",
+          "source": "Reddit r/OpenAI",
+          "summary": "&#32; submitted by &#32; /u/OpenAI [link] &#32; [comments]",
+          "published": "2026-05-07T17:32:51+00:00",
+          "score": 42.0,
+          "headline": "OPENAI DROPS THREE AUDIO MODELS"
+        }
+      ],
+      "top_score": 47.0,
+      "story_count": 5
+    },
+    {
+      "topic": "Chinese AI Valuations Surge",
+      "description": "China's AI companies are reaching unprecedented valuations with massive state and private funding rounds, signaling an escalating AI race with the US.",
       "stories": [
         {
           "id": "8ef379e40152bdef",
@@ -117,64 +175,6 @@
       ],
       "top_score": 49.0,
       "story_count": 11
-    },
-    {
-      "topic": "OpenAI Model Releases",
-      "description": "OpenAI is rapidly releasing new GPT models including GPT-5.5 Instant and audio models, accelerating the pace of AI capability advancement.",
-      "stories": [
-        {
-          "id": "fa99471a69515a1f",
-          "title": "GPT\u20115.5 Instant",
-          "url": "https://openai.com/index/gpt-5-5-instant/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://openai.com/index/gpt-5-5-instant/ Comments URL: https://news.ycombinator.com/item?id=48025274 Points: 10 # Comments: 0",
-          "published": "2026-05-05T17:02:23+00:00",
-          "score": 47.0,
-          "headline": "OPENAI DROPS GPT-5.5 INSTANT... MAJOR UPGRADE"
-        },
-        {
-          "id": "5316b1b55ce980bc",
-          "title": "OpenAI launches GPT-Realtime-2",
-          "url": "https://twitter.com/OpenAI/status/2052438194625593804",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/OpenAI/status/2052438194625593804 Comments URL: https://news.ycombinator.com/item?id=48052118 Points: 4 # Comments: 0",
-          "published": "2026-05-07T17:24:53+00:00",
-          "score": 43.0,
-          "headline": "OPENAI LAUNCHES GPT-REALTIME-2"
-        },
-        {
-          "id": "f2ffd9ae2c290fb9",
-          "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
-          "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
-          "source": "TechCrunch AI",
-          "summary": "The new GPT-5.5 Instant model will replace GPT-3.5 Instant as the default model for ChatGPT",
-          "published": "2026-05-05T17:00:00+00:00",
-          "score": 43.0,
-          "headline": "GPT-5.5 Instant Replaces GPT-3.5 as Default"
-        },
-        {
-          "id": "05d3c5cd4cae571d",
-          "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-          "url": "https://openai.com/index/gpt-5-5-instant",
-          "source": "OpenAI Blog",
-          "summary": "GPT-5.5 Instant updates ChatGPT\u2019s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-          "published": "2026-05-05T10:00:00+00:00",
-          "score": 43.0,
-          "headline": "OPENAI LAUNCHES GPT-5.5 INSTANT... Smarter & Less Hallucinations"
-        },
-        {
-          "id": "2fb1d0a0f236a19b",
-          "title": "We\u2019re introducing three audio models in the API that unlock a new class of voice apps for developers.",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1t6hgob/were_introducing_three_audio_models_in_the_api/",
-          "source": "Reddit r/OpenAI",
-          "summary": "&#32; submitted by &#32; /u/OpenAI [link] &#32; [comments]",
-          "published": "2026-05-07T17:32:51+00:00",
-          "score": 42.0,
-          "headline": "OPENAI DROPS THREE AUDIO MODELS"
-        }
-      ],
-      "top_score": 47.0,
-      "story_count": 5
     }
   ],
   "unclustered": [
@@ -197,6 +197,16 @@
       "published": "2026-05-05T20:39:44+00:00",
       "score": 47.0,
       "headline": "CHINA BLOCKS META'S $2B MANUS AI ACQUISITION"
+    },
+    {
+      "id": "fa99471a69515a1f",
+      "title": "GPT\u20115.5 Instant",
+      "url": "https://openai.com/index/gpt-5-5-instant/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://openai.com/index/gpt-5-5-instant/ Comments URL: https://news.ycombinator.com/item?id=48025274 Points: 10 # Comments: 0",
+      "published": "2026-05-05T17:02:23+00:00",
+      "score": 47.0,
+      "headline": "OPENAI DROPS GPT-5.5 INSTANT... MAJOR UPGRADE"
     },
     {
       "id": "14cea93190cf7173",
@@ -249,6 +259,16 @@
       "headline": "GOOGLE DEEPMIND UK WORKERS UNIONIZE... PENTAGON BACKLASH"
     },
     {
+      "id": "b3c9483ee27f754a",
+      "title": "Baidu\u2019s AI Chip Unit Plans Dual IPO in Shanghai and Hong Kong",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-08/baidu-s-ai-chip-unit-plans-dual-ipo-in-shanghai-and-hong-kong",
+      "source": "Bloomberg Technology",
+      "summary": "Baidu Inc.\u2019s chip unit Kunlunxin is planning an initial public offering on Shanghai\u2019s Nasdaq-style bourse in addition to a separate listing plan in Hong Kong as the Chinese search engine giant looks to taps investor appetite for semiconductor stocks.",
+      "published": "2026-05-08T04:41:07+00:00",
+      "score": 44.0,
+      "headline": "BAIDU AI CHIP UNIT Plans Dual IPO"
+    },
+    {
       "id": "0f47f560d4751c0e",
       "title": "\u2018No one has done this in the wild\u2019: study observes AI replicate itself",
       "url": "https://www.theguardian.com/technology/2026/may/07/no-one-has-done-this-in-the-wild-study-observes-ai-replicate-itself",
@@ -277,16 +297,6 @@
       "published": "2026-05-06T21:00:18+00:00",
       "score": 44.0,
       "headline": "PENTAGON BOTCHES Alibaba-Baidu Blacklist"
-    },
-    {
-      "id": "64c79a07e7a9aed2",
-      "title": "Samsung Hits $1 Trillion Valuation, Joining TSMC in Elite Club",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-06/samsung-hits-1-trillion-valuation-joining-tsmc-in-elite-club",
-      "source": "Bloomberg Technology",
-      "summary": "Samsung Electronics Co. reached a $1 trillion market valuation after shares in the world\u2019s largest memory maker more than quadrupled over the past year on booming demand for the chips used in artificial intelligence.",
-      "published": "2026-05-06T00:07:27+00:00",
-      "score": 44.0,
-      "headline": "SAMSUNG HITS $1 TRILLION Valuation on AI Chip Boom"
     },
     {
       "id": "1ba35926bc7a2f8d",
@@ -327,6 +337,16 @@
       "published": "2026-05-05T06:51:49+00:00",
       "score": 44.0,
       "headline": "DEEPSEEK V4 PRO MATCHES GPT-5.2... 17x CHEAPER"
+    },
+    {
+      "id": "5316b1b55ce980bc",
+      "title": "OpenAI launches GPT-Realtime-2",
+      "url": "https://twitter.com/OpenAI/status/2052438194625593804",
+      "source": "Hacker News",
+      "summary": "Article URL: https://twitter.com/OpenAI/status/2052438194625593804 Comments URL: https://news.ycombinator.com/item?id=48052118 Points: 4 # Comments: 0",
+      "published": "2026-05-07T17:24:53+00:00",
+      "score": 43.0,
+      "headline": "OPENAI LAUNCHES GPT-REALTIME-2"
     },
     {
       "id": "9b5c14ba95d00427",
@@ -389,36 +409,6 @@
       "headline": "APPLE TO LET USERS PICK RIVAL AI MODELS IN iOS 27"
     },
     {
-      "id": "cc47e2bc4b510cbb",
-      "title": "Samsung Electronics crosses $1tn, joining TSMC, as the AI memory cycle pulls Korea into a record",
-      "url": "https://thenextweb.com/news/samsung-electronics-1-trillion-market-cap-ai-memory",
-      "source": "The Next Web",
-      "summary": "Samsung\u2019s stock has more than quadrupled in a year. The KOSPI broke 7,000 for the first time. Two Korean chipmakers now account for 42% of the index. The supercycle that built this rally is, by Samsung\u2019s own forecast, not yet at its peak. There is a particular type of market moment that does not happen [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-06T07:25:04+00:00",
-      "score": 43.0,
-      "headline": "SAMSUNG Hits $1T Market Cap in AI Memory Boom"
-    },
-    {
-      "id": "28bf2e0c919d4cf7",
-      "title": "Samsung reaches $1 trillion valuation: What\u2019s fuelling the AI chip surge?",
-      "url": "https://economictimes.indiatimes.com/tech/technology/samsung-reaches-1-trillion-valuation-whats-fuelling-the-ai-chip-surge/articleshow/130845227.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Samsung Electronics has crossed a $1 trillion valuation. This milestone is fueled by strong demand for AI chips. The company is a major supplier of critical components for AI servers. This surge is expected to continue, with tight supply conditions likely to sustain elevated chip prices. Samsung's semiconductor division reported record profits.",
-      "published": "2026-05-06T05:35:33+00:00",
-      "score": 43.0,
-      "headline": "SAMSUNG HITS $1 TRILLION... AI Chip Boom Explodes"
-    },
-    {
-      "id": "f1604a3ba884ad6e",
-      "title": "Samsung Electronics hits $1tn value on AI euphoria",
-      "url": "https://www.ft.com/content/4239a9e1-854d-4ae1-9792-a4a11d7ae5e8",
-      "source": "Financial Times Tech",
-      "summary": "Memory chip giant\u2019s surge pushes South Korea\u2019s Kospi to new record",
-      "published": "2026-05-06T04:01:00+00:00",
-      "score": 43.0,
-      "headline": "Samsung Hits $1TN Value on AI Euphoria... Korea Market Records"
-    },
-    {
       "id": "4b05a10c35c2dd5b",
       "title": "Apple will pay $250 million for failing to deliver its AI-powered Siri on time",
       "url": "https://www.engadget.com/2165602/apple-will-pay-250-million-for-failing-to-deliver-its-ai-powered-siri-on-time/",
@@ -437,6 +427,16 @@
       "published": "2026-05-05T19:01:25+00:00",
       "score": 43.0,
       "headline": "MUSK'S AI IGNORANCE CONCERNED OpenAI Leaders - Brockman Testifies"
+    },
+    {
+      "id": "f2ffd9ae2c290fb9",
+      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "source": "TechCrunch AI",
+      "summary": "The new GPT-5.5 Instant model will replace GPT-3.5 Instant as the default model for ChatGPT",
+      "published": "2026-05-05T17:00:00+00:00",
+      "score": 43.0,
+      "headline": "GPT-5.5 Instant Replaces GPT-3.5 as Default"
     },
     {
       "id": "7950df1210bf7676",
@@ -479,6 +479,16 @@
       "headline": "DEEPMIND UNIONIZES... BLOCKS MILITARY AI DEALS"
     },
     {
+      "id": "05d3c5cd4cae571d",
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "source": "OpenAI Blog",
+      "summary": "GPT-5.5 Instant updates ChatGPT\u2019s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+      "published": "2026-05-05T10:00:00+00:00",
+      "score": 43.0,
+      "headline": "OPENAI LAUNCHES GPT-5.5 INSTANT... Smarter & Less Hallucinations"
+    },
+    {
       "id": "f996e3363cf84471",
       "title": "Dawn of the \"national security\" tier of AI",
       "url": "https://www.lesswrong.com/posts/auEbR7KPBNYBNypyD/dawn-of-the-national-security-tier-of-ai",
@@ -487,6 +497,16 @@
       "published": "2026-05-05T09:40:50+00:00",
       "score": 43.0,
       "headline": "WHITE HOUSE Eyes AI Model Vetting... National Security Tier Emerges"
+    },
+    {
+      "id": "79cf7bb9a21b59f2",
+      "title": "Anthropic weighs fundraising for near $1 trillion valuation: Financial Times",
+      "url": "https://economictimes.indiatimes.com/tech/funding/anthropic-weighs-fundraising-for-near-1-trillion-valuation-financial-times/articleshow/130947861.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic weighs fundraising for near $1 trillion valuation, FT reports",
+      "published": "2026-05-08T04:16:54+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC EYES $1 TRILLION VALUATION"
     },
     {
       "id": "1c2ad129c277e7b3",
@@ -507,6 +527,16 @@
       "published": "2026-05-07T18:20:31+00:00",
       "score": 42.0,
       "headline": "APPLE AIRPODS Get Cameras... Late Testing for AI Push"
+    },
+    {
+      "id": "2fb1d0a0f236a19b",
+      "title": "We\u2019re introducing three audio models in the API that unlock a new class of voice apps for developers.",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1t6hgob/were_introducing_three_audio_models_in_the_api/",
+      "source": "Reddit r/OpenAI",
+      "summary": "&#32; submitted by &#32; /u/OpenAI [link] &#32; [comments]",
+      "published": "2026-05-07T17:32:51+00:00",
+      "score": 42.0,
+      "headline": "OPENAI DROPS THREE AUDIO MODELS"
     },
     {
       "id": "9a4e8f680d871e6d",
@@ -997,27 +1027,7 @@
       "published": "2026-05-06T10:42:09+00:00",
       "score": 41.0,
       "headline": "TikTok DROPS $25 Billion on Thailand Data Centers"
-    },
-    {
-      "id": "29b7d192a17709eb",
-      "title": "SpaceX files plan for $55 billion Terafab chip facility in Texas",
-      "url": "https://economictimes.indiatimes.com/tech/technology/spacex-files-plan-for-55-billion-terafab-chip-facility-in-texas/articleshow/130852724.cms",
-      "source": "The Economic Times Tech",
-      "summary": "SpaceX plans to invest $55 billion in a Texas semiconductor manufacturing facility, Terafab, aiming to significantly increase domestic chip production. This multi-phase complex could eventually reach $119 billion in investment. Local officials are set to review a property tax abatement agreement for the Grimes County project.",
-      "published": "2026-05-06T10:38:35+00:00",
-      "score": 41.0,
-      "headline": "SpaceX Files $55 Billion TERAFAB Chip Plant"
-    },
-    {
-      "id": "b63be96ad55d7522",
-      "title": "Hyundai Robot Performs Handstand, Complex Gymnastics Moves",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-06/hyundai-s-production-ready-humanoid-debuts-in-first-live-demo",
-      "source": "Bloomberg Technology",
-      "summary": "Hyundai Motor Co.\u2019s robotics unit released a video showing its production-ready Atlas humanoid robot performing complex gymnastics, marking a first-of-its-kind live demonstration that could signal the machine is nearing commercialization.",
-      "published": "2026-05-06T07:03:50+00:00",
-      "score": 41.0,
-      "headline": "HYUNDAI ROBOT PERFORMS HANDSTAND... FIRST LIVE DEMO"
     }
   ],
-  "generated_at": "2026-05-08T02:36:00.691693"
+  "generated_at": "2026-05-08T05:28:42.754675"
 }

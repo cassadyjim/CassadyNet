@@ -1,16 +1,81 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Model Releases",
+      "description": "OpenAI is rapidly releasing new GPT models including GPT-5.5 Instant and audio models, accelerating the pace of AI capability advancement.",
+      "question": "",
+      "button_a": "N/A",
+      "button_b": "N/A",
+      "poll_id": "openai-model-releases-20260508",
+      "analysis_url": "/analysis/analysis-openai-model-releases-20260508.html",
+      "analysis_type": "summary",
+      "created_at": "2026-05-08T02:36:26.786351",
+      "last_seen": "2026-05-08T05:29:10.736108",
+      "cluster_stories": [
+        {
+          "id": "fa99471a69515a1f",
+          "title": "GPT\u20115.5 Instant",
+          "url": "https://openai.com/index/gpt-5-5-instant/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://openai.com/index/gpt-5-5-instant/ Comments URL: https://news.ycombinator.com/item?id=48025274 Points: 10 # Comments: 0",
+          "published": "2026-05-05T17:02:23+00:00",
+          "score": 47.0,
+          "headline": "OPENAI DROPS GPT-5.5 INSTANT... MAJOR UPGRADE"
+        },
+        {
+          "id": "5316b1b55ce980bc",
+          "title": "OpenAI launches GPT-Realtime-2",
+          "url": "https://twitter.com/OpenAI/status/2052438194625593804",
+          "source": "Hacker News",
+          "summary": "Article URL: https://twitter.com/OpenAI/status/2052438194625593804 Comments URL: https://news.ycombinator.com/item?id=48052118 Points: 4 # Comments: 0",
+          "published": "2026-05-07T17:24:53+00:00",
+          "score": 43.0,
+          "headline": "OPENAI LAUNCHES GPT-REALTIME-2"
+        },
+        {
+          "id": "f2ffd9ae2c290fb9",
+          "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+          "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+          "source": "TechCrunch AI",
+          "summary": "The new GPT-5.5 Instant model will replace GPT-3.5 Instant as the default model for ChatGPT",
+          "published": "2026-05-05T17:00:00+00:00",
+          "score": 43.0,
+          "headline": "GPT-5.5 Instant Replaces GPT-3.5 as Default"
+        },
+        {
+          "id": "05d3c5cd4cae571d",
+          "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+          "url": "https://openai.com/index/gpt-5-5-instant",
+          "source": "OpenAI Blog",
+          "summary": "GPT-5.5 Instant updates ChatGPT\u2019s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+          "published": "2026-05-05T10:00:00+00:00",
+          "score": 43.0,
+          "headline": "OPENAI LAUNCHES GPT-5.5 INSTANT... Smarter & Less Hallucinations"
+        },
+        {
+          "id": "2fb1d0a0f236a19b",
+          "title": "We\u2019re introducing three audio models in the API that unlock a new class of voice apps for developers.",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1t6hgob/were_introducing_three_audio_models_in_the_api/",
+          "source": "Reddit r/OpenAI",
+          "summary": "&#32; submitted by &#32; /u/OpenAI [link] &#32; [comments]",
+          "published": "2026-05-07T17:32:51+00:00",
+          "score": 42.0,
+          "headline": "OPENAI DROPS THREE AUDIO MODELS"
+        }
+      ],
+      "current_topic_name": "OpenAI Model Releases"
+    },
+    {
       "topic": "DeepSeek $45B Valuation",
       "description": "China's state fund leads massive funding round for DeepSeek, signaling China's aggressive push into AI competition with unprecedented valuation.",
       "question": "Is China's massive DeepSeek investment a competitive threat or innovation catalyst?",
       "button_a": "Threat",
       "button_b": "Catalyst",
       "poll_id": "deepseek-45b-valuation-20260506",
-      "analysis_url": "/analysis/analysis-china-ai-funding-surge-20260508.html",
+      "analysis_url": "/analysis/analysis-chinese-ai-valuations-surge-20260507.html",
       "analysis_type": "poll",
       "created_at": "2026-05-06T13:57:09.149935",
-      "last_seen": "2026-05-08T02:36:27.632737",
+      "last_seen": "2026-05-08T05:29:12.840032",
       "cluster_stories": [
         {
           "id": "8ef379e40152bdef",
@@ -123,73 +188,8 @@
           "headline": "MOONSHOT AI HITS $20BN VALUATION... China's Fastest AI Funding Ever"
         }
       ],
-      "current_topic_name": "China AI Funding Surge"
-    },
-    {
-      "topic": "OpenAI Model Releases",
-      "description": "OpenAI is rapidly releasing new GPT models including GPT-5.5 Instant and audio models, accelerating the pace of AI capability advancement.",
-      "question": "",
-      "button_a": "N/A",
-      "button_b": "N/A",
-      "poll_id": "openai-model-releases-20260508",
-      "analysis_url": "/analysis/analysis-openai-model-releases-20260508.html",
-      "analysis_type": "summary",
-      "created_at": "2026-05-08T02:36:26.786351",
-      "last_seen": "2026-05-08T02:36:30.014885",
-      "cluster_stories": [
-        {
-          "id": "fa99471a69515a1f",
-          "title": "GPT\u20115.5 Instant",
-          "url": "https://openai.com/index/gpt-5-5-instant/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://openai.com/index/gpt-5-5-instant/ Comments URL: https://news.ycombinator.com/item?id=48025274 Points: 10 # Comments: 0",
-          "published": "2026-05-05T17:02:23+00:00",
-          "score": 47.0,
-          "headline": "OPENAI DROPS GPT-5.5 INSTANT... MAJOR UPGRADE"
-        },
-        {
-          "id": "5316b1b55ce980bc",
-          "title": "OpenAI launches GPT-Realtime-2",
-          "url": "https://twitter.com/OpenAI/status/2052438194625593804",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/OpenAI/status/2052438194625593804 Comments URL: https://news.ycombinator.com/item?id=48052118 Points: 4 # Comments: 0",
-          "published": "2026-05-07T17:24:53+00:00",
-          "score": 43.0,
-          "headline": "OPENAI LAUNCHES GPT-REALTIME-2"
-        },
-        {
-          "id": "f2ffd9ae2c290fb9",
-          "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
-          "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
-          "source": "TechCrunch AI",
-          "summary": "The new GPT-5.5 Instant model will replace GPT-3.5 Instant as the default model for ChatGPT",
-          "published": "2026-05-05T17:00:00+00:00",
-          "score": 43.0,
-          "headline": "GPT-5.5 Instant Replaces GPT-3.5 as Default"
-        },
-        {
-          "id": "05d3c5cd4cae571d",
-          "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-          "url": "https://openai.com/index/gpt-5-5-instant",
-          "source": "OpenAI Blog",
-          "summary": "GPT-5.5 Instant updates ChatGPT\u2019s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-          "published": "2026-05-05T10:00:00+00:00",
-          "score": 43.0,
-          "headline": "OPENAI LAUNCHES GPT-5.5 INSTANT... Smarter & Less Hallucinations"
-        },
-        {
-          "id": "2fb1d0a0f236a19b",
-          "title": "We\u2019re introducing three audio models in the API that unlock a new class of voice apps for developers.",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1t6hgob/were_introducing_three_audio_models_in_the_api/",
-          "source": "Reddit r/OpenAI",
-          "summary": "&#32; submitted by &#32; /u/OpenAI [link] &#32; [comments]",
-          "published": "2026-05-07T17:32:51+00:00",
-          "score": 42.0,
-          "headline": "OPENAI DROPS THREE AUDIO MODELS"
-        }
-      ],
-      "current_topic_name": "OpenAI Model Releases"
+      "current_topic_name": "Chinese AI Valuations Surge"
     }
   ],
-  "last_updated": "2026-05-08T02:36:30.647525"
+  "last_updated": "2026-05-08T05:29:12.840047"
 }
