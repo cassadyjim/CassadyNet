@@ -79,8 +79,8 @@
       "story_count": 7
     },
     {
-      "topic": "Chinese AI Valuations Surge",
-      "description": "Major Chinese AI companies including DeepSeek and Moonshot AI are achieving massive valuations as state funds drive China's AI race against the US.",
+      "topic": "Chinese AI Funding Surge",
+      "description": "Multiple Chinese AI companies are raising billions at massive valuations as China accelerates its AI race with the US.",
       "stories": [
         {
           "id": "8ef379e40152bdef",
@@ -689,6 +689,16 @@
       "headline": "OPENAI GAVE US GOVERNMENT Early Access to GPT-5.5 for Security Tests"
     },
     {
+      "id": "f8f9f30d0ac96a98",
+      "title": "DeepSeek V4 paper full version is out, FP4 QAT details and stability tricks [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "DeepSeek dropped the full V4 paper this week. preview from april was 58 pages, this version adds a lot of technical depth. What stood out for me. FP4 quantization aware training. theyre running FP4 QAT directly in late stage training. MoE expert weights quantized to FP4 (the main gpu memory consumer). QK path in the CSA indexer uses FP4 activations. 2x speedup on QK selector with 99.7% recall preserved. inference runs directly on the FP4 weights. Efficiency table is striking: Model 1M context FLOPs KV cache V3.2 baseline baseline V4-Pro 27% of baseline 10% of baseline V4-Flash 10% of baseline 7% of baseline Training stability, two mechanisms. Trillion parameter MoE has the loss spike problem, divergence, unpredictable failures. they documented two fixes. Anticipatory routing. they deliberately desync main model and router updates. current step uses latest params for features, but routing uses cached older params. breaks the feedback loop that amplifies anomalies. 20% overhead but only ",
+      "published": "2026-05-09T08:10:03+00:00",
+      "score": 41.0,
+      "headline": "DEEPSEEK V4 PAPER DROPS: FP4 Quantization Breakthrough"
+    },
+    {
       "id": "4748cb5d88e4221c",
       "title": "Thailand's SiamAI denies exporting US AI servers to China",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/thailands-siamai-denies-exporting-us-ai-servers-to-china/articleshow/130971633.cms",
@@ -987,17 +997,7 @@
       "published": "2026-05-06T22:55:29+00:00",
       "score": 41.0,
       "headline": "SINGAPORE PLEDGES NO AI JOBLESS GROWTH"
-    },
-    {
-      "id": "2b224f3459174498",
-      "title": "Google\u2019s AI Overviews killed 58 per cent of publisher clicks. Now it is adding a \u2018Further Exploration\u2019 section to bring some back.",
-      "url": "https://thenextweb.com/news/google-ai-overviews-publisher-links-search-traffic",
-      "source": "The Next Web",
-      "summary": "Google has a publisher problem. AI Overviews, the AI-generated summaries that now appear at the top of search results for a growing share of queries, have been correlated with a 58 per cent reduction in click-through rates to the websites whose content those summaries are built on. Penske Media has filed an antitrust lawsuit. The [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-06T22:12:33+00:00",
-      "score": 41.0,
-      "headline": "GOOGLE'S AI OVERVIEWS KILLED 58% OF PUBLISHER CLICKS... Now Adds 'Further Exploration' Fix"
     }
   ],
-  "generated_at": "2026-05-09T07:52:03.816728"
+  "generated_at": "2026-05-09T09:16:17.467057"
 }
