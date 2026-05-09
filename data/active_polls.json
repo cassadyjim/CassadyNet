@@ -1,81 +1,16 @@
 {
   "polls": [
     {
-      "topic": "OpenAI Model Releases",
-      "description": "OpenAI is rapidly releasing new GPT models including GPT-5.5 Instant and audio models, accelerating the pace of AI capability advancement.",
-      "question": "Is OpenAI's rapid model release pace helping or hurting AI progress?",
-      "button_a": "Helping",
-      "button_b": "Progress",
-      "poll_id": "openai-model-releases-20260508",
-      "analysis_url": "/analysis/analysis-openai-model-releases-20260508.html",
-      "analysis_type": "poll",
-      "created_at": "2026-05-08T02:36:26.786351",
-      "last_seen": "2026-05-09T02:29:23.159144",
-      "cluster_stories": [
-        {
-          "id": "fa99471a69515a1f",
-          "title": "GPT\u20115.5 Instant",
-          "url": "https://openai.com/index/gpt-5-5-instant/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://openai.com/index/gpt-5-5-instant/ Comments URL: https://news.ycombinator.com/item?id=48025274 Points: 10 # Comments: 0",
-          "published": "2026-05-05T17:02:23+00:00",
-          "score": 47.0,
-          "headline": "OPENAI DROPS GPT-5.5 INSTANT... MAJOR UPGRADE"
-        },
-        {
-          "id": "5316b1b55ce980bc",
-          "title": "OpenAI launches GPT-Realtime-2",
-          "url": "https://twitter.com/OpenAI/status/2052438194625593804",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/OpenAI/status/2052438194625593804 Comments URL: https://news.ycombinator.com/item?id=48052118 Points: 4 # Comments: 0",
-          "published": "2026-05-07T17:24:53+00:00",
-          "score": 43.0,
-          "headline": "OPENAI LAUNCHES GPT-REALTIME-2"
-        },
-        {
-          "id": "f2ffd9ae2c290fb9",
-          "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
-          "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
-          "source": "TechCrunch AI",
-          "summary": "The new GPT-5.5 Instant model will replace GPT-3.5 Instant as the default model for ChatGPT",
-          "published": "2026-05-05T17:00:00+00:00",
-          "score": 43.0,
-          "headline": "GPT-5.5 Instant Replaces GPT-3.5 as Default"
-        },
-        {
-          "id": "05d3c5cd4cae571d",
-          "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-          "url": "https://openai.com/index/gpt-5-5-instant",
-          "source": "OpenAI Blog",
-          "summary": "GPT-5.5 Instant updates ChatGPT\u2019s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-          "published": "2026-05-05T10:00:00+00:00",
-          "score": 43.0,
-          "headline": "OPENAI LAUNCHES GPT-5.5 INSTANT... Smarter & Less Hallucinations"
-        },
-        {
-          "id": "2fb1d0a0f236a19b",
-          "title": "We\u2019re introducing three audio models in the API that unlock a new class of voice apps for developers.",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1t6hgob/were_introducing_three_audio_models_in_the_api/",
-          "source": "Reddit r/OpenAI",
-          "summary": "&#32; submitted by &#32; /u/OpenAI [link] &#32; [comments]",
-          "published": "2026-05-07T17:32:51+00:00",
-          "score": 42.0,
-          "headline": "OPENAI DROPS THREE AUDIO MODELS"
-        }
-      ],
-      "current_topic_name": "OpenAI Model Releases"
-    },
-    {
       "topic": "DeepSeek $45B Valuation",
       "description": "China's state fund leads massive funding round for DeepSeek, signaling China's aggressive push into AI competition with unprecedented valuation.",
       "question": "Is China's massive DeepSeek investment a competitive threat or innovation catalyst?",
       "button_a": "Threat",
       "button_b": "Catalyst",
       "poll_id": "deepseek-45b-valuation-20260506",
-      "analysis_url": "/analysis/analysis-deepseek-45b-valuation-20260508.html",
+      "analysis_url": "/analysis/analysis-deepseek-45b-valuation-20260509.html",
       "analysis_type": "poll",
       "created_at": "2026-05-06T13:57:09.149935",
-      "last_seen": "2026-05-09T02:29:23.915709",
+      "last_seen": "2026-05-09T05:47:24.702328",
       "cluster_stories": [
         {
           "id": "8ef379e40152bdef",
@@ -179,7 +114,92 @@
         }
       ],
       "current_topic_name": "DeepSeek $45B Valuation"
+    },
+    {
+      "topic": "US-China AI Chip Wars",
+      "description": "Escalating tensions over AI chip exports to China including smuggling operations, trade controls, and diplomatic efforts involving Nvidia and major tech companies.",
+      "question": "Should Trump include tech CEOs in diplomatic talks with China?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "us-china-ai-chip-wars-20260509",
+      "analysis_url": "/analysis/analysis-us-china-ai-chip-wars-20260509.html",
+      "analysis_type": "poll",
+      "created_at": "2026-05-09T05:47:23.310162",
+      "last_seen": "2026-05-09T05:47:26.273520",
+      "cluster_stories": [
+        {
+          "id": "2d04bafe477460cd",
+          "title": "U.S., China weigh AI crisis controls ahead of summit Trump and Xi could discuss AI risks at Beijing meeting",
+          "url": "https://www.reddit.com/r/artificial/comments/1t73xq7/us_china_weigh_ai_crisis_controls_ahead_of_summit/",
+          "source": "Reddit r/artificial",
+          "summary": "https://www.upi.com/Top_News/World-News/2026/05/07/us-considering-measures-to-prevent-intensifying-ai-competition/3611778191896/ &#32; submitted by &#32; /u/Glass-Rise-1010 [link] &#32; [comments]",
+          "published": "2026-05-08T10:27:32+00:00",
+          "score": 46.0,
+          "headline": "U.S.-CHINA WEIGH AI CRISIS CONTROLS... TRUMP-XI SUMMIT"
+        },
+        {
+          "id": "9c3d0e3ab5b6ad64",
+          "title": "The Thai end of the Supermicro chip-smuggling case has a name, and it sits inside Bangkok\u2019s national AI plan",
+          "url": "https://thenextweb.com/news/us-prosecutors-thailand-obon-corp-supermicro-nvidia-alibaba-smuggling",
+          "source": "The Next Web",
+          "summary": "US prosecutors believe a company at the centre of Thailand\u2019s national AI strategy helped move billions of dollars in Nvidia-equipped Supermicro servers into China, with Alibaba among the eventual customers, Bloomberg reported on Friday. The company is OBON Corp., a Bangkok-based AI infrastructure firm that has been a public partner of Thailand\u2019s National AI Strategy [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-08T08:17:29+00:00",
+          "score": 46.0,
+          "headline": "Thai Company in AI Plan Helped Smuggle Nvidia Chips to China"
+        },
+        {
+          "id": "3f49c64f9df8b36d",
+          "title": "US suspects Nvidia chips smuggled to Alibaba via Thailand: Bloomberg News",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-suspects-nvidia-chips-smuggled-to-alibaba-via-thailand-bloomberg-news/articleshow/130953005.cms",
+          "source": "The Economic Times Tech",
+          "summary": "A Thai company, OBON Corp, is under suspicion for allegedly smuggling billions of dollars worth of Super Micro Computer servers. These servers contain advanced Nvidia chips. China is reportedly the destination for these shipments. Alibaba Group Holding is named as one of the end customers. US prosecutors have indicated a Southeast Asian firm bought $2.",
+          "published": "2026-05-08T07:20:05+00:00",
+          "score": 46.0,
+          "headline": "US BUSTS Nvidia Chip Smuggling Ring to Alibaba"
+        },
+        {
+          "id": "76ac8c8bd64b42b2",
+          "title": "US Said to Suspect Nvidia Chips Smuggled to Alibaba Via Thailand",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-08/us-said-to-suspect-nvidia-chips-smuggled-to-alibaba-via-thailand",
+          "source": "Bloomberg Technology",
+          "summary": "A key company behind Thailand\u2019s national AI effort is suspected of helping to smuggle billions of dollars worth of Super Micro Computer Inc. servers containing advanced Nvidia Corp. chips to China, with Alibaba Group Holding Ltd. one of multiple end customers, according to people familiar with the matter.",
+          "published": "2026-05-08T06:34:29+00:00",
+          "score": 46.0,
+          "headline": "US SUSPECTS Nvidia Chip SMUGGLING to Alibaba Via Thailand"
+        },
+        {
+          "id": "6bacdae03894c719",
+          "title": "Nvidia CEO Says He Would Join Trump\u2019s China Trip If Invited",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-08/nvidia-ceo-says-he-would-join-trump-s-china-trip-if-invited",
+          "source": "Bloomberg Technology",
+          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang said he would gladly join President Donald Trump on an upcoming visit to China if invited, signaling that the leader of America\u2019s most valuable company has yet to receive an offer to go.",
+          "published": "2026-05-08T00:18:07+00:00",
+          "score": 46.0,
+          "headline": "NVIDIA CEO Ready to Join Trump's CHINA TRIP"
+        },
+        {
+          "id": "16705f281d747c03",
+          "title": "White House is inviting CEOs from Nvidia, Apple on Trump\u2019s China trip, report says",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3352821/white-house-inviting-ceos-nvidia-apple-trumps-china-trip-report-says?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "The Trump \u2060administration is inviting CEOs from \u2060Nvidia, Apple, Exxon, Boeing and other big companies to accompany the president on his trip to China next week, Semafor reported on Thursday. Executives from Qualcomm, Blackstone, Citigroup \u200cand Visa are also on the invitation list, according to the report. A person familiar with the matter confirmed that Citigroup CEO Jane Fraser was invited. Qualcomm confirmed the invitation but declined to comment further. Reuters was not able to confirm \u2060the...",
+          "published": "2026-05-07T21:47:23+00:00",
+          "score": 45.0,
+          "headline": "TRUMP BRINGS NVIDIA CEO TO CHINA... TECH DIPLOMACY BEGINS"
+        },
+        {
+          "id": "e118640dd88451d5",
+          "title": "Pentagon\u2019s Botched Blacklist Highlights Frail Trump-Xi Truce",
+          "url": "https://www.bloomberg.com/news/features/2026-05-06/trump-administration-s-pentagon-blacklist-misstep-roils-us-china-tech-ties",
+          "source": "Bloomberg Technology",
+          "summary": "A mishandled blacklisting of tech giants Alibaba and Baidu gives a rare window into an administration often at odds with itself on how to approach Beijing",
+          "published": "2026-05-06T21:00:18+00:00",
+          "score": 44.0,
+          "headline": "PENTAGON BOTCHES Alibaba-Baidu Blacklist"
+        }
+      ],
+      "current_topic_name": "US-China AI Chip Wars"
     }
   ],
-  "last_updated": "2026-05-09T02:29:23.915725"
+  "last_updated": "2026-05-09T05:47:26.826265"
 }

@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Model Releases",
+      "description": "OpenAI is rapidly releasing new GPT models including GPT-5.5 Instant and audio models, accelerating the pace of AI capability advancement.",
+      "question": "Is OpenAI's rapid model release pace helping or hurting AI progress?",
+      "button_a": "Helping",
+      "button_b": "Progress",
+      "poll_id": "openai-model-releases-20260508",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-model-releases-20260508.html",
+      "started_at": "2026-05-08T02:36:26.786351",
+      "archived_at": "2026-05-09T05:47:26.825125",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "DeepSeek $45-50B Valuation",
       "description": "China's DeepSeek AI startup is raising massive funding at $45-50B valuation with state backing, signaling China's aggressive push in the AI race.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-policy-and-regulation-20260409.html",
       "started_at": "2026-04-08T16:59:04.760024",
       "archived_at": "2026-04-09T17:04:37.584928",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "US-China AI Competition",
-      "description": "Escalating technological rivalry between US and China over AI models, chips, and strategic capabilities.",
-      "question": "Is China's AI progress more threatening or impressive to the US?",
-      "button_a": "Threatening",
-      "button_b": "US",
-      "poll_id": "us-china-ai-competition-20260407",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-geopolitics-and-china-20260408.html",
-      "started_at": "2026-04-07T15:05:57.209339",
-      "archived_at": "2026-04-08T16:59:19.274704",
       "reason": "topic_replaced"
     }
   ]
