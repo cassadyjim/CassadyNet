@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "DeepSeek $45B Valuation",
+      "description": "China's state fund leads massive funding round for DeepSeek, signaling China's aggressive push into AI competition with unprecedented valuation.",
+      "question": "Is China's massive DeepSeek investment a competitive threat or innovation catalyst?",
+      "button_a": "Threat",
+      "button_b": "Catalyst",
+      "poll_id": "deepseek-45b-valuation-20260506",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-chinese-ai-valuations-surge-20260509.html",
+      "started_at": "2026-05-06T13:57:09.149935",
+      "archived_at": "2026-05-10T02:30:04.018521",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Model Releases",
       "description": "OpenAI is rapidly releasing new GPT models including GPT-5.5 Instant and audio models, accelerating the pace of AI capability advancement.",
       "question": "Is OpenAI's rapid model release pace helping or hurting AI progress?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-anthropic-mythos-ai-safety-crisis-20260410.html",
       "started_at": "2026-04-08T04:38:53.718049",
       "archived_at": "2026-04-10T10:51:51.530531",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Policy and Regulation",
-      "description": "Major developments in AI governance as countries draft new laws and companies unite on policy frameworks amid growing concerns about AI safety and competition.",
-      "question": "Should governments prioritize AI innovation or stricter regulation?",
-      "button_a": "Innovation",
-      "button_b": "Regulation",
-      "poll_id": "ai-policy-and-regulation-20260408",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-policy-and-regulation-20260409.html",
-      "started_at": "2026-04-08T16:59:04.760024",
-      "archived_at": "2026-04-09T17:04:37.584928",
       "reason": "topic_replaced"
     }
   ]
