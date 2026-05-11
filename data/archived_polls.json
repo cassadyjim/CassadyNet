@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "US-China AI Tensions",
+      "description": "Major geopolitical developments around AI chip smuggling, export controls, and diplomatic efforts between the US and China.",
+      "question": "Are China's AI practices theft or smart competitive strategy?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "us-china-ai-conflict-20260424",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-us-china-ai-tech-war-20260510.html",
+      "started_at": "2026-05-10T02:30:03.468563",
+      "archived_at": "2026-05-11T02:39:54.315424",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "DeepSeek $45B Valuation",
       "description": "China's state fund leads massive funding round for DeepSeek, signaling China's aggressive push into AI competition with unprecedented valuation.",
       "question": "Is China's massive DeepSeek investment a competitive threat or innovation catalyst?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-corporate-strategy-and-stargate-20260410.html",
       "started_at": "2026-04-09T17:04:31.653874",
       "archived_at": "2026-04-10T17:44:54.009446",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic Mythos Cybersecurity AI",
-      "description": "Anthropic released a powerful AI model called Mythos that can find zero-day exploits and vulnerabilities but is considered too dangerous for public release.",
-      "question": "Should powerful AI vulnerability-hunting tools be kept secret or shared publicly?",
-      "button_a": "Secret",
-      "button_b": "Publicly",
-      "poll_id": "anthropic-mythos-cybersecurity-ai-20260408",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-mythos-ai-safety-crisis-20260410.html",
-      "started_at": "2026-04-08T04:38:53.718049",
-      "archived_at": "2026-04-10T10:51:51.530531",
       "reason": "topic_replaced"
     }
   ]
