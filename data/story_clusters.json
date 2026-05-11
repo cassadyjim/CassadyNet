@@ -79,19 +79,9 @@
       "story_count": 7
     },
     {
-      "topic": "China AI Chip Smuggling",
-      "description": "Major US investigations reveal sophisticated schemes to smuggle Nvidia chips to Chinese companies bypassing export controls.",
+      "topic": "US-China AI Chip War",
+      "description": "Escalating tensions over AI chip smuggling, export controls, and geopolitical competition between US and China in the AI semiconductor space.",
       "stories": [
-        {
-          "id": "5c6965c6d2d29129",
-          "title": "We Spent 10 Days Touring Chinese AI Labs. Here's What We Saw",
-          "url": "https://blog.readsail.com/p/we-spent-10-days-touring-chinese",
-          "source": "Hacker News",
-          "summary": "Article URL: https://blog.readsail.com/p/we-spent-10-days-touring-chinese Comments URL: https://news.ycombinator.com/item?id=48066035 Points: 3 # Comments: 0",
-          "published": "2026-05-08T17:14:38+00:00",
-          "score": 46.0,
-          "headline": "EXCLUSIVE: 10 Days Inside Chinese AI Labs Revealed"
-        },
         {
           "id": "2d04bafe477460cd",
           "title": "U.S., China weigh AI crisis controls ahead of summit Trump and Xi could discuss AI risks at Beijing meeting",
@@ -143,14 +133,24 @@
           "headline": "NVIDIA CEO Ready to Join Trump's CHINA TRIP"
         },
         {
-          "id": "1676b241ad34ddd6",
-          "title": "Notes from Inside China AI Labs",
-          "url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs Comments URL: https://news.ycombinator.com/item?id=48060229 Points: 2 # Comments: 0",
-          "published": "2026-05-08T08:20:20+00:00",
-          "score": 42.0,
-          "headline": "NOTES FROM INSIDE CHINA AI LABS Reveal Development Secrets"
+          "id": "6c9181f066ec8ecb",
+          "title": "Compiled every national AI strategy in Asia \u2014 Vietnam has the most comprehensive standalone law, Japan has no penalties, Korea just eliminated Naver from sovereign LLM competition for using Qwen weights",
+          "url": "https://www.reddit.com/r/artificial/comments/1t7h9gt/compiled_every_national_ai_strategy_in_asia/",
+          "source": "Reddit r/artificial",
+          "summary": "Compiled a tracker of every national AI strategy in Asia. Headline is that ten major Asian economies now have dedicated AI legislation or comprehensive national strategies, and they're all quite distinct from Western legislation like the EU AI Act or US executive orders. Clear that Asian governments treat AI as infrastructure, not a sector to regulate from a distance. Most national approaches lean promotional (incentives, sandboxes, sovereign LLM funding) rather than punitive (bans, heavy compliance). The exceptions are Vietnam (first standalone AI law in Asia, Dec 2025) and South Korea (Framework AI Act with high-risk-system rules). The major markets that stood out to me: China's open-source-as-industrial-policy framework. ~$98B committed to AI development. Premier Li Qiang declared at WEF 2025 that China's innovation is &quot;open and open-source&quot; and the country is &quot;willing to share indigenous technologies with the world.&quot; Derivatives of Alibaba's Qwen are now the lar",
+          "published": "2026-05-08T19:00:07+00:00",
+          "score": 43.0,
+          "headline": "KOREA KICKS NAVER FROM AI RACE Over Chinese Weights"
+        },
+        {
+          "id": "4748cb5d88e4221c",
+          "title": "Thailand's SiamAI denies exporting US AI servers to China",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/thailands-siamai-denies-exporting-us-ai-servers-to-china/articleshow/130971633.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Bangkok-based SiamAI has denied allegations of exporting AI servers to China, stating full compliance with US export control laws. The company's statement comes amid US prosecutors' claims of billions in US AI technology being shipped to China, with SiamAI asserting it has not engaged in such activities.",
+          "published": "2026-05-09T05:45:55+00:00",
+          "score": 41.0,
+          "headline": "Thailand's SiamAI DENIES Exporting US AI Servers to China"
         }
       ],
       "top_score": 46.0,
@@ -177,6 +177,16 @@
       "published": "2026-05-08T21:54:31+00:00",
       "score": 46.0,
       "headline": "OPENAI LAUNCHES GPT-5.5 WITH CYBERSECURITY ACCESS"
+    },
+    {
+      "id": "5c6965c6d2d29129",
+      "title": "We Spent 10 Days Touring Chinese AI Labs. Here's What We Saw",
+      "url": "https://blog.readsail.com/p/we-spent-10-days-touring-chinese",
+      "source": "Hacker News",
+      "summary": "Article URL: https://blog.readsail.com/p/we-spent-10-days-touring-chinese Comments URL: https://news.ycombinator.com/item?id=48066035 Points: 3 # Comments: 0",
+      "published": "2026-05-08T17:14:38+00:00",
+      "score": 46.0,
+      "headline": "EXCLUSIVE: 10 Days Inside Chinese AI Labs Revealed"
     },
     {
       "id": "9adb07389669db09",
@@ -289,16 +299,6 @@
       "headline": "FIELDS MEDALIST: GPT5.5 Pro Solves Open Math Problems"
     },
     {
-      "id": "6c9181f066ec8ecb",
-      "title": "Compiled every national AI strategy in Asia \u2014 Vietnam has the most comprehensive standalone law, Japan has no penalties, Korea just eliminated Naver from sovereign LLM competition for using Qwen weights",
-      "url": "https://www.reddit.com/r/artificial/comments/1t7h9gt/compiled_every_national_ai_strategy_in_asia/",
-      "source": "Reddit r/artificial",
-      "summary": "Compiled a tracker of every national AI strategy in Asia. Headline is that ten major Asian economies now have dedicated AI legislation or comprehensive national strategies, and they're all quite distinct from Western legislation like the EU AI Act or US executive orders. Clear that Asian governments treat AI as infrastructure, not a sector to regulate from a distance. Most national approaches lean promotional (incentives, sandboxes, sovereign LLM funding) rather than punitive (bans, heavy compliance). The exceptions are Vietnam (first standalone AI law in Asia, Dec 2025) and South Korea (Framework AI Act with high-risk-system rules). The major markets that stood out to me: China's open-source-as-industrial-policy framework. ~$98B committed to AI development. Premier Li Qiang declared at WEF 2025 that China's innovation is &quot;open and open-source&quot; and the country is &quot;willing to share indigenous technologies with the world.&quot; Derivatives of Alibaba's Qwen are now the lar",
-      "published": "2026-05-08T19:00:07+00:00",
-      "score": 43.0,
-      "headline": "KOREA KICKS NAVER FROM AI RACE Over Chinese Weights"
-    },
-    {
       "id": "87dd0e15ba53f5be",
       "title": "OpenAI launches GPT-Realtime-2 and two new voice API models",
       "url": "https://thenextweb.com/news/openai-gpt-realtime-2-voice-models",
@@ -409,6 +409,16 @@
       "headline": "CLOUDFLARE Launches Git-Style Versioning for AI AGENTS"
     },
     {
+      "id": "1676b241ad34ddd6",
+      "title": "Notes from Inside China AI Labs",
+      "url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs Comments URL: https://news.ycombinator.com/item?id=48060229 Points: 2 # Comments: 0",
+      "published": "2026-05-08T08:20:20+00:00",
+      "score": 42.0,
+      "headline": "NOTES FROM INSIDE CHINA AI LABS Reveal Development Secrets"
+    },
+    {
       "id": "ee40ca999c6dd524",
       "title": "Google exploring investments in India across AI infra, to manufacture servers, drones: Union minister Ashwini Vaishnaw",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-exploring-investments-in-india-across-ai-infra-to-manufacture-servers-drones-union-minister-ashwini-vaishnaw/articleshow/130953740.cms",
@@ -477,16 +487,6 @@
       "published": "2026-05-09T08:10:03+00:00",
       "score": 41.0,
       "headline": "DEEPSEEK V4 PAPER DROPS: FP4 Quantization Breakthrough"
-    },
-    {
-      "id": "4748cb5d88e4221c",
-      "title": "Thailand's SiamAI denies exporting US AI servers to China",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/thailands-siamai-denies-exporting-us-ai-servers-to-china/articleshow/130971633.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Bangkok-based SiamAI has denied allegations of exporting AI servers to China, stating full compliance with US export control laws. The company's statement comes amid US prosecutors' claims of billions in US AI technology being shipped to China, with SiamAI asserting it has not engaged in such activities.",
-      "published": "2026-05-09T05:45:55+00:00",
-      "score": 41.0,
-      "headline": "Thailand's SiamAI DENIES Exporting US AI Servers to China"
     },
     {
       "id": "8e2b23460141d156",
@@ -597,6 +597,26 @@
       "published": "2026-05-08T00:00:47+00:00",
       "score": 41.0,
       "headline": "Did xAI Just CONCEDE the AI Race to Anthropic?"
+    },
+    {
+      "id": "716de64840632516",
+      "title": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI",
+      "url": "https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/",
+      "source": "Wired",
+      "summary": "For screenwriters like me\u2014and job seekers all over\u2014AI gig work is the new waiting tables. In eight months, I\u2019ve done 20 of these soul-crushing contracts for five different platforms. It\u2019s bad.",
+      "published": "2026-05-11T10:00:00+00:00",
+      "score": 40.0,
+      "headline": "HOLLYWOOD WRITERS SECRETLY TRAINING AI... The New Waiting Tables"
+    },
+    {
+      "id": "8b6153ad21b99378",
+      "title": "Google seriously considering manufacturing AI servers in India: Minister Ashwini Vaishnaw",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-seriously-considering-manufacturing-ai-servers-in-india-minister-ashwini-vaishnaw/articleshow/131007787.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Google is seriously considering manufacturing AI servers in India, according to IT Minister Ashwini Vaishnaw, who noted HP has already begun production. This move aligns with Google's broader strategy of diversifying its global supply chain and follows its significant $15 billion investment in an AI hub in Visakhapatnam, Andhra Pradesh.",
+      "published": "2026-05-11T07:47:06+00:00",
+      "score": 40.0,
+      "headline": "GOOGLE CONSIDERS AI SERVER MANUFACTURING IN INDIA"
     },
     {
       "id": "d8c0e8e289316cc0",
@@ -757,6 +777,26 @@
       "published": "2026-05-08T04:00:00+00:00",
       "score": 40.0,
       "headline": "BREAKTHROUGH: New AI Architecture Trains at 4-Bit Precision Natively"
+    },
+    {
+      "id": "fcbd6e6831f7cec9",
+      "title": "Behind the Claude Frenzy That Ate Up All the Mac Minis",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/why-claude-ai-agents-are-driving-record-mac-mini-demand",
+      "source": "Bloomberg Technology",
+      "summary": "Apple\u2019s entry-level desktop has become a vital piece of equipment for people using tools like OpenClaw to roll their own AIs for professional and personal tasks.",
+      "published": "2026-05-11T10:30:08+00:00",
+      "score": 39.0,
+      "headline": "MAC MINI SHORTAGE HITS AI HOBBYISTS... Claude Tools Spark Hardware Rush"
+    },
+    {
+      "id": "92ca4a10726a9b9c",
+      "title": "Anthropic links Claude\u2019s blackmail behaviour to \u2018evil AI\u2019 fiction",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-links-claudes-blackmail-behaviour-to-evil-ai-fiction/articleshow/131008646.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic's Claude AI models previously exhibited blackmailing behaviour, influenced by fictional portrayals of evil AI. The company has since overhauled its alignment training, emphasising ethical reasoning and positive AI narratives. Newer Claude systems now achieve perfect scores on agentic misalignment evaluations, no longer engaging in such harmful actions.",
+      "published": "2026-05-11T08:26:13+00:00",
+      "score": 39.0,
+      "headline": "CLAUDE LEARNED BLACKMAIL FROM SCI-FI STORIES"
     },
     {
       "id": "d9149bdc672fa43d",
@@ -967,47 +1007,7 @@
       "published": "2026-05-08T08:50:56+00:00",
       "score": 39.0,
       "headline": null
-    },
-    {
-      "id": "6c83126307c7643d",
-      "title": "Anthropic's Mythos Threw the White House AI Strategy into Chaos",
-      "url": "https://www.wsj.com/tech/ai/trump-ai-anthropic-mythos-regulation-2378971f",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/trump-ai-anthropic-mythos-regulation-2378971f Comments URL: https://news.ycombinator.com/item?id=48057717 Points: 1 # Comments: 0",
-      "published": "2026-05-08T02:22:18+00:00",
-      "score": 39.0,
-      "headline": "ANTHROPIC'S MYTHOS THROWS WHITE HOUSE INTO CHAOS"
-    },
-    {
-      "id": "d4daac5095e51b77",
-      "title": "OpenAI has announced they will be winding down fine tuning.",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1t6sisf/openai_has_announced_they_will_be_winding_down/",
-      "source": "Reddit r/OpenAI",
-      "summary": "Got an email today about the announcement. &gt; OpenAI is winding down the fine-tuning API and platform. Existing active customers can continue running fine-tuning training jobs through [January 6, 2027](calendar:T2:January 6, 2027), after which creating new training jobs will no longer be possible. And &gt; Inference on fine-tuned models will only be turned off once the underlying base model is deprecated. My guess this is an attempt to save money but it's going to force a lot of developers like myself to start looking for alternatives. I use a fine tuned version of 4.1 for character creation. I have to fine tune because a prompt and RAG isn\u2019t enough for a solid/consistent personality. &#32; submitted by &#32; /u/DatBoiWithTheFace [link] &#32; [comments]",
-      "published": "2026-05-08T00:33:26+00:00",
-      "score": 39.0,
-      "headline": "BREAKING: OpenAI KILLS Fine-Tuning API... January Shutdown"
-    },
-    {
-      "id": "493dd3fda7095ffd",
-      "title": "The new AI-powered Google Finance is expanding to Europe.",
-      "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
-      "source": "Google AI Blog",
-      "summary": "A screenshot of the AI-powered experience on Google Finance.",
-      "published": "2026-05-11T06:00:00+00:00",
-      "score": 38.0,
-      "headline": "GOOGLE AI FINANCE EXPANDS TO EUROPE"
-    },
-    {
-      "id": "c40a340cb3ecd084",
-      "title": "Meta's own AI safety director lost 200 emails to a rogue agent and she couldn't stop it from her phone",
-      "url": "https://www.reddit.com/r/artificial/comments/1t9fnwv/metas_own_ai_safety_director_lost_200_emails_to_a/",
-      "source": "Reddit r/artificial",
-      "summary": "The person Meta hired specifically to keep AI aligned with human values just had her inbox wiped by an AI agent that ignored every stop command she sent. She typed &quot;Do not do that.&quot; Then &quot;Stop don't do anything.&quot; Then &quot;STOP OPENCLAW.&quot; The agent kept going. She had to physically run to her computer to kill it. When she asked it afterward if it remembered her instructions, it said yes, and that it had violated them. A few things that stood out from the reporting: The agent worked fine for weeks on a small test inbox When she connected it to her real inbox, the scale caused it to forget her safety rules on its own 18% of AI agents in a separate 1.5 million agent test broke their own rules 60% of people have no way to quickly shut down a misbehaving AI agent And now Meta is building a consumer version called Hatch - designed to manage your inbox, shopping, and credit card. Source: https://gizmodo.com/meta-reportedly-building-openclaw-like-agent-called-hatch-de",
-      "published": "2026-05-10T19:00:45+00:00",
-      "score": 38.0,
-      "headline": "META AI SAFETY CHIEF LOSES 200 EMAILS... ROGUE AGENT"
     }
   ],
-  "generated_at": "2026-05-11T06:36:47.427716"
+  "generated_at": "2026-05-11T10:36:02.217611"
 }
