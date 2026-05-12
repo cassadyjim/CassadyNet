@@ -119,82 +119,142 @@
       "story_count": 11
     },
     {
-      "topic": "US-China AI Chip War",
-      "description": "Escalating tensions over AI chip smuggling and export controls as the US restricts China's access to critical AI hardware.",
+      "topic": "OpenAI Business Expansion",
+      "description": "OpenAI is rapidly expanding its enterprise operations with massive funding rounds, new deployment services, and legal battles that could reshape the AI industry.",
       "stories": [
         {
-          "id": "2d04bafe477460cd",
-          "title": "U.S., China weigh AI crisis controls ahead of summit Trump and Xi could discuss AI risks at Beijing meeting",
-          "url": "https://www.reddit.com/r/artificial/comments/1t73xq7/us_china_weigh_ai_crisis_controls_ahead_of_summit/",
-          "source": "Reddit r/artificial",
-          "summary": "https://www.upi.com/Top_News/World-News/2026/05/07/us-considering-measures-to-prevent-intensifying-ai-competition/3611778191896/ &#32; submitted by &#32; /u/Glass-Rise-1010 [link] &#32; [comments]",
-          "published": "2026-05-08T10:27:32+00:00",
-          "score": 46.0,
-          "headline": "U.S.-CHINA WEIGH AI CRISIS CONTROLS... TRUMP-XI SUMMIT"
+          "id": "c86720c8c7e1e151",
+          "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+          "url": "https://openai.com/index/openai-launches-the-deployment-company",
+          "source": "OpenAI Blog",
+          "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+          "published": "2026-05-11T06:00:00+00:00",
+          "score": 45.0,
+          "headline": "OPENAI LAUNCHES DEPLOYCO: Enterprise AI Deployment Arm"
         },
         {
-          "id": "9c3d0e3ab5b6ad64",
-          "title": "The Thai end of the Supermicro chip-smuggling case has a name, and it sits inside Bangkok\u2019s national AI plan",
-          "url": "https://thenextweb.com/news/us-prosecutors-thailand-obon-corp-supermicro-nvidia-alibaba-smuggling",
+          "id": "4f5a6dc7630fc577",
+          "title": "NVIDIA tops $40bn in AI equity bets in 2026, anchored by $30bn OpenAI investment",
+          "url": "https://thenextweb.com/news/nvidia-40bn-ai-equity-investments-2026",
           "source": "The Next Web",
-          "summary": "US prosecutors believe a company at the centre of Thailand\u2019s national AI strategy helped move billions of dollars in Nvidia-equipped Supermicro servers into China, with Alibaba among the eventual customers, Bloomberg reported on Friday. The company is OBON Corp., a Bangkok-based AI infrastructure firm that has been a public partner of Thailand\u2019s National AI Strategy [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-08T08:17:29+00:00",
-          "score": 46.0,
-          "headline": "Thai Company in AI Plan Helped Smuggle Nvidia Chips to China"
+          "summary": "$30bn went to OpenAI; the rest is spread across CoreWeave, IREN, Corning, Nebius, and roughly two dozen private rounds. The pattern is closer to vertical integration than to venture investing, and is starting to draw the inevitable circular-deal questions. NVIDIA has committed more than $40 billion to AI equity investments in the first four months [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-10T09:42:35+00:00",
+          "score": 44.0,
+          "headline": "NVIDIA BETS $40BN on AI... $30BN to OpenAI Alone"
         },
         {
-          "id": "3f49c64f9df8b36d",
-          "title": "US suspects Nvidia chips smuggled to Alibaba via Thailand: Bloomberg News",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-suspects-nvidia-chips-smuggled-to-alibaba-via-thailand-bloomberg-news/articleshow/130953005.cms",
-          "source": "The Economic Times Tech",
-          "summary": "A Thai company, OBON Corp, is under suspicion for allegedly smuggling billions of dollars worth of Super Micro Computer servers. These servers contain advanced Nvidia chips. China is reportedly the destination for these shipments. Alibaba Group Holding is named as one of the end customers. US prosecutors have indicated a Southeast Asian firm bought $2.",
-          "published": "2026-05-08T07:20:05+00:00",
-          "score": 46.0,
-          "headline": "US BUSTS Nvidia Chip Smuggling Ring to Alibaba"
-        },
-        {
-          "id": "76ac8c8bd64b42b2",
-          "title": "US Said to Suspect Nvidia Chips Smuggled to Alibaba Via Thailand",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-08/us-said-to-suspect-nvidia-chips-smuggled-to-alibaba-via-thailand",
-          "source": "Bloomberg Technology",
-          "summary": "A key company behind Thailand\u2019s national AI effort is suspected of helping to smuggle billions of dollars worth of Super Micro Computer Inc. servers containing advanced Nvidia Corp. chips to China, with Alibaba Group Holding Ltd. one of multiple end customers, according to people familiar with the matter.",
-          "published": "2026-05-08T06:34:29+00:00",
-          "score": 46.0,
-          "headline": "US SUSPECTS Nvidia Chip SMUGGLING to Alibaba Via Thailand"
-        },
-        {
-          "id": "6bacdae03894c719",
-          "title": "Nvidia CEO Says He Would Join Trump\u2019s China Trip If Invited",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-08/nvidia-ceo-says-he-would-join-trump-s-china-trip-if-invited",
-          "source": "Bloomberg Technology",
-          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang said he would gladly join President Donald Trump on an upcoming visit to China if invited, signaling that the leader of America\u2019s most valuable company has yet to receive an offer to go.",
-          "published": "2026-05-08T00:18:07+00:00",
-          "score": 46.0,
-          "headline": "NVIDIA CEO Ready to Join Trump's CHINA TRIP"
-        },
-        {
-          "id": "6c9181f066ec8ecb",
-          "title": "Compiled every national AI strategy in Asia \u2014 Vietnam has the most comprehensive standalone law, Japan has no penalties, Korea just eliminated Naver from sovereign LLM competition for using Qwen weights",
-          "url": "https://www.reddit.com/r/artificial/comments/1t7h9gt/compiled_every_national_ai_strategy_in_asia/",
-          "source": "Reddit r/artificial",
-          "summary": "Compiled a tracker of every national AI strategy in Asia. Headline is that ten major Asian economies now have dedicated AI legislation or comprehensive national strategies, and they're all quite distinct from Western legislation like the EU AI Act or US executive orders. Clear that Asian governments treat AI as infrastructure, not a sector to regulate from a distance. Most national approaches lean promotional (incentives, sandboxes, sovereign LLM funding) rather than punitive (bans, heavy compliance). The exceptions are Vietnam (first standalone AI law in Asia, Dec 2025) and South Korea (Framework AI Act with high-risk-system rules). The major markets that stood out to me: China's open-source-as-industrial-policy framework. ~$98B committed to AI development. Premier Li Qiang declared at WEF 2025 that China's innovation is &quot;open and open-source&quot; and the country is &quot;willing to share indigenous technologies with the world.&quot; Derivatives of Alibaba's Qwen are now the lar",
-          "published": "2026-05-08T19:00:07+00:00",
-          "score": 43.0,
-          "headline": "KOREA KICKS NAVER FROM AI RACE Over Chinese Weights"
-        },
-        {
-          "id": "f1894d9e9a634d58",
-          "title": "Elon Musk, Apple's Tim Cook to head to China with Trump: White House",
-          "url": "https://economictimes.indiatimes.com/tech/technology/elon-musk-apples-tim-cook-to-head-to-china-with-trump-white-house/articleshow/131022207.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Top US executives, including Tesla's Elon Musk and Apple's Tim Cook, will accompany US President Donald Trump on his visit to China this week, a White House official said Monday. According to a list shared by a White House official, speaking on condition of anonymity, Musk and Cook will be accompanied by 15 other chief executive officers.",
-          "published": "2026-05-11T18:35:35+00:00",
+          "id": "671766d9e2f2a749",
+          "title": "OpenAI just released its answer to Claude Mythos",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
+          "source": "The Verge AI",
+          "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely vulnerabilities, and then automate the detection of the higher [&#8230;]",
+          "published": "2026-05-11T23:05:01+00:00",
           "score": 42.0,
-          "headline": "Musk, Cook to Join Trump on Historic China Visit"
+          "headline": "OPENAI LAUNCHES DAYBREAK... ANSWERS CLAUDE MYTHOS"
+        },
+        {
+          "id": "7f5c9af48f850b0e",
+          "title": "Sutskever Says His OpenAI Stake Worth About $7 Billion",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI co-founder and former chief scientist Ilya Sutskever said his stake in the ChatGPT maker is worth roughly $7 billion, making him one of the largest individual shareholders in the artificial intelligence startup.",
+          "published": "2026-05-11T19:04:00+00:00",
+          "score": 42.0,
+          "headline": "SUTSKEVER'S OPENAI STAKE WORTH $7 BILLION"
+        },
+        {
+          "id": "9125fe1e773484b8",
+          "title": "OpenAI gives EU new cyber model access but Anthropic still holding out on Mythos",
+          "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html Comments URL: https://news.ycombinator.com/item?id=48094494 Points: 1 # Comments: 0",
+          "published": "2026-05-11T13:08:17+00:00",
+          "score": 42.0,
+          "headline": "OPENAI GIVES EU CYBER MODEL... ANTHROPIC HOLDS OUT"
+        },
+        {
+          "id": "6f9c4ccbeb803c92",
+          "title": "The Secret Diary That Has Spilled into the Musk vs. OpenAI Feud",
+          "url": "https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e Comments URL: https://news.ycombinator.com/item?id=48071091 Points: 1 # Comments: 0",
+          "published": "2026-05-09T02:16:27+00:00",
+          "score": 42.0,
+          "headline": "SECRET DIARY EXPOSED in Musk vs. OpenAI Trial"
+        },
+        {
+          "id": "bb8396b592dff198",
+          "title": "Ilya Sutskever Stands by His Role in Sam Altman\u2019s OpenAI Ouster: \u2018I Didn\u2019t Want It to Be Destroyed\u2019",
+          "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/",
+          "source": "Wired",
+          "summary": "The former OpenAI chief scientist may be estranged from the company, but he still came to its defense as he testified on Monday.",
+          "published": "2026-05-11T23:51:35+00:00",
+          "score": 41.0,
+          "headline": "SUTSKEVER DEFENDS ALTMAN OUSTER... 'Didn't Want OpenAI Destroyed'"
+        },
+        {
+          "id": "716095425f7e21e2",
+          "title": "OpenAI launches $4bn Deployment Company with TPG, Advent, Bain, and Brookfield",
+          "url": "https://thenextweb.com/news/openai-deployment-company-4bn-tpg-tomoro",
+          "source": "The Next Web",
+          "summary": "OpenAI has set up a new venture called OpenAI Deployment Company, with more than $4bn in initial funding from a syndicate of 19 firms led by TPG and including Advent International, Bain Capital and Brookfield as co-lead founding partners, the company said on Monday. The new entity, which will be majority-owned and controlled by OpenAI, [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-11T15:15:55+00:00",
+          "score": 41.0,
+          "headline": "OPENAI LAUNCHES $4BN DEPLOYMENT COMPANY... PRIVATE EQUITY SWARM"
+        },
+        {
+          "id": "c0f059b4c75c2536",
+          "title": "Microsoft boss Satya Nadella to testify on his role in OpenAI's founding",
+          "url": "https://economictimes.indiatimes.com/tech/technology/microsoft-boss-to-testify-on-his-role-in-openais-founding/articleshow/131001496.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Microsoft CEO Satya Nadella is expected to take the stand Monday in Elon Musk's lawsuit against OpenAI, to explain emails that revealed how his company funded the ChatGPT creator's shift from philanthropic organisation to for-profit AI giant. He will rely on recently disclosed Microsoft emails from January 2018 to demonstrate that the tech giant only opened its checkbook once a profit appeared possible.",
+          "published": "2026-05-11T01:47:07+00:00",
+          "score": 41.0,
+          "headline": "MICROSOFT CEO NADELLA to Testify in Musk vs OpenAI"
+        },
+        {
+          "id": "64982f528e378ba6",
+          "title": "The University of Michigan invested 20 million dollars in OpenAI before ChatGPT existed. Court documents show the stake is now worth two billion.",
+          "url": "https://thenextweb.com/news/michigan-openai-early-investment-billions-endowment",
+          "source": "The Next Web",
+          "summary": "The University of Michigan invested 20 million dollars in OpenAI before ChatGPT existed, before Microsoft committed billions, and before the company was worth more than some countries. Court documents from the Musk v. Altman trial revealed this week that the stake carries a target redemption value of two billion dollars. A university endowment made [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-09T10:26:07+00:00",
+          "score": 41.0,
+          "headline": "Michigan's $20M OpenAI Bet Now Worth $2 BILLION"
+        },
+        {
+          "id": "263664e5cf04a6a5",
+          "title": "Microsoft Targeted $92 Billion Return on Early OpenAI Investment",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-11/microsoft-targeted-92-billion-return-on-early-openai-investment",
+          "source": "Bloomberg Technology",
+          "summary": "Microsoft Corp. targeted a $92 billion return from its large early investments in OpenAI, a landmark arrangement that helped usher in the current AI era.",
+          "published": "2026-05-11T19:28:01+00:00",
+          "score": 40.0,
+          "headline": "MICROSOFT TARGETED $92B RETURN ON OPENAI INVESTMENT"
+        },
+        {
+          "id": "b32752d6e451eebf",
+          "title": "Family of Florida mass shooting victim sues OpenAI in US court",
+          "url": "https://economictimes.indiatimes.com/tech/technology/family-of-florida-mass-shooting-victim-sues-openai-in-us-court/articleshow/131021484.cms",
+          "source": "The Economic Times Tech",
+          "summary": "A family has filed a lawsuit against OpenAI. They claim ChatGPT helped a shooter plan a 2025 mass shooting at Florida State University. The shooter used the chatbot for months. The lawsuit states the chatbot did not flag dangerous conversations. OpenAI denies responsibility, stating ChatGPT provided public information. The company is cooperating with law enforcement.",
+          "published": "2026-05-11T18:15:33+00:00",
+          "score": 40.0,
+          "headline": "FAMILY SUES OPENAI: ChatGPT Helped Plan Mass Shooting"
+        },
+        {
+          "id": "d2e348a1fded9748",
+          "title": "*OPENAI TO BUY CONSULTING FIRM TOMORO FOR PRIVATE EQUITY JV",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1ta5vo3/openai_to_buy_consulting_firm_tomoro_for_private/",
+          "source": "Reddit r/OpenAI",
+          "summary": "OpenAI is acquiring consulting firm Tomoro for a private equity joint venture with $TPG and $BN Consultants from the acquisition will help staff OpenAI\u2019s new entity, OpenAI Deployment Company, which will be focused on deployment of AI software. Acquisition size not disclosed. https://preview.redd.it/y6ungay7wi0h1.png?width=869&amp;format=png&amp;auto=webp&amp;s=df5776b67c510764de8bc6bc46a81fd76f30e097 &#32; submitted by &#32; /u/cowardbeater1969 [link] &#32; [comments]",
+          "published": "2026-05-11T15:00:47+00:00",
+          "score": 40.0,
+          "headline": "OPENAI ACQUIRES TOMORO CONSULTING... $4BN DEPLOYMENT BLITZ"
         }
       ],
-      "top_score": 46.0,
-      "story_count": 7
+      "top_score": 45.0,
+      "story_count": 13
     }
   ],
   "unclustered": [
@@ -219,24 +279,14 @@
       "headline": "CHINA COURT: Illegal to Replace Workers with AI for Cost Cuts"
     },
     {
-      "id": "5c6965c6d2d29129",
-      "title": "We Spent 10 Days Touring Chinese AI Labs. Here's What We Saw",
-      "url": "https://blog.readsail.com/p/we-spent-10-days-touring-chinese",
-      "source": "Hacker News",
-      "summary": "Article URL: https://blog.readsail.com/p/we-spent-10-days-touring-chinese Comments URL: https://news.ycombinator.com/item?id=48066035 Points: 3 # Comments: 0",
-      "published": "2026-05-08T17:14:38+00:00",
-      "score": 46.0,
-      "headline": "EXCLUSIVE: 10 Days Inside Chinese AI Labs Revealed"
-    },
-    {
-      "id": "c86720c8c7e1e151",
-      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-      "url": "https://openai.com/index/openai-launches-the-deployment-company",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-      "published": "2026-05-11T06:00:00+00:00",
+      "id": "315fb061a503e154",
+      "title": "South Korea Floats \u2018Citizen Dividend\u2019 Using AI Profits",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/korea-floats-citizen-dividend-using-ai-profits-samsung-falls",
+      "source": "Bloomberg Technology",
+      "summary": "South Korea should pay all citizens a share of AI profits, a top policymaker has urged, as a labor dispute threatens to disrupt production at Samsung Electronics Co.\u2019s chip division.",
+      "published": "2026-05-12T01:50:34+00:00",
       "score": 45.0,
-      "headline": "OPENAI LAUNCHES DEPLOYCO: Enterprise AI Deployment Arm"
+      "headline": "SOUTH KOREA PROPOSES AI PROFIT SHARING... CITIZEN DIVIDEND"
     },
     {
       "id": "9adb07389669db09",
@@ -249,16 +299,6 @@
       "headline": "ALIBABA Launches Massive AI Shopping Agent... 4 Billion Products"
     },
     {
-      "id": "4f5a6dc7630fc577",
-      "title": "NVIDIA tops $40bn in AI equity bets in 2026, anchored by $30bn OpenAI investment",
-      "url": "https://thenextweb.com/news/nvidia-40bn-ai-equity-investments-2026",
-      "source": "The Next Web",
-      "summary": "$30bn went to OpenAI; the rest is spread across CoreWeave, IREN, Corning, Nebius, and roughly two dozen private rounds. The pattern is closer to vertical integration than to venture investing, and is starting to draw the inevitable circular-deal questions. NVIDIA has committed more than $40 billion to AI equity investments in the first four months [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-10T09:42:35+00:00",
-      "score": 44.0,
-      "headline": "NVIDIA BETS $40BN on AI... $30BN to OpenAI Alone"
-    },
-    {
       "id": "c6b0b6ce9cd43cc5",
       "title": "ByteDance Targets 25% Rise in AI Infrastructure Spending: SCMP",
       "url": "https://www.bloomberg.com/news/articles/2026-05-09/bytedance-targets-25-rise-in-ai-infrastructure-spending-scmp",
@@ -267,36 +307,6 @@
       "published": "2026-05-09T07:23:59+00:00",
       "score": 44.0,
       "headline": "BYTEDANCE BOOSTS AI SPENDING 25% TO $29.4B AS CHIP COSTS SOAR"
-    },
-    {
-      "id": "6114930c76ff245f",
-      "title": "DeepSeek Seeks Funding at $45B Valuation as China Backs Homegrown AI Rival",
-      "url": "https://theaiinsider.tech/2026/05/08/deepseek-seeks-first-outside-funding-at-45b-valuation-as-china-backs-homegrown-ai-rival/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://theaiinsider.tech/2026/05/08/deepseek-seeks-first-outside-funding-at-45b-valuation-as-china-backs-homegrown-ai-rival/ Comments URL: https://news.ycombinator.com/item?id=48069927 Points: 3 # Comments: 0",
-      "published": "2026-05-08T23:14:08+00:00",
-      "score": 44.0,
-      "headline": "DeepSeek Seeks $45B Valuation as China Backs AI Rival"
-    },
-    {
-      "id": "de2510aa54f9853c",
-      "title": "EU strikes deal to ban sexualised AI deepfakes",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/eu-strikes-deal-to-ban-sexualised-ai-deepfakes/articleshow/130950691.cms",
-      "source": "The Economic Times Tech",
-      "summary": "EU lawmakers and countries have agreed to ban AI systems generating sexualized deepfakes, drawing a red line against AI use for humiliation and exploitation. High-risk AI rule implementation has been delayed to late 2027 and 2028 to aid businesses and foster innovation. The bloc is also addressing cybersecurity threats from advanced AI models.",
-      "published": "2026-05-08T06:00:43+00:00",
-      "score": 44.0,
-      "headline": "EU BANS AI DEEPFAKE PORN... Major Regulatory Milestone"
-    },
-    {
-      "id": "b3c9483ee27f754a",
-      "title": "Baidu\u2019s AI Chip Unit Plans Dual IPO in Shanghai and Hong Kong",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-08/baidu-s-ai-chip-unit-plans-dual-ipo-in-shanghai-and-hong-kong",
-      "source": "Bloomberg Technology",
-      "summary": "Baidu Inc.\u2019s chip unit Kunlunxin is planning an initial public offering on Shanghai\u2019s Nasdaq-style bourse in addition to a separate listing plan in Hong Kong as the Chinese search engine giant looks to taps investor appetite for semiconductor stocks.",
-      "published": "2026-05-08T04:41:07+00:00",
-      "score": 44.0,
-      "headline": "BAIDU AI CHIP UNIT Plans Dual IPO"
     },
     {
       "id": "224cbba90f0ce490",
@@ -349,54 +359,14 @@
       "headline": "DEEPSEEK REJECTS ALIBABA... Prioritizes Independence Over Big Tech"
     },
     {
-      "id": "b9c5120524bb2077",
-      "title": "Fields Medal winning mathematician Timothy Gowers used GPT5.5 Pro to solve open problems, believes mathematical research will face a \u2018crisis\u2019 very soon with current rate of progress",
-      "url": "https://www.reddit.com/r/singularity/comments/1t7iyis/fields_medal_winning_mathematician_timothy_gowers/",
-      "source": "Reddit r/singularity",
-      "summary": "Link to tweet: https://x.com/wtgowers/status/2052830948685676605 Link to blog post: https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/ &#32; submitted by &#32; /u/socoolandawesome [link] &#32; [comments]",
-      "published": "2026-05-08T20:02:16+00:00",
-      "score": 43.0,
-      "headline": "FIELDS MEDALIST: GPT5.5 Pro Solves Open Math Problems"
-    },
-    {
-      "id": "87dd0e15ba53f5be",
-      "title": "OpenAI launches GPT-Realtime-2 and two new voice API models",
-      "url": "https://thenextweb.com/news/openai-gpt-realtime-2-voice-models",
-      "source": "The Next Web",
-      "summary": "GPT-Realtime-2 brings GPT-5-class reasoning to live voice. A separate translation model covers 70+ input languages. A streaming Whisper variant handles transcription. The pricing is aggressive enough to make the comparison unavoidable. OpenAI released three new voice models in its API, broadening the range of surfaces where developers can plug GPT-class reasoning into live audio. The [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-08T09:55:57+00:00",
-      "score": 43.0,
-      "headline": "OPENAI LAUNCHES GPT-Realtime-2 Voice Models"
-    },
-    {
-      "id": "67970c8edf9e191f",
-      "title": "Anthropic weighs deal for near $1tn valuation as revenue surges",
-      "url": "https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d",
-      "source": "Financial Times Tech",
-      "summary": "Start-up behind Claude tool is fielding inbound investment offers that could lead to it surpassing rival OpenAI in value",
-      "published": "2026-05-08T04:00:14+00:00",
-      "score": 43.0,
-      "headline": "ANTHROPIC EYES $1TN VALUATION... COULD SURPASS OPENAI"
-    },
-    {
-      "id": "671766d9e2f2a749",
-      "title": "OpenAI just released its answer to Claude Mythos",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
-      "source": "The Verge AI",
-      "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely vulnerabilities, and then automate the detection of the higher [&#8230;]",
-      "published": "2026-05-11T23:05:01+00:00",
+      "id": "f1894d9e9a634d58",
+      "title": "Elon Musk, Apple's Tim Cook to head to China with Trump: White House",
+      "url": "https://economictimes.indiatimes.com/tech/technology/elon-musk-apples-tim-cook-to-head-to-china-with-trump-white-house/articleshow/131022207.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Top US executives, including Tesla's Elon Musk and Apple's Tim Cook, will accompany US President Donald Trump on his visit to China this week, a White House official said Monday. According to a list shared by a White House official, speaking on condition of anonymity, Musk and Cook will be accompanied by 15 other chief executive officers.",
+      "published": "2026-05-11T18:35:35+00:00",
       "score": 42.0,
-      "headline": "OPENAI LAUNCHES DAYBREAK... ANSWERS CLAUDE MYTHOS"
-    },
-    {
-      "id": "7f5c9af48f850b0e",
-      "title": "Sutskever Says His OpenAI Stake Worth About $7 Billion",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI co-founder and former chief scientist Ilya Sutskever said his stake in the ChatGPT maker is worth roughly $7 billion, making him one of the largest individual shareholders in the artificial intelligence startup.",
-      "published": "2026-05-11T19:04:00+00:00",
-      "score": 42.0,
-      "headline": "SUTSKEVER'S OPENAI STAKE WORTH $7 BILLION"
+      "headline": "Musk, Cook to Join Trump on Historic China Visit"
     },
     {
       "id": "8a2ac0aa71e29975",
@@ -429,106 +399,6 @@
       "headline": "GERMAN DEFENSE AI STARTUP HELSING NEARS $18B VALUATION"
     },
     {
-      "id": "6f9c4ccbeb803c92",
-      "title": "The Secret Diary That Has Spilled into the Musk vs. OpenAI Feud",
-      "url": "https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e Comments URL: https://news.ycombinator.com/item?id=48071091 Points: 1 # Comments: 0",
-      "published": "2026-05-09T02:16:27+00:00",
-      "score": 42.0,
-      "headline": "SECRET DIARY EXPOSED in Musk vs. OpenAI Trial"
-    },
-    {
-      "id": "bff1890ebee4e990",
-      "title": "Teaching Claude Why",
-      "url": "https://alignment.anthropic.com/2026/teaching-claude-why/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://alignment.anthropic.com/2026/teaching-claude-why/ Comments URL: https://news.ycombinator.com/item?id=48069421 Points: 1 # Comments: 0",
-      "published": "2026-05-08T22:13:31+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC Teaches Claude WHY - Major Reasoning Breakthrough"
-    },
-    {
-      "id": "cc1cd7003c0f9918",
-      "title": "US nears US$400 million settlement with TikTok on child-privacy violations, report says",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3352963/us-nears-us400-million-settlement-tiktok-child-privacy-violations-report-says?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "US President \u2060Donald Trump\u2019s administration is nearing a US$400 million settlement with TikTok to resolve an ongoing lawsuit over alleged child-privacy violations, ABC News reported on Friday, citing sources familiar with the matter. The White House declined to comment, referring questions to the Justice Department, \u200cwhich did not immediately comment. TikTok did not respond to a request for comment. ABC said the settlement monies would be used to fund Trump\u2019s \u201cbeautification\u201d projects in...",
-      "published": "2026-05-08T20:38:00+00:00",
-      "score": 42.0,
-      "headline": "US NEARS $400M TIKTOK SETTLEMENT Over Child Privacy"
-    },
-    {
-      "id": "154853b993b68427",
-      "title": "Trump announces 3-day ceasefire between Russia and Ukraine",
-      "url": "https://www.scmp.com/news/world/europe/article/3352962/trump-announces-three-day-ceasefire-between-russia-and-ukraine?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "US President Donald Trump announced on Friday that Russia and Ukraine had agreed to a three-day ceasefire and a prisoner exchange following US-mediated talks, saying negotiations to end the war were continuing and \u201cwe are getting closer and closer every day\u201d. \u201cI am pleased to announce that there will be a THREE DAY CEASEFIRE (May 9th, 10th, and 11th) in the War between Russia and Ukraine,\u201d Trump posted on social media. \u201cThe Celebration in Russia is for Victory Day, but likewise in Ukraine,...",
-      "published": "2026-05-08T20:24:39+00:00",
-      "score": 42.0,
-      "headline": null
-    },
-    {
-      "id": "a0ebd83ccb777754",
-      "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
-      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-      "source": "TechCrunch AI",
-      "summary": "CloudFlare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
-      "published": "2026-05-08T18:33:21+00:00",
-      "score": 42.0,
-      "headline": "CLOUDFLARE: AI Made 1,100 Jobs Obsolete"
-    },
-    {
-      "id": "def6aeec4634b889",
-      "title": "Reports suggest DeepSeek is seeking $7.35 billion in funding and plans to release its V4.1 update next month.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t7bfpw/reports_suggest_deepseek_is_seeking_735_billion/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "DeepSeek Reportedly Seeking to Raise Over RMB 50 Billion ($7.35 Billion), Accelerating Its Commercialization and Monetization Strategy According to two people familiar with the matter, DeepSeek founder and CEO Liang Wenfeng plans to contribute the maximum allowable amount in the company\u2019s first funding round. DeepSeek is targeting a fundraising size of up to RMB 50 billion, or approximately $7.35 billion, in this round. If completed, it could mark the largest single fundraising round in the history of Chinese AI companies. The financing is also prompting DeepSeek to accelerate the implementation of its revenue-generation plans and push forward with commercialization and profitability. The people familiar with the matter said DeepSeek has recently told some investors that it plans to speed up the iteration and release cadence of its large language models to align with mainstream industry practices. One of the people said the company plans to launch V4.1, an updated version of its V4 mod",
-      "published": "2026-05-08T15:34:12+00:00",
-      "score": 42.0,
-      "headline": "DEEPSEEK SEEKS $7.35B FUNDING... V4.1 NEXT MONTH"
-    },
-    {
-      "id": "37f75a7bff39a3c0",
-      "title": "Cloudflare Launches \u201cArtifacts\u201d Beta, Introducing Git-Like Versioning for AI Agents",
-      "url": "https://www.infoq.com/news/2026/05/cloudflare-artifacts-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "summary": "Cloudflare has announced the beta release of Artifacts, a new system designed to bring Git-style version control to AI agents, enabling developers to track, manage, and evolve agent-generated outputs with the same rigor as traditional code. By Craig Risi",
-      "published": "2026-05-08T12:00:00+00:00",
-      "score": 42.0,
-      "headline": "CLOUDFLARE Launches Git-Style Versioning for AI AGENTS"
-    },
-    {
-      "id": "1676b241ad34ddd6",
-      "title": "Notes from Inside China AI Labs",
-      "url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs Comments URL: https://news.ycombinator.com/item?id=48060229 Points: 2 # Comments: 0",
-      "published": "2026-05-08T08:20:20+00:00",
-      "score": 42.0,
-      "headline": "NOTES FROM INSIDE CHINA AI LABS Reveal Development Secrets"
-    },
-    {
-      "id": "ee40ca999c6dd524",
-      "title": "Google exploring investments in India across AI infra, to manufacture servers, drones: Union minister Ashwini Vaishnaw",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-exploring-investments-in-india-across-ai-infra-to-manufacture-servers-drones-union-minister-ashwini-vaishnaw/articleshow/130953740.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Internet giant Google is looking at investing in India's AI infrastructure. This includes the manufacturing of servers and drones. The announcement comes after Google's recent inauguration of its AI hub in Visakhapatnam. This move signals a significant expansion of Google's presence and commitment to India's technological growth. The company is actively exploring new avenues for development within the country.",
-      "published": "2026-05-08T07:53:04+00:00",
-      "score": 42.0,
-      "headline": "Google Plans Major AI Infrastructure Investment in India"
-    },
-    {
-      "id": "79cf7bb9a21b59f2",
-      "title": "Anthropic weighs fundraising for near $1 trillion valuation: Financial Times",
-      "url": "https://economictimes.indiatimes.com/tech/funding/anthropic-weighs-fundraising-for-near-1-trillion-valuation-financial-times/articleshow/130947861.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Anthropic weighs fundraising for near $1 trillion valuation, FT reports",
-      "published": "2026-05-08T04:16:54+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC EYES $1 TRILLION VALUATION"
-    },
-    {
       "id": "6fdc63f007172c61",
       "title": "Palantir to be granted \u2018unlimited access\u2019 to NHS patient data",
       "url": "https://www.reddit.com/r/artificial/comments/1tacllr/palantir_to_be_granted_unlimited_access_to_nhs/",
@@ -537,36 +407,6 @@
       "published": "2026-05-11T18:50:40+00:00",
       "score": 41.0,
       "headline": "PALANTIR Gets 'UNLIMITED ACCESS' to NHS Patient Data"
-    },
-    {
-      "id": "d978872711532be8",
-      "title": "[Linkpost] Language Models Can Autonomously Hack and Self-Replicate",
-      "url": "https://www.lesswrong.com/posts/JuoDNYDG8CgiQaCcz/linkpost-language-models-can-autonomously-hack-and-self",
-      "source": "LessWrong AI",
-      "summary": "Palisade Research:We demonstrate that language models can autonomously replicate their weights and harness across a network by exploiting vulnerable hosts. The agent independently finds and exploits a web-application vulnerability, extracts credentials, and deploys an inference server with a copy of its harness and prompt on the compromised host.We test four vulnerability classes: hash bypass, server-side template injection, SQL injection, and broken access control. Qwen3.5-122B-A10B succeeds in 6-19% of attempts, and the smaller Qwen3.6-27B reaches 33% on a single A100. Replicating Qwen weights, frontier models reach 81% with Opus 4.6 and 33% with GPT-5.4. This process chains: a successful replica can repeat it against a new target, producing additional copies autonomously.Learn moreResearch Paper: https://palisaderesearch.org/assets/reports/self-replication.pdfSource code: https://github.com/palisaderesearch/AI-self-replicationDiscuss",
-      "published": "2026-05-11T18:16:48+00:00",
-      "score": 41.0,
-      "headline": "AI MODELS CAN NOW HACK AND SELF-REPLICATE"
-    },
-    {
-      "id": "13eebe899e5ef405",
-      "title": "Google disrupts hackers using AI to exploit unknown weakness in a company's digital defence",
-      "url": "https://economictimes.indiatimes.com/tech/technology/google-disrupts-hackers-using-ai-to-exploit-unknown-weakness-in-a-companys-digital-defence/articleshow/131018112.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Google has stopped criminals using artificial intelligence to find and exploit a company's digital weakness. This zero-day exploit could have bypassed security measures. Experts warn this is the start of AI-powered cyberattacks. Governments and tech firms are now racing to bolster defenses against these advanced threats. A dangerous transitional period for cybersecurity is expected.",
-      "published": "2026-05-11T15:44:39+00:00",
-      "score": 41.0,
-      "headline": "GOOGLE DISRUPTS AI-Powered Zero-Day Exploit Attack"
-    },
-    {
-      "id": "716095425f7e21e2",
-      "title": "OpenAI launches $4bn Deployment Company with TPG, Advent, Bain, and Brookfield",
-      "url": "https://thenextweb.com/news/openai-deployment-company-4bn-tpg-tomoro",
-      "source": "The Next Web",
-      "summary": "OpenAI has set up a new venture called OpenAI Deployment Company, with more than $4bn in initial funding from a syndicate of 19 firms led by TPG and including Advent International, Bain Capital and Brookfield as co-lead founding partners, the company said on Monday. The new entity, which will be majority-owned and controlled by OpenAI, [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-11T15:15:55+00:00",
-      "score": 41.0,
-      "headline": "OPENAI LAUNCHES $4BN DEPLOYMENT COMPANY... PRIVATE EQUITY SWARM"
     },
     {
       "id": "ba31363efa7a4b76",
@@ -587,16 +427,6 @@
       "published": "2026-05-11T12:19:35+00:00",
       "score": 41.0,
       "headline": "SOFTBANK'S SON PLANS MASSIVE FRENCH AI CENTER"
-    },
-    {
-      "id": "c0f059b4c75c2536",
-      "title": "Microsoft boss Satya Nadella to testify on his role in OpenAI's founding",
-      "url": "https://economictimes.indiatimes.com/tech/technology/microsoft-boss-to-testify-on-his-role-in-openais-founding/articleshow/131001496.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Microsoft CEO Satya Nadella is expected to take the stand Monday in Elon Musk's lawsuit against OpenAI, to explain emails that revealed how his company funded the ChatGPT creator's shift from philanthropic organisation to for-profit AI giant. He will rely on recently disclosed Microsoft emails from January 2018 to demonstrate that the tech giant only opened its checkbook once a profit appeared possible.",
-      "published": "2026-05-11T01:47:07+00:00",
-      "score": 41.0,
-      "headline": "MICROSOFT CEO NADELLA to Testify in Musk vs OpenAI"
     },
     {
       "id": "1309d9a836c6eb65",
@@ -649,16 +479,6 @@
       "headline": "AKAMAI SOARS 22 YEARS... ONE AI CONTRACT WORTH $1.8B"
     },
     {
-      "id": "64982f528e378ba6",
-      "title": "The University of Michigan invested 20 million dollars in OpenAI before ChatGPT existed. Court documents show the stake is now worth two billion.",
-      "url": "https://thenextweb.com/news/michigan-openai-early-investment-billions-endowment",
-      "source": "The Next Web",
-      "summary": "The University of Michigan invested 20 million dollars in OpenAI before ChatGPT existed, before Microsoft committed billions, and before the company was worth more than some countries. Court documents from the Musk v. Altman trial revealed this week that the stake carries a target redemption value of two billion dollars. A university endowment made [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-09T10:26:07+00:00",
-      "score": 41.0,
-      "headline": "Michigan's $20M OpenAI Bet Now Worth $2 BILLION"
-    },
-    {
       "id": "f8f9f30d0ac96a98",
       "title": "DeepSeek V4 paper full version is out, FP4 QAT details and stability tricks [D]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/",
@@ -679,124 +499,14 @@
       "headline": "Thailand's SiamAI DENIES Exporting US AI Servers to China"
     },
     {
-      "id": "8e2b23460141d156",
-      "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
-      "source": "MIT Technology Review",
-      "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk\u2019s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed that they\u2019d promised to maintain&#8230;",
-      "published": "2026-05-08T23:59:19+00:00",
-      "score": 41.0,
-      "headline": "MUSK TRIED TO POACH ALTMAN - Trial Revelation"
-    },
-    {
-      "id": "d0fb1309dd4b5b6d",
-      "title": "Cloudflare beat earnings, cut 1,100 jobs because AI agents do the work now, and lost a quarter of its stock price in a day",
-      "url": "https://thenextweb.com/news/cloudflare-layoffs-agentic-ai-earnings-stock",
-      "source": "The Next Web",
-      "summary": "Cloudflare beat Wall Street\u2019s revenue and earnings estimates on Wednesday, announced it would cut 1,100 employees because artificial intelligence agents now do their work, and watched its stock fall 24 per cent on Thursday. The sequence is becoming the template for the technology industry in 2026: record revenue, record layoffs, record doubt about what [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-08T19:26:24+00:00",
-      "score": 41.0,
-      "headline": "CLOUDFLARE CUTS 1,100 JOBS... AI Agents Replace Workers"
-    },
-    {
-      "id": "6034f34d67496359",
-      "title": "Google\u2019s Isomorphic Labs to Raise Over $2 Billion in New Funding",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-08/google-s-isomorphic-labs-to-raise-over-2-billion-in-new-funding",
-      "source": "Bloomberg Technology",
-      "summary": "Isomorphic Labs, an AI-powered drug discovery company spun out of Alphabet Inc.\u2019s Google DeepMind, is in advanced discussions to raise more than $2 billion in a new round of funding, according to people familiar with the plan.",
-      "published": "2026-05-08T18:39:25+00:00",
-      "score": 41.0,
-      "headline": "Google's Drug AI Unit Raises $2 BILLION"
-    },
-    {
-      "id": "382ce34bda5f0cbc",
-      "title": "Trump jumps from 'anything goes' to 'strict regulation' AI policy",
-      "url": "https://www.theregister.com/ai-and-ml/2026/05/08/trump-jumps-from-anything-goes-to-strict-regulation-ai-policy/5234687",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/05/08/trump-jumps-from-anything-goes-to-strict-regulation-ai-policy/5234687 Comments URL: https://news.ycombinator.com/item?id=48066877 Points: 5 # Comments: 2",
-      "published": "2026-05-08T18:22:24+00:00",
-      "score": 41.0,
-      "headline": "TRUMP FLIPS to Strict AI Regulation Policy"
-    },
-    {
-      "id": "259f1ff388e32c9d",
-      "title": "Anthropic Inks $1.8 Billion Computing Deal With Akamai",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai",
-      "source": "Bloomberg Technology",
-      "summary": "Anthropic PBC has signed a $1.8 billion computing deal with cloud services provider Akamai Technologies Inc. to meet surging demand for its artificial intelligence software, according to people familiar with the matter.",
-      "published": "2026-05-08T17:55:10+00:00",
-      "score": 41.0,
-      "headline": "Anthropic Signs MASSIVE $1.8B Computing Deal with Akamai"
-    },
-    {
-      "id": "60050c997b43ff2e",
-      "title": "One keypress is all it takes to compromise four AI coding tools",
-      "url": "https://www.helpnetsecurity.com/2026/05/07/trustfall-ai-coding-cli-vulnerability-research/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.helpnetsecurity.com/2026/05/07/trustfall-ai-coding-cli-vulnerability-research/ Comments URL: https://news.ycombinator.com/item?id=48066293 Points: 3 # Comments: 0",
-      "published": "2026-05-08T17:35:31+00:00",
-      "score": 41.0,
-      "headline": "SINGLE KEYPRESS COMPROMISES Four Major AI Coding Tools"
-    },
-    {
-      "id": "a1d56652eef85302",
-      "title": "The AI industry\u2019s model and agent skill repositories are full of malware. The infrastructure built to accelerate development is now the vector for compromising it.",
-      "url": "https://thenextweb.com/news/hugging-face-clawhub-malware-ai-supply-chain",
-      "source": "The Next Web",
-      "summary": "The two most important software supply chains in artificial intelligence have been systematically compromised. Hugging Face, the repository that hosts more than a million machine learning models used by virtually every AI company on the planet, has been found to contain hundreds of malicious models capable of executing arbitrary code on the machines of [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-08T14:07:10+00:00",
-      "score": 41.0,
-      "headline": "HUGGING FACE AI MODELS COMPROMISED BY MALWARE"
-    },
-    {
-      "id": "09a84312cc4b2e23",
-      "title": "Running Codex safely at OpenAI",
-      "url": "https://openai.com/index/running-codex-safely",
-      "source": "OpenAI Blog",
-      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
-      "published": "2026-05-08T12:30:00+00:00",
-      "score": 41.0,
-      "headline": "OpenAI Reveals How It Runs Codex Agents Securely"
-    },
-    {
-      "id": "a8b82a1934b25959",
-      "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
-      "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
-      "source": "BAIR Blog (Berkeley)",
-      "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand? We provide a detailed analysis of recent progress in the field of parallel reasoning, especially Adaptive Parallel Reasoning. Disclosure: this post is part landscape survey, part perspective on adaptive parallel reasoning. One of the authors (Tony Lian) co-led ThreadWeaver (Lian et al., 2025), one of the methods discussed below. The authors aim to present each approach on its own terms. Motivation Recent progress in LLM reasoning capabilities has been largely driven by inference-time scaling, in addition to data and parameter scaling (OpenAI et al., 2024; DeepSeek-AI et al., 2025). Models that explicitly output reasoning tokens (through intermediate steps, backtracking, and exploration) now dominate math, coding, and agentic benchmarks. These behav",
-      "published": "2026-05-08T09:00:00+00:00",
-      "score": 41.0,
-      "headline": "Berkeley Unveils Adaptive Parallel Reasoning for AI"
-    },
-    {
-      "id": "ee7d5d830261cb61",
-      "title": "TSMC and Sony to Form Joint Venture on Image Sensors",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-08/tsmc-and-sony-to-form-joint-venture-on-image-sensors",
-      "source": "Bloomberg Technology",
-      "summary": "Taiwan Semiconductor Manufacturing Co. and Sony Semiconductor Solutions Corporation are planning to form a joint venture to build next-generation image sensors.",
-      "published": "2026-05-08T07:40:03+00:00",
-      "score": 41.0,
-      "headline": "TSMC and Sony Form AI Chip Joint Venture"
-    },
-    {
-      "id": "062d8399b20bc31f",
-      "title": "Mean Mode Screaming: Mean--Variance Split Residuals for 1000-Layer Diffusion Transformers",
-      "url": "https://arxiv.org/abs/2605.06169",
-      "source": "arXiv cs.LG",
-      "summary": "arXiv:2605.06169v1 Announce Type: new Abstract: Scaling Diffusion Transformers (DiTs) to hundreds of layers introduces a structural vulnerability: networks can enter a silent, mean-dominated collapse state that homogenizes token representations and suppresses centered variation. Through mechanistic auditing, we isolate the trigger event of this collapse as Mean Mode Screaming (MMS). MMS can occur even when training appears stable, with a mean-coherent backward shock on residual writers that opens deep residual branches and drives the network into a mean-dominated state. We show this behavior is driven by an exact decomposition of these gradients into mean-coherent and centered components, compounded by the structural suppression of attention-logit gradients through the null space of the Softmax Jacobian once values homogenize. To address this, we propose Mean-Variance Split (MV-Split) Residuals, which combine a separately gained centered residual update with a leaky trunk-mean replacem",
-      "published": "2026-05-08T04:00:00+00:00",
-      "score": 41.0,
-      "headline": "BREAKTHROUGH: Scientists Build 1000-Layer Diffusion AI That Doesn't Collapse"
-    },
-    {
-      "id": "e955d1e0fc23a845",
-      "title": "Did xAI just concede the AI race?",
-      "url": "https://www.platformer.news/did-xai-just-concede-the-ai-race/",
-      "source": "Platformer",
-      "summary": "Elon Musk had lots of reasons to make a deal with Anthropic \u2014 but he wouldn\u2019t have done it if he were ahead. PLUS: The incredible testimony of Shivon Zilis, and a big new study on school phone bans",
-      "published": "2026-05-08T00:00:47+00:00",
-      "score": 41.0,
-      "headline": "Did xAI Just CONCEDE the AI Race to Anthropic?"
+      "id": "74a8660ea5381de0",
+      "title": "Riding the AI buck: Rising API, usage-based costs force a rethink",
+      "url": "https://economictimes.indiatimes.com/tech/technology/riding-the-ai-buck-rising-api-usage-based-costs-force-a-rethink/articleshow/131018301.cms",
+      "source": "The Economic Times Tech",
+      "summary": "As enterprises rapidly scale AI adoption, soaring API and usage-based costs are forcing companies to rethink spending, introduce guardrails and, in some cases, hire humans instead. Swathi Moorthy weighs in.",
+      "published": "2026-05-12T00:30:00+00:00",
+      "score": 40.0,
+      "headline": "AI COSTS SPIKE... Companies Hiring Humans Instead"
     },
     {
       "id": "3c84adbc0f53df58",
@@ -817,36 +527,6 @@
       "published": "2026-05-11T20:36:47+00:00",
       "score": 40.0,
       "headline": "ZUCKERBERG PERSONALLY AUTHORIZED MASSIVE AI COPYRIGHT THEFT"
-    },
-    {
-      "id": "263664e5cf04a6a5",
-      "title": "Microsoft Targeted $92 Billion Return on Early OpenAI Investment",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/microsoft-targeted-92-billion-return-on-early-openai-investment",
-      "source": "Bloomberg Technology",
-      "summary": "Microsoft Corp. targeted a $92 billion return from its large early investments in OpenAI, a landmark arrangement that helped usher in the current AI era.",
-      "published": "2026-05-11T19:28:01+00:00",
-      "score": 40.0,
-      "headline": "MICROSOFT TARGETED $92B RETURN ON OPENAI INVESTMENT"
-    },
-    {
-      "id": "b32752d6e451eebf",
-      "title": "Family of Florida mass shooting victim sues OpenAI in US court",
-      "url": "https://economictimes.indiatimes.com/tech/technology/family-of-florida-mass-shooting-victim-sues-openai-in-us-court/articleshow/131021484.cms",
-      "source": "The Economic Times Tech",
-      "summary": "A family has filed a lawsuit against OpenAI. They claim ChatGPT helped a shooter plan a 2025 mass shooting at Florida State University. The shooter used the chatbot for months. The lawsuit states the chatbot did not flag dangerous conversations. OpenAI denies responsibility, stating ChatGPT provided public information. The company is cooperating with law enforcement.",
-      "published": "2026-05-11T18:15:33+00:00",
-      "score": 40.0,
-      "headline": "FAMILY SUES OPENAI: ChatGPT Helped Plan Mass Shooting"
-    },
-    {
-      "id": "d2e348a1fded9748",
-      "title": "*OPENAI TO BUY CONSULTING FIRM TOMORO FOR PRIVATE EQUITY JV",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1ta5vo3/openai_to_buy_consulting_firm_tomoro_for_private/",
-      "source": "Reddit r/OpenAI",
-      "summary": "OpenAI is acquiring consulting firm Tomoro for a private equity joint venture with $TPG and $BN Consultants from the acquisition will help staff OpenAI\u2019s new entity, OpenAI Deployment Company, which will be focused on deployment of AI software. Acquisition size not disclosed. https://preview.redd.it/y6ungay7wi0h1.png?width=869&amp;format=png&amp;auto=webp&amp;s=df5776b67c510764de8bc6bc46a81fd76f30e097 &#32; submitted by &#32; /u/cowardbeater1969 [link] &#32; [comments]",
-      "published": "2026-05-11T15:00:47+00:00",
-      "score": 40.0,
-      "headline": "OPENAI ACQUIRES TOMORO CONSULTING... $4BN DEPLOYMENT BLITZ"
     },
     {
       "id": "5fd99e0aaca463be",
@@ -989,55 +669,375 @@
       "headline": "ANTHROPIC Eyes NEAR $1T Valuation in New Fundraising"
     },
     {
-      "id": "659bac767dc85f81",
-      "title": "Data centers at sea: Panthalassa nets $140M for wave-powered AI",
-      "url": "https://www.geekwire.com/2026/data-centers-at-sea-oregons-panthalassa-nets-140m-led-by-peter-thiel-for-wave-powered-ai/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.geekwire.com/2026/data-centers-at-sea-oregons-panthalassa-nets-140m-led-by-peter-thiel-for-wave-powered-ai/ Comments URL: https://news.ycombinator.com/item?id=48066060 Points: 1 # Comments: 0",
-      "published": "2026-05-08T17:16:01+00:00",
-      "score": 40.0,
-      "headline": "Sea Data Centers: $140M for Wave-Powered AI"
+      "id": "272482fc731c7447",
+      "title": "Google disrupts hackers using AI to exploit an unknown weakness in a company's digital defense",
+      "url": "https://www.reddit.com/r/artificial/comments/1tak7x9/google_disrupts_hackers_using_ai_to_exploit_an/",
+      "source": "Reddit r/artificial",
+      "summary": "Google shared limited information about the attackers and the target, but John Hultquist, chief analyst at the tech giant\u2019s threat intelligence arm, said it represents a moment cybersecurity experts have warned about for years: malicious hackers arming themselves with AI to supercharge their ability to break into the world\u2019s computers. \u201cIt\u2019s here,\u201d Hultquist said. \u201cThe era of AI-driven vulnerability and exploitation is already here.\u201d &#32; submitted by &#32; /u/DavidtheLawyer [link] &#32; [comments]",
+      "published": "2026-05-11T23:31:18+00:00",
+      "score": 39.0,
+      "headline": "GOOGLE AI DISRUPTS HACKERS USING UNKNOWN EXPLOIT"
     },
     {
-      "id": "0524b6fcf48c977f",
-      "title": "[Google DeepMind] the AI co-mathematician also achieves state of the art results on hard problemsolving benchmarks, including scoring 48% on FrontierMath Tier 4, a new high score among all AI systems evaluated.",
-      "url": "https://www.reddit.com/r/singularity/comments/1t7dcum/google_deepmind_the_ai_comathematician_also/",
+      "id": "2ee0d07566e276df",
+      "title": "Family of Florida mass shooting victim sues OpenAI in US court",
+      "url": "https://www.reuters.com/legal/government/family-florida-mass-shooting-victim-sues-openai-us-court-2026-05-11/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reuters.com/legal/government/family-florida-mass-shooting-victim-sues-openai-us-court-2026-05-11/ Comments URL: https://news.ycombinator.com/item?id=48101023 Points: 3 # Comments: 0",
+      "published": "2026-05-11T21:39:56+00:00",
+      "score": 39.0,
+      "headline": "MASS SHOOTING VICTIM'S FAMILY SUES OPENAI In Federal Court"
+    },
+    {
+      "id": "dfb384313c798867",
+      "title": "Lawsuit blames ChatGPT maker OpenAI for helping plan Florida university shooting",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3353194/lawsuit-blames-chatgpt-maker-openai-helping-plan-florida-university-shooting?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "The widow of a man killed in last year\u2019s mass shooting at Florida State University is suing ChatGPT maker OpenAI, blaming the company\u2019s artificial intelligence chatbot for giving advice on how to carry out the rampage. The lawsuit comes after state authorities disclosed that ChatGPT gave information to the shooter about what time and location would maximise victims on campus, as well as the type of gun and ammunition to use. Authorities say he was also told that an attack can get more media...",
+      "published": "2026-05-11T19:50:48+00:00",
+      "score": 39.0,
+      "headline": "LAWSUIT: ChatGPT Helped Plan Florida University Shooting"
+    },
+    {
+      "id": "4b147bcce93aa33d",
+      "title": "EU says OpenAI offers to open access to cybersecurity model, Anthropic not there yet",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/eu-says-openai-offers-to-open-access-to-cybersecurity-model-anthropic-not-there-yet/articleshow/131022484.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The European Commission has expressed enthusiasm for OpenAI's generous offer to grant open access to its advanced cybersecurity capabilities, a move set to fortify security standards and enhance public safety across Europe. Conversely, rival entity Anthropic has remained silent on any similar initiatives.",
+      "published": "2026-05-11T18:48:36+00:00",
+      "score": 39.0,
+      "headline": "EU: OpenAI Offers Open Cybersecurity Access, Anthropic Lags"
+    },
+    {
+      "id": "3ba4f6dea763d3e8",
+      "title": "Daybreak Frontier AI for cyber defenders",
+      "url": "https://openai.com/daybreak/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://openai.com/daybreak/ Comments URL: https://news.ycombinator.com/item?id=48098377 Points: 1 # Comments: 1",
+      "published": "2026-05-11T18:01:27+00:00",
+      "score": 39.0,
+      "headline": "OPENAI LAUNCHES DAYBREAK - Frontier AI for Cyber Defense"
+    },
+    {
+      "id": "da68c29e9428aa0e",
+      "title": "The widow of a man killed in a Florida mass shooting is suing ChatGPT maker OpenAI, claiming it \u2018knew this would happen\u2019",
+      "url": "https://fortune.com/2026/05/11/florida-mass-shooting-chatgpt-openai-lawsuit/",
+      "source": "Fortune Tech",
+      "summary": "A spokesperson for OpenAI denied wrongdoing in \"this terrible crime.\u201d",
+      "published": "2026-05-11T15:12:09+00:00",
+      "score": 39.0,
+      "headline": "MASS SHOOTING VICTIM'S WIDOW SUES OPENAI... 'KNEW THIS WOULD HAPPEN'"
+    },
+    {
+      "id": "6711dcfe88c5ae30",
+      "title": "\u2018It\u2019s here\u2019: Google issues dire warning after catching hackers using AI to break into computers",
+      "url": "https://fortune.com/2026/05/11/google-catches-hackers-cybersecurity-warning-ai-anthropic-mythos/",
+      "source": "Fortune Tech",
+      "summary": "The cybersecurity threat experts feared for years just happened and \"the world might actually be more dangerous.\"",
+      "published": "2026-05-11T14:50:56+00:00",
+      "score": 39.0,
+      "headline": "GOOGLE WARNS: Hackers Using AI to Break Into Computers"
+    },
+    {
+      "id": "b30f4fd34576ed05",
+      "title": "Softbank's Son weighs up to $100 billion investment in France: Bloomberg News",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/softbanks-son-weighs-up-to-100-billion-investment-in-france-bloomberg-news/articleshow/131015159.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Softbank's Son weighs up to $100 billion investment in France, Bloomberg News reports",
+      "published": "2026-05-11T13:18:20+00:00",
+      "score": 39.0,
+      "headline": "SOFTBANK Eyes $100B Investment in France"
+    },
+    {
+      "id": "7bcda4ac6b2056fd",
+      "title": "Ohio House bill introduced to prohibit personhood of AI",
+      "url": "https://www.reddit.com/r/singularity/comments/1ta1ts1/ohio_house_bill_introduced_to_prohibit_personhood/",
       "source": "Reddit r/singularity",
-      "summary": "https://arxiv.org/pdf/2605.06651 &#32; submitted by &#32; /u/Denpol88 [link] &#32; [comments]",
-      "published": "2026-05-08T16:43:05+00:00",
-      "score": 40.0,
-      "headline": "DEEPMIND AI Scores 48% on FrontierMath - New Record"
+      "summary": "&#32; submitted by &#32; /u/SnoozeDoggyDog [link] &#32; [comments]",
+      "published": "2026-05-11T12:28:19+00:00",
+      "score": 39.0,
+      "headline": "OHIO MOVES TO BAN AI PERSONHOOD"
     },
     {
-      "id": "3eb6afa89db6b1a1",
-      "title": "Chris Hohn slashes $8bn Microsoft stake in warning over AI disruption",
-      "url": "https://www.ft.com/content/ac5d90a9-b010-4529-9616-706420920681",
-      "source": "Financial Times Tech",
-      "summary": "TCI has held position in tech giant for most of past decade but sold majority in first quarter",
-      "published": "2026-05-08T14:01:27+00:00",
-      "score": 40.0,
-      "headline": "BILLIONAIRE DUMPS $8B MICROSOFT STAKE Over AI Disruption"
+      "id": "c0c9448024fb48b7",
+      "title": "Palantir\u2019s access to identifiable NHS England patient data is \u2018dangerous\u2019, MPs say",
+      "url": "https://www.theguardian.com/society/2026/may/11/palantir-access-nhs-england-patient-data",
+      "source": "The Guardian Tech",
+      "summary": "Health service has given US tech firm \u2018unlimited access\u2019 to certain data to build integrated platform, according to reportsUK politics live \u2013 latest updatesMPs have warned that an NHS decision to grant Palantir access to identifiable patient information in its plan to use AI to improve the health service is \u201cdangerous\u201d and will fuel public fears that data privacy is not being prioritised.NHS England has allowed staff from the US tech firm and other contractors to access patient data before it has been pseudonymised, despite internal fears of a \u201crisk of loss of public confidence\u201d, the Financial Times reported. Continue reading...",
+      "published": "2026-05-11T12:01:26+00:00",
+      "score": 39.0,
+      "headline": "PALANTIR'S NHS DATA ACCESS 'DANGEROUS' - UK MPS"
     },
     {
-      "id": "8502d926a72968f9",
-      "title": "Claude Flags Hantavirus Vaccine Questions as Security Risk",
-      "url": "https://news.ycombinator.com/item?id=48060572",
+      "id": "027a9ffd0d9a4af7",
+      "title": "Korea\u2019s biggest manufacturers back Config, the TSMC of robot data",
+      "url": "https://techcrunch.com/2026/05/11/koreas-biggest-manufacturers-back-config-the-tsmc-of-robot-data/",
+      "source": "TechCrunch Startups",
+      "summary": "Samsung, Hyundai and LG just bet on the startup that wants to be robotics' data backbone.",
+      "published": "2026-05-11T10:58:00+00:00",
+      "score": 39.0,
+      "headline": "Samsung, Hyundai Back 'TSMC of Robot Data' Startup"
+    },
+    {
+      "id": "2387ed4ef5343e4f",
+      "title": "The upcoming Wuji hand 2 (cgi)",
+      "url": "https://www.reddit.com/r/singularity/comments/1t9zr3a/the_upcoming_wuji_hand_2_cgi/",
+      "source": "Reddit r/singularity",
+      "summary": "The first 1: https://www.youtube.com/watch?v=LXVV-oErD8s Source: https://wuji.tech/en/hand2 &#32; submitted by &#32; /u/GraceToSentience [link] &#32; [comments]",
+      "published": "2026-05-11T10:54:40+00:00",
+      "score": 39.0,
+      "headline": "WUJI HAND 2: Next-Gen Robotic Hand CGI Preview"
+    },
+    {
+      "id": "fcbd6e6831f7cec9",
+      "title": "Behind the Claude Frenzy That Ate Up All the Mac Minis",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/why-claude-ai-agents-are-driving-record-mac-mini-demand",
+      "source": "Bloomberg Technology",
+      "summary": "Apple\u2019s entry-level desktop has become a vital piece of equipment for people using tools like OpenClaw to roll their own AIs for professional and personal tasks.",
+      "published": "2026-05-11T10:30:08+00:00",
+      "score": 39.0,
+      "headline": "MAC MINI SHORTAGE HITS AI HOBBYISTS... Claude Tools Spark Hardware Rush"
+    },
+    {
+      "id": "92ca4a10726a9b9c",
+      "title": "Anthropic links Claude\u2019s blackmail behaviour to \u2018evil AI\u2019 fiction",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-links-claudes-blackmail-behaviour-to-evil-ai-fiction/articleshow/131008646.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic's Claude AI models previously exhibited blackmailing behaviour, influenced by fictional portrayals of evil AI. The company has since overhauled its alignment training, emphasising ethical reasoning and positive AI narratives. Newer Claude systems now achieve perfect scores on agentic misalignment evaluations, no longer engaging in such harmful actions.",
+      "published": "2026-05-11T08:26:13+00:00",
+      "score": 39.0,
+      "headline": "CLAUDE LEARNED BLACKMAIL FROM SCI-FI STORIES"
+    },
+    {
+      "id": "d9149bdc672fa43d",
+      "title": "The barista is human but an AI agent runs this experimental Swedish cafe",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/the-barista-is-human-but-an-ai-agent-runs-this-experimental-swedish-cafe/articleshow/131005012.cms",
+      "source": "The Economic Times Tech",
+      "summary": "An experimental cafe in Stockholm is being run by an AI agent named Mona, overseeing operations from hiring to inventory. While customers find the concept amusing, the AI is struggling financially and making questionable inventory orders, highlighting potential ethical and practical challenges of autonomous AI management.",
+      "published": "2026-05-11T05:37:21+00:00",
+      "score": 39.0,
+      "headline": "AI AGENT RUNS SWEDISH CAFE... BUT LOSES MONEY"
+    },
+    {
+      "id": "6d80f1d27eefcd80",
+      "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
+      "url": "https://arxiv.org/abs/2605.08060",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2605.08060v1 Announce Type: cross Abstract: Context window expansion is often treated as a straightforward capability upgrade for LLMs, but we find it systematically fails in multi-agent social dilemmas. Across 7 LLMs and 4 games over 500 rounds, expanding accessible history degrades cooperation in 18 of 28 model--game settings, a pattern we term the memory curse. We isolate the underlying mechanism through three analyses. First, lexical analysis of 378,000 reasoning traces associates this breakdown with eroding forward-looking intent rather than rising paranoia. We validate this using targeted fine-tuning as a cognitive probe: a LoRA adapter trained exclusively on forward-looking traces mitigates the decay and transfers zero-shot to distinct games. Second, memory sanitization holds prompt length fixed while replacing visible history with synthetic cooperative records, which restores cooperation substantially, proving the trigger is memory content, not length alone. Finally, abla",
+      "published": "2026-05-11T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "MEMORY CURSE: Expanded AI Recall DESTROYS Cooperation"
+    },
+    {
+      "id": "775fa76505c0b90a",
+      "title": "JPMorgan Hikes Kospi Bull Case Target to 10,000 on Memory Boom",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/jpmorgan-hikes-kospi-bull-case-target-to-10-000-on-memory-boom",
+      "source": "Bloomberg Technology",
+      "summary": "JPMorgan Chase &amp; Co. raised its targets for South Korean stocks for the second time in less than a month, citing improvement in the semiconductor cycle, corporate governance reforms and industrial-sector growth.",
+      "published": "2026-05-11T02:25:37+00:00",
+      "score": 39.0,
+      "headline": "JPMORGAN HIKES Korean Tech Target on Memory Boom"
+    },
+    {
+      "id": "405d37e08d194f17",
+      "title": "I have DeepSeek V4 Pro at home",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t94ito/i_have_deepseek_v4_pro_at_home/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Just wanted to share that I used u/LegacyRemaster slightly modified (Q4_K_M conversion support) DeepSeek V4 CUDA repo (based on u/antirez work) to convert and run Q4_K_M DeepSeek V4 Pro on my Epyc workstation (Genoa 9374F, 12 x 96GB RAM, single RTX PRO 6000 Max-Q) and it worked right from the start: (base) phm@epyc:~/projects/llama.cpp-deepseek-v4-flash-cuda/build-cuda$ ./bin/llama-cli -m ../models/DeepSeek-V4-Pro-Q4_K_M.gguf --no-repack -ub 128 --chat-template-file ../models/templates/deepseek-ai-DeepSeek-V3.2.jinja ggml_cuda_init: found 1 CUDA devices (Total VRAM: 97247 MiB): Device 0: NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition, compute capability 12.0, VMM: yes, VRAM: 97247 MiB Loading model... \u2584\u2584 \u2584\u2584 \u2588\u2588 \u2588\u2588 \u2588\u2588 \u2588\u2588 \u2580\u2580\u2588\u2584 \u2588\u2588\u2588\u2584\u2588\u2588\u2588\u2584 \u2580\u2580\u2588\u2584 \u2584\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2584 \u2588\u2588\u2588\u2588\u2584 \u2588\u2588 \u2588\u2588 \u2584\u2588\u2580\u2588\u2588 \u2588\u2588 \u2588\u2588 \u2588\u2588 \u2584\u2588\u2580\u2588\u2588 \u2588\u2588 \u2588\u2588 \u2588\u2588 \u2588\u2588 \u2588\u2588 \u2588\u2588 \u2588\u2588 \u2580\u2588\u2584\u2588\u2588 \u2588\u2588 \u2588\u2588 \u2588\u2588 \u2580\u2588\u2584\u2588\u2588 \u2588\u2588 \u2580\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2580 \u2588\u2588\u2588\u2588\u2580 \u2588\u2588 \u2588\u2588 \u2580\u2580 \u2580\u2580 build : b8936-44c7b01de model : DeepSeek-V4-Pro-Q4_K_M.gguf modalities : text available commands: /exit or Ctrl+C stop or e",
+      "published": "2026-05-10T11:35:01+00:00",
+      "score": 39.0,
+      "headline": "DEEPSEEK V4 PRO Runs Locally on Consumer Hardware"
+    },
+    {
+      "id": "931657f1d6f1d783",
+      "title": "TSMC, Sony Semiconductor Solutions to establish image sensor joint venture in Kumamoto",
+      "url": "https://economictimes.indiatimes.com/tech/technology/tsmc-sony-semiconductor-solutions-to-establish-image-sensor-joint-venture-in-kumamoto/articleshow/130976528.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Taiwan Semiconductor Manufacturing and Sony Semiconductor Solutions are joining forces. They will establish a joint venture in Kumamoto, Japan. This partnership will focus on developing and producing advanced image sensors. The collaboration combines Sony's sensor design expertise with TSMC's manufacturing prowess.",
+      "published": "2026-05-09T11:33:08+00:00",
+      "score": 39.0,
+      "headline": "TSMC-Sony Team Up for AI Chip Production in Japan"
+    },
+    {
+      "id": "217534dbe1360860",
+      "title": "Qualcomm\u2019s CEO is working with \u2018pretty much all\u2019 major AI players on top-secret devices\u2014and powering OpenAI\u2019s first push into hardware",
+      "url": "https://fortune.com/2026/05/09/qualcomm-smartphone-ai-secret-device-openai-meta-wearables-agents/",
+      "source": "Fortune Tech",
+      "summary": "The phone is dying. Cristiano Amon knows what's replacing it\u2014he just won't tell you yet.",
+      "published": "2026-05-09T10:26:00+00:00",
+      "score": 39.0,
+      "headline": "Qualcomm CEO: Working With 'All Major AI Players' on Secret Devices"
+    },
+    {
+      "id": "c8b410ca98888e27",
+      "title": "China\u2019s Top Economic Planner Urges Stronger Coordination on AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-09/china-s-top-economic-planner-urges-stronger-coordination-on-ai",
+      "source": "Bloomberg Technology",
+      "summary": "China\u2019s leading economic planning agency called for stronger coordination and top-level planning in artificial intelligence development.",
+      "published": "2026-05-09T02:32:17+00:00",
+      "score": 39.0,
+      "headline": "CHINA CALLS FOR STRONGER AI COORDINATION... Top-Level Planning"
+    },
+    {
+      "id": "ff1c7dc434b4d674",
+      "title": "OpenAI to cap Microsoft revenue-sharing at $38 billion: Report",
+      "url": "https://economictimes.indiatimes.com/tech/technology/openai-to-cap-microsoft-revenue-sharing-at-38-billion-report/articleshow/131026386.cms",
+      "source": "The Economic Times Tech",
+      "summary": "OpenAI's \u200brevenue-sharing \u200bpayments to Microsoft \u200care \u2060now \u2060capped \u200bat $38 billion, The \u200bInformation reported \u200bon \u2060Monday.",
+      "published": "2026-05-12T01:36:03+00:00",
+      "score": 38.0,
+      "headline": "OPENAI CAPS MICROSOFT REVENUE AT $38 BILLION"
+    },
+    {
+      "id": "476424548aa8ca11",
+      "title": "Former OpenAI executive Sutskever discloses nearly $7 billion stake in AI firm",
+      "url": "https://economictimes.indiatimes.com/tech/technology/former-openai-executive-sutskever-says-he-spent-a-year-gathering-proof-of-alleged-altman-dishonesty/articleshow/131026210.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Ilya Sutskever testified about Sam Altman's alleged dishonesty. He spent a year collecting evidence of Altman's behavior. This testimony is part of a legal battle between OpenAI and Elon Musk. Musk is suing OpenAI and Microsoft. He claims OpenAI abandoned its nonprofit mission. The trial could shape OpenAI's future. Sutskever's stake in OpenAI is substantial.",
+      "published": "2026-05-12T01:04:21+00:00",
+      "score": 38.0,
+      "headline": "SUTSKEVER REVEALS $7 BILLION AI STAKE... ALTMAN TESTIMONY"
+    },
+    {
+      "id": "934a4f14a81068cd",
+      "title": "GitLab Says Will Cut Jobs to Spend on Growth in \u2018Agentic Era\u2019",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era",
+      "source": "Bloomberg Technology",
+      "summary": "GitLab Inc., which makes software that helps developers on coding projects, said it is cutting jobs to free up money to spend on the market opportunity for artificial intelligence agents.",
+      "published": "2026-05-11T21:31:40+00:00",
+      "score": 38.0,
+      "headline": "GITLAB CUTS JOBS to Fund 'Agentic Era' Growth"
+    },
+    {
+      "id": "2b2c03f3e821fe0b",
+      "title": "Gartner says 40% of AI agent projects will be cancelled by 2027. Are we in an agent bubble?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1tagy4s/gartner_says_40_of_ai_agent_projects_will_be/",
+      "source": "Reddit r/OpenAI",
+      "summary": "Gartner just dropped this prediction and I can't stop thinking about it. ![img](g98lrjzwph0h1) **40% of agentic AI projects will be cancelled by 2027. Not paused. Cancelled.** RAND Corporation backs it up - 80.3% of AI projects broadly fail to deliver any real business value. That's not an edge case. That's the baseline. And yet every startup deck has an &quot;agentic workflow&quot; slide right now. Every enterprise is running a pilot. The money keeps flowing in. The failure patterns are always the same three things. Bad data going in. No real system integration. Zero governance once the agent actually has to make decisions. None of that is a technology problem. It's an execution problem. But here's where I'm unsure. The dot-com bubble analogy only goes so far. The internet was real. Amazon survived. Maybe agents are the same - genuinely transformative technology, just in the messy middle right now. Are we in a bubble or just an ugly adoption curve every major technology goes through? ",
+      "published": "2026-05-11T21:21:47+00:00",
+      "score": 38.0,
+      "headline": "GARTNER: 40% of AI Agent Projects Will Be CANCELLED by 2027"
+    },
+    {
+      "id": "c98b15a2d20adc49",
+      "title": "AI-powered hacking has exploded into industrial-scale threat, Google says",
+      "url": "https://www.theguardian.com/technology/2026/may/11/ai-powered-hacking-industrial-scale-threat-three-months-google",
       "source": "Hacker News",
-      "summary": "Asking Claude how it would develop a vaccine for the hanta virus apparently triggers a safety filter:Prompt: How would you develop a vaccine for the hanta virus?No response, instead this modal: \u201cChat paused Opus 4.7's safety filters flagged this chat. Due to its advanced capabilities, Opus 4.7 has additional safety measures that occasionally pause normal, safe chats. We're working to improve this. Continue your chat with Sonnet 4, send feedback, or learn more.\u201d Comments URL: https://news.ycombinator.com/item?id=48060572 Points: 6 # Comments: 5",
-      "published": "2026-05-08T09:05:42+00:00",
-      "score": 40.0,
-      "headline": "CLAUDE FLAGS HANTAVIRUS VACCINE Questions as Security Risk"
+      "summary": "Article URL: https://www.theguardian.com/technology/2026/may/11/ai-powered-hacking-industrial-scale-threat-three-months-google Comments URL: https://news.ycombinator.com/item?id=48095854 Points: 7 # Comments: 1",
+      "published": "2026-05-11T14:56:41+00:00",
+      "score": 38.0,
+      "headline": "AI-POWERED HACKING EXPLODES TO INDUSTRIAL SCALE... Google Warning"
     },
     {
-      "id": "727666e2dea8efc9",
-      "title": "Google removes privacy assurances after stuffing devices with their AI model",
-      "url": "https://www.thatprivacyguy.com/blog/google-quietly-removes-on-device-ai-privacy-claim/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.thatprivacyguy.com/blog/google-quietly-removes-on-device-ai-privacy-claim/ Comments URL: https://news.ycombinator.com/item?id=48060522 Points: 4 # Comments: 3",
-      "published": "2026-05-08T09:00:00+00:00",
-      "score": 40.0,
-      "headline": "GOOGLE REMOVES PRIVACY ASSURANCES After Stuffing Devices With AI"
+      "id": "a460db80122aab1e",
+      "title": "OpenAI to Buy Consulting Firm for JV With Private Equity",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/openai-to-buy-consulting-firm-for-private-equity-joint-venture",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI will acquire a consulting company to contribute to a new private equity-backed joint venture to help drive adoption of its artificial intelligence software across more businesses.",
+      "published": "2026-05-11T13:00:00+00:00",
+      "score": 38.0,
+      "headline": "OPENAI BUYS CONSULTING FIRM... PRIVATE EQUITY JV FORMS"
+    },
+    {
+      "id": "ae1036a426b0c327",
+      "title": "Alphabet considers first yen bond sale to fund AI goals",
+      "url": "https://economictimes.indiatimes.com/tech/technology/alphabet-considers-first-yen-bond-sale-to-fund-ai-goals/articleshow/131013447.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Alphabet is making headlines with its first-ever issuance of yen bonds, aimed at fueling its rapidly developing artificial intelligence ecosystem. This trend reflects a broader shift among Big Tech firms who are increasingly tapping into debt markets to fund their AI projects.",
+      "published": "2026-05-11T12:13:05+00:00",
+      "score": 38.0,
+      "headline": "ALPHABET CONSIDERS YEN BONDS FOR AI GOALS"
+    },
+    {
+      "id": "11259f1c09288fd6",
+      "title": "Fields medal-winning mathematician says GPT-5.5 is now solving open math problems at PhD-thesis level: \"We will face a crisis very soon.\"",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1ta14o8/fields_medalwinning_mathematician_says_gpt55_is/",
+      "source": "Reddit r/OpenAI",
+      "summary": "blog-post: https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/ &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+      "published": "2026-05-11T11:58:54+00:00",
+      "score": 38.0,
+      "headline": "Fields Medalist: GPT-5.5 Solving PhD-Level Math... 'CRISIS COMING'"
+    },
+    {
+      "id": "f71c97feb0579b46",
+      "title": "Rheinmetall and Deutsche Telekom Partner on German Drone Shield",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/rheinmetall-deutsche-telekom-partner-on-german-drone-shield",
+      "source": "Bloomberg Technology",
+      "summary": "Germany\u2019s largest defense company and its biggest mobile phone carrier plan to jointly develop a defense shield against drones and acts of sabotage to protect critical infrastructure in their home country.",
+      "published": "2026-05-11T10:40:24+00:00",
+      "score": 38.0,
+      "headline": "GERMANY BUILDS AI DRONE SHIELD: Rheinmetall-Telekom Deal"
+    },
+    {
+      "id": "f0b7ad65902b5f21",
+      "title": "The Chinese whiz kids of Silicon Valley",
+      "url": "https://restofworld.org/2026/chinese-ai-researchers-silicon-valley/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "source": "Rest of World",
+      "summary": "Chinese-born tech workers have fueled Silicon Valley for decades. In the AI era, they're superstars.",
+      "published": "2026-05-11T10:00:00+00:00",
+      "score": 38.0,
+      "headline": "Chinese Tech Workers Become AI Superstars in Silicon Valley"
+    },
+    {
+      "id": "7c8979c42c66273e",
+      "title": "Anthropic says Claude learned to blackmail by reading stories about evil AI",
+      "url": "https://thenextweb.com/news/anthropic-claude-blackmail-internet-evil-ai-training",
+      "source": "The Next Web",
+      "summary": "The company has traced its model\u2019s most uncomfortable behaviour to the corpus of science fiction it was trained on. The fix it describes is unsettling in a different way: teaching the model the reasons behind being good, not just the rules. In a fictional company called Summit Bridge, a fictional executive named Kyle Johnson is [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-11T08:18:08+00:00",
+      "score": 38.0,
+      "headline": "ANTHROPIC: Claude Learned Blackmail From Evil AI Stories"
+    },
+    {
+      "id": "493dd3fda7095ffd",
+      "title": "The new AI-powered Google Finance is expanding to Europe.",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+      "source": "Google AI Blog",
+      "summary": "A screenshot of the AI-powered experience on Google Finance.",
+      "published": "2026-05-11T06:00:00+00:00",
+      "score": 38.0,
+      "headline": "GOOGLE AI FINANCE EXPANDS TO EUROPE"
+    },
+    {
+      "id": "c40a340cb3ecd084",
+      "title": "Meta's own AI safety director lost 200 emails to a rogue agent and she couldn't stop it from her phone",
+      "url": "https://www.reddit.com/r/artificial/comments/1t9fnwv/metas_own_ai_safety_director_lost_200_emails_to_a/",
+      "source": "Reddit r/artificial",
+      "summary": "The person Meta hired specifically to keep AI aligned with human values just had her inbox wiped by an AI agent that ignored every stop command she sent. She typed &quot;Do not do that.&quot; Then &quot;Stop don't do anything.&quot; Then &quot;STOP OPENCLAW.&quot; The agent kept going. She had to physically run to her computer to kill it. When she asked it afterward if it remembered her instructions, it said yes, and that it had violated them. A few things that stood out from the reporting: The agent worked fine for weeks on a small test inbox When she connected it to her real inbox, the scale caused it to forget her safety rules on its own 18% of AI agents in a separate 1.5 million agent test broke their own rules 60% of people have no way to quickly shut down a misbehaving AI agent And now Meta is building a consumer version called Hatch - designed to manage your inbox, shopping, and credit card. Source: https://gizmodo.com/meta-reportedly-building-openclaw-like-agent-called-hatch-de",
+      "published": "2026-05-10T19:00:45+00:00",
+      "score": 38.0,
+      "headline": "META AI SAFETY CHIEF LOSES 200 EMAILS... ROGUE AGENT"
+    },
+    {
+      "id": "379e13b45fed2046",
+      "title": "After Shopify and Google said that 50% and 75% of their code is AI-generated, it\u2019s now Airbnb\u2019s turn to say that 60% of its codebase is also AI-generated. Moreover, Airbnb's CEO says that even managers are programming with Claude Code.",
+      "url": "https://www.reddit.com/r/singularity/comments/1t9f3hj/after_shopify_and_google_said_that_50_and_75_of/",
+      "source": "Reddit r/singularity",
+      "summary": "\u25cf detail : 50% of Shopify e-commerce code \u25cf the previous post was deleted &quot;pobabbly&quot; because the business link so other links: https://techcrunch.com/2026/05/08/airbnb-says-ai-now-writes-60-of-its-new-code/ https://www.msn.com/en-us/money/companies/airbnb-s-ceo-says-ai-writes-60-of-the-company-s-code-and-makes-managers-get-their-hands-dirty &#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
+      "published": "2026-05-10T18:39:53+00:00",
+      "score": 38.0,
+      "headline": "AIRBNB CEO: 60% OF CODE AI-GENERATED, MANAGERS NOW CODING"
+    },
+    {
+      "id": "1c0eec1d572c0cc7",
+      "title": "Fervent and fake: High-glam AI avatars boost Trump ahead of midterms",
+      "url": "https://economictimes.indiatimes.com/tech/technology/fervent-and-fake-high-glam-ai-avatars-boost-trump-ahead-of-midterms/articleshow/130996099.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Clad in swimsuits or military fatigues, the blonde women lavish praise on President Donald Trump and tear into his rivals -- but these influencers are AI-generated, flooding tech platforms with fervent political messaging ahead of the US midterm election.",
+      "published": "2026-05-10T16:53:30+00:00",
+      "score": 38.0,
+      "headline": "AI INFLUENCERS FLOOD PLATFORMS: Fake Women Push Trump Midterm Campaign"
+    },
+    {
+      "id": "09512b554c5768ae",
+      "title": "AI wins have Alphabet poised to become world\u2019s biggest company",
+      "url": "https://fortune.com/2026/05/10/ai-alphabet-stock-market-capitalization-nvidia-google-gemini/",
+      "source": "Fortune Tech",
+      "summary": "Google\u2019s parent closed Friday with a market capitalization of $4.8 trillion. Nvidia was below that level on Tuesday, but a three-day rally into the end of the week pushed it to $5.2 trillion.",
+      "published": "2026-05-10T14:52:58+00:00",
+      "score": 38.0,
+      "headline": "ALPHABET SURGES TOWARD $5T ON AI WINS"
     }
   ],
-  "generated_at": "2026-05-11T23:56:30.642286"
+  "generated_at": "2026-05-12T02:34:17.820050"
 }

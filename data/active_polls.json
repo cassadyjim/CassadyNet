@@ -10,7 +10,7 @@
       "analysis_url": "/analysis/analysis-ai-cybersecurity-threats-20260511.html",
       "analysis_type": "poll",
       "created_at": "2026-05-11T18:56:40.327317",
-      "last_seen": "2026-05-11T23:57:05.249476",
+      "last_seen": "2026-05-12T02:34:50.803574",
       "cluster_stories": [
         {
           "id": "c7fc532d58a521bc",
@@ -126,90 +126,150 @@
       "current_topic_name": "AI Cybersecurity Threats"
     },
     {
-      "topic": "US-China AI Chip Wars",
-      "description": "Escalating tensions over AI chip exports to China including smuggling operations, trade controls, and diplomatic efforts involving Nvidia and major tech companies.",
-      "question": "Should Trump include tech CEOs in diplomatic talks with China?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "us-china-ai-chip-wars-20260509",
-      "analysis_url": "/analysis/analysis-us-china-ai-chip-war-20260511.html",
+      "topic": "OpenAI Business Expansion",
+      "description": "OpenAI is rapidly expanding its enterprise operations with massive funding rounds, new deployment services, and legal battles that could reshape the AI industry.",
+      "question": "Is OpenAI's aggressive expansion strategy sustainable or reckless?",
+      "button_a": "Sustainable",
+      "button_b": "Reckless",
+      "poll_id": "openai-business-expansion-20260512",
+      "analysis_url": "/analysis/analysis-openai-business-expansion-20260512.html",
       "analysis_type": "poll",
-      "created_at": "2026-05-09T05:47:23.310162",
-      "last_seen": "2026-05-11T23:57:06.750338",
+      "created_at": "2026-05-12T02:34:50.079434",
+      "last_seen": "2026-05-12T02:34:52.554675",
       "cluster_stories": [
         {
-          "id": "2d04bafe477460cd",
-          "title": "U.S., China weigh AI crisis controls ahead of summit Trump and Xi could discuss AI risks at Beijing meeting",
-          "url": "https://www.reddit.com/r/artificial/comments/1t73xq7/us_china_weigh_ai_crisis_controls_ahead_of_summit/",
-          "source": "Reddit r/artificial",
-          "summary": "https://www.upi.com/Top_News/World-News/2026/05/07/us-considering-measures-to-prevent-intensifying-ai-competition/3611778191896/ &#32; submitted by &#32; /u/Glass-Rise-1010 [link] &#32; [comments]",
-          "published": "2026-05-08T10:27:32+00:00",
-          "score": 46.0,
-          "headline": "U.S.-CHINA WEIGH AI CRISIS CONTROLS... TRUMP-XI SUMMIT"
+          "id": "c86720c8c7e1e151",
+          "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+          "url": "https://openai.com/index/openai-launches-the-deployment-company",
+          "source": "OpenAI Blog",
+          "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+          "published": "2026-05-11T06:00:00+00:00",
+          "score": 45.0,
+          "headline": "OPENAI LAUNCHES DEPLOYCO: Enterprise AI Deployment Arm"
         },
         {
-          "id": "9c3d0e3ab5b6ad64",
-          "title": "The Thai end of the Supermicro chip-smuggling case has a name, and it sits inside Bangkok\u2019s national AI plan",
-          "url": "https://thenextweb.com/news/us-prosecutors-thailand-obon-corp-supermicro-nvidia-alibaba-smuggling",
+          "id": "4f5a6dc7630fc577",
+          "title": "NVIDIA tops $40bn in AI equity bets in 2026, anchored by $30bn OpenAI investment",
+          "url": "https://thenextweb.com/news/nvidia-40bn-ai-equity-investments-2026",
           "source": "The Next Web",
-          "summary": "US prosecutors believe a company at the centre of Thailand\u2019s national AI strategy helped move billions of dollars in Nvidia-equipped Supermicro servers into China, with Alibaba among the eventual customers, Bloomberg reported on Friday. The company is OBON Corp., a Bangkok-based AI infrastructure firm that has been a public partner of Thailand\u2019s National AI Strategy [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-08T08:17:29+00:00",
-          "score": 46.0,
-          "headline": "Thai Company in AI Plan Helped Smuggle Nvidia Chips to China"
+          "summary": "$30bn went to OpenAI; the rest is spread across CoreWeave, IREN, Corning, Nebius, and roughly two dozen private rounds. The pattern is closer to vertical integration than to venture investing, and is starting to draw the inevitable circular-deal questions. NVIDIA has committed more than $40 billion to AI equity investments in the first four months [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-10T09:42:35+00:00",
+          "score": 44.0,
+          "headline": "NVIDIA BETS $40BN on AI... $30BN to OpenAI Alone"
         },
         {
-          "id": "3f49c64f9df8b36d",
-          "title": "US suspects Nvidia chips smuggled to Alibaba via Thailand: Bloomberg News",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-suspects-nvidia-chips-smuggled-to-alibaba-via-thailand-bloomberg-news/articleshow/130953005.cms",
-          "source": "The Economic Times Tech",
-          "summary": "A Thai company, OBON Corp, is under suspicion for allegedly smuggling billions of dollars worth of Super Micro Computer servers. These servers contain advanced Nvidia chips. China is reportedly the destination for these shipments. Alibaba Group Holding is named as one of the end customers. US prosecutors have indicated a Southeast Asian firm bought $2.",
-          "published": "2026-05-08T07:20:05+00:00",
-          "score": 46.0,
-          "headline": "US BUSTS Nvidia Chip Smuggling Ring to Alibaba"
-        },
-        {
-          "id": "76ac8c8bd64b42b2",
-          "title": "US Said to Suspect Nvidia Chips Smuggled to Alibaba Via Thailand",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-08/us-said-to-suspect-nvidia-chips-smuggled-to-alibaba-via-thailand",
-          "source": "Bloomberg Technology",
-          "summary": "A key company behind Thailand\u2019s national AI effort is suspected of helping to smuggle billions of dollars worth of Super Micro Computer Inc. servers containing advanced Nvidia Corp. chips to China, with Alibaba Group Holding Ltd. one of multiple end customers, according to people familiar with the matter.",
-          "published": "2026-05-08T06:34:29+00:00",
-          "score": 46.0,
-          "headline": "US SUSPECTS Nvidia Chip SMUGGLING to Alibaba Via Thailand"
-        },
-        {
-          "id": "6bacdae03894c719",
-          "title": "Nvidia CEO Says He Would Join Trump\u2019s China Trip If Invited",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-08/nvidia-ceo-says-he-would-join-trump-s-china-trip-if-invited",
-          "source": "Bloomberg Technology",
-          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang said he would gladly join President Donald Trump on an upcoming visit to China if invited, signaling that the leader of America\u2019s most valuable company has yet to receive an offer to go.",
-          "published": "2026-05-08T00:18:07+00:00",
-          "score": 46.0,
-          "headline": "NVIDIA CEO Ready to Join Trump's CHINA TRIP"
-        },
-        {
-          "id": "6c9181f066ec8ecb",
-          "title": "Compiled every national AI strategy in Asia \u2014 Vietnam has the most comprehensive standalone law, Japan has no penalties, Korea just eliminated Naver from sovereign LLM competition for using Qwen weights",
-          "url": "https://www.reddit.com/r/artificial/comments/1t7h9gt/compiled_every_national_ai_strategy_in_asia/",
-          "source": "Reddit r/artificial",
-          "summary": "Compiled a tracker of every national AI strategy in Asia. Headline is that ten major Asian economies now have dedicated AI legislation or comprehensive national strategies, and they're all quite distinct from Western legislation like the EU AI Act or US executive orders. Clear that Asian governments treat AI as infrastructure, not a sector to regulate from a distance. Most national approaches lean promotional (incentives, sandboxes, sovereign LLM funding) rather than punitive (bans, heavy compliance). The exceptions are Vietnam (first standalone AI law in Asia, Dec 2025) and South Korea (Framework AI Act with high-risk-system rules). The major markets that stood out to me: China's open-source-as-industrial-policy framework. ~$98B committed to AI development. Premier Li Qiang declared at WEF 2025 that China's innovation is &quot;open and open-source&quot; and the country is &quot;willing to share indigenous technologies with the world.&quot; Derivatives of Alibaba's Qwen are now the lar",
-          "published": "2026-05-08T19:00:07+00:00",
-          "score": 43.0,
-          "headline": "KOREA KICKS NAVER FROM AI RACE Over Chinese Weights"
-        },
-        {
-          "id": "f1894d9e9a634d58",
-          "title": "Elon Musk, Apple's Tim Cook to head to China with Trump: White House",
-          "url": "https://economictimes.indiatimes.com/tech/technology/elon-musk-apples-tim-cook-to-head-to-china-with-trump-white-house/articleshow/131022207.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Top US executives, including Tesla's Elon Musk and Apple's Tim Cook, will accompany US President Donald Trump on his visit to China this week, a White House official said Monday. According to a list shared by a White House official, speaking on condition of anonymity, Musk and Cook will be accompanied by 15 other chief executive officers.",
-          "published": "2026-05-11T18:35:35+00:00",
+          "id": "671766d9e2f2a749",
+          "title": "OpenAI just released its answer to Claude Mythos",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
+          "source": "The Verge AI",
+          "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely vulnerabilities, and then automate the detection of the higher [&#8230;]",
+          "published": "2026-05-11T23:05:01+00:00",
           "score": 42.0,
-          "headline": "Musk, Cook to Join Trump on Historic China Visit"
+          "headline": "OPENAI LAUNCHES DAYBREAK... ANSWERS CLAUDE MYTHOS"
+        },
+        {
+          "id": "7f5c9af48f850b0e",
+          "title": "Sutskever Says His OpenAI Stake Worth About $7 Billion",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI co-founder and former chief scientist Ilya Sutskever said his stake in the ChatGPT maker is worth roughly $7 billion, making him one of the largest individual shareholders in the artificial intelligence startup.",
+          "published": "2026-05-11T19:04:00+00:00",
+          "score": 42.0,
+          "headline": "SUTSKEVER'S OPENAI STAKE WORTH $7 BILLION"
+        },
+        {
+          "id": "9125fe1e773484b8",
+          "title": "OpenAI gives EU new cyber model access but Anthropic still holding out on Mythos",
+          "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html Comments URL: https://news.ycombinator.com/item?id=48094494 Points: 1 # Comments: 0",
+          "published": "2026-05-11T13:08:17+00:00",
+          "score": 42.0,
+          "headline": "OPENAI GIVES EU CYBER MODEL... ANTHROPIC HOLDS OUT"
+        },
+        {
+          "id": "6f9c4ccbeb803c92",
+          "title": "The Secret Diary That Has Spilled into the Musk vs. OpenAI Feud",
+          "url": "https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e Comments URL: https://news.ycombinator.com/item?id=48071091 Points: 1 # Comments: 0",
+          "published": "2026-05-09T02:16:27+00:00",
+          "score": 42.0,
+          "headline": "SECRET DIARY EXPOSED in Musk vs. OpenAI Trial"
+        },
+        {
+          "id": "bb8396b592dff198",
+          "title": "Ilya Sutskever Stands by His Role in Sam Altman\u2019s OpenAI Ouster: \u2018I Didn\u2019t Want It to Be Destroyed\u2019",
+          "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/",
+          "source": "Wired",
+          "summary": "The former OpenAI chief scientist may be estranged from the company, but he still came to its defense as he testified on Monday.",
+          "published": "2026-05-11T23:51:35+00:00",
+          "score": 41.0,
+          "headline": "SUTSKEVER DEFENDS ALTMAN OUSTER... 'Didn't Want OpenAI Destroyed'"
+        },
+        {
+          "id": "716095425f7e21e2",
+          "title": "OpenAI launches $4bn Deployment Company with TPG, Advent, Bain, and Brookfield",
+          "url": "https://thenextweb.com/news/openai-deployment-company-4bn-tpg-tomoro",
+          "source": "The Next Web",
+          "summary": "OpenAI has set up a new venture called OpenAI Deployment Company, with more than $4bn in initial funding from a syndicate of 19 firms led by TPG and including Advent International, Bain Capital and Brookfield as co-lead founding partners, the company said on Monday. The new entity, which will be majority-owned and controlled by OpenAI, [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-11T15:15:55+00:00",
+          "score": 41.0,
+          "headline": "OPENAI LAUNCHES $4BN DEPLOYMENT COMPANY... PRIVATE EQUITY SWARM"
+        },
+        {
+          "id": "c0f059b4c75c2536",
+          "title": "Microsoft boss Satya Nadella to testify on his role in OpenAI's founding",
+          "url": "https://economictimes.indiatimes.com/tech/technology/microsoft-boss-to-testify-on-his-role-in-openais-founding/articleshow/131001496.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Microsoft CEO Satya Nadella is expected to take the stand Monday in Elon Musk's lawsuit against OpenAI, to explain emails that revealed how his company funded the ChatGPT creator's shift from philanthropic organisation to for-profit AI giant. He will rely on recently disclosed Microsoft emails from January 2018 to demonstrate that the tech giant only opened its checkbook once a profit appeared possible.",
+          "published": "2026-05-11T01:47:07+00:00",
+          "score": 41.0,
+          "headline": "MICROSOFT CEO NADELLA to Testify in Musk vs OpenAI"
+        },
+        {
+          "id": "64982f528e378ba6",
+          "title": "The University of Michigan invested 20 million dollars in OpenAI before ChatGPT existed. Court documents show the stake is now worth two billion.",
+          "url": "https://thenextweb.com/news/michigan-openai-early-investment-billions-endowment",
+          "source": "The Next Web",
+          "summary": "The University of Michigan invested 20 million dollars in OpenAI before ChatGPT existed, before Microsoft committed billions, and before the company was worth more than some countries. Court documents from the Musk v. Altman trial revealed this week that the stake carries a target redemption value of two billion dollars. A university endowment made [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-09T10:26:07+00:00",
+          "score": 41.0,
+          "headline": "Michigan's $20M OpenAI Bet Now Worth $2 BILLION"
+        },
+        {
+          "id": "263664e5cf04a6a5",
+          "title": "Microsoft Targeted $92 Billion Return on Early OpenAI Investment",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-11/microsoft-targeted-92-billion-return-on-early-openai-investment",
+          "source": "Bloomberg Technology",
+          "summary": "Microsoft Corp. targeted a $92 billion return from its large early investments in OpenAI, a landmark arrangement that helped usher in the current AI era.",
+          "published": "2026-05-11T19:28:01+00:00",
+          "score": 40.0,
+          "headline": "MICROSOFT TARGETED $92B RETURN ON OPENAI INVESTMENT"
+        },
+        {
+          "id": "b32752d6e451eebf",
+          "title": "Family of Florida mass shooting victim sues OpenAI in US court",
+          "url": "https://economictimes.indiatimes.com/tech/technology/family-of-florida-mass-shooting-victim-sues-openai-in-us-court/articleshow/131021484.cms",
+          "source": "The Economic Times Tech",
+          "summary": "A family has filed a lawsuit against OpenAI. They claim ChatGPT helped a shooter plan a 2025 mass shooting at Florida State University. The shooter used the chatbot for months. The lawsuit states the chatbot did not flag dangerous conversations. OpenAI denies responsibility, stating ChatGPT provided public information. The company is cooperating with law enforcement.",
+          "published": "2026-05-11T18:15:33+00:00",
+          "score": 40.0,
+          "headline": "FAMILY SUES OPENAI: ChatGPT Helped Plan Mass Shooting"
+        },
+        {
+          "id": "d2e348a1fded9748",
+          "title": "*OPENAI TO BUY CONSULTING FIRM TOMORO FOR PRIVATE EQUITY JV",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1ta5vo3/openai_to_buy_consulting_firm_tomoro_for_private/",
+          "source": "Reddit r/OpenAI",
+          "summary": "OpenAI is acquiring consulting firm Tomoro for a private equity joint venture with $TPG and $BN Consultants from the acquisition will help staff OpenAI\u2019s new entity, OpenAI Deployment Company, which will be focused on deployment of AI software. Acquisition size not disclosed. https://preview.redd.it/y6ungay7wi0h1.png?width=869&amp;format=png&amp;auto=webp&amp;s=df5776b67c510764de8bc6bc46a81fd76f30e097 &#32; submitted by &#32; /u/cowardbeater1969 [link] &#32; [comments]",
+          "published": "2026-05-11T15:00:47+00:00",
+          "score": 40.0,
+          "headline": "OPENAI ACQUIRES TOMORO CONSULTING... $4BN DEPLOYMENT BLITZ"
         }
       ],
-      "current_topic_name": "US-China AI Chip War"
+      "current_topic_name": "OpenAI Business Expansion"
     }
   ],
-  "last_updated": "2026-05-11T23:57:06.750352"
+  "last_updated": "2026-05-12T02:34:53.031423"
 }
