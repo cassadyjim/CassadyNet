@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Cybersecurity Threats",
+      "description": "AI systems are now capable of creating and executing sophisticated cyber attacks, marking a dangerous new frontier in security.",
+      "question": "Should AI companies pause development until better security measures exist?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-cybersecurity-threats-20260511",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-security-threats-zero-day-exploits-20260512.html",
+      "started_at": "2026-05-11T18:56:40.327317",
+      "archived_at": "2026-05-12T21:17:17.658157",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "US-China AI Chip Wars",
       "description": "Escalating tensions over AI chip exports to China including smuggling operations, trade controls, and diplomatic efforts involving Nvidia and major tech companies.",
       "question": "Should Trump include tech CEOs in diplomatic talks with China?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-anthropic-mythos-ai-security-crisis-20260412.html",
       "started_at": "2026-04-11T18:37:43.516646",
       "archived_at": "2026-04-12T18:42:32.766400",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "China AI Competition and Chip Restrictions",
-      "description": "China's AI industry is navigating US chip sanctions while competing globally, with firms acquiring banned Nvidia chips and attracting Silicon Valley talent.",
-      "question": "Are chip restrictions effectively containing China's AI advancement?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "china-ai-competition-and-chip-restrictions-20260410",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-china-ai-competition-and-chip-restrictions-20260411.html",
-      "started_at": "2026-04-10T17:44:48.623693",
-      "archived_at": "2026-04-11T18:37:44.311341",
       "reason": "topic_replaced"
     }
   ]

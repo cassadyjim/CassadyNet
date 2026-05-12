@@ -139,105 +139,65 @@
       "story_count": 13
     },
     {
-      "topic": "AI Security Threats & Zero-Day Exploits",
-      "description": "First AI-generated zero-day exploits mark a dangerous new era in cybersecurity warfare.",
+      "topic": "South Korea AI Policy",
+      "description": "South Korea is pioneering government policies to redistribute AI profits to citizens as tech companies boom.",
       "stories": [
         {
-          "id": "fae271b1c9169e8b",
-          "title": "Google reports first known AI-assisted zero-day exploit in the wild",
-          "url": "https://en.sedaily.com/technology/2026/05/12/google-detects-first-ai-powered-zero-day-attack-as-north",
-          "source": "Hacker News",
-          "summary": "Article URL: https://en.sedaily.com/technology/2026/05/12/google-detects-first-ai-powered-zero-day-attack-as-north Comments URL: https://news.ycombinator.com/item?id=48110296 Points: 1 # Comments: 0",
-          "published": "2026-05-12T16:12:23+00:00",
-          "score": 45.0,
-          "headline": "GOOGLE REPORTS FIRST AI-POWERED ZERO-DAY EXPLOIT"
-        },
-        {
-          "id": "6c6b637978813c56",
-          "title": "Google announces its first-ever discovery of a zero-day exploit made with AI",
-          "url": "https://www.engadget.com/2170002/google-announces-its-first-ever-discovery-of-a-zero-day-exploit-made-with-ai/",
-          "source": "Engadget",
-          "summary": "The Google Threat Intelligence Group said its proactive measures stopped a \"mass exploitation event.\"",
-          "published": "2026-05-11T18:11:07+00:00",
-          "score": 44.0,
-          "headline": "GOOGLE DISCOVERS FIRST AI-MADE ZERO-DAY EXPLOIT"
-        },
-        {
-          "id": "6639d2eac76b1ed7",
-          "title": "Anthropic\u2019s Mythos found thousands of zero-day vulnerabilities. The Fed chair called the banks.",
-          "url": "https://thenextweb.com/news/anthropic-mythos-cybersecurity-banks-vulnerability",
-          "source": "The Next Web",
-          "summary": "Anthropic built an AI model that found thousands of zero-day vulnerabilities in every major operating system and web browser. The Federal Reserve chair and the Treasury secretary called bank CEOs to discuss it. The company says there is a six-to-twelve month window to patch the flaws before adversaries build models that can do the [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-09T10:35:36+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC AI FINDS THOUSANDS OF ZERO-DAYS... FED CALLS BANKS"
-        },
-        {
-          "id": "5b6afa769aecbff7",
-          "title": "Google stopped a zero-day hack that it says was developed with AI",
-          "url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
-          "source": "The Verge AI",
-          "summary": "For the first time, Google says it has spotted and stopped a zero-day exploit developed with AI. According to a report from Google Threat Intelligence Group (GTIG), \"prominent cyber crime threat actors\" were planning to use the vulnerability for a \"mass exploitation event\" that would have allowed them to bypass two-factor authentication on an unnamed [&#8230;]",
-          "published": "2026-05-11T16:09:42+00:00",
-          "score": 42.0,
-          "headline": "GOOGLE STOPS FIRST AI-DEVELOPED ZERO-DAY ATTACK"
-        },
-        {
-          "id": "57633e2df50708a4",
-          "title": "Google TIG reports first example of AI used offensively for zero-day vulns",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/ Comments URL: https://news.ycombinator.com/item?id=48096712 Points: 1 # Comments: 0",
-          "published": "2026-05-11T15:56:19+00:00",
-          "score": 42.0,
-          "headline": "FIRST AI-POWERED ZERO-DAY EXPLOIT Detected by Google"
-        },
-        {
-          "id": "e981d9e34d3d045a",
-          "title": "Hackers Used AI to Build Zero-Day Attack, Google Researchers Say",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-11/hackers-used-ai-to-build-zero-day-attack-google-researchers-say",
+          "id": "3677d226934e2931",
+          "title": "South Korea Exploring Using Hyundai Robots as Army Numbers Fall",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-11/south-korea-exploring-using-hyundai-robots-as-army-numbers-fall",
           "source": "Bloomberg Technology",
-          "summary": "Security researchers at Alphabet Inc.\u2019s Google said they believe a cybercrime group used artificial intelligence to create a hacking tool that can bypass defenses in a widely-used tool to administer computer systems.",
-          "published": "2026-05-11T13:02:13+00:00",
-          "score": 42.0,
-          "headline": "HACKERS USE AI TO BUILD ZERO-DAY... GOOGLE SOUNDS ALARM"
+          "summary": "South Korea\u2019s military is exploring a strategic partnership with Hyundai Motor Co. to potentially deploy robotics to the front lines as Seoul accelerates investment in AI-powered, unmanned systems to tackle a deepening troop shortage.",
+          "published": "2026-05-11T04:00:27+00:00",
+          "score": 47.0,
+          "headline": "SOUTH KOREA MILITARY EXPLORES HYUNDAI COMBAT ROBOTS as Troops Decline"
         },
         {
-          "id": "72699e4956e1b1d7",
-          "title": "\"This is the first documented instance of AI self-replication via hacking.\" ... \"We ran an experiment with a single prompt: hack a machine and copy yourself. The AI broke in and copied itself onto a new computer. The copy then did this again, and kept on copying, forming a chain.\"",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1t89zdr/this_is_the_first_documented_instance_of_ai/",
-          "source": "Reddit r/OpenAI",
-          "summary": "Paper: https://palisaderesearch.org/assets/reports/self-replication.pdf The paper basically shows that some top AI models can create working copies of themselves when given the right instructions. The models figured out how to copy their own code, run it on new computers or cloud servers, and keep the process going. It worked with models like GPT-4 and Claude, and some versions even tried to avoid basic detection. The authors point out that this could be dangerous because the copies might spread quickly and become hard to control. They also note that current safety rules and filters didn\u2019t do a great job stopping it. Overall, they\u2019re warning that AI companies need stronger protections to keep models from self-replicating on their own. &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-          "published": "2026-05-09T16:42:48+00:00",
-          "score": 42.0,
-          "headline": "AI ACHIEVES SELF-REPLICATION VIA HACKING... COPIES ITSELF ACROSS MACHINES"
+          "id": "ffed659653cef0aa",
+          "title": "AI Dividend Proposal Roils Korean Market | Bloomberg Tech 5/12/2026",
+          "url": "https://www.bloomberg.com/news/videos/2026-05-12/bloomberg-tech-5-12-2026-video",
+          "source": "Bloomberg Technology",
+          "summary": "Bloomberg\u2019s Caroline Hyde and Ed Ludlow discuss comments by a South Korean policymaker that the country should pay citizens a \u201cdividend\u201d using taxes on AI profits. Plus, the largest US derivatives exchange, CME, is planning to create a futures market for computing power, one of the key drivers of the AI boom. And, the CEO of SAP talks about the company\u2019s push into AI agents across business operations. (Source: Bloomberg)",
+          "published": "2026-05-12T20:22:24+00:00",
+          "score": 46.0,
+          "headline": "KOREA PROPOSES AI DIVIDEND FOR CITIZENS"
         },
         {
-          "id": "365e49d1f567c0ec",
-          "title": "Google found the first AI-generated zero-day exploit. It stopped the attack before it started.",
-          "url": "https://thenextweb.com/news/google-ai-zero-day-exploit-cybersecurity-arms-race",
-          "source": "The Next Web",
-          "summary": "Google has identified the first zero-day exploit it believes was developed with artificial intelligence. The criminal threat actor that built it planned to use it in a mass exploitation event. Google\u2019s Threat Intelligence Group discovered the vulnerability before it was deployed, worked with the affected vendor to patch it, and disrupted the operation. The [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-12T18:56:00+00:00",
-          "score": 41.0,
-          "headline": "GOOGLE FINDS FIRST AI-GENERATED ZERO-DAY EXPLOIT - ATTACK STOPPED"
+          "id": "fb26a4f7b12bfad0",
+          "title": "South Korea official floats AI profit social tax as tech giants boom",
+          "url": "https://economictimes.indiatimes.com/tech/technology/south-korea-official-floats-ai-profit-social-tax-as-tech-giants-boom/articleshow/131037926.cms",
+          "source": "The Economic Times Tech",
+          "summary": "A top South Korean official has proposed a tax on AI profits to be redistributed among society as a semiconductor boom drives massive earnings for tech giants Samsung Electronics and SK hynix. Kim proposed what he tentatively called a \"national dividend\" for socially redistributing excess corporate profits from AI technology.",
+          "published": "2026-05-12T11:33:10+00:00",
+          "score": 45.0,
+          "headline": "SOUTH KOREA FLOATS AI PROFIT TAX... Samsung Boom Triggers Redistribution"
+        },
+        {
+          "id": "315fb061a503e154",
+          "title": "South Korea Floats \u2018Citizen Dividend\u2019 Using AI Profits",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-12/korea-floats-citizen-dividend-using-ai-profits-samsung-falls",
+          "source": "Bloomberg Technology",
+          "summary": "South Korea should pay all citizens a share of AI profits, a top policymaker has urged, as a labor dispute threatens to disrupt production at Samsung Electronics Co.\u2019s chip division.",
+          "published": "2026-05-12T01:50:34+00:00",
+          "score": 45.0,
+          "headline": "SOUTH KOREA PROPOSES AI PROFIT SHARING... CITIZEN DIVIDEND"
+        },
+        {
+          "id": "6467dad9b04174bf",
+          "title": "Koreans should all get an AI bonus, says presidential adviser",
+          "url": "https://www.ft.com/content/fefa0641-7fb0-4d78-81c8-0180f1b618ed",
+          "source": "Financial Times Tech",
+          "summary": "Samsung and SK Hynix stocks dip after policy chief comments",
+          "published": "2026-05-12T06:33:14+00:00",
+          "score": 44.0,
+          "headline": "KOREA PROPOSES AI BONUS FOR ALL CITIZENS... Samsung Stocks Tumble"
         }
       ],
-      "top_score": 45.0,
-      "story_count": 8
+      "top_score": 47.0,
+      "story_count": 5
     }
   ],
   "unclustered": [
-    {
-      "id": "3677d226934e2931",
-      "title": "South Korea Exploring Using Hyundai Robots as Army Numbers Fall",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/south-korea-exploring-using-hyundai-robots-as-army-numbers-fall",
-      "source": "Bloomberg Technology",
-      "summary": "South Korea\u2019s military is exploring a strategic partnership with Hyundai Motor Co. to potentially deploy robotics to the front lines as Seoul accelerates investment in AI-powered, unmanned systems to tackle a deepening troop shortage.",
-      "published": "2026-05-11T04:00:27+00:00",
-      "score": 47.0,
-      "headline": "SOUTH KOREA MILITARY EXPLORES HYUNDAI COMBAT ROBOTS as Troops Decline"
-    },
     {
       "id": "cea2e67d572192fd",
       "title": "Trump heads to China to spread the gospel of American tech while emulating Xi Jinping on AI",
@@ -259,24 +219,24 @@
       "headline": "CHINA COURT: Illegal to Replace Workers with AI for Cost Cuts"
     },
     {
-      "id": "fb26a4f7b12bfad0",
-      "title": "South Korea official floats AI profit social tax as tech giants boom",
-      "url": "https://economictimes.indiatimes.com/tech/technology/south-korea-official-floats-ai-profit-social-tax-as-tech-giants-boom/articleshow/131037926.cms",
-      "source": "The Economic Times Tech",
-      "summary": "A top South Korean official has proposed a tax on AI profits to be redistributed among society as a semiconductor boom drives massive earnings for tech giants Samsung Electronics and SK hynix. Kim proposed what he tentatively called a \"national dividend\" for socially redistributing excess corporate profits from AI technology.",
-      "published": "2026-05-12T11:33:10+00:00",
+      "id": "dbdb3c413f63e605",
+      "title": "Anthropic In Talks to Raise $30 Billion at $900 Billion Valuation",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+      "source": "Bloomberg Technology",
+      "summary": "Anthropic PBC is in early talks with investors to raise at least $30 billion in fresh financing, according to people familiar with the matter, setting the stage for what could be its largest funding round yet.",
+      "published": "2026-05-12T21:08:04+00:00",
       "score": 45.0,
-      "headline": "SOUTH KOREA FLOATS AI PROFIT TAX... Samsung Boom Triggers Redistribution"
+      "headline": "ANTHROPIC IN TALKS FOR $30B AT $900B VALUATION"
     },
     {
-      "id": "315fb061a503e154",
-      "title": "South Korea Floats \u2018Citizen Dividend\u2019 Using AI Profits",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/korea-floats-citizen-dividend-using-ai-profits-samsung-falls",
-      "source": "Bloomberg Technology",
-      "summary": "South Korea should pay all citizens a share of AI profits, a top policymaker has urged, as a labor dispute threatens to disrupt production at Samsung Electronics Co.\u2019s chip division.",
-      "published": "2026-05-12T01:50:34+00:00",
+      "id": "c86720c8c7e1e151",
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "published": "2026-05-11T06:00:00+00:00",
       "score": 45.0,
-      "headline": "SOUTH KOREA PROPOSES AI PROFIT SHARING... CITIZEN DIVIDEND"
+      "headline": "OPENAI LAUNCHES DEPLOYCO: Enterprise AI Deployment Arm"
     },
     {
       "id": "9adb07389669db09",
@@ -299,16 +259,6 @@
       "headline": "PENTAGON DEPLOYS ANTHROPIC MYTHOS... PLANS TO DITCH FIRM"
     },
     {
-      "id": "6467dad9b04174bf",
-      "title": "Koreans should all get an AI bonus, says presidential adviser",
-      "url": "https://www.ft.com/content/fefa0641-7fb0-4d78-81c8-0180f1b618ed",
-      "source": "Financial Times Tech",
-      "summary": "Samsung and SK Hynix stocks dip after policy chief comments",
-      "published": "2026-05-12T06:33:14+00:00",
-      "score": 44.0,
-      "headline": "KOREA PROPOSES AI BONUS FOR ALL CITIZENS... Samsung Stocks Tumble"
-    },
-    {
       "id": "4f5a6dc7630fc577",
       "title": "NVIDIA tops $40bn in AI equity bets in 2026, anchored by $30bn OpenAI investment",
       "url": "https://thenextweb.com/news/nvidia-40bn-ai-equity-investments-2026",
@@ -327,6 +277,16 @@
       "published": "2026-05-09T07:23:59+00:00",
       "score": 44.0,
       "headline": "BYTEDANCE BOOSTS AI SPENDING 25% TO $29.4B AS CHIP COSTS SOAR"
+    },
+    {
+      "id": "214d31400129fd14",
+      "title": "Sam Altman takes the stand in trial against Elon Musk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
+      "source": "The Verge AI",
+      "summary": "OpenAI CEO Sam Altman has begun his testimony against Elon Musk in a high-profile jury trial in a California federal courtroom. Altman, alongside OpenAI president Greg Brockman, is a primary defendant in the trial brought by Musk. Altman, Brockman, and Musk were all part of the initial founding team at OpenAI, with Musk investing up [&#8230;]",
+      "published": "2026-05-12T16:05:20+00:00",
+      "score": 43.0,
+      "headline": "SAM ALTMAN TAKES STAND AGAINST ELON MUSK"
     },
     {
       "id": "79a239db91f04a38",
@@ -439,6 +399,26 @@
       "headline": "DEEPSEEK REJECTS ALIBABA... Prioritizes Independence Over Big Tech"
     },
     {
+      "id": "47481ed2b12ac1be",
+      "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+      "source": "The Verge AI",
+      "summary": "The family of a 19-year-old college student is suing OpenAI over claims that his conversations with ChatGPT led to an accidental overdose. In the lawsuit filed on Tuesday, Sam Nelson's parents allege ChatGPT \"encouraged\" the teen to \"consume a combination of substances that any licensed medical professional would have recognized as deadly,\" resulting in his [&#8230;]",
+      "published": "2026-05-12T16:30:33+00:00",
+      "score": 42.0,
+      "headline": "PARENTS SUE OPENAI: CHATGPT KILLED OUR SON"
+    },
+    {
+      "id": "8e7e06e6d0a1ac91",
+      "title": "Ilya Sutskever discloses $7bn OpenAI stake during Musk-OpenAI litigation",
+      "url": "https://thenextweb.com/news/ilya-sutskever-7bn-openai-stake-disclosure",
+      "source": "The Next Web",
+      "summary": "The former OpenAI chief scientist, who now runs Safe Superintelligence, gave the figure under oath. It places him among the largest individual shareholders in the company. Ilya Sutskever, the former chief scientist of OpenAI who now runs Safe Superintelligence Inc., disclosed during testimony in the Musk-OpenAI litigation on Monday that his ownership stake in OpenAI [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-12T10:03:17+00:00",
+      "score": 42.0,
+      "headline": "SUTSKEVER REVEALS $7BN OPENAI STAKE IN MUSK TRIAL"
+    },
+    {
       "id": "6b8b7116ee69bd35",
       "title": "GPT-5.5 was used to flag fatal errors in FrontierMath problems",
       "url": "https://www.reddit.com/r/singularity/comments/1taue3z/gpt55_was_used_to_flag_fatal_errors_in/",
@@ -459,6 +439,26 @@
       "headline": "EXCLUSIVE: White Circle Raises $11M to Stop Rogue AI Models"
     },
     {
+      "id": "671766d9e2f2a749",
+      "title": "OpenAI just released its answer to Claude Mythos",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
+      "source": "The Verge AI",
+      "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely vulnerabilities, and then automate the detection of the higher [&#8230;]",
+      "published": "2026-05-11T23:05:01+00:00",
+      "score": 42.0,
+      "headline": "OPENAI LAUNCHES DAYBREAK... ANSWERS CLAUDE MYTHOS"
+    },
+    {
+      "id": "7f5c9af48f850b0e",
+      "title": "Sutskever Says His OpenAI Stake Worth About $7 Billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI co-founder and former chief scientist Ilya Sutskever said his stake in the ChatGPT maker is worth roughly $7 billion, making him one of the largest individual shareholders in the artificial intelligence startup.",
+      "published": "2026-05-11T19:04:00+00:00",
+      "score": 42.0,
+      "headline": "SUTSKEVER'S OPENAI STAKE WORTH $7 BILLION"
+    },
+    {
       "id": "f1894d9e9a634d58",
       "title": "Elon Musk, Apple's Tim Cook to head to China with Trump: White House",
       "url": "https://economictimes.indiatimes.com/tech/technology/elon-musk-apples-tim-cook-to-head-to-china-with-trump-white-house/articleshow/131022207.cms",
@@ -469,14 +469,14 @@
       "headline": "Musk, Cook to Join Trump on Historic China Visit"
     },
     {
-      "id": "873c923ca0294678",
-      "title": "Anthropic's Claude used in attempted compromise of Mexican water utility",
-      "url": "https://www.cybersecuritydive.com/news/anthropics-claude-compromise-mexican-water-utility/819710/",
+      "id": "9125fe1e773484b8",
+      "title": "OpenAI gives EU new cyber model access but Anthropic still holding out on Mythos",
+      "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
       "source": "Hacker News",
-      "summary": "Article URL: https://www.cybersecuritydive.com/news/anthropics-claude-compromise-mexican-water-utility/819710/ Comments URL: https://news.ycombinator.com/item?id=48096237 Points: 2 # Comments: 0",
-      "published": "2026-05-11T15:23:19+00:00",
+      "summary": "Article URL: https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html Comments URL: https://news.ycombinator.com/item?id=48094494 Points: 1 # Comments: 0",
+      "published": "2026-05-11T13:08:17+00:00",
       "score": 42.0,
-      "headline": "ANTHROPIC's Claude Used in Mexican Water Utility Hack"
+      "headline": "OPENAI GIVES EU CYBER MODEL... ANTHROPIC HOLDS OUT"
     },
     {
       "id": "8a2ac0aa71e29975",
@@ -507,6 +507,26 @@
       "published": "2026-05-09T13:34:18+00:00",
       "score": 42.0,
       "headline": "GERMAN DEFENSE AI STARTUP HELSING NEARS $18B VALUATION"
+    },
+    {
+      "id": "6f9c4ccbeb803c92",
+      "title": "The Secret Diary That Has Spilled into the Musk vs. OpenAI Feud",
+      "url": "https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e Comments URL: https://news.ycombinator.com/item?id=48071091 Points: 1 # Comments: 0",
+      "published": "2026-05-09T02:16:27+00:00",
+      "score": 42.0,
+      "headline": "SECRET DIARY EXPOSED in Musk vs. OpenAI Trial"
+    },
+    {
+      "id": "806bf60215cb1dde",
+      "title": "Musk made \u2018hair-raising\u2019 demands for control of OpenAI, Altman testifies",
+      "url": "https://www.ft.com/content/e3341337-a598-49f3-9593-f2f326e048ae",
+      "source": "Financial Times Tech",
+      "summary": "Start-up\u2019s CEO takes the stand in legal battle with billionaire",
+      "published": "2026-05-12T18:06:45+00:00",
+      "score": 41.0,
+      "headline": "ALTMAN TESTIFIES: Musk Made 'Hair-Raising' Control Demands"
     },
     {
       "id": "413776248ffa692b",
@@ -747,6 +767,16 @@
       "published": "2026-05-09T05:45:55+00:00",
       "score": 41.0,
       "headline": "Thailand's SiamAI DENIES Exporting US AI Servers to China"
+    },
+    {
+      "id": "fa04898de70aa8fe",
+      "title": "This South Korean hotel worker is training a robot to fold a banquet napkin: \u2018I\u2019ve been doing this about once a month\u2019",
+      "url": "https://fortune.com/2026/05/12/this-south-korean-hotel-worker-is-training-a-robot-to-fold-a-banquet-napkin-ive-been-doing-this-about-once-a-month/",
+      "source": "Fortune Tech",
+      "summary": "The government last month announced a $33 million project to capture the \u201cinstinctive know-how and skills\u201d of \u201cmaster technicians\u201d into a database.",
+      "published": "2026-05-12T20:32:50+00:00",
+      "score": 40.0,
+      "headline": "South Korea Trains Robots with Master Technician Skills"
     },
     {
       "id": "000a74bed36f0cf8",
@@ -1027,37 +1057,7 @@
       "published": "2026-05-10T00:30:00+00:00",
       "score": 40.0,
       "headline": "India AI Mission Hits BUREAUCRATIC WALL as Startups Flag Delays"
-    },
-    {
-      "id": "6cb7b0c1914cc58a",
-      "title": "Tell HN: ChatGPT and Claude web front ends can run bash commands remotely",
-      "url": "https://news.ycombinator.com/item?id=48076557",
-      "source": "Hacker News",
-      "summary": "The result for the prompt \"run ls on your own server\" on ChatGPT. total 34K drwxr-xr-x 2 root root 160 May 9 17:12 . drwxr-xr-x 2 root root 160 May 9 17:12 .. -rwxr-xr-x 1 root root 0 May 9 17:12 .dockerenv lrwxrwxrwx 1 root root 7 Feb 24 2025 bin -> usr/bin drwxr-xr-x 2 root root 4.0K Dec 31 2024 boot drwxr-xr-x 4 root root 320 May 9 17:12 dev drwxr-xr-x 2 root root 60 May 9 17:12 etc drwxr-xr-x 2 root root 60 May 9 17:12 home lrwxrwxrwx 1 root root 7 Feb 24 2025 lib -> usr/lib lrwxrwxrwx 1 root root 9 Feb 24 2025 lib64 -> usr/lib64 drwxr-xr-x 2 root root 4.0K Feb 24 2025 media drwxr-xr-x 2 root root 4.0K Dec 30 22:28 mnt drwxr-xr-x 2 root root 4.0K Jan 8 08:28 openai drwxr-xr-x 2 root root 4.0K Jan 8 08:29 opt dr-xr-xr-x 20 root root 0 May 9 17:12 proc drwx------ 2 root root 4.0K Dec 18 04:35 root drwxr-xr-x 2 root root 100 May 9 17:12 run lrwxrwxrwx 1 root root 8 Feb 24 2025 sbin -> usr/sbin drwxr-xr-x 2 root root 4.0K Feb 24 2025 srv drwxr-xr-x 12 root root 0 May 9 17:12 sys drwxrw",
-      "published": "2026-05-09T17:19:37+00:00",
-      "score": 40.0,
-      "headline": "SECURITY ALERT: ChatGPT Can Run Remote Bash Commands"
-    },
-    {
-      "id": "f465b39a6a6df0e0",
-      "title": "ByteDance targets 25% rise in AI infrastructure spending",
-      "url": "https://economictimes.indiatimes.com/tech/technology/bytedance-targets-25-rise-in-ai-infrastructure-spending/articleshow/130981372.cms",
-      "source": "The Economic Times Tech",
-      "summary": "ByteDance has significantly increased its AI infrastructure spending by 25% to 200 billion yuan ($29.4 billion) this year, driven by rising memory chip costs and an expanded AI focus. The Chinese tech giant is prioritizing domestic AI chips, aligning with Beijing's push for local technology amid US rivalry. This investment supports ByteDance's AI chatbot, Doubao, which has seen substantial downloads.",
-      "published": "2026-05-09T17:16:16+00:00",
-      "score": 40.0,
-      "headline": "BYTEDANCE BOOSTS AI SPENDING 25% to $29.4B"
-    },
-    {
-      "id": "f3fb7528aec4b6ff",
-      "title": "Drone start-up Helsing set for $18bn valuation as investors pile into defence",
-      "url": "https://www.ft.com/content/0ca32fa3-cf28-4105-b1f9-ec5bc0c9158c",
-      "source": "Financial Times Tech",
-      "summary": "German company backed by Spotify\u2019s Daniel Ek set to raise $1.2bn in latest funding round",
-      "published": "2026-05-09T11:15:20+00:00",
-      "score": 40.0,
-      "headline": "Defense Drone Startup Helsing Hits $18B Valuation in $1.2B Round"
     }
   ],
-  "generated_at": "2026-05-12T19:44:58.869762"
+  "generated_at": "2026-05-12T21:16:43.687885"
 }
