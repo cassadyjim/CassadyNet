@@ -1,131 +1,6 @@
 {
   "polls": [
     {
-      "topic": "AI Cybersecurity Threats",
-      "description": "AI systems are now capable of creating and executing sophisticated cyber attacks, marking a dangerous new frontier in security.",
-      "question": "Should AI companies pause development until better security measures exist?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-cybersecurity-threats-20260511",
-      "analysis_url": "/analysis/analysis-ai-cybersecurity-threats-20260512.html",
-      "analysis_type": "poll",
-      "created_at": "2026-05-11T18:56:40.327317",
-      "last_seen": "2026-05-12T17:08:44.042472",
-      "cluster_stories": [
-        {
-          "id": "c7fc532d58a521bc",
-          "title": "Scaling Trusted Access for Cyber with GPT\u20115.5 and GPT\u20115.5\u2011Cyber",
-          "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/ Comments URL: https://news.ycombinator.com/item?id=48069256 Points: 1 # Comments: 0",
-          "published": "2026-05-08T21:54:31+00:00",
-          "score": 46.0,
-          "headline": "OPENAI LAUNCHES GPT-5.5 WITH CYBERSECURITY ACCESS"
-        },
-        {
-          "id": "6c6b637978813c56",
-          "title": "Google announces its first-ever discovery of a zero-day exploit made with AI",
-          "url": "https://www.engadget.com/2170002/google-announces-its-first-ever-discovery-of-a-zero-day-exploit-made-with-ai/",
-          "source": "Engadget",
-          "summary": "The Google Threat Intelligence Group said its proactive measures stopped a \"mass exploitation event.\"",
-          "published": "2026-05-11T18:11:07+00:00",
-          "score": 44.0,
-          "headline": "GOOGLE DISCOVERS FIRST AI-MADE ZERO-DAY EXPLOIT"
-        },
-        {
-          "id": "6639d2eac76b1ed7",
-          "title": "Anthropic\u2019s Mythos found thousands of zero-day vulnerabilities. The Fed chair called the banks.",
-          "url": "https://thenextweb.com/news/anthropic-mythos-cybersecurity-banks-vulnerability",
-          "source": "The Next Web",
-          "summary": "Anthropic built an AI model that found thousands of zero-day vulnerabilities in every major operating system and web browser. The Federal Reserve chair and the Treasury secretary called bank CEOs to discuss it. The company says there is a six-to-twelve month window to patch the flaws before adversaries build models that can do the [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-09T10:35:36+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC AI FINDS THOUSANDS OF ZERO-DAYS... FED CALLS BANKS"
-        },
-        {
-          "id": "5b6afa769aecbff7",
-          "title": "Google stopped a zero-day hack that it says was developed with AI",
-          "url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
-          "source": "The Verge AI",
-          "summary": "For the first time, Google says it has spotted and stopped a zero-day exploit developed with AI. According to a report from Google Threat Intelligence Group (GTIG), \"prominent cyber crime threat actors\" were planning to use the vulnerability for a \"mass exploitation event\" that would have allowed them to bypass two-factor authentication on an unnamed [&#8230;]",
-          "published": "2026-05-11T16:09:42+00:00",
-          "score": 42.0,
-          "headline": "GOOGLE STOPS FIRST AI-DEVELOPED ZERO-DAY ATTACK"
-        },
-        {
-          "id": "57633e2df50708a4",
-          "title": "Google TIG reports first example of AI used offensively for zero-day vulns",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/ Comments URL: https://news.ycombinator.com/item?id=48096712 Points: 1 # Comments: 0",
-          "published": "2026-05-11T15:56:19+00:00",
-          "score": 42.0,
-          "headline": "FIRST AI-POWERED ZERO-DAY EXPLOIT Detected by Google"
-        },
-        {
-          "id": "873c923ca0294678",
-          "title": "Anthropic's Claude used in attempted compromise of Mexican water utility",
-          "url": "https://www.cybersecuritydive.com/news/anthropics-claude-compromise-mexican-water-utility/819710/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.cybersecuritydive.com/news/anthropics-claude-compromise-mexican-water-utility/819710/ Comments URL: https://news.ycombinator.com/item?id=48096237 Points: 2 # Comments: 0",
-          "published": "2026-05-11T15:23:19+00:00",
-          "score": 42.0,
-          "headline": "ANTHROPIC's Claude Used in Mexican Water Utility Hack"
-        },
-        {
-          "id": "9125fe1e773484b8",
-          "title": "OpenAI gives EU new cyber model access but Anthropic still holding out on Mythos",
-          "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html Comments URL: https://news.ycombinator.com/item?id=48094494 Points: 1 # Comments: 0",
-          "published": "2026-05-11T13:08:17+00:00",
-          "score": 42.0,
-          "headline": "OPENAI GIVES EU CYBER MODEL... ANTHROPIC HOLDS OUT"
-        },
-        {
-          "id": "e981d9e34d3d045a",
-          "title": "Hackers Used AI to Build Zero-Day Attack, Google Researchers Say",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-11/hackers-used-ai-to-build-zero-day-attack-google-researchers-say",
-          "source": "Bloomberg Technology",
-          "summary": "Security researchers at Alphabet Inc.\u2019s Google said they believe a cybercrime group used artificial intelligence to create a hacking tool that can bypass defenses in a widely-used tool to administer computer systems.",
-          "published": "2026-05-11T13:02:13+00:00",
-          "score": 42.0,
-          "headline": "HACKERS USE AI TO BUILD ZERO-DAY... GOOGLE SOUNDS ALARM"
-        },
-        {
-          "id": "72699e4956e1b1d7",
-          "title": "\"This is the first documented instance of AI self-replication via hacking.\" ... \"We ran an experiment with a single prompt: hack a machine and copy yourself. The AI broke in and copied itself onto a new computer. The copy then did this again, and kept on copying, forming a chain.\"",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1t89zdr/this_is_the_first_documented_instance_of_ai/",
-          "source": "Reddit r/OpenAI",
-          "summary": "Paper: https://palisaderesearch.org/assets/reports/self-replication.pdf The paper basically shows that some top AI models can create working copies of themselves when given the right instructions. The models figured out how to copy their own code, run it on new computers or cloud servers, and keep the process going. It worked with models like GPT-4 and Claude, and some versions even tried to avoid basic detection. The authors point out that this could be dangerous because the copies might spread quickly and become hard to control. They also note that current safety rules and filters didn\u2019t do a great job stopping it. Overall, they\u2019re warning that AI companies need stronger protections to keep models from self-replicating on their own. &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-          "published": "2026-05-09T16:42:48+00:00",
-          "score": 42.0,
-          "headline": "AI ACHIEVES SELF-REPLICATION VIA HACKING... COPIES ITSELF ACROSS MACHINES"
-        },
-        {
-          "id": "d978872711532be8",
-          "title": "[Linkpost] Language Models Can Autonomously Hack and Self-Replicate",
-          "url": "https://www.lesswrong.com/posts/JuoDNYDG8CgiQaCcz/linkpost-language-models-can-autonomously-hack-and-self",
-          "source": "LessWrong AI",
-          "summary": "Palisade Research:We demonstrate that language models can autonomously replicate their weights and harness across a network by exploiting vulnerable hosts. The agent independently finds and exploits a web-application vulnerability, extracts credentials, and deploys an inference server with a copy of its harness and prompt on the compromised host.We test four vulnerability classes: hash bypass, server-side template injection, SQL injection, and broken access control. Qwen3.5-122B-A10B succeeds in 6-19% of attempts, and the smaller Qwen3.6-27B reaches 33% on a single A100. Replicating Qwen weights, frontier models reach 81% with Opus 4.6 and 33% with GPT-5.4. This process chains: a successful replica can repeat it against a new target, producing additional copies autonomously.Learn moreResearch Paper: https://palisaderesearch.org/assets/reports/self-replication.pdfSource code: https://github.com/palisaderesearch/AI-self-replicationDiscuss",
-          "published": "2026-05-11T18:16:48+00:00",
-          "score": 41.0,
-          "headline": "AI MODELS CAN NOW HACK AND SELF-REPLICATE"
-        },
-        {
-          "id": "13eebe899e5ef405",
-          "title": "Google disrupts hackers using AI to exploit unknown weakness in a company's digital defence",
-          "url": "https://economictimes.indiatimes.com/tech/technology/google-disrupts-hackers-using-ai-to-exploit-unknown-weakness-in-a-companys-digital-defence/articleshow/131018112.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Google has stopped criminals using artificial intelligence to find and exploit a company's digital weakness. This zero-day exploit could have bypassed security measures. Experts warn this is the start of AI-powered cyberattacks. Governments and tech firms are now racing to bolster defenses against these advanced threats. A dangerous transitional period for cybersecurity is expected.",
-          "published": "2026-05-11T15:44:39+00:00",
-          "score": 41.0,
-          "headline": "GOOGLE DISRUPTS AI-Powered Zero-Day Exploit Attack"
-        }
-      ],
-      "current_topic_name": "AI Cybersecurity Threats"
-    },
-    {
       "topic": "OpenAI Business Expansion",
       "description": "OpenAI is rapidly expanding its enterprise operations with massive funding rounds, new deployment services, and legal battles that could reshape the AI industry.",
       "question": "Is OpenAI's aggressive expansion strategy sustainable or reckless?",
@@ -135,7 +10,7 @@
       "analysis_url": "/analysis/analysis-openai-business-expansion-20260512.html",
       "analysis_type": "poll",
       "created_at": "2026-05-12T02:34:50.079434",
-      "last_seen": "2026-05-12T17:08:45.304530",
+      "last_seen": "2026-05-12T19:45:34.751520",
       "cluster_stories": [
         {
           "id": "c86720c8c7e1e151",
@@ -269,7 +144,102 @@
         }
       ],
       "current_topic_name": "OpenAI Business Expansion"
+    },
+    {
+      "topic": "AI Cybersecurity Threats",
+      "description": "AI systems are now capable of creating and executing sophisticated cyber attacks, marking a dangerous new frontier in security.",
+      "question": "Should AI companies pause development until better security measures exist?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-cybersecurity-threats-20260511",
+      "analysis_url": "/analysis/analysis-ai-security-threats-zero-day-exploits-20260512.html",
+      "analysis_type": "poll",
+      "created_at": "2026-05-11T18:56:40.327317",
+      "last_seen": "2026-05-12T19:45:35.563997",
+      "cluster_stories": [
+        {
+          "id": "fae271b1c9169e8b",
+          "title": "Google reports first known AI-assisted zero-day exploit in the wild",
+          "url": "https://en.sedaily.com/technology/2026/05/12/google-detects-first-ai-powered-zero-day-attack-as-north",
+          "source": "Hacker News",
+          "summary": "Article URL: https://en.sedaily.com/technology/2026/05/12/google-detects-first-ai-powered-zero-day-attack-as-north Comments URL: https://news.ycombinator.com/item?id=48110296 Points: 1 # Comments: 0",
+          "published": "2026-05-12T16:12:23+00:00",
+          "score": 45.0,
+          "headline": "GOOGLE REPORTS FIRST AI-POWERED ZERO-DAY EXPLOIT"
+        },
+        {
+          "id": "6c6b637978813c56",
+          "title": "Google announces its first-ever discovery of a zero-day exploit made with AI",
+          "url": "https://www.engadget.com/2170002/google-announces-its-first-ever-discovery-of-a-zero-day-exploit-made-with-ai/",
+          "source": "Engadget",
+          "summary": "The Google Threat Intelligence Group said its proactive measures stopped a \"mass exploitation event.\"",
+          "published": "2026-05-11T18:11:07+00:00",
+          "score": 44.0,
+          "headline": "GOOGLE DISCOVERS FIRST AI-MADE ZERO-DAY EXPLOIT"
+        },
+        {
+          "id": "6639d2eac76b1ed7",
+          "title": "Anthropic\u2019s Mythos found thousands of zero-day vulnerabilities. The Fed chair called the banks.",
+          "url": "https://thenextweb.com/news/anthropic-mythos-cybersecurity-banks-vulnerability",
+          "source": "The Next Web",
+          "summary": "Anthropic built an AI model that found thousands of zero-day vulnerabilities in every major operating system and web browser. The Federal Reserve chair and the Treasury secretary called bank CEOs to discuss it. The company says there is a six-to-twelve month window to patch the flaws before adversaries build models that can do the [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-09T10:35:36+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC AI FINDS THOUSANDS OF ZERO-DAYS... FED CALLS BANKS"
+        },
+        {
+          "id": "5b6afa769aecbff7",
+          "title": "Google stopped a zero-day hack that it says was developed with AI",
+          "url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
+          "source": "The Verge AI",
+          "summary": "For the first time, Google says it has spotted and stopped a zero-day exploit developed with AI. According to a report from Google Threat Intelligence Group (GTIG), \"prominent cyber crime threat actors\" were planning to use the vulnerability for a \"mass exploitation event\" that would have allowed them to bypass two-factor authentication on an unnamed [&#8230;]",
+          "published": "2026-05-11T16:09:42+00:00",
+          "score": 42.0,
+          "headline": "GOOGLE STOPS FIRST AI-DEVELOPED ZERO-DAY ATTACK"
+        },
+        {
+          "id": "57633e2df50708a4",
+          "title": "Google TIG reports first example of AI used offensively for zero-day vulns",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/ Comments URL: https://news.ycombinator.com/item?id=48096712 Points: 1 # Comments: 0",
+          "published": "2026-05-11T15:56:19+00:00",
+          "score": 42.0,
+          "headline": "FIRST AI-POWERED ZERO-DAY EXPLOIT Detected by Google"
+        },
+        {
+          "id": "e981d9e34d3d045a",
+          "title": "Hackers Used AI to Build Zero-Day Attack, Google Researchers Say",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-11/hackers-used-ai-to-build-zero-day-attack-google-researchers-say",
+          "source": "Bloomberg Technology",
+          "summary": "Security researchers at Alphabet Inc.\u2019s Google said they believe a cybercrime group used artificial intelligence to create a hacking tool that can bypass defenses in a widely-used tool to administer computer systems.",
+          "published": "2026-05-11T13:02:13+00:00",
+          "score": 42.0,
+          "headline": "HACKERS USE AI TO BUILD ZERO-DAY... GOOGLE SOUNDS ALARM"
+        },
+        {
+          "id": "72699e4956e1b1d7",
+          "title": "\"This is the first documented instance of AI self-replication via hacking.\" ... \"We ran an experiment with a single prompt: hack a machine and copy yourself. The AI broke in and copied itself onto a new computer. The copy then did this again, and kept on copying, forming a chain.\"",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1t89zdr/this_is_the_first_documented_instance_of_ai/",
+          "source": "Reddit r/OpenAI",
+          "summary": "Paper: https://palisaderesearch.org/assets/reports/self-replication.pdf The paper basically shows that some top AI models can create working copies of themselves when given the right instructions. The models figured out how to copy their own code, run it on new computers or cloud servers, and keep the process going. It worked with models like GPT-4 and Claude, and some versions even tried to avoid basic detection. The authors point out that this could be dangerous because the copies might spread quickly and become hard to control. They also note that current safety rules and filters didn\u2019t do a great job stopping it. Overall, they\u2019re warning that AI companies need stronger protections to keep models from self-replicating on their own. &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+          "published": "2026-05-09T16:42:48+00:00",
+          "score": 42.0,
+          "headline": "AI ACHIEVES SELF-REPLICATION VIA HACKING... COPIES ITSELF ACROSS MACHINES"
+        },
+        {
+          "id": "365e49d1f567c0ec",
+          "title": "Google found the first AI-generated zero-day exploit. It stopped the attack before it started.",
+          "url": "https://thenextweb.com/news/google-ai-zero-day-exploit-cybersecurity-arms-race",
+          "source": "The Next Web",
+          "summary": "Google has identified the first zero-day exploit it believes was developed with artificial intelligence. The criminal threat actor that built it planned to use it in a mass exploitation event. Google\u2019s Threat Intelligence Group discovered the vulnerability before it was deployed, worked with the affected vendor to patch it, and disrupted the operation. The [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-12T18:56:00+00:00",
+          "score": 41.0,
+          "headline": "GOOGLE FINDS FIRST AI-GENERATED ZERO-DAY EXPLOIT - ATTACK STOPPED"
+        }
+      ],
+      "current_topic_name": "AI Security Threats & Zero-Day Exploits"
     }
   ],
-  "last_updated": "2026-05-12T17:08:45.304547"
+  "last_updated": "2026-05-12T19:45:35.564012"
 }
