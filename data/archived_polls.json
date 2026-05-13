@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "South Korea AI Policy",
+      "description": "South Korea is pioneering government policies to redistribute AI profits to citizens as tech companies boom.",
+      "question": "Should South Korea redistribute AI profits to all citizens?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "south-korea-ai-policy-20260512",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-south-korea-ai-policy-20260513.html",
+      "started_at": "2026-05-12T21:17:13.462046",
+      "archived_at": "2026-05-13T21:25:31.986975",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Business Expansion",
       "description": "OpenAI is rapidly expanding its enterprise operations with massive funding rounds, new deployment services, and legal battles that could reshape the AI industry.",
       "question": "Is OpenAI's aggressive expansion strategy sustainable or reckless?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-sam-altman-molotov-attack-20260413.html",
       "started_at": "2026-04-12T19:37:14.143046",
       "archived_at": "2026-04-13T20:04:51.363219",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic's Dangerous Mythos AI",
-      "description": "Anthropic's new Mythos AI model is being withheld from public release due to its unprecedented ability to find security vulnerabilities, triggering emergency meetings among financial regulators and government officials.",
-      "question": "Should Anthropic release Mythos publicly despite the cybersecurity risks?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropics-dangerous-mythos-ai-20260411",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-mythos-ai-security-crisis-20260412.html",
-      "started_at": "2026-04-11T11:26:59.925438",
-      "archived_at": "2026-04-12T19:37:14.975861",
       "reason": "topic_replaced"
     }
   ]
