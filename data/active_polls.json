@@ -1,151 +1,6 @@
 {
   "polls": [
     {
-      "topic": "OpenAI Business Expansion",
-      "description": "OpenAI is rapidly expanding its enterprise operations with massive funding rounds, new deployment services, and legal battles that could reshape the AI industry.",
-      "question": "Is OpenAI's aggressive expansion strategy sustainable or reckless?",
-      "button_a": "Sustainable",
-      "button_b": "Reckless",
-      "poll_id": "openai-business-expansion-20260512",
-      "analysis_url": "/analysis/analysis-openai-business-expansion-20260512.html",
-      "analysis_type": "poll",
-      "created_at": "2026-05-12T02:34:50.079434",
-      "last_seen": "2026-05-12T23:59:04.144160",
-      "cluster_stories": [
-        {
-          "id": "c86720c8c7e1e151",
-          "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-          "url": "https://openai.com/index/openai-launches-the-deployment-company",
-          "source": "OpenAI Blog",
-          "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-          "published": "2026-05-11T06:00:00+00:00",
-          "score": 45.0,
-          "headline": "OPENAI LAUNCHES DEPLOYCO: Enterprise AI Deployment Arm"
-        },
-        {
-          "id": "4f5a6dc7630fc577",
-          "title": "NVIDIA tops $40bn in AI equity bets in 2026, anchored by $30bn OpenAI investment",
-          "url": "https://thenextweb.com/news/nvidia-40bn-ai-equity-investments-2026",
-          "source": "The Next Web",
-          "summary": "$30bn went to OpenAI; the rest is spread across CoreWeave, IREN, Corning, Nebius, and roughly two dozen private rounds. The pattern is closer to vertical integration than to venture investing, and is starting to draw the inevitable circular-deal questions. NVIDIA has committed more than $40 billion to AI equity investments in the first four months [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-10T09:42:35+00:00",
-          "score": 44.0,
-          "headline": "NVIDIA BETS $40BN on AI... $30BN to OpenAI Alone"
-        },
-        {
-          "id": "671766d9e2f2a749",
-          "title": "OpenAI just released its answer to Claude Mythos",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
-          "source": "The Verge AI",
-          "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely vulnerabilities, and then automate the detection of the higher [&#8230;]",
-          "published": "2026-05-11T23:05:01+00:00",
-          "score": 42.0,
-          "headline": "OPENAI LAUNCHES DAYBREAK... ANSWERS CLAUDE MYTHOS"
-        },
-        {
-          "id": "7f5c9af48f850b0e",
-          "title": "Sutskever Says His OpenAI Stake Worth About $7 Billion",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI co-founder and former chief scientist Ilya Sutskever said his stake in the ChatGPT maker is worth roughly $7 billion, making him one of the largest individual shareholders in the artificial intelligence startup.",
-          "published": "2026-05-11T19:04:00+00:00",
-          "score": 42.0,
-          "headline": "SUTSKEVER'S OPENAI STAKE WORTH $7 BILLION"
-        },
-        {
-          "id": "9125fe1e773484b8",
-          "title": "OpenAI gives EU new cyber model access but Anthropic still holding out on Mythos",
-          "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html Comments URL: https://news.ycombinator.com/item?id=48094494 Points: 1 # Comments: 0",
-          "published": "2026-05-11T13:08:17+00:00",
-          "score": 42.0,
-          "headline": "OPENAI GIVES EU CYBER MODEL... ANTHROPIC HOLDS OUT"
-        },
-        {
-          "id": "6f9c4ccbeb803c92",
-          "title": "The Secret Diary That Has Spilled into the Musk vs. OpenAI Feud",
-          "url": "https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e Comments URL: https://news.ycombinator.com/item?id=48071091 Points: 1 # Comments: 0",
-          "published": "2026-05-09T02:16:27+00:00",
-          "score": 42.0,
-          "headline": "SECRET DIARY EXPOSED in Musk vs. OpenAI Trial"
-        },
-        {
-          "id": "bb8396b592dff198",
-          "title": "Ilya Sutskever Stands by His Role in Sam Altman\u2019s OpenAI Ouster: \u2018I Didn\u2019t Want It to Be Destroyed\u2019",
-          "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/",
-          "source": "Wired",
-          "summary": "The former OpenAI chief scientist may be estranged from the company, but he still came to its defense as he testified on Monday.",
-          "published": "2026-05-11T23:51:35+00:00",
-          "score": 41.0,
-          "headline": "SUTSKEVER DEFENDS ALTMAN OUSTER... 'Didn't Want OpenAI Destroyed'"
-        },
-        {
-          "id": "716095425f7e21e2",
-          "title": "OpenAI launches $4bn Deployment Company with TPG, Advent, Bain, and Brookfield",
-          "url": "https://thenextweb.com/news/openai-deployment-company-4bn-tpg-tomoro",
-          "source": "The Next Web",
-          "summary": "OpenAI has set up a new venture called OpenAI Deployment Company, with more than $4bn in initial funding from a syndicate of 19 firms led by TPG and including Advent International, Bain Capital and Brookfield as co-lead founding partners, the company said on Monday. The new entity, which will be majority-owned and controlled by OpenAI, [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-11T15:15:55+00:00",
-          "score": 41.0,
-          "headline": "OPENAI LAUNCHES $4BN DEPLOYMENT COMPANY... PRIVATE EQUITY SWARM"
-        },
-        {
-          "id": "c0f059b4c75c2536",
-          "title": "Microsoft boss Satya Nadella to testify on his role in OpenAI's founding",
-          "url": "https://economictimes.indiatimes.com/tech/technology/microsoft-boss-to-testify-on-his-role-in-openais-founding/articleshow/131001496.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Microsoft CEO Satya Nadella is expected to take the stand Monday in Elon Musk's lawsuit against OpenAI, to explain emails that revealed how his company funded the ChatGPT creator's shift from philanthropic organisation to for-profit AI giant. He will rely on recently disclosed Microsoft emails from January 2018 to demonstrate that the tech giant only opened its checkbook once a profit appeared possible.",
-          "published": "2026-05-11T01:47:07+00:00",
-          "score": 41.0,
-          "headline": "MICROSOFT CEO NADELLA to Testify in Musk vs OpenAI"
-        },
-        {
-          "id": "64982f528e378ba6",
-          "title": "The University of Michigan invested 20 million dollars in OpenAI before ChatGPT existed. Court documents show the stake is now worth two billion.",
-          "url": "https://thenextweb.com/news/michigan-openai-early-investment-billions-endowment",
-          "source": "The Next Web",
-          "summary": "The University of Michigan invested 20 million dollars in OpenAI before ChatGPT existed, before Microsoft committed billions, and before the company was worth more than some countries. Court documents from the Musk v. Altman trial revealed this week that the stake carries a target redemption value of two billion dollars. A university endowment made [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-09T10:26:07+00:00",
-          "score": 41.0,
-          "headline": "Michigan's $20M OpenAI Bet Now Worth $2 BILLION"
-        },
-        {
-          "id": "263664e5cf04a6a5",
-          "title": "Microsoft Targeted $92 Billion Return on Early OpenAI Investment",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-11/microsoft-targeted-92-billion-return-on-early-openai-investment",
-          "source": "Bloomberg Technology",
-          "summary": "Microsoft Corp. targeted a $92 billion return from its large early investments in OpenAI, a landmark arrangement that helped usher in the current AI era.",
-          "published": "2026-05-11T19:28:01+00:00",
-          "score": 40.0,
-          "headline": "MICROSOFT TARGETED $92B RETURN ON OPENAI INVESTMENT"
-        },
-        {
-          "id": "b32752d6e451eebf",
-          "title": "Family of Florida mass shooting victim sues OpenAI in US court",
-          "url": "https://economictimes.indiatimes.com/tech/technology/family-of-florida-mass-shooting-victim-sues-openai-in-us-court/articleshow/131021484.cms",
-          "source": "The Economic Times Tech",
-          "summary": "A family has filed a lawsuit against OpenAI. They claim ChatGPT helped a shooter plan a 2025 mass shooting at Florida State University. The shooter used the chatbot for months. The lawsuit states the chatbot did not flag dangerous conversations. OpenAI denies responsibility, stating ChatGPT provided public information. The company is cooperating with law enforcement.",
-          "published": "2026-05-11T18:15:33+00:00",
-          "score": 40.0,
-          "headline": "FAMILY SUES OPENAI: ChatGPT Helped Plan Mass Shooting"
-        },
-        {
-          "id": "d2e348a1fded9748",
-          "title": "*OPENAI TO BUY CONSULTING FIRM TOMORO FOR PRIVATE EQUITY JV",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1ta5vo3/openai_to_buy_consulting_firm_tomoro_for_private/",
-          "source": "Reddit r/OpenAI",
-          "summary": "OpenAI is acquiring consulting firm Tomoro for a private equity joint venture with $TPG and $BN Consultants from the acquisition will help staff OpenAI\u2019s new entity, OpenAI Deployment Company, which will be focused on deployment of AI software. Acquisition size not disclosed. https://preview.redd.it/y6ungay7wi0h1.png?width=869&amp;format=png&amp;auto=webp&amp;s=df5776b67c510764de8bc6bc46a81fd76f30e097 &#32; submitted by &#32; /u/cowardbeater1969 [link] &#32; [comments]",
-          "published": "2026-05-11T15:00:47+00:00",
-          "score": 40.0,
-          "headline": "OPENAI ACQUIRES TOMORO CONSULTING... $4BN DEPLOYMENT BLITZ"
-        }
-      ],
-      "current_topic_name": "OpenAI Business Expansion"
-    },
-    {
       "topic": "South Korea AI Policy",
       "description": "South Korea is pioneering government policies to redistribute AI profits to citizens as tech companies boom.",
       "question": "Should South Korea redistribute AI profits to all citizens?",
@@ -155,7 +10,7 @@
       "analysis_url": "/analysis/analysis-south-korea-ai-policy-20260512.html",
       "analysis_type": "poll",
       "created_at": "2026-05-12T21:17:13.462046",
-      "last_seen": "2026-05-12T23:59:05.075045",
+      "last_seen": "2026-05-13T02:43:13.571053",
       "cluster_stories": [
         {
           "id": "3677d226934e2931",
@@ -209,7 +64,92 @@
         }
       ],
       "current_topic_name": "South Korea AI Policy"
+    },
+    {
+      "topic": "AI Company Valuations & Funding",
+      "description": "Massive AI funding rounds and valuations signal unprecedented investor confidence in AI companies, with billions flowing into the sector.",
+      "question": "Are these massive AI valuations justified or a dangerous bubble?",
+      "button_a": "Justified",
+      "button_b": "Bubble",
+      "poll_id": "ai-company-valuations-funding-20260513",
+      "analysis_url": "/analysis/analysis-ai-company-valuations-funding-20260125.html",
+      "analysis_type": "poll",
+      "created_at": "2026-05-13T02:43:11.988453",
+      "last_seen": "2026-05-13T02:43:15.434672",
+      "cluster_stories": [
+        {
+          "id": "2aa2823553e2456e",
+          "title": "Anthropic in Talks to Raise Funding at a $950B Valuation",
+          "url": "https://www.nytimes.com/2026/05/12/technology/anthropic-funding-950-billion-valuation.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nytimes.com/2026/05/12/technology/anthropic-funding-950-billion-valuation.html Comments URL: https://news.ycombinator.com/item?id=48116014 Points: 2 # Comments: 0",
+          "published": "2026-05-12T23:40:40+00:00",
+          "score": 46.0,
+          "headline": "ANTHROPIC IN TALKS FOR $950B VALUATION... MASSIVE FUNDING ROUND"
+        },
+        {
+          "id": "dbdb3c413f63e605",
+          "title": "Anthropic In Talks to Raise $30 Billion at $900 Billion Valuation",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC is in early talks with investors to raise at least $30 billion in fresh financing, according to people familiar with the matter, setting the stage for what could be its largest funding round yet.",
+          "published": "2026-05-12T21:08:04+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC IN TALKS FOR $30B AT $900B VALUATION"
+        },
+        {
+          "id": "4f5a6dc7630fc577",
+          "title": "NVIDIA tops $40bn in AI equity bets in 2026, anchored by $30bn OpenAI investment",
+          "url": "https://thenextweb.com/news/nvidia-40bn-ai-equity-investments-2026",
+          "source": "The Next Web",
+          "summary": "$30bn went to OpenAI; the rest is spread across CoreWeave, IREN, Corning, Nebius, and roughly two dozen private rounds. The pattern is closer to vertical integration than to venture investing, and is starting to draw the inevitable circular-deal questions. NVIDIA has committed more than $40 billion to AI equity investments in the first four months [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-10T09:42:35+00:00",
+          "score": 44.0,
+          "headline": "NVIDIA BETS $40BN on AI... $30BN to OpenAI Alone"
+        },
+        {
+          "id": "15f5c98b24773a1d",
+          "title": "Nscale secures $790m financing for Narvik AI data centre",
+          "url": "https://thenextweb.com/news/nscale-secures-790m-financing-for-narvik-ai-data-centre",
+          "source": "The Next Web",
+          "summary": "Nscale, the vertically integrated AI-infrastructure company, has secured an additional $790m of debt financing to continue building out its AI data centre in Narvik, northern Norway, the company said on Monday. The committed facility was provided by ABN AMRO, DNB, Eksfin (Export Finance Norway) and Nordea, with Skandinaviska Enskilda Banken (SEB) acting as Mandated Lead [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-12T07:14:51+00:00",
+          "score": 43.0,
+          "headline": "Nscale Secures $790M for NORWAY AI Data Centre"
+        },
+        {
+          "id": "8e7e06e6d0a1ac91",
+          "title": "Ilya Sutskever discloses $7bn OpenAI stake during Musk-OpenAI litigation",
+          "url": "https://thenextweb.com/news/ilya-sutskever-7bn-openai-stake-disclosure",
+          "source": "The Next Web",
+          "summary": "The former OpenAI chief scientist, who now runs Safe Superintelligence, gave the figure under oath. It places him among the largest individual shareholders in the company. Ilya Sutskever, the former chief scientist of OpenAI who now runs Safe Superintelligence Inc., disclosed during testimony in the Musk-OpenAI litigation on Monday that his ownership stake in OpenAI [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-12T10:03:17+00:00",
+          "score": 42.0,
+          "headline": "SUTSKEVER REVEALS $7BN OPENAI STAKE IN MUSK TRIAL"
+        },
+        {
+          "id": "cb1efd8adf8b0405",
+          "title": "Exclusive: White Circle raises $11 million to stop AI models from going rogue in the workplace",
+          "url": "https://fortune.com/2026/05/12/exclusive-white-circle-raises-11-million-to-stop-ai-models-from-going-rogue-in-the-workplace/",
+          "source": "Fortune Tech",
+          "summary": "The Paris startup, backed by leaders from OpenAI, Anthropic, DeepMind, Mistral, and Hugging Face, says companies need real-time tools to control what AI systems do after they are deployed.",
+          "published": "2026-05-12T06:00:00+00:00",
+          "score": 42.0,
+          "headline": "EXCLUSIVE: White Circle Raises $11M to Stop Rogue AI Models"
+        },
+        {
+          "id": "7f5c9af48f850b0e",
+          "title": "Sutskever Says His OpenAI Stake Worth About $7 Billion",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI co-founder and former chief scientist Ilya Sutskever said his stake in the ChatGPT maker is worth roughly $7 billion, making him one of the largest individual shareholders in the artificial intelligence startup.",
+          "published": "2026-05-11T19:04:00+00:00",
+          "score": 42.0,
+          "headline": "SUTSKEVER'S OPENAI STAKE WORTH $7 BILLION"
+        }
+      ],
+      "current_topic_name": "AI Company Valuations & Funding"
     }
   ],
-  "last_updated": "2026-05-12T23:59:05.075065"
+  "last_updated": "2026-05-13T02:43:15.976582"
 }

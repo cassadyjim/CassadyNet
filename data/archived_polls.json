@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Business Expansion",
+      "description": "OpenAI is rapidly expanding its enterprise operations with massive funding rounds, new deployment services, and legal battles that could reshape the AI industry.",
+      "question": "Is OpenAI's aggressive expansion strategy sustainable or reckless?",
+      "button_a": "Sustainable",
+      "button_b": "Reckless",
+      "poll_id": "openai-business-expansion-20260512",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-business-expansion-20260512.html",
+      "started_at": "2026-05-12T02:34:50.079434",
+      "archived_at": "2026-05-13T02:43:15.975426",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Cybersecurity Threats",
       "description": "AI systems are now capable of creating and executing sophisticated cyber attacks, marking a dangerous new frontier in security.",
       "question": "Should AI companies pause development until better security measures exist?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-anthropic-mythos-ai-security-crisis-20260412.html",
       "started_at": "2026-04-11T11:26:59.925438",
       "archived_at": "2026-04-12T19:37:14.975861",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic Mythos AI Security Crisis",
-      "description": "Anthropic's new AI model discovers massive security vulnerabilities and is deemed too dangerous for public release, triggering emergency meetings among financial regulators and Wall Street executives.",
-      "question": "Should powerful AI vulnerability-hunting tools be kept secret or shared publicly?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropic-mythos-cybersecurity-ai-20260408",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-mythos-ai-security-crisis-20260412.html",
-      "started_at": "2026-04-11T18:37:43.516646",
-      "archived_at": "2026-04-12T18:42:32.766400",
       "reason": "topic_replaced"
     }
   ]
