@@ -139,8 +139,8 @@
       "story_count": 13
     },
     {
-      "topic": "US-China AI Chip Relations",
-      "description": "Trump-Xi diplomatic talks and US policy decisions around Nvidia H200 chip exports to China are reshaping the global AI supply chain.",
+      "topic": "US-China AI Chip Tensions",
+      "description": "Trump-Xi discussions and US chip export policies to China are reshaping the global AI hardware landscape.",
       "stories": [
         {
           "id": "77935bd451b97690",
@@ -267,6 +267,16 @@
       "published": "2026-05-16T07:38:39+00:00",
       "score": 49.0,
       "headline": "UK PARLIAMENT CONSIDERS AI KILL SWITCH"
+    },
+    {
+      "id": "d2c3d643bd0d74c7",
+      "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
+      "published": "2026-05-17T11:26:46+00:00",
+      "score": 45.0,
+      "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
     },
     {
       "id": "e8a938ad05dff55e",
@@ -1057,17 +1067,7 @@
       "published": "2026-05-15T07:48:53+00:00",
       "score": 40.0,
       "headline": "MUSK SKIPS OpenAI Trial Closing... Jury Begins Deliberation"
-    },
-    {
-      "id": "013f88339070e259",
-      "title": "Rapido raises $240 million from Prosus, WestBridge, Accel at $3 billion valuation",
-      "url": "https://economictimes.indiatimes.com/tech/funding/rapido-raises-240-million-from-prosus-westbridge-accel-at-3-billion-valuation/articleshow/131111200.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Urban mobility startup Rapido has secured $240 million in a funding round led by Prosus, valuing the company at $3 billion. This raise is part of a larger $730 million round and will be used to expand markets, grow its captain network, and enhance technology.",
-      "published": "2026-05-15T07:21:46+00:00",
-      "score": 40.0,
-      "headline": null
     }
   ],
-  "generated_at": "2026-05-17T11:01:50.829739"
+  "generated_at": "2026-05-17T12:03:19.552930"
 }
