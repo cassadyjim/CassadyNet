@@ -139,8 +139,8 @@
       "story_count": 13
     },
     {
-      "topic": "US-China AI Chip Tensions",
-      "description": "Major geopolitical developments around AI chip exports and trade relations between the US and China following Trump-Xi discussions.",
+      "topic": "US-China AI Chip Trade",
+      "description": "Trump-Xi talks on AI cooperation and Nvidia chip exports reveal major geopolitical tensions over AI technology access.",
       "stories": [
         {
           "id": "77935bd451b97690",
@@ -251,10 +251,20 @@
           "published": "2026-05-15T06:49:33+00:00",
           "score": 42.0,
           "headline": "KOREAN CHIPMAKERS Face China Export Dilemma Post Trump-Xi Talks"
+        },
+        {
+          "id": "85d3b12522d2efb6",
+          "title": "Carmakers fear production hit after EU sanctions on Chinese chipmaker",
+          "url": "https://www.ft.com/content/7e24058a-1697-4c36-9939-eb426117850c",
+          "source": "Financial Times Tech",
+          "summary": "Companies \u2018scrambling for information\u2019 after ban on trading with key supplier",
+          "published": "2026-05-14T10:00:09+00:00",
+          "score": 42.0,
+          "headline": "EU Sanctions Chinese Chipmaker, Carmakers Fear Production Hit"
         }
       ],
       "top_score": 46.0,
-      "story_count": 11
+      "story_count": 12
     }
   ],
   "unclustered": [
@@ -329,6 +339,16 @@
       "headline": "MISTRAL FOUNDER: Engineers Write Zero Code Now"
     },
     {
+      "id": "b9939c2fea2643f2",
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "published": "2026-05-16T00:00:00+00:00",
+      "score": 43.0,
+      "headline": "OpenAI Partners with MALTA... FREE ChatGPT Plus for ALL Citizens"
+    },
+    {
       "id": "b6cffbf7ae9bb38f",
       "title": "Anthropic agrees terms of $30bn funding deal at $900bn valuation",
       "url": "https://www.ft.com/content/9deae3c6-716d-4f4d-8b09-434d8519f847",
@@ -387,6 +407,46 @@
       "published": "2026-05-14T04:50:29+00:00",
       "score": 43.0,
       "headline": "TSMC PREDICTS $1.5 TRILLION CHIP MARKET BY 2030"
+    },
+    {
+      "id": "ed502125b398342d",
+      "title": "Deepseek V4's 1M context window: the breaking point",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tfhl0q/deepseek_v4s_1m_context_window_the_breaking_point/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Just ran to verify deepseek v4's context claim of 1M and ran it across three production codebases like 45k (microservice), 180k (monorepo backend) and 520k(full stack app). For the observation, tasks included dependency tracing, cross file refractors and bug isolation to see where recall keeps up under 150k Got a solid performance like at 45k tokens, function calls traced across 8 files maintain accurate path reconstruction. At 180k, multi file refractors spanning 14 files show consistent architectural understand and no contradictions or context loss patterns past 300k precision quality degrades here. asked for exact line numbers from functions defined 400k tokens earlier, responses give &quot;around line 230&quot; instead of the actual 247. at 520k outputs shift to architectural summaries that skip implementation details, thats a problem if edge cases are a concern the latency gap Time to first token measures around 1.19s on deepinfra fp4 endpoint. Time to first answer in max reasonin",
+      "published": "2026-05-17T06:35:44+00:00",
+      "score": 42.0,
+      "headline": "DeepSeek V4's 1M Context HITS BREAKING POINT in Real Tests"
+    },
+    {
+      "id": "ca3d22b0c7f2b648",
+      "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://openai.com/index/malta-chatgpt-plus-partnership/ Comments URL: https://news.ycombinator.com/item?id=48163392 Points: 31 # Comments: 20",
+      "published": "2026-05-16T20:14:06+00:00",
+      "score": 42.0,
+      "headline": "MALTA GIVES ALL CITIZENS FREE CHATGPT PLUS"
+    },
+    {
+      "id": "2aa2da043d8f286e",
+      "title": "OpenAI & Malta sign deal to provide all Maltese citizens with ChatGPT Plus for one year.",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1tewgyp/openai_malta_sign_deal_to_provide_all_maltese/",
+      "source": "Reddit r/OpenAI",
+      "summary": "Malta\u2019s AI for All initiative will offer an AI literacy course developed by the University of Malta. After completing it, eligible citizens can access ChatGPT Plus for one year at no cost. https://openai.com/index/malta-chatgpt-plus-partnership/ &#32; submitted by &#32; /u/CucumberAccording813 [link] &#32; [comments]",
+      "published": "2026-05-16T15:16:17+00:00",
+      "score": 42.0,
+      "headline": "Malta Gives ALL CITIZENS Free ChatGPT Plus for Year"
+    },
+    {
+      "id": "f2f58d9b7ec2a198",
+      "title": "OpenAI seals deal in Malta to give all Maltese access to ChatGPT Plus",
+      "url": "https://www.reuters.com/business/openai-seals-deal-malta-give-all-maltese-access-chatgpt-plus-2026-05-16/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reuters.com/business/openai-seals-deal-malta-give-all-maltese-access-chatgpt-plus-2026-05-16/ Comments URL: https://news.ycombinator.com/item?id=48160324 Points: 2 # Comments: 1",
+      "published": "2026-05-16T13:58:57+00:00",
+      "score": 42.0,
+      "headline": "OpenAI Gives All Malta Citizens Free ChatGPT Plus Access"
     },
     {
       "id": "39288f18c175eafe",
@@ -497,16 +557,6 @@
       "published": "2026-05-14T13:57:33+00:00",
       "score": 42.0,
       "headline": "Mind Robotics Raises $400M for AI Manufacturing Bots"
-    },
-    {
-      "id": "85d3b12522d2efb6",
-      "title": "Carmakers fear production hit after EU sanctions on Chinese chipmaker",
-      "url": "https://www.ft.com/content/7e24058a-1697-4c36-9939-eb426117850c",
-      "source": "Financial Times Tech",
-      "summary": "Companies \u2018scrambling for information\u2019 after ban on trading with key supplier",
-      "published": "2026-05-14T10:00:09+00:00",
-      "score": 42.0,
-      "headline": "EU Sanctions Chinese Chipmaker, Carmakers Fear Production Hit"
     },
     {
       "id": "0a9180b306271bd6",
@@ -759,6 +809,26 @@
       "headline": "GOOGLE REPORTS FIRST AI-CRAFTED ZERO-DAY EXPLOIT IN WILD"
     },
     {
+      "id": "e3f46b2c87ee33d5",
+      "title": "OpenAI to give all Malta residents free ChatGPT Plus access",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1tfk57g/openai_to_give_all_malta_residents_free_chatgpt/",
+      "source": "Reddit r/OpenAI",
+      "summary": "OpenAI announced on Saturday a first-of-its-kind deal with the Maltese government to provide all residents of the Mediterranean island nation with free access to ChatGPT Plus. &#32; submitted by &#32; /u/Chasmchas [link] &#32; [comments]",
+      "published": "2026-05-17T08:59:30+00:00",
+      "score": 40.0,
+      "headline": "MALTA GIVES ALL CITIZENS FREE ChatGPT Plus... First Nation Deal"
+    },
+    {
+      "id": "2d98dd28078b4abb",
+      "title": "Why Trump took US tech leaders to Beijing",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3353561/why-trump-took-us-tech-leaders-beijing?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "US President Donald Trump\u2019s visit to Beijing with a delegation of leading American tech executives should not be read as a throwback to transactional diplomacy. It points to something more consequential. After years of rhetoric about economic separation, the reality is becoming harder to ignore: the United States and China are not decoupling. They are learning how to compete while remaining deeply entangled. For much of the past decade, Washington has framed its China policy around technological...",
+      "published": "2026-05-17T08:30:05+00:00",
+      "score": 40.0,
+      "headline": "TRUMP BRINGS US TECH LEADERS TO BEIJING... Strategic Shift"
+    },
+    {
       "id": "942a6150811f17b4",
       "title": "Microsoft starts canceling Claude Code licenses",
       "url": "https://www.techbuzz.ai/articles/microsoft-starts-canceling-claude-code-licenses",
@@ -987,37 +1057,7 @@
       "published": "2026-05-15T00:00:00+00:00",
       "score": 40.0,
       "headline": "CHATGPT LAUNCHES PERSONAL FINANCE FEATURE"
-    },
-    {
-      "id": "17ff85e16a36ebb4",
-      "title": "What the jury will actually decide in the case of Elon Musk vs. Sam Altman",
-      "url": "https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/",
-      "source": "TechCrunch AI",
-      "summary": "Here's what the biggest tech court case of the year is all about.",
-      "published": "2026-05-14T22:47:51+00:00",
-      "score": 40.0,
-      "headline": "MUSK VS ALTMAN: What Jury Will Actually Decide"
-    },
-    {
-      "id": "cdbe33949a922b10",
-      "title": "AI Chipmaker Cerebras Climbs 68% After Year\u2019s Biggest IPO",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-14/ai-chipmaker-cerebras-climbs-after-year-s-biggest-ipo-video",
-      "source": "Bloomberg Technology",
-      "summary": "Cerebras Systems Inc. shares jumped 68% in its trading debut after raising $5.5 billion in the year\u2019s largest IPO, illustrating investors\u2019 surging appetite for artificial intelligence data centers and the chips running them. Shares of the Sunnyvale, California-based company pared earlier gains to close at $311.07 each on Thursday in New York, above the $185 IPO price, after being halted earlier for volatility. Cerebras\u2019 first-time share sale raised nearly 60% more than its target when it launched, and priced above a marketed range that was revised higher on Monday. Bloomberg's Ed Ludlow joins to discuss. (Source: Bloomberg)",
-      "published": "2026-05-14T20:12:41+00:00",
-      "score": 40.0,
-      "headline": "AI Chipmaker Cerebras JUMPS 68% in Biggest IPO of Year"
-    },
-    {
-      "id": "86c380060003cb7d",
-      "title": "Anthropic just published a pretty alarming 2028 AI scenario paper and it's not about AGI safety in the usual sense",
-      "url": "https://www.reddit.com/r/artificial/comments/1td99uw/anthropic_just_published_a_pretty_alarming_2028/",
-      "source": "Reddit r/artificial",
-      "summary": "Anthropic dropped a new research paper today outlining two possible futures for global AI leadership by 2028, and it reads more like a geopolitical briefing than a typical AI safety paper. The core argument: The US currently has a meaningful lead over China in frontier AI, primarily because of compute (chips). American and allied companies (NVIDIA, TSMC, ASML, etc.) built technology China simply can't replicate yet. Export controls have made that gap real. But China's labs have stayed surprisingly close through two workarounds: Chip smuggling + overseas data center access - PRC labs are apparently training on export-controlled US chips they shouldn't have. A Supermicro co-founder was recently charged for diverting $2.5B worth of servers to China. Distillation attacks - creating thousands of fake accounts on US AI platforms, harvesting model outputs at scale, and using that to train their own models. Essentially free-riding on billions in US R&amp;D. The two scenarios for 2028: Scenario",
-      "published": "2026-05-14T19:53:12+00:00",
-      "score": 40.0,
-      "headline": "Anthropic's ALARMING 2028 AI Geopolitical Scenario Paper"
     }
   ],
-  "generated_at": "2026-05-17T06:18:52.059643"
+  "generated_at": "2026-05-17T09:01:58.573087"
 }
