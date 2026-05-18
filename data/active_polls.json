@@ -1,16 +1,91 @@
 {
   "polls": [
     {
+      "topic": "AI Security Breaches & Vulnerabilities",
+      "description": "Major security incidents exposing critical flaws in AI systems and platforms, raising concerns about AI safety and data protection.",
+      "question": "Are AI security failures mainly due to rushed deployment or inherent complexity?",
+      "button_a": "Deployment",
+      "button_b": "Complexity",
+      "poll_id": "ai-security-breaches-vulnerabilities-20260518",
+      "analysis_url": "/analysis/analysis-ai-security-breaches-vulnerabilities-20260518.html",
+      "analysis_type": "poll",
+      "created_at": "2026-05-18T02:47:51.140443",
+      "last_seen": "2026-05-18T06:55:28.078060",
+      "cluster_stories": [
+        {
+          "id": "d2c3d643bd0d74c7",
+          "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
+          "source": "Reddit r/MachineLearning",
+          "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
+          "published": "2026-05-17T11:26:46+00:00",
+          "score": 45.0,
+          "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
+        },
+        {
+          "id": "e8a938ad05dff55e",
+          "title": "Claude Mythos has cracked MacOS. It took 5 days.",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1tdy6ve/claude_mythos_has_cracked_macos_it_took_5_days/",
+          "source": "Reddit r/OpenAI",
+          "summary": "src https://www.wsj.com/tech/ai/anthropic-mythos-apple-macos-bug-339da403 &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+          "published": "2026-05-15T14:34:46+00:00",
+          "score": 45.0,
+          "headline": "CLAUDE MYTHOS CRACKS MACOS IN 5 DAYS... Security Meltdown"
+        },
+        {
+          "id": "2c4af00cd13835ea",
+          "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
+          "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
+          "source": "The Next Web",
+          "summary": "The two hacks came a little over two weeks apart. On 1 April, attackers drained roughly $285 million from Drift Protocol, a Solana-based derivatives exchange, after spending months posing as a quantitative trading firm to trick employees into authorising malicious transactions. On 18 April, a separate group exploited a single-verifier flaw in Kelp DAO\u2019s [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-15T14:59:55+00:00",
+          "score": 44.0,
+          "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
+        },
+        {
+          "id": "e55e1cea1c1ad20a",
+          "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
+          "url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019 Comments URL: https://news.ycombinator.com/item?id=48164196 Points: 3 # Comments: 0",
+          "published": "2026-05-16T22:07:46+00:00",
+          "score": 43.0,
+          "headline": "OpenAI Employee Devices COMPROMISED in NPM Supply Chain Attack"
+        },
+        {
+          "id": "a1c173032d9362df",
+          "title": "Irst Apple M5 memory exploit discovered using Anthropic AI",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement Comments URL: https://news.ycombinator.com/item?id=48164199 Points: 1 # Comments: 0",
+          "published": "2026-05-16T22:08:21+00:00",
+          "score": 41.0,
+          "headline": "FIRST Apple M5 Exploit Found Using Anthropic's Claude Mythos"
+        },
+        {
+          "id": "9852ec24dd59c624",
+          "title": "Security researchers, aided by Anthropic's Mythos, claim to have breached macOS",
+          "url": "https://www.engadget.com/2173543/security-researchers-anthropic-mythos-macos-exploit/",
+          "source": "Engadget",
+          "summary": "Apple is taking the claims seriously.",
+          "published": "2026-05-15T10:35:55+00:00",
+          "score": 41.0,
+          "headline": "ANTHROPIC'S MYTHOS AI HACKS macOS... APPLE RESPONDS"
+        }
+      ],
+      "current_topic_name": "AI Security Breaches & Vulnerabilities"
+    },
+    {
       "topic": "Trump-China AI Summit",
       "description": "Historic diplomatic meeting between Trump and Xi with tech CEOs pushing AI cooperation over trade tensions.",
       "question": "Should the US prioritize AI cooperation or security concerns with China?",
       "button_a": "Cooperation",
       "button_b": "China",
       "poll_id": "trump-china-ai-summit-20260513",
-      "analysis_url": "/analysis/analysis-trump-xi-ai-chip-diplomacy-20260516.html",
+      "analysis_url": "/analysis/analysis-trump-xi-china-tech-relations-20260518.html",
       "analysis_type": "poll",
       "created_at": "2026-05-13T21:25:25.176726",
-      "last_seen": "2026-05-18T02:47:55.851434",
+      "last_seen": "2026-05-18T06:55:28.775493",
       "cluster_stories": [
         {
           "id": "77935bd451b97690",
@@ -93,83 +168,8 @@
           "headline": "KOREAN CHIPMAKERS Face China Export Dilemma Post Trump-Xi Talks"
         }
       ],
-      "current_topic_name": "Trump-Xi AI Chip Diplomacy"
-    },
-    {
-      "topic": "AI Security Breaches & Vulnerabilities",
-      "description": "Major security incidents exposing critical flaws in AI systems and platforms, raising concerns about AI safety and data protection.",
-      "question": "Are AI security failures mainly due to rushed deployment or inherent complexity?",
-      "button_a": "Deployment",
-      "button_b": "Complexity",
-      "poll_id": "ai-security-breaches-vulnerabilities-20260518",
-      "analysis_url": "/analysis/analysis-ai-security-breaches-vulnerabilities-20260518.html",
-      "analysis_type": "poll",
-      "created_at": "2026-05-18T02:47:51.140443",
-      "last_seen": "2026-05-18T02:47:58.952749",
-      "cluster_stories": [
-        {
-          "id": "d2c3d643bd0d74c7",
-          "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
-          "source": "Reddit r/MachineLearning",
-          "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
-          "published": "2026-05-17T11:26:46+00:00",
-          "score": 45.0,
-          "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
-        },
-        {
-          "id": "e8a938ad05dff55e",
-          "title": "Claude Mythos has cracked MacOS. It took 5 days.",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1tdy6ve/claude_mythos_has_cracked_macos_it_took_5_days/",
-          "source": "Reddit r/OpenAI",
-          "summary": "src https://www.wsj.com/tech/ai/anthropic-mythos-apple-macos-bug-339da403 &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-          "published": "2026-05-15T14:34:46+00:00",
-          "score": 45.0,
-          "headline": "CLAUDE MYTHOS CRACKS MACOS IN 5 DAYS... Security Meltdown"
-        },
-        {
-          "id": "2c4af00cd13835ea",
-          "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
-          "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
-          "source": "The Next Web",
-          "summary": "The two hacks came a little over two weeks apart. On 1 April, attackers drained roughly $285 million from Drift Protocol, a Solana-based derivatives exchange, after spending months posing as a quantitative trading firm to trick employees into authorising malicious transactions. On 18 April, a separate group exploited a single-verifier flaw in Kelp DAO\u2019s [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-15T14:59:55+00:00",
-          "score": 44.0,
-          "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
-        },
-        {
-          "id": "e55e1cea1c1ad20a",
-          "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
-          "url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019 Comments URL: https://news.ycombinator.com/item?id=48164196 Points: 3 # Comments: 0",
-          "published": "2026-05-16T22:07:46+00:00",
-          "score": 43.0,
-          "headline": "OpenAI Employee Devices COMPROMISED in NPM Supply Chain Attack"
-        },
-        {
-          "id": "a1c173032d9362df",
-          "title": "Irst Apple M5 memory exploit discovered using Anthropic AI",
-          "url": "https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement Comments URL: https://news.ycombinator.com/item?id=48164199 Points: 1 # Comments: 0",
-          "published": "2026-05-16T22:08:21+00:00",
-          "score": 41.0,
-          "headline": "FIRST Apple M5 Exploit Found Using Anthropic's Claude Mythos"
-        },
-        {
-          "id": "9852ec24dd59c624",
-          "title": "Security researchers, aided by Anthropic's Mythos, claim to have breached macOS",
-          "url": "https://www.engadget.com/2173543/security-researchers-anthropic-mythos-macos-exploit/",
-          "source": "Engadget",
-          "summary": "Apple is taking the claims seriously.",
-          "published": "2026-05-15T10:35:55+00:00",
-          "score": 41.0,
-          "headline": "ANTHROPIC'S MYTHOS AI HACKS macOS... APPLE RESPONDS"
-        }
-      ],
-      "current_topic_name": "AI Security Breaches & Vulnerabilities"
+      "current_topic_name": "Trump-Xi China Tech Relations"
     }
   ],
-  "last_updated": "2026-05-18T02:47:59.592636"
+  "last_updated": "2026-05-18T06:55:28.775505"
 }

@@ -1,8 +1,76 @@
 {
   "clusters": [
     {
-      "topic": "Trump-Xi AI Chip Diplomacy",
-      "description": "High-stakes negotiations between world superpowers over AI chip exports and technology controls that could reshape global AI development.",
+      "topic": "AI Security Breaches & Vulnerabilities",
+      "description": "Major security incidents exposing critical flaws in AI systems and platforms, raising concerns about AI safety and data protection.",
+      "stories": [
+        {
+          "id": "d2c3d643bd0d74c7",
+          "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
+          "source": "Reddit r/MachineLearning",
+          "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
+          "published": "2026-05-17T11:26:46+00:00",
+          "score": 45.0,
+          "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
+        },
+        {
+          "id": "e8a938ad05dff55e",
+          "title": "Claude Mythos has cracked MacOS. It took 5 days.",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1tdy6ve/claude_mythos_has_cracked_macos_it_took_5_days/",
+          "source": "Reddit r/OpenAI",
+          "summary": "src https://www.wsj.com/tech/ai/anthropic-mythos-apple-macos-bug-339da403 &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+          "published": "2026-05-15T14:34:46+00:00",
+          "score": 45.0,
+          "headline": "CLAUDE MYTHOS CRACKS MACOS IN 5 DAYS... Security Meltdown"
+        },
+        {
+          "id": "2c4af00cd13835ea",
+          "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
+          "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
+          "source": "The Next Web",
+          "summary": "The two hacks came a little over two weeks apart. On 1 April, attackers drained roughly $285 million from Drift Protocol, a Solana-based derivatives exchange, after spending months posing as a quantitative trading firm to trick employees into authorising malicious transactions. On 18 April, a separate group exploited a single-verifier flaw in Kelp DAO\u2019s [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-15T14:59:55+00:00",
+          "score": 44.0,
+          "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
+        },
+        {
+          "id": "e55e1cea1c1ad20a",
+          "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
+          "url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019 Comments URL: https://news.ycombinator.com/item?id=48164196 Points: 3 # Comments: 0",
+          "published": "2026-05-16T22:07:46+00:00",
+          "score": 43.0,
+          "headline": "OpenAI Employee Devices COMPROMISED in NPM Supply Chain Attack"
+        },
+        {
+          "id": "a1c173032d9362df",
+          "title": "Irst Apple M5 memory exploit discovered using Anthropic AI",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement Comments URL: https://news.ycombinator.com/item?id=48164199 Points: 1 # Comments: 0",
+          "published": "2026-05-16T22:08:21+00:00",
+          "score": 41.0,
+          "headline": "FIRST Apple M5 Exploit Found Using Anthropic's Claude Mythos"
+        },
+        {
+          "id": "9852ec24dd59c624",
+          "title": "Security researchers, aided by Anthropic's Mythos, claim to have breached macOS",
+          "url": "https://www.engadget.com/2173543/security-researchers-anthropic-mythos-macos-exploit/",
+          "source": "Engadget",
+          "summary": "Apple is taking the claims seriously.",
+          "published": "2026-05-15T10:35:55+00:00",
+          "score": 41.0,
+          "headline": "ANTHROPIC'S MYTHOS AI HACKS macOS... APPLE RESPONDS"
+        }
+      ],
+      "top_score": 45.0,
+      "story_count": 6
+    },
+    {
+      "topic": "Trump-Xi China Tech Relations",
+      "description": "High-stakes diplomatic discussions between Trump and Xi Jinping over AI technology exports and chip trade could reshape global tech competition.",
       "stories": [
         {
           "id": "77935bd451b97690",
@@ -87,74 +155,6 @@
       ],
       "top_score": 46.0,
       "story_count": 8
-    },
-    {
-      "topic": "AI Security Breaches & Vulnerabilities",
-      "description": "Major security incidents exposing critical flaws in AI systems and platforms, raising concerns about AI safety and data protection.",
-      "stories": [
-        {
-          "id": "d2c3d643bd0d74c7",
-          "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
-          "source": "Reddit r/MachineLearning",
-          "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
-          "published": "2026-05-17T11:26:46+00:00",
-          "score": 45.0,
-          "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
-        },
-        {
-          "id": "e8a938ad05dff55e",
-          "title": "Claude Mythos has cracked MacOS. It took 5 days.",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1tdy6ve/claude_mythos_has_cracked_macos_it_took_5_days/",
-          "source": "Reddit r/OpenAI",
-          "summary": "src https://www.wsj.com/tech/ai/anthropic-mythos-apple-macos-bug-339da403 &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-          "published": "2026-05-15T14:34:46+00:00",
-          "score": 45.0,
-          "headline": "CLAUDE MYTHOS CRACKS MACOS IN 5 DAYS... Security Meltdown"
-        },
-        {
-          "id": "2c4af00cd13835ea",
-          "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
-          "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
-          "source": "The Next Web",
-          "summary": "The two hacks came a little over two weeks apart. On 1 April, attackers drained roughly $285 million from Drift Protocol, a Solana-based derivatives exchange, after spending months posing as a quantitative trading firm to trick employees into authorising malicious transactions. On 18 April, a separate group exploited a single-verifier flaw in Kelp DAO\u2019s [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-15T14:59:55+00:00",
-          "score": 44.0,
-          "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
-        },
-        {
-          "id": "e55e1cea1c1ad20a",
-          "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
-          "url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019 Comments URL: https://news.ycombinator.com/item?id=48164196 Points: 3 # Comments: 0",
-          "published": "2026-05-16T22:07:46+00:00",
-          "score": 43.0,
-          "headline": "OpenAI Employee Devices COMPROMISED in NPM Supply Chain Attack"
-        },
-        {
-          "id": "a1c173032d9362df",
-          "title": "Irst Apple M5 memory exploit discovered using Anthropic AI",
-          "url": "https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement Comments URL: https://news.ycombinator.com/item?id=48164199 Points: 1 # Comments: 0",
-          "published": "2026-05-16T22:08:21+00:00",
-          "score": 41.0,
-          "headline": "FIRST Apple M5 Exploit Found Using Anthropic's Claude Mythos"
-        },
-        {
-          "id": "9852ec24dd59c624",
-          "title": "Security researchers, aided by Anthropic's Mythos, claim to have breached macOS",
-          "url": "https://www.engadget.com/2173543/security-researchers-anthropic-mythos-macos-exploit/",
-          "source": "Engadget",
-          "summary": "Apple is taking the claims seriously.",
-          "published": "2026-05-15T10:35:55+00:00",
-          "score": 41.0,
-          "headline": "ANTHROPIC'S MYTHOS AI HACKS macOS... APPLE RESPONDS"
-        }
-      ],
-      "top_score": 45.0,
-      "story_count": 6
     }
   ],
   "unclustered": [
@@ -167,6 +167,56 @@
       "published": "2026-05-16T07:38:39+00:00",
       "score": 49.0,
       "headline": "UK PARLIAMENT CONSIDERS AI KILL SWITCH"
+    },
+    {
+      "id": "3195a17a447cc57a",
+      "title": "Japan's Kore-eda explores AI's role in grief in Cannes contender",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/japans-kore-eda-explores-ais-role-in-grief-in-cannes-contender/articleshow/131166836.cms",
+      "source": "The Economic Times Tech",
+      "summary": "A new film explores the ethics of using AI to recreate deceased children for grieving parents. Director Hirokazu Kore-eda questions whether it's right to manipulate the digital existence of the dead, especially when these AI creations develop their own desires, potentially leaving families heartbroken again.",
+      "published": "2026-05-18T04:50:36+00:00",
+      "score": 45.0,
+      "headline": "Cannes Film Explores AI Recreation of Dead Children for Grief"
+    },
+    {
+      "id": "d2c3d643bd0d74c7",
+      "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
+      "published": "2026-05-17T11:26:46+00:00",
+      "score": 45.0,
+      "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
+    },
+    {
+      "id": "e8a938ad05dff55e",
+      "title": "Claude Mythos has cracked MacOS. It took 5 days.",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1tdy6ve/claude_mythos_has_cracked_macos_it_took_5_days/",
+      "source": "Reddit r/OpenAI",
+      "summary": "src https://www.wsj.com/tech/ai/anthropic-mythos-apple-macos-bug-339da403 &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+      "published": "2026-05-15T14:34:46+00:00",
+      "score": 45.0,
+      "headline": "CLAUDE MYTHOS CRACKS MACOS IN 5 DAYS... Security Meltdown"
+    },
+    {
+      "id": "01b1c67f81382d2d",
+      "title": "Anthropic to brief Financial Stability Board on cyber flaws exposed by Mythos: FT",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-brief-financial-stability-board-on-cyber-flaws-exposed-by-mythos-ft/articleshow/131166366.cms",
+      "source": "The Economic Times Tech",
+      "summary": "AI firm Anthropic will present cyber risks in global finance. These vulnerabilities were revealed by their new Mythos model.",
+      "published": "2026-05-18T04:19:38+00:00",
+      "score": 44.0,
+      "headline": "ANTHROPIC TO BRIEF GLOBAL FINANCE WATCHDOG... Mythos Model Exposes Cyber Flaws"
+    },
+    {
+      "id": "fb6c7321bd97fa8d",
+      "title": "Anthropic to brief global financial watchdog on cyber flaws exposed by Mythos",
+      "url": "https://www.ft.com/content/7d309f94-3618-4511-9778-d1447799c5e4",
+      "source": "Financial Times Tech",
+      "summary": "US tech group will discuss capabilities of its new AI model with members of the Financial Stability Board",
+      "published": "2026-05-18T04:00:22+00:00",
+      "score": 44.0,
+      "headline": "ANTHROPIC MYTHOS MODEL EXPOSES GLOBAL FINANCE CYBER FLAWS... FSB Briefing Set"
     },
     {
       "id": "57f2444f9e30dc99",
@@ -189,6 +239,16 @@
       "headline": "APPLE-OPENAI ALLIANCE CRUMBLES... DEAL FAILING"
     },
     {
+      "id": "2c4af00cd13835ea",
+      "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
+      "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
+      "source": "The Next Web",
+      "summary": "The two hacks came a little over two weeks apart. On 1 April, attackers drained roughly $285 million from Drift Protocol, a Solana-based derivatives exchange, after spending months posing as a quantitative trading firm to trick employees into authorising malicious transactions. On 18 April, a separate group exploited a single-verifier flaw in Kelp DAO\u2019s [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-15T14:59:55+00:00",
+      "score": 44.0,
+      "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
+    },
+    {
       "id": "17c4d426ae8ed436",
       "title": "At Samsung, the global AI boom spurred a looming strike and deep divisions",
       "url": "https://economictimes.indiatimes.com/tech/information-tech/at-samsung-the-global-ai-boom-spurred-a-looming-strike-and-deep-divisions/articleshow/131120351.cms",
@@ -197,6 +257,16 @@
       "published": "2026-05-15T14:20:16+00:00",
       "score": 44.0,
       "headline": "45,000 SAMSUNG WORKERS Strike Over AI Boom Profits... Chip Supply at Risk"
+    },
+    {
+      "id": "41f8f535db5baeae",
+      "title": "The fate of OpenAI\u2019s $1tn IPO will be decided in an Oakland jury room",
+      "url": "https://www.ft.com/content/846479c8-4ab0-4812-a1d5-08abdd8b952b",
+      "source": "Financial Times Tech",
+      "summary": "Elon Musk\u2019s legal challenge could derail the AI start-up\u2019s commercial ambitions",
+      "published": "2026-05-18T04:00:13+00:00",
+      "score": 43.0,
+      "headline": "MUSK LAWSUIT THREATENS OpenAI's $1TN IPO... Oakland Jury Holds the Keys"
     },
     {
       "id": "d3e7ccf498dc55f9",
@@ -229,14 +299,14 @@
       "headline": "China's Energy Boom Could Give It AI EDGE Over US"
     },
     {
-      "id": "c962071e57182c4c",
-      "title": "Malta just became the first country to give every citizen free ChatGPT Plus. There\u2019s one condition.",
-      "url": "https://thenextweb.com/news/openai-malta-chatgpt-plus-free-citizens",
-      "source": "The Next Web",
-      "summary": "OpenAI has signed a deal with the government of Malta to provide all Maltese citizens and residents with free access to ChatGPT Plus for one year. There is one condition: they must first complete an AI literacy course developed by the University of Malta. It is the first partnership of its kind between OpenAI and [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-17T10:22:03+00:00",
+      "id": "e55e1cea1c1ad20a",
+      "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
+      "url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019 Comments URL: https://news.ycombinator.com/item?id=48164196 Points: 3 # Comments: 0",
+      "published": "2026-05-16T22:07:46+00:00",
       "score": 43.0,
-      "headline": "MALTA FIRST NATION TO GIVE ALL CITIZENS FREE CHATGPT PLUS"
+      "headline": "OpenAI Employee Devices COMPROMISED in NPM Supply Chain Attack"
     },
     {
       "id": "7cbc42e8b63c53cd",
@@ -247,16 +317,6 @@
       "published": "2026-05-16T07:41:40+00:00",
       "score": 43.0,
       "headline": "MISTRAL FOUNDER: Engineers Write Zero Code Now"
-    },
-    {
-      "id": "b9939c2fea2643f2",
-      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
-      "published": "2026-05-16T00:00:00+00:00",
-      "score": 43.0,
-      "headline": "OpenAI Partners with MALTA... FREE ChatGPT Plus for ALL Citizens"
     },
     {
       "id": "b6cffbf7ae9bb38f",
@@ -307,36 +367,6 @@
       "published": "2026-05-17T06:35:44+00:00",
       "score": 42.0,
       "headline": "DeepSeek V4's 1M Context HITS BREAKING POINT in Real Tests"
-    },
-    {
-      "id": "ca3d22b0c7f2b648",
-      "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
-      "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://openai.com/index/malta-chatgpt-plus-partnership/ Comments URL: https://news.ycombinator.com/item?id=48163392 Points: 31 # Comments: 20",
-      "published": "2026-05-16T20:14:06+00:00",
-      "score": 42.0,
-      "headline": "MALTA GIVES ALL CITIZENS FREE CHATGPT PLUS"
-    },
-    {
-      "id": "2aa2da043d8f286e",
-      "title": "OpenAI & Malta sign deal to provide all Maltese citizens with ChatGPT Plus for one year.",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1tewgyp/openai_malta_sign_deal_to_provide_all_maltese/",
-      "source": "Reddit r/OpenAI",
-      "summary": "Malta\u2019s AI for All initiative will offer an AI literacy course developed by the University of Malta. After completing it, eligible citizens can access ChatGPT Plus for one year at no cost. https://openai.com/index/malta-chatgpt-plus-partnership/ &#32; submitted by &#32; /u/CucumberAccording813 [link] &#32; [comments]",
-      "published": "2026-05-16T15:16:17+00:00",
-      "score": 42.0,
-      "headline": "Malta Gives ALL CITIZENS Free ChatGPT Plus for Year"
-    },
-    {
-      "id": "f2f58d9b7ec2a198",
-      "title": "OpenAI seals deal in Malta to give all Maltese access to ChatGPT Plus",
-      "url": "https://www.reuters.com/business/openai-seals-deal-malta-give-all-maltese-access-chatgpt-plus-2026-05-16/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.reuters.com/business/openai-seals-deal-malta-give-all-maltese-access-chatgpt-plus-2026-05-16/ Comments URL: https://news.ycombinator.com/item?id=48160324 Points: 2 # Comments: 1",
-      "published": "2026-05-16T13:58:57+00:00",
-      "score": 42.0,
-      "headline": "OpenAI Gives All Malta Citizens Free ChatGPT Plus Access"
     },
     {
       "id": "39288f18c175eafe",
@@ -399,6 +429,36 @@
       "headline": "DATABRICKS DEPLOYS GPT-5.5 FOR ENTERPRISE WORKFLOWS"
     },
     {
+      "id": "dc5dc347deac8c3b",
+      "title": "Pope creates AI study group as Vatican prepares release of first encyclical",
+      "url": "https://apnews.com/article/vatican-artificial-intelligence-pope-musk-nvidia-trump-889c0066f0d5ce784c07abb72b33e24c",
+      "source": "Hacker News",
+      "summary": "Article URL: https://apnews.com/article/vatican-artificial-intelligence-pope-musk-nvidia-trump-889c0066f0d5ce784c07abb72b33e24c Comments URL: https://news.ycombinator.com/item?id=48175858 Points: 2 # Comments: 0",
+      "published": "2026-05-18T05:27:30+00:00",
+      "score": 41.0,
+      "headline": "POPE Creates AI Study Group for First Vatican Encyclical"
+    },
+    {
+      "id": "69aff1cde0787a2e",
+      "title": "Instant AI answers can trivialise human intelligence, warns Royal Observatory",
+      "url": "https://www.bbc.com/news/articles/c2023l60370o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "Paddy Rodgers said the Observatory's rich history showed the power of human knowledge and the need to avoid \"dependence\" on AI.",
+      "published": "2026-05-18T05:19:27+00:00",
+      "score": 41.0,
+      "headline": "ROYAL OBSERVATORY Warns AI Trivializes Human Intelligence"
+    },
+    {
+      "id": "3cd171823a129b9c",
+      "title": "Samsung strike fears ease after court ruling",
+      "url": "https://www.ft.com/content/8e708b02-96cf-44be-8ac0-d1b6022bff11",
+      "source": "Financial Times Tech",
+      "summary": "Shares rise after injunction restricts unions\u2019 ability to halt production at South Korean chipmaker",
+      "published": "2026-05-18T05:13:35+00:00",
+      "score": 41.0,
+      "headline": null
+    },
+    {
       "id": "a93e324bf08aed8b",
       "title": "Nvidia may lead AI startup Simplismart\u2019s $20 million fundraise at $100 million valuation",
       "url": "https://economictimes.indiatimes.com/tech/funding/chipmaker-nvidia-in-talks-to-lead-20-million-round-in-gen-ai-startup-simplismart/articleshow/131153601.cms",
@@ -437,6 +497,16 @@
       "published": "2026-05-17T06:09:51+00:00",
       "score": 41.0,
       "headline": "AI AGENTS LEFT ALONE: Claude Builds Democracy, Gemini Burns Town Down"
+    },
+    {
+      "id": "a1c173032d9362df",
+      "title": "Irst Apple M5 memory exploit discovered using Anthropic AI",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement Comments URL: https://news.ycombinator.com/item?id=48164199 Points: 1 # Comments: 0",
+      "published": "2026-05-16T22:08:21+00:00",
+      "score": 41.0,
+      "headline": "FIRST Apple M5 Exploit Found Using Anthropic's Claude Mythos"
     },
     {
       "id": "bfe98469f55ebe75",
@@ -499,6 +569,16 @@
       "headline": "POPE LEO WARNS: AI Warfare Creates 'Spiral of Annihilation'"
     },
     {
+      "id": "9852ec24dd59c624",
+      "title": "Security researchers, aided by Anthropic's Mythos, claim to have breached macOS",
+      "url": "https://www.engadget.com/2173543/security-researchers-anthropic-mythos-macos-exploit/",
+      "source": "Engadget",
+      "summary": "Apple is taking the claims seriously.",
+      "published": "2026-05-15T10:35:55+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC'S MYTHOS AI HACKS macOS... APPLE RESPONDS"
+    },
+    {
       "id": "e263f12bb99d1682",
       "title": "internlm/Intern-S2-Preview \u00b7 Hugging Face",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tdrw0s/internlminterns2preview_hugging_face/",
@@ -517,6 +597,16 @@
       "published": "2026-05-15T00:58:29+00:00",
       "score": 41.0,
       "headline": "OPENAI CONSIDERS LEGAL ACTION AGAINST APPLE"
+    },
+    {
+      "id": "3da3cb205c6c2408",
+      "title": "While Detroit blinked on EVs, the Iran war has handed Chinese automakers the opportunity of a lifetime",
+      "url": "https://fortune.com/2026/05/18/chinese-evs-opportunity-ford-gm-iran-war-inflation-affordability-american-politics-donald-trump-tariffs/",
+      "source": "Fortune Tech",
+      "summary": "\u201cAs tragic as it is\u2014war is tragic for anyone involved\u2014it is probably one of the best things that could have happened to the Chinese EV makers,\u201d said one expert.",
+      "published": "2026-05-18T06:00:00+00:00",
+      "score": 40.0,
+      "headline": null
     },
     {
       "id": "de8237c8be8cf2c2",
@@ -937,87 +1027,7 @@
       "published": "2026-05-16T04:00:00+00:00",
       "score": 39.0,
       "headline": "EASM Architecture Enables Hyper-Personalization at Scale"
-    },
-    {
-      "id": "d04ea040ae6faf1d",
-      "title": "GraphFlow: An Architecture for Formally Verifiable Visual Workflows Enabling Reliable Agentic AI Automation",
-      "url": "https://arxiv.org/abs/2605.14968",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2605.14968v1 Announce Type: new Abstract: GraphFlow is a visual workflow system designed to improve the reliability of agentic AI automation in multi-step, mission-critical processes. In these workflows, small errors compound rapidly: under an idealized model of independent steps, a ten-step process with 90% per-step reliability completes successfully only 35% of the time. Existing workflow platforms provide durable execution and observability but offer few semantic correctness guarantees, while agentic systems plan at inference time, making behavior sensitive to prompt variation and difficult to audit. GraphFlow is designed to address this gap by treating workflow diagrams as the executable specification, a single artifact defining data scope, execution semantics, and monitoring. At compile time, a restricted class of diagrams is specified to produce reusable automations whose contracts (preconditions, postconditions, and composition obligations) are intended to be proof-checked",
-      "published": "2026-05-16T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "GraphFlow: Verifiable Visual Workflows for AI Automation"
-    },
-    {
-      "id": "ca0e4b400c3b50a4",
-      "title": "Capacitive Touchscreens at Risk: Recovering Handwritten Trajectory on Smartphone via Electromagnetic Emanations",
-      "url": "https://arxiv.org/abs/2512.11484",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2512.11484v1 Announce Type: cross Abstract: This paper reveals and exploits a critical security vulnerability: the electromagnetic (EM) side channel of capacitive touchscreens leaks sufficient information to recover fine-grained, continuous handwriting trajectories. We present Touchscreen Electromagnetic Side-channel Leakage Attack (TESLA), a non-contact attack framework that captures EM signals generated during on-screen writing and regresses them into two-dimensional (2D) handwriting trajectories in real time. Extensive evaluations across a variety of commercial off-the-shelf (COTS) smartphones show that TESLA achieves 77% character recognition accuracy and a Jaccard index of 0.74, demonstrating its capability to recover highly recognizable motion trajectories that closely resemble the original handwriting under realistic attack conditions.",
-      "published": "2026-05-16T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "SMARTPHONE HACK: AI Recovers Touch Patterns From EM Signals"
-    },
-    {
-      "id": "2578653e70bf3582",
-      "title": "GEAR: Genetic AutoResearch for Agentic Code Evolution",
-      "url": "https://arxiv.org/abs/2605.13874",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2605.13874v1 Announce Type: cross Abstract: Autonomous research agents can already run machine learning experiments without human supervision, but many rely on a narrow search strategy: they repeatedly modify one program and keep changes only when they improve the current best result. This can cause them to discard useful partial ideas, alternative promising directions, and insights from failed or incomplete experiments. GEAR, or Genetic AutoResearch, replaces this single-path search with a population-based search over multiple research states. It keeps a set of strong candidate solutions, selects parents based on productivity, novelty, and coverage, and explores new ideas through mutation and crossover. Each research state stores its code changes, reflections, and performance data, allowing future decisions to build on past discoveries. The paper studies three versions of GEAR: one controlled through prompting, one using a fixed programmatic search controller, and one where the ",
-      "published": "2026-05-16T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "GEAR: Genetic AI Research Agents Evolve Code Autonomously"
-    },
-    {
-      "id": "3d4e36b133f10e98",
-      "title": "Ken Liu on AI and Freedom",
-      "url": "https://www.chinatalk.media/p/ken-liu-on-ai-and-freedom",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.chinatalk.media/p/ken-liu-on-ai-and-freedom Comments URL: https://news.ycombinator.com/item?id=48155534 Points: 3 # Comments: 0",
-      "published": "2026-05-16T00:09:47+00:00",
-      "score": 39.0,
-      "headline": "Ken Liu on AI and Freedom - China Expert Weighs In"
-    },
-    {
-      "id": "ab8c2f4c17d7439f",
-      "title": "Personal finance is here!",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1tebfe8/personal_finance_is_here/",
-      "source": "Reddit r/OpenAI",
-      "summary": "openai.com/index/personal-finance-chatgpt/ Seems like it works through Plaid! &#32; submitted by &#32; /u/ethotopia [link] &#32; [comments]",
-      "published": "2026-05-15T22:33:41+00:00",
-      "score": 39.0,
-      "headline": "ChatGPT LAUNCHES Personal Finance Feature via Plaid"
-    },
-    {
-      "id": "c17e3e364e3d2b23",
-      "title": "China Sought Access to Anthropic's Newest A.I. The Answer Was No.",
-      "url": "https://www.nytimes.com/2026/05/12/us/politics/china-ai-anthropic-openai-mythos-chatgpt.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.nytimes.com/2026/05/12/us/politics/china-ai-anthropic-openai-mythos-chatgpt.html Comments URL: https://news.ycombinator.com/item?id=48153953 Points: 1 # Comments: 1",
-      "published": "2026-05-15T21:14:23+00:00",
-      "score": 39.0,
-      "headline": "CHINA BLOCKED from Anthropic's Latest AI"
-    },
-    {
-      "id": "6ba3dfd6dccd48b4",
-      "title": "The 52-Page Memo That Nearly Destroyed OpenAI: Ilya Sutskever's Deposition",
-      "url": "https://medium.com/@prateekj24/the-52-page-memo-that-nearly-destroyed-openai-inside-ilya-sutskevers-deposition-acef91208a1c",
-      "source": "Hacker News",
-      "summary": "Article URL: https://medium.com/@prateekj24/the-52-page-memo-that-nearly-destroyed-openai-inside-ilya-sutskevers-deposition-acef91208a1c Comments URL: https://news.ycombinator.com/item?id=48153058 Points: 2 # Comments: 0",
-      "published": "2026-05-15T19:55:32+00:00",
-      "score": 39.0,
-      "headline": "LEAKED: Ilya's 52-Page Memo That Nearly DESTROYED OpenAI"
-    },
-    {
-      "id": "ed07e3188adbf12e",
-      "title": "Greg Brockman Officially Takes Control of OpenAI\u2019s Products in Latest Shake-Up",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1te47br/greg_brockman_officially_takes_control_of_openais/",
-      "source": "Reddit r/OpenAI",
-      "summary": "&#32; submitted by &#32; /u/shikizen [link] &#32; [comments]",
-      "published": "2026-05-15T18:05:59+00:00",
-      "score": 39.0,
-      "headline": "GREG BROCKMAN TAKES CONTROL OF OPENAI PRODUCTS... MAJOR SHAKEUP"
     }
   ],
-  "generated_at": "2026-05-18T02:47:22.156534"
+  "generated_at": "2026-05-18T06:54:49.760391"
 }
