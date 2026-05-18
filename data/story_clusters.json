@@ -159,16 +159,6 @@
   ],
   "unclustered": [
     {
-      "id": "26e8d198639a362f",
-      "title": "UK Parliament is considering a \"kill switch\" to shut down data centers in an AI emergency",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1temuy9/uk_parliament_is_considering_a_kill_switch_to/",
-      "source": "Reddit r/OpenAI",
-      "summary": "src: https://bills.parliament.uk/bills/4035/stages/20525/amendments/10034477 &#32; submitted by &#32; /u/Confident_Salt_8108 [link] &#32; [comments]",
-      "published": "2026-05-16T07:38:39+00:00",
-      "score": 49.0,
-      "headline": "UK PARLIAMENT CONSIDERS AI KILL SWITCH"
-    },
-    {
       "id": "1552bb13a0a610b1",
       "title": "Pope Leo, Anthropic to launch pontiff\u2019s first AI document, focusing on human dignity",
       "url": "https://www.scmp.com/news/world/united-states-canada/article/3354013/pope-leo-anthropic-launch-pontiffs-first-ai-document-focusing-human-dignity?utm_source=rss_feed",
@@ -219,16 +209,6 @@
       "headline": "Cannes Film Explores AI Recreation of Dead Children for Grief"
     },
     {
-      "id": "d2c3d643bd0d74c7",
-      "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
-      "source": "Reddit r/MachineLearning",
-      "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
-      "published": "2026-05-17T11:26:46+00:00",
-      "score": 45.0,
-      "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
-    },
-    {
       "id": "1cdf03d748aea945",
       "title": "Qwen 3.7 droped on Qwen Chat",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgpabe/qwen_37_droped_on_qwen_chat/",
@@ -269,16 +249,6 @@
       "headline": "APPLE-OPENAI ALLIANCE CRUMBLES... DEAL FAILING"
     },
     {
-      "id": "2c4af00cd13835ea",
-      "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
-      "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
-      "source": "The Next Web",
-      "summary": "The two hacks came a little over two weeks apart. On 1 April, attackers drained roughly $285 million from Drift Protocol, a Solana-based derivatives exchange, after spending months posing as a quantitative trading firm to trick employees into authorising malicious transactions. On 18 April, a separate group exploited a single-verifier flaw in Kelp DAO\u2019s [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-15T14:59:55+00:00",
-      "score": 44.0,
-      "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
-    },
-    {
       "id": "17c4d426ae8ed436",
       "title": "At Samsung, the global AI boom spurred a looming strike and deep divisions",
       "url": "https://economictimes.indiatimes.com/tech/information-tech/at-samsung-the-global-ai-boom-spurred-a-looming-strike-and-deep-divisions/articleshow/131120351.cms",
@@ -287,6 +257,16 @@
       "published": "2026-05-15T14:20:16+00:00",
       "score": 44.0,
       "headline": "45,000 SAMSUNG WORKERS Strike Over AI Boom Profits... Chip Supply at Risk"
+    },
+    {
+      "id": "39af37696ff6748a",
+      "title": "Self-Improving AI Startup Recursive AI Valued at $4.65B",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-18/self-improving-ai-startup-recursive-ai-valued-at-4-65b-video",
+      "source": "Bloomberg Technology",
+      "summary": "Recursive, a startup creating AI that conducts experiments on how to safely improve itself, just came out of stealth. The company is valued at $4.65 billion, with backers including Google Ventures, Greycroft, Nvidia and AMD Ventures. Recursive CEO Richard Socher joins Caroline Hyde on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-05-18T19:39:02+00:00",
+      "score": 43.0,
+      "headline": "SELF-IMPROVING AI STARTUP VALUED AT $4.65B"
     },
     {
       "id": "08e82707eadd0e06",
@@ -307,6 +287,16 @@
       "published": "2026-05-18T16:27:01+00:00",
       "score": 43.0,
       "headline": "POPE'S AI ENCYCLICAL Launch Features Anthropic Co-Founder"
+    },
+    {
+      "id": "5c11530a7be050fc",
+      "title": "Qwen 3.7 Has been Spotted on the Qwen website",
+      "url": "https://www.reddit.com/r/singularity/comments/1tgpwdh/qwen_37_has_been_spotted_on_the_qwen_website/",
+      "source": "Reddit r/singularity",
+      "summary": "&#32; submitted by &#32; /u/WhyLifeIs4 [link] &#32; [comments]",
+      "published": "2026-05-18T15:23:04+00:00",
+      "score": 43.0,
+      "headline": "BREAKING: Qwen 3.7 Spotted on Official Website"
     },
     {
       "id": "90922fd78c3d133d",
@@ -419,6 +409,16 @@
       "headline": "OpenAI Partners with MALTA... FREE ChatGPT Plus for ALL Citizens"
     },
     {
+      "id": "b6cffbf7ae9bb38f",
+      "title": "Anthropic agrees terms of $30bn funding deal at $900bn valuation",
+      "url": "https://www.ft.com/content/9deae3c6-716d-4f4d-8b09-434d8519f847",
+      "source": "Financial Times Tech",
+      "summary": "AI lab has tapped Dragoneer, Greenoaks, Sequoia Capital and Altimeter Capital to lead new round",
+      "published": "2026-05-15T00:23:13+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC RAISES $30B AT $900B VALUATION"
+    },
+    {
       "id": "b77fd0d3983835db",
       "title": "Bollywood stars fight identity theft",
       "url": "https://www.ft.com/content/c50c593c-c3b7-4969-b3a4-28b0467b67ac",
@@ -427,6 +427,16 @@
       "published": "2026-05-15T00:00:06+00:00",
       "score": 43.0,
       "headline": "BOLLYWOOD STARS BATTLE AI DEEPFAKES... New Laws Take Shape"
+    },
+    {
+      "id": "d023da2950a3e14f",
+      "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+      "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+      "source": "TechCrunch AI",
+      "summary": "Stainless, a New York-based startup, will wind down all hosted products as part of the acquisition.",
+      "published": "2026-05-18T19:27:52+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC ACQUIRES DEV TOOLS STARTUP Used by OpenAI & Google"
     },
     {
       "id": "399a7aed6eba1fbc",
@@ -447,6 +457,16 @@
       "published": "2026-05-18T18:13:24+00:00",
       "score": 42.0,
       "headline": "JURY REJECTS MUSK'S OPENAI CLAIMS... 'TOO LATE'"
+    },
+    {
+      "id": "462debe64637371b",
+      "title": "Stainless Is Joining Anthropic",
+      "url": "https://www.stainless.com/blog/stainless-is-joining-anthropic/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.stainless.com/blog/stainless-is-joining-anthropic/ Comments URL: https://news.ycombinator.com/item?id=48182397 Points: 1 # Comments: 0",
+      "published": "2026-05-18T17:10:58+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC ACQUIRES Stainless in Major AI Tooling Play"
     },
     {
       "id": "81beda6aea68725a",
@@ -487,6 +507,16 @@
       "published": "2026-05-18T10:13:06+00:00",
       "score": 42.0,
       "headline": "How China's Shadow AI API Market Works"
+    },
+    {
+      "id": "8d29a5e4e3e5e787",
+      "title": "Trump calls Taiwan arms deal a \u201cnegotiating chip\u201d after three days with Xi in Beijing",
+      "url": "https://thenextweb.com/news/trump-xi-summit-taiwan-arms-deal-beijing",
+      "source": "The Next Web",
+      "summary": "Donald Trump flew home from Beijing on Friday having told China\u2019s Xi Jinping that a $14 billion arms package for Taiwan is \u201ca very good negotiating chip,\u201d a remark that reframes American security commitments to a democratic ally as a bargaining token in a broader great-power relationship. The comment, made during a Fox News [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-17T13:20:01+00:00",
+      "score": 42.0,
+      "headline": "TRUMP Calls Taiwan Arms Deal 'Negotiating Chip' After Xi Summit"
     },
     {
       "id": "72c589eff7e4ea7e",
@@ -617,6 +647,26 @@
       "published": "2026-05-15T00:00:00+00:00",
       "score": 42.0,
       "headline": "DATABRICKS DEPLOYS GPT-5.5 FOR ENTERPRISE WORKFLOWS"
+    },
+    {
+      "id": "cc9a0193f272f535",
+      "title": "Nvidia's Huang Sees China Becoming a More Open Market",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-18/nvidia-s-huang-sees-china-becoming-a-more-open-market-video",
+      "source": "Bloomberg Technology",
+      "summary": "Nvidia CEO Jensen Huang talks about the trip he took to China with President Donald Trump and other American business leaders. Huang says he didn't talk to the Chinese directly about selling them H200 chips. Huang and Michael Dell speak to Bloomberg's Ed Ludlow at the Dell World conference in Las Vegas. (Source: Bloomberg)",
+      "published": "2026-05-18T19:40:56+00:00",
+      "score": 41.0,
+      "headline": "NVIDIA CEO: China Market Will Open for AI Chips"
+    },
+    {
+      "id": "8e7e877d41c9f1f0",
+      "title": "Not the Allbirds effect: Japan\u2019s top bidet maker Toto has been quietly making chip supplies for decades, and the stock market finally noticed",
+      "url": "https://fortune.com/2026/05/18/allbirds-effect-japans-bidet-maker-toto-pivoting-ai-chips/",
+      "source": "Fortune Tech",
+      "summary": "Toto didn't just flush its old business to make chips: it's been making the same components to power the world's AI infrastructure for years.",
+      "published": "2026-05-18T19:39:33+00:00",
+      "score": 41.0,
+      "headline": "TOTO Toilet Maker Secretly Powers AI Infrastructure"
     },
     {
       "id": "1fcaef62f45d2da9",
@@ -957,47 +1007,7 @@
       "published": "2026-05-18T09:41:00+00:00",
       "score": 40.0,
       "headline": "CLOUDFLARE & STRIPE Let AI Agents Create Accounts, Deploy Code"
-    },
-    {
-      "id": "584337193fe4bc33",
-      "title": "Salesforce to spend $300 million on Anthropic tokens in 2026: CEO Marc Benioff",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/salesforce-to-spend-300-million-on-anthropic-tokens-in-2026-ceo-marc-benioff/articleshow/131171528.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Salesforce CEO Marc Benioff revealed the company anticipates spending nearly $300 million on Anthropic tokens by 2026, primarily for AI-powered software development and coding assistance. Benioff emphasised that AI tools enhance engineer productivity and efficiency, rather than replacing them, as Salesforce continues to invest heavily in AI across its operations.",
-      "published": "2026-05-18T08:48:22+00:00",
-      "score": 40.0,
-      "headline": "SALESFORCE TO SPEND $300M ON ANTHROPIC TOKENS"
-    },
-    {
-      "id": "bd33ea278be2d3c9",
-      "title": "Elon Musk Says He Wants to Get SpaceX IPO Underway \u2018Pretty Soon\u2019",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/elon-musk-says-he-wants-to-get-spacex-ipo-underway-pretty-soon",
-      "source": "Bloomberg Technology",
-      "summary": "Elon Musk said he\u2019s back in Texas working on plans for an initial public offering of SpaceX as the rocket and artificial intelligence company gears up for the largest listing of all time.",
-      "published": "2026-05-18T08:18:43+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "6d13527209a954c0",
-      "title": "EU AI Act enforcement starts in 75 days - affects any team building AI agents for European clients",
-      "url": "https://www.reddit.com/r/artificial/comments/1tgf0gm/eu_ai_act_enforcement_starts_in_75_days_affects/",
-      "source": "Reddit r/artificial",
-      "summary": "If you're building AI agents or SaaS products used by European companies (or processing EU resident data), the EU AI Act applies to you regardless of where your company is based. Full enforcement for high-risk systems starts August 2, 2026. High-risk means: credit scoring, recruitment filtering, healthcare triage, education assessment, critical infrastructure. The practical requirements: Automatic decision logging (not optional) 6-month minimum log retention Technical documentation of your detection pipeline Human oversight architecture Accuracy and bias testing documentation Fines: up to 35M euros or 7% of global turnover. I broke down what the regulation requires, what auditors check, and realistic steps before the deadline. In link below Worth reading if your team is building anything AI-related for the European market. &#32; submitted by &#32; /u/Still_Piglet9217 [link] &#32; [comments]",
-      "published": "2026-05-18T07:14:39+00:00",
-      "score": 40.0,
-      "headline": "EU AI ACT ENFORCEMENT IN 75 DAYS... Affects Global AI Teams"
-    },
-    {
-      "id": "3da3cb205c6c2408",
-      "title": "While Detroit blinked on EVs, the Iran war has handed Chinese automakers the opportunity of a lifetime",
-      "url": "https://fortune.com/2026/05/18/chinese-evs-opportunity-ford-gm-iran-war-inflation-affordability-american-politics-donald-trump-tariffs/",
-      "source": "Fortune Tech",
-      "summary": "\u201cAs tragic as it is\u2014war is tragic for anyone involved\u2014it is probably one of the best things that could have happened to the Chinese EV makers,\u201d said one expert.",
-      "published": "2026-05-18T06:00:00+00:00",
-      "score": 40.0,
-      "headline": null
     }
   ],
-  "generated_at": "2026-05-18T19:41:11.061832"
+  "generated_at": "2026-05-18T21:08:18.598822"
 }
