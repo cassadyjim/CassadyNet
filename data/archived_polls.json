@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Trump-China AI Summit",
+      "description": "Historic diplomatic meeting between Trump and Xi with tech CEOs pushing AI cooperation over trade tensions.",
+      "question": "Should the US prioritize AI cooperation or security concerns with China?",
+      "button_a": "Cooperation",
+      "button_b": "China",
+      "poll_id": "trump-china-ai-summit-20260513",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-trump-xi-china-tech-relations-20260518.html",
+      "started_at": "2026-05-13T21:25:25.176726",
+      "archived_at": "2026-05-18T11:06:12.652540",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Business Conflicts",
       "description": "OpenAI faces major partnership breakdowns and legal battles with Apple while expanding globally with new ventures.",
       "question": "Are OpenAI's partnership struggles a sign of growing pains or deeper problems?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-violence-against-ai-leaders-20260415.html",
       "started_at": "2026-04-15T06:55:36.735561",
       "archived_at": "2026-04-16T07:27:50.310816",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Sam Altman Assassination Attempts",
-      "description": "Multiple violent attacks and assassination attempts have been made against OpenAI CEO Sam Altman by anti-AI extremists, raising security concerns for AI leaders.",
-      "question": "Should AI leaders get government security protection after these attacks?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "sam-altman-assassination-attempts-20260414",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-violence-against-ai-leaders-20260416.html",
-      "started_at": "2026-04-14T20:05:27.580799",
-      "archived_at": "2026-04-16T07:27:49.977197",
       "reason": "topic_replaced"
     }
   ]

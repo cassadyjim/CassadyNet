@@ -69,105 +69,95 @@
       "story_count": 6
     },
     {
-      "topic": "Trump-Xi China Tech Relations",
-      "description": "High-stakes diplomatic discussions between Trump and Xi Jinping over AI technology exports and chip trade could reshape global tech competition.",
+      "topic": "AI Security and Safety Concerns",
+      "description": "Major AI systems are exposing critical security vulnerabilities while governments and organizations scramble to implement safety measures and regulations.",
       "stories": [
         {
-          "id": "77935bd451b97690",
-          "title": "Trump Discussed Nvidia Chips With Xi Jinping | Bloomberg Tech 5/15/2026",
-          "url": "https://www.bloomberg.com/news/videos/2026-05-15/bloomberg-tech-5-15-2026-video",
-          "source": "Bloomberg Technology",
-          "summary": "Bloomberg\u2019s Caroline Hyde and Ed Ludlow break down the latest from Beijing after President Trump says he discussed Nvidia's H200 chips with Xi Jinping. Plus, they speak with the CEO of Figma after its earnings results defy fears that AI would disrupt the design stack. And, Caroline's conversation with OpenAI CFO Sarah Friar, who says the startup may raise more capital after completing its recent fundraising round. (Source: Bloomberg)",
-          "published": "2026-05-15T23:43:52+00:00",
-          "score": 46.0,
-          "headline": "TRUMP DISCUSSED NVIDIA H200 CHIPS WITH XI JINPING"
+          "id": "26e8d198639a362f",
+          "title": "UK Parliament is considering a \"kill switch\" to shut down data centers in an AI emergency",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1temuy9/uk_parliament_is_considering_a_kill_switch_to/",
+          "source": "Reddit r/OpenAI",
+          "summary": "src: https://bills.parliament.uk/bills/4035/stages/20525/amendments/10034477 &#32; submitted by &#32; /u/Confident_Salt_8108 [link] &#32; [comments]",
+          "published": "2026-05-16T07:38:39+00:00",
+          "score": 49.0,
+          "headline": "UK PARLIAMENT CONSIDERS AI KILL SWITCH"
         },
         {
-          "id": "b670485948cfd45e",
-          "title": "Trump thinks Taiwan is a \u2018very good negotiating chip\u2019 with China",
-          "url": "https://fortune.com/2026/05/16/trump-thinks-taiwan-is-a-very-good-negotiating-chip-with-china/",
-          "source": "Fortune Tech",
-          "summary": "On arms sales, he told Fox News, \"\u201cI\u2019m holding that in abeyance and it depends on China. It's a very good negotiating chip for us, frankly.\u201d",
-          "published": "2026-05-16T14:08:10+00:00",
+          "id": "d2c3d643bd0d74c7",
+          "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
+          "source": "Reddit r/MachineLearning",
+          "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
+          "published": "2026-05-17T11:26:46+00:00",
           "score": 45.0,
-          "headline": "TRUMP: Taiwan 'Very Good Negotiating Chip' with China"
+          "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
         },
         {
-          "id": "677dff553697465d",
-          "title": "Trump Says He Discussed AI Guardrails, Nvidia\u2019s Chips With Xi",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-15/trump-says-he-discussed-ai-guardrails-nvidia-s-chips-with-xi",
-          "source": "Bloomberg Technology",
-          "summary": "US President Donald Trump said he discussed guardrails on artificial intelligence with Chinese leader Xi Jinping, while adding that Nvidia Corp.\u2019s H200 chips also came up during a two-day summit in Beijing.",
-          "published": "2026-05-15T11:15:30+00:00",
+          "id": "e8a938ad05dff55e",
+          "title": "Claude Mythos has cracked MacOS. It took 5 days.",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1tdy6ve/claude_mythos_has_cracked_macos_it_took_5_days/",
+          "source": "Reddit r/OpenAI",
+          "summary": "src https://www.wsj.com/tech/ai/anthropic-mythos-apple-macos-bug-339da403 &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
+          "published": "2026-05-15T14:34:46+00:00",
           "score": 45.0,
-          "headline": "TRUMP-XI Summit: AI Guardrails & NVIDIA Chips Discussed"
+          "headline": "CLAUDE MYTHOS CRACKS MACOS IN 5 DAYS... Security Meltdown"
         },
         {
-          "id": "dda69caea50e3821",
-          "title": "US clears H200 chip sales to 10 China firms as Nvidia CEO looks for breakthrough",
-          "url": "https://economictimes.indiatimes.com/tech/technology/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough/articleshow/131108130.cms",
+          "id": "01b1c67f81382d2d",
+          "title": "Anthropic to brief Financial Stability Board on cyber flaws exposed by Mythos: FT",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-brief-financial-stability-board-on-cyber-flaws-exposed-by-mythos-ft/articleshow/131166366.cms",
           "source": "The Economic Times Tech",
-          "summary": "Despite US approval for around 10 Chinese firms to buy Nvidia's H200 AI chips, no deliveries have occurred. CEO Jensen Huang's China trip, facilitated by President Trump, aims to resolve this deadlock, highlighting the complex US-China tech rivalry impacting even approved trade.",
-          "published": "2026-05-15T04:29:42+00:00",
-          "score": 45.0,
-          "headline": "US Approves Nvidia H200 Sales to China... But No Deliveries Yet"
-        },
-        {
-          "id": "2faebfcc096f7732",
-          "title": "Trump leaves Beijing saying he and Xi talked AI guardrails. Nothing was signed.",
-          "url": "https://thenextweb.com/news/trump-xi-beijing-ai-guardrails-nvidia-h200",
-          "source": "The Next Web",
-          "summary": "Asked what kind of guardrails on the way out, the US president told reporters on Air Force One: \u2018standard guardrails that we talk about all the time\u2019. H200 deliveries to ten cleared Chinese buyers remain stalled. Donald Trump told reporters on Air Force One on Friday that he and Xi Jinping discussed AI guardrails and [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-15T13:20:33+00:00",
+          "summary": "AI firm Anthropic will present cyber risks in global finance. These vulnerabilities were revealed by their new Mythos model.",
+          "published": "2026-05-18T04:19:38+00:00",
           "score": 44.0,
-          "headline": "TRUMP-XI TALKS AI GUARDRAILS... Nothing Signed"
+          "headline": "ANTHROPIC TO BRIEF GLOBAL FINANCE WATCHDOG... Mythos Model Exposes Cyber Flaws"
         },
         {
-          "id": "f5956ca707d3a0fd",
-          "title": "Chip export controls were not a major topic in Beijing, US Trade Rep Greer says",
-          "url": "https://thenextweb.com/news/greer-chip-export-controls-not-major-china-talks",
-          "source": "The Next Web",
-          "summary": "Greer told Bloomberg TV the bilateral did not address chip controls, even as Reuters reported the Trump administration cleared Nvidia H200 sales to several Chinese firms after the Xi meeting. Semiconductor export controls were not a major topic at this week\u2019s US-China bilateral meetings in Beijing, US Trade Representative Jamieson Greer told Bloomberg TV on [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-15T08:07:04+00:00",
+          "id": "fb6c7321bd97fa8d",
+          "title": "Anthropic to brief global financial watchdog on cyber flaws exposed by Mythos",
+          "url": "https://www.ft.com/content/7d309f94-3618-4511-9778-d1447799c5e4",
+          "source": "Financial Times Tech",
+          "summary": "US tech group will discuss capabilities of its new AI model with members of the Financial Stability Board",
+          "published": "2026-05-18T04:00:22+00:00",
           "score": 44.0,
-          "headline": "NVIDIA H200 Sales to China CLEARED After Xi-Trump Summit"
+          "headline": "ANTHROPIC MYTHOS MODEL EXPOSES GLOBAL FINANCE CYBER FLAWS... FSB Briefing Set"
         },
         {
-          "id": "8d29a5e4e3e5e787",
-          "title": "Trump calls Taiwan arms deal a \u201cnegotiating chip\u201d after three days with Xi in Beijing",
-          "url": "https://thenextweb.com/news/trump-xi-summit-taiwan-arms-deal-beijing",
+          "id": "2c4af00cd13835ea",
+          "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
+          "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
           "source": "The Next Web",
-          "summary": "Donald Trump flew home from Beijing on Friday having told China\u2019s Xi Jinping that a $14 billion arms package for Taiwan is \u201ca very good negotiating chip,\u201d a remark that reframes American security commitments to a democratic ally as a bargaining token in a broader great-power relationship. The comment, made during a Fox News [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-17T13:20:01+00:00",
-          "score": 42.0,
-          "headline": "TRUMP Calls Taiwan Arms Deal 'Negotiating Chip' After Xi Summit"
+          "summary": "The two hacks came a little over two weeks apart. On 1 April, attackers drained roughly $285 million from Drift Protocol, a Solana-based derivatives exchange, after spending months posing as a quantitative trading firm to trick employees into authorising malicious transactions. On 18 April, a separate group exploited a single-verifier flaw in Kelp DAO\u2019s [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-15T14:59:55+00:00",
+          "score": 44.0,
+          "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
         },
         {
-          "id": "f4670affa1c57dfe",
-          "title": "Korean chipmakers face critical trade-offs over China exports post Trump-Xi talks",
-          "url": "https://economictimes.indiatimes.com/tech/technology/korean-chipmakers-face-critical-trade-offs-over-china-exports-post-trump-xi-talks/articleshow/131110603.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Korea's chip industry faces a dilemma as US-China talks on tech exports and rare earths unfold. While potential sales in China beckon, manufacturers worry about aiding rivals' advancement, especially concerning critical EUV lithography equipment. Easing tensions could boost Korean exports, but advanced tech access remains a key concern.",
-          "published": "2026-05-15T06:49:33+00:00",
-          "score": 42.0,
-          "headline": "KOREAN CHIPMAKERS Face China Export Dilemma Post Trump-Xi Talks"
+          "id": "cc113bc047611f34",
+          "title": "Anthropic is briefing the Financial Stability Board on what Mythos has been finding",
+          "url": "https://thenextweb.com/news/anthropic-mythos-fsb-briefing-banking-cyber",
+          "source": "The Next Web",
+          "summary": "Bank of England Governor Andrew Bailey, who chairs the global financial-risk watchdog, has invited the company to present to G20 finance ministries and central banks. The model that worried him is the model now being explained. Anthropic is preparing to brief the Financial Stability Board on the cybersecurity vulnerabilities its Mythos model has been identifying [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-18T07:58:02+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC BRIEFS G20 ON AI RISKS... MYTHOS FINDINGS WORRY CENTRAL BANKS"
+        },
+        {
+          "id": "e55e1cea1c1ad20a",
+          "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
+          "url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019 Comments URL: https://news.ycombinator.com/item?id=48164196 Points: 3 # Comments: 0",
+          "published": "2026-05-16T22:07:46+00:00",
+          "score": 43.0,
+          "headline": "OpenAI Employee Devices COMPROMISED in NPM Supply Chain Attack"
         }
       ],
-      "top_score": 46.0,
+      "top_score": 49.0,
       "story_count": 8
     }
   ],
   "unclustered": [
-    {
-      "id": "26e8d198639a362f",
-      "title": "UK Parliament is considering a \"kill switch\" to shut down data centers in an AI emergency",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1temuy9/uk_parliament_is_considering_a_kill_switch_to/",
-      "source": "Reddit r/OpenAI",
-      "summary": "src: https://bills.parliament.uk/bills/4035/stages/20525/amendments/10034477 &#32; submitted by &#32; /u/Confident_Salt_8108 [link] &#32; [comments]",
-      "published": "2026-05-16T07:38:39+00:00",
-      "score": 49.0,
-      "headline": "UK PARLIAMENT CONSIDERS AI KILL SWITCH"
-    },
     {
       "id": "3195a17a447cc57a",
       "title": "Japan's Kore-eda explores AI's role in grief in Cannes contender",
@@ -179,44 +169,14 @@
       "headline": "Cannes Film Explores AI Recreation of Dead Children for Grief"
     },
     {
-      "id": "d2c3d643bd0d74c7",
-      "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
-      "source": "Reddit r/MachineLearning",
-      "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
-      "published": "2026-05-17T11:26:46+00:00",
-      "score": 45.0,
-      "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
-    },
-    {
-      "id": "e8a938ad05dff55e",
-      "title": "Claude Mythos has cracked MacOS. It took 5 days.",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1tdy6ve/claude_mythos_has_cracked_macos_it_took_5_days/",
-      "source": "Reddit r/OpenAI",
-      "summary": "src https://www.wsj.com/tech/ai/anthropic-mythos-apple-macos-bug-339da403 &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-      "published": "2026-05-15T14:34:46+00:00",
-      "score": 45.0,
-      "headline": "CLAUDE MYTHOS CRACKS MACOS IN 5 DAYS... Security Meltdown"
-    },
-    {
-      "id": "01b1c67f81382d2d",
-      "title": "Anthropic to brief Financial Stability Board on cyber flaws exposed by Mythos: FT",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-brief-financial-stability-board-on-cyber-flaws-exposed-by-mythos-ft/articleshow/131166366.cms",
-      "source": "The Economic Times Tech",
-      "summary": "AI firm Anthropic will present cyber risks in global finance. These vulnerabilities were revealed by their new Mythos model.",
-      "published": "2026-05-18T04:19:38+00:00",
+      "id": "6c294d2f192ecadb",
+      "title": "Baidu AI Sales Eclipse Waning Legacy Ads for the First Time",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/baidu-tops-sales-estimates-in-endorsement-of-agentic-ai-pivot",
+      "source": "Bloomberg Technology",
+      "summary": "Baidu Inc. posted a better-than-feared 1% drop in revenue after growth in nascent AI businesses offset a steady decline in traditional internet revenue, buying the search leader time to catch rivals such as Alibaba Group Holding Ltd. in the post-ChatGPT era.",
+      "published": "2026-05-18T09:15:06+00:00",
       "score": 44.0,
-      "headline": "ANTHROPIC TO BRIEF GLOBAL FINANCE WATCHDOG... Mythos Model Exposes Cyber Flaws"
-    },
-    {
-      "id": "fb6c7321bd97fa8d",
-      "title": "Anthropic to brief global financial watchdog on cyber flaws exposed by Mythos",
-      "url": "https://www.ft.com/content/7d309f94-3618-4511-9778-d1447799c5e4",
-      "source": "Financial Times Tech",
-      "summary": "US tech group will discuss capabilities of its new AI model with members of the Financial Stability Board",
-      "published": "2026-05-18T04:00:22+00:00",
-      "score": 44.0,
-      "headline": "ANTHROPIC MYTHOS MODEL EXPOSES GLOBAL FINANCE CYBER FLAWS... FSB Briefing Set"
+      "headline": "BAIDU AI Sales Eclipse Legacy Ads for First Time"
     },
     {
       "id": "57f2444f9e30dc99",
@@ -239,16 +199,6 @@
       "headline": "APPLE-OPENAI ALLIANCE CRUMBLES... DEAL FAILING"
     },
     {
-      "id": "2c4af00cd13835ea",
-      "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
-      "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
-      "source": "The Next Web",
-      "summary": "The two hacks came a little over two weeks apart. On 1 April, attackers drained roughly $285 million from Drift Protocol, a Solana-based derivatives exchange, after spending months posing as a quantitative trading firm to trick employees into authorising malicious transactions. On 18 April, a separate group exploited a single-verifier flaw in Kelp DAO\u2019s [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-15T14:59:55+00:00",
-      "score": 44.0,
-      "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
-    },
-    {
       "id": "17c4d426ae8ed436",
       "title": "At Samsung, the global AI boom spurred a looming strike and deep divisions",
       "url": "https://economictimes.indiatimes.com/tech/information-tech/at-samsung-the-global-ai-boom-spurred-a-looming-strike-and-deep-divisions/articleshow/131120351.cms",
@@ -257,6 +207,16 @@
       "published": "2026-05-15T14:20:16+00:00",
       "score": 44.0,
       "headline": "45,000 SAMSUNG WORKERS Strike Over AI Boom Profits... Chip Supply at Risk"
+    },
+    {
+      "id": "ed128b31ae1c9421",
+      "title": "South Korea\u2019s LetinAR is building optics behind AI glasses",
+      "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
+      "source": "TechCrunch AI",
+      "summary": "A lens the size of a thumbnail \u2014 and the South Korean startup that makes it could become the optical backbone of the AI glasses era.",
+      "published": "2026-05-18T11:00:00+00:00",
+      "score": 43.0,
+      "headline": "South Korea's LetinAR Building Optics for AI Glasses"
     },
     {
       "id": "41f8f535db5baeae",
@@ -289,24 +249,14 @@
       "headline": "CEREBRAS IPO SOARS 68%... OPENAI, ANTHROPIC NEXT"
     },
     {
-      "id": "ee09202b24c88ace",
-      "title": "China\u2019s Energy Boom Could Give It the AI Edge",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-17/china-s-energy-boom-could-give-it-the-ai-edge-video",
-      "source": "Bloomberg Technology",
-      "summary": "As the United States and China compete for dominance in artificial intelligence, energy is emerging as a critical battleground. Former Treasury Secretary Hank Paulson warns that while the US still leads in AI technology, electricity shortages could become a major constraint as data center demand surges. Former US Ambassador to China Nicholas Burns says China\u2019s enormous investments in transmission, renewables, batteries, and power generation are already reshaping global supply chains, while Hoover Institution senior fellow Elizabeth Economy argues Beijing\u2019s clean-energy strategy is as much about economic and geopolitical power as climate policy. Together, their assessments point to a growing reality: the AI race may depend not just on chips and software, but on generating enough power to sustain the technology. (Source: Bloomberg)",
-      "published": "2026-05-17T12:04:01+00:00",
+      "id": "c962071e57182c4c",
+      "title": "Malta just became the first country to give every citizen free ChatGPT Plus. There\u2019s one condition.",
+      "url": "https://thenextweb.com/news/openai-malta-chatgpt-plus-free-citizens",
+      "source": "The Next Web",
+      "summary": "OpenAI has signed a deal with the government of Malta to provide all Maltese citizens and residents with free access to ChatGPT Plus for one year. There is one condition: they must first complete an AI literacy course developed by the University of Malta. It is the first partnership of its kind between OpenAI and [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-17T10:22:03+00:00",
       "score": 43.0,
-      "headline": "China's Energy Boom Could Give It AI EDGE Over US"
-    },
-    {
-      "id": "e55e1cea1c1ad20a",
-      "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
-      "url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019 Comments URL: https://news.ycombinator.com/item?id=48164196 Points: 3 # Comments: 0",
-      "published": "2026-05-16T22:07:46+00:00",
-      "score": 43.0,
-      "headline": "OpenAI Employee Devices COMPROMISED in NPM Supply Chain Attack"
+      "headline": "MALTA FIRST NATION TO GIVE ALL CITIZENS FREE CHATGPT PLUS"
     },
     {
       "id": "7cbc42e8b63c53cd",
@@ -317,6 +267,16 @@
       "published": "2026-05-16T07:41:40+00:00",
       "score": 43.0,
       "headline": "MISTRAL FOUNDER: Engineers Write Zero Code Now"
+    },
+    {
+      "id": "b9939c2fea2643f2",
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "published": "2026-05-16T00:00:00+00:00",
+      "score": 43.0,
+      "headline": "OpenAI Partners with MALTA... FREE ChatGPT Plus for ALL Citizens"
     },
     {
       "id": "b6cffbf7ae9bb38f",
@@ -337,6 +297,16 @@
       "published": "2026-05-15T00:00:06+00:00",
       "score": 43.0,
       "headline": "BOLLYWOOD STARS BATTLE AI DEEPFAKES... New Laws Take Shape"
+    },
+    {
+      "id": "8492f1774f5c1657",
+      "title": "How China's Shadow AI API Market Works",
+      "url": "https://www.vincentschmalbach.com/chinas-shadow-api-market/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.vincentschmalbach.com/chinas-shadow-api-market/ Comments URL: https://news.ycombinator.com/item?id=48177492 Points: 2 # Comments: 0",
+      "published": "2026-05-18T10:13:06+00:00",
+      "score": 42.0,
+      "headline": "How China's Shadow AI API Market Works"
     },
     {
       "id": "72c589eff7e4ea7e",
@@ -367,6 +337,36 @@
       "published": "2026-05-17T06:35:44+00:00",
       "score": 42.0,
       "headline": "DeepSeek V4's 1M Context HITS BREAKING POINT in Real Tests"
+    },
+    {
+      "id": "ca3d22b0c7f2b648",
+      "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://openai.com/index/malta-chatgpt-plus-partnership/ Comments URL: https://news.ycombinator.com/item?id=48163392 Points: 31 # Comments: 20",
+      "published": "2026-05-16T20:14:06+00:00",
+      "score": 42.0,
+      "headline": "MALTA GIVES ALL CITIZENS FREE CHATGPT PLUS"
+    },
+    {
+      "id": "2aa2da043d8f286e",
+      "title": "OpenAI & Malta sign deal to provide all Maltese citizens with ChatGPT Plus for one year.",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1tewgyp/openai_malta_sign_deal_to_provide_all_maltese/",
+      "source": "Reddit r/OpenAI",
+      "summary": "Malta\u2019s AI for All initiative will offer an AI literacy course developed by the University of Malta. After completing it, eligible citizens can access ChatGPT Plus for one year at no cost. https://openai.com/index/malta-chatgpt-plus-partnership/ &#32; submitted by &#32; /u/CucumberAccording813 [link] &#32; [comments]",
+      "published": "2026-05-16T15:16:17+00:00",
+      "score": 42.0,
+      "headline": "Malta Gives ALL CITIZENS Free ChatGPT Plus for Year"
+    },
+    {
+      "id": "f2f58d9b7ec2a198",
+      "title": "OpenAI seals deal in Malta to give all Maltese access to ChatGPT Plus",
+      "url": "https://www.reuters.com/business/openai-seals-deal-malta-give-all-maltese-access-chatgpt-plus-2026-05-16/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reuters.com/business/openai-seals-deal-malta-give-all-maltese-access-chatgpt-plus-2026-05-16/ Comments URL: https://news.ycombinator.com/item?id=48160324 Points: 2 # Comments: 1",
+      "published": "2026-05-16T13:58:57+00:00",
+      "score": 42.0,
+      "headline": "OpenAI Gives All Malta Citizens Free ChatGPT Plus Access"
     },
     {
       "id": "39288f18c175eafe",
@@ -597,6 +597,46 @@
       "published": "2026-05-15T00:58:29+00:00",
       "score": 41.0,
       "headline": "OPENAI CONSIDERS LEGAL ACTION AGAINST APPLE"
+    },
+    {
+      "id": "e7e318409f0087c9",
+      "title": "Cloudflare and Stripe Let AI Agents Create Accounts, Buy Domains, and Deploy to Production",
+      "url": "https://www.infoq.com/news/2026/05/cloudflare-stripe-agent-commerce/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "Cloudflare and Stripe launched a protocol that lets AI agents autonomously create cloud accounts, register domains, start subscriptions, and deploy to production. Stripe handles identity and payment with a $100/month default cap. No other major cloud provider offers comparable agent-driven account provisioning. By Steef-Jan Wiggers",
+      "published": "2026-05-18T09:41:00+00:00",
+      "score": 40.0,
+      "headline": "CLOUDFLARE & STRIPE Let AI Agents Create Accounts, Deploy Code"
+    },
+    {
+      "id": "584337193fe4bc33",
+      "title": "Salesforce to spend $300 million on Anthropic tokens in 2026: CEO Marc Benioff",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/salesforce-to-spend-300-million-on-anthropic-tokens-in-2026-ceo-marc-benioff/articleshow/131171528.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Salesforce CEO Marc Benioff revealed the company anticipates spending nearly $300 million on Anthropic tokens by 2026, primarily for AI-powered software development and coding assistance. Benioff emphasised that AI tools enhance engineer productivity and efficiency, rather than replacing them, as Salesforce continues to invest heavily in AI across its operations.",
+      "published": "2026-05-18T08:48:22+00:00",
+      "score": 40.0,
+      "headline": "SALESFORCE TO SPEND $300M ON ANTHROPIC TOKENS"
+    },
+    {
+      "id": "bd33ea278be2d3c9",
+      "title": "Elon Musk Says He Wants to Get SpaceX IPO Underway \u2018Pretty Soon\u2019",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/elon-musk-says-he-wants-to-get-spacex-ipo-underway-pretty-soon",
+      "source": "Bloomberg Technology",
+      "summary": "Elon Musk said he\u2019s back in Texas working on plans for an initial public offering of SpaceX as the rocket and artificial intelligence company gears up for the largest listing of all time.",
+      "published": "2026-05-18T08:18:43+00:00",
+      "score": 40.0,
+      "headline": null
+    },
+    {
+      "id": "6d13527209a954c0",
+      "title": "EU AI Act enforcement starts in 75 days - affects any team building AI agents for European clients",
+      "url": "https://www.reddit.com/r/artificial/comments/1tgf0gm/eu_ai_act_enforcement_starts_in_75_days_affects/",
+      "source": "Reddit r/artificial",
+      "summary": "If you're building AI agents or SaaS products used by European companies (or processing EU resident data), the EU AI Act applies to you regardless of where your company is based. Full enforcement for high-risk systems starts August 2, 2026. High-risk means: credit scoring, recruitment filtering, healthcare triage, education assessment, critical infrastructure. The practical requirements: Automatic decision logging (not optional) 6-month minimum log retention Technical documentation of your detection pipeline Human oversight architecture Accuracy and bias testing documentation Fines: up to 35M euros or 7% of global turnover. I broke down what the regulation requires, what auditors check, and realistic steps before the deadline. In link below Worth reading if your team is building anything AI-related for the European market. &#32; submitted by &#32; /u/Still_Piglet9217 [link] &#32; [comments]",
+      "published": "2026-05-18T07:14:39+00:00",
+      "score": 40.0,
+      "headline": "EU AI ACT ENFORCEMENT IN 75 DAYS... Affects Global AI Teams"
     },
     {
       "id": "3da3cb205c6c2408",
@@ -899,135 +939,55 @@
       "headline": "CHATGPT LAUNCHES PERSONAL FINANCE FEATURE"
     },
     {
-      "id": "72f36e194a6aa81d",
-      "title": "OpenAI merges ChatGPT and Codex under Greg Brockman. The side quests are over.",
-      "url": "https://thenextweb.com/news/openai-brockman-chatgpt-codex-unified-agentic-platform",
+      "id": "03d93cfa22aa6e95",
+      "title": "The AI boom is pulling Europe\u2019s hottest startups to the U.S.\u2014whether they planned to move or not",
+      "url": "https://fortune.com/2026/05/18/ai-boom-creandum-lovable-klarna-startups-trump-carl-fritjofsson-europe/",
+      "source": "Fortune Tech",
+      "summary": "Creadum partner Carl Fritjofsson says European AI startups are increasingly pulled toward U.S. customers and investors, despite Europe\u2019s deep bench of technical talent.",
+      "published": "2026-05-18T10:37:07+00:00",
+      "score": 39.0,
+      "headline": "AI Boom Pulls Europe's Hottest Startups to US"
+    },
+    {
+      "id": "1e3e94b4e13183f8",
+      "title": "AI Is Shifting the Corporate Pyramid in Favor of Older Workers",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-18/ai-reshapes-jobs-market-in-favor-of-older-workers",
+      "source": "Bloomberg Technology",
+      "summary": "The shift is poised to be strongest in Europe and Asia.",
+      "published": "2026-05-18T10:30:01+00:00",
+      "score": 39.0,
+      "headline": "AI Shifts Corporate Pyramid for Older Workers"
+    },
+    {
+      "id": "00b4e2ed1656b53f",
+      "title": "AI super-apps are remaking China's internet",
+      "url": "https://www.economist.com/business/2026/05/17/ai-super-apps-are-remaking-chinas-internet",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.economist.com/business/2026/05/17/ai-super-apps-are-remaking-chinas-internet Comments URL: https://news.ycombinator.com/item?id=48176712 Points: 3 # Comments: 0",
+      "published": "2026-05-18T08:09:34+00:00",
+      "score": 39.0,
+      "headline": "AI SUPER-APPS REMAKE CHINA'S INTERNET"
+    },
+    {
+      "id": "2b6efd0b522ed289",
+      "title": "HSBC opens a $4bn credit line for Chinese clean-tech to go global",
+      "url": "https://thenextweb.com/news/hsbc-4-billion-china-clean-tech-credit-facility",
       "source": "The Next Web",
-      "summary": "OpenAI co-founder and president Greg Brockman has permanently taken charge of the company\u2019s product strategy, merging ChatGPT, Codex, and the developer API into a single product organisation. In an internal memo seen by Wired, Brockman wrote that OpenAI will \u201cinvest in a single agentic platform and to merge ChatGPT and Codex into one unified agentic [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-17T16:21:19+00:00",
+      "summary": "Europe\u2019s largest bank is putting a dedicated facility behind Chinese solar, battery, EV and data-centre exporters expanding overseas, citing demand that has accelerated alongside the Iran war. HSBC has set up a dedicated $4bn credit facility to help Chinese clean-technology companies expand overseas, the bank said on Monday. The \u2018Sustainability and Transition Credit Facility\u2019 covers [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-18T07:44:42+00:00",
       "score": 39.0,
-      "headline": "OPENAI MERGES CHATGPT AND CODEX... Brockman Takes Control"
+      "headline": "HSBC Opens $4B Credit Line for Chinese Clean-Tech Global Expansion"
     },
     {
-      "id": "487272c63954ea31",
-      "title": "Cerebras CFO says they are currently running GPT5.4 and GPT5.5 internally on their chips, will release to the public soon. (Imagine that intelligence at that speed)",
-      "url": "https://www.reddit.com/r/singularity/comments/1tftg9h/cerebras_cfo_says_they_are_currently_running/",
-      "source": "Reddit r/singularity",
-      "summary": "Link to tweet: https://x.com/dee\\_bosa/status/2055351401472020949?s=20 Link to full stream: https://www.cnbc.com/video/2026/05/14/the-years-largest-ipo-acerebras-joins-the-hottest-trade-in-ai.html &#32; submitted by &#32; /u/socoolandawesome [link] &#32; [comments]",
-      "published": "2026-05-17T15:57:12+00:00",
+      "id": "1cf9d94390b7e975",
+      "title": "Samsung union holds 21 May strike date as Monday mediation opens in Sejong",
+      "url": "https://thenextweb.com/news/samsung-union-bonus-formula-sejong-strike",
+      "source": "The Next Web",
+      "summary": "Talks resumed in Sejong on Monday. Choi Seung-ho walked into the National Labor Relations Commission building in Sejong on Monday morning, about 110 km south of Seoul, and told reporters he would \u2018participate in this second round in good faith\u2019. The head of Samsung Electronics\u2019 largest union, on Friday\u2019s evidence, had been preparing to talk [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-18T07:29:50+00:00",
       "score": 39.0,
-      "headline": "CEREBRAS RUNS GPT5.4 INTERNALLY... Public Release Coming"
-    },
-    {
-      "id": "bfcd1d7a3e6c9a90",
-      "title": "Germany's spy agency picks French AI firm over Palantir",
-      "url": "https://www.politico.eu/article/germany-spy-agency-picks-france-ai-firm-over-palantir/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.politico.eu/article/germany-spy-agency-picks-france-ai-firm-over-palantir/ Comments URL: https://news.ycombinator.com/item?id=48169632 Points: 2 # Comments: 1",
-      "published": "2026-05-17T15:11:44+00:00",
-      "score": 39.0,
-      "headline": "GERMANY SPY AGENCY PICKS FRENCH AI OVER PALANTIR"
-    },
-    {
-      "id": "50e71c51bedba14b",
-      "title": "\"Malta just became the first country to offer ChatGPT Plus to every citizen - free for a year. The only requirement: complete an AI literacy course first. The course was built by the University of Malta, not by OpenAI. So it's not a vendor training citizens to use vendor\"",
-      "url": "https://www.reddit.com/r/singularity/comments/1tfisbw/malta_just_became_the_first_country_to_offer/",
-      "source": "Reddit r/singularity",
-      "summary": "&#32; submitted by &#32; /u/badumtsssst [link] &#32; [comments]",
-      "published": "2026-05-17T07:41:52+00:00",
-      "score": 39.0,
-      "headline": "MALTA FIRST NATION: Free ChatGPT Plus for All Citizens"
-    },
-    {
-      "id": "796e234014772a98",
-      "title": "Self-driving motorcycles are being spotted on China's streets without a driver",
-      "url": "https://www.reddit.com/r/singularity/comments/1tf017l/selfdriving_motorcycles_are_being_spotted_on/",
-      "source": "Reddit r/singularity",
-      "summary": "soon calling your own motorcycle to pick u &#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
-      "published": "2026-05-16T17:30:20+00:00",
-      "score": 39.0,
-      "headline": "DRIVERLESS MOTORCYCLES Hit China Streets"
-    },
-    {
-      "id": "85331331526c4eba",
-      "title": "OpenAI co-founder Greg Brockman reportedly takes charge of product strategy",
-      "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-      "source": "TechCrunch AI",
-      "summary": "OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.",
-      "published": "2026-05-16T15:33:33+00:00",
-      "score": 39.0,
-      "headline": "OpenAI Co-founder Brockman TAKES CHARGE of Product"
-    },
-    {
-      "id": "e0a063b7a71f0b53",
-      "title": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
-      "url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
-      "source": "TechCrunch Startups",
-      "summary": "Cerebras Systems was 2026's biggest tech IPO so far. But years ago, it burned through hundreds of millions working on a chip many believed impossible.",
-      "published": "2026-05-16T15:00:00+00:00",
-      "score": 39.0,
-      "headline": "$60B Cerebras ALMOST DIED - Burned $8M Monthly"
-    },
-    {
-      "id": "7f1dddbf9c49efa0",
-      "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
-      "url": "https://www.seangoedecke.com/steering-vectors/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.seangoedecke.com/steering-vectors/ Comments URL: https://news.ycombinator.com/item?id=48160807 Points: 27 # Comments: 0",
-      "published": "2026-05-16T14:58:16+00:00",
-      "score": 39.0,
-      "headline": "DeepSeek-V4-Flash Revives LLM Steering Research"
-    },
-    {
-      "id": "6c7b9f6f65f80642",
-      "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1tetqid/openai_launches_chatgpt_for_personal_finance_will/",
-      "source": "Reddit r/OpenAI",
-      "summary": "&#32; submitted by &#32; /u/ThereWas [link] &#32; [comments]",
-      "published": "2026-05-16T13:29:08+00:00",
-      "score": 39.0,
-      "headline": "CHATGPT PERSONAL FINANCE Connects to Bank Accounts"
-    },
-    {
-      "id": "a1f984fc9b394a9a",
-      "title": "MTP support merged into llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tes1wx/mtp_support_merged_into_llamacpp/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "PR 22673 has been merged into master! \ud83c\udf89 &#32; submitted by &#32; /u/tacticaltweaker [link] &#32; [comments]",
-      "published": "2026-05-16T12:15:54+00:00",
-      "score": 39.0,
-      "headline": "MTP SUPPORT MERGED INTO Llama.cpp - Major Breakthrough"
-    },
-    {
-      "id": "325dfaed0485a993",
-      "title": "MTP PR Merged!!!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1terzq4/mtp_pr_merged/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Llamas, LFG!!! \ud83c\udf89\ud83c\udf89\ud83c\udf89 &#32; submitted by &#32; /u/Valuable_Touch5670 [link] &#32; [comments]",
-      "published": "2026-05-16T12:13:08+00:00",
-      "score": 39.0,
-      "headline": "MTP PR MERGED! Llama.cpp Gets Major Update"
-    },
-    {
-      "id": "cf3c8223c6f1475d",
-      "title": "Nous Research Releases Token Superposition Training to Speed Up LLM Pre-Training by Up to 2.5x Across 270M to 10B Parameter Models",
-      "url": "https://www.reddit.com/r/singularity/comments/1teoiq0/nous_research_releases_token_superposition/",
-      "source": "Reddit r/singularity",
-      "summary": "https://arxiv.org/abs/2605.06546 https://nousresearch.com/token-superposition Pre-training large language models is expensive enough that even modest efficiency improvements can translate into meaningful cost and time savings. Nous Research is releasing Token Superposition Training (TST), a method that substantially reduces pre-training wall-clock time at fixed compute without touching the model architecture, optimizer, tokenizer, parallelism strategy, or training data. At the 10B-A1B mixture-of-experts scale, TST reaches a lower final training loss than a matched-FLOPs baseline while consuming 4,768 B200-GPU-hours versus the baseline\u2019s 12,311 \u2014 roughly a 2.5x reduction in total pre-training time. &#32; submitted by &#32; /u/callmeteji [link] &#32; [comments]",
-      "published": "2026-05-16T09:11:47+00:00",
-      "score": 39.0,
-      "headline": "NOUS RESEARCH BREAKTHROUGH: 2.5X FASTER LLM TRAINING"
-    },
-    {
-      "id": "946dc181452f5303",
-      "title": "Emotion-Attended Stateful Memory (EASM):The Architecture for Hyper-Personalization at Scale",
-      "url": "https://arxiv.org/abs/2605.14833",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2605.14833v1 Announce Type: new Abstract: Current language model systems remain fundamentally stateless across sessions, limiting their ability to personalize interactions over time. While retrieval-augmented generation and fine-tuning improve knowledge access and domain capability, they do not enable persistent understanding of individual users. We propose an emotion-attended stateful memory architecture that dynamically constructs user-specific conversational context using long-term history, emotional signals, and inferred intent at inference time. To evaluate its impact, we conducted a controlled A/B study across thirty non-scripted conversations spanning six emotionally distinct categories using the same underlying language model in both conditions. The memory-enriched condition consistently outperformed the stateless baseline across all evaluated scenarios. The largest gains were observed in memory grounding (95% improvement), plan clarity (57%), and emotional validation (34",
-      "published": "2026-05-16T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "EASM Architecture Enables Hyper-Personalization at Scale"
+      "headline": "Samsung Union Sets Strike Date as Chip Talks Resume"
     }
   ],
-  "generated_at": "2026-05-18T06:54:49.760391"
+  "generated_at": "2026-05-18T11:05:23.492101"
 }

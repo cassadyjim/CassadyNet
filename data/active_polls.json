@@ -10,8 +10,18 @@
       "analysis_url": "/analysis/analysis-ai-security-breaches-vulnerabilities-20260518.html",
       "analysis_type": "poll",
       "created_at": "2026-05-18T02:47:51.140443",
-      "last_seen": "2026-05-18T06:55:28.078060",
+      "last_seen": "2026-05-18T11:06:01.406114",
       "cluster_stories": [
+        {
+          "id": "26e8d198639a362f",
+          "title": "UK Parliament is considering a \"kill switch\" to shut down data centers in an AI emergency",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1temuy9/uk_parliament_is_considering_a_kill_switch_to/",
+          "source": "Reddit r/OpenAI",
+          "summary": "src: https://bills.parliament.uk/bills/4035/stages/20525/amendments/10034477 &#32; submitted by &#32; /u/Confident_Salt_8108 [link] &#32; [comments]",
+          "published": "2026-05-16T07:38:39+00:00",
+          "score": 49.0,
+          "headline": "UK PARLIAMENT CONSIDERS AI KILL SWITCH"
+        },
         {
           "id": "d2c3d643bd0d74c7",
           "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
@@ -33,6 +43,26 @@
           "headline": "CLAUDE MYTHOS CRACKS MACOS IN 5 DAYS... Security Meltdown"
         },
         {
+          "id": "01b1c67f81382d2d",
+          "title": "Anthropic to brief Financial Stability Board on cyber flaws exposed by Mythos: FT",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-brief-financial-stability-board-on-cyber-flaws-exposed-by-mythos-ft/articleshow/131166366.cms",
+          "source": "The Economic Times Tech",
+          "summary": "AI firm Anthropic will present cyber risks in global finance. These vulnerabilities were revealed by their new Mythos model.",
+          "published": "2026-05-18T04:19:38+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC TO BRIEF GLOBAL FINANCE WATCHDOG... Mythos Model Exposes Cyber Flaws"
+        },
+        {
+          "id": "fb6c7321bd97fa8d",
+          "title": "Anthropic to brief global financial watchdog on cyber flaws exposed by Mythos",
+          "url": "https://www.ft.com/content/7d309f94-3618-4511-9778-d1447799c5e4",
+          "source": "Financial Times Tech",
+          "summary": "US tech group will discuss capabilities of its new AI model with members of the Financial Stability Board",
+          "published": "2026-05-18T04:00:22+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC MYTHOS MODEL EXPOSES GLOBAL FINANCE CYBER FLAWS... FSB Briefing Set"
+        },
+        {
           "id": "2c4af00cd13835ea",
           "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
           "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
@@ -43,6 +73,16 @@
           "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
         },
         {
+          "id": "cc113bc047611f34",
+          "title": "Anthropic is briefing the Financial Stability Board on what Mythos has been finding",
+          "url": "https://thenextweb.com/news/anthropic-mythos-fsb-briefing-banking-cyber",
+          "source": "The Next Web",
+          "summary": "Bank of England Governor Andrew Bailey, who chairs the global financial-risk watchdog, has invited the company to present to G20 finance ministries and central banks. The model that worried him is the model now being explained. Anthropic is preparing to brief the Financial Stability Board on the cybersecurity vulnerabilities its Mythos model has been identifying [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-18T07:58:02+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC BRIEFS G20 ON AI RISKS... MYTHOS FINDINGS WORRY CENTRAL BANKS"
+        },
+        {
           "id": "e55e1cea1c1ad20a",
           "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
           "url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
@@ -51,125 +91,20 @@
           "published": "2026-05-16T22:07:46+00:00",
           "score": 43.0,
           "headline": "OpenAI Employee Devices COMPROMISED in NPM Supply Chain Attack"
-        },
-        {
-          "id": "a1c173032d9362df",
-          "title": "Irst Apple M5 memory exploit discovered using Anthropic AI",
-          "url": "https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement Comments URL: https://news.ycombinator.com/item?id=48164199 Points: 1 # Comments: 0",
-          "published": "2026-05-16T22:08:21+00:00",
-          "score": 41.0,
-          "headline": "FIRST Apple M5 Exploit Found Using Anthropic's Claude Mythos"
-        },
-        {
-          "id": "9852ec24dd59c624",
-          "title": "Security researchers, aided by Anthropic's Mythos, claim to have breached macOS",
-          "url": "https://www.engadget.com/2173543/security-researchers-anthropic-mythos-macos-exploit/",
-          "source": "Engadget",
-          "summary": "Apple is taking the claims seriously.",
-          "published": "2026-05-15T10:35:55+00:00",
-          "score": 41.0,
-          "headline": "ANTHROPIC'S MYTHOS AI HACKS macOS... APPLE RESPONDS"
         }
       ],
       "current_topic_name": "AI Security Breaches & Vulnerabilities"
     },
     {
-      "topic": "Trump-China AI Summit",
-      "description": "Historic diplomatic meeting between Trump and Xi with tech CEOs pushing AI cooperation over trade tensions.",
-      "question": "Should the US prioritize AI cooperation or security concerns with China?",
-      "button_a": "Cooperation",
-      "button_b": "China",
-      "poll_id": "trump-china-ai-summit-20260513",
-      "analysis_url": "/analysis/analysis-trump-xi-china-tech-relations-20260518.html",
+      "topic": "AI Security and Safety Concerns",
+      "description": "Major AI systems are exposing critical security vulnerabilities while governments and organizations scramble to implement safety measures and regulations.",
+      "question": "",
+      "poll_id": "",
+      "analysis_url": "",
       "analysis_type": "poll",
-      "created_at": "2026-05-13T21:25:25.176726",
-      "last_seen": "2026-05-18T06:55:28.775493",
-      "cluster_stories": [
-        {
-          "id": "77935bd451b97690",
-          "title": "Trump Discussed Nvidia Chips With Xi Jinping | Bloomberg Tech 5/15/2026",
-          "url": "https://www.bloomberg.com/news/videos/2026-05-15/bloomberg-tech-5-15-2026-video",
-          "source": "Bloomberg Technology",
-          "summary": "Bloomberg\u2019s Caroline Hyde and Ed Ludlow break down the latest from Beijing after President Trump says he discussed Nvidia's H200 chips with Xi Jinping. Plus, they speak with the CEO of Figma after its earnings results defy fears that AI would disrupt the design stack. And, Caroline's conversation with OpenAI CFO Sarah Friar, who says the startup may raise more capital after completing its recent fundraising round. (Source: Bloomberg)",
-          "published": "2026-05-15T23:43:52+00:00",
-          "score": 46.0,
-          "headline": "TRUMP DISCUSSED NVIDIA H200 CHIPS WITH XI JINPING"
-        },
-        {
-          "id": "b670485948cfd45e",
-          "title": "Trump thinks Taiwan is a \u2018very good negotiating chip\u2019 with China",
-          "url": "https://fortune.com/2026/05/16/trump-thinks-taiwan-is-a-very-good-negotiating-chip-with-china/",
-          "source": "Fortune Tech",
-          "summary": "On arms sales, he told Fox News, \"\u201cI\u2019m holding that in abeyance and it depends on China. It's a very good negotiating chip for us, frankly.\u201d",
-          "published": "2026-05-16T14:08:10+00:00",
-          "score": 45.0,
-          "headline": "TRUMP: Taiwan 'Very Good Negotiating Chip' with China"
-        },
-        {
-          "id": "677dff553697465d",
-          "title": "Trump Says He Discussed AI Guardrails, Nvidia\u2019s Chips With Xi",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-15/trump-says-he-discussed-ai-guardrails-nvidia-s-chips-with-xi",
-          "source": "Bloomberg Technology",
-          "summary": "US President Donald Trump said he discussed guardrails on artificial intelligence with Chinese leader Xi Jinping, while adding that Nvidia Corp.\u2019s H200 chips also came up during a two-day summit in Beijing.",
-          "published": "2026-05-15T11:15:30+00:00",
-          "score": 45.0,
-          "headline": "TRUMP-XI Summit: AI Guardrails & NVIDIA Chips Discussed"
-        },
-        {
-          "id": "dda69caea50e3821",
-          "title": "US clears H200 chip sales to 10 China firms as Nvidia CEO looks for breakthrough",
-          "url": "https://economictimes.indiatimes.com/tech/technology/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough/articleshow/131108130.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Despite US approval for around 10 Chinese firms to buy Nvidia's H200 AI chips, no deliveries have occurred. CEO Jensen Huang's China trip, facilitated by President Trump, aims to resolve this deadlock, highlighting the complex US-China tech rivalry impacting even approved trade.",
-          "published": "2026-05-15T04:29:42+00:00",
-          "score": 45.0,
-          "headline": "US Approves Nvidia H200 Sales to China... But No Deliveries Yet"
-        },
-        {
-          "id": "2faebfcc096f7732",
-          "title": "Trump leaves Beijing saying he and Xi talked AI guardrails. Nothing was signed.",
-          "url": "https://thenextweb.com/news/trump-xi-beijing-ai-guardrails-nvidia-h200",
-          "source": "The Next Web",
-          "summary": "Asked what kind of guardrails on the way out, the US president told reporters on Air Force One: \u2018standard guardrails that we talk about all the time\u2019. H200 deliveries to ten cleared Chinese buyers remain stalled. Donald Trump told reporters on Air Force One on Friday that he and Xi Jinping discussed AI guardrails and [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-15T13:20:33+00:00",
-          "score": 44.0,
-          "headline": "TRUMP-XI TALKS AI GUARDRAILS... Nothing Signed"
-        },
-        {
-          "id": "f5956ca707d3a0fd",
-          "title": "Chip export controls were not a major topic in Beijing, US Trade Rep Greer says",
-          "url": "https://thenextweb.com/news/greer-chip-export-controls-not-major-china-talks",
-          "source": "The Next Web",
-          "summary": "Greer told Bloomberg TV the bilateral did not address chip controls, even as Reuters reported the Trump administration cleared Nvidia H200 sales to several Chinese firms after the Xi meeting. Semiconductor export controls were not a major topic at this week\u2019s US-China bilateral meetings in Beijing, US Trade Representative Jamieson Greer told Bloomberg TV on [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-15T08:07:04+00:00",
-          "score": 44.0,
-          "headline": "NVIDIA H200 Sales to China CLEARED After Xi-Trump Summit"
-        },
-        {
-          "id": "8d29a5e4e3e5e787",
-          "title": "Trump calls Taiwan arms deal a \u201cnegotiating chip\u201d after three days with Xi in Beijing",
-          "url": "https://thenextweb.com/news/trump-xi-summit-taiwan-arms-deal-beijing",
-          "source": "The Next Web",
-          "summary": "Donald Trump flew home from Beijing on Friday having told China\u2019s Xi Jinping that a $14 billion arms package for Taiwan is \u201ca very good negotiating chip,\u201d a remark that reframes American security commitments to a democratic ally as a bargaining token in a broader great-power relationship. The comment, made during a Fox News [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-17T13:20:01+00:00",
-          "score": 42.0,
-          "headline": "TRUMP Calls Taiwan Arms Deal 'Negotiating Chip' After Xi Summit"
-        },
-        {
-          "id": "f4670affa1c57dfe",
-          "title": "Korean chipmakers face critical trade-offs over China exports post Trump-Xi talks",
-          "url": "https://economictimes.indiatimes.com/tech/technology/korean-chipmakers-face-critical-trade-offs-over-china-exports-post-trump-xi-talks/articleshow/131110603.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Korea's chip industry faces a dilemma as US-China talks on tech exports and rare earths unfold. While potential sales in China beckon, manufacturers worry about aiding rivals' advancement, especially concerning critical EUV lithography equipment. Easing tensions could boost Korean exports, but advanced tech access remains a key concern.",
-          "published": "2026-05-15T06:49:33+00:00",
-          "score": 42.0,
-          "headline": "KOREAN CHIPMAKERS Face China Export Dilemma Post Trump-Xi Talks"
-        }
-      ],
-      "current_topic_name": "Trump-Xi China Tech Relations"
+      "created_at": "2026-05-18T11:06:02.455640",
+      "last_seen": "2026-05-18T11:06:02.455649"
     }
   ],
-  "last_updated": "2026-05-18T06:55:28.775505"
+  "last_updated": "2026-05-18T11:06:12.653916"
 }
