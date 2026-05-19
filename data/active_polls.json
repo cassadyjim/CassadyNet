@@ -1,101 +1,6 @@
 {
   "polls": [
     {
-      "topic": "AI Security Breaches & Vulnerabilities",
-      "description": "Major security incidents exposing critical flaws in AI systems and platforms, raising concerns about AI safety and data protection.",
-      "question": "Are AI security failures mainly due to rushed deployment or inherent complexity?",
-      "button_a": "Deployment",
-      "button_b": "Complexity",
-      "poll_id": "ai-security-breaches-vulnerabilities-20260518",
-      "analysis_url": "/analysis/analysis-ai-security-and-safety-concerns-20260519.html",
-      "analysis_type": "poll",
-      "created_at": "2026-05-18T02:47:51.140443",
-      "last_seen": "2026-05-19T08:26:08.721662",
-      "cluster_stories": [
-        {
-          "id": "26e8d198639a362f",
-          "title": "UK Parliament is considering a \"kill switch\" to shut down data centers in an AI emergency",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1temuy9/uk_parliament_is_considering_a_kill_switch_to/",
-          "source": "Reddit r/OpenAI",
-          "summary": "src: https://bills.parliament.uk/bills/4035/stages/20525/amendments/10034477 &#32; submitted by &#32; /u/Confident_Salt_8108 [link] &#32; [comments]",
-          "published": "2026-05-16T07:38:39+00:00",
-          "score": 49.0,
-          "headline": "UK PARLIAMENT CONSIDERS AI KILL SWITCH"
-        },
-        {
-          "id": "d2c3d643bd0d74c7",
-          "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
-          "source": "Reddit r/MachineLearning",
-          "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
-          "published": "2026-05-17T11:26:46+00:00",
-          "score": 45.0,
-          "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
-        },
-        {
-          "id": "e8a938ad05dff55e",
-          "title": "Claude Mythos has cracked MacOS. It took 5 days.",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1tdy6ve/claude_mythos_has_cracked_macos_it_took_5_days/",
-          "source": "Reddit r/OpenAI",
-          "summary": "src https://www.wsj.com/tech/ai/anthropic-mythos-apple-macos-bug-339da403 &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-          "published": "2026-05-15T14:34:46+00:00",
-          "score": 45.0,
-          "headline": "CLAUDE MYTHOS CRACKS MACOS IN 5 DAYS... Security Meltdown"
-        },
-        {
-          "id": "01b1c67f81382d2d",
-          "title": "Anthropic to brief Financial Stability Board on cyber flaws exposed by Mythos: FT",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-brief-financial-stability-board-on-cyber-flaws-exposed-by-mythos-ft/articleshow/131166366.cms",
-          "source": "The Economic Times Tech",
-          "summary": "AI firm Anthropic will present cyber risks in global finance. These vulnerabilities were revealed by their new Mythos model.",
-          "published": "2026-05-18T04:19:38+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC TO BRIEF GLOBAL FINANCE WATCHDOG... Mythos Model Exposes Cyber Flaws"
-        },
-        {
-          "id": "fb6c7321bd97fa8d",
-          "title": "Anthropic to brief global financial watchdog on cyber flaws exposed by Mythos",
-          "url": "https://www.ft.com/content/7d309f94-3618-4511-9778-d1447799c5e4",
-          "source": "Financial Times Tech",
-          "summary": "US tech group will discuss capabilities of its new AI model with members of the Financial Stability Board",
-          "published": "2026-05-18T04:00:22+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC MYTHOS MODEL EXPOSES GLOBAL FINANCE CYBER FLAWS... FSB Briefing Set"
-        },
-        {
-          "id": "2c4af00cd13835ea",
-          "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
-          "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
-          "source": "The Next Web",
-          "summary": "The two hacks came a little over two weeks apart. On 1 April, attackers drained roughly $285 million from Drift Protocol, a Solana-based derivatives exchange, after spending months posing as a quantitative trading firm to trick employees into authorising malicious transactions. On 18 April, a separate group exploited a single-verifier flaw in Kelp DAO\u2019s [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-15T14:59:55+00:00",
-          "score": 44.0,
-          "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
-        },
-        {
-          "id": "cc113bc047611f34",
-          "title": "Anthropic is briefing the Financial Stability Board on what Mythos has been finding",
-          "url": "https://thenextweb.com/news/anthropic-mythos-fsb-briefing-banking-cyber",
-          "source": "The Next Web",
-          "summary": "Bank of England Governor Andrew Bailey, who chairs the global financial-risk watchdog, has invited the company to present to G20 finance ministries and central banks. The model that worried him is the model now being explained. Anthropic is preparing to brief the Financial Stability Board on the cybersecurity vulnerabilities its Mythos model has been identifying [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-18T07:58:02+00:00",
-          "score": 43.0,
-          "headline": "ANTHROPIC BRIEFS G20 ON AI RISKS... MYTHOS FINDINGS WORRY CENTRAL BANKS"
-        },
-        {
-          "id": "e55e1cea1c1ad20a",
-          "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
-          "url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019 Comments URL: https://news.ycombinator.com/item?id=48164196 Points: 3 # Comments: 0",
-          "published": "2026-05-16T22:07:46+00:00",
-          "score": 43.0,
-          "headline": "OpenAI Employee Devices COMPROMISED in NPM Supply Chain Attack"
-        }
-      ],
-      "current_topic_name": "AI Security and Safety Concerns"
-    },
-    {
       "topic": "Anthropic Safety & Partnerships",
       "description": "Anthropic emerges as key AI safety leader through major acquisitions, regulatory briefings, and Vatican collaboration.",
       "question": "Should AI companies brief regulators on dangerous capabilities before public release?",
@@ -105,7 +10,7 @@
       "analysis_url": "/analysis/analysis-anthropic-safety-partnerships-20260519.html",
       "analysis_type": "poll",
       "created_at": "2026-05-19T04:58:54.475345",
-      "last_seen": "2026-05-19T08:26:09.521233",
+      "last_seen": "2026-05-19T12:01:27.368853",
       "cluster_stories": [
         {
           "id": "1552bb13a0a610b1",
@@ -211,17 +116,120 @@
       "current_topic_name": "Anthropic Safety & Partnerships"
     },
     {
-      "topic": "AI Security and Safety Concerns",
-      "description": "Major AI systems are exposing critical security vulnerabilities while governments and organizations scramble to implement safety measures and regulations.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "/analysis/analysis-ai-security-and-safety-concerns-20260518.html",
+      "topic": "China AI Dominance",
+      "description": "China's state-funded AI boom and competitive positioning against the US across chips, models, and market access.",
+      "question": "Will China's state-backed AI strategy ultimately beat US innovation?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "china-ai-dominance-20260519",
+      "analysis_url": "/analysis/analysis-china-ai-dominance-20260315.html",
       "analysis_type": "poll",
-      "created_at": "2026-05-18T11:06:02.455640",
-      "last_seen": "2026-05-19T00:04:43.663182",
-      "current_topic_name": "AI Security and Safety Concerns",
-      "pending_archive": true
+      "created_at": "2026-05-19T12:01:14.779351",
+      "last_seen": "2026-05-19T12:01:44.950611",
+      "cluster_stories": [
+        {
+          "id": "08426c17690d57bb",
+          "title": "China Will Open Its Market to AI Chips From US, Nvidia\u2019s CEO Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-18/nvidia-s-ceo-says-china-will-open-its-market-to-ai-chips-from-us",
+          "source": "Bloomberg Technology",
+          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang, speaking days after he joined President Donald Trump\u2019s summit in China, said he expects Chinese authorities will eventually allow the import of artificial intelligence chips from the US.",
+          "published": "2026-05-18T19:25:18+00:00",
+          "score": 49.0,
+          "headline": "NVIDIA CEO: China Will Open Market to US AI Chips"
+        },
+        {
+          "id": "e230296a62e21d9b",
+          "title": "DeepSeek and China\u2019s AI boom are increasingly powered by state money",
+          "url": "https://fortune.com/2026/05/19/deepseek-china-ai-venture-capital-nvidia-pitchbook-trends-term-sheet/",
+          "source": "Fortune Tech",
+          "summary": "Government-linked investors in China went from backing fewer than 10 AI deals annually before 2018 to more than 140 in 2025, reshaping who controls the future of AI.",
+          "published": "2026-05-19T10:08:19+00:00",
+          "score": 47.0,
+          "headline": "CHINA'S AI BOOM Now 70% STATE-FUNDED... DeepSeek Backed by Government"
+        },
+        {
+          "id": "ea6e25d360243ee9",
+          "title": "Barclays Says Robots May Offset 60% of China\u2019s Population Slump",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-19/barclays-says-robots-may-offset-60-of-china-s-population-slump",
+          "source": "Bloomberg Technology",
+          "summary": "China\u2019s deployment of humanoid robots could offset as much as 60% of its projected decline in the labor force by 2035, according to Barclays Plc, helping sustain the world\u2019s largest industrial base as the population shrinks at a pace not seen in decades.",
+          "published": "2026-05-19T09:04:00+00:00",
+          "score": 45.0,
+          "headline": "BARCLAYS: China Robots Could Offset 60% of Population Decline by 2035"
+        },
+        {
+          "id": "b670485948cfd45e",
+          "title": "Trump thinks Taiwan is a \u2018very good negotiating chip\u2019 with China",
+          "url": "https://fortune.com/2026/05/16/trump-thinks-taiwan-is-a-very-good-negotiating-chip-with-china/",
+          "source": "Fortune Tech",
+          "summary": "On arms sales, he told Fox News, \"\u201cI\u2019m holding that in abeyance and it depends on China. It's a very good negotiating chip for us, frankly.\u201d",
+          "published": "2026-05-16T14:08:10+00:00",
+          "score": 45.0,
+          "headline": "TRUMP: Taiwan 'Very Good Negotiating Chip' with China"
+        },
+        {
+          "id": "6c294d2f192ecadb",
+          "title": "Baidu AI Sales Eclipse Waning Legacy Ads for the First Time",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-18/baidu-tops-sales-estimates-in-endorsement-of-agentic-ai-pivot",
+          "source": "Bloomberg Technology",
+          "summary": "Baidu Inc. posted a better-than-feared 1% drop in revenue after growth in nascent AI businesses offset a steady decline in traditional internet revenue, buying the search leader time to catch rivals such as Alibaba Group Holding Ltd. in the post-ChatGPT era.",
+          "published": "2026-05-18T09:15:06+00:00",
+          "score": 44.0,
+          "headline": "BAIDU AI Sales Eclipse Legacy Ads for First Time"
+        },
+        {
+          "id": "57f2444f9e30dc99",
+          "title": "Chinese AI groups pull ahead of US rivals in video generation race",
+          "url": "https://www.ft.com/content/9804b1de-653b-40b2-bffb-17c76ebebe34",
+          "source": "Financial Times Tech",
+          "summary": "ByteDance and Kuaishou outshine western rivals, lifting AI video quality across advertising and entertainment",
+          "published": "2026-05-17T04:00:03+00:00",
+          "score": 44.0,
+          "headline": "CHINESE AI GROUPS PULL AHEAD: ByteDance, Kuaishou Beat US in Video"
+        },
+        {
+          "id": "9a73500ed3f14780",
+          "title": "Barclays says humanoid robots can offset 60% of China\u2019s 37M worker shortfall by 2035",
+          "url": "https://thenextweb.com/news/barclays-china-humanoid-robots-37-million-workforce-2035",
+          "source": "The Next Web",
+          "summary": "The British bank\u2019s new note estimates humanoid robots can offset 60% of the projected labour-force decline by 2035, with China\u2019s workforce shrinking by 37 million people over the next ten years. Up to 24 million humanoids would be needed. Barclays published a research note estimating that China\u2019s deployment of humanoid robots could offset as much [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-19T09:53:48+00:00",
+          "score": 43.0,
+          "headline": "Barclays: Humanoid Robots Can Replace 60% of China's Missing 37M Workers by 2035"
+        },
+        {
+          "id": "ee09202b24c88ace",
+          "title": "China\u2019s Energy Boom Could Give It the AI Edge",
+          "url": "https://www.bloomberg.com/news/videos/2026-05-17/china-s-energy-boom-could-give-it-the-ai-edge-video",
+          "source": "Bloomberg Technology",
+          "summary": "As the United States and China compete for dominance in artificial intelligence, energy is emerging as a critical battleground. Former Treasury Secretary Hank Paulson warns that while the US still leads in AI technology, electricity shortages could become a major constraint as data center demand surges. Former US Ambassador to China Nicholas Burns says China\u2019s enormous investments in transmission, renewables, batteries, and power generation are already reshaping global supply chains, while Hoover Institution senior fellow Elizabeth Economy argues Beijing\u2019s clean-energy strategy is as much about economic and geopolitical power as climate policy. Together, their assessments point to a growing reality: the AI race may depend not just on chips and software, but on generating enough power to sustain the technology. (Source: Bloomberg)",
+          "published": "2026-05-17T12:04:01+00:00",
+          "score": 43.0,
+          "headline": "China's Energy Boom Could Give It AI EDGE Over US"
+        },
+        {
+          "id": "c962071e57182c4c",
+          "title": "Malta just became the first country to give every citizen free ChatGPT Plus. There\u2019s one condition.",
+          "url": "https://thenextweb.com/news/openai-malta-chatgpt-plus-free-citizens",
+          "source": "The Next Web",
+          "summary": "OpenAI has signed a deal with the government of Malta to provide all Maltese citizens and residents with free access to ChatGPT Plus for one year. There is one condition: they must first complete an AI literacy course developed by the University of Malta. It is the first partnership of its kind between OpenAI and [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-17T10:22:03+00:00",
+          "score": 43.0,
+          "headline": "MALTA FIRST NATION TO GIVE ALL CITIZENS FREE CHATGPT PLUS"
+        },
+        {
+          "id": "8492f1774f5c1657",
+          "title": "How China's Shadow AI API Market Works",
+          "url": "https://www.vincentschmalbach.com/chinas-shadow-api-market/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.vincentschmalbach.com/chinas-shadow-api-market/ Comments URL: https://news.ycombinator.com/item?id=48177492 Points: 2 # Comments: 0",
+          "published": "2026-05-18T10:13:06+00:00",
+          "score": 42.0,
+          "headline": "How China's Shadow AI API Market Works"
+        }
+      ],
+      "current_topic_name": "China AI Dominance"
     }
   ],
-  "last_updated": "2026-05-19T08:26:09.521304"
+  "last_updated": "2026-05-19T12:01:46.090569"
 }

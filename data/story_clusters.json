@@ -1,94 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "AI Security and Safety Concerns",
-      "description": "Major AI systems are exposing critical security vulnerabilities while governments and organizations scramble to implement safety measures and regulations.",
-      "stories": [
-        {
-          "id": "26e8d198639a362f",
-          "title": "UK Parliament is considering a \"kill switch\" to shut down data centers in an AI emergency",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1temuy9/uk_parliament_is_considering_a_kill_switch_to/",
-          "source": "Reddit r/OpenAI",
-          "summary": "src: https://bills.parliament.uk/bills/4035/stages/20525/amendments/10034477 &#32; submitted by &#32; /u/Confident_Salt_8108 [link] &#32; [comments]",
-          "published": "2026-05-16T07:38:39+00:00",
-          "score": 49.0,
-          "headline": "UK PARLIAMENT CONSIDERS AI KILL SWITCH"
-        },
-        {
-          "id": "d2c3d643bd0d74c7",
-          "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
-          "source": "Reddit r/MachineLearning",
-          "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
-          "published": "2026-05-17T11:26:46+00:00",
-          "score": 45.0,
-          "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
-        },
-        {
-          "id": "e8a938ad05dff55e",
-          "title": "Claude Mythos has cracked MacOS. It took 5 days.",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1tdy6ve/claude_mythos_has_cracked_macos_it_took_5_days/",
-          "source": "Reddit r/OpenAI",
-          "summary": "src https://www.wsj.com/tech/ai/anthropic-mythos-apple-macos-bug-339da403 &#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-          "published": "2026-05-15T14:34:46+00:00",
-          "score": 45.0,
-          "headline": "CLAUDE MYTHOS CRACKS MACOS IN 5 DAYS... Security Meltdown"
-        },
-        {
-          "id": "01b1c67f81382d2d",
-          "title": "Anthropic to brief Financial Stability Board on cyber flaws exposed by Mythos: FT",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-brief-financial-stability-board-on-cyber-flaws-exposed-by-mythos-ft/articleshow/131166366.cms",
-          "source": "The Economic Times Tech",
-          "summary": "AI firm Anthropic will present cyber risks in global finance. These vulnerabilities were revealed by their new Mythos model.",
-          "published": "2026-05-18T04:19:38+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC TO BRIEF GLOBAL FINANCE WATCHDOG... Mythos Model Exposes Cyber Flaws"
-        },
-        {
-          "id": "fb6c7321bd97fa8d",
-          "title": "Anthropic to brief global financial watchdog on cyber flaws exposed by Mythos",
-          "url": "https://www.ft.com/content/7d309f94-3618-4511-9778-d1447799c5e4",
-          "source": "Financial Times Tech",
-          "summary": "US tech group will discuss capabilities of its new AI model with members of the Financial Stability Board",
-          "published": "2026-05-18T04:00:22+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC MYTHOS MODEL EXPOSES GLOBAL FINANCE CYBER FLAWS... FSB Briefing Set"
-        },
-        {
-          "id": "2c4af00cd13835ea",
-          "title": "AI gave North Korean hackers a $600 million month. DeFi is still working out how to respond.",
-          "url": "https://thenextweb.com/news/ai-crypto-hacking-defi-north-korea-april-exploits",
-          "source": "The Next Web",
-          "summary": "The two hacks came a little over two weeks apart. On 1 April, attackers drained roughly $285 million from Drift Protocol, a Solana-based derivatives exchange, after spending months posing as a quantitative trading firm to trick employees into authorising malicious transactions. On 18 April, a separate group exploited a single-verifier flaw in Kelp DAO\u2019s [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-15T14:59:55+00:00",
-          "score": 44.0,
-          "headline": "AI HELPS NORTH KOREAN HACKERS STEAL $600M"
-        },
-        {
-          "id": "cc113bc047611f34",
-          "title": "Anthropic is briefing the Financial Stability Board on what Mythos has been finding",
-          "url": "https://thenextweb.com/news/anthropic-mythos-fsb-briefing-banking-cyber",
-          "source": "The Next Web",
-          "summary": "Bank of England Governor Andrew Bailey, who chairs the global financial-risk watchdog, has invited the company to present to G20 finance ministries and central banks. The model that worried him is the model now being explained. Anthropic is preparing to brief the Financial Stability Board on the cybersecurity vulnerabilities its Mythos model has been identifying [&hellip;] This story continues at The Next Web",
-          "published": "2026-05-18T07:58:02+00:00",
-          "score": 43.0,
-          "headline": "ANTHROPIC BRIEFS G20 ON AI RISKS... MYTHOS FINDINGS WORRY CENTRAL BANKS"
-        },
-        {
-          "id": "e55e1cea1c1ad20a",
-          "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
-          "url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019 Comments URL: https://news.ycombinator.com/item?id=48164196 Points: 3 # Comments: 0",
-          "published": "2026-05-16T22:07:46+00:00",
-          "score": 43.0,
-          "headline": "OpenAI Employee Devices COMPROMISED in NPM Supply Chain Attack"
-        }
-      ],
-      "top_score": 49.0,
-      "story_count": 8
-    },
-    {
       "topic": "Anthropic Safety & Partnerships",
       "description": "Anthropic emerges as key AI safety leader through major acquisitions, regulatory briefings, and Vatican collaboration.",
       "stories": [
@@ -195,6 +107,114 @@
       ],
       "top_score": 48.0,
       "story_count": 10
+    },
+    {
+      "topic": "China AI Dominance",
+      "description": "China's state-funded AI boom and competitive positioning against the US across chips, models, and market access.",
+      "stories": [
+        {
+          "id": "08426c17690d57bb",
+          "title": "China Will Open Its Market to AI Chips From US, Nvidia\u2019s CEO Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-18/nvidia-s-ceo-says-china-will-open-its-market-to-ai-chips-from-us",
+          "source": "Bloomberg Technology",
+          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang, speaking days after he joined President Donald Trump\u2019s summit in China, said he expects Chinese authorities will eventually allow the import of artificial intelligence chips from the US.",
+          "published": "2026-05-18T19:25:18+00:00",
+          "score": 49.0,
+          "headline": "NVIDIA CEO: China Will Open Market to US AI Chips"
+        },
+        {
+          "id": "e230296a62e21d9b",
+          "title": "DeepSeek and China\u2019s AI boom are increasingly powered by state money",
+          "url": "https://fortune.com/2026/05/19/deepseek-china-ai-venture-capital-nvidia-pitchbook-trends-term-sheet/",
+          "source": "Fortune Tech",
+          "summary": "Government-linked investors in China went from backing fewer than 10 AI deals annually before 2018 to more than 140 in 2025, reshaping who controls the future of AI.",
+          "published": "2026-05-19T10:08:19+00:00",
+          "score": 47.0,
+          "headline": "CHINA'S AI BOOM Now 70% STATE-FUNDED... DeepSeek Backed by Government"
+        },
+        {
+          "id": "ea6e25d360243ee9",
+          "title": "Barclays Says Robots May Offset 60% of China\u2019s Population Slump",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-19/barclays-says-robots-may-offset-60-of-china-s-population-slump",
+          "source": "Bloomberg Technology",
+          "summary": "China\u2019s deployment of humanoid robots could offset as much as 60% of its projected decline in the labor force by 2035, according to Barclays Plc, helping sustain the world\u2019s largest industrial base as the population shrinks at a pace not seen in decades.",
+          "published": "2026-05-19T09:04:00+00:00",
+          "score": 45.0,
+          "headline": "BARCLAYS: China Robots Could Offset 60% of Population Decline by 2035"
+        },
+        {
+          "id": "b670485948cfd45e",
+          "title": "Trump thinks Taiwan is a \u2018very good negotiating chip\u2019 with China",
+          "url": "https://fortune.com/2026/05/16/trump-thinks-taiwan-is-a-very-good-negotiating-chip-with-china/",
+          "source": "Fortune Tech",
+          "summary": "On arms sales, he told Fox News, \"\u201cI\u2019m holding that in abeyance and it depends on China. It's a very good negotiating chip for us, frankly.\u201d",
+          "published": "2026-05-16T14:08:10+00:00",
+          "score": 45.0,
+          "headline": "TRUMP: Taiwan 'Very Good Negotiating Chip' with China"
+        },
+        {
+          "id": "6c294d2f192ecadb",
+          "title": "Baidu AI Sales Eclipse Waning Legacy Ads for the First Time",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-18/baidu-tops-sales-estimates-in-endorsement-of-agentic-ai-pivot",
+          "source": "Bloomberg Technology",
+          "summary": "Baidu Inc. posted a better-than-feared 1% drop in revenue after growth in nascent AI businesses offset a steady decline in traditional internet revenue, buying the search leader time to catch rivals such as Alibaba Group Holding Ltd. in the post-ChatGPT era.",
+          "published": "2026-05-18T09:15:06+00:00",
+          "score": 44.0,
+          "headline": "BAIDU AI Sales Eclipse Legacy Ads for First Time"
+        },
+        {
+          "id": "57f2444f9e30dc99",
+          "title": "Chinese AI groups pull ahead of US rivals in video generation race",
+          "url": "https://www.ft.com/content/9804b1de-653b-40b2-bffb-17c76ebebe34",
+          "source": "Financial Times Tech",
+          "summary": "ByteDance and Kuaishou outshine western rivals, lifting AI video quality across advertising and entertainment",
+          "published": "2026-05-17T04:00:03+00:00",
+          "score": 44.0,
+          "headline": "CHINESE AI GROUPS PULL AHEAD: ByteDance, Kuaishou Beat US in Video"
+        },
+        {
+          "id": "9a73500ed3f14780",
+          "title": "Barclays says humanoid robots can offset 60% of China\u2019s 37M worker shortfall by 2035",
+          "url": "https://thenextweb.com/news/barclays-china-humanoid-robots-37-million-workforce-2035",
+          "source": "The Next Web",
+          "summary": "The British bank\u2019s new note estimates humanoid robots can offset 60% of the projected labour-force decline by 2035, with China\u2019s workforce shrinking by 37 million people over the next ten years. Up to 24 million humanoids would be needed. Barclays published a research note estimating that China\u2019s deployment of humanoid robots could offset as much [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-19T09:53:48+00:00",
+          "score": 43.0,
+          "headline": "Barclays: Humanoid Robots Can Replace 60% of China's Missing 37M Workers by 2035"
+        },
+        {
+          "id": "ee09202b24c88ace",
+          "title": "China\u2019s Energy Boom Could Give It the AI Edge",
+          "url": "https://www.bloomberg.com/news/videos/2026-05-17/china-s-energy-boom-could-give-it-the-ai-edge-video",
+          "source": "Bloomberg Technology",
+          "summary": "As the United States and China compete for dominance in artificial intelligence, energy is emerging as a critical battleground. Former Treasury Secretary Hank Paulson warns that while the US still leads in AI technology, electricity shortages could become a major constraint as data center demand surges. Former US Ambassador to China Nicholas Burns says China\u2019s enormous investments in transmission, renewables, batteries, and power generation are already reshaping global supply chains, while Hoover Institution senior fellow Elizabeth Economy argues Beijing\u2019s clean-energy strategy is as much about economic and geopolitical power as climate policy. Together, their assessments point to a growing reality: the AI race may depend not just on chips and software, but on generating enough power to sustain the technology. (Source: Bloomberg)",
+          "published": "2026-05-17T12:04:01+00:00",
+          "score": 43.0,
+          "headline": "China's Energy Boom Could Give It AI EDGE Over US"
+        },
+        {
+          "id": "c962071e57182c4c",
+          "title": "Malta just became the first country to give every citizen free ChatGPT Plus. There\u2019s one condition.",
+          "url": "https://thenextweb.com/news/openai-malta-chatgpt-plus-free-citizens",
+          "source": "The Next Web",
+          "summary": "OpenAI has signed a deal with the government of Malta to provide all Maltese citizens and residents with free access to ChatGPT Plus for one year. There is one condition: they must first complete an AI literacy course developed by the University of Malta. It is the first partnership of its kind between OpenAI and [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-17T10:22:03+00:00",
+          "score": 43.0,
+          "headline": "MALTA FIRST NATION TO GIVE ALL CITIZENS FREE CHATGPT PLUS"
+        },
+        {
+          "id": "8492f1774f5c1657",
+          "title": "How China's Shadow AI API Market Works",
+          "url": "https://www.vincentschmalbach.com/chinas-shadow-api-market/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.vincentschmalbach.com/chinas-shadow-api-market/ Comments URL: https://news.ycombinator.com/item?id=48177492 Points: 2 # Comments: 0",
+          "published": "2026-05-18T10:13:06+00:00",
+          "score": 42.0,
+          "headline": "How China's Shadow AI API Market Works"
+        }
+      ],
+      "top_score": 49.0,
+      "story_count": 10
     }
   ],
   "unclustered": [
@@ -209,6 +229,26 @@
       "headline": "UK PARLIAMENT CONSIDERS AI KILL SWITCH"
     },
     {
+      "id": "1552bb13a0a610b1",
+      "title": "Pope Leo, Anthropic to launch pontiff\u2019s first AI document, focusing on human dignity",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3354013/pope-leo-anthropic-launch-pontiffs-first-ai-document-focusing-human-dignity?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "Pope Leo and the co-founder of artificial intelligence company Anthropic will launch the pontiff\u2019s first encyclical on May 25, a document on the care of human dignity in the era of AI, the Vatican said on Monday. An encyclical is an official letter from the pope to Roman Catholic bishops, usually to make a statement on official teachings. The presence of Anthropic\u2019s Christopher Olah at the Vatican is significant, and suggests that the US pope\u2019s position on AI will become a new flashpoint with...",
+      "published": "2026-05-18T14:47:23+00:00",
+      "score": 48.0,
+      "headline": "POPE PARTNERS WITH ANTHROPIC FOR AI DIGNITY DOC"
+    },
+    {
+      "id": "d9d537c576281cee",
+      "title": "$20bn Kimi developer Moonshot abandons VIE structure for HK listing",
+      "url": "https://thenextweb.com/news/moonshot-ai-vie-unwind-hong-kong-ipo-kimi",
+      "source": "The Next Web",
+      "summary": "The $20bn Kimi developer has informed shareholders it will dismantle its variable-interest-entity structure, after Beijing made it clear an exemption was unlikely. The IPO would be one of the biggest Chinese AI listings on record. Moonshot AI, the Beijing-based developer of the Kimi chatbot, has told shareholders it intends to dismantle its variable-interest-entity (VIE) structure [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-19T09:41:36+00:00",
+      "score": 46.0,
+      "headline": "$20B Kimi Developer Moonshot Abandons VIE for Hong Kong IPO"
+    },
+    {
       "id": "71237ac4d74fb7fe",
       "title": "Decart raises $300M to put a real-time world model in front of Amazon\u2019s chips",
       "url": "https://thenextweb.com/news/decart-300-million-radical-ventures-world-models",
@@ -217,6 +257,16 @@
       "published": "2026-05-18T13:58:07+00:00",
       "score": 45.0,
       "headline": "Decart Raises $300M for Real-Time World Models"
+    },
+    {
+      "id": "b2609ad49eaca97e",
+      "title": "The US is building a 4,000-acre AI hub in the Philippines, and the sovereignty questions are already piling up",
+      "url": "https://thenextweb.com/news/us-philippines-pax-silica-ai-hub-clark-city",
+      "source": "The Next Web",
+      "summary": "The United States and the Philippines are moving \u201cvery, very quickly\u201d on a planned 4,000-acre artificial intelligence and supply chain hub in New Clark City, north of Manila, according to Jacob Helberg, the Under Secretary of State for Economic Affairs. Helberg visited the proposed site on Monday with more than a dozen American companies, [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-18T12:10:21+00:00",
+      "score": 45.0,
+      "headline": "US BUILDS 4,000-ACRE AI HUB IN PHILIPPINES... SOVEREIGNTY CONCERNS"
     },
     {
       "id": "4e5c9845de5321f6",
@@ -259,14 +309,34 @@
       "headline": "QWEN 3.7 MODEL DROPS ON CHAT PLATFORM"
     },
     {
-      "id": "6c294d2f192ecadb",
-      "title": "Baidu AI Sales Eclipse Waning Legacy Ads for the First Time",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/baidu-tops-sales-estimates-in-endorsement-of-agentic-ai-pivot",
-      "source": "Bloomberg Technology",
-      "summary": "Baidu Inc. posted a better-than-feared 1% drop in revenue after growth in nascent AI businesses offset a steady decline in traditional internet revenue, buying the search leader time to catch rivals such as Alibaba Group Holding Ltd. in the post-ChatGPT era.",
-      "published": "2026-05-18T09:15:06+00:00",
+      "id": "f282a04bcff6e8e0",
+      "title": "Anthropic to share Mythos cyber flaw findings with global finance watchdog",
+      "url": "https://www.theguardian.com/technology/2026/may/18/anthropic-ai-claude-mythos-cyber-financial-stability-board-fsb",
+      "source": "The Guardian Tech",
+      "summary": "Startup has declined to release Claude Mythos AI model publicly amid fears it could be used by hackersBusiness live \u2013 latest updatesAnthropic is to brief the global finance watchdog on the implications of its Claude Mythos AI model, whose potential threat to cyber defences has alarmed experts.The US startup will discuss Mythos with the Financial Stability Board (FSB), which is chaired by the governor of the Bank of England, Andrew Bailey. Continue reading...",
+      "published": "2026-05-18T13:19:24+00:00",
       "score": 44.0,
-      "headline": "BAIDU AI Sales Eclipse Legacy Ads for First Time"
+      "headline": "ANTHROPIC BRIEFS WATCHDOG ON CLAUDE MYTHOS CYBER FLAWS"
+    },
+    {
+      "id": "01b1c67f81382d2d",
+      "title": "Anthropic to brief Financial Stability Board on cyber flaws exposed by Mythos: FT",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-brief-financial-stability-board-on-cyber-flaws-exposed-by-mythos-ft/articleshow/131166366.cms",
+      "source": "The Economic Times Tech",
+      "summary": "AI firm Anthropic will present cyber risks in global finance. These vulnerabilities were revealed by their new Mythos model.",
+      "published": "2026-05-18T04:19:38+00:00",
+      "score": 44.0,
+      "headline": "ANTHROPIC TO BRIEF GLOBAL FINANCE WATCHDOG... Mythos Model Exposes Cyber Flaws"
+    },
+    {
+      "id": "fb6c7321bd97fa8d",
+      "title": "Anthropic to brief global financial watchdog on cyber flaws exposed by Mythos",
+      "url": "https://www.ft.com/content/7d309f94-3618-4511-9778-d1447799c5e4",
+      "source": "Financial Times Tech",
+      "summary": "US tech group will discuss capabilities of its new AI model with members of the Financial Stability Board",
+      "published": "2026-05-18T04:00:22+00:00",
+      "score": 44.0,
+      "headline": "ANTHROPIC MYTHOS MODEL EXPOSES GLOBAL FINANCE CYBER FLAWS... FSB Briefing Set"
     },
     {
       "id": "4191ff9862a74aaf",
@@ -309,14 +379,14 @@
       "headline": "SELF-IMPROVING AI STARTUP VALUED AT $4.65B"
     },
     {
-      "id": "08e82707eadd0e06",
-      "title": "Jury tosses Musk OpenAI lawsuit, saves Sam Altman",
-      "url": "https://mashable.com/article/elon-musk-trial-verdict",
-      "source": "Mashable Tech",
-      "summary": "Jurors in the tech 'trial of the century' have likely ended Elon Musk's attempt to get a payout from OpenAI over its for-profit conversion.",
-      "published": "2026-05-18T18:55:07+00:00",
+      "id": "2590ea8f64c80c13",
+      "title": "Anthropic\u2019s co-founder will speak at the Vatican launch of the pope\u2019s AI encyclical",
+      "url": "https://thenextweb.com/news/pope-leo-encyclical-magnifica-humanitas-anthropic-olah",
+      "source": "The Next Web",
+      "summary": "Pope Leo XIV will personally present his first encyclical, Magnifica Humanitas, on 25 May at the Vatican\u2019s Synod Hall, and one of the speakers alongside him will be Christopher Olah, co-founder of Anthropic. The Vatican announced the details on Monday, confirming that the document will address the protection of human dignity in the age of artificial [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-18T16:27:01+00:00",
       "score": 43.0,
-      "headline": "JURY TOSSES MUSK OPENAI LAWSUIT... ALTMAN SAVED"
+      "headline": "POPE'S AI ENCYCLICAL Launch Features Anthropic Co-Founder"
     },
     {
       "id": "5c11530a7be050fc",
@@ -327,6 +397,16 @@
       "published": "2026-05-18T15:23:04+00:00",
       "score": 43.0,
       "headline": "BREAKING: Qwen 3.7 Spotted on Official Website"
+    },
+    {
+      "id": "90922fd78c3d133d",
+      "title": "Pope to Launch Encyclical on AI Alongside Anthropic Co-Founder",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/anthropic-s-co-founder-to-launch-encyclical-on-ai-with-pope-leo",
+      "source": "Bloomberg Technology",
+      "summary": "Pope Leo XIV\u2019s launch of his first encyclical focusing on artificial intelligence next week will feature an unexpected guest: Christopher Olah, co-founder of Anthropic.",
+      "published": "2026-05-18T13:09:02+00:00",
+      "score": 43.0,
+      "headline": "POPE TO LAUNCH AI ENCYCLICAL WITH ANTHROPIC CO-FOUNDER"
     },
     {
       "id": "ed128b31ae1c9421",
@@ -349,14 +429,14 @@
       "headline": "OPENAI-DELL PARTNERSHIP BRINGS CODEX TO ENTERPRISE"
     },
     {
-      "id": "41f8f535db5baeae",
-      "title": "The fate of OpenAI\u2019s $1tn IPO will be decided in an Oakland jury room",
-      "url": "https://www.ft.com/content/846479c8-4ab0-4812-a1d5-08abdd8b952b",
-      "source": "Financial Times Tech",
-      "summary": "Elon Musk\u2019s legal challenge could derail the AI start-up\u2019s commercial ambitions",
-      "published": "2026-05-18T04:00:13+00:00",
+      "id": "cc113bc047611f34",
+      "title": "Anthropic is briefing the Financial Stability Board on what Mythos has been finding",
+      "url": "https://thenextweb.com/news/anthropic-mythos-fsb-briefing-banking-cyber",
+      "source": "The Next Web",
+      "summary": "Bank of England Governor Andrew Bailey, who chairs the global financial-risk watchdog, has invited the company to present to G20 finance ministries and central banks. The model that worried him is the model now being explained. Anthropic is preparing to brief the Financial Stability Board on the cybersecurity vulnerabilities its Mythos model has been identifying [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-18T07:58:02+00:00",
       "score": 43.0,
-      "headline": "MUSK LAWSUIT THREATENS OpenAI's $1TN IPO... Oakland Jury Holds the Keys"
+      "headline": "ANTHROPIC BRIEFS G20 ON AI RISKS... MYTHOS FINDINGS WORRY CENTRAL BANKS"
     },
     {
       "id": "d3e7ccf498dc55f9",
@@ -409,6 +489,16 @@
       "headline": "OpenAI Partners with MALTA... FREE ChatGPT Plus for ALL Citizens"
     },
     {
+      "id": "31f8f2ea00341e50",
+      "title": "Standard Chartered to cut more than 7,000 jobs as it steps up AI use",
+      "url": "https://www.theguardian.com/business/2026/may/19/standard-chartered-bank-cut-jobs-ai-london",
+      "source": "The Guardian Tech",
+      "summary": "London-headquartered bank will reduce back-office jobs and aims to move some workers to new rolesBusiness live \u2013 latest updatesStandard Chartered plans to cut more than 7,000 jobs over the next four years as it increasingly uses artificial intelligence.The London-headquartered lender is one of the first major global banks to lay out plans to cut thousands of jobs, citing AI as a driver to make its operations slimmer as it seeks to increase its profitability and tackle competition. Continue reading...",
+      "published": "2026-05-19T09:57:06+00:00",
+      "score": 42.0,
+      "headline": "Standard Chartered CUTS 7,000 Jobs as AI Takes Over"
+    },
+    {
       "id": "5f7a92c71165bb32",
       "title": "StanChart to Cut Thousands of Jobs in AI Push",
       "url": "https://www.bloomberg.com/news/videos/2026-05-19/stanchart-to-cut-thousands-of-jobs-in-ai-push-video",
@@ -439,26 +529,6 @@
       "headline": "Google Partners with Blackstone for AI CLOUD VENTURE"
     },
     {
-      "id": "399a7aed6eba1fbc",
-      "title": "Jury rules against Elon Musk in $150 billion lawsuit against OpenAI and Sam Altman",
-      "url": "https://fortune.com/2026/05/18/jury-rules-against-elon-musk-in-suit-against-openai/",
-      "source": "Fortune Tech",
-      "summary": "Elon Musk dealt setback as jury backs OpenAI and Sam Altman.",
-      "published": "2026-05-18T18:28:15+00:00",
-      "score": 42.0,
-      "headline": "MUSK LOSES $150B OPENAI LAWSUIT... JURY BACKS ALTMAN"
-    },
-    {
-      "id": "2ee7387303c767c5",
-      "title": "Jury Says Elon Musk Sued Sam Altman Too Late Over OpenAI",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-18/jury-rules-musk-sued-sam-altman-too-late-over-openai-video",
-      "source": "Bloomberg Technology",
-      "summary": "A federal jury rejects Elon Musk's claims about OpenAI under Sam Altman and says he waited too long to sue. Musk took Altman to trial saying he went against OpenAI's mission by turning it into a for-profit business. Matthew Schettenhelm of Bloomberg Intelligence has been following the case and has more. (Source: Bloomberg)",
-      "published": "2026-05-18T18:13:24+00:00",
-      "score": 42.0,
-      "headline": "JURY REJECTS MUSK'S OPENAI CLAIMS... 'TOO LATE'"
-    },
-    {
       "id": "dec27c57a7cda417",
       "title": "Google has sold so much TPU capacity that its own researchers are queueing for the rest",
       "url": "https://thenextweb.com/news/google-tpu-compute-internal-researchers-anthropic",
@@ -477,6 +547,16 @@
       "published": "2026-05-18T13:11:41+00:00",
       "score": 42.0,
       "headline": "XPeng Launches First Chinese Automaker Robotaxis in Guangzhou"
+    },
+    {
+      "id": "8d29a5e4e3e5e787",
+      "title": "Trump calls Taiwan arms deal a \u201cnegotiating chip\u201d after three days with Xi in Beijing",
+      "url": "https://thenextweb.com/news/trump-xi-summit-taiwan-arms-deal-beijing",
+      "source": "The Next Web",
+      "summary": "Donald Trump flew home from Beijing on Friday having told China\u2019s Xi Jinping that a $14 billion arms package for Taiwan is \u201ca very good negotiating chip,\u201d a remark that reframes American security commitments to a democratic ally as a bargaining token in a broader great-power relationship. The comment, made during a Fox News [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-17T13:20:01+00:00",
+      "score": 42.0,
+      "headline": "TRUMP Calls Taiwan Arms Deal 'Negotiating Chip' After Xi Summit"
     },
     {
       "id": "72c589eff7e4ea7e",
@@ -537,6 +617,36 @@
       "published": "2026-05-16T13:58:57+00:00",
       "score": 42.0,
       "headline": "OpenAI Gives All Malta Citizens Free ChatGPT Plus Access"
+    },
+    {
+      "id": "c8d6a6a1360ee519",
+      "title": "Ecarx, Backed by Geely\u2019s Li, to Sell Robotaxis to US Startup",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/ecarx-backed-by-geely-s-li-to-sell-robotaxis-to-us-startup",
+      "source": "Bloomberg Technology",
+      "summary": "Ecarx Holdings Inc., a company backed by Chinese billionaire Li Shufu, said it reached an agreement to deliver robotaxis to US startup May Mobility Inc., in a deal it valued at about $750 million.",
+      "published": "2026-05-19T10:55:00+00:00",
+      "score": 41.0,
+      "headline": "CHINESE ECARX SELLS $750M ROBOTAXIS TO US STARTUP"
+    },
+    {
+      "id": "943fccd669501144",
+      "title": "Hypershell takes $50M more on $120M Series B series as consumer exoskeletons step out of niche",
+      "url": "https://thenextweb.com/news/hypershell-50-million-series-b-plus-ant-dragonball-exoskeleton",
+      "source": "The Next Web",
+      "summary": "Ant Group and Meituan Dragonball co-led the $50m Series B+; Sofina and Granite Asia joined. Total Series B funding now stands at $120m at a near-$400m post-money valuation, ahead of Wednesday\u2019s global X-Series launch. Hypershell, the Shanghai-based consumer-exoskeleton company, has raised a $50m Series B+ co-led by Ant Group and Meituan Dragonball (referred to in [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-19T10:09:14+00:00",
+      "score": 41.0,
+      "headline": "Hypershell Raises $50M More as Consumer Exoskeletons Go Mainstream"
+    },
+    {
+      "id": "1e64392f526609a6",
+      "title": "Nintendo jumps 6.8% as Japanese investors rotate out of AI",
+      "url": "https://thenextweb.com/news/nintendo-rebound-japan-ai-rotation-bandai-konami",
+      "source": "The Next Web",
+      "summary": "Nintendo jumped as much as 6.8% on Tuesday for its longest winning streak since mid-March. Bandai Namco and Konami each gained more than 9%. The trade is about what isn\u2019t AI as much as what is. Nintendo\u2019s stock climbed as much as 6.8% in Tokyo on Tuesday for its third straight day of gains, Bloomberg [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-19T09:10:44+00:00",
+      "score": 41.0,
+      "headline": "Nintendo Jumps 6.8% as Japan Rotates OUT OF AI Stocks"
     },
     {
       "id": "a37bc4c5e1d36378",
@@ -789,6 +899,36 @@
       "headline": "TURING WINNER BENGIO: AI COULD EXTINCT HUMANITY IN 10 YEARS"
     },
     {
+      "id": "b3d4416d2b874fd7",
+      "title": "China\u2019s YMTC Kicks Off IPO Process to Tap Booming Memory Demand",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/china-s-ymtc-kicks-off-ipo-process-to-tap-booming-memory-demand",
+      "source": "Bloomberg Technology",
+      "summary": "Yangtze Memory Technologies Co. has begun the process for a long-awaited initial public offering, tapping red-hot demand for the chipmakers at the heart of a global AI development boom.",
+      "published": "2026-05-19T10:30:47+00:00",
+      "score": 40.0,
+      "headline": "CHINA'S YMTC LAUNCHES IPO FOR AI MEMORY BOOM"
+    },
+    {
+      "id": "29e4b4bff216c2f3",
+      "title": "Google I/O 2026 Live Blog: All the Gemini and Smart Glasses Updates as They Happen",
+      "url": "https://www.wired.com/live/google-io-2026-live-blog-gemini-android-xr-search/",
+      "source": "Wired",
+      "summary": "Follow our live coverage of Google\u2019s annual developer keynote, where the company will announce updates to its Gemini suite of AI tools and more details about Android XR smart glasses.",
+      "published": "2026-05-19T10:00:00+00:00",
+      "score": 40.0,
+      "headline": "GOOGLE I/O 2026 LIVE: Gemini Updates and Smart Glasses Revealed"
+    },
+    {
+      "id": "642385309c76fdf3",
+      "title": "Standard Chartered will cut 7,800 back-office jobs to \u2018the machines\u2019 by 2030",
+      "url": "https://thenextweb.com/news/standard-chartered-ai-7800-back-office-jobs-2030",
+      "source": "The Next Web",
+      "summary": "Bill Winters told investors in Hong Kong that the bank\u2019s HR, risk and compliance functions will shrink by more than 15% over five years, with the headcount efficiency aimed at lifting income-per-employee 20% by 2028. Standard Chartered will cut more than 15% of its back-office roles by 2030, chief executive Bill Winters told investors at [&hellip;] This story continues at The Next Web",
+      "published": "2026-05-19T08:07:21+00:00",
+      "score": 40.0,
+      "headline": "STANDARD CHARTERED: 7,800 Jobs Going 'to the Machines' by 2030"
+    },
+    {
       "id": "51d88cf08efe5601",
       "title": "Intel and Qualcomm circle Tenstorrent as the NVIDIA-alternative trade comes due",
       "url": "https://thenextweb.com/news/tenstorrent-intel-qualcomm-takeover-jim-keller-risc-v",
@@ -907,117 +1047,7 @@
       "published": "2026-05-18T17:34:43+00:00",
       "score": 40.0,
       "headline": "MUSK LOSES OPENAI LAWSUIT... FILED TOO LATE"
-    },
-    {
-      "id": "47872bdee2ad2aee",
-      "title": "Snohomish 911 now using AI to field calls",
-      "url": "https://www.fox13seattle.com/news/snohomish-county-911-ai-field-calls",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.fox13seattle.com/news/snohomish-county-911-ai-field-calls Comments URL: https://news.ycombinator.com/item?id=48180736 Points: 2 # Comments: 0",
-      "published": "2026-05-18T14:52:36+00:00",
-      "score": 40.0,
-      "headline": "Snohomish 911 Deploys AI Call System"
-    },
-    {
-      "id": "91e68c1f741d22d1",
-      "title": "Nvidia Q1 Revenue Expected to Reach Record $79 Billion",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-18/nvidia-q1-revenue-expected-to-reach-record-79-billion-video",
-      "source": "Bloomberg Technology",
-      "summary": "Nvidia is expected to set another revenue record when it reports quarterly earnings on Wednesday. Investors are looking for updates on its $1 trillion data-center revenue target. Bloomberg's Caroline Hyde has a preview. (Source: Bloomberg)",
-      "published": "2026-05-18T14:47:01+00:00",
-      "score": 40.0,
-      "headline": "NVIDIA Q1 Expected to Hit Record $79B Revenue"
-    },
-    {
-      "id": "377362f81b0f9354",
-      "title": "Baidu results beat estimates as AI cloud surge offsets ad slump",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/baidu-results-beat-estimates-as-ai-cloud-surge-offsets-ad-slump/articleshow/131179392.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Baidu has announced strong quarterly results, surpassing market expectations. The company's cloud computing services showed significant growth, helping to compensate for a downturn in its advertising business. This surge in cloud demand is linked to increased enterprise adoption of artificial intelligence in China. Baidu's core AI-powered business, including cloud, saw a substantial revenue increase.",
-      "published": "2026-05-18T14:33:26+00:00",
-      "score": 40.0,
-      "headline": "Baidu Beats Estimates as AI Cloud Surge Offsets Ad Slump"
-    },
-    {
-      "id": "0710713baf05e237",
-      "title": "Researchers Wanted Preschool Teachers to Wear Cameras to Train AI",
-      "url": "https://www.404media.co/researchers-wanted-preschool-teachers-to-wear-cameras-to-train-ai/",
-      "source": "404 Media",
-      "summary": "\u201cWith your permission, your child\u2019s lead teacher may wear a small teacher-worn camera that captures the teacher's approximate first-person perspective, and/or we may place a fixed video camera in the classroom,\u201d a document given to parents and later shared with 404 Media reads.",
-      "published": "2026-05-18T13:17:44+00:00",
-      "score": 40.0,
-      "headline": "RESEARCHERS WANTED PRESCHOOL TEACHERS TO WEAR AI CAMERAS"
-    },
-    {
-      "id": "54480cc028970039",
-      "title": "Lance by ByteDance: 3B Apache2 model for image and video understanding, generation, and editing",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1tgjrm2/lance_by_bytedance_3b_apache2_model_for_image_and/",
-      "source": "Reddit r/StableDiffusion",
-      "summary": "https://lance-project.github.io/ https://github.com/bytedance/Lance https://huggingface.co/bytedance-research/Lance &#32; submitted by &#32; /u/HatEducational9965 [link] &#32; [comments]",
-      "published": "2026-05-18T11:29:42+00:00",
-      "score": 40.0,
-      "headline": "ByteDance Releases Lance: 3B Model for Video Generation"
-    },
-    {
-      "id": "e7e318409f0087c9",
-      "title": "Cloudflare and Stripe Let AI Agents Create Accounts, Buy Domains, and Deploy to Production",
-      "url": "https://www.infoq.com/news/2026/05/cloudflare-stripe-agent-commerce/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "summary": "Cloudflare and Stripe launched a protocol that lets AI agents autonomously create cloud accounts, register domains, start subscriptions, and deploy to production. Stripe handles identity and payment with a $100/month default cap. No other major cloud provider offers comparable agent-driven account provisioning. By Steef-Jan Wiggers",
-      "published": "2026-05-18T09:41:00+00:00",
-      "score": 40.0,
-      "headline": "CLOUDFLARE & STRIPE Let AI Agents Create Accounts, Deploy Code"
-    },
-    {
-      "id": "584337193fe4bc33",
-      "title": "Salesforce to spend $300 million on Anthropic tokens in 2026: CEO Marc Benioff",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/salesforce-to-spend-300-million-on-anthropic-tokens-in-2026-ceo-marc-benioff/articleshow/131171528.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Salesforce CEO Marc Benioff revealed the company anticipates spending nearly $300 million on Anthropic tokens by 2026, primarily for AI-powered software development and coding assistance. Benioff emphasised that AI tools enhance engineer productivity and efficiency, rather than replacing them, as Salesforce continues to invest heavily in AI across its operations.",
-      "published": "2026-05-18T08:48:22+00:00",
-      "score": 40.0,
-      "headline": "SALESFORCE TO SPEND $300M ON ANTHROPIC TOKENS"
-    },
-    {
-      "id": "bd33ea278be2d3c9",
-      "title": "Elon Musk Says He Wants to Get SpaceX IPO Underway \u2018Pretty Soon\u2019",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/elon-musk-says-he-wants-to-get-spacex-ipo-underway-pretty-soon",
-      "source": "Bloomberg Technology",
-      "summary": "Elon Musk said he\u2019s back in Texas working on plans for an initial public offering of SpaceX as the rocket and artificial intelligence company gears up for the largest listing of all time.",
-      "published": "2026-05-18T08:18:43+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "6d13527209a954c0",
-      "title": "EU AI Act enforcement starts in 75 days - affects any team building AI agents for European clients",
-      "url": "https://www.reddit.com/r/artificial/comments/1tgf0gm/eu_ai_act_enforcement_starts_in_75_days_affects/",
-      "source": "Reddit r/artificial",
-      "summary": "If you're building AI agents or SaaS products used by European companies (or processing EU resident data), the EU AI Act applies to you regardless of where your company is based. Full enforcement for high-risk systems starts August 2, 2026. High-risk means: credit scoring, recruitment filtering, healthcare triage, education assessment, critical infrastructure. The practical requirements: Automatic decision logging (not optional) 6-month minimum log retention Technical documentation of your detection pipeline Human oversight architecture Accuracy and bias testing documentation Fines: up to 35M euros or 7% of global turnover. I broke down what the regulation requires, what auditors check, and realistic steps before the deadline. In link below Worth reading if your team is building anything AI-related for the European market. &#32; submitted by &#32; /u/Still_Piglet9217 [link] &#32; [comments]",
-      "published": "2026-05-18T07:14:39+00:00",
-      "score": 40.0,
-      "headline": "EU AI ACT ENFORCEMENT IN 75 DAYS... Affects Global AI Teams"
-    },
-    {
-      "id": "3da3cb205c6c2408",
-      "title": "While Detroit blinked on EVs, the Iran war has handed Chinese automakers the opportunity of a lifetime",
-      "url": "https://fortune.com/2026/05/18/chinese-evs-opportunity-ford-gm-iran-war-inflation-affordability-american-politics-donald-trump-tariffs/",
-      "source": "Fortune Tech",
-      "summary": "\u201cAs tragic as it is\u2014war is tragic for anyone involved\u2014it is probably one of the best things that could have happened to the Chinese EV makers,\u201d said one expert.",
-      "published": "2026-05-18T06:00:00+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "de8237c8be8cf2c2",
-      "title": "FDE emerges hottest role in AI market, commands big pay premium",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/fde-emerges-hottest-role-in-ai-market-commands-big-pay-premium/articleshow/131161494.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The forward deployed engineer (FDE) has emerged as the hottest job in AI, with companies like OpenAI and Google offering substantial compensation. These consultants are crucial for deploying AI agents and identifying high-impact use cases within organizations.",
-      "published": "2026-05-18T00:30:00+00:00",
-      "score": 40.0,
-      "headline": "Forward Deployed Engineer: AI's Hottest Job Role"
     }
   ],
-  "generated_at": "2026-05-19T08:25:37.231364"
+  "generated_at": "2026-05-19T12:00:08.208487"
 }
