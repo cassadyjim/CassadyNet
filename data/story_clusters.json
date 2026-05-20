@@ -109,8 +109,8 @@
       "story_count": 10
     },
     {
-      "topic": "US-China AI Competition",
-      "description": "Major developments in the strategic AI rivalry between US and China, including chip bans, market access, and technological advancement.",
+      "topic": "China-US AI Competition",
+      "description": "Escalating tech rivalry with China advancing in AI while facing US restrictions on chip access and exports.",
       "stories": [
         {
           "id": "08426c17690d57bb",
@@ -143,6 +143,26 @@
           "headline": "ALIBABA UNVEILS ZHENWU M890... CHINA'S NVIDIA KILLER"
         },
         {
+          "id": "ea6e25d360243ee9",
+          "title": "Barclays Says Robots May Offset 60% of China\u2019s Population Slump",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-19/barclays-says-robots-may-offset-60-of-china-s-population-slump",
+          "source": "Bloomberg Technology",
+          "summary": "China\u2019s deployment of humanoid robots could offset as much as 60% of its projected decline in the labor force by 2035, according to Barclays Plc, helping sustain the world\u2019s largest industrial base as the population shrinks at a pace not seen in decades.",
+          "published": "2026-05-19T09:04:00+00:00",
+          "score": 45.0,
+          "headline": "BARCLAYS: China Robots Could Offset 60% of Population Decline by 2035"
+        },
+        {
+          "id": "d2c3d643bd0d74c7",
+          "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
+          "source": "Reddit r/MachineLearning",
+          "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
+          "published": "2026-05-17T11:26:46+00:00",
+          "score": 45.0,
+          "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
+        },
+        {
           "id": "ae0a913f83db0599",
           "title": "China banned Nvidia\u2019s gaming chip during Jensen Huang\u2019s visit",
           "url": "https://www.ft.com/content/a30c3dd5-9383-4606-a649-fdf19c41c308",
@@ -151,6 +171,16 @@
           "published": "2026-05-20T08:08:34+00:00",
           "score": 44.0,
           "headline": "CHINA BANS NVIDIA CHIPS DURING HUANG VISIT"
+        },
+        {
+          "id": "6c294d2f192ecadb",
+          "title": "Baidu AI Sales Eclipse Waning Legacy Ads for the First Time",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-18/baidu-tops-sales-estimates-in-endorsement-of-agentic-ai-pivot",
+          "source": "Bloomberg Technology",
+          "summary": "Baidu Inc. posted a better-than-feared 1% drop in revenue after growth in nascent AI businesses offset a steady decline in traditional internet revenue, buying the search leader time to catch rivals such as Alibaba Group Holding Ltd. in the post-ChatGPT era.",
+          "published": "2026-05-18T09:15:06+00:00",
+          "score": 44.0,
+          "headline": "BAIDU AI Sales Eclipse Legacy Ads for First Time"
         },
         {
           "id": "57f2444f9e30dc99",
@@ -171,10 +201,20 @@
           "published": "2026-05-20T17:00:03+00:00",
           "score": 43.0,
           "headline": "Airbnb CEO Defends Chinese AI Models Amid US Backlash"
+        },
+        {
+          "id": "9a73500ed3f14780",
+          "title": "Barclays says humanoid robots can offset 60% of China\u2019s 37M worker shortfall by 2035",
+          "url": "https://thenextweb.com/news/barclays-china-humanoid-robots-37-million-workforce-2035",
+          "source": "The Next Web",
+          "summary": "The British bank\u2019s new note estimates humanoid robots can offset 60% of the projected labour-force decline by 2035, with China\u2019s workforce shrinking by 37 million people over the next ten years. Up to 24 million humanoids would be needed. Barclays published a research note estimating that China\u2019s deployment of humanoid robots could offset as much [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-19T09:53:48+00:00",
+          "score": 43.0,
+          "headline": "Barclays: Humanoid Robots Can Replace 60% of China's Missing 37M Workers by 2035"
         }
       ],
       "top_score": 49.0,
-      "story_count": 6
+      "story_count": 10
     }
   ],
   "unclustered": [
@@ -199,14 +239,14 @@
       "headline": "SINGAPORE Plans 'Nutrition Labels' for AI Products"
     },
     {
-      "id": "d9d537c576281cee",
-      "title": "$20bn Kimi developer Moonshot abandons VIE structure for HK listing",
-      "url": "https://thenextweb.com/news/moonshot-ai-vie-unwind-hong-kong-ipo-kimi",
-      "source": "The Next Web",
-      "summary": "The $20bn Kimi developer has informed shareholders it will dismantle its variable-interest-entity structure, after Beijing made it clear an exemption was unlikely. The IPO would be one of the biggest Chinese AI listings on record. Moonshot AI, the Beijing-based developer of the Kimi chatbot, has told shareholders it intends to dismantle its variable-interest-entity (VIE) structure [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-19T09:41:36+00:00",
-      "score": 46.0,
-      "headline": "$20B Kimi Developer Moonshot Abandons VIE for Hong Kong IPO"
+      "id": "ff1674863cf4b7bf",
+      "title": "OpenAI general purpose model had a breakthrough on famous 80 year old Erdos problem. \u201cThis marks the first time AI has autonomously solved a prominent open problem central to a field of mathematics\u201d",
+      "url": "https://www.reddit.com/r/singularity/comments/1tiwa59/openai_general_purpose_model_had_a_breakthrough/",
+      "source": "Reddit r/singularity",
+      "summary": "Content of associated tweets: \u201cToday, we share a breakthrough on the planar unit distance problem, a famous open question first posed by Paul Erd\u0151s in 1946. For nearly 80 years, mathematicians believed the best possible solutions looked roughly like square grids. An OpenAI model has now disproved that belief, discovering an entirely new family of constructions that performs better. This marks the first time AI has autonomously solved a prominent open problem central to a field of mathematics.\u201d \u201cThe proof came from a general-purpose reasoning model, not a system built specifically to solve math problems or this problem in particular, and represents an important milestone for the math and AI communities.\u201d \u201cThis result points to something larger: AI systems are becoming capable of holding together long, difficult chains of reasoning, connecting ideas across distant fields, and surfacing paths researchers may not have explored. We believe those same abilities will soon accelerate work in b",
+      "published": "2026-05-20T19:31:23+00:00",
+      "score": 45.0,
+      "headline": "OPENAI SOLVES 80-YEAR ERDOS MATH PROBLEM - FIRST AI BREAKTHROUGH"
     },
     {
       "id": "b7b986217e94a096",
@@ -237,16 +277,6 @@
       "published": "2026-05-19T10:40:27+00:00",
       "score": 45.0,
       "headline": "REVEALED: South Asian Entrepreneurs Behind UK AI Hate Content"
-    },
-    {
-      "id": "ea6e25d360243ee9",
-      "title": "Barclays Says Robots May Offset 60% of China\u2019s Population Slump",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/barclays-says-robots-may-offset-60-of-china-s-population-slump",
-      "source": "Bloomberg Technology",
-      "summary": "China\u2019s deployment of humanoid robots could offset as much as 60% of its projected decline in the labor force by 2035, according to Barclays Plc, helping sustain the world\u2019s largest industrial base as the population shrinks at a pace not seen in decades.",
-      "published": "2026-05-19T09:04:00+00:00",
-      "score": 45.0,
-      "headline": "BARCLAYS: China Robots Could Offset 60% of Population Decline by 2035"
     },
     {
       "id": "71237ac4d74fb7fe",
@@ -287,16 +317,6 @@
       "published": "2026-05-18T04:50:36+00:00",
       "score": 45.0,
       "headline": "Cannes Film Explores AI Recreation of Dead Children for Grief"
-    },
-    {
-      "id": "d2c3d643bd0d74c7",
-      "title": "DeepSeek Exposed: Users Can Access Each Other's Conversations with a Special Input[D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tfmuov/deepseek_exposed_users_can_access_each_others/",
-      "source": "Reddit r/MachineLearning",
-      "summary": "A recent security report has revealed a critical privacy flaw in DeepSeek: simply entering a specific character in the input field can expose other users' conversations. This has raised serious concerns about the platform's session isolation and data security. The bigger question here is about architecture. DeepSeek (and most web based AI chat platforms) run sessions through a shared backend where context is handled server side. Thats where the leak happened. The session isolation broke down and one users input triggered a response built on another users context. Some tools handle this differently. Cursor runs locally and connects to the model API directly, so your code stays on your machine. Verdent uses isolated workspaces where each task gets its own context that doesnt bleed into others. These arent unhackable but the attack surface is fundamentally different because theres no shared state between users to leak in the first place. Not saying local or isolated tools are automaticall",
-      "published": "2026-05-17T11:26:46+00:00",
-      "score": 45.0,
-      "headline": "DEEPSEEK EXPOSED: Users Can See Others' Chats"
     },
     {
       "id": "92d453ba1fa69f1b",
@@ -349,16 +369,6 @@
       "headline": "ANTHROPIC BRIEFS WATCHDOG ON CLAUDE MYTHOS CYBER FLAWS"
     },
     {
-      "id": "6c294d2f192ecadb",
-      "title": "Baidu AI Sales Eclipse Waning Legacy Ads for the First Time",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/baidu-tops-sales-estimates-in-endorsement-of-agentic-ai-pivot",
-      "source": "Bloomberg Technology",
-      "summary": "Baidu Inc. posted a better-than-feared 1% drop in revenue after growth in nascent AI businesses offset a steady decline in traditional internet revenue, buying the search leader time to catch rivals such as Alibaba Group Holding Ltd. in the post-ChatGPT era.",
-      "published": "2026-05-18T09:15:06+00:00",
-      "score": 44.0,
-      "headline": "BAIDU AI Sales Eclipse Legacy Ads for First Time"
-    },
-    {
       "id": "01b1c67f81382d2d",
       "title": "Anthropic to brief Financial Stability Board on cyber flaws exposed by Mythos: FT",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-brief-financial-stability-board-on-cyber-flaws-exposed-by-mythos-ft/articleshow/131166366.cms",
@@ -377,6 +387,16 @@
       "published": "2026-05-18T04:00:22+00:00",
       "score": 44.0,
       "headline": "ANTHROPIC MYTHOS MODEL EXPOSES GLOBAL FINANCE CYBER FLAWS... FSB Briefing Set"
+    },
+    {
+      "id": "8ad8deb316081a84",
+      "title": "Anthropic will pay xAI $1.25B per month for compute",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
+      "source": "TechCrunch AI",
+      "summary": "Elon Musk's xAI surprised the AI world when it made a deal to sell compute to Anthropic. Now we know how much it's worth.",
+      "published": "2026-05-20T21:29:22+00:00",
+      "score": 43.0,
+      "headline": "XAI GETS $1.25B MONTHLY FROM ANTHROPIC"
     },
     {
       "id": "d2081f5e89727e36",
@@ -409,16 +429,6 @@
       "headline": null
     },
     {
-      "id": "e3b1106b61f7563b",
-      "title": "SpaceX Is Said to Plan to Buy Startup Cursor 30 Days After IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/spacex-is-said-to-plan-to-buy-startup-cursor-30-days-after-ipo",
-      "source": "Bloomberg Technology",
-      "summary": "SpaceX expects to proceed with its acquisition of artificial intelligence coding startup Cursor 30 days after Elon Musk\u2019s company begins trading publicly, according to people familiar with the matter.",
-      "published": "2026-05-19T21:51:26+00:00",
-      "score": 43.0,
-      "headline": "SPACEX TO BUY AI CODING STARTUP CURSOR POST-IPO"
-    },
-    {
       "id": "9f4640e6cbe29e19",
       "title": "Streamer Realtime Deepfakes Himself into Mr. Beast, Says He Loves 'Touching Little Boys'",
       "url": "https://www.404media.co/streamer-realtime-deepfakes-himself-into-mr-beast-says-he-loves-touching-little-boys/",
@@ -439,16 +449,6 @@
       "headline": "BREAKING: Andrej Karpathy Joins Anthropic"
     },
     {
-      "id": "9a73500ed3f14780",
-      "title": "Barclays says humanoid robots can offset 60% of China\u2019s 37M worker shortfall by 2035",
-      "url": "https://thenextweb.com/news/barclays-china-humanoid-robots-37-million-workforce-2035",
-      "source": "The Next Web",
-      "summary": "The British bank\u2019s new note estimates humanoid robots can offset 60% of the projected labour-force decline by 2035, with China\u2019s workforce shrinking by 37 million people over the next ten years. Up to 24 million humanoids would be needed. Barclays published a research note estimating that China\u2019s deployment of humanoid robots could offset as much [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-19T09:53:48+00:00",
-      "score": 43.0,
-      "headline": "Barclays: Humanoid Robots Can Replace 60% of China's Missing 37M Workers by 2035"
-    },
-    {
       "id": "4191ff9862a74aaf",
       "title": "Mistral AI Acquires EU Physics AI Startup Emmi AI",
       "url": "https://www.reuters.com/business/autos-transportation/mistral-ai-buys-austrian-physics-ai-startup-industrial-push-2026-05-19/",
@@ -467,16 +467,6 @@
       "published": "2026-05-19T07:37:28+00:00",
       "score": 43.0,
       "headline": "BLACKSTONE TAKES MAJORITY IN GOOGLE TPU CLOUD"
-    },
-    {
-      "id": "8b3d53df32b60482",
-      "title": "Moonshot AI to Overhaul Structure to Win Nod for Hong Kong IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/moonshot-ai-to-overhaul-structure-to-win-nod-for-hong-kong-ipo",
-      "source": "Bloomberg Technology",
-      "summary": "Moonshot AI has informed its investors it will revamp its corporate structure to pave the way for an initial public offering in Hong Kong, aligning with Beijing\u2019s tightened requirements for Chinese companies seeking an overseas debut.",
-      "published": "2026-05-19T06:15:33+00:00",
-      "score": 43.0,
-      "headline": "Moonshot AI Restructures for HONG KONG IPO"
     },
     {
       "id": "39af37696ff6748a",
@@ -537,6 +527,16 @@
       "published": "2026-05-18T11:00:00+00:00",
       "score": 43.0,
       "headline": "South Korea's LetinAR Building Optics for AI Glasses"
+    },
+    {
+      "id": "1af67e245b3a80c5",
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+      "published": "2026-05-18T10:00:00+00:00",
+      "score": 43.0,
+      "headline": "OPENAI-DELL PARTNERSHIP BRINGS CODEX TO ENTERPRISE"
     },
     {
       "id": "cc113bc047611f34",
@@ -649,6 +649,16 @@
       "headline": "OPENAI FILES FOR IPO... CONFIDENTIAL FILING IMMINENT"
     },
     {
+      "id": "dda2fded005ec863",
+      "title": "ChatGPT and other AI bots made huge errors before Scottish election, study finds",
+      "url": "https://www.theguardian.com/technology/2026/may/20/ai-chatbots-chatgpt-replika-grok-gemini-misinformation-scottish-election-demos",
+      "source": "The Guardian Tech",
+      "summary": "Exclusive: Electoral Commission calls for new controls as Demos finds tools made up fake scandals, invented candidates or gave wrong dateUK politics live \u2013 latest updatesThe Electoral Commission has called for new legal controls over misinformation from AI chatbots, after a thinktank found they had made serious mistakes during the recent Scottish election.The thinktank Demos said its investigation had found that AI services gave voters misinformation to 34% of the questions it posed, which it said raised worrying questions about the lack of regulation of AI platforms in the UK. Continue reading...",
+      "published": "2026-05-20T14:56:13+00:00",
+      "score": 42.0,
+      "headline": "ChatGPT FABRICATED Fake Scandals Before Scottish Election"
+    },
+    {
       "id": "1b33f7c6e83d98a0",
       "title": "AI shift forces skills rethink at India tech hubs, Kimberly-Clark executive says",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-shift-forces-skills-rethink-at-india-tech-hubs-kimberly-clark-executive-says/articleshow/131227891.cms",
@@ -657,6 +667,16 @@
       "published": "2026-05-20T13:12:10+00:00",
       "score": 42.0,
       "headline": "AI KILLS CODING JOBS... INDIA TECH HUBS PIVOT"
+    },
+    {
+      "id": "24bdb387b38f49a1",
+      "title": "US and China must talk to manage dangers of AI contest in a nuclear age",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3354110/us-and-china-must-talk-manage-dangers-ai-contest-nuclear-age?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "In the wake of the summit between Chinese President Xi Jinping and US President Donald Trump, the China-US relationship is, in one critical respect, more dangerous than at any time since Tiananmen Square. The reason is not trade friction, tariffs, Taiwan or geopolitical competition \u2013 significant as those are. It is the competition over artificial intelligence supremacy, which will reshape every aspect of relations in the coming decade. This is not just a technological contest. It is a contest...",
+      "published": "2026-05-20T12:30:05+00:00",
+      "score": 42.0,
+      "headline": "US-China AI Contest Threatens Nuclear Stability"
     },
     {
       "id": "55d3adb4dcca2aa7",
@@ -899,6 +919,26 @@
       "headline": "DeepSeek V4's 1M Context HITS BREAKING POINT in Real Tests"
     },
     {
+      "id": "661080adbe3414fe",
+      "title": "Musk\u2019s SpaceX Files Publicly for Nasdaq IPO",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-20/musk-s-spacex-files-publicly-for-nasdaq-ipo-video-mpem2etf",
+      "source": "Bloomberg Technology",
+      "summary": "SpaceX filed publicly for its initial public offering, moving Elon Musk\u2019s rocket, satellite and artificial intelligence company a step closer to delivering the world\u2019s biggest-ever debut. Ed Ludlow has more. (Source: Bloomberg)",
+      "published": "2026-05-20T22:05:57+00:00",
+      "score": 41.0,
+      "headline": null
+    },
+    {
+      "id": "a40d386aa634e58a",
+      "title": "Anthropic on Pace for First Profitable Quarter as Revenue Surges",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/anthropic-on-pace-for-first-profitable-quarter-as-revenue-surges",
+      "source": "Bloomberg Technology",
+      "summary": "Anthropic PBC is on pace for its first profitable quarter after experiencing a surge in revenue driven by demand for its artificial intelligence software.",
+      "published": "2026-05-20T21:12:24+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC FIRST PROFITABLE QUARTER... Revenue Surging"
+    },
+    {
       "id": "1c43383d7ae72493",
       "title": "OpenAI barrels towards IPO that may happen in September",
       "url": "https://techcrunch.com/2026/05/20/openai-barrels-towards-ipo-that-may-happen-in-september/",
@@ -957,97 +997,7 @@
       "published": "2026-05-20T13:00:12+00:00",
       "score": 41.0,
       "headline": "AI SEARCH STARTUP EXA HITS $2.2B VALUATION"
-    },
-    {
-      "id": "64654bca52e1c3f5",
-      "title": "Google launches Gemini Omni Flash, a conversational video-generation model with avatar mode held back",
-      "url": "https://thenextweb.com/news/google-gemini-omni-flash-video-model-io-2026",
-      "source": "The Next Web",
-      "summary": "The first model in DeepMind\u2019s new Omni family will generate and edit video from any combination of image, audio, video, and text inputs. Speech-editing is being withheld; SynthID watermarking is on by default. Google introduced Gemini Omni on Tuesday at the I/O 2026 developer conference, a new multimodal model family from Google DeepMind designed to [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-20T09:01:15+00:00",
-      "score": 41.0,
-      "headline": "GOOGLE LAUNCHES GEMINI OMNI FLASH Video Generator"
-    },
-    {
-      "id": "b4406f116108e14c",
-      "title": "GOP State Attorneys General Ask SEC to Review Sam Altman's Business Dealings",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1tif4c3/gop_state_attorneys_general_ask_sec_to_review_sam/",
-      "source": "Reddit r/OpenAI",
-      "summary": "&#32; submitted by &#32; /u/EchoOfOppenheimer [link] &#32; [comments]",
-      "published": "2026-05-20T08:12:36+00:00",
-      "score": 41.0,
-      "headline": "GOP AGs Demand SEC Review of Sam Altman Dealings"
-    },
-    {
-      "id": "f9267d044893e71d",
-      "title": "Meta offers rival AI chatbots a limited free pass into WhatsApp, on Brussels\u2019 terms",
-      "url": "https://thenextweb.com/news/meta-whatsapp-ai-rivals-free-access-eu-dma-proposal",
-      "source": "The Next Web",
-      "summary": "After January\u2019s blanket ban and March\u2019s $0.0625-per-message fee, Meta has filed a fresh European Commission proposal: free WhatsApp access for OpenAI, Perplexity, and others, up to a usage cap, then a fee. Meta has filed a fresh European Commission proposal that would give rival AI chatbots, including OpenAI\u2019s ChatGPT, Perplexity, Anthropic\u2019s Claude and others, free [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-20T07:51:07+00:00",
-      "score": 41.0,
-      "headline": "Meta Offers Rival AI Chatbots LIMITED WhatsApp Access"
-    },
-    {
-      "id": "f02c2e1ca30bd7ef",
-      "title": "Gemini Omni",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/ Comments URL: https://news.ycombinator.com/item?id=48204334 Points: 2 # Comments: 0",
-      "published": "2026-05-20T07:29:28+00:00",
-      "score": 41.0,
-      "headline": "GOOGLE DROPS GEMINI OMNI... Multimodal AI Race Heats Up"
-    },
-    {
-      "id": "90e5cffb4e32b46e",
-      "title": "OpenAI for Singapore",
-      "url": "https://openai.com/index/introducing-openai-for-singapore/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://openai.com/index/introducing-openai-for-singapore/ Comments URL: https://news.ycombinator.com/item?id=48203538 Points: 2 # Comments: 0",
-      "published": "2026-05-20T05:44:20+00:00",
-      "score": 41.0,
-      "headline": "OPENAI LAUNCHES Singapore Division"
-    },
-    {
-      "id": "7af8fedbf389b90a",
-      "title": "Alibaba unveils new AI chip in push for domestic alternatives",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alibaba-unveils-new-ai-chip-in-push-for-domestic-alternatives/articleshow/131217369.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Alibaba has launched its new Zhenwu M890 AI chip, offering triple the performance of its previous model. This development is part of China's push for domestic AI alternatives amid US export restrictions. The company also revealed a future roadmap with V900 and J900 chips planned for 2027 and 2028 respectively. This signifies Alibaba's commitment to advancing its in-house silicon capabilities.",
-      "published": "2026-05-20T05:23:09+00:00",
-      "score": 41.0,
-      "headline": "ALIBABA Unveils Zhenwu M890 AI Chip... 3x Performance"
-    },
-    {
-      "id": "0bb84a9703dac6f6",
-      "title": "Nvidia\u2019s Huang bankrolls AI boom with $90bn deal spree",
-      "url": "https://www.ft.com/content/c6b362b8-ab6b-4723-af48-28082bdfcac2",
-      "source": "Financial Times Tech",
-      "summary": "Chipmaker\u2019s spending rivals Big Tech\u2019s biggest venture operations, tying customers and start-ups to its technology",
-      "published": "2026-05-20T04:00:12+00:00",
-      "score": 41.0,
-      "headline": "NVIDIA's $90BN Deal Spree... Huang's AI Empire"
-    },
-    {
-      "id": "2ba3e32322cb18e0",
-      "title": "Wall Street Watchdogs Pause Some Cyber Exams After Mythos Shock",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/anthropic-mythos-ai-model-prompts-regulators-to-delay-us-bank-cyberattack-tests",
-      "source": "Bloomberg Technology",
-      "summary": "US regulators are pausing some cyber-related examinations of the largest banks, giving the lenders more breathing room as the firms dig into the risks exposed by Anthropic PBC\u2019s new Mythos AI model.",
-      "published": "2026-05-19T19:03:40+00:00",
-      "score": 41.0,
-      "headline": "MYTHOS AI SHOCKS WALL STREET... Cyber Exams Paused"
-    },
-    {
-      "id": "8753456293ed74af",
-      "title": "Cerebras is running a trillion parameter model (Kimi K2.6) at 1000 tokens/s",
-      "url": "https://www.reddit.com/r/singularity/comments/1thw41i/cerebras_is_running_a_trillion_parameter_model/",
-      "source": "Reddit r/singularity",
-      "summary": "Link to tweet: https://x.com/cerebras/status/2056778123329274279 Link to blog: https://www.cerebras.ai/blog/cerebras-kimi-k2-Enterprise &#32; submitted by &#32; /u/socoolandawesome [link] &#32; [comments]",
-      "published": "2026-05-19T18:40:41+00:00",
-      "score": 41.0,
-      "headline": "CEREBRAS RUNS TRILLION-PARAM Model at 1000 Tokens/Sec"
     }
   ],
-  "generated_at": "2026-05-20T20:09:12.594085"
+  "generated_at": "2026-05-20T22:24:42.859716"
 }
