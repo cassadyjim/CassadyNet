@@ -69,8 +69,8 @@
       "story_count": 6
     },
     {
-      "topic": "AI Company IPOs and Mega Fundraising",
-      "description": "Major AI companies are going public or raising massive funding rounds as the sector matures and seeks public market validation.",
+      "topic": "Major AI Company IPOs and Funding",
+      "description": "Massive funding rounds and IPO filings from AI giants signal the industry's explosive growth and investor confidence.",
       "stories": [
         {
           "id": "e546459546a12eb9",
@@ -517,6 +517,16 @@
       "published": "2026-05-20T08:43:23+00:00",
       "score": 43.0,
       "headline": null
+    },
+    {
+      "id": "bf74130f0168ec30",
+      "title": "Latent-space Attacks for Refusal Evasion in Language Models",
+      "url": "https://arxiv.org/abs/2605.21706",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2605.21706v1 Announce Type: new Abstract: Safety-aligned language models are trained to refuse harmful requests, yet refusal behavior can be suppressed by steering their internal representations. Existing methods do so by ablating a refusal direction from model activations, aiming to remove refusal from the model's residual stream. Despite their empirical success, these methods lack a principled account of the latent-space transformation they induce and why it suppresses refusal. In this work, we recast refusal suppression as a latent-space evasion attack against linear probes trained to separate refused from answered prompts. Under this view, prior work's difference-in-means direction naturally defines such a probe, and its ablation is exactly a projection onto its decision boundary, i.e., a minimum-confidence evasion attack. This perspective not only explains the empirical success of prior work but also admits a key limitation: evasion stops at the decision boundary, motivating",
+      "published": "2026-05-23T04:00:00+00:00",
+      "score": 42.0,
+      "headline": "BREAKING: New Latent-Space Attacks Bypass AI Safety"
     },
     {
       "id": "50b276fedf80d2bd",
@@ -1007,17 +1017,7 @@
       "published": "2026-05-20T05:44:20+00:00",
       "score": 41.0,
       "headline": "OPENAI LAUNCHES Singapore Division"
-    },
-    {
-      "id": "7af8fedbf389b90a",
-      "title": "Alibaba unveils new AI chip in push for domestic alternatives",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alibaba-unveils-new-ai-chip-in-push-for-domestic-alternatives/articleshow/131217369.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Alibaba has launched its new Zhenwu M890 AI chip, offering triple the performance of its previous model. This development is part of China's push for domestic AI alternatives amid US export restrictions. The company also revealed a future roadmap with V900 and J900 chips planned for 2027 and 2028 respectively. This signifies Alibaba's commitment to advancing its in-house silicon capabilities.",
-      "published": "2026-05-20T05:23:09+00:00",
-      "score": 41.0,
-      "headline": "ALIBABA Unveils Zhenwu M890 AI Chip... 3x Performance"
     }
   ],
-  "generated_at": "2026-05-23T00:03:12.052822"
+  "generated_at": "2026-05-23T04:37:04.963963"
 }
