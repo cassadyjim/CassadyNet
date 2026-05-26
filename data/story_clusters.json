@@ -499,16 +499,6 @@
       "headline": "NTSB BLOCKS Records After AI Recreates Dead Pilots' Voices"
     },
     {
-      "id": "9ca7a6c1016fedd3",
-      "title": "Agentic AI token usage balloons cost at Microsoft, Meta, Amazon",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cost-crisis-hits-tech-giants-as-employee-tokenmaxxing-backfires-agentic-ai-eats-up-to-1000x-more-tokens-than-standard-ai-sparks-corporate-pullback-at-microsoft-meta-and-amazon",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cost-crisis-hits-tech-giants-as-employee-tokenmaxxing-backfires-agentic-ai-eats-up-to-1000x-more-tokens-than-standard-ai-sparks-corporate-pullback-at-microsoft-meta-and-amazon Comments URL: https://news.ycombinator.com/item?id=48248314 Points: 3 # Comments: 1",
-      "published": "2026-05-23T15:03:58+00:00",
-      "score": 40.0,
-      "headline": "AI COST CRISIS HITS TECH GIANTS - 1000X TOKEN SURGE"
-    },
-    {
       "id": "ff9a5d0b12b94429",
       "title": "Novo Nordisk uses AI to fast-track drug launches, expand India role",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/novo-nordisk-uses-ai-to-fast-track-drug-launches-expand-india-role/articleshow/131278271.cms",
@@ -879,6 +869,16 @@
       "headline": "AI ALIGNMENT FAILURE Makes Armed Conflicts Worse"
     },
     {
+      "id": "63245cda955256ac",
+      "title": "Shard - getting to 10\u00d7 KV cache compression",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnvo7r/shard_getting_to_10_kv_cache_compression/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "TL;DR. Shard is a drop-in HuggingFace Cache that makes Llama-3.1-8B's KV memory about 10\u00d7 smaller at 8K context (11\u00d7 at 32K) without measurable hits to NIAH or LongBench. It started as a reimplementation of Google's TurboQuant[1], stalled around 4\u00d7, and ended up as a different design once we noticed K and V need different treatments: PCA plus int4 quantization on K (the matrix is effectively low-rank once you undo RoPE), and a Hadamard rotation plus vector quantization on V. Attention runs directly on the compressed K, no fp16 reconstruction. Code: krish1905/shard. &#32; submitted by &#32; /u/Thrumpwart [link] &#32; [comments]",
+      "published": "2026-05-26T04:04:03+00:00",
+      "score": 38.0,
+      "headline": "SHARD ACHIEVES 10X KV CACHE COMPRESSION... Llama-3.1 Memory Breakthrough"
+    },
+    {
       "id": "8e461453ebe47aae",
       "title": "Pope calls for robust regulation of AI in manifesto re: the future of humanity",
       "url": "https://apnews.com/article/pope-ai-tech-trump-vatican-anthropic-d92d0108730d146baa46da041b8523da",
@@ -997,27 +997,7 @@
       "published": "2026-05-25T04:06:08+00:00",
       "score": 38.0,
       "headline": "Applied Materials: India Must Upgrade Grid for AI Dreams"
-    },
-    {
-      "id": "ef554d53c6c0645b",
-      "title": "Strategic Coercion Within Alliances: The Greenland Sovereignty Game as an AI Stress Test",
-      "url": "https://arxiv.org/abs/2605.22841",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2605.22841v1 Announce Type: cross Abstract: What happens when the strongest alliance member pressures a weaker member over territory and strategic control? We examine the Greenland sovereignty crisis as a stress test for LLM geopolitics, centered on the 2019-2026 U.S. push to acquire Greenland from the Kingdom of Denmark. The crisis nests two collective-action problems: Arctic strategic control and whether NATO can enforce alliance norms against the dominant member. We develop three games (asymmetric coercion; a NATO assurance game with a critical-mass tipping point; a triadic extensive-form game with social preferences) and test them with a multi-agent simulation in which eight frontier LLMs play six geopolitical roles (United States, Denmark, Greenland, NATO, Russia, Canada) across 3,604 completed games and 108,120 action observations. Using inverse game theory, we recover each model's structural utility parameters (alpha, beta, gamma, delta, eta) for material self-interest, re",
-      "published": "2026-05-25T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "AI Models TESTED on Greenland Sovereignty Crisis Simulation"
-    },
-    {
-      "id": "9ea2c7ef79e62443",
-      "title": "When Do LLMs Reason? A Dynamical Systems View via Entropy Phase Transitions",
-      "url": "https://arxiv.org/abs/2605.22873",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2605.22873v1 Announce Type: cross Abstract: Chain-of-thought (CoT) reasoning has become the default strategy for enhancing LLM capabilities, yet its application raises a fundamental question: when is explicit reasoning actually beneficial? Empirical evidence reveals a striking paradox: CoT often provides marginal or even negative gains on factual and open-ended tasks while multiplying token consumption. In this work, we show that LLM reasoning is not a static property of tasks or models, but a \\emph{dynamic decoding state} that emerges during generation. Through systematic analysis, we find early-stage entropy dynamics provide a reliable signal of this state: tasks benefiting from CoT exhibit consistent entropy reduction, while others display unstable or increasing patterns. This behavior can be interpreted as a phase-transition-like shift from a high-entropy exploratory regime to a low-entropy structured reasoning regime. Based on these insights, we propose \\textbf{EDRM} (Entrop",
-      "published": "2026-05-25T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "ENTROPY PHASE TRANSITIONS Reveal When LLMs Actually Reason"
     }
   ],
-  "generated_at": "2026-05-26T00:04:15.768420"
+  "generated_at": "2026-05-26T05:01:38.117555"
 }
