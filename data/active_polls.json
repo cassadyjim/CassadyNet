@@ -1,6 +1,81 @@
 {
   "polls": [
     {
+      "topic": "China AI Restrictions & Talent Controls",
+      "description": "China is implementing sweeping restrictions on AI talent travel while companies like DeepSeek slash prices, signaling escalating AI competition tensions.",
+      "question": "Is China's AI talent travel ban smart strategy or innovation killer?",
+      "poll_id": "",
+      "analysis_url": "/analysis/analysis-china-ai-restrictions-talent-controls-20260526.html",
+      "analysis_type": "poll",
+      "created_at": "2026-05-26T20:54:30.400001",
+      "last_seen": "2026-05-26T22:20:00.158358",
+      "button_a": "Strategy",
+      "button_b": "Killer",
+      "cluster_stories": [
+        {
+          "id": "e5b51a7cd7be1456",
+          "title": "China Expands Travel Curbs to Top AI Talent | Bloomberg Tech 5/26/2026",
+          "url": "https://www.bloomberg.com/news/videos/2026-05-26/bloomberg-tech-5-26-2026-video",
+          "source": "Bloomberg Technology",
+          "summary": "Bloomberg\u2019s Caroline Hyde and Ed Ludlow discuss how China is tightening its grip on AI by targeting top AI professionals' overseas travel. Plus, big banks are looking to hire more AI specialists and shrink traditional banking roles, and SpaceX kicks off a tech IPO bonanza. (Source: Bloomberg)",
+          "published": "2026-05-26T18:17:07+00:00",
+          "score": 46.0,
+          "headline": "CHINA BLOCKS AI TALENT FROM TRAVELING OVERSEAS"
+        },
+        {
+          "id": "1c7be1c2f83c3312",
+          "title": "China Clamps Down on Overseas Travel for AI Talent at Alibaba, DeepSeek",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1to5fj5/china_clamps_down_on_overseas_travel_for_ai/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Big, if true. Doesn't bode well for research / OS models out of China. &#32; submitted by &#32; /u/kaggleqrdl [link] &#32; [comments]",
+          "published": "2026-05-26T12:26:46+00:00",
+          "score": 45.0,
+          "headline": "CHINA CLAMPS DOWN: Alibaba, DeepSeek AI Talent Banned from Travel"
+        },
+        {
+          "id": "6b952e5c0b088139",
+          "title": "China Expands Travel Curbs to Top AI Talent at Private Firms",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms",
+          "source": "Bloomberg Technology",
+          "summary": "China is restricting overseas travel for top AI professionals in private firms such as Alibaba Group Holding Ltd. and DeepSeek, suggesting an escalation in measures intended to safeguard its technology and catch up to the US in a pivotal sphere.",
+          "published": "2026-05-26T08:12:22+00:00",
+          "score": 45.0,
+          "headline": "CHINA RESTRICTS AI TALENT TRAVEL at Alibaba, DeepSeek"
+        },
+        {
+          "id": "ce352ff0ab9cf5c9",
+          "title": "PLA Daily Translation: Reflections on Warfare Brought by AGI",
+          "url": "https://www.lesswrong.com/posts/J3A6xauFQnvxPb9Y2/pla-daily-translation-reflections-on-warfare-brought-by-agi",
+          "source": "LessWrong AI",
+          "summary": "Source\u201cReflections on Warfare Brought by AGI\u201d (AGI\u5e26\u6765\u7684\u6218\u4e89\u601d\u8003)Source: PLA Daily (\u89e3\u653e\u519b\u62a5)Date: January 21, 2025Authors: Rong Ming (\u8363\u660e), Hu Xiaofeng (\u80e1\u6653\u5cf0)IntroductionPlease feel free to skip to the translation, about halfway down, though I would recommend reading the sections \u201cOn the source\u201d and \"On the Authors\" just above it too.In November 2024, the U.S.-China Economic and Security Review Commission recommended that \u201cCongress establish and fund a Manhattan Project-like program dedicated to racing to and acquiring an Artificial General Intelligence (AGI) capability.\u201d The United States increasingly treats advanced AI as a strategic imperative, and China is frequently invoked as a reason to race. The broader framing of AI competition as a race between great powers reflects an assumption that China is a peer competitor in pursuing AGI.But is China pursuing AGI? The prevailing expert view says no. China's August 2025 AI+ Action Plan reads as diffusion-first industrial policy, with adoption target",
+          "published": "2026-05-23T00:52:42+00:00",
+          "score": 45.0,
+          "headline": "CHINA MILITARY ANALYSIS: How AGI Will Transform Warfare"
+        },
+        {
+          "id": "68403d613b0cdf47",
+          "title": "EngineAI shared a view of its Shenzhen Intelligent Manufacturing Base, claiming an output of one humanoid robot every 15 minutes - that's 35,000 humanoid robots per year, the highest production rate publicly claimed by a Chinese humanoid robotics company",
+          "url": "https://www.reddit.com/r/singularity/comments/1to6nzm/engineai_shared_a_view_of_its_shenzhen/",
+          "source": "Reddit r/singularity",
+          "summary": "This is the highest output rate announced. besides this EngineAI has another aditional Zhengzhou 10K/year line planned. Its more than from what Leju Robotics, AgiBot, Unitree Robotics, and others have claimed for their humanoid robots per year. So its likely, China ready to output 100K humanoids robots per year. &#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
+          "published": "2026-05-26T13:16:56+00:00",
+          "score": 44.0,
+          "headline": "CHINA'S EngineAI Claims One Robot Every 15 Minutes... 35K/Year Output"
+        },
+        {
+          "id": "4e1cbc73a8dbca95",
+          "title": "China is giving every humanoid robot a 29-character ID code, and over 28,000 already have one",
+          "url": "https://thenextweb.com/news/china-humanoid-robot-id-system-lifecycle-tracking",
+          "source": "The Next Web",
+          "summary": "Summary: China has launched a national ID system for humanoid robots, assigning each a 29-character code that tracks it from production to recycling. Over 28,000 robots across 200 models already have IDs. The system logs real-time performance data including joint wear, battery status, and AI training history. China has launched a national identification system [&hellip;] This story continues at The Next Web",
+          "published": "2026-05-25T19:04:01+00:00",
+          "score": 43.0,
+          "headline": "CHINA ASSIGNS ID CODES to 28,000 Humanoid Robots"
+        }
+      ],
+      "current_topic_name": "China AI Restrictions & Talent Controls"
+    },
+    {
       "topic": "Pope's AI Ethics Encyclical",
       "description": "Pope Leo XIV's unprecedented encyclical calling for AI disarmament and warning against AI weapons represents a major religious intervention in AI governance debates.",
       "question": "Should religious leaders have a voice in AI governance decisions?",
@@ -10,7 +85,7 @@
       "analysis_url": "/analysis/analysis-popes-ai-encyclical-20260526.html",
       "analysis_type": "poll",
       "created_at": "2026-05-25T17:06:55.103345",
-      "last_seen": "2026-05-26T20:54:28.126299",
+      "last_seen": "2026-05-26T22:20:01.422530",
       "cluster_stories": [
         {
           "id": "ff8cd742b1a6a386",
@@ -91,30 +166,10 @@
           "published": "2026-05-26T20:46:03+00:00",
           "score": 41.0,
           "headline": "VATICAN INVITES ANTHROPIC TO POPE'S AI ENCYCLICAL"
-        },
-        {
-          "id": "3571ba23ee9cbccd",
-          "title": "What Pope Leo XIV\u2019s First Encyclical Says About the Power of AI",
-          "url": "https://www.wired.com/story/what-pope-leo-xivs-first-encyclical-says-about-the-power-of-ai/",
-          "source": "Wired",
-          "summary": "In Magnifica Humanitas, the Pope decries the concentration of technological power in a few global players.",
-          "published": "2026-05-26T20:17:47+00:00",
-          "score": 41.0,
-          "headline": "POPE'S AI ENCYCLICAL DECRIES BIG TECH POWER"
         }
       ],
       "current_topic_name": "Pope's AI Encyclical"
-    },
-    {
-      "topic": "China AI Restrictions & Talent Controls",
-      "description": "China is implementing sweeping restrictions on AI talent travel while companies like DeepSeek slash prices, signaling escalating AI competition tensions.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "",
-      "analysis_type": "poll",
-      "created_at": "2026-05-26T20:54:30.400001",
-      "last_seen": "2026-05-26T20:54:30.400009"
     }
   ],
-  "last_updated": "2026-05-26T20:54:30.930385"
+  "last_updated": "2026-05-26T22:20:01.422545"
 }
