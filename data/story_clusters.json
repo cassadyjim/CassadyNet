@@ -189,8 +189,8 @@
       "story_count": 18
     },
     {
-      "topic": "China-US Chip Competition",
-      "description": "Escalating technological rivalry as US restricts chip exports while China develops domestic alternatives and builds AI infrastructure.",
+      "topic": "China-US AI Competition",
+      "description": "Escalating technological competition between China and the US spans chip exports, AI development, and strategic partnerships.",
       "stories": [
         {
           "id": "8753d3b86134e81c",
@@ -253,16 +253,6 @@
           "headline": "JENSEN HUANG Joins China University Board with Cook"
         },
         {
-          "id": "507fe14b2218561a",
-          "title": "Zoho-backed Netrasemi launches first AI chip, begins customer trials",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/zoho-backed-netrasemi-launches-its-first-ai-chip-begins-customer-trials/articleshow/131362999.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Kerala-based Netrasemi, backed by Zoho, has successfully tested its A2000 AI chip, now production-ready for edge devices. Early trials are underway with customers in surveillance and automotive sectors, targeting a mid-2027 commercial launch. This Indian-designed chip, built on TSMC's 12nm process, is among the first of its kind.",
-          "published": "2026-05-28T04:36:16+00:00",
-          "score": 45.0,
-          "headline": "Zoho-Backed Netrasemi Launches India's First AI Chip"
-        },
-        {
           "id": "13417188eb7f3bac",
           "title": "China just told its tech giants to stop fighting on price and start investing in AI",
           "url": "https://thenextweb.com/news/china-platform-regulation-ai-investment-qiushi-signal",
@@ -313,16 +303,6 @@
           "headline": "BYD Unveils China's First 4nm Self-Driving Car Chip"
         },
         {
-          "id": "76cb56eabfeab7fc",
-          "title": "EU wants crisis powers to seize control of chip supplies",
-          "url": "https://www.ft.com/content/9d7d6204-4fc7-4f1d-af05-473c3649efcd",
-          "source": "Financial Times Tech",
-          "summary": "Chipmakers could be forced to override existing contracts under draft law",
-          "published": "2026-05-28T16:23:28+00:00",
-          "score": 43.0,
-          "headline": "EU DRAFTS EMERGENCY POWERS TO SEIZE CHIP SUPPLIES"
-        },
-        {
           "id": "7357850610b6845c",
           "title": "Here Comes Ojai, Waymo\u2019s New Chinese-Made Robotaxi",
           "url": "https://www.wired.com/story/here-comes-ojai-waymos-new-chinese-made-robotaxi/",
@@ -354,7 +334,7 @@
         }
       ],
       "top_score": 47.0,
-      "story_count": 16
+      "story_count": 14
     }
   ],
   "unclustered": [
@@ -397,6 +377,16 @@
       "published": "2026-05-28T10:01:46+00:00",
       "score": 45.0,
       "headline": "MISTRAL CEO REBUTS VATICAN on AI Weapons Ban"
+    },
+    {
+      "id": "507fe14b2218561a",
+      "title": "Zoho-backed Netrasemi launches first AI chip, begins customer trials",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/zoho-backed-netrasemi-launches-its-first-ai-chip-begins-customer-trials/articleshow/131362999.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Kerala-based Netrasemi, backed by Zoho, has successfully tested its A2000 AI chip, now production-ready for edge devices. Early trials are underway with customers in surveillance and automotive sectors, targeting a mid-2027 commercial launch. This Indian-designed chip, built on TSMC's 12nm process, is among the first of its kind.",
+      "published": "2026-05-28T04:36:16+00:00",
+      "score": 45.0,
+      "headline": "Zoho-Backed Netrasemi Launches India's First AI Chip"
     },
     {
       "id": "1daf49d5ffdac7a8",
@@ -467,6 +457,16 @@
       "published": "2026-05-28T23:55:08+00:00",
       "score": 43.0,
       "headline": "SAMSUNG LEADS AI Memory Chip Race with Advanced Samples"
+    },
+    {
+      "id": "76cb56eabfeab7fc",
+      "title": "EU wants crisis powers to seize control of chip supplies",
+      "url": "https://www.ft.com/content/9d7d6204-4fc7-4f1d-af05-473c3649efcd",
+      "source": "Financial Times Tech",
+      "summary": "Chipmakers could be forced to override existing contracts under draft law",
+      "published": "2026-05-28T16:23:28+00:00",
+      "score": 43.0,
+      "headline": "EU DRAFTS EMERGENCY POWERS TO SEIZE CHIP SUPPLIES"
     },
     {
       "id": "6e76cec03e42bf3c",
@@ -687,6 +687,16 @@
       "published": "2026-05-28T00:41:31+00:00",
       "score": 42.0,
       "headline": "TAIWAN TECH FIRMS BORROW RECORD $14.5B for AI Boom"
+    },
+    {
+      "id": "c7a78d2203468109",
+      "title": "Tell HN: Meta's AI support feature allows Instagram accounts to be stolen",
+      "url": "https://news.ycombinator.com/item?id=48350239",
+      "source": "Hacker News",
+      "summary": "If the AI support option is enabled for your Instagram account (it appears to be A/B tested for only a percentage of accounts), anyone can hijack it with little effort. Simply get on a proxy or VPN close to the account's region, then ask the agent to send a code to an arbitrary email address. Once you receive the code, pass it forward to the agent, and it'll provide you with a password reset link which you can then use to sign into the account.Posting here for any Meta employees who may be reading. This flaw has been around for at least a few days and has been used to hijack over 100 high-value Instagram accounts. The correct patch would be to disable the AI support feature entirely for the time being until this is sorted and revert accounts and usernames that have been hijacked over the last few days. This is a pretty important flaw and it's currently being exploited in blackhat circles. The steps above are public knowledge in these circles and can be found trivially on Telegram. Comm",
+      "published": "2026-05-31T22:11:40+00:00",
+      "score": 41.0,
+      "headline": "SECURITY ALERT: Meta AI Support Enables Account Theft"
     },
     {
       "id": "4dc70be930bb3436",
@@ -1007,17 +1017,7 @@
       "published": "2026-05-30T11:20:55+00:00",
       "score": 40.0,
       "headline": "G7 Reaches Historic Agreement on Open-Source AI Standards"
-    },
-    {
-      "id": "5547dc5bd02d54d1",
-      "title": "AI may impact \"lucrative job market linked to IT services\": EY report",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-may-impact-lucrative-job-market-linked-to-it-services-ey-report/articleshow/131408084.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Artificial Intelligence will significantly reshape India's skilled workforce and its IT sector. EY's report highlights potential job market shifts. While India's economic growth remains strong, adapting to AI's evolution is crucial. Policymakers must address technological changes alongside other global challenges to maintain India's growth trajectory and economic future.",
-      "published": "2026-05-30T11:00:06+00:00",
-      "score": 40.0,
-      "headline": "AI Threatens India's MASSIVE IT Services Industry"
     }
   ],
-  "generated_at": "2026-05-31T21:56:01.740537"
+  "generated_at": "2026-05-31T22:56:04.631542"
 }
