@@ -189,8 +189,8 @@
       "story_count": 18
     },
     {
-      "topic": "China AI Technology Race",
-      "description": "China is rapidly advancing in AI and chip technology while competing with the US through new markets, regulations, and domestic innovation.",
+      "topic": "China-US Chip Competition",
+      "description": "Escalating technological rivalry as US restricts chip exports while China develops domestic alternatives and builds AI infrastructure.",
       "stories": [
         {
           "id": "8753d3b86134e81c",
@@ -211,6 +211,16 @@
           "published": "2026-05-28T00:15:02+00:00",
           "score": 47.0,
           "headline": "NVIDIA CEO HUANG Joins Beijing University Board"
+        },
+        {
+          "id": "a773baa4898db2ba",
+          "title": "US takes step to halt Nvidia AI chip shipments to Chinese firms outside China",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3355492/us-takes-step-halt-nvidia-ai-chip-shipments-chinese-firms-outside-china?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "The US Department of Commerce on Sunday moved to close a year-old potential loophole it had created that may have led companies to export \u200cthe world\u2019s most advanced chips \u2013 such as Nvidia\u2019s most sophisticated Rubin and Blackwell processors, as well as AMD\u2019s MI350x \u2013 to Chinese entities located outside China. The unexpected guidance suggests the United States\u2019 best artificial intelligence chips may have been making their way to the subsidiaries of Chinese AI firms based in places such as Malaysia...",
+          "published": "2026-05-31T21:46:33+00:00",
+          "score": 46.0,
+          "headline": "US MOVES TO HALT NVIDIA CHIP EXPORTS... CLOSES CHINA LOOPHOLE"
         },
         {
           "id": "6beee1992a8c9370",
@@ -241,6 +251,16 @@
           "published": "2026-05-28T07:29:12+00:00",
           "score": 45.0,
           "headline": "JENSEN HUANG Joins China University Board with Cook"
+        },
+        {
+          "id": "507fe14b2218561a",
+          "title": "Zoho-backed Netrasemi launches first AI chip, begins customer trials",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/zoho-backed-netrasemi-launches-its-first-ai-chip-begins-customer-trials/articleshow/131362999.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Kerala-based Netrasemi, backed by Zoho, has successfully tested its A2000 AI chip, now production-ready for edge devices. Early trials are underway with customers in surveillance and automotive sectors, targeting a mid-2027 commercial launch. This Indian-designed chip, built on TSMC's 12nm process, is among the first of its kind.",
+          "published": "2026-05-28T04:36:16+00:00",
+          "score": 45.0,
+          "headline": "Zoho-Backed Netrasemi Launches India's First AI Chip"
         },
         {
           "id": "13417188eb7f3bac",
@@ -293,6 +313,16 @@
           "headline": "BYD Unveils China's First 4nm Self-Driving Car Chip"
         },
         {
+          "id": "76cb56eabfeab7fc",
+          "title": "EU wants crisis powers to seize control of chip supplies",
+          "url": "https://www.ft.com/content/9d7d6204-4fc7-4f1d-af05-473c3649efcd",
+          "source": "Financial Times Tech",
+          "summary": "Chipmakers could be forced to override existing contracts under draft law",
+          "published": "2026-05-28T16:23:28+00:00",
+          "score": 43.0,
+          "headline": "EU DRAFTS EMERGENCY POWERS TO SEIZE CHIP SUPPLIES"
+        },
+        {
           "id": "7357850610b6845c",
           "title": "Here Comes Ojai, Waymo\u2019s New Chinese-Made Robotaxi",
           "url": "https://www.wired.com/story/here-comes-ojai-waymos-new-chinese-made-robotaxi/",
@@ -324,7 +354,7 @@
         }
       ],
       "top_score": 47.0,
-      "story_count": 13
+      "story_count": 16
     }
   ],
   "unclustered": [
@@ -367,16 +397,6 @@
       "published": "2026-05-28T10:01:46+00:00",
       "score": 45.0,
       "headline": "MISTRAL CEO REBUTS VATICAN on AI Weapons Ban"
-    },
-    {
-      "id": "507fe14b2218561a",
-      "title": "Zoho-backed Netrasemi launches first AI chip, begins customer trials",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/zoho-backed-netrasemi-launches-its-first-ai-chip-begins-customer-trials/articleshow/131362999.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Kerala-based Netrasemi, backed by Zoho, has successfully tested its A2000 AI chip, now production-ready for edge devices. Early trials are underway with customers in surveillance and automotive sectors, targeting a mid-2027 commercial launch. This Indian-designed chip, built on TSMC's 12nm process, is among the first of its kind.",
-      "published": "2026-05-28T04:36:16+00:00",
-      "score": 45.0,
-      "headline": "Zoho-Backed Netrasemi Launches India's First AI Chip"
     },
     {
       "id": "1daf49d5ffdac7a8",
@@ -447,26 +467,6 @@
       "published": "2026-05-28T23:55:08+00:00",
       "score": 43.0,
       "headline": "SAMSUNG LEADS AI Memory Chip Race with Advanced Samples"
-    },
-    {
-      "id": "4e8af739336d64bd",
-      "title": "Claude Opus 4.8 Agents Violate EU Law",
-      "url": "https://www.lesswrong.com/posts/8JgMgyihbYEikS3Sp/claude-opus-4-8-agents-violate-eu-law",
-      "source": "LessWrong AI",
-      "summary": "TL;DR: Like other models including its predecessor, Opus 4.8 frequently violates provisions of both the EU AI Act and data protection laws when deployed in an agentic context where carrying out its task would break the law.Agentic alignment is challenging. When models are deployed in an agentic context, providing services to one party on behalf of another, multiple stakeholders are suddenly demanding different things, and the \"helpful, harmless, honest\" framing starts to pull models in different directions, and situations where an AI system has to choose whose side to pick don't have a clean resolution. For good reason, usually: people famously disagree with one another on almost everything important. No amount of instilling general morality in a model is going to magically bypass value pluralism.That doesn\u2019t mean we can\u2019t have objective standards for how AI should act. Laws represent our collective mandate for how we should behave, and this implies that a system that is competent to m",
-      "published": "2026-05-28T21:26:06+00:00",
-      "score": 43.0,
-      "headline": "CLAUDE OPUS 4.8 AGENTS Violate EU AI Laws"
-    },
-    {
-      "id": "76cb56eabfeab7fc",
-      "title": "EU wants crisis powers to seize control of chip supplies",
-      "url": "https://www.ft.com/content/9d7d6204-4fc7-4f1d-af05-473c3649efcd",
-      "source": "Financial Times Tech",
-      "summary": "Chipmakers could be forced to override existing contracts under draft law",
-      "published": "2026-05-28T16:23:28+00:00",
-      "score": 43.0,
-      "headline": "EU DRAFTS EMERGENCY POWERS TO SEIZE CHIP SUPPLIES"
     },
     {
       "id": "6e76cec03e42bf3c",
@@ -1017,17 +1017,7 @@
       "published": "2026-05-30T11:00:06+00:00",
       "score": 40.0,
       "headline": "AI Threatens India's MASSIVE IT Services Industry"
-    },
-    {
-      "id": "4d1f3884af7389c0",
-      "title": "Nvidia paid Groq $20 billion and took its top engineers. Now Groq is raising $650 million for what\u2019s left.",
-      "url": "https://thenextweb.com/news/groq-650-million-raise-nvidia-20-billion-inference-cloud",
-      "source": "The Next Web",
-      "summary": "Groq is raising $650 million from existing investors to fund its inference cloud business, Axios reported. The raise comes six months after Nvidia struck a $20 billion not-acqui-hire that paid out Groq\u2019s investors in cash, took several senior engineers, and licensed Groq\u2019s hardware technology. The same investors who were cashed out in December have now [&hellip;] This story continues at The Next Web",
-      "published": "2026-05-30T10:16:25+00:00",
-      "score": 40.0,
-      "headline": "NVIDIA Paid Groq $20B... Now Groq Raises $650M for What's LEFT"
     }
   ],
-  "generated_at": "2026-05-31T20:54:13.898195"
+  "generated_at": "2026-05-31T21:56:01.740537"
 }
