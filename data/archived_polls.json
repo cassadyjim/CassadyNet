@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "China AI Chip Competition",
+      "description": "Escalating tensions around AI chip technology between China and the West, involving smuggling, export controls, and China's push for semiconductor independence.",
+      "question": "Should the US prioritize containing China's AI chip advances or focus on its own innovation?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "china-ai-chip-competition-20260419",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-chip-competition-20260530.html",
+      "started_at": "2026-05-30T15:05:04.304626",
+      "archived_at": "2026-05-31T16:03:19.175832",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic Mega-Funding",
       "description": "Anthropic's massive $65B funding round at $965B valuation represents the largest AI company financing ever, surpassing OpenAI's valuation.",
       "question": "Is Anthropic's $965B valuation justified or a dangerous bubble?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-deepseek-ai-breakthrough-20260426.html",
       "started_at": "2026-04-25T19:41:49.352887",
       "archived_at": "2026-04-26T19:43:42.357169",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "US-China AI Conflict",
-      "description": "Escalating tensions as the US accuses China of industrial-scale AI theft while China blocks US tech investments and develops competing models.",
-      "question": "Are China's AI practices theft or smart competitive strategy?",
-      "button_a": "Theft",
-      "button_b": "Strategy",
-      "poll_id": "us-china-ai-conflict-20260424",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-us-china-ai-competition-theft-accusations-20260425.html",
-      "started_at": "2026-04-24T13:14:30.081840",
-      "archived_at": "2026-04-25T19:41:50.051403",
       "reason": "topic_replaced"
     }
   ]
