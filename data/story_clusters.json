@@ -629,6 +629,16 @@
       "headline": "UK FORCES GOOGLE: Publishers Can Opt Out AI"
     },
     {
+      "id": "f608c39540bf27eb",
+      "title": "KVarN: new KV-cache quant from Huawei. 3\u20135\u00d7 KV cache compression with actual speed-up instead of slow-down, and unlike TurboQuant it holds up on reasoning (Apache 2.0, vLLM single flag)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "The KV-cache quant race just got more interesting. Huawei just open-sourced KVarN, a KV-cache quantization method under Apache 2.0, drops into vLLM with one flag. Posting because the tradeoff it's claiming is genuinely different from what's already in the stack, and I'd like to see it stress-tested. The landscape it's stepping into FP8 (--kv-cache-dtype fp8) is the current default: ~2x KV capacity, BF16-level throughput, near-zero quality loss. Hard to beat, and the bar anything new has to clear. TurboQuant (Google) got the headlines this year for aggressive compression. It's the one that spooked memory-chip stocks back in March. But per vLLM's own study (Red Hat AI), it buys that memory by giving up speed: it runs at 66-80% of BF16 throughput, up to ~2.5x slower at burst, because it dequantizes back to BF16 for the attention compute. And its low-bit modes drop ~20 points on reasoning (AIME25, LiveCodeBench). What KVarN claims (vs FP16) 3-5x more context (vs FP8's ~2x) up to ~1.4x FP16",
+      "published": "2026-06-04T14:47:10+00:00",
+      "score": 42.0,
+      "headline": "HUAWEI Releases KVarN: 5x KV Cache Compression"
+    },
+    {
       "id": "efb64d681b1e72e1",
       "title": "TSMC struggles to keep up with AI demand: &#8216;We can only support so much&#8217;",
       "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
@@ -657,6 +667,16 @@
       "published": "2026-06-04T09:00:07+00:00",
       "score": 42.0,
       "headline": "China Rejects OECD Subsidy Report Amid EU Trade War"
+    },
+    {
+      "id": "785dbaa6ae56b042",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "source": "OpenAI Blog",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "published": "2026-06-04T09:00:00+00:00",
+      "score": 42.0,
+      "headline": "OPENAI LAUNCHES 'DREAMING' - ChatGPT Gets Memory Upgrade"
     },
     {
       "id": "03c4b55a4cdc8e51",
@@ -927,27 +947,7 @@
       "published": "2026-06-01T16:40:38+00:00",
       "score": 42.0,
       "headline": "ANTHROPIC OFFICIALLY FILES FOR PUBLIC DEBUT"
-    },
-    {
-      "id": "388c0763bb7e3a71",
-      "title": "Anthropic files to go public",
-      "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-      "source": "TechCrunch AI",
-      "summary": "The company said Monday it has filed confidentially for an IPO.",
-      "published": "2026-06-01T16:36:55+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC FILES FOR IPO"
-    },
-    {
-      "id": "aa3aff76b0e81eb6",
-      "title": "Anthropic confidentially files for initial public offering on US stock market",
-      "url": "https://www.theguardian.com/technology/2026/jun/01/anthropic-ai-ipo",
-      "source": "The Guardian Tech",
-      "summary": "Financial stakes of AI race rise as Elon Musk\u2019s SpaceX, OpenAI and Anthropic are slated to go public this yearAnthropic has filed confidentially for an initial public offering on the US stock market, the company announced Monday. The AI firm makes the Claude chatbot, popular with software engineers and other business clients, and has seen a meteoric rise this year.The company did not disclose the valuation it will target on the stock market, nor did it make public other terms of the offering. The startup announced on Thursday that it had raised $65bn in funding to value the company at $965bn post-money. Anthropic was valued at $380bn in February. Continue reading...",
-      "published": "2026-06-01T16:36:00+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC FILES FOR US IPO... AI RACE HEATS UP"
     }
   ],
-  "generated_at": "2026-06-04T20:00:51.774982"
+  "generated_at": "2026-06-04T21:44:19.966999"
 }
