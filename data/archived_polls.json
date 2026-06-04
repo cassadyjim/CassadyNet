@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "US-China AI Chip War",
+      "description": "Escalating tensions over AI chip exports to China with new US restrictions on NVIDIA chips and Chinese military efforts to acquire advanced semiconductors.",
+      "question": "Are the US AI chip restrictions on China justified or overreach?",
+      "button_a": "Justified",
+      "button_b": "Overreach",
+      "poll_id": "us-china-ai-chip-war-20260603",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-chip-trade-war-20260522.html",
+      "started_at": "2026-06-03T11:14:31.138195",
+      "archived_at": "2026-06-04T14:48:32.593429",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic IPO Race",
       "description": "Anthropic beats OpenAI to market with a massive IPO filing that could reshape the competitive AI landscape.",
       "question": "Will Anthropic's IPO first-mover advantage prove decisive against OpenAI?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-microsoft-partnership-changes-20260430.html",
       "started_at": "2026-04-28T23:54:02.736880",
       "archived_at": "2026-04-30T19:14:32.319161",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Major Tech Partnership Shifts",
-      "description": "Breaking partnerships and new alliances reshape the AI landscape as Microsoft loses OpenAI exclusivity while Google secures Pentagon contracts.",
-      "question": "",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-major-tech-partnership-shifts-20260429.html",
-      "started_at": "2026-04-29T05:52:46.937897",
-      "archived_at": "2026-04-30T07:28:59.510574",
       "reason": "topic_replaced"
     }
   ]
