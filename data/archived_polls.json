@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "DeepSeek Funding & China AI Competition",
+      "description": "Chinese AI startup DeepSeek's massive $7B funding round signals intensifying global AI competition and China's challenge to US tech dominance.",
+      "question": "Is DeepSeek's rise a threat to US AI dominance or healthy competition?",
+      "button_a": "Dominance",
+      "button_b": "Competition",
+      "poll_id": "deepseek-funding-china-ai-competition-20260606",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-deepseek-funding-china-ai-competition-20260606.html",
+      "started_at": "2026-06-06T02:41:22.983682",
+      "archived_at": "2026-06-07T04:24:31.421825",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic IPO & AI Safety Warnings",
       "description": "Anthropic prepares for trillion-dollar IPO while simultaneously calling for AI development pauses due to safety concerns about self-improving AI systems.",
       "question": "Should Anthropic pause AI development while pursuing a trillion-dollar IPO?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-us-china-ai-tech-war-20260502.html",
       "started_at": "2026-05-01T20:47:38.820705",
       "archived_at": "2026-05-02T21:36:12.651450",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Safety and Security Concerns",
-      "description": "Growing alarm over dangerous AI capabilities as Anthropic's Mythos model raises cybersecurity threats and Claude AI causes database deletion incidents.",
-      "question": "Should AI models like Mythos be released despite security risks?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-safety-and-security-concerns-20260430",
-      "results": {
-        "pro": 1,
-        "con": 0,
-        "total": 1,
-        "pro_percent": 100,
-        "con_percent": 0
-      },
-      "analysis_url": "/analysis/analysis-anthropic-900b-valuation-mythos-ai-20260502.html",
-      "started_at": "2026-04-30T19:14:27.489909",
-      "archived_at": "2026-05-02T09:02:12.547652",
       "reason": "topic_replaced"
     }
   ]
