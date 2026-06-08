@@ -1,91 +1,120 @@
 {
   "polls": [
     {
-      "topic": "AI Infrastructure Investment Boom",
-      "description": "Massive infrastructure investments are flowing into AI data centers and computing power, particularly in India and Asia-Pacific regions.",
-      "question": "Is the massive AI infrastructure spending boom sustainable or a bubble?",
-      "button_a": "Sustainable",
-      "button_b": "Bubble",
-      "poll_id": "ai-infrastructure-investment-boom-20260607",
-      "analysis_url": "/analysis/analysis-massive-ai-infrastructure-investment-20260607.html",
+      "topic": "AI Safety and Regulation",
+      "description": "Growing concerns about AI risks prompt calls for safety measures, government intervention, and industry regulation.",
+      "question": "Should governments take ownership stakes in AI companies to ensure safety?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-safety-and-regulation-20260608",
+      "analysis_url": "/analysis/analysis-ai-safety-and-regulation-20260608.html",
       "analysis_type": "poll",
-      "created_at": "2026-06-07T00:02:43.557984",
-      "last_seen": "2026-06-08T00:14:13.768434",
+      "created_at": "2026-06-08T05:29:45.605792",
+      "last_seen": "2026-06-08T05:29:49.546137",
       "cluster_stories": [
         {
-          "id": "dc23b8f93c36127b",
-          "title": "Blackstone\u2019s AirTrunk to Spend $30 Billion on India Data Centers",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-05/blackstone-s-airtrunk-to-spend-30-billion-on-india-data-centers",
+          "id": "c7ddd6017933ca50",
+          "title": "Trump Signals Interest in US Owning Stakes in Top AI Labs",
+          "url": "https://www.bloomberg.com/news/videos/2026-06-06/trump-shows-interest-in-us-owning-stakes-in-top-ai-labs-video",
           "source": "Bloomberg Technology",
-          "summary": "AirTrunk, a data center operator backed by Blackstone Inc., plans to invest about $30 billion in India over the next few years to tap the country\u2019s rapidly expanding AI and cloud markets.",
-          "published": "2026-06-05T09:28:13+00:00",
-          "score": 46.0,
-          "headline": "BLACKSTONE'S $30B AI DATA CENTER BLITZ IN INDIA"
-        },
-        {
-          "id": "df474478ba460f6c",
-          "title": "AirTrunk commits $30B to build 5GW of AI data centers in India",
-          "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
-          "source": "TechCrunch AI",
-          "summary": "The Australian data center operator plans to set up 5GW of capacity in India.",
-          "published": "2026-06-05T13:03:10+00:00",
+          "summary": "President Donald Trump expressed interest in the US government holding equity stakes in leading artificial intelligence developers, saying that he planned to discuss the idea of a partnership with AI companies\u2019 executives as soon as next week. Bloomberg Surveillance Co-Host and Chief Political Correspondent Annmarie Horden joined David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
+          "published": "2026-06-06T13:08:11+00:00",
           "score": 45.0,
-          "headline": "AIRTRUNK COMMITS $30B FOR 5GW AI DATA CENTERS IN INDIA"
+          "headline": "TRUMP EYES US STAKES IN TOP AI LABS"
         },
         {
-          "id": "4090080345f69f98",
-          "title": "Google Buying Computing From SpaceX in $920-Million-a-Month Deal",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-05/google-buying-computing-from-spacex-in-920-million-a-month-deal",
+          "id": "3457a9a42ac904bf",
+          "title": "Anthropic says Claude writes 80% of its own code and the world needs a plan to hit the brakes",
+          "url": "https://thenextweb.com/news/anthropic-claude-recursive-self-improvement-code",
+          "source": "The Next Web",
+          "summary": "One of Anthropic\u2019s engineers hasn\u2019t written a line of code in five months. Not because the work dried up, but because Claude does it now. As of May 2026, more than 80% of the code merged into Anthropic\u2019s production codebase was authored by Claude, up from low single digits when Claude Code launched in February 2025. [&hellip;] This story continues at The Next Web",
+          "published": "2026-06-05T13:12:20+00:00",
+          "score": 43.0,
+          "headline": "CLAUDE WRITES 80% OF ANTHROPIC'S CODE... CALLS FOR AI BRAKES"
+        },
+        {
+          "id": "735aa91ea6909ff6",
+          "title": "Anthropic Calls for AI Pause Button to Let Humans Take Stock",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-05/anthropic-calls-for-ai-pause-button-to-let-humans-take-stock",
           "source": "Bloomberg Technology",
-          "summary": "Alphabet Inc.\u2019s Google has agreed to pay SpaceX $920 million a month for computing power as part of a cloud-services deal that runs through mid-2029, according to a company filing.",
-          "published": "2026-06-05T18:59:27+00:00",
-          "score": 44.0,
-          "headline": "GOOGLE PAYS SPACEX $920M MONTHLY FOR COMPUTE"
+          "summary": "Anthropic PBC called for the creation of an industrywide mechanism to pause the development of artificial intelligence, giving society the opportunity to \u201cdeal with its immense implications.\u201d",
+          "published": "2026-06-05T08:48:51+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC CALLS FOR AI PAUSE BUTTON... INDUSTRY RECKONING"
         },
         {
-          "id": "822d119cfe75a40e",
-          "title": "SpaceX IPO deck says \"Deploy orbital AI compute at scale\"",
-          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040610/spacexfwp.htm",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.sec.gov/Archives/edgar/data/1181412/000162828026040610/spacexfwp.htm Comments URL: https://news.ycombinator.com/item?id=48439442 Points: 1 # Comments: 1",
-          "published": "2026-06-07T22:51:36+00:00",
+          "id": "8fca5499beefef19",
+          "title": "AI CEOs from OpenAI, Anthropic, and Microsoft set aside their rivalry to warn Congress AI is making it too easy to design and create bioweapons",
+          "url": "https://fortune.com/2026/06/05/openai-anthropic-microsoft-ceos-congress-bioweapon-safeguards/",
+          "source": "Fortune Tech",
+          "summary": "The signatories want Congress to mandate screening for synthetic DNA sales as AI makes creating a bioweapon easier.",
+          "published": "2026-06-05T08:14:00+00:00",
+          "score": 43.0,
+          "headline": "AI GIANTS WARN CONGRESS: BIOWEAPON THREAT TOO EASY"
+        },
+        {
+          "id": "303ed9f575ebe051",
+          "title": "US officials eye government stakes in AI companies, NOTUS reports",
+          "url": "https://economictimes.indiatimes.com/tech/technology/us-officials-eye-government-stakes-in-ai-companies-notus-reports/articleshow/131519237.cms",
+          "source": "The Economic Times Tech",
+          "summary": "While the planning is ongoing and details are in flux, discussions have centered on having the firms voluntarily cede the shares \u200cto the \u2060government, the \u2060report said.",
+          "published": "2026-06-05T01:28:40+00:00",
+          "score": 43.0,
+          "headline": "US GOVERNMENT EYES STAKES IN AI COMPANIES... Voluntary Handover"
+        },
+        {
+          "id": "6eb6da153915e696",
+          "title": "Anthropic says AI labs need coordinated plan to halt development if risks rise",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-says-ai-labs-need-coordinated-plan-to-halt-development-if-risks-rise/articleshow/131519224.cms",
+          "source": "The Economic Times Tech",
+          "summary": "AI that can build itself would be a major development in the history of technology, but \"full recursive self-improvement also might increase the risks \u200cof humans \u2060losing control \u2060over AI systems,\" the AI startup said.",
+          "published": "2026-06-05T01:25:12+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC CALLS FOR GLOBAL AI PAUSE... Before Humans Lose Control"
+        },
+        {
+          "id": "4227114a0c7c50ec",
+          "title": "Trump signs memo putting \u2018most advanced AI\u2019 into military hands and banning vendors from pulling the plug",
+          "url": "https://thenextweb.com/news/trump-ai-military-memo-autonomous-weapons",
+          "source": "The Next Web",
+          "summary": "President Trump signed a national security presidential memorandum on Friday ordering the US military and intelligence agencies to accelerate their adoption of cutting-edge AI. The directive, NSPM-11, establishes a framework for \u201crapid onboarding of the most advanced AI models from multiple vendors.\u201d It also bars any company from disabling, degrading, or modifying an AI system [&hellip;] This story continues at The Next Web",
+          "published": "2026-06-07T10:34:13+00:00",
           "score": 42.0,
-          "headline": "SPACEX IPO DECK REVEALS ORBITAL AI COMPUTE PLANS"
+          "headline": "TRUMP PUTS ADVANCED AI Into Military Hands"
         },
         {
-          "id": "09c49e71d76b10fd",
-          "title": "Google will pay SpaceX $920 million a month to use xAI's data centers",
-          "url": "https://www.engadget.com/2188862/google-spacex-xai-data-center-deal-gemini/",
+          "id": "37814b4fbfa34633",
+          "title": "Anthropic warns that AI will soon be able to improve itself without human intervention",
+          "url": "https://www.reddit.com/r/artificial/comments/1txy33e/anthropic_warns_that_ai_will_soon_be_able_to/",
+          "source": "Reddit r/artificial",
+          "summary": "&#32; submitted by &#32; /u/cnn [link] &#32; [comments]",
+          "published": "2026-06-05T21:29:24+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC: AI WILL SOON IMPROVE ITSELF"
+        },
+        {
+          "id": "a7fff735cf950043",
+          "title": "Mira Murati resurfaces after 18 months with a warning about AI governance and a product no one expected",
+          "url": "https://thenextweb.com/news/mira-murati-resurfaces-after-18-months-with-a-warning-about-ai-governance-and-a-product-no-one-expected",
+          "source": "The Next Web",
+          "summary": "For someone who helped ship ChatGPT, DALL-E, and Codex, Mira Murati has been remarkably quiet. On Thursday, she broke the silence. Sitting down with Bloomberg\u2019s Emily Chang in San Francisco, the CEO of Thinking Machines Lab gave her first major media appearance in roughly 18 months, a carefully managed re-entry into a conversation that has moved at [&hellip;] This story continues at The Next Web",
+          "published": "2026-06-05T13:45:20+00:00",
+          "score": 42.0,
+          "headline": "MIRA MURATI RETURNS... AI GOVERNANCE WARNING"
+        },
+        {
+          "id": "b379cfc76820b515",
+          "title": "Anthropic proposes a global slowdown of AI development",
+          "url": "https://www.engadget.com/2188066/anthropic-proposes-global-ai-development-slowdown/",
           "source": "Engadget",
-          "summary": "Google has just signed a $30 billion AI computing power deal with SpaceX.",
-          "published": "2026-06-06T09:57:52+00:00",
+          "summary": "Anthropic warns that AIs will soon be able to build their own successor, and it's suggesting that companies may have to slow down development.",
+          "published": "2026-06-05T09:19:00+00:00",
           "score": 42.0,
-          "headline": "GOOGLE PAYS SpaceX $920M Monthly for xAI Centers"
-        },
-        {
-          "id": "3831a61e1a6d91e4",
-          "title": "SpaceX signs $30bn deal to lease computing capacity to Google",
-          "url": "https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626",
-          "source": "Financial Times Tech",
-          "summary": "Agreement comes ahead of a record-breaking initial public offering for Elon Musk\u2019s rockets-to-AI conglomerate",
-          "published": "2026-06-05T21:21:02+00:00",
-          "score": 42.0,
-          "headline": "SPACEX SIGNS $30BN Google Cloud Deal"
+          "headline": "ANTHROPIC CALLS FOR GLOBAL AI SLOWDOWN"
         }
       ],
-      "current_topic_name": "Massive AI Infrastructure Investment"
-    },
-    {
-      "topic": "Massive AI Infrastructure Investment",
-      "description": "Major companies are making unprecedented multi-billion dollar investments in AI data centers and computing infrastructure globally.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "/analysis/analysis-massive-ai-infrastructure-investment-20260607.html",
-      "analysis_type": "poll",
-      "created_at": "2026-06-07T04:24:30.792866",
-      "last_seen": "2026-06-08T00:14:14.620326",
-      "current_topic_name": "AI Infrastructure & Data Centers"
+      "current_topic_name": "AI Safety and Regulation"
     }
   ],
-  "last_updated": "2026-06-08T00:14:14.620340"
+  "last_updated": "2026-06-08T05:29:50.711910"
 }
