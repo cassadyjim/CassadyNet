@@ -119,8 +119,8 @@
       "story_count": 11
     },
     {
-      "topic": "China-US AI Tech War",
-      "description": "Escalating geopolitical tensions as China builds massive AI infrastructure while the US imposes export restrictions and blacklists Chinese tech companies.",
+      "topic": "China AI Infrastructure Buildup",
+      "description": "China is launching a massive $295 billion AI infrastructure push while facing increasing restrictions from the US and allies on chip access.",
       "stories": [
         {
           "id": "bdd25ef66299a0e1",
@@ -213,16 +213,6 @@
           "headline": "PENTAGON TARGETS Alibaba, Baidu, BYD as Military Aids"
         },
         {
-          "id": "a96a6d0775548f27",
-          "title": "The AI models finding 10,000 vulnerabilities are the same ones China is trying to copy. That is the problem.",
-          "url": "https://thenextweb.com/news/the-ai-models-finding-10000-vulnerabilities-are-the-same-ones-china-is-trying-to-copy-that-is-the-problem",
-          "source": "The Next Web",
-          "summary": "In May, Google\u2019s Threat Intelligence Group confirmed the first known case of an AI system discovering and weaponising a zero-day exploit that was then deployed in the wild. A criminal actor used a frontier model to find a two-factor authentication bypass, build a working exploit, and use it before any defender knew the vulnerability existed. That [&hellip;] This story continues at The Next Web",
-          "published": "2026-06-08T08:41:00+00:00",
-          "score": 43.0,
-          "headline": "CHINA'S AI WEAPON PROBLEM: Google Models Finding 10K Vulnerabilities"
-        },
-        {
           "id": "d33d78bc89f39ca6",
           "title": "US says BYD, Baidu and Alibaba are aiding China's military",
           "url": "https://economictimes.indiatimes.com/tech/technology/us-says-byd-baidu-and-alibaba-are-aiding-chinas-military/articleshow/131593898.cms",
@@ -234,7 +224,7 @@
         }
       ],
       "top_score": 51.0,
-      "story_count": 11
+      "story_count": 10
     }
   ],
   "unclustered": [
@@ -389,6 +379,16 @@
       "headline": "NVIDIA Announces GIGAWATT AI Factory in South Korea"
     },
     {
+      "id": "a96a6d0775548f27",
+      "title": "The AI models finding 10,000 vulnerabilities are the same ones China is trying to copy. That is the problem.",
+      "url": "https://thenextweb.com/news/the-ai-models-finding-10000-vulnerabilities-are-the-same-ones-china-is-trying-to-copy-that-is-the-problem",
+      "source": "The Next Web",
+      "summary": "In May, Google\u2019s Threat Intelligence Group confirmed the first known case of an AI system discovering and weaponising a zero-day exploit that was then deployed in the wild. A criminal actor used a frontier model to find a two-factor authentication bypass, build a working exploit, and use it before any defender knew the vulnerability existed. That [&hellip;] This story continues at The Next Web",
+      "published": "2026-06-08T08:41:00+00:00",
+      "score": 43.0,
+      "headline": "CHINA'S AI WEAPON PROBLEM: Google Models Finding 10K Vulnerabilities"
+    },
+    {
       "id": "5b5873f54d8710d8",
       "title": "New AI espionage powers trigger Putin camera scare",
       "url": "https://www.ft.com/content/6f4d806c-eb22-4c32-8352-b82692d30e9f",
@@ -517,6 +517,66 @@
       "published": "2026-06-06T09:57:52+00:00",
       "score": 42.0,
       "headline": "GOOGLE PAYS SpaceX $920M Monthly for xAI Centers"
+    },
+    {
+      "id": "bee92d8d7479fc9c",
+      "title": "Judge Learns Lawyers on Both Sides of Case Used AI, Cancels Trial, Kicks Everyone Off the Case",
+      "url": "https://www.404media.co/judge-learns-lawyers-on-both-sides-of-case-used-ai-cancels-trial-kicks-everyone-off-the-case/",
+      "source": "404 Media",
+      "summary": "When two AIs argue against each other, the legal system loses.",
+      "published": "2026-06-09T14:30:13+00:00",
+      "score": 41.0,
+      "headline": "JUDGE CANCELS TRIAL... Both Lawyers Used AI"
+    },
+    {
+      "id": "02759b8e8f6726c5",
+      "title": "EU Says Decision Not to Launch Siri AI in Europe Is Apple's Alone",
+      "url": "https://www.macrumors.com/2026/06/09/eu-says-decision-not-to-launch-siri-ai-in-europe-is-apples/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.macrumors.com/2026/06/09/eu-says-decision-not-to-launch-siri-ai-in-europe-is-apples/ Comments URL: https://news.ycombinator.com/item?id=48461466 Points: 3 # Comments: 0",
+      "published": "2026-06-09T14:16:03+00:00",
+      "score": 41.0,
+      "headline": "EU REJECTS Apple Siri AI Delay Request"
+    },
+    {
+      "id": "12f84958ab074242",
+      "title": "$250M iPhone Settlement Proposed in Apple Lawsuit over Misrepresented AI",
+      "url": "https://www.classaction.org/news/250m-iphone-16-settlement-resolves-apple-lawsuit-over-allegedly-misrepresented-ai-features",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.classaction.org/news/250m-iphone-16-settlement-resolves-apple-lawsuit-over-allegedly-misrepresented-ai-features Comments URL: https://news.ycombinator.com/item?id=48461407 Points: 2 # Comments: 0",
+      "published": "2026-06-09T14:11:56+00:00",
+      "score": 41.0,
+      "headline": "$250M APPLE AI LAWSUIT SETTLEMENT"
+    },
+    {
+      "id": "5071c4550990a241",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "source": "DeepMind Blog",
+      "summary": "",
+      "published": "2026-06-09T14:10:19+00:00",
+      "score": 41.0,
+      "headline": "GOOGLE UNVEILS Gemma 4 12B Multimodal Model"
+    },
+    {
+      "id": "4fbd0b8db8062aff",
+      "title": "No tech rule exemption for Apple, EU regulators say amid spat over Siri AI delay",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/no-tech-rule-exemption-for-apple-eu-regulators-say-amid-spat-over-siri-ai-delay/articleshow/131613154.cms",
+      "source": "The Economic Times Tech",
+      "summary": "European Union regulators have rejected Apple's plea to delay the launch of its new Siri AI in the EU. Apple had sought an 18-month exemption, citing privacy and security concerns related to EU tech rules. Regulators state the decision rests solely with Apple, asserting that EU regulations do not prevent new product introductions.",
+      "published": "2026-06-09T14:02:40+00:00",
+      "score": 41.0,
+      "headline": "EU BLOCKS Apple Siri AI Delay... No Exemption"
+    },
+    {
+      "id": "f29841be4e5c27bc",
+      "title": "China builds 85% of the world\u2019s humanoids robots for cheap at scale, but finding buyers is tricky",
+      "url": "https://fortune.com/2026/06/09/china-builds-85-percent-worlds-humanoids-robots-cheap/",
+      "source": "Fortune Tech",
+      "summary": "While there's a viable commercial path forward in industry and logistics, experts say demand for humanoids lags building capacity.",
+      "published": "2026-06-09T13:42:25+00:00",
+      "score": 41.0,
+      "headline": "China Builds 85% of World's Humanoid Robots... But Can't Find Buyers"
     },
     {
       "id": "d82962830fe23211",
@@ -967,67 +1027,7 @@
       "published": "2026-06-08T17:42:26+00:00",
       "score": 40.0,
       "headline": "WWDC 2026 BREAKDOWN: Siri AI, iOS 27... Everything Apple Dropped"
-    },
-    {
-      "id": "3445d11c0e56ec73",
-      "title": "Apple reintroduces the AI-powered Siri it announced at WWDC 2024",
-      "url": "https://www.engadget.com/2189744/apple-reintroduces-the-ai-powered-siri-it-announced-at-wwdc-2024/",
-      "source": "Engadget",
-      "summary": "At WWDC 2026, Apple resurrected its AI-powered voice assistant, now named Siri AI.",
-      "published": "2026-06-08T17:41:20+00:00",
-      "score": 40.0,
-      "headline": "Apple Finally Delivers AI-Powered Siri... Two Years Later"
-    },
-    {
-      "id": "2cda854f90f65742",
-      "title": "Zepto files updated DRHP for $1 billion IPO",
-      "url": "https://economictimes.indiatimes.com/tech/technology/zepto-files-updated-drhp-for-1-billion-ipo/articleshow/131593385.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Quick commerce firm Zepto has filed its updated draft prospectus for a significant $1 billion IPO with Indian regulators. The offering includes a substantial fresh issue and a component for existing investors. This move brings the five-year-old company closer to one of the year's most anticipated new-age stock market debuts, following earlier confidential filings and regulatory approval.",
-      "published": "2026-06-08T17:24:20+00:00",
-      "score": 40.0,
-      "headline": "India's Zepto Files for $1B IPO... Quick Commerce Battle Heats Up"
-    },
-    {
-      "id": "8af33b543ad51a9d",
-      "title": "Jailed crypto founder Sam Bankman-Fried seeks Trump pardon",
-      "url": "https://www.bbc.com/news/articles/cjwgd6jqd5do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "The former leader of crypto platform FTX, currently serving a 25-year sentence, on Monday officially applied to be pardoned.",
-      "published": "2026-06-08T17:18:21+00:00",
-      "score": 40.0,
-      "headline": "CRYPTO KING SAM BANKMAN-FRIED Seeks Trump Pardon From Prison"
-    },
-    {
-      "id": "4716ab008f37fa25",
-      "title": "The UK just signed an AI deal with ElevenLabs to make government services accessible in any language and any voice",
-      "url": "https://thenextweb.com/news/uk-elevenlabs-mou-voice-ai-public-services",
-      "source": "The Next Web",
-      "summary": "The UK government and ElevenLabs have signed a memorandum of understanding to explore how voice AI can improve public services, deepen safety research, and build AI talent in the UK. The MoU, signed by AI Minister Kanishka Narayan and ElevenLabs CEO Mateusz Staniszewski, was published on Sunday by the Department for Science, Innovation and Technology. ElevenLabs, which [&hellip;] This story continues at The Next Web",
-      "published": "2026-06-08T16:47:50+00:00",
-      "score": 40.0,
-      "headline": "UK SIGNS AI DEAL WITH ELEVENLABS for Government Services"
-    },
-    {
-      "id": "d5b445b8fab02c90",
-      "title": "SpaceX IPO Is Said to Be Well Oversubscribed, Orders Close Wednesday",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-08/spacex-ipo-is-said-to-be-well-oversubscribed-orders-close-wed",
-      "source": "Bloomberg Technology",
-      "summary": "SpaceX\u2019s initial public offering is well oversubscribed, according to people familiar with the matter, as demand builds for a potentially record-setting debut.",
-      "published": "2026-06-08T15:49:06+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "f54613a84193d6fc",
-      "title": "World's most advanced chips, including Nvidia chips, being designed in India: Union minister Ashwini Vaishnaw",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/worlds-most-advanced-chips-including-nvidia-chips-being-designed-in-india-union-minister-ashwini-vaishnaw/articleshow/131590067.cms",
-      "source": "The Economic Times Tech",
-      "summary": "India is now designing advanced semiconductor chips for global leaders like Nvidia and Intel. Over 300 universities are teaching chip design. India aims to become a major semiconductor design and manufacturing hub. The nation is focusing on the entire ecosystem, including manufacturing machines and chemicals. This strategic push is attracting global attention and investment.",
-      "published": "2026-06-08T14:02:27+00:00",
-      "score": 40.0,
-      "headline": "INDIA DESIGNING NVIDIA'S MOST ADVANCED CHIPS"
     }
   ],
-  "generated_at": "2026-06-09T11:58:16.046474"
+  "generated_at": "2026-06-09T14:42:54.012350"
 }
