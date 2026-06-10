@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI IPO",
+      "description": "OpenAI's historic IPO filing targeting $1 trillion valuation represents the largest AI public offering ever attempted.",
+      "question": "Is OpenAI's $1 trillion IPO valuation justified or overinflated?",
+      "button_a": "Justified",
+      "button_b": "Overinflated",
+      "poll_id": "openai-ipo-20260609",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-ipo-20260610.html",
+      "started_at": "2026-06-09T08:38:16.620334",
+      "archived_at": "2026-06-10T09:50:09.406089",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "NVIDIA Chip Dominance & Competition",
       "description": "Major developments in AI chip partnerships, competitive challenges, and geopolitical tensions surrounding NVIDIA's market leadership.",
       "question": "Is NVIDIA's AI chip dominance good or bad for innovation?",
@@ -929,25 +948,6 @@
       "analysis_url": "",
       "started_at": "2026-05-05T02:16:28.073900",
       "archived_at": "2026-05-06T02:18:21.614156",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "China AI Competition & Regulation",
-      "description": "China's AI sector is challenging US dominance through competitive models while implementing worker protection policies that contrast with Western approaches.",
-      "question": "Is China's AI worker protection approach better than the West's?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "china-ai-competition-regulation-20260503",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-china-ai-job-protection-20260505.html",
-      "started_at": "2026-05-03T10:51:33.702993",
-      "archived_at": "2026-05-06T02:18:21.285128",
       "reason": "topic_replaced"
     }
   ]
