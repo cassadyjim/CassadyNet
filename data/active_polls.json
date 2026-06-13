@@ -1,131 +1,16 @@
 {
   "polls": [
     {
-      "topic": "Chinese AI Influence Operations",
-      "description": "OpenAI exposes coordinated Chinese campaigns using AI to target US infrastructure and manipulate American political debates.",
-      "question": "Should the US respond with cyber retaliation or diplomatic pressure?",
-      "button_a": "Retaliation",
-      "button_b": "Pressure",
-      "poll_id": "chinese-ai-influence-operations-20260612",
-      "analysis_url": "/analysis/analysis-china-ai-influence-operations-20260613.html",
-      "analysis_type": "poll",
-      "created_at": "2026-06-12T03:00:58.471537",
-      "last_seen": "2026-06-13T08:53:30.778654",
-      "cluster_stories": [
-        {
-          "id": "2c872de7fac21187",
-          "title": "PRC-linked influence operations are targeting AI debates in the US",
-          "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-          "source": "OpenAI Blog",
-          "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
-          "published": "2026-06-10T12:00:00+00:00",
-          "score": 50.0,
-          "headline": "OPENAI EXPOSES Chinese AI Influence Operations"
-        },
-        {
-          "id": "93b056f961073534",
-          "title": "OpenAI Says China-Linked Accounts Aim to Fuel US Data Center Pushback",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-10/openai-says-china-linked-accounts-aim-to-fuel-us-data-center-pushback",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI said a group of ChatGPT accounts with ties to China have sought to stir up local opposition to data centers in the US in a potential bid to hinder the country\u2019s competitiveness in artificial intelligence, echoing recent rhetoric from others in the tech industry.",
-          "published": "2026-06-10T20:00:00+00:00",
-          "score": 49.0,
-          "headline": "OPENAI: China-Linked Accounts Target US Data Centers"
-        },
-        {
-          "id": "0a39d72c2020a4d8",
-          "title": "Google sues Chinese scammers using Gemini AI for fraud",
-          "url": "https://www.engadget.com/2192873/google-injunction-chinese-ai-scams/",
-          "source": "Engadget",
-          "summary": "Google sued a Chinese cybercrime network for using its Gemini AI in a 'massive' scam operation.",
-          "published": "2026-06-12T10:46:49+00:00",
-          "score": 47.0,
-          "headline": "GOOGLE SUES CHINESE SCAMMERS USING GEMINI AI FOR FRAUD"
-        },
-        {
-          "id": "52902cf2b0be48f9",
-          "title": "PRC-linked influence operations are targeting AI debates in the US",
-          "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://openai.com/index/prc-linked-influence-operations-ai-debates/ Comments URL: https://news.ycombinator.com/item?id=48482043 Points: 4 # Comments: 2",
-          "published": "2026-06-10T20:17:37+00:00",
-          "score": 46.0,
-          "headline": "CHINA TARGETS US AI DEBATES... OPENAI EXPOSES OPERATION"
-        },
-        {
-          "id": "51cea4b6efe3d531",
-          "title": "Google sues Chinese cybercrime ring that used Gemini to build phishing sites and send 2.5 million scam texts",
-          "url": "https://thenextweb.com/news/google-sues-outsider-enterprise-ai-scam-texts",
-          "source": "The Next Web",
-          "summary": "Google filed a lawsuit on Friday to dismantle the infrastructure behind a Chinese cybercrime operation called Outsider Enterprise. The group used AI, including Google\u2019s own Gemini, to generate phishing websites and send scam text messages impersonating Google and other brands. It sent 2.5 million fraudulent texts to Android users in a two-week period. The operation [&hellip;] This story continues at The Next Web",
-          "published": "2026-06-12T17:57:11+00:00",
-          "score": 45.0,
-          "headline": "GOOGLE SUES CHINESE CYBERCRIME RING USING GEMINI FOR SCAMS"
-        },
-        {
-          "id": "28d7ab7e625a0e38",
-          "title": "OpenAI: PRC-linked influence operations are targeting AI debates in the US",
-          "url": "https://www.businessinsider.com/openai-china-data-centers-influence-campaign-2026-6",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.businessinsider.com/openai-china-data-centers-influence-campaign-2026-6 Comments URL: https://news.ycombinator.com/item?id=48483326 Points: 4 # Comments: 1",
-          "published": "2026-06-10T22:03:34+00:00",
-          "score": 45.0,
-          "headline": "OPENAI: CHINA RUNNING AI INFLUENCE OPS ON US DEBATES"
-        },
-        {
-          "id": "16ed9592607dd105",
-          "title": "OpenAI says China-linked accounts used ChatGPT to fuel opposition to US data centres",
-          "url": "https://thenextweb.com/news/openai-china-data-center-influence-campaign",
-          "source": "The Next Web",
-          "summary": "OpenAI said a cluster of ChatGPT accounts linked to China attempted to stir up local opposition to US data centres by posing as Americans and posting AI-generated content about rising electricity costs. The company nicknamed the campaign \u201cData Center Bandwagon\u201d and said the accounts were likely tied to a private Chinese technology firm working for [&hellip;] This story continues at The Next Web",
-          "published": "2026-06-10T20:52:27+00:00",
-          "score": 45.0,
-          "headline": "CHINA USES CHATGPT TO ATTACK US DATA CENTERS... OPENAI EXPOSES PLOT"
-        },
-        {
-          "id": "241cb5277b74b435",
-          "title": "Google sues alleged Chinese cybercrime operation that used AI to send scam texts",
-          "url": "https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts/",
-          "source": "TechCrunch AI",
-          "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
-          "published": "2026-06-12T17:26:08+00:00",
-          "score": 44.0,
-          "headline": "GOOGLE SUES CHINESE AI SCAM RING SENDING 2.5M TEXTS"
-        },
-        {
-          "id": "dcef41b3a790e20a",
-          "title": "Google sues suspected Chinese cybercrime ring that used Gemini to build scam websites",
-          "url": "https://thenextweb.com/news/google-gemini-outsider-enterprise-scam-lawsuit",
-          "source": "The Next Web",
-          "summary": "Google has filed a lawsuit against a suspected Chinese cybercrime operation it calls the Outsider Enterprise, alleging the group sent more than 2.5 million fraudulent text messages to Android users over a two-week period in May. The messages contained links to fake websites designed to steal personal information, and the scammers reportedly used Google\u2019s own [&hellip;] This story continues at The Next Web",
-          "published": "2026-06-12T10:38:43+00:00",
-          "score": 44.0,
-          "headline": "GOOGLE SUES CHINESE CYBERCRIME RING... 2.5M FRAUDULENT TEXTS"
-        },
-        {
-          "id": "8e16264f67e55688",
-          "title": "Chinese cybercrime operation that used AI to scam \u2018hundreds of thousands of victims\u2019 sued by Google",
-          "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
-          "source": "TechCrunch AI",
-          "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
-          "published": "2026-06-12T20:38:09+00:00",
-          "score": 43.0,
-          "headline": "GOOGLE SUES CHINESE AI SCAM RING... 2.5M TEXTS SENT"
-        }
-      ],
-      "current_topic_name": "China AI Influence Operations"
-    },
-    {
       "topic": "Elon Musk Trillionaire SpaceX IPO",
       "description": "Elon Musk becomes world's first trillionaire following SpaceX's record-breaking IPO, marking a historic milestone in private space industry valuation.",
       "question": "Is extreme wealth concentration like Musk's trillionaire status good for society?",
-      "button_a": "Good",
-      "button_b": "Bad",
+      "button_a": "Yes",
+      "button_b": "No",
       "poll_id": "elon-musk-trillionaire-spacex-ipo-20260613",
       "analysis_url": "/analysis/analysis-elon-musk-trillionaire-spacex-ipo-20260613.html",
       "analysis_type": "poll",
       "created_at": "2026-06-13T08:53:29.708342",
-      "last_seen": "2026-06-13T08:53:35.231881",
+      "last_seen": "2026-06-13T11:13:51.272945",
       "cluster_stories": [
         {
           "id": "f41e7d598b633b7d",
@@ -209,7 +94,142 @@
         }
       ],
       "current_topic_name": "Elon Musk Trillionaire SpaceX IPO"
+    },
+    {
+      "topic": "Chinese AI Influence Operations",
+      "description": "OpenAI exposes coordinated Chinese campaigns using AI to target US infrastructure and manipulate American political debates.",
+      "question": "Should the US respond with cyber retaliation or diplomatic pressure?",
+      "button_a": "Retaliation",
+      "button_b": "Pressure",
+      "poll_id": "chinese-ai-influence-operations-20260612",
+      "analysis_url": "/analysis/analysis-china-ai-operations-cyber-threats-20260613.html",
+      "analysis_type": "poll",
+      "created_at": "2026-06-12T03:00:58.471537",
+      "last_seen": "2026-06-13T11:13:52.000890",
+      "cluster_stories": [
+        {
+          "id": "2c872de7fac21187",
+          "title": "PRC-linked influence operations are targeting AI debates in the US",
+          "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+          "source": "OpenAI Blog",
+          "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
+          "published": "2026-06-10T12:00:00+00:00",
+          "score": 50.0,
+          "headline": "OPENAI EXPOSES Chinese AI Influence Operations"
+        },
+        {
+          "id": "93b056f961073534",
+          "title": "OpenAI Says China-Linked Accounts Aim to Fuel US Data Center Pushback",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-10/openai-says-china-linked-accounts-aim-to-fuel-us-data-center-pushback",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI said a group of ChatGPT accounts with ties to China have sought to stir up local opposition to data centers in the US in a potential bid to hinder the country\u2019s competitiveness in artificial intelligence, echoing recent rhetoric from others in the tech industry.",
+          "published": "2026-06-10T20:00:00+00:00",
+          "score": 49.0,
+          "headline": "OPENAI: China-Linked Accounts Target US Data Centers"
+        },
+        {
+          "id": "0a39d72c2020a4d8",
+          "title": "Google sues Chinese scammers using Gemini AI for fraud",
+          "url": "https://www.engadget.com/2192873/google-injunction-chinese-ai-scams/",
+          "source": "Engadget",
+          "summary": "Google sued a Chinese cybercrime network for using its Gemini AI in a 'massive' scam operation.",
+          "published": "2026-06-12T10:46:49+00:00",
+          "score": 47.0,
+          "headline": "GOOGLE SUES CHINESE SCAMMERS USING GEMINI AI FOR FRAUD"
+        },
+        {
+          "id": "52902cf2b0be48f9",
+          "title": "PRC-linked influence operations are targeting AI debates in the US",
+          "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://openai.com/index/prc-linked-influence-operations-ai-debates/ Comments URL: https://news.ycombinator.com/item?id=48482043 Points: 4 # Comments: 2",
+          "published": "2026-06-10T20:17:37+00:00",
+          "score": 46.0,
+          "headline": "CHINA TARGETS US AI DEBATES... OPENAI EXPOSES OPERATION"
+        },
+        {
+          "id": "16270b9ae7cc048c",
+          "title": "Google sues Chinese cybercrime network that used Gemini to automate scams",
+          "url": "https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams/ Comments URL: https://news.ycombinator.com/item?id=48515729 Points: 2 # Comments: 0",
+          "published": "2026-06-13T10:31:58+00:00",
+          "score": 45.0,
+          "headline": "GOOGLE SUES Chinese Cybercrime Gang Using Gemini for Automated Scams"
+        },
+        {
+          "id": "51cea4b6efe3d531",
+          "title": "Google sues Chinese cybercrime ring that used Gemini to build phishing sites and send 2.5 million scam texts",
+          "url": "https://thenextweb.com/news/google-sues-outsider-enterprise-ai-scam-texts",
+          "source": "The Next Web",
+          "summary": "Google filed a lawsuit on Friday to dismantle the infrastructure behind a Chinese cybercrime operation called Outsider Enterprise. The group used AI, including Google\u2019s own Gemini, to generate phishing websites and send scam text messages impersonating Google and other brands. It sent 2.5 million fraudulent texts to Android users in a two-week period. The operation [&hellip;] This story continues at The Next Web",
+          "published": "2026-06-12T17:57:11+00:00",
+          "score": 45.0,
+          "headline": "GOOGLE SUES CHINESE CYBERCRIME RING USING GEMINI FOR SCAMS"
+        },
+        {
+          "id": "28d7ab7e625a0e38",
+          "title": "OpenAI: PRC-linked influence operations are targeting AI debates in the US",
+          "url": "https://www.businessinsider.com/openai-china-data-centers-influence-campaign-2026-6",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.businessinsider.com/openai-china-data-centers-influence-campaign-2026-6 Comments URL: https://news.ycombinator.com/item?id=48483326 Points: 4 # Comments: 1",
+          "published": "2026-06-10T22:03:34+00:00",
+          "score": 45.0,
+          "headline": "OPENAI: CHINA RUNNING AI INFLUENCE OPS ON US DEBATES"
+        },
+        {
+          "id": "16ed9592607dd105",
+          "title": "OpenAI says China-linked accounts used ChatGPT to fuel opposition to US data centres",
+          "url": "https://thenextweb.com/news/openai-china-data-center-influence-campaign",
+          "source": "The Next Web",
+          "summary": "OpenAI said a cluster of ChatGPT accounts linked to China attempted to stir up local opposition to US data centres by posing as Americans and posting AI-generated content about rising electricity costs. The company nicknamed the campaign \u201cData Center Bandwagon\u201d and said the accounts were likely tied to a private Chinese technology firm working for [&hellip;] This story continues at The Next Web",
+          "published": "2026-06-10T20:52:27+00:00",
+          "score": 45.0,
+          "headline": "CHINA USES CHATGPT TO ATTACK US DATA CENTERS... OPENAI EXPOSES PLOT"
+        },
+        {
+          "id": "241cb5277b74b435",
+          "title": "Google sues alleged Chinese cybercrime operation that used AI to send scam texts",
+          "url": "https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts/",
+          "source": "TechCrunch AI",
+          "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
+          "published": "2026-06-12T17:26:08+00:00",
+          "score": 44.0,
+          "headline": "GOOGLE SUES CHINESE AI SCAM RING SENDING 2.5M TEXTS"
+        },
+        {
+          "id": "dcef41b3a790e20a",
+          "title": "Google sues suspected Chinese cybercrime ring that used Gemini to build scam websites",
+          "url": "https://thenextweb.com/news/google-gemini-outsider-enterprise-scam-lawsuit",
+          "source": "The Next Web",
+          "summary": "Google has filed a lawsuit against a suspected Chinese cybercrime operation it calls the Outsider Enterprise, alleging the group sent more than 2.5 million fraudulent text messages to Android users over a two-week period in May. The messages contained links to fake websites designed to steal personal information, and the scammers reportedly used Google\u2019s own [&hellip;] This story continues at The Next Web",
+          "published": "2026-06-12T10:38:43+00:00",
+          "score": 44.0,
+          "headline": "GOOGLE SUES CHINESE CYBERCRIME RING... 2.5M FRAUDULENT TEXTS"
+        },
+        {
+          "id": "595b08316277c638",
+          "title": "The Next US-China AI Battle Is Over Compute &mdash; and China Is Spending Big",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-06-12/china-s-ai-infrastructure-plan-295-billion-project-to-challenge-us",
+          "source": "Bloomberg Technology",
+          "summary": "China bets $295 billion on AI backbone as US data center boom accelerates",
+          "published": "2026-06-12T10:30:01+00:00",
+          "score": 44.0,
+          "headline": "CHINA DROPS $295B ON AI COMPUTE... US RACES TO MATCH"
+        },
+        {
+          "id": "a71b54603a7b8e00",
+          "title": "Nvidia denies Latin America role in chip smuggling as US-China AI rivalry reaches Brazil",
+          "url": "https://www.scmp.com/news/china/article/3356811/nvidia-denies-latin-america-role-chip-smuggling-us-china-ai-rivalry-reaches-brazil?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "Nvidia\u2019s top executive for Latin America denied on Wednesday that the region has served as a corridor for restricted chips into China, weeks after Anthropic, the American maker of the Claude AI models, alleged that Chinese labs had relied partly on smuggled processors to drive recent advances. Speaking at Web Summit Rio at a moment of intensifying rivalry between Washington and Beijing over artificial intelligence, Marcio Aguiar acknowledged that the pressure on export controls is real enough to...",
+          "published": "2026-06-11T18:09:17+00:00",
+          "score": 44.0,
+          "headline": "NVIDIA DENIES LATIN AMERICA CHIP SMUGGLING TO CHINA"
+        }
+      ],
+      "current_topic_name": "China AI Operations & Cyber Threats"
     }
   ],
-  "last_updated": "2026-06-13T08:53:36.095367"
+  "last_updated": "2026-06-13T11:13:52.000906"
 }
