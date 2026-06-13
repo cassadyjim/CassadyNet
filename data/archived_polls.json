@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Chinese AI Influence Operations",
+      "description": "OpenAI exposes coordinated Chinese campaigns using AI to target US infrastructure and manipulate American political debates.",
+      "question": "Should the US respond with cyber retaliation or diplomatic pressure?",
+      "button_a": "Retaliation",
+      "button_b": "Pressure",
+      "poll_id": "chinese-ai-influence-operations-20260612",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-operations-cyber-threats-20260613.html",
+      "started_at": "2026-06-12T03:00:58.471537",
+      "archived_at": "2026-06-13T13:50:30.767709",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China AI Influence Operations",
       "description": "OpenAI has exposed Chinese-linked accounts conducting AI influence operations targeting US debates and data centers.",
       "question": "Should US tech companies completely cut off China from AI access?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-model-releases-20260508.html",
       "started_at": "2026-05-08T02:36:26.786351",
       "archived_at": "2026-05-09T05:47:26.825125",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "DeepSeek $45-50B Valuation",
-      "description": "China's DeepSeek AI startup is raising massive funding at $45-50B valuation with state backing, signaling China's aggressive push in the AI race.",
-      "question": "",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-chinese-ai-valuations-surge-20260507.html",
-      "started_at": "2026-05-07T02:29:42.095933",
-      "archived_at": "2026-05-08T02:36:30.646275",
       "reason": "topic_replaced"
     }
   ]
