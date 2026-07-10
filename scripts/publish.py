@@ -408,12 +408,17 @@ def upload_site():
         capture_output=True,
         text=True
     )
-    
+
+    # Always log stdout so diagnostics and file lists are visible
+    if result.stdout:
+        for line in result.stdout.strip().splitlines():
+            logger.info(line)
+
     if result.returncode == 0:
         logger.info("Upload complete!")
     else:
         logger.error(f"Upload failed: {result.stderr}")
-    
+
     return result.returncode == 0
 
 
