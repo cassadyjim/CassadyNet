@@ -889,6 +889,46 @@
       "headline": "Italian Chip Firm Technoprobe Surges 330% on AI Boom"
     },
     {
+      "id": "27ec45a08c4bbf55",
+      "title": "Super Weights in LLMs and the Failure of Selective Training",
+      "url": "https://arxiv.org/abs/2607.08733",
+      "source": "arXiv cs.LG",
+      "summary": "arXiv:2607.08733v1 Announce Type: new Abstract: Recent work identified Super Weights, individual parameters whose removal degrades model performance by orders of magnitude. We show that this degradation due to pruning Super Weights does not universally apply to all LLMs. Furthermore, if these parameters are so important, Super Weight-aware training should be effective. We show the opposite. Training Super Weights in isolation (100 to 8,192 parameters) drops accuracy to random-guessing levels on both OLMo-1B and OLMo-7B, and expanding to local neighborhoods of up to 36K parameters provides no improvement. The failure is specific to Super Weight coordinates: training an equal number of randomly chosen positions in the same down_proj layers instead improves over the baseline, so the collapse comes from targeting Super Weights, not from sparsity itself. Vanilla LoRA, updating every position in attention weight matrices through low-rank structure, succeeds with only 0.16% of parameters, and",
+      "published": "2026-07-10T04:00:00+00:00",
+      "score": 36.0,
+      "headline": "SUPER WEIGHTS Discovered in LLMs... Training Methods Fail"
+    },
+    {
+      "id": "8fbc7ca6c76479ea",
+      "title": "Government Action is Crucial for AI Entrepreneurs Says Pelgo CEO",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-10/gov-action-vital-for-ai-entrepreneurs-says-pelgo-ceo-video",
+      "source": "Bloomberg Technology",
+      "summary": "Artificial intelligence could reshape the jobs of nearly 80 million people across Southeast Asia, but there is little sign it has led to large-scale employment cuts, according to the International Labour Organization. The ILO urged governments to strengthen AI governance and better integrate AI policies through a human-centered approach to help workers and businesses adapt. Pelgo CEO Chieh Huang discusses how AI is impacting the labor market and how it could serve as a tool for displaced workers rather than a job eliminator. (Source: Bloomberg)",
+      "published": "2026-07-10T15:08:48+00:00",
+      "score": 35.0,
+      "headline": "80M Southeast Asian Jobs Face AI Disruption\u2014But No Mass Layoffs Yet"
+    },
+    {
+      "id": "7335be5da56d7693",
+      "title": "AI Bust Fallout Would Be 'More Significant' Than Dot-Com, Says George Noble",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-10/ai-bust-would-be-worse-than-dot-com-bubble-says-noble-video",
+      "source": "Bloomberg Technology",
+      "summary": "The US stock market\u2019s rally to new highs has been propelled by so few stocks that it\u2019s reminding some on Wall Street of the runup to the dot-com bubble. George Noble, Managing Partner of Noble Capital Advisors, discusses the AI trade and how he believes the coming bust would be much worse than the dot-com bubble fallout. (Source: Bloomberg)",
+      "published": "2026-07-10T15:05:31+00:00",
+      "score": 35.0,
+      "headline": "AI BUBBLE CRASH Would Dwarf Dot-Com, Warns Noble Capital Partner"
+    },
+    {
+      "id": "95f6c02c4c34eb2e",
+      "title": "Wyoming officials say Meta\u2019s 715,000-square-foot data center is responsible for contaminating its water system with a rare bacterium",
+      "url": "https://fortune.com/2026/07/10/wyoming-officials-meta-715000-square-foot-data-center-responsible-contaminating-water-system-rare-bacterium/",
+      "source": "Fortune Tech",
+      "summary": "Cheyenne's Board of Public Utilities tightened its wastewater discharge policy following the discovery of Cupriavidus gilardii in its treatment facility earlier this year.",
+      "published": "2026-07-10T14:53:09+00:00",
+      "score": 35.0,
+      "headline": "Meta Data Center Contaminates Wyoming Water System With Rare Bacteria"
+    },
+    {
       "id": "d9cd1445d31659f6",
       "title": "From powerboat records to a $1bn war chest: meet Europe\u2019s newest defence unicorn",
       "url": "https://thenextweb.com/news/kraken-technology-maritime-defence-unicorn-series-b",
@@ -957,47 +997,7 @@
       "published": "2026-07-10T13:58:50+00:00",
       "score": 34.0,
       "headline": "OPENAI REGRESSION: SimpleBench Scores Drop Sharply"
-    },
-    {
-      "id": "3f2bb437eeb7962f",
-      "title": "Record Companies Push to Label AI Songs on Streaming Platforms",
-      "url": "https://www.wsj.com/tech/ai/record-companies-push-to-label-ai-songs-on-streaming-platforms-103aa392",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/record-companies-push-to-label-ai-songs-on-streaming-platforms-103aa392 Comments URL: https://news.ycombinator.com/item?id=48859860 Points: 2 # Comments: 0",
-      "published": "2026-07-10T13:46:34+00:00",
-      "score": 34.0,
-      "headline": "Record Labels Push to Label AI Songs on Streaming"
-    },
-    {
-      "id": "4c0ba4f591071612",
-      "title": "Why Fear Matters in Governing Military AI",
-      "url": "https://www.techpolicy.press/why-fear-matters-in-governing-military-ai/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.techpolicy.press/why-fear-matters-in-governing-military-ai/ Comments URL: https://news.ycombinator.com/item?id=48859797 Points: 2 # Comments: 0",
-      "published": "2026-07-10T13:41:11+00:00",
-      "score": 34.0,
-      "headline": "Military AI Governance: Why Fear Should Drive Policy"
-    },
-    {
-      "id": "0eabb8485d1173b9",
-      "title": "After WhatsApp, Telegram submits reply on username feature notice; both submissions being examined",
-      "url": "https://economictimes.indiatimes.com/tech/technology/after-whatsapp-telegram-submits-reply-on-username-feature-notice-both-submissions-being-examined/articleshow/132313382.cms",
-      "source": "The Economic Times Tech",
-      "summary": "On Thursday evening, the government received WhatsApp's reply to the notice on the 'username' feature. The reply of Telegram has also been received subsequently, they added.",
-      "published": "2026-07-10T13:32:54+00:00",
-      "score": 34.0,
-      "headline": null
-    },
-    {
-      "id": "38a18b9f702aca1c",
-      "title": "Older adults know AI is slop. They just like it",
-      "url": "https://restofworld.org/2026/china-seniors-ai-slop/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "source": "Rest of World",
-      "summary": "AI-generated singers, children, and even virtual lovers are providing seniors with comfort and companionship.",
-      "published": "2026-07-10T13:00:00+00:00",
-      "score": 34.0,
-      "headline": "Older Adults Embrace AI Slop for Comfort and Companionship"
     }
   ],
-  "generated_at": "2026-07-10T15:13:40.686873"
+  "generated_at": "2026-07-10T15:23:42.142569"
 }
