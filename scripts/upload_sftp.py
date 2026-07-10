@@ -40,10 +40,16 @@ def upload_files(files: list, config: dict = None, remote_subdir: str = None):
     sftp = paramiko.SFTPClient.from_transport(transport)
 
     try:
+        # Diagnostic: show where we land and what's here
+        cwd = sftp.getcwd() or '/'
+        print(f"🔍 SFTP landed in: {cwd}")
+        print(f"🔍 Root contents: {sftp.listdir('.')}")
+
         # Change to remote directory if specified
         if config['remote_dir'] and config['remote_dir'] != '/':
             try:
                 sftp.chdir(config['remote_dir'])
+                print(f"🔍 Changed to: {sftp.getcwd()} — contents: {sftp.listdir('.')}")
             except IOError:
                 print(f"⚠️  Remote directory {config['remote_dir']} not found, using root")
 
