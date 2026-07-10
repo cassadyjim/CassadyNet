@@ -44,6 +44,11 @@ def upload_files(files: list, config: dict = None, remote_subdir: str = None):
         cwd = sftp.getcwd() or '/'
         print(f"🔍 SFTP landed in: {cwd}")
         print(f"🔍 Root contents: {sftp.listdir('.')}")
+        # Peek inside webroots if it exists
+        try:
+            print(f"🔍 webroots/ contents: {sftp.listdir('webroots')}")
+        except Exception:
+            pass
 
         # Change to remote directory if specified
         if config['remote_dir'] and config['remote_dir'] != '/':
