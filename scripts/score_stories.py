@@ -134,7 +134,7 @@ Return ONLY a JSON array with your evaluations."""
     print(f"📡 Batch {batch_num}: calling Claude API to score {len(batch)} stories...")
 
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-5-20250929",
         max_tokens=8192,
         messages=[{"role": "user", "content": user_prompt}],
         system=SYSTEM_PROMPT

@@ -16,7 +16,7 @@ OUTPUT_DIR = BASE_DIR / "output"
 
 # SFTP Configuration
 SFTP_CONFIG = {
-    'host': os.environ.get('SFTP_HOST', 'ssh.cassadynet.com'),
+    'host': os.environ.get('SFTP_HOST', 'ssh.one.com'),
     'port': int(os.environ.get('SFTP_PORT', 22)),
     'username': os.environ.get('SFTP_USERNAME', 'cassadynet.com'),
     'password': os.environ.get('SFTP_PASSWORD', ''),

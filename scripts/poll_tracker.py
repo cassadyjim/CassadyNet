@@ -95,7 +95,7 @@ Examples of DIFFERENT:
 Respond with only: SAME or DIFFERENT"""
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-5-20250929",
         max_tokens=10,
         messages=[{"role": "user", "content": prompt}]
     )

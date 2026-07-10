@@ -115,7 +115,7 @@ Find 2 clusters. Respond with ONLY valid JSON, no other text:
 You MUST return exactly 2 clusters with at least 2 stories each."""
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-5-20250929",
         max_tokens=2000,
         messages=[{"role": "user", "content": prompt}]
     )
