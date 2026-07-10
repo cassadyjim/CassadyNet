@@ -20,7 +20,7 @@ SFTP_CONFIG = {
     'port': int(os.environ.get('SFTP_PORT', 22)),
     'username': os.environ.get('SFTP_USERNAME', 'cegl4w2or_ssh'),
     'password': os.environ.get('SFTP_PASSWORD', ''),
-    'remote_dir': os.environ.get('SFTP_REMOTE_DIR', '/'),
+    'remote_dir': os.environ.get('SFTP_REMOTE_DIR', 'webroots/www'),
 }
 
 
