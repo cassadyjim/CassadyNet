@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "EU Regulation of Meta",
+      "description": "European Union takes major enforcement action against Meta's platforms for addictive design features that pose mental health risks.",
+      "question": "Should the EU force Meta to remove infinite scroll and autoplay features?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "eu-regulation-of-meta-20260710",
+      "results": {
+        "pro": 0,
+        "con": 1,
+        "total": 1,
+        "pro_percent": 0,
+        "con_percent": 100
+      },
+      "analysis_url": "/analysis/analysis-eu-regulation-of-meta-20260711.html",
+      "started_at": "2026-07-10T14:30:03.437529",
+      "archived_at": "2026-07-11T14:48:48.775408",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "OpenAI & Big AI Model Releases",
+      "description": "Major AI companies release new frontier models with OpenAI's GPT-5.6 launch and expansions into enterprise products.",
+      "question": "Should the US close AI export loopholes to China?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-big-ai-model-releases-20260710",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-big-ai-model-releases-20260711.html",
+      "started_at": "2026-07-10T14:29:46.954676",
+      "archived_at": "2026-07-11T14:48:48.496230",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "US Government Orders Anthropic AI Model Shutdown",
       "description": "Unprecedented government intervention forcing Anthropic to disable advanced AI models triggers global AI independence discussions.",
       "question": "Was the US government right to force Anthropic's AI shutdown?",
@@ -910,44 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-business-expansion-20260512.html",
       "started_at": "2026-05-12T02:34:50.079434",
       "archived_at": "2026-05-13T02:43:15.975426",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Cybersecurity Threats",
-      "description": "AI systems are now capable of creating and executing sophisticated cyber attacks, marking a dangerous new frontier in security.",
-      "question": "Should AI companies pause development until better security measures exist?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-cybersecurity-threats-20260511",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-security-threats-zero-day-exploits-20260512.html",
-      "started_at": "2026-05-11T18:56:40.327317",
-      "archived_at": "2026-05-12T21:17:17.658157",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "US-China AI Chip Wars",
-      "description": "Escalating tensions over AI chip exports to China including smuggling operations, trade controls, and diplomatic efforts involving Nvidia and major tech companies.",
-      "question": "Should Trump include tech CEOs in diplomatic talks with China?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "us-china-ai-chip-wars-20260509",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-us-china-ai-chip-war-20260511.html",
-      "started_at": "2026-05-09T05:47:23.310162",
-      "archived_at": "2026-05-12T02:34:53.030329",
       "reason": "topic_replaced"
     }
   ]
