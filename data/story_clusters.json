@@ -2,7 +2,7 @@
   "clusters": [
     {
       "topic": "China Tech Restrictions and Deals",
-      "description": "Beijing blocks Meta's Manus acquisition while Tencent moves in, amid broader restrictions on foreign AI models and ongoing US-China tech tensions.",
+      "description": "China blocks Meta's Manus acquisition while Tencent moves in, and US AI companies face scrutiny for selling to blacklisted Chinese firms.",
       "stories": [
         {
           "id": "5a1347e557600b85",
@@ -93,10 +93,20 @@
           "published": "2026-07-10T12:57:50+00:00",
           "score": 46.0,
           "headline": "CHINA BLOCKS META: Tencent Swoops in for $2BN Manus Deal"
+        },
+        {
+          "id": "d399acafca35db77",
+          "title": "China Omits Job Goal in Five-Year Plan for First Time in Decades",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-10/china-omits-job-goal-in-five-year-plan-for-first-time-in-decades",
+          "source": "Bloomberg Technology",
+          "summary": "China set no numeric target for urban job creation for the first time in at least three decades, in an apparent nod to rising uncertainty over employment as AI spreads through the economy.",
+          "published": "2026-07-10T04:58:26+00:00",
+          "score": 46.0,
+          "headline": "CHINA DROPS JOB TARGETS... Citing AI Uncertainty"
         }
       ],
       "top_score": 57.0,
-      "story_count": 9
+      "story_count": 10
     },
     {
       "topic": "Apple Sues OpenAI",
@@ -331,20 +341,10 @@
           "published": "2026-07-10T20:47:09+00:00",
           "score": 45.0,
           "headline": "APPLE SUES OPENAI for Stealing AI Hardware Secrets"
-        },
-        {
-          "id": "54a563731f87e432",
-          "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
-          "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
-          "source": "Wired",
-          "summary": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
-          "published": "2026-07-10T20:44:05+00:00",
-          "score": 45.0,
-          "headline": "APPLE SUES OPENAI: Hardware Secrets Allegedly Stolen"
         }
       ],
       "top_score": 50.0,
-      "story_count": 24
+      "story_count": 23
     }
   ],
   "unclustered": [
@@ -479,16 +479,6 @@
       "headline": "MINIMAX CEO FOREGOES SALARY Until AGI... Raises $2B After 80% Crash"
     },
     {
-      "id": "d399acafca35db77",
-      "title": "China Omits Job Goal in Five-Year Plan for First Time in Decades",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-10/china-omits-job-goal-in-five-year-plan-for-first-time-in-decades",
-      "source": "Bloomberg Technology",
-      "summary": "China set no numeric target for urban job creation for the first time in at least three decades, in an apparent nod to rising uncertainty over employment as AI spreads through the economy.",
-      "published": "2026-07-10T04:58:26+00:00",
-      "score": 46.0,
-      "headline": "CHINA DROPS JOB TARGETS... Citing AI Uncertainty"
-    },
-    {
       "id": "d561f309926de84c",
       "title": "Malaysia\u2019s Anwar to Debut an AI Double That Sounds Just Like Him",
       "url": "https://www.bloomberg.com/news/articles/2026-07-10/malaysia-s-anwar-to-debut-an-ai-double-that-sounds-just-like-him",
@@ -497,6 +487,16 @@
       "published": "2026-07-10T03:08:00+00:00",
       "score": 46.0,
       "headline": "MALAYSIA PM TO DEPLOY AI DOUBLE... GLOBAL FIRST"
+    },
+    {
+      "id": "c1860ed227e5c52c",
+      "title": "Anthropic found Claude reasoning in silence (J-space) \u2014 we ran the same lens on open Qwen3-8B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uugulk/anthropic_found_claude_reasoning_in_silence/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Anthropic\u2019s research on Claude found a silent internal workspace they call J-space \u2014 hidden reasoning that never shows up as visible text. Classic example: the model answers 49, but inside J-space they caught 21 \u2192 42 \u2192 49. Important distinction: Chain-of-thought = text you can read J-space = silent concepts in activations (\u201cwhat\u2019s on its mind\u201d) We fitted the open Jacobian lens (J-lens) on Qwen3-8B, ran it locally, and used it to catch prose drift before tool calls (model leaning toward \u201cTo, You, Do\u2026\u201d instead of JSON). Then we wired that into agent guards: stop / cancel / keep the useful space, and distill recoveries into LoRA data. Made an 8-min explainer demo: https://www.youtube.com/watch?v=5UMN6hDONJk Happy to answer questions about the probe setup or the guard loop. &#32; submitted by &#32; /u/Murky-Sign37 [link] &#32; [comments]",
+      "published": "2026-07-12T14:22:37+00:00",
+      "score": 45.0,
+      "headline": "Anthropic's J-Space Silent Reasoning Found in Open Qwen3-8B"
     },
     {
       "id": "7f067702ba11bc94",
@@ -517,6 +517,16 @@
       "published": "2026-07-11T09:00:00+00:00",
       "score": 45.0,
       "headline": "SK HYNIX $26.5B NASDAQ DEBUT POWERED BY AI BOOM"
+    },
+    {
+      "id": "54a563731f87e432",
+      "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
+      "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
+      "source": "Wired",
+      "summary": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
+      "published": "2026-07-10T20:44:05+00:00",
+      "score": 45.0,
+      "headline": "APPLE SUES OPENAI: Hardware Secrets Allegedly Stolen"
     },
     {
       "id": "56d0b224c513b79d",
@@ -569,6 +579,36 @@
       "headline": "US AI CRACKDOWN SPARKS OPEN-SOURCE SURGE... CHINA GAINS"
     },
     {
+      "id": "45adabd7937cfc7a",
+      "title": "Apple sues OpenAI and two former employees for alleged theft of trade secrets",
+      "url": "https://www.irishtimes.com/technology/big-tech/2026/07/10/apple-sues-openai-and-two-former-employees-for-alleged-theft-of-trade-secrets/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.irishtimes.com/technology/big-tech/2026/07/10/apple-sues-openai-and-two-former-employees-for-alleged-theft-of-trade-secrets/ Comments URL: https://news.ycombinator.com/item?id=48881689 Points: 4 # Comments: 0",
+      "published": "2026-07-12T14:56:22+00:00",
+      "score": 44.0,
+      "headline": "APPLE SUES OPENAI FOR TRADE SECRET THEFT"
+    },
+    {
+      "id": "746a112fce191c80",
+      "title": "Apple files lawsuit, accuses OpenAI of stealing trade secrets",
+      "url": "https://www.cbc.ca/news/world/apple-lawsuit-open-ai-trade-secrets-9.7266470",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.cbc.ca/news/world/apple-lawsuit-open-ai-trade-secrets-9.7266470 Comments URL: https://news.ycombinator.com/item?id=48881662 Points: 2 # Comments: 0",
+      "published": "2026-07-12T14:52:52+00:00",
+      "score": 44.0,
+      "headline": "APPLE SUES OPENAI FOR TRADE SECRET THEFT"
+    },
+    {
+      "id": "dd2a5fd65c6794f7",
+      "title": "Chinese developers are climbing the firewall to pay more for GPT-5.6, and doing the maths on why",
+      "url": "https://thenextweb.com/news/china-users-gpt-5-6-token-efficiency",
+      "source": "The Next Web",
+      "summary": "OpenAI\u2019s new GPT-5.6 models are winning praise from an unlikely group. Users in mainland China, where the service is blocked and reachable only by VPN or third-party proxy, told the South China Morning Post the models are worth the extra cost. That is a striking verdict, because the extra cost is not small. Chinese frontier models undercut [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-12T14:11:00+00:00",
+      "score": 44.0,
+      "headline": "Chinese Devs Climb Firewall to Pay Premium for GPT-5.6"
+    },
+    {
       "id": "29b69f3ead53eb37",
       "title": "India's TCS plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
       "url": "https://www.channelnewsasia.com/business/indias-tata-consultancy-services-plans-up-8900-ai-deployment-engineers-seeks-ai-acquisitions-6249086",
@@ -587,6 +627,16 @@
       "published": "2026-07-12T06:59:51+00:00",
       "score": 44.0,
       "headline": "ZHIPU FOUNDER: Keep Frontier AI Open to All"
+    },
+    {
+      "id": "91bf047f74f7c1ff",
+      "title": "China's DeepSeek developing its own AI chip, sources say",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu15mz/chinas_deepseek_developing_its_own_ai_chip/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "&#32; submitted by &#32; /u/TheRealMasonMac [link] &#32; [comments]",
+      "published": "2026-07-12T01:04:07+00:00",
+      "score": 44.0,
+      "headline": "DEEPSEEK DEVELOPING ITS OWN AI CHIP"
     },
     {
       "id": "eaa400c1f8579e8b",
@@ -727,6 +777,16 @@
       "published": "2026-07-09T00:19:32+00:00",
       "score": 44.0,
       "headline": "IMF UPGRADES SOUTH KOREA MOST ON AI CHIP BOOM"
+    },
+    {
+      "id": "de9e24e406b76e8b",
+      "title": "While Neuralink drills into skulls, China\u2019s BrainCo is betting brain tech will be something you wear",
+      "url": "https://thenextweb.com/news/brainco-wearable-brain-tech-china-neuralink",
+      "source": "The Next Web",
+      "summary": "The most visible race in brain-computer interfaces involves surgery. But one of China\u2019s most valuable neurotech firms is deliberately not competing in it, CNBC reports. BrainCo, based in Hangzhou, builds devices that read the brain from outside the skull. Headbands and caps pick up electrical signals through the scalp, with no operating theatre involved. The company [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-12T14:41:55+00:00",
+      "score": 43.0,
+      "headline": "China's BrainCo Bets on Wearable Brain Tech vs Neuralink's Implants"
     },
     {
       "id": "09b9f6b04028f00b",
@@ -957,67 +1017,7 @@
       "published": "2026-07-09T07:58:47+00:00",
       "score": 43.0,
       "headline": "ALIGNMENT LAB LANDS $160M GRANT to Challenge Frontier Labs"
-    },
-    {
-      "id": "b449215dcf71d546",
-      "title": "Announcing our $160M grant from Coefficient Giving",
-      "url": "https://www.lesswrong.com/posts/HDKQNqiR2gtfMiWsn/announcing-our-usd160m-grant-from-coefficient-giving",
-      "source": "LessWrong AI",
-      "summary": "We are excited to announce that Resolution (fka Sequent) has a $160M grant from Coefficient Giving (cG) to put rigorous alignment research on a (closer to) even footing with the frontier labs. We will use it to accelerate progress towards higher-confidence alignment, or to find evidence and obstacles showing why alignment is hard.The grant is structured as a $108M base plus $52M conditional on a combination of hiring success and compute needs. The base includes a small regranting budget, which we plan to use both for high-quality non-Resolution alignment research and to give back to shared community infrastructure that we depend on. Coefficient Giving will be our sole funder to start (thank you!); our goal is to raise larger-scale funds from a mixture of sources once we demonstrate success with semiautomated alignment theory and empirics.The time for ambitious alignment funding is nowIn our launch announcement, we argued that the time to automate alignment is now: frontier systems have",
-      "published": "2026-07-09T07:58:47+00:00",
-      "score": 43.0,
-      "headline": "Resolution Gets $160M to Put AI Safety Research on Par with OpenAI"
-    },
-    {
-      "id": "18d7aff490717035",
-      "title": "Inside the secret AI war between Silicon Valley and China",
-      "url": "https://www.washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude/ Comments URL: https://news.ycombinator.com/item?id=48878812 Points: 1 # Comments: 1",
-      "published": "2026-07-12T06:20:27+00:00",
-      "score": 42.0,
-      "headline": "INSIDE THE SECRET AI WAR: Silicon Valley vs China"
-    },
-    {
-      "id": "05f1cbb3f3761da1",
-      "title": "DeepSeek developing its own AI chip, sources say",
-      "url": "https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/ Comments URL: https://news.ycombinator.com/item?id=48878697 Points: 3 # Comments: 0",
-      "published": "2026-07-12T05:53:37+00:00",
-      "score": 42.0,
-      "headline": "DEEPSEEK DEVELOPING ITS OWN AI CHIP"
-    },
-    {
-      "id": "70353f9ed43410cf",
-      "title": "OpenAI has folded safety into research again. Its head of safety is leaving.",
-      "url": "https://thenextweb.com/news/openai-heidecke-safety-head-leaving-research-merger",
-      "source": "The Next Web",
-      "summary": "OpenAI\u2019s head of safety systems, Johannes Heidecke, is leaving the company following an internal restructuring that merges its safety and research teams under a single leader, Wired reported on Friday. Chief Research Officer Mark Chen told staff in a memo that safety teams would now report to Mia Glaese, whose title has been expanded to [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-11T11:10:24+00:00",
-      "score": 42.0,
-      "headline": "OpenAI Safety Chief EXITS After Org Merges Safety Into Research"
-    },
-    {
-      "id": "003ad66e6c52ec1d",
-      "title": "AI Found a Root Bug in Linux That Everyone Missed for 15 Years",
-      "url": "https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years/",
-      "source": "Wired",
-      "summary": "Plus: The Pentagon is training amateurs to become part of its hacker army, a Flock license plate reader error led to cops surrounding a car reviewer, and more.",
-      "published": "2026-07-11T10:30:00+00:00",
-      "score": 42.0,
-      "headline": "AI FINDS 15-YEAR-OLD ROOT BUG IN LINUX KERNEL"
-    },
-    {
-      "id": "67a26c545c5bbaaa",
-      "title": "Meta killed its Muse Image AI feature three days after launch. Hollywood had had enough.",
-      "url": "https://thenextweb.com/news/meta-muse-image-instagram-privacy-backlash-pulled",
-      "source": "The Next Web",
-      "summary": "Meta has pulled its Muse Image AI feature from Instagram and the Meta AI app just three days after launch, saying the tool \u201cmissed the mark\u201d on user privacy. The model, the first image generator to emerge from Meta Superintelligence Labs under chief AI officer Alexandr Wang, launched on Tuesday with a design flaw that proved [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-11T10:26:16+00:00",
-      "score": 42.0,
-      "headline": "META KILLS MUSE IMAGE AI THREE DAYS AFTER LAUNCH"
     }
   ],
-  "generated_at": "2026-07-12T14:51:39.998945"
+  "generated_at": "2026-07-12T15:55:16.569522"
 }
