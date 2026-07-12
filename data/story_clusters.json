@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "China Tech Restrictions",
-      "description": "China blocks major deals and restricts foreign AI tools while US companies face scrutiny for selling to blacklisted Chinese firms.",
+      "topic": "China Tech Regulations and Deals",
+      "description": "China is blocking major tech deals and restricting AI access while domestic companies navigate sanctions and regulatory pressure.",
       "stories": [
         {
           "id": "5a1347e557600b85",
@@ -43,6 +43,16 @@
           "published": "2026-07-10T04:31:37+00:00",
           "score": 49.0,
           "headline": "US AI MODELS SOLD TO BLACKLISTED CHINESE GROUPS"
+        },
+        {
+          "id": "5202962568570b44",
+          "title": "Secretive China Chipmaker Is Built to Dodge US Curbs",
+          "url": "https://www.bloomberg.com/news/features/2026-07-09/china-s-cxmt-chipmaker-eyes-ipo-to-challenge-samsung-sk-hynix-micron",
+          "source": "Bloomberg Technology",
+          "summary": "Founded by a US-trained entrepreneur, CXMT is racing to catch its rivals and using a largely domestic supplier network to shield itself from Washington.",
+          "published": "2026-07-09T21:00:20+00:00",
+          "score": 49.0,
+          "headline": "CHINA CHIPMAKER CXMT DODGES US SANCTIONS WITH DOMESTIC SUPPLY"
         },
         {
           "id": "94985a0e77e418a5",
@@ -93,14 +103,24 @@
           "published": "2026-07-10T12:57:50+00:00",
           "score": 46.0,
           "headline": "CHINA BLOCKS META: Tencent Swoops in for $2BN Manus Deal"
+        },
+        {
+          "id": "d399acafca35db77",
+          "title": "China Omits Job Goal in Five-Year Plan for First Time in Decades",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-10/china-omits-job-goal-in-five-year-plan-for-first-time-in-decades",
+          "source": "Bloomberg Technology",
+          "summary": "China set no numeric target for urban job creation for the first time in at least three decades, in an apparent nod to rising uncertainty over employment as AI spreads through the economy.",
+          "published": "2026-07-10T04:58:26+00:00",
+          "score": 46.0,
+          "headline": "CHINA DROPS JOB TARGETS... Citing AI Uncertainty"
         }
       ],
       "top_score": 57.0,
-      "story_count": 9
+      "story_count": 11
     },
     {
       "topic": "Apple Sues OpenAI",
-      "description": "Apple has filed a major lawsuit against OpenAI alleging trade secret theft and poaching of employees for AI hardware development.",
+      "description": "Apple has filed a major lawsuit against OpenAI alleging trade secret theft and employee poaching related to AI hardware development.",
       "stories": [
         {
           "id": "b4e2da61eb82792c",
@@ -349,16 +369,6 @@
       "headline": "OPENAI DROPS GPT-5.6: FRONTIER MODEL BREAKTHROUGH"
     },
     {
-      "id": "5202962568570b44",
-      "title": "Secretive China Chipmaker Is Built to Dodge US Curbs",
-      "url": "https://www.bloomberg.com/news/features/2026-07-09/china-s-cxmt-chipmaker-eyes-ipo-to-challenge-samsung-sk-hynix-micron",
-      "source": "Bloomberg Technology",
-      "summary": "Founded by a US-trained entrepreneur, CXMT is racing to catch its rivals and using a largely domestic supplier network to shield itself from Washington.",
-      "published": "2026-07-09T21:00:20+00:00",
-      "score": 49.0,
-      "headline": "CHINA CHIPMAKER CXMT DODGES US SANCTIONS WITH DOMESTIC SUPPLY"
-    },
-    {
       "id": "cad81bff539597f4",
       "title": "Malaysia\u2019s PM is sending an autonomous AI double out to serve citizens, payment links and all",
       "url": "https://thenextweb.com/news/malaysia-anwar-pmx-ai-avatar",
@@ -467,16 +477,6 @@
       "published": "2026-07-10T13:41:42+00:00",
       "score": 46.0,
       "headline": "MINIMAX CEO FOREGOES SALARY Until AGI... Raises $2B After 80% Crash"
-    },
-    {
-      "id": "d399acafca35db77",
-      "title": "China Omits Job Goal in Five-Year Plan for First Time in Decades",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-10/china-omits-job-goal-in-five-year-plan-for-first-time-in-decades",
-      "source": "Bloomberg Technology",
-      "summary": "China set no numeric target for urban job creation for the first time in at least three decades, in an apparent nod to rising uncertainty over employment as AI spreads through the economy.",
-      "published": "2026-07-10T04:58:26+00:00",
-      "score": 46.0,
-      "headline": "CHINA DROPS JOB TARGETS... Citing AI Uncertainty"
     },
     {
       "id": "d561f309926de84c",
@@ -779,6 +779,16 @@
       "headline": "IMF UPGRADES SOUTH KOREA MOST ON AI CHIP BOOM"
     },
     {
+      "id": "95eff52d68a3bd65",
+      "title": "OpenAI's AI Beating Every Human at AtCoder",
+      "url": "https://mlq.ai/news/openais-ai-sweeps-all-five-problems-at-atcoder-world-tour-finals-beating-every-human/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://mlq.ai/news/openais-ai-sweeps-all-five-problems-at-atcoder-world-tour-finals-beating-every-human/ Comments URL: https://news.ycombinator.com/item?id=48882547 Points: 2 # Comments: 0",
+      "published": "2026-07-12T16:54:02+00:00",
+      "score": 43.0,
+      "headline": "OPENAI'S AI SWEEPS ATCODER FINALS... BEATS EVERY HUMAN"
+    },
+    {
       "id": "3144b5ca9a820252",
       "title": "Zhipu\u2019s founder says frontier AI should stay open to everyone. His own government may disagree.",
       "url": "https://thenextweb.com/news/zhipu-tang-jie-frontier-ai-open-to-all",
@@ -1007,17 +1017,7 @@
       "published": "2026-07-09T11:53:41+00:00",
       "score": 43.0,
       "headline": "FRANCE ANTITRUST PROBE INTO NVIDIA NEARS END... Reckoning Looms"
-    },
-    {
-      "id": "0453af9ffcc0d040",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "source": "OpenAI Blog",
-      "summary": "Details about the OpenAI Bio Bounty program",
-      "published": "2026-07-09T10:00:00+00:00",
-      "score": 43.0,
-      "headline": "OpenAI Launches GPT-5.5 Bio Security Bounty"
     }
   ],
-  "generated_at": "2026-07-12T16:53:45.424757"
+  "generated_at": "2026-07-12T17:55:40.854490"
 }
