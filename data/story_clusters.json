@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "China Tech Deals and US Sanctions",
-      "description": "Beijing blocked Meta's Manus acquisition while Tencent moves in, and US AI companies are allegedly selling to blacklisted Chinese firms despite export controls.",
+      "topic": "China Tech Restrictions",
+      "description": "Multiple stories about China blocking foreign tech deals, banning AI tools, and US companies selling AI to blacklisted Chinese firms, highlighting escalating tech tensions between China and the West.",
       "stories": [
         {
           "id": "5a1347e557600b85",
@@ -93,14 +93,24 @@
           "published": "2026-07-10T12:57:50+00:00",
           "score": 46.0,
           "headline": "CHINA BLOCKS META: Tencent Swoops in for $2BN Manus Deal"
+        },
+        {
+          "id": "d399acafca35db77",
+          "title": "China Omits Job Goal in Five-Year Plan for First Time in Decades",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-10/china-omits-job-goal-in-five-year-plan-for-first-time-in-decades",
+          "source": "Bloomberg Technology",
+          "summary": "China set no numeric target for urban job creation for the first time in at least three decades, in an apparent nod to rising uncertainty over employment as AI spreads through the economy.",
+          "published": "2026-07-10T04:58:26+00:00",
+          "score": 46.0,
+          "headline": "CHINA DROPS JOB TARGETS... Citing AI Uncertainty"
         }
       ],
       "top_score": 57.0,
-      "story_count": 9
+      "story_count": 10
     },
     {
       "topic": "Apple Sues OpenAI",
-      "description": "Apple has filed a major lawsuit against OpenAI alleging trade secret theft and employee poaching related to AI hardware development.",
+      "description": "Apple has filed a major lawsuit against OpenAI alleging trade secret theft and IP violations related to AI hardware development, marking a significant breakdown in Silicon Valley relationships.",
       "stories": [
         {
           "id": "b4e2da61eb82792c",
@@ -467,16 +477,6 @@
       "published": "2026-07-10T13:41:42+00:00",
       "score": 46.0,
       "headline": "MINIMAX CEO FOREGOES SALARY Until AGI... Raises $2B After 80% Crash"
-    },
-    {
-      "id": "d399acafca35db77",
-      "title": "China Omits Job Goal in Five-Year Plan for First Time in Decades",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-10/china-omits-job-goal-in-five-year-plan-for-first-time-in-decades",
-      "source": "Bloomberg Technology",
-      "summary": "China set no numeric target for urban job creation for the first time in at least three decades, in an apparent nod to rising uncertainty over employment as AI spreads through the economy.",
-      "published": "2026-07-10T04:58:26+00:00",
-      "score": 46.0,
-      "headline": "CHINA DROPS JOB TARGETS... Citing AI Uncertainty"
     },
     {
       "id": "d561f309926de84c",
@@ -1019,5 +1019,5 @@
       "headline": "FRANCE ANTITRUST PROBE INTO NVIDIA NEARS END... Reckoning Looms"
     }
   ],
-  "generated_at": "2026-07-12T21:43:21.662894"
+  "generated_at": "2026-07-12T22:41:06.892589"
 }
