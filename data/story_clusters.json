@@ -2,7 +2,7 @@
   "clusters": [
     {
       "topic": "China AI Geopolitics",
-      "description": "Major developments in US-China AI competition including blocked deals, export restrictions, and Beijing's push for domestic AI dominance.",
+      "description": "A series of moves involving China blocking Meta's Manus acquisition, US firms selling AI to blacklisted Chinese companies, and escalating US-China AI rivalry.",
       "stories": [
         {
           "id": "5a1347e557600b85",
@@ -105,6 +105,16 @@
           "headline": "CHINA MAY BUILD SILICON CURTAIN Around Open-Source AI Models"
         },
         {
+          "id": "15411bedf28e9682",
+          "title": "Washington Is Looking to Keep China From Training Its AI on US Models",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-13/anthropic-openai-warnings-prompt-distillation-debate-in-dc",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic and OpenAI\u2019s warnings about \u201cadversarial distillation\u201d&nbsp;are reinvigorating one of the oldest debates in Silicon Valley.",
+          "published": "2026-07-13T11:00:21+00:00",
+          "score": 46.0,
+          "headline": "US MOVES TO BLOCK CHINA FROM TRAINING ON AMERICAN AI"
+        },
+        {
           "id": "63ea7daf765afb0a",
           "title": "ETtech Explainer: How the Meta-Manus deal came apart, and Tencent moved in",
           "url": "https://economictimes.indiatimes.com/tech/technology/ettech-explainer-how-the-meta-manus-deal-came-apart-and-tencent-moved-in/articleshow/132312650.cms",
@@ -126,11 +136,11 @@
         }
       ],
       "top_score": 57.0,
-      "story_count": 12
+      "story_count": 13
     },
     {
       "topic": "Apple Sues OpenAI",
-      "description": "Apple has filed a major lawsuit against OpenAI alleging trade secret theft and employee poaching related to AI hardware development.",
+      "description": "Apple has filed a major lawsuit against OpenAI alleging trade secret theft and employee poaching, marking a dramatic collapse in Silicon Valley relationships.",
       "stories": [
         {
           "id": "b4e2da61eb82792c",
@@ -351,30 +361,10 @@
           "published": "2026-07-10T21:00:29+00:00",
           "score": 45.0,
           "headline": "Apple Sues OpenAI: Trade Secret Theft Alleged"
-        },
-        {
-          "id": "3d7cbe6e4a43fbfb",
-          "title": "Apple Sues OpenAI for Stealing Trade Secrets to Build AI Hardware",
-          "url": "https://www.macrumors.com/2026/07/10/apple-sues-openai/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.macrumors.com/2026/07/10/apple-sues-openai/ Comments URL: https://news.ycombinator.com/item?id=48865019 Points: 28 # Comments: 13",
-          "published": "2026-07-10T20:47:09+00:00",
-          "score": 45.0,
-          "headline": "APPLE SUES OPENAI for Stealing AI Hardware Secrets"
-        },
-        {
-          "id": "54a563731f87e432",
-          "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
-          "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
-          "source": "Wired",
-          "summary": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
-          "published": "2026-07-10T20:44:05+00:00",
-          "score": 45.0,
-          "headline": "APPLE SUES OPENAI: Hardware Secrets Allegedly Stolen"
         }
       ],
       "top_score": 50.0,
-      "story_count": 24
+      "story_count": 22
     }
   ],
   "unclustered": [
@@ -417,6 +407,16 @@
       "published": "2026-07-10T17:36:13+00:00",
       "score": 47.0,
       "headline": "SK HYNIX DEBUTS ON NASDAQ: Opens 14% Up in Biggest Foreign IPO"
+    },
+    {
+      "id": "cc8a6a558d7991f8",
+      "title": "Samsung, SK hynix, Micron ramp up capacity as demand for AI infrastructure outpaces supply",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/samsung-sk-hynix-micron-ramp-up-capacity-as-demand-for-ai-infrastructure-outpaces-supply/articleshow/132365529.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Global memory chipmakers are expanding production capacity to meet AI demand. Samsung, SK Hynix, and Micron are investing billions in new facilities. These companies aim to secure supply for high-bandwidth and DRAM chips. Industry experts anticipate continued tight supplies for several years ahead. Capacity growth will determine memory makers' future market performance.",
+      "published": "2026-07-13T11:45:36+00:00",
+      "score": 46.0,
+      "headline": "Samsung, SK Hynix Race to Expand AI Chip Capacity"
     },
     {
       "id": "67cc884072021358",
@@ -519,6 +519,26 @@
       "headline": "SK HYNIX $26.5B NASDAQ DEBUT POWERED BY AI BOOM"
     },
     {
+      "id": "3d7cbe6e4a43fbfb",
+      "title": "Apple Sues OpenAI for Stealing Trade Secrets to Build AI Hardware",
+      "url": "https://www.macrumors.com/2026/07/10/apple-sues-openai/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.macrumors.com/2026/07/10/apple-sues-openai/ Comments URL: https://news.ycombinator.com/item?id=48865019 Points: 28 # Comments: 13",
+      "published": "2026-07-10T20:47:09+00:00",
+      "score": 45.0,
+      "headline": "APPLE SUES OPENAI for Stealing AI Hardware Secrets"
+    },
+    {
+      "id": "54a563731f87e432",
+      "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
+      "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
+      "source": "Wired",
+      "summary": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
+      "published": "2026-07-10T20:44:05+00:00",
+      "score": 45.0,
+      "headline": "APPLE SUES OPENAI: Hardware Secrets Allegedly Stolen"
+    },
+    {
       "id": "56d0b224c513b79d",
       "title": "AI\u00b2 Robotics raises $735M at $3B valuation for wheeled humanoid robots",
       "url": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/",
@@ -557,6 +577,16 @@
       "published": "2026-07-10T08:24:58+00:00",
       "score": 45.0,
       "headline": "OPENAI LAUNCHES CHATGPT WORK... AI AGENT THAT FINISHES THE JOB"
+    },
+    {
+      "id": "7619a598b332d372",
+      "title": "Yann LeCun\u2019s new VC fund lasted eight hours. Then it vanished",
+      "url": "https://thenextweb.com/news/yann-lecun-extelligence-invest-fund-collapse",
+      "source": "The Next Web",
+      "summary": "A shiny new VC firm named the AI pioneer as a partner on Friday morning. By Friday night, the fund did not exist. Yann LeCun has had a busy year. Now he has had a strange one. On Friday, a new venture firm called Extelligence Invest named the man often dubbed a \u201cgodfather of AI\u201d [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-13T12:09:50+00:00",
+      "score": 44.0,
+      "headline": "YANN LECUN'S VC FUND VANISHES After 8 Hours"
     },
     {
       "id": "2dec3cc5cb714dce",
@@ -727,6 +757,26 @@
       "published": "2026-07-10T10:19:41+00:00",
       "score": 44.0,
       "headline": "UK STORES DEPLOY FACIAL RECOGNITION... INSTANT POLICE ALERTS"
+    },
+    {
+      "id": "7f377148ce5262d0",
+      "title": "Apple\u2019s Lawsuit Threatens to Disrupt OpenAI\u2019s Bid to Rival the iPhone",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-13/how-apple-s-lawsuit-threatens-to-disrupt-openai-s-bid-to-rival-the-iphone",
+      "source": "Bloomberg Technology",
+      "summary": "Apple Inc.\u2019s lawsuit accusing OpenAI of systematically stealing its intellectual property threatens to disrupt the AI company\u2019s device ambitions long before the case is resolved.",
+      "published": "2026-07-13T12:32:47+00:00",
+      "score": 43.0,
+      "headline": "APPLE LAWSUIT THREATENS OpenAI Device Strategy"
+    },
+    {
+      "id": "1bbb7ac463ae82fb",
+      "title": "Valarian raises $50 million to help governments and enterprises escape America\u2019s cloud grip",
+      "url": "https://fortune.com/2026/07/13/ai-sovereignty-cloud-valarian-50-million-nea-palantir-europe-microsoft-aws-google-defense/",
+      "source": "Fortune Tech",
+      "summary": "An ex-Palantir exec co-founded the London startup building the software layer between governments and their AI.",
+      "published": "2026-07-13T10:20:42+00:00",
+      "score": 43.0,
+      "headline": "Valarian Raises $50M to Challenge US Cloud Dominance"
     },
     {
       "id": "16eba7d967a46095",
@@ -967,57 +1017,7 @@
       "published": "2026-07-13T08:24:37+00:00",
       "score": 42.0,
       "headline": "TSMC Breaks Ground on Advanced AI Chip Packaging Fabs"
-    },
-    {
-      "id": "26f84e7512cbb044",
-      "title": "South Korea flags record 2027 budget of over $530 billion as AI chip boom lifts revenues",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/south-korea-flags-record-2027-budget-of-over-530-billion-as-ai-chip-boom-lifts-revenues/articleshow/132359567.cms",
-      "source": "The Economic Times Tech",
-      "summary": "South Korea plans record budget spending exceeding 800 trillion won for fiscal 2027. This significant spending will be supported by stronger tax revenues from the AI chip industry. The government will prioritize investments in chips, AI data centers, and physical AI technologies. Existing spending programs will undergo major restructuring to secure necessary funding capacity. A new Future Response Fund will strategically invest excess tax revenue in key areas.",
-      "published": "2026-07-13T07:10:14+00:00",
-      "score": 42.0,
-      "headline": "South Korea Plans Record $530B Budget on AI Chip Boom"
-    },
-    {
-      "id": "d0d1f70739b2ea45",
-      "title": "South Korea to Tap Record AI Tax Windfall to Fund Future Growth",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-13/south-korea-to-tap-record-ai-tax-windfall-to-fund-future-growth",
-      "source": "Bloomberg Technology",
-      "summary": "South Korea expects to reap a record tax windfall from the artificial intelligence-driven semiconductor boom, giving President Lee Jae Myung\u2019s government fresh fiscal firepower to fund an ambitious investment agenda.",
-      "published": "2026-07-13T07:07:33+00:00",
-      "score": 42.0,
-      "headline": "KOREA TAPS RECORD AI TAX WINDFALL for Future Growth"
-    },
-    {
-      "id": "6b2b1b4aacf33983",
-      "title": "Most Americans now say the public should own half of the big AI companies",
-      "url": "https://thenextweb.com/news/most-americans-now-say-the-public-should-own-half-of-the-big-ai-companies",
-      "source": "The Next Web",
-      "summary": "An idea that sounded radical a year ago is now a majority position. Nearly seven in ten Americans support forcing AI companies to transfer half their stock to a public sovereign wealth fund, CNBC reports. The figure comes from a Verasight survey of 1,690 US adults, conducted in June. It found 69% backing for the policy. [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-12T14:22:13+00:00",
-      "score": 42.0,
-      "headline": "70% of Americans Back Public Ownership of AI Giants"
-    },
-    {
-      "id": "18d7aff490717035",
-      "title": "Inside the secret AI war between Silicon Valley and China",
-      "url": "https://www.washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude/ Comments URL: https://news.ycombinator.com/item?id=48878812 Points: 1 # Comments: 1",
-      "published": "2026-07-12T06:20:27+00:00",
-      "score": 42.0,
-      "headline": "INSIDE THE SECRET AI WAR: Silicon Valley vs China"
-    },
-    {
-      "id": "05f1cbb3f3761da1",
-      "title": "DeepSeek developing its own AI chip, sources say",
-      "url": "https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/ Comments URL: https://news.ycombinator.com/item?id=48878697 Points: 3 # Comments: 0",
-      "published": "2026-07-12T05:53:37+00:00",
-      "score": 42.0,
-      "headline": "DEEPSEEK DEVELOPING ITS OWN AI CHIP"
     }
   ],
-  "generated_at": "2026-07-13T10:21:10.072982"
+  "generated_at": "2026-07-13T13:17:40.775074"
 }
