@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "China Tech Deals & Restrictions",
-      "description": "Major developments in China including Beijing blocking Meta's acquisition while Tencent moves in, and US AI companies selling to blacklisted Chinese firms.",
+      "topic": "China Tech Deals and AI Restrictions",
+      "description": "China blocked Meta's acquisition while Tencent seized the deal, amid broader restrictions on Western AI models and concerns about US companies selling to blacklisted Chinese firms.",
       "stories": [
         {
           "id": "5a1347e557600b85",
@@ -93,24 +93,14 @@
           "published": "2026-07-10T12:57:50+00:00",
           "score": 46.0,
           "headline": "CHINA BLOCKS META: Tencent Swoops in for $2BN Manus Deal"
-        },
-        {
-          "id": "d399acafca35db77",
-          "title": "China Omits Job Goal in Five-Year Plan for First Time in Decades",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-10/china-omits-job-goal-in-five-year-plan-for-first-time-in-decades",
-          "source": "Bloomberg Technology",
-          "summary": "China set no numeric target for urban job creation for the first time in at least three decades, in an apparent nod to rising uncertainty over employment as AI spreads through the economy.",
-          "published": "2026-07-10T04:58:26+00:00",
-          "score": 46.0,
-          "headline": "CHINA DROPS JOB TARGETS... Citing AI Uncertainty"
         }
       ],
       "top_score": 57.0,
-      "story_count": 10
+      "story_count": 9
     },
     {
       "topic": "Apple Sues OpenAI",
-      "description": "Apple has filed a major lawsuit against OpenAI alleging trade secret theft and employee poaching related to AI hardware development.",
+      "description": "Apple has filed a major lawsuit against OpenAI alleging trade secret theft and poaching of employees, marking a dramatic collapse in Silicon Valley relationships.",
       "stories": [
         {
           "id": "b4e2da61eb82792c",
@@ -341,33 +331,23 @@
           "published": "2026-07-10T20:47:09+00:00",
           "score": 45.0,
           "headline": "APPLE SUES OPENAI for Stealing AI Hardware Secrets"
+        },
+        {
+          "id": "54a563731f87e432",
+          "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
+          "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
+          "source": "Wired",
+          "summary": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
+          "published": "2026-07-10T20:44:05+00:00",
+          "score": 45.0,
+          "headline": "APPLE SUES OPENAI: Hardware Secrets Allegedly Stolen"
         }
       ],
       "top_score": 50.0,
-      "story_count": 23
+      "story_count": 24
     }
   ],
   "unclustered": [
-    {
-      "id": "6e3eba7a17b37312",
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "url": "https://openai.com/index/gpt-5-6",
-      "source": "OpenAI Blog",
-      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-      "published": "2026-07-09T10:00:00+00:00",
-      "score": 50.0,
-      "headline": "OPENAI DROPS GPT-5.6: FRONTIER MODEL BREAKTHROUGH"
-    },
-    {
-      "id": "5202962568570b44",
-      "title": "Secretive China Chipmaker Is Built to Dodge US Curbs",
-      "url": "https://www.bloomberg.com/news/features/2026-07-09/china-s-cxmt-chipmaker-eyes-ipo-to-challenge-samsung-sk-hynix-micron",
-      "source": "Bloomberg Technology",
-      "summary": "Founded by a US-trained entrepreneur, CXMT is racing to catch its rivals and using a largely domestic supplier network to shield itself from Washington.",
-      "published": "2026-07-09T21:00:20+00:00",
-      "score": 49.0,
-      "headline": "CHINA CHIPMAKER CXMT DODGES US SANCTIONS WITH DOMESTIC SUPPLY"
-    },
     {
       "id": "cad81bff539597f4",
       "title": "Malaysia\u2019s PM is sending an autonomous AI double out to serve citizens, payment links and all",
@@ -377,16 +357,6 @@
       "published": "2026-07-10T14:31:03+00:00",
       "score": 48.0,
       "headline": "MALAYSIA PM Deploys Autonomous AI Double to Serve Citizens"
-    },
-    {
-      "id": "10a73f0831bfbed7",
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "source": "OpenAI Blog",
-      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "published": "2026-07-09T10:00:00+00:00",
-      "score": 48.0,
-      "headline": "CHATGPT WORK: AI AGENT HANDLES YOUR PROJECTS"
     },
     {
       "id": "2bd6fe58642158f7",
@@ -407,16 +377,6 @@
       "published": "2026-07-10T17:36:13+00:00",
       "score": 47.0,
       "headline": "SK HYNIX DEBUTS ON NASDAQ: Opens 14% Up in Biggest Foreign IPO"
-    },
-    {
-      "id": "da68d51d471a4c39",
-      "title": "OpenAI launches its new family of models with GPT-5.6",
-      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-      "source": "TechCrunch AI",
-      "summary": "OpenAI's latest family of models promise improvements across a range of areas, including cybersecurity.",
-      "published": "2026-07-09T22:24:24+00:00",
-      "score": 47.0,
-      "headline": "OPENAI LAUNCHES GPT-5.6... New Model Family Drops"
     },
     {
       "id": "67cc884072021358",
@@ -479,6 +439,16 @@
       "headline": "MINIMAX CEO FOREGOES SALARY Until AGI... Raises $2B After 80% Crash"
     },
     {
+      "id": "d399acafca35db77",
+      "title": "China Omits Job Goal in Five-Year Plan for First Time in Decades",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-10/china-omits-job-goal-in-five-year-plan-for-first-time-in-decades",
+      "source": "Bloomberg Technology",
+      "summary": "China set no numeric target for urban job creation for the first time in at least three decades, in an apparent nod to rising uncertainty over employment as AI spreads through the economy.",
+      "published": "2026-07-10T04:58:26+00:00",
+      "score": 46.0,
+      "headline": "CHINA DROPS JOB TARGETS... Citing AI Uncertainty"
+    },
+    {
       "id": "d561f309926de84c",
       "title": "Malaysia\u2019s Anwar to Debut an AI Double That Sounds Just Like Him",
       "url": "https://www.bloomberg.com/news/articles/2026-07-10/malaysia-s-anwar-to-debut-an-ai-double-that-sounds-just-like-him",
@@ -519,16 +489,6 @@
       "headline": "SK HYNIX $26.5B NASDAQ DEBUT POWERED BY AI BOOM"
     },
     {
-      "id": "54a563731f87e432",
-      "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
-      "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
-      "source": "Wired",
-      "summary": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
-      "published": "2026-07-10T20:44:05+00:00",
-      "score": 45.0,
-      "headline": "APPLE SUES OPENAI: Hardware Secrets Allegedly Stolen"
-    },
-    {
       "id": "56d0b224c513b79d",
       "title": "AI\u00b2 Robotics raises $735M at $3B valuation for wheeled humanoid robots",
       "url": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/",
@@ -567,16 +527,6 @@
       "published": "2026-07-10T08:24:58+00:00",
       "score": 45.0,
       "headline": "OPENAI LAUNCHES CHATGPT WORK... AI AGENT THAT FINISHES THE JOB"
-    },
-    {
-      "id": "591ebb208563a189",
-      "title": "US crackdown on top AI fuels open-source surge",
-      "url": "https://economictimes.indiatimes.com/tech/technology/us-crackdown-on-top-ai-fuels-open-source-surge/articleshow/132275996.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The US government's shock moves to restrict access to top artificial intelligence systems from Anthropic and OpenAI have sparked growing interest in open-source models -- especially ones from China. Around the same time, China's Zhipu AI (also known as Z. ai) released GLM-5.2, an open model that performed nearly as well as top offerings from Anthropic and OpenAI on several benchmarks.",
-      "published": "2026-07-09T03:15:11+00:00",
-      "score": 45.0,
-      "headline": "US AI CRACKDOWN SPARKS OPEN-SOURCE SURGE... CHINA GAINS"
     },
     {
       "id": "45adabd7937cfc7a",
@@ -707,76 +657,6 @@
       "published": "2026-07-10T10:19:41+00:00",
       "score": 44.0,
       "headline": "UK STORES DEPLOY FACIAL RECOGNITION... INSTANT POLICE ALERTS"
-    },
-    {
-      "id": "388a4b5a8906bfb9",
-      "title": "OpenAI releases GPT-5.6 to everyone after the US government signed off",
-      "url": "https://thenextweb.com/news/openai-gpt-5-6-public-release-government-approval",
-      "source": "The Next Web",
-      "summary": "OpenAI has made GPT-5.6 publicly available after receiving approval from the Trump administration. The release ends weeks in which the model was restricted to a small group of government-vetted partners, CNBC reports. The model family comes in three tiers. Sol is the flagship, Terra a lower-cost enterprise option, and Luna the fastest and cheapest. OpenAI says [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-09T17:45:13+00:00",
-      "score": 44.0,
-      "headline": "OPENAI RELEASES GPT-5.6 TO EVERYONE... Trump Administration Signs Off"
-    },
-    {
-      "id": "a5dfd54e53074b2f",
-      "title": "OpenAI Unveils ChatGPT Work Agent to Field Tasks for Hours",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI is introducing a new artificial intelligence agent that\u2019s meant to field a wider range of complex tasks for hours at a time, bolstering its push to appeal to more business professionals.",
-      "published": "2026-07-09T17:00:30+00:00",
-      "score": 44.0,
-      "headline": "OPENAI UNVEILS CHATGPT WORK AGENT... Fields Tasks for Hours"
-    },
-    {
-      "id": "7f68bb355a3f8281",
-      "title": "OpenAI rolls out GPT-5.6 after government green light \u2014 and announces \u2018ChatGPT Work\u2019",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "source": "The Verge AI",
-      "summary": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's green light for a public rollout of the model. OpenAI CEO Sam Altman called it \"the best model we have ever produced.\" To [&#8230;]",
-      "published": "2026-07-09T17:00:00+00:00",
-      "score": 44.0,
-      "headline": "OPENAI ROLLS OUT GPT-5.6 After Government Green Light... Announces ChatGPT Work"
-    },
-    {
-      "id": "28c3da9b08fe5767",
-      "title": "MiniMax Seeks $1.9 Billion From Share Sale, Convertible Bond",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/minimax-seeks-1-9-billion-from-share-sale-convertible-bond",
-      "source": "Bloomberg Technology",
-      "summary": "MiniMax Group Inc. is looking to raise as much as HK$14.54 billion ($1.9 billion) from selling new shares and convertible bonds, according to terms of the deals seen by Bloomberg News.",
-      "published": "2026-07-09T16:08:36+00:00",
-      "score": 44.0,
-      "headline": "Chinese AI Startup MiniMax Seeks $1.9B Fundraise"
-    },
-    {
-      "id": "f4820c739df3f816",
-      "title": "AI Training Startup Mercor Discusses $20 Billion Valuation",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/ai-training-startup-mercor-discusses-20-billion-valuation",
-      "source": "Bloomberg Technology",
-      "summary": "Mercor, a startup that helps improve artificial intelligence models with rich specialized data, is discussing raising new funds at a roughly $20 billion valuation, according to people familiar with the matter.",
-      "published": "2026-07-09T14:38:05+00:00",
-      "score": 44.0,
-      "headline": "AI Training Startup Mercor in Talks at $20B Valuation"
-    },
-    {
-      "id": "1fb84d02b63d547e",
-      "title": "Zuckerberg Pledges \u2018Aggressive\u2019 Pricing With Meta\u2019s First Pay-to-Use AI",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/meta-starts-charging-for-ai-with-muse-spark-1-1-agentic-model",
-      "source": "Bloomberg Technology",
-      "summary": "In a crowded market for AI tools, Mark Zuckerberg wants to win on price.",
-      "published": "2026-07-09T14:00:00+00:00",
-      "score": 44.0,
-      "headline": "ZUCKERBERG PROMISES 'AGGRESSIVE' PRICING for Meta's First Paid AI"
-    },
-    {
-      "id": "1d19811a58e4bfb6",
-      "title": "IMF Raises S. Korea Growth Most Among Major Economies on AI Boom",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/imf-raises-s-korea-growth-most-among-major-economies-on-ai-boom",
-      "source": "Bloomberg Technology",
-      "summary": "South Korea\u2019s growth outlook received the biggest upgrade among the world\u2019s 30 major economies in the International Monetary Fund\u2019s latest projections, adding to evidence that the country\u2019s artificial intelligence-driven semiconductor boom is overpowering the economic hit from the Middle East conflict.",
-      "published": "2026-07-09T00:19:32+00:00",
-      "score": 44.0,
-      "headline": "IMF UPGRADES SOUTH KOREA MOST ON AI CHIP BOOM"
     },
     {
       "id": "95eff52d68a3bd65",
@@ -969,55 +849,175 @@
       "headline": "OPENAI LEADERSHIP SHAKEUP: Fidji Simo Steps Down"
     },
     {
-      "id": "ee3f32770183596f",
-      "title": "Fidji Simo steps down from OpenAI\u2019s no. 2 role",
-      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
-      "source": "TechCrunch AI",
-      "summary": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected \u2014 a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market.",
-      "published": "2026-07-09T23:38:00+00:00",
-      "score": 43.0,
-      "headline": "OPENAI NO. 2 FIDJI SIMO STEPS DOWN... Medical Leave"
-    },
-    {
-      "id": "2dea2002746c470b",
-      "title": "OpenAI, Anthropic Hit New Speed Bump With US Government",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-07-09/openai-anthropic-hit-new-speed-bump-with-us-government",
-      "source": "Bloomberg Technology",
-      "summary": "The Trump administration is taking a more active role in reviewing AI models.",
-      "published": "2026-07-09T20:03:35+00:00",
-      "score": 43.0,
-      "headline": "TRUMP ADMIN TIGHTENS GRIP: OpenAI, Anthropic Face New Review Process"
-    },
-    {
-      "id": "ce3ab4361d965504",
-      "title": "OpenAI releases latest ChatGPT model after delay over White House cybersecurity concerns",
-      "url": "https://www.theguardian.com/technology/2026/jul/09/trump-administration-openai-chatgpt-cybersecurity",
-      "source": "The Guardian Tech",
-      "summary": "Staggered release of ChatGPT 5.6 follows similar restrictions on rival firm Anthropic\u2019s latest AI modelsOpenAI released its latest advanced AI model, called ChatGPT 5.6, on Thursday after earlier delaying the public rollout over US government concerns about cybersecurity. The Trump administration had requested last month that OpenAI limit the release to a small group of government-approved users.OpenAI complied with the White House\u2019s request last month. The company stated in a blogpost that it had briefed government officials on ChatGPT 5.6\u2019s capabilities and restricted the model to trusted partners at their behest. The product\u2019s wider release came after additional testing by the government\u2019s Center for AI Standards and Innovation agency, according to Axios. Continue reading...",
-      "published": "2026-07-09T18:48:23+00:00",
-      "score": 43.0,
-      "headline": "WHITE HOUSE Delays OpenAI ChatGPT 5.6 Over Cybersecurity Fears"
-    },
-    {
-      "id": "a9ac60dc9fcf283f",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "source": "OpenAI Blog",
-      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "published": "2026-07-09T13:00:00+00:00",
-      "score": 43.0,
-      "headline": "GPT-5.6 NOW POWERS Microsoft 365 Copilot"
-    },
-    {
-      "id": "0113d2d7a0687b31",
-      "title": "France\u2019s antitrust probe into Nvidia is nearing its end, regulator says",
-      "url": "https://thenextweb.com/news/france-nvidia-antitrust-probe-nearing-end",
+      "id": "6b2b1b4aacf33983",
+      "title": "Most Americans now say the public should own half of the big AI companies",
+      "url": "https://thenextweb.com/news/most-americans-now-say-the-public-should-own-half-of-the-big-ai-companies",
       "source": "The Next Web",
-      "summary": "France\u2019s competition regulator has signalled that its long-running inquiry into Nvidia is drawing to a close, edging the world\u2019s most valuable chipmaker nearer to a formal reckoning over how it wields its grip on the market for artificial intelligence hardware. The company has long been tipped to face antitrust charges in France, and any decision could [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-09T11:53:41+00:00",
-      "score": 43.0,
-      "headline": "FRANCE ANTITRUST PROBE INTO NVIDIA NEARS END... Reckoning Looms"
+      "summary": "An idea that sounded radical a year ago is now a majority position. Nearly seven in ten Americans support forcing AI companies to transfer half their stock to a public sovereign wealth fund, CNBC reports. The figure comes from a Verasight survey of 1,690 US adults, conducted in June. It found 69% backing for the policy. [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-12T14:22:13+00:00",
+      "score": 42.0,
+      "headline": "70% of Americans Back Public Ownership of AI Giants"
+    },
+    {
+      "id": "18d7aff490717035",
+      "title": "Inside the secret AI war between Silicon Valley and China",
+      "url": "https://www.washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude/ Comments URL: https://news.ycombinator.com/item?id=48878812 Points: 1 # Comments: 1",
+      "published": "2026-07-12T06:20:27+00:00",
+      "score": 42.0,
+      "headline": "INSIDE THE SECRET AI WAR: Silicon Valley vs China"
+    },
+    {
+      "id": "05f1cbb3f3761da1",
+      "title": "DeepSeek developing its own AI chip, sources say",
+      "url": "https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/ Comments URL: https://news.ycombinator.com/item?id=48878697 Points: 3 # Comments: 0",
+      "published": "2026-07-12T05:53:37+00:00",
+      "score": 42.0,
+      "headline": "DEEPSEEK DEVELOPING ITS OWN AI CHIP"
+    },
+    {
+      "id": "70353f9ed43410cf",
+      "title": "OpenAI has folded safety into research again. Its head of safety is leaving.",
+      "url": "https://thenextweb.com/news/openai-heidecke-safety-head-leaving-research-merger",
+      "source": "The Next Web",
+      "summary": "OpenAI\u2019s head of safety systems, Johannes Heidecke, is leaving the company following an internal restructuring that merges its safety and research teams under a single leader, Wired reported on Friday. Chief Research Officer Mark Chen told staff in a memo that safety teams would now report to Mia Glaese, whose title has been expanded to [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-11T11:10:24+00:00",
+      "score": 42.0,
+      "headline": "OpenAI Safety Chief EXITS After Org Merges Safety Into Research"
+    },
+    {
+      "id": "003ad66e6c52ec1d",
+      "title": "AI Found a Root Bug in Linux That Everyone Missed for 15 Years",
+      "url": "https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years/",
+      "source": "Wired",
+      "summary": "Plus: The Pentagon is training amateurs to become part of its hacker army, a Flock license plate reader error led to cops surrounding a car reviewer, and more.",
+      "published": "2026-07-11T10:30:00+00:00",
+      "score": 42.0,
+      "headline": "AI FINDS 15-YEAR-OLD ROOT BUG IN LINUX KERNEL"
+    },
+    {
+      "id": "67a26c545c5bbaaa",
+      "title": "Meta killed its Muse Image AI feature three days after launch. Hollywood had had enough.",
+      "url": "https://thenextweb.com/news/meta-muse-image-instagram-privacy-backlash-pulled",
+      "source": "The Next Web",
+      "summary": "Meta has pulled its Muse Image AI feature from Instagram and the Meta AI app just three days after launch, saying the tool \u201cmissed the mark\u201d on user privacy. The model, the first image generator to emerge from Meta Superintelligence Labs under chief AI officer Alexandr Wang, launched on Tuesday with a design flaw that proved [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-11T10:26:16+00:00",
+      "score": 42.0,
+      "headline": "META KILLS MUSE IMAGE AI THREE DAYS AFTER LAUNCH"
+    },
+    {
+      "id": "b20832818d6d8121",
+      "title": "OpenAI's Atlas browser doesn't make it to its first birthday",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/10/openais-atlas-browser-doesnt-make-it-to-its-first-birthday/5269818",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/07/10/openais-atlas-browser-doesnt-make-it-to-its-first-birthday/5269818 Comments URL: https://news.ycombinator.com/item?id=48861307 Points: 4 # Comments: 0",
+      "published": "2026-07-10T15:29:49+00:00",
+      "score": 42.0,
+      "headline": "OPENAI KILLS ATLAS BROWSER BEFORE FIRST BIRTHDAY"
+    },
+    {
+      "id": "21faccdae441064d",
+      "title": "SK Chairman Calls SK Hynix US Debut a 'Dream Come True'",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-10/sk-chairman-calls-sk-hynix-us-debut-a-dream-come-true-video",
+      "source": "Bloomberg Technology",
+      "summary": "Chey Tae-won, chairman of SK Hynix parent SK Group, discusses SK Hynix's listing on the Nasdaq and says he hopes to expand the ADR size once there is a good return. He speaks with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-07-10T15:03:38+00:00",
+      "score": 42.0,
+      "headline": "SK Hynix Chairman: US Nasdaq Debut a 'Dream Come True'"
+    },
+    {
+      "id": "83ce54e450789246",
+      "title": "China becomes the second country to recover a rocket booster",
+      "url": "https://www.engadget.com/2212193/china-becomes-second-country-to-recover-rocket-booster/",
+      "source": "Engadget",
+      "summary": "China made a breakthrough in its space program with the successful capture of a Long March 10B rocket booster.",
+      "published": "2026-07-10T13:10:00+00:00",
+      "score": 42.0,
+      "headline": null
+    },
+    {
+      "id": "9ee315ae3500651b",
+      "title": "GPT-5.6 Sol, Terra, and Luna are here. See which ones best for you.",
+      "url": "https://mashable.com/tech/openai-gpt-56-sol-terra-luna",
+      "source": "Mashable Tech",
+      "summary": "OpenAI has launched a new family of LLMs: GPT-5.6 Sol, Terra, and Luna, but they're not all the same.",
+      "published": "2026-07-10T13:09:16+00:00",
+      "score": 42.0,
+      "headline": "GPT-5.6 DROPS: Sol, Terra, Luna Models Now Live"
+    },
+    {
+      "id": "1d2c6492356b799d",
+      "title": "Anthropic is now worth $1.2 trillion on paper. Almost nobody can buy in",
+      "url": "https://thenextweb.com/news/anthropic-1-2-trillion-secondary-valuation-openai",
+      "source": "The Next Web",
+      "summary": "Anthropic is the hottest stock in private tech. It is also one of the hardest to buy, and that is exactly why the price keeps climbing. Shares in Anthropic are changing hands on secondary markets at an implied valuation of $1.2 trillion, Business Insider reports. That is a 550% jump in a year. It puts [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-10T13:00:18+00:00",
+      "score": 42.0,
+      "headline": "Anthropic Hits $1.2 TRILLION Valuation... Nobody Can Buy In"
+    },
+    {
+      "id": "10aa642c1c0d24b9",
+      "title": "OpenAI unveils long-awaited 'super app' as rivalry with Anthropic intensifies",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-unveils-long-awaited-super-app-as-rivalry-with-anthropic-intensifies/articleshow/132310601.cms",
+      "source": "The Economic Times Tech",
+      "summary": "OpenAI introduced ChatGPT Work, an AI agent for professionals, on Thursday. This new tool combines chatbot and coding capabilities for document creation. It utilizes the advanced GPT-5.6 model, which debuted the same day. ChatGPT Work aims to offer a more affordable and accessible alternative to rivals. The launch signifies growing competition in the enterprise AI tools market.",
+      "published": "2026-07-10T11:28:02+00:00",
+      "score": 42.0,
+      "headline": "OPENAI DROPS 'SUPER APP' CHATGPT WORK WITH GPT-5.6"
+    },
+    {
+      "id": "7074dfdac2b29362",
+      "title": "Taiwanese chipmaker Nanya plans $6 billion in spending in 2027, riding AI boom",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/taiwanese-chipmaker-nanya-plans-6-billion-in-spending-in-2027-riding-ai-boom/articleshow/132308807.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Taiwanese memory chipmaker Nanya Technology plans substantial capital spending next year. This increased investment is driven by soaring demand for memory chips. The company's revenue and net income saw significant surges in the second quarter. Artificial intelligence is underpinning a stronger long-term outlook for the memory industry. Global memory makers are also ramping up investments to meet this demand.",
+      "published": "2026-07-10T10:02:19+00:00",
+      "score": 42.0,
+      "headline": "Taiwan's Nanya to Spend $6B on AI Chips in 2027"
+    },
+    {
+      "id": "1eb12820f7b537f1",
+      "title": "SK Hynix set for marquee US debut in test for AI appetite",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/sk-hynix-set-for-marquee-us-debut-in-test-for-ai-appetite/articleshow/132307825.cms",
+      "source": "The Economic Times Tech",
+      "summary": "SK Hynix's U.S. debut tests investor belief in the AI boom's durability. The South Korean chipmaker's offering is the second-largest share sale in the United States. This move provides direct access to the world's largest pool of investors. SK Hynix leads in high-bandwidth memory chips essential for AI. Spending on AI infrastructure is expected to grow significantly by 2027.",
+      "published": "2026-07-10T09:58:47+00:00",
+      "score": 42.0,
+      "headline": "SK Hynix US Debut Tests Wall Street's AI Appetite"
+    },
+    {
+      "id": "25d9e2e77575fca9",
+      "title": "South Korea chip maker SK hynix rides AI boom raising $26.5bn in huge US listing",
+      "url": "https://www.theguardian.com/world/2026/jul/10/south-korea-chip-maker-sk-hynix-rides-ai-boom-raising-265bn-in-huge-us-listing",
+      "source": "The Guardian Tech",
+      "summary": "SK hynix, a supplier of advanced memory chips, has seen profits skyrocket thanks to the global race to build AI datacentresSouth Korean chip maker SK hynix set pricing for its mega US listing on Friday, aiming to raise $26.5bn as it takes advantage of the AI boom in what will be one of the world\u2019s biggest ever stock sales.The Asian semiconductor giant plans to issue the equivalent of about 18m shares on Wall Street\u2019s tech-heavy Nasdaq index later in the day. Continue reading...",
+      "published": "2026-07-10T05:06:57+00:00",
+      "score": 42.0,
+      "headline": "SK HYNIX RAISES $26.5B Riding AI Memory Chip Boom"
+    },
+    {
+      "id": "8130a3c0ba786a6f",
+      "title": "OpenAI's big launch \u2014 and bigger departure",
+      "url": "https://www.platformer.news/openai-gpt-5-6-simo-meta-muse-spark-1-1/",
+      "source": "Platformer",
+      "summary": "GPT-5.6 impresses the critics, but Fidji Simo's exit leaves OpenAI's focus \u2014 and its org chart \u2014 in flux. PLUS: Meta plays catch-up, and the \"AI 2027\" authors present \"AI 2040.\"",
+      "published": "2026-07-10T00:18:21+00:00",
+      "score": 42.0,
+      "headline": "GPT-5.6 LAUNCHES as Fidji Simo EXITS - OpenAI in Flux"
+    },
+    {
+      "id": "0e7124a8da9c9fb6",
+      "title": "AI has triggered the biggest gas-plant building boom in history, and a quiet fight to stop it",
+      "url": "https://thenextweb.com/news/ai-data-centres-gas-plants-clean-energy-fight",
+      "source": "The Next Web",
+      "summary": "The AI build-out has done something the fossil-fuel industry could not do for itself. It has set off the largest-ever construction boom in natural gas-fired power plants, the Associated Press reports. Aging coal plants are being kept alive past their retirement dates too. Utilities, plant owners, and the federal government have all pushed to postpone the [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-12T15:21:32+00:00",
+      "score": 41.0,
+      "headline": "AI SPARKS BIGGEST GAS PLANT BOOM IN HISTORY"
     }
   ],
-  "generated_at": "2026-07-12T23:46:37.173494"
+  "generated_at": "2026-07-13T02:11:01.590199"
 }
