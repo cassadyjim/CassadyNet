@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Apple Sues OpenAI",
+      "description": "Apple has filed a major lawsuit against OpenAI alleging trade secret theft and employee poaching, marking a dramatic collapse in Silicon Valley relationships.",
+      "question": "Does Apple's lawsuit represent justified protection or competitive overreach?",
+      "button_a": "Protection",
+      "button_b": "Overreach",
+      "poll_id": "apple-sues-openai-20260711",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-apple-vs-openai-lawsuit-20260714.html",
+      "started_at": "2026-07-11T14:48:39.986821",
+      "archived_at": "2026-07-14T22:55:54.658771",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China Tech Deals and US Export Controls",
       "description": "China blocked Meta's Manus acquisition while Tencent moves in, and US AI companies are allegedly selling to blacklisted Chinese firms despite sanctions.",
       "question": "Are export controls effectively protecting US tech interests from China?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-anthropic-mega-funding-20260514.html",
       "started_at": "2026-05-13T02:43:11.988453",
       "archived_at": "2026-05-14T11:50:29.554256",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "South Korea AI Policy",
-      "description": "South Korea is pioneering government policies to redistribute AI profits to citizens as tech companies boom.",
-      "question": "Should South Korea redistribute AI profits to all citizens?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "south-korea-ai-policy-20260512",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-south-korea-ai-policy-20260513.html",
-      "started_at": "2026-05-12T21:17:13.462046",
-      "archived_at": "2026-05-13T21:25:31.986975",
       "reason": "topic_replaced"
     }
   ]
