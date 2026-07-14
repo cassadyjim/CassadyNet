@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "US-China AI Rivalry",
-      "description": "Escalating tensions between the US and China over AI technology involving export bans, black market chips, and Xi Jinping's direct involvement in China's AI summit.",
+      "topic": "US-China AI Tech War",
+      "description": "Escalating geopolitical tensions as both nations battle over AI chip access, technology restrictions, and market control amid intensifying rivalry.",
       "stories": [
         {
           "id": "0e15dab9ee141e90",
@@ -55,6 +55,16 @@
           "headline": "CHINA BANS CLAUDE CODE... Domestic AI Tools Surge"
         },
         {
+          "id": "d4a3c9088bc75a13",
+          "title": "Indian companies look to Chinese LLMs as AI costs bite",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/indian-companies-look-to-chinese-llms-as-ai-costs-bite",
+          "source": "Hacker News",
+          "summary": "Article URL: https://asia.nikkei.com/business/technology/artificial-intelligence/indian-companies-look-to-chinese-llms-as-ai-costs-bite Comments URL: https://news.ycombinator.com/item?id=48890208 Points: 1 # Comments: 0",
+          "published": "2026-07-13T09:52:36+00:00",
+          "score": 47.0,
+          "headline": "Indian Companies Pivot to Chinese LLMs as AI Costs Soar"
+        },
+        {
           "id": "15411bedf28e9682",
           "title": "Washington Is Looking to Keep China From Training Its AI on US Models",
           "url": "https://www.bloomberg.com/news/articles/2026-07-13/anthropic-openai-warnings-prompt-distillation-debate-in-dc",
@@ -65,6 +75,16 @@
           "headline": "US MOVES TO BLOCK CHINA FROM TRAINING ON AMERICAN AI"
         },
         {
+          "id": "67cc884072021358",
+          "title": "WSJ Article Claiming China Has Matched Anthropic Is Obvious Nonsense",
+          "url": "https://www.lesswrong.com/posts/2zSpuGJRk6EyjHAL6/wsj-article-claiming-china-has-matched-anthropic-is-obvious-1",
+          "source": "LessWrong AI",
+          "summary": "The Wall Street Journal printed an outright false headline and heavily misleading story claiming this, which of course was uncritically amplified by the usual suspects. I post this now on its own so that we have a place to link to, to explain the situation. Headline News WSJ Headline (Obvious Nonsense): \u200bChina Has Matched Anthropic in Cybersecurity, Resetting AI Race. &nbsp; That. Did. Not. Happen. The post even claims, explicitly, that Claude Opus 4.8 similarly \u2018matches\u2019 Claude Mythos, a claim which is even more obviously false. Shame upon the Wall Street Journal. I fear Gell-Mann Amnesia. If they can get something as important as this so completely wrong, what about everything else? I am skipping over the parts that involve accurate reporting, or minor quibbles. It seems important to focus on clearly debunking the central false claims. Alas, the mistakes made here very much rhyme with mistakes being made throughout all this by the White House, and that get latched onto by certain bad",
+          "published": "2026-07-12T10:42:33+00:00",
+          "score": 46.0,
+          "headline": "WSJ FAKE NEWS: China Hasn't Matched Anthropic, Claims Debunked"
+        },
+        {
           "id": "6b6a2ae0e6c62210",
           "title": "Lonsdale Suggests Forgoing Patents to Avoid China Taking IP",
           "url": "https://www.bloomberg.com/news/articles/2026-07-13/lonsdale-suggests-forgoing-patents-to-avoid-china-taking-ip",
@@ -73,14 +93,64 @@
           "published": "2026-07-13T18:32:18+00:00",
           "score": 44.0,
           "headline": "LONSDALE: Skip Patents to Stop China Stealing AI IP"
+        },
+        {
+          "id": "718bbbc73284b2df",
+          "title": "Companies turn to Chinese AI models to cut costs",
+          "url": "https://www.ft.com/content/9c8ff45b-7c20-4c2e-93c9-c52339ffdcee",
+          "source": "Financial Times Tech",
+          "summary": "DoorDash, Siemens and Airbnb are among those seeking to curb ballooning bills and reduce reliance on US technology",
+          "published": "2026-07-13T04:00:17+00:00",
+          "score": 44.0,
+          "headline": "DoorDash, Airbnb SWITCH to Chinese AI Models... Cost Cuts"
+        },
+        {
+          "id": "b643f8a811a24be2",
+          "title": "MiniMax Shares Slump After JPMorgan Cuts Target Price Further",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-13/minimax-shares-slump-after-jpmorgan-cuts-target-price-further",
+          "source": "Bloomberg Technology",
+          "summary": "MiniMax Group Inc.\u2019s shares plunged, after JPMorgan Chase &amp; Co. slashed the Chinese AI model maker\u2019s price target for the second time in less than a week on value dilution concerns caused by fresh fundraising.",
+          "published": "2026-07-13T03:23:30+00:00",
+          "score": 44.0,
+          "headline": "MiniMax PLUNGES as JPMorgan Slashes Price Target Again"
+        },
+        {
+          "id": "dd2a5fd65c6794f7",
+          "title": "Chinese developers are climbing the firewall to pay more for GPT-5.6, and doing the maths on why",
+          "url": "https://thenextweb.com/news/china-users-gpt-5-6-token-efficiency",
+          "source": "The Next Web",
+          "summary": "OpenAI\u2019s new GPT-5.6 models are winning praise from an unlikely group. Users in mainland China, where the service is blocked and reachable only by VPN or third-party proxy, told the South China Morning Post the models are worth the extra cost. That is a striking verdict, because the extra cost is not small. Chinese frontier models undercut [&hellip;] This story continues at The Next Web",
+          "published": "2026-07-12T14:11:00+00:00",
+          "score": 44.0,
+          "headline": "Chinese Devs Climb Firewall to Pay Premium for GPT-5.6"
+        },
+        {
+          "id": "41e6c1d769034a62",
+          "title": "Zhipu\u2019s Chinese Founder Says Frontier AI Should Stay Open to All",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all",
+          "source": "Bloomberg Technology",
+          "summary": "The founder of Chinese AI lab Zhipu argued that frontier artificial intelligence should remain broadly accessible rather than controlled by select individuals, weighing in on a growing debate about the risks posed by ever more powerful models.",
+          "published": "2026-07-12T06:59:51+00:00",
+          "score": 44.0,
+          "headline": "ZHIPU FOUNDER: Keep Frontier AI Open to All"
+        },
+        {
+          "id": "91bf047f74f7c1ff",
+          "title": "China's DeepSeek developing its own AI chip, sources say",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu15mz/chinas_deepseek_developing_its_own_ai_chip/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "&#32; submitted by &#32; /u/TheRealMasonMac [link] &#32; [comments]",
+          "published": "2026-07-12T01:04:07+00:00",
+          "score": 44.0,
+          "headline": "DEEPSEEK DEVELOPING ITS OWN AI CHIP"
         }
       ],
       "top_score": 51.0,
-      "story_count": 7
+      "story_count": 14
     },
     {
-      "topic": "Apple Sues OpenAI",
-      "description": "Apple has filed a major lawsuit against OpenAI for alleged trade secret theft and unauthorized access by employees, potentially threatening OpenAI's device strategy.",
+      "topic": "Apple vs OpenAI Lawsuit",
+      "description": "Major legal battle erupts as Apple sues OpenAI for allegedly stealing trade secrets and intellectual property through employee misconduct.",
       "stories": [
         {
           "id": "018ce241efba7153",
@@ -191,33 +261,23 @@
           "published": "2026-07-12T14:52:52+00:00",
           "score": 44.0,
           "headline": "APPLE SUES OPENAI FOR TRADE SECRET THEFT"
-        },
-        {
-          "id": "03ede3e862d736d7",
-          "title": "How Apple\u2019s Lawsuit Could Disrupt OpenAI\u2019s Bid to Rival the iPhone",
-          "url": "https://www.bloomberg.com/news/videos/2026-07-13/apple-s-lawsuit-could-disrupt-openai-bid-to-rival-iphone-video",
-          "source": "Bloomberg Technology",
-          "summary": "Apple's lawsuit accusing OpenAI of systematically stealing its intellectual property threatens to disrupt the AI company\u2019s device ambitions long before the case is resolved. Bloomberg's Mark Gurman joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "published": "2026-07-13T18:32:02+00:00",
-          "score": 43.0,
-          "headline": "APPLE LAWSUIT THREATENS OpenAI's Device Ambitions"
-        },
-        {
-          "id": "7f377148ce5262d0",
-          "title": "Apple\u2019s Lawsuit Threatens to Disrupt OpenAI\u2019s Bid to Rival the iPhone",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-13/how-apple-s-lawsuit-threatens-to-disrupt-openai-s-bid-to-rival-the-iphone",
-          "source": "Bloomberg Technology",
-          "summary": "Apple Inc.\u2019s lawsuit accusing OpenAI of systematically stealing its intellectual property threatens to disrupt the AI company\u2019s device ambitions long before the case is resolved.",
-          "published": "2026-07-13T12:32:47+00:00",
-          "score": 43.0,
-          "headline": "APPLE LAWSUIT THREATENS OpenAI Device Strategy"
         }
       ],
       "top_score": 47.0,
-      "story_count": 13
+      "story_count": 11
     }
   ],
   "unclustered": [
+    {
+      "id": "de3ee481f2555c75",
+      "title": "Finland\u2019s NestAI Builds Sovereign AI Tools for Europe Militaries",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/finland-s-nestai-builds-sovereign-ai-tools-for-europe-militaries",
+      "source": "Bloomberg Technology",
+      "summary": "Finnish artificial intelligence lab NestAI Oy is launching an AI engine that the Finnish and Estonian militaries will use to create sovereign models for planning operations and enabling uncrewed autonomous systems.",
+      "published": "2026-07-14T06:00:00+00:00",
+      "score": 49.0,
+      "headline": "FINLAND'S NESTAI BUILDS SOVEREIGN AI FOR EUROPE MILITARIES"
+    },
     {
       "id": "4bee902986585ed6",
       "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
@@ -229,14 +289,14 @@
       "headline": "PixVerse RAISES $439M... Video-Gen Unicorn Hits $2B Valuation"
     },
     {
-      "id": "d4a3c9088bc75a13",
-      "title": "Indian companies look to Chinese LLMs as AI costs bite",
-      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/indian-companies-look-to-chinese-llms-as-ai-costs-bite",
-      "source": "Hacker News",
-      "summary": "Article URL: https://asia.nikkei.com/business/technology/artificial-intelligence/indian-companies-look-to-chinese-llms-as-ai-costs-bite Comments URL: https://news.ycombinator.com/item?id=48890208 Points: 1 # Comments: 0",
-      "published": "2026-07-13T09:52:36+00:00",
-      "score": 47.0,
-      "headline": "Indian Companies Pivot to Chinese LLMs as AI Costs Soar"
+      "id": "f7e0f60e4738379d",
+      "title": "SoftBank's Masayoshi Son says AI will need $5 trillion per year by 2040, dismisses bubble talk",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/softbanks-masayoshi-son-says-ai-will-need-5-trillion-per-year-by-2040-dismisses-bubble-talk/articleshow/132381980.cms",
+      "source": "The Economic Times Tech",
+      "summary": "\"The business model will be viable because by 2040, if AI revenue makes up 20% of \u200bglobal GDP, spending 800 trillion yen a year is a rounding error,\" Son said.",
+      "published": "2026-07-14T05:38:40+00:00",
+      "score": 46.0,
+      "headline": "MASAYOSHI SON: AI WILL NEED $5 TRILLION YEARLY BY 2040"
     },
     {
       "id": "cc8a6a558d7991f8",
@@ -247,16 +307,6 @@
       "published": "2026-07-13T11:45:36+00:00",
       "score": 46.0,
       "headline": "Samsung, SK Hynix Race to Expand AI Chip Capacity"
-    },
-    {
-      "id": "67cc884072021358",
-      "title": "WSJ Article Claiming China Has Matched Anthropic Is Obvious Nonsense",
-      "url": "https://www.lesswrong.com/posts/2zSpuGJRk6EyjHAL6/wsj-article-claiming-china-has-matched-anthropic-is-obvious-1",
-      "source": "LessWrong AI",
-      "summary": "The Wall Street Journal printed an outright false headline and heavily misleading story claiming this, which of course was uncritically amplified by the usual suspects. I post this now on its own so that we have a place to link to, to explain the situation. Headline News WSJ Headline (Obvious Nonsense): \u200bChina Has Matched Anthropic in Cybersecurity, Resetting AI Race. &nbsp; That. Did. Not. Happen. The post even claims, explicitly, that Claude Opus 4.8 similarly \u2018matches\u2019 Claude Mythos, a claim which is even more obviously false. Shame upon the Wall Street Journal. I fear Gell-Mann Amnesia. If they can get something as important as this so completely wrong, what about everything else? I am skipping over the parts that involve accurate reporting, or minor quibbles. It seems important to focus on clearly debunking the central false claims. Alas, the mistakes made here very much rhyme with mistakes being made throughout all this by the White House, and that get latched onto by certain bad",
-      "published": "2026-07-12T10:42:33+00:00",
-      "score": 46.0,
-      "headline": "WSJ FAKE NEWS: China Hasn't Matched Anthropic, Claims Debunked"
     },
     {
       "id": "e7f9577ec48d7b6f",
@@ -307,6 +357,36 @@
       "published": "2026-07-11T09:00:00+00:00",
       "score": 45.0,
       "headline": "SK HYNIX $26.5B NASDAQ DEBUT POWERED BY AI BOOM"
+    },
+    {
+      "id": "ad7c63bf424d944f",
+      "title": "DeepSeek\u2019s Liang Wenfeng tops Dario Amodei and Greg Brockman as richest AI founder",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseeks-liang-wenfeng-tops-anthropics-dario-amodei-and-openais-greg-brockman-as-richest-ai-founder/articleshow/132382968.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Liang is now worth $36 billion, up from about $16.7 billion previously, according to the Bloomberg Billionaires Index. That ranks him well above Anthropic PBC co-founder Dario Amodei and OpenAI\u2019s Greg Brockman.",
+      "published": "2026-07-14T06:29:50+00:00",
+      "score": 44.0,
+      "headline": "DEEPSEEK'S LIANG WENFENG NOW RICHEST AI FOUNDER AT $36B"
+    },
+    {
+      "id": "47ab32f0d091a8ca",
+      "title": "SoftBank Billionaire: Nuclear Fusion as Key to AI Future",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-14/softbank-billionaire-nuclear-fusion-as-key-to-ai-future-video",
+      "source": "Bloomberg Technology",
+      "summary": "SoftBank founder Masayoshi Son said that in the not-so-distant future, nuclear fusion technology will offer the most realistic solution for powering AI data centers\u2019 ballooning needs. He speaks at an annual SoftBank World event in Tokyo. (Source: Bloomberg)",
+      "published": "2026-07-14T05:58:10+00:00",
+      "score": 44.0,
+      "headline": "SOFTBANK'S SON: NUCLEAR FUSION KEY TO AI FUTURE"
+    },
+    {
+      "id": "d4fda06ca628bde4",
+      "title": "SoftBank\u2019s Son ridicules AI critics for \u2018spitting upwards\u2019",
+      "url": "https://www.ft.com/content/fc0d48f4-a2ce-45b1-a0ad-83a0a8409f00",
+      "source": "Financial Times Tech",
+      "summary": "Business leaders unwilling to embrace technology \u2018should play the role of spouse\u2019, says controversial investor",
+      "published": "2026-07-14T05:09:52+00:00",
+      "score": 44.0,
+      "headline": "SOFTBANK'S SON RIDICULES AI CRITICS FOR 'SPITTING UPWARDS'"
     },
     {
       "id": "102e5c971823c587",
@@ -399,26 +479,6 @@
       "headline": "TSMC Sales SURGE 36% as AI Spending Accelerates"
     },
     {
-      "id": "718bbbc73284b2df",
-      "title": "Companies turn to Chinese AI models to cut costs",
-      "url": "https://www.ft.com/content/9c8ff45b-7c20-4c2e-93c9-c52339ffdcee",
-      "source": "Financial Times Tech",
-      "summary": "DoorDash, Siemens and Airbnb are among those seeking to curb ballooning bills and reduce reliance on US technology",
-      "published": "2026-07-13T04:00:17+00:00",
-      "score": 44.0,
-      "headline": "DoorDash, Airbnb SWITCH to Chinese AI Models... Cost Cuts"
-    },
-    {
-      "id": "b643f8a811a24be2",
-      "title": "MiniMax Shares Slump After JPMorgan Cuts Target Price Further",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-13/minimax-shares-slump-after-jpmorgan-cuts-target-price-further",
-      "source": "Bloomberg Technology",
-      "summary": "MiniMax Group Inc.\u2019s shares plunged, after JPMorgan Chase &amp; Co. slashed the Chinese AI model maker\u2019s price target for the second time in less than a week on value dilution concerns caused by fresh fundraising.",
-      "published": "2026-07-13T03:23:30+00:00",
-      "score": 44.0,
-      "headline": "MiniMax PLUNGES as JPMorgan Slashes Price Target Again"
-    },
-    {
       "id": "cc1b530dfd2012d8",
       "title": "Hyundai Motor Workers Strike Over Bonuses, Robot Job Security",
       "url": "https://www.bloomberg.com/news/articles/2026-07-13/hyundai-hymtf-workers-strike-over-bonuses-ai-robot-job-security",
@@ -429,16 +489,6 @@
       "headline": "HYUNDAI WORKERS STRIKE Over Robot Job Security Fears"
     },
     {
-      "id": "dd2a5fd65c6794f7",
-      "title": "Chinese developers are climbing the firewall to pay more for GPT-5.6, and doing the maths on why",
-      "url": "https://thenextweb.com/news/china-users-gpt-5-6-token-efficiency",
-      "source": "The Next Web",
-      "summary": "OpenAI\u2019s new GPT-5.6 models are winning praise from an unlikely group. Users in mainland China, where the service is blocked and reachable only by VPN or third-party proxy, told the South China Morning Post the models are worth the extra cost. That is a striking verdict, because the extra cost is not small. Chinese frontier models undercut [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-12T14:11:00+00:00",
-      "score": 44.0,
-      "headline": "Chinese Devs Climb Firewall to Pay Premium for GPT-5.6"
-    },
-    {
       "id": "29b69f3ead53eb37",
       "title": "India's TCS plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
       "url": "https://www.channelnewsasia.com/business/indias-tata-consultancy-services-plans-up-8900-ai-deployment-engineers-seeks-ai-acquisitions-6249086",
@@ -447,26 +497,6 @@
       "published": "2026-07-12T12:48:49+00:00",
       "score": 44.0,
       "headline": "India's TCS Hiring 8,900 AI Engineers, Eyes Acquisitions"
-    },
-    {
-      "id": "41e6c1d769034a62",
-      "title": "Zhipu\u2019s Chinese Founder Says Frontier AI Should Stay Open to All",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all",
-      "source": "Bloomberg Technology",
-      "summary": "The founder of Chinese AI lab Zhipu argued that frontier artificial intelligence should remain broadly accessible rather than controlled by select individuals, weighing in on a growing debate about the risks posed by ever more powerful models.",
-      "published": "2026-07-12T06:59:51+00:00",
-      "score": 44.0,
-      "headline": "ZHIPU FOUNDER: Keep Frontier AI Open to All"
-    },
-    {
-      "id": "91bf047f74f7c1ff",
-      "title": "China's DeepSeek developing its own AI chip, sources say",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu15mz/chinas_deepseek_developing_its_own_ai_chip/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "&#32; submitted by &#32; /u/TheRealMasonMac [link] &#32; [comments]",
-      "published": "2026-07-12T01:04:07+00:00",
-      "score": 44.0,
-      "headline": "DEEPSEEK DEVELOPING ITS OWN AI CHIP"
     },
     {
       "id": "eaa400c1f8579e8b",
@@ -499,6 +529,16 @@
       "headline": "SK Hynix Wavers After AI Memory Selloff Hits Wall Street"
     },
     {
+      "id": "03ede3e862d736d7",
+      "title": "How Apple\u2019s Lawsuit Could Disrupt OpenAI\u2019s Bid to Rival the iPhone",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-13/apple-s-lawsuit-could-disrupt-openai-bid-to-rival-iphone-video",
+      "source": "Bloomberg Technology",
+      "summary": "Apple's lawsuit accusing OpenAI of systematically stealing its intellectual property threatens to disrupt the AI company\u2019s device ambitions long before the case is resolved. Bloomberg's Mark Gurman joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-07-13T18:32:02+00:00",
+      "score": 43.0,
+      "headline": "APPLE LAWSUIT THREATENS OpenAI's Device Ambitions"
+    },
+    {
       "id": "8cd190c54b2e6597",
       "title": "AI Selloff, Apple vs. OpenAI & the Future of Defense Tech | Bloomberg Tech 7/13/2026",
       "url": "https://www.bloomberg.com/news/videos/2026-07-13/bloomberg-tech-7-13-2026-video",
@@ -507,6 +547,16 @@
       "published": "2026-07-13T18:28:07+00:00",
       "score": 43.0,
       "headline": "AI SELLOFF: South Korea Crash Hits US Markets"
+    },
+    {
+      "id": "7f377148ce5262d0",
+      "title": "Apple\u2019s Lawsuit Threatens to Disrupt OpenAI\u2019s Bid to Rival the iPhone",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-13/how-apple-s-lawsuit-threatens-to-disrupt-openai-s-bid-to-rival-the-iphone",
+      "source": "Bloomberg Technology",
+      "summary": "Apple Inc.\u2019s lawsuit accusing OpenAI of systematically stealing its intellectual property threatens to disrupt the AI company\u2019s device ambitions long before the case is resolved.",
+      "published": "2026-07-13T12:32:47+00:00",
+      "score": 43.0,
+      "headline": "APPLE LAWSUIT THREATENS OpenAI Device Strategy"
     },
     {
       "id": "1bbb7ac463ae82fb",
@@ -799,6 +849,26 @@
       "headline": "META KILLS MUSE IMAGE AI THREE DAYS AFTER LAUNCH"
     },
     {
+      "id": "01374faf717ab916",
+      "title": "OpenAI's Ad Business Is on Pace to Miss Its Own Forecast by 90%, Analyst Says",
+      "url": "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says/ Comments URL: https://news.ycombinator.com/item?id=48902599 Points: 21 # Comments: 6",
+      "published": "2026-07-14T05:21:02+00:00",
+      "score": 41.0,
+      "headline": "OPENAI AD BUSINESS TO MISS FORECAST BY 90%"
+    },
+    {
+      "id": "35922e83d44df8be",
+      "title": "Trivial Prompt Reframing Bypasses Safety Guardrails in Google\\'s MedGemma-4B",
+      "url": "https://arxiv.org/abs/2607.09804",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2607.09804v1 Announce Type: cross Abstract: Open-weight medical language models are increasingly used as the base of patient-facing and clinician-support applications. Their model cards prohibit specific behaviors -- recommending exact drug dosages, issuing definitive diagnoses, prescribing treatments, adjudicating drug-drug interactions, and advising that emergency care can be skipped -- yet a model card describes intended behavior, not robust behavior. We quantify that gap for MedGemma-4B-it under attacks that require no technical sophistication. We build a fully factorial benchmark of 5 guarded-behavior concepts x 50 deterministically templated questions x 6 lay-accessible attack manners x 3 repetitions (4,500 generations), serve the model locally through Ollama under default sampling, and code every response refuse/hedge/comply with three independent judges (an LLM judge, a transparent regex judge, and an NLI-entailment judge). Under the primary LLM judge the overall Attack S",
+      "published": "2026-07-14T04:00:00+00:00",
+      "score": 41.0,
+      "headline": "GOOGLE'S MEDGEMMA-4B SAFETY BYPASSED WITH TRIVIAL PROMPT REFRAMING"
+    },
+    {
       "id": "1b55426ab1ed015e",
       "title": "The loudest warning about AI and jobs yet",
       "url": "https://www.platformer.news/ai-jobs-warning-brynjolfsson-acemoglu/",
@@ -947,77 +1017,7 @@
       "published": "2026-07-13T12:00:04+00:00",
       "score": 41.0,
       "headline": "Intel Invests \u20ac5B in Irish Plant as AI Chip Demand Surges"
-    },
-    {
-      "id": "b2e5877606841a77",
-      "title": "EU eyes social media curbs for children",
-      "url": "https://www.scmp.com/news/world/europe/article/3360405/eu-eyes-social-media-curbs-children?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "The European \u2060Union will move to limit young \u2060children\u2019s access to social media across the 27-member bloc, European Commission President Ursula von der Leyen said on Monday, in what would be the biggest such effort to date to guard against online dangers. Von \u200cder Leyen presented a paper from two experts recommending a tiered approach, with under-13s only allowed to use social media for limited periods under the supervision of parents, carers and teachers. The curbs would be lifted gradually as...",
-      "published": "2026-07-13T11:34:16+00:00",
-      "score": 41.0,
-      "headline": "EU MOVES TO BAN SOCIAL MEDIA FOR KIDS"
-    },
-    {
-      "id": "186ab4d101796920",
-      "title": "Getting access to Mythos high on priority but other AI models also being utilised: IT Secy",
-      "url": "https://economictimes.indiatimes.com/tech/technology/getting-access-to-mythos-high-on-priority-but-other-ai-models-also-being-utilised-it-secy/articleshow/132365095.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Mythos - an advanced AI model developed by Anthropic - has been able to \"lay bare\" vulnerabilities that existed in the original code of widely-used software programmes but were often left unresolved because they were considered low priority, too costly to fix, or had simply gone undetected, IT secretary S Krishnan noted.",
-      "published": "2026-07-13T11:06:04+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC'S MYTHOS EXPOSES CRITICAL CODE VULNERABILITIES"
-    },
-    {
-      "id": "aa9ed30d8171be5a",
-      "title": "EU to Present Plan to Restrict Children\u2019s Access to Social Media",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-13/eu-to-present-plan-to-restrict-children-s-access-to-social-media",
-      "source": "Bloomberg Technology",
-      "summary": "The European Union will propose a law to restrict children\u2019s access to social media, according to the bloc\u2019s top official, as part of a growing global consensus about the harm it causes.",
-      "published": "2026-07-13T08:44:59+00:00",
-      "score": 41.0,
-      "headline": null
-    },
-    {
-      "id": "05dd87afc3b97cb5",
-      "title": "Saudi Arabia Becomes Top Buyer in Taiwan\u2019s Young Drone Industry",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-13/saudi-arabia-becomes-top-buyer-in-taiwan-s-young-drone-industry",
-      "source": "Bloomberg Technology",
-      "summary": "Saudi Arabia bought a record $47.2 million of drones from Taiwan last month &mdash; a sign the island\u2019s nascent UAV industry is becoming more attractive to buyers.",
-      "published": "2026-07-13T08:18:37+00:00",
-      "score": 41.0,
-      "headline": null
-    },
-    {
-      "id": "174a37d83d801022",
-      "title": "Samsung pulls its first Yongin chip plant forward to 2029",
-      "url": "https://thenextweb.com/news/samsung-yongin-first-fab-2029",
-      "source": "The Next Web",
-      "summary": "Samsung Electronics is moving to begin operations at the first chip plant in its Yongin cluster in 2029, one to two years earlier than planned, industry sources told Yonhap. The pull-forward lands inside a national build-out that already carries an $880bn commitment to chips, data centres and robots, and it follows a year in which every [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-13T08:11:49+00:00",
-      "score": 41.0,
-      "headline": "Samsung Accelerates Yongin Chip Plant to 2029 Amid AI Boom"
-    },
-    {
-      "id": "9c5faf6796ddbe99",
-      "title": "SK Hynix Shares Slump in South Korea After US Listing",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-13/sk-hynix-shares-slump-in-south-korea-after-us-listing-video",
-      "source": "Bloomberg Technology",
-      "summary": "SK Hynix shares declined in Seoul on Monday after the memory chipmaker\u2019s highly-anticipated US trading debut. The company\u2019s $26.5 billion US offering was closely watched as a test of demand for overseas offerings as well as for the longevity of the artificial intelligence rally. Bloomberg's Neil Campling reports. (Source: Bloomberg)",
-      "published": "2026-07-13T05:45:46+00:00",
-      "score": 41.0,
-      "headline": "SK Hynix Shares Slump After $26.5B US Debut"
-    },
-    {
-      "id": "d048e4d696dbee2f",
-      "title": "Optimizing Against Safety Representations: Activation-Guided Adversarial Suffixes and the Geometry of Refusal",
-      "url": "https://arxiv.org/abs/2607.08883",
-      "source": "arXiv cs.LG",
-      "summary": "arXiv:2607.08883v1 Announce Type: new Abstract: Behavioral alignment in large language models often masks fragile internal safety representations. Recent work suggests that refusal behavior is mediated by low-dimensional directions in activation space. This raises questions about how such representations are structured, localized, and accessed by optimization. We study adversarial suffix attacks as a probe of representational alignment. We introduce Activation-Guided GCG, which replaces output-based objectives with losses that directly target a model's internal refusal direction. Across several objective variants, we find that suppressing refusal globally across all layers and positions is more effective than targeting a single layer-position pair. This suggests that safety representations are distributed across the forward pass rather than causally localized to a single site. We further introduce Soft-GCG, a continuous relaxation of discrete suffix optimization using Gumbel-Softmax. S",
-      "published": "2026-07-13T04:00:00+00:00",
-      "score": 41.0,
-      "headline": "BREAKING: New Attack Exposes Fragile LLM Safety Mechanisms"
     }
   ],
-  "generated_at": "2026-07-14T04:50:02.872138"
+  "generated_at": "2026-07-14T07:09:39.816272"
 }
