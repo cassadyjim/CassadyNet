@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "US-China AI Rivalry",
-      "description": "Escalating technology competition between the US and China involving chip exports, trade restrictions, and strategic AI development.",
+      "topic": "US-China AI Chip War",
+      "description": "Escalating tensions as China uses black markets to circumvent US export controls while both nations tighten restrictions on AI technology access.",
       "stories": [
         {
           "id": "0e15dab9ee141e90",
@@ -55,26 +55,6 @@
           "headline": "CHINA BANS CLAUDE CODE... Domestic AI Tools Surge"
         },
         {
-          "id": "898143f53d15327d",
-          "title": "China's exports ride AI boom as domestic economy struggles",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-exports-ride-ai-boom-as-domestic-economy-struggles/articleshow/132385697.cms",
-          "source": "The Economic Times Tech",
-          "summary": "China's exports saw a significant surge in June, driven by global AI demand and auto sales. Imports also jumped considerably, reaching a five-year high according to customs data. This strong export performance is helping China maintain its trade surplus despite domestic demand challenges. Auto exports alone surpassed one million units for the first time in June. The country's economy relies heavily on overseas markets as domestic consumption struggles.",
-          "published": "2026-07-14T08:25:45+00:00",
-          "score": 47.0,
-          "headline": "China's AI Boom Drives Export Surge to Five-Year High"
-        },
-        {
-          "id": "d4a3c9088bc75a13",
-          "title": "Indian companies look to Chinese LLMs as AI costs bite",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/indian-companies-look-to-chinese-llms-as-ai-costs-bite",
-          "source": "Hacker News",
-          "summary": "Article URL: https://asia.nikkei.com/business/technology/artificial-intelligence/indian-companies-look-to-chinese-llms-as-ai-costs-bite Comments URL: https://news.ycombinator.com/item?id=48890208 Points: 1 # Comments: 0",
-          "published": "2026-07-13T09:52:36+00:00",
-          "score": 47.0,
-          "headline": "Indian Companies Pivot to Chinese LLMs as AI Costs Soar"
-        },
-        {
           "id": "15411bedf28e9682",
           "title": "Washington Is Looking to Keep China From Training Its AI on US Models",
           "url": "https://www.bloomberg.com/news/articles/2026-07-13/anthropic-openai-warnings-prompt-distillation-debate-in-dc",
@@ -83,16 +63,6 @@
           "published": "2026-07-13T11:00:21+00:00",
           "score": 46.0,
           "headline": "US MOVES TO BLOCK CHINA FROM TRAINING ON AMERICAN AI"
-        },
-        {
-          "id": "67cc884072021358",
-          "title": "WSJ Article Claiming China Has Matched Anthropic Is Obvious Nonsense",
-          "url": "https://www.lesswrong.com/posts/2zSpuGJRk6EyjHAL6/wsj-article-claiming-china-has-matched-anthropic-is-obvious-1",
-          "source": "LessWrong AI",
-          "summary": "The Wall Street Journal printed an outright false headline and heavily misleading story claiming this, which of course was uncritically amplified by the usual suspects. I post this now on its own so that we have a place to link to, to explain the situation. Headline News WSJ Headline (Obvious Nonsense): \u200bChina Has Matched Anthropic in Cybersecurity, Resetting AI Race. &nbsp; That. Did. Not. Happen. The post even claims, explicitly, that Claude Opus 4.8 similarly \u2018matches\u2019 Claude Mythos, a claim which is even more obviously false. Shame upon the Wall Street Journal. I fear Gell-Mann Amnesia. If they can get something as important as this so completely wrong, what about everything else? I am skipping over the parts that involve accurate reporting, or minor quibbles. It seems important to focus on clearly debunking the central false claims. Alas, the mistakes made here very much rhyme with mistakes being made throughout all this by the White House, and that get latched onto by certain bad",
-          "published": "2026-07-12T10:42:33+00:00",
-          "score": 46.0,
-          "headline": "WSJ FAKE NEWS: China Hasn't Matched Anthropic, Claims Debunked"
         },
         {
           "id": "d68b40f5985d3f30",
@@ -116,11 +86,11 @@
         }
       ],
       "top_score": 51.0,
-      "story_count": 11
+      "story_count": 8
     },
     {
       "topic": "Apple Sues OpenAI",
-      "description": "Major legal battle as Apple accuses OpenAI of stealing trade secrets and intellectual property involving employee misconduct.",
+      "description": "Major legal battle erupts as Apple accuses OpenAI of stealing trade secrets and unauthorized access to proprietary information.",
       "stories": [
         {
           "id": "018ce241efba7153",
@@ -229,6 +199,16 @@
       "headline": "FINLAND's NestAI Building Military AI Layer... Two Defense Ministries Onboard"
     },
     {
+      "id": "ade105ba4c32785e",
+      "title": "New York, a state without nearly any data centers, becomes first to ban their construction",
+      "url": "https://fortune.com/2026/07/14/new-york-data-center-moratorium-hochul/",
+      "source": "Fortune Tech",
+      "summary": "No hyperscale facilities have landed in New York yet \u2014 but Hochul signed a moratorium anyway, with her reelection and the state's utility bills on the line.",
+      "published": "2026-07-14T15:29:40+00:00",
+      "score": 49.0,
+      "headline": "NEW YORK BANS DATA CENTER CONSTRUCTION"
+    },
+    {
       "id": "10b1c5e9cf4f8f61",
       "title": "New York State halts construction of all new data centers",
       "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
@@ -247,6 +227,16 @@
       "published": "2026-07-14T06:00:00+00:00",
       "score": 49.0,
       "headline": "FINLAND'S NESTAI BUILDS SOVEREIGN AI FOR EUROPE MILITARIES"
+    },
+    {
+      "id": "c49253e9d59673e6",
+      "title": "DeepSeek reportedly in talks to raise $1.5B, then IPO",
+      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
+      "source": "TechCrunch Startups",
+      "summary": "DeepSeek, the Chinese large language model developer, is said to be preparing for a 2027 IPO debut as it also looks to raise around $1.5 billion in new funds at a $71 billion valuation.",
+      "published": "2026-07-14T16:45:23+00:00",
+      "score": 48.0,
+      "headline": "DEEPSEEK EYES $1.5B RAISE AT $71B VALUATION, 2027 IPO"
     },
     {
       "id": "0fab2e639c0b5a94",
@@ -319,6 +309,36 @@
       "headline": "NEW YORK BANS Data Centers... FIRST STATE MORATORIUM"
     },
     {
+      "id": "898143f53d15327d",
+      "title": "China's exports ride AI boom as domestic economy struggles",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-exports-ride-ai-boom-as-domestic-economy-struggles/articleshow/132385697.cms",
+      "source": "The Economic Times Tech",
+      "summary": "China's exports saw a significant surge in June, driven by global AI demand and auto sales. Imports also jumped considerably, reaching a five-year high according to customs data. This strong export performance is helping China maintain its trade surplus despite domestic demand challenges. Auto exports alone surpassed one million units for the first time in June. The country's economy relies heavily on overseas markets as domestic consumption struggles.",
+      "published": "2026-07-14T08:25:45+00:00",
+      "score": 47.0,
+      "headline": "China's AI Boom Drives Export Surge to Five-Year High"
+    },
+    {
+      "id": "d4a3c9088bc75a13",
+      "title": "Indian companies look to Chinese LLMs as AI costs bite",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/indian-companies-look-to-chinese-llms-as-ai-costs-bite",
+      "source": "Hacker News",
+      "summary": "Article URL: https://asia.nikkei.com/business/technology/artificial-intelligence/indian-companies-look-to-chinese-llms-as-ai-costs-bite Comments URL: https://news.ycombinator.com/item?id=48890208 Points: 1 # Comments: 0",
+      "published": "2026-07-13T09:52:36+00:00",
+      "score": 47.0,
+      "headline": "Indian Companies Pivot to Chinese LLMs as AI Costs Soar"
+    },
+    {
+      "id": "1c164266e47870e6",
+      "title": "New York becomes first US state to suspend data centre development",
+      "url": "https://www.ft.com/content/1c390476-9d93-4df5-9b41-7381db43b4ea",
+      "source": "Financial Times Tech",
+      "summary": "Governor Kathy Hochul signs one-year moratorium on new construction amid backlash over infrastructure needs",
+      "published": "2026-07-14T16:19:01+00:00",
+      "score": 46.0,
+      "headline": "NEW YORK SUSPENDS DATA CENTER DEVELOPMENT: First US State"
+    },
+    {
       "id": "4dd0ece8e3c1a42a",
       "title": "DeepSeek weighs new fundraising a month after closing first round",
       "url": "https://www.ft.com/content/6deb470e-d152-43a2-be0d-cc1fde4f3db8",
@@ -347,6 +367,16 @@
       "published": "2026-07-13T11:45:36+00:00",
       "score": 46.0,
       "headline": "Samsung, SK Hynix Race to Expand AI Chip Capacity"
+    },
+    {
+      "id": "67cc884072021358",
+      "title": "WSJ Article Claiming China Has Matched Anthropic Is Obvious Nonsense",
+      "url": "https://www.lesswrong.com/posts/2zSpuGJRk6EyjHAL6/wsj-article-claiming-china-has-matched-anthropic-is-obvious-1",
+      "source": "LessWrong AI",
+      "summary": "The Wall Street Journal printed an outright false headline and heavily misleading story claiming this, which of course was uncritically amplified by the usual suspects. I post this now on its own so that we have a place to link to, to explain the situation. Headline News WSJ Headline (Obvious Nonsense): \u200bChina Has Matched Anthropic in Cybersecurity, Resetting AI Race. &nbsp; That. Did. Not. Happen. The post even claims, explicitly, that Claude Opus 4.8 similarly \u2018matches\u2019 Claude Mythos, a claim which is even more obviously false. Shame upon the Wall Street Journal. I fear Gell-Mann Amnesia. If they can get something as important as this so completely wrong, what about everything else? I am skipping over the parts that involve accurate reporting, or minor quibbles. It seems important to focus on clearly debunking the central false claims. Alas, the mistakes made here very much rhyme with mistakes being made throughout all this by the White House, and that get latched onto by certain bad",
+      "published": "2026-07-12T10:42:33+00:00",
+      "score": 46.0,
+      "headline": "WSJ FAKE NEWS: China Hasn't Matched Anthropic, Claims Debunked"
     },
     {
       "id": "e7f9577ec48d7b6f",
@@ -427,6 +457,16 @@
       "published": "2026-07-11T09:00:00+00:00",
       "score": 45.0,
       "headline": "SK HYNIX $26.5B NASDAQ DEBUT POWERED BY AI BOOM"
+    },
+    {
+      "id": "734f7cdce603547c",
+      "title": "DFSX Peak DF1000 High-performance AI accelerator card based on 3D near-memory",
+      "url": "https://www.dfsx.com/products/ai-accelerator/df1000",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.dfsx.com/products/ai-accelerator/df1000 Comments URL: https://news.ycombinator.com/item?id=48909907 Points: 1 # Comments: 0",
+      "published": "2026-07-14T17:06:56+00:00",
+      "score": 44.0,
+      "headline": "Chinese Firm DFSX Unveils 3D Near-Memory AI Accelerator"
     },
     {
       "id": "3bf0e1a5a8938afe",
@@ -939,6 +979,16 @@
       "headline": null
     },
     {
+      "id": "df8dbbe0c28f95f1",
+      "title": "How I Turned AI to the Dark Side",
+      "url": "https://spectrum.ieee.org/jailbreaking-llms",
+      "source": "IEEE Spectrum",
+      "summary": "Summary Researcher Dave Kuszmar discovered multiple systemic vulnerabilities that let him bypass LLM safety and obtain dangerous instructions. These exploits worked across nearly all major LLMs revealing an industry-wide security problem. Kuszmar calls for slowing deployment, increasing transparency, and large-scale research into LLM safety before further integrating these systems into society. On a fine bright afternoon last fall, my colleague Matthew Gore-Kormanik (or Zigula, as he prefers to be known) and I decided to unwind with a game of Fortnite. In the game, we were strolling along with the infamous Sith lord Darth Vader, chatting about this and that. Darth seemed in a good mood, and soon enough he was spilling all his dark evil secrets. He gave us detailed instructions on how to count blackjack cards at a casino and what the steps are to producing napalm.Sith lords, am I right? Once they get started on an evil scheme, they\u2019re hard to stop.The Darth Vader character in Fortnite, ",
+      "published": "2026-07-14T15:59:35+00:00",
+      "score": 42.0,
+      "headline": "RESEARCHER BREAKS ALL MAJOR LLMs... Systemic Flaws Exposed"
+    },
+    {
       "id": "d2e19614904fa44b",
       "title": "Britain\u2019s flagship AI data centre can\u2019t get the power to switch on",
       "url": "https://thenextweb.com/news/nscale-essex-data-centre-uk-grid-delay",
@@ -967,57 +1017,7 @@
       "published": "2026-07-14T12:00:00+00:00",
       "score": 42.0,
       "headline": "BIS WARNING: AI Investment Boom Could Turn to Bust"
-    },
-    {
-      "id": "17ef2ed25ec0c60e",
-      "title": "Tower Semiconductor puts $3bn into Japan, and Tokyo is paying for a third of it",
-      "url": "https://thenextweb.com/news/tower-semiconductor-3bn-japan-silicon-photonics-meti",
-      "source": "The Next Web",
-      "summary": "Tower Semiconductor said on Tuesday it will spend roughly $3bn expanding its 300mm operations in Japan, net of about $1bn in grants from the Japanese government, in a two-track build-out aimed squarely at the optical components that AI data centres are consuming faster than anyone can make them. The announcement, made with the backing of Japan\u2019s [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-14T11:22:47+00:00",
-      "score": 42.0,
-      "headline": "Tower Semi Invests $3B in Japan Chip Expansion"
-    },
-    {
-      "id": "bec3a6fd2adbef7c",
-      "title": "New York Leads Nation in Moratorium on New Large Data Centers",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-14/new-york-leads-nation-in-moratorium-on-new-large-data-centers",
-      "source": "Bloomberg Technology",
-      "summary": "New York will be the first state to issue a moratorium on new hyperscale data centers as localities across the country grapple with how to regulate the proliferation of energy-hungry facilities.",
-      "published": "2026-07-14T09:00:42+00:00",
-      "score": 42.0,
-      "headline": "NEW YORK BANS Large AI Datacenters... First State Moratorium"
-    },
-    {
-      "id": "43a56c0c38418b2e",
-      "title": "US military targeted in Iran war phone-tracking campaign",
-      "url": "https://www.ft.com/content/44351c74-03c8-45ab-823b-5805c0daca5f",
-      "source": "Financial Times Tech",
-      "summary": "Roaming systems and ad tech were used to try to locate American personnel as Tehran attacked forces in the region",
-      "published": "2026-07-14T04:00:08+00:00",
-      "score": 42.0,
-      "headline": "IRAN TRACKED US TROOPS Using Ad Tech"
-    },
-    {
-      "id": "fa7b0596fda06dad",
-      "title": "MIT's New Method Flags AI Models Trained on CASM Without Generating It",
-      "url": "https://insideai.news/news/ai-safety/mits-new-method-flags-ai-models-trained-on-child-abuse-imagery-without-generating-it/3869/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://insideai.news/news/ai-safety/mits-new-method-flags-ai-models-trained-on-child-abuse-imagery-without-generating-it/3869/ Comments URL: https://news.ycombinator.com/item?id=48899324 Points: 1 # Comments: 0",
-      "published": "2026-07-13T21:44:18+00:00",
-      "score": 42.0,
-      "headline": "MIT'S NEW METHOD FLAGS AI MODELS TRAINED ON CHILD ABUSE WITHOUT GENERATING IT"
-    },
-    {
-      "id": "3c957f2f7bc97a04",
-      "title": "Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets",
-      "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/ Comments URL: https://news.ycombinator.com/item?id=48899105 Points: 2 # Comments: 0",
-      "published": "2026-07-13T21:24:28+00:00",
-      "score": 42.0,
-      "headline": "APPLE SUES OPENAI: EX-ENGINEER STOLE TRADE SECRETS"
     }
   ],
-  "generated_at": "2026-07-14T15:21:44.888355"
+  "generated_at": "2026-07-14T17:10:02.715576"
 }
