@@ -1,74 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "New York Data Center Ban",
-      "description": "New York becomes the first US state to impose a moratorium on new data center construction, marking a historic regulatory intervention in AI infrastructure expansion.",
-      "stories": [
-        {
-          "id": "ade105ba4c32785e",
-          "title": "New York, a state without nearly any data centers, becomes first to ban their construction",
-          "url": "https://fortune.com/2026/07/14/new-york-data-center-moratorium-hochul/",
-          "source": "Fortune Tech",
-          "summary": "No hyperscale facilities have landed in New York yet \u2014 but Hochul signed a moratorium anyway, with her reelection and the state's utility bills on the line.",
-          "published": "2026-07-14T15:29:40+00:00",
-          "score": 49.0,
-          "headline": "NEW YORK BANS DATA CENTER CONSTRUCTION"
-        },
-        {
-          "id": "10b1c5e9cf4f8f61",
-          "title": "New York State halts construction of all new data centers",
-          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
-          "source": "TechCrunch AI",
-          "summary": "New York has become the first state to temporarily halt approval of large data centers, as Gov. Kathy Hochul argues the AI-driven building boom shouldn\u2019t come at the expense of higher electricity costs, water supplies, or local control.",
-          "published": "2026-07-14T15:17:59+00:00",
-          "score": 49.0,
-          "headline": "NEW YORK HALTS ALL DATA CENTER CONSTRUCTION... First State to Block AI Building Boom"
-        },
-        {
-          "id": "0fab2e639c0b5a94",
-          "title": "New York Governor Signs First Statewide Data Center Moratorium",
-          "url": "https://www.wired.com/story/new-york-governor-signs-first-statewide-data-center-moratorium/",
-          "source": "Wired",
-          "summary": "\u201cWe have no choice but to address the challenges created by these massive facilities,\u201d New York governor Kathy Hochul said. The executive order will pause construction for one year.",
-          "published": "2026-07-14T14:54:41+00:00",
-          "score": 48.0,
-          "headline": "HISTORIC: New York Signs First Statewide Data Center Moratorium"
-        },
-        {
-          "id": "a44192c160f53962",
-          "title": "New York becomes first state to impose one-year pause on new AI datacenters",
-          "url": "https://www.theguardian.com/us-news/2026/jul/14/new-york-moratorium-ai-datacenters",
-          "source": "The Guardian Tech",
-          "summary": "Governor Kathy Hochul issues executive order enacting a moratorium on the large, resource-intensive AI facilitiesNew York became the first US state to enact a moratorium on new datacenters on Tuesday.Governor Kathy Hochul issued an executive order mandating a one-year statewide pause on the large facilities used to power artificial intelligence products, which she signed at a mid-morning press conference. Continue reading...",
-          "published": "2026-07-14T17:23:51+00:00",
-          "score": 47.0,
-          "headline": "NEW YORK FIRST STATE TO BAN NEW AI DATACENTERS"
-        },
-        {
-          "id": "c0711504ceecaeef",
-          "title": "New York becomes the first state to enact a data center moratorium",
-          "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-          "source": "The Verge AI",
-          "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new environmental permits for data [&#8230;]",
-          "published": "2026-07-14T09:00:00+00:00",
-          "score": 47.0,
-          "headline": "NEW YORK BANS Data Centers... FIRST STATE MORATORIUM"
-        },
-        {
-          "id": "1c164266e47870e6",
-          "title": "New York becomes first US state to suspend data centre development",
-          "url": "https://www.ft.com/content/1c390476-9d93-4df5-9b41-7381db43b4ea",
-          "source": "Financial Times Tech",
-          "summary": "Governor Kathy Hochul signs one-year moratorium on new construction amid backlash over infrastructure needs",
-          "published": "2026-07-14T16:19:01+00:00",
-          "score": 46.0,
-          "headline": "NEW YORK SUSPENDS DATA CENTER DEVELOPMENT: First US State"
-        }
-      ],
-      "top_score": 49.0,
-      "story_count": 6
-    },
-    {
       "topic": "US-China AI Competition & Trade Restrictions",
       "description": "Escalating technological rivalry between US and China involving chip smuggling, export controls, summit positioning, and bilateral restrictions on AI development and tools.",
       "stories": [
@@ -175,19 +107,67 @@
       ],
       "top_score": 51.0,
       "story_count": 10
+    },
+    {
+      "topic": "China AI Chip Access & Export Controls",
+      "description": "Escalating US-China tech rivalry around AI chip access, with black markets emerging as export restrictions tighten and both nations compete for semiconductor dominance.",
+      "stories": [
+        {
+          "id": "0e15dab9ee141e90",
+          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
+          "url": "https://www.ft.com/content/ce906dad-6b72-4add-ac5c-0fbebeeb7e82",
+          "source": "Financial Times Tech",
+          "summary": "As the US tightens export controls, a thriving black market is helping advanced AI semiconductors reach China",
+          "published": "2026-07-14T04:16:19+00:00",
+          "score": 51.0,
+          "headline": "BLACK MARKET FLOODS CHINA WITH AI CHIPS"
+        },
+        {
+          "id": "7078fea2dc11264c",
+          "title": "US official says Nvidia has begun shipping powerful H200 AI chips to China",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-official-says-nvidia-has-begun-shipping-powerful-h200-ai-chips-to-china/articleshow/132407056.cms",
+          "source": "The Economic Times Tech",
+          "summary": "In May, \u2060Reuters reported \u2060the Commerce Department had cleared around 10 Chinese firms to buy the H200, but no deliveries had been made at the time. Sources said at the time that Alibaba, Tencent and \u200bByteDance were among those approved.",
+          "published": "2026-07-15T05:24:15+00:00",
+          "score": 48.0,
+          "headline": "NVIDIA SHIPS H200 AI CHIPS TO CHINA... Export Approvals Clear"
+        },
+        {
+          "id": "1185cd1aba2d0b3a",
+          "title": "US National Science Foundation to ban projects with flagged Chinese institutions",
+          "url": "https://www.scmp.com/news/us/science-technology/article/3360437/us-national-science-foundation-ban-projects-flagged-chinese-institutions?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "The United States\u2019 National Science Foundation (NSF) is set to ban collaborations with Chinese research institutions designated as restricted entities, as well as their employees, under a new policy that moves away from seeking to balance security risks with the benefits of international collaboration. The policy reflects a broader congressional push by House Republicans to curb academic partnerships between China and the US, amid lawmakers\u2019 concerns that such ties could contribute to Beijing\u2019s...",
+          "published": "2026-07-13T21:25:28+00:00",
+          "score": 48.0,
+          "headline": "US BANS NSF PROJECTS WITH FLAGGED CHINESE AI INSTITUTIONS"
+        },
+        {
+          "id": "15411bedf28e9682",
+          "title": "Washington Is Looking to Keep China From Training Its AI on US Models",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-13/anthropic-openai-warnings-prompt-distillation-debate-in-dc",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic and OpenAI\u2019s warnings about \u201cadversarial distillation\u201d&nbsp;are reinvigorating one of the oldest debates in Silicon Valley.",
+          "published": "2026-07-13T11:00:21+00:00",
+          "score": 46.0,
+          "headline": "US MOVES TO BLOCK CHINA FROM TRAINING ON AMERICAN AI"
+        },
+        {
+          "id": "67cc884072021358",
+          "title": "WSJ Article Claiming China Has Matched Anthropic Is Obvious Nonsense",
+          "url": "https://www.lesswrong.com/posts/2zSpuGJRk6EyjHAL6/wsj-article-claiming-china-has-matched-anthropic-is-obvious-1",
+          "source": "LessWrong AI",
+          "summary": "The Wall Street Journal printed an outright false headline and heavily misleading story claiming this, which of course was uncritically amplified by the usual suspects. I post this now on its own so that we have a place to link to, to explain the situation. Headline News WSJ Headline (Obvious Nonsense): \u200bChina Has Matched Anthropic in Cybersecurity, Resetting AI Race. &nbsp; That. Did. Not. Happen. The post even claims, explicitly, that Claude Opus 4.8 similarly \u2018matches\u2019 Claude Mythos, a claim which is even more obviously false. Shame upon the Wall Street Journal. I fear Gell-Mann Amnesia. If they can get something as important as this so completely wrong, what about everything else? I am skipping over the parts that involve accurate reporting, or minor quibbles. It seems important to focus on clearly debunking the central false claims. Alas, the mistakes made here very much rhyme with mistakes being made throughout all this by the White House, and that get latched onto by certain bad",
+          "published": "2026-07-12T10:42:33+00:00",
+          "score": 46.0,
+          "headline": "WSJ FAKE NEWS: China Hasn't Matched Anthropic, Claims Debunked"
+        }
+      ],
+      "top_score": 51.0,
+      "story_count": 5
     }
   ],
   "unclustered": [
-    {
-      "id": "9d680a11846cba9d",
-      "title": "DeepSeek is preparing an IPO and chasing a $71bn valuation, weeks after its first raise",
-      "url": "https://thenextweb.com/news/deepseek-ipo-71-billion-valuation-round",
-      "source": "The Next Web",
-      "summary": "DeepSeek is getting ready to go public. The Chinese AI lab has started laying the groundwork for an initial public offering, according to Bloomberg. It could file as soon as this year, with a debut targeted for 2027. First, though, it wants to raise more in private. The Hangzhou lab closed its first-ever outside round [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-15T14:11:50+00:00",
-      "score": 50.0,
-      "headline": "DEEPSEEK CHASES $71BN IPO - Files This Year After First Raise"
-    },
     {
       "id": "3479e23eae822509",
       "title": "Alibaba stock jumps 4% after Qwen is approved to run Apple Intelligence in China",
@@ -237,6 +217,26 @@
       "published": "2026-07-14T22:10:21+00:00",
       "score": 49.0,
       "headline": "AUSTRALIA FIRST TO ADOPT NATIONAL AI FRAMEWORK"
+    },
+    {
+      "id": "ade105ba4c32785e",
+      "title": "New York, a state without nearly any data centers, becomes first to ban their construction",
+      "url": "https://fortune.com/2026/07/14/new-york-data-center-moratorium-hochul/",
+      "source": "Fortune Tech",
+      "summary": "No hyperscale facilities have landed in New York yet \u2014 but Hochul signed a moratorium anyway, with her reelection and the state's utility bills on the line.",
+      "published": "2026-07-14T15:29:40+00:00",
+      "score": 49.0,
+      "headline": "NEW YORK BANS DATA CENTER CONSTRUCTION"
+    },
+    {
+      "id": "10b1c5e9cf4f8f61",
+      "title": "New York State halts construction of all new data centers",
+      "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
+      "source": "TechCrunch AI",
+      "summary": "New York has become the first state to temporarily halt approval of large data centers, as Gov. Kathy Hochul argues the AI-driven building boom shouldn\u2019t come at the expense of higher electricity costs, water supplies, or local control.",
+      "published": "2026-07-14T15:17:59+00:00",
+      "score": 49.0,
+      "headline": "NEW YORK HALTS ALL DATA CENTER CONSTRUCTION... First State to Block AI Building Boom"
     },
     {
       "id": "de3ee481f2555c75",
@@ -309,14 +309,14 @@
       "headline": "CHINA BANS AI COMPANIONS... USERS SAY GOODBYE TO 'LOVERS'"
     },
     {
-      "id": "c49253e9d59673e6",
-      "title": "DeepSeek reportedly in talks to raise $1.5B, then IPO",
-      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
-      "source": "TechCrunch Startups",
-      "summary": "DeepSeek, the Chinese large language model developer, is said to be preparing for a 2027 IPO debut as it also looks to raise around $1.5 billion in new funds at a $71 billion valuation.",
-      "published": "2026-07-14T16:45:23+00:00",
+      "id": "0fab2e639c0b5a94",
+      "title": "New York Governor Signs First Statewide Data Center Moratorium",
+      "url": "https://www.wired.com/story/new-york-governor-signs-first-statewide-data-center-moratorium/",
+      "source": "Wired",
+      "summary": "\u201cWe have no choice but to address the challenges created by these massive facilities,\u201d New York governor Kathy Hochul said. The executive order will pause construction for one year.",
+      "published": "2026-07-14T14:54:41+00:00",
       "score": 48.0,
-      "headline": "DEEPSEEK EYES $1.5B RAISE AT $71B VALUATION, 2027 IPO"
+      "headline": "HISTORIC: New York Signs First Statewide Data Center Moratorium"
     },
     {
       "id": "e7b55689995fa859",
@@ -329,16 +329,6 @@
       "headline": "META USED AI TO TARGET DISABLED WORKERS FOR LAYOFFS... 26 Sue"
     },
     {
-      "id": "8b7b1c24cc787428",
-      "title": "DeepSeek Mulls New Funding Weeks After $7 Billion Round, FT Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-14/deepseek-mulls-new-funding-weeks-after-7-billion-round-ft-says",
-      "source": "Bloomberg Technology",
-      "summary": "Chinese AI pioneer DeepSeek is considering raising more funds weeks after closing a $7 billion round of financing, the Financial Times reported, citing people with knowledge of the deal.",
-      "published": "2026-07-14T10:59:20+00:00",
-      "score": 48.0,
-      "headline": "DEEPSEEK EYES MORE FUNDING WEEKS AFTER $7B RAISE"
-    },
-    {
       "id": "4bee902986585ed6",
       "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
       "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
@@ -347,6 +337,16 @@
       "published": "2026-07-14T00:00:00+00:00",
       "score": 48.0,
       "headline": "PixVerse RAISES $439M... Video-Gen Unicorn Hits $2B Valuation"
+    },
+    {
+      "id": "94985a0e77e418a5",
+      "title": "Beijing flagged Claude Code as a back door, and Chinese coding tools are lining up to take its place",
+      "url": "https://thenextweb.com/news/china-ai-coding-tools-claude-code-backdoor",
+      "source": "The Next Web",
+      "summary": "Beijing\u2019s cybersecurity warning against Anthropic is expected to speed up a shift already under way. Chinese developers are moving to domestic coding tools, analysts told the South China Morning Post. China\u2019s National Vulnerability Database, overseen by the Ministry of Industry and Information Technology, issued an alert this week. It claimed multiple versions of Claude Code contained [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-12T13:48:15+00:00",
+      "score": 48.0,
+      "headline": "CHINA BANS CLAUDE CODE... Domestic AI Tools Surge"
     },
     {
       "id": "cda113f39b472ae1",
@@ -369,16 +369,6 @@
       "headline": "APPLE INTELLIGENCE APPROVED IN CHINA - Baidu & Alibaba Partnership"
     },
     {
-      "id": "ce78439d4f90db14",
-      "title": "China's DeepSeek to raise fresh capital at $74 billion valuation ahead of onshore IPO",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-deepseek-to-raise-fresh-capital-at-74-billion-valuation-ahead-of-onshore-ipo/articleshow/132417192.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The plan comes just weeks after the Hangzhou-based company, which drew global attention with its low-cost AI models in 2025, raised about $7.4 billion in June a post-money valuation of about 450 billion yuan, the \u200cpeople said.",
-      "published": "2026-07-15T13:18:57+00:00",
-      "score": 47.0,
-      "headline": "DEEPSEEK RAISES AT $74B AHEAD OF CHINA IPO"
-    },
-    {
       "id": "886fc360d03181fd",
       "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
       "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
@@ -399,14 +389,14 @@
       "headline": "APPLE INTELLIGENCE CLEARED FOR CHINA LAUNCH"
     },
     {
-      "id": "ed7a035f3e9712f1",
-      "title": "China's DeepSeek considers new fundraising after first round",
-      "url": "https://economictimes.indiatimes.com/tech/technology/chinas-deepseek-considers-new-fundraising-after-first-round/articleshow/132389513.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Chinese AI startup DeepSeek is considering another funding round. This comes just one month after closing its initial financing. The company seeks a valuation of approximately seventy-one billion dollars. DeepSeek recently raised seven billion dollars at a fifty-two billion dollar valuation. The startup is also developing its own AI chip.",
-      "published": "2026-07-14T11:01:50+00:00",
+      "id": "a44192c160f53962",
+      "title": "New York becomes first state to impose one-year pause on new AI datacenters",
+      "url": "https://www.theguardian.com/us-news/2026/jul/14/new-york-moratorium-ai-datacenters",
+      "source": "The Guardian Tech",
+      "summary": "Governor Kathy Hochul issues executive order enacting a moratorium on the large, resource-intensive AI facilitiesNew York became the first US state to enact a moratorium on new datacenters on Tuesday.Governor Kathy Hochul issued an executive order mandating a one-year statewide pause on the large facilities used to power artificial intelligence products, which she signed at a mid-morning press conference. Continue reading...",
+      "published": "2026-07-14T17:23:51+00:00",
       "score": 47.0,
-      "headline": "DEEPSEEK HUNTS NEW FUNDING AT $71B... ONE MONTH AFTER $7B ROUND"
+      "headline": "NEW YORK FIRST STATE TO BAN NEW AI DATACENTERS"
     },
     {
       "id": "6028d98c47357632",
@@ -417,6 +407,16 @@
       "published": "2026-07-14T09:08:26+00:00",
       "score": 47.0,
       "headline": "TAIWAN AI LAW HAS ZERO PENALTIES... While TSMC Spies Got 10 Years"
+    },
+    {
+      "id": "c0711504ceecaeef",
+      "title": "New York becomes the first state to enact a data center moratorium",
+      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+      "source": "The Verge AI",
+      "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new environmental permits for data [&#8230;]",
+      "published": "2026-07-14T09:00:00+00:00",
+      "score": 47.0,
+      "headline": "NEW YORK BANS Data Centers... FIRST STATE MORATORIUM"
     },
     {
       "id": "898143f53d15327d",
@@ -489,6 +489,16 @@
       "headline": "ByteDance KILLS Doubao AI Companions... Users Get 3 Months"
     },
     {
+      "id": "fcc3e51c5811e3bc",
+      "title": "Apple Gets Approval for iPhone AI in China With Alibaba, Baidu",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-15/apple-gets-approval-for-alibaba-powered-iphone-ai-tools-in-china",
+      "source": "Bloomberg Technology",
+      "summary": "Apple Inc. on Wednesday received long-awaited government approval to roll out Apple Intelligence in China, potentially giving it a boost in the world\u2019s most competitive smartphone market.",
+      "published": "2026-07-15T09:20:22+00:00",
+      "score": 46.0,
+      "headline": "APPLE Gets China Approval for iPhone AI with Alibaba, Baidu"
+    },
+    {
       "id": "a0aa461a253a576a",
       "title": "Chipmaker CXMT seeks $10bn in largest China IPO since 2010",
       "url": "https://www.ft.com/content/fcfbcbc0-181f-49ce-bda8-c4133e09695c",
@@ -509,14 +519,14 @@
       "headline": "AUSTRALIA LAUNCHES OFFICE OF AI, National Framework"
     },
     {
-      "id": "4dd0ece8e3c1a42a",
-      "title": "DeepSeek weighs new fundraising a month after closing first round",
-      "url": "https://www.ft.com/content/6deb470e-d152-43a2-be0d-cc1fde4f3db8",
+      "id": "1c164266e47870e6",
+      "title": "New York becomes first US state to suspend data centre development",
+      "url": "https://www.ft.com/content/1c390476-9d93-4df5-9b41-7381db43b4ea",
       "source": "Financial Times Tech",
-      "summary": "Unusually swift pace of capital injection comes as Chinese AI start-up seeks to build out infrastructure",
-      "published": "2026-07-14T10:02:27+00:00",
+      "summary": "Governor Kathy Hochul signs one-year moratorium on new construction amid backlash over infrastructure needs",
+      "published": "2026-07-14T16:19:01+00:00",
       "score": 46.0,
-      "headline": "DeepSeek Seeks NEW Fundraising Just Month After Closing Round"
+      "headline": "NEW YORK SUSPENDS DATA CENTER DEVELOPMENT: First US State"
     },
     {
       "id": "f7e0f60e4738379d",
@@ -547,16 +557,6 @@
       "published": "2026-07-13T11:45:36+00:00",
       "score": 46.0,
       "headline": "Samsung, SK Hynix Race to Expand AI Chip Capacity"
-    },
-    {
-      "id": "67cc884072021358",
-      "title": "WSJ Article Claiming China Has Matched Anthropic Is Obvious Nonsense",
-      "url": "https://www.lesswrong.com/posts/2zSpuGJRk6EyjHAL6/wsj-article-claiming-china-has-matched-anthropic-is-obvious-1",
-      "source": "LessWrong AI",
-      "summary": "The Wall Street Journal printed an outright false headline and heavily misleading story claiming this, which of course was uncritically amplified by the usual suspects. I post this now on its own so that we have a place to link to, to explain the situation. Headline News WSJ Headline (Obvious Nonsense): \u200bChina Has Matched Anthropic in Cybersecurity, Resetting AI Race. &nbsp; That. Did. Not. Happen. The post even claims, explicitly, that Claude Opus 4.8 similarly \u2018matches\u2019 Claude Mythos, a claim which is even more obviously false. Shame upon the Wall Street Journal. I fear Gell-Mann Amnesia. If they can get something as important as this so completely wrong, what about everything else? I am skipping over the parts that involve accurate reporting, or minor quibbles. It seems important to focus on clearly debunking the central false claims. Alas, the mistakes made here very much rhyme with mistakes being made throughout all this by the White House, and that get latched onto by certain bad",
-      "published": "2026-07-12T10:42:33+00:00",
-      "score": 46.0,
-      "headline": "WSJ FAKE NEWS: China Hasn't Matched Anthropic, Claims Debunked"
     },
     {
       "id": "615f90691be9a195",
@@ -1057,17 +1057,7 @@
       "published": "2026-07-12T12:48:49+00:00",
       "score": 44.0,
       "headline": "India's TCS Hiring 8,900 AI Engineers, Eyes Acquisitions"
-    },
-    {
-      "id": "41e6c1d769034a62",
-      "title": "Zhipu\u2019s Chinese Founder Says Frontier AI Should Stay Open to All",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all",
-      "source": "Bloomberg Technology",
-      "summary": "The founder of Chinese AI lab Zhipu argued that frontier artificial intelligence should remain broadly accessible rather than controlled by select individuals, weighing in on a growing debate about the risks posed by ever more powerful models.",
-      "published": "2026-07-12T06:59:51+00:00",
-      "score": 44.0,
-      "headline": "ZHIPU FOUNDER: Keep Frontier AI Open to All"
     }
   ],
-  "generated_at": "2026-07-15T20:56:12.371293"
+  "generated_at": "2026-07-15T21:56:02.072825"
 }
