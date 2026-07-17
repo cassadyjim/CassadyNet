@@ -2,7 +2,8 @@ name: Publish CassadyNet
 
 on:
   schedule:
-    - cron: '0 * * * *'   # Every hour at :00
+   # - cron: '0 * * * *'   # Every hour at :00
+   - cron: '0 6,18 * * *' # 6 AM and 6 PM UTC
   workflow_dispatch:        # Allow manual trigger from GitHub UI
 
 jobs:
