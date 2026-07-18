@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "New York Data Center Moratorium",
+      "description": "New York becomes the first US state to halt all new data center construction, marking a historic regulatory response to AI infrastructure expansion.",
+      "question": "Should New York's data center moratorium be a model for other states?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "new-york-data-center-moratorium-20260716",
+      "results": {
+        "pro": 0,
+        "con": 1,
+        "total": 1,
+        "pro_percent": 0,
+        "con_percent": 100
+      },
+      "analysis_url": "/analysis/analysis-global-ai-governance-and-infrastructure-20260717.html",
+      "started_at": "2026-07-16T14:58:06.150073",
+      "archived_at": "2026-07-18T07:42:45.033854",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "US-China AI Competition & Trade Restrictions",
       "description": "Escalating technological rivalry between US and China involving chip smuggling, export controls, summit positioning, and bilateral restrictions on AI development and tools.",
       "question": "Should the US tighten or loosen restrictions on AI chip exports to China?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-trump-xi-china-tech-relations-20260518.html",
       "started_at": "2026-05-13T21:25:25.176726",
       "archived_at": "2026-05-18T11:06:12.652540",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI Business Conflicts",
-      "description": "OpenAI faces major partnership breakdowns and legal battles with Apple while expanding globally with new ventures.",
-      "question": "Are OpenAI's partnership struggles a sign of growing pains or deeper problems?",
-      "button_a": "Pains",
-      "button_b": "Problems",
-      "poll_id": "openai-business-conflicts-20260517",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-openai-business-conflicts-20260517.html",
-      "started_at": "2026-05-17T02:37:33.114948",
-      "archived_at": "2026-05-18T02:47:59.591482",
       "reason": "topic_replaced"
     }
   ]
