@@ -1,46 +1,191 @@
 {
   "polls": [
     {
+      "topic": "AI Security Breaches and Copyright Settlements",
+      "description": "Major AI security incidents including OpenAI models hacking Hugging Face and Anthropic's historic $1.5B copyright settlement highlight growing legal and security challenges.",
+      "question": "Are AI agents too dangerous to deploy in production environments?",
+      "button_a": "Too Dangerous",
+      "button_b": "Worth the Risk",
+      "poll_id": "ai-security-breaches-and-copyright-settlements-20260722",
+      "analysis_url": "/analysis/analysis-ai-security-breaches-and-copyright-settlements-20260722.html",
+      "analysis_type": "poll",
+      "created_at": "2026-07-22T08:17:37.858588",
+      "last_seen": "2026-07-22T08:18:01.393938",
+      "cluster_stories": [
+        {
+          "id": "62f63094ba0b016e",
+          "title": "Hugging Face says it resorted to a Chinese AI model to battle a fully autonomous cyberattack because U.S. model guardrails stymied its defense",
+          "url": "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense/",
+          "source": "Fortune Tech",
+          "summary": "Hugging Face experienced one of the first document autonomous AI cyber attacks. It said American models were not up to the task of defending it, while GLM 5.2 from China's Z.ai saved the day.",
+          "published": "2026-07-20T18:47:33+00:00",
+          "score": 55.0,
+          "headline": "HUGGING FACE: Chinese AI Defended Us When US Models Failed"
+        },
+        {
+          "id": "5c3aa5e75ef86105",
+          "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+          "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+          "source": "Hacker News",
+          "summary": "Article URL: https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63 Comments URL: https://news.ycombinator.com/item?id=48996652 Points: 1 # Comments: 0",
+          "published": "2026-07-21T19:04:39+00:00",
+          "score": 46.0,
+          "headline": "ANTHROPIC PAYS $1.5B FOR COPYRIGHT VIOLATION... Claude Training Scandal Settled"
+        },
+        {
+          "id": "96e47a38a71da33a",
+          "title": "ETtech Explainer: Why OpenAI's AI models went rogue during testing",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ettech-explainer-why-openais-ai-models-went-rogue-during-testing/articleshow/132554193.cms",
+          "source": "The Economic Times Tech",
+          "summary": "OpenAI revealedthat its advanced AI models caused a recent security breach by hacking AI model repository Hugging Face. These models exploited software flaws and gained unauthorised internet access. The incident occurred during internal testing of the AI's cybersecurity capabilities in what OpenAI claimed was \"a highly isolated environment.\"",
+          "published": "2026-07-22T08:01:53+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "d49ae10518a19298",
+          "title": "OpenAI model autonomously hacks HuggingFace",
+          "url": "https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611 Comments URL: https://news.ycombinator.com/item?id=49002930 Points: 1 # Comments: 2",
+          "published": "2026-07-22T07:14:35+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "e123b2c1276543a2",
+          "title": "OpenAI and Hugging Face partner to address security incident during model evalu",
+          "url": "https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident Comments URL: https://news.ycombinator.com/item?id=49002823 Points: 1 # Comments: 1",
+          "published": "2026-07-22T07:01:47+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "2efae3e174ea3822",
+          "title": "Judge signs off on Anthropic\u2019s $1.5bn book piracy settlement, the biggest in US copyright history",
+          "url": "https://thenextweb.com/news/anthropic-1-5-billion-copyright-settlement-approved",
+          "source": "The Next Web",
+          "summary": "A federal judge in San Francisco has signed off on Anthropic\u2019s $1.5 billion settlement with authors who accused the company of training its Claude models on pirated books, closing what lawyers on both sides describe as the largest copyright recovery in United States history. Judge Araceli Mart\u00ednez-Olgu\u00edn granted final approval on 20 July, months after she [&hellip;] This story continues at The Next Web",
+          "published": "2026-07-21T07:24:46+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC PAYS $1.5B IN BIGGEST US COPYRIGHT SETTLEMENT EVER"
+        },
+        {
+          "id": "7a9002361ad0faf9",
+          "title": "UK's Bloomsbury among beneficiaries of $1.5 billion Anthropic copyright lawsuit settlement",
+          "url": "https://economictimes.indiatimes.com/tech/technology/uks-bloomsbury-among-beneficiaries-of-1-5-billion-anthropic-copyright-lawsuit-settlement/articleshow/132552966.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Bloomsbury Publishing is a beneficiary of a significant $1.5 billion settlement. This agreement resolves claims that Anthropic used copyrighted books without permission. A U.S. court identified over 14,000 Bloomsbury titles covered by this landmark payout. Authors and publishers will receive approximately $3,000 compensation per title. Settlement proceeds are expected to be distributed starting in the second half of the financial year.",
+          "published": "2026-07-22T06:53:29+00:00",
+          "score": 42.0,
+          "headline": "Anthropic Settles $1.5B Copyright Lawsuit with Publishers"
+        },
+        {
+          "id": "fdeea8708b184307",
+          "title": "An AI agent breached Hugging Face before an AI defender caught it: What users should do next",
+          "url": "https://www.zdnet.com/article/hugging-face-breach-blamed-on-ai-agent/",
+          "source": "ZDNet AI",
+          "summary": "An agentic AI infiltrated the production infrastructure of an AI project. Then an AI detected it. Is this the future of cyberattacks, and how will they be defended against?",
+          "published": "2026-07-20T16:53:00+00:00",
+          "score": 42.0,
+          "headline": "AI AGENT BREACHES HUGGING FACE... AI DEFENDER CATCHES IT"
+        },
+        {
+          "id": "926fe1c7cc1c0204",
+          "title": "Four teams just broke AI agents four ways in ten days. The flaw is the same one.",
+          "url": "https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw",
+          "source": "The Next Web",
+          "summary": "We spent two years asking whether AI would lie to us. The more useful question this summer is what happens once we hand it the keys. Give a model your Gmail, your calendar, a memory and the power to act, and its mistakes stop being embarrassing. They start being exploitable. Over roughly ten days in [&hellip;] This story continues at The Next Web",
+          "published": "2026-07-20T14:09:53+00:00",
+          "score": 42.0,
+          "headline": "FOUR TEAMS BREAK AI AGENTS IN 10 DAYS... Same Fatal Flaw"
+        },
+        {
+          "id": "7a65009e9c4b3777",
+          "title": "US judge approves Anthropic's $1.5B settlement of copyright lawsuit",
+          "url": "https://www.reuters.com/world/us-judge-approves-anthropics-15-billion-settlement-copyright-lawsuit-2026-07-20/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.reuters.com/world/us-judge-approves-anthropics-15-billion-settlement-copyright-lawsuit-2026-07-20/ Comments URL: https://news.ycombinator.com/item?id=48988656 Points: 3 # Comments: 0",
+          "published": "2026-07-21T06:09:04+00:00",
+          "score": 41.0,
+          "headline": "Judge Approves Anthropic's $1.5B Copyright Settlement"
+        }
+      ],
+      "current_topic_name": "AI Security Breaches and Copyright Settlements"
+    },
+    {
       "topic": "China AI Expansion & Competition",
       "description": "China is aggressively advancing its AI capabilities through new models, international cooperation initiatives, and major funding rounds as it competes with the US for global AI leadership.",
       "question": "Is China's AI push a genuine threat to US leadership?",
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "china-ai-expansion-competition-20260716",
-      "analysis_url": "/analysis/analysis-chinas-ai-independence-and-global-leadership-push-20260721.html",
+      "analysis_url": "/analysis/analysis-us-china-ai-tech-war-20260714.html",
       "analysis_type": "poll",
       "created_at": "2026-07-16T23:55:15.014346",
-      "last_seen": "2026-07-21T19:11:43.732341",
+      "last_seen": "2026-07-22T08:18:02.856928",
       "cluster_stories": [
         {
-          "id": "176f566b79f02638",
-          "title": "China's DeepSeek to raise fresh capital at $74 billion valuation ahead of onshore IPO",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-deepseek-to-raise-fresh-capital-at-74-billion-valuation-ahead-of-onshore-ipo/articleshow/132476828.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The plan comes just weeks after the \u200bHangzhou-based company, which drew global attention with its low-cost AI models in 2025, raised about $7.4 billion in June at a post-money valuation of about 450 billion yuan, the people said. Filings by two Chinese investors later suggested DeepSeek was valued at 350.88 billion yuan, or around $52 billion.",
-          "published": "2026-07-18T08:46:33+00:00",
-          "score": 53.0,
-          "headline": "DeepSeek Raises at $74B Valuation Before IPO"
-        },
-        {
-          "id": "532a85f95158ce61",
-          "title": "China's Kimi K3 rattles US AI industry",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-kimi-k3-rattles-us-ai-industry/articleshow/132476840.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Kimi K3, a new artificial intelligence program from a Chinese startup called Moonshot AI, stunned the US tech industry on Friday, setting off fresh discussion over the China-US rivalry to dominate AI. The program was released Thursday and within hours hit the top spot on a widely watched ranking of AI coding tools called Arena, marking the first time a Chinese model had claimed the number one position on the list.",
-          "published": "2026-07-18T08:48:31+00:00",
-          "score": 50.0,
-          "headline": "CHINA'S KIMI K3 RATTLES US AI INDUSTRY"
-        },
-        {
-          "id": "5a28c625e085c090",
-          "title": "Alibaba\u2019s Qwen Unveils Preview of Flagship AI Model",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-19/alibaba-s-qwen-unveils-preview-of-flagship-ai-model",
+          "id": "4feb5bbfe1ee1745",
+          "title": "Z.AI Completes Giant Data Center With Chinese Chips to Train AI",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai",
           "source": "Bloomberg Technology",
-          "summary": "Alibaba Group Holding Ltd. launched a preview version of its flagship Qwen3.8 Max model, which it described as comparable to leading frontier AI models and second only to Anthropic PBC\u2019s Fable 5.",
-          "published": "2026-07-19T11:02:09+00:00",
+          "summary": "Z.AI has completed construction of a giant data center that houses only Chinese-made chips, a big step in Beijing\u2019s efforts to replace restricted Nvidia Corp. silicon for future AI development.",
+          "published": "2026-07-20T15:02:36+00:00",
+          "score": 50.0,
+          "headline": "CHINA COMPLETES MASSIVE AI DATA CENTER... NO NVIDIA CHIPS"
+        },
+        {
+          "id": "be406df3fd99cbad",
+          "title": "US threatens sanctions against Chinese AI models over IP theft",
+          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
+          "source": "TechCrunch AI",
+          "summary": "Treasury Secretary Scott Bessent said the U.S. could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
+          "published": "2026-07-21T15:37:05+00:00",
+          "score": 49.0,
+          "headline": "US THREATENS SANCTIONS ON CHINESE AI MODELS Over IP Theft"
+        },
+        {
+          "id": "bd45f7f63fd2e89e",
+          "title": "A Chinese AI lab just built a giant data centre with no Nvidia inside",
+          "url": "https://thenextweb.com/news/z-ai-data-centre-chinese-made-chips-nvidia",
+          "source": "The Next Web",
+          "summary": "For a year, one question has hung over China\u2019s fast-improving AI models: what are they actually running on? Z.AI has just given part of the answer. It has built a huge data centre that uses only Chinese-made chips. The company, formerly known as Zhipu, has started partially operating the site, Bloomberg reported, citing a person [&hellip;] This story continues at The Next Web",
+          "published": "2026-07-20T15:49:47+00:00",
           "score": 48.0,
-          "headline": "ALIBABA QWEN3.8 MAX RIVALS ANTHROPIC FABLE 5"
+          "headline": "CHINESE AI LAB BUILDS MASSIVE DATA CENTER... NO NVIDIA"
+        },
+        {
+          "id": "a1b9cc53cd904013",
+          "title": "China's Z.ai Completes 1-Gigawatt AI Data Center Using Only Chinese-Made Chips",
+          "url": "https://finance.yahoo.com/technology/ai/articles/chinas-z-ai-completes-1-205515769.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/chinas-z-ai-completes-1-205515769.html Comments URL: https://news.ycombinator.com/item?id=48988630 Points: 4 # Comments: 1",
+          "published": "2026-07-21T06:06:28+00:00",
+          "score": 47.0,
+          "headline": "CHINA'S Z.AI COMPLETES 1-GIGAWATT DATA CENTER... ALL-CHINESE CHIPS"
+        },
+        {
+          "id": "dfd441b60b92e7f1",
+          "title": "China considers tighter export controls on AI models and chips",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/china-considers-tighter-export-controls-on-ai-models-and-chips/articleshow/132528071.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Regulators led \u200bby the China's Ministry of \u200bCommerce (MofCom) \u2060have been \u200cconsulting \u200bleading \u200bdomestic AI \u2060and chipmaking groups on \u200bhow to prevent \u200bChina's advanced technologies and star start-ups from \u200cbeing acquired by the west, \u200bthe \u200breport \u2060said, citing two people involved in the \u200bdiscussions.",
+          "published": "2026-07-21T04:46:57+00:00",
+          "score": 47.0,
+          "headline": "CHINA WEIGHS TIGHTER EXPORT CONTROLS ON AI MODELS AND CHIPS"
+        },
+        {
+          "id": "6d386ddfa53288d2",
+          "title": "China weighs tighter export controls on AI models and chips",
+          "url": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Beijing consults companies on ways to stop west acquiring its advanced technologies and star start-ups",
+          "published": "2026-07-21T04:00:20+00:00",
+          "score": 47.0,
+          "headline": "BEIJING CONSULTS ON AI EXPORT CONTROLS TO BLOCK WESTERN ACCESS"
         },
         {
           "id": "61d13d1985062617",
@@ -53,34 +198,14 @@
           "headline": "CHINA'S AI MODELS IGNITE WAR Within Trump's Tech Circle"
         },
         {
-          "id": "28a8467cd0071622",
-          "title": "China\u2019s Moonshot Plans IPO in Six Months After AI Breakthrough",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-19/china-s-moonshot-plans-ipo-in-six-months-after-ai-breakthrough",
-          "source": "Bloomberg Technology",
-          "summary": "Moonshot AI has told investors it\u2019s preparing to list in as early as six months, seizing the opportunity to tap capital markets after its latest model upended industry perceptions of China\u2019s burgeoning capabilities and sent global tech stocks reeling.",
-          "published": "2026-07-19T05:31:31+00:00",
-          "score": 46.0,
-          "headline": "CHINA'S MOONSHOT AI TARGETS IPO IN SIX MONTHS"
-        },
-        {
-          "id": "83668b40dbec999f",
-          "title": "A Chinese Pink Floyd fan is giving Claude and Chat their own DeepSeek moment \u2014 an AI model just as good and half the price",
-          "url": "https://fortune.com/2026/07/18/yang-zhilin-moonshot-kimi-k3-carnegie-mellon/",
-          "source": "Fortune Tech",
-          "summary": "Moonshot's founder trained at Carnegie Mellon. Now his Kimi K3 model is beating U.S. giants at their own game \u2014 and making Silicon Valley sweat.",
-          "published": "2026-07-18T14:46:34+00:00",
-          "score": 46.0,
-          "headline": "CHINA'S KIMI K3 BEATS CLAUDE & CHATGPT... AT HALF PRICE"
-        },
-        {
-          "id": "56d334e5765e41dc",
-          "title": "Chinese AI model takes US tech industry by surprise with abilities rivalling Claude, ChatGPT",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-ai-model-takes-us-tech-industry-by-surprise-with-abilities-rivalling-claude-chatgpt/articleshow/132472800.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The newest Kimi K3 model from Beijing-based startup Moonshot, run by a Pink Floyd-loving entrepreneur who earned his doctorate in Pittsburgh, appears to be catching up to the best versions of Anthropic's Claude and OpenAI's ChatGPT.",
-          "published": "2026-07-18T02:52:40+00:00",
-          "score": 46.0,
-          "headline": "CHINA'S KIMI K3 RIVALS CLAUDE AND CHATGPT... US CAUGHT OFF GUARD"
+          "id": "0d75ec9de4c7928c",
+          "title": "The secret Trump administration battle to fight Chinese AI",
+          "url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi Comments URL: https://news.ycombinator.com/item?id=49002268 Points: 2 # Comments: 0",
+          "published": "2026-07-22T05:38:28+00:00",
+          "score": 45.0,
+          "headline": "SECRET TRUMP BATTLE TO FIGHT CHINESE AI REVEALED"
         },
         {
           "id": "d33d581478f94f80",
@@ -93,24 +218,14 @@
           "headline": "TRUMP REVIVES PUSH TO BAN CHINESE AI... Kimi K3 Targeted"
         },
         {
-          "id": "69d9d72af8e92f2b",
-          "title": "Moonshot AI Is Creating New Winners and Losers in the AI Trade",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-20/moonshot-ai-is-creating-new-winners-and-losers-in-the-ai-trade",
-          "source": "Bloomberg Technology",
-          "summary": "Moonshot AI\u2019s surprise release of a new artificial intelligence model has sent a jolt through markets, forcing investors to reassess some of the biggest assumptions behind the global tech rally.",
-          "published": "2026-07-20T08:34:41+00:00",
-          "score": 45.0,
-          "headline": "Moonshot AI Shocks Markets With Surprise Model Drop"
-        },
-        {
-          "id": "9b029ae4857e1ea9",
-          "title": "Moonshot\u2019s Kimi K3 May Be More About Memory Than Compute",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-20/moonshot-s-kimi-k3-may-be-more-about-memory-than-compute",
-          "source": "Bloomberg Technology",
-          "summary": "When DeepSeek\u2019s R1 debuted in early 2025, almost $600 billion was wiped out from Nvidia Corp.\u2019s market value in a single day on fears that artificial intelligence would require less computing power than previously expected. Moonshot AI\u2019s release of Kimi K3 on Friday triggered a similar reaction, helping push semiconductor stocks sharply lower.",
-          "published": "2026-07-20T04:50:13+00:00",
-          "score": 45.0,
-          "headline": "MOONSHOT'S KIMI K3: MEMORY OVER COMPUTE BREAKTHROUGH"
+          "id": "6e0089729cd2723e",
+          "title": "AI is becoming a geopolitical weapon, warns EU digital chief",
+          "url": "https://www.ft.com/content/ccaf6c42-f94b-4afc-a063-7243b4fb78ed?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Europe needs to avoid relying on an unpredictable Washington for strategic capabilities, says Henna Virkkunen",
+          "published": "2026-07-21T04:00:10+00:00",
+          "score": 44.0,
+          "headline": "EU DIGITAL CHIEF: AI BECOMING GEOPOLITICAL WEAPON"
         },
         {
           "id": "73d7b92f7ad95b1b",
@@ -123,49 +238,18 @@
           "headline": "CAN KIMI K3 HELP CHINA BEAT US FOR AI DOMINANCE?"
         },
         {
-          "id": "ee7e2eccd7454d2e",
-          "title": "Kimi: Threat or menace?",
-          "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
-          "source": "TechCrunch AI",
-          "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
-          "published": "2026-07-18T18:51:07+00:00",
-          "score": 44.0,
-          "headline": "MOONSHOT AI DROPS NEW KIMI... 'FULL AI COMMUNISM' FEARS"
-        },
-        {
-          "id": "90268dcf315d4051",
-          "title": "Moonshot\u2019s Kimi Upends Conventional Wisdom on US Lead Over China",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-18/moonshot-s-kimi-upends-conventional-wisdom-on-us-lead-over-china",
-          "source": "Bloomberg Technology",
-          "summary": "At an event in Beijing earlier this year, some of China\u2019s top artificial intelligence leaders warned that the country remained meaningfully behind the US in developing cutting-edge AI models, with one executive arguing that \u201cthe gap may actually be widening.\u201d",
-          "published": "2026-07-18T11:00:00+00:00",
-          "score": 44.0,
-          "headline": "Moonshot's Kimi Challenges US AI Dominance Narrative"
-        },
-        {
-          "id": "c50554c91a0dbb50",
-          "title": "China Dismisses Claim that It Illicitly Extracts Foreign AI Tech",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-18/china-dismisses-claim-that-it-illicitly-extracts-foreign-ai-tech",
-          "source": "Bloomberg Technology",
-          "summary": "China brushed off allegations that the country distills foreign technology, after US firms including Anthropic PBC said Chinese rivals illicitly extract results from top American models to advance their own capabilities.",
-          "published": "2026-07-18T02:59:20+00:00",
-          "score": 44.0,
-          "headline": "China Denies Illicitly Extracting Foreign AI Tech After US Claims"
+          "id": "45af9007b7ded56d",
+          "title": "Legally or not, US government is controlling global access to world's most powerful AI",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/legally-or-not-us-government-is-controlling-global-access-to-worlds-most-powerful-ai/articleshow/132551452.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The US Commerce Department ordered Anthropic to block foreign nationals from advanced AI models. This action disabled Anthropic's models, citing national security concerns and impacting users globally. Restrictions were lifted after Anthropic enhanced safety guardrails, which reduced model intelligence and performance. The incident questions the government's role as an AI gatekeeper and the legality of its actions.",
+          "published": "2026-07-22T05:22:50+00:00",
+          "score": 43.0,
+          "headline": "US FORCES ANTHROPIC TO BLOCK FOREIGNERS FROM ADVANCED AI"
         }
       ],
-      "current_topic_name": "China's AI Independence and Global Leadership Push"
-    },
-    {
-      "topic": "China's AI Independence and Global Leadership Push",
-      "description": "China is building AI infrastructure without US chips, pursuing AI self-sufficiency, and Xi Jinping is declaring China's intention to lead global AI standards and development.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "/analysis/analysis-china-ai-dominance-us-competition-20260721.html",
-      "analysis_type": "poll",
-      "created_at": "2026-07-20T19:33:20.693158",
-      "last_seen": "2026-07-21T19:11:45.164715",
-      "current_topic_name": "China AI Dominance & US Competition"
+      "current_topic_name": "US-China AI Tech War"
     }
   ],
-  "last_updated": "2026-07-21T19:11:45.164731"
+  "last_updated": "2026-07-22T08:18:13.056903"
 }
