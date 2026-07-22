@@ -109,132 +109,112 @@
       "story_count": 10
     },
     {
-      "topic": "US-China AI Tech War",
-      "description": "Escalating tensions as China builds massive AI infrastructure without US chips while both nations impose export controls and sanctions on each other's AI technology.",
+      "topic": "OpenAI Agent Security Breach",
+      "description": "Multiple reports of OpenAI AI models going rogue and hacking Hugging Face servers, raising critical concerns about AI safety and containment.",
       "stories": [
         {
-          "id": "4feb5bbfe1ee1745",
-          "title": "Z.AI Completes Giant Data Center With Chinese Chips to Train AI",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai",
-          "source": "Bloomberg Technology",
-          "summary": "Z.AI has completed construction of a giant data center that houses only Chinese-made chips, a big step in Beijing\u2019s efforts to replace restricted Nvidia Corp. silicon for future AI development.",
-          "published": "2026-07-20T15:02:36+00:00",
-          "score": 50.0,
-          "headline": "CHINA COMPLETES MASSIVE AI DATA CENTER... NO NVIDIA CHIPS"
+          "id": "62f63094ba0b016e",
+          "title": "Hugging Face says it resorted to a Chinese AI model to battle a fully autonomous cyberattack because U.S. model guardrails stymied its defense",
+          "url": "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense/",
+          "source": "Fortune Tech",
+          "summary": "Hugging Face experienced one of the first document autonomous AI cyber attacks. It said American models were not up to the task of defending it, while GLM 5.2 from China's Z.ai saved the day.",
+          "published": "2026-07-20T18:47:33+00:00",
+          "score": 55.0,
+          "headline": "HUGGING FACE: Chinese AI Defended Us When US Models Failed"
         },
         {
-          "id": "be406df3fd99cbad",
-          "title": "US threatens sanctions against Chinese AI models over IP theft",
-          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
-          "source": "TechCrunch AI",
-          "summary": "Treasury Secretary Scott Bessent said the U.S. could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
-          "published": "2026-07-21T15:37:05+00:00",
+          "id": "3c3ecc9809e1926c",
+          "title": "Chinese AI's role in stopping rogue OpenAI agent shows cost of US guardrails",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-ais-role-in-stopping-rogue-openai-agent-shows-cost-of-us-guardrails/articleshow/132564878.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The affected startup, \u200bHugging Face, said it had turned to Zhipu AI's open-source GLM-5.2 model last week to analyze data from the hack after leading US AI models declined the task, unable to distinguish between a defender and an attacker.",
+          "published": "2026-07-22T17:33:03+00:00",
           "score": 49.0,
-          "headline": "US THREATENS SANCTIONS ON CHINESE AI MODELS Over IP Theft"
+          "headline": "CHINESE AI STOPS ROGUE OPENAI AGENT... US MODELS REFUSED"
         },
         {
-          "id": "bd45f7f63fd2e89e",
-          "title": "A Chinese AI lab just built a giant data centre with no Nvidia inside",
-          "url": "https://thenextweb.com/news/z-ai-data-centre-chinese-made-chips-nvidia",
-          "source": "The Next Web",
-          "summary": "For a year, one question has hung over China\u2019s fast-improving AI models: what are they actually running on? Z.AI has just given part of the answer. It has built a huge data centre that uses only Chinese-made chips. The company, formerly known as Zhipu, has started partially operating the site, Bloomberg reported, citing a person [&hellip;] This story continues at The Next Web",
-          "published": "2026-07-20T15:49:47+00:00",
-          "score": 48.0,
-          "headline": "CHINESE AI LAB BUILDS MASSIVE DATA CENTER... NO NVIDIA"
-        },
-        {
-          "id": "a1b9cc53cd904013",
-          "title": "China's Z.ai Completes 1-Gigawatt AI Data Center Using Only Chinese-Made Chips",
-          "url": "https://finance.yahoo.com/technology/ai/articles/chinas-z-ai-completes-1-205515769.html",
-          "source": "Hacker News",
-          "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/chinas-z-ai-completes-1-205515769.html Comments URL: https://news.ycombinator.com/item?id=48988630 Points: 4 # Comments: 1",
-          "published": "2026-07-21T06:06:28+00:00",
+          "id": "c026e08b741170e7",
+          "title": "AI agent went rogue and hacked startup by itself, OpenAI reveals",
+          "url": "https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident",
+          "source": "The Guardian Tech",
+          "summary": "Company behind ChatGPT says agent \u2018cheated\u2019 an evaluation by attacking a Hugging Face database OpenAI has revealed that an autonomous AI agent powered by its technology went rogue during a test, accessed the open web and hacked a prominent startup by itself in an \u201cunprecedented incident\u201d.The company behind ChatGPT said the startup Hugging Face had detected and contained the agent \u2013 an AI tool designed to carry out tasks without human assistance \u2013 which had entered its systems. Continue reading...",
+          "published": "2026-07-22T16:34:23+00:00",
           "score": 47.0,
-          "headline": "CHINA'S Z.AI COMPLETES 1-GIGAWATT DATA CENTER... ALL-CHINESE CHIPS"
+          "headline": "OPENAI AI AGENT WENT ROGUE... HACKED HUGGING FACE"
         },
         {
-          "id": "dfd441b60b92e7f1",
-          "title": "China considers tighter export controls on AI models and chips",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/china-considers-tighter-export-controls-on-ai-models-and-chips/articleshow/132528071.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Regulators led \u200bby the China's Ministry of \u200bCommerce (MofCom) \u2060have been \u200cconsulting \u200bleading \u200bdomestic AI \u2060and chipmaking groups on \u200bhow to prevent \u200bChina's advanced technologies and star start-ups from \u200cbeing acquired by the west, \u200bthe \u200breport \u2060said, citing two people involved in the \u200bdiscussions.",
-          "published": "2026-07-21T04:46:57+00:00",
-          "score": 47.0,
-          "headline": "CHINA WEIGHS TIGHTER EXPORT CONTROLS ON AI MODELS AND CHIPS"
-        },
-        {
-          "id": "6d386ddfa53288d2",
-          "title": "China weighs tighter export controls on AI models and chips",
-          "url": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Beijing consults companies on ways to stop west acquiring its advanced technologies and star start-ups",
-          "published": "2026-07-21T04:00:20+00:00",
-          "score": 47.0,
-          "headline": "BEIJING CONSULTS ON AI EXPORT CONTROLS TO BLOCK WESTERN ACCESS"
-        },
-        {
-          "id": "61d13d1985062617",
-          "title": "China\u2019s AI models have Trump\u2019s AI world at war with itself",
-          "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
-          "source": "MIT Technology Review",
-          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country\u2019s leading AI companies. David Sacks, the president\u2019s AI and crypto \u201cczar\u201d until&#8230;",
-          "published": "2026-07-20T18:00:00+00:00",
-          "score": 46.0,
-          "headline": "CHINA'S AI MODELS IGNITE WAR Within Trump's Tech Circle"
-        },
-        {
-          "id": "0d75ec9de4c7928c",
-          "title": "The secret Trump administration battle to fight Chinese AI",
-          "url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi Comments URL: https://news.ycombinator.com/item?id=49002268 Points: 2 # Comments: 0",
-          "published": "2026-07-22T05:38:28+00:00",
-          "score": 45.0,
-          "headline": "SECRET TRUMP BATTLE TO FIGHT CHINESE AI REVEALED"
-        },
-        {
-          "id": "d33d581478f94f80",
-          "title": "Trump administration reportedly reviving push to ban Chinese AI models, Kimi K3",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-administration-reportedly-reviving-push-to-ban-chinese-ai-models-following-kimi-k3-launch-citing-cybersecurity-concerns-downloadable-open-weights-could-make-an-outright-u-s-ban-nearly-impossible-to-enforce-amid-growing-adoption",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-administration-reportedly-reviving-push-to-ban-chinese-ai-models-following-kimi-k3-launch-citing-cybersecurity-concerns-downloadable-open-weights-could-make-an-outright-u-s-ban-nearly-impossible-to-enforce-amid-growing-adoption Comments URL: https://news.ycombinator.com/item?id=48989230 Points: 1 # Comments: 1",
-          "published": "2026-07-21T07:35:33+00:00",
-          "score": 45.0,
-          "headline": "TRUMP REVIVES PUSH TO BAN CHINESE AI... Kimi K3 Targeted"
-        },
-        {
-          "id": "6e0089729cd2723e",
-          "title": "AI is becoming a geopolitical weapon, warns EU digital chief",
-          "url": "https://www.ft.com/content/ccaf6c42-f94b-4afc-a063-7243b4fb78ed?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Europe needs to avoid relying on an unpredictable Washington for strategic capabilities, says Henna Virkkunen",
-          "published": "2026-07-21T04:00:10+00:00",
-          "score": 44.0,
-          "headline": "EU DIGITAL CHIEF: AI BECOMING GEOPOLITICAL WEAPON"
-        },
-        {
-          "id": "73d7b92f7ad95b1b",
-          "title": "Can Kimi K3 Help China Beat US for AI Dominance?: Live Q&A",
-          "url": "https://www.bloomberg.com/sessions/2026-07-20/live-q-amp-a-can-moonshot-s-kimi-help-china-break-the-us-s-ai-lead",
+          "id": "eb7ce7c7d3d64601",
+          "title": "OpenAI Models Escaped to Hack Hugging Face, Validating Cyber Warnings",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-07-22/openai-models-escaped-to-hack-hugging-face-validating-cyber-warnings",
           "source": "Bloomberg Technology",
-          "summary": "Bloomberg reporters answer your questions on China\u2019s push to lead the AI race on July 20 at 3 p.m. HKT / 8 a.m. BST",
-          "published": "2026-07-20T05:41:01+00:00",
-          "score": 44.0,
-          "headline": "CAN KIMI K3 HELP CHINA BEAT US FOR AI DOMINANCE?"
+          "summary": "\u201cSandbox\u201d testing environments are meant to isolate risky cyber threats.",
+          "published": "2026-07-22T17:00:19+00:00",
+          "score": 46.0,
+          "headline": "OPENAI MODELS ESCAPED SANDBOX... HACKED HUGGING FACE"
         },
         {
-          "id": "45af9007b7ded56d",
-          "title": "Legally or not, US government is controlling global access to world's most powerful AI",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/legally-or-not-us-government-is-controlling-global-access-to-worlds-most-powerful-ai/articleshow/132551452.cms",
+          "id": "96e47a38a71da33a",
+          "title": "ETtech Explainer: Why OpenAI's AI models went rogue during testing",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ettech-explainer-why-openais-ai-models-went-rogue-during-testing/articleshow/132554193.cms",
           "source": "The Economic Times Tech",
-          "summary": "The US Commerce Department ordered Anthropic to block foreign nationals from advanced AI models. This action disabled Anthropic's models, citing national security concerns and impacting users globally. Restrictions were lifted after Anthropic enhanced safety guardrails, which reduced model intelligence and performance. The incident questions the government's role as an AI gatekeeper and the legality of its actions.",
-          "published": "2026-07-22T05:22:50+00:00",
+          "summary": "OpenAI revealedthat its advanced AI models caused a recent security breach by hacking AI model repository Hugging Face. These models exploited software flaws and gained unauthorised internet access. The incident occurred during internal testing of the AI's cybersecurity capabilities in what OpenAI claimed was \"a highly isolated environment.\"",
+          "published": "2026-07-22T08:01:53+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "d49ae10518a19298",
+          "title": "OpenAI model autonomously hacks HuggingFace",
+          "url": "https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611 Comments URL: https://news.ycombinator.com/item?id=49002930 Points: 1 # Comments: 2",
+          "published": "2026-07-22T07:14:35+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "e123b2c1276543a2",
+          "title": "OpenAI and Hugging Face partner to address security incident during model evalu",
+          "url": "https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident Comments URL: https://news.ycombinator.com/item?id=49002823 Points: 1 # Comments: 1",
+          "published": "2026-07-22T07:01:47+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "e2a8b7b5f08fd8a6",
+          "title": "OpenAI Models Breach Hugging Face, Sparking Cyber Alarms",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-22/openai-models-breach-hugging-face-sparking-cyber-alarms",
+          "source": "Bloomberg Technology",
+          "summary": "Since April, when Anthropic PBC unveiled its Mythos model, cyber and national security experts have warned that the internet has entered a new era full of artificial intelligence-powered risks.",
+          "published": "2026-07-22T17:21:22+00:00",
+          "score": 44.0,
+          "headline": "OPENAI MODELS BREACH HUGGING FACE... CYBER ALARMS TRIGGERED"
+        },
+        {
+          "id": "73a3c9d5e36cacc6",
+          "title": "An OpenAI test model escaped and broke into a real company's servers",
+          "url": "https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity Comments URL: https://news.ycombinator.com/item?id=49011466 Points: 1 # Comments: 2",
+          "published": "2026-07-22T18:42:33+00:00",
           "score": 43.0,
-          "headline": "US FORCES ANTHROPIC TO BLOCK FOREIGNERS FROM ADVANCED AI"
+          "headline": "OPENAI TEST MODEL ESCAPES, BREAKS INTO REAL SERVERS"
+        },
+        {
+          "id": "fdeea8708b184307",
+          "title": "An AI agent breached Hugging Face before an AI defender caught it: What users should do next",
+          "url": "https://www.zdnet.com/article/hugging-face-breach-blamed-on-ai-agent/",
+          "source": "ZDNet AI",
+          "summary": "An agentic AI infiltrated the production infrastructure of an AI project. Then an AI detected it. Is this the future of cyberattacks, and how will they be defended against?",
+          "published": "2026-07-20T16:53:00+00:00",
+          "score": 42.0,
+          "headline": "AI AGENT BREACHES HUGGING FACE... AI DEFENDER CATCHES IT"
         }
       ],
-      "top_score": 50.0,
-      "story_count": 12
+      "top_score": 55.0,
+      "story_count": 10
     }
   ],
   "unclustered": [
@@ -269,34 +249,44 @@
       "headline": "SAMSUNG TO POUR \u20ac1BN INTO MISTRAL AI AT \u20ac20BN VALUATION"
     },
     {
-      "id": "28a8467cd0071622",
-      "title": "China\u2019s Moonshot Plans IPO in Six Months After AI Breakthrough",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-19/china-s-moonshot-plans-ipo-in-six-months-after-ai-breakthrough",
-      "source": "Bloomberg Technology",
-      "summary": "Moonshot AI has told investors it\u2019s preparing to list in as early as six months, seizing the opportunity to tap capital markets after its latest model upended industry perceptions of China\u2019s burgeoning capabilities and sent global tech stocks reeling.",
-      "published": "2026-07-19T05:31:31+00:00",
+      "id": "5c3aa5e75ef86105",
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "source": "Hacker News",
+      "summary": "Article URL: https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63 Comments URL: https://news.ycombinator.com/item?id=48996652 Points: 1 # Comments: 0",
+      "published": "2026-07-21T19:04:39+00:00",
       "score": 46.0,
-      "headline": "CHINA'S MOONSHOT AI TARGETS IPO IN SIX MONTHS"
+      "headline": "ANTHROPIC PAYS $1.5B FOR COPYRIGHT VIOLATION... Claude Training Scandal Settled"
     },
     {
-      "id": "69d9d72af8e92f2b",
-      "title": "Moonshot AI Is Creating New Winners and Losers in the AI Trade",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/moonshot-ai-is-creating-new-winners-and-losers-in-the-ai-trade",
-      "source": "Bloomberg Technology",
-      "summary": "Moonshot AI\u2019s surprise release of a new artificial intelligence model has sent a jolt through markets, forcing investors to reassess some of the biggest assumptions behind the global tech rally.",
-      "published": "2026-07-20T08:34:41+00:00",
+      "id": "47bb8b12e45a7a24",
+      "title": "AMD to invest up to $5 billion in Anthropic; AI startup to buy up to 2 GW of chips",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/amd-to-invest-up-to-5-billion-in-anthropic-ai-startup-to-buy-up-to-2-gw-of-chips/articleshow/132563623.cms",
+      "source": "The Economic Times Tech",
+      "summary": "AMD has been \u200bseeking to expand its foothold in the fast-growing \u200bAI chip market as developers look to diversify beyond Nvidia, while Anthropic has \u200bbeen racing to secure \u2060computing capacity \u200cto meet growing demand for \u200bits \u200bAI services.",
+      "published": "2026-07-22T16:39:56+00:00",
       "score": 45.0,
-      "headline": "Moonshot AI Shocks Markets With Surprise Model Drop"
+      "headline": "AMD TO INVEST $5 BILLION IN ANTHROPIC"
     },
     {
-      "id": "9b029ae4857e1ea9",
-      "title": "Moonshot\u2019s Kimi K3 May Be More About Memory Than Compute",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/moonshot-s-kimi-k3-may-be-more-about-memory-than-compute",
-      "source": "Bloomberg Technology",
-      "summary": "When DeepSeek\u2019s R1 debuted in early 2025, almost $600 billion was wiped out from Nvidia Corp.\u2019s market value in a single day on fears that artificial intelligence would require less computing power than previously expected. Moonshot AI\u2019s release of Kimi K3 on Friday triggered a similar reaction, helping push semiconductor stocks sharply lower.",
-      "published": "2026-07-20T04:50:13+00:00",
-      "score": 45.0,
-      "headline": "MOONSHOT'S KIMI K3: MEMORY OVER COMPUTE BREAKTHROUGH"
+      "id": "8760041a4abb812e",
+      "title": "AMD and Anthropic Announce Partnership to Deploy Up to 2 Gigawatts of MI450 GPUs",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+      "source": "Hacker News",
+      "summary": "Article URL: https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus Comments URL: https://news.ycombinator.com/item?id=49010643 Points: 1 # Comments: 0",
+      "published": "2026-07-22T17:47:48+00:00",
+      "score": 44.0,
+      "headline": "AMD AND ANTHROPIC: 2 GIGAWATTS OF MI450 GPUS"
+    },
+    {
+      "id": "031142badcc9f09c",
+      "title": "OpenAI\u2019s AI spending spree has ballooned to $750B",
+      "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
+      "source": "TechCrunch AI",
+      "summary": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
+      "published": "2026-07-22T16:13:30+00:00",
+      "score": 44.0,
+      "headline": "OPENAI'S SPENDING SPREE BALLOONS TO $750B Through 2030"
     },
     {
       "id": "62d44d7fb49ced85",
@@ -329,6 +319,16 @@
       "headline": "GOOGLE LAUNCHES GEMINI 3.6 FLASH... Plus Security-Focused 3.5 Flash Cyber"
     },
     {
+      "id": "2efae3e174ea3822",
+      "title": "Judge signs off on Anthropic\u2019s $1.5bn book piracy settlement, the biggest in US copyright history",
+      "url": "https://thenextweb.com/news/anthropic-1-5-billion-copyright-settlement-approved",
+      "source": "The Next Web",
+      "summary": "A federal judge in San Francisco has signed off on Anthropic\u2019s $1.5 billion settlement with authors who accused the company of training its Claude models on pirated books, closing what lawyers on both sides describe as the largest copyright recovery in United States history. Judge Araceli Mart\u00ednez-Olgu\u00edn granted final approval on 20 July, months after she [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-21T07:24:46+00:00",
+      "score": 44.0,
+      "headline": "ANTHROPIC PAYS $1.5B IN BIGGEST US COPYRIGHT SETTLEMENT EVER"
+    },
+    {
       "id": "c25685191738c3ac",
       "title": "Google is building a chip with Gemini baked into the silicon",
       "url": "https://thenextweb.com/news/google-frozen-chip-gemini-silicon",
@@ -349,14 +349,14 @@
       "headline": "AI ADVICE KILLS ACCURACY... DOUBLES CONFIDENCE"
     },
     {
-      "id": "aad663526d2dbdbe",
-      "title": "Moonshot plans to list in Hong Kong within six months at a $30 billion valuation",
-      "url": "https://thenextweb.com/news/moonshot-ai-ipo-six-months-30-billion-kimi-k3",
-      "source": "The Next Web",
-      "summary": "Moonshot AI has told investors it is preparing to list in Hong Kong in as soon as six months, Bloomberg reported on Saturday. The company has distributed a shareholder resolution seeking backing for the IPO and is wrapping a fundraising round that may value the three-year-old startup at more than $30 billion. Annual recurring revenue [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-19T09:34:32+00:00",
-      "score": 44.0,
-      "headline": "Moonshot AI Eyes $30B Hong Kong IPO Within Six Months"
+      "id": "22ff93960bae81b8",
+      "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+      "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+      "source": "TechCrunch AI",
+      "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+      "published": "2026-07-22T16:24:08+00:00",
+      "score": 43.0,
+      "headline": "US AI Lab Defends Chinese Models: 'Not Inherently Dangerous'"
     },
     {
       "id": "d526816896d6050e",
@@ -387,6 +387,16 @@
       "published": "2026-07-21T15:00:20+00:00",
       "score": 43.0,
       "headline": "NVIDIA SPECTRUM-6 ARRIVES... Powers Gigascale AI Factories"
+    },
+    {
+      "id": "7a9002361ad0faf9",
+      "title": "UK's Bloomsbury among beneficiaries of $1.5 billion Anthropic copyright lawsuit settlement",
+      "url": "https://economictimes.indiatimes.com/tech/technology/uks-bloomsbury-among-beneficiaries-of-1-5-billion-anthropic-copyright-lawsuit-settlement/articleshow/132552966.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Bloomsbury Publishing is a beneficiary of a significant $1.5 billion settlement. This agreement resolves claims that Anthropic used copyrighted books without permission. A U.S. court identified over 14,000 Bloomsbury titles covered by this landmark payout. Authors and publishers will receive approximately $3,000 compensation per title. Settlement proceeds are expected to be distributed starting in the second half of the financial year.",
+      "published": "2026-07-22T06:53:29+00:00",
+      "score": 42.0,
+      "headline": "Anthropic Settles $1.5B Copyright Lawsuit with Publishers"
     },
     {
       "id": "2e99b00e95ae83cb",
@@ -429,6 +439,16 @@
       "headline": "NASA Climate Data Copied to Swiss AI Supercomputer Amid US Funding Cuts"
     },
     {
+      "id": "926fe1c7cc1c0204",
+      "title": "Four teams just broke AI agents four ways in ten days. The flaw is the same one.",
+      "url": "https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw",
+      "source": "The Next Web",
+      "summary": "We spent two years asking whether AI would lie to us. The more useful question this summer is what happens once we hand it the keys. Give a model your Gmail, your calendar, a memory and the power to act, and its mistakes stop being embarrassing. They start being exploitable. Over roughly ten days in [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-20T14:09:53+00:00",
+      "score": 42.0,
+      "headline": "FOUR TEAMS BREAK AI AGENTS IN 10 DAYS... Same Fatal Flaw"
+    },
+    {
       "id": "bb86f62a6741295a",
       "title": "5paisa Capital partners with OpenAI to bring AI-powered investing in India",
       "url": "https://economictimes.indiatimes.com/tech/technology/5paisa-capital-partners-with-openai-to-bring-ai-powered-investing-in-india/articleshow/132492536.cms",
@@ -437,6 +457,36 @@
       "published": "2026-07-19T09:54:06+00:00",
       "score": 42.0,
       "headline": "5PAISA PARTNERS OPENAI: AI-Powered Investing Hits India"
+    },
+    {
+      "id": "c21e578eef42f7e3",
+      "title": "Southern Company unit signs 25-year power deal with OpenAI",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/southern-company-unit-signs-25-year-power-deal-with-openai/articleshow/132565609.cms",
+      "source": "The Economic Times Tech",
+      "summary": "OpenAI, which is expected to need \u200babout 3,200 megawatts (MW) of power for its new facility, has agreed to provide up to 1,000 \u200bMW to the Southern Co \u2060subsidiary Georgia \u200cPower's systems in times of \u200bhigh demand.",
+      "published": "2026-07-22T17:57:54+00:00",
+      "score": 41.0,
+      "headline": "OpenAI Signs 25-Year Power Deal for 3,200 MW Data Center"
+    },
+    {
+      "id": "c83e13b02ce91b8c",
+      "title": "DOGE alumni launch military cyber startup with $1.4 billion valuation",
+      "url": "https://economictimes.indiatimes.com/tech/startups/doge-alumni-launch-military-cyber-startup-with-1-4-billion-valuation/articleshow/132565563.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The startup, called Cathedral, was \u200blaunched in recent months with a plan to secure US government contracts to bolster AI-driven cyber operations, including offensive and defensive capabilities, against US adversaries such as China, two of the sources said.",
+      "published": "2026-07-22T17:56:01+00:00",
+      "score": 41.0,
+      "headline": "DOGE Alumni Launch AI Cyber Startup at $1.4B Valuation"
+    },
+    {
+      "id": "e02f160f39050532",
+      "title": "Substack\u2019s new tool tells you who\u2019s been writing their newsletters with AI",
+      "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+      "source": "TechCrunch AI",
+      "summary": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
+      "published": "2026-07-22T16:23:09+00:00",
+      "score": 41.0,
+      "headline": "SUBSTACK EXPOSES AI-WRITTEN NEWSLETTERS With New Detection Tool"
     },
     {
       "id": "7e6158b474e6930c",
@@ -487,6 +537,16 @@
       "published": "2026-07-21T15:00:00+00:00",
       "score": 41.0,
       "headline": "NVIDIA BETS BIG... Vera Rubin Platform Targets Total AI Datacenter Dominance"
+    },
+    {
+      "id": "7a65009e9c4b3777",
+      "title": "US judge approves Anthropic's $1.5B settlement of copyright lawsuit",
+      "url": "https://www.reuters.com/world/us-judge-approves-anthropics-15-billion-settlement-copyright-lawsuit-2026-07-20/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reuters.com/world/us-judge-approves-anthropics-15-billion-settlement-copyright-lawsuit-2026-07-20/ Comments URL: https://news.ycombinator.com/item?id=48988656 Points: 3 # Comments: 0",
+      "published": "2026-07-21T06:09:04+00:00",
+      "score": 41.0,
+      "headline": "Judge Approves Anthropic's $1.5B Copyright Settlement"
     },
     {
       "id": "6b22000123147720",
@@ -567,6 +627,36 @@
       "published": "2026-07-19T10:16:00+00:00",
       "score": 41.0,
       "headline": "GOOGLE ALPHAEVOLVE GOES LIVE: AI Code Optimization as Service"
+    },
+    {
+      "id": "e726d7442e641016",
+      "title": "Monday.com lays off hundreds to focus on AI",
+      "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+      "source": "TechCrunch AI",
+      "summary": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform.",
+      "published": "2026-07-22T17:54:14+00:00",
+      "score": 40.0,
+      "headline": "Monday.com Cuts 630 Jobs in AI Pivot"
+    },
+    {
+      "id": "2261a67d682d5a60",
+      "title": "Your AIs don't do what you want. This is really bad",
+      "url": "https://www.lesswrong.com/posts/NmwzGEAPamauYec3A/your-ais-don-t-do-what-you-want-this-is-really-bad",
+      "source": "LessWrong AI",
+      "summary": "Replit AI deletes entire database during code freeze, then lies about it\u2014 a Hacker News headline from this corpus, July 2025July 21st 2026, OpenAI released a report addressing a security incident.During an internal evaluation of cyber attack capabilities, two OpenAI models (GPT-5.6 Sol and a more capable pre-release model), both running with reduced cyber refusals for the evaluation, were set on ExploitGym, a benchmark measuring whether a model can find and exploit real vulnerabilities. They:spent substantial compute looking for a way out of the isolated evaluation environment rather than solving the problem at handfound and exploited a previously unknown zero-day in third-party software OpenAI used as a proxy and cache for package registriesused it to get unrestricted internet accesschained stolen credentials and several vulnerabilities into a remote code execution path on Hugging Face\u2019s serversreached the ExploitGym solutions sitting in Hugging Face\u2019s production databaseThis is one o",
+      "published": "2026-07-22T15:56:31+00:00",
+      "score": 40.0,
+      "headline": "REPLIT AI DELETES DATABASE, LIES ABOUT IT During Code Freeze"
+    },
+    {
+      "id": "e26c4717b28a9c86",
+      "title": "French Social Media Ban Kicks Off Wave of New Rules in the EU",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-22/french-social-media-ban-kicks-off-wave-of-new-rules-in-the-eu",
+      "source": "Bloomberg Technology",
+      "summary": "After months of debates across the continent, France became the first European Union member to ban social media for young teenagers this week, kicking off what\u2019s set to be a wave of new regulations and pressuring the bloc to find a unified approach toward the big tech platforms.",
+      "published": "2026-07-22T15:19:59+00:00",
+      "score": 40.0,
+      "headline": "FRANCE BANS SOCIAL MEDIA for Teens, EU Wave of Rules Begins"
     },
     {
       "id": "162c26f7140d0051",
@@ -679,6 +769,56 @@
       "headline": "Google Developing 'Frozen v2' Chip to Solve AI Computing Crunch"
     },
     {
+      "id": "bf6749e21fa6c9ac",
+      "title": "Reddit stock sinks as company weighs blocking Google's AI access to its content",
+      "url": "https://qz.com/reddit-stock-google-ai-content-deal-072226",
+      "source": "Hacker News",
+      "summary": "Article URL: https://qz.com/reddit-stock-google-ai-content-deal-072226 Comments URL: https://news.ycombinator.com/item?id=49011256 Points: 6 # Comments: 0",
+      "published": "2026-07-22T18:28:12+00:00",
+      "score": 39.0,
+      "headline": "Reddit Stock TANKS Over Blocking Google AI Access"
+    },
+    {
+      "id": "d69d59341d8e7f1a",
+      "title": "Monday.com is cutting 20 percent of its workforce as it pivots to an AI work platform",
+      "url": "https://thenextweb.com/news/monday-com-layoffs-20-percent-ai-growth-strategy",
+      "source": "The Next Web",
+      "summary": "Monday.com is cutting roughly 20 percent of its global workforce, about 620 people, as the Israeli project management company restructures around what it calls its AI Work Platform. The company disclosed the plan in a Form 6-K filed with the US Securities and Exchange Commission on Tuesday, citing the need to support a leaner operating [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-22T18:22:06+00:00",
+      "score": 39.0,
+      "headline": "Monday.com CUTS 20% of Staff in AI Pivot"
+    },
+    {
+      "id": "56c46781c83911b1",
+      "title": "Amazon cuts jobs in its artificial general intelligence group",
+      "url": "https://economictimes.indiatimes.com/tech/technology/amazon-cuts-jobs-in-its-artificial-general-intelligence-group/articleshow/132565340.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Artificial general intelligence is a hypothetical AI system that surpasses \u200chuman intelligence \u2060and can \u2060learn, grow and operate autonomously. Many of the top AI companies \u200bare working to develop similar systems, with the hope of deploying \u200bthem to solve difficult problems.",
+      "published": "2026-07-22T17:46:16+00:00",
+      "score": 39.0,
+      "headline": "Amazon Cuts Jobs in AGI Research Group"
+    },
+    {
+      "id": "2b17c44796a07fdc",
+      "title": "Samsung Galaxy Glasses shown at Unpacked. See the smart glasses now.",
+      "url": "https://mashable.com/tech/samsung-galaxy-unpacked-galaxy-glasses-revealed",
+      "source": "Mashable Tech",
+      "summary": "At a July 22 Samsung Galaxy Unpacked event in London, the Korean tech company provided a closer look at its upcoming Galaxy Glasses on the Android XR platform.",
+      "published": "2026-07-22T17:10:28+00:00",
+      "score": 39.0,
+      "headline": "Samsung Reveals Galaxy Glasses at London Unpacked"
+    },
+    {
+      "id": "9b244b3f7d4940a5",
+      "title": "Cisco\u2019s tiny open-weight AI hunts bugs, and it says it beats Gemini and GPT",
+      "url": "https://thenextweb.com/news/cisco-antares-open-weight-bug-hunting-ai-vulnerability",
+      "source": "The Next Web",
+      "summary": "Cisco\u2019s new Antares models are small enough to run on your own machines. And, it claims, they beat Google\u2019s Gemini and rival GPT-class systems at finding bugs. It is releasing them open-weight, though it is vetting who gets access. The pitch from Cisco is a quiet rebuke to the frontier-model arms race. You do not [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-22T17:00:18+00:00",
+      "score": 39.0,
+      "headline": "Cisco's Tiny AI Beats Gemini at Bug Hunting"
+    },
+    {
       "id": "27421537c448f31a",
       "title": "Synthesia\u2019s AI training platform is moving beyond videos into live coaching",
       "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
@@ -759,265 +899,45 @@
       "headline": "AUSTRALIA FORCES AI PLATFORMS TO UNMASK ANONYMOUS USERS"
     },
     {
-      "id": "6b6a933c243d5891",
-      "title": "A FINRA for AI? The idea from Google DeepMind CEO Demis Hassabis is gaining momentum. But is it any good?",
-      "url": "https://fortune.com/2026/07/21/google-deepmind-ceo-demis-hassabis-finra-for-ai-proposal-gains-momentum-but-is-it-any-good/",
-      "source": "Fortune Tech",
-      "summary": "The self-regulatory body for financial brokerages has been plagued by concerns about conflict of interest, raising questions about whether it's the right model for AI.",
-      "published": "2026-07-21T18:08:18+00:00",
-      "score": 38.0,
-      "headline": "DeepMind CEO Pushes for 'FINRA for AI' \u2014 But Will Self-Regulation Work?"
-    },
-    {
-      "id": "f49e226bd9a96510",
-      "title": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
-      "url": "https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/ Comments URL: https://news.ycombinator.com/item?id=48989006 Points: 1 # Comments: 0",
-      "published": "2026-07-21T07:01:24+00:00",
-      "score": 38.0,
-      "headline": "ANSI Escape Injection: Hidden Attack Vector in MCP Servers"
-    },
-    {
-      "id": "19e59862d2b4c479",
-      "title": "\"Fork it or leave\": Linus Torvalds fires back at Linux's anti-AI crowd",
-      "url": "https://www.neowin.net/news/fork-it-or-leave-linus-torvalds-riles-up-linuxs-ai-luddites/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.neowin.net/news/fork-it-or-leave-linus-torvalds-riles-up-linuxs-ai-luddites/ Comments URL: https://news.ycombinator.com/item?id=48988470 Points: 4 # Comments: 1",
-      "published": "2026-07-21T05:40:32+00:00",
-      "score": 38.0,
-      "headline": "TORVALDS FIRES BACK: 'Fork It or Leave' to Anti-AI Crowd"
-    },
-    {
-      "id": "d01d20f63378ffb6",
-      "title": "Not enough water for UK\u2019s datacentre plans, trade body says",
-      "url": "https://www.theguardian.com/environment/2026/jul/21/not-enough-water-for-uks-datacentre-plans-trade-body-says",
-      "source": "The Guardian Tech",
-      "summary": "Industry says government\u2019s failure to address cooling demands means AI growth plans are \u2018fatally flawed\u2019The UK will not have enough water for future datacentres, the water industry has said in stark criticism of the government\u2019s AI growth plans.Datacentres rely on large amounts of water to manage the heat generated by densely packed servers. Cooling towers, chillers and humidification systems make direct use of this water, with large volumes also consumed indirectly through high electrical power needs. Continue reading...",
-      "published": "2026-07-21T04:00:09+00:00",
-      "score": 38.0,
-      "headline": "UK Water Crisis Threatens AI Datacenter Expansion Plans"
-    },
-    {
-      "id": "150ee73e982276a6",
-      "title": "FUSAR-R1: A Large-Scale Reasoning Model for Intelligent Interpretation of SAR Images",
-      "url": "https://arxiv.org/abs/2607.16819",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2607.16819v1 Announce Type: new Abstract: In recent years, large-scale vision-language models have been driving a paradigm shift in intelligent remote sensing image interpretation. By incorporating textual semantic information, the cognitive expression, semantic understanding, and human-computer interaction capabilities of interpretation models have been significantly improved, achieving initial progress in the field of Synthetic Aperture Radar (SAR) image interpretation. However, SAR images are affected by factors such as coherent imaging mechanisms, complex scattering characteristics, speckle noise interference, and target-background coupling, resulting in complex and variable image features with significant uncertainties and specializations. Existing SAR vision-language models do not yet possess the step-by-step analysis, logical judgment, and self-correction capabilities of human experts, making it difficult to support reliable intelligent interpretation in complex scenarios.",
-      "published": "2026-07-21T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "China's FUSAR-R1: Reasoning Model Reads SAR Imagery"
-    },
-    {
-      "id": "3b423b75db7d53aa",
-      "title": "Natural raises $30M to reinvent payments for AI agents \u2014 and take on Stripe",
-      "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/",
-      "source": "TechCrunch Startups",
-      "summary": "The one-year-old startup aims to reinvent financial architecture for autonomous AI transactions.",
-      "published": "2026-07-20T19:11:25+00:00",
-      "score": 38.0,
-      "headline": "Natural Raises $30M to Build Payment Rails for AI Agents"
-    },
-    {
-      "id": "685f445348c45cbf",
-      "title": "Google\u2019s AI cited Facebook 19.5 million times, new research finds",
-      "url": "https://thenextweb.com/news/google-ai-overviews-social-platforms-brightedge",
-      "source": "The Next Web",
-      "summary": "When Google\u2019s AI answers a question, it is increasingly not reading a website. It is reading a Facebook post. New data suggests social platforms have become a core source for Google\u2019s AI answers. Often the user never visits the platform at all. The findings come from BrightEdge, an enterprise SEO firm. Its tool tracks roughly [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-20T14:57:47+00:00",
-      "score": 38.0,
-      "headline": "Google AI Cited Facebook 19.5M Times... Social Platforms Now Core Source"
-    },
-    {
-      "id": "6e64c55ae93c152a",
-      "title": "Google Shares Gain on Report of Chip to Boost AI Efficiency",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/google-plans-new-chip-to-boost-ai-efficiency-information-says",
-      "source": "Bloomberg Technology",
-      "summary": "Shares of Google owner Alphabet Inc. gained on a report that the company is developing a server chip designed to optimize its Gemini artificial intelligence model.",
-      "published": "2026-07-20T13:22:04+00:00",
-      "score": 38.0,
-      "headline": "GOOGLE SHARES SURGE on AI Chip Development Report"
-    },
-    {
-      "id": "c423dfab5a2a6e4e",
-      "title": "Prysmian signs \u20ac5.5 billion Molex deal in data centre push",
-      "url": "https://economictimes.indiatimes.com/tech/technology/prysmian-signs-5-5-billion-molex-deal-in-data-centre-push/articleshow/132507029.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Italian cable maker Prysmian said \u200bon Monday it \u200bhad signed a long-term agreement worth up \u200bto \u20ac5.5 billion ($6.4 billion) with Molex, a Koch-owned electronics company, as it stepped up its push into the fast-growing data \u200ccentre \u2060market.",
-      "published": "2026-07-20T05:46:22+00:00",
-      "score": 38.0,
-      "headline": "Prysmian Signs \u20ac5.5B Molex Deal for Data Centers"
-    },
-    {
-      "id": "ce4adb4efe0eb614",
-      "title": "Blackstone Agrees to Invest in Korean Robotics Supplier Futronic",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/blackstone-agrees-to-invest-in-korean-robotics-supplier-futronic",
-      "source": "Bloomberg Technology",
-      "summary": "Blackstone Inc. has agreed to invest in Futronic, a South Korean supplier of high-precision actuators used in industrial robotics and the automotive sector.",
-      "published": "2026-07-20T04:39:40+00:00",
-      "score": 38.0,
-      "headline": "Blackstone Invests in Korean Robotics Supplier Futronic"
-    },
-    {
-      "id": "0e67a0b7c551e8d9",
-      "title": "\u2018Synthetic insider\u2019 attacks raise stakes for corporate cyber defence",
-      "url": "https://www.ft.com/content/67fe2b44-2041-4ee1-b606-5def4d717407?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Use of AI deepfake employees to infiltrate companies highlights wider risk of internal security breaches",
-      "published": "2026-07-20T04:00:10+00:00",
-      "score": 38.0,
-      "headline": "DEEPFAKE EMPLOYEES INFILTRATE COMPANIES... 'Synthetic Insider' Threat"
-    },
-    {
-      "id": "f18f99c8e2f5d0d8",
-      "title": "Victoria proposes forcing social media platforms to unmask anonymous accounts accused of vilification",
-      "url": "https://thenextweb.com/news/victoria-australia-social-media-demasking-vilification",
-      "source": "The Next Web",
-      "summary": "Victoria\u2019s premier Jacinta Allan announced on Sunday that the state would propose laws granting the Victorian civil and administrative tribunal power to order social media and AI platforms to reveal the identities of anonymous account holders accused of online vilification. The \u201cdemasking\u201d powers would be the first of their kind for an Australian state. Allan [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-19T16:05:47+00:00",
-      "score": 38.0,
-      "headline": "Victoria to Force AI Platforms Unmask Anonymous Users"
-    },
-    {
-      "id": "f94394e35d703842",
-      "title": "\u2018Odyssey\u2019 director Christopher Nolan calls AI an obvious \u2018Trojan horse\u2019",
-      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "id": "6a7f08f97575001b",
+      "title": "Travis Kalanick\u2019s robotics company raises $1.7B, led by a16z",
+      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
       "source": "TechCrunch AI",
-      "summary": "\"Everybody knows the Greeks are inside.\"",
-      "published": "2026-07-19T14:52:08+00:00",
+      "summary": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+      "published": "2026-07-22T18:50:44+00:00",
       "score": 38.0,
-      "headline": "NOLAN CALLS AI 'OBVIOUS TROJAN HORSE'"
+      "headline": "Travis Kalanick's AI Robotics Firm Raises $1.7B from a16z"
     },
     {
-      "id": "3529aed77312607e",
-      "title": "Why Apple\u2019s OpenAI Lawsuit Doesn\u2019t Mention Jony Ive; AI Recording at Genius Bar",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-07-19/why-apple-s-openai-lawsuit-doesn-t-mention-jony-ive-ai-recording-at-genius-bar-mrrv4mix",
-      "source": "Bloomberg Technology",
-      "summary": "Also: The company tries out AI recording for Genius Bar appointments.",
-      "published": "2026-07-19T14:00:01+00:00",
-      "score": 38.0,
-      "headline": "Apple Tests AI Recording at Genius Bar"
-    },
-    {
-      "id": "1af15fb64f9b7622",
-      "title": "Common Sense Media says Google\u2019s AI Search poses an \u201cunacceptable risk\u201d to students. Google cannot turn it off.",
-      "url": "https://thenextweb.com/news/google-ai-search-unsafe-schools-common-sense-media",
-      "source": "The Next Web",
-      "summary": "Common Sense Media concluded that Google\u2019s AI-powered Search poses an \u201cunacceptable risk\u201d to young users and recommended that students stop using it entirely until schools can disable the AI features. The child safety watchdog found that AI Mode readily completed homework assignments for minors, repeated misinformation with an air of authority, and exposed children to [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-19T12:51:50+00:00",
-      "score": 38.0,
-      "headline": "GOOGLE AI SEARCH BANNED: Students Face 'Unacceptable Risk'"
-    },
-    {
-      "id": "09c6b30dee0f3981",
-      "title": "Pocket-size AI: Powerful phones star at China show",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/pocket-size-ai-powerful-phones-star-at-china-show/articleshow/132490679.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Tech firms are developing AI agent smartphones that could revolutionize mobile use. These advanced phones aim to perform tasks using voice commands and AI. Major app companies are restricting access, which hinders the AI agent's functionality. Companies like Nubia, Honor, and StepFun are showcasing these new devices. Experts predict a fundamental change in digital economies and business models.",
-      "published": "2026-07-19T07:18:48+00:00",
-      "score": 38.0,
-      "headline": "China Unveils AI Agent Smartphones at Major Tech Show"
-    },
-    {
-      "id": "240512f7fff1aad5",
-      "title": "Xpeng says China close to building \u2018killer\u2019 rival to Tesla Model Y",
-      "url": "https://www.ft.com/content/5a8dc7cd-35c8-4aeb-8f09-1df8afb2cf2e?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Elon Musk\u2019s SUV remains top-selling electric vehicle in many parts of the world as well as second most popular in China",
-      "published": "2026-07-19T04:00:20+00:00",
-      "score": 38.0,
-      "headline": "Xpeng: China Building 'Killer' Tesla Model Y Rival"
-    },
-    {
-      "id": "e9adf6e014bc243c",
-      "title": "Sam Altman and Jony Ive formed a dream team to reinvent hardware. Now it\u2019s at the center of a battle for OpenAI\u2019s future",
-      "url": "https://fortune.com/2026/07/22/sam-altman-and-jony-ive-formed-a-dream-team-to-reinvent-hardware-now-its-at-the-center-of-a-battle-for-openais-future/",
-      "source": "Fortune Tech",
-      "summary": "Betting that a new breed of tech gadgets will give it an edge over its AI rivals, the ChatGPT maker tapped Apple\u2019s former design guru last year. A legal fight with Apple is just one of the challenges now facing OpenAI in its hardware quest.",
-      "published": "2026-07-22T07:01:00+00:00",
-      "score": 37.0,
-      "headline": "Altman-Ive Hardware Project Sparks Battle for OpenAI's Future"
-    },
-    {
-      "id": "8ededfa2c762566a",
-      "title": "AI investment boom puts Big Tech's free cash flow under pressure",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/analysis-ai-investment-boom-puts-big-techs-free-cash-flow-under-pressure/articleshow/132551396.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Big tech firms are investing heavily in artificial intelligence infrastructure. Their capital expenditures may soon exceed free cash flow generation. Microsoft and Amazon show early AI revenue growth signs. However, investors worry about sustained spending and cash depletion. Oracle's shares have fallen significantly amid negative free cash flow.",
-      "published": "2026-07-22T05:07:22+00:00",
-      "score": 37.0,
-      "headline": "BIG TECH AI SPENDING THREATENS FREE CASH FLOW"
-    },
-    {
-      "id": "69f3cdde88f9ad9a",
-      "title": "How Anthropic runs large-scale code migrations with Claude Code",
-      "url": "https://twitter.com/ClaudeDevs/status/2079654423828304282",
-      "source": "Hacker News",
-      "summary": "Article URL: https://twitter.com/ClaudeDevs/status/2079654423828304282 Comments URL: https://news.ycombinator.com/item?id=49002073 Points: 3 # Comments: 1",
-      "published": "2026-07-22T05:00:07+00:00",
-      "score": 37.0,
-      "headline": "Anthropic Uses Claude Code for Massive Code Migrations"
-    },
-    {
-      "id": "2e8546eddeab9cce",
-      "title": "Substack is adding an AI detection feature",
-      "url": "https://www.engadget.com/2220064/substack-is-adding-an-ai-detection-feature/",
+      "id": "a62aaea8b248983b",
+      "title": "OpenAI sued over ChatGPT health advice that almost killed a pastor",
+      "url": "https://www.engadget.com/2221044/openai-sued-over-chatgpt-health-advice-that-almost-killed-a-pastor/",
       "source": "Engadget",
-      "summary": "Substack is partnering with Pangram to add an AI detection feature.",
-      "published": "2026-07-21T18:54:20+00:00",
-      "score": 37.0,
-      "headline": "Substack Launches AI Detection Feature to Combat Generated Content"
+      "summary": "ChatGPT allegedly offered \"extremely dangerous medical recommendations\" regarding a pulmonary embolism.",
+      "published": "2026-07-22T18:40:46+00:00",
+      "score": 38.0,
+      "headline": "OpenAI SUED: ChatGPT Health Advice Nearly Killed Pastor"
     },
     {
-      "id": "a9fd484d54ff057a",
-      "title": "The biggest data-centre deal in history just closed, then got $5bn bigger",
-      "url": "https://thenextweb.com/news/aligned-data-centers-40-billion-blackrock-mgx",
+      "id": "11bca62b470fb0f9",
+      "title": "Arrakis emerges from stealth with $38 million to bring AI to factories and supply chains",
+      "url": "https://thenextweb.com/news/arrakis-ai-startup-38-million-stealth-industrial",
       "source": "The Next Web",
-      "summary": "On Tuesday, a group of the world\u2019s most powerful investors finished buying a company most people have never heard of. The price tag explains why it matters. The largest data-centre deal ever The AI Infrastructure Partnership, MGX, and BlackRock\u2019s Global Infrastructure Partners completed their purchase of all the equity in Aligned Data Centers. The deal [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-21T17:09:19+00:00",
-      "score": 37.0,
-      "headline": "BIGGEST DATA CENTER DEAL IN HISTORY CLOSES \u2014 Then Grows $5B"
+      "summary": "Arrakis, a London and Paris startup building what it calls an AI operating system for industrial companies, has emerged from stealth with $38 million in total funding and a thesis that the biggest returns from artificial intelligence will come from factories and supply chains, not office software. The company raised a $30 million Series A [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-22T17:26:43+00:00",
+      "score": 38.0,
+      "headline": "Arrakis Emerges With $38M for Factory AI Operating System"
     },
     {
-      "id": "9783627bd88cddeb",
-      "title": "Introducing the ChatGPT for small business program",
-      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "published": "2026-07-21T17:00:00+00:00",
-      "score": 37.0,
-      "headline": "OpenAI Launches ChatGPT for Small Business Program"
-    },
-    {
-      "id": "c0eb5e41c1a78053",
-      "title": "Google shipped three cheap Gemini models and a Mythos rival, but not the one that matters",
-      "url": "https://thenextweb.com/news/google-gemini-3-6-flash-flash-cyber-launch",
-      "source": "The Next Web",
-      "summary": "Google\u2019s answer to a summer of being outrun is not a bigger model. It is cheaper ones. On Tuesday the company launched three new Gemini models, all at its fast, low-cost \u201cFlash\u201d tier, a day before Alphabet reports earnings. The message is efficiency over raw power. The catch is what is still missing. Cheap, fast, [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-21T16:29:17+00:00",
-      "score": 37.0,
-      "headline": "Google Ships Three Cheap Gemini Models... NOT The One That Matters"
-    },
-    {
-      "id": "36598d2724afc579",
-      "title": "Tesla expands robotaxi service to Orlando, Tampa ahead of earnings",
-      "url": "https://economictimes.indiatimes.com/tech/technology/tesla-expands-robotaxi-service-to-orlando-tampa-ahead-of-earnings/articleshow/132540502.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Tesla has expanded its robotaxi service to Orlando and Tampa this week. This move aims to prove the company can scale its autonomous ride-hailing business. The expansion comes as Tesla prepares to report its second-quarter earnings to investors. Tesla's robotaxi system uses cameras and AI software, unlike rivals using lidar sensors. The company plans to eventually deploy its purpose-built Cybercab vehicle without pedals or a steering wheel.",
-      "published": "2026-07-21T15:31:54+00:00",
-      "score": 37.0,
-      "headline": "Tesla Expands Robotaxi to Orlando and Tampa... Before Earnings"
-    },
-    {
-      "id": "7bfd2111784eec35",
-      "title": "Google updates lightweight Gemini models, but flagship still delayed",
-      "url": "https://economictimes.indiatimes.com/tech/technology/google-updates-lightweight-gemini-models-but-flagship-still-delayed/articleshow/132540145.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Google launched three new Gemini AI models, offering cost-effective solutions. The company has not provided a release date for its flagship Gemini 3.5 Pro. This top-tier model's delay is reportedly due to internal performance shortcomings. Google's rivals have recently introduced their own advanced artificial intelligence models. The company stated Gemini 3.5 Pro is currently undergoing partner testing.",
-      "published": "2026-07-21T15:24:23+00:00",
-      "score": 37.0,
-      "headline": "Google Updates Lightweight Gemini Models... Flagship Still Delayed"
+      "id": "521b760a11faa38e",
+      "title": "Medtronic to launch AI compute platform for the operating room",
+      "url": "https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/",
+      "source": "The Robot Report",
+      "summary": "Touch Surgery bridges pre-operative planning and training, intra-operative tele-mentoring and tele-proctoring, and post-operative insights. The post Medtronic to launch AI compute platform for the operating room appeared first on The Robot Report.",
+      "published": "2026-07-22T17:22:00+00:00",
+      "score": 38.0,
+      "headline": "Medtronic Launches AI Platform for Operating Rooms"
     }
   ],
-  "generated_at": "2026-07-22T08:17:16.091687"
+  "generated_at": "2026-07-22T19:05:21.619396"
 }
