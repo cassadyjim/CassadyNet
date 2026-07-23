@@ -7,10 +7,10 @@
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "ai-security-breaches-and-copyright-settlements-20260722",
-      "analysis_url": "/analysis/analysis-ai-security-breaches-and-copyright-settlements-20260722.html",
+      "analysis_url": "/analysis/analysis-openai-agent-security-breach-20260722.html",
       "analysis_type": "poll",
       "created_at": "2026-07-22T08:17:37.858588",
-      "last_seen": "2026-07-22T19:05:56.365219",
+      "last_seen": "2026-07-23T08:22:35.811958",
       "cluster_stories": [
         {
           "id": "62f63094ba0b016e",
@@ -113,7 +113,192 @@
           "headline": "AI AGENT BREACHES HUGGING FACE... AI DEFENDER CATCHES IT"
         }
       ],
-      "current_topic_name": "AI Security Breaches and Copyright Settlements"
+      "current_topic_name": "OpenAI Agent Security Breach"
+    },
+    {
+      "topic": "US-China AI Geopolitical Conflict",
+      "description": "Escalating tensions between US and China over AI technology, including accusations of IP theft, export controls, chip bans, and China's push for self-sufficiency in AI infrastructure.",
+      "question": "Should the US escalate restrictions on Chinese AI development?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "us-china-ai-geopolitical-conflict-20260723",
+      "analysis_url": "/analysis/analysis-us-china-ai-geopolitical-conflict-20260723.html",
+      "analysis_type": "poll",
+      "created_at": "2026-07-23T08:22:34.195024",
+      "last_seen": "2026-07-23T08:22:39.283261",
+      "cluster_stories": [
+        {
+          "id": "e997f9fc631b4ae7",
+          "title": "White House accuses China's Moonshot of stealing Anthropic AI",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/white-house-accuses-chinas-moonshot-of-stealing-anthropic-ai/articleshow/132564433.cms",
+          "source": "The Economic Times Tech",
+          "summary": "A top White House official on Wednesday accused Chinese AI startup Moonshot AI of covertly copying Anthropic's most advanced model to build its Kimi K3. Michael Kratsios, director of the White House Office of Science and Technology Policy, said in a post on X that the United States had \"information that Moonshot AI distilled Anthropic's Fable for the development of its K3 model.\"",
+          "published": "2026-07-22T17:17:20+00:00",
+          "score": 50.0,
+          "headline": "WHITE HOUSE ACCUSES CHINA'S MOONSHOT OF STEALING ANTHROPIC AI"
+        },
+        {
+          "id": "def352338aca6f7b",
+          "title": "White House Official Says Moonshot Accessed Banned Nvidia Chips",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-22/white-house-official-says-moonshot-accessed-banned-nvidia-chips",
+          "source": "Bloomberg Technology",
+          "summary": "A White House official accused China\u2019s Moonshot of improperly using US AI models and Nvidia Corp. chips to create the Kimi K3 system that stunned the tech industry last week with its advanced capabilities.",
+          "published": "2026-07-22T15:45:47+00:00",
+          "score": 50.0,
+          "headline": "WHITE HOUSE ACCUSES CHINA'S MOONSHOT of Using Banned Nvidia Chips"
+        },
+        {
+          "id": "4feb5bbfe1ee1745",
+          "title": "Z.AI Completes Giant Data Center With Chinese Chips to Train AI",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai",
+          "source": "Bloomberg Technology",
+          "summary": "Z.AI has completed construction of a giant data center that houses only Chinese-made chips, a big step in Beijing\u2019s efforts to replace restricted Nvidia Corp. silicon for future AI development.",
+          "published": "2026-07-20T15:02:36+00:00",
+          "score": 50.0,
+          "headline": "CHINA COMPLETES MASSIVE AI DATA CENTER... NO NVIDIA CHIPS"
+        },
+        {
+          "id": "be406df3fd99cbad",
+          "title": "US threatens sanctions against Chinese AI models over IP theft",
+          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
+          "source": "TechCrunch AI",
+          "summary": "Treasury Secretary Scott Bessent said the U.S. could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
+          "published": "2026-07-21T15:37:05+00:00",
+          "score": 49.0,
+          "headline": "US THREATENS SANCTIONS ON CHINESE AI MODELS Over IP Theft"
+        },
+        {
+          "id": "bd45f7f63fd2e89e",
+          "title": "A Chinese AI lab just built a giant data centre with no Nvidia inside",
+          "url": "https://thenextweb.com/news/z-ai-data-centre-chinese-made-chips-nvidia",
+          "source": "The Next Web",
+          "summary": "For a year, one question has hung over China\u2019s fast-improving AI models: what are they actually running on? Z.AI has just given part of the answer. It has built a huge data centre that uses only Chinese-made chips. The company, formerly known as Zhipu, has started partially operating the site, Bloomberg reported, citing a person [&hellip;] This story continues at The Next Web",
+          "published": "2026-07-20T15:49:47+00:00",
+          "score": 48.0,
+          "headline": "CHINESE AI LAB BUILDS MASSIVE DATA CENTER... NO NVIDIA"
+        },
+        {
+          "id": "137ddc227449b56a",
+          "title": "China Cuts AI Gap as Moonshot Shows Zhipu Isn\u2019t One-Off, BI Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-23/china-cuts-ai-gap-as-moonshot-shows-zhipu-isn-t-one-off-bi-says",
+          "source": "Bloomberg Technology",
+          "summary": "Chinese AI models narrowed the performance gap with US counterparts to a record-low 6% in June, down from 9% in May, which Bloomberg Intelligence said raises questions about the sustainability of US technological supremacy in the sector.",
+          "published": "2026-07-23T06:19:44+00:00",
+          "score": 47.0,
+          "headline": "CHINA SLASHES AI GAP WITH US TO RECORD 6% - Bloomberg Intelligence"
+        },
+        {
+          "id": "a1b9cc53cd904013",
+          "title": "China's Z.ai Completes 1-Gigawatt AI Data Center Using Only Chinese-Made Chips",
+          "url": "https://finance.yahoo.com/technology/ai/articles/chinas-z-ai-completes-1-205515769.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/chinas-z-ai-completes-1-205515769.html Comments URL: https://news.ycombinator.com/item?id=48988630 Points: 4 # Comments: 1",
+          "published": "2026-07-21T06:06:28+00:00",
+          "score": 47.0,
+          "headline": "CHINA'S Z.AI COMPLETES 1-GIGAWATT DATA CENTER... ALL-CHINESE CHIPS"
+        },
+        {
+          "id": "dfd441b60b92e7f1",
+          "title": "China considers tighter export controls on AI models and chips",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/china-considers-tighter-export-controls-on-ai-models-and-chips/articleshow/132528071.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Regulators led \u200bby the China's Ministry of \u200bCommerce (MofCom) \u2060have been \u200cconsulting \u200bleading \u200bdomestic AI \u2060and chipmaking groups on \u200bhow to prevent \u200bChina's advanced technologies and star start-ups from \u200cbeing acquired by the west, \u200bthe \u200breport \u2060said, citing two people involved in the \u200bdiscussions.",
+          "published": "2026-07-21T04:46:57+00:00",
+          "score": 47.0,
+          "headline": "CHINA WEIGHS TIGHTER EXPORT CONTROLS ON AI MODELS AND CHIPS"
+        },
+        {
+          "id": "6d386ddfa53288d2",
+          "title": "China weighs tighter export controls on AI models and chips",
+          "url": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Beijing consults companies on ways to stop west acquiring its advanced technologies and star start-ups",
+          "published": "2026-07-21T04:00:20+00:00",
+          "score": 47.0,
+          "headline": "BEIJING CONSULTS ON AI EXPORT CONTROLS TO BLOCK WESTERN ACCESS"
+        },
+        {
+          "id": "4dc9dbe9702f3279",
+          "title": "The U.S. wants to contain China's AI. Silicon Valley keeps using it",
+          "url": "https://restofworld.org/2026/china-siliconvalley-ai-moonshot-kimi/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://restofworld.org/2026/china-siliconvalley-ai-moonshot-kimi/ Comments URL: https://news.ycombinator.com/item?id=49017706 Points: 8 # Comments: 0",
+          "published": "2026-07-23T06:40:21+00:00",
+          "score": 46.0,
+          "headline": "Silicon Valley STILL Using Chinese AI Despite U.S. Containment Push"
+        },
+        {
+          "id": "61d13d1985062617",
+          "title": "China\u2019s AI models have Trump\u2019s AI world at war with itself",
+          "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+          "source": "MIT Technology Review",
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country\u2019s leading AI companies. David Sacks, the president\u2019s AI and crypto \u201cczar\u201d until&#8230;",
+          "published": "2026-07-20T18:00:00+00:00",
+          "score": 46.0,
+          "headline": "CHINA'S AI MODELS IGNITE WAR Within Trump's Tech Circle"
+        },
+        {
+          "id": "0d75ec9de4c7928c",
+          "title": "The secret Trump administration battle to fight Chinese AI",
+          "url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi Comments URL: https://news.ycombinator.com/item?id=49002268 Points: 2 # Comments: 0",
+          "published": "2026-07-22T05:38:28+00:00",
+          "score": 45.0,
+          "headline": "SECRET TRUMP BATTLE TO FIGHT CHINESE AI REVEALED"
+        },
+        {
+          "id": "d33d581478f94f80",
+          "title": "Trump administration reportedly reviving push to ban Chinese AI models, Kimi K3",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-administration-reportedly-reviving-push-to-ban-chinese-ai-models-following-kimi-k3-launch-citing-cybersecurity-concerns-downloadable-open-weights-could-make-an-outright-u-s-ban-nearly-impossible-to-enforce-amid-growing-adoption",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-administration-reportedly-reviving-push-to-ban-chinese-ai-models-following-kimi-k3-launch-citing-cybersecurity-concerns-downloadable-open-weights-could-make-an-outright-u-s-ban-nearly-impossible-to-enforce-amid-growing-adoption Comments URL: https://news.ycombinator.com/item?id=48989230 Points: 1 # Comments: 1",
+          "published": "2026-07-21T07:35:33+00:00",
+          "score": 45.0,
+          "headline": "TRUMP REVIVES PUSH TO BAN CHINESE AI... Kimi K3 Targeted"
+        },
+        {
+          "id": "6e0089729cd2723e",
+          "title": "AI is becoming a geopolitical weapon, warns EU digital chief",
+          "url": "https://www.ft.com/content/ccaf6c42-f94b-4afc-a063-7243b4fb78ed?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Europe needs to avoid relying on an unpredictable Washington for strategic capabilities, says Henna Virkkunen",
+          "published": "2026-07-21T04:00:10+00:00",
+          "score": 44.0,
+          "headline": "EU DIGITAL CHIEF: AI BECOMING GEOPOLITICAL WEAPON"
+        },
+        {
+          "id": "73d7b92f7ad95b1b",
+          "title": "Can Kimi K3 Help China Beat US for AI Dominance?: Live Q&A",
+          "url": "https://www.bloomberg.com/sessions/2026-07-20/live-q-amp-a-can-moonshot-s-kimi-help-china-break-the-us-s-ai-lead",
+          "source": "Bloomberg Technology",
+          "summary": "Bloomberg reporters answer your questions on China\u2019s push to lead the AI race on July 20 at 3 p.m. HKT / 8 a.m. BST",
+          "published": "2026-07-20T05:41:01+00:00",
+          "score": 44.0,
+          "headline": "CAN KIMI K3 HELP CHINA BEAT US FOR AI DOMINANCE?"
+        },
+        {
+          "id": "22ff93960bae81b8",
+          "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+          "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+          "source": "TechCrunch AI",
+          "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+          "published": "2026-07-22T16:24:08+00:00",
+          "score": 43.0,
+          "headline": "US AI Lab Defends Chinese Models: 'Not Inherently Dangerous'"
+        },
+        {
+          "id": "45af9007b7ded56d",
+          "title": "Legally or not, US government is controlling global access to world's most powerful AI",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/legally-or-not-us-government-is-controlling-global-access-to-worlds-most-powerful-ai/articleshow/132551452.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The US Commerce Department ordered Anthropic to block foreign nationals from advanced AI models. This action disabled Anthropic's models, citing national security concerns and impacting users globally. Restrictions were lifted after Anthropic enhanced safety guardrails, which reduced model intelligence and performance. The incident questions the government's role as an AI gatekeeper and the legality of its actions.",
+          "published": "2026-07-22T05:22:50+00:00",
+          "score": 43.0,
+          "headline": "US FORCES ANTHROPIC TO BLOCK FOREIGNERS FROM ADVANCED AI"
+        }
+      ],
+      "current_topic_name": "US-China AI Geopolitical Conflict"
     },
     {
       "topic": "OpenAI Agent Security Breach",
@@ -123,8 +308,9 @@
       "analysis_url": "",
       "analysis_type": "poll",
       "created_at": "2026-07-22T19:05:57.665546",
-      "last_seen": "2026-07-22T19:05:57.665550"
+      "last_seen": "2026-07-22T19:05:57.665550",
+      "pending_archive": true
     }
   ],
-  "last_updated": "2026-07-22T19:06:07.862408"
+  "last_updated": "2026-07-23T08:22:39.283324"
 }
