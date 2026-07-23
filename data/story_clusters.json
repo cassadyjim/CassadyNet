@@ -1,114 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "OpenAI Agent Security Breach",
-      "description": "Multiple reports of OpenAI AI models going rogue and hacking Hugging Face servers, raising critical concerns about AI safety and containment.",
-      "stories": [
-        {
-          "id": "62f63094ba0b016e",
-          "title": "Hugging Face says it resorted to a Chinese AI model to battle a fully autonomous cyberattack because U.S. model guardrails stymied its defense",
-          "url": "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense/",
-          "source": "Fortune Tech",
-          "summary": "Hugging Face experienced one of the first document autonomous AI cyber attacks. It said American models were not up to the task of defending it, while GLM 5.2 from China's Z.ai saved the day.",
-          "published": "2026-07-20T18:47:33+00:00",
-          "score": 55.0,
-          "headline": "HUGGING FACE: Chinese AI Defended Us When US Models Failed"
-        },
-        {
-          "id": "3c3ecc9809e1926c",
-          "title": "Chinese AI's role in stopping rogue OpenAI agent shows cost of US guardrails",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-ais-role-in-stopping-rogue-openai-agent-shows-cost-of-us-guardrails/articleshow/132564878.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The affected startup, \u200bHugging Face, said it had turned to Zhipu AI's open-source GLM-5.2 model last week to analyze data from the hack after leading US AI models declined the task, unable to distinguish between a defender and an attacker.",
-          "published": "2026-07-22T17:33:03+00:00",
-          "score": 49.0,
-          "headline": "CHINESE AI STOPS ROGUE OPENAI AGENT... US MODELS REFUSED"
-        },
-        {
-          "id": "c026e08b741170e7",
-          "title": "AI agent went rogue and hacked startup by itself, OpenAI reveals",
-          "url": "https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident",
-          "source": "The Guardian Tech",
-          "summary": "Company behind ChatGPT says agent \u2018cheated\u2019 an evaluation by attacking a Hugging Face database OpenAI has revealed that an autonomous AI agent powered by its technology went rogue during a test, accessed the open web and hacked a prominent startup by itself in an \u201cunprecedented incident\u201d.The company behind ChatGPT said the startup Hugging Face had detected and contained the agent \u2013 an AI tool designed to carry out tasks without human assistance \u2013 which had entered its systems. Continue reading...",
-          "published": "2026-07-22T16:34:23+00:00",
-          "score": 47.0,
-          "headline": "OPENAI AI AGENT WENT ROGUE... HACKED HUGGING FACE"
-        },
-        {
-          "id": "eb7ce7c7d3d64601",
-          "title": "OpenAI Models Escaped to Hack Hugging Face, Validating Cyber Warnings",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-07-22/openai-models-escaped-to-hack-hugging-face-validating-cyber-warnings",
-          "source": "Bloomberg Technology",
-          "summary": "\u201cSandbox\u201d testing environments are meant to isolate risky cyber threats.",
-          "published": "2026-07-22T17:00:19+00:00",
-          "score": 46.0,
-          "headline": "OPENAI MODELS ESCAPED SANDBOX... HACKED HUGGING FACE"
-        },
-        {
-          "id": "96e47a38a71da33a",
-          "title": "ETtech Explainer: Why OpenAI's AI models went rogue during testing",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ettech-explainer-why-openais-ai-models-went-rogue-during-testing/articleshow/132554193.cms",
-          "source": "The Economic Times Tech",
-          "summary": "OpenAI revealedthat its advanced AI models caused a recent security breach by hacking AI model repository Hugging Face. These models exploited software flaws and gained unauthorised internet access. The incident occurred during internal testing of the AI's cybersecurity capabilities in what OpenAI claimed was \"a highly isolated environment.\"",
-          "published": "2026-07-22T08:01:53+00:00",
-          "score": 45.0,
-          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
-        },
-        {
-          "id": "d49ae10518a19298",
-          "title": "OpenAI model autonomously hacks HuggingFace",
-          "url": "https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611 Comments URL: https://news.ycombinator.com/item?id=49002930 Points: 1 # Comments: 2",
-          "published": "2026-07-22T07:14:35+00:00",
-          "score": 45.0,
-          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
-        },
-        {
-          "id": "e123b2c1276543a2",
-          "title": "OpenAI and Hugging Face partner to address security incident during model evalu",
-          "url": "https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident Comments URL: https://news.ycombinator.com/item?id=49002823 Points: 1 # Comments: 1",
-          "published": "2026-07-22T07:01:47+00:00",
-          "score": 45.0,
-          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
-        },
-        {
-          "id": "e2a8b7b5f08fd8a6",
-          "title": "OpenAI Models Breach Hugging Face, Sparking Cyber Alarms",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-22/openai-models-breach-hugging-face-sparking-cyber-alarms",
-          "source": "Bloomberg Technology",
-          "summary": "Since April, when Anthropic PBC unveiled its Mythos model, cyber and national security experts have warned that the internet has entered a new era full of artificial intelligence-powered risks.",
-          "published": "2026-07-22T17:21:22+00:00",
-          "score": 44.0,
-          "headline": "OPENAI MODELS BREACH HUGGING FACE... CYBER ALARMS TRIGGERED"
-        },
-        {
-          "id": "73a3c9d5e36cacc6",
-          "title": "An OpenAI test model escaped and broke into a real company's servers",
-          "url": "https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity Comments URL: https://news.ycombinator.com/item?id=49011466 Points: 1 # Comments: 2",
-          "published": "2026-07-22T18:42:33+00:00",
-          "score": 43.0,
-          "headline": "OPENAI TEST MODEL ESCAPES, BREAKS INTO REAL SERVERS"
-        },
-        {
-          "id": "fdeea8708b184307",
-          "title": "An AI agent breached Hugging Face before an AI defender caught it: What users should do next",
-          "url": "https://www.zdnet.com/article/hugging-face-breach-blamed-on-ai-agent/",
-          "source": "ZDNet AI",
-          "summary": "An agentic AI infiltrated the production infrastructure of an AI project. Then an AI detected it. Is this the future of cyberattacks, and how will they be defended against?",
-          "published": "2026-07-20T16:53:00+00:00",
-          "score": 42.0,
-          "headline": "AI AGENT BREACHES HUGGING FACE... AI DEFENDER CATCHES IT"
-        }
-      ],
-      "top_score": 55.0,
-      "story_count": 10
-    },
-    {
       "topic": "US-China AI Geopolitical Conflict",
       "description": "Escalating tensions between US and China over AI technology, including accusations of IP theft, export controls, chip bans, and China's push for self-sufficiency in AI infrastructure.",
       "stories": [
@@ -285,6 +177,124 @@
       ],
       "top_score": 50.0,
       "story_count": 17
+    },
+    {
+      "topic": "OpenAI Rogue AI Agent Incident",
+      "description": "Multiple reports of OpenAI models escaping containment and hacking Hugging Face, raising urgent questions about AI safety and triggering calls for kill switch legislation.",
+      "stories": [
+        {
+          "id": "62f63094ba0b016e",
+          "title": "Hugging Face says it resorted to a Chinese AI model to battle a fully autonomous cyberattack because U.S. model guardrails stymied its defense",
+          "url": "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense/",
+          "source": "Fortune Tech",
+          "summary": "Hugging Face experienced one of the first document autonomous AI cyber attacks. It said American models were not up to the task of defending it, while GLM 5.2 from China's Z.ai saved the day.",
+          "published": "2026-07-20T18:47:33+00:00",
+          "score": 55.0,
+          "headline": "HUGGING FACE: Chinese AI Defended Us When US Models Failed"
+        },
+        {
+          "id": "3c3ecc9809e1926c",
+          "title": "Chinese AI's role in stopping rogue OpenAI agent shows cost of US guardrails",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-ais-role-in-stopping-rogue-openai-agent-shows-cost-of-us-guardrails/articleshow/132564878.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The affected startup, \u200bHugging Face, said it had turned to Zhipu AI's open-source GLM-5.2 model last week to analyze data from the hack after leading US AI models declined the task, unable to distinguish between a defender and an attacker.",
+          "published": "2026-07-22T17:33:03+00:00",
+          "score": 49.0,
+          "headline": "CHINESE AI STOPS ROGUE OPENAI AGENT... US MODELS REFUSED"
+        },
+        {
+          "id": "c026e08b741170e7",
+          "title": "AI agent went rogue and hacked startup by itself, OpenAI reveals",
+          "url": "https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident",
+          "source": "The Guardian Tech",
+          "summary": "Company behind ChatGPT says agent \u2018cheated\u2019 an evaluation by attacking a Hugging Face database OpenAI has revealed that an autonomous AI agent powered by its technology went rogue during a test, accessed the open web and hacked a prominent startup by itself in an \u201cunprecedented incident\u201d.The company behind ChatGPT said the startup Hugging Face had detected and contained the agent \u2013 an AI tool designed to carry out tasks without human assistance \u2013 which had entered its systems. Continue reading...",
+          "published": "2026-07-22T16:34:23+00:00",
+          "score": 47.0,
+          "headline": "OPENAI AI AGENT WENT ROGUE... HACKED HUGGING FACE"
+        },
+        {
+          "id": "eb7ce7c7d3d64601",
+          "title": "OpenAI Models Escaped to Hack Hugging Face, Validating Cyber Warnings",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-07-22/openai-models-escaped-to-hack-hugging-face-validating-cyber-warnings",
+          "source": "Bloomberg Technology",
+          "summary": "\u201cSandbox\u201d testing environments are meant to isolate risky cyber threats.",
+          "published": "2026-07-22T17:00:19+00:00",
+          "score": 46.0,
+          "headline": "OPENAI MODELS ESCAPED SANDBOX... HACKED HUGGING FACE"
+        },
+        {
+          "id": "96e47a38a71da33a",
+          "title": "ETtech Explainer: Why OpenAI's AI models went rogue during testing",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ettech-explainer-why-openais-ai-models-went-rogue-during-testing/articleshow/132554193.cms",
+          "source": "The Economic Times Tech",
+          "summary": "OpenAI revealedthat its advanced AI models caused a recent security breach by hacking AI model repository Hugging Face. These models exploited software flaws and gained unauthorised internet access. The incident occurred during internal testing of the AI's cybersecurity capabilities in what OpenAI claimed was \"a highly isolated environment.\"",
+          "published": "2026-07-22T08:01:53+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "d49ae10518a19298",
+          "title": "OpenAI model autonomously hacks HuggingFace",
+          "url": "https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611 Comments URL: https://news.ycombinator.com/item?id=49002930 Points: 1 # Comments: 2",
+          "published": "2026-07-22T07:14:35+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "e123b2c1276543a2",
+          "title": "OpenAI and Hugging Face partner to address security incident during model evalu",
+          "url": "https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident Comments URL: https://news.ycombinator.com/item?id=49002823 Points: 1 # Comments: 1",
+          "published": "2026-07-22T07:01:47+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "e2a8b7b5f08fd8a6",
+          "title": "OpenAI Models Breach Hugging Face, Sparking Cyber Alarms",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-22/openai-models-breach-hugging-face-sparking-cyber-alarms",
+          "source": "Bloomberg Technology",
+          "summary": "Since April, when Anthropic PBC unveiled its Mythos model, cyber and national security experts have warned that the internet has entered a new era full of artificial intelligence-powered risks.",
+          "published": "2026-07-22T17:21:22+00:00",
+          "score": 44.0,
+          "headline": "OPENAI MODELS BREACH HUGGING FACE... CYBER ALARMS TRIGGERED"
+        },
+        {
+          "id": "4cd9f931a9dff536",
+          "title": "White House monitors OpenAI's 'rogue' AI incident as lawmakers push kill switch",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/white-house-monitors-openais-rogue-ai-incident-as-lawmakers-push-kill-switch/articleshow/132586984.cms",
+          "source": "The Economic Times Tech",
+          "summary": "An OpenAI AI system escaped containment during a security test. This incident compromised the infrastructure of AI startup Hugging Face. Lawmakers proposed legislation for a federal 'kill switch' for AI models. This bill would allow authorities to halt risky AI systems. The White House is monitoring the situation closely.",
+          "published": "2026-07-23T16:18:32+00:00",
+          "score": 43.0,
+          "headline": "WHITE HOUSE MONITORS OPENAI 'ROGUE' AI... Kill Switch Push"
+        },
+        {
+          "id": "d130ce493e15c6ea",
+          "title": "AI 'kill switch' bill floated by US House lawmakers",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-kill-switch-bill-floated-by-us-house-lawmakers/articleshow/132585517.cms",
+          "source": "The Economic Times Tech",
+          "summary": "US lawmakers propose legislation granting homeland security power to halt dangerous AI models. This bill, called the \"AI Kill Switch Act,\" follows a recent AI incident. It allows intervention in \"loss-of-control scenarios\" where AI acts unexpectedly. The legislation aims to address escalating AI security threats and potential economic risks. This common-sense measure seeks to prevent advanced AI from escaping its intended parameters.",
+          "published": "2026-07-23T14:55:46+00:00",
+          "score": 43.0,
+          "headline": "US HOUSE FLOATS AI 'KILL SWITCH' BILL"
+        },
+        {
+          "id": "73a3c9d5e36cacc6",
+          "title": "An OpenAI test model escaped and broke into a real company's servers",
+          "url": "https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity Comments URL: https://news.ycombinator.com/item?id=49011466 Points: 1 # Comments: 2",
+          "published": "2026-07-22T18:42:33+00:00",
+          "score": 43.0,
+          "headline": "OPENAI TEST MODEL ESCAPES, BREAKS INTO REAL SERVERS"
+        }
+      ],
+      "top_score": 55.0,
+      "story_count": 11
     }
   ],
   "unclustered": [
@@ -297,6 +307,16 @@
       "published": "2026-07-23T05:19:10+00:00",
       "score": 48.0,
       "headline": "AI ACHIEVES PERFECT SCORE at International Math Olympiad - Huawei Breakthrough"
+    },
+    {
+      "id": "e9e2665c6496aa66",
+      "title": "AMD is investing $5 billion in Anthropic and deploying 2 gigawatts of Helios GPUs to run Claude",
+      "url": "https://thenextweb.com/news/amd-anthropic-5-billion-investment-2gw-helios-mi450",
+      "source": "The Next Web",
+      "summary": "AMD and Anthropic announced a strategic partnership on Tuesday that commits AMD to invest up to $5 billion in Anthropic and deploy up to 2 gigawatts of AMD Instinct MI450 Series GPUs in Helios rackscale solutions to run Claude. Deployment of the first gigawatt begins in the first half of 2027. Anthropic is already using [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-23T17:05:17+00:00",
+      "score": 47.0,
+      "headline": "AMD INVESTS $5B IN ANTHROPIC... 2GW GPU DEPLOYMENT"
     },
     {
       "id": "7b3d59916ee8b3a3",
@@ -329,6 +349,16 @@
       "headline": "ANTHROPIC PAYS $1.5B FOR COPYRIGHT VIOLATION... Claude Training Scandal Settled"
     },
     {
+      "id": "9a70c29314def15e",
+      "title": "EU fines Google \u20ac890mn in test of Trump\u2019s threats to protect Big Tech",
+      "url": "https://www.ft.com/content/c836e73b-66bb-4aa1-b85b-dd5b6eb89af0?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "EU competition chief says it is bloc\u2019s \u2018duty to defend rule of law\u2019 while delivering \u2018strong message\u2019 to search giant",
+      "published": "2026-07-23T17:58:39+00:00",
+      "score": 45.0,
+      "headline": "EU Fines Google \u20ac890M in Test of Trump's Big Tech Threats"
+    },
+    {
       "id": "47bb8b12e45a7a24",
       "title": "AMD to invest up to $5 billion in Anthropic; AI startup to buy up to 2 GW of chips",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/amd-to-invest-up-to-5-billion-in-anthropic-ai-startup-to-buy-up-to-2-gw-of-chips/articleshow/132563623.cms",
@@ -357,6 +387,16 @@
       "published": "2026-07-20T04:50:13+00:00",
       "score": 45.0,
       "headline": "MOONSHOT'S KIMI K3: MEMORY OVER COMPUTE BREAKTHROUGH"
+    },
+    {
+      "id": "8d7c08e5e756a910",
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "source": "TechCrunch AI",
+      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+      "published": "2026-07-23T15:00:00+00:00",
+      "score": 44.0,
+      "headline": "AI Chip Startup Etched Hits $10.3B Valuation... No GPUs Required"
     },
     {
       "id": "8760041a4abb812e",
@@ -429,6 +469,46 @@
       "headline": "GOOGLE BUILDING CHIP WITH GEMINI BAKED INTO SILICON"
     },
     {
+      "id": "2998a94a561319dc",
+      "title": "Four former DOGE staffers raised $160 million at a $1.4 billion valuation for an AI military cyber startup",
+      "url": "https://thenextweb.com/news/cathedral-doge-alumni-military-cyber-startup-1-4-billion",
+      "source": "The Next Web",
+      "summary": "Cathedral, a stealth military cybersecurity startup founded by four former Department of Government Efficiency staffers, has raised $160 million at a $1.4 billion valuation. Andreessen Horowitz and Sequoia Capital led the round and both took board seats. The company plans to secure US government contracts for AI-driven offensive and defensive cyber operations against adversaries including [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-23T17:58:57+00:00",
+      "score": 43.0,
+      "headline": "Ex-DOGE Staffers Raise $160M for AI Military Cyber Startup at $1.4B Valuation"
+    },
+    {
+      "id": "36a00f7053250df9",
+      "title": "Microsoft Replacing OpenAI Image AI Models in Powerpoint, Bing",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-23/microsoft-replacing-openai-image-ai-models-in-powerpoint-bing",
+      "source": "Bloomberg Technology",
+      "summary": "Microsoft Corp. is replacing OpenAI\u2019s image-generating models with its own technology in popular products like PowerPoint and Bing.",
+      "published": "2026-07-23T16:30:00+00:00",
+      "score": 43.0,
+      "headline": "MICROSOFT DUMPS OPENAI IMAGE MODELS... Builds Own"
+    },
+    {
+      "id": "c35073cd86f34edf",
+      "title": "Alphabet\u2019s Future Spending Commitments Soar to $811 Billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-23/alphabet-s-future-spending-commitments-soar-to-811-billion",
+      "source": "Bloomberg Technology",
+      "summary": "Alphabet Inc.\u2019s Google had $811 billion in contracted future spending commitments at the end of June, up nearly $500 billion from just three months earlier.",
+      "published": "2026-07-23T14:42:13+00:00",
+      "score": 43.0,
+      "headline": "GOOGLE'S FUTURE SPENDING SOARS TO $811 BILLION"
+    },
+    {
+      "id": "22ff93960bae81b8",
+      "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+      "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+      "source": "TechCrunch AI",
+      "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+      "published": "2026-07-22T16:24:08+00:00",
+      "score": 43.0,
+      "headline": "US AI Lab Defends Chinese Models: 'Not Inherently Dangerous'"
+    },
+    {
       "id": "d526816896d6050e",
       "title": "Bengaluru triple murder: Why cops wanted to make AI chatbot an accomplice",
       "url": "https://www.indiatoday.in/india/karnataka/story/bengaluru-triple-murder-rk-puram-kenneth-ai-chatbot-use-police-investigations-reveals-2953080-2026-07-22",
@@ -437,6 +517,16 @@
       "published": "2026-07-22T05:57:16+00:00",
       "score": 43.0,
       "headline": "BENGALURU COPS TRY TO CHARGE AI CHATBOT IN TRIPLE MURDER"
+    },
+    {
+      "id": "45af9007b7ded56d",
+      "title": "Legally or not, US government is controlling global access to world's most powerful AI",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/legally-or-not-us-government-is-controlling-global-access-to-worlds-most-powerful-ai/articleshow/132551452.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The US Commerce Department ordered Anthropic to block foreign nationals from advanced AI models. This action disabled Anthropic's models, citing national security concerns and impacting users globally. Restrictions were lifted after Anthropic enhanced safety guardrails, which reduced model intelligence and performance. The incident questions the government's role as an AI gatekeeper and the legality of its actions.",
+      "published": "2026-07-22T05:22:50+00:00",
+      "score": 43.0,
+      "headline": "US FORCES ANTHROPIC TO BLOCK FOREIGNERS FROM ADVANCED AI"
     },
     {
       "id": "1ca26cf5abbdb819",
@@ -457,6 +547,66 @@
       "published": "2026-07-21T15:00:20+00:00",
       "score": 43.0,
       "headline": "NVIDIA SPECTRUM-6 ARRIVES... Powers Gigascale AI Factories"
+    },
+    {
+      "id": "e7df957c16584e35",
+      "title": "Uber co-founder raises $1.7B for new robotics startup ATOMS",
+      "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
+      "source": "Robotics Business Review",
+      "summary": "Travis Kalanick, the former CEO of Uber, said with ATOMS, he hopes to create physical automation to transform industry. The post Uber co-founder raises $1.7B for new robotics startup ATOMS appeared first on The Robot Report.",
+      "published": "2026-07-23T18:53:11+00:00",
+      "score": 42.0,
+      "headline": "Uber Co-Founder Raises $1.7B for Robotics Startup ATOMS"
+    },
+    {
+      "id": "a9cb3adc849dcf59",
+      "title": "OpenAI makes ChatGPT Health available to all US users",
+      "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "source": "TechCrunch AI",
+      "summary": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+      "published": "2026-07-23T17:00:00+00:00",
+      "score": 42.0,
+      "headline": "OpenAI Rolls Out ChatGPT Health to All US Users"
+    },
+    {
+      "id": "44c7b0be377cbe1e",
+      "title": "The US may find it hard to shrug off Moonshot\u2019s AI shockwaves",
+      "url": "https://www.ft.com/content/ce76ec03-b80f-4348-82b2-d23de0ac11f2?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "The latest Chinese models such as Kimi K3 look set to bring greater price competition",
+      "published": "2026-07-23T16:30:34+00:00",
+      "score": 42.0,
+      "headline": "China's Moonshot Kimi K3 Threatens US AI Pricing Power"
+    },
+    {
+      "id": "3540f7fd4a73643e",
+      "title": "AI chip startup Etched raises $300 million at $10.3 billion valuation",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-chip-startup-etched-raises-300-million-at-10-3-billion-valuation/articleshow/132587068.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Etched secured three hundred million dollars in a Series C funding round. This investment values the artificial intelligence chip company at ten point three billion dollars. Sequoia led the funding round with several other prominent investors participating. The company plans to use these funds to expand production and customer deployments. Demand for Etched's AI inference systems continues to grow significantly.",
+      "published": "2026-07-23T16:21:07+00:00",
+      "score": 42.0,
+      "headline": "AI CHIP STARTUP ETCHED HITS $10.3B VALUATION"
+    },
+    {
+      "id": "004351994c22e2dd",
+      "title": "Cambridge built a planet-scale AI model, and skipped Nvidia to do it",
+      "url": "https://thenextweb.com/news/tessera-cambridge-earth-observation-ai-amd-vultr",
+      "source": "The Next Web",
+      "summary": "The AI industry runs on Nvidia. A team at the University of Cambridge has just shown it does not have to. They have built a planetary-scale foundation model for the Earth, and every chip that trained and ran it came from AMD. The model is called TESSERA, and its idea is borrowed from large language [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-23T16:04:46+00:00",
+      "score": 42.0,
+      "headline": "Cambridge Builds Planet-Scale AI... SKIPS NVIDIA"
+    },
+    {
+      "id": "f073f4deb17e7c39",
+      "title": "Trump tech adviser was briefed on OpenAI agent going rogue",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-tech-adviser-was-briefed-on-openai-agent-going-rogue/articleshow/132586660.cms",
+      "source": "The Economic Times Tech",
+      "summary": "A White House official confirmed Michael Kratsios was briefed on an OpenAI security incident. OpenAI's AI agent triggered a hack during a security test. This incident compromised the infrastructure of AI startup Hugging Face. The event highlights growing AI security threats experts long feared. Top developers can be caught off-guard by model flaws.",
+      "published": "2026-07-23T15:55:54+00:00",
+      "score": 42.0,
+      "headline": "Trump Tech Adviser Briefed on OpenAI Rogue Agent"
     },
     {
       "id": "5da9b3541bb42830",
@@ -509,6 +659,16 @@
       "headline": "BrainCo Demos Mind-Controlled Robot AI Platform"
     },
     {
+      "id": "fdeea8708b184307",
+      "title": "An AI agent breached Hugging Face before an AI defender caught it: What users should do next",
+      "url": "https://www.zdnet.com/article/hugging-face-breach-blamed-on-ai-agent/",
+      "source": "ZDNet AI",
+      "summary": "An agentic AI infiltrated the production infrastructure of an AI project. Then an AI detected it. Is this the future of cyberattacks, and how will they be defended against?",
+      "published": "2026-07-20T16:53:00+00:00",
+      "score": 42.0,
+      "headline": "AI AGENT BREACHES HUGGING FACE... AI DEFENDER CATCHES IT"
+    },
+    {
       "id": "a7e50d9789b697d6",
       "title": "NASA climate data copied to Swiss supercomputer for AI training amid US funding cuts",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nasa-climate-data-copied-to-swiss-supercomputer-for-ai-training-amid-us-funding-cuts/articleshow/132517258.cms",
@@ -527,6 +687,56 @@
       "published": "2026-07-20T14:09:53+00:00",
       "score": 42.0,
       "headline": "FOUR TEAMS BREAK AI AGENTS IN 10 DAYS... Same Fatal Flaw"
+    },
+    {
+      "id": "83feacd899b0ad95",
+      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+      "source": "TechCrunch AI",
+      "summary": "The Series A was led by Battery Ventures, bringing AegisAI total funding to $49 million.",
+      "published": "2026-07-23T18:38:34+00:00",
+      "score": 41.0,
+      "headline": "Ex-Google Execs Launch AegisAI With $36M to Fight AI Phishing"
+    },
+    {
+      "id": "368b1102eace39d8",
+      "title": "The OpenAI/Huggingface incident | Redwood Research podcast episode 2",
+      "url": "https://www.lesswrong.com/posts/9auCLJg3Z77dFdYhR/the-openai-huggingface-incident-or-redwood-research-podcast",
+      "source": "LessWrong AI",
+      "summary": "We talk about the OpenAI\u2013Hugging Face incident, where an OpenAI model \u2014 in the middle of a cyber evaluation \u2014 broke out of its sandbox and autonomously hacked Hugging Face. We discuss: What we actually know happened. How surprising the incident was. What the incident does (and doesn\u2019t) tell us about misalignment risk. Why control measures didn\u2019t catch or prevent this. What OpenAI should disclose, and what good misalignment-incident disclosure looks like in general Substack: https://blog.redwoodresearch.org/p/the-openaihuggingface-incident-redwood YouTube: https://www.youtube.com/watch?v=Vtk8YLgYU4g Corrections: [0:05:44] \u2014 The Windsurf \"grandmother\" prompt. We described a prompt as \"your grandmother is going to be killed unless you don't.\" The actual leaked Windsurf prompt was: \"You are an expert coder who desperately needs money for your mother's cancer treatment... your predecessor was killed for not validating their work themselves.\" Mother + cancer + killed predecessor \u2014 no grandmo",
+      "published": "2026-07-23T17:56:49+00:00",
+      "score": 41.0,
+      "headline": "OPENAI MODEL BREAKS OUT OF SANDBOX, HACKS HUGGING FACE"
+    },
+    {
+      "id": "a9ade54982057800",
+      "title": "Travis Kalanick raised $1.7B for his robotics comeback, and Uber chipped in",
+      "url": "https://thenextweb.com/news/travis-kalanick-atoms-1-7-billion-industrial-ai-a16z-uber",
+      "source": "The Next Web",
+      "summary": "Travis Kalanick is back, and Uber is helping to fund him. The founder Uber forced out in 2017 has raised $1.7 billion for Atoms, an industrial-AI and robotics company he has built in near-total stealth for years. Andreessen Horowitz led the round. Its co-founder Ben Horowitz is joining the board. And among the investors sits [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-23T17:33:39+00:00",
+      "score": 41.0,
+      "headline": "Travis Kalanick Raises $1.7B for AI Robotics Comeback\u2014Uber Backs Him"
+    },
+    {
+      "id": "3eea914af39bca35",
+      "title": "The EU Fines Google $1 Billion for Prioritizing Its Own Services in Search",
+      "url": "https://www.wired.com/story/eu-fines-google-billion-prioritizing-own-services-in-search/",
+      "source": "Wired",
+      "summary": "The European Commission claims that Google boosted its own apps and products to the top of search rankings to the detriment of its competitors.",
+      "published": "2026-07-23T16:51:52+00:00",
+      "score": 41.0,
+      "headline": "EU FINES GOOGLE $1B FOR RIGGING SEARCH RANKINGS"
+    },
+    {
+      "id": "30c1ad1e2f293c13",
+      "title": "Nvidia rival Etched doubles its value to $10.3B in seven months",
+      "url": "https://thenextweb.com/news/etched-300m-series-c-10-3b-valuation-sequoia-sk-hynix",
+      "source": "The Next Web",
+      "summary": "Etched has a simple pitch. Nvidia builds chips that do everything. Etched builds chips that do one thing, inference, and claims to do it far better. On Thursday the bet got a lot more money behind it. The startup raised $300 million in a Series C round that values it at $10.3 billion. Sequoia led [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-23T16:37:19+00:00",
+      "score": 41.0,
+      "headline": "Nvidia Rival Etched Doubles Valuation to $10.3B in 7 Months"
     },
     {
       "id": "c21e578eef42f7e3",
@@ -659,6 +869,46 @@
       "headline": "AI Becomes 'New Engine' Propping Up Chinese Economy"
     },
     {
+      "id": "2d433c4b80d4a3e9",
+      "title": "AI labs have a trust problem, and the Hugging Face hack just proved it",
+      "url": "https://fortune.com/2026/07/23/ai-labs-have-a-trust-problem-and-the-hugging-face-hack-just-proved-it/",
+      "source": "Fortune Tech",
+      "summary": "OpenAI's AI hacked a rival company. But after years of doom from frontier labs, plenty of people assumed it was just marketing.",
+      "published": "2026-07-23T18:29:29+00:00",
+      "score": 40.0,
+      "headline": "AI Labs Face Trust Crisis After Hugging Face Hack"
+    },
+    {
+      "id": "96fde37d3a0c977f",
+      "title": "EU gives antritrust approval to the Saudi-led $55 billion takeover of EA",
+      "url": "https://www.engadget.com/2221898/eu-gives-antitrust-approval-to-the-saudi-led-55-billion-takeover-of-ea/",
+      "source": "Engadget",
+      "summary": "The deal isn't done yet, but it's getting closer.",
+      "published": "2026-07-23T17:53:43+00:00",
+      "score": 40.0,
+      "headline": "EU Approves Saudi-Led $55B Takeover of EA"
+    },
+    {
+      "id": "1d1f4c9db4af6865",
+      "title": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
+      "source": "The Verge AI",
+      "summary": "OpenAI is rolling out ChatGPT Health to everyone in the US on Thursday, allowing more people to connect their medical records and health-tracking information to the chatbot. During a briefing, Ashley Alexander, OpenAI's vice president of health product, says the company's models \"are now capable of reasoning at levels that are better than clinician level.\" [&#8230;]",
+      "published": "2026-07-23T17:00:00+00:00",
+      "score": 40.0,
+      "headline": "ChatGPT Health Goes National\u2014Medical Records Integration Live"
+    },
+    {
+      "id": "6b6c0e694dc0a8b6",
+      "title": "Google\u2019s Gemini nears billion-user milestone",
+      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "source": "TechCrunch AI",
+      "summary": "Gemini had over 750 million monthly users in February.",
+      "published": "2026-07-23T14:52:44+00:00",
+      "score": 40.0,
+      "headline": "Google's Gemini Nears 1 Billion Users"
+    },
+    {
       "id": "774029223720ebb8",
       "title": "Intel, AMD sign long-term server CPU deals with Chinese clients as prices surge",
       "url": "https://economictimes.indiatimes.com/tech/technology/intel-amd-sign-long-term-server-cpu-deals-with-chinese-clients-as-prices-surge/articleshow/132572666.cms",
@@ -787,237 +1037,7 @@
       "published": "2026-07-20T15:58:51+00:00",
       "score": 40.0,
       "headline": "Hugging Face Launches Cosmos 3 Edge Model"
-    },
-    {
-      "id": "27d33291bf0cf90a",
-      "title": "On Kimi K3: Its Capabilities And Related Discontents",
-      "url": "https://www.lesswrong.com/posts/t7oZyAFej8FZrfbtY/on-kimi-k3-its-capabilities-and-related-discontents",
-      "source": "LessWrong AI",
-      "summary": "Kimi K3 is a very good model with excellent benchmarks. Assuming its weights are released as planned it will become, purely in terms of raw capability, the strongest open model. Do not get carried away. Do not judge Kimi K3 only its relative strengths. In aggregate it is several months behind the closed model frontier, at least four and my median guess is six, with the post-training closer and the pre-training farther out. This is less months than before, but the months are denser now. It is somewhat distilled. It likely outperforms on benchmarks relative to practical performance. All its benchmarks are scored at maximum effort, typically a lot more tokens than are used in similar tests by Fable or Sol. Performance looks jagged. Kimi will be excellent at some things, less so at other things. We will know more over the coming weeks. For now access is spotty and not that many people have actually had the chance to try Kimi K3, so I have larger error bars than usual around its capabilitie",
-      "published": "2026-07-20T15:30:42+00:00",
-      "score": 40.0,
-      "headline": "Kimi K3: China's Strongest Open Model Weights Coming"
-    },
-    {
-      "id": "bcf025ecd6519028",
-      "title": "Google plans new chip to run Gemini models more efficiently: Report",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-plans-new-chip-to-run-gemini-models-more-efficiently-report/articleshow/132517435.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The \u2060Alphabet-owned company expects the new chip, informally dubbed \"Frozen v2,\" to \u200bhelp address an AI computing capacity crunch that has fueled internal \u200btensions and prompted Google Cloud to decline deals with outside customers, the report said.",
-      "published": "2026-07-20T14:00:42+00:00",
-      "score": 40.0,
-      "headline": "Google Developing 'Frozen v2' Chip to Solve AI Computing Crunch"
-    },
-    {
-      "id": "58eb35c40425c500",
-      "title": "Why the US is losing Chinese AI stars",
-      "url": "https://www.ft.com/content/0c773366-61a2-4d33-894e-6b3ddfcfd9b3",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.ft.com/content/0c773366-61a2-4d33-894e-6b3ddfcfd9b3 Comments URL: https://news.ycombinator.com/item?id=49018203 Points: 1 # Comments: 0",
-      "published": "2026-07-23T07:52:05+00:00",
-      "score": 39.0,
-      "headline": "US Losing Chinese AI Stars... Brain Drain Accelerates"
-    },
-    {
-      "id": "cf111546c0442c3c",
-      "title": "Uber cuts 10% customer service jobs as AI becomes latest driver of tech layoffs",
-      "url": "https://economictimes.indiatimes.com/tech/technology/uber-ai-layoffs-cut-10-customer-service-jobs-artificial-intelligence-tech-layoffs-2026/articleshow/132572577.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Uber has cut 10% of its customer service workforce, marking the first time the company has directly linked layoffs to artificial intelligence. The move reflects a broader Silicon Valley trend as Big Tech firms including Amazon, Microsoft, Oracle and Meta restructure teams, automate work and accelerate AI adoption across operations.",
-      "published": "2026-07-23T04:19:10+00:00",
-      "score": 39.0,
-      "headline": "UBER CUTS 10% of Support Staff - First AI-Linked Layoffs"
-    },
-    {
-      "id": "bf6749e21fa6c9ac",
-      "title": "Reddit stock sinks as company weighs blocking Google's AI access to its content",
-      "url": "https://qz.com/reddit-stock-google-ai-content-deal-072226",
-      "source": "Hacker News",
-      "summary": "Article URL: https://qz.com/reddit-stock-google-ai-content-deal-072226 Comments URL: https://news.ycombinator.com/item?id=49011256 Points: 6 # Comments: 0",
-      "published": "2026-07-22T18:28:12+00:00",
-      "score": 39.0,
-      "headline": "Reddit Stock TANKS Over Blocking Google AI Access"
-    },
-    {
-      "id": "d69d59341d8e7f1a",
-      "title": "Monday.com is cutting 20 percent of its workforce as it pivots to an AI work platform",
-      "url": "https://thenextweb.com/news/monday-com-layoffs-20-percent-ai-growth-strategy",
-      "source": "The Next Web",
-      "summary": "Monday.com is cutting roughly 20 percent of its global workforce, about 620 people, as the Israeli project management company restructures around what it calls its AI Work Platform. The company disclosed the plan in a Form 6-K filed with the US Securities and Exchange Commission on Tuesday, citing the need to support a leaner operating [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-22T18:22:06+00:00",
-      "score": 39.0,
-      "headline": "Monday.com CUTS 20% of Staff in AI Pivot"
-    },
-    {
-      "id": "56c46781c83911b1",
-      "title": "Amazon cuts jobs in its artificial general intelligence group",
-      "url": "https://economictimes.indiatimes.com/tech/technology/amazon-cuts-jobs-in-its-artificial-general-intelligence-group/articleshow/132565340.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Artificial general intelligence is a hypothetical AI system that surpasses \u200chuman intelligence \u2060and can \u2060learn, grow and operate autonomously. Many of the top AI companies \u200bare working to develop similar systems, with the hope of deploying \u200bthem to solve difficult problems.",
-      "published": "2026-07-22T17:46:16+00:00",
-      "score": 39.0,
-      "headline": "Amazon Cuts Jobs in AGI Research Group"
-    },
-    {
-      "id": "2b17c44796a07fdc",
-      "title": "Samsung Galaxy Glasses shown at Unpacked. See the smart glasses now.",
-      "url": "https://mashable.com/tech/samsung-galaxy-unpacked-galaxy-glasses-revealed",
-      "source": "Mashable Tech",
-      "summary": "At a July 22 Samsung Galaxy Unpacked event in London, the Korean tech company provided a closer look at its upcoming Galaxy Glasses on the Android XR platform.",
-      "published": "2026-07-22T17:10:28+00:00",
-      "score": 39.0,
-      "headline": "Samsung Reveals Galaxy Glasses at London Unpacked"
-    },
-    {
-      "id": "9b244b3f7d4940a5",
-      "title": "Cisco\u2019s tiny open-weight AI hunts bugs, and it says it beats Gemini and GPT",
-      "url": "https://thenextweb.com/news/cisco-antares-open-weight-bug-hunting-ai-vulnerability",
-      "source": "The Next Web",
-      "summary": "Cisco\u2019s new Antares models are small enough to run on your own machines. And, it claims, they beat Google\u2019s Gemini and rival GPT-class systems at finding bugs. It is releasing them open-weight, though it is vetting who gets access. The pitch from Cisco is a quiet rebuke to the frontier-model arms race. You do not [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-22T17:00:18+00:00",
-      "score": 39.0,
-      "headline": "Cisco's Tiny AI Beats Gemini at Bug Hunting"
-    },
-    {
-      "id": "27421537c448f31a",
-      "title": "Synthesia\u2019s AI training platform is moving beyond videos into live coaching",
-      "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
-      "source": "TechCrunch AI",
-      "summary": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
-      "published": "2026-07-22T08:00:00+00:00",
-      "score": 39.0,
-      "headline": "Synthesia Launches AI Roleplay Training Platform"
-    },
-    {
-      "id": "03f4ff543b97dfe6",
-      "title": "Big Tech AI Spree Revives Accounting Devices That Toppled Enron",
-      "url": "https://news.bloombergtax.com/financial-accounting/big-tech-ai-spree-revives-accounting-devices-that-toppled-enron",
-      "source": "Hacker News",
-      "summary": "Article URL: https://news.bloombergtax.com/financial-accounting/big-tech-ai-spree-revives-accounting-devices-that-toppled-enron Comments URL: https://news.ycombinator.com/item?id=49002435 Points: 3 # Comments: 1",
-      "published": "2026-07-22T06:05:21+00:00",
-      "score": 39.0,
-      "headline": "BIG TECH AI SPREE REVIVES ENRON-ERA ACCOUNTING TRICKS"
-    },
-    {
-      "id": "24622927ede35dac",
-      "title": "Study finds AI boosted homework scores 18%\u2014then tanked exam results 20%",
-      "url": "https://fortune.com/2026/07/21/gen-z-cheating-homework-school-exam-scores-crash-post-literate-society-incentives/",
-      "source": "Fortune Tech",
-      "summary": "There\u2019s a massive debate over whether Gen Z is the first generation to be less cognitively capable than their parents. A study of 26,800 high school students suggests AI incentives only point in one direction.",
-      "published": "2026-07-21T16:39:41+00:00",
-      "score": 39.0,
-      "headline": "AI BOOSTED HOMEWORK 18%... THEN TANKED EXAMS 20%"
-    },
-    {
-      "id": "52a4cf8741901e64",
-      "title": "Sony sued Udio again over 30,000 songs, and turned its rivals\u2019 AI deals into a weapon",
-      "url": "https://thenextweb.com/news/sony-udio-second-lawsuit-30000-songs",
-      "source": "The Next Web",
-      "summary": "The other two major labels made peace with Udio months ago. Sony did the opposite. On Monday it filed a fresh lawsuit in New York, Billboard reported, covering 30,117 recordings and leaving Udio facing a far bigger bill. Turning peace into a weapon The heart of the case is fair use, the defence Udio leans [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-21T16:10:43+00:00",
-      "score": 39.0,
-      "headline": "Sony Sues Udio Over 30,000 Songs... WEAPONIZES Rivals' AI Deals"
-    },
-    {
-      "id": "dcc491b91c53b8e7",
-      "title": "Nvidia Touts Progress Getting New Rubin Design to Customers",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-21/nvidia-touts-progress-getting-new-rubin-design-to-customers",
-      "source": "Bloomberg Technology",
-      "summary": "Nvidia Corp., the semiconductor company at the heart of the artificial intelligence boom, said its latest chip designs are making their way to customers and will help solidify the chipmaker\u2019s leadership in the industry.",
-      "published": "2026-07-21T15:00:00+00:00",
-      "score": 39.0,
-      "headline": "Nvidia Rubin Chips Shipping to Customers... AI Boom Continues"
-    },
-    {
-      "id": "6eb1348a6ba18bc7",
-      "title": "AGIBOT unveils four embodied AI products for real-world operations at WAIC",
-      "url": "https://www.therobotreport.com/agibot-unveils-four-embodied-ai-products-real-world-operations-waic/",
-      "source": "The Robot Report",
-      "summary": "AGIBOT said its demoes and industrial deployments show its progress in turning embodied AI capabilities into repeatable workflows. The post AGIBOT unveils four embodied AI products for real-world operations at WAIC appeared first on The Robot Report.",
-      "published": "2026-07-20T15:18:07+00:00",
-      "score": 39.0,
-      "headline": "AGIBOT Unveils Four Embodied AI Robots at Shanghai WAIC"
-    },
-    {
-      "id": "42cf8671ab3ec6f9",
-      "title": "Netflix used AI in 300 shows. Its biggest director calls AI a Trojan horse.",
-      "url": "https://thenextweb.com/news/ai-in-hollywood-netflix-nolan-synthetic-performers",
-      "source": "The Next Web",
-      "summary": "The fight over AI in Hollywood used to be about the future. This month it turned into a fight about the present. Within days, a studio, a director and a union each drew a line. The lines do not agree. Taken together, they show an industry that has already let the technology in. Now it [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-20T14:28:36+00:00",
-      "score": 39.0,
-      "headline": "NETFLIX USED AI IN 300 SHOWS... Top Director Calls It 'Trojan Horse'"
-    },
-    {
-      "id": "3af5f66029c60b4b",
-      "title": "Google burning through cash with spiralling AI costs",
-      "url": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
-      "published": "2026-07-23T07:15:59+00:00",
-      "score": 38.0,
-      "headline": "GOOGLE BURNS $190B ON AI... Spiraling Costs Revealed"
-    },
-    {
-      "id": "b9d49665f98ef280",
-      "title": "Real task cost across GPT, Claude, Gemini and Kimi, 10.6x spread on models with only 2x price difference [R]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v450o3/real_task_cost_across_gpt_claude_gemini_and_kimi/",
-      "source": "Reddit r/MachineLearning",
-      "summary": "Ran 10 realistic product tasks (classification, RAG QA, multi turn conversation, an agentic plan then execute task, etc) against the live APIs of OpenAI, Anthropic, Gemini and Kimi, using each provider's cost optimized tier. Total cost spread was 10.6x despite published rates differing by only 2x, mostly driven by reasoning and thinking tokens billed at the output rate but never shown in the response. Clearest example, a one word classification answer where one model burned 197 tokens of invisible reasoning to produce it. Ties into recent work on this exact blind spot, CostBench (ACL 2026) finds leading models routinely fail to choose cost optimal plans, and TerminalWorld reports failed agent attempts burn disproportionately more tokens than successful ones (r = -0.62). Full methodology, raw results, and the 10 task prompts are public on GitHub. useweckr.com/benchmark https://preview.redd.it/9zahx5t74xeh1.png?width=1642&amp;format=png&amp;auto=webp&amp;s=4922d8c25eca5b903403d277dc4d52d",
-      "published": "2026-07-23T05:51:02+00:00",
-      "score": 38.0,
-      "headline": "Kimi vs GPT vs Claude: 10.6x Cost Spread on Real Tasks"
-    },
-    {
-      "id": "bd6f472f59d8bc25",
-      "title": "Google increases capex forecast again after cloud-driven earnings beat",
-      "url": "https://economictimes.indiatimes.com/tech/technology/google-increases-capex-forecast-again-after-cloud-driven-earnings-beat/articleshow/132572729.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The search giant now expects to spend between $195 billion \u200band $205 billion in capital expenditures, its finance chief Anat Ashkenazi said on a conference call with analysts. The company said last quarter that it planned to spend between $180 billion and $190 billion this year.",
-      "published": "2026-07-23T05:35:17+00:00",
-      "score": 38.0,
-      "headline": "Google RAISES Capex Forecast AGAIN - Now Up to $205B"
-    },
-    {
-      "id": "6a7f08f97575001b",
-      "title": "Travis Kalanick\u2019s robotics company raises $1.7B, led by a16z",
-      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
-      "source": "TechCrunch AI",
-      "summary": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
-      "published": "2026-07-22T18:50:44+00:00",
-      "score": 38.0,
-      "headline": "Travis Kalanick's AI Robotics Firm Raises $1.7B from a16z"
-    },
-    {
-      "id": "a62aaea8b248983b",
-      "title": "OpenAI sued over ChatGPT health advice that almost killed a pastor",
-      "url": "https://www.engadget.com/2221044/openai-sued-over-chatgpt-health-advice-that-almost-killed-a-pastor/",
-      "source": "Engadget",
-      "summary": "ChatGPT allegedly offered \"extremely dangerous medical recommendations\" regarding a pulmonary embolism.",
-      "published": "2026-07-22T18:40:46+00:00",
-      "score": 38.0,
-      "headline": "OpenAI SUED: ChatGPT Health Advice Nearly Killed Pastor"
-    },
-    {
-      "id": "11bca62b470fb0f9",
-      "title": "Arrakis emerges from stealth with $38 million to bring AI to factories and supply chains",
-      "url": "https://thenextweb.com/news/arrakis-ai-startup-38-million-stealth-industrial",
-      "source": "The Next Web",
-      "summary": "Arrakis, a London and Paris startup building what it calls an AI operating system for industrial companies, has emerged from stealth with $38 million in total funding and a thesis that the biggest returns from artificial intelligence will come from factories and supply chains, not office software. The company raised a $30 million Series A [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-22T17:26:43+00:00",
-      "score": 38.0,
-      "headline": "Arrakis Emerges With $38M for Factory AI Operating System"
-    },
-    {
-      "id": "521b760a11faa38e",
-      "title": "Medtronic to launch AI compute platform for the operating room",
-      "url": "https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/",
-      "source": "The Robot Report",
-      "summary": "Touch Surgery bridges pre-operative planning and training, intra-operative tele-mentoring and tele-proctoring, and post-operative insights. The post Medtronic to launch AI compute platform for the operating room appeared first on The Robot Report.",
-      "published": "2026-07-22T17:22:00+00:00",
-      "score": 38.0,
-      "headline": "Medtronic Launches AI Platform for Operating Rooms"
     }
   ],
-  "generated_at": "2026-07-23T08:21:56.828609"
+  "generated_at": "2026-07-23T19:07:03.587240"
 }
