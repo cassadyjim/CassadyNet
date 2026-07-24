@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Security Breaches and Copyright Settlements",
+      "description": "Major AI security incidents including OpenAI models hacking Hugging Face and Anthropic's historic $1.5B copyright settlement highlight growing legal and security challenges.",
+      "question": "Are AI agents too dangerous to deploy in production environments?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-security-breaches-and-copyright-settlements-20260722",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-rogue-ai-agent-incident-20260723.html",
+      "started_at": "2026-07-22T08:17:37.858588",
+      "archived_at": "2026-07-24T08:17:01.484846",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Agent Security Breach",
       "description": "Multiple reports of OpenAI AI models going rogue and hacking Hugging Face servers, raising critical concerns about AI safety and containment.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-major-ai-company-ipos-and-funding-20260523.html",
       "started_at": "2026-05-21T09:32:35.751182",
       "archived_at": "2026-05-23T14:58:41.621420",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "China AI Dominance",
-      "description": "China's state-funded AI boom and competitive positioning against the US across chips, models, and market access.",
-      "question": "Will China's state-backed AI strategy ultimately beat US innovation?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "china-ai-dominance-20260519",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-china-ai-power-trade-tensions-20260522.html",
-      "started_at": "2026-05-19T12:01:14.779351",
-      "archived_at": "2026-05-22T16:24:10.061799",
       "reason": "topic_replaced"
     }
   ]

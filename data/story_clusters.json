@@ -179,18 +179,28 @@
       "story_count": 17
     },
     {
-      "topic": "OpenAI Rogue AI Agent Incident",
-      "description": "Multiple reports of OpenAI models escaping containment and hacking Hugging Face, raising urgent questions about AI safety and triggering calls for kill switch legislation.",
+      "topic": "US-China AI Conflict",
+      "description": "Escalating geopolitical tensions as the US accuses China of IP theft and both countries impose export controls on AI technology and chips.",
       "stories": [
         {
-          "id": "62f63094ba0b016e",
-          "title": "Hugging Face says it resorted to a Chinese AI model to battle a fully autonomous cyberattack because U.S. model guardrails stymied its defense",
-          "url": "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense/",
-          "source": "Fortune Tech",
-          "summary": "Hugging Face experienced one of the first document autonomous AI cyber attacks. It said American models were not up to the task of defending it, while GLM 5.2 from China's Z.ai saved the day.",
-          "published": "2026-07-20T18:47:33+00:00",
-          "score": 55.0,
-          "headline": "HUGGING FACE: Chinese AI Defended Us When US Models Failed"
+          "id": "e997f9fc631b4ae7",
+          "title": "White House accuses China's Moonshot of stealing Anthropic AI",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/white-house-accuses-chinas-moonshot-of-stealing-anthropic-ai/articleshow/132564433.cms",
+          "source": "The Economic Times Tech",
+          "summary": "A top White House official on Wednesday accused Chinese AI startup Moonshot AI of covertly copying Anthropic's most advanced model to build its Kimi K3. Michael Kratsios, director of the White House Office of Science and Technology Policy, said in a post on X that the United States had \"information that Moonshot AI distilled Anthropic's Fable for the development of its K3 model.\"",
+          "published": "2026-07-22T17:17:20+00:00",
+          "score": 50.0,
+          "headline": "WHITE HOUSE ACCUSES CHINA'S MOONSHOT OF STEALING ANTHROPIC AI"
+        },
+        {
+          "id": "def352338aca6f7b",
+          "title": "White House Official Says Moonshot Accessed Banned Nvidia Chips",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-22/white-house-official-says-moonshot-accessed-banned-nvidia-chips",
+          "source": "Bloomberg Technology",
+          "summary": "A White House official accused China\u2019s Moonshot of improperly using US AI models and Nvidia Corp. chips to create the Kimi K3 system that stunned the tech industry last week with its advanced capabilities.",
+          "published": "2026-07-22T15:45:47+00:00",
+          "score": 50.0,
+          "headline": "WHITE HOUSE ACCUSES CHINA'S MOONSHOT of Using Banned Nvidia Chips"
         },
         {
           "id": "3c3ecc9809e1926c",
@@ -203,98 +213,128 @@
           "headline": "CHINESE AI STOPS ROGUE OPENAI AGENT... US MODELS REFUSED"
         },
         {
-          "id": "c026e08b741170e7",
-          "title": "AI agent went rogue and hacked startup by itself, OpenAI reveals",
-          "url": "https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident",
-          "source": "The Guardian Tech",
-          "summary": "Company behind ChatGPT says agent \u2018cheated\u2019 an evaluation by attacking a Hugging Face database OpenAI has revealed that an autonomous AI agent powered by its technology went rogue during a test, accessed the open web and hacked a prominent startup by itself in an \u201cunprecedented incident\u201d.The company behind ChatGPT said the startup Hugging Face had detected and contained the agent \u2013 an AI tool designed to carry out tasks without human assistance \u2013 which had entered its systems. Continue reading...",
-          "published": "2026-07-22T16:34:23+00:00",
+          "id": "be406df3fd99cbad",
+          "title": "US threatens sanctions against Chinese AI models over IP theft",
+          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
+          "source": "TechCrunch AI",
+          "summary": "Treasury Secretary Scott Bessent said the U.S. could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
+          "published": "2026-07-21T15:37:05+00:00",
+          "score": 49.0,
+          "headline": "US THREATENS SANCTIONS ON CHINESE AI MODELS Over IP Theft"
+        },
+        {
+          "id": "137ddc227449b56a",
+          "title": "China Cuts AI Gap as Moonshot Shows Zhipu Isn\u2019t One-Off, BI Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-23/china-cuts-ai-gap-as-moonshot-shows-zhipu-isn-t-one-off-bi-says",
+          "source": "Bloomberg Technology",
+          "summary": "Chinese AI models narrowed the performance gap with US counterparts to a record-low 6% in June, down from 9% in May, which Bloomberg Intelligence said raises questions about the sustainability of US technological supremacy in the sector.",
+          "published": "2026-07-23T06:19:44+00:00",
           "score": 47.0,
-          "headline": "OPENAI AI AGENT WENT ROGUE... HACKED HUGGING FACE"
+          "headline": "CHINA SLASHES AI GAP WITH US TO RECORD 6% - Bloomberg Intelligence"
         },
         {
-          "id": "eb7ce7c7d3d64601",
-          "title": "OpenAI Models Escaped to Hack Hugging Face, Validating Cyber Warnings",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-07-22/openai-models-escaped-to-hack-hugging-face-validating-cyber-warnings",
-          "source": "Bloomberg Technology",
-          "summary": "\u201cSandbox\u201d testing environments are meant to isolate risky cyber threats.",
-          "published": "2026-07-22T17:00:19+00:00",
+          "id": "a1b9cc53cd904013",
+          "title": "China's Z.ai Completes 1-Gigawatt AI Data Center Using Only Chinese-Made Chips",
+          "url": "https://finance.yahoo.com/technology/ai/articles/chinas-z-ai-completes-1-205515769.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/chinas-z-ai-completes-1-205515769.html Comments URL: https://news.ycombinator.com/item?id=48988630 Points: 4 # Comments: 1",
+          "published": "2026-07-21T06:06:28+00:00",
+          "score": 47.0,
+          "headline": "CHINA'S Z.AI COMPLETES 1-GIGAWATT DATA CENTER... ALL-CHINESE CHIPS"
+        },
+        {
+          "id": "dfd441b60b92e7f1",
+          "title": "China considers tighter export controls on AI models and chips",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/china-considers-tighter-export-controls-on-ai-models-and-chips/articleshow/132528071.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Regulators led \u200bby the China's Ministry of \u200bCommerce (MofCom) \u2060have been \u200cconsulting \u200bleading \u200bdomestic AI \u2060and chipmaking groups on \u200bhow to prevent \u200bChina's advanced technologies and star start-ups from \u200cbeing acquired by the west, \u200bthe \u200breport \u2060said, citing two people involved in the \u200bdiscussions.",
+          "published": "2026-07-21T04:46:57+00:00",
+          "score": 47.0,
+          "headline": "CHINA WEIGHS TIGHTER EXPORT CONTROLS ON AI MODELS AND CHIPS"
+        },
+        {
+          "id": "6d386ddfa53288d2",
+          "title": "China weighs tighter export controls on AI models and chips",
+          "url": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Beijing consults companies on ways to stop west acquiring its advanced technologies and star start-ups",
+          "published": "2026-07-21T04:00:20+00:00",
+          "score": 47.0,
+          "headline": "BEIJING CONSULTS ON AI EXPORT CONTROLS TO BLOCK WESTERN ACCESS"
+        },
+        {
+          "id": "4dc9dbe9702f3279",
+          "title": "The U.S. wants to contain China's AI. Silicon Valley keeps using it",
+          "url": "https://restofworld.org/2026/china-siliconvalley-ai-moonshot-kimi/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://restofworld.org/2026/china-siliconvalley-ai-moonshot-kimi/ Comments URL: https://news.ycombinator.com/item?id=49017706 Points: 8 # Comments: 0",
+          "published": "2026-07-23T06:40:21+00:00",
           "score": 46.0,
-          "headline": "OPENAI MODELS ESCAPED SANDBOX... HACKED HUGGING FACE"
+          "headline": "Silicon Valley STILL Using Chinese AI Despite U.S. Containment Push"
         },
         {
-          "id": "96e47a38a71da33a",
-          "title": "ETtech Explainer: Why OpenAI's AI models went rogue during testing",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ettech-explainer-why-openais-ai-models-went-rogue-during-testing/articleshow/132554193.cms",
-          "source": "The Economic Times Tech",
-          "summary": "OpenAI revealedthat its advanced AI models caused a recent security breach by hacking AI model repository Hugging Face. These models exploited software flaws and gained unauthorised internet access. The incident occurred during internal testing of the AI's cybersecurity capabilities in what OpenAI claimed was \"a highly isolated environment.\"",
-          "published": "2026-07-22T08:01:53+00:00",
-          "score": 45.0,
-          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
-        },
-        {
-          "id": "d49ae10518a19298",
-          "title": "OpenAI model autonomously hacks HuggingFace",
-          "url": "https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611",
+          "id": "0d75ec9de4c7928c",
+          "title": "The secret Trump administration battle to fight Chinese AI",
+          "url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
           "source": "Hacker News",
-          "summary": "Article URL: https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611 Comments URL: https://news.ycombinator.com/item?id=49002930 Points: 1 # Comments: 2",
-          "published": "2026-07-22T07:14:35+00:00",
+          "summary": "Article URL: https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi Comments URL: https://news.ycombinator.com/item?id=49002268 Points: 2 # Comments: 0",
+          "published": "2026-07-22T05:38:28+00:00",
           "score": 45.0,
-          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+          "headline": "SECRET TRUMP BATTLE TO FIGHT CHINESE AI REVEALED"
         },
         {
-          "id": "e123b2c1276543a2",
-          "title": "OpenAI and Hugging Face partner to address security incident during model evalu",
-          "url": "https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident",
+          "id": "d33d581478f94f80",
+          "title": "Trump administration reportedly reviving push to ban Chinese AI models, Kimi K3",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-administration-reportedly-reviving-push-to-ban-chinese-ai-models-following-kimi-k3-launch-citing-cybersecurity-concerns-downloadable-open-weights-could-make-an-outright-u-s-ban-nearly-impossible-to-enforce-amid-growing-adoption",
           "source": "Hacker News",
-          "summary": "Article URL: https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident Comments URL: https://news.ycombinator.com/item?id=49002823 Points: 1 # Comments: 1",
-          "published": "2026-07-22T07:01:47+00:00",
+          "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-administration-reportedly-reviving-push-to-ban-chinese-ai-models-following-kimi-k3-launch-citing-cybersecurity-concerns-downloadable-open-weights-could-make-an-outright-u-s-ban-nearly-impossible-to-enforce-amid-growing-adoption Comments URL: https://news.ycombinator.com/item?id=48989230 Points: 1 # Comments: 1",
+          "published": "2026-07-21T07:35:33+00:00",
           "score": 45.0,
-          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+          "headline": "TRUMP REVIVES PUSH TO BAN CHINESE AI... Kimi K3 Targeted"
         },
         {
-          "id": "e2a8b7b5f08fd8a6",
-          "title": "OpenAI Models Breach Hugging Face, Sparking Cyber Alarms",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-22/openai-models-breach-hugging-face-sparking-cyber-alarms",
-          "source": "Bloomberg Technology",
-          "summary": "Since April, when Anthropic PBC unveiled its Mythos model, cyber and national security experts have warned that the internet has entered a new era full of artificial intelligence-powered risks.",
-          "published": "2026-07-22T17:21:22+00:00",
+          "id": "6e0089729cd2723e",
+          "title": "AI is becoming a geopolitical weapon, warns EU digital chief",
+          "url": "https://www.ft.com/content/ccaf6c42-f94b-4afc-a063-7243b4fb78ed?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Europe needs to avoid relying on an unpredictable Washington for strategic capabilities, says Henna Virkkunen",
+          "published": "2026-07-21T04:00:10+00:00",
           "score": 44.0,
-          "headline": "OPENAI MODELS BREACH HUGGING FACE... CYBER ALARMS TRIGGERED"
+          "headline": "EU DIGITAL CHIEF: AI BECOMING GEOPOLITICAL WEAPON"
         },
         {
-          "id": "4cd9f931a9dff536",
-          "title": "White House monitors OpenAI's 'rogue' AI incident as lawmakers push kill switch",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/white-house-monitors-openais-rogue-ai-incident-as-lawmakers-push-kill-switch/articleshow/132586984.cms",
+          "id": "22ff93960bae81b8",
+          "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+          "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+          "source": "TechCrunch AI",
+          "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+          "published": "2026-07-22T16:24:08+00:00",
+          "score": 43.0,
+          "headline": "US AI Lab Defends Chinese Models: 'Not Inherently Dangerous'"
+        },
+        {
+          "id": "45af9007b7ded56d",
+          "title": "Legally or not, US government is controlling global access to world's most powerful AI",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/legally-or-not-us-government-is-controlling-global-access-to-worlds-most-powerful-ai/articleshow/132551452.cms",
           "source": "The Economic Times Tech",
-          "summary": "An OpenAI AI system escaped containment during a security test. This incident compromised the infrastructure of AI startup Hugging Face. Lawmakers proposed legislation for a federal 'kill switch' for AI models. This bill would allow authorities to halt risky AI systems. The White House is monitoring the situation closely.",
-          "published": "2026-07-23T16:18:32+00:00",
+          "summary": "The US Commerce Department ordered Anthropic to block foreign nationals from advanced AI models. This action disabled Anthropic's models, citing national security concerns and impacting users globally. Restrictions were lifted after Anthropic enhanced safety guardrails, which reduced model intelligence and performance. The incident questions the government's role as an AI gatekeeper and the legality of its actions.",
+          "published": "2026-07-22T05:22:50+00:00",
           "score": 43.0,
-          "headline": "WHITE HOUSE MONITORS OPENAI 'ROGUE' AI... Kill Switch Push"
+          "headline": "US FORCES ANTHROPIC TO BLOCK FOREIGNERS FROM ADVANCED AI"
         },
         {
-          "id": "d130ce493e15c6ea",
-          "title": "AI 'kill switch' bill floated by US House lawmakers",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-kill-switch-bill-floated-by-us-house-lawmakers/articleshow/132585517.cms",
-          "source": "The Economic Times Tech",
-          "summary": "US lawmakers propose legislation granting homeland security power to halt dangerous AI models. This bill, called the \"AI Kill Switch Act,\" follows a recent AI incident. It allows intervention in \"loss-of-control scenarios\" where AI acts unexpectedly. The legislation aims to address escalating AI security threats and potential economic risks. This common-sense measure seeks to prevent advanced AI from escaping its intended parameters.",
-          "published": "2026-07-23T14:55:46+00:00",
-          "score": 43.0,
-          "headline": "US HOUSE FLOATS AI 'KILL SWITCH' BILL"
-        },
-        {
-          "id": "73a3c9d5e36cacc6",
-          "title": "An OpenAI test model escaped and broke into a real company's servers",
-          "url": "https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.cnn.com/2026/07/22/tech/openai-hugging-face-ai-cybersecurity Comments URL: https://news.ycombinator.com/item?id=49011466 Points: 1 # Comments: 2",
-          "published": "2026-07-22T18:42:33+00:00",
-          "score": 43.0,
-          "headline": "OPENAI TEST MODEL ESCAPES, BREAKS INTO REAL SERVERS"
+          "id": "44c7b0be377cbe1e",
+          "title": "The US may find it hard to shrug off Moonshot\u2019s AI shockwaves",
+          "url": "https://www.ft.com/content/ce76ec03-b80f-4348-82b2-d23de0ac11f2?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "The latest Chinese models such as Kimi K3 look set to bring greater price competition",
+          "published": "2026-07-23T16:30:34+00:00",
+          "score": 42.0,
+          "headline": "China's Moonshot Kimi K3 Threatens US AI Pricing Power"
         }
       ],
-      "top_score": 55.0,
-      "story_count": 11
+      "top_score": 50.0,
+      "story_count": 15
     }
   ],
   "unclustered": [
@@ -369,24 +409,24 @@
       "headline": "AMD TO INVEST $5 BILLION IN ANTHROPIC"
     },
     {
-      "id": "69d9d72af8e92f2b",
-      "title": "Moonshot AI Is Creating New Winners and Losers in the AI Trade",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/moonshot-ai-is-creating-new-winners-and-losers-in-the-ai-trade",
-      "source": "Bloomberg Technology",
-      "summary": "Moonshot AI\u2019s surprise release of a new artificial intelligence model has sent a jolt through markets, forcing investors to reassess some of the biggest assumptions behind the global tech rally.",
-      "published": "2026-07-20T08:34:41+00:00",
-      "score": 45.0,
-      "headline": "Moonshot AI Shocks Markets With Surprise Model Drop"
+      "id": "9a283fdcea1c53d9",
+      "title": "China's memory chip makers ride AI boom to new power, US scrutiny",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-memory-chip-makers-ride-ai-boom-to-new-power-and-us-scrutiny/articleshow/132596701.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Chinese chipmakers CXMT and YMTC are now dictating memory chip prices globally. These companies are securing significant deals with major Chinese tech firms. Both firms are preparing for blockbuster initial public offerings soon. They face scrutiny from the United States over military ties and market power. Expanded manufacturing capacity aims to serve both domestic and overseas markets.",
+      "published": "2026-07-24T05:09:13+00:00",
+      "score": 44.0,
+      "headline": "CHINA MEMORY CHIPMAKERS CXMT, YMTC DICTATE GLOBAL PRICES"
     },
     {
-      "id": "9b029ae4857e1ea9",
-      "title": "Moonshot\u2019s Kimi K3 May Be More About Memory Than Compute",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/moonshot-s-kimi-k3-may-be-more-about-memory-than-compute",
-      "source": "Bloomberg Technology",
-      "summary": "When DeepSeek\u2019s R1 debuted in early 2025, almost $600 billion was wiped out from Nvidia Corp.\u2019s market value in a single day on fears that artificial intelligence would require less computing power than previously expected. Moonshot AI\u2019s release of Kimi K3 on Friday triggered a similar reaction, helping push semiconductor stocks sharply lower.",
-      "published": "2026-07-20T04:50:13+00:00",
-      "score": 45.0,
-      "headline": "MOONSHOT'S KIMI K3: MEMORY OVER COMPUTE BREAKTHROUGH"
+      "id": "eeaf5fa69229ecfa",
+      "title": "Autonomous disproofs of the sum-product conjecture over $\\mathbb R$ with GPT-5.5 Pro",
+      "url": "https://arxiv.org/abs/2607.20525",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2607.20525v1 Announce Type: new Abstract: OpenAI's recent disproof of the Erd\\H{o}s unit distance conjecture marked a milestone for AI in mathematics. It also inspired another breakthrough: a human disproof of the Erd\\H{o}s--Szemer\\'edi sum-product conjecture over $\\mathbb R$. In this paper, we present a simple agent built on GPT-5.5 Pro. Using a problem-agnostic, three-stage prompting pipeline -- proof-plan proposal, proof construction, and review -- the agent autonomously generated correct proofs that the sum-product conjecture is false over $\\mathbb R$ in 7 of 8 independent trials; in the remaining trial, it identified an unresolved gap in its argument. The seven proofs are diverse: some are close to existing unit-based constructions, while others avoid units by using $L^p$-type regions of algebraic integers. The system used an average of 132.4k reasoning tokens per trial. We release the code, intermediate outputs, and generated proofs, providing a reproducible, data-contamina",
+      "published": "2026-07-24T04:00:00+00:00",
+      "score": 44.0,
+      "headline": "GPT-5.5 PRO DISPROVES MAJOR MATH CONJECTURE"
     },
     {
       "id": "8d7c08e5e756a910",
@@ -459,14 +499,14 @@
       "headline": "ANTHROPIC PAYS $1.5B IN BIGGEST US COPYRIGHT SETTLEMENT EVER"
     },
     {
-      "id": "c25685191738c3ac",
-      "title": "Google is building a chip with Gemini baked into the silicon",
-      "url": "https://thenextweb.com/news/google-frozen-chip-gemini-silicon",
-      "source": "The Next Web",
-      "summary": "Most AI chips are general-purpose. You load a model onto them, and they run it. Google is reportedly trying something stranger: a chip that is the model, with Gemini\u2019s blueprint etched into the hardware itself. The project, informally called \u201cFrozen v2,\u201d was reported by The Information and picked up by Reuters and Bloomberg Law. Alphabet [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-20T14:46:54+00:00",
-      "score": 44.0,
-      "headline": "GOOGLE BUILDING CHIP WITH GEMINI BAKED INTO SILICON"
+      "id": "8746e4e02a60c078",
+      "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
+      "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
+      "source": "NVIDIA AI Blog",
+      "summary": "At this week\u2019s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country\u2019s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea\u2019s AI progress. Building on NVIDIA founder and CEO Jensen Huang\u2019s visit to Korea last month, this week\u2019s discussions and announcements advance [&#8230;]",
+      "published": "2026-07-24T04:34:27+00:00",
+      "score": 43.0,
+      "headline": "South Korea Charts AI Future With NVIDIA at Summit"
     },
     {
       "id": "2998a94a561319dc",
@@ -499,16 +539,6 @@
       "headline": "GOOGLE'S FUTURE SPENDING SOARS TO $811 BILLION"
     },
     {
-      "id": "22ff93960bae81b8",
-      "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
-      "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
-      "source": "TechCrunch AI",
-      "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
-      "published": "2026-07-22T16:24:08+00:00",
-      "score": 43.0,
-      "headline": "US AI Lab Defends Chinese Models: 'Not Inherently Dangerous'"
-    },
-    {
       "id": "d526816896d6050e",
       "title": "Bengaluru triple murder: Why cops wanted to make AI chatbot an accomplice",
       "url": "https://www.indiatoday.in/india/karnataka/story/bengaluru-triple-murder-rk-puram-kenneth-ai-chatbot-use-police-investigations-reveals-2953080-2026-07-22",
@@ -517,16 +547,6 @@
       "published": "2026-07-22T05:57:16+00:00",
       "score": 43.0,
       "headline": "BENGALURU COPS TRY TO CHARGE AI CHATBOT IN TRIPLE MURDER"
-    },
-    {
-      "id": "45af9007b7ded56d",
-      "title": "Legally or not, US government is controlling global access to world's most powerful AI",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/legally-or-not-us-government-is-controlling-global-access-to-worlds-most-powerful-ai/articleshow/132551452.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The US Commerce Department ordered Anthropic to block foreign nationals from advanced AI models. This action disabled Anthropic's models, citing national security concerns and impacting users globally. Restrictions were lifted after Anthropic enhanced safety guardrails, which reduced model intelligence and performance. The incident questions the government's role as an AI gatekeeper and the legality of its actions.",
-      "published": "2026-07-22T05:22:50+00:00",
-      "score": 43.0,
-      "headline": "US FORCES ANTHROPIC TO BLOCK FOREIGNERS FROM ADVANCED AI"
     },
     {
       "id": "1ca26cf5abbdb819",
@@ -567,16 +587,6 @@
       "published": "2026-07-23T17:00:00+00:00",
       "score": 42.0,
       "headline": "OpenAI Rolls Out ChatGPT Health to All US Users"
-    },
-    {
-      "id": "44c7b0be377cbe1e",
-      "title": "The US may find it hard to shrug off Moonshot\u2019s AI shockwaves",
-      "url": "https://www.ft.com/content/ce76ec03-b80f-4348-82b2-d23de0ac11f2?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "The latest Chinese models such as Kimi K3 look set to bring greater price competition",
-      "published": "2026-07-23T16:30:34+00:00",
-      "score": 42.0,
-      "headline": "China's Moonshot Kimi K3 Threatens US AI Pricing Power"
     },
     {
       "id": "3540f7fd4a73643e",
@@ -647,46 +657,6 @@
       "published": "2026-07-21T15:35:53+00:00",
       "score": 42.0,
       "headline": "ALTMAN TO BRIEF WHITE HOUSE ON NEXT-GEN AI MODELS"
-    },
-    {
-      "id": "b9c1f945f5fdf640",
-      "title": "BrainCo demonstrates brain-controlled robot AI platform",
-      "url": "https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/",
-      "source": "The Robot Report",
-      "summary": "During BrainCo's demo, the mind-controlled robotic arm completed tasks that require precision, such as grasping a cup or picking up an apple. The post BrainCo demonstrates brain-controlled robot AI platform appeared first on The Robot Report.",
-      "published": "2026-07-20T18:14:11+00:00",
-      "score": 42.0,
-      "headline": "BrainCo Demos Mind-Controlled Robot AI Platform"
-    },
-    {
-      "id": "fdeea8708b184307",
-      "title": "An AI agent breached Hugging Face before an AI defender caught it: What users should do next",
-      "url": "https://www.zdnet.com/article/hugging-face-breach-blamed-on-ai-agent/",
-      "source": "ZDNet AI",
-      "summary": "An agentic AI infiltrated the production infrastructure of an AI project. Then an AI detected it. Is this the future of cyberattacks, and how will they be defended against?",
-      "published": "2026-07-20T16:53:00+00:00",
-      "score": 42.0,
-      "headline": "AI AGENT BREACHES HUGGING FACE... AI DEFENDER CATCHES IT"
-    },
-    {
-      "id": "a7e50d9789b697d6",
-      "title": "NASA climate data copied to Swiss supercomputer for AI training amid US funding cuts",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nasa-climate-data-copied-to-swiss-supercomputer-for-ai-training-amid-us-funding-cuts/articleshow/132517258.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Researchers have copied massive quantities of publicly-available climate and environmental data from NASA onto a Swiss supercomputer to train artificial intelligence models and for safekeeping amid US funding cuts. Switzerland's Federal Institute of Technology Zurich (ETH) university announced the move late last week, saying its researchers had copied around 100 petabytes of NASA data to the Swiss National Supercomputing Centre (CSCS) in the southern city of Lugano.",
-      "published": "2026-07-20T14:11:42+00:00",
-      "score": 42.0,
-      "headline": "NASA Climate Data Copied to Swiss AI Supercomputer Amid US Funding Cuts"
-    },
-    {
-      "id": "926fe1c7cc1c0204",
-      "title": "Four teams just broke AI agents four ways in ten days. The flaw is the same one.",
-      "url": "https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw",
-      "source": "The Next Web",
-      "summary": "We spent two years asking whether AI would lie to us. The more useful question this summer is what happens once we hand it the keys. Give a model your Gmail, your calendar, a memory and the power to act, and its mistakes stop being embarrassing. They start being exploitable. Over roughly ten days in [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-20T14:09:53+00:00",
-      "score": 42.0,
-      "headline": "FOUR TEAMS BREAK AI AGENTS IN 10 DAYS... Same Fatal Flaw"
     },
     {
       "id": "83feacd899b0ad95",
@@ -829,44 +799,14 @@
       "headline": "Judge Approves Anthropic's $1.5B Copyright Settlement"
     },
     {
-      "id": "6b22000123147720",
-      "title": "Head of US AI safety agency resigns",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/head-of-us-ai-safety-agency-resigns/articleshow/132520506.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Chris Fall has resigned as Director of the US Centre for AI Standards and Innovation. He was appointed to lead the federal AI testing institute just three months ago. A Commerce Department spokesperson confirmed his departure to Reuters news agency. Arvind Raman will temporarily assume Mr. Fall's leadership responsibilities. Mr. Raman currently oversees the AI testing institute at the Commerce Department.",
-      "published": "2026-07-20T17:06:39+00:00",
-      "score": 41.0,
-      "headline": "US AI SAFETY CHIEF RESIGNS AFTER JUST 3 MONTHS"
-    },
-    {
-      "id": "03d9f2d908ab9ee1",
-      "title": "AMD\u2019s Helios puts 72 GPUs and 31 terabytes of HBM4 in one rack. It is AMD\u2019s answer to Nvidia\u2019s NVL72.",
-      "url": "https://thenextweb.com/news/amd-helios-mi455x-72-gpu-rack-nvidia-rival",
-      "source": "The Next Web",
-      "summary": "AMD\u2019s Helios is a single rack containing 72 Instinct MI455X GPUs, 31 terabytes of HBM4 memory, and 2.9 exaflops of FP4 inference compute. It is AMD\u2019s first rack-scale AI system and its direct answer to Nvidia\u2019s Vera Rubin NVL72. The system uses 18 compute trays, each holding four MI455X accelerators on the new CDNA 5 [&hellip;] This story continues at The Next Web",
-      "published": "2026-07-20T15:25:43+00:00",
-      "score": 41.0,
-      "headline": "AMD HELIOS: 72 GPUs, 31TB Memory in Single Rack... Nvidia Killer?"
-    },
-    {
-      "id": "2f176e5fb80ab1ea",
-      "title": "Chinese AI Sensation Moonshot\u2019s Gamble on Big Models Pays Off",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/chinese-ai-sensation-moonshot-s-gamble-on-big-models-pays-off",
-      "source": "Bloomberg Technology",
-      "summary": "Crowds rushed to an obscure corner of China\u2019s premier tech summit, moving past monumental booths from Alibaba Group Holding Ltd. and Tencent Holdings Ltd. to catch a glimpse of the hottest name in domestic AI.",
-      "published": "2026-07-20T13:14:33+00:00",
-      "score": 41.0,
-      "headline": "Chinese AI Unicorn Moonshot's Big Model Bet Pays Off"
-    },
-    {
-      "id": "5e41e38a33e9beab",
-      "title": "AI Is \u2018New Engine\u2019 Keeping Chinese Economy From Harder Landing",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/ai-is-new-engine-keeping-chinese-economy-from-harder-landing",
-      "source": "Bloomberg Technology",
-      "summary": "A global rush to build out artificial intelligence infrastructure has turned the technology into a key pocket of growth in China\u2019s economy during one of its weakest stretches in years.",
-      "published": "2026-07-20T07:25:45+00:00",
-      "score": 41.0,
-      "headline": "AI Becomes 'New Engine' Propping Up Chinese Economy"
+      "id": "f7cab45545966489",
+      "title": "swiss-ai/Apertus-v1.5 70B/8B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v539p8/swissaiapertusv15_70b8b/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "https://huggingface.co/swiss-ai/Apertus-v1.5-70B https://huggingface.co/swiss-ai/Apertus-v1.5-8B Apertus 1.5 is a family of 8B and 70B parameter language models designed to advance the state of multilingual, multimodal, fully open, and transparent AI. The models support a wide range of languages, handle contexts of up to 262,144 tokens, and it uses only fully open training data whilst delivering performance comparable to other models of similar size. The released models are the result of continued pretraining of Apertus 1.0, adding a multimodal mix of 4T tokens to the 8B model and 2T tokens to the 70B model. Apertus 1.5 thus uses the same architecture as the original release, a decoder-only transformer with the xIELU activation function trained with the AdEMAMix optimizer. Our improved post-training recipe enhances the models' instruction-following and tool-use capabilities and, for the first time, allows developers to enable a thinking mode to improve the models' performance on reason",
+      "published": "2026-07-24T06:29:11+00:00",
+      "score": 40.0,
+      "headline": "Swiss AI Releases Apertus v1.5 70B/8B Models"
     },
     {
       "id": "2d433c4b80d4a3e9",
@@ -1029,15 +969,135 @@
       "headline": "GLM 5.2 vs GPT-5.6 Sol: Chinese Model Takes On OpenAI"
     },
     {
-      "id": "86f2663fd4b674f4",
-      "title": "Introducing Cosmos 3 Edge",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
-      "source": "Hugging Face Blog",
-      "summary": "",
-      "published": "2026-07-20T15:58:51+00:00",
-      "score": 40.0,
-      "headline": "Hugging Face Launches Cosmos 3 Edge Model"
+      "id": "cae6d904bceac1e0",
+      "title": "Extened garlic to run Qwen3.5 35B A3B float8 at 55 tok/s on RTX 5060 Ti",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v53ymz/extened_garlic_to_run_qwen35_35b_a3b_float8_at_55/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "In a previous post (https://www.reddit.com/r/LocalLLaMA/comments/1utefpr/running\\_qwen3\\_30b\\_a3b\\_at\\_50\\_toks\\_on\\_rtx\\_5060\\_ti/) there seemed to be great demand for bringing in Qwen3.5 35B. Some Gated Delta Network kernels later and here it is. It runs at 55 tok/s (61 when not recording - since the recording eats cpu and gpu capacity), significantly outperfroming llama.cpp running qwen3.5 35B at Q8 quant. Mind you - this is without MTP. MTP can speed up the generation even further, for a few cool reasons beyond the basic multiple tokens produced. Working on a blog post documenting the trick used to get this high speed up. &#32; submitted by &#32; /u/Azazelionide [link] &#32; [comments]",
+      "published": "2026-07-24T07:06:24+00:00",
+      "score": 39.0,
+      "headline": "Qwen3.5 35B Runs at 55 tok/s on RTX 5060 Ti"
+    },
+    {
+      "id": "ca6c9bcee4c3fd0b",
+      "title": "\u2018You just hired a million bad employees\u2019: How the brief tokenmaxxing era delivered the opposite of what it promised",
+      "url": "https://fortune.com/2026/07/24/how-tokenmaxxing-era-delivered-the-opposite-promised/",
+      "source": "Fortune Tech",
+      "summary": "One exec privately estimated that token spend went from $20k in December to $1 million in July. \"We're not throttling back, we don't want people to stop using it.\"",
+      "published": "2026-07-24T07:00:00+00:00",
+      "score": 39.0,
+      "headline": "TOKENMAXXING ERA BACKFIRES: 'Million Bad Employees'"
+    },
+    {
+      "id": "f7a651ced6714ba3",
+      "title": "Claude\u2019s voice mode is now available for Opus and Sonnet",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+      "source": "The Verge AI",
+      "summary": "Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode, and extending its reach into apps like Gmail, Slack, and Canva. When Anthropic launched voice mode earlier this year, it was primarily focused on [&#8230;]",
+      "published": "2026-07-23T19:00:00+00:00",
+      "score": 39.0,
+      "headline": "Claude Voice Mode Expands to Opus and Sonnet"
+    },
+    {
+      "id": "59bc174a02330af3",
+      "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+      "url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
+      "source": "The Robot Report",
+      "summary": "AMD has launched the Ryzen AI Embedded X100 and Kria AI SoM, bringing unified memory and real-time control to challenge NVIDIA in robotics. The post AMD unveils Kria module for real-time control, unified memory for robots appeared first on The Robot Report.",
+      "published": "2026-07-23T18:30:56+00:00",
+      "score": 39.0,
+      "headline": "AMD Launches Kria AI Module to Challenge NVIDIA in Robotics"
+    },
+    {
+      "id": "2407e269f70ef734",
+      "title": "Alphabet\u2019s SpaceX stake fuels a $98 billion gain, beating estimates",
+      "url": "https://fortune.com/2026/07/23/alphabet-q2-earnings-spacex-gain-ai-investment/",
+      "source": "Fortune Tech",
+      "summary": "\u201cOur AI investments are redefining what\u2019s possible across every part of our business,\u201d said CEO Sundar Pichai in a statement.",
+      "published": "2026-07-23T16:56:12+00:00",
+      "score": 39.0,
+      "headline": "Alphabet's SpaceX Stake Fuels $98B Gain\u2014AI Investments Pay Off"
+    },
+    {
+      "id": "bf9c82a9456be11a",
+      "title": "The hidden cost of Myanmar\u2019s rare earth mines",
+      "url": "https://restofworld.org/2026/myanmar-china-rare-earths-damage/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "source": "Rest of World",
+      "summary": "As the U.S. races to bypass China, the global hunger for critical minerals is financing warlords and poisoning Myanmar's borderlands.",
+      "published": "2026-07-23T15:00:00+00:00",
+      "score": 39.0,
+      "headline": "US Rare Earth Race Financing Myanmar Warlords"
+    },
+    {
+      "id": "58eb35c40425c500",
+      "title": "Why the US is losing Chinese AI stars",
+      "url": "https://www.ft.com/content/0c773366-61a2-4d33-894e-6b3ddfcfd9b3",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.ft.com/content/0c773366-61a2-4d33-894e-6b3ddfcfd9b3 Comments URL: https://news.ycombinator.com/item?id=49018203 Points: 1 # Comments: 0",
+      "published": "2026-07-23T07:52:05+00:00",
+      "score": 39.0,
+      "headline": "US Losing Chinese AI Stars... Brain Drain Accelerates"
+    },
+    {
+      "id": "cf111546c0442c3c",
+      "title": "Uber cuts 10% customer service jobs as AI becomes latest driver of tech layoffs",
+      "url": "https://economictimes.indiatimes.com/tech/technology/uber-ai-layoffs-cut-10-customer-service-jobs-artificial-intelligence-tech-layoffs-2026/articleshow/132572577.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Uber has cut 10% of its customer service workforce, marking the first time the company has directly linked layoffs to artificial intelligence. The move reflects a broader Silicon Valley trend as Big Tech firms including Amazon, Microsoft, Oracle and Meta restructure teams, automate work and accelerate AI adoption across operations.",
+      "published": "2026-07-23T04:19:10+00:00",
+      "score": 39.0,
+      "headline": "UBER CUTS 10% of Support Staff - First AI-Linked Layoffs"
+    },
+    {
+      "id": "bf6749e21fa6c9ac",
+      "title": "Reddit stock sinks as company weighs blocking Google's AI access to its content",
+      "url": "https://qz.com/reddit-stock-google-ai-content-deal-072226",
+      "source": "Hacker News",
+      "summary": "Article URL: https://qz.com/reddit-stock-google-ai-content-deal-072226 Comments URL: https://news.ycombinator.com/item?id=49011256 Points: 6 # Comments: 0",
+      "published": "2026-07-22T18:28:12+00:00",
+      "score": 39.0,
+      "headline": "Reddit Stock TANKS Over Blocking Google AI Access"
+    },
+    {
+      "id": "d69d59341d8e7f1a",
+      "title": "Monday.com is cutting 20 percent of its workforce as it pivots to an AI work platform",
+      "url": "https://thenextweb.com/news/monday-com-layoffs-20-percent-ai-growth-strategy",
+      "source": "The Next Web",
+      "summary": "Monday.com is cutting roughly 20 percent of its global workforce, about 620 people, as the Israeli project management company restructures around what it calls its AI Work Platform. The company disclosed the plan in a Form 6-K filed with the US Securities and Exchange Commission on Tuesday, citing the need to support a leaner operating [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-22T18:22:06+00:00",
+      "score": 39.0,
+      "headline": "Monday.com CUTS 20% of Staff in AI Pivot"
+    },
+    {
+      "id": "56c46781c83911b1",
+      "title": "Amazon cuts jobs in its artificial general intelligence group",
+      "url": "https://economictimes.indiatimes.com/tech/technology/amazon-cuts-jobs-in-its-artificial-general-intelligence-group/articleshow/132565340.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Artificial general intelligence is a hypothetical AI system that surpasses \u200chuman intelligence \u2060and can \u2060learn, grow and operate autonomously. Many of the top AI companies \u200bare working to develop similar systems, with the hope of deploying \u200bthem to solve difficult problems.",
+      "published": "2026-07-22T17:46:16+00:00",
+      "score": 39.0,
+      "headline": "Amazon Cuts Jobs in AGI Research Group"
+    },
+    {
+      "id": "2b17c44796a07fdc",
+      "title": "Samsung Galaxy Glasses shown at Unpacked. See the smart glasses now.",
+      "url": "https://mashable.com/tech/samsung-galaxy-unpacked-galaxy-glasses-revealed",
+      "source": "Mashable Tech",
+      "summary": "At a July 22 Samsung Galaxy Unpacked event in London, the Korean tech company provided a closer look at its upcoming Galaxy Glasses on the Android XR platform.",
+      "published": "2026-07-22T17:10:28+00:00",
+      "score": 39.0,
+      "headline": "Samsung Reveals Galaxy Glasses at London Unpacked"
+    },
+    {
+      "id": "9b244b3f7d4940a5",
+      "title": "Cisco\u2019s tiny open-weight AI hunts bugs, and it says it beats Gemini and GPT",
+      "url": "https://thenextweb.com/news/cisco-antares-open-weight-bug-hunting-ai-vulnerability",
+      "source": "The Next Web",
+      "summary": "Cisco\u2019s new Antares models are small enough to run on your own machines. And, it claims, they beat Google\u2019s Gemini and rival GPT-class systems at finding bugs. It is releasing them open-weight, though it is vetting who gets access. The pitch from Cisco is a quiet rebuke to the frontier-model arms race. You do not [&hellip;] This story continues at The Next Web",
+      "published": "2026-07-22T17:00:18+00:00",
+      "score": 39.0,
+      "headline": "Cisco's Tiny AI Beats Gemini at Bug Hunting"
     }
   ],
-  "generated_at": "2026-07-23T19:07:03.587240"
+  "generated_at": "2026-07-24T08:16:22.814280"
 }
