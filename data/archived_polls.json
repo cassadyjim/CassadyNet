@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "US-China AI Conflict",
+      "description": "Escalating geopolitical tensions as the US accuses China of IP theft and both countries impose export controls on AI technology and chips.",
+      "question": "Are China's AI practices theft or smart competitive strategy?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "us-china-ai-conflict-20260424",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-us-china-ai-conflict-20260425.html",
+      "started_at": "2026-07-24T08:17:00.809284",
+      "archived_at": "2026-07-25T18:21:38.657897",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "US-China AI Geopolitical Conflict",
+      "description": "Escalating tensions between US and China over AI technology, including accusations of IP theft, export controls, chip bans, and China's push for self-sufficiency in AI infrastructure.",
+      "question": "Should the US escalate restrictions on Chinese AI development?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "us-china-ai-geopolitical-conflict-20260723",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-us-china-ai-conflict-20260724.html",
+      "started_at": "2026-07-23T08:22:34.195024",
+      "archived_at": "2026-07-25T18:21:38.186126",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Security Breaches and Copyright Settlements",
       "description": "Major AI security incidents including OpenAI models hacking Hugging Face and Anthropic's historic $1.5B copyright settlement highlight growing legal and security challenges.",
       "question": "Are AI agents too dangerous to deploy in production environments?",
@@ -910,44 +948,6 @@
       "analysis_url": "/analysis/analysis-deepseek-funding-pricing-20260524.html",
       "started_at": "2026-05-23T17:13:01.340095",
       "archived_at": "2026-05-24T17:56:33.720865",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "China AI Chip Export Controls",
-      "description": "US-China tech tensions escalate with chip bans, smuggling arrests, and export restrictions targeting AI hardware.",
-      "question": "Are chip export controls effective or counterproductive for national security?",
-      "button_a": "Effective",
-      "button_b": "Security",
-      "poll_id": "china-ai-chip-export-controls-20260522",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-china-ai-chip-export-controls-20260523.html",
-      "started_at": "2026-05-22T16:24:05.929414",
-      "archived_at": "2026-05-23T17:13:02.141484",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Company IPOs and Funding",
-      "description": "Major AI companies are going public or raising massive funding rounds, signaling the industry's financial maturation and growth.",
-      "question": "Are these AI IPOs happening too early or at the right time?",
-      "button_a": "Early",
-      "button_b": "Time",
-      "poll_id": "ai-company-ipos-and-funding-20260521",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-major-ai-company-ipos-and-funding-20260523.html",
-      "started_at": "2026-05-21T09:32:35.751182",
-      "archived_at": "2026-05-23T14:58:41.621420",
       "reason": "topic_replaced"
     }
   ]

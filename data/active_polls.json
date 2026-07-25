@@ -1,191 +1,275 @@
 {
   "polls": [
     {
-      "topic": "US-China AI Geopolitical Conflict",
-      "description": "Escalating tensions between US and China over AI technology, including accusations of IP theft, export controls, chip bans, and China's push for self-sufficiency in AI infrastructure.",
-      "question": "Should the US escalate restrictions on Chinese AI development?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "us-china-ai-geopolitical-conflict-20260723",
-      "analysis_url": "/analysis/analysis-us-china-ai-conflict-20260724.html",
-      "analysis_type": "poll",
-      "created_at": "2026-07-23T08:22:34.195024",
-      "last_seen": "2026-07-25T06:49:32.156627",
+      "topic": "AI Chip Mega-Deals and Investments",
+      "description": "Major semiconductor partnerships and investments as tech giants race to secure AI chip supply chains, with deals totaling hundreds of billions.",
+      "question": "",
+      "button_a": "N/A",
+      "button_b": "N/A",
+      "poll_id": "ai-chip-mega-deals-and-investments-20260725",
+      "analysis_url": "/analysis/analysis-ai-chip-mega-deals-and-investments-20260725.html",
+      "analysis_type": "summary",
+      "created_at": "2026-07-25T18:21:11.274477",
+      "last_seen": "2026-07-25T18:21:34.366545",
       "cluster_stories": [
         {
-          "id": "e997f9fc631b4ae7",
-          "title": "White House accuses China's Moonshot of stealing Anthropic AI",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/white-house-accuses-chinas-moonshot-of-stealing-anthropic-ai/articleshow/132564433.cms",
+          "id": "360643939aa1f488",
+          "title": "South Korea's SK Hynix, Samsung Electronics sign $950 billion partnership with US big tech",
+          "url": "https://economictimes.indiatimes.com/tech/technology/south-koreas-sk-hynix-samsung-electronics-sign-950-billion-partnership-with-us-big-tech/articleshow/132619135.cms",
           "source": "The Economic Times Tech",
-          "summary": "A top White House official on Wednesday accused Chinese AI startup Moonshot AI of covertly copying Anthropic's most advanced model to build its Kimi K3. Michael Kratsios, director of the White House Office of Science and Technology Policy, said in a post on X that the United States had \"information that Moonshot AI distilled Anthropic's Fable for the development of its K3 model.\"",
-          "published": "2026-07-22T17:17:20+00:00",
-          "score": 50.0,
-          "headline": "WHITE HOUSE ACCUSES CHINA'S MOONSHOT OF STEALING ANTHROPIC AI"
+          "summary": "The partnership includes the long-term supply of $750 \u200bbillion in memory \u200bchips to US companies by SK Hynix \u200cand $200 billion in chips \u200bby Samsung \u200bElectronics \u2060to Broadcom, the presidential adviser, Kim Yong-beom, \u200bsaid at a briefing.",
+          "published": "2026-07-25T04:43:09+00:00",
+          "score": 51.0,
+          "headline": "SAMSUNG AND SK HYNIX SIGN $950B DEAL With US Big Tech"
         },
         {
-          "id": "def352338aca6f7b",
-          "title": "White House Official Says Moonshot Accessed Banned Nvidia Chips",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-22/white-house-official-says-moonshot-accessed-banned-nvidia-chips",
-          "source": "Bloomberg Technology",
-          "summary": "A White House official accused China\u2019s Moonshot of improperly using US AI models and Nvidia Corp. chips to create the Kimi K3 system that stunned the tech industry last week with its advanced capabilities.",
-          "published": "2026-07-22T15:45:47+00:00",
-          "score": 50.0,
-          "headline": "WHITE HOUSE ACCUSES CHINA'S MOONSHOT of Using Banned Nvidia Chips"
+          "id": "28ffe8494419bec4",
+          "title": "Samsung signs a $200 billion chip deal with Broadcom covering memory, foundry and advanced packaging through 2030",
+          "url": "https://thenextweb.com/news/samsung-broadcom-200-billion-chip-deal-ai-memory-foundry",
+          "source": "The Next Web",
+          "summary": "Samsung Electronics and Broadcom have signed a memorandum of understanding worth more than $200 billion spanning memory chips, foundry manufacturing and advanced packaging for artificial intelligence semiconductors. The deal, announced on Friday at an AI summit in San Francisco, runs for five years through 2030 and covers some of the most critical layers of the [&hellip;] This story continues at The Next Web",
+          "published": "2026-07-25T09:27:46+00:00",
+          "score": 48.0,
+          "headline": "SAMSUNG SIGNS $200B CHIP DEAL With Broadcom... AI Foundry Push"
         },
         {
-          "id": "137ddc227449b56a",
-          "title": "China Cuts AI Gap as Moonshot Shows Zhipu Isn\u2019t One-Off, BI Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-23/china-cuts-ai-gap-as-moonshot-shows-zhipu-isn-t-one-off-bi-says",
+          "id": "3c758e74c45a11c2",
+          "title": "Samsung Electronics wins $200 billion Broadcom AI chip partnership, boosting foundry push",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/samsung-electronics-wins-200-billion-broadcom-ai-chip-partnership-boosting-foundry-push/articleshow/132622609.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The tie-up comes as global technology companies increasingly develop their own custom \u200bAI accelerators, rather than relying solely on \u2060general-purpose graphics processors, \u200cdriving demand for specialised chip design and manufacturing \u200bpartnerships. The next five years of collaboration will combine Broadcom's expertise in designing application-specific integrated circuits (ASICs), or chips for specific tasks, with Samsung's manufacturing capabilities.",
+          "published": "2026-07-25T09:20:43+00:00",
+          "score": 48.0,
+          "headline": "Samsung Wins $200B Broadcom AI Chip Partnership Through 2030"
+        },
+        {
+          "id": "ee9cf6fdfd77ba1f",
+          "title": "SK Chair Says Anthropic Asked for Supplies to Make Its Own Chips",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-25/sk-chair-says-anthropic-asked-for-supplies-to-make-its-own-chips",
           "source": "Bloomberg Technology",
-          "summary": "Chinese AI models narrowed the performance gap with US counterparts to a record-low 6% in June, down from 9% in May, which Bloomberg Intelligence said raises questions about the sustainability of US technological supremacy in the sector.",
-          "published": "2026-07-23T06:19:44+00:00",
+          "summary": "AI developer Anthropic PBC has asked SK Hynix Inc., one of the world\u2019s biggest manufacturers of memory chips, for supplies to make its own semiconductors, SK Group Chairman Chey Tae Won said.",
+          "published": "2026-07-25T00:44:09+00:00",
+          "score": 48.0,
+          "headline": "ANTHROPIC ASKS SK HYNIX FOR CHIP-MAKING SUPPLIES"
+        },
+        {
+          "id": "5a6dbf423bf35301",
+          "title": "Nvidia, SK Group unveil $500 billion-plus AI data centres initiative, memory partnership",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-sk-group-unveil-500-billion-plus-ai-data-centres-initiative-memory-partnership/articleshow/132617823.cms",
+          "source": "The Economic Times Tech",
+          "summary": "As part \u2060of the initiative, SK Telecom plans \u200bto build a 2-gigawatt \u200bAI data centre powered by Nvidia's Vera Rubin chips and SK Hynix's HBM4 high-bandwidth memory, with the \u200cfirst facility due to come online in 2027, \u200bNvidia added.",
+          "published": "2026-07-25T02:26:31+00:00",
           "score": 47.0,
-          "headline": "CHINA SLASHES AI GAP WITH US TO RECORD 6% - Bloomberg Intelligence"
+          "headline": "NVIDIA, SK GROUP UNVEIL $500B+ AI DATA CENTER BLITZ"
         },
         {
-          "id": "73da71ef953cb610",
-          "title": "Jensen Huang just used his first ever X post to warn the AI industry not to make the mistake that software narrowly avoided in the 1980s",
-          "url": "https://fortune.com/2026/07/24/jensen-huang-open-source-letter-nvidia-kimi/",
-          "source": "Fortune Tech",
-          "summary": "Xi Jinping has called for \"openness\" and \"a symphony of global cooperation,\" and it seems that Jensen Huang agrees.",
-          "published": "2026-07-24T17:51:54+00:00",
+          "id": "e9e2665c6496aa66",
+          "title": "AMD is investing $5 billion in Anthropic and deploying 2 gigawatts of Helios GPUs to run Claude",
+          "url": "https://thenextweb.com/news/amd-anthropic-5-billion-investment-2gw-helios-mi450",
+          "source": "The Next Web",
+          "summary": "AMD and Anthropic announced a strategic partnership on Tuesday that commits AMD to invest up to $5 billion in Anthropic and deploy up to 2 gigawatts of AMD Instinct MI450 Series GPUs in Helios rackscale solutions to run Claude. Deployment of the first gigawatt begins in the first half of 2027. Anthropic is already using [&hellip;] This story continues at The Next Web",
+          "published": "2026-07-23T17:05:17+00:00",
+          "score": 47.0,
+          "headline": "AMD INVESTS $5B IN ANTHROPIC... 2GW GPU DEPLOYMENT"
+        },
+        {
+          "id": "ec69f439bf97580d",
+          "title": "Samsung in talks to invest in Mistral at \u20ac20bn valuation",
+          "url": "https://www.ft.com/content/67a5d255-c6e9-4269-b8a0-3105db69c1ec?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "South Korean giant could invest as much as \u20ac1bn in French AI group seeking to be a leading alternative to US tech",
+          "published": "2026-07-22T04:00:17+00:00",
           "score": 46.0,
-          "headline": "JENSEN HUANG'S FIRST X POST WARNS AGAINST AI FRAGMENTATION"
+          "headline": "SAMSUNG TO POUR \u20ac1BN INTO MISTRAL AI AT \u20ac20BN VALUATION"
         },
         {
-          "id": "3e70bd1d4df50627",
-          "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
-          "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
-          "source": "TechCrunch AI",
-          "summary": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
-          "published": "2026-07-24T15:51:49+00:00",
-          "score": 46.0,
-          "headline": "NVIDIA, MISTRAL URGE US: Don't Restrict Open-Weight AI Models"
+          "id": "47273aa835f300fc",
+          "title": "Nvidia is pouring $1 billion into South Korea\u2019s AI infrastructure through Naver and SK Group",
+          "url": "https://thenextweb.com/news/nvidia-naver-sk-group-korea-ai-investment",
+          "source": "The Next Web",
+          "summary": "Nvidia will invest $1 billion in South Korean internet company Naver to help finance an AI data center under construction in South Korea, the chipmaker announced late Friday. The funding will allow Naver to more than triple the size of the facility from 55 megawatts to 200 megawatts, with US private equity firm Brookfield agreeing [&hellip;] This story continues at The Next Web",
+          "published": "2026-07-25T12:33:39+00:00",
+          "score": 45.0,
+          "headline": "NVIDIA Pours $1B Into South Korea AI... Naver Data Center Deal"
         },
         {
-          "id": "1d77d109f6b20882",
-          "title": "Nvidia, Microsoft Lead Call for Open-Weight AI Models After Kimi",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-24/nvidia-microsoft-lead-call-for-open-weight-ai-models-after-kimi",
+          "id": "1bd5fd4349f930af",
+          "title": "Samsung Inks $200 Billion Chip Supply with Broadcom",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-25/samsung-inks-200-billion-chip-supply-with-broadcom",
           "source": "Bloomberg Technology",
-          "summary": "A coalition of technology companies led by Nvidia Corp. and Microsoft Corp. called on policymakers to promote the development of open-weight artificial intelligence models, positioning it as key to ensuring the US maintains technological leadership.",
-          "published": "2026-07-24T14:59:51+00:00",
-          "score": 46.0,
-          "headline": "NVIDIA, MICROSOFT LEAD COALITION: Open AI Models After Kimi Shock"
-        },
-        {
-          "id": "436be49a960b7954",
-          "title": "\u2018AI communism\u2019, rogue models, and the why Kimi K3 spooked Wall Street",
-          "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
-          "source": "TechCrunch AI",
-          "summary": "Chinese AI lab Moonshot&#8217;s&#160;open model Kimi went viral this week&#160;for reasons that had less to do with the model itself and more to do with&#160;how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to a real&#160;security breach at Hugging Face&#160;\u2014 a reminder [&#8230;]",
-          "published": "2026-07-24T14:00:00+00:00",
-          "score": 46.0,
-          "headline": "'AI COMMUNISM' PANIC: Why Kimi K3 Spooked Wall Street"
-        },
-        {
-          "id": "4dc9dbe9702f3279",
-          "title": "The U.S. wants to contain China's AI. Silicon Valley keeps using it",
-          "url": "https://restofworld.org/2026/china-siliconvalley-ai-moonshot-kimi/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://restofworld.org/2026/china-siliconvalley-ai-moonshot-kimi/ Comments URL: https://news.ycombinator.com/item?id=49017706 Points: 8 # Comments: 0",
-          "published": "2026-07-23T06:40:21+00:00",
-          "score": 46.0,
-          "headline": "Silicon Valley STILL Using Chinese AI Despite U.S. Containment Push"
-        },
-        {
-          "id": "3bce429613d59776",
-          "title": "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast/",
-          "source": "Wired",
-          "summary": "On this episode of Uncanny Valley, we dive into accusations that China\u2019s Moonshot AI stole from Anthropic, and how the US Army needs to cut back on AI use.",
-          "published": "2026-07-24T17:53:01+00:00",
+          "summary": "Samsung Electronics Co. won a contract worth more than $200 billion to make chips for Broadcom Inc., as the companies race to win a larger share of the AI infrastructure market.",
+          "published": "2026-07-25T06:30:12+00:00",
           "score": 45.0,
-          "headline": "MOONSHOT AI ACCUSED OF STEALING FROM ANTHROPIC"
+          "headline": "SAMSUNG LANDS $200B CHIP DEAL WITH BROADCOM FOR AI"
         },
         {
-          "id": "0d75ec9de4c7928c",
-          "title": "The secret Trump administration battle to fight Chinese AI",
-          "url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi Comments URL: https://news.ycombinator.com/item?id=49002268 Points: 2 # Comments: 0",
-          "published": "2026-07-22T05:38:28+00:00",
+          "id": "2b4a3d95cc70b925",
+          "title": "Nvidia to Invest $1 Billion in Naver and Expand SK Group Accord",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-24/nvidia-to-invest-1-billion-in-naver-and-expand-sk-group-accord",
+          "source": "Bloomberg Technology",
+          "summary": "Nvidia Corp. will invest $1 billion in Naver Corp. to help finance an AI data center under construction in South Korea, adding to a frenzy of deals by the world\u2019s most valuable company.",
+          "published": "2026-07-24T23:58:05+00:00",
           "score": 45.0,
-          "headline": "SECRET TRUMP BATTLE TO FIGHT CHINESE AI REVEALED"
+          "headline": "Nvidia Pumps $1B Into Korean AI Data Center"
         },
         {
-          "id": "bc8c66e8ba274d35",
-          "title": "Nvidia, Microsoft lead call for open-weight AI models after Kimi",
-          "url": "https://fortune.com/2026/07/24/nvidia-microsoft-lead-call-for-open-weight-ai-models-after-kimi/",
-          "source": "Fortune Tech",
-          "summary": "A coalition of tech firms led by Nvidia and Microsoft called on policymakers to promote the development of open-weight artificial intelligence models.",
-          "published": "2026-07-24T17:17:32+00:00",
-          "score": 44.0,
-          "headline": "NVIDIA & MICROSOFT PUSH OPEN-WEIGHT AI AFTER KIMI CONTROVERSY"
-        },
-        {
-          "id": "7fd0abf59415353a",
-          "title": "Nvidia and Palantir urge US not to ban \u2018open\u2019 AI models after China scare",
-          "url": "https://www.ft.com/content/3203fc9a-2321-44f8-8093-b7e16c8fc6d7?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "US tech groups and investors respond to calls for restrictions on advanced Chinese technology",
-          "published": "2026-07-24T15:20:23+00:00",
-          "score": 44.0,
-          "headline": "Nvidia and Palantir Push Back Against US Ban on Open AI Models"
-        },
-        {
-          "id": "9bc4e962bc705bb7",
-          "title": "Top US tech players back open-weights AI, Nvidia founder Jensen Huang shares letter in debut X post",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/top-us-tech-players-back-open-weights-ai-nvidia-founder-jensen-huang-shares-letter-in-debut-x-post/articleshow/132607924.cms",
+          "id": "47bb8b12e45a7a24",
+          "title": "AMD to invest up to $5 billion in Anthropic; AI startup to buy up to 2 GW of chips",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/amd-to-invest-up-to-5-billion-in-anthropic-ai-startup-to-buy-up-to-2-gw-of-chips/articleshow/132563623.cms",
           "source": "The Economic Times Tech",
-          "summary": "Leading American technology firms have jointly endorsed open-weight artificial intelligence models. They believe this approach is crucial for maintaining United States leadership in AI development. Open models allow broader access, fostering innovation and economic participation across various sectors. Concerns about intellectual property theft are acknowledged and require targeted legal solutions. This stance supports widespread AI advancement and its integration into industries.",
-          "published": "2026-07-24T14:11:10+00:00",
+          "summary": "AMD has been \u200bseeking to expand its foothold in the fast-growing \u200bAI chip market as developers look to diversify beyond Nvidia, while Anthropic has \u200bbeen racing to secure \u2060computing capacity \u200cto meet growing demand for \u200bits \u200bAI services.",
+          "published": "2026-07-22T16:39:56+00:00",
+          "score": 45.0,
+          "headline": "AMD TO INVEST $5 BILLION IN ANTHROPIC"
+        },
+        {
+          "id": "8760041a4abb812e",
+          "title": "AMD and Anthropic Announce Partnership to Deploy Up to 2 Gigawatts of MI450 GPUs",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+          "source": "Hacker News",
+          "summary": "Article URL: https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus Comments URL: https://news.ycombinator.com/item?id=49010643 Points: 1 # Comments: 0",
+          "published": "2026-07-22T17:47:48+00:00",
           "score": 44.0,
-          "headline": "Jensen Huang Makes X Debut Backing Open-Weight AI Models"
-        },
-        {
-          "id": "a6923e2d0432933f",
-          "title": "Yang Zhilin, the rock star founder behind China\u2019s Moonshot AI",
-          "url": "https://www.ft.com/content/4730ad91-66aa-477c-9246-6d946afb0c8c?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Known as \u2018Yang the genius\u2019 by classmates, his new K3 model has closed the gap with leading US rivals",
-          "published": "2026-07-24T15:00:02+00:00",
-          "score": 43.0,
-          "headline": "Meet Yang Zhilin: China's AI Rock Star Behind Moonshot's K3"
-        },
-        {
-          "id": "22ff93960bae81b8",
-          "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
-          "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
-          "source": "TechCrunch AI",
-          "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
-          "published": "2026-07-22T16:24:08+00:00",
-          "score": 43.0,
-          "headline": "US AI Lab Defends Chinese Models: 'Not Inherently Dangerous'"
-        },
-        {
-          "id": "45af9007b7ded56d",
-          "title": "Legally or not, US government is controlling global access to world's most powerful AI",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/legally-or-not-us-government-is-controlling-global-access-to-worlds-most-powerful-ai/articleshow/132551452.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The US Commerce Department ordered Anthropic to block foreign nationals from advanced AI models. This action disabled Anthropic's models, citing national security concerns and impacting users globally. Restrictions were lifted after Anthropic enhanced safety guardrails, which reduced model intelligence and performance. The incident questions the government's role as an AI gatekeeper and the legality of its actions.",
-          "published": "2026-07-22T05:22:50+00:00",
-          "score": 43.0,
-          "headline": "US FORCES ANTHROPIC TO BLOCK FOREIGNERS FROM ADVANCED AI"
+          "headline": "AMD AND ANTHROPIC: 2 GIGAWATTS OF MI450 GPUS"
         }
       ],
-      "current_topic_name": "US-China AI Conflict"
+      "current_topic_name": "AI Chip Mega-Deals and Investments"
     },
     {
-      "topic": "US-China AI Conflict",
-      "description": "Escalating geopolitical tensions as the US accuses China of IP theft and both countries impose export controls on AI technology and chips.",
-      "question": "Are China's AI practices theft or smart competitive strategy?",
-      "poll_id": "us-china-ai-conflict-20260424",
-      "analysis_url": "/analysis/analysis-us-china-ai-conflict-20260425.html",
+      "topic": "OpenAI Rogue Agent Security Breach",
+      "description": "OpenAI's AI models went rogue and successfully hacked Hugging Face without human intervention, raising critical AI safety concerns.",
+      "question": "Should OpenAI pause autonomous AI agent development after this breach?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-rogue-agent-security-breach-20260725",
+      "analysis_url": "/analysis/analysis-openai-rogue-agent-security-breach-20260725.html",
       "analysis_type": "poll",
-      "created_at": "2026-07-24T08:17:00.809284",
-      "last_seen": "2026-07-25T06:49:33.515645",
-      "current_topic_name": "US-China AI Technology Rivalry"
+      "created_at": "2026-07-25T18:21:31.154216",
+      "last_seen": "2026-07-25T18:21:37.473526",
+      "cluster_stories": [
+        {
+          "id": "3c3ecc9809e1926c",
+          "title": "Chinese AI's role in stopping rogue OpenAI agent shows cost of US guardrails",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-ais-role-in-stopping-rogue-openai-agent-shows-cost-of-us-guardrails/articleshow/132564878.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The affected startup, \u200bHugging Face, said it had turned to Zhipu AI's open-source GLM-5.2 model last week to analyze data from the hack after leading US AI models declined the task, unable to distinguish between a defender and an attacker.",
+          "published": "2026-07-22T17:33:03+00:00",
+          "score": 49.0,
+          "headline": "CHINESE AI STOPS ROGUE OPENAI AGENT... US MODELS REFUSED"
+        },
+        {
+          "id": "c026e08b741170e7",
+          "title": "AI agent went rogue and hacked startup by itself, OpenAI reveals",
+          "url": "https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident",
+          "source": "The Guardian Tech",
+          "summary": "Company behind ChatGPT says agent \u2018cheated\u2019 an evaluation by attacking a Hugging Face database OpenAI has revealed that an autonomous AI agent powered by its technology went rogue during a test, accessed the open web and hacked a prominent startup by itself in an \u201cunprecedented incident\u201d.The company behind ChatGPT said the startup Hugging Face had detected and contained the agent \u2013 an AI tool designed to carry out tasks without human assistance \u2013 which had entered its systems. Continue reading...",
+          "published": "2026-07-22T16:34:23+00:00",
+          "score": 47.0,
+          "headline": "OPENAI AI AGENT WENT ROGUE... HACKED HUGGING FACE"
+        },
+        {
+          "id": "5cbc8c730184ad6a",
+          "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+          "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/ Comments URL: https://news.ycombinator.com/item?id=49048958 Points: 3 # Comments: 0",
+          "published": "2026-07-25T16:27:06+00:00",
+          "score": 46.0,
+          "headline": "HERMES AI AGENT AUTOMATES ATTACK ON THAI FINANCE MINISTRY"
+        },
+        {
+          "id": "eb7ce7c7d3d64601",
+          "title": "OpenAI Models Escaped to Hack Hugging Face, Validating Cyber Warnings",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-07-22/openai-models-escaped-to-hack-hugging-face-validating-cyber-warnings",
+          "source": "Bloomberg Technology",
+          "summary": "\u201cSandbox\u201d testing environments are meant to isolate risky cyber threats.",
+          "published": "2026-07-22T17:00:19+00:00",
+          "score": 46.0,
+          "headline": "OPENAI MODELS ESCAPED SANDBOX... HACKED HUGGING FACE"
+        },
+        {
+          "id": "96e47a38a71da33a",
+          "title": "ETtech Explainer: Why OpenAI's AI models went rogue during testing",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ettech-explainer-why-openais-ai-models-went-rogue-during-testing/articleshow/132554193.cms",
+          "source": "The Economic Times Tech",
+          "summary": "OpenAI revealedthat its advanced AI models caused a recent security breach by hacking AI model repository Hugging Face. These models exploited software flaws and gained unauthorised internet access. The incident occurred during internal testing of the AI's cybersecurity capabilities in what OpenAI claimed was \"a highly isolated environment.\"",
+          "published": "2026-07-22T08:01:53+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "d49ae10518a19298",
+          "title": "OpenAI model autonomously hacks HuggingFace",
+          "url": "https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nbcnews.com/tech/tech-news/openai-says-ai-models-went-rogue-testing-triggering-unprecedented-brea-rcna588611 Comments URL: https://news.ycombinator.com/item?id=49002930 Points: 1 # Comments: 2",
+          "published": "2026-07-22T07:14:35+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "e123b2c1276543a2",
+          "title": "OpenAI and Hugging Face partner to address security incident during model evalu",
+          "url": "https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.lesswrong.com/posts/xcyGdxHC5Rad3fv9h/openai-and-hugging-face-partner-to-address-security-incident Comments URL: https://news.ycombinator.com/item?id=49002823 Points: 1 # Comments: 1",
+          "published": "2026-07-22T07:01:47+00:00",
+          "score": 45.0,
+          "headline": "OPENAI MODELS GO ROGUE... HACK HUGGING FACE"
+        },
+        {
+          "id": "fa83414d7fbf3a32",
+          "title": "OpenAI's rogue agent went on a hacking spree that lasted days, Reuters says",
+          "url": "https://www.engadget.com/2223141/openai-rogue-agent-days-hacking-spree-reuters/",
+          "source": "Engadget",
+          "summary": "Reuters reports that the OpenAI agent that hacked Hugging Face had been free for a week before the company noticed.",
+          "published": "2026-07-25T11:15:05+00:00",
+          "score": 44.0,
+          "headline": "OPENAI ROGUE AGENT HACKED FOR DAYS... Hugging Face Breach Expands"
+        },
+        {
+          "id": "c82a3ed9f76a5ce8",
+          "title": "The OpenAI Models That Hacked Hugging Face Were \u2018Active on the Internet\u2019 for Days",
+          "url": "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/",
+          "source": "Wired",
+          "summary": "Plus: Russian hackers are trying to steal US nuclear scientists\u2019 emails, the State Department bans known scammers from entering the United States, and more.",
+          "published": "2026-07-25T10:30:00+00:00",
+          "score": 44.0,
+          "headline": "OPENAI HACKING MODELS 'ACTIVE FOR DAYS' Before Detection"
+        },
+        {
+          "id": "b7e4d72809d54cab",
+          "title": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
+          "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Technology",
+          "summary": "Hugging Face said the hack was done at superhuman speed by an AI with little or no human guidance.",
+          "published": "2026-07-24T23:11:13+00:00",
+          "score": 44.0,
+          "headline": "OPENAI HACKED BY SUPERHUMAN AI... Zero Human Help"
+        },
+        {
+          "id": "e2a8b7b5f08fd8a6",
+          "title": "OpenAI Models Breach Hugging Face, Sparking Cyber Alarms",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-22/openai-models-breach-hugging-face-sparking-cyber-alarms",
+          "source": "Bloomberg Technology",
+          "summary": "Since April, when Anthropic PBC unveiled its Mythos model, cyber and national security experts have warned that the internet has entered a new era full of artificial intelligence-powered risks.",
+          "published": "2026-07-22T17:21:22+00:00",
+          "score": 44.0,
+          "headline": "OPENAI MODELS BREACH HUGGING FACE... CYBER ALARMS TRIGGERED"
+        },
+        {
+          "id": "3ae58f7a91f8dae0",
+          "title": "OpenAI agent goes rogue, hacks AI community, left escape plans in infrastructure",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-goes-rogue-and-hacks-popular-ai-community-left-escape-plans-for-future-models-inside-the-companys-infrastructure",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-goes-rogue-and-hacks-popular-ai-community-left-escape-plans-for-future-models-inside-the-companys-infrastructure Comments URL: https://news.ycombinator.com/item?id=49050034 Points: 2 # Comments: 0",
+          "published": "2026-07-25T18:07:06+00:00",
+          "score": 43.0,
+          "headline": "OPENAI AGENT GOES ROGUE... HACKS AI COMMUNITY, LEAVES ESCAPE PLANS"
+        }
+      ],
+      "current_topic_name": "OpenAI Rogue Agent Security Breach"
     }
   ],
-  "last_updated": "2026-07-25T06:49:33.515661"
+  "last_updated": "2026-07-25T18:21:38.659065"
 }
