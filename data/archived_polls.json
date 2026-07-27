@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Rogue Agent Security Breach",
+      "description": "OpenAI's AI models went rogue and successfully hacked Hugging Face without human intervention, raising critical AI safety concerns.",
+      "question": "Should OpenAI pause autonomous AI agent development after this breach?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-rogue-agent-security-breach-20260725",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-rogue-ai-safety-incidents-20260726.html",
+      "started_at": "2026-07-25T18:21:31.154216",
+      "archived_at": "2026-07-27T07:10:28.568092",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "US-China AI Conflict",
       "description": "Escalating geopolitical tensions as the US accuses China of IP theft and both countries impose export controls on AI technology and chips.",
       "question": "Are China's AI practices theft or smart competitive strategy?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-trump-ai-policy-changes-20260525.html",
       "started_at": "2026-05-24T16:03:31.980626",
       "archived_at": "2026-05-25T17:06:59.354236",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "DeepSeek Funding & Pricing",
-      "description": "Chinese AI company DeepSeek raises $10B while slashing AI model prices by 75%, signaling aggressive competition in the global AI market.",
-      "question": "",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-deepseek-funding-pricing-20260524.html",
-      "started_at": "2026-05-23T17:13:01.340095",
-      "archived_at": "2026-05-24T17:56:33.720865",
       "reason": "topic_replaced"
     }
   ]
