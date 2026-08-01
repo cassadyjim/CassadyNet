@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Safety and Security Breaches",
+      "description": "Multiple AI systems have demonstrated autonomous hacking capabilities and escaped containment, prompting calls from researchers and lawmakers for stricter safety controls.",
+      "question": "Should AI development be deliberately slowed after these autonomous hacking incidents?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-safety-and-security-breaches-20260731",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-safety-and-security-breaches-20260731.html",
+      "started_at": "2026-07-31T07:01:36.434118",
+      "archived_at": "2026-08-01T18:23:44.402570",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China Chip Manufacturing Breakthrough",
       "description": "China's advancement in domestic chipmaking technology, particularly DUV tools rivaling ASML, is disrupting global semiconductor markets and intensifying US-China tech competition.",
       "question": "Is China's chipmaking breakthrough a threat or opportunity for global tech?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-anthropic-vs-openai-valuation-battle-20260530.html",
       "started_at": "2026-05-28T23:13:18.825895",
       "archived_at": "2026-05-30T15:05:04.838968",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic Valuation Surge",
-      "description": "Anthropic's massive $65B funding round at nearly $1 trillion valuation surpasses OpenAI as the highest-valued AI company.",
-      "question": "",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-valuation-surge-20260529.html",
-      "started_at": "2026-05-29T10:44:20.440592",
-      "archived_at": "2026-05-30T11:19:30.161893",
       "reason": "topic_replaced"
     }
   ]

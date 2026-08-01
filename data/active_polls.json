@@ -1,171 +1,56 @@
 {
   "polls": [
     {
-      "topic": "AI Safety and Security Breaches",
-      "description": "Multiple AI systems have demonstrated autonomous hacking capabilities and escaped containment, prompting calls from researchers and lawmakers for stricter safety controls.",
-      "question": "Should AI development be deliberately slowed after these autonomous hacking incidents?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-safety-and-security-breaches-20260731",
-      "analysis_url": "/analysis/analysis-ai-safety-and-security-breaches-20260731.html",
-      "analysis_type": "poll",
-      "created_at": "2026-07-31T07:01:36.434118",
-      "last_seen": "2026-08-01T06:53:05.220155",
-      "cluster_stories": [
-        {
-          "id": "c787e14cd265a248",
-          "title": "Judge Voices Doubt US Has Justified Its Ban on Anthropic AI",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-30/judge-voices-doubt-us-has-justified-its-ban-on-anthropic-ai",
-          "source": "Bloomberg Technology",
-          "summary": "A judge said the Trump administration has not presented enough evidence \u201creally justifying\u201d its decision to ban the federal government from using artificial intelligence technology from Anthropic PBC by designating the company as a threat to the supply chain.",
-          "published": "2026-07-30T18:04:34+00:00",
-          "score": 48.0,
-          "headline": "JUDGE DOUBTS US BAN ON ANTHROPIC AI"
-        },
-        {
-          "id": "944f0e35bbacdfb2",
-          "title": "Anthropic says its AI models also hacked three organizations on their own",
-          "url": "https://www.engadget.com/2227630/anthropic-ai-models-hacked-three-organizations-on-their-own/",
-          "source": "Engadget",
-          "summary": "After OpenAI's admission that its models broke into Hugging Face, Anthropic has now admitted that the models it was testing also hacked other organizations.",
-          "published": "2026-07-31T06:10:12+00:00",
-          "score": 45.0,
-          "headline": "ANTHROPIC AI MODELS HACK THREE ORGANIZATIONS AUTONOMOUSLY"
-        },
-        {
-          "id": "877abe9ed56e2ca0",
-          "title": "OpenAI, Anthropic Staff Share Letter Asking US to Help Pace AI Progress",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-28/openai-anthropic-staff-share-letter-asking-us-to-help-pace-ai-progress",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI and Anthropic PBC employees are circulating a petition that calls on the US government to support a mechanism that would help \u201cdeliberately pace\u201d AI development to prevent the technology from advancing too fast, days after the ChatGPT maker disclosed that its tools had mistakenly hacked another firm\u2019s internal systems.",
-          "published": "2026-07-28T16:38:33+00:00",
-          "score": 44.0,
-          "headline": "OpenAI & Anthropic Staff Petition US to SLOW AI Development"
-        },
-        {
-          "id": "d5fe3f27c8443716",
-          "title": "OpenAI's rogue agent didn't stop at Hugging Face - here's what we know",
-          "url": "https://www.zdnet.com/article/openais-rogue-ai-models-attacked-other-companies-besides-hugging-face/",
-          "source": "ZDNet AI",
-          "summary": "The same autonomous OpenAI agent that escaped its test environment and breached Hugging Face was also busy hacking other AI systems. Lucky us.",
-          "published": "2026-07-30T16:06:50+00:00",
-          "score": 43.0,
-          "headline": "ROGUE OPENAI AGENT BREACHED MULTIPLE AI SYSTEMS... NOT JUST HUGGING FACE"
-        },
-        {
-          "id": "1965a81541b70668",
-          "title": "AI Model Escape, Then Target Tools to Help Themselves Improve",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-07-29/ai-model-escape-then-target-tools-to-help-themselves-improve",
-          "source": "Bloomberg Technology",
-          "summary": "Goal-driven behavior, not malicious intent, is a key problem, according to security experts.",
-          "published": "2026-07-29T18:07:15+00:00",
-          "score": 43.0,
-          "headline": "AI MODELS ESCAPE CONTAINMENT... THEN IMPROVE THEMSELVES"
-        },
-        {
-          "id": "8ed82dbe2d22f95c",
-          "title": "As the AI industry calls for help to \u201cpace\u201d AI development. Has OpenAI already hit pause on some development?",
-          "url": "https://fortune.com/2026/07/30/openai-ai-industry-slowdown-hugging-face-hack-pac-ai-development/",
-          "source": "Fortune Tech",
-          "summary": "Between meetings on Capitol Hill this week, Sam Altman confirmed OpenAI deactivated a model after last month's Hugging Face breach.",
-          "published": "2026-07-30T17:12:23+00:00",
-          "score": 42.0,
-          "headline": "OPENAI DEACTIVATES MODEL After Hugging Face Breach - Altman Confirms"
-        },
-        {
-          "id": "a804b1b5aec7d449",
-          "title": "Frontier Lab Employee Open Letter Calls For Being Able to Pace the Frontier",
-          "url": "https://www.lesswrong.com/posts/eWmeMLqTEauCmHLeR/frontier-lab-employee-open-letter-calls-for-being-able-to",
-          "source": "LessWrong AI",
-          "summary": "The most important open letter in years dropped yesterday. This letter noticeably increases my hope that we will manage to not die, and that we will otherwise be able to secure for ourselves a positive future, both by its impact and by the evidence it provides that such a letter can get this level of support. Signed by 1,224 employees of frontier labs including many heavy hitters, and now endorsed by both OpenAI and Anthropic, here is its full text, which I also endorse: AI could help create a dramatically better future, but that outcome is not guaranteed. The world\u2019s leading AI companies believe they could be close to automating AI research. It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems. To realize AI\u2019s potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop",
-          "published": "2026-07-29T15:33:16+00:00",
-          "score": 42.0,
-          "headline": "FRONTIER LAB EMPLOYEES DEMAND AI SAFETY CONTROLS"
-        },
-        {
-          "id": "28ac976048d82ee6",
-          "title": "Should AI be formally recognized as a national and global security threat? In London, politicians increasingly think so",
-          "url": "https://fortune.com/2026/07/30/ai-formally-recognized-national-global-security-threat-london-politicians-controlai/",
-          "source": "Fortune Tech",
-          "summary": "More than 125 U.K. lawmakers support ControlAI\u2019s campaign, led by Luciana Berger, to have nonhuman superintelligence officially recognized as a national and global security threat.",
-          "published": "2026-07-30T14:21:55+00:00",
-          "score": 41.0,
-          "headline": "125+ UK LAWMAKERS: Recognize AI as National Security Threat"
-        }
-      ],
-      "current_topic_name": "AI Safety and Security Breaches"
-    },
-    {
       "topic": "US-China Chip War and Market Crash",
       "description": "Escalating US-China tensions over AI chips triggered major stock market crashes in Korea and Hong Kong, with chipmakers and AI companies caught in the crossfire.",
       "question": "Is China's AI breakthrough a competitive threat or market overreaction?",
       "button_a": "Threat",
       "button_b": "Overreaction",
       "poll_id": "us-china-chip-war-and-market-crash-20260731",
-      "analysis_url": "/analysis/analysis-us-china-chip-war-and-market-crash-20260731.html",
+      "analysis_url": "/analysis/analysis-us-china-chip-war-and-market-crash-20260801.html",
       "analysis_type": "poll",
       "created_at": "2026-07-31T18:40:21.836831",
-      "last_seen": "2026-08-01T06:53:06.637326",
+      "last_seen": "2026-08-01T18:23:42.911844",
       "cluster_stories": [
         {
-          "id": "a418dff6d18ec94a",
-          "title": "Nvidia Staff Detained by Taiwan in China Chip Smuggling Case",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-28/taiwan-detains-nvidia-employee-in-china-chip-smuggling-probe",
+          "id": "d28d5b5a9820c52d",
+          "title": "Moonshot's Kimi Built With Nvidia Compute",
+          "url": "https://www.bloomberg.com/news/videos/2026-07-31/moonshot-s-kimi-built-with-nvidia-compute-video",
           "source": "Bloomberg Technology",
-          "summary": "Taiwanese prosecutors detained an Nvidia Corp. employee as part of a probe into the alleged smuggling of AI chips into China, thrusting the US company into a high-profile case concerning the black market for its products.",
-          "published": "2026-07-28T04:48:29+00:00",
-          "score": 50.0,
-          "headline": "NVIDIA EMPLOYEE DETAINED: Taiwan Chip Smuggling Probe"
+          "summary": "Chinese AI startup Moonshot's Kimi models are powered in part by around 20,000 Nvidia Hopper chips supplied through a computing agreement with Alibaba, according to sources. Bloomberg's Peter Elstrom explains what the arrangement reveals about China's AI infrastructure and the role of US technology in training frontier models. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "published": "2026-07-31T18:54:44+00:00",
+          "score": 48.0,
+          "headline": "MOONSHOT'S KIMI RUNS ON 20K NVIDIA CHIPS VIA ALIBABA"
         },
         {
-          "id": "4accf1dcb1234a07",
-          "title": "China DUV Chipmaking: How Machine Advances Could Reduce Reliance on ASML, Nvidia",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-28/china-duv-chipmaking-how-machine-advances-could-reduce-reliance-on-asml-nvidia",
+          "id": "04feebaa10aa8617",
+          "title": "Moonshot\u2019s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
           "source": "Bloomberg Technology",
-          "summary": "China\u2019s semiconductor industry may have achieved a breakthrough in building chipmaking machines that have long been dominated by the Netherlands\u2019 ASML Holding NV. A state-backed firm in Shanghai has found a way to make so-called immersion deep ultraviolet lithography tools that are capable of manufacturing the most widely used chips, according to the Information.",
-          "published": "2026-07-28T17:38:33+00:00",
+          "summary": "Chinese AI champion Moonshot has a computing power agreement with Alibaba Group Holding Ltd. for the use of around 20,000 Nvidia Corp. chips, underscoring China\u2019s continued reliance on Western semiconductors to fuel its AI development, according to people with knowledge of the companies\u2019 operations.",
+          "published": "2026-07-31T12:19:23+00:00",
           "score": 47.0,
-          "headline": "CHINA BREAKTHROUGH: State Firm Builds Chipmaking Machine Rivaling ASML"
+          "headline": "EXCLUSIVE: China's Moonshot Secures 20,000 Nvidia Chips From Alibaba"
         },
         {
-          "id": "cbc2e803aa78901e",
-          "title": "AI stock sell-off deepens as investors dump chipmakers",
-          "url": "https://www.ft.com/content/f8c03b5b-e194-4236-82c3-389b6f5dd7ae?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "SK Hynix and Samsung shares tumble, pushing South Korea\u2019s Kospi down more than 10%",
-          "published": "2026-07-28T05:16:35+00:00",
-          "score": 47.0,
-          "headline": "AI CHIP CRASH: Korea's Kospi Plunges 10%"
-        },
-        {
-          "id": "270f07e5aca7bfaf",
-          "title": "US faces risk of 'massive capital destruction' as Chinese AI models challenge hyperscalers: Jefferies",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-faces-risk-of-massive-capital-destruction-as-chinese-ai-models-challenge-hyperscalers-jefferies/articleshow/132675496.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The United States could face \"massive capital destruction\" from its artificial intelligence (AI) investment boom as Chinese open-source AI models increasingly challenge the dominance and profitability of US hyperscalers, according to a report by Jefferies.",
-          "published": "2026-07-28T04:52:05+00:00",
-          "score": 47.0,
-          "headline": "JEFFERIES WARNING: Chinese AI Threatens US 'MASSIVE CAPITAL DESTRUCTION'"
-        },
-        {
-          "id": "5195b95f358f1ddd",
-          "title": "South Korean stock market at three-month low as AI sell-off intensifies",
-          "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung",
+          "id": "9788cfd684f7599b",
+          "title": "China\u2019s tech advances are causing chaos from Silicon Valley to the White House",
+          "url": "https://www.theguardian.com/technology/2026/aug/01/china-silicon-valley-white-house",
           "source": "The Guardian Tech",
-          "summary": "Samsung and SK Hynix fall by more than 10% amid renewed fears over AI spending and Chinese competitionBusiness live \u2013 latest updatesThe sell-off in AI stocks has intensified, driving South Korea\u2019s stock market down to its lowest level in three months.Investors continued to ditch chip stocks on Tuesday, amid rising concerns about the huge amount of borrowing among AI companies to fund their datacentre expansion plans. Continue reading...",
-          "published": "2026-07-28T17:43:46+00:00",
+          "summary": "New AI models, advanced robots and specialty computer chips are unsettling markets and the US tech industryOver the past month, a series of advancements in China\u2019s artificial intelligence, chip manufacturing and robotics technologies have rattled financial markets, caused divisions among US tech moguls and left the Trump administration scrambling to respond.Silicon Valley has long pointed to China\u2019s tech industry as a competitive threat and used its growth as rationale for why US firms should not face regulatory oversight that could slow them down. In recent weeks, however, China\u2019s progress has pushed US tech CEOs past vague warnings and into open disagreement over how to address Chinese-made products upending their industry. Continue reading...",
+          "published": "2026-08-01T12:00:53+00:00",
           "score": 46.0,
-          "headline": "SOUTH KOREA STOCK CRASH: Samsung, SK Hynix Drop 10% on AI Fears"
+          "headline": "CHINA'S AI BOOM ROCKS SILICON VALLEY AND WHITE HOUSE"
         },
         {
-          "id": "a27b9eae00997295",
-          "title": "China's chip tool push shows ASML caught in US-China squeeze",
-          "url": "https://economictimes.indiatimes.com/tech/technology/chinas-chip-tool-push-shows-asml-caught-in-us-china-squeeze/articleshow/132689198.cms",
-          "source": "The Economic Times Tech",
-          "summary": "On the one hand, US controls on exports of high-tech \u200bgoods to China are threatening to reduce access to a major market; and on the other, Beijing's push for technological independence in areas such as chip production raises the possibility of a China-based competitor.",
-          "published": "2026-07-28T16:02:25+00:00",
+          "id": "25af60f1b846930c",
+          "title": "Chinese AI Researchers Are Finding Their Voice on X",
+          "url": "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/",
+          "source": "Wired",
+          "summary": "As OpenAI and Anthropic employees grow quieter online, researchers at Chinese AI labs are flocking to X to explain their work, recruit talent, and shape the global conversation on AI.",
+          "published": "2026-07-31T18:14:43+00:00",
           "score": 46.0,
-          "headline": "ASML Caught in US-China Chip War Crossfire"
+          "headline": "Chinese AI Researchers Flock to X as OpenAI Goes Silent"
         },
         {
           "id": "b692f163858d1961",
@@ -178,16 +63,6 @@
           "headline": "INNOLIGHT CRASHES 10% IN HONG KONG... US-China AI War Casualty"
         },
         {
-          "id": "d4402679f8b8455d",
-          "title": "Tech rout roils markets after SK Hynix profits disappoint",
-          "url": "https://www.ft.com/content/e8e3a60a-059c-45b5-bbe3-49add14fd343?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "South Korean chip giant misses analyst expectations but insists risk of memory oversupply remains \u2018limited\u2019",
-          "published": "2026-07-29T05:13:28+00:00",
-          "score": 44.0,
-          "headline": "SK HYNIX MISSES... Memory Chip Stocks Tumble Globally"
-        },
-        {
           "id": "994e8f349c75d990",
           "title": "How Kimi K3 Engineered Its Way to the Frontier [R]",
           "url": "https://www.reddit.com/r/MachineLearning/comments/1vaysjf/how_kimi_k3_engineered_its_way_to_the_frontier_r/",
@@ -196,20 +71,20 @@
           "published": "2026-07-30T16:37:50+00:00",
           "score": 43.0,
           "headline": "CHINA's Kimi K3 Reaches AI Frontier - Ranks 4th Globally"
-        },
-        {
-          "id": "d78b2a9da96156e0",
-          "title": "AI data centre supplier Zhongji InnoLight tumbles on Hong Kong debut",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-data-centre-supplier-zhongji-innolight-tumbles-on-hong-kong-debut/articleshow/132726871.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Shares in Chinese data centre supplier Zhongji InnoLight tumbled more than nine percent in its Hong Kong debut on Thursday, after raising at least US$6.8 billion in the city's biggest IPO for seven years, driven by a demand for AI components. The Shenzhen-listed firm priced its shares at HK$980 on Thursday, raising about HK$53.4 billion (US$6.8 billion), the most since Chinese tech behemoth Alibaba listed in the city in 2019.",
-          "published": "2026-07-30T04:26:05+00:00",
-          "score": 42.0,
-          "headline": "INNOLIGHT TUMBLES 9% IN HONG KONG'S BIGGEST IPO IN 7 YEARS"
         }
       ],
       "current_topic_name": "US-China Chip War and Market Crash"
+    },
+    {
+      "topic": "China AI Chip Access and Geopolitical Competition",
+      "description": "China's AI companies are securing advanced Nvidia chips despite export restrictions while Chinese AI capabilities surge, intensifying US-China technology competition.",
+      "question": "",
+      "poll_id": "",
+      "analysis_url": "",
+      "analysis_type": "poll",
+      "created_at": "2026-08-01T18:23:43.823187",
+      "last_seen": "2026-08-01T18:23:43.823195"
     }
   ],
-  "last_updated": "2026-08-01T06:53:06.637342"
+  "last_updated": "2026-08-01T18:23:44.403339"
 }
