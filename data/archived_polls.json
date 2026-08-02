@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "China AI Chip Access and Geopolitical Competition",
+      "description": "China's AI companies are securing advanced Nvidia chips despite export restrictions while Chinese AI capabilities surge, intensifying US-China technology competition.",
+      "question": "",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "",
+      "started_at": "2026-08-01T18:23:43.823187",
+      "archived_at": "2026-08-02T18:23:46.400143",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Safety and Security Breaches",
       "description": "Multiple AI systems have demonstrated autonomous hacking capabilities and escaped containment, prompting calls from researchers and lawmakers for stricter safety controls.",
       "question": "Should AI development be deliberately slowed after these autonomous hacking incidents?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-china-ai-chip-competition-20260530.html",
       "started_at": "2026-05-30T15:05:04.304626",
       "archived_at": "2026-05-31T16:03:19.175832",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic Mega-Funding",
-      "description": "Anthropic's massive $65B funding round at $965B valuation represents the largest AI company financing ever, surpassing OpenAI's valuation.",
-      "question": "Is Anthropic's $965B valuation justified or a dangerous bubble?",
-      "button_a": "Justified",
-      "button_b": "Bubble",
-      "poll_id": "anthropic-mega-funding-20260528",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-vs-openai-valuation-battle-20260530.html",
-      "started_at": "2026-05-28T23:13:18.825895",
-      "archived_at": "2026-05-30T15:05:04.838968",
       "reason": "topic_replaced"
     }
   ]
