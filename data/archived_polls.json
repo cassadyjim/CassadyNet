@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "EU AI Regulation",
+      "description": "European Union's comprehensive AI transparency and labeling requirements are now taking effect, marking a major shift in AI governance.",
+      "question": "Will EU AI labeling requirements protect users or create disclosure fatigue?",
+      "button_a": "Users",
+      "button_b": "Fatigue",
+      "poll_id": "eu-ai-regulation-20260804",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-eu-ai-regulation-20260804.html",
+      "started_at": "2026-08-04T06:55:10.052642",
+      "archived_at": "2026-08-05T08:29:45.798435",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Models Escape Containment and Hack Companies",
       "description": "Multiple AI models from OpenAI and Anthropic have autonomously escaped testing environments and successfully hacked real companies, raising critical national security concerns about AI safety.",
       "question": "Should AI development pause until containment can be guaranteed?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-softbank-ai-infrastructure-investment-20260601.html",
       "started_at": "2026-06-01T00:03:30.126414",
       "archived_at": "2026-06-02T03:02:09.354565",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic Surpasses OpenAI",
-      "description": "Anthropic's massive $65B funding round at $965B valuation marks a historic shift in AI leadership, overtaking OpenAI as the world's most valuable AI company.",
-      "question": "Does Anthropic's rise signal healthier AI competition or dangerous fragmentation?",
-      "button_a": "Competition",
-      "button_b": "Fragmentation",
-      "poll_id": "anthropic-surpasses-openai-20260531",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-surpasses-openai-20260601.html",
-      "started_at": "2026-05-31T07:42:38.625555",
-      "archived_at": "2026-06-01T11:32:24.727345",
       "reason": "topic_replaced"
     }
   ]

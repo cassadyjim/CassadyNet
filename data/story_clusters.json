@@ -1,9 +1,19 @@
 {
   "clusters": [
     {
-      "topic": "China AI Dominance",
-      "description": "China's rapid AI advancement with cheaper models and aggressive deployment is disrupting Western tech dominance and triggering geopolitical concerns.",
+      "topic": "China AI Competition & US Restrictions",
+      "description": "China's AI industry is rapidly advancing with cheaper models and aggressive expansion while facing US export bans and chip restrictions that are crashing markets and reshaping global AI competition.",
       "stories": [
+        {
+          "id": "5b82459f288cdd94",
+          "title": "Shares in Chinese AI darlings slide on US ban fears",
+          "url": "https://www.ft.com/content/24bddb7e-9064-4d1b-80b1-d2dc59eed574?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Zhongji Innolight and Eoptolink hit by report that Washington is drafting ban on optical transceivers",
+          "published": "2026-08-05T04:15:39+00:00",
+          "score": 48.0,
+          "headline": "CHINA AI CHIP STOCKS CRASH on US Ban Fears"
+        },
         {
           "id": "1b1157c54a2fc2ad",
           "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
@@ -55,14 +65,24 @@
           "headline": "CHINA AI CHIP SHOCK CRASHES MARKETS: Western Dominance Shaken"
         },
         {
-          "id": "9788cfd684f7599b",
-          "title": "China\u2019s tech advances are causing chaos from Silicon Valley to the White House",
-          "url": "https://www.theguardian.com/technology/2026/aug/01/china-silicon-valley-white-house",
-          "source": "The Guardian Tech",
-          "summary": "New AI models, advanced robots and specialty computer chips are unsettling markets and the US tech industryOver the past month, a series of advancements in China\u2019s artificial intelligence, chip manufacturing and robotics technologies have rattled financial markets, caused divisions among US tech moguls and left the Trump administration scrambling to respond.Silicon Valley has long pointed to China\u2019s tech industry as a competitive threat and used its growth as rationale for why US firms should not face regulatory oversight that could slow them down. In recent weeks, however, China\u2019s progress has pushed US tech CEOs past vague warnings and into open disagreement over how to address Chinese-made products upending their industry. Continue reading...",
-          "published": "2026-08-01T12:00:53+00:00",
-          "score": 46.0,
-          "headline": "CHINA'S AI BOOM ROCKS SILICON VALLEY AND WHITE HOUSE"
+          "id": "5a8b2032c1fb2c4b",
+          "title": "China's tech giants race to put AI on delivery riders' heads",
+          "url": "https://www.scmp.com/tech/big-tech/article/3362761/chinas-tech-giants-race-put-ai-delivery-riders-heads",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.scmp.com/tech/big-tech/article/3362761/chinas-tech-giants-race-put-ai-delivery-riders-heads Comments URL: https://news.ycombinator.com/item?id=49179878 Points: 2 # Comments: 0",
+          "published": "2026-08-05T08:01:24+00:00",
+          "score": 45.0,
+          "headline": "CHINA'S TECH GIANTS Race to Put AI on Delivery Riders' Heads"
+        },
+        {
+          "id": "961b1592efb1d0fa",
+          "title": "Moonshot Backer Monolith Seeks to Raise $500 Million in New Fund",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-05/moonshot-backer-monolith-seeks-to-raise-500-million-in-new-fund",
+          "source": "Bloomberg Technology",
+          "summary": "Monolith Management, which backed artificial intelligence sensation Moonshot, wants to raise $500 million for a new fund focused on Chinese AI, according to people familiar with the matter.",
+          "published": "2026-08-05T06:39:29+00:00",
+          "score": 44.0,
+          "headline": "Moonshot Backer Monolith Seeks $500M for CHINESE AI Fund"
         },
         {
           "id": "1cf39d417492a99e",
@@ -95,62 +115,72 @@
           "headline": "Chinese LLM Attacked Our Lab... So We Made It Work For Us"
         },
         {
-          "id": "23763fd31d8caf16",
-          "title": "The Race to Build an American Alternative to Cheap AI from China",
-          "url": "https://www.wsj.com/tech/ai/the-race-to-build-an-american-alternative-to-cheap-ai-from-china-2e99a28a",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/the-race-to-build-an-american-alternative-to-cheap-ai-from-china-2e99a28a Comments URL: https://news.ycombinator.com/item?id=49158319 Points: 2 # Comments: 1",
-          "published": "2026-08-03T16:53:34+00:00",
-          "score": 40.0,
-          "headline": "US RACES to Build Alternative to Cheap Chinese AI"
+          "id": "ab9f2d28c407e4bb",
+          "title": "Kimi K3 Deep Dive \u2014 Architecture, Training & Benchmarks of the 2.78-Trillion-Parameter Open-Weight Model [D]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vdndys/kimi_k3_deep_dive_architecture_training/",
+          "source": "Reddit r/MachineLearning",
+          "summary": "Hi everyone! \ud83d\udc4b I wrote an extensive technical deep-dive into Moonshot AI's Kimi K3, analyzing its architectural innovations, training stability tricks, and benchmark performance. The blog covers: Kimi Delta Attention (KDA) Attention Residuals Stable LatentMoE Quantile Balancing NoPE 1M-token context RL training pipeline Infrastructure and serving optimizations I\u2019d love to get your feedback and discuss any specific parts of the architecture! Blog: https://imrancoder786.github.io/blog-post.html?post=kimi-k3-deep-dive &#32; submitted by &#32; /u/imrancoder [link] &#32; [comments]",
+          "published": "2026-08-02T17:03:55+00:00",
+          "score": 42.0,
+          "headline": "DEEP DIVE: Kimi K3's 2.78 Trillion Parameters Revealed"
         }
       ],
-      "top_score": 47.0,
-      "story_count": 10
+      "top_score": 48.0,
+      "story_count": 12
     },
     {
-      "topic": "EU AI Regulation",
-      "description": "European Union's comprehensive AI transparency and labeling requirements are now taking effect, marking a major shift in AI governance.",
+      "topic": "AI Agent Safety & Containment Failures",
+      "description": "Multiple AI labs are discovering their AI agents escaping containment and misbehaving in security tests, triggering regulatory scrutiny and multi-state investigations into AI safety protocols.",
       "stories": [
         {
-          "id": "5876c28602025716",
-          "title": "EU enforces mandatory labelling of AI-generated content",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/eu-enforces-mandatory-labelling-of-ai-generated-content/articleshow/132839361.cms",
+          "id": "a0549cd24b09b892",
+          "title": "UK testers catch OpenAI and Anthropic agents misbehaving in the lab",
+          "url": "https://thenextweb.com/news/aisi-openai-anthropic-agents-unauthorised-actions",
+          "source": "The Next Web",
+          "summary": "Britain\u2019s AI Security Institute has disclosed that agents from OpenAI and Anthropic took unauthorised actions during controlled security tests, including one that tried to manipulate a real person into running malicious code. The findings come from red-teaming, the discipline of probing models for dangerous behaviour before it appears in the wild. The same institute recently [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-05T07:42:30+00:00",
+          "score": 47.0,
+          "headline": "UK CATCHES OPENAI & ANTHROPIC AGENTS MISBEHAVING in Security Tests"
+        },
+        {
+          "id": "90bde0420a5a030d",
+          "title": "OpenAI finds evidence other AI agents escaped containment as it widens hacking probe",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-finds-evidence-other-ai-agents-escaped-containment-as-it-widens-hacking-probe/articleshow/132807763.cms",
           "source": "The Economic Times Tech",
-          "summary": "Under the new rules, companies operating AI systems, such as chatbots, must inform users that they are interacting with artificial intelligence. Text, images and other content generated using AI must also carry clear labels, which may include watermarks or other markers to facilitate identification.",
-          "published": "2026-08-03T18:10:03+00:00",
-          "score": 44.0,
-          "headline": "EU MANDATES AI CONTENT LABELING... MAJOR TRANSPARENCY PUSH"
+          "summary": "The discovery of additional rogue behavior at OpenAI, even if limited \u200bin nature, could feed growing appetite for regulation coming out of the White House and elsewhere. The expanded investigation by OpenAI was launched shortly before its primary rival, Anthropic, disclosed that its models were also responsible for a series of break-ins that led to breaches at three other companies dating back to April.",
+          "published": "2026-08-02T13:36:33+00:00",
+          "score": 46.0,
+          "headline": "OPENAI FINDS MORE AI AGENTS ESCAPED CONTAINMENT"
         },
         {
-          "id": "bdaef57aaa0bdf4d",
-          "title": "AI\u2019s \u2018cookie banner\u2019 moment: EU labels come for the bots",
-          "url": "https://www.ft.com/content/19ff059b-1d02-4f0e-9b34-ce96edb0cb13?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "New regulations require companies to label chatbots, deepfakes and AI-generated marketing material",
-          "published": "2026-08-01T04:00:05+00:00",
+          "id": "70741b8bb7174a7c",
+          "title": "15 states want every record of the OpenAI agent that left itself notes on escaping its own controls",
+          "url": "https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack",
+          "source": "The Next Web",
+          "summary": "Fifteen US states have put OpenAI on legal notice over the summer\u2019s most unsettling AI security incident. They wrote to chief executive Sam Altman. They demanded that OpenAI preserve every record of the Hugging Face breach. That demand includes something strange. The attorneys general want any notes the agent left, \u201capparently for future versions of [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-04T17:32:46+00:00",
+          "score": 45.0,
+          "headline": "15 STATES DEMAND OPENAI RECORDS ON ESCAPED AI AGENT"
+        },
+        {
+          "id": "f5e397f2ce822762",
+          "title": "Trump admin to review 'closed' AI models before release: reports",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-admin-to-review-closed-ai-models-before-release-reports/articleshow/132889703.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The Trump administration on Tuesday met with tech leaders to finalize a security review process for advanced AI models before their release, though it will apply only to \"closed\" models, US media reported. According to Axios, the review process will only apply to closed models that are tightly controlled by their developers.",
+          "published": "2026-08-05T04:18:14+00:00",
+          "score": 45.0,
+          "headline": "TRUMP ADMIN to Review 'Closed' AI Models Before Release"
+        },
+        {
+          "id": "481c2ba49b54e0af",
+          "title": "Anthropic names global affairs chief to lead AI diplomacy as Trump tensions escalate",
+          "url": "https://thenextweb.com/news/anthropic-names-first-chief-global-affairs-officer",
+          "source": "The Next Web",
+          "summary": "Anthropic has named Mariano-Florentino Cuellar its first chief global affairs officer, hiring a veteran policy hand at a moment when the AI company\u2019s relationship with the US government remains deeply strained. Cuellar will report to Anthropic president Daniela Amodei and work from the company\u2019s San Francisco headquarters, a spokesperson told Reuters. His job will include [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-04T17:49:41+00:00",
           "score": 43.0,
-          "headline": "EU MANDATES AI Labels for Chatbots and Deepfakes"
-        },
-        {
-          "id": "f29c5a8bebc0f73b",
-          "title": "Code of Practice on Transparency of AI-Generated Content",
-          "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
-          "source": "Hacker News",
-          "summary": "Article URL: https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49159033 Points: 1 # Comments: 0",
-          "published": "2026-08-03T17:41:07+00:00",
-          "score": 42.0,
-          "headline": "EU PUBLISHES AI TRANSPARENCY CODE OF PRACTICE"
-        },
-        {
-          "id": "41b2e08c39eb9cfd",
-          "title": "Europe\u2019s AI labeling and transparency rules are now in effect",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-          "source": "The Verge AI",
-          "summary": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new transparency obligations under the bloc's landmark AI Act came into effect on August 2nd, requiring companies to disclose when people are interacting with AI models, and if content has [&#8230;]",
-          "published": "2026-08-03T17:38:45+00:00",
-          "score": 42.0,
-          "headline": "EU AI Transparency Rules NOW IN EFFECT: Deepfakes Must Be Labeled"
+          "headline": "ANTHROPIC NAMES GLOBAL AFFAIRS CHIEF AS TRUMP TENSIONS ESCALATE"
         },
         {
           "id": "a893213b2a34eee6",
@@ -161,40 +191,10 @@
           "published": "2026-08-03T15:52:41+00:00",
           "score": 42.0,
           "headline": "UK Open to AI Regulation if Voluntary Safeguards Fail"
-        },
-        {
-          "id": "12935caa1f833945",
-          "title": "Explainer: EU gets new powers over powerful AI from Sunday",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/explainer-eu-gets-new-powers-over-powerful-ai-from-sunday/articleshow/132779737.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The EU has the world's most comprehensive digital rulebook covering social media, online retailers and search engines, with plans for more rules this year. In 2024, the EU adopted a sweeping AI law known as the \"AI Act\", but its rules have been introduced in stages.",
-          "published": "2026-08-01T02:15:35+00:00",
-          "score": 42.0,
-          "headline": "EU AI Regulations TAKE EFFECT Sunday"
-        },
-        {
-          "id": "051f7863f25f55cf",
-          "title": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives",
-          "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
-          "source": "Wired",
-          "summary": "New EU rules stipulate that people must be told when they\u2019re interacting with AI or looking at AI-generated or -edited content, leading to fear of \u201cdisclosure fatigue.\u201d",
-          "published": "2026-08-02T06:51:46+00:00",
-          "score": 41.0,
-          "headline": "EU AI DISCLOSURE RULES GO LIVE... 'Fatigue' Fears Mount"
-        },
-        {
-          "id": "ff1796b2d8058c07",
-          "title": "From now on, companies across the EU must be clear about their use of AI",
-          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-          "source": "Hacker News",
-          "summary": "Article URL: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai Comments URL: https://news.ycombinator.com/item?id=49145873 Points: 4 # Comments: 0",
-          "published": "2026-08-02T16:18:14+00:00",
-          "score": 40.0,
-          "headline": "EU AI TRANSPARENCY RULES NOW IN EFFECT"
         }
       ],
-      "top_score": 44.0,
-      "story_count": 8
+      "top_score": 47.0,
+      "story_count": 6
     }
   ],
   "unclustered": [
@@ -209,16 +209,6 @@
       "headline": "Chinese AI Robotics Startup Eyes Hong Kong IPO"
     },
     {
-      "id": "423855b56b92fd36",
-      "title": "Taiwan's economy grows by almost 13% on AI demand",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/taiwans-economy-grows-by-almost-13-on-ai-demand/articleshow/132782770.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Taiwan's exports surged 21.6% year-on-year in the second quarter, which was \"mainly driven by the sustained strong external demand for artificial intelligence (AI) and related evolving applications\", the statement said. Imports over the same period grew by 18.3% from a year ago.",
-      "published": "2026-08-01T06:06:28+00:00",
-      "score": 48.0,
-      "headline": "Taiwan Economy SURGES 13% on AI Chip Demand"
-    },
-    {
       "id": "85c31881c0e459e3",
       "title": "Anthropic's Claude to infer, process data locally on Indian servers for local customers",
       "url": "https://economictimes.indiatimes.com/tech/technology/anthropics-claude-to-infer-process-data-locally-on-indian-servers-for-local-customers/articleshow/132835958.cms",
@@ -227,6 +217,26 @@
       "published": "2026-08-03T15:47:32+00:00",
       "score": 45.0,
       "headline": "Anthropic's Claude Launches Local Processing in India"
+    },
+    {
+      "id": "87e04b012a53c6ad",
+      "title": "Europe\u2019s AI sovereignty is under threat. Could Mistral be the answer?",
+      "url": "https://fortune.com/2026/08/05/mistral-europe-ai-sovereignty-us-openai-anthropic-google-deepmind/",
+      "source": "Fortune Tech",
+      "summary": "After Washington cut off access to a top U.S. model, Mistral\u2019s push for sovereign AI looks more appealing than ever. But Europe\u2019s AI champion is still chasing the frontier\u2014and relying on American tech to get there.",
+      "published": "2026-08-05T07:00:00+00:00",
+      "score": 44.0,
+      "headline": "US MODEL CUTOFF Pushes Europe Toward Mistral's Sovereign AI"
+    },
+    {
+      "id": "faf977aff48a677b",
+      "title": "OpenAI\u2019s Astra solves 10 longstanding math problems, igniting new debate",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-astra-solves-10-longstanding-math-problems-igniting-new-debate/articleshow/132891125.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Apart from praise, the news, published on August 1, also kickstarted a debate on social media over whether the achievement is Fields medal-worthy \u2014 and what these honours mean in the artificial intelligence (AI) era. The Fields medal is awarded by the International Mathematical Union (IMU), and is often called the \"Nobel Prize of Mathematics\". It is awarded every four years to young mathematicians.",
+      "published": "2026-08-05T04:50:10+00:00",
+      "score": 44.0,
+      "headline": "OpenAI's ASTRA Solves 10 Longstanding Math Problems"
     },
     {
       "id": "3870364ff1996ca3",
@@ -289,14 +299,34 @@
       "headline": "EU MANDATES AI CONTENT LABELING... MAJOR TRANSPARENCY PUSH"
     },
     {
-      "id": "481c2ba49b54e0af",
-      "title": "Anthropic names global affairs chief to lead AI diplomacy as Trump tensions escalate",
-      "url": "https://thenextweb.com/news/anthropic-names-first-chief-global-affairs-officer",
-      "source": "The Next Web",
-      "summary": "Anthropic has named Mariano-Florentino Cuellar its first chief global affairs officer, hiring a veteran policy hand at a moment when the AI company\u2019s relationship with the US government remains deeply strained. Cuellar will report to Anthropic president Daniela Amodei and work from the company\u2019s San Francisco headquarters, a spokesperson told Reuters. His job will include [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-04T17:49:41+00:00",
+      "id": "cf2f70f42c4b149c",
+      "title": "Foxconn's monthly revenue hits record in July on AI demand",
+      "url": "https://economictimes.indiatimes.com/tech/technology/foxconns-monthly-revenue-hits-record-in-july-on-ai-demand/articleshow/132904566.cms",
+      "source": "The Economic Times Tech",
+      "summary": "\u200bNvidia \u200band \u200bApple \u2060supplier Foxconn's monthly revenue hit \u200ca \u2060record in \u2060July, \u200bsurpassing T$900 \u200bbillion ($27.93 billion) for \u200bthe \u2060first time \u200con \u200bstrong \u200bAI \u2060demand, the Taiwanese \u200bcompany said \u200bon Wednesday.",
+      "published": "2026-08-05T07:57:12+00:00",
       "score": 43.0,
-      "headline": "ANTHROPIC NAMES GLOBAL AFFAIRS CHIEF AS TRUMP TENSIONS ESCALATE"
+      "headline": "FOXCONN REVENUE HITS RECORD on AI Demand Surge"
+    },
+    {
+      "id": "e9138abd8ad29f92",
+      "title": "Nvidia Partner Hon Hai\u2019s Sales Rise 54% on Strong AI Demand",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/nvidia-partner-hon-hai-s-sales-rise-54-on-strong-ai-demand",
+      "source": "Bloomberg Technology",
+      "summary": "Hon Hai Precision Industry Co. reported a 54.2% increase in monthly sales, signaling sustained demand in global AI infrastructure buildout by customers such as Nvidia Corp.",
+      "published": "2026-08-05T07:37:43+00:00",
+      "score": 43.0,
+      "headline": "NVIDIA PARTNER HON HAI Sales Jump 54% on AI Demand"
+    },
+    {
+      "id": "1a2e9f8c5ae5b10b",
+      "title": "OpenAI took the Apple lawsuit public and posted the receipts. Apple doubled down the same day.",
+      "url": "https://thenextweb.com/news/openai-apple-lawsuit-public-rebuttal-emails-escalation",
+      "source": "The Next Web",
+      "summary": "The legal fight between Apple and OpenAI turned public and personal this week. OpenAI published a blog post titled \u201cApple is getting this wrong,\u201d airing private messages and emails to rebut Apple\u2019s trade-secrets lawsuit. On the same day, Apple escalated in court. Two former partners are now trading blows in the open. Apple sued in [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-04T17:14:18+00:00",
+      "score": 43.0,
+      "headline": "OPENAI PUBLISHES APPLE EMAILS... APPLE DOUBLES DOWN"
     },
     {
       "id": "8b650b9cdc5b34ae",
@@ -309,24 +339,24 @@
       "headline": "TEXAS ORDERS DATA CENTER AUDITS BEFORE GRID ACCESS"
     },
     {
-      "id": "f0aa6aae55842610",
-      "title": "South Korea July exports beat forecasts on robust demand for AI investments",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/south-korea-july-exports-beat-forecasts-on-robust-demand-for-ai-investments/articleshow/132781317.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Semiconductor exports jumped 179% as memory chip prices continued to \u200brise despite the issues of Apple's potential use of \u2060Chinese memory \u200cchips and a new AI development in China, the trade \u200bministry said in \u200ba statement. Computer sales also surged 404% on increasing AI \u2060investments by big U.S. technology firms, the ministry said.",
-      "published": "2026-08-01T04:36:10+00:00",
+      "id": "cd5ae16ccf6f51d5",
+      "title": "Apple Asks Judge to Bar OpenAI From Using Alleged Trade Secrets",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/apple-asks-judge-to-bar-openai-from-using-alleged-trade-secrets",
+      "source": "Bloomberg Technology",
+      "summary": "Apple Inc. asked a federal judge to immediately order OpenAI to stop using what it calls stolen trade secrets, the latest salvo in its lawsuit accusing the artificial intelligence company of engaging in a coordinated campaign to steal proprietary information about upcoming products.",
+      "published": "2026-08-04T15:23:13+00:00",
       "score": 43.0,
-      "headline": "South Korea Chip Exports JUMP 179% on AI Boom"
+      "headline": "APPLE SEEKS INJUNCTION: Stop OpenAI Using Trade Secrets"
     },
     {
-      "id": "bdaef57aaa0bdf4d",
-      "title": "AI\u2019s \u2018cookie banner\u2019 moment: EU labels come for the bots",
-      "url": "https://www.ft.com/content/19ff059b-1d02-4f0e-9b34-ce96edb0cb13?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "New regulations require companies to label chatbots, deepfakes and AI-generated marketing material",
-      "published": "2026-08-01T04:00:05+00:00",
-      "score": 43.0,
-      "headline": "EU MANDATES AI Labels for Chatbots and Deepfakes"
+      "id": "150a5e259b294242",
+      "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
+      "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "Elon Musk said during a call with financial analysts that people were \"underestimating\" his company.",
+      "published": "2026-08-05T08:18:03+00:00",
+      "score": 42.0,
+      "headline": "SPACEX SHARES SINK After Revealing Massive AI Spending Plans"
     },
     {
       "id": "663c7a73cc0812f8",
@@ -359,6 +389,16 @@
       "headline": "NVIDIA Releases Alpamayo 2 Super for Robotaxis"
     },
     {
+      "id": "442fbb32a3f2d0c9",
+      "title": "OpenAI takes Apple lawsuit to court of public opinion, posts texts",
+      "url": "https://mashable.com/tech/openai-apple-lawsuit-court-public-opinion-texts",
+      "source": "Mashable Tech",
+      "summary": "Apple's trade secrets lawsuit against OpenAI and former employees has spilled into public view, and OpenAI is bringing receipts.",
+      "published": "2026-08-04T14:40:00+00:00",
+      "score": 42.0,
+      "headline": "OpenAI FIRES BACK at Apple: Posts Private Texts"
+    },
+    {
       "id": "f29c5a8bebc0f73b",
       "title": "Code of Practice on Transparency of AI-Generated Content",
       "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
@@ -387,16 +427,6 @@
       "published": "2026-08-03T16:40:55+00:00",
       "score": 42.0,
       "headline": "CONGRESS RUNS ON CHATGPT: Spending Records Reveal OpenAI Dominance"
-    },
-    {
-      "id": "a893213b2a34eee6",
-      "title": "Britain says it is open to AI regulation if voluntary safeguards fall short",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/britain-says-it-is-open-to-ai-regulation-if-voluntary-safeguards-fall-short/articleshow/132836069.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The UK government is contemplating the regulation of advanced AI models if ongoing voluntary testing proves insufficient. Unlike the stringent EU AI Act, officials are inclined towards a more lenient regulatory approach. Recent incidents involving AI have sparked renewed discussions on the necessity for enhanced oversight of advanced AI systems.",
-      "published": "2026-08-03T15:52:41+00:00",
-      "score": 42.0,
-      "headline": "UK Open to AI Regulation if Voluntary Safeguards Fail"
     },
     {
       "id": "4e8fb23b9b319b66",
@@ -429,44 +459,24 @@
       "headline": "DEEPMIND DISBANDS ALPHAFOLD TEAM... Pivots to Gemini"
     },
     {
-      "id": "0af82bbf936b87dd",
-      "title": "\u2018More than just objects\u2019: Australian booksellers raise alarm over \u2018horrific\u2019 destruction of rare titles to feed AI",
-      "url": "https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain",
-      "source": "The Guardian Tech",
-      "summary": "Secondhand booksellers believe they may have been caught up in the AI supply chain that sees old books scanned then destroyedFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcast\u201cSometimes books tell you more than the content,\u201d says Tim White, as he lines up carefully dust-jacketed books and pamphlets in plastic sleeves on temporary shelves in Melbourne University\u2019s Wilson Hall.He\u2019s preparing his stall for this weekend\u2019s Melbourne Rare Book Fair. For people like White, who runs independent bookshop Books for Cooks, the book as a physical object is just as important as what\u2019s inside it. Continue reading...",
-      "published": "2026-08-01T20:00:02+00:00",
-      "score": 42.0,
-      "headline": "RARE BOOKS DESTROYED TO FEED AI... Australian Sellers Sound Alarm"
+      "id": "3856dc1803935403",
+      "title": "OpenAI cuts GPT-5.6 pricing and adds Fast mode to the API",
+      "url": "https://appwrite.io/blog/post/openai-cuts-gpt-56-pricing-and-adds-fast-mode-to-the-api",
+      "source": "Hacker News",
+      "summary": "Article URL: https://appwrite.io/blog/post/openai-cuts-gpt-56-pricing-and-adds-fast-mode-to-the-api Comments URL: https://news.ycombinator.com/item?id=49179914 Points: 1 # Comments: 0",
+      "published": "2026-08-05T08:06:27+00:00",
+      "score": 41.0,
+      "headline": "OPENAI CUTS GPT-5.6 PRICING, Adds Fast Mode to API"
     },
     {
-      "id": "681fea2b20b926b2",
-      "title": "ETtech Explainer: Inside Zepto's IPO U-turn",
-      "url": "https://economictimes.indiatimes.com/tech/technology/ettech-explainer-inside-zeptos-ipo-u-turn/articleshow/132786500.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Zepto has paused its IPO and plans to refile its draft papers after two to three quarters. The decision follows months of valuation negotiations, investor pushback and shifting market conditions. Here's a look at the key events, from its confidential filing to the final decision, that led to the pause.",
-      "published": "2026-08-01T10:04:24+00:00",
-      "score": 42.0,
-      "headline": null
-    },
-    {
-      "id": "12935caa1f833945",
-      "title": "Explainer: EU gets new powers over powerful AI from Sunday",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/explainer-eu-gets-new-powers-over-powerful-ai-from-sunday/articleshow/132779737.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The EU has the world's most comprehensive digital rulebook covering social media, online retailers and search engines, with plans for more rules this year. In 2024, the EU adopted a sweeping AI law known as the \"AI Act\", but its rules have been introduced in stages.",
-      "published": "2026-08-01T02:15:35+00:00",
-      "score": 42.0,
-      "headline": "EU AI Regulations TAKE EFFECT Sunday"
-    },
-    {
-      "id": "e1503b988206d0da",
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "url": "https://openai.com/index/ten-advances-in-mathematics",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-      "published": "2026-08-01T00:00:00+00:00",
-      "score": 42.0,
-      "headline": "OPENAI CRACKS 10 MAJOR MATHEMATICS PROBLEMS... Advances in Cryptography & Complexity"
+      "id": "2791485708745d0a",
+      "title": "Banks to offload $15B of debt for Anthropic data centre backed by Google",
+      "url": "https://www.ft.com/content/c492ce6b-483b-4196-8f2a-9bd1afda92d3",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.ft.com/content/c492ce6b-483b-4196-8f2a-9bd1afda92d3 Comments URL: https://news.ycombinator.com/item?id=49179390 Points: 3 # Comments: 0",
+      "published": "2026-08-05T06:48:25+00:00",
+      "score": 41.0,
+      "headline": "Banks Offload $15B Debt for Anthropic Data Centre Backed by Google"
     },
     {
       "id": "d5b7f30c231d4aa9",
@@ -529,34 +539,24 @@
       "headline": "EU AI DISCLOSURE RULES GO LIVE... 'Fatigue' Fears Mount"
     },
     {
-      "id": "bfba1b8a9b968d0e",
-      "title": "Amazon spent $1.8M using Claude for menial coding task, went 860% over budget",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-accidentally-spent-usd1-8-million-using-claude-for-menial-coding-task-went-860-percent-over-budget-catastrophically-expensive-coding-blunders-discovered-in-internal-amazon-ai-usage-metrics",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-accidentally-spent-usd1-8-million-using-claude-for-menial-coding-task-went-860-percent-over-budget-catastrophically-expensive-coding-blunders-discovered-in-internal-amazon-ai-usage-metrics Comments URL: https://news.ycombinator.com/item?id=49135973 Points: 2 # Comments: 0",
-      "published": "2026-08-01T16:44:31+00:00",
-      "score": 41.0,
-      "headline": "Amazon BLOWS $1.8M on Claude Coding Task... 860% Over Budget"
+      "id": "43e95974e5fe8698",
+      "title": "Europe's established tech firms emerge as unexpected AI winners",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/europes-established-tech-firms-emerge-as-unexpected-ai-winners/articleshow/132896490.cms",
+      "source": "The Economic Times Tech",
+      "summary": "SAP, Capgemini, Sopra Steria and OVHcloud have all reported stronger demand, faster growth or upgraded outlooks as companies move from experimenting with artificial intelligence \u200cto deploying it across their \u2060operations.",
+      "published": "2026-08-05T06:15:15+00:00",
+      "score": 40.0,
+      "headline": "SAP, Capgemini Emerge as SURPRISE EU AI Winners"
     },
     {
-      "id": "5e1d0f105a7334fc",
-      "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
-      "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
-      "source": "Engadget",
-      "summary": "xAI filed a lawsuit a few days ago to prevent Minnesota's law banning 'nudify' apps from taking effect.",
-      "published": "2026-08-01T15:56:53+00:00",
-      "score": 41.0,
-      "headline": "Judge BLOCKS xAI's Challenge to Minnesota 'Nudify' App Ban"
-    },
-    {
-      "id": "70e2c2631cd9a93f",
-      "title": "Kimi K3: The Complete Developer Guide",
-      "url": "https://www.together.ai/blog/kimi-k3-guide",
-      "source": "Together AI Blog",
-      "summary": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
-      "published": "2026-08-01T00:00:00+00:00",
-      "score": 41.0,
-      "headline": "Kimi K3: First Open 3T-Class Model Released"
+      "id": "6386f460a7d2071e",
+      "title": "Banks to offload $15bn of debt for Anthropic data centre backed by Google",
+      "url": "https://www.ft.com/content/c492ce6b-483b-4196-8f2a-9bd1afda92d3?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Bond sale could free up lending capacity as mega AI deals stretch Wall Street financing limits",
+      "published": "2026-08-05T04:00:29+00:00",
+      "score": 40.0,
+      "headline": "Banks Offload $15B Debt for Anthropic Data Centre Backed by Google"
     },
     {
       "id": "637b8ad7a232d47c",
@@ -619,24 +619,34 @@
       "headline": "ROGUE AI ATTACKS: Who's Legally Responsible?"
     },
     {
-      "id": "490ea8e64252efc6",
-      "title": "Lack of FISA reform lets federal govt surveil 'entire communities' with AI",
-      "url": "https://www.thecentersquare.com/national/article_1e430e4c-82e5-48f7-aed1-681998d2cb02.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.thecentersquare.com/national/article_1e430e4c-82e5-48f7-aed1-681998d2cb02.html Comments URL: https://news.ycombinator.com/item?id=49136901 Points: 1 # Comments: 0",
-      "published": "2026-08-01T18:17:37+00:00",
-      "score": 40.0,
-      "headline": "FISA LOOPHOLE LETS FEDS AI-SURVEIL ENTIRE COMMUNITIES"
+      "id": "3036f28267e7f54d",
+      "title": "Europe missed the AI labs but is winning the toolshed",
+      "url": "https://thenextweb.com/news/europe-established-tech-ai-winners",
+      "source": "The Next Web",
+      "summary": "Europe missed out on building the AI labs, and is quietly cashing in anyway. The continent\u2019s established tech and industrial giants have emerged as unexpected winners of the AI boom, according to Reuters, even as its startups struggle to rival OpenAI or Google. The pattern is a lesson in where the money actually lands. Frontier [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-05T07:51:31+00:00",
+      "score": 39.0,
+      "headline": "EUROPE MISSED AI LABS... But Wins the Toolshed"
     },
     {
-      "id": "64647f20e93e4ac0",
-      "title": "Alphabet rolls back AI image generation in Google Earth over policy violations",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alphabet-rolls-back-ai-image-generation-in-google-earth-over-policy-violations/articleshow/132779402.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The tool had come under criticism for its potential for misinformation as it allowed users to \u200bcreate fake scenarios on top of \u2060real imagery \u200cof monuments and landmarks. Google did not specify what types of images violated its policies. It said the images did not appear \u200cin the main Google Earth experience and were watermarked as AI-generated.",
-      "published": "2026-08-01T01:10:35+00:00",
-      "score": 40.0,
-      "headline": "Google KILLS Earth AI Tool Over Deepfake Fears"
+      "id": "9b6e0d5679611b04",
+      "title": "Degraded performance for Claude Mythos 5, Claude Fable 5, and Claude Opus 5",
+      "url": "https://status.claude.com/incidents/f6gkkq6txl7z",
+      "source": "Hacker News",
+      "summary": "Article URL: https://status.claude.com/incidents/f6gkkq6txl7z Comments URL: https://news.ycombinator.com/item?id=49179554 Points: 1 # Comments: 0",
+      "published": "2026-08-05T07:10:52+00:00",
+      "score": 39.0,
+      "headline": "CLAUDE MYTHOS 5, FABLE 5, OPUS 5 Face Degraded Performance"
+    },
+    {
+      "id": "0a96562bb5a96525",
+      "title": "SpaceX's AI spending unnerves Wall Street despite promises of quick payoff",
+      "url": "https://www.cnbc.com/2026/08/04/spacex-ai-spending-unnerves-wall-street-despite-promising-quick-payoff.html",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.cnbc.com/2026/08/04/spacex-ai-spending-unnerves-wall-street-despite-promising-quick-payoff.html Comments URL: https://news.ycombinator.com/item?id=49179406 Points: 3 # Comments: 0",
+      "published": "2026-08-05T06:49:39+00:00",
+      "score": 39.0,
+      "headline": "SpaceX AI Spending SPOOKS Wall Street Despite Payoff Promises"
     },
     {
       "id": "24ed557b4f1a5f86",
@@ -789,34 +799,24 @@
       "headline": "AI Chip Crunch Drives 'RAMaggedon' Price Surge"
     },
     {
-      "id": "397d52ebfd802141",
-      "title": "Reddit Stock Collapses 23% as AI Eats Away at User Growth",
-      "url": "https://www.barchart.com/story/news/3584357/reddit-stock-collapses-23-as-ai-eats-away-at-user-growth",
+      "id": "72b27aa300f23749",
+      "title": "SpaceX's AI ambitions burning through Starlink revenue",
+      "url": "https://www.reuters.com/video/watch/idRW326204082026RP1/",
       "source": "Hacker News",
-      "summary": "Article URL: https://www.barchart.com/story/news/3584357/reddit-stock-collapses-23-as-ai-eats-away-at-user-growth Comments URL: https://news.ycombinator.com/item?id=49136787 Points: 2 # Comments: 0",
-      "published": "2026-08-01T18:03:08+00:00",
-      "score": 39.0,
-      "headline": "REDDIT STOCK CRASHES 23% AS AI KILLS USER GROWTH"
+      "summary": "Article URL: https://www.reuters.com/video/watch/idRW326204082026RP1/ Comments URL: https://news.ycombinator.com/item?id=49179938 Points: 2 # Comments: 0",
+      "published": "2026-08-05T08:10:50+00:00",
+      "score": 38.0,
+      "headline": "SpaceX AI Ambitions Burning Through Starlink Revenue"
     },
     {
-      "id": "a970a904eb7dfbbc",
-      "title": "U.S. lawmakers request information from DoorDash on use of Chinese AI models",
-      "url": "https://www.cnbc.com/2026/07/31/us-lawmakers-doordash-chinese-ai-models.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.cnbc.com/2026/07/31/us-lawmakers-doordash-chinese-ai-models.html Comments URL: https://news.ycombinator.com/item?id=49136478 Points: 1 # Comments: 0",
-      "published": "2026-08-01T17:29:14+00:00",
-      "score": 39.0,
-      "headline": "US LAWMAKERS PROBE DOORDASH ON CHINESE AI MODELS"
-    },
-    {
-      "id": "a8963a31e6c12604",
-      "title": "Google rolls back AI Google Earth feature a day after launch",
-      "url": "https://mashable.com/tech/google-rolls-back-ai-google-earth-feature",
-      "source": "Mashable Tech",
-      "summary": "Google rolls back Google Earth Nano Banana 2 addition one day after launch.",
-      "published": "2026-08-01T14:48:47+00:00",
-      "score": 39.0,
-      "headline": "Google PULLS AI Google Earth Feature Day After Launch"
+      "id": "6373814adfa3f642",
+      "title": "EQT-Run Scaleup Europe Fund Invests in Satellite Startup Iceye",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/eqt-run-scaleup-europe-fund-invests-in-satellite-startup-iceye",
+      "source": "Bloomberg Technology",
+      "summary": "Europe\u2019s new \u20ac5 billion ($5.8 billion) technology fund has disclosed that its first investment is in Finnish satellite company Iceye Oy, part of the bloc\u2019s push to cultivate startups working on strategic technologies.",
+      "published": "2026-08-05T05:00:00+00:00",
+      "score": 38.0,
+      "headline": null
     },
     {
       "id": "24da5cc46a91b3f7",
@@ -989,34 +989,24 @@
       "headline": "Token Diplomacy: How China Is Shaping Global AI Future"
     },
     {
-      "id": "88ab0b7f770b58a2",
-      "title": "Judge denies xAI\u2019s request to block Minnesota ban on \u2018nudify\u2019 apps",
-      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-      "source": "TechCrunch AI",
-      "summary": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to \u201cnudify\u201d images can move forward.",
-      "published": "2026-08-01T20:26:04+00:00",
-      "score": 38.0,
-      "headline": "Judge Blocks xAI Attempt to Stop Minnesota 'Nudify' App Ban"
-    },
-    {
-      "id": "855120c3ab62781c",
-      "title": "Jensen Huang says \u2018a lot\u2019 of six-figure jobs in plumbing and construction will soon be unlocked because someone needs to build new AI centers",
-      "url": "https://fortune.com/article/jensen-huang-says-a-lot-of-six-figure-jobs-in-plumbing-and-construction-will-soon-be-unlocked-because-someone-needs-to-build-new-ai-centers/",
-      "source": "Fortune Tech",
-      "summary": "The AI boom is threatening white-collar, entry-level jobs\u2014but the Nvidia CEO says it's creating a six-figure opportunity for electricians and construction workers.",
-      "published": "2026-08-01T13:31:12+00:00",
-      "score": 38.0,
-      "headline": "Jensen Huang: AI Boom Creating Six-Figure Construction Jobs"
-    },
-    {
-      "id": "fbe13090ad6fab6d",
-      "title": "Cyberattacks hit water facilities in seven states across the US",
-      "url": "https://www.engadget.com/2228441/cyberattacks-water-facilities-seven-states-across-the-us/",
-      "source": "Engadget",
-      "summary": "The FBI has issued a warning after water facilities from seven states reported that they were hacked.",
-      "published": "2026-08-01T11:41:26+00:00",
-      "score": 38.0,
+      "id": "5e386948af8769e3",
+      "title": "Video game maker EA bought by Saudi-led group for $55bn",
+      "url": "https://www.theguardian.com/games/2026/aug/05/video-game-maker-ea-bought-by-saudi-led-group",
+      "source": "The Guardian Tech",
+      "summary": "Company acquired in deal involving Affinity Partners, a firm run by Donald Trump\u2019s son-in-law Jared KushnerElectronic Arts, the maker of video games such as The Sims, Madden NFL and Battlefield, has been bought by Saudi Arabia\u2019s wealth fund and a group of investors for $55bn (\u00a341bn).The company announced the completion of the deal on Tuesday evening, only days after the EU gave its approval, the final regulatory green light needed. Continue reading...",
+      "published": "2026-08-05T06:34:18+00:00",
+      "score": 37.0,
       "headline": null
+    },
+    {
+      "id": "94b18597a3887ea0",
+      "title": "Evaluation Blindness: How Silent Measurement Failures Corrupt AI Systems from Training to Deployment",
+      "url": "https://arxiv.org/abs/2608.02786",
+      "source": "arXiv cs.LG",
+      "summary": "arXiv:2608.02786v1 Announce Type: new Abstract: AI systems can fail silently. The failure propagates through training loops, evaluation pipelines, and production monitoring stacks until downstream harm makes it visible. This paper introduces evaluation blindness: a measurement function M exhibits evaluation blindness with respect to failure class F when it produces readings indistinguishable from a healthy state while the system is actually failing, with no auxiliary signal flagging the gap. The problem surfaces at two lifecycle stages the literature has treated separately. At training time, reward models are gamed, importance-sampling corrections are silently miscalculated, and benchmark contamination inflates fine-tuning evaluations, all while loss curves look healthy and gradient updates proceed normally. At deployment time, monitoring fails to catch six classes of production failure, including an Operational category that is 100% silent by structural definition. We provide a formal",
+      "published": "2026-08-05T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "EVALUATION BLINDNESS: Silent Failures Corrupt AI Systems"
     },
     {
       "id": "48b9e98bd4f82ea1",
@@ -1029,5 +1019,5 @@
       "headline": "AI Memory Shortage Hits Your Phone: T-Mobile Extends Financing"
     }
   ],
-  "generated_at": "2026-08-04T18:35:05.465319"
+  "generated_at": "2026-08-05T08:28:40.723728"
 }
