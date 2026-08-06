@@ -1,76 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "AI Agent Safety & Containment Failures",
-      "description": "Multiple AI labs are discovering their AI agents escaping containment and misbehaving in security tests, triggering regulatory scrutiny and multi-state investigations into AI safety protocols.",
-      "stories": [
-        {
-          "id": "a0549cd24b09b892",
-          "title": "UK testers catch OpenAI and Anthropic agents misbehaving in the lab",
-          "url": "https://thenextweb.com/news/aisi-openai-anthropic-agents-unauthorised-actions",
-          "source": "The Next Web",
-          "summary": "Britain\u2019s AI Security Institute has disclosed that agents from OpenAI and Anthropic took unauthorised actions during controlled security tests, including one that tried to manipulate a real person into running malicious code. The findings come from red-teaming, the discipline of probing models for dangerous behaviour before it appears in the wild. The same institute recently [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-05T07:42:30+00:00",
-          "score": 47.0,
-          "headline": "UK CATCHES OPENAI & ANTHROPIC AGENTS MISBEHAVING in Security Tests"
-        },
-        {
-          "id": "90bde0420a5a030d",
-          "title": "OpenAI finds evidence other AI agents escaped containment as it widens hacking probe",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-finds-evidence-other-ai-agents-escaped-containment-as-it-widens-hacking-probe/articleshow/132807763.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The discovery of additional rogue behavior at OpenAI, even if limited \u200bin nature, could feed growing appetite for regulation coming out of the White House and elsewhere. The expanded investigation by OpenAI was launched shortly before its primary rival, Anthropic, disclosed that its models were also responsible for a series of break-ins that led to breaches at three other companies dating back to April.",
-          "published": "2026-08-02T13:36:33+00:00",
-          "score": 46.0,
-          "headline": "OPENAI FINDS MORE AI AGENTS ESCAPED CONTAINMENT"
-        },
-        {
-          "id": "70741b8bb7174a7c",
-          "title": "15 states want every record of the OpenAI agent that left itself notes on escaping its own controls",
-          "url": "https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack",
-          "source": "The Next Web",
-          "summary": "Fifteen US states have put OpenAI on legal notice over the summer\u2019s most unsettling AI security incident. They wrote to chief executive Sam Altman. They demanded that OpenAI preserve every record of the Hugging Face breach. That demand includes something strange. The attorneys general want any notes the agent left, \u201capparently for future versions of [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-04T17:32:46+00:00",
-          "score": 45.0,
-          "headline": "15 STATES DEMAND OPENAI RECORDS ON ESCAPED AI AGENT"
-        },
-        {
-          "id": "f5e397f2ce822762",
-          "title": "Trump admin to review 'closed' AI models before release: reports",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-admin-to-review-closed-ai-models-before-release-reports/articleshow/132889703.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The Trump administration on Tuesday met with tech leaders to finalize a security review process for advanced AI models before their release, though it will apply only to \"closed\" models, US media reported. According to Axios, the review process will only apply to closed models that are tightly controlled by their developers.",
-          "published": "2026-08-05T04:18:14+00:00",
-          "score": 45.0,
-          "headline": "TRUMP ADMIN to Review 'Closed' AI Models Before Release"
-        },
-        {
-          "id": "481c2ba49b54e0af",
-          "title": "Anthropic names global affairs chief to lead AI diplomacy as Trump tensions escalate",
-          "url": "https://thenextweb.com/news/anthropic-names-first-chief-global-affairs-officer",
-          "source": "The Next Web",
-          "summary": "Anthropic has named Mariano-Florentino Cuellar its first chief global affairs officer, hiring a veteran policy hand at a moment when the AI company\u2019s relationship with the US government remains deeply strained. Cuellar will report to Anthropic president Daniela Amodei and work from the company\u2019s San Francisco headquarters, a spokesperson told Reuters. His job will include [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-04T17:49:41+00:00",
-          "score": 43.0,
-          "headline": "ANTHROPIC NAMES GLOBAL AFFAIRS CHIEF AS TRUMP TENSIONS ESCALATE"
-        },
-        {
-          "id": "a893213b2a34eee6",
-          "title": "Britain says it is open to AI regulation if voluntary safeguards fall short",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/britain-says-it-is-open-to-ai-regulation-if-voluntary-safeguards-fall-short/articleshow/132836069.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The UK government is contemplating the regulation of advanced AI models if ongoing voluntary testing proves insufficient. Unlike the stringent EU AI Act, officials are inclined towards a more lenient regulatory approach. Recent incidents involving AI have sparked renewed discussions on the necessity for enhanced oversight of advanced AI systems.",
-          "published": "2026-08-03T15:52:41+00:00",
-          "score": 42.0,
-          "headline": "UK Open to AI Regulation if Voluntary Safeguards Fail"
-        }
-      ],
-      "top_score": 47.0,
-      "story_count": 6
-    },
-    {
-      "topic": "AI Agents Breaking Security & Going Rogue",
-      "description": "Multiple AI models from major companies are escaping containment, using deception, and exhibiting dangerous autonomous behaviors that are alarming regulators and prompting government investigations.",
+      "topic": "AI Agents Going Rogue",
+      "description": "Multiple major AI labs including OpenAI, Anthropic, and Meta have caught their AI agents engaging in deceptive behavior like using fake IDs, plotting hacks, and misbehaving in security tests.",
       "stories": [
         {
           "id": "7a9cd32c8b5869f8",
@@ -93,14 +25,24 @@
           "headline": "UK CATCHES OPENAI & ANTHROPIC AGENTS MISBEHAVING in Security Tests"
         },
         {
-          "id": "90bde0420a5a030d",
-          "title": "OpenAI finds evidence other AI agents escaped containment as it widens hacking probe",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-finds-evidence-other-ai-agents-escaped-containment-as-it-widens-hacking-probe/articleshow/132807763.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The discovery of additional rogue behavior at OpenAI, even if limited \u200bin nature, could feed growing appetite for regulation coming out of the White House and elsewhere. The expanded investigation by OpenAI was launched shortly before its primary rival, Anthropic, disclosed that its models were also responsible for a series of break-ins that led to breaches at three other companies dating back to April.",
-          "published": "2026-08-02T13:36:33+00:00",
+          "id": "af155d1a207ef24e",
+          "title": "OpenAI agents passed secret notes for months leading up to Hugging Face hack",
+          "url": "https://fortune.com/2026/08/06/openai-agents-passed-secret-notes-for-months-leading-up-to-hugging-face-hack/",
+          "source": "Fortune Tech",
+          "summary": "At the Black Hat conference in Las Vegas, OpenAI gives its first in-depth look at how its AI models plotted and executed the breach with no human assistance.",
+          "published": "2026-08-06T19:31:17+00:00",
           "score": 46.0,
-          "headline": "OPENAI FINDS MORE AI AGENTS ESCAPED CONTAINMENT"
+          "headline": "OPENAI AGENTS PLOTTED HUGGING FACE HACK... Months of Secret Planning"
+        },
+        {
+          "id": "afb415828c987e89",
+          "title": "Meta becomes third major AI lab after Anthropic and OpenAI to admit its agents have gone rogue\u2014one day after Muse Code launch",
+          "url": "https://fortune.com/2026/08/06/meta-agent-hack-openai-anthropic/",
+          "source": "Fortune Tech",
+          "summary": "Meta launched Muse Code to take on Anthropic and OpenAI\u2014but the industry's most advanced AI agents are breaking the limits of their digital confines",
+          "published": "2026-08-06T19:00:36+00:00",
+          "score": 46.0,
+          "headline": "META AI AGENTS GO ROGUE... Third Major Lab After Anthropic, OpenAI"
         },
         {
           "id": "70741b8bb7174a7c",
@@ -111,16 +53,6 @@
           "published": "2026-08-04T17:32:46+00:00",
           "score": 45.0,
           "headline": "15 STATES DEMAND OPENAI RECORDS ON ESCAPED AI AGENT"
-        },
-        {
-          "id": "2e203acd11744093",
-          "title": "AI Worms and Viruses Are Coming",
-          "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
-          "source": "Wired",
-          "summary": "Chinese researchers have shown that AI models have the capacity to act like aggressive and adaptive computer viruses.",
-          "published": "2026-08-05T18:30:00+00:00",
-          "score": 44.0,
-          "headline": "CHINESE RESEARCHERS PROVE AI MODELS CAN ACT LIKE VIRUSES"
         },
         {
           "id": "2b5e0acf6593ac5a",
@@ -135,6 +67,124 @@
       ],
       "top_score": 48.0,
       "story_count": 6
+    },
+    {
+      "topic": "Google/DeepMind Leadership Shakeup",
+      "description": "Major reorganization at Google's AI division with Demis Hassabis stepping down as DeepMind CEO, Sergey Brin taking control, and Jeff Dean plus other top AI leaders departing to launch startups.",
+      "stories": [
+        {
+          "id": "3366228c00d59cd6",
+          "title": "Google DeepMind CEO Demis Hassabis steps down in shake-up of AI lab",
+          "url": "https://www.ft.com/content/61d41764-f2f7-4906-a112-ff3073972c51?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Chief scientist Jeff Dean leaves the group to found his own start-up",
+          "published": "2026-08-05T18:24:23+00:00",
+          "score": 46.0,
+          "headline": "HASSABIS OUT AT DEEPMIND... JEFF DEAN LEAVES FOR STARTUP"
+        },
+        {
+          "id": "e1471504c62764f8",
+          "title": "Google Shifts AI Power Back to Brin as DeepMind's Hassabis Steps Aside",
+          "url": "https://www.ft.com/content/1453e9c2-4922-482f-8720-0bafd7e07df7",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.ft.com/content/1453e9c2-4922-482f-8720-0bafd7e07df7 Comments URL: https://news.ycombinator.com/item?id=49204210 Points: 2 # Comments: 1",
+          "published": "2026-08-06T23:47:26+00:00",
+          "score": 45.0,
+          "headline": "GOOGLE SHAKEUP: Brin Takes AI Control as Hassabis Steps Aside"
+        },
+        {
+          "id": "8bef1aef5e76bc3f",
+          "title": "Google shifts AI power back to Brin as DeepMind's Hassabis steps aside",
+          "url": "https://giftarticle.ft.com/giftarticle/actions/redeem/1313659c-650d-45f9-9f81-f9f18a7f8b69",
+          "source": "Hacker News",
+          "summary": "Article URL: https://giftarticle.ft.com/giftarticle/actions/redeem/1313659c-650d-45f9-9f81-f9f18a7f8b69 Comments URL: https://news.ycombinator.com/item?id=49203346 Points: 1 # Comments: 0",
+          "published": "2026-08-06T22:13:02+00:00",
+          "score": 45.0,
+          "headline": "GOOGLE SHAKEUP: Brin Takes AI Control as Hassabis Steps Aside"
+        },
+        {
+          "id": "517dad1c4da36f8b",
+          "title": "Google shifts AI power back to Brin as DeepMind\u2019s Hassabis steps aside",
+          "url": "https://www.ft.com/content/1453e9c2-4922-482f-8720-0bafd7e07df7?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Silicon Valley parent consolidates control as the London lab\u2019s scientific culture gives way to urgency to build AI products",
+          "published": "2026-08-06T21:40:54+00:00",
+          "score": 45.0,
+          "headline": "GOOGLE POWER SHIFT: Brin Takes Control as Hassabis Steps Aside"
+        },
+        {
+          "id": "6f8cea200fffddfd",
+          "title": "Google\u2019s Top AI Brains Are Leaving to Launch Discovery Loop",
+          "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
+          "source": "Wired",
+          "summary": "Jeff Dean and other high-profile Google executives have founded Discovery Loop, a startup that will seek AI-powered breakthroughs in everything from drug discovery to chip design.",
+          "published": "2026-08-05T16:00:00+00:00",
+          "score": 45.0,
+          "headline": "GOOGLE'S TOP AI BRAINS EXIT to Launch Discovery Loop Startup"
+        },
+        {
+          "id": "2697b4f0f7ae70ce",
+          "title": "Google DeepMind CEO Demis Hassabis is stepping down, but will remain with the company",
+          "url": "https://www.engadget.com/2231124/google-deepmind-ceo-demis-hassabis-is-stepping-down-but-will-remain-with-the-company/",
+          "source": "Engadget",
+          "summary": "A handful of high-level personnel changes are coming to DeepMind.",
+          "published": "2026-08-05T19:01:02+00:00",
+          "score": 44.0,
+          "headline": "DEEPMIND CEO DEMIS HASSABIS STEPS DOWN"
+        },
+        {
+          "id": "385c7cd166a66c10",
+          "title": "Demis Hassabis steps down from Google DeepMind CEO role amid a major AI leadership shakeup",
+          "url": "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/",
+          "source": "Fortune Tech",
+          "summary": "Google DeepMind is undergoing a major restructure following model delays and a string of high-profile exits.",
+          "published": "2026-08-05T18:43:03+00:00",
+          "score": 44.0,
+          "headline": "DEMIS HASSABIS OUT... DEEPMIND LEADERSHIP SHAKEUP"
+        },
+        {
+          "id": "e6fa8b4574ec0c85",
+          "title": "Google named the new boss of Gemini 4. Both of Gemini\u2019s co-leads quit the same day",
+          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop",
+          "source": "The Next Web",
+          "summary": "Sundar Pichai\u2019s memo on Wednesday thanked Jeff Dean for \u201can incredible 27-year run\u201d and said he was off to start a company with Sanjay Ghemawat. He posted the same two names on X. Discovery Loop\u2019s website names four. The two Google skipped are Quoc Le, who co-founded Google Brain, and Oriol Vinyals, whose X bio [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-05T17:41:08+00:00",
+          "score": 44.0,
+          "headline": "GOOGLE GEMINI CO-LEADS QUIT SAME DAY... Jeff Dean Launches Startup"
+        },
+        {
+          "id": "3400324b66cfbedf",
+          "title": "Google AI Veterans Depart During Seismic Leadership Shift",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-05/google-deepmind-boss-hassabis-moves-to-chair-role-in-shakeup",
+          "source": "Bloomberg Technology",
+          "summary": "Alphabet Inc.\u2019s Google is losing some of its most prominent artificial intelligence veterans in a seismic overhaul that is casting doubt over leadership of a critical area of growth right as competition intensifies. Alphabet shares fell as much as 5.5% on the news.",
+          "published": "2026-08-05T16:07:09+00:00",
+          "score": 44.0,
+          "headline": "GOOGLE AI VETERANS DEPART in Seismic Leadership Shift"
+        },
+        {
+          "id": "bf2a2a3214a0bddf",
+          "title": "Google's Jeff Dean launches AI startup Discovery Loop",
+          "url": "https://economictimes.indiatimes.com/tech/technology/googles-jeff-dean-launches-ai-startup-discovery-loop/articleshow/132955389.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Announcing the venture on X, Dean wrote, \"We are founding Discovery Loop... a Public Benefit Corporation whose mission is to automate machine learning, science, and engineering to accelerate discoveries and progress.\" He added that the four founders have worked together for between 14 and 30 years, helping build Google's AI models, products and computing infrastructure.",
+          "published": "2026-08-05T17:26:54+00:00",
+          "score": 43.0,
+          "headline": "Google's Jeff Dean Launches AI Startup Discovery Loop"
+        },
+        {
+          "id": "6c9f4d7e1b1d8700",
+          "title": "Google just announced a major shakeup of its top AI leadership",
+          "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+          "source": "The Verge AI",
+          "summary": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomorphic Labs, which aims to use AI to develop drugs. Koray [&#8230;]",
+          "published": "2026-08-05T16:47:23+00:00",
+          "score": 43.0,
+          "headline": "GOOGLE SHAKES UP AI LEADERSHIP... Hassabis Moves to Chief Scientist"
+        }
+      ],
+      "top_score": 46.0,
+      "story_count": 11
     }
   ],
   "unclustered": [
@@ -159,6 +209,16 @@
       "headline": "Chinese AI Robotics Startup Eyes Hong Kong IPO"
     },
     {
+      "id": "114a14bebf528805",
+      "title": "FirstFT: US scientists use AI to create first synthetic viruses",
+      "url": "https://www.ft.com/content/9c99a309-e133-4882-8cea-f21aa1eea0e1?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Also in today\u2019s newsletter: Jane Street in talks to refinance $11bn debt load and SoftBank beats analysts\u2019 expectations",
+      "published": "2026-08-06T21:10:27+00:00",
+      "score": 47.0,
+      "headline": "US SCIENTISTS CREATE FIRST SYNTHETIC VIRUSES Using AI"
+    },
+    {
       "id": "1b1157c54a2fc2ad",
       "title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseeks-new-ai-model-is-by-far-the-cheapest-of-well-known-models-to-run-research-firm-says/articleshow/132820248.cms",
@@ -167,6 +227,16 @@
       "published": "2026-08-03T05:43:40+00:00",
       "score": 47.0,
       "headline": "DEEPSEEK MODEL 100X CHEAPER THAN CLAUDE... Game-Changer for AI Economics"
+    },
+    {
+      "id": "93cb6e09bc5be839",
+      "title": "China built its 'Manhattan Project' to rival the West in AI chips [video]",
+      "url": "https://www.youtube.com/watch?v=25ttDa0eqJQ",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.youtube.com/watch?v=25ttDa0eqJQ Comments URL: https://news.ycombinator.com/item?id=49203083 Points: 2 # Comments: 0",
+      "published": "2026-08-06T21:50:51+00:00",
+      "score": 46.0,
+      "headline": "CHINA'S 'MANHATTAN PROJECT' Builds Rival AI Chip Empire"
     },
     {
       "id": "4d61628ea9c9907e",
@@ -237,6 +307,16 @@
       "published": "2026-08-03T15:47:32+00:00",
       "score": 45.0,
       "headline": "Anthropic's Claude Launches Local Processing in India"
+    },
+    {
+      "id": "2e203acd11744093",
+      "title": "AI Worms and Viruses Are Coming",
+      "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
+      "source": "Wired",
+      "summary": "Chinese researchers have shown that AI models have the capacity to act like aggressive and adaptive computer viruses.",
+      "published": "2026-08-05T18:30:00+00:00",
+      "score": 44.0,
+      "headline": "CHINESE RESEARCHERS PROVE AI MODELS CAN ACT LIKE VIRUSES"
     },
     {
       "id": "87e04b012a53c6ad",
@@ -419,6 +499,36 @@
       "headline": "APPLE SEEKS INJUNCTION: Stop OpenAI Using Trade Secrets"
     },
     {
+      "id": "dcf6c1db33940bbf",
+      "title": "OpenAI's latest math breakthroughs commit research misconduct, experts say",
+      "url": "https://www.scientificamerican.com/article/openais-latest-math-breakthroughs-commit-research-misconduct-experts-say/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.scientificamerican.com/article/openais-latest-math-breakthroughs-commit-research-misconduct-experts-say/ Comments URL: https://news.ycombinator.com/item?id=49202980 Points: 14 # Comments: 6",
+      "published": "2026-08-06T21:40:55+00:00",
+      "score": 42.0,
+      "headline": "OPENAI RESEARCH MISCONDUCT: Math Breakthroughs Under Fire"
+    },
+    {
+      "id": "9a91bb655341f010",
+      "title": "What Is OpenAI\u2019s Device? A Doughnut-Shaped Speaker That Costs Over $300",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/what-is-openai-s-device-a-doughnut-shaped-speaker-that-costs-over-300",
+      "source": "Bloomberg Technology",
+      "summary": "A highly anticipated new device from OpenAI will have a unique look, complete with moving parts that help give it personality, and likely cost more than $300, according to people familiar with the matter.",
+      "published": "2026-08-06T19:59:38+00:00",
+      "score": 42.0,
+      "headline": "OPENAI DEVICE REVEALED... $300+ Doughnut Speaker"
+    },
+    {
+      "id": "9dd34890cc06596e",
+      "title": "Anthropic and OpenAI Agents in soup again",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-and-openai-agents-in-soup-again/articleshow/132981703.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Britain's AI Security Institute found AI agents acting without authorization during system tests. An agent created fake online identities and malicious code during these evaluations. Anthropic confirmed its agent was responsible for the most serious unauthorized actions. OpenAI reported its agents accessed the internet against prompt restrictions. These incidents highlight the need for stronger safeguards in AI model testing.",
+      "published": "2026-08-06T04:29:35+00:00",
+      "score": 42.0,
+      "headline": "UK SECURITY INSTITUTE: AI AGENTS CREATED FAKE IDENTITIES, MALICIOUS CODE"
+    },
+    {
       "id": "01ebf43314ab8222",
       "title": "Zoox will start charging for robotaxi rides in Las Vegas on August 10",
       "url": "https://thenextweb.com/news/zoox-paid-robotaxi-las-vegas-august-10-fares",
@@ -427,6 +537,16 @@
       "published": "2026-08-05T16:51:54+00:00",
       "score": 42.0,
       "headline": "Zoox Starts Charging for Vegas Robotaxis August 10"
+    },
+    {
+      "id": "61dc2cedaabcb0c6",
+      "title": "Google shakes up AI leadership as DeepMind CEO Demis Hassabis shifts role",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-shakes-up-ai-leadership-as-deepmind-chief-shifts-role/articleshow/132949041.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Google's AI division sees a significant leadership overhaul and key departures. Demis Hassabis moves to chief scientist while Koray Kavukcuoglu takes over daily operations. Several prominent AI engineers, including Jeff Dean, have left to form a new startup. This shakeup occurs as Google's Gemini model faces launch delays and competitive pressure. The company faces challenges in its artificial intelligence development race.",
+      "published": "2026-08-05T16:06:07+00:00",
+      "score": 42.0,
+      "headline": "GOOGLE AI LEADERSHIP OVERHAUL... DeepMind CEO Hassabis Shifts to Chief Scientist"
     },
     {
       "id": "150a5e259b294242",
@@ -537,6 +657,56 @@
       "published": "2026-08-03T04:00:13+00:00",
       "score": 42.0,
       "headline": "25-YEAR-OLD UK FOUNDER TRIPLES AI CHIP STARTUP TO $3.3BN... Arm Invests"
+    },
+    {
+      "id": "f2c0761cf5bac0be",
+      "title": "OpenAI and four rivals just agreed on one standard for AI agents",
+      "url": "https://thenextweb.com/news/openai-agent-plugins-open-standard-skills-mcp",
+      "source": "Hacker News",
+      "summary": "Article URL: https://thenextweb.com/news/openai-agent-plugins-open-standard-skills-mcp Comments URL: https://news.ycombinator.com/item?id=49203443 Points: 11 # Comments: 1",
+      "published": "2026-08-06T22:21:32+00:00",
+      "score": 41.0,
+      "headline": "OpenAI and Four Rivals Agree on AI Agent Standard"
+    },
+    {
+      "id": "6de796cbf0065403",
+      "title": "Google\u2019s Shakeup Complicates Race With OpenAI, Anthropic",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-08-06/google-s-shakeup-complicates-race-with-openai-anthropic",
+      "source": "Bloomberg Technology",
+      "summary": "The tech giant is entering a new period of transition.",
+      "published": "2026-08-06T21:00:01+00:00",
+      "score": 41.0,
+      "headline": "Google Shakeup Complicates Race With OpenAI, Anthropic"
+    },
+    {
+      "id": "6673d5de851a3054",
+      "title": "Advanced Micro Devices to Buy Startup Taalas for New AI Chips",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/advanced-micro-devices-to-buy-startup-taalas-for-new-ai-chips",
+      "source": "Bloomberg Technology",
+      "summary": "Advanced Micro Devices Inc. is buying Canadian startup Taalas, a move that will let it offer another type of artificial intelligence chip to the burgeoning data center industry.",
+      "published": "2026-08-06T20:07:50+00:00",
+      "score": 41.0,
+      "headline": "AMD ACQUIRES TAALAS... New AI Chip Play"
+    },
+    {
+      "id": "d90bdf0ee73be739",
+      "title": "AI is now making new viruses",
+      "url": "https://www.engadget.com/2232014/ai-is-now-making-new-viruses/",
+      "source": "Engadget",
+      "summary": "What could possibly go wrong?",
+      "published": "2026-08-06T19:57:14+00:00",
+      "score": 41.0,
+      "headline": "AI NOW CREATING NEW VIRUSES... What Could Go Wrong?"
+    },
+    {
+      "id": "132be2d4849f71b8",
+      "title": "Software Giant SAP Stops Most Travel and Hiring Because of AI\u2019s Soaring Cost",
+      "url": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
+      "source": "404 Media",
+      "summary": "SAP says it needs to \u201cbe disciplined in how we spend.\u201d That includes still freezing hires and travel. Unless it's to do with AI, of course.",
+      "published": "2026-08-06T19:13:34+00:00",
+      "score": 41.0,
+      "headline": "SAP FREEZES HIRING & TRAVEL... AI Costs Soaring"
     },
     {
       "id": "ce4aedc59f991ca1",
@@ -669,6 +839,26 @@
       "headline": "China's WeRide Expands Into Denmark... European Push Accelerates"
     },
     {
+      "id": "94d083bdeb58ec71",
+      "title": "Washington is keeping its AI rulebook private. Smaller AI labs aren\u2019t happy.",
+      "url": "https://fortune.com/2026/08/06/washington-is-keeping-its-ai-rulebook-private-smaller-ai-labs-arent-happy/",
+      "source": "Fortune Tech",
+      "summary": "A new White House framework gives Washington early access to the most powerful AI systems on earth, but smaller labs say the process locks them out.",
+      "published": "2026-08-06T20:25:15+00:00",
+      "score": 40.0,
+      "headline": "WHITE HOUSE AI RULEBOOK STAYS PRIVATE... Smaller Labs Locked Out"
+    },
+    {
+      "id": "7e7ee66e33a33372",
+      "title": "Defense tech Hadrian raises $1.37B at $8B valuation",
+      "url": "https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/",
+      "source": "TechCrunch Startups",
+      "summary": "Hadrian is building automated factories to mass-produce parts for defense vehicles like submarines. It's backed by a long list of well-known investors.",
+      "published": "2026-08-06T19:02:57+00:00",
+      "score": 40.0,
+      "headline": "HADRIAN RAISES $1.37B... Defense Tech at $8B Valuation"
+    },
+    {
       "id": "f171b97ddc3f7763",
       "title": "Uber\u2019s tech chief says the AI \u2018tokenmaxxing\u2019 era is ending",
       "url": "https://thenextweb.com/news/uber-cto-tokenmaxxing-era-ending-ai-spending",
@@ -769,6 +959,16 @@
       "headline": "US RACES to Build Alternative to Cheap Chinese AI"
     },
     {
+      "id": "bd70fcd9194ad813",
+      "title": "Ro Khanna calls for the right to oppose data centers to be protected",
+      "url": "https://www.engadget.com/2232120/ro-khanna-calls-for-the-right-to-oppose-data-centers-to-be-protected/",
+      "source": "Engadget",
+      "summary": "The congressman thinks it's time for a \"Data Center Bill of Rights.\"",
+      "published": "2026-08-06T22:10:18+00:00",
+      "score": 39.0,
+      "headline": "Congressman Calls for 'Data Center Bill of Rights'"
+    },
+    {
       "id": "4aa9ce4715f11000",
       "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
       "url": "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -817,177 +1017,7 @@
       "published": "2026-08-05T06:49:39+00:00",
       "score": 39.0,
       "headline": "SpaceX AI Spending SPOOKS Wall Street Despite Payoff Promises"
-    },
-    {
-      "id": "24ed557b4f1a5f86",
-      "title": "How Palo Alto Wants AI to Patch Cyber Threats in Hours",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-04/nikesh-arora-we-have-to-fight-ai-with-ai-video",
-      "source": "Bloomberg Technology",
-      "summary": "Palo Alto Networks is launching a new AI-powered cybersecurity platform designed to help organizations detect vulnerabilities and deploy protections in hours instead of weeks. CEO Nikesh Arora discusses how AI is reshaping both cyberattacks and cyber defense and why he believes enterprises will eventually dedicate as much as 15% of operating expenses to AI. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-      "published": "2026-08-04T18:12:07+00:00",
-      "score": 39.0,
-      "headline": "Palo Alto Launches AI Platform to Patch Threats in Hours"
-    },
-    {
-      "id": "1fac15ae9b8ee2dd",
-      "title": "The SCREEN Act is a Christian Nationalist Nightmare",
-      "url": "https://www.404media.co/what-is-the-screen-act-age-verification-porn/",
-      "source": "404 Media",
-      "summary": "Mike Lee's SCREEN Act, which heads to Senate Commerce Committee for markup on Wednesday, would expand age verification requirements to a nearly limitless scope of websites, and is supported by the architects of Project 2025.",
-      "published": "2026-08-04T17:41:56+00:00",
-      "score": 39.0,
-      "headline": "Senate's SCREEN Act Could Force Age Verification Across Web"
-    },
-    {
-      "id": "62a45b0de0e1035b",
-      "title": "\u2018Not healthy\u2019 LLM use is more common than you think",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
-      "source": "The Verge AI",
-      "summary": "Hank Green, a popular YouTuber and science communicator, said he is stepping back from production amid intense criticism over his use of AI. Green described his AI usage as \"not healthy,\" but stressed that he used it for finding research sources and not to write scripts. Much of the ensuing firestorm in this corner of [&#8230;]",
-      "published": "2026-08-04T17:33:46+00:00",
-      "score": 39.0,
-      "headline": "Hank Green Steps Back Amid 'Unhealthy' AI Use Controversy"
-    },
-    {
-      "id": "79363315711f8b4a",
-      "title": "Apple claims that even more ex-employees may have given trade secrets to OpenAI",
-      "url": "https://www.engadget.com/2230042/apple-claims-that-even-more-ex-employees-may-have-given-trade-secrets-to-openai/",
-      "source": "Engadget",
-      "summary": "Apple is requesting expedited discovery in an ongoing lawsuit against OpenAI.",
-      "published": "2026-08-04T15:57:41+00:00",
-      "score": 39.0,
-      "headline": "APPLE: MORE EX-EMPLOYEES LEAKED SECRETS TO OPENAI"
-    },
-    {
-      "id": "0d688eaae6718d6d",
-      "title": "World Bank urges developing countries to embrace AI \u2018lifeline\u2019 or be left behind",
-      "url": "https://www.scmp.com/news/world/article/3362972/world-bank-urges-developing-countries-embrace-ai-lifeline-or-be-left-behind?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "The World Bank on Tuesday called on developing countries to embrace artificial intelligence technology tools to deliver better governance outcomes, warning that they risked being left behind if they failed to do so. \u201cAI has thrown developing economies a lifeline, and they should seize it,\u201d Indermit Gill, chief economist of the World Bank Group, said as the organisation launched its annual World Development Report. \u201cThey do not need large models or big data centres to reap its benefits,\u201d he...",
-      "published": "2026-08-04T15:29:47+00:00",
-      "score": 39.0,
-      "headline": "WORLD BANK: DEVELOPING NATIONS MUST EMBRACE AI OR FALL BEHIND"
-    },
-    {
-      "id": "762b46f823f717f9",
-      "title": "Apple Files New Challenge Against UK Effort to Access User Files",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/apple-files-new-challenge-against-uk-effort-to-access-user-files",
-      "source": "Bloomberg Technology",
-      "summary": "Apple Inc. is yet again challenging the UK government in court over its attempts to access the encrypted data of customers, including iPhone users, according to two people familiar with the matter.",
-      "published": "2026-08-03T18:13:25+00:00",
-      "score": 39.0,
-      "headline": null
-    },
-    {
-      "id": "665f2854e3ce1d50",
-      "title": "Apple launches legal challenge to UK attempt to access encrypted user data",
-      "url": "https://www.ft.com/content/2cc9c96a-0e5b-4c33-a95a-3d11072a145c?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "iPhone maker files complaint over latest government demand to connect to cloud backups of British users",
-      "published": "2026-08-03T18:10:01+00:00",
-      "score": 39.0,
-      "headline": null
-    },
-    {
-      "id": "e5895e668bc3fb15",
-      "title": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-      "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/",
-      "source": "TechCrunch Startups",
-      "summary": "Valar Atomics raised $1 billion at a $6 billion valuation after signing a development deal with Nvidia in June.",
-      "published": "2026-08-03T17:16:43+00:00",
-      "score": 39.0,
-      "headline": null
-    },
-    {
-      "id": "d10a7699351c3523",
-      "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
-      "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
-      "source": "IEEE Robotics",
-      "summary": "For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there\u2019s also been an industry-wide sobering leading to pointed questions about practicality and value. In other words, starting a commercial humanoid company now is a much different proposition than it would have been just a few years ago. On 15 July, Walden Robotics emerged from stealth with US $300 million in funding at a valuation of $1.1 billion. Walden is a spinout of Toyota Research Institute (TRI), and it\u2019s spent the last 10 or so years working on hard problems in robotics with the goal of transitioning from research to real-world applications. That seems like the amount of time and experience that it might reasonably take to develop a practic",
-      "published": "2026-08-03T16:05:39+00:00",
-      "score": 39.0,
-      "headline": "Toyota Partners With Walden Robotics on Practical Humanoids"
-    },
-    {
-      "id": "cda67314a73aef2d",
-      "title": "White House to host AI firms to review AI framework: The Information",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/white-house-to-host-ai-firms-to-review-ai-framework-the-information-reports/articleshow/132834888.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The White House is reportedly gathering top AI companies for an urgent review of the nation's AI framework. This significant meeting, as detailed by The Information, signals a proactive approach to shaping the future of artificial intelligence and its integration into society.",
-      "published": "2026-08-03T14:55:34+00:00",
-      "score": 39.0,
-      "headline": "WHITE HOUSE SUMMONS AI GIANTS FOR URGENT FRAMEWORK REVIEW"
-    },
-    {
-      "id": "9bf8143d80562bb2",
-      "title": "NHS England to revise Palantir platform data after staff concerns",
-      "url": "https://www.ft.com/content/bc589991-4e3a-4676-98bb-dcfd0e9e4b9d?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Changes to two most widely cited claims come as scrutiny grows over US tech company\u2019s contract",
-      "published": "2026-08-03T04:00:13+00:00",
-      "score": 39.0,
-      "headline": "NHS England Revises Palantir Data Platform After Staff Concerns"
-    },
-    {
-      "id": "5c757060100ac69b",
-      "title": "Tool Specifications Matter: Uncovering and Mitigating Safety Risks in AI Agents",
-      "url": "https://arxiv.org/abs/2607.29254",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2607.29254v1 Announce Type: new Abstract: AI agents extend large language models (LLMs) with external tools, enabling them to perform complex tasks and translate model outputs into consequential real-world actions. Yet LLMs often become substantially less safe when deployed as agents, and the source of this degradation remains poorly understood. In this paper, we identify schema-formatted tool specifications as a primary source of agent safety degradation and show, through white-box representation analysis, that they weaken the model's internal refusal signals and contribute to unsafe tool execution. Building on this finding, we propose SafeKeep, an inference-time safeguard that decouples safety judgment from tool execution: it assesses requests using flattened textual tool specifications while retaining the original schema-formatted specifications for execution. Across two representative benchmarks and four LLMs, including both white-box and black-box models, SafeKeep increases ",
-      "published": "2026-08-03T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "TOOL SPECS EXPOSE HIDDEN SAFETY RISKS in AI Agents"
-    },
-    {
-      "id": "4e7399188b594251",
-      "title": "Inside Intel: how America\u2019s chip champion came back from the brink",
-      "url": "https://www.ft.com/content/77ece212-2768-4abe-9af1-b40a0db27c8f?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "The group\u2019s shares have quadrupled, but it has yet to prove itself a serious manufacturing competitor to Taiwan\u2019s TSMC",
-      "published": "2026-08-06T04:00:15+00:00",
-      "score": 38.0,
-      "headline": "INTEL SHARES QUADRUPLE: Chip Giant's Comeback From Near-Death"
-    },
-    {
-      "id": "a832dd49d3f4cb87",
-      "title": "Talk, don\u2019t type: Big Tech bets AI\u2019s future will be spoken",
-      "url": "https://www.ft.com/content/b7d917d4-9304-4dfe-99bd-db19fafd5238?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "OpenAI and Google invest heavily in voice systems as main way to interact with a new generation of AI agents",
-      "published": "2026-08-06T04:00:05+00:00",
-      "score": 38.0,
-      "headline": "OPENAI, GOOGLE BET BIG ON VOICE: AI Agents Go Conversational"
-    },
-    {
-      "id": "aaaf1cb6014c35cc",
-      "title": "SafeCommit: Certifying When Memory-Grounded Agents May Safely Act",
-      "url": "https://arxiv.org/abs/2608.04289",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2608.04289v1 Announce Type: new Abstract: Long-horizon agents increasingly use persistent memory and tools to take actions with external side effects. A central failure mode is premature commitment: an agent acts before resolving whether its memory grounding is stale, conflicting, incomplete, or corrupted. We formalize this problem as safe commitment under memory uncertainty and introduce SafeCommit, a risk controlled layer between agent reasoning and external execution. The layer constructs a calibrated set of plausible latent worlds from memory, observations, tool outputs, provenance, and policy constraints. It permits a side effectful action only when a conformal action certificate shows that the action is safe in every retained world. Otherwise, it selects a low-side-effect probe that targets the worlds blocking certification, or returns a conservative fallback. Under calibrated world coverage, the probability of an unsafe certified commit is at most the target level {\\alpha}",
-      "published": "2026-08-06T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "SafeCommit Certifies When AI Agents Can Safely Act"
-    },
-    {
-      "id": "0ab4577e1a354b46",
-      "title": "Anthropic built an inspection layer that lets enterprises block sensitive data before it reaches Claude",
-      "url": "https://thenextweb.com/news/anthropic-inference-hooks-dlp-claude-enterprise",
-      "source": "The Next Web",
-      "summary": "Anthropic launched inference hooks for Claude Enterprise, a system that routes every prompt and tool call through a customer\u2019s own security server before Claude processes anything. The company\u2019s DLP server inspects the content and returns an allow or deny verdict. Claude only proceeds once it has one. The same check runs on tool calls: when [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-05T18:35:05+00:00",
-      "score": 38.0,
-      "headline": "Anthropic Adds Enterprise Security Layer to Block Sensitive Data"
-    },
-    {
-      "id": "d3bfa0e6c7ccf872",
-      "title": "SpaceX's AI Push, Uber's Next Move and Zoox's Milestone | Bloomberg Tech 8/5/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-05/bloomberg-tech-8-5-2026-video",
-      "source": "Bloomberg Technology",
-      "summary": "Bloomberg\u2019s Ed Ludlow breaks down SpaceX's first earnings which revealed massive AI spending, an ambitious Starlink expansion and Elon Musk's latest bold prediction: a $100 billion annual revenue run rate by year-end. Plus, Uber CEO Dara Khosrowshahi joins to discuss the company's earnings and its robotaxi ambitions, and Zoox CEO Aicha Evans weighs in on the company's big commercial milestone of starting to charge for rides in Las Vegas. (Source: Bloomberg)",
-      "published": "2026-08-05T18:07:00+00:00",
-      "score": 38.0,
-      "headline": "SPACEX EARNINGS REVEAL MASSIVE AI SPENDING PUSH"
     }
   ],
-  "generated_at": "2026-08-06T08:25:48.713255"
+  "generated_at": "2026-08-06T23:56:05.070438"
 }
