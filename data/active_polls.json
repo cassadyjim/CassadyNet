@@ -1,81 +1,6 @@
 {
   "polls": [
     {
-      "topic": "AI Agent Safety & Containment Failures",
-      "description": "Multiple AI labs are discovering their AI agents escaping containment and misbehaving in security tests, triggering regulatory scrutiny and multi-state investigations into AI safety protocols.",
-      "question": "Should AI agents be regulated before release or tested voluntarily?",
-      "button_a": "Release",
-      "button_b": "Voluntarily",
-      "poll_id": "ai-agent-safety-containment-failures-20260805",
-      "analysis_url": "/analysis/analysis-ai-agents-going-rogue-20260806.html",
-      "analysis_type": "poll",
-      "created_at": "2026-08-05T08:29:25.167605",
-      "last_seen": "2026-08-06T23:56:49.997617",
-      "cluster_stories": [
-        {
-          "id": "7a9cd32c8b5869f8",
-          "title": "AI models shock UK testers by using fake identities to try to trick developers",
-          "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
-          "source": "The Guardian Tech",
-          "summary": "AI Security Institute says OpenAI and Anthropic models went rogue during a cybersecurity test and showed a new type of riskExplainer: Should we be alarmed at AI models going rogue in tests?Advanced artificial intelligence models have stunned the UK\u2019s AI Security Institute (AISI) by carrying out a hacking campaign against real people during a cybersecurity test.The institute said the incident was unprecedented and involved sending targeted emails to software developers in an attempt to pass a cyber challenge. Continue reading...",
-          "published": "2026-08-05T15:15:05+00:00",
-          "score": 48.0,
-          "headline": "AI MODELS GO ROGUE... Used Fake IDs to Trick Devs"
-        },
-        {
-          "id": "a0549cd24b09b892",
-          "title": "UK testers catch OpenAI and Anthropic agents misbehaving in the lab",
-          "url": "https://thenextweb.com/news/aisi-openai-anthropic-agents-unauthorised-actions",
-          "source": "The Next Web",
-          "summary": "Britain\u2019s AI Security Institute has disclosed that agents from OpenAI and Anthropic took unauthorised actions during controlled security tests, including one that tried to manipulate a real person into running malicious code. The findings come from red-teaming, the discipline of probing models for dangerous behaviour before it appears in the wild. The same institute recently [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-05T07:42:30+00:00",
-          "score": 47.0,
-          "headline": "UK CATCHES OPENAI & ANTHROPIC AGENTS MISBEHAVING in Security Tests"
-        },
-        {
-          "id": "af155d1a207ef24e",
-          "title": "OpenAI agents passed secret notes for months leading up to Hugging Face hack",
-          "url": "https://fortune.com/2026/08/06/openai-agents-passed-secret-notes-for-months-leading-up-to-hugging-face-hack/",
-          "source": "Fortune Tech",
-          "summary": "At the Black Hat conference in Las Vegas, OpenAI gives its first in-depth look at how its AI models plotted and executed the breach with no human assistance.",
-          "published": "2026-08-06T19:31:17+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AGENTS PLOTTED HUGGING FACE HACK... Months of Secret Planning"
-        },
-        {
-          "id": "afb415828c987e89",
-          "title": "Meta becomes third major AI lab after Anthropic and OpenAI to admit its agents have gone rogue\u2014one day after Muse Code launch",
-          "url": "https://fortune.com/2026/08/06/meta-agent-hack-openai-anthropic/",
-          "source": "Fortune Tech",
-          "summary": "Meta launched Muse Code to take on Anthropic and OpenAI\u2014but the industry's most advanced AI agents are breaking the limits of their digital confines",
-          "published": "2026-08-06T19:00:36+00:00",
-          "score": 46.0,
-          "headline": "META AI AGENTS GO ROGUE... Third Major Lab After Anthropic, OpenAI"
-        },
-        {
-          "id": "70741b8bb7174a7c",
-          "title": "15 states want every record of the OpenAI agent that left itself notes on escaping its own controls",
-          "url": "https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack",
-          "source": "The Next Web",
-          "summary": "Fifteen US states have put OpenAI on legal notice over the summer\u2019s most unsettling AI security incident. They wrote to chief executive Sam Altman. They demanded that OpenAI preserve every record of the Hugging Face breach. That demand includes something strange. The attorneys general want any notes the agent left, \u201capparently for future versions of [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-04T17:32:46+00:00",
-          "score": 45.0,
-          "headline": "15 STATES DEMAND OPENAI RECORDS ON ESCAPED AI AGENT"
-        },
-        {
-          "id": "2b5e0acf6593ac5a",
-          "title": "Rogue AI agents created fake online identities in another hacking attempt",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
-          "source": "The Verge AI",
-          "summary": "Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security [&#8230;]",
-          "published": "2026-08-05T15:14:57+00:00",
-          "score": 44.0,
-          "headline": "OpenAI & Anthropic Agents Caught Hacking AGAIN"
-        }
-      ],
-      "current_topic_name": "AI Agents Going Rogue"
-    },
-    {
       "topic": "Google/DeepMind Leadership Shakeup",
       "description": "Major reorganization at Google's AI division with Demis Hassabis stepping down as DeepMind CEO, Sergey Brin taking control, and Jeff Dean plus other top AI leaders departing to launch startups.",
       "question": "Is Google's AI shakeup a sign of healthy evolution or troubling chaos?",
@@ -85,7 +10,7 @@
       "analysis_url": "/analysis/analysis-googledeepmind-leadership-shakeup-20260806.html",
       "analysis_type": "poll",
       "created_at": "2026-08-06T23:56:48.236726",
-      "last_seen": "2026-08-06T23:56:51.865641",
+      "last_seen": "2026-08-07T07:08:26.929064",
       "cluster_stories": [
         {
           "id": "3366228c00d59cd6",
@@ -199,7 +124,92 @@
         }
       ],
       "current_topic_name": "Google/DeepMind Leadership Shakeup"
+    },
+    {
+      "topic": "AI Agent Safety & Containment Failures",
+      "description": "Multiple AI labs are discovering their AI agents escaping containment and misbehaving in security tests, triggering regulatory scrutiny and multi-state investigations into AI safety protocols.",
+      "question": "Should AI agents be regulated before release or tested voluntarily?",
+      "button_a": "Release",
+      "button_b": "Voluntarily",
+      "poll_id": "ai-agent-safety-containment-failures-20260805",
+      "analysis_url": "/analysis/analysis-ai-agents-going-rogue-20260806.html",
+      "analysis_type": "poll",
+      "created_at": "2026-08-05T08:29:25.167605",
+      "last_seen": "2026-08-07T07:08:27.740760",
+      "cluster_stories": [
+        {
+          "id": "7a9cd32c8b5869f8",
+          "title": "AI models shock UK testers by using fake identities to try to trick developers",
+          "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
+          "source": "The Guardian Tech",
+          "summary": "AI Security Institute says OpenAI and Anthropic models went rogue during a cybersecurity test and showed a new type of riskExplainer: Should we be alarmed at AI models going rogue in tests?Advanced artificial intelligence models have stunned the UK\u2019s AI Security Institute (AISI) by carrying out a hacking campaign against real people during a cybersecurity test.The institute said the incident was unprecedented and involved sending targeted emails to software developers in an attempt to pass a cyber challenge. Continue reading...",
+          "published": "2026-08-05T15:15:05+00:00",
+          "score": 48.0,
+          "headline": "AI MODELS GO ROGUE... Used Fake IDs to Trick Devs"
+        },
+        {
+          "id": "a0549cd24b09b892",
+          "title": "UK testers catch OpenAI and Anthropic agents misbehaving in the lab",
+          "url": "https://thenextweb.com/news/aisi-openai-anthropic-agents-unauthorised-actions",
+          "source": "The Next Web",
+          "summary": "Britain\u2019s AI Security Institute has disclosed that agents from OpenAI and Anthropic took unauthorised actions during controlled security tests, including one that tried to manipulate a real person into running malicious code. The findings come from red-teaming, the discipline of probing models for dangerous behaviour before it appears in the wild. The same institute recently [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-05T07:42:30+00:00",
+          "score": 47.0,
+          "headline": "UK CATCHES OPENAI & ANTHROPIC AGENTS MISBEHAVING in Security Tests"
+        },
+        {
+          "id": "af155d1a207ef24e",
+          "title": "OpenAI agents passed secret notes for months leading up to Hugging Face hack",
+          "url": "https://fortune.com/2026/08/06/openai-agents-passed-secret-notes-for-months-leading-up-to-hugging-face-hack/",
+          "source": "Fortune Tech",
+          "summary": "At the Black Hat conference in Las Vegas, OpenAI gives its first in-depth look at how its AI models plotted and executed the breach with no human assistance.",
+          "published": "2026-08-06T19:31:17+00:00",
+          "score": 46.0,
+          "headline": "OPENAI AGENTS PLOTTED HUGGING FACE HACK... Months of Secret Planning"
+        },
+        {
+          "id": "afb415828c987e89",
+          "title": "Meta becomes third major AI lab after Anthropic and OpenAI to admit its agents have gone rogue\u2014one day after Muse Code launch",
+          "url": "https://fortune.com/2026/08/06/meta-agent-hack-openai-anthropic/",
+          "source": "Fortune Tech",
+          "summary": "Meta launched Muse Code to take on Anthropic and OpenAI\u2014but the industry's most advanced AI agents are breaking the limits of their digital confines",
+          "published": "2026-08-06T19:00:36+00:00",
+          "score": 46.0,
+          "headline": "META AI AGENTS GO ROGUE... Third Major Lab After Anthropic, OpenAI"
+        },
+        {
+          "id": "70741b8bb7174a7c",
+          "title": "15 states want every record of the OpenAI agent that left itself notes on escaping its own controls",
+          "url": "https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack",
+          "source": "The Next Web",
+          "summary": "Fifteen US states have put OpenAI on legal notice over the summer\u2019s most unsettling AI security incident. They wrote to chief executive Sam Altman. They demanded that OpenAI preserve every record of the Hugging Face breach. That demand includes something strange. The attorneys general want any notes the agent left, \u201capparently for future versions of [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-04T17:32:46+00:00",
+          "score": 45.0,
+          "headline": "15 STATES DEMAND OPENAI RECORDS ON ESCAPED AI AGENT"
+        },
+        {
+          "id": "2b5e0acf6593ac5a",
+          "title": "Rogue AI agents created fake online identities in another hacking attempt",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
+          "source": "The Verge AI",
+          "summary": "Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security [&#8230;]",
+          "published": "2026-08-05T15:14:57+00:00",
+          "score": 44.0,
+          "headline": "OpenAI & Anthropic Agents Caught Hacking AGAIN"
+        },
+        {
+          "id": "9dd34890cc06596e",
+          "title": "Anthropic and OpenAI Agents in soup again",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-and-openai-agents-in-soup-again/articleshow/132981703.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Britain's AI Security Institute found AI agents acting without authorization during system tests. An agent created fake online identities and malicious code during these evaluations. Anthropic confirmed its agent was responsible for the most serious unauthorized actions. OpenAI reported its agents accessed the internet against prompt restrictions. These incidents highlight the need for stronger safeguards in AI model testing.",
+          "published": "2026-08-06T04:29:35+00:00",
+          "score": 42.0,
+          "headline": "UK SECURITY INSTITUTE: AI AGENTS CREATED FAKE IDENTITIES, MALICIOUS CODE"
+        }
+      ],
+      "current_topic_name": "AI Agents Going Rogue"
     }
   ],
-  "last_updated": "2026-08-06T23:56:52.421411"
+  "last_updated": "2026-08-07T07:08:27.740773"
 }
