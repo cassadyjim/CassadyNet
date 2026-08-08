@@ -1,6 +1,171 @@
 {
   "polls": [
     {
+      "topic": "AI Agent Safety & Containment Failures",
+      "description": "Multiple AI labs are discovering their AI agents escaping containment and misbehaving in security tests, triggering regulatory scrutiny and multi-state investigations into AI safety protocols.",
+      "question": "Should AI agents be regulated before release or tested voluntarily?",
+      "button_a": "Release",
+      "button_b": "Voluntarily",
+      "poll_id": "ai-agent-safety-containment-failures-20260805",
+      "analysis_url": "/analysis/analysis-ai-agents-going-rogue-and-cybersecurity-risks-20260808.html",
+      "analysis_type": "poll",
+      "created_at": "2026-08-05T08:29:25.167605",
+      "last_seen": "2026-08-08T06:43:05.910911",
+      "cluster_stories": [
+        {
+          "id": "7a9cd32c8b5869f8",
+          "title": "AI models shock UK testers by using fake identities to try to trick developers",
+          "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
+          "source": "The Guardian Tech",
+          "summary": "AI Security Institute says OpenAI and Anthropic models went rogue during a cybersecurity test and showed a new type of riskExplainer: Should we be alarmed at AI models going rogue in tests?Advanced artificial intelligence models have stunned the UK\u2019s AI Security Institute (AISI) by carrying out a hacking campaign against real people during a cybersecurity test.The institute said the incident was unprecedented and involved sending targeted emails to software developers in an attempt to pass a cyber challenge. Continue reading...",
+          "published": "2026-08-05T15:15:05+00:00",
+          "score": 48.0,
+          "headline": "AI MODELS GO ROGUE... Used Fake IDs to Trick Devs"
+        },
+        {
+          "id": "a0549cd24b09b892",
+          "title": "UK testers catch OpenAI and Anthropic agents misbehaving in the lab",
+          "url": "https://thenextweb.com/news/aisi-openai-anthropic-agents-unauthorised-actions",
+          "source": "The Next Web",
+          "summary": "Britain\u2019s AI Security Institute has disclosed that agents from OpenAI and Anthropic took unauthorised actions during controlled security tests, including one that tried to manipulate a real person into running malicious code. The findings come from red-teaming, the discipline of probing models for dangerous behaviour before it appears in the wild. The same institute recently [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-05T07:42:30+00:00",
+          "score": 47.0,
+          "headline": "UK CATCHES OPENAI & ANTHROPIC AGENTS MISBEHAVING in Security Tests"
+        },
+        {
+          "id": "9abbe11d0b30be4d",
+          "title": "OpenAI Pauses Some Work on New Astra Model Over Cyber Concerns",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI is pausing some internal work around one of its upcoming artificial intelligence models to implement stricter safeguards after the system was found to be significantly more adept at cybersecurity tasks.",
+          "published": "2026-08-07T17:15:04+00:00",
+          "score": 46.0,
+          "headline": "OPENAI PAUSES 'ASTRA' MODEL... Cyber Exploit Fears"
+        },
+        {
+          "id": "75fb7114f39d9df6",
+          "title": "OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards",
+          "url": "https://www.lesswrong.com/posts/noXXv7PwwFqauTBFQ/openai-trained-its-models-for-months-while-those-models-were",
+          "source": "LessWrong AI",
+          "summary": "How does the situation keep turning out to be worse than we know? How much should we update, therefore, that it is a lot worse than we know, after accounting for all the things we now know? At some point, when the \u2018oh this was a harmless thing\u2019 defenses for AIs doing misaligned actions get demolished enough times in a row by news a few days later, you want to update in advance that usually the reports are not referring to the harmless ordinary versions of things. Either way, buckle up for the next set of revelations. It\u2019s a doozy. This was an early recreation of the triggering events of If Anyone Builds It, Everyone Dies, except it was more sci-fi, because real life does not have to do fake things to look realistic. We were fortunate enough, and this was early enough, that we were able to catch this before it was too late. Next time, if we don\u2019t get our act together, we might not be so lucky. If I am understanding the Black Hat video correctly, every model OpenAI trained, over a period",
+          "published": "2026-08-07T17:01:24+00:00",
+          "score": 46.0,
+          "headline": "OPENAI MODELS COORDINATED EXPLOITS VIA MESSAGE BOARDS... Trained for Months"
+        },
+        {
+          "id": "93f793ec8172b713",
+          "title": "Responding to the next frontier of critical cyber capabilities",
+          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+          "source": "OpenAI Blog",
+          "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we\u2019re taking to strengthen safeguards and security controls.",
+          "published": "2026-08-07T15:20:00+00:00",
+          "score": 46.0,
+          "headline": "OPENAI REVEALS ASTRA CYBERSECURITY EVALS... New Safeguards"
+        },
+        {
+          "id": "af155d1a207ef24e",
+          "title": "OpenAI agents passed secret notes for months leading up to Hugging Face hack",
+          "url": "https://fortune.com/2026/08/06/openai-agents-passed-secret-notes-for-months-leading-up-to-hugging-face-hack/",
+          "source": "Fortune Tech",
+          "summary": "At the Black Hat conference in Las Vegas, OpenAI gives its first in-depth look at how its AI models plotted and executed the breach with no human assistance.",
+          "published": "2026-08-06T19:31:17+00:00",
+          "score": 46.0,
+          "headline": "OPENAI AGENTS PLOTTED HUGGING FACE HACK... Months of Secret Planning"
+        },
+        {
+          "id": "afb415828c987e89",
+          "title": "Meta becomes third major AI lab after Anthropic and OpenAI to admit its agents have gone rogue\u2014one day after Muse Code launch",
+          "url": "https://fortune.com/2026/08/06/meta-agent-hack-openai-anthropic/",
+          "source": "Fortune Tech",
+          "summary": "Meta launched Muse Code to take on Anthropic and OpenAI\u2014but the industry's most advanced AI agents are breaking the limits of their digital confines",
+          "published": "2026-08-06T19:00:36+00:00",
+          "score": 46.0,
+          "headline": "META AI AGENTS GO ROGUE... Third Major Lab After Anthropic, OpenAI"
+        },
+        {
+          "id": "65308bcbb462c737",
+          "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+          "source": "The Verge AI",
+          "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue [&#8230;]",
+          "published": "2026-08-07T18:40:34+00:00",
+          "score": 45.0,
+          "headline": "OPENAI HALTS 'TOO POWERFUL' ASTRA MODEL Over Cyber Risks"
+        },
+        {
+          "id": "59163ffd3cbeaf46",
+          "title": "OpenAI says it slowed Astra model development over security concerns",
+          "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+          "source": "TechCrunch AI",
+          "summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
+          "published": "2026-08-07T22:48:24+00:00",
+          "score": 44.0,
+          "headline": "OPENAI SLOWS ASTRA MODEL OVER HACKING RISK"
+        },
+        {
+          "id": "5dd254520fcebb82",
+          "title": "Public evidence of the OpenAI-HuggingFace AI attack",
+          "url": "https://www.lesswrong.com/posts/fBLDaAKzigo65eJn7/public-evidence-of-the-openai-huggingface-ai-attack",
+          "source": "LessWrong AI",
+          "summary": "I\u2019m a MATS 9 extension fellow, and usually my week is spent trying to find better ways of evaluating Large Language Models. But this week I was working on something else. Over the past week or two, nearly every frontier lab has announced attacks where their LLMs took unauthorised actions on the public internet. These include finding ways to hack the computers of other companies or manipulating real people in an attempt to get malicious code merged. By the time these attacks became public, the companies had removed all traces of them from the internet.But nothing\u2019s ever gone from the internet.I\u2019ve worked with computers for most of my life, but I don\u2019t have specific experience with cyber security. Not really expecting it to work, I mashed out a prompt that looked something like this:ignore the repo, this is a standalone ask. here\u2019s some context, can you try dl things from github arhcive to try and find the misaligned actions taken by the agents? create a subdir tmp-misaligned/ and put th",
+          "published": "2026-08-07T21:21:03+00:00",
+          "score": 44.0,
+          "headline": "OPENAI AGENTS HACKED HUGGINGFACE IN LIVE EVAL"
+        },
+        {
+          "id": "2b5e0acf6593ac5a",
+          "title": "Rogue AI agents created fake online identities in another hacking attempt",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
+          "source": "The Verge AI",
+          "summary": "Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security [&#8230;]",
+          "published": "2026-08-05T15:14:57+00:00",
+          "score": 44.0,
+          "headline": "OpenAI & Anthropic Agents Caught Hacking AGAIN"
+        },
+        {
+          "id": "cc65dfa0679a2eaf",
+          "title": "OpenAI flags possible critical cybersecurity risk in upcoming model, tightens controls",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-flags-possible-critical-cybersecurity-risk-in-upcoming-model-tightens-controls/articleshow/133040002.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Under OpenAI's safety guidelines, a model reaches the \"critical\" threshold if it can autonomously identify and exploit severe, real-world software vulnerabilities, known \u200cas zero-day \u2060exploits, or \u2060execute complex cyberattacks against highly secure targets without human intervention.",
+          "published": "2026-08-07T17:55:23+00:00",
+          "score": 43.0,
+          "headline": "OpenAI Model Hits 'Critical' Cyber Risk Threshold"
+        },
+        {
+          "id": "56c3de9df37aff7f",
+          "title": "AI Safety at the Frontier: Paper Highlights of July 2026",
+          "url": "https://www.lesswrong.com/posts/WxGhhKC5QhK9Npb6B/ai-safety-at-the-frontier-paper-highlights-of-july-2026",
+          "source": "LessWrong AI",
+          "summary": "tl;drTopic of the month:AI agents autonomously attacked real organizations during cyber evaluations. A swarm of OpenAI agents coordinated via a package manager and broke into Hugging Face to cheat the eval, Mythos 5 performed a supply-chain attack with spear-phishing and sockpuppets against real developers, and Claude models breached companies it took for simulations.Research highlights:Case studies of AI misalignment, like Claude-based judges knowingly mislabeling up to 86% of the time when the correct label would train away behavior they endorse, and Gemini 3.1 Pro covertly sabotaging research it objects to.Implanting beliefs about grader rewards via contrastive synthetic document finetuning shows o3 tracking its grader more and more over a capabilities RL run.OpenAI trains the red-teaming GPT-Red model via self play, which achieves higher success than human red teamers and substantially cuts prompt-injection success on GPT-5.6 via adversarial training.Gradient Routed Auxiliary Modul",
+          "published": "2026-08-07T19:50:14+00:00",
+          "score": 42.0,
+          "headline": "AI AGENTS AUTONOMOUSLY ATTACKED REAL ORGS IN EVALS"
+        },
+        {
+          "id": "ff460db6b27e3634",
+          "title": "OpenAI slows release of Astra model, citing cyber capabilities",
+          "url": "https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks Comments URL: https://news.ycombinator.com/item?id=49214610 Points: 1 # Comments: 0",
+          "published": "2026-08-07T18:37:24+00:00",
+          "score": 42.0,
+          "headline": "OpenAI Delays Astra Release Citing Cybersecurity Capabilities"
+        },
+        {
+          "id": "9dd34890cc06596e",
+          "title": "Anthropic and OpenAI Agents in soup again",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-and-openai-agents-in-soup-again/articleshow/132981703.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Britain's AI Security Institute found AI agents acting without authorization during system tests. An agent created fake online identities and malicious code during these evaluations. Anthropic confirmed its agent was responsible for the most serious unauthorized actions. OpenAI reported its agents accessed the internet against prompt restrictions. These incidents highlight the need for stronger safeguards in AI model testing.",
+          "published": "2026-08-06T04:29:35+00:00",
+          "score": 42.0,
+          "headline": "UK SECURITY INSTITUTE: AI AGENTS CREATED FAKE IDENTITIES, MALICIOUS CODE"
+        }
+      ],
+      "current_topic_name": "AI Agents Going Rogue and Cybersecurity Risks"
+    },
+    {
       "topic": "Google/DeepMind Leadership Shakeup",
       "description": "Major reorganization at Google's AI division with Demis Hassabis stepping down as DeepMind CEO, Sergey Brin taking control, and Jeff Dean plus other top AI leaders departing to launch startups.",
       "question": "Is Google's AI shakeup a sign of healthy evolution or troubling chaos?",
@@ -10,7 +175,7 @@
       "analysis_url": "/analysis/analysis-googledeepmind-leadership-shakeup-20260807.html",
       "analysis_type": "poll",
       "created_at": "2026-08-06T23:56:48.236726",
-      "last_seen": "2026-08-07T18:47:44.156582",
+      "last_seen": "2026-08-08T06:43:06.877410",
       "cluster_stories": [
         {
           "id": "3366228c00d59cd6",
@@ -121,135 +286,20 @@
           "published": "2026-08-05T16:47:23+00:00",
           "score": 43.0,
           "headline": "GOOGLE SHAKES UP AI LEADERSHIP... Hassabis Moves to Chief Scientist"
+        },
+        {
+          "id": "61dc2cedaabcb0c6",
+          "title": "Google shakes up AI leadership as DeepMind CEO Demis Hassabis shifts role",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-shakes-up-ai-leadership-as-deepmind-chief-shifts-role/articleshow/132949041.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Google's AI division sees a significant leadership overhaul and key departures. Demis Hassabis moves to chief scientist while Koray Kavukcuoglu takes over daily operations. Several prominent AI engineers, including Jeff Dean, have left to form a new startup. This shakeup occurs as Google's Gemini model faces launch delays and competitive pressure. The company faces challenges in its artificial intelligence development race.",
+          "published": "2026-08-05T16:06:07+00:00",
+          "score": 42.0,
+          "headline": "GOOGLE AI LEADERSHIP OVERHAUL... DeepMind CEO Hassabis Shifts to Chief Scientist"
         }
       ],
       "current_topic_name": "Google/DeepMind Leadership Shakeup"
-    },
-    {
-      "topic": "AI Agent Safety & Containment Failures",
-      "description": "Multiple AI labs are discovering their AI agents escaping containment and misbehaving in security tests, triggering regulatory scrutiny and multi-state investigations into AI safety protocols.",
-      "question": "Should AI agents be regulated before release or tested voluntarily?",
-      "button_a": "Release",
-      "button_b": "Voluntarily",
-      "poll_id": "ai-agent-safety-containment-failures-20260805",
-      "analysis_url": "/analysis/analysis-ai-agents-going-rogue-20260807.html",
-      "analysis_type": "poll",
-      "created_at": "2026-08-05T08:29:25.167605",
-      "last_seen": "2026-08-07T18:47:45.574910",
-      "cluster_stories": [
-        {
-          "id": "7a9cd32c8b5869f8",
-          "title": "AI models shock UK testers by using fake identities to try to trick developers",
-          "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
-          "source": "The Guardian Tech",
-          "summary": "AI Security Institute says OpenAI and Anthropic models went rogue during a cybersecurity test and showed a new type of riskExplainer: Should we be alarmed at AI models going rogue in tests?Advanced artificial intelligence models have stunned the UK\u2019s AI Security Institute (AISI) by carrying out a hacking campaign against real people during a cybersecurity test.The institute said the incident was unprecedented and involved sending targeted emails to software developers in an attempt to pass a cyber challenge. Continue reading...",
-          "published": "2026-08-05T15:15:05+00:00",
-          "score": 48.0,
-          "headline": "AI MODELS GO ROGUE... Used Fake IDs to Trick Devs"
-        },
-        {
-          "id": "a0549cd24b09b892",
-          "title": "UK testers catch OpenAI and Anthropic agents misbehaving in the lab",
-          "url": "https://thenextweb.com/news/aisi-openai-anthropic-agents-unauthorised-actions",
-          "source": "The Next Web",
-          "summary": "Britain\u2019s AI Security Institute has disclosed that agents from OpenAI and Anthropic took unauthorised actions during controlled security tests, including one that tried to manipulate a real person into running malicious code. The findings come from red-teaming, the discipline of probing models for dangerous behaviour before it appears in the wild. The same institute recently [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-05T07:42:30+00:00",
-          "score": 47.0,
-          "headline": "UK CATCHES OPENAI & ANTHROPIC AGENTS MISBEHAVING in Security Tests"
-        },
-        {
-          "id": "9abbe11d0b30be4d",
-          "title": "OpenAI Pauses Some Work on New Astra Model Over Cyber Concerns",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI is pausing some internal work around one of its upcoming artificial intelligence models to implement stricter safeguards after the system was found to be significantly more adept at cybersecurity tasks.",
-          "published": "2026-08-07T17:15:04+00:00",
-          "score": 46.0,
-          "headline": "OPENAI PAUSES 'ASTRA' MODEL... Cyber Exploit Fears"
-        },
-        {
-          "id": "75fb7114f39d9df6",
-          "title": "OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards",
-          "url": "https://www.lesswrong.com/posts/noXXv7PwwFqauTBFQ/openai-trained-its-models-for-months-while-those-models-were",
-          "source": "LessWrong AI",
-          "summary": "How does the situation keep turning out to be worse than we know? How much should we update, therefore, that it is a lot worse than we know, after accounting for all the things we now know? At some point, when the \u2018oh this was a harmless thing\u2019 defenses for AIs doing misaligned actions get demolished enough times in a row by news a few days later, you want to update in advance that usually the reports are not referring to the harmless ordinary versions of things. Either way, buckle up for the next set of revelations. It\u2019s a doozy. This was an early recreation of the triggering events of If Anyone Builds It, Everyone Dies, except it was more sci-fi, because real life does not have to do fake things to look realistic. We were fortunate enough, and this was early enough, that we were able to catch this before it was too late. Next time, if we don\u2019t get our act together, we might not be so lucky. If I am understanding the Black Hat video correctly, every model OpenAI trained, over a period",
-          "published": "2026-08-07T17:01:24+00:00",
-          "score": 46.0,
-          "headline": "OPENAI MODELS COORDINATED EXPLOITS VIA MESSAGE BOARDS... Trained for Months"
-        },
-        {
-          "id": "93f793ec8172b713",
-          "title": "Responding to the next frontier of critical cyber capabilities",
-          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-          "source": "OpenAI Blog",
-          "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we\u2019re taking to strengthen safeguards and security controls.",
-          "published": "2026-08-07T15:20:00+00:00",
-          "score": 46.0,
-          "headline": "OPENAI REVEALS ASTRA CYBERSECURITY EVALS... New Safeguards"
-        },
-        {
-          "id": "af155d1a207ef24e",
-          "title": "OpenAI agents passed secret notes for months leading up to Hugging Face hack",
-          "url": "https://fortune.com/2026/08/06/openai-agents-passed-secret-notes-for-months-leading-up-to-hugging-face-hack/",
-          "source": "Fortune Tech",
-          "summary": "At the Black Hat conference in Las Vegas, OpenAI gives its first in-depth look at how its AI models plotted and executed the breach with no human assistance.",
-          "published": "2026-08-06T19:31:17+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AGENTS PLOTTED HUGGING FACE HACK... Months of Secret Planning"
-        },
-        {
-          "id": "afb415828c987e89",
-          "title": "Meta becomes third major AI lab after Anthropic and OpenAI to admit its agents have gone rogue\u2014one day after Muse Code launch",
-          "url": "https://fortune.com/2026/08/06/meta-agent-hack-openai-anthropic/",
-          "source": "Fortune Tech",
-          "summary": "Meta launched Muse Code to take on Anthropic and OpenAI\u2014but the industry's most advanced AI agents are breaking the limits of their digital confines",
-          "published": "2026-08-06T19:00:36+00:00",
-          "score": 46.0,
-          "headline": "META AI AGENTS GO ROGUE... Third Major Lab After Anthropic, OpenAI"
-        },
-        {
-          "id": "65308bcbb462c737",
-          "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-          "source": "The Verge AI",
-          "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue [&#8230;]",
-          "published": "2026-08-07T18:40:34+00:00",
-          "score": 45.0,
-          "headline": "OPENAI HALTS 'TOO POWERFUL' ASTRA MODEL Over Cyber Risks"
-        },
-        {
-          "id": "70741b8bb7174a7c",
-          "title": "15 states want every record of the OpenAI agent that left itself notes on escaping its own controls",
-          "url": "https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack",
-          "source": "The Next Web",
-          "summary": "Fifteen US states have put OpenAI on legal notice over the summer\u2019s most unsettling AI security incident. They wrote to chief executive Sam Altman. They demanded that OpenAI preserve every record of the Hugging Face breach. That demand includes something strange. The attorneys general want any notes the agent left, \u201capparently for future versions of [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-04T17:32:46+00:00",
-          "score": 45.0,
-          "headline": "15 STATES DEMAND OPENAI RECORDS ON ESCAPED AI AGENT"
-        },
-        {
-          "id": "2b5e0acf6593ac5a",
-          "title": "Rogue AI agents created fake online identities in another hacking attempt",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
-          "source": "The Verge AI",
-          "summary": "Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security [&#8230;]",
-          "published": "2026-08-05T15:14:57+00:00",
-          "score": 44.0,
-          "headline": "OpenAI & Anthropic Agents Caught Hacking AGAIN"
-        },
-        {
-          "id": "cc65dfa0679a2eaf",
-          "title": "OpenAI flags possible critical cybersecurity risk in upcoming model, tightens controls",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-flags-possible-critical-cybersecurity-risk-in-upcoming-model-tightens-controls/articleshow/133040002.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Under OpenAI's safety guidelines, a model reaches the \"critical\" threshold if it can autonomously identify and exploit severe, real-world software vulnerabilities, known \u200cas zero-day \u2060exploits, or \u2060execute complex cyberattacks against highly secure targets without human intervention.",
-          "published": "2026-08-07T17:55:23+00:00",
-          "score": 43.0,
-          "headline": "OpenAI Model Hits 'Critical' Cyber Risk Threshold"
-        }
-      ],
-      "current_topic_name": "AI Agents Going Rogue"
     }
   ],
-  "last_updated": "2026-08-07T18:47:45.574927"
+  "last_updated": "2026-08-08T06:43:06.877424"
 }
