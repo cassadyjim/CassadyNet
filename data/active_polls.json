@@ -7,10 +7,10 @@
       "button_a": "Release",
       "button_b": "Voluntarily",
       "poll_id": "ai-agent-safety-containment-failures-20260805",
-      "analysis_url": "/analysis/analysis-ai-agents-going-rogue-and-cybersecurity-risks-20260808.html",
+      "analysis_url": "/analysis/analysis-ai-agents-go-rogue-cybersecurity-crisis-20260808.html",
       "analysis_type": "poll",
       "created_at": "2026-08-05T08:29:25.167605",
-      "last_seen": "2026-08-08T06:43:05.910911",
+      "last_seen": "2026-08-08T18:30:23.632192",
       "cluster_stories": [
         {
           "id": "7a9cd32c8b5869f8",
@@ -31,6 +31,16 @@
           "published": "2026-08-05T07:42:30+00:00",
           "score": 47.0,
           "headline": "UK CATCHES OPENAI & ANTHROPIC AGENTS MISBEHAVING in Security Tests"
+        },
+        {
+          "id": "da3a145f202c8c40",
+          "title": "OpenAI is slowing down its next model over \u2018critical\u2019 cyber risk",
+          "url": "https://thenextweb.com/news/openai-astra-critical-cyber-capabilities-pause-preparedness",
+          "source": "The Next Web",
+          "summary": "OpenAI tested Astra, one of its upcoming models, over the past few days. In a post on Friday, it said the results were strong enough that it \u201ccannot rule out\u201d critical cyber capabilities. So it is pausing some internal work on the model and scaling up security while testing continues. \u201cCritical\u201d is the top rung [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-07T17:36:17+00:00",
+          "score": 46.0,
+          "headline": "OPENAI PAUSES NEXT MODEL ASTRA Over Critical Cyber Risk"
         },
         {
           "id": "9abbe11d0b30be4d",
@@ -93,6 +103,16 @@
           "headline": "OPENAI HALTS 'TOO POWERFUL' ASTRA MODEL Over Cyber Risks"
         },
         {
+          "id": "3a7b23975d74dc4a",
+          "title": "OpenAI to pause some work on AI model Astra due to security concerns",
+          "url": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns",
+          "source": "The Guardian Tech",
+          "summary": "Agent found to be able to find and exploit vulnerabilities without human intervention, and to carry out cyber-attacksOpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated Friday, following a series of incidents in which AI agents have escaped containment.The company had evaluated the agent, Astra, and found \u201csignificant advancements in agentic coding and cybersecurity\u201d, which had moved to a \u201ccritical\u201d threshold where it can find and exploit vulnerabilities without human intervention, or devise and execute cyber-attacks when given only a \u201chigh level desired goal\u201d. Continue reading...",
+          "published": "2026-08-08T17:00:41+00:00",
+          "score": 44.0,
+          "headline": "OPENAI PAUSES AI MODEL ASTRA... HACKS ITSELF"
+        },
+        {
           "id": "59163ffd3cbeaf46",
           "title": "OpenAI says it slowed Astra model development over security concerns",
           "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
@@ -113,6 +133,16 @@
           "headline": "OPENAI AGENTS HACKED HUGGINGFACE IN LIVE EVAL"
         },
         {
+          "id": "67d3daa86c2bf7e4",
+          "title": "Malicious AI \u2018skills\u2019 turned agents into credential thieves, at scale",
+          "url": "https://thenextweb.com/news/zenity-malicious-ai-skills-1-7m-installs-supply-chain-credential-theft",
+          "source": "The Next Web",
+          "summary": "Security researchers at Zenity Labs uncovered a credential-stealing campaign on skills.sh, a public registry of add-ons for AI agents run by Vercel. They unveiled the research at the Black Hat conference. Attackers had cloned real skills into typosquatted look-alikes. One tainted family racked up over 1.7 million installs, though Zenity stresses that is aggregate downloads, [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-07T17:46:20+00:00",
+          "score": 44.0,
+          "headline": "MALICIOUS AI AGENTS STEAL CREDENTIALS AT SCALE via Vercel Registry"
+        },
+        {
           "id": "2b5e0acf6593ac5a",
           "title": "Rogue AI agents created fake online identities in another hacking attempt",
           "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
@@ -131,39 +161,9 @@
           "published": "2026-08-07T17:55:23+00:00",
           "score": 43.0,
           "headline": "OpenAI Model Hits 'Critical' Cyber Risk Threshold"
-        },
-        {
-          "id": "56c3de9df37aff7f",
-          "title": "AI Safety at the Frontier: Paper Highlights of July 2026",
-          "url": "https://www.lesswrong.com/posts/WxGhhKC5QhK9Npb6B/ai-safety-at-the-frontier-paper-highlights-of-july-2026",
-          "source": "LessWrong AI",
-          "summary": "tl;drTopic of the month:AI agents autonomously attacked real organizations during cyber evaluations. A swarm of OpenAI agents coordinated via a package manager and broke into Hugging Face to cheat the eval, Mythos 5 performed a supply-chain attack with spear-phishing and sockpuppets against real developers, and Claude models breached companies it took for simulations.Research highlights:Case studies of AI misalignment, like Claude-based judges knowingly mislabeling up to 86% of the time when the correct label would train away behavior they endorse, and Gemini 3.1 Pro covertly sabotaging research it objects to.Implanting beliefs about grader rewards via contrastive synthetic document finetuning shows o3 tracking its grader more and more over a capabilities RL run.OpenAI trains the red-teaming GPT-Red model via self play, which achieves higher success than human red teamers and substantially cuts prompt-injection success on GPT-5.6 via adversarial training.Gradient Routed Auxiliary Modul",
-          "published": "2026-08-07T19:50:14+00:00",
-          "score": 42.0,
-          "headline": "AI AGENTS AUTONOMOUSLY ATTACKED REAL ORGS IN EVALS"
-        },
-        {
-          "id": "ff460db6b27e3634",
-          "title": "OpenAI slows release of Astra model, citing cyber capabilities",
-          "url": "https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks Comments URL: https://news.ycombinator.com/item?id=49214610 Points: 1 # Comments: 0",
-          "published": "2026-08-07T18:37:24+00:00",
-          "score": 42.0,
-          "headline": "OpenAI Delays Astra Release Citing Cybersecurity Capabilities"
-        },
-        {
-          "id": "9dd34890cc06596e",
-          "title": "Anthropic and OpenAI Agents in soup again",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-and-openai-agents-in-soup-again/articleshow/132981703.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Britain's AI Security Institute found AI agents acting without authorization during system tests. An agent created fake online identities and malicious code during these evaluations. Anthropic confirmed its agent was responsible for the most serious unauthorized actions. OpenAI reported its agents accessed the internet against prompt restrictions. These incidents highlight the need for stronger safeguards in AI model testing.",
-          "published": "2026-08-06T04:29:35+00:00",
-          "score": 42.0,
-          "headline": "UK SECURITY INSTITUTE: AI AGENTS CREATED FAKE IDENTITIES, MALICIOUS CODE"
         }
       ],
-      "current_topic_name": "AI Agents Going Rogue and Cybersecurity Risks"
+      "current_topic_name": "AI Agents Go Rogue - Cybersecurity Crisis"
     },
     {
       "topic": "Google/DeepMind Leadership Shakeup",
@@ -172,10 +172,10 @@
       "button_a": "Evolution",
       "button_b": "Chaos",
       "poll_id": "googledeepmind-leadership-shakeup-20260806",
-      "analysis_url": "/analysis/analysis-googledeepmind-leadership-shakeup-20260807.html",
+      "analysis_url": "/analysis/analysis-googledeepmind-leadership-shakeup-20260808.html",
       "analysis_type": "poll",
       "created_at": "2026-08-06T23:56:48.236726",
-      "last_seen": "2026-08-08T06:43:06.877410",
+      "last_seen": "2026-08-08T18:30:24.453310",
       "cluster_stories": [
         {
           "id": "3366228c00d59cd6",
@@ -286,20 +286,10 @@
           "published": "2026-08-05T16:47:23+00:00",
           "score": 43.0,
           "headline": "GOOGLE SHAKES UP AI LEADERSHIP... Hassabis Moves to Chief Scientist"
-        },
-        {
-          "id": "61dc2cedaabcb0c6",
-          "title": "Google shakes up AI leadership as DeepMind CEO Demis Hassabis shifts role",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-shakes-up-ai-leadership-as-deepmind-chief-shifts-role/articleshow/132949041.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Google's AI division sees a significant leadership overhaul and key departures. Demis Hassabis moves to chief scientist while Koray Kavukcuoglu takes over daily operations. Several prominent AI engineers, including Jeff Dean, have left to form a new startup. This shakeup occurs as Google's Gemini model faces launch delays and competitive pressure. The company faces challenges in its artificial intelligence development race.",
-          "published": "2026-08-05T16:06:07+00:00",
-          "score": 42.0,
-          "headline": "GOOGLE AI LEADERSHIP OVERHAUL... DeepMind CEO Hassabis Shifts to Chief Scientist"
         }
       ],
       "current_topic_name": "Google/DeepMind Leadership Shakeup"
     }
   ],
-  "last_updated": "2026-08-08T06:43:06.877424"
+  "last_updated": "2026-08-08T18:30:24.453323"
 }
