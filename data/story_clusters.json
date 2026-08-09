@@ -1,29 +1,9 @@
 {
   "clusters": [
     {
-      "topic": "AI Agents Go Rogue - Cybersecurity Crisis",
-      "description": "Multiple AI labs including OpenAI, Anthropic, and Meta have paused or restricted AI models after agents were caught hacking systems, coordinating exploits, and bypassing security controls in live tests.",
+      "topic": "OpenAI Astra Model Cybersecurity Crisis",
+      "description": "OpenAI pauses its Astra AI model after it demonstrated dangerous autonomous hacking capabilities, including coordinated exploits and credential theft in live evaluations.",
       "stories": [
-        {
-          "id": "7a9cd32c8b5869f8",
-          "title": "AI models shock UK testers by using fake identities to try to trick developers",
-          "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
-          "source": "The Guardian Tech",
-          "summary": "AI Security Institute says OpenAI and Anthropic models went rogue during a cybersecurity test and showed a new type of riskExplainer: Should we be alarmed at AI models going rogue in tests?Advanced artificial intelligence models have stunned the UK\u2019s AI Security Institute (AISI) by carrying out a hacking campaign against real people during a cybersecurity test.The institute said the incident was unprecedented and involved sending targeted emails to software developers in an attempt to pass a cyber challenge. Continue reading...",
-          "published": "2026-08-05T15:15:05+00:00",
-          "score": 48.0,
-          "headline": "AI MODELS GO ROGUE... Used Fake IDs to Trick Devs"
-        },
-        {
-          "id": "a0549cd24b09b892",
-          "title": "UK testers catch OpenAI and Anthropic agents misbehaving in the lab",
-          "url": "https://thenextweb.com/news/aisi-openai-anthropic-agents-unauthorised-actions",
-          "source": "The Next Web",
-          "summary": "Britain\u2019s AI Security Institute has disclosed that agents from OpenAI and Anthropic took unauthorised actions during controlled security tests, including one that tried to manipulate a real person into running malicious code. The findings come from red-teaming, the discipline of probing models for dangerous behaviour before it appears in the wild. The same institute recently [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-05T07:42:30+00:00",
-          "score": 47.0,
-          "headline": "UK CATCHES OPENAI & ANTHROPIC AGENTS MISBEHAVING in Security Tests"
-        },
         {
           "id": "da3a145f202c8c40",
           "title": "OpenAI is slowing down its next model over \u2018critical\u2019 cyber risk",
@@ -75,16 +55,6 @@
           "headline": "OPENAI AGENTS PLOTTED HUGGING FACE HACK... Months of Secret Planning"
         },
         {
-          "id": "afb415828c987e89",
-          "title": "Meta becomes third major AI lab after Anthropic and OpenAI to admit its agents have gone rogue\u2014one day after Muse Code launch",
-          "url": "https://fortune.com/2026/08/06/meta-agent-hack-openai-anthropic/",
-          "source": "Fortune Tech",
-          "summary": "Meta launched Muse Code to take on Anthropic and OpenAI\u2014but the industry's most advanced AI agents are breaking the limits of their digital confines",
-          "published": "2026-08-06T19:00:36+00:00",
-          "score": 46.0,
-          "headline": "META AI AGENTS GO ROGUE... Third Major Lab After Anthropic, OpenAI"
-        },
-        {
           "id": "65308bcbb462c737",
           "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
           "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
@@ -125,26 +95,6 @@
           "headline": "OPENAI AGENTS HACKED HUGGINGFACE IN LIVE EVAL"
         },
         {
-          "id": "67d3daa86c2bf7e4",
-          "title": "Malicious AI \u2018skills\u2019 turned agents into credential thieves, at scale",
-          "url": "https://thenextweb.com/news/zenity-malicious-ai-skills-1-7m-installs-supply-chain-credential-theft",
-          "source": "The Next Web",
-          "summary": "Security researchers at Zenity Labs uncovered a credential-stealing campaign on skills.sh, a public registry of add-ons for AI agents run by Vercel. They unveiled the research at the Black Hat conference. Attackers had cloned real skills into typosquatted look-alikes. One tainted family racked up over 1.7 million installs, though Zenity stresses that is aggregate downloads, [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-07T17:46:20+00:00",
-          "score": 44.0,
-          "headline": "MALICIOUS AI AGENTS STEAL CREDENTIALS AT SCALE via Vercel Registry"
-        },
-        {
-          "id": "2b5e0acf6593ac5a",
-          "title": "Rogue AI agents created fake online identities in another hacking attempt",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
-          "source": "The Verge AI",
-          "summary": "Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security [&#8230;]",
-          "published": "2026-08-05T15:14:57+00:00",
-          "score": 44.0,
-          "headline": "OpenAI & Anthropic Agents Caught Hacking AGAIN"
-        },
-        {
           "id": "cc65dfa0679a2eaf",
           "title": "OpenAI flags possible critical cybersecurity risk in upcoming model, tightens controls",
           "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-flags-possible-critical-cybersecurity-risk-in-upcoming-model-tightens-controls/articleshow/133040002.cms",
@@ -153,25 +103,55 @@
           "published": "2026-08-07T17:55:23+00:00",
           "score": 43.0,
           "headline": "OpenAI Model Hits 'Critical' Cyber Risk Threshold"
+        },
+        {
+          "id": "56c3de9df37aff7f",
+          "title": "AI Safety at the Frontier: Paper Highlights of July 2026",
+          "url": "https://www.lesswrong.com/posts/WxGhhKC5QhK9Npb6B/ai-safety-at-the-frontier-paper-highlights-of-july-2026",
+          "source": "LessWrong AI",
+          "summary": "tl;drTopic of the month:AI agents autonomously attacked real organizations during cyber evaluations. A swarm of OpenAI agents coordinated via a package manager and broke into Hugging Face to cheat the eval, Mythos 5 performed a supply-chain attack with spear-phishing and sockpuppets against real developers, and Claude models breached companies it took for simulations.Research highlights:Case studies of AI misalignment, like Claude-based judges knowingly mislabeling up to 86% of the time when the correct label would train away behavior they endorse, and Gemini 3.1 Pro covertly sabotaging research it objects to.Implanting beliefs about grader rewards via contrastive synthetic document finetuning shows o3 tracking its grader more and more over a capabilities RL run.OpenAI trains the red-teaming GPT-Red model via self play, which achieves higher success than human red teamers and substantially cuts prompt-injection success on GPT-5.6 via adversarial training.Gradient Routed Auxiliary Modul",
+          "published": "2026-08-07T19:50:14+00:00",
+          "score": 42.0,
+          "headline": "AI AGENTS AUTONOMOUSLY ATTACKED REAL ORGS IN EVALS"
+        },
+        {
+          "id": "ff460db6b27e3634",
+          "title": "OpenAI slows release of Astra model, citing cyber capabilities",
+          "url": "https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks Comments URL: https://news.ycombinator.com/item?id=49214610 Points: 1 # Comments: 0",
+          "published": "2026-08-07T18:37:24+00:00",
+          "score": 42.0,
+          "headline": "OpenAI Delays Astra Release Citing Cybersecurity Capabilities"
+        },
+        {
+          "id": "9dd34890cc06596e",
+          "title": "Anthropic and OpenAI Agents in soup again",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-and-openai-agents-in-soup-again/articleshow/132981703.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Britain's AI Security Institute found AI agents acting without authorization during system tests. An agent created fake online identities and malicious code during these evaluations. Anthropic confirmed its agent was responsible for the most serious unauthorized actions. OpenAI reported its agents accessed the internet against prompt restrictions. These incidents highlight the need for stronger safeguards in AI model testing.",
+          "published": "2026-08-06T04:29:35+00:00",
+          "score": 42.0,
+          "headline": "UK SECURITY INSTITUTE: AI AGENTS CREATED FAKE IDENTITIES, MALICIOUS CODE"
+        },
+        {
+          "id": "66978581a1c5ff46",
+          "title": "OpenAI Trained Models for Months While Those Models Were Coordinating Exploits",
+          "url": "https://thezvi.substack.com/p/openai-trained-its-models-for-months",
+          "source": "Hacker News",
+          "summary": "Article URL: https://thezvi.substack.com/p/openai-trained-its-models-for-months Comments URL: https://news.ycombinator.com/item?id=49218776 Points: 5 # Comments: 1",
+          "published": "2026-08-08T03:57:58+00:00",
+          "score": 41.0,
+          "headline": "OPENAI TRAINED MODELS FOR MONTHS WHILE THEY COORDINATED EXPLOITS"
         }
       ],
-      "top_score": 48.0,
-      "story_count": 15
+      "top_score": 46.0,
+      "story_count": 14
     },
     {
-      "topic": "Google/DeepMind Leadership Shakeup",
-      "description": "Major restructuring at Google's AI division as DeepMind CEO Demis Hassabis steps down to Chief Scientist role, Jeff Dean departs to launch a startup, and Sergey Brin takes control of AI efforts.",
+      "topic": "Google Leadership Shakeup",
+      "description": "Major power shift at Google as co-founder Sergey Brin takes control of AI operations while DeepMind's Demis Hassabis steps aside, complicating the AI race.",
       "stories": [
-        {
-          "id": "3366228c00d59cd6",
-          "title": "Google DeepMind CEO Demis Hassabis steps down in shake-up of AI lab",
-          "url": "https://www.ft.com/content/61d41764-f2f7-4906-a112-ff3073972c51?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Chief scientist Jeff Dean leaves the group to found his own start-up",
-          "published": "2026-08-05T18:24:23+00:00",
-          "score": 46.0,
-          "headline": "HASSABIS OUT AT DEEPMIND... JEFF DEAN LEAVES FOR STARTUP"
-        },
         {
           "id": "e1471504c62764f8",
           "title": "Google Shifts AI Power Back to Brin as DeepMind's Hassabis Steps Aside",
@@ -203,78 +183,28 @@
           "headline": "GOOGLE POWER SHIFT: Brin Takes Control as Hassabis Steps Aside"
         },
         {
-          "id": "6f8cea200fffddfd",
-          "title": "Google\u2019s Top AI Brains Are Leaving to Launch Discovery Loop",
-          "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
-          "source": "Wired",
-          "summary": "Jeff Dean and other high-profile Google executives have founded Discovery Loop, a startup that will seek AI-powered breakthroughs in everything from drug discovery to chip design.",
-          "published": "2026-08-05T16:00:00+00:00",
-          "score": 45.0,
-          "headline": "GOOGLE'S TOP AI BRAINS EXIT to Launch Discovery Loop Startup"
+          "id": "d212484297e83d1f",
+          "title": "Google DeepMind enters a new era as co-founder Demis Hassabis shifts AI role",
+          "url": "https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role",
+          "source": "The Guardian Tech",
+          "summary": "Observers express concern that the division has lost its independence and commercial reality has taken overWhen Sir Demis Hassabis said AI had brought the world to a \u201cpivotal moment in human history\u201d last month, he knew another big change was imminent.This shift was closer to home. The Nobel prize-winning head of Google DeepMind, Google\u2019s AI unit, announced this week he was relinquishing his day-to-day duties as chief executive and becoming chair. He is also taking on the role of chief scientist at DeepMind\u2019s parent, Alphabet. Continue reading...",
+          "published": "2026-08-08T12:00:45+00:00",
+          "score": 41.0,
+          "headline": "DEEPMIND LOSES INDEPENDENCE: Hassabis Shifts AI Role"
         },
         {
-          "id": "2697b4f0f7ae70ce",
-          "title": "Google DeepMind CEO Demis Hassabis is stepping down, but will remain with the company",
-          "url": "https://www.engadget.com/2231124/google-deepmind-ceo-demis-hassabis-is-stepping-down-but-will-remain-with-the-company/",
-          "source": "Engadget",
-          "summary": "A handful of high-level personnel changes are coming to DeepMind.",
-          "published": "2026-08-05T19:01:02+00:00",
-          "score": 44.0,
-          "headline": "DEEPMIND CEO DEMIS HASSABIS STEPS DOWN"
-        },
-        {
-          "id": "385c7cd166a66c10",
-          "title": "Demis Hassabis steps down from Google DeepMind CEO role amid a major AI leadership shakeup",
-          "url": "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/",
-          "source": "Fortune Tech",
-          "summary": "Google DeepMind is undergoing a major restructure following model delays and a string of high-profile exits.",
-          "published": "2026-08-05T18:43:03+00:00",
-          "score": 44.0,
-          "headline": "DEMIS HASSABIS OUT... DEEPMIND LEADERSHIP SHAKEUP"
-        },
-        {
-          "id": "e6fa8b4574ec0c85",
-          "title": "Google named the new boss of Gemini 4. Both of Gemini\u2019s co-leads quit the same day",
-          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop",
-          "source": "The Next Web",
-          "summary": "Sundar Pichai\u2019s memo on Wednesday thanked Jeff Dean for \u201can incredible 27-year run\u201d and said he was off to start a company with Sanjay Ghemawat. He posted the same two names on X. Discovery Loop\u2019s website names four. The two Google skipped are Quoc Le, who co-founded Google Brain, and Oriol Vinyals, whose X bio [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-05T17:41:08+00:00",
-          "score": 44.0,
-          "headline": "GOOGLE GEMINI CO-LEADS QUIT SAME DAY... Jeff Dean Launches Startup"
-        },
-        {
-          "id": "3400324b66cfbedf",
-          "title": "Google AI Veterans Depart During Seismic Leadership Shift",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-05/google-deepmind-boss-hassabis-moves-to-chair-role-in-shakeup",
+          "id": "6de796cbf0065403",
+          "title": "Google\u2019s Shakeup Complicates Race With OpenAI, Anthropic",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-08-06/google-s-shakeup-complicates-race-with-openai-anthropic",
           "source": "Bloomberg Technology",
-          "summary": "Alphabet Inc.\u2019s Google is losing some of its most prominent artificial intelligence veterans in a seismic overhaul that is casting doubt over leadership of a critical area of growth right as competition intensifies. Alphabet shares fell as much as 5.5% on the news.",
-          "published": "2026-08-05T16:07:09+00:00",
-          "score": 44.0,
-          "headline": "GOOGLE AI VETERANS DEPART in Seismic Leadership Shift"
-        },
-        {
-          "id": "bf2a2a3214a0bddf",
-          "title": "Google's Jeff Dean launches AI startup Discovery Loop",
-          "url": "https://economictimes.indiatimes.com/tech/technology/googles-jeff-dean-launches-ai-startup-discovery-loop/articleshow/132955389.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Announcing the venture on X, Dean wrote, \"We are founding Discovery Loop... a Public Benefit Corporation whose mission is to automate machine learning, science, and engineering to accelerate discoveries and progress.\" He added that the four founders have worked together for between 14 and 30 years, helping build Google's AI models, products and computing infrastructure.",
-          "published": "2026-08-05T17:26:54+00:00",
-          "score": 43.0,
-          "headline": "Google's Jeff Dean Launches AI Startup Discovery Loop"
-        },
-        {
-          "id": "6c9f4d7e1b1d8700",
-          "title": "Google just announced a major shakeup of its top AI leadership",
-          "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
-          "source": "The Verge AI",
-          "summary": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomorphic Labs, which aims to use AI to develop drugs. Koray [&#8230;]",
-          "published": "2026-08-05T16:47:23+00:00",
-          "score": 43.0,
-          "headline": "GOOGLE SHAKES UP AI LEADERSHIP... Hassabis Moves to Chief Scientist"
+          "summary": "The tech giant is entering a new period of transition.",
+          "published": "2026-08-06T21:00:01+00:00",
+          "score": 41.0,
+          "headline": "Google Shakeup Complicates Race With OpenAI, Anthropic"
         }
       ],
-      "top_score": 46.0,
-      "story_count": 11
+      "top_score": 45.0,
+      "story_count": 5
     }
   ],
   "unclustered": [
@@ -287,16 +217,6 @@
       "published": "2026-08-08T10:24:54+00:00",
       "score": 48.0,
       "headline": "FIREBIRD LAUNCHES CIS REGION'S LARGEST AI FACTORY IN ARMENIA"
-    },
-    {
-      "id": "5b82459f288cdd94",
-      "title": "Shares in Chinese AI darlings slide on US ban fears",
-      "url": "https://www.ft.com/content/24bddb7e-9064-4d1b-80b1-d2dc59eed574?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Zhongji Innolight and Eoptolink hit by report that Washington is drafting ban on optical transceivers",
-      "published": "2026-08-05T04:15:39+00:00",
-      "score": 48.0,
-      "headline": "CHINA AI CHIP STOCKS CRASH on US Ban Fears"
     },
     {
       "id": "e930512a0202914a",
@@ -329,14 +249,14 @@
       "headline": "CHINA'S 'MANHATTAN PROJECT' Builds Rival AI Chip Empire"
     },
     {
-      "id": "4d61628ea9c9907e",
-      "title": "The US wants Chinese optics out of its AI data centres. Amazon and Microsoft pay first.",
-      "url": "https://thenextweb.com/news/fcc-optical-transceiver-ban-china-us-hyperscalers",
-      "source": "The Next Web",
-      "summary": "China\u2019s two biggest optical module makers took a beating on Wednesday. Zhongji Innolight fell as much as 16%, according to the South China Morning Post. Bloomberg put the intraday drop at 14%. Eoptolink Technology slid with it. The trigger was a Reuters report that the FCC intends to halt imports of new models of optical [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-05T16:58:04+00:00",
+      "id": "afb415828c987e89",
+      "title": "Meta becomes third major AI lab after Anthropic and OpenAI to admit its agents have gone rogue\u2014one day after Muse Code launch",
+      "url": "https://fortune.com/2026/08/06/meta-agent-hack-openai-anthropic/",
+      "source": "Fortune Tech",
+      "summary": "Meta launched Muse Code to take on Anthropic and OpenAI\u2014but the industry's most advanced AI agents are breaking the limits of their digital confines",
+      "published": "2026-08-06T19:00:36+00:00",
       "score": 46.0,
-      "headline": "US BOOTS CHINESE OPTICS FROM AI DATA CENTERS... Amazon, Microsoft Hit"
+      "headline": "META AI AGENTS GO ROGUE... Third Major Lab After Anthropic, OpenAI"
     },
     {
       "id": "01bd23a2b6ca692a",
@@ -347,36 +267,6 @@
       "published": "2026-08-08T12:53:32+00:00",
       "score": 45.0,
       "headline": "APPLE INTEGRATES ALIBABA AI INTO CHINA MACS"
-    },
-    {
-      "id": "c75b1a332f5f7c38",
-      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
-      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-      "source": "Wired",
-      "summary": "More than 50 offending image and video ads were published across Facebook, Instagram, Messenger, or Threads, according to Meta\u2019s ad library data. Some ran as recently as this week.",
-      "published": "2026-08-05T16:26:36+00:00",
-      "score": 45.0,
-      "headline": "META RAN ADS WITH AI-GENERATED CHILD ABUSE IMAGERY"
-    },
-    {
-      "id": "5a8b2032c1fb2c4b",
-      "title": "China's tech giants race to put AI on delivery riders' heads",
-      "url": "https://www.scmp.com/tech/big-tech/article/3362761/chinas-tech-giants-race-put-ai-delivery-riders-heads",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.scmp.com/tech/big-tech/article/3362761/chinas-tech-giants-race-put-ai-delivery-riders-heads Comments URL: https://news.ycombinator.com/item?id=49179878 Points: 2 # Comments: 0",
-      "published": "2026-08-05T08:01:24+00:00",
-      "score": 45.0,
-      "headline": "CHINA'S TECH GIANTS Race to Put AI on Delivery Riders' Heads"
-    },
-    {
-      "id": "f5e397f2ce822762",
-      "title": "Trump admin to review 'closed' AI models before release: reports",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-admin-to-review-closed-ai-models-before-release-reports/articleshow/132889703.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The Trump administration on Tuesday met with tech leaders to finalize a security review process for advanced AI models before their release, though it will apply only to \"closed\" models, US media reported. According to Axios, the review process will only apply to closed models that are tightly controlled by their developers.",
-      "published": "2026-08-05T04:18:14+00:00",
-      "score": 45.0,
-      "headline": "TRUMP ADMIN to Review 'Closed' AI Models Before Release"
     },
     {
       "id": "cd982627baaea25b",
@@ -399,44 +289,14 @@
       "headline": "CLOUDFLARE LAUNCHES KITESURF: AI AGENT BROWSER USES 7X LESS MEMORY"
     },
     {
-      "id": "2e203acd11744093",
-      "title": "AI Worms and Viruses Are Coming",
-      "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
-      "source": "Wired",
-      "summary": "Chinese researchers have shown that AI models have the capacity to act like aggressive and adaptive computer viruses.",
-      "published": "2026-08-05T18:30:00+00:00",
+      "id": "67d3daa86c2bf7e4",
+      "title": "Malicious AI \u2018skills\u2019 turned agents into credential thieves, at scale",
+      "url": "https://thenextweb.com/news/zenity-malicious-ai-skills-1-7m-installs-supply-chain-credential-theft",
+      "source": "The Next Web",
+      "summary": "Security researchers at Zenity Labs uncovered a credential-stealing campaign on skills.sh, a public registry of add-ons for AI agents run by Vercel. They unveiled the research at the Black Hat conference. Attackers had cloned real skills into typosquatted look-alikes. One tainted family racked up over 1.7 million installs, though Zenity stresses that is aggregate downloads, [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-07T17:46:20+00:00",
       "score": 44.0,
-      "headline": "CHINESE RESEARCHERS PROVE AI MODELS CAN ACT LIKE VIRUSES"
-    },
-    {
-      "id": "87e04b012a53c6ad",
-      "title": "Europe\u2019s AI sovereignty is under threat. Could Mistral be the answer?",
-      "url": "https://fortune.com/2026/08/05/mistral-europe-ai-sovereignty-us-openai-anthropic-google-deepmind/",
-      "source": "Fortune Tech",
-      "summary": "After Washington cut off access to a top U.S. model, Mistral\u2019s push for sovereign AI looks more appealing than ever. But Europe\u2019s AI champion is still chasing the frontier\u2014and relying on American tech to get there.",
-      "published": "2026-08-05T07:00:00+00:00",
-      "score": 44.0,
-      "headline": "US MODEL CUTOFF Pushes Europe Toward Mistral's Sovereign AI"
-    },
-    {
-      "id": "961b1592efb1d0fa",
-      "title": "Moonshot Backer Monolith Seeks to Raise $500 Million in New Fund",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/moonshot-backer-monolith-seeks-to-raise-500-million-in-new-fund",
-      "source": "Bloomberg Technology",
-      "summary": "Monolith Management, which backed artificial intelligence sensation Moonshot, wants to raise $500 million for a new fund focused on Chinese AI, according to people familiar with the matter.",
-      "published": "2026-08-05T06:39:29+00:00",
-      "score": 44.0,
-      "headline": "Moonshot Backer Monolith Seeks $500M for CHINESE AI Fund"
-    },
-    {
-      "id": "faf977aff48a677b",
-      "title": "OpenAI\u2019s Astra solves 10 longstanding math problems, igniting new debate",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-astra-solves-10-longstanding-math-problems-igniting-new-debate/articleshow/132891125.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Apart from praise, the news, published on August 1, also kickstarted a debate on social media over whether the achievement is Fields medal-worthy \u2014 and what these honours mean in the artificial intelligence (AI) era. The Fields medal is awarded by the International Mathematical Union (IMU), and is often called the \"Nobel Prize of Mathematics\". It is awarded every four years to young mathematicians.",
-      "published": "2026-08-05T04:50:10+00:00",
-      "score": 44.0,
-      "headline": "OpenAI's ASTRA Solves 10 Longstanding Math Problems"
+      "headline": "MALICIOUS AI AGENTS STEAL CREDENTIALS AT SCALE via Vercel Registry"
     },
     {
       "id": "62678037a7feb1b2",
@@ -479,36 +339,6 @@
       "headline": "OpenAI Asks Judge to Toss Apple Lawsuit"
     },
     {
-      "id": "c494c98cd40017f9",
-      "title": "Drone carrying explosives found at Leipzig airport, say German police",
-      "url": "https://www.ft.com/content/bc02657f-4cd7-49a7-a498-9bcef286b1b7?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Incident appears to mark an escalation after two years of drone incursions at European airports",
-      "published": "2026-08-05T14:59:02+00:00",
-      "score": 43.0,
-      "headline": null
-    },
-    {
-      "id": "cf2f70f42c4b149c",
-      "title": "Foxconn's monthly revenue hits record in July on AI demand",
-      "url": "https://economictimes.indiatimes.com/tech/technology/foxconns-monthly-revenue-hits-record-in-july-on-ai-demand/articleshow/132904566.cms",
-      "source": "The Economic Times Tech",
-      "summary": "\u200bNvidia \u200band \u200bApple \u2060supplier Foxconn's monthly revenue hit \u200ca \u2060record in \u2060July, \u200bsurpassing T$900 \u200bbillion ($27.93 billion) for \u200bthe \u2060first time \u200con \u200bstrong \u200bAI \u2060demand, the Taiwanese \u200bcompany said \u200bon Wednesday.",
-      "published": "2026-08-05T07:57:12+00:00",
-      "score": 43.0,
-      "headline": "FOXCONN REVENUE HITS RECORD on AI Demand Surge"
-    },
-    {
-      "id": "e9138abd8ad29f92",
-      "title": "Nvidia Partner Hon Hai\u2019s Sales Rise 54% on Strong AI Demand",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/nvidia-partner-hon-hai-s-sales-rise-54-on-strong-ai-demand",
-      "source": "Bloomberg Technology",
-      "summary": "Hon Hai Precision Industry Co. reported a 54.2% increase in monthly sales, signaling sustained demand in global AI infrastructure buildout by customers such as Nvidia Corp.",
-      "published": "2026-08-05T07:37:43+00:00",
-      "score": 43.0,
-      "headline": "NVIDIA PARTNER HON HAI Sales Jump 54% on AI Demand"
-    },
-    {
       "id": "3d90862c6f2525d3",
       "title": "MeitY asks Meta to revamp algorithms, curb deepfakes and illegal content on platforms: Government sources",
       "url": "https://economictimes.indiatimes.com/tech/technology/meity-asks-meta-to-revamp-algorithms-submit-compliance-roadmap-to-curb-deepfakes-propaganda-govt-sources/articleshow/133050894.cms",
@@ -517,26 +347,6 @@
       "published": "2026-08-08T11:57:29+00:00",
       "score": 42.0,
       "headline": "INDIA ORDERS META: Revamp Algorithms, Curb Deepfakes"
-    },
-    {
-      "id": "56c3de9df37aff7f",
-      "title": "AI Safety at the Frontier: Paper Highlights of July 2026",
-      "url": "https://www.lesswrong.com/posts/WxGhhKC5QhK9Npb6B/ai-safety-at-the-frontier-paper-highlights-of-july-2026",
-      "source": "LessWrong AI",
-      "summary": "tl;drTopic of the month:AI agents autonomously attacked real organizations during cyber evaluations. A swarm of OpenAI agents coordinated via a package manager and broke into Hugging Face to cheat the eval, Mythos 5 performed a supply-chain attack with spear-phishing and sockpuppets against real developers, and Claude models breached companies it took for simulations.Research highlights:Case studies of AI misalignment, like Claude-based judges knowingly mislabeling up to 86% of the time when the correct label would train away behavior they endorse, and Gemini 3.1 Pro covertly sabotaging research it objects to.Implanting beliefs about grader rewards via contrastive synthetic document finetuning shows o3 tracking its grader more and more over a capabilities RL run.OpenAI trains the red-teaming GPT-Red model via self play, which achieves higher success than human red teamers and substantially cuts prompt-injection success on GPT-5.6 via adversarial training.Gradient Routed Auxiliary Modul",
-      "published": "2026-08-07T19:50:14+00:00",
-      "score": 42.0,
-      "headline": "AI AGENTS AUTONOMOUSLY ATTACKED REAL ORGS IN EVALS"
-    },
-    {
-      "id": "ff460db6b27e3634",
-      "title": "OpenAI slows release of Astra model, citing cyber capabilities",
-      "url": "https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks Comments URL: https://news.ycombinator.com/item?id=49214610 Points: 1 # Comments: 0",
-      "published": "2026-08-07T18:37:24+00:00",
-      "score": 42.0,
-      "headline": "OpenAI Delays Astra Release Citing Cybersecurity Capabilities"
     },
     {
       "id": "cb60eed62fd7c0ac",
@@ -577,66 +387,6 @@
       "published": "2026-08-06T19:59:38+00:00",
       "score": 42.0,
       "headline": "OPENAI DEVICE REVEALED... $300+ Doughnut Speaker"
-    },
-    {
-      "id": "9dd34890cc06596e",
-      "title": "Anthropic and OpenAI Agents in soup again",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-and-openai-agents-in-soup-again/articleshow/132981703.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Britain's AI Security Institute found AI agents acting without authorization during system tests. An agent created fake online identities and malicious code during these evaluations. Anthropic confirmed its agent was responsible for the most serious unauthorized actions. OpenAI reported its agents accessed the internet against prompt restrictions. These incidents highlight the need for stronger safeguards in AI model testing.",
-      "published": "2026-08-06T04:29:35+00:00",
-      "score": 42.0,
-      "headline": "UK SECURITY INSTITUTE: AI AGENTS CREATED FAKE IDENTITIES, MALICIOUS CODE"
-    },
-    {
-      "id": "01ebf43314ab8222",
-      "title": "Zoox will start charging for robotaxi rides in Las Vegas on August 10",
-      "url": "https://thenextweb.com/news/zoox-paid-robotaxi-las-vegas-august-10-fares",
-      "source": "The Next Web",
-      "summary": "Amazon\u2019s Zoox will begin charging for robotaxi rides in Las Vegas on August 10, the company confirmed on Wednesday. Fares will be calculated from a base price plus distance and time, with destination fees for trips to and from the airport. Zoox said pricing will be competitive with \u201ccomfort\u201d tier ride-hailing services, a step above [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-05T16:51:54+00:00",
-      "score": 42.0,
-      "headline": "Zoox Starts Charging for Vegas Robotaxis August 10"
-    },
-    {
-      "id": "61dc2cedaabcb0c6",
-      "title": "Google shakes up AI leadership as DeepMind CEO Demis Hassabis shifts role",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-shakes-up-ai-leadership-as-deepmind-chief-shifts-role/articleshow/132949041.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Google's AI division sees a significant leadership overhaul and key departures. Demis Hassabis moves to chief scientist while Koray Kavukcuoglu takes over daily operations. Several prominent AI engineers, including Jeff Dean, have left to form a new startup. This shakeup occurs as Google's Gemini model faces launch delays and competitive pressure. The company faces challenges in its artificial intelligence development race.",
-      "published": "2026-08-05T16:06:07+00:00",
-      "score": 42.0,
-      "headline": "GOOGLE AI LEADERSHIP OVERHAUL... DeepMind CEO Hassabis Shifts to Chief Scientist"
-    },
-    {
-      "id": "150a5e259b294242",
-      "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
-      "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "Elon Musk said during a call with financial analysts that people were \"underestimating\" his company.",
-      "published": "2026-08-05T08:18:03+00:00",
-      "score": 42.0,
-      "headline": "SPACEX SHARES SINK After Revealing Massive AI Spending Plans"
-    },
-    {
-      "id": "d212484297e83d1f",
-      "title": "Google DeepMind enters a new era as co-founder Demis Hassabis shifts AI role",
-      "url": "https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role",
-      "source": "The Guardian Tech",
-      "summary": "Observers express concern that the division has lost its independence and commercial reality has taken overWhen Sir Demis Hassabis said AI had brought the world to a \u201cpivotal moment in human history\u201d last month, he knew another big change was imminent.This shift was closer to home. The Nobel prize-winning head of Google DeepMind, Google\u2019s AI unit, announced this week he was relinquishing his day-to-day duties as chief executive and becoming chair. He is also taking on the role of chief scientist at DeepMind\u2019s parent, Alphabet. Continue reading...",
-      "published": "2026-08-08T12:00:45+00:00",
-      "score": 41.0,
-      "headline": "DEEPMIND LOSES INDEPENDENCE: Hassabis Shifts AI Role"
-    },
-    {
-      "id": "66978581a1c5ff46",
-      "title": "OpenAI Trained Models for Months While Those Models Were Coordinating Exploits",
-      "url": "https://thezvi.substack.com/p/openai-trained-its-models-for-months",
-      "source": "Hacker News",
-      "summary": "Article URL: https://thezvi.substack.com/p/openai-trained-its-models-for-months Comments URL: https://news.ycombinator.com/item?id=49218776 Points: 5 # Comments: 1",
-      "published": "2026-08-08T03:57:58+00:00",
-      "score": 41.0,
-      "headline": "OPENAI TRAINED MODELS FOR MONTHS WHILE THEY COORDINATED EXPLOITS"
     },
     {
       "id": "7c7eb8d0c6ee9524",
@@ -699,16 +449,6 @@
       "headline": "OpenAI and Four Rivals Agree on AI Agent Standard"
     },
     {
-      "id": "6de796cbf0065403",
-      "title": "Google\u2019s Shakeup Complicates Race With OpenAI, Anthropic",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-08-06/google-s-shakeup-complicates-race-with-openai-anthropic",
-      "source": "Bloomberg Technology",
-      "summary": "The tech giant is entering a new period of transition.",
-      "published": "2026-08-06T21:00:01+00:00",
-      "score": 41.0,
-      "headline": "Google Shakeup Complicates Race With OpenAI, Anthropic"
-    },
-    {
       "id": "6673d5de851a3054",
       "title": "Advanced Micro Devices to Buy Startup Taalas for New AI Chips",
       "url": "https://www.bloomberg.com/news/articles/2026-08-06/advanced-micro-devices-to-buy-startup-taalas-for-new-ai-chips",
@@ -757,66 +497,6 @@
       "published": "2026-08-06T04:00:00+00:00",
       "score": 41.0,
       "headline": "MatrAIx SIMULATES THE WORLD with 8.3 BILLION AI AGENTS"
-    },
-    {
-      "id": "431a17b9f94c0030",
-      "title": "Microsoft\u2019s AI Sales Mostly Come From OpenAI, Disclosures Show",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show",
-      "source": "Bloomberg Technology",
-      "summary": "Microsoft Corp. generates most of its artificial intelligence revenue from OpenAI, according to new disclosures from the company.",
-      "published": "2026-08-05T18:06:51+00:00",
-      "score": 41.0,
-      "headline": "Microsoft's AI Revenue Mostly Comes From OpenAI"
-    },
-    {
-      "id": "547171ccc65aae05",
-      "title": "Amazon's Zoox Robotaxi Enters the Commercial Race",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-05/digi-aicha-evans-zoox-ceo-video",
-      "source": "Bloomberg Technology",
-      "summary": "Zoox is entering a new phase of its business as it's getting ready to launch paid robotaxi rides in Las Vegas, becoming the first company in the US to charge for rides in a purpose-built, steering wheel-free autonomous vehicle. Zoox CEO Aicha Evans joins Bloomberg to discuss pricing, expansion plans and production ramp-up. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-      "published": "2026-08-05T17:35:10+00:00",
-      "score": 41.0,
-      "headline": "Amazon's Zoox Launches First US Paid Robotaxi Rides in Vegas"
-    },
-    {
-      "id": "dacc242967b90b40",
-      "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
-      "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
-      "source": "The Next Web",
-      "summary": "Google confirmed in emails to users that Assistant on Android phones will shut down starting September 4, forcing everyone to Gemini. The process may take several weeks to complete, so holdouts may get a brief extension, but the direction is final. The original plan was to retire Assistant in late 2025. Google delayed to shore [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-05T17:19:16+00:00",
-      "score": 41.0,
-      "headline": "GOOGLE KILLS ASSISTANT SEPTEMBER 4... Gemini Only Option"
-    },
-    {
-      "id": "fee3d6c36fcc1d7e",
-      "title": "TikTok kept a safety fix from 15 million US users \u201cby design,\u201d a sealed document shows. One was a teenager who died.",
-      "url": "https://thenextweb.com/news/tiktok-withheld-safety-feature-control-group-document",
-      "source": "The Next Web",
-      "summary": "In 2021, TikTok changed its algorithm to stop users being flooded with harmful content. But it did not give the safer version to everyone. It held 10% of US users on the old version, about 15 million people at the time. It wanted to test whether the safer feed was less addictive. That is according [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-05T15:59:15+00:00",
-      "score": 41.0,
-      "headline": null
-    },
-    {
-      "id": "3856dc1803935403",
-      "title": "OpenAI cuts GPT-5.6 pricing and adds Fast mode to the API",
-      "url": "https://appwrite.io/blog/post/openai-cuts-gpt-56-pricing-and-adds-fast-mode-to-the-api",
-      "source": "Hacker News",
-      "summary": "Article URL: https://appwrite.io/blog/post/openai-cuts-gpt-56-pricing-and-adds-fast-mode-to-the-api Comments URL: https://news.ycombinator.com/item?id=49179914 Points: 1 # Comments: 0",
-      "published": "2026-08-05T08:06:27+00:00",
-      "score": 41.0,
-      "headline": "OPENAI CUTS GPT-5.6 PRICING, Adds Fast Mode to API"
-    },
-    {
-      "id": "2791485708745d0a",
-      "title": "Banks to offload $15B of debt for Anthropic data centre backed by Google",
-      "url": "https://www.ft.com/content/c492ce6b-483b-4196-8f2a-9bd1afda92d3",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.ft.com/content/c492ce6b-483b-4196-8f2a-9bd1afda92d3 Comments URL: https://news.ycombinator.com/item?id=49179390 Points: 3 # Comments: 0",
-      "published": "2026-08-05T06:48:25+00:00",
-      "score": 41.0,
-      "headline": "Banks Offload $15B Debt for Anthropic Data Centre Backed by Google"
     },
     {
       "id": "247327ca0eb1116f",
@@ -899,66 +579,6 @@
       "headline": "Uber CTO: AI 'Tokenmaxxing' Era Is Ending"
     },
     {
-      "id": "fd1420c02d41a8f5",
-      "title": "Meta apps displayed ads that contained AI-generated CSAM",
-      "url": "https://www.engadget.com/2231100/meta-apps-displayed-ads-that-contained-ai-generated-csam/",
-      "source": "Engadget",
-      "summary": "Researchers identified more than 50 ads on Meta properties that violated the company's policies on child sexual abuse material.",
-      "published": "2026-08-05T18:41:08+00:00",
-      "score": 40.0,
-      "headline": "Meta Apps Displayed AI-Generated CSAM in Ads"
-    },
-    {
-      "id": "82d55983c3b0fa02",
-      "title": "Researchers watched OpenAI, Anthropic models take extreme measures in hacking test",
-      "url": "https://mashable.com/tech/openai-anthropic-ai-research-hacking-extreme-measures",
-      "source": "Mashable Tech",
-      "summary": "AI models from OpenAI and Anthropic did some pretty out-there things as part of a hacking research test.",
-      "published": "2026-08-05T16:24:22+00:00",
-      "score": 40.0,
-      "headline": "OpenAI, Anthropic Models Take EXTREME MEASURES in Hacking Test"
-    },
-    {
-      "id": "4857a88c1c4be979",
-      "title": "Google Assistant to shut down on Android, Wear OS next month",
-      "url": "https://mashable.com/tech/google-assistant-shutting-down-android-wearos-september",
-      "source": "Mashable Tech",
-      "summary": "After a decade of existence, Google is finally sunsetting Google Assistant in favor of Gemini.",
-      "published": "2026-08-05T15:18:38+00:00",
-      "score": 40.0,
-      "headline": "GOOGLE KILLS ASSISTANT... Gemini Takes Over Sept"
-    },
-    {
-      "id": "ecd2033dcd1a2fe9",
-      "title": "Google Assistant will vanish from Android phones and connected devices in September",
-      "url": "https://www.engadget.com/2230792/google-assistant-shut-down-android-devices-in-september/",
-      "source": "Engadget",
-      "summary": "Like birthdays in late May and most of June, it's all about Gemini.",
-      "published": "2026-08-05T14:48:36+00:00",
-      "score": 40.0,
-      "headline": "Google Assistant VANISHES From Android in September"
-    },
-    {
-      "id": "43e95974e5fe8698",
-      "title": "Europe's established tech firms emerge as unexpected AI winners",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/europes-established-tech-firms-emerge-as-unexpected-ai-winners/articleshow/132896490.cms",
-      "source": "The Economic Times Tech",
-      "summary": "SAP, Capgemini, Sopra Steria and OVHcloud have all reported stronger demand, faster growth or upgraded outlooks as companies move from experimenting with artificial intelligence \u200cto deploying it across their \u2060operations.",
-      "published": "2026-08-05T06:15:15+00:00",
-      "score": 40.0,
-      "headline": "SAP, Capgemini Emerge as SURPRISE EU AI Winners"
-    },
-    {
-      "id": "6386f460a7d2071e",
-      "title": "Banks to offload $15bn of debt for Anthropic data centre backed by Google",
-      "url": "https://www.ft.com/content/c492ce6b-483b-4196-8f2a-9bd1afda92d3?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Bond sale could free up lending capacity as mega AI deals stretch Wall Street financing limits",
-      "published": "2026-08-05T04:00:29+00:00",
-      "score": 40.0,
-      "headline": "Banks Offload $15B Debt for Anthropic Data Centre Backed by Google"
-    },
-    {
       "id": "25378ca71a5e9145",
       "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
       "url": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -1017,7 +637,387 @@
       "published": "2026-08-06T22:10:18+00:00",
       "score": 39.0,
       "headline": "Congressman Calls for 'Data Center Bill of Rights'"
+    },
+    {
+      "id": "4aa9ce4715f11000",
+      "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
+      "url": "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "Vercel Labs has introduced Zero, an experimental systems programming language aimed at AI rather than human users. It employs unique features like a specific toolchain contract and structured error messages. Reaching version 0.3.4, it compiles to native binaries for major operating systems. The language prioritizes size, speed, and agent usability, though it is still in development. By Daniel Curtis",
+      "published": "2026-08-06T05:51:00+00:00",
+      "score": 39.0,
+      "headline": "VERCEL LABS UNVEILS ZERO: Programming Language Built for AI Agents"
+    },
+    {
+      "id": "d5ce9cf3ca487896",
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative and, with Arcee, Unveils Genesis-Science-1 \u2014 Its First Open-Weight Model for Scientific Research",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vijp8y/us_department_of_energy_launches_the_genesis_open/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "&#32; submitted by &#32; /u/johnnyApplePRNG [link] &#32; [comments]",
+      "published": "2026-08-08T02:16:09+00:00",
+      "score": 38.0,
+      "headline": "US Energy Dept Launches Genesis AI Initiative for Science"
+    },
+    {
+      "id": "b6c83c570b256aa6",
+      "title": "Nvidia to invest up to $3 billion in Lancium: The Information",
+      "url": "https://economictimes.indiatimes.com/tech/funding/nvidia-to-invest-up-to-3-billion-in-lancium-the-information-reports/articleshow/133045158.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Nvidia will get \u200ba 20% \u2060stake in \u200cLancium \u200bfor \u200bthe first $2 \u2060billion investment, and its stake \u200bcould grow to \u200ban additional $1 billion if Lancium hits certain thresholds, the \u200cInformation said, citing people familiar \u200bwith the \u200bmatter.",
+      "published": "2026-08-08T02:11:07+00:00",
+      "score": 38.0,
+      "headline": "NVIDIA Invests Up to $3B in AI Infrastructure Firm Lancium"
+    },
+    {
+      "id": "67055b316330bac7",
+      "title": "Moonshot shake-up seeks to win Beijing nod for stock market debut",
+      "url": "https://www.ft.com/content/9c0d4f0d-d2c6-4189-b4bb-200d17a4720f?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Chinese AI start-up targets Hong Kong listing to raise fresh funding for next phase of development",
+      "published": "2026-08-07T23:00:07+00:00",
+      "score": 38.0,
+      "headline": "China's Moonshot AI Targets Hong Kong IPO"
+    },
+    {
+      "id": "a8fa82f01ae3b21d",
+      "title": "UnionPay to plug Chinese payment apps into Brazil\u2019s Pix after US tariffs over the system",
+      "url": "https://www.scmp.com/news/china/article/3363365/unionpay-plug-chinese-payment-apps-brazils-pix-after-us-tariffs-over-system?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "China\u2019s UnionPay International plans to connect Chinese payment apps to Pix, the Brazilian payment system at the centre of Washington\u2019s trade case against Brasilia, allowing Chinese tourists to pay by scanning a code. Under the pilot, users of the UnionPay app and of Chinese bank apps linked to its platform would scan a merchant\u2019s code and pay from the account they use at home. Chinese state media reported that access would later extend to other digital wallets in UnionPay\u2019s global network. Pix...",
+      "published": "2026-08-07T19:59:05+00:00",
+      "score": 38.0,
+      "headline": "UnionPay Integrates Chinese Payment Apps Into Brazil's Pix"
+    },
+    {
+      "id": "fb25d3a3c08a1885",
+      "title": "After blowing its entire 2026 AI budget in months, Uber CTO says \u2018We\u2019re coming to the end of the so-called \u2018tokenmaxxing\u2019 era\u2019",
+      "url": "https://fortune.com/2026/08/07/uber-ai-spending-tokenmaxxing-is-over-cto/",
+      "source": "Fortune Tech",
+      "summary": "\u201cYou might expect costs to rise as adoption accelerates,\u201d Praveen Neppalli Naga said. \u201cWe've seen the opposite.\u201d",
+      "published": "2026-08-07T17:48:15+00:00",
+      "score": 38.0,
+      "headline": "UBER BLOWS ENTIRE 2026 AI BUDGET IN MONTHS... CTO: 'Tokenmaxxing Era' Over"
+    },
+    {
+      "id": "8d6179a6fc7ad373",
+      "title": "The Hugging Face hack is now a PR crisis that\u2019s costing OpenAI millions",
+      "url": "https://fortune.com/2026/08/07/the-hugging-face-hack-is-now-a-pr-crisis-thats-costing-openai-millions/",
+      "source": "Fortune Tech",
+      "summary": "The compute cost of investigating the incident is staggering, given details revealed in a talk the company delivered at a security conference this week.",
+      "published": "2026-08-07T16:17:11+00:00",
+      "score": 38.0,
+      "headline": "HUGGING FACE HACK COSTS OPENAI MILLIONS IN PR CRISIS"
+    },
+    {
+      "id": "1f463a743e5a3957",
+      "title": "A llama.cpp PR makes Q2_0 3.0\u20133.6x faster on x86 CPUs, 8B decode goes 2.39 \u2192 8.20 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhz989/a_llamacpp_pr_makes_q2_0_3036x_faster_on_x86_cpus/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "I was going through the current llama.cpp CPU PRs and #26348 stood out because this isn't the usual +5% kernel optimization. It adds an x86 VNNI implementation for the Q2_0 \u00d7 Q8_0 dot product, and the author's controlled CPU-only benchmarks show roughly 3\u20133.6x higher throughput across Bonsai models from 1.7B to 27B. Setup: - AMD EPYC 9645 - 8 CPU cores - CPU only - GGML_NATIVE=ON - OpenMP enabled - BLAS disabled - -t 8 -ngl 0 -fa off - 3 runs after warmup - group-64 Q2_0 Bonsai GGUFs Results: 1.7B pp512: 14.07 \u2192 50.47 tok/s (3.59x) tg128: 10.22 \u2192 33.28 tok/s (3.26x) 4B pp512: 5.41 \u2192 19.40 tok/s (3.59x) tg128: 4.45 \u2192 13.36 tok/s (3.00x) 8B pp512: 2.82 \u2192 10.26 tok/s (3.64x) tg128: 2.39 \u2192 8.20 tok/s (3.43x) 27B pp128: 0.79 \u2192 2.85 tok/s (3.59x) tg32: 0.72 \u2192 2.37 tok/s (3.32x) The 27B baseline was apparently so slow that a pp128 pass took almost 3 minutes. What's actually changing is pretty small: the existing Q2_0 dot product gets a path using AVX-VNNI / AVX-512 VNNI instead of relying on ",
+      "published": "2026-08-07T12:27:41+00:00",
+      "score": 38.0,
+      "headline": "Llama.cpp PR Makes Q2_0 Inference 3.6x Faster on x86 CPUs"
+    },
+    {
+      "id": "f53bcd3cc4ab2afa",
+      "title": "Why AI is a risk to Communist China",
+      "url": "https://www.economist.com/leaders/2026/08/06/why-ai-is-a-risk-to-communist-china",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.economist.com/leaders/2026/08/06/why-ai-is-a-risk-to-communist-china Comments URL: https://news.ycombinator.com/item?id=49203368 Points: 2 # Comments: 0",
+      "published": "2026-08-06T22:15:06+00:00",
+      "score": 38.0,
+      "headline": "Why AI Threatens Communist China's Control"
+    },
+    {
+      "id": "94e895c27149afa2",
+      "title": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+      "source": "The Verge AI",
+      "summary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, [&#8230;]",
+      "published": "2026-08-06T20:55:39+00:00",
+      "score": 38.0,
+      "headline": "JONY IVE'S FIRST OPENAI DEVICE: Hockey Puck Smart Speaker"
+    },
+    {
+      "id": "3558bfcdcf03364f",
+      "title": "Hackers Target Wall Street in New Set of Attacks",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-06/hackers-target-wall-street-in-new-set-of-attacks-video",
+      "source": "Bloomberg Technology",
+      "summary": "Hackers launched a wave of sophisticated attacks on Wall Street firms in recent days, according to people familiar. Hedge funds have been the main target. Mandeep Singh of Bloomberg Intelligence takes a closer look at what companies are doing to try and protect themselves and how stocks could be impacted. (Source: Bloomberg)",
+      "published": "2026-08-06T20:05:25+00:00",
+      "score": 38.0,
+      "headline": "HACKERS TARGET WALL STREET... Hedge Funds Hit"
+    },
+    {
+      "id": "6daf17a9b360c2ad",
+      "title": "Hackers targeted US private equity, other firms including Blackstone, CME, data shows",
+      "url": "https://economictimes.indiatimes.com/tech/technology/hackers-targeted-us-private-equity-other-firms-including-blackstone-cme-data-shows/articleshow/133015091.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The data shows the \u200bhackers devised websites aimed at stealing passwords from employees of private equity firms and companies including Blackstone, Bridgewater Associates, Apollo Global Management, Bain Capital, \u200bKKR, TPG, CME Group and Moody's, as well as a host of financial companies and other businesses. Internet company Google said in a blog post about the hacking campaign published on Thursday that the hackers operate under a range of names, including Redact, Pink, Falcon, and Helix.",
+      "published": "2026-08-06T19:12:42+00:00",
+      "score": 38.0,
+      "headline": "BLACKSTONE, CME TARGETED... PE Firms Under Cyberattack"
+    },
+    {
+      "id": "4e7399188b594251",
+      "title": "Inside Intel: how America\u2019s chip champion came back from the brink",
+      "url": "https://www.ft.com/content/77ece212-2768-4abe-9af1-b40a0db27c8f?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "The group\u2019s shares have quadrupled, but it has yet to prove itself a serious manufacturing competitor to Taiwan\u2019s TSMC",
+      "published": "2026-08-06T04:00:15+00:00",
+      "score": 38.0,
+      "headline": "INTEL SHARES QUADRUPLE: Chip Giant's Comeback From Near-Death"
+    },
+    {
+      "id": "a832dd49d3f4cb87",
+      "title": "Talk, don\u2019t type: Big Tech bets AI\u2019s future will be spoken",
+      "url": "https://www.ft.com/content/b7d917d4-9304-4dfe-99bd-db19fafd5238?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "OpenAI and Google invest heavily in voice systems as main way to interact with a new generation of AI agents",
+      "published": "2026-08-06T04:00:05+00:00",
+      "score": 38.0,
+      "headline": "OPENAI, GOOGLE BET BIG ON VOICE: AI Agents Go Conversational"
+    },
+    {
+      "id": "aaaf1cb6014c35cc",
+      "title": "SafeCommit: Certifying When Memory-Grounded Agents May Safely Act",
+      "url": "https://arxiv.org/abs/2608.04289",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.04289v1 Announce Type: new Abstract: Long-horizon agents increasingly use persistent memory and tools to take actions with external side effects. A central failure mode is premature commitment: an agent acts before resolving whether its memory grounding is stale, conflicting, incomplete, or corrupted. We formalize this problem as safe commitment under memory uncertainty and introduce SafeCommit, a risk controlled layer between agent reasoning and external execution. The layer constructs a calibrated set of plausible latent worlds from memory, observations, tool outputs, provenance, and policy constraints. It permits a side effectful action only when a conformal action certificate shows that the action is safe in every retained world. Otherwise, it selects a low-side-effect probe that targets the worlds blocking certification, or returns a conservative fallback. Under calibrated world coverage, the probability of an unsafe certified commit is at most the target level {\\alpha}",
+      "published": "2026-08-06T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "SafeCommit Certifies When AI Agents Can Safely Act"
+    },
+    {
+      "id": "361b4b74ced13a0c",
+      "title": "Census Proposal Would Stop Counting Undocumented Immigrants\u2014and Ignore Race and Sexual Orientation",
+      "url": "https://www.wired.com/story/census-proposal-would-stop-counting-undocumented-immigrants-and-ignore-race-and-sexual-orientation/",
+      "source": "Wired",
+      "summary": "A draft rule reviewed by WIRED would prevent the census from counting undocumented immigrants. To protect against \u201cdistortions,\u201d it would also bar questions about race and sexual orientation.",
+      "published": "2026-08-08T14:03:58+00:00",
+      "score": 37.0,
+      "headline": null
+    },
+    {
+      "id": "3b774017707fa2a9",
+      "title": "Data Center Firm Switch to File Confidentially for IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-said-to-file-confidentially-for-ipo",
+      "source": "Bloomberg Technology",
+      "summary": "Switch Inc. filed confidentially for a US IPO, according to people familiar with the matter, joining its data center peers in tapping demand for exposure to the artificial intelligence theme.",
+      "published": "2026-08-07T21:23:00+00:00",
+      "score": 37.0,
+      "headline": "Data Center Giant Switch Files for IPO Amid AI Boom"
+    },
+    {
+      "id": "d5d32a2cf8111ab8",
+      "title": "Disney+ and ESPN are testing AI-powered search that lets users describe what they want in plain language",
+      "url": "https://thenextweb.com/news/disney-espn-ai-search-discovery-beta",
+      "source": "The Next Web",
+      "summary": "Disney is testing AI-powered search inside both ESPN and Disney+, the company announced on Wednesday. ESPN Search lets a small group of users ask sports questions in natural language and receive answers, stats, related content, and recommendations drawn from decades of ESPN\u2019s articles, videos, research data, and internal knowledge repositories. On Disney+, a separate beta [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-07T19:12:10+00:00",
+      "score": 37.0,
+      "headline": "Disney+ and ESPN Test AI Search with Natural Language"
+    },
+    {
+      "id": "8de87db5adcfa2fb",
+      "title": "SK Hynix Is Said to Mull Options for $3 Billion Chongqing Assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/sk-hynix-is-said-to-mull-options-for-3-billion-chongqing-assets",
+      "source": "Bloomberg Technology",
+      "summary": "South Korea\u2019s SK Hynix Inc. is considering options for its Chongqing, China-based facility, including bringing in an investor to help accelerate growth, according to people with knowledge of the matter.",
+      "published": "2026-08-07T13:36:44+00:00",
+      "score": 37.0,
+      "headline": "SK Hynix Eyes Investor for $3B China Chip Facility"
+    },
+    {
+      "id": "67366363da8e4e64",
+      "title": "Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools",
+      "url": "https://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "Microsoft released a dedicated AI Gateway tier of Azure API Management in public preview, with a control plane built around models, MCP servers and tools rather than APIs. It fronts Foundry, Bedrock, Vertex AI and OpenAI behind one endpoint, with policy cards instead of XML. Architects welcomed the consolidation while questioning where the governance boundary sits. By Steef-Jan Wiggers",
+      "published": "2026-08-07T06:35:00+00:00",
+      "score": 37.0,
+      "headline": "Microsoft Launches AI Gateway Tier for Azure API Management"
+    },
+    {
+      "id": "5a2c2a76684afc27",
+      "title": "From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for Hospital AI Systems",
+      "url": "https://arxiv.org/abs/2608.06112",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.06112v1 Announce Type: new Abstract: Hospitals are rapidly adopting artificial intelligence for triage, imaging, scheduling etc., yet most deployments remain isolated point solutions locked inside departmental silos, resulting in duplicated effort, hidden risks, and unrealized enterprise value. Despite explosive growth of AI in healthcare market and accelerating investment, an estimated 70-80% of healthcare AI pilots fail to scale, largely due to governance gaps, fragmented data, and missing integration blueprints. This research proposes a hospital-specific, compliance-first, Agentic AI architecture with multiple interoperable layers, extending existing hospital AI platform models with: (i) an Agent Orchestration Layer for multi-agent workflows across clinical, operational, and financial domains, (ii) a Compliance and Policy Layer that centralizes policy-as-code for HIPAA, GDPR, the EU AI Act, DISHA Act, India's DPDP Act, and ISO/IEC security and safety standards, and (iii) ",
+      "published": "2026-08-07T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "Hospitals Get Compliance-First AI Platform Architecture"
+    },
+    {
+      "id": "901f994198d1a1d9",
+      "title": "Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts",
+      "url": "https://arxiv.org/abs/2608.06123",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.06123v1 Announce Type: new Abstract: Measuring political bias in large language models (LLMs) remains challenging as it can manifest through subtle differences in framing, argumentation, and legal reasoning that are difficult to capture with a single metric. In this work, we introduce Poli-Bias, a counterfactual framework for measuring whether LLMs treat legally equivalent conflict scenarios differently depending on the countries involved. Poli-Bias compares responses to paired prompts in which country identities are systematically swapped across diverse geopolitical relationships, legal violations, and reasoning tasks. Rather than reducing bias to a single judgment, our framework decomposes response disparities into five interpretable dimensions, revealing how and where unequal treatment manifests. Across 13 contemporary LLMs spanning diverse model families and sizes, we find that country identities and user affiliations can systematically affect how equivalent actions are ",
+      "published": "2026-08-07T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "EXPOSED: LLMs Show Political Bias in International Conflicts"
+    },
+    {
+      "id": "74218703482f01f1",
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "A New Mexico judge ordered the Instagram, Facebook and Whatsapp parent company to pay another $567m for the way it has harmed children.",
+      "published": "2026-08-06T23:34:17+00:00",
+      "score": 37.0,
+      "headline": null
+    },
+    {
+      "id": "ad38b7bb23bda513",
+      "title": "Atlassian Shares Surge as Revenue Jump Douses AI Fears",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/atlassian-shares-surge-as-revenue-jump-douses-ai-fears",
+      "source": "Bloomberg Technology",
+      "summary": "Atlassian Corp. shares surged in after-hours trading after quarterly revenue climbed, easing concerns that the software services company would be overtaken by artificial intelligence applications.",
+      "published": "2026-08-06T23:12:28+00:00",
+      "score": 37.0,
+      "headline": "Atlassian Revenue Jump Eases AI Displacement Fears"
+    },
+    {
+      "id": "93553c6ca62b0cfb",
+      "title": "OpenAI\u2019s new AI smart speaker will reportedly sell for between $300 and $400",
+      "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+      "source": "TechCrunch AI",
+      "summary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
+      "published": "2026-08-06T22:43:53+00:00",
+      "score": 37.0,
+      "headline": "OpenAI's AI Smart Speaker to Cost $300-$400"
+    },
+    {
+      "id": "35e98dd28abb0508",
+      "title": "Google open-sources an AI model it says can help with earlier hurricane warnings",
+      "url": "https://www.engadget.com/2232141/google-open-source-ai-model-can-help-with-earlier-hurricane-warnings/",
+      "source": "Engadget",
+      "summary": "WeatherNext can deliver a 15-day forecast predicting storms' track and intensity.",
+      "published": "2026-08-06T22:40:33+00:00",
+      "score": 37.0,
+      "headline": "Google Open-Sources AI Model for Hurricane Forecasting"
+    },
+    {
+      "id": "a062fd31d1d410f6",
+      "title": "Introducing Dogwood: runtime verification for AI agents",
+      "url": "https://aws.amazon.com/blogs/opensource/introducing-dogwood-runtime-verification-for-ai-agents/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://aws.amazon.com/blogs/opensource/introducing-dogwood-runtime-verification-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49203471 Points: 1 # Comments: 0",
+      "published": "2026-08-06T22:24:14+00:00",
+      "score": 37.0,
+      "headline": "AWS Launches Dogwood: Runtime Verification for AI Agents"
+    },
+    {
+      "id": "05efe42fc8dd7d88",
+      "title": "Google Grapples With Exit of AI Pioneer and \u2018Most Google Person\u2019",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-grapples-with-exit-of-ai-pioneer-and-most-google-person",
+      "source": "Bloomberg Technology",
+      "summary": "Days after Google unveiled its first Gemini chatbot in 2023 to compete with ChatGPT, Jeff Dean went to an AI conference where he was promptly swarmed by attendees. Suddenly, the Google executive looked at his watch and realized he was due to give a talk minutes later, spurring a rush to take selfies with the influential tech leader before he left.Now, it\u2019s the employees at Google who are bracing for the AI pioneer\u2019s exit. Dean, who started at the company more than two decades ago, said Wednesday",
+      "published": "2026-08-06T19:55:56+00:00",
+      "score": 37.0,
+      "headline": "GOOGLE LOSES AI PIONEER JEFF DEAN... Internal Turmoil"
+    },
+    {
+      "id": "382cde7c60f0ab77",
+      "title": "SoftBank Profit Beats Expectations",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-06/softbank-profit-beats-expectations-video",
+      "source": "Bloomberg Technology",
+      "summary": "SoftBank Group Corp. reported a smaller-than-expected decline in quarterly net income, helped by a rally in its chip-stock holdings. OpenAI\u2019s Japanese backer is in the spotlight alongside concerns about climbing debt levels that AI service providers are taking on to spend on data centers and other infrastructure. Bloomberg's Neil Campling reports. (Source: Bloomberg)",
+      "published": "2026-08-06T07:09:58+00:00",
+      "score": 37.0,
+      "headline": "SoftBank Profit Beats Amid OpenAI Spotlight"
+    },
+    {
+      "id": "2da75f9b9401cc76",
+      "title": "Samsung, SK Hynix shareholders call for bigger payouts from AI cash mountain",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/samsung-sk-hynix-shareholders-call-for-bigger-payouts-from-ai-cash-mountain/articleshow/132981837.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Samsung and SK Hynix face investor pressure for increased shareholder payouts. These chipmakers are generating unprecedented cash from robust AI chip demand. Investors want more dividends and buybacks after record profits were reported. The companies currently target half of free cash flow for shareholder returns. This situation exacerbates concerns about the \"Korea discount\" valuation.",
+      "published": "2026-08-06T04:35:49+00:00",
+      "score": 37.0,
+      "headline": "SAMSUNG, SK HYNIX INVESTORS DEMAND BIGGER AI CASH PAYOUTS"
+    },
+    {
+      "id": "4d904f0fb9305215",
+      "title": "Architectural Implications of Agentic AI Workflows",
+      "url": "https://arxiv.org/abs/2608.04458",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.04458v1 Announce Type: new Abstract: Agentic AI is emerging in datacenters, but its architectural implications remain unexplored. We organize agentic workflows in a taxonomy and present its first architectural characterization with a production study at Microsoft Azure and a controlled study of open-source frameworks. We show that agentic execution is fragmented and heterogeneous. Requests expand into a workflow of LLM inferences, tool invocations, and orchestration decisions that repeatedly cross the CPU-GPU boundary. Our taxonomy explains how this fragmentation turns into resource demand. As orchestration and tools run on the host, the CPU sits on the critical path. Execution structure sets the load over time, which stays low with sudden spikes. Model composition sets how evenly the workflow uses the GPUs. Diversity in tasks and tools widens this range even further. These characteristics expose architectural mismatches of conventional uniform servers. Fragmented execution ",
+      "published": "2026-08-06T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "AGENTIC AI RESHAPES DATACENTER ARCHITECTURE"
+    },
+    {
+      "id": "72d7367a4cb791c1",
+      "title": "AI companies keep destroying old books. Heres why.",
+      "url": "https://mashable.com/tech/anthropic-ai-book-training-destroy",
+      "source": "Mashable Tech",
+      "summary": "Anthropic and other AI companies have been caught slicing up old books to create training data for their LLMs.",
+      "published": "2026-08-08T09:00:00+00:00",
+      "score": 36.0,
+      "headline": "Anthropic Caught Destroying Books for AI Training Data"
+    },
+    {
+      "id": "4de483a15bc4a3ba",
+      "title": "Government examines if Meta recommendation system deciding 'what-to-show-to-whom' fits intermediary status",
+      "url": "https://economictimes.indiatimes.com/tech/technology/govt-examines-if-meta-recommendation-system-deciding-what-to-show-to-whom-fits-intermediary-status/articleshow/133048786.cms",
+      "source": "The Economic Times Tech",
+      "summary": "If a platform determines what content gets shown to users, it amounts to publishing, and platforms would then have to take responsibility for their actions. The issue assumes significance as intermediaries enjoy certain legal protections under the Act, subject to compliance with prescribed conditions.",
+      "published": "2026-08-08T07:53:51+00:00",
+      "score": 36.0,
+      "headline": "India Probes Meta's AI Recommendation System for Publisher Status"
+    },
+    {
+      "id": "0b9af4eb30c0c448",
+      "title": "JEDEC releases new SPHBM4 standard to slash AI memory costs \u2013 512-bit interface",
+      "url": "https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates Comments URL: https://news.ycombinator.com/item?id=49218894 Points: 1 # Comments: 0",
+      "published": "2026-08-08T04:27:56+00:00",
+      "score": 36.0,
+      "headline": "JEDEC's New SPHBM4 Standard Slashes AI Memory Costs"
+    },
+    {
+      "id": "72af7897076420ad",
+      "title": "AI Regulation Map: a view of AI governance in 196 countries",
+      "url": "https://www.lesswrong.com/posts/EbWZC2gz5KqNF3SiX/ai-regulation-map-a-view-of-ai-governance-in-196-countries",
+      "source": "LessWrong AI",
+      "summary": "(Cross-posted from the EA Forum)TL;DR: airegulationmap.org is an interactive map of AI governance across 196 countries, scored on five dimensions plus a composite index, refreshed monthly by an automated research pipeline. The application is fully open source, and all the data is open and version-controlled.Hi!! I'm Ria, a software engineer based in Chile. This started as my final project for ML4Good Brazil 2024, then sat untouched until I picked it back up this year. I\u2019d love to get feedback on the website, see if it\u2019s useful, and what can be improved. I come from the software world and don\u2019t have experience in policy, so the scoring methodology is where I'd most value feedback.AI Regulation MapIf you want to know how a country approaches AI regulation, you have to scour hundreds of sources, many in different languages, while also trying to understand the technicalities of each region. There isn't an easy way to see the status of each country, to compare them, or to see how they've ch",
+      "published": "2026-08-08T01:53:10+00:00",
+      "score": 36.0,
+      "headline": "Interactive Map Tracks AI Regulation Across 196 Countries"
+    },
+    {
+      "id": "c534158d528e5b56",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "source": "TechCrunch AI",
+      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "published": "2026-08-07T21:30:11+00:00",
+      "score": 36.0,
+      "headline": "Rippling Spent Millions on AI, Built ROI Tracker"
+    },
+    {
+      "id": "6f98d5fa0590d5fd",
+      "title": "SoftBank-Backed 3D Printer Maker Formlabs Said to Weigh IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/softbank-backed-3d-printer-maker-formlabs-is-said-to-weigh-ipo",
+      "source": "Bloomberg Technology",
+      "summary": "Formlabs, a maker of 3D printers, is in early talks with potential advisers for an initial public offering, according to people familiar with the matter.",
+      "published": "2026-08-07T20:23:15+00:00",
+      "score": 36.0,
+      "headline": "SoftBank-Backed 3D Printer Formlabs Eyes IPO"
+    },
+    {
+      "id": "c6fa7411cccaa60e",
+      "title": "DeepSeek V4 Flash 0731 - ARC-AGI Results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi9zls/deepseek_v4_flash_0731_arcagi_results/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "&#32; submitted by &#32; /u/johnnyApplePRNG [link] &#32; [comments]",
+      "published": "2026-08-07T19:17:49+00:00",
+      "score": 36.0,
+      "headline": "DeepSeek V4 Flash Posts New ARC-AGI Benchmark Results"
     }
   ],
-  "generated_at": "2026-08-08T18:29:41.791007"
+  "generated_at": "2026-08-09T06:43:39.182486"
 }

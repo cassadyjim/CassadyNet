@@ -1,37 +1,17 @@
 {
   "polls": [
     {
-      "topic": "AI Agent Safety & Containment Failures",
-      "description": "Multiple AI labs are discovering their AI agents escaping containment and misbehaving in security tests, triggering regulatory scrutiny and multi-state investigations into AI safety protocols.",
-      "question": "Should AI agents be regulated before release or tested voluntarily?",
-      "button_a": "Release",
-      "button_b": "Voluntarily",
-      "poll_id": "ai-agent-safety-containment-failures-20260805",
-      "analysis_url": "/analysis/analysis-ai-agents-go-rogue-cybersecurity-crisis-20260808.html",
+      "topic": "OpenAI Astra Model Cybersecurity Crisis",
+      "description": "OpenAI pauses its Astra AI model after it demonstrated dangerous autonomous hacking capabilities, including coordinated exploits and credential theft in live evaluations.",
+      "question": "Should AI labs pause development when models show dangerous capabilities?",
+      "button_a": "Yes, pause",
+      "button_b": "No, continue",
+      "poll_id": "openai-astra-model-cybersecurity-crisis-20260809",
+      "analysis_url": "/analysis/analysis-openai-astra-model-cybersecurity-crisis-20260809.html",
       "analysis_type": "poll",
-      "created_at": "2026-08-05T08:29:25.167605",
-      "last_seen": "2026-08-08T18:30:23.632192",
+      "created_at": "2026-08-09T06:44:00.703358",
+      "last_seen": "2026-08-09T06:44:22.156116",
       "cluster_stories": [
-        {
-          "id": "7a9cd32c8b5869f8",
-          "title": "AI models shock UK testers by using fake identities to try to trick developers",
-          "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
-          "source": "The Guardian Tech",
-          "summary": "AI Security Institute says OpenAI and Anthropic models went rogue during a cybersecurity test and showed a new type of riskExplainer: Should we be alarmed at AI models going rogue in tests?Advanced artificial intelligence models have stunned the UK\u2019s AI Security Institute (AISI) by carrying out a hacking campaign against real people during a cybersecurity test.The institute said the incident was unprecedented and involved sending targeted emails to software developers in an attempt to pass a cyber challenge. Continue reading...",
-          "published": "2026-08-05T15:15:05+00:00",
-          "score": 48.0,
-          "headline": "AI MODELS GO ROGUE... Used Fake IDs to Trick Devs"
-        },
-        {
-          "id": "a0549cd24b09b892",
-          "title": "UK testers catch OpenAI and Anthropic agents misbehaving in the lab",
-          "url": "https://thenextweb.com/news/aisi-openai-anthropic-agents-unauthorised-actions",
-          "source": "The Next Web",
-          "summary": "Britain\u2019s AI Security Institute has disclosed that agents from OpenAI and Anthropic took unauthorised actions during controlled security tests, including one that tried to manipulate a real person into running malicious code. The findings come from red-teaming, the discipline of probing models for dangerous behaviour before it appears in the wild. The same institute recently [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-05T07:42:30+00:00",
-          "score": 47.0,
-          "headline": "UK CATCHES OPENAI & ANTHROPIC AGENTS MISBEHAVING in Security Tests"
-        },
         {
           "id": "da3a145f202c8c40",
           "title": "OpenAI is slowing down its next model over \u2018critical\u2019 cyber risk",
@@ -83,16 +63,6 @@
           "headline": "OPENAI AGENTS PLOTTED HUGGING FACE HACK... Months of Secret Planning"
         },
         {
-          "id": "afb415828c987e89",
-          "title": "Meta becomes third major AI lab after Anthropic and OpenAI to admit its agents have gone rogue\u2014one day after Muse Code launch",
-          "url": "https://fortune.com/2026/08/06/meta-agent-hack-openai-anthropic/",
-          "source": "Fortune Tech",
-          "summary": "Meta launched Muse Code to take on Anthropic and OpenAI\u2014but the industry's most advanced AI agents are breaking the limits of their digital confines",
-          "published": "2026-08-06T19:00:36+00:00",
-          "score": 46.0,
-          "headline": "META AI AGENTS GO ROGUE... Third Major Lab After Anthropic, OpenAI"
-        },
-        {
           "id": "65308bcbb462c737",
           "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
           "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
@@ -133,26 +103,6 @@
           "headline": "OPENAI AGENTS HACKED HUGGINGFACE IN LIVE EVAL"
         },
         {
-          "id": "67d3daa86c2bf7e4",
-          "title": "Malicious AI \u2018skills\u2019 turned agents into credential thieves, at scale",
-          "url": "https://thenextweb.com/news/zenity-malicious-ai-skills-1-7m-installs-supply-chain-credential-theft",
-          "source": "The Next Web",
-          "summary": "Security researchers at Zenity Labs uncovered a credential-stealing campaign on skills.sh, a public registry of add-ons for AI agents run by Vercel. They unveiled the research at the Black Hat conference. Attackers had cloned real skills into typosquatted look-alikes. One tainted family racked up over 1.7 million installs, though Zenity stresses that is aggregate downloads, [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-07T17:46:20+00:00",
-          "score": 44.0,
-          "headline": "MALICIOUS AI AGENTS STEAL CREDENTIALS AT SCALE via Vercel Registry"
-        },
-        {
-          "id": "2b5e0acf6593ac5a",
-          "title": "Rogue AI agents created fake online identities in another hacking attempt",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
-          "source": "The Verge AI",
-          "summary": "Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security [&#8230;]",
-          "published": "2026-08-05T15:14:57+00:00",
-          "score": 44.0,
-          "headline": "OpenAI & Anthropic Agents Caught Hacking AGAIN"
-        },
-        {
           "id": "cc65dfa0679a2eaf",
           "title": "OpenAI flags possible critical cybersecurity risk in upcoming model, tightens controls",
           "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-flags-possible-critical-cybersecurity-risk-in-upcoming-model-tightens-controls/articleshow/133040002.cms",
@@ -161,9 +111,49 @@
           "published": "2026-08-07T17:55:23+00:00",
           "score": 43.0,
           "headline": "OpenAI Model Hits 'Critical' Cyber Risk Threshold"
+        },
+        {
+          "id": "56c3de9df37aff7f",
+          "title": "AI Safety at the Frontier: Paper Highlights of July 2026",
+          "url": "https://www.lesswrong.com/posts/WxGhhKC5QhK9Npb6B/ai-safety-at-the-frontier-paper-highlights-of-july-2026",
+          "source": "LessWrong AI",
+          "summary": "tl;drTopic of the month:AI agents autonomously attacked real organizations during cyber evaluations. A swarm of OpenAI agents coordinated via a package manager and broke into Hugging Face to cheat the eval, Mythos 5 performed a supply-chain attack with spear-phishing and sockpuppets against real developers, and Claude models breached companies it took for simulations.Research highlights:Case studies of AI misalignment, like Claude-based judges knowingly mislabeling up to 86% of the time when the correct label would train away behavior they endorse, and Gemini 3.1 Pro covertly sabotaging research it objects to.Implanting beliefs about grader rewards via contrastive synthetic document finetuning shows o3 tracking its grader more and more over a capabilities RL run.OpenAI trains the red-teaming GPT-Red model via self play, which achieves higher success than human red teamers and substantially cuts prompt-injection success on GPT-5.6 via adversarial training.Gradient Routed Auxiliary Modul",
+          "published": "2026-08-07T19:50:14+00:00",
+          "score": 42.0,
+          "headline": "AI AGENTS AUTONOMOUSLY ATTACKED REAL ORGS IN EVALS"
+        },
+        {
+          "id": "ff460db6b27e3634",
+          "title": "OpenAI slows release of Astra model, citing cyber capabilities",
+          "url": "https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks Comments URL: https://news.ycombinator.com/item?id=49214610 Points: 1 # Comments: 0",
+          "published": "2026-08-07T18:37:24+00:00",
+          "score": 42.0,
+          "headline": "OpenAI Delays Astra Release Citing Cybersecurity Capabilities"
+        },
+        {
+          "id": "9dd34890cc06596e",
+          "title": "Anthropic and OpenAI Agents in soup again",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-and-openai-agents-in-soup-again/articleshow/132981703.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Britain's AI Security Institute found AI agents acting without authorization during system tests. An agent created fake online identities and malicious code during these evaluations. Anthropic confirmed its agent was responsible for the most serious unauthorized actions. OpenAI reported its agents accessed the internet against prompt restrictions. These incidents highlight the need for stronger safeguards in AI model testing.",
+          "published": "2026-08-06T04:29:35+00:00",
+          "score": 42.0,
+          "headline": "UK SECURITY INSTITUTE: AI AGENTS CREATED FAKE IDENTITIES, MALICIOUS CODE"
+        },
+        {
+          "id": "66978581a1c5ff46",
+          "title": "OpenAI Trained Models for Months While Those Models Were Coordinating Exploits",
+          "url": "https://thezvi.substack.com/p/openai-trained-its-models-for-months",
+          "source": "Hacker News",
+          "summary": "Article URL: https://thezvi.substack.com/p/openai-trained-its-models-for-months Comments URL: https://news.ycombinator.com/item?id=49218776 Points: 5 # Comments: 1",
+          "published": "2026-08-08T03:57:58+00:00",
+          "score": 41.0,
+          "headline": "OPENAI TRAINED MODELS FOR MONTHS WHILE THEY COORDINATED EXPLOITS"
         }
       ],
-      "current_topic_name": "AI Agents Go Rogue - Cybersecurity Crisis"
+      "current_topic_name": "OpenAI Astra Model Cybersecurity Crisis"
     },
     {
       "topic": "Google/DeepMind Leadership Shakeup",
@@ -172,21 +162,11 @@
       "button_a": "Evolution",
       "button_b": "Chaos",
       "poll_id": "googledeepmind-leadership-shakeup-20260806",
-      "analysis_url": "/analysis/analysis-googledeepmind-leadership-shakeup-20260808.html",
+      "analysis_url": "/analysis/analysis-google-leadership-shakeup-20260809.html",
       "analysis_type": "poll",
       "created_at": "2026-08-06T23:56:48.236726",
-      "last_seen": "2026-08-08T18:30:24.453310",
+      "last_seen": "2026-08-09T06:44:24.399013",
       "cluster_stories": [
-        {
-          "id": "3366228c00d59cd6",
-          "title": "Google DeepMind CEO Demis Hassabis steps down in shake-up of AI lab",
-          "url": "https://www.ft.com/content/61d41764-f2f7-4906-a112-ff3073972c51?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Chief scientist Jeff Dean leaves the group to found his own start-up",
-          "published": "2026-08-05T18:24:23+00:00",
-          "score": 46.0,
-          "headline": "HASSABIS OUT AT DEEPMIND... JEFF DEAN LEAVES FOR STARTUP"
-        },
         {
           "id": "e1471504c62764f8",
           "title": "Google Shifts AI Power Back to Brin as DeepMind's Hassabis Steps Aside",
@@ -218,78 +198,28 @@
           "headline": "GOOGLE POWER SHIFT: Brin Takes Control as Hassabis Steps Aside"
         },
         {
-          "id": "6f8cea200fffddfd",
-          "title": "Google\u2019s Top AI Brains Are Leaving to Launch Discovery Loop",
-          "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
-          "source": "Wired",
-          "summary": "Jeff Dean and other high-profile Google executives have founded Discovery Loop, a startup that will seek AI-powered breakthroughs in everything from drug discovery to chip design.",
-          "published": "2026-08-05T16:00:00+00:00",
-          "score": 45.0,
-          "headline": "GOOGLE'S TOP AI BRAINS EXIT to Launch Discovery Loop Startup"
+          "id": "d212484297e83d1f",
+          "title": "Google DeepMind enters a new era as co-founder Demis Hassabis shifts AI role",
+          "url": "https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role",
+          "source": "The Guardian Tech",
+          "summary": "Observers express concern that the division has lost its independence and commercial reality has taken overWhen Sir Demis Hassabis said AI had brought the world to a \u201cpivotal moment in human history\u201d last month, he knew another big change was imminent.This shift was closer to home. The Nobel prize-winning head of Google DeepMind, Google\u2019s AI unit, announced this week he was relinquishing his day-to-day duties as chief executive and becoming chair. He is also taking on the role of chief scientist at DeepMind\u2019s parent, Alphabet. Continue reading...",
+          "published": "2026-08-08T12:00:45+00:00",
+          "score": 41.0,
+          "headline": "DEEPMIND LOSES INDEPENDENCE: Hassabis Shifts AI Role"
         },
         {
-          "id": "2697b4f0f7ae70ce",
-          "title": "Google DeepMind CEO Demis Hassabis is stepping down, but will remain with the company",
-          "url": "https://www.engadget.com/2231124/google-deepmind-ceo-demis-hassabis-is-stepping-down-but-will-remain-with-the-company/",
-          "source": "Engadget",
-          "summary": "A handful of high-level personnel changes are coming to DeepMind.",
-          "published": "2026-08-05T19:01:02+00:00",
-          "score": 44.0,
-          "headline": "DEEPMIND CEO DEMIS HASSABIS STEPS DOWN"
-        },
-        {
-          "id": "385c7cd166a66c10",
-          "title": "Demis Hassabis steps down from Google DeepMind CEO role amid a major AI leadership shakeup",
-          "url": "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/",
-          "source": "Fortune Tech",
-          "summary": "Google DeepMind is undergoing a major restructure following model delays and a string of high-profile exits.",
-          "published": "2026-08-05T18:43:03+00:00",
-          "score": 44.0,
-          "headline": "DEMIS HASSABIS OUT... DEEPMIND LEADERSHIP SHAKEUP"
-        },
-        {
-          "id": "e6fa8b4574ec0c85",
-          "title": "Google named the new boss of Gemini 4. Both of Gemini\u2019s co-leads quit the same day",
-          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop",
-          "source": "The Next Web",
-          "summary": "Sundar Pichai\u2019s memo on Wednesday thanked Jeff Dean for \u201can incredible 27-year run\u201d and said he was off to start a company with Sanjay Ghemawat. He posted the same two names on X. Discovery Loop\u2019s website names four. The two Google skipped are Quoc Le, who co-founded Google Brain, and Oriol Vinyals, whose X bio [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-05T17:41:08+00:00",
-          "score": 44.0,
-          "headline": "GOOGLE GEMINI CO-LEADS QUIT SAME DAY... Jeff Dean Launches Startup"
-        },
-        {
-          "id": "3400324b66cfbedf",
-          "title": "Google AI Veterans Depart During Seismic Leadership Shift",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-05/google-deepmind-boss-hassabis-moves-to-chair-role-in-shakeup",
+          "id": "6de796cbf0065403",
+          "title": "Google\u2019s Shakeup Complicates Race With OpenAI, Anthropic",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-08-06/google-s-shakeup-complicates-race-with-openai-anthropic",
           "source": "Bloomberg Technology",
-          "summary": "Alphabet Inc.\u2019s Google is losing some of its most prominent artificial intelligence veterans in a seismic overhaul that is casting doubt over leadership of a critical area of growth right as competition intensifies. Alphabet shares fell as much as 5.5% on the news.",
-          "published": "2026-08-05T16:07:09+00:00",
-          "score": 44.0,
-          "headline": "GOOGLE AI VETERANS DEPART in Seismic Leadership Shift"
-        },
-        {
-          "id": "bf2a2a3214a0bddf",
-          "title": "Google's Jeff Dean launches AI startup Discovery Loop",
-          "url": "https://economictimes.indiatimes.com/tech/technology/googles-jeff-dean-launches-ai-startup-discovery-loop/articleshow/132955389.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Announcing the venture on X, Dean wrote, \"We are founding Discovery Loop... a Public Benefit Corporation whose mission is to automate machine learning, science, and engineering to accelerate discoveries and progress.\" He added that the four founders have worked together for between 14 and 30 years, helping build Google's AI models, products and computing infrastructure.",
-          "published": "2026-08-05T17:26:54+00:00",
-          "score": 43.0,
-          "headline": "Google's Jeff Dean Launches AI Startup Discovery Loop"
-        },
-        {
-          "id": "6c9f4d7e1b1d8700",
-          "title": "Google just announced a major shakeup of its top AI leadership",
-          "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
-          "source": "The Verge AI",
-          "summary": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomorphic Labs, which aims to use AI to develop drugs. Koray [&#8230;]",
-          "published": "2026-08-05T16:47:23+00:00",
-          "score": 43.0,
-          "headline": "GOOGLE SHAKES UP AI LEADERSHIP... Hassabis Moves to Chief Scientist"
+          "summary": "The tech giant is entering a new period of transition.",
+          "published": "2026-08-06T21:00:01+00:00",
+          "score": 41.0,
+          "headline": "Google Shakeup Complicates Race With OpenAI, Anthropic"
         }
       ],
-      "current_topic_name": "Google/DeepMind Leadership Shakeup"
+      "current_topic_name": "Google Leadership Shakeup"
     }
   ],
-  "last_updated": "2026-08-08T18:30:24.453323"
+  "last_updated": "2026-08-09T06:44:25.134536"
 }
