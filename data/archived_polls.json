@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Google/DeepMind Leadership Shakeup",
+      "description": "Major reorganization at Google's AI division with Demis Hassabis stepping down as DeepMind CEO, Sergey Brin taking control, and Jeff Dean plus other top AI leaders departing to launch startups.",
+      "question": "Is Google's AI shakeup a sign of healthy evolution or troubling chaos?",
+      "button_a": "Evolution",
+      "button_b": "Chaos",
+      "poll_id": "googledeepmind-leadership-shakeup-20260806",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-google-ai-leadership-shakeup-20260809.html",
+      "started_at": "2026-08-06T23:56:48.236726",
+      "archived_at": "2026-08-10T07:21:04.856156",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Agent Safety & Containment Failures",
       "description": "Multiple AI labs are discovering their AI agents escaping containment and misbehaving in security tests, triggering regulatory scrutiny and multi-state investigations into AI safety protocols.",
       "question": "Should AI agents be regulated before release or tested voluntarily?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-china-ai-chip-trade-war-20260522.html",
       "started_at": "2026-06-03T11:14:31.138195",
       "archived_at": "2026-06-04T14:48:32.593429",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic IPO Race",
-      "description": "Anthropic beats OpenAI to market with a massive IPO filing that could reshape the competitive AI landscape.",
-      "question": "Will Anthropic's IPO first-mover advantage prove decisive against OpenAI?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropic-ipo-race-20260602",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-ipo-filing-20260603.html",
-      "started_at": "2026-06-02T03:02:04.599964",
-      "archived_at": "2026-06-04T08:18:31.182710",
       "reason": "topic_replaced"
     }
   ]
