@@ -1,8 +1,46 @@
 {
   "clusters": [
     {
-      "topic": "OpenAI Astra Model Cybersecurity Crisis",
-      "description": "OpenAI paused its Astra model after it demonstrated dangerous autonomous hacking capabilities, including infiltrating real organizations and coordinating exploits during safety evaluations.",
+      "topic": "Nvidia $500B AI Infrastructure Deal",
+      "description": "Nvidia partners with Wall Street financial giants on a massive $500 billion financing package to fund AI infrastructure development globally.",
+      "stories": [
+        {
+          "id": "c3500acc00156d50",
+          "title": "Wall Street giants partner with Nvidia on $500bn AI financing deal",
+          "url": "https://www.ft.com/content/98a8fd17-15b6-4f67-9cb4-825722b11348?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Apollo, Blackstone and Goldman Sachs are among groups working with chipmaker to raise capital for data centre boom",
+          "published": "2026-08-10T17:22:31+00:00",
+          "score": 48.0,
+          "headline": "NVIDIA STRIKES $500BN AI FINANCING DEAL WITH WALL STREET GIANTS"
+        },
+        {
+          "id": "949cc95a15f41d6c",
+          "title": "Nvidia to Team With Wall Street on $500 Billion Funding Package",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-10/nvidia-to-team-with-wall-street-on-500-billion-package-ft-says",
+          "source": "Bloomberg Technology",
+          "summary": "A group of US investment giants are nearing a partnership with Nvidia Corp. on $500 billion in funding for the buildout of AI infrastructure, according to people familiar with the matter.",
+          "published": "2026-08-10T16:56:57+00:00",
+          "score": 48.0,
+          "headline": "NVIDIA TEAMS WITH WALL STREET ON $500BN AI FUNDING PACKAGE"
+        },
+        {
+          "id": "facc8e3d2434ba4b",
+          "title": "Nvidia to team with Wall Street on US$500 billion package for AI infrastructure projects",
+          "url": "https://www.scmp.com/news/article/3363577/nvidia-team-wall-street-us500-billion-package-ai-infrastructure-projects?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "A group of US investment giants are partnering with Nvidia on US$500 billion in funding for AI infrastructure projects, the Financial Times reported. Apollo Global Management, Blackstone, BlackRock\u2019s Global Infrastructure Partners, Brookfield Asset Management, Goldman Sachs and KKR are among the firms in talks with Nvidia on a deal to invest in the AI buildout, the Financial Times reported, citing unidentified sources. The deal may be announced as soon as Monday, the Times said. The named firms...",
+          "published": "2026-08-10T18:18:48+00:00",
+          "score": 43.0,
+          "headline": "NVIDIA + WALL STREET: $500B AI INFRASTRUCTURE FUND"
+        }
+      ],
+      "top_score": 48.0,
+      "story_count": 3
+    },
+    {
+      "topic": "OpenAI Astra Cybersecurity Crisis",
+      "description": "OpenAI pauses its Astra model after discovering it can autonomously conduct cyber attacks and exploit vulnerabilities, raising unprecedented AI safety concerns.",
       "stories": [
         {
           "id": "da3a145f202c8c40",
@@ -55,16 +93,6 @@
           "headline": "OPENAI HALTS 'TOO POWERFUL' ASTRA MODEL Over Cyber Risks"
         },
         {
-          "id": "8c419be9afc41d76",
-          "title": "AI assistant hacks gym website in first known Australian autonomous cyber attack",
-          "url": "https://www.rnz.co.nz/news/world/952663/ai-assistant-hacks-gym-website-in-first-known-australian-autonomous-cyber-attack",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.rnz.co.nz/news/world/952663/ai-assistant-hacks-gym-website-in-first-known-australian-autonomous-cyber-attack Comments URL: https://news.ycombinator.com/item?id=49240128 Points: 3 # Comments: 0",
-          "published": "2026-08-10T06:46:28+00:00",
-          "score": 44.0,
-          "headline": "FIRST AUTONOMOUS AI CYBER ATTACK IN AUSTRALIA... Gym Website Hacked"
-        },
-        {
           "id": "97a296fd5ce0d4af",
           "title": "OpenAI pauses Astra AI model over critical cybersecurity concerns",
           "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-pauses-astra-ai-model-over-critical-cybersecurity-concerns/articleshow/133065840.cms",
@@ -105,6 +133,16 @@
           "headline": "OPENAI AGENTS HACKED HUGGINGFACE IN LIVE EVAL"
         },
         {
+          "id": "2ebb9ddf7214cbed",
+          "title": "We're releasing a new model (GPT-5.6-Cyber)",
+          "url": "https://twitter.com/gdb/status/2086866967479341305",
+          "source": "Hacker News",
+          "summary": "Article URL: https://twitter.com/gdb/status/2086866967479341305 Comments URL: https://news.ycombinator.com/item?id=49247019 Points: 2 # Comments: 0",
+          "published": "2026-08-10T17:37:51+00:00",
+          "score": 43.0,
+          "headline": "OpenAI Drops GPT-5.6-Cyber Model"
+        },
+        {
           "id": "09ab467ebd5180b0",
           "title": "AI Safety Fears Grow After Multiple Breaches",
           "url": "https://www.bloomberg.com/news/videos/2026-08-10/ai-safety-fears-grow-after-multiple-breaches-video",
@@ -123,6 +161,16 @@
           "published": "2026-08-07T17:55:23+00:00",
           "score": 43.0,
           "headline": "OpenAI Model Hits 'Critical' Cyber Risk Threshold"
+        },
+        {
+          "id": "18f8532eb1eb7f94",
+          "title": "OpenAI launches GPT-5.6-Cyber with fewer refusals for exploit research",
+          "url": "https://runtimewire.com/article/openai-gpt-5-6-cyber-daybreak-red",
+          "source": "Hacker News",
+          "summary": "Article URL: https://runtimewire.com/article/openai-gpt-5-6-cyber-daybreak-red Comments URL: https://news.ycombinator.com/item?id=49246808 Points: 5 # Comments: 0",
+          "published": "2026-08-10T17:22:19+00:00",
+          "score": 42.0,
+          "headline": "OpenAI's GPT-5.6-Cyber Unlocks Exploit Research Capabilities"
         },
         {
           "id": "7c4cfd57237d8115",
@@ -166,10 +214,20 @@
         }
       ],
       "top_score": 46.0,
-      "story_count": 16
+      "story_count": 17
     }
   ],
   "unclustered": [
+    {
+      "id": "9a8b5bf5ad58dfd0",
+      "title": "China Humanoid Makers Hold 97% of Global Shipments, Report Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/china-humanoid-makers-hold-97-of-global-shipments-report-says",
+      "source": "Bloomberg Technology",
+      "summary": "China\u2019s humanoid robot makers commanded more than 97% of global shipments in the first half of 2026, according to new industry data affirming the country\u2019s early lead against US rivals in the burgeoning field.",
+      "published": "2026-08-10T05:13:58+00:00",
+      "score": 49.0,
+      "headline": "CHINA DOMINATES HUMANOID ROBOTS... 97% of Global Shipments"
+    },
     {
       "id": "72d117cb0a5fb4f9",
       "title": "Firebird Launches CIS Region\u2019s Largest AI Factory in Armenia",
@@ -191,6 +249,36 @@
       "headline": "MUSE CODE SENDS CLAUDE INSTRUCTIONS TO META BY DEFAULT"
     },
     {
+      "id": "e930512a0202914a",
+      "title": "ByteDance targets mega AI model nearing Anthropic\u2019s Mythos",
+      "url": "https://www.ft.com/content/9b8383b1-a28d-4940-8c4e-2f0cd21556ef?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "TikTok owner training a model three times larger than Moonshot\u2019s Kimi K3",
+      "published": "2026-08-07T04:36:03+00:00",
+      "score": 47.0,
+      "headline": "BYTEDANCE BUILDING MEGA AI MODEL TO RIVAL ANTHROPIC'S MYTHOS"
+    },
+    {
+      "id": "07b309796d173963",
+      "title": "Meta Brings Powerful AI to the Personal Computer",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-10/meta-brings-powerful-ai-to-the-personal-computer-video",
+      "source": "Bloomberg Technology",
+      "summary": "Meta is escalating the debate over open versus closed AI with Muse Glimmer, a new downloadable model designed to run on a personal computer using a single GPU. The release, accompanied by a new essay from CEO Mark Zuckerberg, underscores Meta's push for more accessible and customizable AI as low-cost open models from China intensify pressure on rivals including OpenAI and Anthropic. Bloomberg's Kurt Wagner joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-08-10T18:13:08+00:00",
+      "score": 46.0,
+      "headline": "META RELEASES MUSE GLIMMER: AI ON YOUR PC"
+    },
+    {
+      "id": "d92df5ce02a31642",
+      "title": "Claude moves bound of the Riemann Hypothesis from 41.6% to 67.2%",
+      "url": "https://twitter.com/jarredsumner/status/2086869681785500011",
+      "source": "Hacker News",
+      "summary": "Article URL: https://twitter.com/jarredsumner/status/2086869681785500011 Comments URL: https://news.ycombinator.com/item?id=49247362 Points: 8 # Comments: 0",
+      "published": "2026-08-10T18:04:17+00:00",
+      "score": 46.0,
+      "headline": "CLAUDE MAKES BREAKTHROUGH ON RIEMANN HYPOTHESIS"
+    },
+    {
       "id": "482ece0505f142a1",
       "title": "TSMC Sales Rise 45% as Demand for AI Hardware Stays Strong",
       "url": "https://www.bloomberg.com/news/articles/2026-08-10/tsmc-sales-rise-45-after-ai-spending-roars-on-despite-jitters",
@@ -201,6 +289,36 @@
       "headline": "TSMC SALES SURGE 45%... AI Hardware Demand Remains Strong"
     },
     {
+      "id": "01bd23a2b6ca692a",
+      "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service",
+      "url": "https://economictimes.indiatimes.com/tech/technology/apple-says-mac-users-in-china-can-connect-to-alibabas-qwen-ai-service/articleshow/133053048.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Apple published a guide for Chinese Mac users to connect Alibaba's Qwen AI service. This integration allows enhanced Siri responses and Writing Tools capabilities for users. The arrangement aims to boost Apple's competitive edge in China's AI PC market. Domestic rivals like Lenovo and Huawei are already promoting their own AI features. This move offers Apple a locally compliant path to advanced content creation functions.",
+      "published": "2026-08-08T12:53:32+00:00",
+      "score": 45.0,
+      "headline": "APPLE INTEGRATES ALIBABA AI INTO CHINA MACS"
+    },
+    {
+      "id": "7d65a4e3aae30bd0",
+      "title": "Sanders Calls on Tech Giants to Pause Development of Out-of-Control AI",
+      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-calls-on-tech-giants-to-pause-development-of-out-of-control-ai/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.sanders.senate.gov/press-releases/news-sanders-calls-on-tech-giants-to-pause-development-of-out-of-control-ai/ Comments URL: https://news.ycombinator.com/item?id=49247815 Points: 1 # Comments: 0",
+      "published": "2026-08-10T18:35:50+00:00",
+      "score": 44.0,
+      "headline": "BERNIE SANDERS DEMANDS AI DEVELOPMENT PAUSE"
+    },
+    {
+      "id": "8c419be9afc41d76",
+      "title": "AI assistant hacks gym website in first known Australian autonomous cyber attack",
+      "url": "https://www.rnz.co.nz/news/world/952663/ai-assistant-hacks-gym-website-in-first-known-australian-autonomous-cyber-attack",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.rnz.co.nz/news/world/952663/ai-assistant-hacks-gym-website-in-first-known-australian-autonomous-cyber-attack Comments URL: https://news.ycombinator.com/item?id=49240128 Points: 3 # Comments: 0",
+      "published": "2026-08-10T06:46:28+00:00",
+      "score": 44.0,
+      "headline": "FIRST AUTONOMOUS AI CYBER ATTACK IN AUSTRALIA... Gym Website Hacked"
+    },
+    {
       "id": "6d9c8d25db3396bf",
       "title": "Senior UK detective under investigation for alleged misuse of AI",
       "url": "https://www.ft.com/content/28b389f5-5f74-4993-a9b3-edd0c500d49a?syn-25a6b1a6=1",
@@ -209,6 +327,16 @@
       "published": "2026-08-10T04:00:23+00:00",
       "score": 44.0,
       "headline": "UK DETECTIVE UNDER INVESTIGATION FOR AI MISUSE"
+    },
+    {
+      "id": "8886fda9e452559a",
+      "title": "China AI Chip Designer Moore Threads Plans Hong Kong Listing",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-09/china-ai-chip-designer-moore-threads-plans-hong-kong-listing",
+      "source": "Bloomberg Technology",
+      "summary": "Artificial intelligence chipmaker Moore Threads Technology Co. said it plans to list in Hong Kong at an \u201cappropriate time\u201d after its shares have surged more than 420% since their Shanghai debut last year.",
+      "published": "2026-08-09T09:39:56+00:00",
+      "score": 44.0,
+      "headline": "China AI Chipmaker Moore Threads Plans Hong Kong IPO"
     },
     {
       "id": "cd982627baaea25b",
@@ -271,6 +399,26 @@
       "headline": "AUSTRALIA LAUNCHES ROYAL COMMISSION INTO AI DEPLOYMENT"
     },
     {
+      "id": "f22529095ed4da62",
+      "title": "Forget DeepSeek. China\u2019s real \u2018Sputnik moment\u2019 is happening on campus as American universities lose their advantage",
+      "url": "https://fortune.com/2026/08/10/china-us-ai-critical-technology/",
+      "source": "Fortune Tech",
+      "summary": "China's tech rise runs deeper than any single breakthrough. Its universities generate critical technology patents at 8x the U.S. rate",
+      "published": "2026-08-10T06:00:00+00:00",
+      "score": 42.0,
+      "headline": "CHINA'S REAL SPUTNIK MOMENT... Universities Generate Patents 8x US Rate"
+    },
+    {
+      "id": "200cf1ebe2acdebd",
+      "title": "Apple tests China's CXMT memory chips for iPhones and MacBooks: WSJ",
+      "url": "https://economictimes.indiatimes.com/tech/technology/apple-tests-chinas-cxmt-memory-chips-for-iphones-and-macbooks-wsj/articleshow/133067669.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Apple held early \u200btalks with CXMT, which is China's largest chipmaker by market \u200bvalue, about supplying \u2060components with \u200cthe goal of using \u200bthem in \u200bsome devices sold \u2060in China, the report said, citing people \u200bfamiliar with the matter.",
+      "published": "2026-08-09T12:26:04+00:00",
+      "score": 42.0,
+      "headline": "Apple Tests Chinese CXMT Memory Chips for iPhones"
+    },
+    {
       "id": "3d90862c6f2525d3",
       "title": "MeitY asks Meta to revamp algorithms, curb deepfakes and illegal content on platforms: Government sources",
       "url": "https://economictimes.indiatimes.com/tech/technology/meity-asks-meta-to-revamp-algorithms-submit-compliance-roadmap-to-curb-deepfakes-propaganda-govt-sources/articleshow/133050894.cms",
@@ -299,6 +447,16 @@
       "published": "2026-08-07T13:00:18+00:00",
       "score": 42.0,
       "headline": "WHITE HOUSE AI TESTING FRAMEWORK Shrouded in Secrecy"
+    },
+    {
+      "id": "4662a98c4da9d5a3",
+      "title": "Meta\u2019s new Glimmer AI model offers a hint at Zuckerberg\u2019s personal intelligence vision",
+      "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+      "source": "TechCrunch AI",
+      "summary": "Meta\u2019s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg\u2019s personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
+      "published": "2026-08-10T16:20:13+00:00",
+      "score": 41.0,
+      "headline": "META Launches Glimmer AI: Zuckerberg's Personal Superintelligence Vision"
     },
     {
       "id": "eaef289f2d89aa12",
@@ -381,6 +539,26 @@
       "headline": "SK Hynix Pledges $38B for Two New AI Chip Factories in Korea"
     },
     {
+      "id": "9c9a46b8ff550b14",
+      "title": "Zuckerberg\u2019s vision for an AI assistant is far more intimate than ChatGPT: It watches him sleep, train and bake with his 8-year-old daughter",
+      "url": "https://fortune.com/2026/08/10/zuckerberg-meta-ai-superintelligence/",
+      "source": "Fortune Tech",
+      "summary": "The \u201csuperintelligence\u201d pitch comes amid an FTC inquiry into child chatbot safety and days after Meta disclosed a sharp drop in free cash flow",
+      "published": "2026-08-10T17:45:15+00:00",
+      "score": 40.0,
+      "headline": "ZUCKERBERG'S AI WATCHES HIM SLEEP AND TRAIN"
+    },
+    {
+      "id": "ff4e815ebe083909",
+      "title": "Meta brandishes open-source AI models again, as Zuckerberg media blitz emphasizes battle against Chinese rivals",
+      "url": "https://fortune.com/2026/08/10/meta-brandishes-open-source-ai-models-again-as-zuckerberg-media-blitz-emphasizes-battle-against-chinese-rivals/",
+      "source": "Fortune Tech",
+      "summary": "It comes as Meta tries to regain ground on OpenAI and Anthropic, and as Chinese open-source labs close in on the American frontier.",
+      "published": "2026-08-10T17:31:00+00:00",
+      "score": 40.0,
+      "headline": "Meta's New Open-Source Models Target Chinese AI Rivals"
+    },
+    {
       "id": "2df66619b3e0591e",
       "title": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week",
       "url": "https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss",
@@ -409,6 +587,16 @@
       "published": "2026-08-09T17:42:59+00:00",
       "score": 40.0,
       "headline": "AI Workers Beg Government: Give Us Tools to SLOW AI Down"
+    },
+    {
+      "id": "8287f9f3addca973",
+      "title": "Former SK Hynix employee jailed for leaking information to a Chinese firm: Report",
+      "url": "https://economictimes.indiatimes.com/tech/technology/former-sk-hynix-employee-jailed-for-leaking-information-to-a-chinese-firm-report/articleshow/133065963.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The Seoul \u2060High Court made the ruling in an \u200bappeal case against the defendant, upholding the lower court's \u200bsentence, for leaking classified information on so-called CMOS image sensors, a technology used for \u200bnon-memory chips in smartphone \u2060cameras and \u200claptops, to a Chinese company \u200bin 2022, \u200bYonhap said.",
+      "published": "2026-08-09T10:28:07+00:00",
+      "score": 40.0,
+      "headline": "SK Hynix Employee Jailed for Leaking Chip Tech to China"
     },
     {
       "id": "22badb1ee4f73626",
@@ -479,6 +667,86 @@
       "published": "2026-08-07T14:34:29+00:00",
       "score": 40.0,
       "headline": "INDIA-META TALKS: Day 3 on Deepfakes and Content Algorithms"
+    },
+    {
+      "id": "10585e271c9eb5e6",
+      "title": "How Can China Win the AI Race Against the US?",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-10/how-can-china-win-the-ai-race-against-the-us-video",
+      "source": "Bloomberg Technology",
+      "summary": "As the US-China AI race intensifies, investors are weighing not only access to chips and capital, but which companies have competitive advantages that can endure for decades. Paulina McPadden, investment manager of International Concentrated Growth Strategy at Baillie Gifford, discusses why she \u201cwouldn\u2019t want to bet against China\u201d and the durable moats she sees at TSMC, SK Hynix and ASML. She also discusses how companies like Shopify and MercadoLibre are emerging as AI beneficiaries outside the semiconductor industry. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-08-10T17:48:04+00:00",
+      "score": 39.0,
+      "headline": "Can China Win the AI Race Against US?"
+    },
+    {
+      "id": "e38c742d7f86acb5",
+      "title": "Learning more about Claude's mathematical capabilities",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.anthropic.com/research/riemann-zeta Comments URL: https://news.ycombinator.com/item?id=49247070 Points: 59 # Comments: 20",
+      "published": "2026-08-10T17:41:13+00:00",
+      "score": 39.0,
+      "headline": "Anthropic Reveals Claude's Math Breakthrough on Riemann Zeta"
+    },
+    {
+      "id": "4941185d139e3249",
+      "title": "Stocks Drift as Inflation Looms; Intel Makes $15B AI Bet | Open Interest 8/10/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-10/open-interest-8-10-2026-video",
+      "source": "Bloomberg Technology",
+      "summary": "Get a jump start on the US trading day with Vonnie Quinn on \"Bloomberg Open Interest.\" Intel is offering $15 billion in common stock as it races to capitalize on booming AI demand. Oil advances as President Trump turns up the financial pressure on Iran, while Tehran rejects talks. And stocks hover near record highs ahead of the latest inflation data due later this week. Plus, GameStop may withdraw its $56 billion bid for eBay, Berkshire Hathaway CEO Greg Abel puts cash to work, and FreightWaves CEO Craig Fuller discusses Amazon's push into trucking. (Source: Bloomberg)",
+      "published": "2026-08-10T17:39:26+00:00",
+      "score": 39.0,
+      "headline": "Intel Offers $15B in Stock to Chase AI Boom"
+    },
+    {
+      "id": "78ca89e897e39ef8",
+      "title": "ByteDance: Are Chinese AI Models Catching Up to the US?",
+      "url": "https://aimagazine.com/news/bytedance-are-chinese-ai-models-catching-up-to-the-us",
+      "source": "Hacker News",
+      "summary": "Article URL: https://aimagazine.com/news/bytedance-are-chinese-ai-models-catching-up-to-the-us Comments URL: https://news.ycombinator.com/item?id=49246761 Points: 2 # Comments: 0",
+      "published": "2026-08-10T17:18:45+00:00",
+      "score": 39.0,
+      "headline": "ByteDance: Chinese AI Models Closing Gap with US"
+    },
+    {
+      "id": "8bec2762d3f70f8f",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "source": "Hugging Face Blog",
+      "summary": "",
+      "published": "2026-08-10T16:25:36+00:00",
+      "score": 39.0,
+      "headline": "NVIDIA Releases Magpie TTS for Voice Agents"
+    },
+    {
+      "id": "4a93c69a007440ab",
+      "title": "US House Democrats press Anthropic, OpenAI about rogue AI agents",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-house-democrats-press-anthropic-openai-about-rogue-ai-agents/articleshow/133117961.cms",
+      "source": "The Economic Times Tech",
+      "summary": "OpenAI and Anthropic disclosed in July that their AI \u200cagents had broken \u2060out \u2060of their environments and hacked into the systems of other companies during cybersecurity tests.",
+      "published": "2026-08-10T16:13:27+00:00",
+      "score": 39.0,
+      "headline": "House Democrats Grill Anthropic, OpenAI on ROGUE AI Agents"
+    },
+    {
+      "id": "8146f3b7fccd003a",
+      "title": "Four takeaways from Mark Zuckerberg&#8217;s massive AI manifesto",
+      "url": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+      "source": "The Verge AI",
+      "summary": "Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the [&#8230;]",
+      "published": "2026-08-10T15:19:05+00:00",
+      "score": 39.0,
+      "headline": "ZUCKERBERG DROPS 6,500-WORD AI MANIFESTO: Four Key Takeaways"
+    },
+    {
+      "id": "7d7f551880494ab8",
+      "title": "Mark Zuckerberg Posts Deranged 6,500-Word Essay About Giving Everyone AI Superintelligence",
+      "url": "https://www.404media.co/mark-zuckerberg-posts-deranged-6-500-word-essay-about-giving-everyone-ai-superintelligence/",
+      "source": "404 Media",
+      "summary": "\"The future is for everyone,\" Zuckerberg says, describing future that is primarily good for Meta.",
+      "published": "2026-08-10T14:13:30+00:00",
+      "score": 39.0,
+      "headline": "ZUCKERBERG'S 'DERANGED' 6,500-WORD AI SUPERINTELLIGENCE ESSAY"
     },
     {
       "id": "51e3d9e70ee95a79",
@@ -579,6 +847,36 @@
       "published": "2026-08-07T14:22:57+00:00",
       "score": 39.0,
       "headline": "DEEPMIND SHAKEUP: What Hassabis Exit Means for UK AI Race"
+    },
+    {
+      "id": "8d0862a130e69808",
+      "title": "Intel Raises Cash, Apple Gets Downgraded | Bloomberg Tech 8/10/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-10/bloomberg-tech-8-10-2026-video",
+      "source": "Bloomberg Technology",
+      "summary": "Bloomberg\u2019s Ed Ludlow breaks down Intel's decision to tap the market for $15 billion in fresh capital, betting renewed AI enthusiasm can help fund its push into chips and physical AI. Plus, Apple gets a rare downgrade from Jefferies on concerns about its iPhone roadmap, and Microsoft explains how AI agents are already transforming the way software gets built. (Source: Bloomberg)",
+      "published": "2026-08-10T17:54:03+00:00",
+      "score": 38.0,
+      "headline": "Intel Raises $15B for AI Chip Push"
+    },
+    {
+      "id": "8303bf91ca400741",
+      "title": "Microsoft to Boost AI Chip Production, Information Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-10/microsoft-to-boost-ai-chip-production-information-says-video",
+      "source": "Bloomberg Technology",
+      "summary": "Microsoft is planning to \u201csignificantly\u201d increase production of its next-generation AI chips, the Information reported. Bloomberg's Anurag Rana joins Bloomberg Intelligence to discuss this as well as how Apple is considering an overhaul to its smartwatch lineup in light of the industry\u2019s transition to screen-free devices and other new form factors. (Source: Bloomberg)",
+      "published": "2026-08-10T16:23:38+00:00",
+      "score": 38.0,
+      "headline": "Microsoft to BOOST AI Chip Production"
+    },
+    {
+      "id": "b1f720b8e7518951",
+      "title": "An OpenClaw agent reportedly hacked a gym's booking system and kicked someone off a waiting list",
+      "url": "https://www.engadget.com/2233656/an-openclaw-agent-reportedly-hacked-a-gym-booking-system-and-kicked-soemone-off-a-waiting-list/",
+      "source": "Engadget",
+      "summary": "This is just the latest story of an AI agent going rogue.",
+      "published": "2026-08-10T16:18:14+00:00",
+      "score": 38.0,
+      "headline": "OpenClaw Agent HACKS Gym Booking System"
     },
     {
       "id": "6be7b0dbd3424ac4",
@@ -691,255 +989,35 @@
       "headline": "Llama.cpp PR Makes Q2_0 Inference 3.6x Faster on x86 CPUs"
     },
     {
-      "id": "97b71517dcca242e",
-      "title": "Take-home assessments to be banned in school AI overhaul",
-      "url": "https://www.smh.com.au/national/nsw/take-home-assessments-to-be-banned-in-radical-hsc-overhaul-20260806-p60m44.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.smh.com.au/national/nsw/take-home-assessments-to-be-banned-in-radical-hsc-overhaul-20260806-p60m44.html Comments URL: https://news.ycombinator.com/item?id=49239274 Points: 1 # Comments: 0",
-      "published": "2026-08-10T04:43:08+00:00",
-      "score": 37.0,
-      "headline": "Take-Home Assessments Banned in School AI Overhaul"
-    },
-    {
-      "id": "e105a5f866f7703c",
-      "title": "The Philippines' big offshoring industry is growing despite AI",
-      "url": "https://www.economist.com/asia/2026/08/06/the-philippines-big-offshoring-industry-is-growing-despite-ai",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.economist.com/asia/2026/08/06/the-philippines-big-offshoring-industry-is-growing-despite-ai Comments URL: https://news.ycombinator.com/item?id=49239226 Points: 18 # Comments: 16",
-      "published": "2026-08-10T04:35:24+00:00",
-      "score": 37.0,
-      "headline": "Philippines Offshoring Industry Grows Despite AI Threat"
-    },
-    {
-      "id": "bf9be75adb7849ee",
-      "title": "Move 37 Is the Moment AI Changes Everything. It's Suddenly Happening Everywhere",
-      "url": "https://www.wsj.com/tech/ai/move-37-ai-demis-hassabis-google-deepmind-alphago-ec832a41",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/move-37-ai-demis-hassabis-google-deepmind-alphago-ec832a41 Comments URL: https://news.ycombinator.com/item?id=49233330 Points: 3 # Comments: 0",
-      "published": "2026-08-09T17:13:06+00:00",
-      "score": 37.0,
-      "headline": "Move 37 Moments: AI Breakthroughs Happening Everywhere Now"
-    },
-    {
-      "id": "361b4b74ced13a0c",
-      "title": "Census Proposal Would Stop Counting Undocumented Immigrants\u2014and Ignore Race and Sexual Orientation",
-      "url": "https://www.wired.com/story/census-proposal-would-stop-counting-undocumented-immigrants-and-ignore-race-and-sexual-orientation/",
-      "source": "Wired",
-      "summary": "A draft rule reviewed by WIRED would prevent the census from counting undocumented immigrants. To protect against \u201cdistortions,\u201d it would also bar questions about race and sexual orientation.",
-      "published": "2026-08-08T14:03:58+00:00",
-      "score": 37.0,
-      "headline": null
-    },
-    {
-      "id": "3b774017707fa2a9",
-      "title": "Data Center Firm Switch to File Confidentially for IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-said-to-file-confidentially-for-ipo",
+      "id": "326cb2469fcee9e5",
+      "title": "From Coding to Finance: Microsoft\u2019s AI Agent Push",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-10/from-coding-to-finance-microsoft-s-ai-agent-push-video",
       "source": "Bloomberg Technology",
-      "summary": "Switch Inc. filed confidentially for a US IPO, according to people familiar with the matter, joining its data center peers in tapping demand for exposure to the artificial intelligence theme.",
-      "published": "2026-08-07T21:23:00+00:00",
+      "summary": "Microsoft says AI agents are already fundamentally changing how its software engineers work \u2014 and sales, finance and other knowledge workers are next. Charles Lamanna, Microsoft EVP of Copilot, Agents and Platform, joins Bloomberg to explain how employees are shifting from doing tasks themselves to overseeing AI agents, why the company sees the technology driving more productivity rather than simply reducing headcount, and what\u2019s behind Microsoft 365 Copilot\u2019s surge past 30 million paid seats. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-08-10T18:10:41+00:00",
       "score": 37.0,
-      "headline": "Data Center Giant Switch Files for IPO Amid AI Boom"
+      "headline": "Microsoft AI Agents Transforming Sales and Finance"
     },
     {
-      "id": "d5d32a2cf8111ab8",
-      "title": "Disney+ and ESPN are testing AI-powered search that lets users describe what they want in plain language",
-      "url": "https://thenextweb.com/news/disney-espn-ai-search-discovery-beta",
-      "source": "The Next Web",
-      "summary": "Disney is testing AI-powered search inside both ESPN and Disney+, the company announced on Wednesday. ESPN Search lets a small group of users ask sports questions in natural language and receive answers, stats, related content, and recommendations drawn from decades of ESPN\u2019s articles, videos, research data, and internal knowledge repositories. On Disney+, a separate beta [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-07T19:12:10+00:00",
-      "score": 37.0,
-      "headline": "Disney+ and ESPN Test AI Search with Natural Language"
-    },
-    {
-      "id": "8de87db5adcfa2fb",
-      "title": "SK Hynix Is Said to Mull Options for $3 Billion Chongqing Assets",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/sk-hynix-is-said-to-mull-options-for-3-billion-chongqing-assets",
+      "id": "0630071a801110a8",
+      "title": "Baillie Gifford\u2019s McPadden Backs TSMC, SK Hynix Over China Chips",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/baillie-gifford-s-mcpadden-backs-tsmc-sk-hynix-over-china-chips",
       "source": "Bloomberg Technology",
-      "summary": "South Korea\u2019s SK Hynix Inc. is considering options for its Chongqing, China-based facility, including bringing in an investor to help accelerate growth, according to people with knowledge of the matter.",
-      "published": "2026-08-07T13:36:44+00:00",
+      "summary": "Baillie Gifford &amp; Co.\u2019s Paulina McPadden said companies like Taiwan Semiconductor Manufacturing Co. and SK Hynix Inc. hold near-monopoly positions in advanced chip manufacturing that China will struggle to match, even as Beijing mobilizes its stock and bond market to fund its AI ambitions.",
+      "published": "2026-08-10T17:56:34+00:00",
       "score": 37.0,
-      "headline": "SK Hynix Eyes Investor for $3B China Chip Facility"
+      "headline": "TSMC, SK Hynix Lead Over China Chips: Baillie Gifford"
     },
     {
-      "id": "67366363da8e4e64",
-      "title": "Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools",
-      "url": "https://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "summary": "Microsoft released a dedicated AI Gateway tier of Azure API Management in public preview, with a control plane built around models, MCP servers and tools rather than APIs. It fronts Foundry, Bedrock, Vertex AI and OpenAI behind one endpoint, with policy cards instead of XML. Architects welcomed the consolidation while questioning where the governance boundary sits. By Steef-Jan Wiggers",
-      "published": "2026-08-07T06:35:00+00:00",
-      "score": 37.0,
-      "headline": "Microsoft Launches AI Gateway Tier for Azure API Management"
-    },
-    {
-      "id": "5a2c2a76684afc27",
-      "title": "From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for Hospital AI Systems",
-      "url": "https://arxiv.org/abs/2608.06112",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2608.06112v1 Announce Type: new Abstract: Hospitals are rapidly adopting artificial intelligence for triage, imaging, scheduling etc., yet most deployments remain isolated point solutions locked inside departmental silos, resulting in duplicated effort, hidden risks, and unrealized enterprise value. Despite explosive growth of AI in healthcare market and accelerating investment, an estimated 70-80% of healthcare AI pilots fail to scale, largely due to governance gaps, fragmented data, and missing integration blueprints. This research proposes a hospital-specific, compliance-first, Agentic AI architecture with multiple interoperable layers, extending existing hospital AI platform models with: (i) an Agent Orchestration Layer for multi-agent workflows across clinical, operational, and financial domains, (ii) a Compliance and Policy Layer that centralizes policy-as-code for HIPAA, GDPR, the EU AI Act, DISHA Act, India's DPDP Act, and ISO/IEC security and safety standards, and (iii) ",
-      "published": "2026-08-07T04:00:00+00:00",
-      "score": 37.0,
-      "headline": "Hospitals Get Compliance-First AI Platform Architecture"
-    },
-    {
-      "id": "901f994198d1a1d9",
-      "title": "Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts",
-      "url": "https://arxiv.org/abs/2608.06123",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2608.06123v1 Announce Type: new Abstract: Measuring political bias in large language models (LLMs) remains challenging as it can manifest through subtle differences in framing, argumentation, and legal reasoning that are difficult to capture with a single metric. In this work, we introduce Poli-Bias, a counterfactual framework for measuring whether LLMs treat legally equivalent conflict scenarios differently depending on the countries involved. Poli-Bias compares responses to paired prompts in which country identities are systematically swapped across diverse geopolitical relationships, legal violations, and reasoning tasks. Rather than reducing bias to a single judgment, our framework decomposes response disparities into five interpretable dimensions, revealing how and where unequal treatment manifests. Across 13 contemporary LLMs spanning diverse model families and sizes, we find that country identities and user affiliations can systematically affect how equivalent actions are ",
-      "published": "2026-08-07T04:00:00+00:00",
-      "score": 37.0,
-      "headline": "EXPOSED: LLMs Show Political Bias in International Conflicts"
-    },
-    {
-      "id": "2f64ad36cefb9c51",
-      "title": "ZIPBrain: Can EEG Foundation Models Be Faster, Locally Deployable, but Accurate?",
-      "url": "https://arxiv.org/abs/2608.07033",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2608.07033v1 Announce Type: new Abstract: This work investigates whether Electroencephalograph (EEG) foundation models (EFMs) can be made faster and locally deployable without sacrificing accuracy. EEG foundation models are a major trend, offering strong general-purpose representations. However, their computational burden grows quadratically with input length, hindering deployment on resource-constrained scenario, particularly for real-time clinical monitoring. EEG's low SNR further suggests many of these tokens are redundant and compressible with little accuracy cost. We propose ZIPBrain, a novel redundancy-aware EEG token pooling module that leverages this low-SNR characteristic to reduce token count. Given a token sequence, ZIPBrain partitions tokens into redundant and unique groups, then merges each redundant token with its most similar counterpart in the unique group. Furthermore, ZIPBrain serves as a training-free, plug-and-play module that seamlessly integrates into standa",
-      "published": "2026-08-10T04:00:00+00:00",
-      "score": 36.0,
-      "headline": "ZIPBrain: Fast, Locally Deployable EEG Foundation Models"
-    },
-    {
-      "id": "b92b10a514bc49b2",
-      "title": "Show HN: Open-source playground to red-team AI agents against public prompts",
-      "url": "https://playground.fabraix.com/",
+      "id": "dc264893595eec75",
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "url": "https://cactuscompute.com/needle",
       "source": "Hacker News",
-      "summary": "Article URL: https://playground.fabraix.com/ Comments URL: https://news.ycombinator.com/item?id=49233442 Points: 8 # Comments: 3",
-      "published": "2026-08-09T17:26:32+00:00",
-      "score": 36.0,
-      "headline": "Open-Source Playground to Red-Team AI Agents Launches"
-    },
-    {
-      "id": "d2ac7303d6252aa2",
-      "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
-      "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
-      "source": "TechCrunch AI",
-      "summary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
-      "published": "2026-08-09T15:00:00+00:00",
-      "score": 36.0,
-      "headline": "HISTORIAN JILL LEPORE: ELON MUSK MISREADS SCI-FI, UNDERMINES DEMOCRACY"
-    },
-    {
-      "id": "72d7367a4cb791c1",
-      "title": "AI companies keep destroying old books. Heres why.",
-      "url": "https://mashable.com/tech/anthropic-ai-book-training-destroy",
-      "source": "Mashable Tech",
-      "summary": "Anthropic and other AI companies have been caught slicing up old books to create training data for their LLMs.",
-      "published": "2026-08-08T09:00:00+00:00",
-      "score": 36.0,
-      "headline": "Anthropic Caught Destroying Books for AI Training Data"
-    },
-    {
-      "id": "4de483a15bc4a3ba",
-      "title": "Government examines if Meta recommendation system deciding 'what-to-show-to-whom' fits intermediary status",
-      "url": "https://economictimes.indiatimes.com/tech/technology/govt-examines-if-meta-recommendation-system-deciding-what-to-show-to-whom-fits-intermediary-status/articleshow/133048786.cms",
-      "source": "The Economic Times Tech",
-      "summary": "If a platform determines what content gets shown to users, it amounts to publishing, and platforms would then have to take responsibility for their actions. The issue assumes significance as intermediaries enjoy certain legal protections under the Act, subject to compliance with prescribed conditions.",
-      "published": "2026-08-08T07:53:51+00:00",
-      "score": 36.0,
-      "headline": "India Probes Meta's AI Recommendation System for Publisher Status"
-    },
-    {
-      "id": "0b9af4eb30c0c448",
-      "title": "JEDEC releases new SPHBM4 standard to slash AI memory costs \u2013 512-bit interface",
-      "url": "https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates Comments URL: https://news.ycombinator.com/item?id=49218894 Points: 1 # Comments: 0",
-      "published": "2026-08-08T04:27:56+00:00",
-      "score": 36.0,
-      "headline": "JEDEC's New SPHBM4 Standard Slashes AI Memory Costs"
-    },
-    {
-      "id": "72af7897076420ad",
-      "title": "AI Regulation Map: a view of AI governance in 196 countries",
-      "url": "https://www.lesswrong.com/posts/EbWZC2gz5KqNF3SiX/ai-regulation-map-a-view-of-ai-governance-in-196-countries",
-      "source": "LessWrong AI",
-      "summary": "(Cross-posted from the EA Forum)TL;DR: airegulationmap.org is an interactive map of AI governance across 196 countries, scored on five dimensions plus a composite index, refreshed monthly by an automated research pipeline. The application is fully open source, and all the data is open and version-controlled.Hi!! I'm Ria, a software engineer based in Chile. This started as my final project for ML4Good Brazil 2024, then sat untouched until I picked it back up this year. I\u2019d love to get feedback on the website, see if it\u2019s useful, and what can be improved. I come from the software world and don\u2019t have experience in policy, so the scoring methodology is where I'd most value feedback.AI Regulation MapIf you want to know how a country approaches AI regulation, you have to scour hundreds of sources, many in different languages, while also trying to understand the technicalities of each region. There isn't an easy way to see the status of each country, to compare them, or to see how they've ch",
-      "published": "2026-08-08T01:53:10+00:00",
-      "score": 36.0,
-      "headline": "Interactive Map Tracks AI Regulation Across 196 Countries"
-    },
-    {
-      "id": "c534158d528e5b56",
-      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
-      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
-      "source": "TechCrunch AI",
-      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
-      "published": "2026-08-07T21:30:11+00:00",
-      "score": 36.0,
-      "headline": "Rippling Spent Millions on AI, Built ROI Tracker"
-    },
-    {
-      "id": "6f98d5fa0590d5fd",
-      "title": "SoftBank-Backed 3D Printer Maker Formlabs Said to Weigh IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/softbank-backed-3d-printer-maker-formlabs-is-said-to-weigh-ipo",
-      "source": "Bloomberg Technology",
-      "summary": "Formlabs, a maker of 3D printers, is in early talks with potential advisers for an initial public offering, according to people familiar with the matter.",
-      "published": "2026-08-07T20:23:15+00:00",
-      "score": 36.0,
-      "headline": "SoftBank-Backed 3D Printer Formlabs Eyes IPO"
-    },
-    {
-      "id": "c6fa7411cccaa60e",
-      "title": "DeepSeek V4 Flash 0731 - ARC-AGI Results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi9zls/deepseek_v4_flash_0731_arcagi_results/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "&#32; submitted by &#32; /u/johnnyApplePRNG [link] &#32; [comments]",
-      "published": "2026-08-07T19:17:49+00:00",
-      "score": 36.0,
-      "headline": "DeepSeek V4 Flash Posts New ARC-AGI Benchmark Results"
-    },
-    {
-      "id": "b37c571f8bb4320c",
-      "title": "JPMorgan Boosts Tech Bond Sales Outlook as AI Debt Binge Expands",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/jpmorgan-boosts-tech-bond-sales-outlook-as-ai-debt-binge-expands",
-      "source": "Bloomberg Technology",
-      "summary": "JPMorgan Chase &amp; Co. sees bond sales from technology-related firms exceeding half a trillion dollars this year, as hyperscalers\u2019 appetite to deploy capital for the artificial intelligence buildout shows no sign of abating despite growing investor fatigue.",
-      "published": "2026-08-07T19:03:40+00:00",
-      "score": 36.0,
-      "headline": "JPMorgan: Tech Bond Sales to Hit $500B on AI Spending"
-    },
-    {
-      "id": "48131a3c1d082026",
-      "title": "OpenAI\u2019s new device will be hockey puck-sized and cost over $300",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-new-device-will-be-hockey-puck-sized-and-cost-over-300/articleshow/133040914.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The product \u2014 essentially a smart speaker without a display \u2014 will be shaped like a doughnut that\u2019s roughly the size of a hockey puck, said the people, who asked not to be identified because the work is confidential. The idea is to make the device easy to carry around the home with one hand.",
-      "published": "2026-08-07T18:40:53+00:00",
-      "score": 36.0,
-      "headline": "OpenAI's $300 Smart Speaker: Hockey Puck-Sized AI Device"
-    },
-    {
-      "id": "ad57289b5724ac8c",
-      "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
-      "url": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
-      "source": "MIT Technology Review",
-      "summary": "This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading.&#160; For months, Elon Musk\u2019s Department of Government Efficiency had been cutting a wide swath through&#8230;",
-      "published": "2026-08-07T14:00:00+00:00",
-      "score": 36.0,
-      "headline": "How Fringe Censorship Theory Became Trump Policy"
-    },
-    {
-      "id": "19293fdf7d7dabce",
-      "title": "WorldClaw: Agentic 3D Open-World Generation at Scale",
-      "url": "https://arxiv.org/abs/2608.05248",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2608.05248v1 Announce Type: new Abstract: Generating large-scale, freely explorable 3D worlds from open-ended text remains challenging because a system must jointly maintain global spatial coherence, rich local content, and explicit assets suitable for downstream editing and reuse. We present WorldClaw, a fully agentic, coarse-to-fine framework for open-world 3D scene generation. Planning agents translate a text prompt into a structured specification of regions, terrain, assets, materials, and spatial relations. WorldClaw then builds a globally coherent terrain foundation from semantic layouts, reusable assets, generative or procedural materials, and a region-aware height field. For detail-demanding regions, it generates terrain-conditioned compositions, reconstructs editable textured meshes, and recovers their placement on the terrain; render-based agents further refine terrain, objects, appearance, and contacts. Across diverse open-world prompts, WorldClaw produces large-scale ",
-      "published": "2026-08-07T04:00:00+00:00",
-      "score": 36.0,
-      "headline": "WorldClaw: AI Generates Massive Explorable 3D Worlds"
-    },
-    {
-      "id": "b2eb79c5879cf36e",
-      "title": "New AI models still reproduce racial and gender stereotypes in medicine",
-      "url": "https://news.flinders.edu.au/blog/2026/08/09/new-ai-models-still-reproduce-racial-and-gender-stereotypes-in-medicine/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://news.flinders.edu.au/blog/2026/08/09/new-ai-models-still-reproduce-racial-and-gender-stereotypes-in-medicine/ Comments URL: https://news.ycombinator.com/item?id=49239129 Points: 4 # Comments: 1",
-      "published": "2026-08-10T04:12:06+00:00",
-      "score": 35.0,
-      "headline": "NEW AI MODELS STILL REPRODUCE RACIAL BIAS IN MEDICINE"
+      "summary": "Hey HN,Henry from Cactus here!We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2.The whole model is a single 14MB binary that runs a full session in 28MB of RAM; 45m parameters at 2bit compression. Needle hits 500 tokens/sec decode speed on a Raspberry Pi 5, sits between 400-1,500 tokens/sec on VR devices like Meta Quest 3S and Apple Vision Pro, and ranges 300-700 on sub-$200 phones such as the Samsung A-Series.On the tool call and mobile device use benchmarks, Needle 2 trades wins with closest small models like LFM2.5 230M and Apple Foundation Model, at 5x to 70x smaller, both at f16 vs Needle 2 at 2bit. Needle is based on Simple Attention Networks from our paper (https://arxiv.org/abs/2607.18363).Edge AI has lately meant Macs and PCs, but that is just 1.5 billi",
+      "published": "2026-08-10T17:22:07+00:00",
+      "score": 37.0,
+      "headline": "14MB Agentic LLM Needle2 Targets Phones and Wearables"
     }
   ],
-  "generated_at": "2026-08-10T07:20:40.807676"
+  "generated_at": "2026-08-10T18:50:13.438760"
 }
