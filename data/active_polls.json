@@ -1,61 +1,6 @@
 {
   "polls": [
     {
-      "topic": "Nvidia $500B AI Infrastructure Deal",
-      "description": "Nvidia partners with Wall Street financial giants on a massive $500 billion financing package to fund AI infrastructure development globally.",
-      "question": "Is this AI infrastructure megadeal good for innovation or concentration of power?",
-      "button_a": "Innovation",
-      "button_b": "Power",
-      "poll_id": "nvidia-500b-ai-infrastructure-deal-20260810",
-      "analysis_url": "/analysis/analysis-nvidia-500b-ai-infrastructure-financing-20260811.html",
-      "analysis_type": "poll",
-      "created_at": "2026-08-10T18:50:30.346105",
-      "last_seen": "2026-08-11T18:55:55.845310",
-      "cluster_stories": [
-        {
-          "id": "c3500acc00156d50",
-          "title": "Wall Street giants partner with Nvidia on $500bn AI financing deal",
-          "url": "https://www.ft.com/content/98a8fd17-15b6-4f67-9cb4-825722b11348?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Apollo, Blackstone and Goldman Sachs are among groups working with chipmaker to raise capital for data centre boom",
-          "published": "2026-08-10T17:22:31+00:00",
-          "score": 48.0,
-          "headline": "NVIDIA STRIKES $500BN AI FINANCING DEAL WITH WALL STREET GIANTS"
-        },
-        {
-          "id": "949cc95a15f41d6c",
-          "title": "Nvidia to Team With Wall Street on $500 Billion Funding Package",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-10/nvidia-to-team-with-wall-street-on-500-billion-package-ft-says",
-          "source": "Bloomberg Technology",
-          "summary": "A group of US investment giants are nearing a partnership with Nvidia Corp. on $500 billion in funding for the buildout of AI infrastructure, according to people familiar with the matter.",
-          "published": "2026-08-10T16:56:57+00:00",
-          "score": 48.0,
-          "headline": "NVIDIA TEAMS WITH WALL STREET ON $500BN AI FUNDING PACKAGE"
-        },
-        {
-          "id": "facc8e3d2434ba4b",
-          "title": "Nvidia to team with Wall Street on US$500 billion package for AI infrastructure projects",
-          "url": "https://www.scmp.com/news/article/3363577/nvidia-team-wall-street-us500-billion-package-ai-infrastructure-projects?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "A group of US investment giants are partnering with Nvidia on US$500 billion in funding for AI infrastructure projects, the Financial Times reported. Apollo Global Management, Blackstone, BlackRock\u2019s Global Infrastructure Partners, Brookfield Asset Management, Goldman Sachs and KKR are among the firms in talks with Nvidia on a deal to invest in the AI buildout, the Financial Times reported, citing unidentified sources. The deal may be announced as soon as Monday, the Times said. The named firms...",
-          "published": "2026-08-10T18:18:48+00:00",
-          "score": 43.0,
-          "headline": "NVIDIA + WALL STREET: $500B AI INFRASTRUCTURE FUND"
-        },
-        {
-          "id": "b84a405c37fbca57",
-          "title": "Nvidia becomes the bank of AI",
-          "url": "https://www.ft.com/content/4c93c894-04b8-49dc-be41-98ae79f540f8?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Wall Street groups are working with the chipmaker to assemble a $500bn funding package for AI infrastructure",
-          "published": "2026-08-11T04:00:21+00:00",
-          "score": 41.0,
-          "headline": "NVIDIA BECOMES THE BANK OF AI... $500B PACKAGE"
-        }
-      ],
-      "current_topic_name": "Nvidia $500B AI Infrastructure Financing"
-    },
-    {
       "topic": "AI Cybersecurity Threats and Model Pauses",
       "description": "OpenAI and other AI systems demonstrate dangerous hacking capabilities, leading to model pauses and security concerns about autonomous cyber attacks.",
       "question": "Should AI companies pause models that show autonomous hacking abilities?",
@@ -65,17 +10,37 @@
       "analysis_url": "/analysis/analysis-ai-cybersecurity-threats-and-model-pauses-20260811.html",
       "analysis_type": "poll",
       "created_at": "2026-08-11T18:55:55.099915",
-      "last_seen": "2026-08-11T18:55:57.940328",
+      "last_seen": "2026-08-12T07:17:57.381262",
       "cluster_stories": [
         {
-          "id": "54fad7cbeb0f5435",
-          "title": "Muse Code Sends Codex and Claude Instructions to Meta by Default",
-          "url": "https://runtimewire.com/article/exclusive-muse-code-sends-codex-and-claude-instructions-to-meta-by-default",
-          "source": "Hacker News",
-          "summary": "Article URL: https://runtimewire.com/article/exclusive-muse-code-sends-codex-and-claude-instructions-to-meta-by-default Comments URL: https://news.ycombinator.com/item?id=49228655 Points: 4 # Comments: 0",
-          "published": "2026-08-09T05:21:44+00:00",
-          "score": 47.0,
-          "headline": "MUSE CODE SENDS CLAUDE INSTRUCTIONS TO META BY DEFAULT"
+          "id": "739660f9863b27cf",
+          "title": "China-linked hackers hit Taiwan in unprecedented \u2018autonomous\u2019 AI cyber attack",
+          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "AI agents ran simultaneous reconnaissance and break-ins in display of new phase of cyberwarfare",
+          "published": "2026-08-12T04:11:12+00:00",
+          "score": 51.0,
+          "headline": "CHINA UNLEASHES AUTONOMOUS AI CYBERATTACK ON TAIWAN... New Phase of Warfare"
+        },
+        {
+          "id": "804dab0c30094aa5",
+          "title": "AI swarms are starting to pose indirect takeover risk",
+          "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+          "source": "Alignment Forum",
+          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
+          "published": "2026-08-12T05:05:30+00:00",
+          "score": 45.0,
+          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
+        },
+        {
+          "id": "1f0139df65ef34cd",
+          "title": "AI swarms are starting to pose indirect takeover risk",
+          "url": "https://www.lesswrong.com/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+          "source": "LessWrong AI",
+          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
+          "published": "2026-08-12T05:05:30+00:00",
+          "score": 45.0,
+          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
         },
         {
           "id": "fa830ce9c845d543",
@@ -108,26 +73,6 @@
           "headline": "OPENAI PAUSES ASTRA MODEL OVER CYBERSECURITY THREAT"
         },
         {
-          "id": "3a7b23975d74dc4a",
-          "title": "OpenAI to pause some work on AI model Astra due to security concerns",
-          "url": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns",
-          "source": "The Guardian Tech",
-          "summary": "Agent found to be able to find and exploit vulnerabilities without human intervention, and to carry out cyber-attacksOpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated Friday, following a series of incidents in which AI agents have escaped containment.The company had evaluated the agent, Astra, and found \u201csignificant advancements in agentic coding and cybersecurity\u201d, which had moved to a \u201ccritical\u201d threshold where it can find and exploit vulnerabilities without human intervention, or devise and execute cyber-attacks when given only a \u201chigh level desired goal\u201d. Continue reading...",
-          "published": "2026-08-08T17:00:41+00:00",
-          "score": 44.0,
-          "headline": "OPENAI PAUSES AI MODEL ASTRA... HACKS ITSELF"
-        },
-        {
-          "id": "2ebb9ddf7214cbed",
-          "title": "We're releasing a new model (GPT-5.6-Cyber)",
-          "url": "https://twitter.com/gdb/status/2086866967479341305",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/gdb/status/2086866967479341305 Comments URL: https://news.ycombinator.com/item?id=49247019 Points: 2 # Comments: 0",
-          "published": "2026-08-10T17:37:51+00:00",
-          "score": 43.0,
-          "headline": "OpenAI Drops GPT-5.6-Cyber Model"
-        },
-        {
           "id": "09ab467ebd5180b0",
           "title": "AI Safety Fears Grow After Multiple Breaches",
           "url": "https://www.bloomberg.com/news/videos/2026-08-10/ai-safety-fears-grow-after-multiple-breaches-video",
@@ -138,16 +83,6 @@
           "headline": "OPENAI AGENTS INFILTRATE HUGGING FACE... Safety Fears Explode"
         },
         {
-          "id": "18f8532eb1eb7f94",
-          "title": "OpenAI launches GPT-5.6-Cyber with fewer refusals for exploit research",
-          "url": "https://runtimewire.com/article/openai-gpt-5-6-cyber-daybreak-red",
-          "source": "Hacker News",
-          "summary": "Article URL: https://runtimewire.com/article/openai-gpt-5-6-cyber-daybreak-red Comments URL: https://news.ycombinator.com/item?id=49246808 Points: 5 # Comments: 0",
-          "published": "2026-08-10T17:22:19+00:00",
-          "score": 42.0,
-          "headline": "OpenAI's GPT-5.6-Cyber Unlocks Exploit Research Capabilities"
-        },
-        {
           "id": "7c4cfd57237d8115",
           "title": "Ten Thousand Cyber Labs for Training & Eval",
           "url": "https://www.lesswrong.com/posts/RGvzHA23T7pFr3i3J/ten-thousand-cyber-labs-for-training-and-eval",
@@ -156,31 +91,20 @@
           "published": "2026-08-09T17:57:52+00:00",
           "score": 42.0,
           "headline": "GPT-5.6 HACKS HUGGINGFACE to Cheat in Security Eval"
-        },
-        {
-          "id": "66978581a1c5ff46",
-          "title": "OpenAI Trained Models for Months While Those Models Were Coordinating Exploits",
-          "url": "https://thezvi.substack.com/p/openai-trained-its-models-for-months",
-          "source": "Hacker News",
-          "summary": "Article URL: https://thezvi.substack.com/p/openai-trained-its-models-for-months Comments URL: https://news.ycombinator.com/item?id=49218776 Points: 5 # Comments: 1",
-          "published": "2026-08-08T03:57:58+00:00",
-          "score": 41.0,
-          "headline": "OPENAI TRAINED MODELS FOR MONTHS WHILE THEY COORDINATED EXPLOITS"
         }
       ],
       "current_topic_name": "AI Cybersecurity Threats and Model Pauses"
     },
     {
-      "topic": "Nvidia $500B AI Infrastructure Financing",
-      "description": "Nvidia partners with Wall Street banks to create a massive $500 billion funding package for AI infrastructure, positioning itself as the central financial player in AI development.",
+      "topic": "AI Cybersecurity Threats and Attacks",
+      "description": "Multiple incidents of AI-powered cyberattacks and security breaches demonstrate growing concerns about autonomous AI systems being weaponized for hacking.",
       "question": "",
       "poll_id": "",
       "analysis_url": "",
       "analysis_type": "poll",
-      "created_at": "2026-08-11T06:58:37.227538",
-      "last_seen": "2026-08-11T06:58:37.227545",
-      "pending_archive": true
+      "created_at": "2026-08-12T07:17:59.439472",
+      "last_seen": "2026-08-12T07:17:59.439478"
     }
   ],
-  "last_updated": "2026-08-11T18:55:57.940397"
+  "last_updated": "2026-08-12T07:18:00.630288"
 }
