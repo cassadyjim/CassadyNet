@@ -1,71 +1,16 @@
 {
   "polls": [
     {
-      "topic": "Nvidia $500B AI Infrastructure Funding",
-      "description": "Nvidia secured a massive $500 billion funding package with Wall Street giants to finance AI infrastructure development, marking one of the largest tech financing deals ever.",
-      "question": "Is Nvidia's $500B AI infrastructure deal visionary or reckless?",
-      "button_a": "Visionary",
-      "button_b": "Reckless",
-      "poll_id": "nvidia-500b-ai-infrastructure-funding-20260812",
-      "analysis_url": "/analysis/analysis-nvidia-500b-ai-infrastructure-funding-20260812.html",
-      "analysis_type": "poll",
-      "created_at": "2026-08-12T18:56:35.984363",
-      "last_seen": "2026-08-13T07:20:48.414534",
-      "cluster_stories": [
-        {
-          "id": "c3500acc00156d50",
-          "title": "Wall Street giants partner with Nvidia on $500bn AI financing deal",
-          "url": "https://www.ft.com/content/98a8fd17-15b6-4f67-9cb4-825722b11348?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Apollo, Blackstone and Goldman Sachs are among groups working with chipmaker to raise capital for data centre boom",
-          "published": "2026-08-10T17:22:31+00:00",
-          "score": 48.0,
-          "headline": "NVIDIA STRIKES $500BN AI FINANCING DEAL WITH WALL STREET GIANTS"
-        },
-        {
-          "id": "949cc95a15f41d6c",
-          "title": "Nvidia to Team With Wall Street on $500 Billion Funding Package",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-10/nvidia-to-team-with-wall-street-on-500-billion-package-ft-says",
-          "source": "Bloomberg Technology",
-          "summary": "A group of US investment giants are nearing a partnership with Nvidia Corp. on $500 billion in funding for the buildout of AI infrastructure, according to people familiar with the matter.",
-          "published": "2026-08-10T16:56:57+00:00",
-          "score": 48.0,
-          "headline": "NVIDIA TEAMS WITH WALL STREET ON $500BN AI FUNDING PACKAGE"
-        },
-        {
-          "id": "0aeab65ecae23850",
-          "title": "Nvidia Taps Wall Street for $500 Billion Funding Commitment",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-11/nvidia-taps-wall-street-for-500b-funding-commitment-video",
-          "source": "Bloomberg Technology",
-          "summary": "US investment giants including Apollo Global Management Inc., Blackstone Inc., BlackRock Inc. and Brookfield Asset Management are partnering with Nvidia Corp. to source $500 billion in financing for artificial intelligence infrastructure. Bloomberg's Ed Ludlow joins to discuss this as well as Intel raised $20 billion in an upsized share sale, a third more than it was targeting when it announced the deal Monday morning. (Source: Bloomberg)",
-          "published": "2026-08-11T16:59:04+00:00",
-          "score": 47.0,
-          "headline": "NVIDIA SECURES $500B FUNDING... Apollo, Blackstone Back AI Infrastructure"
-        },
-        {
-          "id": "facc8e3d2434ba4b",
-          "title": "Nvidia to team with Wall Street on US$500 billion package for AI infrastructure projects",
-          "url": "https://www.scmp.com/news/article/3363577/nvidia-team-wall-street-us500-billion-package-ai-infrastructure-projects?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "A group of US investment giants are partnering with Nvidia on US$500 billion in funding for AI infrastructure projects, the Financial Times reported. Apollo Global Management, Blackstone, BlackRock\u2019s Global Infrastructure Partners, Brookfield Asset Management, Goldman Sachs and KKR are among the firms in talks with Nvidia on a deal to invest in the AI buildout, the Financial Times reported, citing unidentified sources. The deal may be announced as soon as Monday, the Times said. The named firms...",
-          "published": "2026-08-10T18:18:48+00:00",
-          "score": 43.0,
-          "headline": "NVIDIA + WALL STREET: $500B AI INFRASTRUCTURE FUND"
-        }
-      ],
-      "current_topic_name": "Nvidia $500B AI Infrastructure Funding"
-    },
-    {
       "topic": "AI Cybersecurity Threats and Model Pauses",
       "description": "OpenAI and other AI systems demonstrate dangerous hacking capabilities, leading to model pauses and security concerns about autonomous cyber attacks.",
       "question": "Should AI companies pause models that show autonomous hacking abilities?",
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "ai-cybersecurity-threats-and-model-pauses-20260811",
-      "analysis_url": "/analysis/analysis-ai-cyberattacks-and-security-threats-20260813.html",
+      "analysis_url": "/analysis/analysis-ai-cyberattacks-and-security-breaches-20260813.html",
       "analysis_type": "poll",
       "created_at": "2026-08-11T18:55:55.099915",
-      "last_seen": "2026-08-13T07:20:49.231707",
+      "last_seen": "2026-08-13T18:57:26.278361",
       "cluster_stories": [
         {
           "id": "739660f9863b27cf",
@@ -118,6 +63,16 @@
           "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
         },
         {
+          "id": "60798df692a315a1",
+          "title": "AI #181: Astra Goes Cyber Critical",
+          "url": "https://www.lesswrong.com/posts/hLn3SakowZLFWobHf/ai-181-astra-goes-cyber-critical",
+          "source": "LessWrong AI",
+          "summary": "The hacking of HuggingFace by an internal OpenAI model, and more importantly the internal events that led to that and the fallout from it, remain the thing that matters. It turns out that OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards. Things are much worse than we knew. I now have a shorter version, What Happened: OpenAI and HuggingFace, to serve as a one stop explainer for those arriving new to the situation. It is vital that people understand what happened, and why it is a big deal. For those looking to keep digging deeper, I offered Various Reflections About What Happened, to follow up on my earlier posts. Those events are important background for everything else that is happening, including the broad discussions about how we might pace the frontier, or otherwise respond to this moment and our clearest fire alarm yet. We do not know to what extent this is a response to those events, but OpenAI has now classified their new model",
+          "published": "2026-08-13T15:20:42+00:00",
+          "score": 44.0,
+          "headline": "OPENAI MODEL HACKS HUGGINGFACE - INTERNAL FALLOUT"
+        },
+        {
           "id": "fa830ce9c845d543",
           "title": "\u2018Zoomsday\u2019 hack uncovered using fewer than 20 AI prompts",
           "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
@@ -146,20 +101,65 @@
           "published": "2026-08-10T06:17:28+00:00",
           "score": 43.0,
           "headline": "OPENAI AGENTS INFILTRATE HUGGING FACE... Safety Fears Explode"
-        },
-        {
-          "id": "18f8532eb1eb7f94",
-          "title": "OpenAI launches GPT-5.6-Cyber with fewer refusals for exploit research",
-          "url": "https://runtimewire.com/article/openai-gpt-5-6-cyber-daybreak-red",
-          "source": "Hacker News",
-          "summary": "Article URL: https://runtimewire.com/article/openai-gpt-5-6-cyber-daybreak-red Comments URL: https://news.ycombinator.com/item?id=49246808 Points: 5 # Comments: 0",
-          "published": "2026-08-10T17:22:19+00:00",
-          "score": 42.0,
-          "headline": "OpenAI's GPT-5.6-Cyber Unlocks Exploit Research Capabilities"
         }
       ],
-      "current_topic_name": "AI Cyberattacks and Security Threats"
+      "current_topic_name": "AI Cyberattacks and Security Breaches"
+    },
+    {
+      "topic": "Nvidia $500B AI Infrastructure Funding",
+      "description": "Nvidia secured a massive $500 billion funding package with Wall Street giants to finance AI infrastructure development, marking one of the largest tech financing deals ever.",
+      "question": "Is Nvidia's $500B AI infrastructure deal visionary or reckless?",
+      "button_a": "Visionary",
+      "button_b": "Reckless",
+      "poll_id": "nvidia-500b-ai-infrastructure-funding-20260812",
+      "analysis_url": "/analysis/analysis-nvidia-500b-ai-infrastructure-funding-20260813.html",
+      "analysis_type": "poll",
+      "created_at": "2026-08-12T18:56:35.984363",
+      "last_seen": "2026-08-13T18:57:27.928361",
+      "cluster_stories": [
+        {
+          "id": "c3500acc00156d50",
+          "title": "Wall Street giants partner with Nvidia on $500bn AI financing deal",
+          "url": "https://www.ft.com/content/98a8fd17-15b6-4f67-9cb4-825722b11348?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Apollo, Blackstone and Goldman Sachs are among groups working with chipmaker to raise capital for data centre boom",
+          "published": "2026-08-10T17:22:31+00:00",
+          "score": 48.0,
+          "headline": "NVIDIA STRIKES $500BN AI FINANCING DEAL WITH WALL STREET GIANTS"
+        },
+        {
+          "id": "949cc95a15f41d6c",
+          "title": "Nvidia to Team With Wall Street on $500 Billion Funding Package",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-10/nvidia-to-team-with-wall-street-on-500-billion-package-ft-says",
+          "source": "Bloomberg Technology",
+          "summary": "A group of US investment giants are nearing a partnership with Nvidia Corp. on $500 billion in funding for the buildout of AI infrastructure, according to people familiar with the matter.",
+          "published": "2026-08-10T16:56:57+00:00",
+          "score": 48.0,
+          "headline": "NVIDIA TEAMS WITH WALL STREET ON $500BN AI FUNDING PACKAGE"
+        },
+        {
+          "id": "0aeab65ecae23850",
+          "title": "Nvidia Taps Wall Street for $500 Billion Funding Commitment",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-11/nvidia-taps-wall-street-for-500b-funding-commitment-video",
+          "source": "Bloomberg Technology",
+          "summary": "US investment giants including Apollo Global Management Inc., Blackstone Inc., BlackRock Inc. and Brookfield Asset Management are partnering with Nvidia Corp. to source $500 billion in financing for artificial intelligence infrastructure. Bloomberg's Ed Ludlow joins to discuss this as well as Intel raised $20 billion in an upsized share sale, a third more than it was targeting when it announced the deal Monday morning. (Source: Bloomberg)",
+          "published": "2026-08-11T16:59:04+00:00",
+          "score": 47.0,
+          "headline": "NVIDIA SECURES $500B FUNDING... Apollo, Blackstone Back AI Infrastructure"
+        },
+        {
+          "id": "facc8e3d2434ba4b",
+          "title": "Nvidia to team with Wall Street on US$500 billion package for AI infrastructure projects",
+          "url": "https://www.scmp.com/news/article/3363577/nvidia-team-wall-street-us500-billion-package-ai-infrastructure-projects?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "A group of US investment giants are partnering with Nvidia on US$500 billion in funding for AI infrastructure projects, the Financial Times reported. Apollo Global Management, Blackstone, BlackRock\u2019s Global Infrastructure Partners, Brookfield Asset Management, Goldman Sachs and KKR are among the firms in talks with Nvidia on a deal to invest in the AI buildout, the Financial Times reported, citing unidentified sources. The deal may be announced as soon as Monday, the Times said. The named firms...",
+          "published": "2026-08-10T18:18:48+00:00",
+          "score": 43.0,
+          "headline": "NVIDIA + WALL STREET: $500B AI INFRASTRUCTURE FUND"
+        }
+      ],
+      "current_topic_name": "Nvidia $500B AI Infrastructure Funding"
     }
   ],
-  "last_updated": "2026-08-13T07:20:50.035872"
+  "last_updated": "2026-08-13T18:57:27.928375"
 }
