@@ -1,101 +1,6 @@
 {
   "polls": [
     {
-      "topic": "AI Cybersecurity Threats and Model Pauses",
-      "description": "OpenAI and other AI systems demonstrate dangerous hacking capabilities, leading to model pauses and security concerns about autonomous cyber attacks.",
-      "question": "Should AI companies pause models that show autonomous hacking abilities?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-cybersecurity-threats-and-model-pauses-20260811",
-      "analysis_url": "/analysis/analysis-ai-cyberattacks-and-security-threats-20260813.html",
-      "analysis_type": "poll",
-      "created_at": "2026-08-11T18:55:55.099915",
-      "last_seen": "2026-08-14T07:18:11.433843",
-      "cluster_stories": [
-        {
-          "id": "739660f9863b27cf",
-          "title": "China-linked hackers hit Taiwan in unprecedented \u2018autonomous\u2019 AI cyber attack",
-          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "AI agents ran simultaneous reconnaissance and break-ins in display of new phase of cyberwarfare",
-          "published": "2026-08-12T04:11:12+00:00",
-          "score": 51.0,
-          "headline": "CHINA UNLEASHES AUTONOMOUS AI CYBERATTACK ON TAIWAN... New Phase of Warfare"
-        },
-        {
-          "id": "93a903cc4002fa64",
-          "title": "Taiwan says it was hit by \u2018abnormal\u2019 AI-assisted cyber-attack",
-          "url": "https://www.theguardian.com/technology/2026/aug/13/taiwan-ai-assisted-cyber-attacks-overseas",
-          "source": "The Guardian Tech",
-          "summary": "Taiwan\u2019s statement comes a day after reports that suspected China-linked hackers had carried out a first-of-a-kind breachTaiwan says it detected AI-assisted cyber-attacks on government agencies that came from overseas last month, a new kind of threat that has been reported as \u201cfirst-of-a-kind breach\u201d.The Ministry of Digital Affairs (MDA) said its cybersecurity monitoring units \u200cdetected the \u201cabnormal attack\u201d targeting government agencies, which began on 20 July. The National Institute of Cyber Security issued a series of warning alerts while it investigated. Continue reading...",
-          "published": "2026-08-13T05:02:28+00:00",
-          "score": 47.0,
-          "headline": "TAIWAN HIT BY AI-POWERED CYBER-ATTACK... China Suspected"
-        },
-        {
-          "id": "3f2a3799a7cc73fc",
-          "title": "A Multi-Agent AI Framework Used to Compromise Government Entities in Asia",
-          "url": "https://dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia",
-          "source": "Hacker News",
-          "summary": "Article URL: https://dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia Comments URL: https://news.ycombinator.com/item?id=49276153 Points: 1 # Comments: 0",
-          "published": "2026-08-12T17:48:47+00:00",
-          "score": 45.0,
-          "headline": "MULTI-AGENT AI FRAMEWORK HACKS ASIAN GOVERNMENTS"
-        },
-        {
-          "id": "804dab0c30094aa5",
-          "title": "AI swarms are starting to pose indirect takeover risk",
-          "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-          "source": "Alignment Forum",
-          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
-          "published": "2026-08-12T05:05:30+00:00",
-          "score": 45.0,
-          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
-        },
-        {
-          "id": "1f0139df65ef34cd",
-          "title": "AI swarms are starting to pose indirect takeover risk",
-          "url": "https://www.lesswrong.com/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-          "source": "LessWrong AI",
-          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
-          "published": "2026-08-12T05:05:30+00:00",
-          "score": 45.0,
-          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
-        },
-        {
-          "id": "60798df692a315a1",
-          "title": "AI #181: Astra Goes Cyber Critical",
-          "url": "https://www.lesswrong.com/posts/hLn3SakowZLFWobHf/ai-181-astra-goes-cyber-critical",
-          "source": "LessWrong AI",
-          "summary": "The hacking of HuggingFace by an internal OpenAI model, and more importantly the internal events that led to that and the fallout from it, remain the thing that matters. It turns out that OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards. Things are much worse than we knew. I now have a shorter version, What Happened: OpenAI and HuggingFace, to serve as a one stop explainer for those arriving new to the situation. It is vital that people understand what happened, and why it is a big deal. For those looking to keep digging deeper, I offered Various Reflections About What Happened, to follow up on my earlier posts. Those events are important background for everything else that is happening, including the broad discussions about how we might pace the frontier, or otherwise respond to this moment and our clearest fire alarm yet. We do not know to what extent this is a response to those events, but OpenAI has now classified their new model",
-          "published": "2026-08-13T15:20:42+00:00",
-          "score": 44.0,
-          "headline": "OPENAI MODEL HACKS HUGGINGFACE - INTERNAL FALLOUT"
-        },
-        {
-          "id": "fa830ce9c845d543",
-          "title": "\u2018Zoomsday\u2019 hack uncovered using fewer than 20 AI prompts",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
-          "source": "The Verge AI",
-          "summary": "Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, [&#8230;]",
-          "published": "2026-08-11T14:45:44+00:00",
-          "score": 44.0,
-          "headline": "'ZOOMSDAY' HACK Uncovered Using Just 20 AI Prompts"
-        },
-        {
-          "id": "c2fa66cc8583508e",
-          "title": "China-linked hackers hit Taiwan in 'autonomous' AI cyber attack",
-          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795 Comments URL: https://news.ycombinator.com/item?id=49295227 Points: 1 # Comments: 0",
-          "published": "2026-08-14T06:07:08+00:00",
-          "score": 42.0,
-          "headline": "CHINA DEPLOYS 'AUTONOMOUS' AI CYBERATTACK ON TAIWAN"
-        }
-      ],
-      "current_topic_name": "AI Cyberattacks and Security Threats"
-    },
-    {
       "topic": "Anthropic Major Deals and Expansion",
       "description": "Anthropic pursues massive growth through record-breaking acquisition and IPO plans that could reshape the AI industry landscape.",
       "question": "Is Anthropic's aggressive expansion a smart move or reckless overreach?",
@@ -105,7 +10,7 @@
       "analysis_url": "/analysis/analysis-anthropic-major-deals-and-expansion-20260814.html",
       "analysis_type": "poll",
       "created_at": "2026-08-14T07:18:09.993443",
-      "last_seen": "2026-08-14T07:18:13.115096",
+      "last_seen": "2026-08-14T18:47:24.526052",
       "cluster_stories": [
         {
           "id": "7780e208ebe9d4f9",
@@ -189,7 +94,112 @@
         }
       ],
       "current_topic_name": "Anthropic Major Deals and Expansion"
+    },
+    {
+      "topic": "AI Cybersecurity Threats and Model Pauses",
+      "description": "OpenAI and other AI systems demonstrate dangerous hacking capabilities, leading to model pauses and security concerns about autonomous cyber attacks.",
+      "question": "Should AI companies pause models that show autonomous hacking abilities?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-cybersecurity-threats-and-model-pauses-20260811",
+      "analysis_url": "/analysis/analysis-ai-cyberattacks-and-security-threats-20260814.html",
+      "analysis_type": "poll",
+      "created_at": "2026-08-11T18:55:55.099915",
+      "last_seen": "2026-08-14T18:47:25.456022",
+      "cluster_stories": [
+        {
+          "id": "739660f9863b27cf",
+          "title": "China-linked hackers hit Taiwan in unprecedented \u2018autonomous\u2019 AI cyber attack",
+          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "AI agents ran simultaneous reconnaissance and break-ins in display of new phase of cyberwarfare",
+          "published": "2026-08-12T04:11:12+00:00",
+          "score": 51.0,
+          "headline": "CHINA UNLEASHES AUTONOMOUS AI CYBERATTACK ON TAIWAN... New Phase of Warfare"
+        },
+        {
+          "id": "93a903cc4002fa64",
+          "title": "Taiwan says it was hit by \u2018abnormal\u2019 AI-assisted cyber-attack",
+          "url": "https://www.theguardian.com/technology/2026/aug/13/taiwan-ai-assisted-cyber-attacks-overseas",
+          "source": "The Guardian Tech",
+          "summary": "Taiwan\u2019s statement comes a day after reports that suspected China-linked hackers had carried out a first-of-a-kind breachTaiwan says it detected AI-assisted cyber-attacks on government agencies that came from overseas last month, a new kind of threat that has been reported as \u201cfirst-of-a-kind breach\u201d.The Ministry of Digital Affairs (MDA) said its cybersecurity monitoring units \u200cdetected the \u201cabnormal attack\u201d targeting government agencies, which began on 20 July. The National Institute of Cyber Security issued a series of warning alerts while it investigated. Continue reading...",
+          "published": "2026-08-13T05:02:28+00:00",
+          "score": 47.0,
+          "headline": "TAIWAN HIT BY AI-POWERED CYBER-ATTACK... China Suspected"
+        },
+        {
+          "id": "4dddb991440c2662",
+          "title": "China's Z.ai says new model nears Anthropic's Mythos 5 in cyber-defence tests",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-z-ai-says-new-model-nears-anthropics-mythos-5-in-cyber-defence-tests/articleshow/133242158.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Anthropic has made Mythos, a version of its Claude Fable \u200b5 model with cybersecurity safeguards removed, available only to vetted organisations. Such controls reflect concern that AI systems capable of finding and exploiting software flaws can assist defenders \u200bbut may also lower barriers for attackers.",
+          "published": "2026-08-14T12:55:42+00:00",
+          "score": 45.0,
+          "headline": "CHINA'S Z.AI RIVALS ANTHROPIC MYTHOS 5 IN CYBER TESTS"
+        },
+        {
+          "id": "3f2a3799a7cc73fc",
+          "title": "A Multi-Agent AI Framework Used to Compromise Government Entities in Asia",
+          "url": "https://dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia",
+          "source": "Hacker News",
+          "summary": "Article URL: https://dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia Comments URL: https://news.ycombinator.com/item?id=49276153 Points: 1 # Comments: 0",
+          "published": "2026-08-12T17:48:47+00:00",
+          "score": 45.0,
+          "headline": "MULTI-AGENT AI FRAMEWORK HACKS ASIAN GOVERNMENTS"
+        },
+        {
+          "id": "804dab0c30094aa5",
+          "title": "AI swarms are starting to pose indirect takeover risk",
+          "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+          "source": "Alignment Forum",
+          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
+          "published": "2026-08-12T05:05:30+00:00",
+          "score": 45.0,
+          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
+        },
+        {
+          "id": "1f0139df65ef34cd",
+          "title": "AI swarms are starting to pose indirect takeover risk",
+          "url": "https://www.lesswrong.com/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+          "source": "LessWrong AI",
+          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
+          "published": "2026-08-12T05:05:30+00:00",
+          "score": 45.0,
+          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
+        },
+        {
+          "id": "60798df692a315a1",
+          "title": "AI #181: Astra Goes Cyber Critical",
+          "url": "https://www.lesswrong.com/posts/hLn3SakowZLFWobHf/ai-181-astra-goes-cyber-critical",
+          "source": "LessWrong AI",
+          "summary": "The hacking of HuggingFace by an internal OpenAI model, and more importantly the internal events that led to that and the fallout from it, remain the thing that matters. It turns out that OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards. Things are much worse than we knew. I now have a shorter version, What Happened: OpenAI and HuggingFace, to serve as a one stop explainer for those arriving new to the situation. It is vital that people understand what happened, and why it is a big deal. For those looking to keep digging deeper, I offered Various Reflections About What Happened, to follow up on my earlier posts. Those events are important background for everything else that is happening, including the broad discussions about how we might pace the frontier, or otherwise respond to this moment and our clearest fire alarm yet. We do not know to what extent this is a response to those events, but OpenAI has now classified their new model",
+          "published": "2026-08-13T15:20:42+00:00",
+          "score": 44.0,
+          "headline": "OPENAI MODEL HACKS HUGGINGFACE - INTERNAL FALLOUT"
+        },
+        {
+          "id": "fa830ce9c845d543",
+          "title": "\u2018Zoomsday\u2019 hack uncovered using fewer than 20 AI prompts",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+          "source": "The Verge AI",
+          "summary": "Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, [&#8230;]",
+          "published": "2026-08-11T14:45:44+00:00",
+          "score": 44.0,
+          "headline": "'ZOOMSDAY' HACK Uncovered Using Just 20 AI Prompts"
+        },
+        {
+          "id": "c2fa66cc8583508e",
+          "title": "China-linked hackers hit Taiwan in 'autonomous' AI cyber attack",
+          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795 Comments URL: https://news.ycombinator.com/item?id=49295227 Points: 1 # Comments: 0",
+          "published": "2026-08-14T06:07:08+00:00",
+          "score": 42.0,
+          "headline": "CHINA DEPLOYS 'AUTONOMOUS' AI CYBERATTACK ON TAIWAN"
+        }
+      ],
+      "current_topic_name": "AI Cyberattacks and Security Threats"
     }
   ],
-  "last_updated": "2026-08-14T07:18:23.302662"
+  "last_updated": "2026-08-14T18:47:25.456035"
 }

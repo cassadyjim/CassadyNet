@@ -1,94 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "AI Cyberattacks and Security Threats",
-      "description": "Multiple incidents of AI-powered hacking and autonomous cyberattacks signal a dangerous new phase in AI weaponization and security vulnerabilities.",
-      "stories": [
-        {
-          "id": "739660f9863b27cf",
-          "title": "China-linked hackers hit Taiwan in unprecedented \u2018autonomous\u2019 AI cyber attack",
-          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "AI agents ran simultaneous reconnaissance and break-ins in display of new phase of cyberwarfare",
-          "published": "2026-08-12T04:11:12+00:00",
-          "score": 51.0,
-          "headline": "CHINA UNLEASHES AUTONOMOUS AI CYBERATTACK ON TAIWAN... New Phase of Warfare"
-        },
-        {
-          "id": "93a903cc4002fa64",
-          "title": "Taiwan says it was hit by \u2018abnormal\u2019 AI-assisted cyber-attack",
-          "url": "https://www.theguardian.com/technology/2026/aug/13/taiwan-ai-assisted-cyber-attacks-overseas",
-          "source": "The Guardian Tech",
-          "summary": "Taiwan\u2019s statement comes a day after reports that suspected China-linked hackers had carried out a first-of-a-kind breachTaiwan says it detected AI-assisted cyber-attacks on government agencies that came from overseas last month, a new kind of threat that has been reported as \u201cfirst-of-a-kind breach\u201d.The Ministry of Digital Affairs (MDA) said its cybersecurity monitoring units \u200cdetected the \u201cabnormal attack\u201d targeting government agencies, which began on 20 July. The National Institute of Cyber Security issued a series of warning alerts while it investigated. Continue reading...",
-          "published": "2026-08-13T05:02:28+00:00",
-          "score": 47.0,
-          "headline": "TAIWAN HIT BY AI-POWERED CYBER-ATTACK... China Suspected"
-        },
-        {
-          "id": "3f2a3799a7cc73fc",
-          "title": "A Multi-Agent AI Framework Used to Compromise Government Entities in Asia",
-          "url": "https://dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia",
-          "source": "Hacker News",
-          "summary": "Article URL: https://dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia Comments URL: https://news.ycombinator.com/item?id=49276153 Points: 1 # Comments: 0",
-          "published": "2026-08-12T17:48:47+00:00",
-          "score": 45.0,
-          "headline": "MULTI-AGENT AI FRAMEWORK HACKS ASIAN GOVERNMENTS"
-        },
-        {
-          "id": "804dab0c30094aa5",
-          "title": "AI swarms are starting to pose indirect takeover risk",
-          "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-          "source": "Alignment Forum",
-          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
-          "published": "2026-08-12T05:05:30+00:00",
-          "score": 45.0,
-          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
-        },
-        {
-          "id": "1f0139df65ef34cd",
-          "title": "AI swarms are starting to pose indirect takeover risk",
-          "url": "https://www.lesswrong.com/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-          "source": "LessWrong AI",
-          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
-          "published": "2026-08-12T05:05:30+00:00",
-          "score": 45.0,
-          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
-        },
-        {
-          "id": "60798df692a315a1",
-          "title": "AI #181: Astra Goes Cyber Critical",
-          "url": "https://www.lesswrong.com/posts/hLn3SakowZLFWobHf/ai-181-astra-goes-cyber-critical",
-          "source": "LessWrong AI",
-          "summary": "The hacking of HuggingFace by an internal OpenAI model, and more importantly the internal events that led to that and the fallout from it, remain the thing that matters. It turns out that OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards. Things are much worse than we knew. I now have a shorter version, What Happened: OpenAI and HuggingFace, to serve as a one stop explainer for those arriving new to the situation. It is vital that people understand what happened, and why it is a big deal. For those looking to keep digging deeper, I offered Various Reflections About What Happened, to follow up on my earlier posts. Those events are important background for everything else that is happening, including the broad discussions about how we might pace the frontier, or otherwise respond to this moment and our clearest fire alarm yet. We do not know to what extent this is a response to those events, but OpenAI has now classified their new model",
-          "published": "2026-08-13T15:20:42+00:00",
-          "score": 44.0,
-          "headline": "OPENAI MODEL HACKS HUGGINGFACE - INTERNAL FALLOUT"
-        },
-        {
-          "id": "fa830ce9c845d543",
-          "title": "\u2018Zoomsday\u2019 hack uncovered using fewer than 20 AI prompts",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
-          "source": "The Verge AI",
-          "summary": "Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, [&#8230;]",
-          "published": "2026-08-11T14:45:44+00:00",
-          "score": 44.0,
-          "headline": "'ZOOMSDAY' HACK Uncovered Using Just 20 AI Prompts"
-        },
-        {
-          "id": "c2fa66cc8583508e",
-          "title": "China-linked hackers hit Taiwan in 'autonomous' AI cyber attack",
-          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795 Comments URL: https://news.ycombinator.com/item?id=49295227 Points: 1 # Comments: 0",
-          "published": "2026-08-14T06:07:08+00:00",
-          "score": 42.0,
-          "headline": "CHINA DEPLOYS 'AUTONOMOUS' AI CYBERATTACK ON TAIWAN"
-        }
-      ],
-      "top_score": 51.0,
-      "story_count": 8
-    },
-    {
       "topic": "Anthropic Major Deals and Expansion",
       "description": "Anthropic pursues massive growth through record-breaking acquisition and IPO plans that could reshape the AI industry landscape.",
       "stories": [
@@ -175,6 +87,104 @@
       ],
       "top_score": 48.0,
       "story_count": 8
+    },
+    {
+      "topic": "AI Cyberattacks and Security Threats",
+      "description": "Multiple incidents show AI systems being weaponized for cyberattacks, including autonomous attacks on Taiwan and AI agents breaching major platforms, marking a dangerous new phase in cyber warfare.",
+      "stories": [
+        {
+          "id": "739660f9863b27cf",
+          "title": "China-linked hackers hit Taiwan in unprecedented \u2018autonomous\u2019 AI cyber attack",
+          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "AI agents ran simultaneous reconnaissance and break-ins in display of new phase of cyberwarfare",
+          "published": "2026-08-12T04:11:12+00:00",
+          "score": 51.0,
+          "headline": "CHINA UNLEASHES AUTONOMOUS AI CYBERATTACK ON TAIWAN... New Phase of Warfare"
+        },
+        {
+          "id": "93a903cc4002fa64",
+          "title": "Taiwan says it was hit by \u2018abnormal\u2019 AI-assisted cyber-attack",
+          "url": "https://www.theguardian.com/technology/2026/aug/13/taiwan-ai-assisted-cyber-attacks-overseas",
+          "source": "The Guardian Tech",
+          "summary": "Taiwan\u2019s statement comes a day after reports that suspected China-linked hackers had carried out a first-of-a-kind breachTaiwan says it detected AI-assisted cyber-attacks on government agencies that came from overseas last month, a new kind of threat that has been reported as \u201cfirst-of-a-kind breach\u201d.The Ministry of Digital Affairs (MDA) said its cybersecurity monitoring units \u200cdetected the \u201cabnormal attack\u201d targeting government agencies, which began on 20 July. The National Institute of Cyber Security issued a series of warning alerts while it investigated. Continue reading...",
+          "published": "2026-08-13T05:02:28+00:00",
+          "score": 47.0,
+          "headline": "TAIWAN HIT BY AI-POWERED CYBER-ATTACK... China Suspected"
+        },
+        {
+          "id": "4dddb991440c2662",
+          "title": "China's Z.ai says new model nears Anthropic's Mythos 5 in cyber-defence tests",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-z-ai-says-new-model-nears-anthropics-mythos-5-in-cyber-defence-tests/articleshow/133242158.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Anthropic has made Mythos, a version of its Claude Fable \u200b5 model with cybersecurity safeguards removed, available only to vetted organisations. Such controls reflect concern that AI systems capable of finding and exploiting software flaws can assist defenders \u200bbut may also lower barriers for attackers.",
+          "published": "2026-08-14T12:55:42+00:00",
+          "score": 45.0,
+          "headline": "CHINA'S Z.AI RIVALS ANTHROPIC MYTHOS 5 IN CYBER TESTS"
+        },
+        {
+          "id": "3f2a3799a7cc73fc",
+          "title": "A Multi-Agent AI Framework Used to Compromise Government Entities in Asia",
+          "url": "https://dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia",
+          "source": "Hacker News",
+          "summary": "Article URL: https://dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia Comments URL: https://news.ycombinator.com/item?id=49276153 Points: 1 # Comments: 0",
+          "published": "2026-08-12T17:48:47+00:00",
+          "score": 45.0,
+          "headline": "MULTI-AGENT AI FRAMEWORK HACKS ASIAN GOVERNMENTS"
+        },
+        {
+          "id": "804dab0c30094aa5",
+          "title": "AI swarms are starting to pose indirect takeover risk",
+          "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+          "source": "Alignment Forum",
+          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
+          "published": "2026-08-12T05:05:30+00:00",
+          "score": 45.0,
+          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
+        },
+        {
+          "id": "1f0139df65ef34cd",
+          "title": "AI swarms are starting to pose indirect takeover risk",
+          "url": "https://www.lesswrong.com/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+          "source": "LessWrong AI",
+          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
+          "published": "2026-08-12T05:05:30+00:00",
+          "score": 45.0,
+          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
+        },
+        {
+          "id": "60798df692a315a1",
+          "title": "AI #181: Astra Goes Cyber Critical",
+          "url": "https://www.lesswrong.com/posts/hLn3SakowZLFWobHf/ai-181-astra-goes-cyber-critical",
+          "source": "LessWrong AI",
+          "summary": "The hacking of HuggingFace by an internal OpenAI model, and more importantly the internal events that led to that and the fallout from it, remain the thing that matters. It turns out that OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards. Things are much worse than we knew. I now have a shorter version, What Happened: OpenAI and HuggingFace, to serve as a one stop explainer for those arriving new to the situation. It is vital that people understand what happened, and why it is a big deal. For those looking to keep digging deeper, I offered Various Reflections About What Happened, to follow up on my earlier posts. Those events are important background for everything else that is happening, including the broad discussions about how we might pace the frontier, or otherwise respond to this moment and our clearest fire alarm yet. We do not know to what extent this is a response to those events, but OpenAI has now classified their new model",
+          "published": "2026-08-13T15:20:42+00:00",
+          "score": 44.0,
+          "headline": "OPENAI MODEL HACKS HUGGINGFACE - INTERNAL FALLOUT"
+        },
+        {
+          "id": "fa830ce9c845d543",
+          "title": "\u2018Zoomsday\u2019 hack uncovered using fewer than 20 AI prompts",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+          "source": "The Verge AI",
+          "summary": "Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, [&#8230;]",
+          "published": "2026-08-11T14:45:44+00:00",
+          "score": 44.0,
+          "headline": "'ZOOMSDAY' HACK Uncovered Using Just 20 AI Prompts"
+        },
+        {
+          "id": "c2fa66cc8583508e",
+          "title": "China-linked hackers hit Taiwan in 'autonomous' AI cyber attack",
+          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795 Comments URL: https://news.ycombinator.com/item?id=49295227 Points: 1 # Comments: 0",
+          "published": "2026-08-14T06:07:08+00:00",
+          "score": 42.0,
+          "headline": "CHINA DEPLOYS 'AUTONOMOUS' AI CYBERATTACK ON TAIWAN"
+        }
+      ],
+      "top_score": 51.0,
+      "story_count": 9
     }
   ],
   "unclustered": [
@@ -299,6 +309,16 @@
       "headline": "XAI Cofounder's River AI Raises $1.1 BILLION for Custom Enterprise Models"
     },
     {
+      "id": "30442beeaf4c72d6",
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "source": "Ars Technica AI",
+      "summary": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
+      "published": "2026-08-14T14:27:14+00:00",
+      "score": 43.0,
+      "headline": "OPENAI, ANTHROPIC SLASH PRICES AS CHINESE AI RIVALS SURGE"
+    },
+    {
       "id": "d5362e997c3ceb39",
       "title": "Apple trains its own AI model for China market with Alibaba's support",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/apple-trains-its-own-ai-model-for-china-market-with-alibabas-support/articleshow/133229112.cms",
@@ -317,6 +337,16 @@
       "published": "2026-08-14T04:00:14+00:00",
       "score": 43.0,
       "headline": "OpenAI, Anthropic Slash Prices as Chinese AI Rivals Surge"
+    },
+    {
+      "id": "4f7a500cee9438e1",
+      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "source": "TechCrunch AI",
+      "summary": "Anthropic researchers found AI agents can clash, collude and coordinate in unexpected ways, raising new questions about whether today\u2019s safety tests capture the risks of multi-agent systems.",
+      "published": "2026-08-13T18:28:14+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC AI AGENTS START TURF WAR... Safety Concerns Mount"
     },
     {
       "id": "55782977687e541c",
@@ -399,6 +429,36 @@
       "headline": "Google's AMIE Medical AI Conducts Real-Time Video Consultations"
     },
     {
+      "id": "a3990db1706fbc22",
+      "title": "An unreleased Anthropic model made progress on one of math\u2019s biggest unsolved problems",
+      "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+      "source": "TechCrunch AI",
+      "summary": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it \u2014 but the company's models made more progress than you might expect.",
+      "published": "2026-08-11T16:25:20+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC MODEL CRACKS RIEMANN HYPOTHESIS... Math's 150-Year Mystery"
+    },
+    {
+      "id": "46cf85637aa1a83f",
+      "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia\u2019s First University AI Center to Develop Local AI Talent",
+      "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
+      "source": "NVIDIA AI Blog",
+      "summary": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM Indosat NVIDIA AI Technology Center (NVAITC) in Yogyakarta \u2014 the country\u2019s first university-based AI technology center. Established under Indonesia\u2019s AI Center of [&#8230;]",
+      "published": "2026-08-14T17:13:05+00:00",
+      "score": 42.0,
+      "headline": "INDONESIA OPENS FIRST UNIVERSITY AI CENTER... NVIDIA Partnership"
+    },
+    {
+      "id": "630886ec54c5bbdf",
+      "title": "ChatGPT's new Computer History tracks your Mac activity to create a timeline - but should you let it?",
+      "url": "https://www.zdnet.com/article/chatgpt-computer-history/",
+      "source": "ZDNet AI",
+      "summary": "Rolling out to ChatGPT's Mac app, Computer History creates a timeline from your activities across the apps and websites you use on your Mac. Is that a privacy risk?",
+      "published": "2026-08-14T16:00:16+00:00",
+      "score": 42.0,
+      "headline": "ChatGPT NOW TRACKS Your Mac Activity... Privacy Nightmare?"
+    },
+    {
       "id": "7c39f02a10694e30",
       "title": "Z.ai to Rival Anthropic, OpenAI in Coding With New AI Model",
       "url": "https://www.bloomberg.com/news/articles/2026-08-14/z-ai-aims-to-catch-anthropic-openai-in-coding-with-new-ai-model",
@@ -477,6 +537,16 @@
       "published": "2026-08-11T04:00:00+00:00",
       "score": 42.0,
       "headline": "SELF-IMPROVING AI REWRITES ITS OWN CODE... Recursively"
+    },
+    {
+      "id": "34e2659e661e3d8f",
+      "title": "The trillion-dollar IPO vibes continue",
+      "url": "https://www.ft.com/content/5d2003dc-3e04-40ac-8339-805cbd9763c8?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Anthropic investors expect the AI start-up to float at a valuation of $2tn or more in October",
+      "published": "2026-08-14T04:00:24+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC EYES $2 TRILLION IPO IN OCTOBER"
     },
     {
       "id": "51b08dc3981b0461",
@@ -609,6 +679,36 @@
       "headline": "NVIDIA BECOMES THE BANK OF AI... $500B PACKAGE"
     },
     {
+      "id": "20e51876ed5664f9",
+      "title": "I compiled Doom's renderer into a 21B-parameter transformer -- no training anywhere [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1voazhm/i_compiled_dooms_renderer_into_a_21bparameter/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "This is the project my last two posts were building towards (this is the last of this silliness). I ported the Doom rendering algorithm to run inside a transformer. Instead of training a model, I used a compiler I wrote which converts computation graphs into transformer weights, and then ported Doom's algorithm into a compatible graph. The generated checkpoints can be loaded in Hugging Face without trust_remote_code -- it's just a standard transformers checkpoint. You feed the model a prompt representing the scene data, and generate until the model stops. The result is a token sequence which includes simple pixel drawing commands (to move the cursor, draw a pixel, etc). When you mechanically apply those drawing commands you get the rendered frame. The article includes the entire host program necessary to load the checkpoint, generate the render, and parse the output into the famous E1M1 frame. This host code is 43 lines of python. The python to define the computation graph is much long",
+      "published": "2026-08-14T15:50:11+00:00",
+      "score": 40.0,
+      "headline": "DOOM Renderer Compiled Into 21B Transformer... No Training"
+    },
+    {
+      "id": "7bcaa6bb40ea0851",
+      "title": "SpaceX has closed its $60bn Cursor deal, and Cursor was buying a company the day before",
+      "url": "https://thenextweb.com/news/spacex-cursor-acquisition-completed-gpu-fleet",
+      "source": "The Next Web",
+      "summary": "SpaceX confirmed completion in a regulatory filing. Bloomberg\u2019s Carmen Arroyo and Natasha Mascarenhas reported the close. The desk covered the binding agreement in June, when SpaceX filed an 8-K and said it expected to complete in the third quarter, subject to regulatory approval. That approval has now happened, on the schedule the filing set out. [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-14T14:53:53+00:00",
+      "score": 40.0,
+      "headline": "SPACEX CLOSES $60B CURSOR DEAL"
+    },
+    {
+      "id": "41334bdd94ab980c",
+      "title": "Meta Patents AI Glasses to Use Facial Recognition to Identify People, Make Highlight Reels of Your Dinner Party",
+      "url": "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
+      "source": "404 Media",
+      "summary": "A new Meta patent published Thursday says a system, like its AI glasses, would use facial recognition to identify people, current a series of video clips, then provide you with a highlight reel of your night.",
+      "published": "2026-08-14T14:17:43+00:00",
+      "score": 40.0,
+      "headline": "META PATENTS AI GLASSES WITH FACIAL RECOGNITION"
+    },
+    {
       "id": "beb7c5b847c38f37",
       "title": "OpenAI\u2019s new Ultrafast mode runs GPT-5.6 Sol 14 times faster, on Cerebras chips",
       "url": "https://thenextweb.com/news/openais-new-ultrafast-mode-runs-gpt-5-6-sol-14-times-faster-on-cerebras-chips",
@@ -737,6 +837,56 @@
       "published": "2026-08-11T04:00:00+00:00",
       "score": 40.0,
       "headline": "RELIT: AI Thinks Deep Internally, Cuts Chain-of-Thought Costs 80%"
+    },
+    {
+      "id": "31bcfd02fd3724ef",
+      "title": "OpenAI\u2019s Explosive Growth Continues | Bloomberg Tech 8/14/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-14/bloomberg-tech-8-14-2026-video",
+      "source": "Bloomberg Technology",
+      "summary": "Bloomberg\u2019s Tim Stenovec takes a look at OpenAI, which is on track to generate annualized revenue of more than $40 billion, roughly doubling its run rate from the end of 2025. Plus, how a New York City bill backed by Mayor Zohran Mamdani could force Amazon to directly employ its delivery workers, and Meta's former chief AI scientist joins a new venture firm to invest in early AI startups. (Source: Bloomberg)",
+      "published": "2026-08-14T17:55:40+00:00",
+      "score": 39.0,
+      "headline": "OPENAI DOUBLES REVENUE TO $40B... IPO Looms"
+    },
+    {
+      "id": "29561a96df5a7ef7",
+      "title": "OpenAI on Track to Double Revenue Ahead of IPO",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-14/openai-on-track-to-double-revenue-ahead-of-ipo-video",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI is on track to generate more than $40 billion in annualized revenue, roughly double its run rate at the end of 2025, according to sources. Bloomberg\u2019s Rachel Metz explains how growth in paying ChatGPT users, enterprise adoption and coding assistant Codex are driving the surge, and why the enormous cost of computing power remains a key challenge for the AI company. She joins Tim Stenovec on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-08-14T17:48:35+00:00",
+      "score": 39.0,
+      "headline": "OPENAI REVENUE EXPLODES TO $40B... Doubling in 8 Months"
+    },
+    {
+      "id": "8793c2a1fe4eae1b",
+      "title": "Neros Technologies raises $250M to deploy its defense drones by the end of 2026",
+      "url": "https://www.therobotreport.com/neros-technologies-raises-250m-to-deploy-its-defense-drones-by-the-end-of-2026/",
+      "source": "The Robot Report",
+      "summary": "Neros is developing its Archer AI and Bandit platform with the hardware and compute required for multi-asset control. The post Neros Technologies raises $250M to deploy its defense drones by the end of 2026 appeared first on The Robot Report.",
+      "published": "2026-08-14T17:38:49+00:00",
+      "score": 39.0,
+      "headline": "Defense Drone Maker Raises $250M... AI-Powered Multi-Asset Control"
+    },
+    {
+      "id": "0e0aa648101264aa",
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "source": "TechCrunch AI",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "published": "2026-08-14T16:13:40+00:00",
+      "score": 39.0,
+      "headline": "Google Lets Users REMOVE Watermarks from AI Images"
+    },
+    {
+      "id": "4607d6a02097be61",
+      "title": "Trump\u2019s drone tariffs reach 100%, and Europe gets capped at 15%",
+      "url": "https://thenextweb.com/news/trump-drone-tariffs-section-232-europe",
+      "source": "The Next Web",
+      "summary": "Donald Trump signed the proclamation on 13 August. It carries the title Adjusting Imports of Unmanned Aircraft Systems and Unmanned Aircraft Systems Components into the United States. It rests on Section 232 of the Trade Expansion Act of 1962, the national security clause, and on Section 604 of the Trade Act of 1974. The rates, [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-14T14:17:10+00:00",
+      "score": 39.0,
+      "headline": "TRUMP HITS DRONE TARIFFS AT 100%, CAPS EUROPE AT 15%"
     },
     {
       "id": "52786fe1577a2db0",
@@ -887,137 +1037,7 @@
       "published": "2026-08-11T04:00:00+00:00",
       "score": 39.0,
       "headline": "FINGERPRINTING LLMs: Researchers Trace Model Lineage in Weight Space"
-    },
-    {
-      "id": "9598ecc5cb95a1c7",
-      "title": "Goldman Sachs is courting investors on Nvidia\u2019s $500bn AI-compute financing deal",
-      "url": "https://thenextweb.com/news/goldman-nvidia-500bn-financing-role",
-      "source": "The Next Web",
-      "summary": "Goldman Sachs has secured the role every Wall Street firm wanted, and it is now working the phones. The bank is in talks with investors about Nvidia\u2019s $500bn AI-compute financing deal, having landed a prized mandate that effectively casts it as the lead, and for now near-sole, lender behind one of the largest infrastructure-funding efforts [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-14T06:46:35+00:00",
-      "score": 38.0,
-      "headline": "Goldman Pitches Nvidia's $500B AI-Compute Mega Deal"
-    },
-    {
-      "id": "55e37cc6a936ef6c",
-      "title": "India Less Exposed to AI Job Risks Than Others, Goldman Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-14/india-less-exposed-to-ai-job-risks-than-others-goldman-says",
-      "source": "Bloomberg Technology",
-      "summary": "India\u2019s labor force is unlikely to face widespread job losses from artificial intelligence, though some positions in the services sector could be affected, Goldman Sachs Group\u2019s Chief India economist Santanu Sengupta said Friday.",
-      "published": "2026-08-14T06:17:46+00:00",
-      "score": 38.0,
-      "headline": "Goldman: India Less Exposed to AI Job Risks"
-    },
-    {
-      "id": "1b55c54a16f7de4a",
-      "title": "Unifying Generative Models with Path Integrals",
-      "url": "https://arxiv.org/abs/2608.12438",
-      "source": "arXiv cs.LG",
-      "summary": "arXiv:2608.12438v1 Announce Type: new Abstract: We formulate generative modeling as a path integral in which flow-based, diffusion-based, variational, and adversarial models arise as different evaluation principles for a single master action. Its Martin-Siggia-Rose-Janssen-de~Dominicis (MSRJD) form separates free from interacting probability flows and opens them to diagrammatic perturbation theory. The expansion yields a one-loop correction to deterministic samplers at no stochastic-sampling cost, which we validate on solvable and nonlinear drifts, where it reduces a 53 % tree-level error to 1.6 %. Imperfect learned scores enter as insertions and yield a response-weighted score-matching objective, and symmetry-equivariant drift design becomes an operator expansion with EFT power counting.",
-      "published": "2026-08-14T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "Path Integral Framework UNIFIES All Major Generative Models"
-    },
-    {
-      "id": "0bf25f4380c8f1f9",
-      "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
-      "url": "https://arxiv.org/abs/2608.12629",
-      "source": "arXiv cs.LG",
-      "summary": "arXiv:2608.12629v1 Announce Type: new Abstract: GPU kernel agents and GPU programming languages have advanced separately, leaving expert kernels difficult to reproduce. Agents usually treat the compiler as a fixed black box and receive only errors, correctness outcomes, and timing, while existing DSLs either hide critical scheduling decisions or expose them through difficult layout abstractions. We present CAKE, a compiler-agent co-design in which agents author CAKE IR, a typed, hardware-explicit schedule representation. CAKE exposes warp roles, memory movement, synchronization, and pipelines while supporting verification, cost modeling, and localized diagnostics. The harness itself evolves: recurring failures become verifier rules, IR primitives, model calibrations, and reusable optimization tactics. In matched implementation-hidden Flash-KMeans clean starts on B200, the best CAKE IR candidate at an 80-million-token budget runs at 1.144x the tuned FlashML baseline, compared with 0.928",
-      "published": "2026-08-14T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "CAKE: Compiler-Agent Co-Design Evolves GPU Kernels"
-    },
-    {
-      "id": "541136ee2f90e480",
-      "title": "Professor\u2019s alleged role in China programmes leads to ban from US funding",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3363957/professors-alleged-role-china-programmes-leads-ban-us-funding?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "A professor managed US funding of computer science research for more than two years while failing to disclose that he was simultaneously involved in Chinese government programmes, according to previously unreported documents. The professor, Tao Li, was a programme officer at the National Science Foundation from 2015 to 2017, a job that included overseeing the awarding of grants for research in areas such as hardware, software and algorithms. During that time, Li took part in two Chinese talent...",
-      "published": "2026-08-13T18:24:24+00:00",
-      "score": 38.0,
-      "headline": "US Bans Professor Over Secret China AI Program Ties"
-    },
-    {
-      "id": "a4fd1976a564452b",
-      "title": "Does Google even want to win at AI?",
-      "url": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
-      "source": "The Verge AI",
-      "summary": "Today on Decoder, I\u2019m talking with Hayden Field, The Verge\u2019s senior AI reporter, about a question that\u2019s been rocketing around the tech industry for the past week: Is Google losing the AI race? That\u2019s because last week Google announced a bombshell reorganization of its AI division, Google DeepMind. Jeff Dean, the company\u2019s chief scientist, is [&#8230;]",
-      "published": "2026-08-13T14:10:31+00:00",
-      "score": 38.0,
-      "headline": "DOES GOOGLE EVEN WANT TO WIN AT AI?"
-    },
-    {
-      "id": "2ab5eeced5e0c890",
-      "title": "Samsung used AI to cut a chip-verification loop 15\u201330\u00d7",
-      "url": "https://www.echohive.ai/ai-engineering-acceleration",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.echohive.ai/ai-engineering-acceleration Comments URL: https://news.ycombinator.com/item?id=49282459 Points: 1 # Comments: 1",
-      "published": "2026-08-13T06:37:50+00:00",
-      "score": 38.0,
-      "headline": "Samsung Slashes Chip Verification Time 30x With AI"
-    },
-    {
-      "id": "0b25844752928cf7",
-      "title": "TSMC and Sony team up, China\u2019s AI stocks swing",
-      "url": "https://www.ft.com/content/13136ebc-21d9-43c1-bc8e-789ba7973188?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times",
-      "published": "2026-08-13T06:25:01+00:00",
-      "score": 38.0,
-      "headline": "TSMC-Sony Partnership as China AI Stocks Swing"
-    },
-    {
-      "id": "646ba94eb068f612",
-      "title": "Over 70% of Americans oppose AI data centers; US protests intensify",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/over-70-percent-of-americans-oppose-ai-data-centers-us-protests-intensify-as-more-arrests-are-being-made-almost-40-arrested-this-year-in-backlash-to-ai-factory-buildout",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.tomshardware.com/tech-industry/data-centers/over-70-percent-of-americans-oppose-ai-data-centers-us-protests-intensify-as-more-arrests-are-being-made-almost-40-arrested-this-year-in-backlash-to-ai-factory-buildout Comments URL: https://news.ycombinator.com/item?id=49282302 Points: 1 # Comments: 0",
-      "published": "2026-08-13T06:12:07+00:00",
-      "score": 38.0,
-      "headline": "70% OF AMERICANS OPPOSE AI DATA CENTERS... ARRESTS CLIMB"
-    },
-    {
-      "id": "93687dcf4a875fc5",
-      "title": "Apple in Talks to Pay Publishers for News Content to Power Siri AI",
-      "url": "https://www.macrumors.com/2026/08/12/apple-siri-ai-publisher-talks/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.macrumors.com/2026/08/12/apple-siri-ai-publisher-talks/ Comments URL: https://news.ycombinator.com/item?id=49282069 Points: 3 # Comments: 2",
-      "published": "2026-08-13T05:27:51+00:00",
-      "score": 38.0,
-      "headline": "APPLE IN TALKS TO PAY PUBLISHERS FOR SIRI AI"
-    },
-    {
-      "id": "7523c7cedd4cb7e4",
-      "title": "Identity from the Outside: A Conceptual Framework and Research Program for AI Personality Clones",
-      "url": "https://arxiv.org/abs/2608.11225",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2608.11225v1 Announce Type: new Abstract: AI \"personality clones\" force a re-examination of personal identity in operational terms. Setting aside the hard problem of consciousness, we approach identity through the indiscernibility of manifestations, as assessed by an observer over a duration. We distinguish three criteria that \"identity\" conflates: fidelity to a target person, generic human-likeness, and individuality. We propose a six-term factorization of observed identity (substrate, dispositions, memory, update dynamics, context, exogenous contingencies), with a state-space formulation. Indiscernibility is defined as one minus a judge's distinguishing advantage, and the factorization's coefficients become local sensitivities estimable by randomized ablation. The central claim is a conditional conjecture: given hypotheses about the agent's information on its own persistence and about consequences bearing on its own stakes, versionability tends to degrade long-horizon indiscern",
-      "published": "2026-08-13T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "AI PERSONALITY CLONES Force Identity Rethink"
-    },
-    {
-      "id": "a56b867431da1b16",
-      "title": "AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search",
-      "url": "https://arxiv.org/abs/2608.11250",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2608.11250v1 Announce Type: new Abstract: Language models can propose many plausible trading factors, but an autonomous research system must also allocate its evaluation budget, verify its own evidence, and preserve how each candidate was produced. We present AgonAlpha, an architecture that searches over frozen research artifacts---hypotheses, executable expressions, platform evidence, rationales, and review status---rather than formulas alone. To our knowledge, AgonAlpha is the first alpha-mining system to combine verified artifact search, a fresh-context adversarial reviewer with re-execution and veto authority, and pending-aware parallel budget allocation, together with a complete public evidence trail. Independent deployments on WorldQuant BRAIN produced SPECTACULAR-grade alphas across five users and six model backends, with Fitness reaching 9.50 and Sharpe reaching 3.48, while retaining prompt-to-expression provenance for every submission.",
-      "published": "2026-08-13T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "AgonAlpha: AI Autonomously Discovers Trading Factors"
-    },
-    {
-      "id": "6f22fdc1858a424b",
-      "title": "Local verification cannot detect non-transportability: a cohomological theory of context preservation in agentic reasoning",
-      "url": "https://arxiv.org/abs/2608.11252",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2608.11252v1 Announce Type: new Abstract: Agentic AI systems routinely transport conclusions across biological, clinical and financial contexts, and the emerging safeguard is local verification: checking at each step that the entity is representable in the chosen tool, that parameters are compatible, and that outputs cohere with the plan. We prove this class of safeguard is structurally incomplete. Modelling a covering of context space by its nerve and evidence by a real-valued 1-cochain, an agent chaining evidence performs path integration: its conclusion is path-independent if and only if the cochain is exact, and disagreement between valid reasoning paths is exactly the holonomy of a first Cech cohomology class. Hodge decomposition partitions evidence conflict into a gradient part (calibration), a curl part (local inconsistency, visible at triple overlaps) and a harmonic part. Our central result is that no family of simplex-supported consistency checks can distinguish omega fr",
-      "published": "2026-08-13T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "Local Verification Cannot Detect AI Context Errors"
     }
   ],
-  "generated_at": "2026-08-14T07:17:29.088725"
+  "generated_at": "2026-08-14T18:46:40.723387"
 }
