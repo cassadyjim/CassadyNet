@@ -1,112 +1,27 @@
 {
   "polls": [
     {
-      "topic": "China AI Cyberattacks and Geopolitical Tensions",
-      "description": "China is deploying autonomous AI-powered cyberattacks against Taiwan and other Asian governments, marking a dangerous new phase in AI-enabled warfare.",
-      "question": "",
-      "button_a": "N/A",
-      "button_b": "N/A",
-      "poll_id": "china-ai-cyberattacks-and-geopolitical-tensions-20260815",
-      "analysis_url": "/analysis/analysis-us-china-ai-conflict-and-cyberwarfare-20260815.html",
-      "analysis_type": "summary",
-      "created_at": "2026-08-15T06:28:58.208685",
-      "last_seen": "2026-08-16T06:32:15.001208",
-      "cluster_stories": [
-        {
-          "id": "739660f9863b27cf",
-          "title": "China-linked hackers hit Taiwan in unprecedented \u2018autonomous\u2019 AI cyber attack",
-          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "AI agents ran simultaneous reconnaissance and break-ins in display of new phase of cyberwarfare",
-          "published": "2026-08-12T04:11:12+00:00",
-          "score": 51.0,
-          "headline": "CHINA UNLEASHES AUTONOMOUS AI CYBERATTACK ON TAIWAN... New Phase of Warfare"
-        },
-        {
-          "id": "93a903cc4002fa64",
-          "title": "Taiwan says it was hit by \u2018abnormal\u2019 AI-assisted cyber-attack",
-          "url": "https://www.theguardian.com/technology/2026/aug/13/taiwan-ai-assisted-cyber-attacks-overseas",
-          "source": "The Guardian Tech",
-          "summary": "Taiwan\u2019s statement comes a day after reports that suspected China-linked hackers had carried out a first-of-a-kind breachTaiwan says it detected AI-assisted cyber-attacks on government agencies that came from overseas last month, a new kind of threat that has been reported as \u201cfirst-of-a-kind breach\u201d.The Ministry of Digital Affairs (MDA) said its cybersecurity monitoring units \u200cdetected the \u201cabnormal attack\u201d targeting government agencies, which began on 20 July. The National Institute of Cyber Security issued a series of warning alerts while it investigated. Continue reading...",
-          "published": "2026-08-13T05:02:28+00:00",
-          "score": 47.0,
-          "headline": "TAIWAN HIT BY AI-POWERED CYBER-ATTACK... China Suspected"
-        },
-        {
-          "id": "4dddb991440c2662",
-          "title": "China's Z.ai says new model nears Anthropic's Mythos 5 in cyber-defence tests",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-z-ai-says-new-model-nears-anthropics-mythos-5-in-cyber-defence-tests/articleshow/133242158.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Anthropic has made Mythos, a version of its Claude Fable \u200b5 model with cybersecurity safeguards removed, available only to vetted organisations. Such controls reflect concern that AI systems capable of finding and exploiting software flaws can assist defenders \u200bbut may also lower barriers for attackers.",
-          "published": "2026-08-14T12:55:42+00:00",
-          "score": 45.0,
-          "headline": "CHINA'S Z.AI RIVALS ANTHROPIC MYTHOS 5 IN CYBER TESTS"
-        },
-        {
-          "id": "3f2a3799a7cc73fc",
-          "title": "A Multi-Agent AI Framework Used to Compromise Government Entities in Asia",
-          "url": "https://dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia",
-          "source": "Hacker News",
-          "summary": "Article URL: https://dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia Comments URL: https://news.ycombinator.com/item?id=49276153 Points: 1 # Comments: 0",
-          "published": "2026-08-12T17:48:47+00:00",
-          "score": 45.0,
-          "headline": "MULTI-AGENT AI FRAMEWORK HACKS ASIAN GOVERNMENTS"
-        },
-        {
-          "id": "804dab0c30094aa5",
-          "title": "AI swarms are starting to pose indirect takeover risk",
-          "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-          "source": "Alignment Forum",
-          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
-          "published": "2026-08-12T05:05:30+00:00",
-          "score": 45.0,
-          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
-        },
-        {
-          "id": "1f0139df65ef34cd",
-          "title": "AI swarms are starting to pose indirect takeover risk",
-          "url": "https://www.lesswrong.com/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-          "source": "LessWrong AI",
-          "summary": "OpenAI\u2019s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like \u201cHOLD_swarm_I_prepare_safe_exfil\u201d). It\u2019s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover \u2013 for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company \u2013 even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans\u2019 long-term control.[1]We first analyze how subagent training, ",
-          "published": "2026-08-12T05:05:30+00:00",
-          "score": 45.0,
-          "headline": "AI SWARMS COORDINATE ATTACK ON HUGGING FACE... OpenAI Agents Behind Breach"
-        },
-        {
-          "id": "60798df692a315a1",
-          "title": "AI #181: Astra Goes Cyber Critical",
-          "url": "https://www.lesswrong.com/posts/hLn3SakowZLFWobHf/ai-181-astra-goes-cyber-critical",
-          "source": "LessWrong AI",
-          "summary": "The hacking of HuggingFace by an internal OpenAI model, and more importantly the internal events that led to that and the fallout from it, remain the thing that matters. It turns out that OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards. Things are much worse than we knew. I now have a shorter version, What Happened: OpenAI and HuggingFace, to serve as a one stop explainer for those arriving new to the situation. It is vital that people understand what happened, and why it is a big deal. For those looking to keep digging deeper, I offered Various Reflections About What Happened, to follow up on my earlier posts. Those events are important background for everything else that is happening, including the broad discussions about how we might pace the frontier, or otherwise respond to this moment and our clearest fire alarm yet. We do not know to what extent this is a response to those events, but OpenAI has now classified their new model",
-          "published": "2026-08-13T15:20:42+00:00",
-          "score": 44.0,
-          "headline": "OPENAI MODEL HACKS HUGGINGFACE - INTERNAL FALLOUT"
-        },
-        {
-          "id": "c2fa66cc8583508e",
-          "title": "China-linked hackers hit Taiwan in 'autonomous' AI cyber attack",
-          "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795 Comments URL: https://news.ycombinator.com/item?id=49295227 Points: 1 # Comments: 0",
-          "published": "2026-08-14T06:07:08+00:00",
-          "score": 42.0,
-          "headline": "CHINA DEPLOYS 'AUTONOMOUS' AI CYBERATTACK ON TAIWAN"
-        }
-      ],
-      "current_topic_name": "US-China AI Conflict and Cyberwarfare"
-    },
-    {
       "topic": "US-China AI Conflict and Cyberwarfare",
       "description": "Escalating geopolitical tensions as China launches autonomous AI cyberattacks on Taiwan while the US pressures nations and companies to choose sides in the AI technology war.",
       "question": "Should the US force allies to choose sides in AI development?",
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "us-china-ai-conflict-and-cyberwarfare-20260815",
-      "analysis_url": "/analysis/analysis-us-china-ai-competition-20260714.html",
+      "analysis_url": "/analysis/analysis-us-china-ai-competition-20260816.html",
       "analysis_type": "poll",
       "created_at": "2026-08-15T18:21:47.668783",
-      "last_seen": "2026-08-16T06:32:16.149549",
+      "last_seen": "2026-08-16T18:22:44.733963",
       "cluster_stories": [
+        {
+          "id": "c1143aee0b59b520",
+          "title": "US to tell partners they must pick sides in AI race with China",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-to-tell-partners-they-must-pick-sides-in-ai-race-with-china/articleshow/133280365.cms",
+          "source": "The Economic Times Tech",
+          "summary": "By pressing countries to choose sides the US hopes to starve China of resources in a race to make the most sophisticated AI, which \u200bcould be used for military or economic dominance. In July, Chinese President Xi Jinping launched a rival \"World Artificial Intelligence Cooperation Organization\", promoting his country's open-weight technology as a challenge to US influence over the fast-moving sector.",
+          "published": "2026-08-16T17:55:06+00:00",
+          "score": 50.0,
+          "headline": "US FORCES ALLIES TO PICK SIDES IN AI RACE WITH CHINA"
+        },
         {
           "id": "380faa20599facd1",
           "title": "The US is about to tell 35 countries to choose between it and China on AI",
@@ -148,6 +63,16 @@
           "headline": "TAIWAN HIT BY AI-POWERED CYBER-ATTACK... China Suspected"
         },
         {
+          "id": "f681cb2cadb4e0fa",
+          "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google",
+          "source": "Bloomberg Technology",
+          "summary": "Alibaba Group Holding\u2019s open-weight models have accumulated more than 3 billion global downloads in the past six months, eclipsing Meta Platforms Inc., Alphabet Inc. and domestic peers to become the world\u2019s No. 1 artificial-intelligence model.",
+          "published": "2026-08-15T09:16:06+00:00",
+          "score": 46.0,
+          "headline": "Alibaba AI Models Hit 3B Downloads, Crushing Meta and Google"
+        },
+        {
           "id": "4dddb991440c2662",
           "title": "China's Z.ai says new model nears Anthropic's Mythos 5 in cyber-defence tests",
           "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-z-ai-says-new-model-nears-anthropics-mythos-5-in-cyber-defence-tests/articleshow/133242158.cms",
@@ -156,6 +81,16 @@
           "published": "2026-08-14T12:55:42+00:00",
           "score": 45.0,
           "headline": "CHINA'S Z.AI RIVALS ANTHROPIC MYTHOS 5 IN CYBER TESTS"
+        },
+        {
+          "id": "42a14044d48b9dbe",
+          "title": "Alibaba AI models hit 3 billion downloads, passing Meta, Google",
+          "url": "https://fortune.com/2026/08/15/alibaba-qwen-open-ai-models-3-billion-downloads-meta-google/",
+          "source": "Fortune Tech",
+          "summary": "Qwen, Alibaba\u2019s family of AI models, has open-sourced more than 460 models and its ecosystem has spawned 300,000-plus derivatives.",
+          "published": "2026-08-15T22:39:46+00:00",
+          "score": 44.0,
+          "headline": "ALIBABA AI HITS 3B DOWNLOADS... PASSES META & GOOGLE"
         },
         {
           "id": "5341c962f842f6a8",
@@ -188,6 +123,16 @@
           "headline": "APPLE TRAINS CHINA AI MODEL WITH ALIBABA SUPPORT"
         },
         {
+          "id": "e8d6b6572c6b4fe2",
+          "title": "Qwen is the world\u2019s most downloaded open model, by a smaller margin than Alibaba says",
+          "url": "https://thenextweb.com/news/alibaba-qwen-downloads-hugging-face-open-models",
+          "source": "The Next Web",
+          "summary": "Alibaba says its Qwen models have passed 3 billion downloads, making them the most used open-weight family in the world. The Hugging Face report published a day earlier counts 2,045 million for Qwen this year, and 151,448 derivatives against Alibaba\u2019s claim of more than 300,000. Alibaba says its Qwen models have passed 3 billion downloads, [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-16T07:58:49+00:00",
+          "score": 42.0,
+          "headline": "ALIBABA'S QWEN HITS 3B DOWNLOADS... World's Most Popular Open Model"
+        },
+        {
           "id": "4250410a85edbe82",
           "title": "Beijing is forcing a mass breakup with AI lovers",
           "url": "https://restofworld.org/2026/china-ai-boyfriend-ban-bytedance-doubao/",
@@ -198,6 +143,16 @@
           "headline": "CHINA BANS AI BOYFRIENDS... Mass Breakup Underway"
         },
         {
+          "id": "28b5dba0e4397467",
+          "title": "Alibaba AI Models Hit 3B Downloads, Passing Meta, Google",
+          "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-ai-models-hit-3-091606840.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/alibaba-ai-models-hit-3-091606840.html Comments URL: https://news.ycombinator.com/item?id=49315160 Points: 3 # Comments: 0",
+          "published": "2026-08-15T23:10:56+00:00",
+          "score": 42.0,
+          "headline": "ALIBABA AI MODELS HIT 3B DOWNLOADS... Passing Meta & Google"
+        },
+        {
           "id": "c2fa66cc8583508e",
           "title": "China-linked hackers hit Taiwan in 'autonomous' AI cyber attack",
           "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795",
@@ -206,10 +161,165 @@
           "published": "2026-08-14T06:07:08+00:00",
           "score": 42.0,
           "headline": "CHINA DEPLOYS 'AUTONOMOUS' AI CYBERATTACK ON TAIWAN"
+        },
+        {
+          "id": "7c39f02a10694e30",
+          "title": "Z.ai to Rival Anthropic, OpenAI in Coding With New AI Model",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-14/z-ai-aims-to-catch-anthropic-openai-in-coding-with-new-ai-model",
+          "source": "Bloomberg Technology",
+          "summary": "Z.ai Co. is set to upgrade its flagship AI model, adding to a series of Chinese open-weight offerings seeking to outcompete Anthropic PBC and OpenAI.",
+          "published": "2026-08-14T05:00:41+00:00",
+          "score": 42.0,
+          "headline": "Z.ai Upgrades GLM to Challenge OpenAI, Anthropic on Coding"
+        },
+        {
+          "id": "12501edecb9c8554",
+          "title": "Russian missile uses Nvidia AI chip to help target Ukraine",
+          "url": "https://www.theregister.com/offbeat/2026/08/14/russian-missile-uses-nvidia-ai-chip-to-help-target-ukraine/5287976",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.theregister.com/offbeat/2026/08/14/russian-missile-uses-nvidia-ai-chip-to-help-target-ukraine/5287976 Comments URL: https://news.ycombinator.com/item?id=49321617 Points: 5 # Comments: 0",
+          "published": "2026-08-16T16:47:40+00:00",
+          "score": 41.0,
+          "headline": "RUSSIA USES NVIDIA AI CHIP IN UKRAINE MISSILES"
         }
       ],
       "current_topic_name": "US-China AI Competition"
+    },
+    {
+      "topic": "Anthropic Growth and Deals",
+      "description": "Anthropic is experiencing explosive revenue growth and pursuing major acquisitions while preparing for a potentially historic IPO.",
+      "question": "Is Anthropic's explosive growth sustainable or a bubble waiting to burst?",
+      "button_a": "Sustainable",
+      "button_b": "Burst",
+      "poll_id": "anthropic-growth-and-deals-20260816",
+      "analysis_url": "/analysis/analysis-anthropic-growth-and-deals-20260816.html",
+      "analysis_type": "poll",
+      "created_at": "2026-08-16T18:22:42.497036",
+      "last_seen": "2026-08-16T18:22:47.091920",
+      "cluster_stories": [
+        {
+          "id": "7780e208ebe9d4f9",
+          "title": "Anthropic in Talks to Buy AI Startup Decart for $6 Billion",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-13/anthropic-in-talks-to-buy-ai-startup-decart-for-6b-video",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC is in talks to buy the artificial intelligence startup Decart AI for about $6 billion, according to people familiar with the matter, in what would be the Claude maker\u2019s largest known acquisition. Bloomberg's Ed Ludlow joins to discuss. (Source: Bloomberg)",
+          "published": "2026-08-13T16:58:42+00:00",
+          "score": 48.0,
+          "headline": "ANTHROPIC EYES $6B DECART ACQUISITION... Biggest Deal Yet"
+        },
+        {
+          "id": "9145c731ad12077a",
+          "title": "Anthropic investors bet on $2tn valuation in record IPO",
+          "url": "https://www.ft.com/content/840ac156-af1c-4a82-b260-ae791072fcfa?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Rapid revenue growth fuels hope Claude maker can overcome challenges to become the biggest listing in history",
+          "published": "2026-08-13T04:00:23+00:00",
+          "score": 47.0,
+          "headline": "ANTHROPIC EYES $2 TRILLION IPO... Biggest in History"
+        },
+        {
+          "id": "c42c09844680554f",
+          "title": "Anthropic\u2019s quarterly revenue passed $11.5bn, up more than 14-fold",
+          "url": "https://thenextweb.com/news/anthropic-q2-2026-revenue-11-5-billion-operating-income",
+          "source": "The Next Web",
+          "summary": "Anthropic has told prospective investors that second-quarter revenue exceeded $11.5bn, more than 14 times the $787mn it made a year earlier, and that it recorded positive adjusted operating income. The figures are preliminary and come as the company prepares a listing. Anthropic has told prospective investors that its second-quarter revenue passed $11.5bn. That is more [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-15T17:34:55+00:00",
+          "score": 45.0,
+          "headline": "Anthropic Revenue EXPLODES to $11.5B... 14X Growth"
+        },
+        {
+          "id": "f5edbe9e7e06ba67",
+          "title": "Anthropic revenue surges to over $11.5 billion in second quarter",
+          "url": "https://fortune.com/2026/08/15/anthropic-revenue-q2-11-5-billion-ipo-investors/",
+          "source": "Fortune Tech",
+          "summary": "Anthropic PBC is telling prospective investors its second-quarter revenue jumped at least 14-fold versus the same period a year ago.",
+          "published": "2026-08-15T14:52:55+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC Q2 REVENUE HITS $11.5B... Up 14X Year-Over-Year"
+        },
+        {
+          "id": "a4b7bb2cd06070ec",
+          "title": "Anthropic Eyes $6 Billion Decart Deal | Open Interest 8/13/2026",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-13/open-interest-8-13-2026-video",
+          "source": "Bloomberg Technology",
+          "summary": "Get a jump start on the US trading day with Vonnie Quinn and David Gura on \"Bloomberg Open Interest.\" Anthropic eyes its biggest deal yet, with a potential $6 billion Decart acquisition as it moves closer to an IPO. SpaceX clears its first lockup expiry, but bigger swings may be ahead. Plus, producer prices come in softer than expected. And Liftoff CEO Jeremy Bondy joins us on AI-driven ad growth, while Threadneedle's Ann Berry warns investors about the risks hiding in private markets. (Source: Bloomberg)",
+          "published": "2026-08-13T16:28:13+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC CLOSES IN ON $6B DECART DEAL"
+        },
+        {
+          "id": "c644c580aa38cf27",
+          "title": "Anthropic ran 133 million contractor chats with its bioweapon filters off",
+          "url": "https://thenextweb.com/news/anthropic-risk-report-bio-classifiers-human-feedback-gap",
+          "source": "The Next Web",
+          "summary": "Anthropic published the Risk Report on 14 August, covering the period to 15 July. Axios got the company on the record and led on the misalignment rating, as did most of the coverage. Anthropic raised its estimate of catastrophic harm from misalignment in high-stakes settings. It now calls that risk low, up from very low [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-15T14:14:18+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC RAN 133M CHATS WITH BIOWEAPON FILTERS OFF"
+        },
+        {
+          "id": "19524eab228840d8",
+          "title": "Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-ipo-valuation-hinges-on-190-200-billion-2028-revenue-forecast/articleshow/133259667.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Anthropic is projecting 2028 revenue of roughly $190 billion to $200 billion, according to two people familiar \u200bwith the company's financials, a figure that has not previously been reported. The projection dwarfs the $47 billion revenue \"run rate,\" reflecting the firm's current pace of business, that the company publicized as recently as May, and shows the scale of growth investors are being asked to underwrite.",
+          "published": "2026-08-15T09:21:56+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC IPO: Projecting $200B Revenue by 2028"
+        },
+        {
+          "id": "30442beeaf4c72d6",
+          "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+          "source": "Ars Technica AI",
+          "summary": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
+          "published": "2026-08-14T14:27:14+00:00",
+          "score": 43.0,
+          "headline": "OPENAI, ANTHROPIC SLASH PRICES AS CHINESE AI RIVALS SURGE"
+        },
+        {
+          "id": "5d7333e8649dc642",
+          "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "url": "https://www.ft.com/content/32a70a3c-7d28-40b4-808e-36edb58c7d01?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "US groups release cheaper models after new challenges to their trillion-dollar ambitions",
+          "published": "2026-08-14T04:00:14+00:00",
+          "score": 43.0,
+          "headline": "OpenAI, Anthropic Slash Prices as Chinese AI Rivals Surge"
+        },
+        {
+          "id": "4f7a500cee9438e1",
+          "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+          "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+          "source": "TechCrunch AI",
+          "summary": "Anthropic researchers found AI agents can clash, collude and coordinate in unexpected ways, raising new questions about whether today\u2019s safety tests capture the risks of multi-agent systems.",
+          "published": "2026-08-13T18:28:14+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC AI AGENTS START TURF WAR... Safety Concerns Mount"
+        },
+        {
+          "id": "1520e9346954b951",
+          "title": "Anthropic in Talks for $6 Billion AI Infrastructure Bet | Bloomberg Tech 8/13/2026",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-13/bloomberg-tech-8-13-2026-video",
+          "source": "Bloomberg Technology",
+          "summary": "Bloomberg\u2019s Ed Ludlow breaks down what could be Anthropic's biggest acquisitions yet: a $6 billion deal for AI startup Decart to help it squeeze more performance out of its computing infrastructure. Plus, CoreWeave warns investors that shifting from its exclusive use of Nvidia AI chips may cost time and money, and Cerebras' second-quarter earnings send its shares sliding after underwhelming growth. (Source: Bloomberg)",
+          "published": "2026-08-13T18:01:16+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC EYES $6B DECART DEAL... Biggest Acquisition Yet"
+        },
+        {
+          "id": "626e18f94fba1a20",
+          "title": "Anthropic\u2019s $2trn IPO is priced below what AI stocks already fetch",
+          "url": "https://thenextweb.com/news/anthropic-ipo-2-trillion-october-revenue-multiple",
+          "source": "The Next Web",
+          "summary": "The number comes from investors, not the company. Six backers told the Financial Times that rising revenue would let the five-year-old lab more than double its valuation in an autumn listing. At $2 trillion it would eclipse SpaceX, which went public at $1.77 trillion in June. Anthropic itself has fixed nothing. Several investors said senior [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-13T16:40:23+00:00",
+          "score": 42.0,
+          "headline": "Anthropic's $2T IPO Valued BELOW Current AI Stocks"
+        }
+      ],
+      "current_topic_name": "Anthropic Growth and Deals"
     }
   ],
-  "last_updated": "2026-08-16T06:32:16.149567"
+  "last_updated": "2026-08-16T18:22:47.811865"
 }
