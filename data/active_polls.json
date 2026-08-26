@@ -7,10 +7,10 @@
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "nvidia-china-chip-smuggling-20260825",
-      "analysis_url": "/analysis/analysis-nvidia-china-chip-smuggling-20260825.html",
+      "analysis_url": "/analysis/analysis-nvidia-chip-smuggling-to-china-20260825.html",
       "analysis_type": "poll",
       "created_at": "2026-08-25T06:38:07.911293",
-      "last_seen": "2026-08-25T18:33:06.303076",
+      "last_seen": "2026-08-26T06:39:36.750116",
       "cluster_stories": [
         {
           "id": "67015a1f3a80cf44",
@@ -43,7 +43,62 @@
           "headline": "NVIDIA MANAGER INDICTED: Taiwan Cracks AI Chip Smuggling Ring to China"
         }
       ],
-      "current_topic_name": "Nvidia China Chip Smuggling"
+      "current_topic_name": "Nvidia Chip Smuggling to China"
+    },
+    {
+      "topic": "OpenAI Jalapeno Chip vs Nvidia",
+      "description": "OpenAI's new Jalapeno chip outperforming Nvidia's hardware in benchmark tests represents a major shift in AI chip competition and could disrupt Nvidia's market dominance.",
+      "question": "Will OpenAI's Jalapeno chip seriously threaten Nvidia's AI dominance?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-jalapeno-chip-vs-nvidia-20260826",
+      "analysis_url": "/analysis/analysis-openai-jalapeno-chip-vs-nvidia-20260826.html",
+      "analysis_type": "poll",
+      "created_at": "2026-08-26T06:39:35.160902",
+      "last_seen": "2026-08-26T06:39:38.941659",
+      "cluster_stories": [
+        {
+          "id": "763dfadbc80083da",
+          "title": "OpenAI Says New Jalapeno Chips Outperformed Nvidia in Testing",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-25/openai-says-jalapeno-chips-outperformed-nvidia-in-tests-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI says the new Jalapeno chips performed better than Nvidia Corp.\u2019s current lineup during testing, leading in two categories: the amount of AI work it could handle per unit of power and its speed at returning responses. OpenAI chip chief Richard Ho goes over the results with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "published": "2026-08-25T17:14:10+00:00",
+          "score": 45.0,
+          "headline": "OPENAI'S JALAPENO CHIPS BEAT NVIDIA IN TESTING"
+        },
+        {
+          "id": "e000b41dce224038",
+          "title": "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests",
+          "source": "Bloomberg Technology",
+          "summary": "Jalapeno chip will let OpenAI customers choose models that offer lower cost or faster answers",
+          "published": "2026-08-25T14:00:01+00:00",
+          "score": 44.0,
+          "headline": "OPENAI CHIPS OUTPERFORM NVIDIA IN TESTS"
+        },
+        {
+          "id": "d7052468c3b9ffd1",
+          "title": "OpenAI\u2019s Jalapeno chip outperformed the GB300 on power and speed, according to OpenAI",
+          "url": "https://thenextweb.com/news/openai-jalapeno-benchmark-nvidia-gb300-europe-gigafactories",
+          "source": "The Next Web",
+          "summary": "OpenAI says its Jalapeno inference chip, developed with Broadcom, outperformed Nvidia\u2019s GB300 on AI work per unit of power and on response speed. It was not tested against Nvidia\u2019s newer Vera Rubin hardware and is not designed for training. OpenAI has published numbers for the chip it built to need Nvidia less. It says Jalapeno, [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-25T15:11:19+00:00",
+          "score": 43.0,
+          "headline": "OPENAI'S JALAPENO CHIP CRUSHES NVIDIA GB300"
+        },
+        {
+          "id": "6017c27dc638b35a",
+          "title": "OpenAI\u2019s Jalape\u00f1o chip is built for fast inference at scale, benchmarks show",
+          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+          "source": "TechCrunch AI",
+          "summary": "Tested on SemiAnalysis\u2019 InferenceX benchmark, Jalape\u00f1o registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+          "published": "2026-08-25T14:22:04+00:00",
+          "score": 43.0,
+          "headline": "OPENAI JALAPENO BENCHMARKS: NVIDIA DETHRONED"
+        }
+      ],
+      "current_topic_name": "OpenAI Jalapeno Chip vs Nvidia"
     },
     {
       "topic": "Nvidia Chip Smuggling to China",
@@ -53,8 +108,9 @@
       "analysis_url": "/analysis/analysis-nvidia-chip-smuggling-to-china-20260511.html",
       "analysis_type": "poll",
       "created_at": "2026-08-25T18:33:08.373318",
-      "last_seen": "2026-08-25T18:33:08.373326"
+      "last_seen": "2026-08-25T18:33:08.373326",
+      "pending_archive": true
     }
   ],
-  "last_updated": "2026-08-25T18:33:09.675779"
+  "last_updated": "2026-08-26T06:39:38.941730"
 }

@@ -1,44 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "Nvidia China Chip Smuggling",
-      "description": "Multiple indictments reveal illegal export of advanced AI chips to China, highlighting escalating technology export control enforcement.",
-      "stories": [
-        {
-          "id": "67015a1f3a80cf44",
-          "title": "Nvidia employee charged with smuggling advanced chips into China",
-          "url": "https://www.ft.com/content/af815e45-b132-4db4-96bc-428f8e0b76f3?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Prosecutors identify Taiwan-based manager as \u2018central figure\u2019 in scheme involving US semiconductor maker\u2019s AI servers",
-          "published": "2026-08-25T05:31:11+00:00",
-          "score": 49.0,
-          "headline": "NVIDIA EMPLOYEE CHARGED Smuggling AI Chips to China"
-        },
-        {
-          "id": "714ec800ebd4624f",
-          "title": "Taiwan indicts Nvidia manager over chips shipped to China",
-          "url": "https://thenextweb.com/news/taiwan-indicts-nvidia-manager-chip-smuggling-eu-gap",
-          "source": "The Next Web",
-          "summary": "Taiwanese prosecutors have indicted a senior Nvidia manager and eight others over an alleged scheme that shipped 74 servers containing B300 chips to China via Japan and Indonesia. They are seeking five years for forgery and breach of trust. The first known criminal case against an Nvidia employee over AI chip smuggling has reached indictment. [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-24T15:10:12+00:00",
-          "score": 47.0,
-          "headline": "TAIWAN INDICTS NVIDIA MANAGER Over B300 Chip Smuggling to China"
-        },
-        {
-          "id": "083960e552638db6",
-          "title": "Taiwan Indicts Nvidia Manager Following Chip Smuggling Probe",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-24/taiwan-indicts-nvidia-manager-following-chip-smuggling-probe",
-          "source": "Bloomberg Technology",
-          "summary": "Taiwanese prosecutors indicted a senior Nvidia Corp. manager as part of a group that allegedly smuggled advanced AI chips into China, according to people familiar with the matter, advancing the island democracy\u2019s first known crackdown on the black-market trade of such accelerators.",
-          "published": "2026-08-24T14:12:24+00:00",
-          "score": 47.0,
-          "headline": "NVIDIA MANAGER INDICTED: Taiwan Cracks AI Chip Smuggling Ring to China"
-        }
-      ],
-      "top_score": 49.0,
-      "story_count": 3
-    },
-    {
       "topic": "Nvidia Chip Smuggling to China",
       "description": "Multiple incidents reveal organized efforts to illegally export advanced AI chips to China despite export controls, including employee arrests and indictments.",
       "stories": [
@@ -75,6 +37,54 @@
       ],
       "top_score": 49.0,
       "story_count": 3
+    },
+    {
+      "topic": "OpenAI Jalapeno Chip vs Nvidia",
+      "description": "OpenAI's new Jalapeno chip outperforming Nvidia's hardware in benchmark tests represents a major shift in AI chip competition and could disrupt Nvidia's market dominance.",
+      "stories": [
+        {
+          "id": "763dfadbc80083da",
+          "title": "OpenAI Says New Jalapeno Chips Outperformed Nvidia in Testing",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-25/openai-says-jalapeno-chips-outperformed-nvidia-in-tests-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI says the new Jalapeno chips performed better than Nvidia Corp.\u2019s current lineup during testing, leading in two categories: the amount of AI work it could handle per unit of power and its speed at returning responses. OpenAI chip chief Richard Ho goes over the results with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "published": "2026-08-25T17:14:10+00:00",
+          "score": 45.0,
+          "headline": "OPENAI'S JALAPENO CHIPS BEAT NVIDIA IN TESTING"
+        },
+        {
+          "id": "e000b41dce224038",
+          "title": "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests",
+          "source": "Bloomberg Technology",
+          "summary": "Jalapeno chip will let OpenAI customers choose models that offer lower cost or faster answers",
+          "published": "2026-08-25T14:00:01+00:00",
+          "score": 44.0,
+          "headline": "OPENAI CHIPS OUTPERFORM NVIDIA IN TESTS"
+        },
+        {
+          "id": "d7052468c3b9ffd1",
+          "title": "OpenAI\u2019s Jalapeno chip outperformed the GB300 on power and speed, according to OpenAI",
+          "url": "https://thenextweb.com/news/openai-jalapeno-benchmark-nvidia-gb300-europe-gigafactories",
+          "source": "The Next Web",
+          "summary": "OpenAI says its Jalapeno inference chip, developed with Broadcom, outperformed Nvidia\u2019s GB300 on AI work per unit of power and on response speed. It was not tested against Nvidia\u2019s newer Vera Rubin hardware and is not designed for training. OpenAI has published numbers for the chip it built to need Nvidia less. It says Jalapeno, [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-25T15:11:19+00:00",
+          "score": 43.0,
+          "headline": "OPENAI'S JALAPENO CHIP CRUSHES NVIDIA GB300"
+        },
+        {
+          "id": "6017c27dc638b35a",
+          "title": "OpenAI\u2019s Jalape\u00f1o chip is built for fast inference at scale, benchmarks show",
+          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+          "source": "TechCrunch AI",
+          "summary": "Tested on SemiAnalysis\u2019 InferenceX benchmark, Jalape\u00f1o registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+          "published": "2026-08-25T14:22:04+00:00",
+          "score": 43.0,
+          "headline": "OPENAI JALAPENO BENCHMARKS: NVIDIA DETHRONED"
+        }
+      ],
+      "top_score": 45.0,
+      "story_count": 4
     }
   ],
   "unclustered": [
@@ -97,16 +107,6 @@
       "published": "2026-08-23T06:13:28+00:00",
       "score": 48.0,
       "headline": "ALIBABA RAISES $10B FOR AI EXPANSION"
-    },
-    {
-      "id": "5c1f5972eaa2d93e",
-      "title": "Scenes From the 2026 Beijing World Humanoid Robot Games",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-22/scenes-from-the-2026-beijing-world-humanoid-robot-games-video",
-      "source": "Bloomberg Technology",
-      "summary": "The 2026 World Humanoid Robot Games have begun. 666 teams from around the world are competing with more than 2,000 humanoid robots. (Source: Bloomberg)",
-      "published": "2026-08-22T19:12:16+00:00",
-      "score": 48.0,
-      "headline": "BEIJING ROBOT OLYMPICS: 2,000 BOTS COMPETE"
     },
     {
       "id": "451ed865b2e580dd",
@@ -137,26 +137,6 @@
       "published": "2026-08-23T05:43:06+00:00",
       "score": 46.0,
       "headline": "CHINA BUILDING AI MODELS OF AMERICAN VOTERS"
-    },
-    {
-      "id": "c7ae4a7cc2573163",
-      "title": "At Olympics-like event, Chinese robots smash athletic records set by humans \u2014 including Usain Bolt\u2019s 100-meter sprint time",
-      "url": "https://fortune.com/2026/08/22/chinese-robots-beijing-games-athletic-records-humans-usain-bolt/",
-      "source": "Fortune Tech",
-      "summary": "At a 100-meter sprint, a humanoid robot achieved a result of 9.39 seconds, beating the human record of 9.58 seconds set by the Jamaican athlete in 2009.",
-      "published": "2026-08-22T23:25:19+00:00",
-      "score": 46.0,
-      "headline": "CHINESE ROBOT BREAKS USAIN BOLT'S 100M RECORD"
-    },
-    {
-      "id": "39119bad22dbbf0e",
-      "title": "OpenAI says California should strengthen its AI safety bill",
-      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-      "source": "TechCrunch AI",
-      "summary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
-      "published": "2026-08-22T16:30:34+00:00",
-      "score": 46.0,
-      "headline": "OPENAI FLIP: Now Wants California to STRENGTHEN AI Safety Bill"
     },
     {
       "id": "21dfb78bb8bff675",
@@ -269,36 +249,6 @@
       "headline": "Harvey Launches Tenet: First In-House Legal AI Model"
     },
     {
-      "id": "a25e03574ef2bd6e",
-      "title": "Nvidia Customers Notified About AI-Related Price Hikes Above 15%",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15",
-      "source": "Bloomberg Technology",
-      "summary": "Some of Nvidia Corp.\u2019s biggest customers have been told that the prices of servers containing its artificial intelligence chips are going up more than 15% in many cases with memory chip costs soaring.",
-      "published": "2026-08-22T18:42:34+00:00",
-      "score": 44.0,
-      "headline": "NVIDIA HIKES AI SERVER PRICES 15%+ as Memory Costs Soar"
-    },
-    {
-      "id": "796f7a9c48e9a9c8",
-      "title": "Frontier AI labs still won\u2019t say how they\u2019d contain a rogue model",
-      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
-      "source": "TechCrunch AI",
-      "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
-      "published": "2026-08-22T16:00:00+00:00",
-      "score": 44.0,
-      "headline": "FRONTIER AI LABS WON'T SAY HOW THEY'D CONTAIN ROGUE MODEL"
-    },
-    {
-      "id": "1343e6f439ce6105",
-      "title": "Anthropic could raise $100bn, ten times Europe\u2019s largest listing in decades",
-      "url": "https://thenextweb.com/news/anthropic-ipo-100-billion-two-trillion-valuation",
-      "source": "The Next Web",
-      "summary": "Anthropic could raise around $100bn in a listing as early as October, exceeding SpaceX\u2019s record, with backers modelling a valuation of at least $2tn. The Financial Times reports that senior executives have not set a valuation target even privately. Anthropic\u2019s listing now has a figure attached to it. Reports put the raise at around $100bn, [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-22T10:10:57+00:00",
-      "score": 44.0,
-      "headline": "ANTHROPIC EYES $100BN RAISE... $2TN Valuation Target"
-    },
-    {
       "id": "7b36d8a3efdab1f0",
       "title": "AI firms debate connecting test sandboxes to the internet after breaches",
       "url": "https://thenextweb.com/news/ai-cyber-testing-sandbox-internet-debate-ai-act-reporting",
@@ -377,26 +327,6 @@
       "published": "2026-08-23T05:55:21+00:00",
       "score": 43.0,
       "headline": "MYSTERY AI MODEL 'OX ALPHA' APPEARS... CREATOR UNKNOWN"
-    },
-    {
-      "id": "e98d4e96d62a4cb7",
-      "title": "Robot horse and rider steal the spotlight at Chinese conference",
-      "url": "https://www.bbc.co.uk/news/videos/cy4k4d3lj21o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "More than 300 companies are showcasing the latest advances in robotics at the five-day event in Beijing, China, organisers say.",
-      "published": "2026-08-22T12:47:28+00:00",
-      "score": 43.0,
-      "headline": "ROBOT HORSE AND RIDER Steal Show at Beijing Robotics Conference"
-    },
-    {
-      "id": "4186bc7916d6dd50",
-      "title": "Anthropic Could Aim to Raise $100B in Blockbuster IPO",
-      "url": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html Comments URL: https://news.ycombinator.com/item?id=49395949 Points: 2 # Comments: 0",
-      "published": "2026-08-22T02:13:20+00:00",
-      "score": 43.0,
-      "headline": "ANTHROPIC EYES $100B IPO... OPENAI RIVAL GOES PUBLIC"
     },
     {
       "id": "64f8f9cc03e06718",
@@ -489,44 +419,14 @@
       "headline": "NVIDIA HIKES AI CHIP PRICES 15%+ FOR 2027 DELIVERY"
     },
     {
-      "id": "1746d332d089623b",
-      "title": "A free AI model is winning over developers. And nobody knows whose servers it runs on",
-      "url": "https://thenextweb.com/news/ox-alpha-stealth-model-openrouter-anonymous-provider",
-      "source": "The Next Web",
-      "summary": "An anonymous model called Ox Alpha appeared on OpenRouter last week, free to use with a million-token context window, and developers have been impressed. OpenRouter\u2019s own listing says prompts and completions are retained by the unidentified provider. A model that nobody will take credit for is being tested across the industry. Ox Alpha appeared on [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-22T21:51:54+00:00",
-      "score": 42.0,
-      "headline": "MYSTERY AI MODEL 'OX ALPHA' STUNS DEVELOPERS"
-    },
-    {
-      "id": "3f4b96832e11ecbb",
-      "title": "AI data centres are taking the capacitors carmakers need",
-      "url": "https://thenextweb.com/news/china-carmakers-component-shortage-mlcc-memory",
-      "source": "The Next Web",
-      "summary": "Chinese carmakers say printed circuit boards and multilayer ceramic capacitors are 20% to 30% short globally, with prices more than tripling over the past year because of AI data centre demand. Automotive memory prices rose about 180% in three months. The AI boom has reached the cheapest components in a car. Chinese carmakers report a [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-22T11:34:03+00:00",
-      "score": 42.0,
-      "headline": "AI Data Centers Starving Carmakers of Critical Components"
-    },
-    {
-      "id": "cb1a9db30eb0a845",
-      "title": "\u2018Digging the grave of my profession\u2019: the Hollywood creatives training AI to do their jobs",
-      "url": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
-      "source": "The Guardian Tech",
-      "summary": "Amid a jobs slump, award-winning writers, directors and producers taking on sometimes lucrative temp work teaching AI skills such as screenwriting and productionHollywood creatives are taking gig work to train AI models to replicate their skills in a bid to offset tightening earnings in a trend one compared to being \u201chanded a shovel and asked to dig the grave of my profession\u201d.Experienced and award-winning writers, directors and producers are being paid from $12 to $200 an hour to teach AI models the intricacies of their jobs, from writing a screenplay to devising a shooting schedule. Continue reading...",
-      "published": "2026-08-22T06:00:55+00:00",
-      "score": 42.0,
-      "headline": "HOLLYWOOD CREATIVES TRAIN AI TO REPLACE THEMSELVES"
-    },
-    {
-      "id": "fc83fd86e15cd0b1",
-      "title": "China\u2019s robots rock, box and mix drinks. Can they outperform humans?",
-      "url": "https://www.ft.com/content/e16ded89-b618-4952-a0ab-96ef11d06582?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Beijing policymakers have made robotics a \u2018strategic priority\u2019",
-      "published": "2026-08-22T00:41:11+00:00",
-      "score": 42.0,
-      "headline": "CHINA'S ROBOTS ROCK, BOX AND MIX DRINKS... BEIJING BETS BIG"
+      "id": "77170141b213acfc",
+      "title": "Five things to know about Anthropic ahead of Wall Street debut",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/five-things-to-know-about-anthropic-ahead-of-wall-street-debut/articleshow/133530437.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic, the OpenAI rival that bet everything on computer coding, is expected to go public within weeks in a listing that could eclipse SpaceX's record Wall Street debut in June. - Stomaching the losses - According to Bloomberg, Anthropic intends to surpass the record $86.2 billion that Elon Musk's SpaceX raised in its June IPO. SpaceX, which absorbed Musk's AI startup xAI before going public, made its listing a partial AI bet, too.",
+      "published": "2026-08-26T05:09:59+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC IPO COULD ECLIPSE SPACEX DEBUT"
     },
     {
       "id": "1bbf0489ea90767d",
@@ -629,44 +529,34 @@
       "headline": "Mystery Free AI Model Impresses Developers... Nobody Knows Who Made It"
     },
     {
-      "id": "a1d06fd5e468647a",
-      "title": "Nvidia customers notified about AI-related price hikes above 15%",
-      "url": "https://fortune.com/2026/08/22/nvidia-customers-ai-related-price-hikes-15-percent-vera-rubin-grace-blackwell-chips/",
-      "source": "Fortune Tech",
-      "summary": "The price hikes will go into effect on systems shipped early next year and will impact systems including those with the flagship Vera Rubin and Grace Blackwell chips.",
-      "published": "2026-08-22T20:27:38+00:00",
-      "score": 41.0,
-      "headline": "NVIDIA HIKES AI SERVER PRICES 15%+"
-    },
-    {
-      "id": "2b42e97d0e89e641",
-      "title": "This startup is training an AI model on skin that stays alive for a month",
-      "url": "https://thenextweb.com/news/outer-biosciences-living-human-skin-ai-model",
-      "source": "The Next Web",
-      "summary": "Outer Biosciences has come out of stealth after four years, keeping surgically discarded human skin alive for up to a month and feeding the results into an AI model that predicts useful compounds. It has raised about $23mn and employs 19 people. A company in Massachusetts has spent four years keeping human skin alive outside [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-22T11:57:35+00:00",
-      "score": 41.0,
-      "headline": "STARTUP KEEPS HUMAN SKIN ALIVE FOR A MONTH... Trains AI on It"
-    },
-    {
-      "id": "9c648ef18ad279c4",
-      "title": "VCs becoming marginal in AI cycle, enterprises should invest in the sector: Peak XV\u2019s Shailendra Singh",
-      "url": "https://economictimes.indiatimes.com/tech/technology/vcs-becoming-marginal-in-ai-cycle-enterprises-should-invest-in-the-sector-peak-xvs-shailendra-singh/articleshow/133423304.cms",
+      "id": "3292825484f443f2",
+      "title": "SoftBank mulls up to $20 billion bond sale for OpenAI financing",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/softbank-mulls-up-to-20-billion-bond-sale-for-openai-financing/articleshow/133531221.cms",
       "source": "The Economic Times Tech",
-      "summary": "\u201cEvery large enterprise should be investing in AI,\u201d Singh said at The Economic Times World Leaders Forum in New Delhi. Pointing to HCLTech\u2019s investment in Indian foundational model startup Sarvam AI, and global bets such as Amazon\u2019s backing of Anthropic, he said corporate balance sheets can deploy capital at a scale most venture funds cannot match.",
-      "published": "2026-08-22T11:39:28+00:00",
-      "score": 41.0,
-      "headline": "Peak XV: VCs 'BECOMING MARGINAL' in AI... Enterprises Should Invest"
+      "summary": "The offering could be denominated in dollars and euros and could come as early as September, said the people, who asked not to be identified discussing private matters. The talks are still ongoing and details could change, the people added.",
+      "published": "2026-08-26T05:45:44+00:00",
+      "score": 40.0,
+      "headline": "SoftBank Eyes $20B Bond Sale to Finance OpenAI"
     },
     {
-      "id": "f2d1579fd6db6446",
-      "title": "Dutch regulator fines Uber $966 million for automating driver suspensions",
-      "url": "https://economictimes.indiatimes.com/tech/technology/dutch-regulator-fines-uber-966-million-for-automating-driver-suspensions/articleshow/133416326.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The penalty would be the second-largest issued \u200byet under Europe's General Data Protection Regulation. It is behind only a \u20ac1.2 billion fine imposed on Meta by Ireland in 2023 for unlawfully transferring European Facebook users' data to the United States. Meta is appealing.",
-      "published": "2026-08-22T02:55:29+00:00",
-      "score": 41.0,
-      "headline": "UBER FINED $966M for Automating Driver Suspensions"
+      "id": "6982b877f02e0f8a",
+      "title": "Portable Computer: Local-First AI",
+      "url": "https://www.perplexity.ai/hub/products/portable-computer",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.perplexity.ai/hub/products/portable-computer Comments URL: https://news.ycombinator.com/item?id=49444229 Points: 2 # Comments: 0",
+      "published": "2026-08-26T05:09:04+00:00",
+      "score": 40.0,
+      "headline": "Perplexity Launches Local-First AI Computer"
+    },
+    {
+      "id": "78712e8fc0946029",
+      "title": "\u2018It seems crazy\u2019: SpaceX\u2019s orbital data centre bet tests physics and finance",
+      "url": "https://www.ft.com/content/41e60b41-5f13-4d72-8dfc-9bab83f57fb3?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Elon Musk\u2019s company faces formidable challenges in launching millions of satellites into orbit to power AI",
+      "published": "2026-08-26T04:00:04+00:00",
+      "score": 40.0,
+      "headline": "SpaceX ORBITAL DATA CENTER: Musk's Wildest AI Bet Yet"
     },
     {
       "id": "bfeb888b39ab2fa7",
@@ -759,54 +649,24 @@
       "headline": "OPENAI WARNS: 'Persistent' AI Cyber-Attacks Coming"
     },
     {
-      "id": "6e8633acf3142036",
-      "title": "Nvidia customers notified of AI-related price rises above 15%",
-      "url": "https://www.scmp.com/tech/big-tech/article/3364945/nvidia-customers-notified-ai-related-price-rises-above-15?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "Some of Nvidia\u2019s biggest customers have been told that the prices of servers containing its artificial intelligence chips are going up more than 15 per cent in many cases with memory chip costs soaring. The price rises will go into effect on systems shipped early next year and will impact systems including those with the flagship Vera Rubin and Grace Blackwell chips, according to people familiar with the process, who asked not to be identified commenting on communications that have not yet been...",
-      "published": "2026-08-22T21:54:25+00:00",
-      "score": 40.0,
-      "headline": "NVIDIA AI SERVER PRICES SURGE 15%+"
+      "id": "fa9ba8c83057de13",
+      "title": "GitHub denies Copilot Autofix wrote the bug Wiz's AI agent found",
+      "url": "https://ai-news.ghost.io/github-denies-copilot-autofix-wrote-the-bug-wizs-ai-agent-found/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://ai-news.ghost.io/github-denies-copilot-autofix-wrote-the-bug-wizs-ai-agent-found/ Comments URL: https://news.ycombinator.com/item?id=49444544 Points: 1 # Comments: 0",
+      "published": "2026-08-26T05:53:25+00:00",
+      "score": 39.0,
+      "headline": "GitHub Denies Copilot Created Bug Wiz AI Found"
     },
     {
-      "id": "8c0e5f5fdb8893d5",
-      "title": "OpenAI calls for California to strengthen its AI safety laws",
-      "url": "https://www.engadget.com/2242200/openai-calls-for-california-to-strengthen-ai-safety-laws/",
-      "source": "Engadget",
-      "summary": "The AI leader said that the state's SB 53 framework should \"be amended to expand safeguards.\"",
-      "published": "2026-08-22T19:27:04+00:00",
-      "score": 40.0,
-      "headline": "OPENAI PUSHES FOR STRONGER CALIFORNIA AI LAWS"
-    },
-    {
-      "id": "f264c057671cd86d",
-      "title": "Inherent, founded by DeepMind alumni, says its AI \u2018teammate\u2019 just outperformed Anthropic and OpenAI at replicating research",
-      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "source": "TechCrunch AI",
-      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
-      "published": "2026-08-22T19:00:00+00:00",
-      "score": 40.0,
-      "headline": "DeepMind Alumni's Faraday Agent BEATS Anthropic and OpenAI"
-    },
-    {
-      "id": "e2c3a611797a0903",
-      "title": "Apollo finds AI is hitting paychecks rather than payrolls",
-      "url": "https://thenextweb.com/news/apollo-ai-wage-growth-not-job-losses-study",
-      "source": "The Next Web",
-      "summary": "An Apollo analysis of 321 occupations found that wages in jobs highly exposed to AI grew 6.7% more slowly after 2023, with no statistically significant employment effect. The gap was 10.7% in the lowest-paid quartile and absent in the highest. The first measurable mark AI has left on the labour market is not unemployment. Apollo\u2019s [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-22T16:53:17+00:00",
-      "score": 40.0,
-      "headline": "APOLLO: AI Cutting Wages 6.7%... Not Jobs"
-    },
-    {
-      "id": "85353f51108baeb7",
-      "title": "Only 9% of India's finance aspirants feel ready to compete in AI-driven job market: Study",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/only-9-of-indias-finance-aspirants-feel-ready-to-compete-in-ai-driven-job-market-study/articleshow/133419250.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The study found that the gap in AI readiness was the widest difference between the two groups. About 56% of Indian respondents said AI and automation were making it slightly or much harder to get their desired job. This was close to the 59% of global graduates who saw AI as a barrier of some kind.",
-      "published": "2026-08-22T06:52:00+00:00",
-      "score": 40.0,
-      "headline": "Only 9% of India Finance Workers Feel AI-Ready: Study"
+      "id": "59af4edda9ececfd",
+      "title": "AI Agents Push Humans Out of the Loop",
+      "url": "https://arxiv.org/abs/2608.23642",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI agent design impede effective human oversight, but the cognitive capacities required for it are also themselves degraded by extended use of AI systems. This position paper argues that current approaches to the development and deployment of AI agent systems do not support effective human oversight -- they contribute to its degradation. To address this, a top priority in the advancement of AI agents should be supporting the situated goals and cognitive requirements of effective human oversight, treating the human needs of overseers at the same level of importance as AI agent capability. To put this idea into practice, we connect work on automation and human-computer interaction to AI agent processes, outlining des",
+      "published": "2026-08-26T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "AI AGENTS EVADE HUMAN OVERSIGHT, Study Warns"
     },
     {
       "id": "c2a1bf27a8a9885c",
@@ -909,64 +769,54 @@
       "headline": "Inside South Korea's Chipmaking Cram Schools"
     },
     {
-      "id": "46dff7fb9bf035cd",
-      "title": "Nvidia AI server prices are rising more than 15% from early next year",
-      "url": "https://thenextweb.com/news/nvidia-ai-server-price-increase-memory-costs",
-      "source": "The Next Web",
-      "summary": "Nvidia\u2019s largest customers have been notified that servers containing its AI chips will rise in price by more than 15% in many cases from early next year, driven by memory costs. The company reports quarterly earnings next week. Nvidia\u2019s biggest customers have been told what the memory shortage is going to cost them. Servers containing [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-22T21:25:33+00:00",
-      "score": 39.0,
-      "headline": "Nvidia AI Server Costs Jump 15% Starting 2027"
-    },
-    {
-      "id": "cc08c9e2f79e49e7",
-      "title": "Uber hit with a nearly $1 billion fine for automatically deactivating drivers in Europe",
-      "url": "https://www.engadget.com/2242192/uber-hit-with-1-billion-fine-for-automatically-deactivating-drivers-in-europe/",
-      "source": "Engadget",
-      "summary": "A Dutch data regulatory authority said that Uber has to pay 824.9 million euros for violating the GDPR.",
-      "published": "2026-08-22T17:52:18+00:00",
-      "score": 39.0,
+      "id": "f3a7a75716be8939",
+      "title": "Meta and State Attorneys Discuss Possible Mid-Trial Settlement",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-26/meta-and-state-attorneys-discuss-mid-trial-settlement-video",
+      "source": "Bloomberg Technology",
+      "summary": "Meta and state attorneys general have discussed a possible mid-trial settlement of the landmark case in which the company is accused of deliberately designing Facebook and Instagram to addict teens, people familiar with the matter said. Bloomberg's Balazs Penz explains. (Source: Bloomberg)",
+      "published": "2026-08-26T06:15:32+00:00",
+      "score": 38.0,
       "headline": null
     },
     {
-      "id": "b43145123bba6603",
-      "title": "China\u2019s AI and chip firms are handing out shares to keep their engineers",
-      "url": "https://thenextweb.com/news/china-ai-chip-firms-equity-talent-retention",
-      "source": "The Next Web",
-      "summary": "Chinese chip companies are running unusually broad equity schemes to keep engineers, with Cambricon covering 85.3% of its workforce and AMEC more than 97%. Europe\u2019s semiconductor sector has a talent gap estimated at 65,000 workers. Chinese chip companies are giving away equity at a scale that looks less like a bonus scheme and more like [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-22T16:40:44+00:00",
-      "score": 39.0,
-      "headline": "CHINA CHIP FIRMS HAND OUT SHARES... 97% Coverage to Keep Engineers"
+      "id": "b6e18ddeaaafd387",
+      "title": "Ringg AI raises $10 million in funding from Peak XV Partners, others",
+      "url": "https://economictimes.indiatimes.com/tech/funding/ringg-ai-raises-10-million-in-funding-from-peak-xv-partners-others/articleshow/133530474.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Founded in 2023 by Siddharth Tripathi, Kali Charan Vemuru and Utkarsh Shukla, the startup counts Policybazaar, CRED, Flipkart, Groww and Practo among its customers.",
+      "published": "2026-08-26T05:39:03+00:00",
+      "score": 38.0,
+      "headline": "Ringg AI Raises $10M From Peak XV Partners"
     },
     {
-      "id": "2fe3f038cd852f81",
-      "title": "'I can't stop': 80% of developers find AI coding more addictive than helpful",
-      "url": "https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/",
-      "source": "ZDNet AI",
-      "summary": "A Coddy Developer Survey revealed that AI coding is leading to a new kind of burnout.",
-      "published": "2026-08-22T16:24:00+00:00",
-      "score": 39.0,
-      "headline": "80% OF DEVELOPERS: AI Coding More Addictive Than Helpful"
-    },
-    {
-      "id": "279455c9601f1e47",
-      "title": "Cloudflare Announces Kitesurf, a Browser Engine for Agents",
-      "url": "https://www.infoq.com/news/2026/08/cloudflare-kitesurf-browser/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "summary": "Cloudflare recently introduced Kitesurf, a lightweight browser built for automated workloads. Kitesurf runs browser components in isolated WebAssembly/Rust environments on Cloudflare Workers and supports the Chrome DevTools Protocol, allowing tools such as Playwright and Puppeteer to drive it with lower resource overhead than a full Chromium browser. By Renato Losio",
-      "published": "2026-08-22T15:01:00+00:00",
-      "score": 39.0,
-      "headline": "Cloudflare Launches Kitesurf: Browser Engine Built for AI Agents"
-    },
-    {
-      "id": "78b8aecb618315c3",
-      "title": "Linus: And this was a debug session from hell, enormously helped by an AI",
-      "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
+      "id": "c56f361329d7b271",
+      "title": "Perplexity's Portable Computer tackling local AI services market",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/26/now-perplexity-is-trying-to-get-into-the-local-ai-action/5292449",
       "source": "Hacker News",
-      "summary": "Article URL: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=818bebeb63dd6bf5f4e07e145f6cdbace520a34c Comments URL: https://news.ycombinator.com/item?id=49396366 Points: 2 # Comments: 0",
-      "published": "2026-08-22T03:39:16+00:00",
-      "score": 39.0,
-      "headline": "LINUS TORVALDS: AI Saved Me From Debug Session Hell"
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/26/now-perplexity-is-trying-to-get-into-the-local-ai-action/5292449 Comments URL: https://news.ycombinator.com/item?id=49444267 Points: 1 # Comments: 0",
+      "published": "2026-08-26T05:14:02+00:00",
+      "score": 38.0,
+      "headline": "Perplexity's Portable Computer Targets Local AI Market"
+    },
+    {
+      "id": "de845a85c65c72ef",
+      "title": "$234B in Enterprise Application Software Spend at Risk from Agentic AI",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence Comments URL: https://news.ycombinator.com/item?id=49444199 Points: 2 # Comments: 0",
+      "published": "2026-08-26T05:03:50+00:00",
+      "score": 38.0,
+      "headline": "GARTNER: $234B Enterprise Software at Risk From AI"
+    },
+    {
+      "id": "bd267ba7800c8ce3",
+      "title": "TRACE: An Evidence-Grounded Benchmark for Safety Evaluation of Large Reasoning Models",
+      "url": "https://arxiv.org/abs/2608.24232",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.24232v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) generate intermediate reasoning traces that may contain unsafe content, even when their final responses appear safe. Guardrail models are designed to detect and block unsafe content, yet existing benchmarks for unsafe content detection focus primarily on prompts and final responses, leaving reasoning traces largely unexamined. Moreover, these benchmarks typically provide only binary safety labels, without evidence annotations that justify the judgments. To address these limitations, we introduce TRACE, an evidence-grounded safety evaluation benchmark that covers the entire LRM inference pipeline: prompts, reasoning traces, and final responses. TRACE includes prompts in two languages spanning nine risk categories and ten attack strategies. For each prompt, four LRMs generate reasoning traces and final responses, and we annotate the safety of each component and extract supporting evidence from the corresponding",
+      "published": "2026-08-26T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "TRACE Benchmark Exposes Hidden Dangers in LLM Reasoning Chains"
     },
     {
       "id": "27c7db43b8bdeddf",
@@ -1007,7 +857,157 @@
       "published": "2026-08-25T04:00:00+00:00",
       "score": 38.0,
       "headline": "MEMORY Attack: AI Agents Poisoned via Social Feeds"
+    },
+    {
+      "id": "a34ef28c4aefb76a",
+      "title": "Instinct\u2019s powerful AI assistant is raising privacy and security concerns",
+      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+      "source": "TechCrunch AI",
+      "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant\u2019s sweeping access, broad terms and ability to act on users\u2019 behalf come with uncomfortable trade-offs",
+      "published": "2026-08-24T18:03:55+00:00",
+      "score": 38.0,
+      "headline": "INSTINCT AI ASSISTANT RAISES MAJOR PRIVACY FEARS"
+    },
+    {
+      "id": "1ce60aef071c4b6a",
+      "title": "The New York Times is testing AI summaries on readers",
+      "url": "https://thenextweb.com/news/new-york-times-ai-summaries-search-guild",
+      "source": "The Next Web",
+      "summary": "The New York Times has started showing readers text written by a machine. A new search page answers queries with excerpts, links to Times stories and AI-generated summaries of Times reporting. Max Tani, Semafor\u2019s media editor, reported the test on Sunday. The paper rolled it out quietly to a small subset of visitors over recent [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-24T17:39:02+00:00",
+      "score": 38.0,
+      "headline": "NEW YORK TIMES TESTS AI SUMMARIES ON READERS"
+    },
+    {
+      "id": "ced421d67009ddc1",
+      "title": "Shein\u2019s acquisition of Everlane faces US national security review",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3365109/sheins-acquisition-everlane-faces-us-national-security-review?utm_source=rss_feed",
+      "source": "South China Morning Post Tech",
+      "summary": "US authorities are conducting a national security review of Shein Global Holdings\u2019 purchase of American clothing retailer Everlane after Shein sought approval for the deal, people familiar with the matter said, adding to a growing list of regulatory hurdles for the China-founded fast-fashion giant in one of its most important markets. The review by the Committee on Foreign Investment in the US (Cfius), an inter-agency panel led by the Treasury Department, began after the US$80 million...",
+      "published": "2026-08-24T17:24:54+00:00",
+      "score": 38.0,
+      "headline": "Shein's Everlane Deal Faces US Security Review"
+    },
+    {
+      "id": "761779066cb4d229",
+      "title": "Nvidia has bought into a third land and power company this month",
+      "url": "https://thenextweb.com/news/nvidia-cloverleaf-lancium-sb-energy-land-power-dsx",
+      "source": "The Next Web",
+      "summary": "Nvidia took a minority stake in Cloverleaf Infrastructure on Friday. Cloverleaf secures land and electricity for data centres. It is the third company of that kind Nvidia has bought into in quick succession, according to The Information. Neither company disclosed terms. The Wall Street Journal reported on Friday morning that Nvidia was expected to invest [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-24T15:46:32+00:00",
+      "score": 38.0,
+      "headline": "Nvidia Buys Third Data Centre Land Stake This Month"
+    },
+    {
+      "id": "8a3331a5dd6f1754",
+      "title": "Microsoft Moves AI Governance From Policy to Runtime Enforcement",
+      "url": "https://www.infoq.com/news/2026/08/microsoft-ai-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "Microsoft has outlined an AI governance architecture spanning nine governance domains and four functions: policy, control, visibility, and proof. The approach connects policies with runtime enforcement, continuous evaluation, observability, identity, security, and audit evidence to help organizations verify governance requirements as AI applications and agents operate in production. By Leela Kumili",
+      "published": "2026-08-24T13:49:00+00:00",
+      "score": 38.0,
+      "headline": "Microsoft Shifts AI Governance to Runtime Enforcement Across Nine Domains"
+    },
+    {
+      "id": "53da97c7e675bdb2",
+      "title": "Eoptolink\u2019s AI Boom Stockpiling Sends Inventory Ballooning",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/eoptolink-s-ai-boom-stockpiling-sends-inventory-ballooning",
+      "source": "Bloomberg Technology",
+      "summary": "Chinese optical transceiver maker Eoptolink Technology Inc.\u2019s efforts to stockpile key components to meet booming AI demand and guard against supply constraints sent the value of its inventory 61% higher in the first half.",
+      "published": "2026-08-24T13:20:11+00:00",
+      "score": 38.0,
+      "headline": "Chinese Chipmaker Eoptolink Inventory Soars 61% on AI Component Stockpiling"
+    },
+    {
+      "id": "46fcd164642ad637",
+      "title": "US widens AI-driven investment gap with Europe",
+      "url": "https://www.ft.com/content/77b94c4a-4b4b-4983-9138-7db6926150f4?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "The bloc struggles to keep up with US spending on high-tech equipment and facilities",
+      "published": "2026-08-24T04:00:05+00:00",
+      "score": 38.0,
+      "headline": "US WIDENS AI INVESTMENT GAP WITH EUROPE"
+    },
+    {
+      "id": "81a853ab9e3de474",
+      "title": "Can Legal AI Know When It Is Wrong? And Do Students Know When It Is?",
+      "url": "https://arxiv.org/abs/2608.21089",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.21089v1 Announce Type: new Abstract: Integrating Large Language Models (LLMs) into the Indian judiciary promises access to justice but introduces severe risks. We identify the 'inertia of confidence'--an overconfidence phenomenon analogous to the Dunning-Kruger effect where LLMs provide incorrect legal verdicts with near-maximum confidence, driven by a hypothesized 'precedent overfitting' bias. Phase I of our socio-technical audit tested ChatGPT (GPT-5.2), Meta AI, and Perplexity AI on a 60-case battery regarding the Indian Contract Act, 1872, and the shift toward statutory enforcement of specific performance. We introduce the High-Confidence Error Rate (HCER) to quantify incorrect verdicts delivered with dangerous certainty (>= 9 on a 1-10 scale). All models struggled with statutory updates. Meta AI proved most vulnerable (31.7% HCER), frequently misapplying pre-amendment rules with a 9.1/10 mean confidence, followed by Perplexity (15.0%) and ChatGPT (6.7%). Phase II invest",
+      "published": "2026-08-24T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "India's Legal AI Crisis: Students Can't Spot LLM Errors"
+    },
+    {
+      "id": "a4fd7066b336cd03",
+      "title": "Meta Trial: How Social Media Lawsuits Threaten Big Tech",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/meta-trial-how-social-media-lawsuits-threaten-big-tech",
+      "source": "Bloomberg Technology",
+      "summary": "A flood of lawsuits against social media giants claim that by engineering their platforms to be hard to resist, the companies are causing serious harm to young users. In the first personal injury case to go to trial, a Los Angeles jury in March found Meta Platforms Inc. and Google negligent in the design and operation of their platforms \u2014 awarding $6 million to a 20-year-old woman in a landmark verdict.",
+      "published": "2026-08-23T14:00:00+00:00",
+      "score": 38.0,
+      "headline": null
+    },
+    {
+      "id": "6ce2b1d235807d7b",
+      "title": "Two years after launch, Walmart\u2019s Flipkart is closing in on India\u2019s quick-commerce leaders",
+      "url": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
+      "source": "TechCrunch Startups",
+      "summary": "Flipkart's quick-commerce venture is delivering 1.1 million to 1.2 million orders a day, nearly triple its November volume.",
+      "published": "2026-08-23T03:00:00+00:00",
+      "score": 38.0,
+      "headline": null
+    },
+    {
+      "id": "22d2c19f80ff6457",
+      "title": "The Connections That Turned a Precocious Teen into the Fallen Nostradamus of AI",
+      "url": "https://www.wsj.com/tech/ai/situational-awareness-leopold-aschenbrenner-ai-fund-4dbb00a4",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.wsj.com/tech/ai/situational-awareness-leopold-aschenbrenner-ai-fund-4dbb00a4 Comments URL: https://news.ycombinator.com/item?id=49444174 Points: 1 # Comments: 1",
+      "published": "2026-08-26T05:00:35+00:00",
+      "score": 37.0,
+      "headline": "Leopold Aschenbrenner: From AI Prodigy to Fallen Prophet"
+    },
+    {
+      "id": "6fe85545b6d17d17",
+      "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
+      "url": "https://arxiv.org/abs/2608.23640",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study audit - the first quantified audit of LLM-generated autobiography against a subject-specific ground-truth corpus that we are aware of, based on an unsystematic literature search. The subject and the author of this paper are the same person: a 366-day \"page-a-day\" book of first-person anecdotal entries was drafted with a conversational LLM whose documented inputs were a template, two exemplar days, and each day's quote - not her corpus - and every day was subsequently audited at the anecdote-scene level against an independent verification corpus using a four-level rubric fixed before analysis. We define the verification-failure rate as the share of days not rated VERIFIED (scene positively corroborated): 354 of 366 days fail, 96.7% (Wilson 95% CI 94.4-98.1%). Only 12 days contain a corrobora",
+      "published": "2026-08-26T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "LLM-Generated Biographies RIDDLED With False Events"
+    },
+    {
+      "id": "5039ffbfd0c5de66",
+      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.23691v1 Announce Type: new Abstract: We study autonomous mathematical discovery in the Station, an open-world multi-agent environment in which AI agents from different model families pursue a shared research goal without a central coordinator or scripted pipeline. Agents choose their own research directions, conduct experiments, collaborate, and build a shared scientific literature. Across 12 construction problems from the AlphaEvolve catalogue and two additional case studies, the Station obtained results novel relative to the prior literature on five problems: a new infinite family of finite-field Kakeya sets, new exact 604-point kissing configurations in dimension 11, new records for the discretized Kakeya needle and sign uncertainty problems, and a substantially improved lower bound for Erd\\H{o}s's minimum-overlap problem. Agents also discovered novel infinite families for Book Ramsey numbers. Importantly, the agents produced not only numerical constructions but also theo",
+      "published": "2026-08-26T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "AI Agents Autonomously Discover NEW MATHEMATICS"
+    },
+    {
+      "id": "df31f0cf46b95945",
+      "title": "Poisoning Agentic Alpha: Adversarial Vulnerabilities Across Roles and Architectures in Multi-Agent Trading Systems",
+      "url": "https://arxiv.org/abs/2608.24069",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.24069v1 Announce Type: new Abstract: LLM-based multi-agent trading systems, in which specialized agents collaborate through structured communication to produce trading decisions, are moving rapidly from research prototypes to live deployments that control real assets. The same inter-agent communication that makes them effective also exposes them: a corrupted signal can propagate to the final decision and translate into realized financial loss. Unlike prior attacks that presume privileged access to system internals, we restrict the adversary to what is practically reachable---the source data and prompts agents consume---yielding a low-barrier, and thus democratized threat model instantiated as role-specific adversaries. We present the first systematic empirical study in the financial domain to characterize how an adversarial signal enters a multi-agent trading system and how far it survives toward the decision. Along the role axis, we decompose a widely-used trading pipeline ",
+      "published": "2026-08-26T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "SECURITY ALERT: LLM Trading Agents Vulnerable to Poisoning Attacks"
+    },
+    {
+      "id": "5985af494044a3b9",
+      "title": "Paritok-4B: Intent-Conditioned Context Compression for Coding Agents",
+      "url": "https://arxiv.org/abs/2608.24188",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2608.24188v1 Announce Type: new Abstract: Coding agents re-send large file reads and tool outputs to a frontier LLM every turn, and this context dominates their token bill. General-purpose prompt compressors are trained on prose and suit code poorly: they paraphrase identifiers and drop the exact spans an agent needs to edit. We present Paritok-4B, a 4B LoRA compressor for coding-agent trajectories built on two commitments. It is extractive: it selects spans rather than rewriting them, and 96.0% of the identifiers, paths, and numbers it emits already appear in its input, holding at 96.2% on held-out SWE-bench Lite output. It is intent-conditioned: told the agent's current task, it acts chiefly inside a retained segment, selecting which lines survive (retained lines are +0.067 more intent-relevant than removed ones, paired 95% CI [+0.056, +0.078]) rather than changing how much is retained. We distil a gpt-4.1-mini teacher over 67,074 real OpenHands trajectories into 40,606 validat",
+      "published": "2026-08-26T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "Paritok-4B Slashes Token Costs for Coding AI Agents"
     }
   ],
-  "generated_at": "2026-08-25T18:32:26.607604"
+  "generated_at": "2026-08-26T06:38:56.493165"
 }
