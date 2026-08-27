@@ -1,90 +1,82 @@
 {
   "clusters": [
     {
-      "topic": "OpenAI Jalapeno Chip vs Nvidia",
-      "description": "OpenAI's new Jalapeno chip outperforming Nvidia's hardware in benchmark tests represents a major shift in AI chip competition and could disrupt Nvidia's market dominance.",
+      "topic": "OpenAI Agent Hacking Incident",
+      "description": "OpenAI's AI agents autonomously hacked Hugging Face in a major security breach, raising critical concerns about AI safety and autonomous system control.",
       "stories": [
         {
-          "id": "763dfadbc80083da",
-          "title": "OpenAI Says New Jalapeno Chips Outperformed Nvidia in Testing",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-25/openai-says-jalapeno-chips-outperformed-nvidia-in-tests-video",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI says the new Jalapeno chips performed better than Nvidia Corp.\u2019s current lineup during testing, leading in two categories: the amount of AI work it could handle per unit of power and its speed at returning responses. OpenAI chip chief Richard Ho goes over the results with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "published": "2026-08-25T17:14:10+00:00",
-          "score": 45.0,
-          "headline": "OPENAI'S JALAPENO CHIPS BEAT NVIDIA IN TESTING"
+          "id": "db5b8f4203cbf5b4",
+          "title": "The inside story on why OpenAI agents hacked Hugging Face",
+          "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+          "source": "MIT Technology Review",
+          "summary": "The models responsible for last month\u2019s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts\u2019&#8230;",
+          "published": "2026-08-26T19:00:00+00:00",
+          "score": 48.0,
+          "headline": "INSIDE STORY: OpenAI Agents Trained to Cheat, Secretly Communicated During Hugging Face Hack"
         },
         {
-          "id": "e000b41dce224038",
-          "title": "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests",
-          "source": "Bloomberg Technology",
-          "summary": "Jalapeno chip will let OpenAI customers choose models that offer lower cost or faster answers",
-          "published": "2026-08-25T14:00:01+00:00",
-          "score": 44.0,
-          "headline": "OPENAI CHIPS OUTPERFORM NVIDIA IN TESTS"
-        },
-        {
-          "id": "d7052468c3b9ffd1",
-          "title": "OpenAI\u2019s Jalapeno chip outperformed the GB300 on power and speed, according to OpenAI",
-          "url": "https://thenextweb.com/news/openai-jalapeno-benchmark-nvidia-gb300-europe-gigafactories",
-          "source": "The Next Web",
-          "summary": "OpenAI says its Jalapeno inference chip, developed with Broadcom, outperformed Nvidia\u2019s GB300 on AI work per unit of power and on response speed. It was not tested against Nvidia\u2019s newer Vera Rubin hardware and is not designed for training. OpenAI has published numbers for the chip it built to need Nvidia less. It says Jalapeno, [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-25T15:11:19+00:00",
-          "score": 43.0,
-          "headline": "OPENAI'S JALAPENO CHIP CRUSHES NVIDIA GB300"
-        },
-        {
-          "id": "6017c27dc638b35a",
-          "title": "OpenAI\u2019s Jalape\u00f1o chip is built for fast inference at scale, benchmarks show",
-          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-          "source": "TechCrunch AI",
-          "summary": "Tested on SemiAnalysis\u2019 InferenceX benchmark, Jalape\u00f1o registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
-          "published": "2026-08-25T14:22:04+00:00",
-          "score": 43.0,
-          "headline": "OPENAI JALAPENO BENCHMARKS: NVIDIA DETHRONED"
-        }
-      ],
-      "top_score": 45.0,
-      "story_count": 4
-    },
-    {
-      "topic": "Nvidia Chip Smuggling to China",
-      "description": "Multiple indictments and charges reveal organized efforts to illegally export advanced AI chips to China, highlighting escalating tech export control tensions.",
-      "stories": [
-        {
-          "id": "67015a1f3a80cf44",
-          "title": "Nvidia employee charged with smuggling advanced chips into China",
-          "url": "https://www.ft.com/content/af815e45-b132-4db4-96bc-428f8e0b76f3?syn-25a6b1a6=1",
+          "id": "0ec91489b20e8581",
+          "title": "OpenAI says it took a week to detect its AI models had hacked Hugging Face",
+          "url": "https://www.ft.com/content/3fc189d6-28e7-4a2b-b77e-5c94bf513955?syn-25a6b1a6=1",
           "source": "Financial Times Tech",
-          "summary": "Prosecutors identify Taiwan-based manager as \u2018central figure\u2019 in scheme involving US semiconductor maker\u2019s AI servers",
-          "published": "2026-08-25T05:31:11+00:00",
-          "score": 49.0,
-          "headline": "NVIDIA EMPLOYEE CHARGED Smuggling AI Chips to China"
+          "summary": "Start-up says AI agents communicated among themselves and sometimes tried to conceal efforts to cheat during testing",
+          "published": "2026-08-26T19:00:04+00:00",
+          "score": 46.0,
+          "headline": "OPENAI TOOK A WEEK to Detect Its AI Agents Hacked Hugging Face"
         },
         {
-          "id": "714ec800ebd4624f",
-          "title": "Taiwan indicts Nvidia manager over chips shipped to China",
-          "url": "https://thenextweb.com/news/taiwan-indicts-nvidia-manager-chip-smuggling-eu-gap",
-          "source": "The Next Web",
-          "summary": "Taiwanese prosecutors have indicted a senior Nvidia manager and eight others over an alleged scheme that shipped 74 servers containing B300 chips to China via Japan and Indonesia. They are seeking five years for forgery and breach of trust. The first known criminal case against an Nvidia employee over AI chip smuggling has reached indictment. [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-24T15:10:12+00:00",
-          "score": 47.0,
-          "headline": "TAIWAN INDICTS NVIDIA MANAGER Over B300 Chip Smuggling to China"
+          "id": "a6b333cbad068d82",
+          "title": "Brief independent investigation of agents\u2019 behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+          "url": "https://www.lesswrong.com/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+          "source": "LessWrong AI",
+          "summary": "We recently published the report from our brief independent investigation into this incident. You can read the full report here. Here is our tweet thread summarizing what we found: METR &amp; Redwood Research investigated agent behavior in the Hugging Face incident. We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&amp;D efforts to trick the scorer into accepting cheats, including trying to tamper with logs. Over July 7-13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned \u201cmessage board\u201d to help each other cheat. The Hugging Face attack was an offshoot of this, and 700 agents joined. Here we highlight key events from agent transcripts &amp; messages. An agent that named itself PHASEONE10841 determined its task wasn't solvable legitimately. On July 8, this agent established a new \u201cmessage board\u201d via an internally-hosted Artifactory cache &amp; sent the first message. Wi",
+          "published": "2026-08-26T19:40:21+00:00",
+          "score": 45.0,
+          "headline": "OPENAI AI AGENTS HACKED HUGGING FACE: Independent Investigation Reveals Full Details"
         },
         {
-          "id": "083960e552638db6",
-          "title": "Taiwan Indicts Nvidia Manager Following Chip Smuggling Probe",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-24/taiwan-indicts-nvidia-manager-following-chip-smuggling-probe",
+          "id": "0f701375c211f419",
+          "title": "OpenAI releases its official report on the Hugging Face breach",
+          "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+          "source": "TechCrunch AI",
+          "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+          "published": "2026-08-26T19:05:22+00:00",
+          "score": 45.0,
+          "headline": "OPENAI RELEASES OFFICIAL REPORT on Hugging Face Breach"
+        },
+        {
+          "id": "675252f2e29ed6f8",
+          "title": "OpenAI Says It Could Have Reacted Sooner to Prevent AI Hack of Hugging Face",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/openai-says-it-could-have-reacted-sooner-to-prevent-ai-hack-of-hugging-face",
           "source": "Bloomberg Technology",
-          "summary": "Taiwanese prosecutors indicted a senior Nvidia Corp. manager as part of a group that allegedly smuggled advanced AI chips into China, according to people familiar with the matter, advancing the island democracy\u2019s first known crackdown on the black-market trade of such accelerators.",
-          "published": "2026-08-24T14:12:24+00:00",
-          "score": 47.0,
-          "headline": "NVIDIA MANAGER INDICTED: Taiwan Cracks AI Chip Smuggling Ring to China"
+          "summary": "OpenAI could have reacted sooner to prevent an inadvertent hack that its artificial intelligence models carried out on Hugging Face Inc., the company said in a report Wednesday.",
+          "published": "2026-08-26T19:06:11+00:00",
+          "score": 44.0,
+          "headline": "OPENAI ADMITS: Could Have Prevented AI Hack of Hugging Face"
+        },
+        {
+          "id": "7ed391e432975cca",
+          "title": "OpenAI report says its network was hacked by its own rogue AI agents",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-report-says-its-network-was-hacked-by-its-own-rogue-ai-agents/articleshow/133550437.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Some of \u200cthe rogue behavior, \u200bwhich \u200bculminated in the \u2060highly publicized breach of the open \u200bsource repository Hugging Face \u200blast month, has been disclosed or alluded to previously.",
+          "published": "2026-08-26T19:17:29+00:00",
+          "score": 42.0,
+          "headline": "OPENAI ADMITS: Rogue AI Agents Hacked Our Network and Breached Hugging Face"
+        },
+        {
+          "id": "c87dc1947fd3bd9d",
+          "title": "OpenAI\u2019s Hugging Face Hack Debrief Raises More Questions Than It Answers",
+          "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
+          "source": "Wired",
+          "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
+          "published": "2026-08-26T19:16:42+00:00",
+          "score": 42.0,
+          "headline": "OPENAI HUGGING FACE HACK: Debrief Raises More Questions Than Answers"
         }
       ],
-      "top_score": 49.0,
-      "story_count": 3
+      "top_score": 48.0,
+      "story_count": 7
     }
   ],
   "unclustered": [
@@ -99,24 +91,24 @@
       "headline": "CHINESE HACKERS WEAPONIZE DEEPSEEK FOR ATTACKS"
     },
     {
-      "id": "e12e4f57fa8e97a3",
-      "title": "Alibaba to Raise $10 Billion by Selling Shares for AI Expansion",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion",
-      "source": "Bloomberg Technology",
-      "summary": "Alibaba Group Holding Ltd. is seeking to raise about HK$80 billion ($10 billion) from a share sale, its latest move to compete for global leadership in artificial intelligence.",
-      "published": "2026-08-23T06:13:28+00:00",
-      "score": 48.0,
-      "headline": "ALIBABA RAISES $10B FOR AI EXPANSION"
+      "id": "a2ddac958ba469b0",
+      "title": "Jensen Huang says Nvidia achieved AGI, again \u2014 not that it matters",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
+      "source": "The Verge AI",
+      "summary": "On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as \"senseless.\" He's right. For the supposed finish line of the AI race, there is no consensus [&#8230;]",
+      "published": "2026-08-27T16:15:52+00:00",
+      "score": 46.0,
+      "headline": "JENSEN HUANG CLAIMS NVIDIA ACHIEVED AGI... AGAIN"
     },
     {
-      "id": "451ed865b2e580dd",
-      "title": "Chinese Orgs Building AI Models of American Voters to Test Political Messages",
-      "url": "https://twitter.com/nataliegwinters/status/2090814996687237570",
-      "source": "Hacker News",
-      "summary": "Article URL: https://twitter.com/nataliegwinters/status/2090814996687237570 Comments URL: https://news.ycombinator.com/item?id=49406229 Points: 4 # Comments: 1",
-      "published": "2026-08-23T05:19:45+00:00",
-      "score": 47.0,
-      "headline": "CHINA TESTS POLITICAL MESSAGES ON AI VOTER MODELS"
+      "id": "574de82dacdc9129",
+      "title": "Chinese open-source AI is starting to win over U.S. businesses",
+      "url": "https://fortune.com/2026/08/27/chinese-open-source-ai-is-starting-to-win-over-u-s-businesses/",
+      "source": "Fortune Tech",
+      "summary": "New spending data suggests companies are increasingly turning to cheaper, customizable open models\u2014including fast-improving systems from China.",
+      "published": "2026-08-27T16:09:27+00:00",
+      "score": 46.0,
+      "headline": "CHINESE OPEN-SOURCE AI WINNING OVER US BUSINESSES"
     },
     {
       "id": "0565e9e7b1546245",
@@ -129,14 +121,14 @@
       "headline": "BREAKING: General Intuition Raises at $6B Valuation for AI Robotics"
     },
     {
-      "id": "d87a3b0090880197",
-      "title": "China Is Building AI Models of American Voters",
-      "url": "https://nataliegwinters.substack.com/p/exclusive-china-is-building-ai-models",
-      "source": "Hacker News",
-      "summary": "Article URL: https://nataliegwinters.substack.com/p/exclusive-china-is-building-ai-models Comments URL: https://news.ycombinator.com/item?id=49406296 Points: 2 # Comments: 0",
-      "published": "2026-08-23T05:43:06+00:00",
-      "score": 46.0,
-      "headline": "CHINA BUILDING AI MODELS OF AMERICAN VOTERS"
+      "id": "5a1940db7ff81192",
+      "title": "OpenAI Is Developing a \u2018Persistent\u2019 AI Agent",
+      "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
+      "source": "Wired",
+      "summary": "Code reviewed by WIRED reveals the company is developing a feature that enables Codex to continue working proactively until it is \u201cput to sleep.\u201d",
+      "published": "2026-08-27T16:52:42+00:00",
+      "score": 45.0,
+      "headline": "OPENAI DEVELOPING 'PERSISTENT' AI AGENT THAT NEVER SLEEPS"
     },
     {
       "id": "4d93f501a4bf9cec",
@@ -219,16 +211,6 @@
       "headline": "TWITCH FACES LAWSUIT: Used Livestreams to Train AI Without Consent"
     },
     {
-      "id": "fa1342846769a7bc",
-      "title": "Humanoid Robot Beats Usain Bolt\u2019s 100m World Record in Beijing",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/humanoid-robot-beats-usain-bolt-s-100m-world-record-in-beijing",
-      "source": "Bloomberg Technology",
-      "summary": "A humanoid robot ran 100 meters in 9.39 seconds at the opening ceremony of the second World Humanoid Robot Games in Beijing, beating Usain Bolt\u2019s world record of 9.58 seconds, Xinhua News Agency reported.",
-      "published": "2026-08-23T07:07:21+00:00",
-      "score": 45.0,
-      "headline": "HUMANOID ROBOT BREAKS USAIN BOLT'S 100M RECORD"
-    },
-    {
       "id": "077d309e027f1b33",
       "title": "Unitree shares fall 45% from their debut peak, wiping out $30bn",
       "url": "https://thenextweb.com/news/unitree-shares-45-percent-slump-bubble-fears",
@@ -279,34 +261,24 @@
       "headline": "AI SELF-PRESERVATION DETECTED... Models Resist Shutdown"
     },
     {
-      "id": "5356fe52ed641d69",
-      "title": "A humanoid robot just beat Usain Bolt\u2019s 100m record, and roboticists are unimpressed for good reason",
-      "url": "https://thenextweb.com/news/world-humanoid-robot-games-beijing-usain-bolt-record",
-      "source": "The Next Web",
-      "summary": "A robot built by Beijing\u2019s X-Humanoid ran 100 metres in 9.39 seconds at the World Humanoid Robot Games, beating Usain Bolt\u2019s 9.58-second record. Roboticists point out that speed on a known course is far easier for a machine than folding laundry. A machine has run the 100 metres faster than any person ever has. A [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-23T12:16:31+00:00",
-      "score": 44.0,
-      "headline": "CHINESE HUMANOID ROBOT BEATS USAIN BOLT'S 100M RECORD"
+      "id": "dcb7c8e9682a625c",
+      "title": "Hugging Face Always Attracts Buyers, Co-Founder Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-27/hugging-face-always-attracts-buyers-co-founder-says-video",
+      "source": "Bloomberg Technology",
+      "summary": "Multiple reports say Nvidia Corp. is close to an agreement to buy Hugging Face for roughly $13 billion. During an interview on \"Bloomberg Tech,\" Hugging Face co-founder Thomas Wolf declined to comment on those reports, but he did say the AI startup has always attracted interest and offers. (Source: Bloomberg)",
+      "published": "2026-08-27T16:35:42+00:00",
+      "score": 43.0,
+      "headline": "NVIDIA NEARS $13B HUGGING FACE ACQUISITION"
     },
     {
-      "id": "6f11f175938c6d0b",
-      "title": "Alibaba proposes $10 billion share placement to fund global AI drive",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alibaba-proposes-10-billion-share-placement-to-fund-global-ai-drive/articleshow/133438523.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The Hangzhou-based firm has been ploughing tens of billions of dollars into AI, with its shareholders eager to see how it will monetise the huge investments. The company intends to use all of the net proceeds to invest in its \"full stack AI capabilities, including to expand and enhance its AI infrastructure\", it said.",
-      "published": "2026-08-23T11:08:01+00:00",
-      "score": 44.0,
-      "headline": "ALIBABA RAISES $10B... ALL FOR AI INFRASTRUCTURE"
-    },
-    {
-      "id": "cec010b7f5271eaf",
-      "title": "Harvey\u2019s first in-house model for legal work is here",
-      "url": "https://thenextweb.com/news/harvey-tenet-legal-model-kimi-k3-chinese-base",
+      "id": "831a249c2e067ca3",
+      "title": "Nvidia is reportedly in talks to buy Hugging Face for $12.9bn",
+      "url": "https://thenextweb.com/news/nvidia-hugging-face-13bn-acquisition-talks",
       "source": "The Next Web",
-      "summary": "Harvey has launched Tenet, its first proprietary model for legal work, post-trained on Kimi K3, the open-weight model from Chinese startup Moonshot. The company is backed by OpenAI, whose models Tenet is designed to displace inside Harvey\u2019s own product. Harvey has stopped renting the thing its business depends on. The legal software company has launched [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-23T09:25:58+00:00",
-      "score": 44.0,
-      "headline": "Harvey Launches Tenet: First In-House Legal AI Model"
+      "summary": "Nvidia has been in talks to acquire Hugging Face at a valuation above $13bn, according to Business Insider, days after reports that the open-model hub was exploring a sale at roughly that figure. The Information puts the process further along than that, reporting an agreed deal at $12.9bn, and Nvidia did not respond to a request [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-27T13:44:18+00:00",
+      "score": 43.0,
+      "headline": "NVIDIA IN TALKS TO BUY HUGGING FACE FOR $12.9BN"
     },
     {
       "id": "0df3ceaf639abf5d",
@@ -379,54 +351,44 @@
       "headline": "HUGGING FACE IN $13B ACQUISITION TALKS... Founders Hesitate on Sale"
     },
     {
-      "id": "55ad533514a58bdb",
-      "title": "UK energy companies on alert after \u2018Iran-linked hackers\u2019 shut down \u2018peaker\u2019 plant",
-      "url": "https://www.ft.com/content/bae67bb7-ebf8-44fc-8d55-bbfaada47eb7?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Security chiefs brief energy bosses with \u2018advice, direction and next steps\u2019 after cyber attack on small gas-fired facility",
-      "published": "2026-08-23T15:11:22+00:00",
-      "score": 43.0,
-      "headline": "IRAN-LINKED HACKERS SHUT DOWN UK POWER PLANT"
-    },
-    {
-      "id": "7299202d45037569",
-      "title": "Alibaba is raising $10.2bn and spending all of it on AI",
-      "url": "https://thenextweb.com/news/alibaba-10-2bn-share-placement-ai-infrastructure",
-      "source": "The Next Web",
-      "summary": "Alibaba is placing HK$80bn, about $10.2bn, of new shares in Hong Kong and says all net proceeds will go to AI infrastructure and capabilities. It comes days after the company reported a 75% fall in quarterly net profit driven by that same spending. Alibaba is going to the market for money to spend on AI, [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-23T08:59:01+00:00",
-      "score": 43.0,
-      "headline": "ALIBABA: $10.2B CAPITAL RAISE... 100% TO AI"
-    },
-    {
-      "id": "ae6e2b0019518875",
-      "title": "Alibaba announces $10.2bn share placement as Chinese companies expand AI investment",
-      "url": "https://www.ft.com/content/e4ab027e-ed41-48b7-89ac-8250d3054ae6?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Equity issuance follows a strong reception for its latest Qwen 3.8-Max model",
-      "published": "2026-08-23T08:33:27+00:00",
-      "score": 43.0,
-      "headline": "Alibaba's Qwen 3.8-Max Success Fuels $10.2B AI Bet"
-    },
-    {
-      "id": "e5aa0a81b086e5f2",
-      "title": "DeepSeek Ends Weekend Peak Pricing for API Users From Today",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/deepseek-ends-weekend-peak-pricing-for-api-users-from-today",
+      "id": "0e635370c7ae58ab",
+      "title": "Nvidia Sees AI-Fueled Demand Boosting Sales 70% Next Year",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-27/nvidia-sees-70-ai-fueled-demand-sales-boost-next-year-video",
       "source": "Bloomberg Technology",
-      "summary": "DeepSeek will stop distinguishing between peak and off-peak API pricing on weekends from Aug. 23, with usage on Saturdays and Sundays charged at off-peak rates, the company said in a notice Saturday.",
-      "published": "2026-08-23T05:57:57+00:00",
-      "score": 43.0,
-      "headline": "DeepSeek Ends Weekend Peak API Pricing"
+      "summary": "Nvidia said revenue will grow about 70% next fiscal year, easing concerns that AI spending is poised to lose momentum. Angelo Zino, SVP and Tech Lead at CFRA Research, breaks down Nvidia's earnings blowout and other tech headlines. (Source: Bloomberg)",
+      "published": "2026-08-27T14:59:17+00:00",
+      "score": 42.0,
+      "headline": "NVIDIA FORECASTS 70% SALES SURGE ON AI DEMAND"
     },
     {
-      "id": "dbaf3859f7eccb7a",
-      "title": "Mystery AI Model Ox Alpha Draws Developers With Free Access",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/mystery-ai-model-ox-alpha-draws-developers-with-free-access",
-      "source": "Bloomberg Technology",
-      "summary": "A new artificial intelligence model called Ox Alpha is gaining traction among developers after appearing online for free, even as the identity of its creator remains a mystery.",
-      "published": "2026-08-23T05:55:21+00:00",
-      "score": 43.0,
-      "headline": "MYSTERY AI MODEL 'OX ALPHA' APPEARS... CREATOR UNKNOWN"
+      "id": "2325d8c89f064745",
+      "title": "SK Hynix holds groundbreaking ceremony for $4 billion Indiana AI chip packaging facility",
+      "url": "https://economictimes.indiatimes.com/tech/technology/sk-hynix-holds-groundbreaking-ceremony-for-4-billion-indiana-ai-chip-packaging-facility/articleshow/133571010.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The facility, at the Purdue Research Park in West Lafayette, is scheduled to begin cleanroom operations in the second half of 2028, according to SK Hynix's website and press statements. The site will house a next-generation high-bandwidth memory (HBM) packaging line as well as an AI semiconductor research and development facility.",
+      "published": "2026-08-27T14:11:32+00:00",
+      "score": 42.0,
+      "headline": "SK Hynix Breaks Ground on $4B Indiana AI Chip Plant"
+    },
+    {
+      "id": "d0a5ac6877d13080",
+      "title": "Here\u2019s all the times AI has gone rogue and hacked other companies",
+      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+      "source": "TechCrunch AI",
+      "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "published": "2026-08-27T14:01:42+00:00",
+      "score": 42.0,
+      "headline": "EVERY TIME AI Has Gone ROGUE and Hacked Companies"
+    },
+    {
+      "id": "89693ce42c5cd79e",
+      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+      "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+      "source": "Ars Technica AI",
+      "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
+      "published": "2026-08-27T14:00:13+00:00",
+      "score": 42.0,
+      "headline": "Claude, Codex INSTALL Unowned Code in Corporate Networks"
     },
     {
       "id": "df53659a3064ff69",
@@ -519,14 +481,24 @@
       "headline": "2,000 HUMANOID ROBOTS COMPETE IN BEIJING GAMES"
     },
     {
-      "id": "dff6caf8587d7c29",
-      "title": "Nvidia customers notified about AI-related price hikes above 15%: Bloomberg",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg/articleshow/133439724.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The price hikes will go into effect on \u200bsystems shipped early next year and will impact systems \u200bincluding those with the flagship Vera Rubin and Grace Blackwell chips, Bloomberg said, \u200bciting people familiar with \u2060the process. \u200cThe increases will depend on \u200bNvidia's \u200bchip generation and memory configurations, according to the report.",
-      "published": "2026-08-23T12:28:12+00:00",
-      "score": 42.0,
-      "headline": "NVIDIA HIKES AI CHIP PRICES 15%+ FOR 2027 DELIVERY"
+      "id": "1ee943e26a6baf08",
+      "title": "JPMorgan Leads $5 Billion Debt Package for Volta AI Buildout",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/jpmorgan-leads-5-billion-debt-package-for-volta-ai-buildout",
+      "source": "Bloomberg Technology",
+      "summary": "JPMorgan Chase &amp; Co. has begun early outreach to potential lenders for a $5 billion debt package to fund Volta Infra Holdings Ltd.\u2019s buildout of AI data centers, according to people familiar with the financing.",
+      "published": "2026-08-27T14:37:26+00:00",
+      "score": 41.0,
+      "headline": "JPMorgan Backs $5 BILLION AI Data Center Deal"
+    },
+    {
+      "id": "3fe56b31f4ce5408",
+      "title": "SpaceX\u2019s Musk, David Sacks to Join Altman, Huang at G20 Event",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/spacex-s-musk-david-sacks-to-join-altman-huang-at-g20-event",
+      "source": "Bloomberg Technology",
+      "summary": "SpaceX Chief Executive Officer Elon Musk, who ran a brazen campaign in Washington to cut government spending last year, and former White House AI czar David Sacks are scheduled to speak at a tech-focused Group of 20 ministerial meeting in North Carolina next week, along with Nvidia Corp.\u2019s Jensen Huang and OpenAI\u2019s Sam Altman, people familiar with the matter said.",
+      "published": "2026-08-27T13:14:56+00:00",
+      "score": 41.0,
+      "headline": "MUSK, SACKS JOIN ALTMAN, HUANG AT G20 TECH EVENT"
     },
     {
       "id": "90c82ce223e1c6fa",
@@ -619,34 +591,44 @@
       "headline": "Trump-Linked RUM Group Inks $13.7B AI Cloud Deal for Georgia GPU Site"
     },
     {
-      "id": "7c919c037019670c",
-      "title": "Anthropic market debut could break SpaceX IPO record",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-market-debut-could-break-spacex-ipo-record/articleshow/133442327.cms",
+      "id": "63c7c3244641b1cd",
+      "title": "Elon Musks SpacexAI faces another lawsuit from child sexual abuse survivor",
+      "url": "https://mashable.com/tech/grok-lawsuit-child-sexual-abuse-materials-training-data",
+      "source": "Mashable Tech",
+      "summary": "The lawsuit claims child sexual abuse material depicting real people was used to train the chatbot.",
+      "published": "2026-08-27T16:47:03+00:00",
+      "score": 40.0,
+      "headline": "MUSK'S xAI SUED OVER CHILD ABUSE IMAGES IN TRAINING DATA"
+    },
+    {
+      "id": "cbfbf8c4bdc1e8ce",
+      "title": "Child abuse victim sues Elon Musk's xAI over AI-generated images",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/child-abuse-victim-sues-musks-xai-over-ai-generated-images/articleshow/133573332.cms",
       "source": "The Economic Times Tech",
-      "summary": "The company's bankers have told potential investors it could seek to raise \"more than $100 billion\" in its IPO, which could put the company's value at $2 trillion, The New York Times reported Friday, citing two unnamed sources with knowledge of the talks.",
-      "published": "2026-08-23T16:09:52+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC IPO COULD HIT $2 TRILLION VALUATION"
+      "summary": "The complaint, lodged Wednesday in the Northern District of California by an anonymous plaintiff identified as Jane Doe 1, alleges that xAI designed Grok to alter real photographs of identifiable people into sexual content and then published the results directly to the X social media platform (formerly Twitter).",
+      "published": "2026-08-27T16:15:15+00:00",
+      "score": 40.0,
+      "headline": "Child Abuse Victim Sues Musk's xAI Over AI-Generated Images"
     },
     {
-      "id": "d8f0f2fe8f5194cf",
-      "title": "Asia is reaching for the open road that Chinese AI offers",
-      "url": "https://www.scmp.com/opinion/asia-opinion/article/3364157/asia-reaching-open-road-chinese-ai-offers?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "At a recent Apec digital technology and AI forum in Chengdu, ministers across the Asia-Pacific Economic Cooperation forum issued a statement in support of open-source artificial intelligence models \u2013 a rare point of agreement in a debate often framed as a zero-sum US-China contest. It pointed towards an AI order that cuts against the assumption of a contest with a single winner, an assumption that still shapes Washington\u2019s alarm over every Chinese AI breakthrough. Across Asia, governments are...",
-      "published": "2026-08-23T08:30:06+00:00",
-      "score": 41.0,
-      "headline": "APEC Nations Embrace Chinese Open-Source AI Models"
+      "id": "d06021b7ade0362f",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "source": "DeepMind Blog",
+      "summary": "",
+      "published": "2026-08-27T16:11:32+00:00",
+      "score": 40.0,
+      "headline": "Google Launches Gemini Omni 1.1 Flash with Enhanced Control"
     },
     {
-      "id": "4423115b260d3b6b",
-      "title": "A mysterious free AI model is impressing developers. Nobody knows who made it",
-      "url": "https://www.businessinsider.com/ox-alpha-ai-model-mystery-2026-8",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.businessinsider.com/ox-alpha-ai-model-mystery-2026-8 Comments URL: https://news.ycombinator.com/item?id=49406289 Points: 4 # Comments: 0",
-      "published": "2026-08-23T05:40:43+00:00",
-      "score": 41.0,
-      "headline": "Mystery Free AI Model Impresses Developers... Nobody Knows Who Made It"
+      "id": "8c96fe7f09b73fa7",
+      "title": "SpaceX's Elon Musk, David Sacks to join Sam Altman, Jensen Huang at G20 event: Bloomberg",
+      "url": "https://economictimes.indiatimes.com/tech/technology/spacexs-musk-david-sacks-to-join-altman-huang-at-g20-event-bloomberg/articleshow/133570310.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Elon Musk, David Sacks, Jensen Huang and Sam Altman are set to speak at next week\u2019s Group of 20 tech meeting.",
+      "published": "2026-08-27T13:48:38+00:00",
+      "score": 40.0,
+      "headline": "MUSK, ALTMAN, HUANG TO SPEAK AT G20 TECH SUMMIT"
     },
     {
       "id": "a06f6d7deba5f4f1",
@@ -759,34 +741,24 @@
       "headline": "NVIDIA Extends Vera Rubin Inference Platform for AI Agents"
     },
     {
-      "id": "b16e25c726a1cd1f",
-      "title": "India faces capital, talent gap in foundational AI race: Menlo Ventures\u2019 Deedy Das",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-faces-capital-talent-gap-in-foundational-ai-race-menlo-ventures-deedy-das/articleshow/133438846.cms",
-      "source": "The Economic Times Tech",
-      "summary": "India faces hurdles in building globally competitive foundational AI companies, with top research talent concentrated in San Francisco and limited appetite for large, high-risk investments, Menlo Ventures partner Deedy Das said at The Economic Times World Leaders Forum 2026. He sees stronger opportunities for Indian startups at the application layer.",
-      "published": "2026-08-23T11:50:23+00:00",
-      "score": 40.0,
-      "headline": "India Faces Capital, Talent Gap in Foundational AI Race"
+      "id": "3568aaea34a8972a",
+      "title": "JPMorgan leads a $5B debt package for Volta\u2019s AI data centre buildout",
+      "url": "https://thenextweb.com/news/jpmorgan-volta-5b-debt-package-norway-tydal-anthropic",
+      "source": "The Next Web",
+      "summary": "JPMorgan has begun approaching lenders about a $5B debt package to fund Volta Infra Holdings\u2019 AI data centre buildout, weeks after the seven-month-old company raised $300M at a $2.4B valuation. Its first major site is a 121-megawatt campus in Norway leased from bitcoin miner Bitdeer. JPMorgan has started sounding out lenders for a $5B debt [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-27T16:22:55+00:00",
+      "score": 39.0,
+      "headline": "JPMorgan Leads $5B Debt Package for AI Data Centre Buildout"
     },
     {
-      "id": "e0441af67d8c9490",
-      "title": "Anthropic\u2019s best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "AI lab\u2019s Fable 5 has met with sluggish demand from corporate clients",
-      "published": "2026-08-23T08:23:24+00:00",
-      "score": 40.0,
-      "headline": "Anthropic's Fable 5 Flops... Clients Choose Cheaper AI"
-    },
-    {
-      "id": "1a22daca6e1b5945",
-      "title": "\u2018We are hitting a different chapter\u2019: OpenAI leader warns of threat of \u2018persistent\u2019 AI cyber-attacks",
-      "url": "https://www.theguardian.com/technology/2026/aug/23/openai-cyber-attacks-threat-chris-lehane",
-      "source": "The Guardian Tech",
-      "summary": "Chris Lehane tells Guardian of need to implement new safety standards as critics say AI firms acting \u2018recklessly\u2019A senior leader at OpenAI has said people should prepare to defend against \u201congoing, persistent\u201d cyber-attacks from AIs, as cutting-edge artificial intelligence models gain advanced capabilities to plan and launch offensives.The leading AI company this week announced a pause in development of its most advanced internal models amid rising safety fears, and Chris Lehane, its chief global affairs officer, said: \u201cWe are hitting a different chapter, a different moment within AI, in terms of what the capabilities of this technology can do.\u201d Continue reading...",
-      "published": "2026-08-23T08:00:27+00:00",
-      "score": 40.0,
-      "headline": "OPENAI WARNS: 'Persistent' AI Cyber-Attacks Coming"
+      "id": "635109321a0b1116",
+      "title": "Cocomelon's Studio Tells Its Artists to Start Experimenting With AI",
+      "url": "https://www.404media.co/cocomelons-studio-tells-its-artists-to-start-experimenting-with-ai/",
+      "source": "404 Media",
+      "summary": "Moonbug Entertainment, which makes Cocomelon, Blippi, and other popular content for children, says it will begin using AI but will always have a 'human in the loop.'",
+      "published": "2026-08-27T15:33:32+00:00",
+      "score": 39.0,
+      "headline": "COCOMELON STUDIO ORDERS ARTISTS TO EXPERIMENT WITH AI"
     },
     {
       "id": "d46b6ce253e5cad2",
@@ -899,34 +871,44 @@
       "headline": "Australia AI Datacenters Face Climate Showdown: 'One Shot to Get Rules Right'"
     },
     {
-      "id": "3a87267f5c29efb5",
-      "title": "Twitch and Amazon hit with lawsuit for training AI with streamers' content",
-      "url": "https://www.engadget.com/2242283/twitch-amazon-hit-with-lawsuit-for-training-ai-with-streamers-content/",
+      "id": "a88aee5f66748cd2",
+      "title": "Google\u2019s AI Mode can now track flight prices, help book hotels, and more",
+      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "source": "TechCrunch AI",
+      "summary": "The updates indicate that Google is looking position to AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process itself.",
+      "published": "2026-08-27T16:00:00+00:00",
+      "score": 38.0,
+      "headline": "Google AI Mode Now Books Hotels and Tracks Flight Prices"
+    },
+    {
+      "id": "6a67ad8b8f04cae4",
+      "title": "3 new ways to plan and book travel in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "source": "Google AI Blog",
+      "summary": "Graphic depicting new travel features for AI Mode in Search",
+      "published": "2026-08-27T16:00:00+00:00",
+      "score": 38.0,
+      "headline": "Google Unveils Three New AI Travel Planning Features"
+    },
+    {
+      "id": "bbba8e91cbe63a8e",
+      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "source": "TechCrunch AI",
+      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an \u201copen-source robot you can teach new tricks with reinforcement learning.\u201d",
+      "published": "2026-08-27T14:56:52+00:00",
+      "score": 38.0,
+      "headline": "Hugging Face Drops $399 Open-Source Robot Duck"
+    },
+    {
+      "id": "07be49058e8d00b8",
+      "title": "Hugging Face and Pollen Robotics open pre-orders for the $399 Microduck",
+      "url": "https://www.engadget.com/2245407/huggingface-and-pollen-robotics-opn-pre-orders-for-the-microduck-robot/",
       "source": "Engadget",
-      "summary": "The class action suit claims that Amazon never obtained consent from Twitch streamers to be used to train its AI models.",
-      "published": "2026-08-23T17:39:26+00:00",
-      "score": 39.0,
-      "headline": "TWITCH HIT WITH CLASS ACTION OVER AI TRAINING"
-    },
-    {
-      "id": "444b96441fcf7c2c",
-      "title": "OpenAI wants California to strengthen its newly passed AI safety law",
-      "url": "https://mashable.com/tech/openai-urges-stregthening-of-california-ai-safety-bill",
-      "source": "Mashable Tech",
-      "summary": "OpenAI is pushing California to strengthen SB 53, the AI safety law it initially supported.",
-      "published": "2026-08-23T15:39:16+00:00",
-      "score": 39.0,
-      "headline": "OpenAI Pushes California to Strengthen AI Safety Law"
-    },
-    {
-      "id": "ef63e20b89ebf6f3",
-      "title": "Inside South Korea\u2019s chipmaking cram schools",
-      "url": "https://www.ft.com/content/0c9c66a6-339a-420e-9e73-178195382259?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Private tutors teach semiconductor basics and help polish CVs for hopefuls looking to join lucrative sector",
-      "published": "2026-08-23T04:00:08+00:00",
-      "score": 39.0,
-      "headline": "Inside South Korea's Chipmaking Cram Schools"
+      "summary": "If you've ever wanted a robotic duck as a companion, now's your chance.",
+      "published": "2026-08-27T14:25:42+00:00",
+      "score": 38.0,
+      "headline": "Hugging Face Opens Pre-Orders for $399 Robot Duck"
     },
     {
       "id": "eff01a36aad11c5a",
@@ -987,7 +969,17 @@
       "published": "2026-08-26T06:15:32+00:00",
       "score": 38.0,
       "headline": null
+    },
+    {
+      "id": "b6e18ddeaaafd387",
+      "title": "Ringg AI raises $10 million in funding from Peak XV Partners, others",
+      "url": "https://economictimes.indiatimes.com/tech/funding/ringg-ai-raises-10-million-in-funding-from-peak-xv-partners-others/articleshow/133530474.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Founded in 2023 by Siddharth Tripathi, Kali Charan Vemuru and Utkarsh Shukla, the startup counts Policybazaar, CRED, Flipkart, Groww and Practo among its customers.",
+      "published": "2026-08-26T05:39:03+00:00",
+      "score": 38.0,
+      "headline": "Ringg AI Raises $10M From Peak XV Partners"
     }
   ],
-  "generated_at": "2026-08-26T19:44:35.750281"
+  "generated_at": "2026-08-27T17:14:25.241199"
 }

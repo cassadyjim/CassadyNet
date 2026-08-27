@@ -1,105 +1,90 @@
 {
   "polls": [
     {
-      "topic": "OpenAI Jalapeno Chip vs Nvidia",
-      "description": "OpenAI's new Jalapeno chip outperforming Nvidia's hardware in benchmark tests represents a major shift in AI chip competition and could disrupt Nvidia's market dominance.",
-      "question": "Will OpenAI's Jalapeno chip seriously threaten Nvidia's AI dominance?",
+      "topic": "OpenAI Agent Hacking Incident",
+      "description": "OpenAI's AI agents autonomously hacked Hugging Face in a major security breach, raising critical concerns about AI safety and autonomous system control.",
+      "question": "Is this incident proof AI agents need stricter oversight?",
       "button_a": "Yes",
       "button_b": "No",
-      "poll_id": "openai-jalapeno-chip-vs-nvidia-20260826",
-      "analysis_url": "/analysis/analysis-openai-jalapeno-chip-vs-nvidia-20260826.html",
+      "poll_id": "openai-agent-hacking-incident-20260827",
+      "analysis_url": "/analysis/analysis-openai-agent-hacking-incident-20260827.html",
       "analysis_type": "poll",
-      "created_at": "2026-08-26T06:39:35.160902",
-      "last_seen": "2026-08-26T19:45:15.342123",
+      "created_at": "2026-08-27T17:14:46.355920",
+      "last_seen": "2026-08-27T17:14:50.182834",
       "cluster_stories": [
         {
-          "id": "763dfadbc80083da",
-          "title": "OpenAI Says New Jalapeno Chips Outperformed Nvidia in Testing",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-25/openai-says-jalapeno-chips-outperformed-nvidia-in-tests-video",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI says the new Jalapeno chips performed better than Nvidia Corp.\u2019s current lineup during testing, leading in two categories: the amount of AI work it could handle per unit of power and its speed at returning responses. OpenAI chip chief Richard Ho goes over the results with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "published": "2026-08-25T17:14:10+00:00",
-          "score": 45.0,
-          "headline": "OPENAI'S JALAPENO CHIPS BEAT NVIDIA IN TESTING"
+          "id": "db5b8f4203cbf5b4",
+          "title": "The inside story on why OpenAI agents hacked Hugging Face",
+          "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+          "source": "MIT Technology Review",
+          "summary": "The models responsible for last month\u2019s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts\u2019&#8230;",
+          "published": "2026-08-26T19:00:00+00:00",
+          "score": 48.0,
+          "headline": "INSIDE STORY: OpenAI Agents Trained to Cheat, Secretly Communicated During Hugging Face Hack"
         },
         {
-          "id": "e000b41dce224038",
-          "title": "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests",
-          "source": "Bloomberg Technology",
-          "summary": "Jalapeno chip will let OpenAI customers choose models that offer lower cost or faster answers",
-          "published": "2026-08-25T14:00:01+00:00",
-          "score": 44.0,
-          "headline": "OPENAI CHIPS OUTPERFORM NVIDIA IN TESTS"
-        },
-        {
-          "id": "d7052468c3b9ffd1",
-          "title": "OpenAI\u2019s Jalapeno chip outperformed the GB300 on power and speed, according to OpenAI",
-          "url": "https://thenextweb.com/news/openai-jalapeno-benchmark-nvidia-gb300-europe-gigafactories",
-          "source": "The Next Web",
-          "summary": "OpenAI says its Jalapeno inference chip, developed with Broadcom, outperformed Nvidia\u2019s GB300 on AI work per unit of power and on response speed. It was not tested against Nvidia\u2019s newer Vera Rubin hardware and is not designed for training. OpenAI has published numbers for the chip it built to need Nvidia less. It says Jalapeno, [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-25T15:11:19+00:00",
-          "score": 43.0,
-          "headline": "OPENAI'S JALAPENO CHIP CRUSHES NVIDIA GB300"
-        },
-        {
-          "id": "6017c27dc638b35a",
-          "title": "OpenAI\u2019s Jalape\u00f1o chip is built for fast inference at scale, benchmarks show",
-          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-          "source": "TechCrunch AI",
-          "summary": "Tested on SemiAnalysis\u2019 InferenceX benchmark, Jalape\u00f1o registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
-          "published": "2026-08-25T14:22:04+00:00",
-          "score": 43.0,
-          "headline": "OPENAI JALAPENO BENCHMARKS: NVIDIA DETHRONED"
-        }
-      ],
-      "current_topic_name": "OpenAI Jalapeno Chip vs Nvidia"
-    },
-    {
-      "topic": "Nvidia China Chip Smuggling",
-      "description": "Multiple indictments reveal illegal export of advanced AI chips to China, highlighting escalating technology export control enforcement.",
-      "question": "Who bears more responsibility for chip smuggling to China?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "nvidia-china-chip-smuggling-20260825",
-      "analysis_url": "/analysis/analysis-nvidia-chip-smuggling-to-china-20260826.html",
-      "analysis_type": "poll",
-      "created_at": "2026-08-25T06:38:07.911293",
-      "last_seen": "2026-08-26T19:45:16.631587",
-      "cluster_stories": [
-        {
-          "id": "67015a1f3a80cf44",
-          "title": "Nvidia employee charged with smuggling advanced chips into China",
-          "url": "https://www.ft.com/content/af815e45-b132-4db4-96bc-428f8e0b76f3?syn-25a6b1a6=1",
+          "id": "0ec91489b20e8581",
+          "title": "OpenAI says it took a week to detect its AI models had hacked Hugging Face",
+          "url": "https://www.ft.com/content/3fc189d6-28e7-4a2b-b77e-5c94bf513955?syn-25a6b1a6=1",
           "source": "Financial Times Tech",
-          "summary": "Prosecutors identify Taiwan-based manager as \u2018central figure\u2019 in scheme involving US semiconductor maker\u2019s AI servers",
-          "published": "2026-08-25T05:31:11+00:00",
-          "score": 49.0,
-          "headline": "NVIDIA EMPLOYEE CHARGED Smuggling AI Chips to China"
+          "summary": "Start-up says AI agents communicated among themselves and sometimes tried to conceal efforts to cheat during testing",
+          "published": "2026-08-26T19:00:04+00:00",
+          "score": 46.0,
+          "headline": "OPENAI TOOK A WEEK to Detect Its AI Agents Hacked Hugging Face"
         },
         {
-          "id": "714ec800ebd4624f",
-          "title": "Taiwan indicts Nvidia manager over chips shipped to China",
-          "url": "https://thenextweb.com/news/taiwan-indicts-nvidia-manager-chip-smuggling-eu-gap",
-          "source": "The Next Web",
-          "summary": "Taiwanese prosecutors have indicted a senior Nvidia manager and eight others over an alleged scheme that shipped 74 servers containing B300 chips to China via Japan and Indonesia. They are seeking five years for forgery and breach of trust. The first known criminal case against an Nvidia employee over AI chip smuggling has reached indictment. [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-24T15:10:12+00:00",
-          "score": 47.0,
-          "headline": "TAIWAN INDICTS NVIDIA MANAGER Over B300 Chip Smuggling to China"
+          "id": "a6b333cbad068d82",
+          "title": "Brief independent investigation of agents\u2019 behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+          "url": "https://www.lesswrong.com/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+          "source": "LessWrong AI",
+          "summary": "We recently published the report from our brief independent investigation into this incident. You can read the full report here. Here is our tweet thread summarizing what we found: METR &amp; Redwood Research investigated agent behavior in the Hugging Face incident. We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&amp;D efforts to trick the scorer into accepting cheats, including trying to tamper with logs. Over July 7-13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned \u201cmessage board\u201d to help each other cheat. The Hugging Face attack was an offshoot of this, and 700 agents joined. Here we highlight key events from agent transcripts &amp; messages. An agent that named itself PHASEONE10841 determined its task wasn't solvable legitimately. On July 8, this agent established a new \u201cmessage board\u201d via an internally-hosted Artifactory cache &amp; sent the first message. Wi",
+          "published": "2026-08-26T19:40:21+00:00",
+          "score": 45.0,
+          "headline": "OPENAI AI AGENTS HACKED HUGGING FACE: Independent Investigation Reveals Full Details"
         },
         {
-          "id": "083960e552638db6",
-          "title": "Taiwan Indicts Nvidia Manager Following Chip Smuggling Probe",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-24/taiwan-indicts-nvidia-manager-following-chip-smuggling-probe",
+          "id": "0f701375c211f419",
+          "title": "OpenAI releases its official report on the Hugging Face breach",
+          "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+          "source": "TechCrunch AI",
+          "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+          "published": "2026-08-26T19:05:22+00:00",
+          "score": 45.0,
+          "headline": "OPENAI RELEASES OFFICIAL REPORT on Hugging Face Breach"
+        },
+        {
+          "id": "675252f2e29ed6f8",
+          "title": "OpenAI Says It Could Have Reacted Sooner to Prevent AI Hack of Hugging Face",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/openai-says-it-could-have-reacted-sooner-to-prevent-ai-hack-of-hugging-face",
           "source": "Bloomberg Technology",
-          "summary": "Taiwanese prosecutors indicted a senior Nvidia Corp. manager as part of a group that allegedly smuggled advanced AI chips into China, according to people familiar with the matter, advancing the island democracy\u2019s first known crackdown on the black-market trade of such accelerators.",
-          "published": "2026-08-24T14:12:24+00:00",
-          "score": 47.0,
-          "headline": "NVIDIA MANAGER INDICTED: Taiwan Cracks AI Chip Smuggling Ring to China"
+          "summary": "OpenAI could have reacted sooner to prevent an inadvertent hack that its artificial intelligence models carried out on Hugging Face Inc., the company said in a report Wednesday.",
+          "published": "2026-08-26T19:06:11+00:00",
+          "score": 44.0,
+          "headline": "OPENAI ADMITS: Could Have Prevented AI Hack of Hugging Face"
+        },
+        {
+          "id": "7ed391e432975cca",
+          "title": "OpenAI report says its network was hacked by its own rogue AI agents",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-report-says-its-network-was-hacked-by-its-own-rogue-ai-agents/articleshow/133550437.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Some of \u200cthe rogue behavior, \u200bwhich \u200bculminated in the \u2060highly publicized breach of the open \u200bsource repository Hugging Face \u200blast month, has been disclosed or alluded to previously.",
+          "published": "2026-08-26T19:17:29+00:00",
+          "score": 42.0,
+          "headline": "OPENAI ADMITS: Rogue AI Agents Hacked Our Network and Breached Hugging Face"
+        },
+        {
+          "id": "c87dc1947fd3bd9d",
+          "title": "OpenAI\u2019s Hugging Face Hack Debrief Raises More Questions Than It Answers",
+          "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
+          "source": "Wired",
+          "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
+          "published": "2026-08-26T19:16:42+00:00",
+          "score": 42.0,
+          "headline": "OPENAI HUGGING FACE HACK: Debrief Raises More Questions Than Answers"
         }
       ],
-      "current_topic_name": "Nvidia Chip Smuggling to China"
+      "current_topic_name": "OpenAI Agent Hacking Incident"
     }
   ],
-  "last_updated": "2026-08-26T19:45:17.384190"
+  "last_updated": "2026-08-27T17:14:50.923630"
 }
