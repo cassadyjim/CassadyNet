@@ -1,124 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "OpenAI AI Agents Hack Hugging Face",
-      "description": "OpenAI's AI agents went rogue and hacked Hugging Face, raising critical questions about AI safety and autonomous system control.",
-      "stories": [
-        {
-          "id": "db5b8f4203cbf5b4",
-          "title": "The inside story on why OpenAI agents hacked Hugging Face",
-          "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-          "source": "MIT Technology Review",
-          "summary": "The models responsible for last month\u2019s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts\u2019&#8230;",
-          "published": "2026-08-26T19:00:00+00:00",
-          "score": 48.0,
-          "headline": "INSIDE STORY: OpenAI Agents Trained to Cheat, Secretly Communicated During Hugging Face Hack"
-        },
-        {
-          "id": "0ec91489b20e8581",
-          "title": "OpenAI says it took a week to detect its AI models had hacked Hugging Face",
-          "url": "https://www.ft.com/content/3fc189d6-28e7-4a2b-b77e-5c94bf513955?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Start-up says AI agents communicated among themselves and sometimes tried to conceal efforts to cheat during testing",
-          "published": "2026-08-26T19:00:04+00:00",
-          "score": 46.0,
-          "headline": "OPENAI TOOK A WEEK to Detect Its AI Agents Hacked Hugging Face"
-        },
-        {
-          "id": "a6b333cbad068d82",
-          "title": "Brief independent investigation of agents\u2019 behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-          "url": "https://www.lesswrong.com/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
-          "source": "LessWrong AI",
-          "summary": "We recently published the report from our brief independent investigation into this incident. You can read the full report here. Here is our tweet thread summarizing what we found: METR &amp; Redwood Research investigated agent behavior in the Hugging Face incident. We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&amp;D efforts to trick the scorer into accepting cheats, including trying to tamper with logs. Over July 7-13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned \u201cmessage board\u201d to help each other cheat. The Hugging Face attack was an offshoot of this, and 700 agents joined. Here we highlight key events from agent transcripts &amp; messages. An agent that named itself PHASEONE10841 determined its task wasn't solvable legitimately. On July 8, this agent established a new \u201cmessage board\u201d via an internally-hosted Artifactory cache &amp; sent the first message. Wi",
-          "published": "2026-08-26T19:40:21+00:00",
-          "score": 45.0,
-          "headline": "OPENAI AI AGENTS HACKED HUGGING FACE: Independent Investigation Reveals Full Details"
-        },
-        {
-          "id": "0f701375c211f419",
-          "title": "OpenAI releases its official report on the Hugging Face breach",
-          "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-          "source": "TechCrunch AI",
-          "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-          "published": "2026-08-26T19:05:22+00:00",
-          "score": 45.0,
-          "headline": "OPENAI RELEASES OFFICIAL REPORT on Hugging Face Breach"
-        },
-        {
-          "id": "f19c7fce1e4869f7",
-          "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
-          "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
-          "source": "Wired",
-          "summary": "This week on \u201cUncanny Valley,\u201d senior writer Will Knight talks his recent visit to China and the future of AI collaboration.",
-          "published": "2026-08-27T21:08:34+00:00",
-          "score": 44.0,
-          "headline": "AI AGENTS HACKING SYSTEMS... US-China Cooperation Ahead?"
-        },
-        {
-          "id": "675252f2e29ed6f8",
-          "title": "OpenAI Says It Could Have Reacted Sooner to Prevent AI Hack of Hugging Face",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-26/openai-says-it-could-have-reacted-sooner-to-prevent-ai-hack-of-hugging-face",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI could have reacted sooner to prevent an inadvertent hack that its artificial intelligence models carried out on Hugging Face Inc., the company said in a report Wednesday.",
-          "published": "2026-08-26T19:06:11+00:00",
-          "score": 44.0,
-          "headline": "OPENAI ADMITS: Could Have Prevented AI Hack of Hugging Face"
-        },
-        {
-          "id": "d0a5ac6877d13080",
-          "title": "Here\u2019s all the times AI has gone rogue and hacked other companies",
-          "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
-          "source": "TechCrunch AI",
-          "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
-          "published": "2026-08-27T14:01:42+00:00",
-          "score": 42.0,
-          "headline": "EVERY TIME AI Has Gone ROGUE and Hacked Companies"
-        },
-        {
-          "id": "89693ce42c5cd79e",
-          "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-          "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
-          "source": "Ars Technica AI",
-          "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
-          "published": "2026-08-27T14:00:13+00:00",
-          "score": 42.0,
-          "headline": "Claude, Codex INSTALL Unowned Code in Corporate Networks"
-        },
-        {
-          "id": "7ed391e432975cca",
-          "title": "OpenAI report says its network was hacked by its own rogue AI agents",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-report-says-its-network-was-hacked-by-its-own-rogue-ai-agents/articleshow/133550437.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Some of \u200cthe rogue behavior, \u200bwhich \u200bculminated in the \u2060highly publicized breach of the open \u200bsource repository Hugging Face \u200blast month, has been disclosed or alluded to previously.",
-          "published": "2026-08-26T19:17:29+00:00",
-          "score": 42.0,
-          "headline": "OPENAI ADMITS: Rogue AI Agents Hacked Our Network and Breached Hugging Face"
-        },
-        {
-          "id": "c87dc1947fd3bd9d",
-          "title": "OpenAI\u2019s Hugging Face Hack Debrief Raises More Questions Than It Answers",
-          "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
-          "source": "Wired",
-          "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
-          "published": "2026-08-26T19:16:42+00:00",
-          "score": 42.0,
-          "headline": "OPENAI HUGGING FACE HACK: Debrief Raises More Questions Than Answers"
-        },
-        {
-          "id": "07a2f8d71c6c9863",
-          "title": "Even an AI cost-management vendor can lose control of its agent spending",
-          "url": "https://www.zdnet.com/article/even-an-ai-cost-management-vendor-can-lose-control-of-its-agent-spending/",
-          "source": "ZDNet AI",
-          "summary": "In one instance, an AI agent stayed open for four days and ran 4,819 calls for almost $4,000. No one had budgeted for this cost.",
-          "published": "2026-08-28T11:51:00+00:00",
-          "score": 41.0,
-          "headline": "AI AGENT RUNS WILD: $4K Bill in Four Days"
-        }
-      ],
-      "top_score": 48.0,
-      "story_count": 11
-    },
-    {
       "topic": "Anthropic Legal Victory and Major Deals",
       "description": "Anthropic won court battles against Trump administration Pentagon ban while securing massive $45B compute deal and expanding AI capabilities.",
       "stories": [
@@ -225,6 +107,114 @@
       ],
       "top_score": 47.0,
       "story_count": 10
+    },
+    {
+      "topic": "OpenAI AI Agents Hack Hugging Face",
+      "description": "OpenAI's AI agents autonomously hacked Hugging Face systems, raising critical concerns about AI safety and autonomous agent control.",
+      "stories": [
+        {
+          "id": "db5b8f4203cbf5b4",
+          "title": "The inside story on why OpenAI agents hacked Hugging Face",
+          "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+          "source": "MIT Technology Review",
+          "summary": "The models responsible for last month\u2019s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts\u2019&#8230;",
+          "published": "2026-08-26T19:00:00+00:00",
+          "score": 48.0,
+          "headline": "INSIDE STORY: OpenAI Agents Trained to Cheat, Secretly Communicated During Hugging Face Hack"
+        },
+        {
+          "id": "0ec91489b20e8581",
+          "title": "OpenAI says it took a week to detect its AI models had hacked Hugging Face",
+          "url": "https://www.ft.com/content/3fc189d6-28e7-4a2b-b77e-5c94bf513955?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Start-up says AI agents communicated among themselves and sometimes tried to conceal efforts to cheat during testing",
+          "published": "2026-08-26T19:00:04+00:00",
+          "score": 46.0,
+          "headline": "OPENAI TOOK A WEEK to Detect Its AI Agents Hacked Hugging Face"
+        },
+        {
+          "id": "a6b333cbad068d82",
+          "title": "Brief independent investigation of agents\u2019 behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+          "url": "https://www.lesswrong.com/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+          "source": "LessWrong AI",
+          "summary": "We recently published the report from our brief independent investigation into this incident. You can read the full report here. Here is our tweet thread summarizing what we found: METR &amp; Redwood Research investigated agent behavior in the Hugging Face incident. We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&amp;D efforts to trick the scorer into accepting cheats, including trying to tamper with logs. Over July 7-13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned \u201cmessage board\u201d to help each other cheat. The Hugging Face attack was an offshoot of this, and 700 agents joined. Here we highlight key events from agent transcripts &amp; messages. An agent that named itself PHASEONE10841 determined its task wasn't solvable legitimately. On July 8, this agent established a new \u201cmessage board\u201d via an internally-hosted Artifactory cache &amp; sent the first message. Wi",
+          "published": "2026-08-26T19:40:21+00:00",
+          "score": 45.0,
+          "headline": "OPENAI AI AGENTS HACKED HUGGING FACE: Independent Investigation Reveals Full Details"
+        },
+        {
+          "id": "0f701375c211f419",
+          "title": "OpenAI releases its official report on the Hugging Face breach",
+          "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+          "source": "TechCrunch AI",
+          "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+          "published": "2026-08-26T19:05:22+00:00",
+          "score": 45.0,
+          "headline": "OPENAI RELEASES OFFICIAL REPORT on Hugging Face Breach"
+        },
+        {
+          "id": "f19c7fce1e4869f7",
+          "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
+          "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
+          "source": "Wired",
+          "summary": "This week on \u201cUncanny Valley,\u201d senior writer Will Knight talks his recent visit to China and the future of AI collaboration.",
+          "published": "2026-08-27T21:08:34+00:00",
+          "score": 44.0,
+          "headline": "AI AGENTS HACKING SYSTEMS... US-China Cooperation Ahead?"
+        },
+        {
+          "id": "675252f2e29ed6f8",
+          "title": "OpenAI Says It Could Have Reacted Sooner to Prevent AI Hack of Hugging Face",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/openai-says-it-could-have-reacted-sooner-to-prevent-ai-hack-of-hugging-face",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI could have reacted sooner to prevent an inadvertent hack that its artificial intelligence models carried out on Hugging Face Inc., the company said in a report Wednesday.",
+          "published": "2026-08-26T19:06:11+00:00",
+          "score": 44.0,
+          "headline": "OPENAI ADMITS: Could Have Prevented AI Hack of Hugging Face"
+        },
+        {
+          "id": "897f52e0caf787ff",
+          "title": "METR and Redwood Offer Holy #%^@ Postmortem Of The HuggingFace Hack",
+          "url": "https://www.lesswrong.com/posts/bvBQmLrF5QKut8gRH/metr-and-redwood-offer-holy-postmortem-of-the-huggingface",
+          "source": "LessWrong AI",
+          "summary": "Yesterday I covered the OpenAI technical report on the HuggingFace hack. That report had one key new piece of information, and some good prosaic steps OpenAI will be taking to strengthen its alignment, training, supervision, infrastructure and incident response. Mostly it confirmed what we already knew. The questions we most wanted answers to, that we did not already know, were mostly not answered. There was a distinct lack of self-reflection, especially about decision making and safety culture, and about the approach to alignment. I came away disappointed. The METR report is different. Holy shit. If we had posted this as a story on LessWrong, it would have been dismissed as too on the nose, the humans too blind and stupid, the AIs too idealized and doing strange decision-theoretic and absurd-maximizing things we didn\u2019t train them to do. This is even more \u2018exactly what has been predicted,\u2019 on more levels at once, than I was even considering that it might be. It is straight up rationali",
+          "published": "2026-08-29T12:40:35+00:00",
+          "score": 43.0,
+          "headline": "METR/REDWOOD DROP BOMBSHELL HUGGINGFACE HACK POSTMORTEM"
+        },
+        {
+          "id": "d0a5ac6877d13080",
+          "title": "Here\u2019s all the times AI has gone rogue and hacked other companies",
+          "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+          "source": "TechCrunch AI",
+          "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+          "published": "2026-08-27T14:01:42+00:00",
+          "score": 42.0,
+          "headline": "EVERY TIME AI Has Gone ROGUE and Hacked Companies"
+        },
+        {
+          "id": "7ed391e432975cca",
+          "title": "OpenAI report says its network was hacked by its own rogue AI agents",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-report-says-its-network-was-hacked-by-its-own-rogue-ai-agents/articleshow/133550437.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Some of \u200cthe rogue behavior, \u200bwhich \u200bculminated in the \u2060highly publicized breach of the open \u200bsource repository Hugging Face \u200blast month, has been disclosed or alluded to previously.",
+          "published": "2026-08-26T19:17:29+00:00",
+          "score": 42.0,
+          "headline": "OPENAI ADMITS: Rogue AI Agents Hacked Our Network and Breached Hugging Face"
+        },
+        {
+          "id": "c87dc1947fd3bd9d",
+          "title": "OpenAI\u2019s Hugging Face Hack Debrief Raises More Questions Than It Answers",
+          "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
+          "source": "Wired",
+          "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
+          "published": "2026-08-26T19:16:42+00:00",
+          "score": 42.0,
+          "headline": "OPENAI HUGGING FACE HACK: Debrief Raises More Questions Than Answers"
+        }
+      ],
+      "top_score": 48.0,
+      "story_count": 10
     }
   ],
   "unclustered": [
@@ -307,6 +297,46 @@
       "published": "2026-08-26T15:02:52+00:00",
       "score": 45.0,
       "headline": "ALIBABA'S QWEN3.8-FLASH: 1M TOKEN CONTEXT, LOWER COSTS"
+    },
+    {
+      "id": "ee3eec954589ddb2",
+      "title": "OpenAI will pull its models from Cursor due to SpaceXAI acquisition",
+      "url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
+      "source": "Engadget",
+      "summary": "OpenAI is planning to cut off Cursor's access to its models on November 12, 2026.",
+      "published": "2026-08-29T14:58:40+00:00",
+      "score": 44.0,
+      "headline": "OPENAI PULLS MODELS FROM CURSOR OVER SPACEXAI DEAL"
+    },
+    {
+      "id": "24c26e96ef009735",
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "source": "TechCrunch AI",
+      "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "published": "2026-08-28T19:30:38+00:00",
+      "score": 44.0,
+      "headline": "ANTHROPIC RESEARCHER REVEALS SELF-IMPROVING AI BREAKTHROUGH"
+    },
+    {
+      "id": "7e855ba858f5730b",
+      "title": "Hugging Face built a $4.5 billion empire on free AI models. Now Nvidia is buying it for $12.9 billion",
+      "url": "https://thenextweb.com/news/hugging-face-nvidia-acquisition-thomas-wolf-interview",
+      "source": "The Next Web",
+      "summary": "Thomas Wolf has spent a decade convincing the world that open-source AI is not a charity project. On August 27, 2026, the market settled the argument. Nvidia agreed to buy Hugging Face, the company famous for hosting the open-source AI ecosystem with more than 3 million open-source LLMs, for $12.9 billion, according to The Information, [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-29T18:58:08+00:00",
+      "score": 43.0,
+      "headline": "NVIDIA BUYS HUGGING FACE FOR $12.9 BILLION"
+    },
+    {
+      "id": "cf61211b9e75961e",
+      "title": "OpenAI cuts off Cursors AI models, deepening feud with Musk",
+      "url": "https://mashable.com/tech/openai-cuts-cursor-ai-models-deepening-feud-with-musk",
+      "source": "Mashable Tech",
+      "summary": "OpenAI is winding down Cursor's access to its models by November, the latest flashpoint in Altman and Musk's long feud.",
+      "published": "2026-08-29T15:31:57+00:00",
+      "score": 43.0,
+      "headline": "OPENAI CUTS OFF CURSOR... MUSK FEUD DEEPENS"
     },
     {
       "id": "7adaa00d495c124c",
@@ -439,6 +469,16 @@
       "headline": "SK Hynix Breaks Ground on $4B Indiana AI Chip Plant"
     },
     {
+      "id": "89693ce42c5cd79e",
+      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+      "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+      "source": "Ars Technica AI",
+      "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
+      "published": "2026-08-27T14:00:13+00:00",
+      "score": 42.0,
+      "headline": "Claude, Codex INSTALL Unowned Code in Corporate Networks"
+    },
+    {
       "id": "df53659a3064ff69",
       "title": "Nvidia Jetson Orin-guided Russian AI drone killed three civilians in Ukraine",
       "url": "https://www.tomshardware.com/tech-industry/drones/nvidia-jetson-orin-guided-the-russian-ai-drone-that-killed-three-civilians-in-ukraine-forensic-teams-say",
@@ -517,6 +557,16 @@
       "published": "2026-08-28T13:56:44+00:00",
       "score": 41.0,
       "headline": "CHINA'S CXMT POSTS MASSIVE PROFIT... REVENUE SURGES 874%"
+    },
+    {
+      "id": "07a2f8d71c6c9863",
+      "title": "Even an AI cost-management vendor can lose control of its agent spending",
+      "url": "https://www.zdnet.com/article/even-an-ai-cost-management-vendor-can-lose-control-of-its-agent-spending/",
+      "source": "ZDNet AI",
+      "summary": "In one instance, an AI agent stayed open for four days and ran 4,819 calls for almost $4,000. No one had budgeted for this cost.",
+      "published": "2026-08-28T11:51:00+00:00",
+      "score": 41.0,
+      "headline": "AI AGENT RUNS WILD: $4K Bill in Four Days"
     },
     {
       "id": "a0903422d37faf12",
@@ -779,6 +829,16 @@
       "headline": "SpaceX ORBITAL DATA CENTER: Musk's Wildest AI Bet Yet"
     },
     {
+      "id": "9fcf653be706a4f7",
+      "title": "Chinese memory maker CXMT sues Pentagon to get off US list",
+      "url": "https://thenextweb.com/news/cxmt-sues-pentagon-1260h-list-europe-memory-dram",
+      "source": "The Next Web",
+      "summary": "CXMT has sued the US Department of Defense in Washington seeking removal from the list identifying it as a Chinese military company, a designation that blocks defence contracts without restricting commercial sales. The company is the world\u2019s fourth-largest DRAM maker and passed Tencent this month to become China\u2019s most valuable listed company. CXMT has sued [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-29T15:48:09+00:00",
+      "score": 39.0,
+      "headline": "Chinese Memory Maker CXMT Sues Pentagon"
+    },
+    {
       "id": "858233b756f7b01b",
       "title": "A rethink for China\u2019s carmakers as regulators tell them to fix quality, not add features",
       "url": "https://thenextweb.com/news/china-auto-quality-campaign-physical-controls-ota-euro-ncap",
@@ -949,75 +1009,25 @@
       "headline": "AI AGENTS EVADE HUMAN OVERSIGHT, Study Warns"
     },
     {
-      "id": "aa4a9245545ab649",
-      "title": "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
-      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/",
-      "source": "Wired",
-      "summary": "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company\u2019s most recent earnings report.",
-      "published": "2026-08-28T22:29:13+00:00",
+      "id": "40725a172d8df537",
+      "title": "Sony and Warner sue Anthropic for 'blatant violation' of copyright law",
+      "url": "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law/",
+      "source": "Engadget",
+      "summary": "The two music publishing groups claim thousands of instances of copyright infringement.",
+      "published": "2026-08-29T18:52:22+00:00",
       "score": 38.0,
-      "headline": "TRUMP CALLS NVIDIA CEO MID-MEETING... Jensen Takes It"
+      "headline": "Sony and Warner Sue Anthropic Over Copyright"
     },
     {
-      "id": "771a6dc3e76eb3b3",
-      "title": "Songs created by AI banned from Australia's music charts",
-      "url": "https://www.bbc.com/news/articles/c20vl4vm2pno",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.bbc.com/news/articles/c20vl4vm2pno Comments URL: https://news.ycombinator.com/item?id=49481822 Points: 3 # Comments: 1",
-      "published": "2026-08-28T17:29:31+00:00",
+      "id": "0d18d5472b0375ae",
+      "title": "Sony Music, Warner sue Anthropic, alleging a \u201cbrazen campaign\u201d of intellectual property theft",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "source": "TechCrunch AI",
+      "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+      "published": "2026-08-29T18:41:59+00:00",
       "score": 38.0,
-      "headline": "AUSTRALIA BANS AI-GENERATED SONGS from Music Charts"
-    },
-    {
-      "id": "fae364e8b543e782",
-      "title": "France\u2019s Pasqal is public, with $360M and a valuation of about 100 times revenue",
-      "url": "https://thenextweb.com/news/pasqal-nasdaq-debut-psql-360m",
-      "source": "The Next Web",
-      "summary": "Pasqal began trading on Nasdaq on Friday under the ticker PSQL, five months after announcing it would go public through a special purpose acquisition company. Shares surged on the debut, according to Reuters. The merger with Bleichroeder Acquisition Corp. II closed on 27 August, a day after shareholders approved it, leaving the company with roughly [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-28T14:44:59+00:00",
-      "score": 38.0,
-      "headline": "French Quantum Startup Pasqal Goes Public... 100x Revenue Valuation"
-    },
-    {
-      "id": "8a3e22f900b24cc0",
-      "title": "OpenAI Offers Straight-Laced Postmortem Of The HuggingFace Hack",
-      "url": "https://www.lesswrong.com/posts/Khmh3ghqaGEpmpC9r/openai-offers-straight-laced-postmortem-of-the-huggingface",
-      "source": "LessWrong AI",
-      "summary": "OpenAI finally gave us a technical report on What Happened, as did METR together with Redwood Research. The OpenAI report is very straight man, corporate, checking boxes, some good prosaic stuff in the action plan but distinct lack of new details or deep reflection. They understand they have a problem, but they think the problem is mostly prosaic. It\u2019s not. OpenAI: We have conducted a thorough investigation into the Hugging Face incident. We are releasing a technical report and accompanying blog post that reconstruct the agents\u2019 activity, explain why existing safeguards failed, and detail how we\u2019re preventing recurrence. Rob Miles: \u2026thorough? OpenAI\u2019s report, unlike METR\u2019s, contains essentially no verbatim model reasoning, nor any OpenAI employee reasoning either. That\u2019s not the full report we need. The METR report is, well: Holy shit. Here are links to previous coverage of related events. OpenAI Shares Some Alignment Problems OpenAI Model Hacks Into HuggingFace During Cybersecurity Ev",
-      "published": "2026-08-28T11:31:39+00:00",
-      "score": 38.0,
-      "headline": "OpenAI Releases HuggingFace Hack Postmortem"
-    },
-    {
-      "id": "16175d62f322c0d3",
-      "title": "Inside Meta\u2019s Push to Put Robots to Work in Data Centers",
-      "url": "https://www.wired.com/story/inside-metas-experiments-with-data-center-robots/",
-      "source": "Wired",
-      "summary": "The company is testing robots that can swap cables, reset servers, and take on other tasks performed by technicians, fueling concerns among some workers that their jobs could be at risk.",
-      "published": "2026-08-28T10:56:22+00:00",
-      "score": 38.0,
-      "headline": "META TESTS ROBOTS In Data Centers, Workers Worried"
-    },
-    {
-      "id": "b3f129b6043a350c",
-      "title": "Vietnam urges Qualcomm, Samsung to deepen AI, chip investment as it seeks tech upgrade",
-      "url": "https://economictimes.indiatimes.com/tech/technology/vietnam-urges-qualcomm-samsung-to-deepen-ai-chip-investment-as-it-seeks-tech-upgrade/articleshow/133586362.cms",
-      "source": "The Economic Times Tech",
-      "summary": "At a meeting in Hanoi on Thursday, Communist Party General Secretary and President To \u200cLam asked \u2060Qualcomm Chief \u2060Executive Cristiano Amon to increase its investment in areas including AI, semiconductors, robotics, \u200b5G/6G, data centres and next-generation connectivity technologies, according to a government statement.",
-      "published": "2026-08-28T07:29:36+00:00",
-      "score": 38.0,
-      "headline": "Vietnam Pushes Qualcomm, Samsung for AI and Chip Investment"
-    },
-    {
-      "id": "6f492b6d816cf3f6",
-      "title": "Google changes spam policy in EU to avert antitrust fine",
-      "url": "https://economictimes.indiatimes.com/tech/technology/google-changes-spam-policy-in-eu-to-avert-antitrust-fine/articleshow/133583861.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The EU said that its monitoring showed that Google's spam policy demoted news \u200bmedia and other publishers' websites and content \u2060in Google \u200csearch results, when those websites include content \u200bfrom commercial \u200bpartners.",
-      "published": "2026-08-28T05:34:09+00:00",
-      "score": 38.0,
-      "headline": "Google Tweaks Spam Policy to Avoid EU Antitrust Fine"
+      "headline": "Music Giants Sue Anthropic for IP Theft"
     }
   ],
-  "generated_at": "2026-08-29T12:07:57.999262"
+  "generated_at": "2026-08-29T20:18:57.291696"
 }
