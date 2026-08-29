@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Chip Competition & Supply Chain",
+      "description": "Stories covering the intensifying competition in AI chips, including Nvidia smuggling charges, OpenAI's Jalapeno chip challenging Nvidia, and China-related chip developments.",
+      "question": "Is the shift away from Nvidia healthy competition or risky fragmentation?",
+      "button_a": "Competition",
+      "button_b": "Fragmentation",
+      "poll_id": "ai-chip-competition-supply-chain-20260828",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-chip-competition-supply-chain-20260828.html",
+      "started_at": "2026-08-28T02:03:08.334629",
+      "archived_at": "2026-08-29T12:08:48.642205",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Nvidia China Chip Smuggling",
       "description": "Multiple indictments reveal illegal export of advanced AI chips to China, highlighting escalating technology export control enforcement.",
       "question": "Who bears more responsibility for chip smuggling to China?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-us-china-ai-chip-war-20260714.html",
       "started_at": "2026-07-11T14:48:22.084374",
       "archived_at": "2026-07-14T20:57:25.609207",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "EU Regulation of Meta",
-      "description": "European Union takes major enforcement action against Meta's platforms for addictive design features that pose mental health risks.",
-      "question": "Should the EU force Meta to remove infinite scroll and autoplay features?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "eu-regulation-of-meta-20260710",
-      "results": {
-        "pro": 0,
-        "con": 1,
-        "total": 1,
-        "pro_percent": 0,
-        "con_percent": 100
-      },
-      "analysis_url": "/analysis/analysis-eu-regulation-of-meta-20260711.html",
-      "started_at": "2026-07-10T14:30:03.437529",
-      "archived_at": "2026-07-11T14:48:48.775408",
       "reason": "topic_replaced"
     }
   ]

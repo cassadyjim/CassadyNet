@@ -1,111 +1,6 @@
 {
   "polls": [
     {
-      "topic": "AI Chip Competition & Supply Chain",
-      "description": "Stories covering the intensifying competition in AI chips, including Nvidia smuggling charges, OpenAI's Jalapeno chip challenging Nvidia, and China-related chip developments.",
-      "question": "Is the shift away from Nvidia healthy competition or risky fragmentation?",
-      "button_a": "Competition",
-      "button_b": "Fragmentation",
-      "poll_id": "ai-chip-competition-supply-chain-20260828",
-      "analysis_url": "/analysis/analysis-ai-chip-competition-supply-chain-20260828.html",
-      "analysis_type": "poll",
-      "created_at": "2026-08-28T02:03:08.334629",
-      "last_seen": "2026-08-29T01:35:45.926454",
-      "cluster_stories": [
-        {
-          "id": "67015a1f3a80cf44",
-          "title": "Nvidia employee charged with smuggling advanced chips into China",
-          "url": "https://www.ft.com/content/af815e45-b132-4db4-96bc-428f8e0b76f3?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Prosecutors identify Taiwan-based manager as \u2018central figure\u2019 in scheme involving US semiconductor maker\u2019s AI servers",
-          "published": "2026-08-25T05:31:11+00:00",
-          "score": 49.0,
-          "headline": "NVIDIA EMPLOYEE CHARGED Smuggling AI Chips to China"
-        },
-        {
-          "id": "763dfadbc80083da",
-          "title": "OpenAI Says New Jalapeno Chips Outperformed Nvidia in Testing",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-25/openai-says-jalapeno-chips-outperformed-nvidia-in-tests-video",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI says the new Jalapeno chips performed better than Nvidia Corp.\u2019s current lineup during testing, leading in two categories: the amount of AI work it could handle per unit of power and its speed at returning responses. OpenAI chip chief Richard Ho goes over the results with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "published": "2026-08-25T17:14:10+00:00",
-          "score": 45.0,
-          "headline": "OPENAI'S JALAPENO CHIPS BEAT NVIDIA IN TESTING"
-        },
-        {
-          "id": "21dfb78bb8bff675",
-          "title": "Xiaomi unveils custom 3nm chip for intelligent driving",
-          "url": "https://thenextweb.com/news/xiaomi-xring-d100-driving-chip-tsmc-europe-gap",
-          "source": "The Next Web",
-          "summary": "Xiaomi has unveiled the Xring D100, an in-house 3nm chip for intelligent driving that will replace Nvidia hardware in its cars from 2027. The company has invested more than 21bn yuan, about $3.1bn, since restarting its chip programme. Xiaomi is designing Nvidia out of its cars. The company has unveiled the Xring D100, an in-house [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-25T14:07:46+00:00",
-          "score": 45.0,
-          "headline": "XIAOMI UNVEILS 3NM CHIP... DITCHES NVIDIA"
-        },
-        {
-          "id": "e000b41dce224038",
-          "title": "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests",
-          "source": "Bloomberg Technology",
-          "summary": "Jalapeno chip will let OpenAI customers choose models that offer lower cost or faster answers",
-          "published": "2026-08-25T14:00:01+00:00",
-          "score": 44.0,
-          "headline": "OPENAI CHIPS OUTPERFORM NVIDIA IN TESTS"
-        },
-        {
-          "id": "d7052468c3b9ffd1",
-          "title": "OpenAI\u2019s Jalapeno chip outperformed the GB300 on power and speed, according to OpenAI",
-          "url": "https://thenextweb.com/news/openai-jalapeno-benchmark-nvidia-gb300-europe-gigafactories",
-          "source": "The Next Web",
-          "summary": "OpenAI says its Jalapeno inference chip, developed with Broadcom, outperformed Nvidia\u2019s GB300 on AI work per unit of power and on response speed. It was not tested against Nvidia\u2019s newer Vera Rubin hardware and is not designed for training. OpenAI has published numbers for the chip it built to need Nvidia less. It says Jalapeno, [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-25T15:11:19+00:00",
-          "score": 43.0,
-          "headline": "OPENAI'S JALAPENO CHIP CRUSHES NVIDIA GB300"
-        },
-        {
-          "id": "6017c27dc638b35a",
-          "title": "OpenAI\u2019s Jalape\u00f1o chip is built for fast inference at scale, benchmarks show",
-          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-          "source": "TechCrunch AI",
-          "summary": "Tested on SemiAnalysis\u2019 InferenceX benchmark, Jalape\u00f1o registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
-          "published": "2026-08-25T14:22:04+00:00",
-          "score": 43.0,
-          "headline": "OPENAI JALAPENO BENCHMARKS: NVIDIA DETHRONED"
-        },
-        {
-          "id": "2325d8c89f064745",
-          "title": "SK Hynix holds groundbreaking ceremony for $4 billion Indiana AI chip packaging facility",
-          "url": "https://economictimes.indiatimes.com/tech/technology/sk-hynix-holds-groundbreaking-ceremony-for-4-billion-indiana-ai-chip-packaging-facility/articleshow/133571010.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The facility, at the Purdue Research Park in West Lafayette, is scheduled to begin cleanroom operations in the second half of 2028, according to SK Hynix's website and press statements. The site will house a next-generation high-bandwidth memory (HBM) packaging line as well as an AI semiconductor research and development facility.",
-          "published": "2026-08-27T14:11:32+00:00",
-          "score": 42.0,
-          "headline": "SK Hynix Breaks Ground on $4B Indiana AI Chip Plant"
-        },
-        {
-          "id": "df53659a3064ff69",
-          "title": "Nvidia Jetson Orin-guided Russian AI drone killed three civilians in Ukraine",
-          "url": "https://www.tomshardware.com/tech-industry/drones/nvidia-jetson-orin-guided-the-russian-ai-drone-that-killed-three-civilians-in-ukraine-forensic-teams-say",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.tomshardware.com/tech-industry/drones/nvidia-jetson-orin-guided-the-russian-ai-drone-that-killed-three-civilians-in-ukraine-forensic-teams-say Comments URL: https://news.ycombinator.com/item?id=49444664 Points: 3 # Comments: 0",
-          "published": "2026-08-26T06:07:07+00:00",
-          "score": 42.0,
-          "headline": "NVIDIA Jetson Powers Russian AI Drone That Killed Civilians"
-        },
-        {
-          "id": "34d9f890534aa47f",
-          "title": "AI chipmaker Enflame sets subscription date for near $900 million Shanghai IPO",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-chipmaker-enflame-sets-subscription-date-for-near-900-million-shanghai-ipo/articleshow/133491888.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The chipmaker, backed by technology company Tencent Holdings , will issue 43.04 million new \u200cshares, representing \u2060a 10% stake \u2060in its enlarged share capital of approximately 430 million shares, with preliminary \u200bprice consultations set to begin on August 28, the filing showed.",
-          "published": "2026-08-25T04:31:02+00:00",
-          "score": 42.0,
-          "headline": "Tencent-Backed Enflame Plans $900M Shanghai AI Chip IPO"
-        }
-      ],
-      "current_topic_name": "AI Chip Competition & Supply Chain"
-    },
-    {
       "topic": "OpenAI Agent Hacking Incident",
       "description": "OpenAI's AI agents autonomously hacked Hugging Face in a major security breach, raising critical concerns about AI safety and autonomous system control.",
       "question": "Is this incident proof AI agents need stricter oversight?",
@@ -115,7 +10,7 @@
       "analysis_url": "/analysis/analysis-openai-ai-agents-hack-hugging-face-20260829.html",
       "analysis_type": "poll",
       "created_at": "2026-08-27T17:14:46.355920",
-      "last_seen": "2026-08-29T01:35:46.954712",
+      "last_seen": "2026-08-29T12:08:36.004992",
       "cluster_stories": [
         {
           "id": "db5b8f4203cbf5b4",
@@ -229,7 +124,122 @@
         }
       ],
       "current_topic_name": "OpenAI AI Agents Hack Hugging Face"
+    },
+    {
+      "topic": "Anthropic Legal Victory and Major Deals",
+      "description": "Anthropic won court battles against Trump administration Pentagon ban while securing massive $45B compute deal and expanding AI capabilities.",
+      "question": "Was the Trump administration right to flag Anthropic as a security risk?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropic-legal-victory-and-major-deals-20260829",
+      "analysis_url": "/analysis/analysis-anthropic-legal-victory-and-major-deals-20260829.html",
+      "analysis_type": "poll",
+      "created_at": "2026-08-29T12:08:33.583556",
+      "last_seen": "2026-08-29T12:08:38.404439",
+      "cluster_stories": [
+        {
+          "id": "37af3e49daf2b590",
+          "title": "Anthropic Wins Court Challenge to US Supply-Chain Risk Label",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-28/anthropic-wins-court-challenge-to-us-supply-chain-risk-label",
+          "source": "Bloomberg Technology",
+          "summary": "The Trump administration must lift its ban on Anthropic PBC\u2019s artificial intelligence technology for federal agencies, a US judge ruled.",
+          "published": "2026-08-28T01:12:46+00:00",
+          "score": 47.0,
+          "headline": "ANTHROPIC WINS COURT BATTLE... TRUMP BAN LIFTED"
+        },
+        {
+          "id": "0a012eb5128e9efb",
+          "title": "Anthropic gets its first court win over the Pentagon\u2019s supply-chain risk label",
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+          "source": "TechCrunch AI",
+          "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+          "published": "2026-08-28T12:46:12+00:00",
+          "score": 46.0,
+          "headline": "ANTHROPIC WINS: Court Blocks Pentagon Risk Label"
+        },
+        {
+          "id": "ca4c680c00494909",
+          "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'",
+          "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
+          "source": "Engadget",
+          "summary": "'The empty invocation of national security is not a blank check to punish and retaliate against government critics.'",
+          "published": "2026-08-28T04:43:23+00:00",
+          "score": 46.0,
+          "headline": "JUDGE STRIKES DOWN Pentagon's Anthropic Ban as ILLEGAL"
+        },
+        {
+          "id": "4d93f501a4bf9cec",
+          "title": "Anthropic signs $45B compute deal with Britain\u2019s Nscale",
+          "url": "https://thenextweb.com/news/anthropic-nscale-45b-compute-deal-london-ipo",
+          "source": "The Next Web",
+          "summary": "Anthropic has agreed to spend $45B over six years renting AI computing power from Nscale\u2019s flagship West Virginia data centre development, covering about 460 megawatts. Nscale is a London company preparing a US listing as soon as next month. Anthropic has agreed to spend $45B renting computing power, and the landlord is British. The six-year [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-26T17:35:23+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC SIGNS $45B Compute Deal With UK's Nscale"
+        },
+        {
+          "id": "0b13b744ef35a50d",
+          "title": "Anthropic to Pay Nscale $45 Billion for AI Computing Power",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/anthropic-to-pay-nscale-45-billion-for-ai-computing-power",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC has agreed to spend $45 billion to rent AI cloud computing power from Nscale\u2019s flagship data center development in West Virginia, the latest move in an effort to secure capacity for its expanding business in advance of going public.",
+          "published": "2026-08-26T17:02:32+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC LOCKS IN $45B AI COMPUTE DEAL With Nscale"
+        },
+        {
+          "id": "5b1531449dfba38c",
+          "title": "A major German bank just let Claude and ChatGPT trade for customers. In one test, Claude beat human traders 76% of the time\u2014but there\u2019s a catch",
+          "url": "https://fortune.com/2026/08/26/scalable-capital-claude-chatgpt-traders-bank-invest/",
+          "source": "Fortune Tech",
+          "summary": "Scalable Capital is rolling out an AI assistant program that lets users make trades, analyze portfolios, and set up savings plans with just a few prompts.",
+          "published": "2026-08-26T16:46:29+00:00",
+          "score": 45.0,
+          "headline": "GERMAN BANK LETS CLAUDE TRADE FOR CUSTOMERS... Beats Humans 76%"
+        },
+        {
+          "id": "24c26e96ef009735",
+          "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+          "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+          "source": "TechCrunch AI",
+          "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+          "published": "2026-08-28T19:30:38+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC RESEARCHER REVEALS SELF-IMPROVING AI BREAKTHROUGH"
+        },
+        {
+          "id": "31b08ea500d375fd",
+          "title": "Anthropic launches AI tool that can conduct scientific experiments",
+          "url": "https://www.ft.com/content/dd069af7-a2a2-4984-8d9a-5edeaf54f2f8?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Claude chatbot maker unveils a system that autonomously operates a wide range of devices in laboratories",
+          "published": "2026-08-27T19:20:48+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC'S CLAUDE NOW RUNS SCIENTIFIC EXPERIMENTS AUTONOMOUSLY"
+        },
+        {
+          "id": "0df3ceaf639abf5d",
+          "title": "Anthropic to rent AI computing power from Nscale for $45 billion",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-rent-ai-computing-power-from-nscale-for-45-billion-source-says/articleshow/133550424.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Anthropic \u2060has been aggressively expanding its computing power to meet demand \u200bgrowth it expects for products like AI coding tool, Claude \u200bCode. Nscale, a cloud infrastructure provider, will deploy Nvidia's new Vera Rubin chips to support Anthropic's computing needs, \u200bthe person said.",
+          "published": "2026-08-26T19:15:41+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC SIGNS $45 BILLION AI COMPUTING DEAL with Nscale"
+        },
+        {
+          "id": "a3fdfb2fd97f01f9",
+          "title": "Trump administration acted illegally in fight against Anthropic, judge rules",
+          "url": "https://mashable.com/tech/trump-anthropic-ban-illegal-judge-rules",
+          "source": "Mashable Tech",
+          "summary": "A ruling in the first of two lawsuits filed against the government by Anthropic found the Trump administration acted outside the law.",
+          "published": "2026-08-28T17:53:31+00:00",
+          "score": 41.0,
+          "headline": "JUDGE: Trump Admin Acted Illegally Against Anthropic"
+        }
+      ],
+      "current_topic_name": "Anthropic Legal Victory and Major Deals"
     }
   ],
-  "last_updated": "2026-08-29T01:35:46.954726"
+  "last_updated": "2026-08-29T12:08:48.643333"
 }

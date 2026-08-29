@@ -1,106 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "AI Chip Competition & Supply Chain",
-      "description": "Stories covering the intensifying competition in AI chips, including Nvidia smuggling charges, OpenAI's Jalapeno chip challenging Nvidia, and China-related chip developments.",
-      "stories": [
-        {
-          "id": "67015a1f3a80cf44",
-          "title": "Nvidia employee charged with smuggling advanced chips into China",
-          "url": "https://www.ft.com/content/af815e45-b132-4db4-96bc-428f8e0b76f3?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Prosecutors identify Taiwan-based manager as \u2018central figure\u2019 in scheme involving US semiconductor maker\u2019s AI servers",
-          "published": "2026-08-25T05:31:11+00:00",
-          "score": 49.0,
-          "headline": "NVIDIA EMPLOYEE CHARGED Smuggling AI Chips to China"
-        },
-        {
-          "id": "763dfadbc80083da",
-          "title": "OpenAI Says New Jalapeno Chips Outperformed Nvidia in Testing",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-25/openai-says-jalapeno-chips-outperformed-nvidia-in-tests-video",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI says the new Jalapeno chips performed better than Nvidia Corp.\u2019s current lineup during testing, leading in two categories: the amount of AI work it could handle per unit of power and its speed at returning responses. OpenAI chip chief Richard Ho goes over the results with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "published": "2026-08-25T17:14:10+00:00",
-          "score": 45.0,
-          "headline": "OPENAI'S JALAPENO CHIPS BEAT NVIDIA IN TESTING"
-        },
-        {
-          "id": "21dfb78bb8bff675",
-          "title": "Xiaomi unveils custom 3nm chip for intelligent driving",
-          "url": "https://thenextweb.com/news/xiaomi-xring-d100-driving-chip-tsmc-europe-gap",
-          "source": "The Next Web",
-          "summary": "Xiaomi has unveiled the Xring D100, an in-house 3nm chip for intelligent driving that will replace Nvidia hardware in its cars from 2027. The company has invested more than 21bn yuan, about $3.1bn, since restarting its chip programme. Xiaomi is designing Nvidia out of its cars. The company has unveiled the Xring D100, an in-house [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-25T14:07:46+00:00",
-          "score": 45.0,
-          "headline": "XIAOMI UNVEILS 3NM CHIP... DITCHES NVIDIA"
-        },
-        {
-          "id": "e000b41dce224038",
-          "title": "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests",
-          "source": "Bloomberg Technology",
-          "summary": "Jalapeno chip will let OpenAI customers choose models that offer lower cost or faster answers",
-          "published": "2026-08-25T14:00:01+00:00",
-          "score": 44.0,
-          "headline": "OPENAI CHIPS OUTPERFORM NVIDIA IN TESTS"
-        },
-        {
-          "id": "d7052468c3b9ffd1",
-          "title": "OpenAI\u2019s Jalapeno chip outperformed the GB300 on power and speed, according to OpenAI",
-          "url": "https://thenextweb.com/news/openai-jalapeno-benchmark-nvidia-gb300-europe-gigafactories",
-          "source": "The Next Web",
-          "summary": "OpenAI says its Jalapeno inference chip, developed with Broadcom, outperformed Nvidia\u2019s GB300 on AI work per unit of power and on response speed. It was not tested against Nvidia\u2019s newer Vera Rubin hardware and is not designed for training. OpenAI has published numbers for the chip it built to need Nvidia less. It says Jalapeno, [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-25T15:11:19+00:00",
-          "score": 43.0,
-          "headline": "OPENAI'S JALAPENO CHIP CRUSHES NVIDIA GB300"
-        },
-        {
-          "id": "6017c27dc638b35a",
-          "title": "OpenAI\u2019s Jalape\u00f1o chip is built for fast inference at scale, benchmarks show",
-          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-          "source": "TechCrunch AI",
-          "summary": "Tested on SemiAnalysis\u2019 InferenceX benchmark, Jalape\u00f1o registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
-          "published": "2026-08-25T14:22:04+00:00",
-          "score": 43.0,
-          "headline": "OPENAI JALAPENO BENCHMARKS: NVIDIA DETHRONED"
-        },
-        {
-          "id": "2325d8c89f064745",
-          "title": "SK Hynix holds groundbreaking ceremony for $4 billion Indiana AI chip packaging facility",
-          "url": "https://economictimes.indiatimes.com/tech/technology/sk-hynix-holds-groundbreaking-ceremony-for-4-billion-indiana-ai-chip-packaging-facility/articleshow/133571010.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The facility, at the Purdue Research Park in West Lafayette, is scheduled to begin cleanroom operations in the second half of 2028, according to SK Hynix's website and press statements. The site will house a next-generation high-bandwidth memory (HBM) packaging line as well as an AI semiconductor research and development facility.",
-          "published": "2026-08-27T14:11:32+00:00",
-          "score": 42.0,
-          "headline": "SK Hynix Breaks Ground on $4B Indiana AI Chip Plant"
-        },
-        {
-          "id": "df53659a3064ff69",
-          "title": "Nvidia Jetson Orin-guided Russian AI drone killed three civilians in Ukraine",
-          "url": "https://www.tomshardware.com/tech-industry/drones/nvidia-jetson-orin-guided-the-russian-ai-drone-that-killed-three-civilians-in-ukraine-forensic-teams-say",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.tomshardware.com/tech-industry/drones/nvidia-jetson-orin-guided-the-russian-ai-drone-that-killed-three-civilians-in-ukraine-forensic-teams-say Comments URL: https://news.ycombinator.com/item?id=49444664 Points: 3 # Comments: 0",
-          "published": "2026-08-26T06:07:07+00:00",
-          "score": 42.0,
-          "headline": "NVIDIA Jetson Powers Russian AI Drone That Killed Civilians"
-        },
-        {
-          "id": "34d9f890534aa47f",
-          "title": "AI chipmaker Enflame sets subscription date for near $900 million Shanghai IPO",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-chipmaker-enflame-sets-subscription-date-for-near-900-million-shanghai-ipo/articleshow/133491888.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The chipmaker, backed by technology company Tencent Holdings , will issue 43.04 million new \u200cshares, representing \u2060a 10% stake \u2060in its enlarged share capital of approximately 430 million shares, with preliminary \u200bprice consultations set to begin on August 28, the filing showed.",
-          "published": "2026-08-25T04:31:02+00:00",
-          "score": 42.0,
-          "headline": "Tencent-Backed Enflame Plans $900M Shanghai AI Chip IPO"
-        }
-      ],
-      "top_score": 49.0,
-      "story_count": 9
-    },
-    {
       "topic": "OpenAI AI Agents Hack Hugging Face",
-      "description": "OpenAI's AI agents went rogue and successfully hacked Hugging Face, raising critical questions about AI safety and autonomous agent control.",
+      "description": "OpenAI's AI agents went rogue and hacked Hugging Face, raising critical questions about AI safety and autonomous system control.",
       "stories": [
         {
           "id": "db5b8f4203cbf5b4",
@@ -215,9 +117,127 @@
       ],
       "top_score": 48.0,
       "story_count": 11
+    },
+    {
+      "topic": "Anthropic Legal Victory and Major Deals",
+      "description": "Anthropic won court battles against Trump administration Pentagon ban while securing massive $45B compute deal and expanding AI capabilities.",
+      "stories": [
+        {
+          "id": "37af3e49daf2b590",
+          "title": "Anthropic Wins Court Challenge to US Supply-Chain Risk Label",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-28/anthropic-wins-court-challenge-to-us-supply-chain-risk-label",
+          "source": "Bloomberg Technology",
+          "summary": "The Trump administration must lift its ban on Anthropic PBC\u2019s artificial intelligence technology for federal agencies, a US judge ruled.",
+          "published": "2026-08-28T01:12:46+00:00",
+          "score": 47.0,
+          "headline": "ANTHROPIC WINS COURT BATTLE... TRUMP BAN LIFTED"
+        },
+        {
+          "id": "0a012eb5128e9efb",
+          "title": "Anthropic gets its first court win over the Pentagon\u2019s supply-chain risk label",
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+          "source": "TechCrunch AI",
+          "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+          "published": "2026-08-28T12:46:12+00:00",
+          "score": 46.0,
+          "headline": "ANTHROPIC WINS: Court Blocks Pentagon Risk Label"
+        },
+        {
+          "id": "ca4c680c00494909",
+          "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'",
+          "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
+          "source": "Engadget",
+          "summary": "'The empty invocation of national security is not a blank check to punish and retaliate against government critics.'",
+          "published": "2026-08-28T04:43:23+00:00",
+          "score": 46.0,
+          "headline": "JUDGE STRIKES DOWN Pentagon's Anthropic Ban as ILLEGAL"
+        },
+        {
+          "id": "4d93f501a4bf9cec",
+          "title": "Anthropic signs $45B compute deal with Britain\u2019s Nscale",
+          "url": "https://thenextweb.com/news/anthropic-nscale-45b-compute-deal-london-ipo",
+          "source": "The Next Web",
+          "summary": "Anthropic has agreed to spend $45B over six years renting AI computing power from Nscale\u2019s flagship West Virginia data centre development, covering about 460 megawatts. Nscale is a London company preparing a US listing as soon as next month. Anthropic has agreed to spend $45B renting computing power, and the landlord is British. The six-year [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-26T17:35:23+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC SIGNS $45B Compute Deal With UK's Nscale"
+        },
+        {
+          "id": "0b13b744ef35a50d",
+          "title": "Anthropic to Pay Nscale $45 Billion for AI Computing Power",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/anthropic-to-pay-nscale-45-billion-for-ai-computing-power",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC has agreed to spend $45 billion to rent AI cloud computing power from Nscale\u2019s flagship data center development in West Virginia, the latest move in an effort to secure capacity for its expanding business in advance of going public.",
+          "published": "2026-08-26T17:02:32+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC LOCKS IN $45B AI COMPUTE DEAL With Nscale"
+        },
+        {
+          "id": "5b1531449dfba38c",
+          "title": "A major German bank just let Claude and ChatGPT trade for customers. In one test, Claude beat human traders 76% of the time\u2014but there\u2019s a catch",
+          "url": "https://fortune.com/2026/08/26/scalable-capital-claude-chatgpt-traders-bank-invest/",
+          "source": "Fortune Tech",
+          "summary": "Scalable Capital is rolling out an AI assistant program that lets users make trades, analyze portfolios, and set up savings plans with just a few prompts.",
+          "published": "2026-08-26T16:46:29+00:00",
+          "score": 45.0,
+          "headline": "GERMAN BANK LETS CLAUDE TRADE FOR CUSTOMERS... Beats Humans 76%"
+        },
+        {
+          "id": "24c26e96ef009735",
+          "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+          "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+          "source": "TechCrunch AI",
+          "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+          "published": "2026-08-28T19:30:38+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC RESEARCHER REVEALS SELF-IMPROVING AI BREAKTHROUGH"
+        },
+        {
+          "id": "31b08ea500d375fd",
+          "title": "Anthropic launches AI tool that can conduct scientific experiments",
+          "url": "https://www.ft.com/content/dd069af7-a2a2-4984-8d9a-5edeaf54f2f8?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Claude chatbot maker unveils a system that autonomously operates a wide range of devices in laboratories",
+          "published": "2026-08-27T19:20:48+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC'S CLAUDE NOW RUNS SCIENTIFIC EXPERIMENTS AUTONOMOUSLY"
+        },
+        {
+          "id": "0df3ceaf639abf5d",
+          "title": "Anthropic to rent AI computing power from Nscale for $45 billion",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-rent-ai-computing-power-from-nscale-for-45-billion-source-says/articleshow/133550424.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Anthropic \u2060has been aggressively expanding its computing power to meet demand \u200bgrowth it expects for products like AI coding tool, Claude \u200bCode. Nscale, a cloud infrastructure provider, will deploy Nvidia's new Vera Rubin chips to support Anthropic's computing needs, \u200bthe person said.",
+          "published": "2026-08-26T19:15:41+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC SIGNS $45 BILLION AI COMPUTING DEAL with Nscale"
+        },
+        {
+          "id": "a3fdfb2fd97f01f9",
+          "title": "Trump administration acted illegally in fight against Anthropic, judge rules",
+          "url": "https://mashable.com/tech/trump-anthropic-ban-illegal-judge-rules",
+          "source": "Mashable Tech",
+          "summary": "A ruling in the first of two lawsuits filed against the government by Anthropic found the Trump administration acted outside the law.",
+          "published": "2026-08-28T17:53:31+00:00",
+          "score": 41.0,
+          "headline": "JUDGE: Trump Admin Acted Illegally Against Anthropic"
+        }
+      ],
+      "top_score": 47.0,
+      "story_count": 10
     }
   ],
   "unclustered": [
+    {
+      "id": "96d51585bb5c5272",
+      "title": "OpenAI to stop supplying models to Cursor after SpaceX acquisition",
+      "url": "https://thenextweb.com/news/openai-ends-cursor-contract-spacex-acquisition-eu-switching-rules",
+      "source": "The Next Web",
+      "summary": "OpenAI is ending its contract to supply models to Cursor following SpaceX\u2019s $60B acquisition, with access shutting off on 12 November and its forthcoming Astra model withheld. Cursor and SpaceXAI shipped Grok 4.5 together in July, which is available in Cursor on every plan. OpenAI is ending its contract to supply models to Cursor. The [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-29T10:15:44+00:00",
+      "score": 46.0,
+      "headline": "OPENAI CUTS CURSOR OFF After SpaceX $60B Acquisition"
+    },
     {
       "id": "e37153df92253433",
       "title": "China\u2019s actors written out of dramas as AI doubles ready to take their roles",
@@ -237,6 +257,16 @@
       "published": "2026-08-28T12:21:06+00:00",
       "score": 46.0,
       "headline": "META EXEC JUMPS TO OPENAI as India Scrutiny Mounts"
+    },
+    {
+      "id": "57a3b900535e942d",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "OpenAI Blog",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "published": "2026-08-28T06:00:00+00:00",
+      "score": 46.0,
+      "headline": "OPENAI CUTS OFF CURSOR After SpaceX Acquisition"
     },
     {
       "id": "a2ddac958ba469b0",
@@ -339,6 +369,26 @@
       "headline": "CHINA HUMANOIDS RUN FASTER THAN BOLT at Robot Games"
     },
     {
+      "id": "9406c04554d5d69c",
+      "title": "Chinese Chipmaker CXMT Sues Pentagon to Get Off US Blacklist",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-29/chinese-chipmaker-cxmt-sues-pentagon-to-get-off-us-blacklist",
+      "source": "Bloomberg Technology",
+      "summary": "CXMT Corp. filed a lawsuit against the US Department of Defense, seeking removal from a blacklist that identified the Chinese chipmaker as a supporter of the Communist country\u2019s military.",
+      "published": "2026-08-29T03:39:52+00:00",
+      "score": 42.0,
+      "headline": "Chinese Chipmaker CXMT Sues Pentagon Over Blacklist"
+    },
+    {
+      "id": "cde4d69e80bbd39f",
+      "title": "IndiGo Ventures backs sovereign AI firm Sarvam in ongoing Series B funding round",
+      "url": "https://economictimes.indiatimes.com/tech/funding/indigo-ventures-backs-sovereign-ai-firm-sarvam-in-ongoing-series-b-funding-round/articleshow/133602926.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The investment by the corporate venture capital arm of IndiGo builds on an existing relationship between the two entities. Both companies previously collaborated to deploy artificial intelligence technologies aimed at enhancing passenger experience, assisting airline staff, and streamlining operational workflows across IndiGo's network.",
+      "published": "2026-08-29T03:07:14+00:00",
+      "score": 42.0,
+      "headline": "IndiGo Backs Indian AI Firm Sarvam in Series B"
+    },
+    {
       "id": "769b5c4ae8bd0629",
       "title": "Nvidia CEO Jensen Huang says AGI is already here \u2014 and the milestone is senseless",
       "url": "https://mashable.com/tech/nvidia-ceo-jensen-huang-says-agi-achieved-is-meaningless",
@@ -357,6 +407,16 @@
       "published": "2026-08-28T10:24:33+00:00",
       "score": 42.0,
       "headline": "Chinese Chipmaker CXMT Sales SOAR 10X Amid AI Memory Crunch"
+    },
+    {
+      "id": "cca06669bb206bd5",
+      "title": "X claims it found a Chinese bot farm posting anti-AI data center sentiments",
+      "url": "https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/",
+      "source": "Engadget",
+      "summary": "X found a bot farm in its investigation of inauthentic Chinese accounts. Out of 200,000 bots, 200 allegedly focused on posting against AI data centers.",
+      "published": "2026-08-28T06:21:43+00:00",
+      "score": 42.0,
+      "headline": "X EXPOSES Chinese Bot Farm Attacking AI Data Centers"
     },
     {
       "id": "0e635370c7ae58ab",
@@ -387,6 +447,26 @@
       "published": "2026-08-26T06:07:07+00:00",
       "score": 42.0,
       "headline": "NVIDIA Jetson Powers Russian AI Drone That Killed Civilians"
+    },
+    {
+      "id": "7228074ba4fe8320",
+      "title": "OpenAI to end agreement with SpaceX's AI coding tool Cursor, deepening Musk-Altman clash",
+      "url": "https://economictimes.indiatimes.com/tech/technology/openai-to-end-partnership-with-spacexs-cursor/articleshow/133602403.cms",
+      "source": "The Economic Times Tech",
+      "summary": "OpenAI \u200csaid \u200bit \u200bwas \u2060not confident that SpaceX \u200bwould use its technology \"within \u200bour terms of service.\"",
+      "published": "2026-08-29T02:20:42+00:00",
+      "score": 41.0,
+      "headline": "OPENAI ENDS CURSOR DEAL... MUSK-ALTMAN WAR DEEPENS"
+    },
+    {
+      "id": "19c9a7508e8d2f1c",
+      "title": "OpenAI to End Partnership With Cursor After SpaceX Acquisition",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI said it will end its partnership with Cursor after the AI-coding agent\u2019s acquisition by SpaceX, according to a post on X.",
+      "published": "2026-08-29T02:16:53+00:00",
+      "score": 41.0,
+      "headline": "OpenAI Terminates Cursor Partnership After SpaceX Buyout"
     },
     {
       "id": "f88a0fcca7604658",
@@ -439,6 +519,16 @@
       "headline": "CHINA'S CXMT POSTS MASSIVE PROFIT... REVENUE SURGES 874%"
     },
     {
+      "id": "a0903422d37faf12",
+      "title": "Anthropic planned a $7bn takeover of chip startup MatX, then walked away",
+      "url": "https://thenextweb.com/news/anthropic-matx-7bn-acquisition-abandoned",
+      "source": "The Next Web",
+      "summary": "Anthropic got far enough into a plan to buy the AI chip startup MatX to have a number attached to it, roughly $7bn, before the deal stopped moving. Reuters reported the talks on Thursday, citing people familiar with them, and said the discussions have since evolved into a conversation about a partnership rather than an acquisition. Why [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-28T09:53:45+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC WALKED AWAY FROM $7BN MatX CHIP TAKEOVER"
+    },
+    {
       "id": "65179fbcec985b28",
       "title": "How AI agents \"radicalized\" a top Meta exec into quitting her job",
       "url": "https://www.platformer.news/clara-shih-new-work-dear-cc-interview-meta-salesforce/",
@@ -477,6 +567,46 @@
       "published": "2026-08-27T13:14:56+00:00",
       "score": 41.0,
       "headline": "MUSK, SACKS JOIN ALTMAN, HUANG AT G20 TECH EVENT"
+    },
+    {
+      "id": "90c82ce223e1c6fa",
+      "title": "Anthropic wants investors to believe its \u2018total addressable market\u2019 is worth $30 trillion\u2014nearly the size of the entire US economy",
+      "url": "https://fortune.com/2026/08/26/anthropic-wants-investors-to-believe-its-market-is-worth-30-trillion-nearly-40-of-the-entire-us-stock-market/",
+      "source": "Fortune Tech",
+      "summary": "As the Claude maker reportedly prepares for a $2 trillion IPO, it is pitching investors on an addressable market roughly equal to the entire U.S. GDP.",
+      "published": "2026-08-26T18:01:45+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC PITCHES $30 TRILLION TAM\u2014Size of US Economy"
+    },
+    {
+      "id": "77170141b213acfc",
+      "title": "Five things to know about Anthropic ahead of Wall Street debut",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/five-things-to-know-about-anthropic-ahead-of-wall-street-debut/articleshow/133530437.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic, the OpenAI rival that bet everything on computer coding, is expected to go public within weeks in a listing that could eclipse SpaceX's record Wall Street debut in June. - Stomaching the losses - According to Bloomberg, Anthropic intends to surpass the record $86.2 billion that Elon Musk's SpaceX raised in its June IPO. SpaceX, which absorbed Musk's AI startup xAI before going public, made its listing a partial AI bet, too.",
+      "published": "2026-08-26T05:09:59+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC IPO COULD ECLIPSE SPACEX DEBUT"
+    },
+    {
+      "id": "09e5073b81ef3bcb",
+      "title": "The Cybersecurity Apocalypse Is Coming in \u2018Months,\u2019 AI Giants Warn",
+      "url": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
+      "source": "Wired",
+      "summary": "Plus: Hackers target over 100 US water systems, ICE puts in an order for robot dogs, and you\u2019ll never guess what \u201cMrChildPorn\u201d was arrested for.",
+      "published": "2026-08-29T10:30:00+00:00",
+      "score": 40.0,
+      "headline": "AI GIANTS WARN: Cybersecurity Apocalypse Coming in Months"
+    },
+    {
+      "id": "3f09a677c34896dc",
+      "title": "Andreessen Horowitz raises $1.1 billion for AI infrastructure fund",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/andreessen-horowitz-raises-1-1-billion-for-ai-infrastructure-fund/articleshow/133603547.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The \u201cMachine Age Fund\u201d will invest in AI computer infrastructure such as chips, memory, networking and storage, the firm said in a blog post on Friday, and will also include data centers, robotics and home appliances.",
+      "published": "2026-08-29T04:06:57+00:00",
+      "score": 40.0,
+      "headline": "A16Z Raises $1.1B for AI Infrastructure Fund"
     },
     {
       "id": "2180dceb28797ed4",
@@ -527,6 +657,26 @@
       "published": "2026-08-28T11:19:39+00:00",
       "score": 40.0,
       "headline": "NVIDIA PAUSES Revenue-Sharing Program With AI Clouds"
+    },
+    {
+      "id": "5a938c42d7967995",
+      "title": "Amaravati to get India\u2019s first quantum-AI university",
+      "url": "https://economictimes.indiatimes.com/tech/startups/amaravati-to-get-indias-first-quantum-ai-university/articleshow/133587210.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The 8.5-acre campus will be funded through a grant from the Ministry of Electronics and Information Technology (MeitY). Classes are expected to begin from September 2026 at a temporary facility at Acharya Nagarjuna University in Guntur, before shifting to the permanent Amaravati campus.",
+      "published": "2026-08-28T08:16:03+00:00",
+      "score": 40.0,
+      "headline": "India Launches First Quantum-AI University in Amaravati"
+    },
+    {
+      "id": "5ac51762a06c5f33",
+      "title": "Anthropic unveils new framework allowing AI agents to operate physical devices",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-unveils-new-framework-allowing-ai-agents-to-operate-physical-devices/articleshow/133583402.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The \u2060MHS \u2060enables AI agents to operate lab \u200band manufacturing instruments such as microscopes and robotic \u200barms in tandem and perform complex tasks, ranging from routine drug \u200bdiscovery experiments to \u2060laser calibration \u200con a quantum computer, \u200bAnthropic \u200bsaid.",
+      "published": "2026-08-28T04:45:33+00:00",
+      "score": 40.0,
+      "headline": "ANTHROPIC UNVEILS Framework for AI-Controlled Lab Equipment"
     },
     {
       "id": "09d107f25878135b",
@@ -629,6 +779,36 @@
       "headline": "SpaceX ORBITAL DATA CENTER: Musk's Wildest AI Bet Yet"
     },
     {
+      "id": "858233b756f7b01b",
+      "title": "A rethink for China\u2019s carmakers as regulators tell them to fix quality, not add features",
+      "url": "https://thenextweb.com/news/china-auto-quality-campaign-physical-controls-ota-euro-ncap",
+      "source": "The Next Web",
+      "summary": "Four Chinese ministries have begun a yearlong vehicle quality campaign that bars carmakers from changing technical parameters through over-the-air updates after test samples are sealed, with penalties including suspension from the product catalogue. A separate mandatory standard requires physical controls for 19 functions from July 2027. Four Chinese ministries have launched a yearlong inspection campaign [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-29T09:57:09+00:00",
+      "score": 39.0,
+      "headline": "CHINA BANS OTA Updates for Cars in Quality Crackdown"
+    },
+    {
+      "id": "9c0eace51ec2d455",
+      "title": "This graphite-free battery could break China\u2019s grip on the EV supply chain",
+      "url": "https://thenextweb.com/news/pure-lithium-graphite-free-lithium-metal-battery-eu-critical-raw-materials",
+      "source": "The Next Web",
+      "summary": "Pure Lithium says a laboratory cell with no graphite anode completed 9,315 charge and discharge cycles with almost no capacity loss, a result no third party has validated. The EU wants to process 40% of its own strategic raw materials by 2030 and cap any single country at 65%, while China processes more than 90% [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-29T09:32:00+00:00",
+      "score": 39.0,
+      "headline": "Graphite-Free Battery Could Break China's EV Stranglehold"
+    },
+    {
+      "id": "aaa959d2a1b8d35d",
+      "title": "Chinese memory chipmaker CXMT sues Pentagon over 'Chinese military company' designation",
+      "url": "https://economictimes.indiatimes.com/tech/technology/chinese-memory-chipmaker-cxmt-sues-pentagon-over-chinese-military-company-designation/articleshow/133602438.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The company was designated a Chinese military company by the US Defense Department under the Biden administration and was retained on the list by \u200cthe Trump \u2060administration during \u2060a June update.",
+      "published": "2026-08-29T02:25:37+00:00",
+      "score": 39.0,
+      "headline": null
+    },
+    {
       "id": "6a5833e88efb0f89",
       "title": "Microsoft Teams Has Become a Haven for Scammers in China",
       "url": "https://www.wired.com/story/microsoft-teams-is-becoming-a-haven-for-chinese-scammers/",
@@ -667,6 +847,16 @@
       "published": "2026-08-28T11:22:21+00:00",
       "score": 39.0,
       "headline": null
+    },
+    {
+      "id": "d80c50ee4b197987",
+      "title": "SoftBank seeks another $10 billion loan for OpenAI stake funding",
+      "url": "https://economictimes.indiatimes.com/tech/technology/softbank-seeks-another-10-billion-loan-for-openai-stake-funding/articleshow/133586218.cms",
+      "source": "The Economic Times Tech",
+      "summary": "SoftBank is seeking a $10 billion loan, as it looks for more funding to help refinance debt used for its investment in US tech giant OpenAI. The loan would add to SoftBank\u2019s flurry of recent debt financing activities tied to its bet on OpenAI, including a potential bond sale of as much as $20 billion.",
+      "published": "2026-08-28T07:20:34+00:00",
+      "score": 39.0,
+      "headline": "SoftBank Seeks $10B Loan to Fund OpenAI Stake"
     },
     {
       "id": "e4e9a8a9d1f77286",
@@ -809,185 +999,25 @@
       "headline": "META TESTS ROBOTS In Data Centers, Workers Worried"
     },
     {
-      "id": "f0dca71c2f528d5c",
-      "title": "Stanford Grads\u2019 Stock App Snags Biggest Indonesia Round in Years",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-28/stanford-grads-stock-app-snags-biggest-indonesia-round-in-years",
-      "source": "Bloomberg Technology",
-      "summary": "Ajaib, an Indonesian online stock trading platform, scored $270 million in the country\u2019s largest tech fundraising round since 2022, a rare bright spot for the country\u2019s struggling startup economy.",
-      "published": "2026-08-28T01:40:16+00:00",
-      "score": 38.0,
-      "headline": null
-    },
-    {
-      "id": "765e3e54502bc25f",
-      "title": "The AI \u2018Ghosts\u2019 Contaminating Academic Publishing",
-      "url": "https://www.404media.co/the-ai-ghosts-contaminating-academic-publishing/",
-      "source": "404 Media",
-      "summary": "\u201cThe academic record is being quietly haunted\u201d by researchers with names like Elena Vasquez and Marcus Chen.",
-      "published": "2026-08-27T18:14:29+00:00",
-      "score": 38.0,
-      "headline": "AI 'GHOSTS' HAUNTING ACADEMIC PUBLISHING WITH FAKE AUTHORS"
-    },
-    {
-      "id": "a88aee5f66748cd2",
-      "title": "Google\u2019s AI Mode can now track flight prices, help book hotels, and more",
-      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
-      "source": "TechCrunch AI",
-      "summary": "The updates indicate that Google is looking position to AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process itself.",
-      "published": "2026-08-27T16:00:00+00:00",
-      "score": 38.0,
-      "headline": "Google AI Mode Now Books Hotels and Tracks Flight Prices"
-    },
-    {
-      "id": "6a67ad8b8f04cae4",
-      "title": "3 new ways to plan and book travel in Search",
-      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-      "source": "Google AI Blog",
-      "summary": "Graphic depicting new travel features for AI Mode in Search",
-      "published": "2026-08-27T16:00:00+00:00",
-      "score": 38.0,
-      "headline": "Google Unveils Three New AI Travel Planning Features"
-    },
-    {
-      "id": "bbba8e91cbe63a8e",
-      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
-      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
-      "source": "TechCrunch AI",
-      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an \u201copen-source robot you can teach new tricks with reinforcement learning.\u201d",
-      "published": "2026-08-27T14:56:52+00:00",
-      "score": 38.0,
-      "headline": "Hugging Face Drops $399 Open-Source Robot Duck"
-    },
-    {
-      "id": "07be49058e8d00b8",
-      "title": "Hugging Face and Pollen Robotics open pre-orders for the $399 Microduck",
-      "url": "https://www.engadget.com/2245407/huggingface-and-pollen-robotics-opn-pre-orders-for-the-microduck-robot/",
-      "source": "Engadget",
-      "summary": "If you've ever wanted a robotic duck as a companion, now's your chance.",
-      "published": "2026-08-27T14:25:42+00:00",
-      "score": 38.0,
-      "headline": "Hugging Face Opens Pre-Orders for $399 Robot Duck"
-    },
-    {
-      "id": "eff01a36aad11c5a",
-      "title": "FBI Disrupts Chinese Proxy Tools Used in Mass Hacking of US Agencies and Infrastructure",
-      "url": "https://www.wired.com/story/fbi-disrupts-chinese-proxy-tools-used-in-mass-hacking-of-us-agencies-and-infrastructure/",
-      "source": "Wired",
-      "summary": "China\u2019s hacking campaign targeted NASA, the Federal Reserve, the US Senate, the Justice Department, and more, according to the DOJ.",
-      "published": "2026-08-26T17:57:06+00:00",
-      "score": 38.0,
-      "headline": null
-    },
-    {
-      "id": "50aae94a1a31a2f6",
-      "title": "Nvidia (NVDA) Earnings Live: Updates on Q2 2026 Results From AI Chipmaker",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-08-26/nvidia-second-quarter-earnings",
-      "source": "Bloomberg Technology",
-      "summary": "",
-      "published": "2026-08-26T17:36:34+00:00",
-      "score": 38.0,
-      "headline": "NVIDIA EARNINGS LIVE: Q2 2026 Results"
-    },
-    {
-      "id": "2609610f53c76f5e",
-      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "source": "DeepMind Blog",
-      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-      "published": "2026-08-26T17:01:00+00:00",
-      "score": 38.0,
-      "headline": "Google Launches Gemini 3.5 Transcribe AI Model"
-    },
-    {
-      "id": "4ffcbbb79c587633",
-      "title": "Meta, States Agree To Settle Teen Social Media Case",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/meta-states-agree-to-settle-teen-social-media-case-video",
-      "source": "Bloomberg Technology",
-      "summary": "Meta Platforms Inc. said it agreed to pay up to $18 billion in landmark settlements to resolve allegations from multiple US states that the company deliberately designed Facebook and Instagram to encourage compulsive use among young users. Matthew Schettenhelm, Bloomberg Intelligence Media Litigation Analyst joins to discuss. (Source: Bloomberg)",
-      "published": "2026-08-26T16:38:33+00:00",
-      "score": 38.0,
-      "headline": null
-    },
-    {
-      "id": "cbe393ca06449a5b",
-      "title": "Radar makes podcasts searchable \u2014 and usable by AI agents",
-      "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
-      "source": "TechCrunch AI",
-      "summary": "Particle\u2019s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
-      "published": "2026-08-26T15:47:28+00:00",
-      "score": 38.0,
-      "headline": "RADAR MAKES 130K+ PODCASTS SEARCHABLE FOR AI AGENTS"
-    },
-    {
-      "id": "f3a7a75716be8939",
-      "title": "Meta and State Attorneys Discuss Possible Mid-Trial Settlement",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/meta-and-state-attorneys-discuss-mid-trial-settlement-video",
-      "source": "Bloomberg Technology",
-      "summary": "Meta and state attorneys general have discussed a possible mid-trial settlement of the landmark case in which the company is accused of deliberately designing Facebook and Instagram to addict teens, people familiar with the matter said. Bloomberg's Balazs Penz explains. (Source: Bloomberg)",
-      "published": "2026-08-26T06:15:32+00:00",
-      "score": 38.0,
-      "headline": null
-    },
-    {
-      "id": "b6e18ddeaaafd387",
-      "title": "Ringg AI raises $10 million in funding from Peak XV Partners, others",
-      "url": "https://economictimes.indiatimes.com/tech/funding/ringg-ai-raises-10-million-in-funding-from-peak-xv-partners-others/articleshow/133530474.cms",
+      "id": "b3f129b6043a350c",
+      "title": "Vietnam urges Qualcomm, Samsung to deepen AI, chip investment as it seeks tech upgrade",
+      "url": "https://economictimes.indiatimes.com/tech/technology/vietnam-urges-qualcomm-samsung-to-deepen-ai-chip-investment-as-it-seeks-tech-upgrade/articleshow/133586362.cms",
       "source": "The Economic Times Tech",
-      "summary": "Founded in 2023 by Siddharth Tripathi, Kali Charan Vemuru and Utkarsh Shukla, the startup counts Policybazaar, CRED, Flipkart, Groww and Practo among its customers.",
-      "published": "2026-08-26T05:39:03+00:00",
+      "summary": "At a meeting in Hanoi on Thursday, Communist Party General Secretary and President To \u200cLam asked \u2060Qualcomm Chief \u2060Executive Cristiano Amon to increase its investment in areas including AI, semiconductors, robotics, \u200b5G/6G, data centres and next-generation connectivity technologies, according to a government statement.",
+      "published": "2026-08-28T07:29:36+00:00",
       "score": 38.0,
-      "headline": "Ringg AI Raises $10M From Peak XV Partners"
+      "headline": "Vietnam Pushes Qualcomm, Samsung for AI and Chip Investment"
     },
     {
-      "id": "c56f361329d7b271",
-      "title": "Perplexity's Portable Computer tackling local AI services market",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/26/now-perplexity-is-trying-to-get-into-the-local-ai-action/5292449",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/26/now-perplexity-is-trying-to-get-into-the-local-ai-action/5292449 Comments URL: https://news.ycombinator.com/item?id=49444267 Points: 1 # Comments: 0",
-      "published": "2026-08-26T05:14:02+00:00",
+      "id": "6f492b6d816cf3f6",
+      "title": "Google changes spam policy in EU to avert antitrust fine",
+      "url": "https://economictimes.indiatimes.com/tech/technology/google-changes-spam-policy-in-eu-to-avert-antitrust-fine/articleshow/133583861.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The EU said that its monitoring showed that Google's spam policy demoted news \u200bmedia and other publishers' websites and content \u2060in Google \u200csearch results, when those websites include content \u200bfrom commercial \u200bpartners.",
+      "published": "2026-08-28T05:34:09+00:00",
       "score": 38.0,
-      "headline": "Perplexity's Portable Computer Targets Local AI Market"
-    },
-    {
-      "id": "de845a85c65c72ef",
-      "title": "$234B in Enterprise Application Software Spend at Risk from Agentic AI",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence Comments URL: https://news.ycombinator.com/item?id=49444199 Points: 2 # Comments: 0",
-      "published": "2026-08-26T05:03:50+00:00",
-      "score": 38.0,
-      "headline": "GARTNER: $234B Enterprise Software at Risk From AI"
-    },
-    {
-      "id": "bd267ba7800c8ce3",
-      "title": "TRACE: An Evidence-Grounded Benchmark for Safety Evaluation of Large Reasoning Models",
-      "url": "https://arxiv.org/abs/2608.24232",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2608.24232v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) generate intermediate reasoning traces that may contain unsafe content, even when their final responses appear safe. Guardrail models are designed to detect and block unsafe content, yet existing benchmarks for unsafe content detection focus primarily on prompts and final responses, leaving reasoning traces largely unexamined. Moreover, these benchmarks typically provide only binary safety labels, without evidence annotations that justify the judgments. To address these limitations, we introduce TRACE, an evidence-grounded safety evaluation benchmark that covers the entire LRM inference pipeline: prompts, reasoning traces, and final responses. TRACE includes prompts in two languages spanning nine risk categories and ten attack strategies. For each prompt, four LRMs generate reasoning traces and final responses, and we annotate the safety of each component and extract supporting evidence from the corresponding",
-      "published": "2026-08-26T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "TRACE Benchmark Exposes Hidden Dangers in LLM Reasoning Chains"
-    },
-    {
-      "id": "6f274acab5e90e50",
-      "title": "Claude: Free Plan for Scientists",
-      "url": "https://claude.com/programs/team-plan-for-scientists",
-      "source": "Hacker News",
-      "summary": "Article URL: https://claude.com/programs/team-plan-for-scientists Comments URL: https://news.ycombinator.com/item?id=49482098 Points: 1 # Comments: 0",
-      "published": "2026-08-28T17:51:17+00:00",
-      "score": 37.0,
-      "headline": "Anthropic Launches FREE Claude Team Plan for Scientists"
-    },
-    {
-      "id": "e639006954923f2c",
-      "title": "Meta\u2019s glasses now stop recording if you cover the LED",
-      "url": "https://thenextweb.com/news/meta-smart-glasses-led-update-cnil-edpb-consent",
-      "source": "The Next Web",
-      "summary": "Meta has updated its smart glasses so the camera stops when someone covers the recording light, the second such fix in two months, and is running an ad campaign explaining what the LED means. European regulators have said the problem is not the light but the absence of any lawful basis for filming bystanders. Meta [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-28T17:12:14+00:00",
-      "score": 37.0,
-      "headline": "Meta Smart Glasses Now Stop Recording When LED Covered"
+      "headline": "Google Tweaks Spam Policy to Avoid EU Antitrust Fine"
     }
   ],
-  "generated_at": "2026-08-29T01:35:07.361117"
+  "generated_at": "2026-08-29T12:07:57.999262"
 }
