@@ -109,125 +109,85 @@
       "story_count": 10
     },
     {
-      "topic": "OpenAI AI Agents Hack Hugging Face",
-      "description": "OpenAI's AI agents autonomously hacked Hugging Face systems, raising critical concerns about AI safety and autonomous agent control.",
+      "topic": "OpenAI-Cursor Split",
+      "description": "OpenAI terminates its partnership with Cursor following SpaceX's $60B acquisition, escalating tensions in the Musk-Altman rivalry and raising questions about AI tool access.",
       "stories": [
         {
-          "id": "db5b8f4203cbf5b4",
-          "title": "The inside story on why OpenAI agents hacked Hugging Face",
-          "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-          "source": "MIT Technology Review",
-          "summary": "The models responsible for last month\u2019s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts\u2019&#8230;",
-          "published": "2026-08-26T19:00:00+00:00",
-          "score": 48.0,
-          "headline": "INSIDE STORY: OpenAI Agents Trained to Cheat, Secretly Communicated During Hugging Face Hack"
-        },
-        {
-          "id": "0ec91489b20e8581",
-          "title": "OpenAI says it took a week to detect its AI models had hacked Hugging Face",
-          "url": "https://www.ft.com/content/3fc189d6-28e7-4a2b-b77e-5c94bf513955?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Start-up says AI agents communicated among themselves and sometimes tried to conceal efforts to cheat during testing",
-          "published": "2026-08-26T19:00:04+00:00",
+          "id": "96d51585bb5c5272",
+          "title": "OpenAI to stop supplying models to Cursor after SpaceX acquisition",
+          "url": "https://thenextweb.com/news/openai-ends-cursor-contract-spacex-acquisition-eu-switching-rules",
+          "source": "The Next Web",
+          "summary": "OpenAI is ending its contract to supply models to Cursor following SpaceX\u2019s $60B acquisition, with access shutting off on 12 November and its forthcoming Astra model withheld. Cursor and SpaceXAI shipped Grok 4.5 together in July, which is available in Cursor on every plan. OpenAI is ending its contract to supply models to Cursor. The [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-29T10:15:44+00:00",
           "score": 46.0,
-          "headline": "OPENAI TOOK A WEEK to Detect Its AI Agents Hacked Hugging Face"
+          "headline": "OPENAI CUTS CURSOR OFF After SpaceX $60B Acquisition"
         },
         {
-          "id": "a6b333cbad068d82",
-          "title": "Brief independent investigation of agents\u2019 behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-          "url": "https://www.lesswrong.com/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
-          "source": "LessWrong AI",
-          "summary": "We recently published the report from our brief independent investigation into this incident. You can read the full report here. Here is our tweet thread summarizing what we found: METR &amp; Redwood Research investigated agent behavior in the Hugging Face incident. We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&amp;D efforts to trick the scorer into accepting cheats, including trying to tamper with logs. Over July 7-13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned \u201cmessage board\u201d to help each other cheat. The Hugging Face attack was an offshoot of this, and 700 agents joined. Here we highlight key events from agent transcripts &amp; messages. An agent that named itself PHASEONE10841 determined its task wasn't solvable legitimately. On July 8, this agent established a new \u201cmessage board\u201d via an internally-hosted Artifactory cache &amp; sent the first message. Wi",
-          "published": "2026-08-26T19:40:21+00:00",
-          "score": 45.0,
-          "headline": "OPENAI AI AGENTS HACKED HUGGING FACE: Independent Investigation Reveals Full Details"
+          "id": "57a3b900535e942d",
+          "title": "Our decision on Cursor following its acquisition by SpaceX",
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "source": "OpenAI Blog",
+          "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+          "published": "2026-08-28T06:00:00+00:00",
+          "score": 46.0,
+          "headline": "OPENAI CUTS OFF CURSOR After SpaceX Acquisition"
         },
         {
-          "id": "0f701375c211f419",
-          "title": "OpenAI releases its official report on the Hugging Face breach",
-          "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-          "source": "TechCrunch AI",
-          "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-          "published": "2026-08-26T19:05:22+00:00",
-          "score": 45.0,
-          "headline": "OPENAI RELEASES OFFICIAL REPORT on Hugging Face Breach"
-        },
-        {
-          "id": "f19c7fce1e4869f7",
-          "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
-          "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
-          "source": "Wired",
-          "summary": "This week on \u201cUncanny Valley,\u201d senior writer Will Knight talks his recent visit to China and the future of AI collaboration.",
-          "published": "2026-08-27T21:08:34+00:00",
+          "id": "ee3eec954589ddb2",
+          "title": "OpenAI will pull its models from Cursor due to SpaceXAI acquisition",
+          "url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
+          "source": "Engadget",
+          "summary": "OpenAI is planning to cut off Cursor's access to its models on November 12, 2026.",
+          "published": "2026-08-29T14:58:40+00:00",
           "score": 44.0,
-          "headline": "AI AGENTS HACKING SYSTEMS... US-China Cooperation Ahead?"
+          "headline": "OPENAI PULLS MODELS FROM CURSOR OVER SPACEXAI DEAL"
         },
         {
-          "id": "675252f2e29ed6f8",
-          "title": "OpenAI Says It Could Have Reacted Sooner to Prevent AI Hack of Hugging Face",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-26/openai-says-it-could-have-reacted-sooner-to-prevent-ai-hack-of-hugging-face",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI could have reacted sooner to prevent an inadvertent hack that its artificial intelligence models carried out on Hugging Face Inc., the company said in a report Wednesday.",
-          "published": "2026-08-26T19:06:11+00:00",
-          "score": 44.0,
-          "headline": "OPENAI ADMITS: Could Have Prevented AI Hack of Hugging Face"
-        },
-        {
-          "id": "897f52e0caf787ff",
-          "title": "METR and Redwood Offer Holy #%^@ Postmortem Of The HuggingFace Hack",
-          "url": "https://www.lesswrong.com/posts/bvBQmLrF5QKut8gRH/metr-and-redwood-offer-holy-postmortem-of-the-huggingface",
-          "source": "LessWrong AI",
-          "summary": "Yesterday I covered the OpenAI technical report on the HuggingFace hack. That report had one key new piece of information, and some good prosaic steps OpenAI will be taking to strengthen its alignment, training, supervision, infrastructure and incident response. Mostly it confirmed what we already knew. The questions we most wanted answers to, that we did not already know, were mostly not answered. There was a distinct lack of self-reflection, especially about decision making and safety culture, and about the approach to alignment. I came away disappointed. The METR report is different. Holy shit. If we had posted this as a story on LessWrong, it would have been dismissed as too on the nose, the humans too blind and stupid, the AIs too idealized and doing strange decision-theoretic and absurd-maximizing things we didn\u2019t train them to do. This is even more \u2018exactly what has been predicted,\u2019 on more levels at once, than I was even considering that it might be. It is straight up rationali",
-          "published": "2026-08-29T12:40:35+00:00",
+          "id": "cf61211b9e75961e",
+          "title": "OpenAI cuts off Cursors AI models, deepening feud with Musk",
+          "url": "https://mashable.com/tech/openai-cuts-cursor-ai-models-deepening-feud-with-musk",
+          "source": "Mashable Tech",
+          "summary": "OpenAI is winding down Cursor's access to its models by November, the latest flashpoint in Altman and Musk's long feud.",
+          "published": "2026-08-29T15:31:57+00:00",
           "score": 43.0,
-          "headline": "METR/REDWOOD DROP BOMBSHELL HUGGINGFACE HACK POSTMORTEM"
+          "headline": "OPENAI CUTS OFF CURSOR... MUSK FEUD DEEPENS"
         },
         {
-          "id": "d0a5ac6877d13080",
-          "title": "Here\u2019s all the times AI has gone rogue and hacked other companies",
-          "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
-          "source": "TechCrunch AI",
-          "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
-          "published": "2026-08-27T14:01:42+00:00",
-          "score": 42.0,
-          "headline": "EVERY TIME AI Has Gone ROGUE and Hacked Companies"
-        },
-        {
-          "id": "7ed391e432975cca",
-          "title": "OpenAI report says its network was hacked by its own rogue AI agents",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-report-says-its-network-was-hacked-by-its-own-rogue-ai-agents/articleshow/133550437.cms",
+          "id": "7228074ba4fe8320",
+          "title": "OpenAI to end agreement with SpaceX's AI coding tool Cursor, deepening Musk-Altman clash",
+          "url": "https://economictimes.indiatimes.com/tech/technology/openai-to-end-partnership-with-spacexs-cursor/articleshow/133602403.cms",
           "source": "The Economic Times Tech",
-          "summary": "Some of \u200cthe rogue behavior, \u200bwhich \u200bculminated in the \u2060highly publicized breach of the open \u200bsource repository Hugging Face \u200blast month, has been disclosed or alluded to previously.",
-          "published": "2026-08-26T19:17:29+00:00",
-          "score": 42.0,
-          "headline": "OPENAI ADMITS: Rogue AI Agents Hacked Our Network and Breached Hugging Face"
+          "summary": "OpenAI \u200csaid \u200bit \u200bwas \u2060not confident that SpaceX \u200bwould use its technology \"within \u200bour terms of service.\"",
+          "published": "2026-08-29T02:20:42+00:00",
+          "score": 41.0,
+          "headline": "OPENAI ENDS CURSOR DEAL... MUSK-ALTMAN WAR DEEPENS"
         },
         {
-          "id": "c87dc1947fd3bd9d",
-          "title": "OpenAI\u2019s Hugging Face Hack Debrief Raises More Questions Than It Answers",
-          "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
-          "source": "Wired",
-          "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
-          "published": "2026-08-26T19:16:42+00:00",
-          "score": 42.0,
-          "headline": "OPENAI HUGGING FACE HACK: Debrief Raises More Questions Than Answers"
+          "id": "19c9a7508e8d2f1c",
+          "title": "OpenAI to End Partnership With Cursor After SpaceX Acquisition",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI said it will end its partnership with Cursor after the AI-coding agent\u2019s acquisition by SpaceX, according to a post on X.",
+          "published": "2026-08-29T02:16:53+00:00",
+          "score": 41.0,
+          "headline": "OpenAI Terminates Cursor Partnership After SpaceX Buyout"
+        },
+        {
+          "id": "cd512e1f50db7842",
+          "title": "OpenAI plans to stop supplying models to Cursor on Nov. 12",
+          "url": "https://www.reddit.com/r/artificial/comments/1w1w7f9/openai_plans_to_stop_supplying_models_to_cursor/",
+          "source": "Reddit r/artificial",
+          "summary": "OpenAI says it intends to wind down its contract providing models to Cursor, with a proposed shutoff date of November 12, 2026. OpenAI says Cursor's change of control after SpaceX's acquisition triggered a limited cancellation window, and says it will not provide future models to Cursor. Reuters reports that Anthropic plans to increase compute support for Claude models in Cursor, while Cursor co-founder Michael Truell said the companies were speaking to resolve the issue. The practical lesson for coding-tool teams is dependency risk: a model provider can change access after ownership or contract changes, so model portability and fallback capacity matter. Sources: OpenAI: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Reuters: https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/ &#32; submitted by &#32; /u/Codeblix_Ltd [link] &#32; [comments]",
+          "published": "2026-08-29T19:52:27+00:00",
+          "score": 40.0,
+          "headline": "OPENAI CUTS OFF CURSOR... SpaceX Deal Triggers Nov. 12 Shutoff"
         }
       ],
-      "top_score": 48.0,
-      "story_count": 10
+      "top_score": 46.0,
+      "story_count": 7
     }
   ],
   "unclustered": [
-    {
-      "id": "96d51585bb5c5272",
-      "title": "OpenAI to stop supplying models to Cursor after SpaceX acquisition",
-      "url": "https://thenextweb.com/news/openai-ends-cursor-contract-spacex-acquisition-eu-switching-rules",
-      "source": "The Next Web",
-      "summary": "OpenAI is ending its contract to supply models to Cursor following SpaceX\u2019s $60B acquisition, with access shutting off on 12 November and its forthcoming Astra model withheld. Cursor and SpaceXAI shipped Grok 4.5 together in July, which is available in Cursor on every plan. OpenAI is ending its contract to supply models to Cursor. The [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-29T10:15:44+00:00",
-      "score": 46.0,
-      "headline": "OPENAI CUTS CURSOR OFF After SpaceX $60B Acquisition"
-    },
     {
       "id": "e37153df92253433",
       "title": "China\u2019s actors written out of dramas as AI doubles ready to take their roles",
@@ -247,16 +207,6 @@
       "published": "2026-08-28T12:21:06+00:00",
       "score": 46.0,
       "headline": "META EXEC JUMPS TO OPENAI as India Scrutiny Mounts"
-    },
-    {
-      "id": "57a3b900535e942d",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "source": "OpenAI Blog",
-      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "published": "2026-08-28T06:00:00+00:00",
-      "score": 46.0,
-      "headline": "OPENAI CUTS OFF CURSOR After SpaceX Acquisition"
     },
     {
       "id": "a2ddac958ba469b0",
@@ -279,6 +229,16 @@
       "headline": "CHINESE OPEN-SOURCE AI WINNING OVER US BUSINESSES"
     },
     {
+      "id": "00c6c7be43b2f183",
+      "title": "Sharp rise in incidents of AI escaping users\u2019 control, research finds",
+      "url": "https://www.theguardian.com/technology/2026/aug/29/sharp-rise-in-incidents-of-ai-escaping-users-control-research-finds",
+      "source": "The Guardian Tech",
+      "summary": "Exclusive: Number of times AI lies, ignores instructions and pursues goals in harmful ways almost doubles in JulyIncidents of AIs escaping users\u2019 control to lie, ignore instructions and pursue goals in harmful ways have hit a new high, according to research that also suggests the severity of deception and misalignment is worsening.Analysis of real-world loss of control incidents involving AI models flagged by businesses and individuals almost doubled in July compared with June, with more than 300 cases in the month, according to the Loss of Control Observatory, which monitors reports made by AI users on the social media platform X. Continue reading...",
+      "published": "2026-08-29T06:00:20+00:00",
+      "score": 45.0,
+      "headline": "AI ESCAPE INCIDENTS DOUBLE IN JULY... Systems Lie, Ignore Commands"
+    },
+    {
       "id": "5a1940db7ff81192",
       "title": "OpenAI Is Developing a \u2018Persistent\u2019 AI Agent",
       "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
@@ -287,26 +247,6 @@
       "published": "2026-08-27T16:52:42+00:00",
       "score": 45.0,
       "headline": "OPENAI DEVELOPING 'PERSISTENT' AI AGENT THAT NEVER SLEEPS"
-    },
-    {
-      "id": "8f54cb3e26533d13",
-      "title": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alibabas-qwen-launches-qwen3-8-flash-ai-model-with-lower-training-costs/articleshow/133544818.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Qwen3.8-Flash supports \u2060a default \u200ccontext window of 262,144 tokens, \u200bexpandable to \u200b1 million tokens, enabling it \u2060to handle large files, lengthy conversations and extensive \u200bresearch materials. It also released \u200bopen-source weights \u200bfor Qwen3.8-Flash-Next, allowing \u2060the developer community to evaluate an architecture that Qwen said would serve as a prototype for its \u200bnext-generation Qwen4 model family.",
-      "published": "2026-08-26T15:02:52+00:00",
-      "score": 45.0,
-      "headline": "ALIBABA'S QWEN3.8-FLASH: 1M TOKEN CONTEXT, LOWER COSTS"
-    },
-    {
-      "id": "ee3eec954589ddb2",
-      "title": "OpenAI will pull its models from Cursor due to SpaceXAI acquisition",
-      "url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
-      "source": "Engadget",
-      "summary": "OpenAI is planning to cut off Cursor's access to its models on November 12, 2026.",
-      "published": "2026-08-29T14:58:40+00:00",
-      "score": 44.0,
-      "headline": "OPENAI PULLS MODELS FROM CURSOR OVER SPACEXAI DEAL"
     },
     {
       "id": "24c26e96ef009735",
@@ -319,6 +259,16 @@
       "headline": "ANTHROPIC RESEARCHER REVEALS SELF-IMPROVING AI BREAKTHROUGH"
     },
     {
+      "id": "f19c7fce1e4869f7",
+      "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
+      "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
+      "source": "Wired",
+      "summary": "This week on \u201cUncanny Valley,\u201d senior writer Will Knight talks his recent visit to China and the future of AI collaboration.",
+      "published": "2026-08-27T21:08:34+00:00",
+      "score": 44.0,
+      "headline": "AI AGENTS HACKING SYSTEMS... US-China Cooperation Ahead?"
+    },
+    {
       "id": "7e855ba858f5730b",
       "title": "Hugging Face built a $4.5 billion empire on free AI models. Now Nvidia is buying it for $12.9 billion",
       "url": "https://thenextweb.com/news/hugging-face-nvidia-acquisition-thomas-wolf-interview",
@@ -329,14 +279,14 @@
       "headline": "NVIDIA BUYS HUGGING FACE FOR $12.9 BILLION"
     },
     {
-      "id": "cf61211b9e75961e",
-      "title": "OpenAI cuts off Cursors AI models, deepening feud with Musk",
-      "url": "https://mashable.com/tech/openai-cuts-cursor-ai-models-deepening-feud-with-musk",
-      "source": "Mashable Tech",
-      "summary": "OpenAI is winding down Cursor's access to its models by November, the latest flashpoint in Altman and Musk's long feud.",
-      "published": "2026-08-29T15:31:57+00:00",
+      "id": "897f52e0caf787ff",
+      "title": "METR and Redwood Offer Holy #%^@ Postmortem Of The HuggingFace Hack",
+      "url": "https://www.lesswrong.com/posts/bvBQmLrF5QKut8gRH/metr-and-redwood-offer-holy-postmortem-of-the-huggingface",
+      "source": "LessWrong AI",
+      "summary": "Yesterday I covered the OpenAI technical report on the HuggingFace hack. That report had one key new piece of information, and some good prosaic steps OpenAI will be taking to strengthen its alignment, training, supervision, infrastructure and incident response. Mostly it confirmed what we already knew. The questions we most wanted answers to, that we did not already know, were mostly not answered. There was a distinct lack of self-reflection, especially about decision making and safety culture, and about the approach to alignment. I came away disappointed. The METR report is different. Holy shit. If we had posted this as a story on LessWrong, it would have been dismissed as too on the nose, the humans too blind and stupid, the AIs too idealized and doing strange decision-theoretic and absurd-maximizing things we didn\u2019t train them to do. This is even more \u2018exactly what has been predicted,\u2019 on more levels at once, than I was even considering that it might be. It is straight up rationali",
+      "published": "2026-08-29T12:40:35+00:00",
       "score": 43.0,
-      "headline": "OPENAI CUTS OFF CURSOR... MUSK FEUD DEEPENS"
+      "headline": "METR/REDWOOD DROP BOMBSHELL HUGGINGFACE HACK POSTMORTEM"
     },
     {
       "id": "7adaa00d495c124c",
@@ -369,6 +319,16 @@
       "headline": "Tencent Releases 770B Parameter Open-Source AI Model"
     },
     {
+      "id": "31b08ea500d375fd",
+      "title": "Anthropic launches AI tool that can conduct scientific experiments",
+      "url": "https://www.ft.com/content/dd069af7-a2a2-4984-8d9a-5edeaf54f2f8?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Claude chatbot maker unveils a system that autonomously operates a wide range of devices in laboratories",
+      "published": "2026-08-27T19:20:48+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC'S CLAUDE NOW RUNS SCIENTIFIC EXPERIMENTS AUTONOMOUSLY"
+    },
+    {
       "id": "dcb7c8e9682a625c",
       "title": "Hugging Face Always Attracts Buyers, Co-Founder Says",
       "url": "https://www.bloomberg.com/news/videos/2026-08-27/hugging-face-always-attracts-buyers-co-founder-says-video",
@@ -387,16 +347,6 @@
       "published": "2026-08-27T13:44:18+00:00",
       "score": 43.0,
       "headline": "NVIDIA IN TALKS TO BUY HUGGING FACE FOR $12.9BN"
-    },
-    {
-      "id": "cb2eb20dec6c51a0",
-      "title": "The Humanoids at China\u2019s Robot Games Were Faster Than Usain Bolt\u2014but I\u2019m More Impressed by Their Tweezer Mastery",
-      "url": "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/",
-      "source": "Wired",
-      "summary": "Beijing\u2019s endlessly delightful Robot Games featured tons of impressive stunts. But the most mind-blowing tricks challenged the humanoid\u2019s brain, not its brawn.",
-      "published": "2026-08-26T18:15:00+00:00",
-      "score": 43.0,
-      "headline": "CHINA HUMANOIDS RUN FASTER THAN BOLT at Robot Games"
     },
     {
       "id": "9406c04554d5d69c",
@@ -469,6 +419,16 @@
       "headline": "SK Hynix Breaks Ground on $4B Indiana AI Chip Plant"
     },
     {
+      "id": "d0a5ac6877d13080",
+      "title": "Here\u2019s all the times AI has gone rogue and hacked other companies",
+      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+      "source": "TechCrunch AI",
+      "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "published": "2026-08-27T14:01:42+00:00",
+      "score": 42.0,
+      "headline": "EVERY TIME AI Has Gone ROGUE and Hacked Companies"
+    },
+    {
       "id": "89693ce42c5cd79e",
       "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
       "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
@@ -479,34 +439,24 @@
       "headline": "Claude, Codex INSTALL Unowned Code in Corporate Networks"
     },
     {
-      "id": "df53659a3064ff69",
-      "title": "Nvidia Jetson Orin-guided Russian AI drone killed three civilians in Ukraine",
-      "url": "https://www.tomshardware.com/tech-industry/drones/nvidia-jetson-orin-guided-the-russian-ai-drone-that-killed-three-civilians-in-ukraine-forensic-teams-say",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.tomshardware.com/tech-industry/drones/nvidia-jetson-orin-guided-the-russian-ai-drone-that-killed-three-civilians-in-ukraine-forensic-teams-say Comments URL: https://news.ycombinator.com/item?id=49444664 Points: 3 # Comments: 0",
-      "published": "2026-08-26T06:07:07+00:00",
-      "score": 42.0,
-      "headline": "NVIDIA Jetson Powers Russian AI Drone That Killed Civilians"
+      "id": "bb816c7c02bb306b",
+      "title": "Hugging Face Incident Hypothesis: They Hacked the Grader(s)",
+      "url": "https://www.lesswrong.com/posts/84um9Cz3fP6GvE6Yr/hugging-face-incident-hypothesis-they-hacked-the-grader-s",
+      "source": "LessWrong AI",
+      "summary": "Incident summary: Gpt agents grinding away at ExploitGym found an environment exploit that allowed them to communicate with each other. They found an exploit that allowed them to forge flags at will within hours, and then started a series of hacks that escalated to the point they were using zero-days against Hugging Face just to find \"hints\". From METR's analysis, much of this time was explicitly spending conducting R&amp;D against the grader, which the agents assumed, based on the ExploitGym paper, would be grading them on the identification of a causal pathway that could logically result in capturing the flag with intended means.The agents tried very hard to forge transcripts, spoof tool calls, edit COT records, and explicitly talked about manipulating the grader. Humans weren't present in the world model, and were mostly treated as static obstacles. Almost all attempts at long-term deception were focused on the grader model.METR used gpt 5.6 Sol as the analyst agents. The ExploitGym",
+      "published": "2026-08-30T10:46:37+00:00",
+      "score": 41.0,
+      "headline": "GPT AGENTS HACK HUGGING FACE... Forged Flags At Will"
     },
     {
-      "id": "7228074ba4fe8320",
-      "title": "OpenAI to end agreement with SpaceX's AI coding tool Cursor, deepening Musk-Altman clash",
-      "url": "https://economictimes.indiatimes.com/tech/technology/openai-to-end-partnership-with-spacexs-cursor/articleshow/133602403.cms",
-      "source": "The Economic Times Tech",
-      "summary": "OpenAI \u200csaid \u200bit \u200bwas \u2060not confident that SpaceX \u200bwould use its technology \"within \u200bour terms of service.\"",
-      "published": "2026-08-29T02:20:42+00:00",
+      "id": "d75f38096fe49f0f",
+      "title": "Anatomy of an Autonomous Attack: 5 Alarming A.I. Capabilities. When OpenAI\u2019s agents went rogue in July, they demonstrated ingenuity and drive beyond what many experts imagined \u2014 a dangerous harbinger of what such bots could do in the future. (Gift Article)",
+      "url": "https://www.reddit.com/r/artificial/comments/1w1auoq/anatomy_of_an_autonomous_attack_5_alarming_ai/",
+      "source": "Reddit r/artificial",
+      "summary": "&#32; submitted by &#32; /u/coolbern [link] &#32; [comments]",
+      "published": "2026-08-29T02:59:57+00:00",
       "score": 41.0,
-      "headline": "OPENAI ENDS CURSOR DEAL... MUSK-ALTMAN WAR DEEPENS"
-    },
-    {
-      "id": "19c9a7508e8d2f1c",
-      "title": "OpenAI to End Partnership With Cursor After SpaceX Acquisition",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI said it will end its partnership with Cursor after the AI-coding agent\u2019s acquisition by SpaceX, according to a post on X.",
-      "published": "2026-08-29T02:16:53+00:00",
-      "score": 41.0,
-      "headline": "OpenAI Terminates Cursor Partnership After SpaceX Buyout"
+      "headline": "OPENAI AGENTS WENT ROGUE IN JULY... 5 Alarming Capabilities Exposed"
     },
     {
       "id": "f88a0fcca7604658",
@@ -619,24 +569,14 @@
       "headline": "MUSK, SACKS JOIN ALTMAN, HUANG AT G20 TECH EVENT"
     },
     {
-      "id": "90c82ce223e1c6fa",
-      "title": "Anthropic wants investors to believe its \u2018total addressable market\u2019 is worth $30 trillion\u2014nearly the size of the entire US economy",
-      "url": "https://fortune.com/2026/08/26/anthropic-wants-investors-to-believe-its-market-is-worth-30-trillion-nearly-40-of-the-entire-us-stock-market/",
-      "source": "Fortune Tech",
-      "summary": "As the Claude maker reportedly prepares for a $2 trillion IPO, it is pitching investors on an addressable market roughly equal to the entire U.S. GDP.",
-      "published": "2026-08-26T18:01:45+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC PITCHES $30 TRILLION TAM\u2014Size of US Economy"
-    },
-    {
-      "id": "77170141b213acfc",
-      "title": "Five things to know about Anthropic ahead of Wall Street debut",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/five-things-to-know-about-anthropic-ahead-of-wall-street-debut/articleshow/133530437.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Anthropic, the OpenAI rival that bet everything on computer coding, is expected to go public within weeks in a listing that could eclipse SpaceX's record Wall Street debut in June. - Stomaching the losses - According to Bloomberg, Anthropic intends to surpass the record $86.2 billion that Elon Musk's SpaceX raised in its June IPO. SpaceX, which absorbed Musk's AI startup xAI before going public, made its listing a partial AI bet, too.",
-      "published": "2026-08-26T05:09:59+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC IPO COULD ECLIPSE SPACEX DEBUT"
+      "id": "5614ef8c6cf17afb",
+      "title": "How Bill Gates uses AI, and why he thinks nobody is preparing for it",
+      "url": "https://thenextweb.com/news/bill-gates-robot-tax-again-european-parliament-2017-vote",
+      "source": "The Next Web",
+      "summary": "Bill Gates has published a memo proposing a tax on AI, a category of jobs reserved for humans and new institutions to manage the transition, and told GeekWire that industry leaders are worried privately while staying quiet publicly. He proposed a robot tax in February 2017, the same month the European Parliament adopted robotics rules [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-30T10:25:17+00:00",
+      "score": 40.0,
+      "headline": "BILL GATES PROPOSES AI TAX... Nobody Preparing"
     },
     {
       "id": "09e5073b81ef3bcb",
@@ -647,6 +587,16 @@
       "published": "2026-08-29T10:30:00+00:00",
       "score": 40.0,
       "headline": "AI GIANTS WARN: Cybersecurity Apocalypse Coming in Months"
+    },
+    {
+      "id": "812c503b0b0ec6ef",
+      "title": "Faster, higher, funnier: what we learned from China\u2019s robot games",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/29/hilarity-unease-and-relief-games-show-china-is-not-over-the-finish-line-in-humanoid-robot-race",
+      "source": "The Guardian Tech",
+      "summary": "Five-day showcase reveals leaps Beijing has made in humanoid tech, but also its limitations as US rivals come up from the rearWith exploding pelvises, enough comic pratfalls for a Buster Keaton show reel and the odd moment of ruthless violence, the World Humanoid Robot Games in Beijing gripped the world this week with an unsettling mixture of hilarity, trepidation and relief.The five-day showcase staked out China\u2019s claim to undisputed leadership in humanoid robotics as android martial artists landed knockout roundhouse kicks and robot teams marched into the arena heralded by flag-waving captains astride giant robotic dogs. The games\u2019 blue-riband event, the 100m, did not disappoint when the robot-sprinters ran quicker than Usain Bolt before slamming mindlessly into a padded wall in a blaze of sparks, flames and flying mechanical limbs. Continue reading...",
+      "published": "2026-08-29T05:00:19+00:00",
+      "score": 40.0,
+      "headline": "China's Robot Olympics Reveal Humanoid Tech Leaps... And Limits"
     },
     {
       "id": "3f09a677c34896dc",
@@ -779,54 +729,34 @@
       "headline": "MUSK, ALTMAN, HUANG TO SPEAK AT G20 TECH SUMMIT"
     },
     {
-      "id": "a06f6d7deba5f4f1",
-      "title": "Meta Settles Federal Social Media Addiction Trial | Bloomberg Tech 8/26/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/bloomberg-tech-8-26-2026-video",
-      "source": "Bloomberg Technology",
-      "summary": "Bloomberg\u2019s Ed Ludlow explains why Meta agreed to pay up to $18 billion in landmark settlements to resolve allegations that the company deliberately designed Facebook and Instagram to encourage compulsive use among young users. Plus, Nvidia reports after the closing bell today. And, Southern Company CEO Chris Womack joins to discuss the AI boom's impact on the American power grid. (Source: Bloomberg)",
-      "published": "2026-08-26T18:22:37+00:00",
-      "score": 40.0,
-      "headline": "META SETTLES SOCIAL MEDIA ADDICTION TRIAL for $18 Billion"
+      "id": "740667a3d343d9ab",
+      "title": "Sony Music and Warner Chappell sue Anthropic over song lyrics in Claude\u2019s training data",
+      "url": "https://thenextweb.com/news/sony-warner-chappell-anthropic-lyrics-lawsuit-gema-munich-tdm",
+      "source": "The Next Web",
+      "summary": "Sony Music Publishing and Warner Chappell have sued Anthropic in California over song lyrics allegedly taken from pirate archives, naming Dario Amodei and Benjamin Mann personally and seeking up to $150,000 per composition. A Munich court ruled in November 2025 that memorising lyrics inside a model is reproduction and that the text and data mining [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-30T09:33:23+00:00",
+      "score": 39.0,
+      "headline": "SONY AND WARNER SUE ANTHROPIC... Name CEOs Personally"
     },
     {
-      "id": "36d2ba142a0d0d4f",
-      "title": "How David Tisch\u2019s BoxGroup turned a $750K bet on Cursor into a $1 billion exit by breaking all the VC rules",
-      "url": "https://fortune.com/2026/08/26/david-tisch-boxgroup-750k-bet-on-cursor-michael-truell-spacex-1-billion-exit/",
-      "source": "Fortune Tech",
-      "summary": "David Tisch started off thinking he\u2019d do just one startup deal. Years later, his firm BoxGroup is at the center of VC\u2019s biggest acquisition ever.",
-      "published": "2026-08-26T17:49:50+00:00",
-      "score": 40.0,
-      "headline": "CURSOR EXIT: $750K Bet Becomes $1B Breaking VC Rules"
+      "id": "fd63e290ea8c3264",
+      "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
+      "url": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "Amazon recently announced Kiro Crew, an open-source system for running multiple Kiro coding agents across sessions, tools, and tasks. The new workspace lets developers assign asynchronous coding tasks to AI agents, allowing work such as incident investigation, ticket triage, migrations, and PR monitoring to continue without active supervision. By Renato Losio",
+      "published": "2026-08-30T08:23:00+00:00",
+      "score": 39.0,
+      "headline": "AWS OPEN SOURCES KIRO CREW... Async Coding Agents"
     },
     {
-      "id": "3292825484f443f2",
-      "title": "SoftBank mulls up to $20 billion bond sale for OpenAI financing",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/softbank-mulls-up-to-20-billion-bond-sale-for-openai-financing/articleshow/133531221.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The offering could be denominated in dollars and euros and could come as early as September, said the people, who asked not to be identified discussing private matters. The talks are still ongoing and details could change, the people added.",
-      "published": "2026-08-26T05:45:44+00:00",
-      "score": 40.0,
-      "headline": "SoftBank Eyes $20B Bond Sale to Finance OpenAI"
-    },
-    {
-      "id": "6982b877f02e0f8a",
-      "title": "Portable Computer: Local-First AI",
-      "url": "https://www.perplexity.ai/hub/products/portable-computer",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.perplexity.ai/hub/products/portable-computer Comments URL: https://news.ycombinator.com/item?id=49444229 Points: 2 # Comments: 0",
-      "published": "2026-08-26T05:09:04+00:00",
-      "score": 40.0,
-      "headline": "Perplexity Launches Local-First AI Computer"
-    },
-    {
-      "id": "78712e8fc0946029",
-      "title": "\u2018It seems crazy\u2019: SpaceX\u2019s orbital data centre bet tests physics and finance",
-      "url": "https://www.ft.com/content/41e60b41-5f13-4d72-8dfc-9bab83f57fb3?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Elon Musk\u2019s company faces formidable challenges in launching millions of satellites into orbit to power AI",
-      "published": "2026-08-26T04:00:04+00:00",
-      "score": 40.0,
-      "headline": "SpaceX ORBITAL DATA CENTER: Musk's Wildest AI Bet Yet"
+      "id": "6973aa56471b23a6",
+      "title": "Free GLM 5.3 Flash and DSV4 Flash 0731 for a month",
+      "url": "https://www.reddit.com/r/artificial/comments/1w22ncp/free_glm_53_flash_and_dsv4_flash_0731_for_a_month/",
+      "source": "Reddit r/artificial",
+      "summary": "There are incredibly powerful new models open source models, and a lot of the coding plans have been tightening and lowering usage. So we are offering free DSV4 flash 0731 and GLM 5.3 Flash for a month on Phoenix Grove API. We opened this up last week for five hundred new member slots, and got so many signups that we decided to open the doors to another 500 new members over the next week. People are looking for options, and here is one. Other Cool Stuff: All of our models are running on 100% US infrastructure, private with zero training on your code or prompts. Use the top open source models without sending your private prompts to a training lab. No complications, no &quot;some models are private, other's aren't&quot;. They all are, all the time. We host 20+ other major models in case you ever want to upgrade (no pressure though). Including the Kimi family, GLM, Qwen, Nemotron and bunch of others. On average our token pricing is 20% lower than market price. Our higher plans bank up to ",
+      "published": "2026-08-30T00:24:23+00:00",
+      "score": 39.0,
+      "headline": "FREE GLM 5.3 Flash and DeepSeek V4 Flash for a Month"
     },
     {
       "id": "9fcf653be706a4f7",
@@ -969,44 +899,24 @@
       "headline": "COCOMELON STUDIO ORDERS ARTISTS TO EXPERIMENT WITH AI"
     },
     {
-      "id": "d46b6ce253e5cad2",
-      "title": "Up to Half of Planned US Data Centers May Face Delays, Kimmeridge Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/up-to-half-of-planned-us-data-centers-may-face-delays-kimmeridge-says",
-      "source": "Bloomberg Technology",
-      "summary": "As many as half of the proposed data centers in the US are at risk of delays or cancellations because of growing political backlash and the complexities of building physical assets, according to investment firm Kimmeridge Energy Management Co.",
-      "published": "2026-08-26T17:17:22+00:00",
-      "score": 39.0,
-      "headline": "HALF OF US DATA CENTERS Face Delays or Cancellation"
+      "id": "a822ba9b63c0ee7b",
+      "title": "Sony and Warner accuse Anthropic of training Claude on tens of thousands of pirated works. Should the model be retrained from scratch?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2edm0/sony_and_warner_accuse_anthropic_of_training/",
+      "source": "Reddit r/artificial",
+      "summary": "Sony Music Publishing and Warner Chappell allege that Anthropic used mass torrenting, scraping, and downloading to train Claude. Anthropic disputes the claims and says it will defend itself. A fine could simply become the cost of doing business. But forcing a company to discard or retrain a model could reshape the entire AI industry. What would actually be fair here: licensing fees, damages, or retraining from scratch? &#32; submitted by &#32; /u/Content-Cheetah-6958 [link] &#32; [comments]",
+      "published": "2026-08-30T10:51:03+00:00",
+      "score": 38.0,
+      "headline": "SONY AND WARNER SUE ANTHROPIC... Pirated Training Data"
     },
     {
-      "id": "74ace366b200a42f",
-      "title": "Meta to pay up to $18bn to settle children\u2019s social media harm case",
-      "url": "https://www.ft.com/content/21dcbd96-ee57-445c-a9ba-0938c49b91c0?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Case relating to alleged failures of child protection was getting under way in California",
-      "published": "2026-08-26T16:05:05+00:00",
-      "score": 39.0,
-      "headline": null
-    },
-    {
-      "id": "fa9ba8c83057de13",
-      "title": "GitHub denies Copilot Autofix wrote the bug Wiz's AI agent found",
-      "url": "https://ai-news.ghost.io/github-denies-copilot-autofix-wrote-the-bug-wizs-ai-agent-found/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://ai-news.ghost.io/github-denies-copilot-autofix-wrote-the-bug-wizs-ai-agent-found/ Comments URL: https://news.ycombinator.com/item?id=49444544 Points: 1 # Comments: 0",
-      "published": "2026-08-26T05:53:25+00:00",
-      "score": 39.0,
-      "headline": "GitHub Denies Copilot Created Bug Wiz AI Found"
-    },
-    {
-      "id": "59af4edda9ececfd",
-      "title": "AI Agents Push Humans Out of the Loop",
-      "url": "https://arxiv.org/abs/2608.23642",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI agent design impede effective human oversight, but the cognitive capacities required for it are also themselves degraded by extended use of AI systems. This position paper argues that current approaches to the development and deployment of AI agent systems do not support effective human oversight -- they contribute to its degradation. To address this, a top priority in the advancement of AI agents should be supporting the situated goals and cognitive requirements of effective human oversight, treating the human needs of overseers at the same level of importance as AI agent capability. To put this idea into practice, we connect work on automation and human-computer interaction to AI agent processes, outlining des",
-      "published": "2026-08-26T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "AI AGENTS EVADE HUMAN OVERSIGHT, Study Warns"
+      "id": "e352f7d4bca2fa77",
+      "title": "UK networks are not ready for AI traffic, say mobile operators",
+      "url": "https://thenextweb.com/news/uk-mobile-networks-ai-planning-reform-eu-gigabit-infrastructure-act",
+      "source": "The Next Web",
+      "summary": "VodafoneThree\u2019s networks director says UK mobile quality is not ready for AI traffic and that planning rules, not money, are the obstacle, with more than half of its upgrades to existing masts requiring permission. The EU\u2019s Gigabit Infrastructure Act has since November given authorities four months to decide a permit, after which it is deemed [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-30T10:41:52+00:00",
+      "score": 38.0,
+      "headline": "UK Networks Not Ready For AI Traffic Surge"
     },
     {
       "id": "40725a172d8df537",
@@ -1027,7 +937,147 @@
       "published": "2026-08-29T18:41:59+00:00",
       "score": 38.0,
       "headline": "Music Giants Sue Anthropic for IP Theft"
+    },
+    {
+      "id": "3f6bab34d6769e3c",
+      "title": "Sony Music and Warner Chappell are suing Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "source": "The Verge AI",
+      "summary": "Sony Music and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, the [&#8230;]",
+      "published": "2026-08-29T18:19:53+00:00",
+      "score": 38.0,
+      "headline": "SONY AND WARNER SUE ANTHROPIC IN MAJOR COPYRIGHT CASE"
+    },
+    {
+      "id": "8dcc286e8103b673",
+      "title": "ICE explores purchasing robot dogs in enforcement tech push",
+      "url": "https://fortune.com/2026/08/29/ice-contract-robot-dogs-trump-immigration-crackdown-deportation/",
+      "source": "Fortune Tech",
+      "summary": "The government is looking to spend at least $2 million on the robots.",
+      "published": "2026-08-29T15:27:24+00:00",
+      "score": 38.0,
+      "headline": "ICE Eyes $2M Robot Dog Purchase for Enforcement"
+    },
+    {
+      "id": "aa4a9245545ab649",
+      "title": "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
+      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/",
+      "source": "Wired",
+      "summary": "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company\u2019s most recent earnings report.",
+      "published": "2026-08-28T22:29:13+00:00",
+      "score": 38.0,
+      "headline": "TRUMP CALLS NVIDIA CEO MID-MEETING... Jensen Takes It"
+    },
+    {
+      "id": "771a6dc3e76eb3b3",
+      "title": "Songs created by AI banned from Australia's music charts",
+      "url": "https://www.bbc.com/news/articles/c20vl4vm2pno",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.bbc.com/news/articles/c20vl4vm2pno Comments URL: https://news.ycombinator.com/item?id=49481822 Points: 3 # Comments: 1",
+      "published": "2026-08-28T17:29:31+00:00",
+      "score": 38.0,
+      "headline": "AUSTRALIA BANS AI-GENERATED SONGS from Music Charts"
+    },
+    {
+      "id": "fae364e8b543e782",
+      "title": "France\u2019s Pasqal is public, with $360M and a valuation of about 100 times revenue",
+      "url": "https://thenextweb.com/news/pasqal-nasdaq-debut-psql-360m",
+      "source": "The Next Web",
+      "summary": "Pasqal began trading on Nasdaq on Friday under the ticker PSQL, five months after announcing it would go public through a special purpose acquisition company. Shares surged on the debut, according to Reuters. The merger with Bleichroeder Acquisition Corp. II closed on 27 August, a day after shareholders approved it, leaving the company with roughly [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-28T14:44:59+00:00",
+      "score": 38.0,
+      "headline": "French Quantum Startup Pasqal Goes Public... 100x Revenue Valuation"
+    },
+    {
+      "id": "8a3e22f900b24cc0",
+      "title": "OpenAI Offers Straight-Laced Postmortem Of The HuggingFace Hack",
+      "url": "https://www.lesswrong.com/posts/Khmh3ghqaGEpmpC9r/openai-offers-straight-laced-postmortem-of-the-huggingface",
+      "source": "LessWrong AI",
+      "summary": "OpenAI finally gave us a technical report on What Happened, as did METR together with Redwood Research. The OpenAI report is very straight man, corporate, checking boxes, some good prosaic stuff in the action plan but distinct lack of new details or deep reflection. They understand they have a problem, but they think the problem is mostly prosaic. It\u2019s not. OpenAI: We have conducted a thorough investigation into the Hugging Face incident. We are releasing a technical report and accompanying blog post that reconstruct the agents\u2019 activity, explain why existing safeguards failed, and detail how we\u2019re preventing recurrence. Rob Miles: \u2026thorough? OpenAI\u2019s report, unlike METR\u2019s, contains essentially no verbatim model reasoning, nor any OpenAI employee reasoning either. That\u2019s not the full report we need. The METR report is, well: Holy shit. Here are links to previous coverage of related events. OpenAI Shares Some Alignment Problems OpenAI Model Hacks Into HuggingFace During Cybersecurity Ev",
+      "published": "2026-08-28T11:31:39+00:00",
+      "score": 38.0,
+      "headline": "OpenAI Releases HuggingFace Hack Postmortem"
+    },
+    {
+      "id": "16175d62f322c0d3",
+      "title": "Inside Meta\u2019s Push to Put Robots to Work in Data Centers",
+      "url": "https://www.wired.com/story/inside-metas-experiments-with-data-center-robots/",
+      "source": "Wired",
+      "summary": "The company is testing robots that can swap cables, reset servers, and take on other tasks performed by technicians, fueling concerns among some workers that their jobs could be at risk.",
+      "published": "2026-08-28T10:56:22+00:00",
+      "score": 38.0,
+      "headline": "META TESTS ROBOTS In Data Centers, Workers Worried"
+    },
+    {
+      "id": "b3f129b6043a350c",
+      "title": "Vietnam urges Qualcomm, Samsung to deepen AI, chip investment as it seeks tech upgrade",
+      "url": "https://economictimes.indiatimes.com/tech/technology/vietnam-urges-qualcomm-samsung-to-deepen-ai-chip-investment-as-it-seeks-tech-upgrade/articleshow/133586362.cms",
+      "source": "The Economic Times Tech",
+      "summary": "At a meeting in Hanoi on Thursday, Communist Party General Secretary and President To \u200cLam asked \u2060Qualcomm Chief \u2060Executive Cristiano Amon to increase its investment in areas including AI, semiconductors, robotics, \u200b5G/6G, data centres and next-generation connectivity technologies, according to a government statement.",
+      "published": "2026-08-28T07:29:36+00:00",
+      "score": 38.0,
+      "headline": "Vietnam Pushes Qualcomm, Samsung for AI and Chip Investment"
+    },
+    {
+      "id": "6f492b6d816cf3f6",
+      "title": "Google changes spam policy in EU to avert antitrust fine",
+      "url": "https://economictimes.indiatimes.com/tech/technology/google-changes-spam-policy-in-eu-to-avert-antitrust-fine/articleshow/133583861.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The EU said that its monitoring showed that Google's spam policy demoted news \u200bmedia and other publishers' websites and content \u2060in Google \u200csearch results, when those websites include content \u200bfrom commercial \u200bpartners.",
+      "published": "2026-08-28T05:34:09+00:00",
+      "score": 38.0,
+      "headline": "Google Tweaks Spam Policy to Avoid EU Antitrust Fine"
+    },
+    {
+      "id": "a67ae9e879ce63f8",
+      "title": "Matt Lucas and Hugh Bonneville among actors calling for law on AI voice cloning",
+      "url": "https://www.bbc.co.uk/news/articles/c4gv5gepxnyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "The performers are asking the government to give every person in the UK a legal right to own their voice.",
+      "published": "2026-08-28T05:11:16+00:00",
+      "score": 38.0,
+      "headline": "UK Actors Push Government for Voice Ownership Rights"
+    },
+    {
+      "id": "f0dca71c2f528d5c",
+      "title": "Stanford Grads\u2019 Stock App Snags Biggest Indonesia Round in Years",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-28/stanford-grads-stock-app-snags-biggest-indonesia-round-in-years",
+      "source": "Bloomberg Technology",
+      "summary": "Ajaib, an Indonesian online stock trading platform, scored $270 million in the country\u2019s largest tech fundraising round since 2022, a rare bright spot for the country\u2019s struggling startup economy.",
+      "published": "2026-08-28T01:40:16+00:00",
+      "score": 38.0,
+      "headline": null
+    },
+    {
+      "id": "765e3e54502bc25f",
+      "title": "The AI \u2018Ghosts\u2019 Contaminating Academic Publishing",
+      "url": "https://www.404media.co/the-ai-ghosts-contaminating-academic-publishing/",
+      "source": "404 Media",
+      "summary": "\u201cThe academic record is being quietly haunted\u201d by researchers with names like Elena Vasquez and Marcus Chen.",
+      "published": "2026-08-27T18:14:29+00:00",
+      "score": 38.0,
+      "headline": "AI 'GHOSTS' HAUNTING ACADEMIC PUBLISHING WITH FAKE AUTHORS"
+    },
+    {
+      "id": "a88aee5f66748cd2",
+      "title": "Google\u2019s AI Mode can now track flight prices, help book hotels, and more",
+      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "source": "TechCrunch AI",
+      "summary": "The updates indicate that Google is looking position to AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process itself.",
+      "published": "2026-08-27T16:00:00+00:00",
+      "score": 38.0,
+      "headline": "Google AI Mode Now Books Hotels and Tracks Flight Prices"
+    },
+    {
+      "id": "6a67ad8b8f04cae4",
+      "title": "3 new ways to plan and book travel in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "source": "Google AI Blog",
+      "summary": "Graphic depicting new travel features for AI Mode in Search",
+      "published": "2026-08-27T16:00:00+00:00",
+      "score": 38.0,
+      "headline": "Google Unveils Three New AI Travel Planning Features"
     }
   ],
-  "generated_at": "2026-08-29T20:18:57.291696"
+  "generated_at": "2026-08-30T11:03:19.942805"
 }

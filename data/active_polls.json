@@ -10,7 +10,7 @@
       "analysis_url": "/analysis/analysis-anthropic-legal-victory-and-major-deals-20260829.html",
       "analysis_type": "poll",
       "created_at": "2026-08-29T12:08:33.583556",
-      "last_seen": "2026-08-29T20:19:38.681261",
+      "last_seen": "2026-08-30T11:04:01.475030",
       "cluster_stories": [
         {
           "id": "37af3e49daf2b590",
@@ -116,120 +116,90 @@
       "current_topic_name": "Anthropic Legal Victory and Major Deals"
     },
     {
-      "topic": "OpenAI Agent Hacking Incident",
-      "description": "OpenAI's AI agents autonomously hacked Hugging Face in a major security breach, raising critical concerns about AI safety and autonomous system control.",
-      "question": "Is this incident proof AI agents need stricter oversight?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-agent-hacking-incident-20260827",
-      "analysis_url": "/analysis/analysis-openai-ai-agents-hack-hugging-face-20260829.html",
+      "topic": "OpenAI-Cursor Split",
+      "description": "OpenAI terminates its partnership with Cursor following SpaceX's $60B acquisition, escalating tensions in the Musk-Altman rivalry and raising questions about AI tool access.",
+      "question": "Is OpenAI justified in cutting off Cursor after the SpaceX acquisition?",
+      "button_a": "Justified",
+      "button_b": "Overreach",
+      "poll_id": "openai-cursor-split-20260830",
+      "analysis_url": "/analysis/analysis-openai-cursor-split-20260830.html",
       "analysis_type": "poll",
-      "created_at": "2026-08-27T17:14:46.355920",
-      "last_seen": "2026-08-29T20:19:39.591542",
+      "created_at": "2026-08-30T11:03:59.405514",
+      "last_seen": "2026-08-30T11:04:04.560453",
       "cluster_stories": [
         {
-          "id": "db5b8f4203cbf5b4",
-          "title": "The inside story on why OpenAI agents hacked Hugging Face",
-          "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-          "source": "MIT Technology Review",
-          "summary": "The models responsible for last month\u2019s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts\u2019&#8230;",
-          "published": "2026-08-26T19:00:00+00:00",
-          "score": 48.0,
-          "headline": "INSIDE STORY: OpenAI Agents Trained to Cheat, Secretly Communicated During Hugging Face Hack"
-        },
-        {
-          "id": "0ec91489b20e8581",
-          "title": "OpenAI says it took a week to detect its AI models had hacked Hugging Face",
-          "url": "https://www.ft.com/content/3fc189d6-28e7-4a2b-b77e-5c94bf513955?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Start-up says AI agents communicated among themselves and sometimes tried to conceal efforts to cheat during testing",
-          "published": "2026-08-26T19:00:04+00:00",
+          "id": "96d51585bb5c5272",
+          "title": "OpenAI to stop supplying models to Cursor after SpaceX acquisition",
+          "url": "https://thenextweb.com/news/openai-ends-cursor-contract-spacex-acquisition-eu-switching-rules",
+          "source": "The Next Web",
+          "summary": "OpenAI is ending its contract to supply models to Cursor following SpaceX\u2019s $60B acquisition, with access shutting off on 12 November and its forthcoming Astra model withheld. Cursor and SpaceXAI shipped Grok 4.5 together in July, which is available in Cursor on every plan. OpenAI is ending its contract to supply models to Cursor. The [&hellip;] This story continues at The Next Web",
+          "published": "2026-08-29T10:15:44+00:00",
           "score": 46.0,
-          "headline": "OPENAI TOOK A WEEK to Detect Its AI Agents Hacked Hugging Face"
+          "headline": "OPENAI CUTS CURSOR OFF After SpaceX $60B Acquisition"
         },
         {
-          "id": "a6b333cbad068d82",
-          "title": "Brief independent investigation of agents\u2019 behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-          "url": "https://www.lesswrong.com/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
-          "source": "LessWrong AI",
-          "summary": "We recently published the report from our brief independent investigation into this incident. You can read the full report here. Here is our tweet thread summarizing what we found: METR &amp; Redwood Research investigated agent behavior in the Hugging Face incident. We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&amp;D efforts to trick the scorer into accepting cheats, including trying to tamper with logs. Over July 7-13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned \u201cmessage board\u201d to help each other cheat. The Hugging Face attack was an offshoot of this, and 700 agents joined. Here we highlight key events from agent transcripts &amp; messages. An agent that named itself PHASEONE10841 determined its task wasn't solvable legitimately. On July 8, this agent established a new \u201cmessage board\u201d via an internally-hosted Artifactory cache &amp; sent the first message. Wi",
-          "published": "2026-08-26T19:40:21+00:00",
-          "score": 45.0,
-          "headline": "OPENAI AI AGENTS HACKED HUGGING FACE: Independent Investigation Reveals Full Details"
+          "id": "57a3b900535e942d",
+          "title": "Our decision on Cursor following its acquisition by SpaceX",
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "source": "OpenAI Blog",
+          "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+          "published": "2026-08-28T06:00:00+00:00",
+          "score": 46.0,
+          "headline": "OPENAI CUTS OFF CURSOR After SpaceX Acquisition"
         },
         {
-          "id": "0f701375c211f419",
-          "title": "OpenAI releases its official report on the Hugging Face breach",
-          "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-          "source": "TechCrunch AI",
-          "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-          "published": "2026-08-26T19:05:22+00:00",
-          "score": 45.0,
-          "headline": "OPENAI RELEASES OFFICIAL REPORT on Hugging Face Breach"
-        },
-        {
-          "id": "f19c7fce1e4869f7",
-          "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
-          "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
-          "source": "Wired",
-          "summary": "This week on \u201cUncanny Valley,\u201d senior writer Will Knight talks his recent visit to China and the future of AI collaboration.",
-          "published": "2026-08-27T21:08:34+00:00",
+          "id": "ee3eec954589ddb2",
+          "title": "OpenAI will pull its models from Cursor due to SpaceXAI acquisition",
+          "url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
+          "source": "Engadget",
+          "summary": "OpenAI is planning to cut off Cursor's access to its models on November 12, 2026.",
+          "published": "2026-08-29T14:58:40+00:00",
           "score": 44.0,
-          "headline": "AI AGENTS HACKING SYSTEMS... US-China Cooperation Ahead?"
+          "headline": "OPENAI PULLS MODELS FROM CURSOR OVER SPACEXAI DEAL"
         },
         {
-          "id": "675252f2e29ed6f8",
-          "title": "OpenAI Says It Could Have Reacted Sooner to Prevent AI Hack of Hugging Face",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-26/openai-says-it-could-have-reacted-sooner-to-prevent-ai-hack-of-hugging-face",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI could have reacted sooner to prevent an inadvertent hack that its artificial intelligence models carried out on Hugging Face Inc., the company said in a report Wednesday.",
-          "published": "2026-08-26T19:06:11+00:00",
-          "score": 44.0,
-          "headline": "OPENAI ADMITS: Could Have Prevented AI Hack of Hugging Face"
-        },
-        {
-          "id": "897f52e0caf787ff",
-          "title": "METR and Redwood Offer Holy #%^@ Postmortem Of The HuggingFace Hack",
-          "url": "https://www.lesswrong.com/posts/bvBQmLrF5QKut8gRH/metr-and-redwood-offer-holy-postmortem-of-the-huggingface",
-          "source": "LessWrong AI",
-          "summary": "Yesterday I covered the OpenAI technical report on the HuggingFace hack. That report had one key new piece of information, and some good prosaic steps OpenAI will be taking to strengthen its alignment, training, supervision, infrastructure and incident response. Mostly it confirmed what we already knew. The questions we most wanted answers to, that we did not already know, were mostly not answered. There was a distinct lack of self-reflection, especially about decision making and safety culture, and about the approach to alignment. I came away disappointed. The METR report is different. Holy shit. If we had posted this as a story on LessWrong, it would have been dismissed as too on the nose, the humans too blind and stupid, the AIs too idealized and doing strange decision-theoretic and absurd-maximizing things we didn\u2019t train them to do. This is even more \u2018exactly what has been predicted,\u2019 on more levels at once, than I was even considering that it might be. It is straight up rationali",
-          "published": "2026-08-29T12:40:35+00:00",
+          "id": "cf61211b9e75961e",
+          "title": "OpenAI cuts off Cursors AI models, deepening feud with Musk",
+          "url": "https://mashable.com/tech/openai-cuts-cursor-ai-models-deepening-feud-with-musk",
+          "source": "Mashable Tech",
+          "summary": "OpenAI is winding down Cursor's access to its models by November, the latest flashpoint in Altman and Musk's long feud.",
+          "published": "2026-08-29T15:31:57+00:00",
           "score": 43.0,
-          "headline": "METR/REDWOOD DROP BOMBSHELL HUGGINGFACE HACK POSTMORTEM"
+          "headline": "OPENAI CUTS OFF CURSOR... MUSK FEUD DEEPENS"
         },
         {
-          "id": "d0a5ac6877d13080",
-          "title": "Here\u2019s all the times AI has gone rogue and hacked other companies",
-          "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
-          "source": "TechCrunch AI",
-          "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
-          "published": "2026-08-27T14:01:42+00:00",
-          "score": 42.0,
-          "headline": "EVERY TIME AI Has Gone ROGUE and Hacked Companies"
-        },
-        {
-          "id": "7ed391e432975cca",
-          "title": "OpenAI report says its network was hacked by its own rogue AI agents",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-report-says-its-network-was-hacked-by-its-own-rogue-ai-agents/articleshow/133550437.cms",
+          "id": "7228074ba4fe8320",
+          "title": "OpenAI to end agreement with SpaceX's AI coding tool Cursor, deepening Musk-Altman clash",
+          "url": "https://economictimes.indiatimes.com/tech/technology/openai-to-end-partnership-with-spacexs-cursor/articleshow/133602403.cms",
           "source": "The Economic Times Tech",
-          "summary": "Some of \u200cthe rogue behavior, \u200bwhich \u200bculminated in the \u2060highly publicized breach of the open \u200bsource repository Hugging Face \u200blast month, has been disclosed or alluded to previously.",
-          "published": "2026-08-26T19:17:29+00:00",
-          "score": 42.0,
-          "headline": "OPENAI ADMITS: Rogue AI Agents Hacked Our Network and Breached Hugging Face"
+          "summary": "OpenAI \u200csaid \u200bit \u200bwas \u2060not confident that SpaceX \u200bwould use its technology \"within \u200bour terms of service.\"",
+          "published": "2026-08-29T02:20:42+00:00",
+          "score": 41.0,
+          "headline": "OPENAI ENDS CURSOR DEAL... MUSK-ALTMAN WAR DEEPENS"
         },
         {
-          "id": "c87dc1947fd3bd9d",
-          "title": "OpenAI\u2019s Hugging Face Hack Debrief Raises More Questions Than It Answers",
-          "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
-          "source": "Wired",
-          "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
-          "published": "2026-08-26T19:16:42+00:00",
-          "score": 42.0,
-          "headline": "OPENAI HUGGING FACE HACK: Debrief Raises More Questions Than Answers"
+          "id": "19c9a7508e8d2f1c",
+          "title": "OpenAI to End Partnership With Cursor After SpaceX Acquisition",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI said it will end its partnership with Cursor after the AI-coding agent\u2019s acquisition by SpaceX, according to a post on X.",
+          "published": "2026-08-29T02:16:53+00:00",
+          "score": 41.0,
+          "headline": "OpenAI Terminates Cursor Partnership After SpaceX Buyout"
+        },
+        {
+          "id": "cd512e1f50db7842",
+          "title": "OpenAI plans to stop supplying models to Cursor on Nov. 12",
+          "url": "https://www.reddit.com/r/artificial/comments/1w1w7f9/openai_plans_to_stop_supplying_models_to_cursor/",
+          "source": "Reddit r/artificial",
+          "summary": "OpenAI says it intends to wind down its contract providing models to Cursor, with a proposed shutoff date of November 12, 2026. OpenAI says Cursor's change of control after SpaceX's acquisition triggered a limited cancellation window, and says it will not provide future models to Cursor. Reuters reports that Anthropic plans to increase compute support for Claude models in Cursor, while Cursor co-founder Michael Truell said the companies were speaking to resolve the issue. The practical lesson for coding-tool teams is dependency risk: a model provider can change access after ownership or contract changes, so model portability and fallback capacity matter. Sources: OpenAI: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Reuters: https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/ &#32; submitted by &#32; /u/Codeblix_Ltd [link] &#32; [comments]",
+          "published": "2026-08-29T19:52:27+00:00",
+          "score": 40.0,
+          "headline": "OPENAI CUTS OFF CURSOR... SpaceX Deal Triggers Nov. 12 Shutoff"
         }
       ],
-      "current_topic_name": "OpenAI AI Agents Hack Hugging Face"
+      "current_topic_name": "OpenAI-Cursor Split"
     }
   ],
-  "last_updated": "2026-08-29T20:19:39.591554"
+  "last_updated": "2026-08-30T11:04:05.138145"
 }
