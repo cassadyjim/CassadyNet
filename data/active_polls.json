@@ -1,131 +1,16 @@
 {
   "polls": [
     {
-      "topic": "Anthropic Legal Victory and Major Deals",
-      "description": "Anthropic won court battles against Trump administration Pentagon ban while securing massive $45B compute deal and expanding AI capabilities.",
-      "question": "Was the Trump administration right to flag Anthropic as a security risk?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropic-legal-victory-and-major-deals-20260829",
-      "analysis_url": "/analysis/analysis-anthropic-legal-victory-and-major-deals-20260829.html",
-      "analysis_type": "poll",
-      "created_at": "2026-08-29T12:08:33.583556",
-      "last_seen": "2026-08-30T11:04:01.475030",
-      "cluster_stories": [
-        {
-          "id": "37af3e49daf2b590",
-          "title": "Anthropic Wins Court Challenge to US Supply-Chain Risk Label",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-28/anthropic-wins-court-challenge-to-us-supply-chain-risk-label",
-          "source": "Bloomberg Technology",
-          "summary": "The Trump administration must lift its ban on Anthropic PBC\u2019s artificial intelligence technology for federal agencies, a US judge ruled.",
-          "published": "2026-08-28T01:12:46+00:00",
-          "score": 47.0,
-          "headline": "ANTHROPIC WINS COURT BATTLE... TRUMP BAN LIFTED"
-        },
-        {
-          "id": "0a012eb5128e9efb",
-          "title": "Anthropic gets its first court win over the Pentagon\u2019s supply-chain risk label",
-          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-          "source": "TechCrunch AI",
-          "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
-          "published": "2026-08-28T12:46:12+00:00",
-          "score": 46.0,
-          "headline": "ANTHROPIC WINS: Court Blocks Pentagon Risk Label"
-        },
-        {
-          "id": "ca4c680c00494909",
-          "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'",
-          "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
-          "source": "Engadget",
-          "summary": "'The empty invocation of national security is not a blank check to punish and retaliate against government critics.'",
-          "published": "2026-08-28T04:43:23+00:00",
-          "score": 46.0,
-          "headline": "JUDGE STRIKES DOWN Pentagon's Anthropic Ban as ILLEGAL"
-        },
-        {
-          "id": "4d93f501a4bf9cec",
-          "title": "Anthropic signs $45B compute deal with Britain\u2019s Nscale",
-          "url": "https://thenextweb.com/news/anthropic-nscale-45b-compute-deal-london-ipo",
-          "source": "The Next Web",
-          "summary": "Anthropic has agreed to spend $45B over six years renting AI computing power from Nscale\u2019s flagship West Virginia data centre development, covering about 460 megawatts. Nscale is a London company preparing a US listing as soon as next month. Anthropic has agreed to spend $45B renting computing power, and the landlord is British. The six-year [&hellip;] This story continues at The Next Web",
-          "published": "2026-08-26T17:35:23+00:00",
-          "score": 45.0,
-          "headline": "ANTHROPIC SIGNS $45B Compute Deal With UK's Nscale"
-        },
-        {
-          "id": "0b13b744ef35a50d",
-          "title": "Anthropic to Pay Nscale $45 Billion for AI Computing Power",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-26/anthropic-to-pay-nscale-45-billion-for-ai-computing-power",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC has agreed to spend $45 billion to rent AI cloud computing power from Nscale\u2019s flagship data center development in West Virginia, the latest move in an effort to secure capacity for its expanding business in advance of going public.",
-          "published": "2026-08-26T17:02:32+00:00",
-          "score": 45.0,
-          "headline": "ANTHROPIC LOCKS IN $45B AI COMPUTE DEAL With Nscale"
-        },
-        {
-          "id": "5b1531449dfba38c",
-          "title": "A major German bank just let Claude and ChatGPT trade for customers. In one test, Claude beat human traders 76% of the time\u2014but there\u2019s a catch",
-          "url": "https://fortune.com/2026/08/26/scalable-capital-claude-chatgpt-traders-bank-invest/",
-          "source": "Fortune Tech",
-          "summary": "Scalable Capital is rolling out an AI assistant program that lets users make trades, analyze portfolios, and set up savings plans with just a few prompts.",
-          "published": "2026-08-26T16:46:29+00:00",
-          "score": 45.0,
-          "headline": "GERMAN BANK LETS CLAUDE TRADE FOR CUSTOMERS... Beats Humans 76%"
-        },
-        {
-          "id": "24c26e96ef009735",
-          "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-          "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-          "source": "TechCrunch AI",
-          "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
-          "published": "2026-08-28T19:30:38+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC RESEARCHER REVEALS SELF-IMPROVING AI BREAKTHROUGH"
-        },
-        {
-          "id": "31b08ea500d375fd",
-          "title": "Anthropic launches AI tool that can conduct scientific experiments",
-          "url": "https://www.ft.com/content/dd069af7-a2a2-4984-8d9a-5edeaf54f2f8?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Claude chatbot maker unveils a system that autonomously operates a wide range of devices in laboratories",
-          "published": "2026-08-27T19:20:48+00:00",
-          "score": 43.0,
-          "headline": "ANTHROPIC'S CLAUDE NOW RUNS SCIENTIFIC EXPERIMENTS AUTONOMOUSLY"
-        },
-        {
-          "id": "0df3ceaf639abf5d",
-          "title": "Anthropic to rent AI computing power from Nscale for $45 billion",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-rent-ai-computing-power-from-nscale-for-45-billion-source-says/articleshow/133550424.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Anthropic \u2060has been aggressively expanding its computing power to meet demand \u200bgrowth it expects for products like AI coding tool, Claude \u200bCode. Nscale, a cloud infrastructure provider, will deploy Nvidia's new Vera Rubin chips to support Anthropic's computing needs, \u200bthe person said.",
-          "published": "2026-08-26T19:15:41+00:00",
-          "score": 43.0,
-          "headline": "ANTHROPIC SIGNS $45 BILLION AI COMPUTING DEAL with Nscale"
-        },
-        {
-          "id": "a3fdfb2fd97f01f9",
-          "title": "Trump administration acted illegally in fight against Anthropic, judge rules",
-          "url": "https://mashable.com/tech/trump-anthropic-ban-illegal-judge-rules",
-          "source": "Mashable Tech",
-          "summary": "A ruling in the first of two lawsuits filed against the government by Anthropic found the Trump administration acted outside the law.",
-          "published": "2026-08-28T17:53:31+00:00",
-          "score": 41.0,
-          "headline": "JUDGE: Trump Admin Acted Illegally Against Anthropic"
-        }
-      ],
-      "current_topic_name": "Anthropic Legal Victory and Major Deals"
-    },
-    {
       "topic": "OpenAI-Cursor Split",
       "description": "OpenAI terminates its partnership with Cursor following SpaceX's $60B acquisition, escalating tensions in the Musk-Altman rivalry and raising questions about AI tool access.",
       "question": "Is OpenAI justified in cutting off Cursor after the SpaceX acquisition?",
-      "button_a": "Justified",
-      "button_b": "Overreach",
+      "button_a": "Yes",
+      "button_b": "No",
       "poll_id": "openai-cursor-split-20260830",
       "analysis_url": "/analysis/analysis-openai-cursor-split-20260830.html",
       "analysis_type": "poll",
       "created_at": "2026-08-30T11:03:59.405514",
-      "last_seen": "2026-08-30T11:04:04.560453",
+      "last_seen": "2026-08-30T20:25:32.077457",
       "cluster_stories": [
         {
           "id": "96d51585bb5c5272",
@@ -199,7 +84,62 @@
         }
       ],
       "current_topic_name": "OpenAI-Cursor Split"
+    },
+    {
+      "topic": "Anthropic Legal Victory and Major Deals",
+      "description": "Anthropic won court battles against Trump administration Pentagon ban while securing massive $45B compute deal and expanding AI capabilities.",
+      "question": "Was the Trump administration right to flag Anthropic as a security risk?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropic-legal-victory-and-major-deals-20260829",
+      "analysis_url": "/analysis/analysis-anthropic-legal-victory-20260830.html",
+      "analysis_type": "poll",
+      "created_at": "2026-08-29T12:08:33.583556",
+      "last_seen": "2026-08-30T20:25:33.386141",
+      "cluster_stories": [
+        {
+          "id": "37af3e49daf2b590",
+          "title": "Anthropic Wins Court Challenge to US Supply-Chain Risk Label",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-28/anthropic-wins-court-challenge-to-us-supply-chain-risk-label",
+          "source": "Bloomberg Technology",
+          "summary": "The Trump administration must lift its ban on Anthropic PBC\u2019s artificial intelligence technology for federal agencies, a US judge ruled.",
+          "published": "2026-08-28T01:12:46+00:00",
+          "score": 47.0,
+          "headline": "ANTHROPIC WINS COURT BATTLE... TRUMP BAN LIFTED"
+        },
+        {
+          "id": "0a012eb5128e9efb",
+          "title": "Anthropic gets its first court win over the Pentagon\u2019s supply-chain risk label",
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+          "source": "TechCrunch AI",
+          "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+          "published": "2026-08-28T12:46:12+00:00",
+          "score": 46.0,
+          "headline": "ANTHROPIC WINS: Court Blocks Pentagon Risk Label"
+        },
+        {
+          "id": "ca4c680c00494909",
+          "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'",
+          "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
+          "source": "Engadget",
+          "summary": "'The empty invocation of national security is not a blank check to punish and retaliate against government critics.'",
+          "published": "2026-08-28T04:43:23+00:00",
+          "score": 46.0,
+          "headline": "JUDGE STRIKES DOWN Pentagon's Anthropic Ban as ILLEGAL"
+        },
+        {
+          "id": "a3fdfb2fd97f01f9",
+          "title": "Trump administration acted illegally in fight against Anthropic, judge rules",
+          "url": "https://mashable.com/tech/trump-anthropic-ban-illegal-judge-rules",
+          "source": "Mashable Tech",
+          "summary": "A ruling in the first of two lawsuits filed against the government by Anthropic found the Trump administration acted outside the law.",
+          "published": "2026-08-28T17:53:31+00:00",
+          "score": 41.0,
+          "headline": "JUDGE: Trump Admin Acted Illegally Against Anthropic"
+        }
+      ],
+      "current_topic_name": "Anthropic Legal Victory"
     }
   ],
-  "last_updated": "2026-08-30T11:04:05.138145"
+  "last_updated": "2026-08-30T20:25:33.386160"
 }
