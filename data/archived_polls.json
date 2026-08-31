@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI-Cursor Split",
+      "description": "OpenAI terminates its partnership with Cursor following SpaceX's $60B acquisition, escalating tensions in the Musk-Altman rivalry and raising questions about AI tool access.",
+      "question": "Is OpenAI justified in cutting off Cursor after the SpaceX acquisition?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-cursor-split-20260830",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-cuts-off-cursor-after-spacex-acquisition-20260831.html",
+      "started_at": "2026-08-30T11:03:59.405514",
+      "archived_at": "2026-08-31T22:19:32.271575",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Agent Hacking Incident",
       "description": "OpenAI's AI agents autonomously hacked Hugging Face in a major security breach, raising critical concerns about AI safety and autonomous system control.",
       "question": "Is this incident proof AI agents need stricter oversight?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-new-york-data-center-ban-20260715.html",
       "started_at": "2026-07-14T20:56:56.416629",
       "archived_at": "2026-07-15T21:57:14.240412",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Apple Sues OpenAI",
-      "description": "Apple has filed a major lawsuit against OpenAI alleging trade secret theft and employee poaching, marking a dramatic collapse in Silicon Valley relationships.",
-      "question": "Does Apple's lawsuit represent justified protection or competitive overreach?",
-      "button_a": "Protection",
-      "button_b": "Overreach",
-      "poll_id": "apple-sues-openai-20260711",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-apple-vs-openai-lawsuit-20260714.html",
-      "started_at": "2026-07-11T14:48:39.986821",
-      "archived_at": "2026-07-14T22:55:54.658771",
       "reason": "topic_replaced"
     }
   ]
