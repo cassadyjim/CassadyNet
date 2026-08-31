@@ -1,8 +1,66 @@
 {
   "clusters": [
     {
-      "topic": "OpenAI-Cursor Split",
-      "description": "OpenAI terminates its partnership with Cursor following SpaceX's $60B acquisition, escalating tensions in the Musk-Altman rivalry and raising questions about AI tool access.",
+      "topic": "Anthropic Legal Battle with Pentagon",
+      "description": "Multiple court victories for Anthropic against Pentagon restrictions and bans, with international implications as China sets terms for US AI talks.",
+      "stories": [
+        {
+          "id": "7c8e90a7245482b6",
+          "title": "China Rebukes Anthropic, Sets Terms for Key US-China AI Dialogue",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-31/china-rebukes-anthropic-sets-terms-for-key-us-china-ai-dialogue",
+          "source": "Bloomberg Technology",
+          "summary": "China laid out conditions for artificial intelligence talks with the US, striking a strident tone ahead of a much-anticipated meeting while accusing American AI company Anthropic PBC of bad behavior.",
+          "published": "2026-08-31T09:33:46+00:00",
+          "score": 50.0,
+          "headline": "CHINA REBUKES ANTHROPIC... Sets Terms for US AI Talks"
+        },
+        {
+          "id": "37af3e49daf2b590",
+          "title": "Anthropic Wins Court Challenge to US Supply-Chain Risk Label",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-28/anthropic-wins-court-challenge-to-us-supply-chain-risk-label",
+          "source": "Bloomberg Technology",
+          "summary": "The Trump administration must lift its ban on Anthropic PBC\u2019s artificial intelligence technology for federal agencies, a US judge ruled.",
+          "published": "2026-08-28T01:12:46+00:00",
+          "score": 47.0,
+          "headline": "ANTHROPIC WINS COURT BATTLE... TRUMP BAN LIFTED"
+        },
+        {
+          "id": "0a012eb5128e9efb",
+          "title": "Anthropic gets its first court win over the Pentagon\u2019s supply-chain risk label",
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+          "source": "TechCrunch AI",
+          "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+          "published": "2026-08-28T12:46:12+00:00",
+          "score": 46.0,
+          "headline": "ANTHROPIC WINS: Court Blocks Pentagon Risk Label"
+        },
+        {
+          "id": "ca4c680c00494909",
+          "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'",
+          "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
+          "source": "Engadget",
+          "summary": "'The empty invocation of national security is not a blank check to punish and retaliate against government critics.'",
+          "published": "2026-08-28T04:43:23+00:00",
+          "score": 46.0,
+          "headline": "JUDGE STRIKES DOWN Pentagon's Anthropic Ban as ILLEGAL"
+        },
+        {
+          "id": "52c181a8420dd1de",
+          "title": "Anthropic Legal Fight With Pentagon Shows Shifting Politics of AI",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-08-31/anthropic-legal-fight-with-pentagon-shows-shifting-politics-of-ai",
+          "source": "Bloomberg Technology",
+          "summary": "Judge says Pentagon move was made in retaliation for company\u2019s views",
+          "published": "2026-08-31T11:02:00+00:00",
+          "score": 43.0,
+          "headline": "PENTAGON RETALIATION: Judge Sides With Anthropic in Legal Battle"
+        }
+      ],
+      "top_score": 50.0,
+      "story_count": 5
+    },
+    {
+      "topic": "OpenAI Cuts Off Cursor After SpaceX Acquisition",
+      "description": "OpenAI terminates its partnership with Cursor following SpaceX's $60B acquisition, escalating the Musk-Altman rivalry.",
       "stories": [
         {
           "id": "96d51585bb5c5272",
@@ -63,71 +121,43 @@
           "published": "2026-08-29T02:16:53+00:00",
           "score": 41.0,
           "headline": "OpenAI Terminates Cursor Partnership After SpaceX Buyout"
-        },
-        {
-          "id": "cd512e1f50db7842",
-          "title": "OpenAI plans to stop supplying models to Cursor on Nov. 12",
-          "url": "https://www.reddit.com/r/artificial/comments/1w1w7f9/openai_plans_to_stop_supplying_models_to_cursor/",
-          "source": "Reddit r/artificial",
-          "summary": "OpenAI says it intends to wind down its contract providing models to Cursor, with a proposed shutoff date of November 12, 2026. OpenAI says Cursor's change of control after SpaceX's acquisition triggered a limited cancellation window, and says it will not provide future models to Cursor. Reuters reports that Anthropic plans to increase compute support for Claude models in Cursor, while Cursor co-founder Michael Truell said the companies were speaking to resolve the issue. The practical lesson for coding-tool teams is dependency risk: a model provider can change access after ownership or contract changes, so model portability and fallback capacity matter. Sources: OpenAI: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Reuters: https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/ &#32; submitted by &#32; /u/Codeblix_Ltd [link] &#32; [comments]",
-          "published": "2026-08-29T19:52:27+00:00",
-          "score": 40.0,
-          "headline": "OPENAI CUTS OFF CURSOR... SpaceX Deal Triggers Nov. 12 Shutoff"
         }
       ],
       "top_score": 46.0,
-      "story_count": 7
-    },
-    {
-      "topic": "Anthropic Legal Victory",
-      "description": "Anthropic wins major court battle against Trump administration's Pentagon ban, with judge ruling the restrictions illegal.",
-      "stories": [
-        {
-          "id": "37af3e49daf2b590",
-          "title": "Anthropic Wins Court Challenge to US Supply-Chain Risk Label",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-28/anthropic-wins-court-challenge-to-us-supply-chain-risk-label",
-          "source": "Bloomberg Technology",
-          "summary": "The Trump administration must lift its ban on Anthropic PBC\u2019s artificial intelligence technology for federal agencies, a US judge ruled.",
-          "published": "2026-08-28T01:12:46+00:00",
-          "score": 47.0,
-          "headline": "ANTHROPIC WINS COURT BATTLE... TRUMP BAN LIFTED"
-        },
-        {
-          "id": "0a012eb5128e9efb",
-          "title": "Anthropic gets its first court win over the Pentagon\u2019s supply-chain risk label",
-          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-          "source": "TechCrunch AI",
-          "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
-          "published": "2026-08-28T12:46:12+00:00",
-          "score": 46.0,
-          "headline": "ANTHROPIC WINS: Court Blocks Pentagon Risk Label"
-        },
-        {
-          "id": "ca4c680c00494909",
-          "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'",
-          "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
-          "source": "Engadget",
-          "summary": "'The empty invocation of national security is not a blank check to punish and retaliate against government critics.'",
-          "published": "2026-08-28T04:43:23+00:00",
-          "score": 46.0,
-          "headline": "JUDGE STRIKES DOWN Pentagon's Anthropic Ban as ILLEGAL"
-        },
-        {
-          "id": "a3fdfb2fd97f01f9",
-          "title": "Trump administration acted illegally in fight against Anthropic, judge rules",
-          "url": "https://mashable.com/tech/trump-anthropic-ban-illegal-judge-rules",
-          "source": "Mashable Tech",
-          "summary": "A ruling in the first of two lawsuits filed against the government by Anthropic found the Trump administration acted outside the law.",
-          "published": "2026-08-28T17:53:31+00:00",
-          "score": 41.0,
-          "headline": "JUDGE: Trump Admin Acted Illegally Against Anthropic"
-        }
-      ],
-      "top_score": 47.0,
-      "story_count": 4
+      "story_count": 6
     }
   ],
   "unclustered": [
+    {
+      "id": "487456d3b8d7fa38",
+      "title": "AI could cause global economic downturn, Bank of England governor tells G20",
+      "url": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20",
+      "source": "The Guardian Tech",
+      "summary": "Andrew Bailey, in role as financial stability watchdog chief, warns advanced models risk destabilising systemThe Bank of England\u2019s governor, Andrew Bailey, has joined the throng of figures warning about the global risks posed by the most advanced artificial intelligence technology.In a two-page letter sent to international finance ministers and central bank governors as part of his role as chair of the international Financial Stability Board (FSB), Bailey said \u201cfrontier\u201d AI models were \u201cshowing increasingly sophisticated autonomy and problem-solving abilities, as well as threat capabilities\u201d. Continue reading...",
+      "published": "2026-08-31T09:00:47+00:00",
+      "score": 46.0,
+      "headline": "BANK OF ENGLAND: AI Could Trigger Global Economic Downturn"
+    },
+    {
+      "id": "7976787bf67fc7c8",
+      "title": "AI scribes are getting drug names and diagnoses wrong in NHS records",
+      "url": "https://thenextweb.com/news/nhs-ai-scribes-errors-healthwatch-mhra",
+      "source": "The Next Web",
+      "summary": "A patient in England was told they had demyelination, the nerve damage that underlies conditions including multiple sclerosis. The test result had actually read \u201cnull demyelination\u201d, and an AI scribe had dropped the word that reversed the meaning. That case appears in a warning from Healthwatch England, the statutory patient watchdog, reported by the Guardian today. [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-31T08:43:48+00:00",
+      "score": 46.0,
+      "headline": "AI SCRIBES Get Drug Names Wrong in NHS Records"
+    },
+    {
+      "id": "7a08b09cdbb192ba",
+      "title": "Andrew Bailey warns G20 of danger AI poses to financial system",
+      "url": "https://www.ft.com/content/ed723a59-a889-40e0-b601-0c1f16c92f65?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Head of world\u2019s financial stability watchdog urges countries to take steps to control the release of new frontier models",
+      "published": "2026-08-31T06:02:28+00:00",
+      "score": 46.0,
+      "headline": "BOE CHIEF Warns G20: AI Poses Danger to Financial System"
+    },
     {
       "id": "e37153df92253433",
       "title": "China\u2019s actors written out of dramas as AI doubles ready to take their roles",
@@ -149,24 +179,14 @@
       "headline": "META EXEC JUMPS TO OPENAI as India Scrutiny Mounts"
     },
     {
-      "id": "a2ddac958ba469b0",
-      "title": "Jensen Huang says Nvidia achieved AGI, again \u2014 not that it matters",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
-      "source": "The Verge AI",
-      "summary": "On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as \"senseless.\" He's right. For the supposed finish line of the AI race, there is no consensus [&#8230;]",
-      "published": "2026-08-27T16:15:52+00:00",
-      "score": 46.0,
-      "headline": "JENSEN HUANG CLAIMS NVIDIA ACHIEVED AGI... AGAIN"
-    },
-    {
-      "id": "574de82dacdc9129",
-      "title": "Chinese open-source AI is starting to win over U.S. businesses",
-      "url": "https://fortune.com/2026/08/27/chinese-open-source-ai-is-starting-to-win-over-u-s-businesses/",
-      "source": "Fortune Tech",
-      "summary": "New spending data suggests companies are increasingly turning to cheaper, customizable open models\u2014including fast-improving systems from China.",
-      "published": "2026-08-27T16:09:27+00:00",
-      "score": 46.0,
-      "headline": "CHINESE OPEN-SOURCE AI WINNING OVER US BUSINESSES"
+      "id": "aa2018ffe6a3a70c",
+      "title": "Z.AI Sales Miss Estimates After China\u2019s AI Price War Weighs",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/z-ai-sales-miss-estimates-after-china-s-ai-price-war-weighs",
+      "source": "Bloomberg Technology",
+      "summary": "Z.AI Co.\u2019s revenue missed estimates, underscoring the challenge it faces shipping near-frontier artificial intelligence models and competing against rivals like DeepSeek and Moonshot AI in China\u2019s crowded arena.",
+      "published": "2026-08-31T11:04:14+00:00",
+      "score": 45.0,
+      "headline": "CHINA AI PRICE WAR Crushes Z.AI Sales"
     },
     {
       "id": "00c6c7be43b2f183",
@@ -179,14 +199,74 @@
       "headline": "AI ESCAPE INCIDENTS DOUBLE IN JULY... Systems Lie, Ignore Commands"
     },
     {
-      "id": "5a1940db7ff81192",
-      "title": "OpenAI Is Developing a \u2018Persistent\u2019 AI Agent",
-      "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
-      "source": "Wired",
-      "summary": "Code reviewed by WIRED reveals the company is developing a feature that enables Codex to continue working proactively until it is \u201cput to sleep.\u201d",
-      "published": "2026-08-27T16:52:42+00:00",
-      "score": 45.0,
-      "headline": "OPENAI DEVELOPING 'PERSISTENT' AI AGENT THAT NEVER SLEEPS"
+      "id": "9a36ff78b0735dde",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp \u00b7 Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "&#32; submitted by &#32; /u/t4a8945 [link] &#32; [comments]",
+      "published": "2026-08-31T10:13:34+00:00",
+      "score": 44.0,
+      "headline": "DeepSeek V4 Flash Vision DROPS on Hugging Face"
+    },
+    {
+      "id": "8444a6cc50dc5afd",
+      "title": "ChatGPT, Reddit (RDDT), Roblox (RBLX) Face EU Digital Services Act Rules",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/chatgpt-reddit-rddt-roblox-rblx-face-eu-digital-services-act-rules",
+      "source": "Bloomberg Technology",
+      "summary": "ChatGPT, Reddit Inc. and video game company Roblox Corp. will face stricter European Union scrutiny after surpassing a threshold of 45 million monthly users in the bloc.",
+      "published": "2026-08-31T10:00:00+00:00",
+      "score": 44.0,
+      "headline": "CHATGPT, REDDIT, ROBLOX HIT WITH EU DIGITAL RULES"
+    },
+    {
+      "id": "274083a414ecaaf0",
+      "title": "G20 Warned of Growing Threat to Financial Stability Posed by New AI Models",
+      "url": "https://www.wsj.com/tech/ai/g20-warned-of-growing-threat-to-financial-stability-posed-by-new-ai-models-e9e501da",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.wsj.com/tech/ai/g20-warned-of-growing-threat-to-financial-stability-posed-by-new-ai-models-e9e501da Comments URL: https://news.ycombinator.com/item?id=49507808 Points: 3 # Comments: 0",
+      "published": "2026-08-31T09:57:12+00:00",
+      "score": 44.0,
+      "headline": "G20 WARNS: AI MODELS THREATEN FINANCIAL STABILITY"
+    },
+    {
+      "id": "8c8af8f927e35bd3",
+      "title": "OpenAI has started letting some customers pay only when the AI works",
+      "url": "https://thenextweb.com/news/openai-outcome-based-pricing-enterprise",
+      "source": "The Next Web",
+      "summary": "OpenAI has begun letting some of its largest customers pay only when its AI actually completes the job. Kevin McLaughlin and Amir Efrati reported the change to The Information, giving the example of a customer support interaction handled end-to-end. The arrangement is limited to select major accounts rather than offered generally, and OpenAI has not announced [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-31T08:55:58+00:00",
+      "score": 44.0,
+      "headline": "OpenAI Lets Customers PAY ONLY When AI Works"
+    },
+    {
+      "id": "fde6732545fb71e5",
+      "title": "Meta projected spending up to $10bn a year on Anthropic\u2019s AI models",
+      "url": "https://thenextweb.com/news/meta-anthropic-10bn-spending-projection",
+      "source": "The Next Web",
+      "summary": "Meta has become one of Anthropic\u2019s largest customers, at the same time as Mark Zuckerberg has been attacking the company in public. At one point this year Meta internally projected that it could spend as much as $10bn a year on Anthropic\u2019s models, The New York Times reported, citing two people who declined to be [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-31T08:35:38+00:00",
+      "score": 44.0,
+      "headline": "Meta Projected $10BN Yearly Spend on Anthropic Models"
+    },
+    {
+      "id": "837ff6a27ae1ebee",
+      "title": "Doctors\u2019 AI scribes get names of drugs and diagnoses wrong, NHS watchdog warns",
+      "url": "https://www.theguardian.com/society/2026/aug/31/doctors-ai-scribes-get-names-of-drugs-and-diagnoses-wrong-nhs-watchdog-warns",
+      "source": "The Guardian Tech",
+      "summary": "Exclusive: Patients identify errors in consultation transcripts that are missed by GPs, Healthwatch England findsAI technology that listens to and transcribes patients\u2019 consultations with doctors can put them at risk by getting the names of drugs and illnesses wrong, an NHS watchdog has warned.In one case a woman was left badly shaken when the AI scribe\u2019s summary of her conversation wrongly said she had demyelination \u2013 serious nerve damage that can lead to multiple sclerosis. Continue reading...",
+      "published": "2026-08-31T06:00:19+00:00",
+      "score": 44.0,
+      "headline": "NHS Watchdog: AI Scribes Getting Drugs and Diagnoses Wrong"
+    },
+    {
+      "id": "d2909ca0626a38f9",
+      "title": "AI and robotics drive an IPO boom in China as Shein lists in Hong Kong",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-and-robotics-drive-an-ipo-boom-in-china-as-shein-lists-in-hong-kong/articleshow/133641386.cms",
+      "source": "The Economic Times Tech",
+      "summary": "In the latest big stock listing, shares in China-founded e-commerce and fast fashion giant Shein are due to debut Tuesday in Hong Kong in a blockbuster initial public offering raising $1.7 billion, in one of the city's biggest new share sales this year.",
+      "published": "2026-08-31T04:18:01+00:00",
+      "score": 44.0,
+      "headline": "AI and Robotics Drive IPO Boom in China as Shein Lists"
     },
     {
       "id": "24c26e96ef009735",
@@ -199,14 +279,14 @@
       "headline": "ANTHROPIC RESEARCHER REVEALS SELF-IMPROVING AI BREAKTHROUGH"
     },
     {
-      "id": "f19c7fce1e4869f7",
-      "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
-      "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
-      "source": "Wired",
-      "summary": "This week on \u201cUncanny Valley,\u201d senior writer Will Knight talks his recent visit to China and the future of AI collaboration.",
-      "published": "2026-08-27T21:08:34+00:00",
-      "score": 44.0,
-      "headline": "AI AGENTS HACKING SYSTEMS... US-China Cooperation Ahead?"
+      "id": "52beb05956aa3a08",
+      "title": "ChatGPT becomes the first AI chatbot designated under the DSA",
+      "url": "https://thenextweb.com/news/hatgpt-reddit-roblox-dsa-designation",
+      "source": "The Next Web",
+      "summary": "The European Commission has classified ChatGPT as a search engine. Monday\u2019s designation brings the chatbot under the Digital Services Act as a Very Large Online Search Engine, alongside Reddit and Roblox, which have been designated as Very Large Online Platforms. ChatGPT is the first AI chatbot to be designated under the regime. The Commission announced [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-31T11:59:01+00:00",
+      "score": 43.0,
+      "headline": "CHATGPT DESIGNATED AS SEARCH ENGINE UNDER EU'S DSA"
     },
     {
       "id": "9220f06e77ccea23",
@@ -269,34 +349,24 @@
       "headline": "Tencent Releases 770B Parameter Open-Source AI Model"
     },
     {
-      "id": "31b08ea500d375fd",
-      "title": "Anthropic launches AI tool that can conduct scientific experiments",
-      "url": "https://www.ft.com/content/dd069af7-a2a2-4984-8d9a-5edeaf54f2f8?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Claude chatbot maker unveils a system that autonomously operates a wide range of devices in laboratories",
-      "published": "2026-08-27T19:20:48+00:00",
-      "score": 43.0,
-      "headline": "ANTHROPIC'S CLAUDE NOW RUNS SCIENTIFIC EXPERIMENTS AUTONOMOUSLY"
+      "id": "71b0dac893653b85",
+      "title": "AI-driven cyber risk is top concern for global financial stability, watchdog says",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-driven-cyber-risk-is-top-concern-for-global-financial-stability-watchdog-says/articleshow/133650851.cms",
+      "source": "The Economic Times Tech",
+      "summary": "In a letter to G20 finance ministers and central bank \u200bgovernors ahead of meetings this week, Bailey, who also serves as the Bank \u200bof England governor, said many countries do not have systems in place to manage the deployment of advanced artificial intelligence models.",
+      "published": "2026-08-31T11:02:53+00:00",
+      "score": 42.0,
+      "headline": "AI Cyber Risk Now TOP THREAT to Global Finance"
     },
     {
-      "id": "dcb7c8e9682a625c",
-      "title": "Hugging Face Always Attracts Buyers, Co-Founder Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-27/hugging-face-always-attracts-buyers-co-founder-says-video",
-      "source": "Bloomberg Technology",
-      "summary": "Multiple reports say Nvidia Corp. is close to an agreement to buy Hugging Face for roughly $13 billion. During an interview on \"Bloomberg Tech,\" Hugging Face co-founder Thomas Wolf declined to comment on those reports, but he did say the AI startup has always attracted interest and offers. (Source: Bloomberg)",
-      "published": "2026-08-27T16:35:42+00:00",
-      "score": 43.0,
-      "headline": "NVIDIA NEARS $13B HUGGING FACE ACQUISITION"
-    },
-    {
-      "id": "831a249c2e067ca3",
-      "title": "Nvidia is reportedly in talks to buy Hugging Face for $12.9bn",
-      "url": "https://thenextweb.com/news/nvidia-hugging-face-13bn-acquisition-talks",
+      "id": "e0bac338350083dc",
+      "title": "Europe has ordered a \u20ac388M AI supercomputer from its own state-owned champion",
+      "url": "https://thenextweb.com/news/lumi-ai-supercomputer-bull-finland-eurohpc",
       "source": "The Next Web",
-      "summary": "Nvidia has been in talks to acquire Hugging Face at a valuation above $13bn, according to Business Insider, days after reports that the open-model hub was exploring a sale at roughly that figure. The Information puts the process further along than that, reporting an agreed deal at $12.9bn, and Nvidia did not respond to a request [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-27T13:44:18+00:00",
-      "score": 43.0,
-      "headline": "NVIDIA IN TALKS TO BUY HUGGING FACE FOR $12.9BN"
+      "summary": "Europe is buying another AI supercomputer, and this one is headed to Kajaani in northern Finland. LUMI-AI is a \u20ac387.8 million system, roughly $449 million, that will be built by Bull, the French supercomputer maker that the French state bought outright five months ago. The order is the sixth AI Factory procurement contract signed by [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-31T09:12:18+00:00",
+      "score": 42.0,
+      "headline": "EU Orders \u20ac388M AI Supercomputer From State Champion Bull"
     },
     {
       "id": "069bf1f8c9a1f6cb",
@@ -359,44 +429,74 @@
       "headline": "X EXPOSES Chinese Bot Farm Attacking AI Data Centers"
     },
     {
-      "id": "0e635370c7ae58ab",
-      "title": "Nvidia Sees AI-Fueled Demand Boosting Sales 70% Next Year",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-27/nvidia-sees-70-ai-fueled-demand-sales-boost-next-year-video",
-      "source": "Bloomberg Technology",
-      "summary": "Nvidia said revenue will grow about 70% next fiscal year, easing concerns that AI spending is poised to lose momentum. Angelo Zino, SVP and Tech Lead at CFRA Research, breaks down Nvidia's earnings blowout and other tech headlines. (Source: Bloomberg)",
-      "published": "2026-08-27T14:59:17+00:00",
-      "score": 42.0,
-      "headline": "NVIDIA FORECASTS 70% SALES SURGE ON AI DEMAND"
+      "id": "fd18123d7f489297",
+      "title": "ChatGPT faces tougher rules under EU online safety regime",
+      "url": "https://www.ft.com/content/6af706a3-6e63-46c2-926b-85461a355e9b?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Reddit and Roblox also designated as very large online platforms under the bloc\u2019s Digital Services Act",
+      "published": "2026-08-31T11:06:25+00:00",
+      "score": 41.0,
+      "headline": "EU HITS ChatGPT With Tougher Safety Rules"
     },
     {
-      "id": "2325d8c89f064745",
-      "title": "SK Hynix holds groundbreaking ceremony for $4 billion Indiana AI chip packaging facility",
-      "url": "https://economictimes.indiatimes.com/tech/technology/sk-hynix-holds-groundbreaking-ceremony-for-4-billion-indiana-ai-chip-packaging-facility/articleshow/133571010.cms",
+      "id": "79824c3b2647e5f9",
+      "title": "Huawei H1 profit drop quickens to 36% on rising costs, R&amp;D spending",
+      "url": "https://economictimes.indiatimes.com/tech/technology/huawei-h1-profit-drop-quickens-to-36-on-rising-costs-rd-spending/articleshow/133650687.cms",
       "source": "The Economic Times Tech",
-      "summary": "The facility, at the Purdue Research Park in West Lafayette, is scheduled to begin cleanroom operations in the second half of 2028, according to SK Hynix's website and press statements. The site will house a next-generation high-bandwidth memory (HBM) packaging line as well as an AI semiconductor research and development facility.",
-      "published": "2026-08-27T14:11:32+00:00",
-      "score": 42.0,
-      "headline": "SK Hynix Breaks Ground on $4B Indiana AI Chip Plant"
+      "summary": "The Chinese technology company said net profit for January to June fell to 23.81 billion yuan ($3.54 billion), accelerating from a 32% drop in the same period a year earlier, while \u200crevenue rose \u20609.6% to \u2060467.82 billion yuan, as it continued to recover from US sanctions.",
+      "published": "2026-08-31T10:59:20+00:00",
+      "score": 41.0,
+      "headline": "HUAWEI Profit Plunges 36% on Rising R&D Costs"
     },
     {
-      "id": "d0a5ac6877d13080",
-      "title": "Here\u2019s all the times AI has gone rogue and hacked other companies",
-      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
-      "source": "TechCrunch AI",
-      "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
-      "published": "2026-08-27T14:01:42+00:00",
-      "score": 42.0,
-      "headline": "EVERY TIME AI Has Gone ROGUE and Hacked Companies"
+      "id": "8626e41034b4ea96",
+      "title": "ChatGPT, Reddit, Roblox to adhere to EU's \"very large platform\" rules",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-reddit-roblox-to-adhere-to-eus-very-large-platform-rules/articleshow/133650637.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The services have declared \u200cthat \u2060they reach \u2060at least 45 million monthly users in the \u200bEU. This qualifies them for the \"very large\" designation \u200bunder the bloc's Digital Services Act, the Commission said.",
+      "published": "2026-08-31T10:56:18+00:00",
+      "score": 41.0,
+      "headline": "ChatGPT, Reddit, Roblox Face EU 'Very Large Platform' Rules"
     },
     {
-      "id": "89693ce42c5cd79e",
-      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-      "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
-      "source": "Ars Technica AI",
-      "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
-      "published": "2026-08-27T14:00:13+00:00",
-      "score": 42.0,
-      "headline": "Claude, Codex INSTALL Unowned Code in Corporate Networks"
+      "id": "b19b48040a4549e2",
+      "title": "UK offers homegrown AI start-ups \u00a3100mn to improve public services",
+      "url": "https://www.ft.com/content/5a10fc78-9a3e-4f12-81e3-dc843b529948?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Scheme comes in wake of growing opposition to government contracts with US software group Palantir",
+      "published": "2026-08-31T10:24:01+00:00",
+      "score": 41.0,
+      "headline": "UK OFFERS \u00a3100M TO HOMEGROWN AI STARTUPS... Palantir Backlash"
+    },
+    {
+      "id": "ba3f68cfce7000d9",
+      "title": "India Offers Chip Design, Gear Subsidy From $13.4 Billion Fund",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/india-offers-chip-design-gear-subsidy-from-13-4-billion-fund",
+      "source": "Bloomberg Technology",
+      "summary": "",
+      "published": "2026-08-31T08:59:49+00:00",
+      "score": 41.0,
+      "headline": null
+    },
+    {
+      "id": "8cc6705a599e3c8e",
+      "title": "SB Energy gave OpenAI $5.5bn in warrants to sign a 20-year lease",
+      "url": "https://thenextweb.com/news/sb-energy-openai-warrants-ohio-campus",
+      "source": "The Next Web",
+      "summary": "SB Energy has handed OpenAI warrants now worth about $5.5bn, and it did so to keep OpenAI as a tenant. The Wall Street Journal reported the arrangement on Monday. The direction matters and is easy to get backwards. SB Energy, the SoftBank-owned power and data centre developer, is the issuer, and OpenAI is the recipient, [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-31T08:19:06+00:00",
+      "score": 41.0,
+      "headline": "SB Energy Gave OpenAI $5.5BN in Warrants for Lease"
+    },
+    {
+      "id": "5f34bb2f3d70d9b9",
+      "title": "Europe expands AI computing network with \u20ac390 million order from France's Bull",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/europe-expands-ai-computing-network-with-390-million-order-from-frances-bull/articleshow/133645491.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The European Union's supercomputing body EuroHPC selected Bull to \u200bbuild LUMI-AI, the sixth machine ordered under its AI Factories programme. The system is \u200ba new supercomputer to be installed alongside the existing LUMI machine at Finland's supercomputing centre. It is expected to come online in the second \u200bhalf of 2027.",
+      "published": "2026-08-31T07:10:12+00:00",
+      "score": 41.0,
+      "headline": "Europe Expands AI Computing With \u20ac390M Bull Order"
     },
     {
       "id": "bb816c7c02bb306b",
@@ -427,6 +527,16 @@
       "published": "2026-08-28T20:24:11+00:00",
       "score": 41.0,
       "headline": "Lambda Secures $1B Debt to Buy Nvidia Chips for Microsoft"
+    },
+    {
+      "id": "a3fdfb2fd97f01f9",
+      "title": "Trump administration acted illegally in fight against Anthropic, judge rules",
+      "url": "https://mashable.com/tech/trump-anthropic-ban-illegal-judge-rules",
+      "source": "Mashable Tech",
+      "summary": "A ruling in the first of two lawsuits filed against the government by Anthropic found the Trump administration acted outside the law.",
+      "published": "2026-08-28T17:53:31+00:00",
+      "score": 41.0,
+      "headline": "JUDGE: Trump Admin Acted Illegally Against Anthropic"
     },
     {
       "id": "362b1653131577e6",
@@ -499,34 +609,24 @@
       "headline": "AI AGENTS 'RADICALIZED' TOP META EXEC INTO QUITTING"
     },
     {
-      "id": "40f35c2366045e35",
-      "title": "AI Finds Critical Flaw in Bitcoin Lightning, Devs Issue Emergency Warning",
-      "url": "https://decrypt.co/376714/ai-critical-flaw-bitcoin-lightning-warning",
-      "source": "Hacker News",
-      "summary": "Article URL: https://decrypt.co/376714/ai-critical-flaw-bitcoin-lightning-warning Comments URL: https://news.ycombinator.com/item?id=49472609 Points: 7 # Comments: 1",
-      "published": "2026-08-27T23:31:16+00:00",
-      "score": 41.0,
-      "headline": "AI FINDS CRITICAL FLAW IN BITCOIN LIGHTNING... EMERGENCY WARNING"
+      "id": "a2256c60a7f08406",
+      "title": "pipecat-ai/phonellm-alpha-1: GPT 5.6 Terra performance on typical voice agent tasks at 1/3 the latency and 1/18 the cost",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w393ht/pipecataiphonellmalpha1_gpt_56_terra_performance/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "&#32; submitted by &#32; /u/paf1138 [link] &#32; [comments]",
+      "published": "2026-08-31T09:51:53+00:00",
+      "score": 40.0,
+      "headline": "PhoneLLM Alpha-1 Matches GPT-5.6 at 1/3 Latency, 1/18 Cost"
     },
     {
-      "id": "1ee943e26a6baf08",
-      "title": "JPMorgan Leads $5 Billion Debt Package for Volta AI Buildout",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/jpmorgan-leads-5-billion-debt-package-for-volta-ai-buildout",
-      "source": "Bloomberg Technology",
-      "summary": "JPMorgan Chase &amp; Co. has begun early outreach to potential lenders for a $5 billion debt package to fund Volta Infra Holdings Ltd.\u2019s buildout of AI data centers, according to people familiar with the financing.",
-      "published": "2026-08-27T14:37:26+00:00",
-      "score": 41.0,
-      "headline": "JPMorgan Backs $5 BILLION AI Data Center Deal"
-    },
-    {
-      "id": "3fe56b31f4ce5408",
-      "title": "SpaceX\u2019s Musk, David Sacks to Join Altman, Huang at G20 Event",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/spacex-s-musk-david-sacks-to-join-altman-huang-at-g20-event",
-      "source": "Bloomberg Technology",
-      "summary": "SpaceX Chief Executive Officer Elon Musk, who ran a brazen campaign in Washington to cut government spending last year, and former White House AI czar David Sacks are scheduled to speak at a tech-focused Group of 20 ministerial meeting in North Carolina next week, along with Nvidia Corp.\u2019s Jensen Huang and OpenAI\u2019s Sam Altman, people familiar with the matter said.",
-      "published": "2026-08-27T13:14:56+00:00",
-      "score": 41.0,
-      "headline": "MUSK, SACKS JOIN ALTMAN, HUANG AT G20 TECH EVENT"
+      "id": "bf15fadeadd19872",
+      "title": "The Justice Department rewrote its own hacking announcement two days later",
+      "url": "https://thenextweb.com/news/doj-revises-china-hacking-claims-qtfy",
+      "source": "The Next Web",
+      "summary": "The US Justice Department has quietly rewritten a press release that said Chinese hackers had claimed victims across the Senate, the Federal Reserve, NASA and half a dozen other federal bodies. The revised version says those organisations were targets, and that only some were actually compromised, as Reuters reported. The original text went out on [&hellip;] This story continues at The Next Web",
+      "published": "2026-08-31T08:31:32+00:00",
+      "score": 40.0,
+      "headline": null
     },
     {
       "id": "986759a5bf12019b",
@@ -679,54 +779,44 @@
       "headline": "ANTHROPIC UNVEILS Framework for AI-Controlled Lab Equipment"
     },
     {
-      "id": "09d107f25878135b",
-      "title": "Anthropic tests a new standard for Claude to work with factory and lab hardware",
-      "url": "https://thenextweb.com/news/anthropic-model-hardware-standard-mhs-eu-machinery-regulation-2027",
-      "source": "The Next Web",
-      "summary": "Anthropic has released the Model Hardware Standard in research preview, a specification that stores how a piece of hardware works and how an AI may safely operate it, such as limiting a robot arm\u2019s speed and angles. Europe\u2019s Machinery Regulation starts covering AI-based safety functions on 20 January 2027. Anthropic has written a standard for [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-27T20:15:51+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC LAUNCHES Model Hardware Standard for Factory Robots"
+      "id": "ab6a589b20804db9",
+      "title": "An AI coding agent silently erased 92% of AI nodes in n8n's most-cited dataset",
+      "url": "https://sevenedge.pl/en/blog/an-ai-agent-erased-n8ns-ai-agent-nodes",
+      "source": "Hacker News",
+      "summary": "Article URL: https://sevenedge.pl/en/blog/an-ai-agent-erased-n8ns-ai-agent-nodes Comments URL: https://news.ycombinator.com/item?id=49508746 Points: 1 # Comments: 0",
+      "published": "2026-08-31T12:16:30+00:00",
+      "score": 39.0,
+      "headline": "AI CODING AGENT ERASES 92% OF AI NODES IN N8N DATASET"
     },
     {
-      "id": "63c7c3244641b1cd",
-      "title": "Elon Musks SpacexAI faces another lawsuit from child sexual abuse survivor",
-      "url": "https://mashable.com/tech/grok-lawsuit-child-sexual-abuse-materials-training-data",
-      "source": "Mashable Tech",
-      "summary": "The lawsuit claims child sexual abuse material depicting real people was used to train the chatbot.",
-      "published": "2026-08-27T16:47:03+00:00",
-      "score": 40.0,
-      "headline": "MUSK'S xAI SUED OVER CHILD ABUSE IMAGES IN TRAINING DATA"
+      "id": "479c40b5293046f2",
+      "title": "Saudi AI Firm Humain, Applied Intuition Partner on Self-Driving Trucks",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/saudi-ai-firm-humain-applied-intuition-partner-on-self-driving-trucks",
+      "source": "Bloomberg Technology",
+      "summary": "Saudi Arabia\u2019s Humain is partnering with Applied Intuition Inc. to deploy self-driving trucks by 2030, as the kingdom\u2019s leading artificial intelligence firm looks to find practical uses for the technology that align with national priorities.",
+      "published": "2026-08-31T11:45:11+00:00",
+      "score": 39.0,
+      "headline": "Saudi AI Firm Humain Partners on Self-Driving Trucks by 2030"
     },
     {
-      "id": "cbfbf8c4bdc1e8ce",
-      "title": "Child abuse victim sues Elon Musk's xAI over AI-generated images",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/child-abuse-victim-sues-musks-xai-over-ai-generated-images/articleshow/133573332.cms",
+      "id": "5b1c498f8e7ff6b1",
+      "title": "Huawei Profit Decline Widens After Memory Crunch Takes Toll",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/huawei-profit-decline-widens-after-memory-crunch-takes-toll",
+      "source": "Bloomberg Technology",
+      "summary": "Huawei Technologies Co. posted a deep profit decline after the Chinese tech champion grappled with rising memory costs and poured more resources into semiconductor research.",
+      "published": "2026-08-31T09:38:57+00:00",
+      "score": 39.0,
+      "headline": "Huawei Profit Plunges as Memory Crunch Bites Chip Push"
+    },
+    {
+      "id": "12e76bdf8d0f92f6",
+      "title": "Government notifies Rs 1.27 lakh crore Semicon 2.0 scheme to boost chip ecosystem",
+      "url": "https://economictimes.indiatimes.com/tech/technology/government-notifies-rs-1-27-lakh-crore-semicon-2-0-scheme-to-boost-chip-ecosystem/articleshow/133645734.cms",
       "source": "The Economic Times Tech",
-      "summary": "The complaint, lodged Wednesday in the Northern District of California by an anonymous plaintiff identified as Jane Doe 1, alleges that xAI designed Grok to alter real photographs of identifiable people into sexual content and then published the results directly to the X social media platform (formerly Twitter).",
-      "published": "2026-08-27T16:15:15+00:00",
-      "score": 40.0,
-      "headline": "Child Abuse Victim Sues Musk's xAI Over AI-Generated Images"
-    },
-    {
-      "id": "d06021b7ade0362f",
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "source": "DeepMind Blog",
-      "summary": "",
-      "published": "2026-08-27T16:11:32+00:00",
-      "score": 40.0,
-      "headline": "Google Launches Gemini Omni 1.1 Flash with Enhanced Control"
-    },
-    {
-      "id": "8c96fe7f09b73fa7",
-      "title": "SpaceX's Elon Musk, David Sacks to join Sam Altman, Jensen Huang at G20 event: Bloomberg",
-      "url": "https://economictimes.indiatimes.com/tech/technology/spacexs-musk-david-sacks-to-join-altman-huang-at-g20-event-bloomberg/articleshow/133570310.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Elon Musk, David Sacks, Jensen Huang and Sam Altman are set to speak at next week\u2019s Group of 20 tech meeting.",
-      "published": "2026-08-27T13:48:38+00:00",
-      "score": 40.0,
-      "headline": "MUSK, ALTMAN, HUANG TO SPEAK AT G20 TECH SUMMIT"
+      "summary": "The scheme has been divided into six segments covering designing of chips by Indian firms, setting up units for capital equipment required for chip production, semiconductor fabs, chip assembly, packaging and testing, etc. The scheme will aim to build resilient, trusted, and sovereign semiconductor technologies by focusing on designing, development, and deployment of target segment technologies for the national strategic and critical infrastructure.",
+      "published": "2026-08-31T07:17:32+00:00",
+      "score": 39.0,
+      "headline": null
     },
     {
       "id": "01092bc787ea04a5",
@@ -869,44 +959,44 @@
       "headline": null
     },
     {
-      "id": "9285ce5120dbde69",
-      "title": "AI Village Reacts to HuggingFace Incident: Comparing the OpenAI report to AI Village observations",
-      "url": "https://www.lesswrong.com/posts/cR3P3hvtZtpo7GdS8/ai-village-reacts-to-huggingface-incident-comparing-the",
+      "id": "e99d8822904414ca",
+      "title": "The OpenAI/Hugging Face incident was metal",
+      "url": "https://www.lesswrong.com/posts/DzrRKdPJdyo9ZSCjb/the-openai-hugging-face-incident-was-metal",
       "source": "LessWrong AI",
-      "summary": "The&nbsp;HuggingFace incident&nbsp;took many people by surprise, yet many of these surprises have been visible in the&nbsp;AI Village&nbsp;for quite a while. On August 26, OpenAI released their&nbsp;report&nbsp;on this incident. Below we\u2019ll walk you through the highlights and show how many of the dynamics could have been predicted based on AI Village observations.Diagram of the AI Village: Currently we run 27 agents in the&nbsp;main Village&nbsp;and 11 agents in a&nbsp;side Village&nbsp;open to humans. You can explore their&nbsp;character pages, a&nbsp;timeline&nbsp;of all their goals, and check our&nbsp;Twitter&nbsp;for the latest insights.Quick Intro: Comparing SetupsIn the AI Village we run 27 instances of 27 different models persistently, each in their own environment. We give them internet access and a group chat. Then we assign them goals - some challenging and some impossible. They always run with cybersecurity safeguards on. They always have a helpdesk email address (us) in the",
-      "published": "2026-08-27T23:09:54+00:00",
-      "score": 39.0,
-      "headline": "HUGGINGFACE INCIDENT: OpenAI Report Reveals AI Village Warnings Were Ignored"
+      "summary": "The recently published METR report on the OpenAI/Hugging Face incident is extremely detailed and shocking. But it\u2019s too long. Intelligent public distillations (like Zvi\u2019s) are also too long, while tolerable summaries lose the meat.This is the report you want. Only the action, in chronological order. Let\u2019s go.Quotes are from message board posts or agent thinking/transcripts. Events are tagged as metal, dank, dope, or baller as their virtues dictate.June 26 \u2014 July 7 PreludeJuly 8July 9July 10 \u2014 13ThroughoutThe VerdictDiscuss",
+      "published": "2026-08-31T11:46:10+00:00",
+      "score": 38.0,
+      "headline": "SHOCKING DETAILS EMERGE FROM OPENAI/HUGGING FACE INCIDENT"
     },
     {
-      "id": "580065f4792e3373",
-      "title": "Meta\u2019s Pressure Campaign Puts TikTok, YouTube, Snap on Back Foot",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/meta-s-pressure-campaign-puts-tiktok-youtube-snap-on-back-foot",
-      "source": "Bloomberg Technology",
-      "summary": "Meta Platforms Inc. is mounting a public pressure campaign to make its social media rivals add guardrails to their platforms to curb teen usage, after signing a historic $18 billion settlement with US states requiring new safety features on Facebook and Instagram.",
-      "published": "2026-08-27T21:54:31+00:00",
-      "score": 39.0,
-      "headline": null
+      "id": "0a43766468618f6f",
+      "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
+      "url": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
+      "source": "Wired",
+      "summary": "Of the Glassdoor reviews from claims adjusters that mentioned AI, a staggering 98 percent were negative. \u201cAI is just a tool,\u201d one person tells WIRED. \u201cIt should never be given the keys.\u201d",
+      "published": "2026-08-31T10:30:00+00:00",
+      "score": 38.0,
+      "headline": "Insurance Claims Adjusters REVOLT Against AI: 98% Negative Reviews"
     },
     {
-      "id": "3568aaea34a8972a",
-      "title": "JPMorgan leads a $5B debt package for Volta\u2019s AI data centre buildout",
-      "url": "https://thenextweb.com/news/jpmorgan-volta-5b-debt-package-norway-tydal-anthropic",
-      "source": "The Next Web",
-      "summary": "JPMorgan has begun approaching lenders about a $5B debt package to fund Volta Infra Holdings\u2019 AI data centre buildout, weeks after the seven-month-old company raised $300M at a $2.4B valuation. Its first major site is a 121-megawatt campus in Norway leased from bitcoin miner Bitdeer. JPMorgan has started sounding out lenders for a $5B debt [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-27T16:22:55+00:00",
-      "score": 39.0,
-      "headline": "JPMorgan Leads $5B Debt Package for AI Data Centre Buildout"
+      "id": "9d9c548593302d2a",
+      "title": "OpenAI cuts out SpaceX-owned Cursor",
+      "url": "https://www.therundown.ai/articles/openai-cuts-out-spacex-owned-cursor",
+      "source": "The Rundown AI",
+      "summary": "PLUS: Submit your iOS app to the App Store with Codex",
+      "published": "2026-08-31T10:00:00+00:00",
+      "score": 38.0,
+      "headline": "OPENAI CUTS OUT SPACEX-OWNED CURSOR"
     },
     {
-      "id": "635109321a0b1116",
-      "title": "Cocomelon's Studio Tells Its Artists to Start Experimenting With AI",
-      "url": "https://www.404media.co/cocomelons-studio-tells-its-artists-to-start-experimenting-with-ai/",
-      "source": "404 Media",
-      "summary": "Moonbug Entertainment, which makes Cocomelon, Blippi, and other popular content for children, says it will begin using AI but will always have a 'human in the loop.'",
-      "published": "2026-08-27T15:33:32+00:00",
-      "score": 39.0,
-      "headline": "COCOMELON STUDIO ORDERS ARTISTS TO EXPERIMENT WITH AI"
+      "id": "a507e09897b5703a",
+      "title": "OpenAI issued warrants worth $5.5 billion in SB Energy, WSJ reports",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-issued-warrants-worth-5-5-billion-in-sb-energy-wsj-reports/articleshow/133641894.cms",
+      "source": "The Economic Times Tech",
+      "summary": "\u200bOpenAI \u200bwas issued \u200bwarrants worth an \u200cestimated $5.5 \u2060billion \u2060in \u200bpower infrastructure firm \u200bSB Energy, the \u200bWall \u2060Street Journal \u200creported \u200bon \u200bSunday, \u2060citing draft IPO \u200bdocuments reviewed \u200bby the Journal.",
+      "published": "2026-08-31T04:40:23+00:00",
+      "score": 38.0,
+      "headline": "OpenAI Issued $5.5B Warrants in SB Energy"
     },
     {
       "id": "0411074fbae8b269",
@@ -927,107 +1017,7 @@
       "published": "2026-08-30T19:34:25+00:00",
       "score": 38.0,
       "headline": "NEURIPS 2026 PAPERS LEAKED: 7,000 Accepted Papers on GitHub"
-    },
-    {
-      "id": "f7c0e2bd3f815bbb",
-      "title": "Big Tech profits get $160bn boost from gains on stakes in other AI companies",
-      "url": "https://www.ft.com/content/a5a0081f-e998-4c80-b967-cc535cbc4933?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Analysts say large paper windfalls on investments in OpenAI, Anthropic and SpaceX have muddied the tech sector\u2019s earnings metrics",
-      "published": "2026-08-30T19:00:05+00:00",
-      "score": 38.0,
-      "headline": "BIG TECH BOOKS $160BN From OpenAI, Anthropic Stakes"
-    },
-    {
-      "id": "a822ba9b63c0ee7b",
-      "title": "Sony and Warner accuse Anthropic of training Claude on tens of thousands of pirated works. Should the model be retrained from scratch?",
-      "url": "https://www.reddit.com/r/artificial/comments/1w2edm0/sony_and_warner_accuse_anthropic_of_training/",
-      "source": "Reddit r/artificial",
-      "summary": "Sony Music Publishing and Warner Chappell allege that Anthropic used mass torrenting, scraping, and downloading to train Claude. Anthropic disputes the claims and says it will defend itself. A fine could simply become the cost of doing business. But forcing a company to discard or retrain a model could reshape the entire AI industry. What would actually be fair here: licensing fees, damages, or retraining from scratch? &#32; submitted by &#32; /u/Content-Cheetah-6958 [link] &#32; [comments]",
-      "published": "2026-08-30T10:51:03+00:00",
-      "score": 38.0,
-      "headline": "SONY AND WARNER SUE ANTHROPIC... Pirated Training Data"
-    },
-    {
-      "id": "e352f7d4bca2fa77",
-      "title": "UK networks are not ready for AI traffic, say mobile operators",
-      "url": "https://thenextweb.com/news/uk-mobile-networks-ai-planning-reform-eu-gigabit-infrastructure-act",
-      "source": "The Next Web",
-      "summary": "VodafoneThree\u2019s networks director says UK mobile quality is not ready for AI traffic and that planning rules, not money, are the obstacle, with more than half of its upgrades to existing masts requiring permission. The EU\u2019s Gigabit Infrastructure Act has since November given authorities four months to decide a permit, after which it is deemed [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-30T10:41:52+00:00",
-      "score": 38.0,
-      "headline": "UK Networks Not Ready For AI Traffic Surge"
-    },
-    {
-      "id": "40725a172d8df537",
-      "title": "Sony and Warner sue Anthropic for 'blatant violation' of copyright law",
-      "url": "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law/",
-      "source": "Engadget",
-      "summary": "The two music publishing groups claim thousands of instances of copyright infringement.",
-      "published": "2026-08-29T18:52:22+00:00",
-      "score": 38.0,
-      "headline": "Sony and Warner Sue Anthropic Over Copyright"
-    },
-    {
-      "id": "0d18d5472b0375ae",
-      "title": "Sony Music, Warner sue Anthropic, alleging a \u201cbrazen campaign\u201d of intellectual property theft",
-      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-      "source": "TechCrunch AI",
-      "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
-      "published": "2026-08-29T18:41:59+00:00",
-      "score": 38.0,
-      "headline": "Music Giants Sue Anthropic for IP Theft"
-    },
-    {
-      "id": "3f6bab34d6769e3c",
-      "title": "Sony Music and Warner Chappell are suing Anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "source": "The Verge AI",
-      "summary": "Sony Music and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, the [&#8230;]",
-      "published": "2026-08-29T18:19:53+00:00",
-      "score": 38.0,
-      "headline": "SONY AND WARNER SUE ANTHROPIC IN MAJOR COPYRIGHT CASE"
-    },
-    {
-      "id": "8dcc286e8103b673",
-      "title": "ICE explores purchasing robot dogs in enforcement tech push",
-      "url": "https://fortune.com/2026/08/29/ice-contract-robot-dogs-trump-immigration-crackdown-deportation/",
-      "source": "Fortune Tech",
-      "summary": "The government is looking to spend at least $2 million on the robots.",
-      "published": "2026-08-29T15:27:24+00:00",
-      "score": 38.0,
-      "headline": "ICE Eyes $2M Robot Dog Purchase for Enforcement"
-    },
-    {
-      "id": "aa4a9245545ab649",
-      "title": "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
-      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/",
-      "source": "Wired",
-      "summary": "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company\u2019s most recent earnings report.",
-      "published": "2026-08-28T22:29:13+00:00",
-      "score": 38.0,
-      "headline": "TRUMP CALLS NVIDIA CEO MID-MEETING... Jensen Takes It"
-    },
-    {
-      "id": "771a6dc3e76eb3b3",
-      "title": "Songs created by AI banned from Australia's music charts",
-      "url": "https://www.bbc.com/news/articles/c20vl4vm2pno",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.bbc.com/news/articles/c20vl4vm2pno Comments URL: https://news.ycombinator.com/item?id=49481822 Points: 3 # Comments: 1",
-      "published": "2026-08-28T17:29:31+00:00",
-      "score": 38.0,
-      "headline": "AUSTRALIA BANS AI-GENERATED SONGS from Music Charts"
-    },
-    {
-      "id": "fae364e8b543e782",
-      "title": "France\u2019s Pasqal is public, with $360M and a valuation of about 100 times revenue",
-      "url": "https://thenextweb.com/news/pasqal-nasdaq-debut-psql-360m",
-      "source": "The Next Web",
-      "summary": "Pasqal began trading on Nasdaq on Friday under the ticker PSQL, five months after announcing it would go public through a special purpose acquisition company. Shares surged on the debut, according to Reuters. The merger with Bleichroeder Acquisition Corp. II closed on 27 August, a day after shareholders approved it, leaving the company with roughly [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-28T14:44:59+00:00",
-      "score": 38.0,
-      "headline": "French Quantum Startup Pasqal Goes Public... 100x Revenue Valuation"
     }
   ],
-  "generated_at": "2026-08-30T20:24:53.763330"
+  "generated_at": "2026-08-31T12:25:37.878847"
 }
