@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Anthropic Legal Victory and Major Deals",
+      "description": "Anthropic won court battles against Trump administration Pentagon ban while securing massive $45B compute deal and expanding AI capabilities.",
+      "question": "Was the Trump administration right to flag Anthropic as a security risk?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropic-legal-victory-and-major-deals-20260829",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-anthropic-legal-battle-with-pentagon-20260831.html",
+      "started_at": "2026-08-29T12:08:33.583556",
+      "archived_at": "2026-09-01T10:59:12.398641",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI-Cursor Split",
       "description": "OpenAI terminates its partnership with Cursor following SpaceX's $60B acquisition, escalating tensions in the Musk-Altman rivalry and raising questions about AI tool access.",
       "question": "Is OpenAI justified in cutting off Cursor after the SpaceX acquisition?",
@@ -929,25 +948,6 @@
       "analysis_url": "",
       "started_at": "2026-07-15T21:57:13.519758",
       "archived_at": "2026-07-16T22:11:29.774727",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "New York Data Center Ban",
-      "description": "New York becomes the first US state to impose a moratorium on new data center construction, marking a historic regulatory intervention in AI infrastructure expansion.",
-      "question": "Should states pause data center construction to protect local resources?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "new-york-data-center-ban-20260714",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-new-york-data-center-ban-20260715.html",
-      "started_at": "2026-07-14T20:56:56.416629",
-      "archived_at": "2026-07-15T21:57:14.240412",
       "reason": "topic_replaced"
     }
   ]
