@@ -1,64 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "Bank of England AI Financial Stability Warnings",
-      "description": "Bank of England and G20 officials warn that AI models pose systemic risks to global financial stability and could trigger economic downturns.",
-      "stories": [
-        {
-          "id": "632584d061ba38ca",
-          "title": "AI could cause global economic downturn, Andrew Bailey warns G20",
-          "url": "https://www.bbc.co.uk/news/articles/c99dym3prl1o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "The governor of the Bank of England warned of AI's \u201cvolatility\u201d caused by energy shocks from the US-Iran war.",
-          "published": "2026-08-31T16:49:11+00:00",
-          "score": 47.0,
-          "headline": "BANK OF ENGLAND WARNS G20: AI Could Trigger Global Downturn"
-        },
-        {
-          "id": "2999b00d9bfb6910",
-          "title": "Bank of England chief warns new AI models threaten global financial stability",
-          "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html Comments URL: https://news.ycombinator.com/item?id=49514012 Points: 4 # Comments: 0",
-          "published": "2026-08-31T19:40:25+00:00",
-          "score": 46.0,
-          "headline": "BANK OF ENGLAND: AI Models Threaten Global Financial Stability"
-        },
-        {
-          "id": "487456d3b8d7fa38",
-          "title": "AI could cause global economic downturn, Bank of England governor tells G20",
-          "url": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20",
-          "source": "The Guardian Tech",
-          "summary": "Andrew Bailey, in role as financial stability watchdog chief, warns advanced models risk destabilising systemThe Bank of England\u2019s governor, Andrew Bailey, has joined the throng of figures warning about the global risks posed by the most advanced artificial intelligence technology.In a two-page letter sent to international finance ministers and central bank governors as part of his role as chair of the international Financial Stability Board (FSB), Bailey said \u201cfrontier\u201d AI models were \u201cshowing increasingly sophisticated autonomy and problem-solving abilities, as well as threat capabilities\u201d. Continue reading...",
-          "published": "2026-08-31T09:00:47+00:00",
-          "score": 46.0,
-          "headline": "BANK OF ENGLAND: AI Could Trigger Global Economic Downturn"
-        },
-        {
-          "id": "7a08b09cdbb192ba",
-          "title": "Andrew Bailey warns G20 of danger AI poses to financial system",
-          "url": "https://www.ft.com/content/ed723a59-a889-40e0-b601-0c1f16c92f65?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Head of world\u2019s financial stability watchdog urges countries to take steps to control the release of new frontier models",
-          "published": "2026-08-31T06:02:28+00:00",
-          "score": 46.0,
-          "headline": "BOE CHIEF Warns G20: AI Poses Danger to Financial System"
-        },
-        {
-          "id": "274083a414ecaaf0",
-          "title": "G20 Warned of Growing Threat to Financial Stability Posed by New AI Models",
-          "url": "https://www.wsj.com/tech/ai/g20-warned-of-growing-threat-to-financial-stability-posed-by-new-ai-models-e9e501da",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/g20-warned-of-growing-threat-to-financial-stability-posed-by-new-ai-models-e9e501da Comments URL: https://news.ycombinator.com/item?id=49507808 Points: 3 # Comments: 0",
-          "published": "2026-08-31T09:57:12+00:00",
-          "score": 44.0,
-          "headline": "G20 WARNS: AI MODELS THREATEN FINANCIAL STABILITY"
-        }
-      ],
-      "top_score": 47.0,
-      "story_count": 5
-    },
-    {
       "topic": "EU AI Regulation Crackdown",
       "description": "European Union enforces new digital regulations targeting major AI companies including OpenAI, with ChatGPT designated as search engine under DSA rules.",
       "stories": [
@@ -115,9 +57,77 @@
       ],
       "top_score": 45.0,
       "story_count": 5
+    },
+    {
+      "topic": "OpenAI Astra Security Concerns",
+      "description": "OpenAI's new Astra model discovers critical security flaws but faces restricted release due to dangerous cybersecurity capabilities and hacking concerns.",
+      "stories": [
+        {
+          "id": "257aceb7e1665df5",
+          "title": "OpenAI says its next model finds security flaws nobody has found yet",
+          "url": "https://thenextweb.com/news/openai-astra-model-guardrails-cyber",
+          "source": "The Next Web",
+          "summary": "\u201cWith the right tools and access, Astra can find previously unknown security flaws and develop ways to exploit them,\u201d said Amelia Glaese, the OpenAI vice president who oversees its safety work. That is the company describing its own unreleased model. Astra spots more security vulnerabilities than any OpenAI model currently available publicly, and uses less [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-02T09:28:36+00:00",
+          "score": 49.0,
+          "headline": "OPENAI'S ASTRA FINDS SECURITY FLAWS NO HUMAN HAS EVER FOUND"
+        },
+        {
+          "id": "135addb4957e9366",
+          "title": "OpenAI: Path to Astra: critical capabilities and frontier safeguards",
+          "url": "https://openai.com/index/path-to-astra/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://openai.com/index/path-to-astra/ Comments URL: https://news.ycombinator.com/item?id=49527595 Points: 1 # Comments: 0",
+          "published": "2026-09-01T20:20:41+00:00",
+          "score": 46.0,
+          "headline": "OpenAI Unveils ASTRA: New 'Critical Capabilities' Model with Frontier Safeguards"
+        },
+        {
+          "id": "677c16470784b21d",
+          "title": "OpenAI Is About to Release Its First AI Model With \u2018Critical\u2019 Cyber Abilities",
+          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
+          "source": "Wired",
+          "summary": "The company will give select partners early access to its Astra AI model\u2014so they have time to shore up their defenses.",
+          "published": "2026-09-01T20:00:00+00:00",
+          "score": 45.0,
+          "headline": "OPENAI ASTRA: First AI Model with 'CRITICAL' Cyber Abilities Drops Soon"
+        },
+        {
+          "id": "345aa424b8dc5f04",
+          "title": "OpenAI Will Limit Access to New Astra Model\u2019s Cybersecurity Features",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-01/openai-will-limit-access-to-new-astra-model-s-cybersecurity-features",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI plans to soon roll out a powerful new artificial intelligence model called Astra, but said it will limit who can use the software\u2019s most cutting-edge cybersecurity capabilities.",
+          "published": "2026-09-01T20:00:00+00:00",
+          "score": 44.0,
+          "headline": "OpenAI to RESTRICT Access to Astra's Cutting-Edge Cybersecurity Features"
+        },
+        {
+          "id": "c0bcb7060c01ce86",
+          "title": "OpenAI to limit release of its Astra model due to hacking concerns",
+          "url": "https://fortune.com/2026/09/01/openai-to-limit-release-of-its-asttra-model-astra-due-to-hacking-concerns/",
+          "source": "Fortune Tech",
+          "summary": "The company is being extra cautious following the Hugging Face incident, while also pitching its cybersecurity capabilities to potential customers.",
+          "published": "2026-09-01T20:00:00+00:00",
+          "score": 44.0,
+          "headline": "OpenAI Limits Astra Release Due to HACKING CONCERNS After Hugging Face Breach"
+        }
+      ],
+      "top_score": 49.0,
+      "story_count": 5
     }
   ],
   "unclustered": [
+    {
+      "id": "48c877de9139c9e8",
+      "title": "Taiwan\u2019s six-year hunt for China\u2019s undercover chip labs",
+      "url": "https://restofworld.org/2026/taiwan-china-chip-investigations/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "source": "Rest of World",
+      "summary": "Previously unpublished government data reveals the scale of Taiwan\u2019s crackdown on Chinese companies accused of hiding their ties while recruiting chip talent and pursuing sensitive technology.",
+      "published": "2026-09-02T10:00:00+00:00",
+      "score": 50.0,
+      "headline": "EXCLUSIVE: Taiwan's Six-Year Hunt for China's Undercover Chip Labs"
+    },
     {
       "id": "7c8e90a7245482b6",
       "title": "China Rebukes Anthropic, Sets Terms for Key US-China AI Dialogue",
@@ -127,6 +137,16 @@
       "published": "2026-08-31T09:33:46+00:00",
       "score": 50.0,
       "headline": "CHINA REBUKES ANTHROPIC... Sets Terms for US AI Talks"
+    },
+    {
+      "id": "d8a56f8d1ed8df4d",
+      "title": "Nvidia May Be Close to $14 Billion Deal for Hugging Face",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-02/nvidia-may-be-close-to-agreeing-deal-for-hugging-face-video",
+      "source": "Bloomberg Technology",
+      "summary": "Nvidia is in advanced talks to acquire artificial intelligence startup Hugging Face in a transaction that may total about $14 billion, according to people familiar with the matter. Bloomberg Intelligence analyst Matt Bloxham has the details. (Source: Bloomberg)",
+      "published": "2026-09-02T05:42:21+00:00",
+      "score": 48.0,
+      "headline": "NVIDIA IN $14B HUGGING FACE DEAL... ADVANCED TALKS"
     },
     {
       "id": "25caaf8719545995",
@@ -169,6 +189,16 @@
       "headline": "AI SCRIBES Get Drug Names Wrong in NHS Records"
     },
     {
+      "id": "d9ac8b4b0242dc03",
+      "title": "TSMC\u2019s Quarterly Chipmaking Tool Needs Almost Doubled This Year",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/tsmc-s-quarterly-chipmaking-tool-needs-almost-doubled-this-year",
+      "source": "Bloomberg Technology",
+      "summary": "Taiwan Semiconductor Manufacturing Co.\u2019s need for chipmaking tools has nearly doubled since the end of last year as it expands production to meet AI demand, a senior executive said.",
+      "published": "2026-09-02T09:37:21+00:00",
+      "score": 45.0,
+      "headline": "TSMC Chipmaking Tool Needs Nearly DOUBLE as AI Demand Explodes"
+    },
+    {
       "id": "de98b49c1e9a57cb",
       "title": "Anthropic Agrees to $35 Billion Cloud Deal With Lambda",
       "url": "https://www.bloomberg.com/news/videos/2026-09-01/anthropic-agrees-to-35-billion-cloud-deal-with-lambda-video",
@@ -209,16 +239,6 @@
       "headline": "CHINA AI PRICE WAR Crushes Z.AI Sales"
     },
     {
-      "id": "00c6c7be43b2f183",
-      "title": "Sharp rise in incidents of AI escaping users\u2019 control, research finds",
-      "url": "https://www.theguardian.com/technology/2026/aug/29/sharp-rise-in-incidents-of-ai-escaping-users-control-research-finds",
-      "source": "The Guardian Tech",
-      "summary": "Exclusive: Number of times AI lies, ignores instructions and pursues goals in harmful ways almost doubles in JulyIncidents of AIs escaping users\u2019 control to lie, ignore instructions and pursue goals in harmful ways have hit a new high, according to research that also suggests the severity of deception and misalignment is worsening.Analysis of real-world loss of control incidents involving AI models flagged by businesses and individuals almost doubled in July compared with June, with more than 300 cases in the month, according to the Loss of Control Observatory, which monitors reports made by AI users on the social media platform X. Continue reading...",
-      "published": "2026-08-29T06:00:20+00:00",
-      "score": 45.0,
-      "headline": "AI ESCAPE INCIDENTS DOUBLE IN JULY... Systems Lie, Ignore Commands"
-    },
-    {
       "id": "1945d1d3243f3e3d",
       "title": "How AI plotted an interstellar journey to Alpha Centauri",
       "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
@@ -227,6 +247,16 @@
       "published": "2026-09-01T19:10:36+00:00",
       "score": 44.0,
       "headline": "AI PLOTS INTERSTELLAR MISSION TO ALPHA CENTAURI BY 2029"
+    },
+    {
+      "id": "e3460402ad1dfabc",
+      "title": "Apple accuses OpenAI of destroying evidence",
+      "url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+      "source": "The Verge AI",
+      "summary": "Apple is pushing for \"expedited discovery\" in its legal battle against OpenAI over concerns the company is actively destroying evidence, as reported earlier by Bloomberg. In a filing on Monday, Apple alleges OpenAI only just handed over a MacBook used by a former employee at the center of the lawsuit, which contained discussions about \"destroying [&#8230;]",
+      "published": "2026-09-01T18:19:26+00:00",
+      "score": 44.0,
+      "headline": "APPLE ACCUSES OPENAI OF DESTROYING EVIDENCE"
     },
     {
       "id": "4bab8ea9640a5e30",
@@ -247,6 +277,16 @@
       "published": "2026-09-01T08:25:00+00:00",
       "score": 44.0,
       "headline": "INDIA PREPPING AI AGENT PAYMENTS ON UPI NETWORK"
+    },
+    {
+      "id": "b787098411cdd75d",
+      "title": "Apple Says OpenAI Is Destroying Evidence in Trade Secrets Case",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/apple-says-openai-is-destroying-evidence-in-trade-secrets-case",
+      "source": "Bloomberg Technology",
+      "summary": "Apple Inc. escalated its legal battle against OpenAI, claiming in a new court filing that OpenAI is actively destroying crucial evidence and that former iPhone engineer Chang Liu \u201cnot only downloaded a confidential Apple circuit schematic but also used it in his work\u201d at the AI company.",
+      "published": "2026-08-31T21:03:52+00:00",
+      "score": 44.0,
+      "headline": "APPLE: OpenAI Destroying Evidence in Trade Secrets Case"
     },
     {
       "id": "9a36ff78b0735dde",
@@ -307,6 +347,16 @@
       "published": "2026-08-31T04:18:01+00:00",
       "score": 44.0,
       "headline": "AI and Robotics Drive IPO Boom in China as Shein Lists"
+    },
+    {
+      "id": "5dfa8b655ca0b548",
+      "title": "Lyte Closes $165 Million Round, Bringing AI Startup's Valuation to $1.6 Billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/lyte-closes-165-million-round-bringing-ai-startup-s-valuation-to-1-6-billion",
+      "source": "Bloomberg Technology",
+      "summary": "Lyte, a fast-growing robotics and artificial intelligence startup from top members of Apple Inc.'s Face ID team, has secured about $165 million in a new funding round that more than triples the company\u2019s valuation to $1.6 billion.",
+      "published": "2026-09-02T09:30:03+00:00",
+      "score": 43.0,
+      "headline": "Lyte AI Startup Hits $1.6B Valuation With $165M Round"
     },
     {
       "id": "cb896342e73390ec",
@@ -429,24 +479,24 @@
       "headline": "IBM QUANTUM COMPUTER Solves Intractable Problem in 15 Minutes"
     },
     {
-      "id": "7e855ba858f5730b",
-      "title": "Hugging Face built a $4.5 billion empire on free AI models. Now Nvidia is buying it for $12.9 billion",
-      "url": "https://thenextweb.com/news/hugging-face-nvidia-acquisition-thomas-wolf-interview",
-      "source": "The Next Web",
-      "summary": "Thomas Wolf has spent a decade convincing the world that open-source AI is not a charity project. On August 27, 2026, the market settled the argument. Nvidia agreed to buy Hugging Face, the company famous for hosting the open-source AI ecosystem with more than 3 million open-source LLMs, for $12.9 billion, according to The Information, [&hellip;] This story continues at The Next Web",
-      "published": "2026-08-29T18:58:08+00:00",
-      "score": 43.0,
-      "headline": "NVIDIA BUYS HUGGING FACE FOR $12.9 BILLION"
+      "id": "90bf8d80fa0e7c8b",
+      "title": "Anthropic unveils Claude Fable 5.1 and Mythos 5.1 for coding and knowledge work",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-unveils-claude-fable-5-1-and-mythos-5-1-for-coding-and-knowledge-work/articleshow/133698083.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Artificial intelligence company Anthropic announced the launch of Claude Fable 5.1 and Claude Mythos 5.1, describing them as the world's most advanced models for coding and knowledge work.",
+      "published": "2026-09-02T04:42:59+00:00",
+      "score": 42.0,
+      "headline": "Anthropic Launches Claude Fable 5.1 and Mythos 5.1"
     },
     {
-      "id": "897f52e0caf787ff",
-      "title": "METR and Redwood Offer Holy #%^@ Postmortem Of The HuggingFace Hack",
-      "url": "https://www.lesswrong.com/posts/bvBQmLrF5QKut8gRH/metr-and-redwood-offer-holy-postmortem-of-the-huggingface",
-      "source": "LessWrong AI",
-      "summary": "Yesterday I covered the OpenAI technical report on the HuggingFace hack. That report had one key new piece of information, and some good prosaic steps OpenAI will be taking to strengthen its alignment, training, supervision, infrastructure and incident response. Mostly it confirmed what we already knew. The questions we most wanted answers to, that we did not already know, were mostly not answered. There was a distinct lack of self-reflection, especially about decision making and safety culture, and about the approach to alignment. I came away disappointed. The METR report is different. Holy shit. If we had posted this as a story on LessWrong, it would have been dismissed as too on the nose, the humans too blind and stupid, the AIs too idealized and doing strange decision-theoretic and absurd-maximizing things we didn\u2019t train them to do. This is even more \u2018exactly what has been predicted,\u2019 on more levels at once, than I was even considering that it might be. It is straight up rationali",
-      "published": "2026-08-29T12:40:35+00:00",
-      "score": 43.0,
-      "headline": "METR/REDWOOD DROP BOMBSHELL HUGGINGFACE HACK POSTMORTEM"
+      "id": "9959c358429a7e01",
+      "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
+      "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/ Comments URL: https://news.ycombinator.com/item?id=49527573 Points: 2 # Comments: 0",
+      "published": "2026-09-01T20:19:11+00:00",
+      "score": 42.0,
+      "headline": "APPLE FINDS 'SHOCKING EVIDENCE' on Ex-Employee's MacBook in OpenAI Lawsuit"
     },
     {
       "id": "be4b5407ed227458",
@@ -457,6 +507,16 @@
       "published": "2026-09-01T20:14:18+00:00",
       "score": 42.0,
       "headline": "Anthropic SLASHES Cache Prices 75% with Claude Fable 5.1 and Mythos 5.1"
+    },
+    {
+      "id": "c6e3e5f2ff4fb005",
+      "title": "OpenAI says Apple has only itself to blame in trade-secret fight",
+      "url": "https://economictimes.indiatimes.com/tech/technology/openai-says-apple-has-only-itself-to-blame-in-trade-secret-fight/articleshow/133669992.cms",
+      "source": "The Economic Times Tech",
+      "summary": "\"This dispute is a mess of Apple's \u200bown making, and it is trying to blame everyone else,\" OpenAI said in a filing late Monday in U.S. District Court in San Jose, California.",
+      "published": "2026-09-01T05:58:29+00:00",
+      "score": 42.0,
+      "headline": "OPENAI TO APPLE: Trade Secret Dispute Is Your Own Fault"
     },
     {
       "id": "7d9ee6a9e7635159",
@@ -499,24 +559,14 @@
       "headline": "GPT-5.6 BREAKS MATH RECORD: Largest Prime Gap Discovered"
     },
     {
-      "id": "9406c04554d5d69c",
-      "title": "Chinese Chipmaker CXMT Sues Pentagon to Get Off US Blacklist",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-29/chinese-chipmaker-cxmt-sues-pentagon-to-get-off-us-blacklist",
-      "source": "Bloomberg Technology",
-      "summary": "CXMT Corp. filed a lawsuit against the US Department of Defense, seeking removal from a blacklist that identified the Chinese chipmaker as a supporter of the Communist country\u2019s military.",
-      "published": "2026-08-29T03:39:52+00:00",
-      "score": 42.0,
-      "headline": "Chinese Chipmaker CXMT Sues Pentagon Over Blacklist"
-    },
-    {
-      "id": "cde4d69e80bbd39f",
-      "title": "IndiGo Ventures backs sovereign AI firm Sarvam in ongoing Series B funding round",
-      "url": "https://economictimes.indiatimes.com/tech/funding/indigo-ventures-backs-sovereign-ai-firm-sarvam-in-ongoing-series-b-funding-round/articleshow/133602926.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The investment by the corporate venture capital arm of IndiGo builds on an existing relationship between the two entities. Both companies previously collaborated to deploy artificial intelligence technologies aimed at enhancing passenger experience, assisting airline staff, and streamlining operational workflows across IndiGo's network.",
-      "published": "2026-08-29T03:07:14+00:00",
-      "score": 42.0,
-      "headline": "IndiGo Backs Indian AI Firm Sarvam in Series B"
+      "id": "b97268b4f59d3ac4",
+      "title": "PwC projects that the global investment in AI infrastructure will reach $31.6 trillion by 2050",
+      "url": "https://thenextweb.com/news/pwc-ai-infrastructure-31-trillion-2050",
+      "source": "The Next Web",
+      "summary": "Building the world\u2019s AI infrastructure will cost $31.6 trillion between now and 2050, according to modelling commissioned by PwC from Oxford Economics across 46 countries. Annual capital expenditure is projected to rise from $800bn this year to $1.8tn by 2050. The United States accounts for $15.1tn of that spending, or 48%; next in line is [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-02T10:01:32+00:00",
+      "score": 41.0,
+      "headline": "PwC: Global AI Infrastructure to Cost $31.6 TRILLION by 2050"
     },
     {
       "id": "35aa4d6d86be6a65",
@@ -729,34 +779,34 @@
       "headline": "GPT AGENTS HACK HUGGING FACE... Forged Flags At Will"
     },
     {
-      "id": "d75f38096fe49f0f",
-      "title": "Anatomy of an Autonomous Attack: 5 Alarming A.I. Capabilities. When OpenAI\u2019s agents went rogue in July, they demonstrated ingenuity and drive beyond what many experts imagined \u2014 a dangerous harbinger of what such bots could do in the future. (Gift Article)",
-      "url": "https://www.reddit.com/r/artificial/comments/1w1auoq/anatomy_of_an_autonomous_attack_5_alarming_ai/",
-      "source": "Reddit r/artificial",
-      "summary": "&#32; submitted by &#32; /u/coolbern [link] &#32; [comments]",
-      "published": "2026-08-29T02:59:57+00:00",
-      "score": 41.0,
-      "headline": "OPENAI AGENTS WENT ROGUE IN JULY... 5 Alarming Capabilities Exposed"
+      "id": "e76daf9474a78197",
+      "title": "The European Commission is looking at Oracle\u2019s licensing, two months after settling with SAP",
+      "url": "https://thenextweb.com/news/oracle-eu-antitrust-cloud-licensing",
+      "source": "The Next Web",
+      "summary": "The European Commission is gathering information on how Oracle licenses its software in the cloud, following a similar approach it used against SAP two months ago. Reuters reported the inquiry on Monday, citing a person familiar with it, after MLex first reported on the issue. The Commission was careful about what it would confirm. A [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-02T09:18:30+00:00",
+      "score": 40.0,
+      "headline": "EU Probes Oracle Cloud Licensing After SAP Settlement"
     },
     {
-      "id": "7228074ba4fe8320",
-      "title": "OpenAI to end agreement with SpaceX's AI coding tool Cursor, deepening Musk-Altman clash",
-      "url": "https://economictimes.indiatimes.com/tech/technology/openai-to-end-partnership-with-spacexs-cursor/articleshow/133602403.cms",
-      "source": "The Economic Times Tech",
-      "summary": "OpenAI \u200csaid \u200bit \u200bwas \u2060not confident that SpaceX \u200bwould use its technology \"within \u200bour terms of service.\"",
-      "published": "2026-08-29T02:20:42+00:00",
-      "score": 41.0,
-      "headline": "OPENAI ENDS CURSOR DEAL... MUSK-ALTMAN WAR DEEPENS"
+      "id": "f78122f3b1b8362b",
+      "title": "Recursive Criticality of AI Self-Improvement",
+      "url": "https://arxiv.org/abs/2609.00137",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2609.00137v1 Announce Type: new Abstract: AI is increasingly used in the R\\&amp;D process that produces future AI systems. We study the conditions under which this feedback becomes self-amplifying. Our model describes how the rate of AI capability growth depends on baseline research productivity, recursive feedback, and the increasing difficulty of research progress. We derive a recursive reproduction number, $\\mathcal{R}_{\\mathrm{AI}}$, that determines whether improvements are amplified or damped across development cycles. This quantity compares the strength of feedback with the rate at which further progress becomes more difficult. When $\\mathcal{R}_{\\mathrm{AI}}>1$, the effects of improvements compound across development cycles, placing the system in a self-amplifying regime. When $\\mathcal{R}_{\\mathrm{AI}}<1$, their effects weaken across cycles. The transition depends on the structure of the AI R\\&amp;D feedback loop and need not occur at any particular level of model capabil",
+      "published": "2026-09-02T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "RECURSIVE AI: New Paper Maps Path to Self-Amplifying Intelligence"
     },
     {
-      "id": "19c9a7508e8d2f1c",
-      "title": "OpenAI to End Partnership With Cursor After SpaceX Acquisition",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI said it will end its partnership with Cursor after the AI-coding agent\u2019s acquisition by SpaceX, according to a post on X.",
-      "published": "2026-08-29T02:16:53+00:00",
-      "score": 41.0,
-      "headline": "OpenAI Terminates Cursor Partnership After SpaceX Buyout"
+      "id": "1e7998086cd0a4ee",
+      "title": "The Irreversibility Budget: Fleet-Level Risk Accounting and Admission Control for Agent Operating Systems",
+      "url": "https://arxiv.org/abs/2609.00275",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2609.00275v1 Announce Type: new Abstract: Fleets of LLM agents now externalize effects that cannot be fully undone: they move money, deploy code, delete data, and disclose information. Current controls check one effect at a time, so a fleet of individually authorized agents can overdraw its principal's risk under a shared trigger while every local gate stays correct. We propose the irreversibility budget, a cumulative account of residual value-at-risk that a trusted runtime maintains for each principal across agents, workflows, and tenants. Treating irreversibility as a first-class resource, the runtime charges each effect its residual loss below the agent and denies the marginal effect once the aggregate would overdraw the budget. Getting the price right is hard, because effects are heterogeneous, adversarially declared, and correlated. We perform a controlled study in which per-effect gates admit fleet-level overdraws of up to 48 times the tenant's risk limit while the budget h",
+      "published": "2026-09-02T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "IRREVERSIBILITY BUDGET: New Framework for Fleet-Level AI Risk"
     },
     {
       "id": "cf985cda21d2b156",
@@ -949,15 +999,25 @@
       "headline": "BILL GATES PROPOSES AI TAX... Nobody Preparing"
     },
     {
-      "id": "cd512e1f50db7842",
-      "title": "OpenAI plans to stop supplying models to Cursor on Nov. 12",
-      "url": "https://www.reddit.com/r/artificial/comments/1w1w7f9/openai_plans_to_stop_supplying_models_to_cursor/",
-      "source": "Reddit r/artificial",
-      "summary": "OpenAI says it intends to wind down its contract providing models to Cursor, with a proposed shutoff date of November 12, 2026. OpenAI says Cursor's change of control after SpaceX's acquisition triggered a limited cancellation window, and says it will not provide future models to Cursor. Reuters reports that Anthropic plans to increase compute support for Claude models in Cursor, while Cursor co-founder Michael Truell said the companies were speaking to resolve the issue. The practical lesson for coding-tool teams is dependency risk: a model provider can change access after ownership or contract changes, so model portability and fallback capacity matter. Sources: OpenAI: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Reuters: https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/ &#32; submitted by &#32; /u/Codeblix_Ltd [link] &#32; [comments]",
-      "published": "2026-08-29T19:52:27+00:00",
-      "score": 40.0,
-      "headline": "OPENAI CUTS OFF CURSOR... SpaceX Deal Triggers Nov. 12 Shutoff"
+      "id": "1e35821c69bb5218",
+      "title": "AI Fund Chief Urges UK Government to Think Like an Investor to Boost Startups",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/ai-fund-chief-urges-uk-government-to-think-like-an-investor-to-boost-startups",
+      "source": "Bloomberg Technology",
+      "summary": "The head of the UK\u2019s \u00a3500 million ($675 million) Sovereign AI Fund urged the government to adopt an investor mindset as ministers seek to spur growth in the domestic industry.",
+      "published": "2026-09-02T10:03:05+00:00",
+      "score": 39.0,
+      "headline": "UK's \u00a3500M AI Fund Chief: Government Must Think Like Investors"
+    },
+    {
+      "id": "52da61b32fba3f97",
+      "title": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
+      "url": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection/",
+      "source": "Wired",
+      "summary": "Meet the AI police who can make or break careers\u2014in publishing and beyond.",
+      "published": "2026-09-02T10:00:00+00:00",
+      "score": 39.0,
+      "headline": "Pangram AI Detection: The New Gold Standard Breaking Careers"
     }
   ],
-  "generated_at": "2026-09-01T20:25:42.576333"
+  "generated_at": "2026-09-02T10:25:06.819270"
 }
