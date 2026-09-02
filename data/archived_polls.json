@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "EU AI Regulation Crackdown",
+      "description": "European Union enforces new digital regulations targeting major AI companies including OpenAI, with ChatGPT designated as search engine under DSA rules.",
+      "question": "Should AI chatbots like ChatGPT face search engine regulations?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "eu-ai-regulation-crackdown-20260901",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-eu-ai-regulation-crackdown-20260901.html",
+      "started_at": "2026-09-01T10:59:07.519442",
+      "archived_at": "2026-09-02T20:25:55.722897",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Bank of England AI Financial Stability Warnings",
       "description": "Bank of England and G20 officials warn that AI models pose systemic risks to global financial stability and could trigger economic downturns.",
       "question": "Should governments restrict frontier AI models to protect financial stability?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-global-ai-governance-and-infrastructure-20260717.html",
       "started_at": "2026-07-16T14:58:06.150073",
       "archived_at": "2026-07-18T07:42:45.033854",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "US-China AI Competition & Trade Restrictions",
-      "description": "Escalating technological rivalry between US and China involving chip smuggling, export controls, summit positioning, and bilateral restrictions on AI development and tools.",
-      "question": "Should the US tighten or loosen restrictions on AI chip exports to China?",
-      "button_a": "Tighten",
-      "button_b": "China",
-      "poll_id": "us-china-ai-competition-trade-restrictions-20260714",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-china-ai-advancement-and-global-competition-20260716.html",
-      "started_at": "2026-07-14T22:55:51.354162",
-      "archived_at": "2026-07-16T23:55:19.169287",
       "reason": "topic_replaced"
     }
   ]
