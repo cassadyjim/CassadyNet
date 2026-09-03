@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Astra Security Concerns",
+      "description": "OpenAI's new Astra model discovers critical security flaws but faces restricted release due to dangerous cybersecurity capabilities and hacking concerns.",
+      "question": "Should OpenAI restrict access to Astra's hacking capabilities?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-astra-security-concerns-20260902",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-astra-cybersecurity-concerns-20260903.html",
+      "started_at": "2026-09-02T10:25:43.931848",
+      "archived_at": "2026-09-03T20:25:41.356601",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "EU AI Regulation Crackdown",
       "description": "European Union enforces new digital regulations targeting major AI companies including OpenAI, with ChatGPT designated as search engine under DSA rules.",
       "question": "Should AI chatbots like ChatGPT face search engine regulations?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-apple-intelligence-enters-china-market-20260718.html",
       "started_at": "2026-07-18T07:42:41.618120",
       "archived_at": "2026-07-19T08:09:30.446818",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "New York Data Center Moratorium",
-      "description": "New York becomes the first US state to halt all new data center construction, marking a historic regulatory response to AI infrastructure expansion.",
-      "question": "Should New York's data center moratorium be a model for other states?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "new-york-data-center-moratorium-20260716",
-      "results": {
-        "pro": 0,
-        "con": 1,
-        "total": 1,
-        "pro_percent": 0,
-        "con_percent": 100
-      },
-      "analysis_url": "/analysis/analysis-global-ai-governance-and-infrastructure-20260717.html",
-      "started_at": "2026-07-16T14:58:06.150073",
-      "archived_at": "2026-07-18T07:42:45.033854",
       "reason": "topic_replaced"
     }
   ]
