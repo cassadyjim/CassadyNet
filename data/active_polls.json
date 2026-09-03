@@ -1,81 +1,16 @@
 {
   "polls": [
     {
-      "topic": "OpenAI Astra Security Concerns",
-      "description": "OpenAI's new Astra model discovers critical security flaws but faces restricted release due to dangerous cybersecurity capabilities and hacking concerns.",
-      "question": "Should OpenAI restrict access to Astra's hacking capabilities?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-astra-security-concerns-20260902",
-      "analysis_url": "/analysis/analysis-openai-astra-security-concerns-20260902.html",
-      "analysis_type": "poll",
-      "created_at": "2026-09-02T10:25:43.931848",
-      "last_seen": "2026-09-03T00:51:56.853110",
-      "cluster_stories": [
-        {
-          "id": "257aceb7e1665df5",
-          "title": "OpenAI says its next model finds security flaws nobody has found yet",
-          "url": "https://thenextweb.com/news/openai-astra-model-guardrails-cyber",
-          "source": "The Next Web",
-          "summary": "\u201cWith the right tools and access, Astra can find previously unknown security flaws and develop ways to exploit them,\u201d said Amelia Glaese, the OpenAI vice president who oversees its safety work. That is the company describing its own unreleased model. Astra spots more security vulnerabilities than any OpenAI model currently available publicly, and uses less [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-02T09:28:36+00:00",
-          "score": 49.0,
-          "headline": "OPENAI'S ASTRA FINDS SECURITY FLAWS NO HUMAN HAS EVER FOUND"
-        },
-        {
-          "id": "135addb4957e9366",
-          "title": "OpenAI: Path to Astra: critical capabilities and frontier safeguards",
-          "url": "https://openai.com/index/path-to-astra/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://openai.com/index/path-to-astra/ Comments URL: https://news.ycombinator.com/item?id=49527595 Points: 1 # Comments: 0",
-          "published": "2026-09-01T20:20:41+00:00",
-          "score": 46.0,
-          "headline": "OpenAI Unveils ASTRA: New 'Critical Capabilities' Model with Frontier Safeguards"
-        },
-        {
-          "id": "677c16470784b21d",
-          "title": "OpenAI Is About to Release Its First AI Model With \u2018Critical\u2019 Cyber Abilities",
-          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
-          "source": "Wired",
-          "summary": "The company will give select partners early access to its Astra AI model\u2014so they have time to shore up their defenses.",
-          "published": "2026-09-01T20:00:00+00:00",
-          "score": 45.0,
-          "headline": "OPENAI ASTRA: First AI Model with 'CRITICAL' Cyber Abilities Drops Soon"
-        },
-        {
-          "id": "345aa424b8dc5f04",
-          "title": "OpenAI Will Limit Access to New Astra Model\u2019s Cybersecurity Features",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-01/openai-will-limit-access-to-new-astra-model-s-cybersecurity-features",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI plans to soon roll out a powerful new artificial intelligence model called Astra, but said it will limit who can use the software\u2019s most cutting-edge cybersecurity capabilities.",
-          "published": "2026-09-01T20:00:00+00:00",
-          "score": 44.0,
-          "headline": "OpenAI to RESTRICT Access to Astra's Cutting-Edge Cybersecurity Features"
-        },
-        {
-          "id": "c0bcb7060c01ce86",
-          "title": "OpenAI to limit release of its Astra model due to hacking concerns",
-          "url": "https://fortune.com/2026/09/01/openai-to-limit-release-of-its-asttra-model-astra-due-to-hacking-concerns/",
-          "source": "Fortune Tech",
-          "summary": "The company is being extra cautious following the Hugging Face incident, while also pitching its cybersecurity capabilities to potential customers.",
-          "published": "2026-09-01T20:00:00+00:00",
-          "score": 44.0,
-          "headline": "OpenAI Limits Astra Release Due to HACKING CONCERNS After Hugging Face Breach"
-        }
-      ],
-      "current_topic_name": "OpenAI Astra Security Concerns"
-    },
-    {
       "topic": "Nvidia Hugging Face Acquisition",
       "description": "Nvidia nears completion of a $14 billion acquisition of Hugging Face in a major AI industry consolidation move.",
       "question": "Should regulators approve Nvidia's $14 billion Hugging Face acquisition?",
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "nvidia-hugging-face-acquisition-20260902",
-      "analysis_url": "/analysis/analysis-nvidia-hugging-face-acquisition-20260902.html",
+      "analysis_url": "/analysis/analysis-nvidia-hugging-face-acquisition-20260903.html",
       "analysis_type": "poll",
       "created_at": "2026-09-02T20:25:51.031652",
-      "last_seen": "2026-09-03T00:51:57.629871",
+      "last_seen": "2026-09-03T10:34:55.740373",
       "cluster_stories": [
         {
           "id": "deadc0a9ad384d49",
@@ -109,7 +44,92 @@
         }
       ],
       "current_topic_name": "Nvidia Hugging Face Acquisition"
+    },
+    {
+      "topic": "OpenAI Astra Security Concerns",
+      "description": "OpenAI's new Astra model discovers critical security flaws but faces restricted release due to dangerous cybersecurity capabilities and hacking concerns.",
+      "question": "Should OpenAI restrict access to Astra's hacking capabilities?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-astra-security-concerns-20260902",
+      "analysis_url": "/analysis/analysis-openai-astra-cybersecurity-concerns-20260903.html",
+      "analysis_type": "poll",
+      "created_at": "2026-09-02T10:25:43.931848",
+      "last_seen": "2026-09-03T10:34:56.657965",
+      "cluster_stories": [
+        {
+          "id": "257aceb7e1665df5",
+          "title": "OpenAI says its next model finds security flaws nobody has found yet",
+          "url": "https://thenextweb.com/news/openai-astra-model-guardrails-cyber",
+          "source": "The Next Web",
+          "summary": "\u201cWith the right tools and access, Astra can find previously unknown security flaws and develop ways to exploit them,\u201d said Amelia Glaese, the OpenAI vice president who oversees its safety work. That is the company describing its own unreleased model. Astra spots more security vulnerabilities than any OpenAI model currently available publicly, and uses less [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-02T09:28:36+00:00",
+          "score": 49.0,
+          "headline": "OPENAI'S ASTRA FINDS SECURITY FLAWS NO HUMAN HAS EVER FOUND"
+        },
+        {
+          "id": "9b33a0d3e00a56d8",
+          "title": "Researchers fear safety disaster ahead of OpenAI&#8217;s Astra release",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+          "source": "The Verge AI",
+          "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after [&#8230;]",
+          "published": "2026-09-02T16:40:50+00:00",
+          "score": 48.0,
+          "headline": "OPENAI'S ASTRA ATTACKED REAL TARGETS... Safety Disaster Feared"
+        },
+        {
+          "id": "135addb4957e9366",
+          "title": "OpenAI: Path to Astra: critical capabilities and frontier safeguards",
+          "url": "https://openai.com/index/path-to-astra/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://openai.com/index/path-to-astra/ Comments URL: https://news.ycombinator.com/item?id=49527595 Points: 1 # Comments: 0",
+          "published": "2026-09-01T20:20:41+00:00",
+          "score": 46.0,
+          "headline": "OpenAI Unveils ASTRA: New 'Critical Capabilities' Model with Frontier Safeguards"
+        },
+        {
+          "id": "677c16470784b21d",
+          "title": "OpenAI Is About to Release Its First AI Model With \u2018Critical\u2019 Cyber Abilities",
+          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
+          "source": "Wired",
+          "summary": "The company will give select partners early access to its Astra AI model\u2014so they have time to shore up their defenses.",
+          "published": "2026-09-01T20:00:00+00:00",
+          "score": 45.0,
+          "headline": "OPENAI ASTRA: First AI Model with 'CRITICAL' Cyber Abilities Drops Soon"
+        },
+        {
+          "id": "373be5400612a4c5",
+          "title": "OpenAI\u2019s new reasoning technique alarms AI safety experts",
+          "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+          "source": "TechCrunch AI",
+          "summary": "OpenAI\u2019s new Astra model will use \u201crecurrent depth,\u201d a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
+          "published": "2026-09-02T20:19:14+00:00",
+          "score": 44.0,
+          "headline": "OPENAI'S ASTRA MODEL ALARMS SAFETY EXPERTS... NEW REASONING TECHNIQUE"
+        },
+        {
+          "id": "345aa424b8dc5f04",
+          "title": "OpenAI Will Limit Access to New Astra Model\u2019s Cybersecurity Features",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-01/openai-will-limit-access-to-new-astra-model-s-cybersecurity-features",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI plans to soon roll out a powerful new artificial intelligence model called Astra, but said it will limit who can use the software\u2019s most cutting-edge cybersecurity capabilities.",
+          "published": "2026-09-01T20:00:00+00:00",
+          "score": 44.0,
+          "headline": "OpenAI to RESTRICT Access to Astra's Cutting-Edge Cybersecurity Features"
+        },
+        {
+          "id": "c0bcb7060c01ce86",
+          "title": "OpenAI to limit release of its Astra model due to hacking concerns",
+          "url": "https://fortune.com/2026/09/01/openai-to-limit-release-of-its-asttra-model-astra-due-to-hacking-concerns/",
+          "source": "Fortune Tech",
+          "summary": "The company is being extra cautious following the Hugging Face incident, while also pitching its cybersecurity capabilities to potential customers.",
+          "published": "2026-09-01T20:00:00+00:00",
+          "score": 44.0,
+          "headline": "OpenAI Limits Astra Release Due to HACKING CONCERNS After Hugging Face Breach"
+        }
+      ],
+      "current_topic_name": "OpenAI Astra Cybersecurity Concerns"
     }
   ],
-  "last_updated": "2026-09-03T00:51:57.629886"
+  "last_updated": "2026-09-03T10:34:56.657982"
 }
