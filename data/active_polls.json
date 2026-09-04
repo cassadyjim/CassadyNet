@@ -7,10 +7,10 @@
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "nvidia-hugging-face-acquisition-20260902",
-      "analysis_url": "/analysis/analysis-nvidia-hugging-face-acquisition-20260903.html",
+      "analysis_url": "/analysis/analysis-nvidia-acquires-hugging-face-20260903.html",
       "analysis_type": "poll",
       "created_at": "2026-09-02T20:25:51.031652",
-      "last_seen": "2026-09-03T20:25:39.970637",
+      "last_seen": "2026-09-04T10:22:52.269724",
       "cluster_stories": [
         {
           "id": "deadc0a9ad384d49",
@@ -93,7 +93,182 @@
           "headline": "NVIDIA ACQUIRES HUGGING FACE IN $12.9B OPEN AI BET"
         }
       ],
-      "current_topic_name": "Nvidia Hugging Face Acquisition"
+      "current_topic_name": "Nvidia Acquires Hugging Face"
+    },
+    {
+      "topic": "OpenAI Launches GPT-6 Astra",
+      "description": "OpenAI's release of GPT-6 Astra with breakthrough cybersecurity capabilities and AGI claims marks a significant milestone in AI development.",
+      "question": "Should OpenAI release Astra given its unprecedented hacking capabilities?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-launches-gpt-6-astra-20260904",
+      "analysis_url": "/analysis/analysis-openai-launches-gpt-6-astra-20260904.html",
+      "analysis_type": "poll",
+      "created_at": "2026-09-04T10:22:50.958938",
+      "last_seen": "2026-09-04T10:22:54.832328",
+      "cluster_stories": [
+        {
+          "id": "0eee4f86add698a3",
+          "title": "GPT-6 is released [N]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/",
+          "source": "Reddit r/MachineLearning",
+          "summary": "Benchmark scores (GPT-6 uses a harness for ARC-AGI-3, and is at about 60% without one): https://preview.redd.it/dgumcg67ggnh1.png?width=1378&amp;format=png&amp;auto=webp&amp;s=fae8fb006ef46fcdebb0876717fc977a905baa89 https://openai.com/index/gpt-6-astra/ Prior to the launch, OpenAI President Greg Brockman said &quot;I think it\u2019s not unreasonable to feel that we are now in the AGI era&quot;. &#32; submitted by &#32; /u/we_are_mammals [link] &#32; [comments]",
+          "published": "2026-09-04T05:13:42+00:00",
+          "score": 49.0,
+          "headline": "OPENAI DROPS GPT-6... 60% ON ARC-AGI BENCHMARK"
+        },
+        {
+          "id": "257aceb7e1665df5",
+          "title": "OpenAI says its next model finds security flaws nobody has found yet",
+          "url": "https://thenextweb.com/news/openai-astra-model-guardrails-cyber",
+          "source": "The Next Web",
+          "summary": "\u201cWith the right tools and access, Astra can find previously unknown security flaws and develop ways to exploit them,\u201d said Amelia Glaese, the OpenAI vice president who oversees its safety work. That is the company describing its own unreleased model. Astra spots more security vulnerabilities than any OpenAI model currently available publicly, and uses less [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-02T09:28:36+00:00",
+          "score": 49.0,
+          "headline": "OPENAI'S ASTRA FINDS SECURITY FLAWS NO HUMAN HAS EVER FOUND"
+        },
+        {
+          "id": "52f7a791612157ef",
+          "title": "GPT-6 Astra System Card [pdf]",
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra/gpt-6-astra.pdf",
+          "source": "Hacker News",
+          "summary": "Article URL: https://deploymentsafety.openai.com/gpt-6-astra/gpt-6-astra.pdf Comments URL: https://news.ycombinator.com/item?id=49555457 Points: 4 # Comments: 0",
+          "published": "2026-09-03T19:32:32+00:00",
+          "score": 48.0,
+          "headline": "OPENAI DROPS GPT-6 ASTRA: System Card Reveals New Flagship"
+        },
+        {
+          "id": "0efc16c14fb20740",
+          "title": "GPT-6 Astra System Card",
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+          "source": "Hacker News",
+          "summary": "Article URL: https://deploymentsafety.openai.com/gpt-6-astra Comments URL: https://news.ycombinator.com/item?id=49555440 Points: 17 # Comments: 1",
+          "published": "2026-09-03T19:30:38+00:00",
+          "score": 48.0,
+          "headline": "GPT-6 ASTRA SYSTEM CARD RELEASED: OpenAI's Next Frontier"
+        },
+        {
+          "id": "9b33a0d3e00a56d8",
+          "title": "Researchers fear safety disaster ahead of OpenAI&#8217;s Astra release",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+          "source": "The Verge AI",
+          "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after [&#8230;]",
+          "published": "2026-09-02T16:40:50+00:00",
+          "score": 48.0,
+          "headline": "OPENAI'S ASTRA ATTACKED REAL TARGETS... Safety Disaster Feared"
+        },
+        {
+          "id": "8a13b9d76e474f21",
+          "title": "OpenAI\u2019s new model aces the benchmarks and admits it is better at hiding",
+          "url": "https://thenextweb.com/news/gpt-6-astra-benchmarks-monitorability-cyber",
+          "source": "The Next Web",
+          "summary": "OpenAI has released GPT-6 Astra, the model that takes over from GPT-5.6 Sol at the top of its range. The company describes it as its most intelligent and aligned system to date, built on advances in pre-training, reinforcement learning, and alignment research. It is going out in stages. A limited set of organisations has access [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-04T07:22:50+00:00",
+          "score": 46.0,
+          "headline": "GPT-6 ASTRA RELEASED... Admits It's Better at Hiding"
+        },
+        {
+          "id": "468ec19876bb9b08",
+          "title": "OpenAI launches GPT-6 Astra, its most powerful model yet and touts its ability to use your computer",
+          "url": "https://fortune.com/2026/09/03/openai-debuts-gpt-6-astra-computer-use-greg-brockman-says-start-of-agi/",
+          "source": "Fortune Tech",
+          "summary": "OpenAI president Greg Brockman calls Astra \"the start of the AGI era\" even as outside experts worry about whether the company has effective safety and security controls in place.",
+          "published": "2026-09-03T18:44:52+00:00",
+          "score": 46.0,
+          "headline": "OPENAI LAUNCHES GPT-6 ASTRA: 'Start of AGI Era'"
+        },
+        {
+          "id": "135addb4957e9366",
+          "title": "OpenAI: Path to Astra: critical capabilities and frontier safeguards",
+          "url": "https://openai.com/index/path-to-astra/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://openai.com/index/path-to-astra/ Comments URL: https://news.ycombinator.com/item?id=49527595 Points: 1 # Comments: 0",
+          "published": "2026-09-01T20:20:41+00:00",
+          "score": 46.0,
+          "headline": "OpenAI Unveils ASTRA: New 'Critical Capabilities' Model with Frontier Safeguards"
+        },
+        {
+          "id": "3163a1d07f6cea04",
+          "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+          "url": "https://arcprize.org/blog/astra",
+          "source": "Hacker News",
+          "summary": "Article URL: https://arcprize.org/blog/astra Comments URL: https://news.ycombinator.com/item?id=49555691 Points: 18 # Comments: 7",
+          "published": "2026-09-03T19:45:00+00:00",
+          "score": 45.0,
+          "headline": "GPT-6 ASTRA BREAKTHROUGH on ARC-AGI-3 Benchmark"
+        },
+        {
+          "id": "32961f6bc2908235",
+          "title": "OpenAI Rolls Out GPT-6 Astra Model With Cyber Guardrails",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-03/openai-rolls-out-gpt-6-astra-model-with-added-cyber-guardrails",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI is releasing a new generation of its technology called GPT-6 that the company is positioning as a key milestone in its decade-long push to build so-called artificial general intelligence.",
+          "published": "2026-09-03T18:00:24+00:00",
+          "score": 45.0,
+          "headline": "OPENAI UNVEILS GPT-6 ASTRA WITH CYBER GUARDRAILS"
+        },
+        {
+          "id": "a94dc4fdbbc2a78c",
+          "title": "OpenAI\u2019s next big AI model has \u2018entered the AGI era\u2019",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "source": "The Verge AI",
+          "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"critical cybersecurity capability threshold\" - but the company promises that won't [&#8230;]",
+          "published": "2026-09-03T18:00:00+00:00",
+          "score": 45.0,
+          "headline": "GPT-6 ASTRA: OPENAI DECLARES AGI ERA HAS ARRIVED"
+        },
+        {
+          "id": "677c16470784b21d",
+          "title": "OpenAI Is About to Release Its First AI Model With \u2018Critical\u2019 Cyber Abilities",
+          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
+          "source": "Wired",
+          "summary": "The company will give select partners early access to its Astra AI model\u2014so they have time to shore up their defenses.",
+          "published": "2026-09-01T20:00:00+00:00",
+          "score": 45.0,
+          "headline": "OPENAI ASTRA: First AI Model with 'CRITICAL' Cyber Abilities Drops Soon"
+        },
+        {
+          "id": "813b20e37b874b49",
+          "title": "GPT-6 Astra Achieves SOTA on ARC-AGI",
+          "url": "https://twitter.com/arcprize/status/2095597602545025138",
+          "source": "Hacker News",
+          "summary": "Article URL: https://twitter.com/arcprize/status/2095597602545025138 Comments URL: https://news.ycombinator.com/item?id=49555843 Points: 2 # Comments: 0",
+          "published": "2026-09-03T19:53:01+00:00",
+          "score": 44.0,
+          "headline": "GPT-6 ASTRA ACHIEVES STATE-OF-THE-ART ON ARC-AGI"
+        },
+        {
+          "id": "cf59892fa8b2fc9c",
+          "title": "GPT-6 Astra Is Here\u2014and OpenAI Thinks It May Kick Off the AGI Era",
+          "url": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
+          "source": "Wired",
+          "summary": "OpenAI leaders think the company\u2019s next generation model, which excels at computer use and coding, may mark a major milestone in AI development.",
+          "published": "2026-09-03T18:06:24+00:00",
+          "score": 44.0,
+          "headline": "GPT-6 ASTRA LAUNCHES... OPENAI CLAIMS AGI ERA BEGINS"
+        },
+        {
+          "id": "1a81518cc6603810",
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "source": "TechCrunch AI",
+          "summary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+          "published": "2026-09-03T18:01:45+00:00",
+          "score": 44.0,
+          "headline": "OPENAI LAUNCHES ASTRA... BREAKTHROUGH IN COMPUTER USE"
+        },
+        {
+          "id": "5eeb270570945c3a",
+          "title": "OpenAI says it has overtaken Anthropic with its latest AI model",
+          "url": "https://www.ft.com/content/55ab40c0-59e2-4c0b-97c9-4f4f5a71a8bb?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "ChatGPT maker claims its \u2018Astra\u2019 could be considered \u2018artificial general intelligence\u2019",
+          "published": "2026-09-03T18:00:11+00:00",
+          "score": 44.0,
+          "headline": "OpenAI Claims Astra Overtakes Anthropic... AGI Achieved?"
+        }
+      ],
+      "current_topic_name": "OpenAI Launches GPT-6 Astra"
     },
     {
       "topic": "Nvidia Acquires Hugging Face",
@@ -103,8 +278,9 @@
       "analysis_url": "",
       "analysis_type": "poll",
       "created_at": "2026-09-03T20:25:40.843402",
-      "last_seen": "2026-09-03T20:25:40.843408"
+      "last_seen": "2026-09-03T20:25:40.843408",
+      "pending_archive": true
     }
   ],
-  "last_updated": "2026-09-03T20:25:41.357698"
+  "last_updated": "2026-09-04T10:22:54.832401"
 }
