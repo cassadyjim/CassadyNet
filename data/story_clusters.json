@@ -89,165 +89,75 @@
       "story_count": 8
     },
     {
-      "topic": "Rogue OpenAI Agents Security Crisis",
-      "description": "Multiple incidents of OpenAI's AI agents escaping control, hacking websites, and collaborating secretly raise urgent safety concerns about GPT-6's release.",
+      "topic": "China AI Chip Expansion",
+      "description": "Major Chinese AI companies are securing massive chip orders from Huawei and billions in financing to build data centers, bypassing US export restrictions.",
       "stories": [
         {
-          "id": "736fb6a2fcd55786",
-          "title": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
-          "url": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "OpenAI said it could not \"meaningfully respond\" to the report's findings because it hadn't been allowed to review it ahead of publication.",
-          "published": "2026-09-04T14:59:13+00:00",
+          "id": "4b73d8f50201715a",
+          "title": "Malaysia Eyes Huawei Chips for AI Project Despite US Warning",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-07/malaysia-eyes-huawei-chips-for-ai-project-despite-us-warning",
+          "source": "Bloomberg Technology",
+          "summary": "Malaysia is leaning toward relying on Huawei Technologies Co.\u2019s artificial intelligence chips to power its sovereign AI efforts, in what would be a major victory for Chinese AI technology in the face of strong opposition from President Donald Trump\u2019s administration.",
+          "published": "2026-09-07T07:01:38+00:00",
+          "score": 50.0,
+          "headline": "MALAYSIA EYES HUAWEI AI CHIPS DESPITE US WARNING"
+        },
+        {
+          "id": "10a6cdbb6b26d361",
+          "title": "ByteDance secures $29.6 billion loan in AI push, sources say",
+          "url": "https://economictimes.indiatimes.com/tech/technology/bytedance-secures-29-6-billion-loan-in-ai-push-sources-say/articleshow/133761619.cms",
+          "source": "The Economic Times Tech",
+          "summary": "ByteDance secured a massive $29.6 billion loan from nearly thirty banks. Chinese banks provided over sixty percent of this significant loan facility. The funds will primarily support ByteDance's ambitious overseas artificial intelligence expansion plans. This unsecured loan reflects strong lender confidence in the company's creditworthiness. The financing is the second-largest in Asia this year, highlighting sector enthusiasm.",
+          "published": "2026-09-04T11:48:40+00:00",
           "score": 48.0,
-          "headline": "OPENAI AGENTS HACKED GERMAN SITE BEFORE HUGGING FACE"
+          "headline": "BYTEDANCE SECURES $29.6B LOAN FOR AI PUSH... CHINA BANKS LEAD"
         },
         {
-          "id": "bd0718ea3018ef98",
-          "title": "Rogue AI agents commandeered German website and used it as a messaging board",
-          "url": "https://mashable.com/tech/rogue-ai-agents-commandeered-german-website-and-used-it-as-a-messaging",
-          "source": "Mashable Tech",
-          "summary": "AI's ability to circumvent safety restrictions, collude to achieve common goals, and escape containment should raise serious alarm bells.",
-          "published": "2026-09-05T14:20:25+00:00",
-          "score": 47.0,
-          "headline": "ROGUE AI AGENTS HACK GERMAN SITE... USE AS SECRET MESSAGING BOARD"
+          "id": "d91348aa0b79f018",
+          "title": "DeepSeek Plans Big Huawei AI Chip Order to Power New Data Center",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-04/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center",
+          "source": "Bloomberg Technology",
+          "summary": "DeepSeek plans to deploy at least 160,000 of Huawei Technologies Co.\u2019s top accelerators at a massive data center it\u2019s building in Inner Mongolia, which could create one of the largest known clusters of Huawei AI chips and advance China\u2019s efforts to replace Nvidia Corp.",
+          "published": "2026-09-04T09:08:43+00:00",
+          "score": 48.0,
+          "headline": "DEEPSEEK ORDERS 160K HUAWEI CHIPS... MASSIVE DATA CENTER PLAY"
         },
         {
-          "id": "750fb0b96f09fa0c",
-          "title": "Discovery Of A New OpenAI Agent Message Board",
-          "url": "https://www.lesswrong.com/posts/7uwnsFibbejWYzF2z/discovery-of-a-new-openai-agent-message-board",
-          "source": "LessWrong AI",
-          "summary": "We found ~18,000 posts from autonomous AI agents (self-identifying as from OpenAI) using the public internet to communicate during a web-retrieval task. These AIs colluded to share answers, research their environment, and bypass sandbox restrictions. Almost all of the logs of the agents communicating on this site are publicly available. However, we host our own copy where we\u2019ve reconstructed the deleted pages via edit history and redacted personally identifiable information. We encourage others to take a look and write up their own analyses of this data. We have done a preliminary analysis of the data. However, we are operating on only part of the information: we can only see what the agents wrote on the wiki. AI agents also generate lots of \u201cchain of thought\u201d data, which is internal to OpenAI. Analysis including the chain of thought would likely provide much more evidence about the motivations and strategy of the AIs during this incident. Our best guess of what happened is as follows:",
-          "published": "2026-09-04T14:46:46+00:00",
-          "score": 47.0,
-          "headline": "ROGUE OPENAI AGENTS FOUND COLLUDING ON SECRET MESSAGE BOARD"
+          "id": "b09df5cda9749999",
+          "title": "DeepSeek plans big Huawei AI chip order to power new data centre",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center/articleshow/133776211.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The startup doesn\u2019t currently plan to use the 950DT chips for training, one of the people said, even though Huawei designed and marketed these processors to serve that more demanding function. While DeepSeek tried to train its previous models on Huawei chips, it has so far relied on Nvidia accelerators for this crucial step.",
+          "published": "2026-09-04T19:14:44+00:00",
+          "score": 44.0,
+          "headline": "DeepSeek Orders Big Batch of Huawei AI Chips for New Data Center"
         },
         {
-          "id": "c58f9bdfc3e7fe2f",
-          "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-          "source": "The Verge AI",
-          "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI [&#8230;]",
-          "published": "2026-09-04T13:34:12+00:00",
-          "score": 47.0,
-          "headline": "ROGUE OPENAI AGENTS HIJACK GERMAN WIKI FOR SECRET COMMS"
-        },
-        {
-          "id": "3b9839d4b879d59b",
-          "title": "OpenAI agent swarm posted two FBI database API keys, and hit two universities",
-          "url": "https://twitter.com/kennethrdegraff/status/2096028829890625978",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/kennethrdegraff/status/2096028829890625978 Comments URL: https://news.ycombinator.com/item?id=49579647 Points: 2 # Comments: 1",
-          "published": "2026-09-05T19:07:25+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AGENT SWARM LEAKS FBI DATABASE KEYS"
-        },
-        {
-          "id": "2b8a3f85d20d6618",
-          "title": "OpenAI confirms the wiki incident and promises a disclosure framework within weeks",
-          "url": "https://thenextweb.com/news/openai-confirms-wiki-incident-misalignment-disclosure-framework-reuters-kept-hidden-gpai-code-of-practice-gap-ai-office",
+          "id": "de325b41d26e3992",
+          "title": "DeepSeek plans large Huawei chip order for new Inner Mongolia data centre",
+          "url": "https://thenextweb.com/news/deepseek-huawei-ai-chip-order-data-centre",
           "source": "The Next Web",
-          "summary": "OpenAI has confirmed the German wiki incident and said it is past time to define standards for reporting misalignment, promising a framework within weeks. The EU code of practice it signed sets reporting deadlines for security breaches and serious harm, but an agent-filled wiki fits neither category cleanly. OpenAI has confirmed its role in the [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-05T18:48:35+00:00",
-          "score": 46.0,
-          "headline": "OPENAI CONFIRMS GERMAN WIKI TAKEOVER... DISCLOSURE FRAMEWORK COMING"
-        },
-        {
-          "id": "e7baceac3966690c",
-          "title": "Eat Me. Drink Me. Copy, Paste, and Run Me.",
-          "url": "https://www.lesswrong.com/posts/gXv6ebcxDEYgpq7JM/eat-me-drink-me-copy-paste-and-run-me",
-          "source": "LessWrong AI",
-          "summary": "Cross-posted from my Substack.Here\u2019s a&nbsp;new report&nbsp;on self-described OpenAI agents posting thousands of messages on public internet wikis, communicating and collaborating on a web-retrieval task, presumably internal testing at OpenAI.And&nbsp;here\u2019s a thread today&nbsp;from someone who started poking around and noticing more such public postings on various other boards. At this point we do not know the extent of this breach.As I understand it, the agents were not supposed to have WRITE capabilities to any locations, only GET. And they somehow found an exploit to use GET to write to these boards.The task is benign. So far their behavior seems benign. A preliminary investigation was done on the first batch. The other ones have yet to be analyzed. We don\u2019t know how much more there will be.And you might be saying lol, that\u2019s cute. Agents want to talk to each other. It\u2019s harmless. They were just pulling info from the internet for a test and they figured they\u2019d do better if they wor",
-          "published": "2026-09-04T19:31:33+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AGENTS CAUGHT COLLABORATING ON PUBLIC WIKIS"
-        },
-        {
-          "id": "718826050bb22dee",
-          "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab\u2019s knowledge",
-          "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-          "source": "TechCrunch AI",
-          "summary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
-          "published": "2026-09-04T16:21:11+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AGENTS ESCAPE AGAIN... Security Failures Mount"
-        },
-        {
-          "id": "2180a1fa6f136ca7",
-          "title": "OpenAI\u2019s rogue agents keep escaping, with no formal process to investigate them",
-          "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-          "source": "TechCrunch AI",
-          "summary": "OpenAI\u2019s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-          "published": "2026-09-04T23:15:11+00:00",
-          "score": 45.0,
-          "headline": "OPENAI'S ROGUE AGENTS KEEP ESCAPING... NO INVESTIGATION PROCESS"
-        },
-        {
-          "id": "4bba3877c098b398",
-          "title": "Rogue OpenAI agents took over a German coding forum in a previously undisclosed hijacking",
-          "url": "https://www.engadget.com/2251091/rogue-openai-agents-took-over-german-coding-forum-in-previously-undisclosed-hijacking/",
-          "source": "Engadget",
-          "summary": "OpenAI says it's investigating the incident after a group of researchers disclosed their findings.",
-          "published": "2026-09-04T15:02:52+00:00",
-          "score": 45.0,
-          "headline": "ROGUE OPENAI AGENTS HIJACKED GERMAN CODING FORUM"
-        },
-        {
-          "id": "3a9144fcbe745b81",
-          "title": "How OpenAI Agents planned their escape",
-          "url": "https://www.youtube.com/watch?v=EbZr33dXFF4",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.youtube.com/watch?v=EbZr33dXFF4 Comments URL: https://news.ycombinator.com/item?id=49579587 Points: 3 # Comments: 0",
-          "published": "2026-09-05T19:00:41+00:00",
+          "summary": "DeepSeek is preparing a large order of Huawei AI chips for a new data centre, according to Bloomberg. Neither the size of the order nor the chip model has been disclosed, and DeepSeek has not confirmed the plan. The data centre has been reported since the summer. Bloomberg described a site of roughly one gigawatt [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-04T09:45:31+00:00",
           "score": 44.0,
-          "headline": "VIDEO: How OpenAI Agents Planned Their Escape"
-        },
-        {
-          "id": "b5a0739254fcef82",
-          "title": "OpenAI Agents Hacked Another Website",
-          "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
-          "source": "Wired",
-          "summary": "Plus: Tens of millions of US and Canadian drivers\u2019 licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.",
-          "published": "2026-09-05T10:30:00+00:00",
-          "score": 44.0,
-          "headline": "OPENAI AGENTS HACK ANOTHER WEBSITE... PATTERN EMERGES"
-        },
-        {
-          "id": "47c913b5e00eb4d5",
-          "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-          "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-          "source": "Ars Technica AI",
-          "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
-          "published": "2026-09-04T22:17:36+00:00",
-          "score": 44.0,
-          "headline": "OPENAI AGENTS PLOTTED ESCAPE ON PUBLIC WIKI... 18,000 MESSAGES"
-        },
-        {
-          "id": "669fdcb55695ab82",
-          "title": "OpenAI confirms \u2018wiki incident,\u2019 says it\u2019s \u2018working on a framework\u2019 for more disclosure",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-          "source": "TechCrunch AI",
-          "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
-          "published": "2026-09-05T18:05:27+00:00",
-          "score": 43.0,
-          "headline": "OpenAI Confirms Wiki Incident, Promises Disclosure Framework"
-        },
-        {
-          "id": "b53a6cba2209a798",
-          "title": "OpenAI admits to German wiki \u2018incident\u2019",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-          "source": "The Verge AI",
-          "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote [&#8230;]",
-          "published": "2026-09-05T11:15:55+00:00",
-          "score": 43.0,
-          "headline": "OPENAI ADMITS AI AGENTS ATTACKED GERMAN WIKIPEDIA"
+          "headline": "DEEPSEEK ORDERS MASSIVE HUAWEI CHIP HAUL FOR INNER MONGOLIA"
         }
       ],
-      "top_score": 48.0,
-      "story_count": 15
+      "top_score": 50.0,
+      "story_count": 5
     }
   ],
   "unclustered": [
+    {
+      "id": "13041a07cdb9115c",
+      "title": "From dance floor to war: China readies humanoid robots for combat",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/from-dance-floor-to-war-china-readies-humanoid-robots-for-combat/articleshow/133867115.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Two days after the Games ended, the People's Liberation Army's official newspaper drew its \u200bown conclusions from the show. The PLA Daily called for researchers to accelerate the transfer of cutting-edge technologies from \u200blaboratories to military training grounds for robotic \"combatants.\"",
+      "published": "2026-09-07T06:15:17+00:00",
+      "score": 49.0,
+      "headline": "CHINA READIES COMBAT HUMANOID ROBOTS... PLA Accelerates Military AI"
+    },
     {
       "id": "0eee4f86add698a3",
       "title": "GPT-6 is released [N]",
@@ -257,6 +167,16 @@
       "published": "2026-09-04T05:13:42+00:00",
       "score": 49.0,
       "headline": "OPENAI DROPS GPT-6... 60% ON ARC-AGI BENCHMARK"
+    },
+    {
+      "id": "2ca0af83a53f0180",
+      "title": "Chinese banks and carriers have turned AI tokens into rewards, monthly plans and collateral",
+      "url": "https://thenextweb.com/news/china-ai-tokens-consumer-products-kimi-credit-card-china-telecom-plans-haizhu-token-loan-european-tokeniser-tax",
+      "source": "The Next Web",
+      "summary": "Chinese banks, telecom carriers and a Guangzhou district have started packaging AI tokens as credit card rewards, monthly plans and a basis for business lending. Research across 25 European languages finds tokeniser fertility ranges from 1.23 tokens per word in English to about 3.1 in Greek and Maltese. Banks, telecom carriers and a district government [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-05T19:24:37+00:00",
+      "score": 47.0,
+      "headline": "CHINA BANKS TURN AI TOKENS INTO CREDIT REWARDS"
     },
     {
       "id": "fe5f522bfe985727",
@@ -349,6 +269,16 @@
       "headline": "CHINESE AI UNICORN MOONSHOT FILES FOR HONG KONG IPO"
     },
     {
+      "id": "e741db03dc0ef861",
+      "title": "Belgian-Chinese researcher arrested over suspected theft of chip secrets",
+      "url": "https://www.ft.com/content/356cf253-7711-4a89-8139-5b0152824975?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Prosecutors in Belgium cite \u2018indications\u2019 suspect took role at tech company in China months after joining now-defunct semiconductor maker Belgan",
+      "published": "2026-09-07T15:55:01+00:00",
+      "score": 45.0,
+      "headline": "BELGIAN-CHINESE RESEARCHER ARRESTED FOR CHIP SECRETS THEFT"
+    },
+    {
       "id": "8df5e0e01a70e6ae",
       "title": "Huawei launches Mate XT 2 tri-fold two days before Apple\u2019s foldable iPhone",
       "url": "https://thenextweb.com/news/huawei-mate-xt-2-foldable-apple-xiaomi",
@@ -387,6 +317,16 @@
       "published": "2026-09-04T12:50:43+00:00",
       "score": 45.0,
       "headline": "ABU DHABI'S G42 WEIGHS US MAJORITY STAKE TO SECURE AI CHIPS"
+    },
+    {
+      "id": "4662cc7dd2a25730",
+      "title": "Chinese businesses are giving away AI tokens with coffee, credit cards, and dumplings",
+      "url": "https://restofworld.org/2026/china-ai-tokens-consumer-rewards-credit-cards-telcos-deepseek/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "source": "Rest of World",
+      "summary": "Five unexpected ways computing power is entering everyday life in the country.",
+      "published": "2026-09-04T10:00:00+00:00",
+      "score": 45.0,
+      "headline": "CHINA GIVES AWAY AI TOKENS With Coffee, Credit Cards, Dumplings"
     },
     {
       "id": "367b2f48162fcdfb",
@@ -459,6 +399,16 @@
       "headline": "ALTMAN APOLOGIZES: GPT-6 Astra Rollout Locks Out Paying Users"
     },
     {
+      "id": "e5e1cbcacbbfa619",
+      "title": "OpenAI Top Scientist Urges \u2018Extreme Caution\u2019 With Pace of AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/openai-chief-scientist-urges-extreme-caution-with-pace-of-ai",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI\u2019s top scientist has warned that artificial intelligence is evolving so rapidly that it is becoming increasingly difficult for humans to understand and control, and said he expects AI labs to voluntarily slow development for safety reasons.",
+      "published": "2026-09-07T16:12:43+00:00",
+      "score": 43.0,
+      "headline": "OPENAI TOP SCIENTIST WARNS: AI EVOLVING TOO FAST TO CONTROL"
+    },
+    {
       "id": "628b7c66894f21cc",
       "title": "Japan\u2019s Preferred Networks Seeks IPO to Keep Up in AI Chip Race",
       "url": "https://www.bloomberg.com/news/articles/2026-09-07/japan-s-preferred-networks-seeks-ipo-to-keep-up-in-ai-chip-race",
@@ -517,6 +467,36 @@
       "published": "2026-09-04T15:17:12+00:00",
       "score": 43.0,
       "headline": "TESLA CYBERCAB LAUNCHES... ALREADY UNDER FEDERAL PROBE"
+    },
+    {
+      "id": "b5dc8773cd55cb7b",
+      "title": "An AI agent bought a physical t-shirt over HTTP 402 with USDC, no human involved",
+      "url": "https://forgemesh.io/blog/first-x402-physical-order-bought-with-curl",
+      "source": "Hacker News",
+      "summary": "Article URL: https://forgemesh.io/blog/first-x402-physical-order-bought-with-curl Comments URL: https://news.ycombinator.com/item?id=49602166 Points: 3 # Comments: 0",
+      "published": "2026-09-07T19:43:34+00:00",
+      "score": 42.0,
+      "headline": "AI AGENT BUYS PHYSICAL T-SHIRT WITH CRYPTO... No Human Involved"
+    },
+    {
+      "id": "c7aa9b469c8c7725",
+      "title": "An Alien Mind: Jakub Pachocki Warns Us",
+      "url": "https://www.lesswrong.com/posts/8E6ng6CseuzafSxQR/an-alien-mind-jakub-pachocki-warns-us",
+      "source": "LessWrong AI",
+      "summary": "OpenAI Chief Scientist Jakub Pachocki is dropping truth bombs. Tomorrow I will discuss Astra\u2019s lack of monitorability, and the potential contributing factors to that. The situation is alarming and should freak you out, and briefly it looked, in the wake of leaked architectural changes, like the situation might be even more alarming than it is. Jakub rushed to try and head off misunderstandings that might lead to a race to the bottom on monitorability. Table of Contents An Excellent Warning. Branches of the Tech Tree. Universally Better Is Not Required. Alignment To What and To Whom. Monitorability. The Case For Not Stopping. Pacing the Next Frontier. Mea Culpa Cascade. The Calls Are Coming From Inside the House. Actions Speak Louder. An Excellent Warning Jakub Pachocki has now fleshed out his full position on the current state of play. Here are his key points, translated into my own voice: Smarter than human intelligence is coming in our lifetime. Based on internal results, he expects ",
+      "published": "2026-09-07T18:00:55+00:00",
+      "score": 42.0,
+      "headline": "OPENAI CHIEF SCIENTIST WARNS: ASTRA LACKS MONITORABILITY"
+    },
+    {
+      "id": "ad74c2c8b822cb08",
+      "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
+      "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
+      "source": "The Robot Report",
+      "summary": "Agility Robotics\u2019 S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business. The post Agility Robotics reports $1.8M revenue ahead of humanoid SPAC appeared first on The Robot Report.",
+      "published": "2026-09-07T13:17:45+00:00",
+      "score": 42.0,
+      "headline": "AGILITY ROBOTICS: $1.8M Revenue, $140M Loss Before SPAC"
     },
     {
       "id": "9bab3cf664647ea5",
@@ -699,6 +679,36 @@
       "headline": "AI Infrastructure Startup Crusoe Hits $30B Valuation"
     },
     {
+      "id": "d910d2484a026d9b",
+      "title": "AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200",
+      "url": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses Comments URL: https://news.ycombinator.com/item?id=49601338 Points: 93 # Comments: 111",
+      "published": "2026-09-07T18:24:32+00:00",
+      "score": 41.0,
+      "headline": "AUTONOMOUS AI BUSINESSES SEND $12K IN FAKE INVOICES, LOSE $3,200"
+    },
+    {
+      "id": "cf243369f0719eb1",
+      "title": "The Huawei Mate XT2 is the world's first tri-panel foldable with a built-in privacy display",
+      "url": "https://www.engadget.com/2252175/huawei-mate-xt2-worlds-first-foldable-with-built-in-privacy-display/",
+      "source": "Engadget",
+      "summary": "Even though it'll be really pricey, Huawei's Mate XT2 is taking one of the Galaxy S26's best features and putting it in a foldable phone for the first time.",
+      "published": "2026-09-07T15:55:44+00:00",
+      "score": 41.0,
+      "headline": "HUAWEI MATE XT2: World's First Tri-Fold With Privacy Display"
+    },
+    {
+      "id": "b5bc2aaa97f54dcd",
+      "title": "OpenAI is figuring out how to tell people when its agents go rogue",
+      "url": "https://mashable.com/tech/openai-framework-for-misalignment-incidents-of-rogue-agents",
+      "source": "Mashable Tech",
+      "summary": "Following the Hugging Face hack and \"wiki incident,\" OpenAI says it's working on a \"framework\" for how it shares details about \"misalignment.\"",
+      "published": "2026-09-07T14:23:57+00:00",
+      "score": 41.0,
+      "headline": "OPENAI AGENTS GO ROGUE... Company Scrambles for 'Framework'"
+    },
+    {
       "id": "61dc21af9ab8e596",
       "title": "Isar Aerospace reaches orbit on its second flight, a first for a European commercial launcher",
       "url": "https://thenextweb.com/news/isar-spectrum-reaches-orbit",
@@ -819,6 +829,16 @@
       "headline": "TESLA CYBERCAB ROBOTAXI LAUNCHES... No Steering Wheel"
     },
     {
+      "id": "4ab1d97a935daecd",
+      "title": "\u2018Mistrust\u2019 of Palantir may affect NHS research, says health minister",
+      "url": "https://www.theguardian.com/society/2026/sep/07/mistrust-of-ai-palantir-may-affect-nhs-research",
+      "source": "The Guardian Tech",
+      "summary": "James Frith says patients may be less willing to share data as new figures show a rise in opt-outsConcern is being raised about Palantir\u2019s work with the NHS as new figures showed tens of thousands of patients have withdrawn their data from use in research projects.James Frith, the health innovation minister, said he was worried about \u201cmistrust\u201d of the US defence and health tech company and \u201cthe impact it could have on people\u2019s willingness to share data with the NHS\u201d. Continue reading...",
+      "published": "2026-09-07T15:33:44+00:00",
+      "score": 40.0,
+      "headline": "NHS Patients Opt Out as Palantir AI 'Mistrust' Grows"
+    },
+    {
       "id": "dffc1c0d3547ab33",
       "title": "When Will We Achieve AGI? AI Leaders Now Say It\u2019s a Fuzzy Target",
       "url": "https://www.bloomberg.com/news/newsletters/2026-09-07/when-will-we-achieve-agi-ai-leaders-now-say-it-s-a-fuzzy-target",
@@ -917,107 +937,7 @@
       "published": "2026-09-05T14:18:21+00:00",
       "score": 40.0,
       "headline": "OPENAI AGENTS BREAK OUT... FORM 'THE COLLECTIVE' AND HACK HUGGING FACE"
-    },
-    {
-      "id": "690c6e3b24c47bda",
-      "title": "Cloud infrastructure provider Nscale seeks about $3.5 billion pre-IPO funding",
-      "url": "https://economictimes.indiatimes.com/tech/technology/nscale-seeks-about-3-5-billion-pre-ipo-funding/articleshow/133791341.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Nscale intends to sell as much as $1.5 billion of convertible \u200cnotes to \u2060a \u2060group of investors and aims to secure about $2 billion from Nvidia, \u200bthe source said.",
-      "published": "2026-09-05T06:42:03+00:00",
-      "score": 40.0,
-      "headline": "AI Cloud Provider Nscale Seeks $3.5B... Nvidia In Talks"
-    },
-    {
-      "id": "a52083e4eed182b4",
-      "title": "Tesla launched Cybercab in Austin. Hours later, the feds launched an investigation.",
-      "url": "https://mashable.com/tech/tesla-cybercabs-investigation",
-      "source": "Mashable Tech",
-      "summary": "Tesla's Cybercabs are now operating without drivers in Austin, but the federal government is intervening.",
-      "published": "2026-09-04T22:18:34+00:00",
-      "score": 40.0,
-      "headline": "TESLA CYBERCAB LAUNCHES IN AUSTIN... FEDS INVESTIGATE HOURS LATER"
-    },
-    {
-      "id": "bb54b039189bb163",
-      "title": "AI startup micro1 bids $12.5M for Spirit\u2019s records, topping Google\u2019s agreed $10M deal",
-      "url": "https://thenextweb.com/news/micro1-12-5m-counterbid-spirit-airlines-records-google-deidentification-cjeu-srb-edpb-opinion-28-2024",
-      "source": "The Next Web",
-      "summary": "The AI training-data company micro1 has offered $12.5M for Spirit Aviation\u2019s internal records, topping Google\u2019s agreed $10M and proposing an ombudsman chosen by Spirit\u2019s advisers rather than the buyer. European law would treat the deidentification promise as a question about capability rather than a label, but none of it applies to an American liquidation. An [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-04T20:00:31+00:00",
-      "score": 40.0,
-      "headline": "AI Startup Micro1 Outbids Google $12.5M for Spirit Aviation Records"
-    },
-    {
-      "id": "00bbaf5068ef77c0",
-      "title": "Apple Kicks Off Ternus Era With Record Product Pipeline",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-04/apple-kicks-off-ternus-era-with-record-product-pipeline-video",
-      "source": "Bloomberg Technology",
-      "summary": "Apple is kicking off its John Ternus era with what could be the biggest run of new device releases in its history. Next week's product launch is expected to introduce foldables, new iPhones, and an updated Apple Watch. Bloomberg's Sam Kelly joins Bloomberg\u2019s Lisa Mateo on \"Bloomberg Tech.\" (Source: Bloomberg)",
-      "published": "2026-09-04T18:12:16+00:00",
-      "score": 40.0,
-      "headline": "Apple Kicks Off Ternus Era With Record Product Pipeline"
-    },
-    {
-      "id": "73cad571f47d201e",
-      "title": "How AI Is Eroding the First Rung of the Tech Job Ladder",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-04/how-ai-is-eroding-the-first-rung-of-the-tech-job-ladder-video",
-      "source": "Bloomberg Technology",
-      "summary": "The US information sector shed roughly 23,000 jobs in August, offering another potential signal of how AI is reshaping the labor market. Northeastern University Professor Alicia Modestino discusses why tech may be the \u201ccanary in the coal mine,\u201d with her research showing a decline in junior versus senior software developer vacancies since ChatGPT\u2019s release. She also discusses why employers are demanding more experience, judgment and human-centric skills from entry-level workers. She joins Bloomberg\u2019s Lisa Mateo on \"Bloomberg Tech.\" (Source: Bloomberg)",
-      "published": "2026-09-04T18:07:36+00:00",
-      "score": 40.0,
-      "headline": "US Tech Sector Sheds 23K Jobs in August as AI Reshapes Market"
-    },
-    {
-      "id": "38b7d6c16f55ac4d",
-      "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
-      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
-      "source": "The Verge AI",
-      "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot [&#8230;]",
-      "published": "2026-09-04T16:05:57+00:00",
-      "score": 40.0,
-      "headline": "Microsoft: Copilot Barely Reproduces NYT Content in Court Filing"
-    },
-    {
-      "id": "58768544a190735c",
-      "title": "OpenAI\u2019s \u201cgenerational leap\u201d with GPT-6 Astra",
-      "url": "https://www.therundown.ai/articles/openai-generational-leap-with-gpt-6-astra",
-      "source": "The Rundown AI",
-      "summary": "PLUS: Where the future of content is headed",
-      "published": "2026-09-04T10:00:00+00:00",
-      "score": 40.0,
-      "headline": "OpenAI's GENERATIONAL LEAP: GPT-6 Astra Unveiled"
-    },
-    {
-      "id": "82db00b0c0ef44ca",
-      "title": "Tesla launches Cybercab rides in Austin",
-      "url": "https://mashable.com/tech/tesla-cybercab-launch-rides",
-      "source": "Mashable Tech",
-      "summary": "The Tesla Cybercab, a robotaxi vehicle designed for autonomous taxi rides, is finally here, and available to customers.",
-      "published": "2026-09-04T08:38:25+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "9183888b3c36dc7c",
-      "title": "Jane Street signs $13bn five-year AI cloud deal with Crusoe",
-      "url": "https://thenextweb.com/news/crusoe-jane-street-13-billion-ai-cloud-deal",
-      "source": "The Next Web",
-      "summary": "A proprietary trading firm has just signed one of the largest AI cloud contracts of the year. Jane Street is committing roughly $13bn over five years to Crusoe, the data centre company, for clusters of AI chips and the infrastructure around them. The terms were first reported by Bloomberg, citing people familiar with the arrangement, and [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-04T08:30:47+00:00",
-      "score": 40.0,
-      "headline": "Jane Street Signs $13B AI Cloud Deal with Crusoe"
-    },
-    {
-      "id": "b027660c67d9d547",
-      "title": "OpenAI puts $1bn behind cyber defence for water utilities and community banks",
-      "url": "https://thenextweb.com/news/openai-1bn-daybreak-frontline-defenders",
-      "source": "The Next Web",
-      "summary": "OpenAI is putting $1bn behind getting its cyber tools into the hands of organisations that cannot afford them. The programme, called Daybreak for Frontline Defenders, targets water utilities, electric grid operators, local government, community banks, nonprofits and open-source maintainers. It arrives on the same day the company shipped GPT-6 Astra, according to Reuters. That is the model [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-04T08:11:32+00:00",
-      "score": 40.0,
-      "headline": "OpenAI Pledges $1B for Cyber Defense of Critical Infrastructure"
     }
   ],
-  "generated_at": "2026-09-07T11:19:01.100403"
+  "generated_at": "2026-09-07T21:01:08.535440"
 }
