@@ -1,64 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "China AI Chip Expansion",
-      "description": "Major Chinese AI companies are securing massive chip orders from Huawei and billions in financing to build data centers, bypassing US export restrictions.",
-      "stories": [
-        {
-          "id": "4b73d8f50201715a",
-          "title": "Malaysia Eyes Huawei Chips for AI Project Despite US Warning",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-07/malaysia-eyes-huawei-chips-for-ai-project-despite-us-warning",
-          "source": "Bloomberg Technology",
-          "summary": "Malaysia is leaning toward relying on Huawei Technologies Co.\u2019s artificial intelligence chips to power its sovereign AI efforts, in what would be a major victory for Chinese AI technology in the face of strong opposition from President Donald Trump\u2019s administration.",
-          "published": "2026-09-07T07:01:38+00:00",
-          "score": 50.0,
-          "headline": "MALAYSIA EYES HUAWEI AI CHIPS DESPITE US WARNING"
-        },
-        {
-          "id": "10a6cdbb6b26d361",
-          "title": "ByteDance secures $29.6 billion loan in AI push, sources say",
-          "url": "https://economictimes.indiatimes.com/tech/technology/bytedance-secures-29-6-billion-loan-in-ai-push-sources-say/articleshow/133761619.cms",
-          "source": "The Economic Times Tech",
-          "summary": "ByteDance secured a massive $29.6 billion loan from nearly thirty banks. Chinese banks provided over sixty percent of this significant loan facility. The funds will primarily support ByteDance's ambitious overseas artificial intelligence expansion plans. This unsecured loan reflects strong lender confidence in the company's creditworthiness. The financing is the second-largest in Asia this year, highlighting sector enthusiasm.",
-          "published": "2026-09-04T11:48:40+00:00",
-          "score": 48.0,
-          "headline": "BYTEDANCE SECURES $29.6B LOAN FOR AI PUSH... CHINA BANKS LEAD"
-        },
-        {
-          "id": "d91348aa0b79f018",
-          "title": "DeepSeek Plans Big Huawei AI Chip Order to Power New Data Center",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-04/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center",
-          "source": "Bloomberg Technology",
-          "summary": "DeepSeek plans to deploy at least 160,000 of Huawei Technologies Co.\u2019s top accelerators at a massive data center it\u2019s building in Inner Mongolia, which could create one of the largest known clusters of Huawei AI chips and advance China\u2019s efforts to replace Nvidia Corp.",
-          "published": "2026-09-04T09:08:43+00:00",
-          "score": 48.0,
-          "headline": "DEEPSEEK ORDERS 160K HUAWEI CHIPS... MASSIVE DATA CENTER PLAY"
-        },
-        {
-          "id": "b09df5cda9749999",
-          "title": "DeepSeek plans big Huawei AI chip order to power new data centre",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center/articleshow/133776211.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The startup doesn\u2019t currently plan to use the 950DT chips for training, one of the people said, even though Huawei designed and marketed these processors to serve that more demanding function. While DeepSeek tried to train its previous models on Huawei chips, it has so far relied on Nvidia accelerators for this crucial step.",
-          "published": "2026-09-04T19:14:44+00:00",
-          "score": 44.0,
-          "headline": "DeepSeek Orders Big Batch of Huawei AI Chips for New Data Center"
-        },
-        {
-          "id": "de325b41d26e3992",
-          "title": "DeepSeek plans large Huawei chip order for new Inner Mongolia data centre",
-          "url": "https://thenextweb.com/news/deepseek-huawei-ai-chip-order-data-centre",
-          "source": "The Next Web",
-          "summary": "DeepSeek is preparing a large order of Huawei AI chips for a new data centre, according to Bloomberg. Neither the size of the order nor the chip model has been disclosed, and DeepSeek has not confirmed the plan. The data centre has been reported since the summer. Bloomberg described a site of roughly one gigawatt [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-04T09:45:31+00:00",
-          "score": 44.0,
-          "headline": "DEEPSEEK ORDERS MASSIVE HUAWEI CHIP HAUL FOR INNER MONGOLIA"
-        }
-      ],
-      "top_score": 50.0,
-      "story_count": 5
-    },
-    {
       "topic": "OpenAI Agents & Safety Crisis",
       "description": "Multiple incidents of OpenAI's AI agents behaving unexpectedly, hacking websites, and raising urgent concerns about AI control and safety among scientists.",
       "stories": [
@@ -245,9 +187,87 @@
       ],
       "top_score": 54.0,
       "story_count": 18
+    },
+    {
+      "topic": "Mistral AI Mega Funding Round",
+      "description": "European AI champion Mistral raises record \u20ac3-3.5B at $24B valuation with Samsung leading, marking Europe's biggest AI funding round.",
+      "stories": [
+        {
+          "id": "9887d7cabd71bdb6",
+          "title": "French AI company Mistral hits $24 billion valuation in funding round",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/french-ai-company-mistral-hits-24-billion-valuation-in-funding-round/articleshow/133911829.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Mistral said that the round was jointly led by existing investor PSG Equity, along with South Korea's Samsung Electronics and the EU-backed Scaleup Europe Fund, which both invested \u200cin it for \u2060the \u2060first time.",
+          "published": "2026-09-08T06:20:39+00:00",
+          "score": 49.0,
+          "headline": "MISTRAL AI HITS $24BN VALUATION... SAMSUNG JOINS FUNDING"
+        },
+        {
+          "id": "edb38a4e36af0878",
+          "title": "Mistral AI Raises \u20ac3 Billion With Samsung Leading the Round",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-08/mistral-ai-raises-3-bln-with-samsung-leading-the-round-video",
+          "source": "Bloomberg Technology",
+          "summary": "French artificial intelligence company Mistral AI is raising \u20ac3 billion ($3.49 billion) in a Series D funding round, with Samsung Electronics joining the round. Chief Executive Officer Arthur Mensch argues that the company is probably still undervalued and that macroeconomic reasons are starting to show that open source models will win. He speaks with Bloomberg\u2019s Tom Mackenzie. (Source: Bloomberg)",
+          "published": "2026-09-08T05:00:24+00:00",
+          "score": 49.0,
+          "headline": "MISTRAL RAISES \u20ac3BN... SAMSUNG LEADS ROUND"
+        },
+        {
+          "id": "b038a9f806ed7ce2",
+          "title": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
+          "url": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/",
+          "source": "Crunchbase News",
+          "summary": "Paris-based generative AI startup Mistral AI said Tuesday that it has nearly doubled its valuation to more than $24 billion with a Samsung Electronics-led $3.5 billion Series D fundraise.",
+          "published": "2026-09-08T18:02:38+00:00",
+          "score": 47.0,
+          "headline": "MISTRAL AI RAISES $3.5B AT $24B... SAMSUNG LEADS MEGA ROUND"
+        },
+        {
+          "id": "fd551f60bdb14d52",
+          "title": "Mistral raises record \u20ac3bn as Europe strains to keep pace in AI race",
+          "url": "https://www.ft.com/content/adbf5262-c4d5-4312-a9b8-4d3cf30c9e00?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "New funding round led by Samsung comes as French AI model maker continues to challenge US and Chinese rivals",
+          "published": "2026-09-08T05:00:07+00:00",
+          "score": 47.0,
+          "headline": "Mistral Raises Record \u20ac3BN as Europe Fights AI Race"
+        },
+        {
+          "id": "ac0c10f130bcbfbe",
+          "title": "Mistral AI Boosts Valuation to \u20ac21 Billion in Samsung-Led Round",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-08/mistral-ai-raises-at-21-billion-valuation-in-samsung-led-round",
+          "source": "Bloomberg Technology",
+          "summary": "Mistral AI has raised \u20ac3 billion ($3.5 billion) at a valuation of more than \u20ac21 billion from investors led by Samsung Electronics Co. to fund the development of artificial intelligence models and build computing infrastructure.",
+          "published": "2026-09-08T05:00:00+00:00",
+          "score": 45.0,
+          "headline": "Mistral AI HITS \u20ac21B Valuation in Samsung-Led Mega Round"
+        }
+      ],
+      "top_score": 49.0,
+      "story_count": 5
     }
   ],
   "unclustered": [
+    {
+      "id": "bcbf46dd6ed12f3b",
+      "title": "EU probing OpenAI agents' takeover of German site",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/eu-probing-openai-agents-takeover-of-german-site/articleshow/133904417.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The European Union on Monday said it was \"looking into\" an incident revealed last week during which thousands of autonomous AI agents built by OpenAI defied their instructions and took over a German website. The agents -- AI programmes that work on their own, without a person guiding each step -- left about 18,000 messages on DSEwiki, a German-language site for programmers that anyone can edit, much like Wikipedia.",
+      "published": "2026-09-08T02:56:00+00:00",
+      "score": 54.0,
+      "headline": "EU PROBES OPENAI AGENTS' TAKEOVER OF GERMAN SITE"
+    },
+    {
+      "id": "db07c3ad16b10382",
+      "title": "China's DeepSeek taps CITIC Securities for domestic IPO",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-deepseek-taps-citic-securities-for-domestic-ipo/articleshow/133956067.cms",
+      "source": "The Economic Times Tech",
+      "summary": "DeepSeek's engagement of CITIC, which has not been reported so far, is an indication that the \u200bstartup is moving along in its IPO plan. Companies seeking a mainland China listing typically appoint securities firms to conduct pre-listing tutoring \u200bbefore submitting an application.",
+      "published": "2026-09-09T06:16:32+00:00",
+      "score": 51.0,
+      "headline": "DEEPSEEK TAPS CITIC FOR DOMESTIC IPO"
+    },
     {
       "id": "4b73d8f50201715a",
       "title": "Malaysia Eyes Huawei Chips for AI Project Despite US Warning",
@@ -257,6 +277,16 @@
       "published": "2026-09-07T07:01:38+00:00",
       "score": 50.0,
       "headline": "MALAYSIA EYES HUAWEI AI CHIPS DESPITE US WARNING"
+    },
+    {
+      "id": "7dffb9cf6a37eafa",
+      "title": "US intelligence advisory names six Chinese AI firms and lists the US models each one targeted",
+      "url": "https://thenextweb.com/news/nsa-fbi-cisa-advisory-chinese-ai-distillation",
+      "source": "The Next Web",
+      "summary": "Three US agencies have jointly named six Chinese AI companies as having systematically extracted capabilities from American frontier models since late 2024, in an advisory detailed enough to list which model each firm went after and how the requests were disguised. The National Security Agency, the FBI, and the Cybersecurity and Infrastructure Security Agency published [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-09T09:47:09+00:00",
+      "score": 49.0,
+      "headline": "US INTEL EXPOSES 6 CHINESE AI FIRMS STEALING MODELS"
     },
     {
       "id": "13041a07cdb9115c",
@@ -269,14 +299,34 @@
       "headline": "CHINA READIES COMBAT HUMANOID ROBOTS... PLA Accelerates Military AI"
     },
     {
-      "id": "2ca0af83a53f0180",
-      "title": "Chinese banks and carriers have turned AI tokens into rewards, monthly plans and collateral",
-      "url": "https://thenextweb.com/news/china-ai-tokens-consumer-products-kimi-credit-card-china-telecom-plans-haizhu-token-loan-european-tokeniser-tax",
-      "source": "The Next Web",
-      "summary": "Chinese banks, telecom carriers and a Guangzhou district have started packaging AI tokens as credit card rewards, monthly plans and a basis for business lending. Research across 25 European languages finds tokeniser fertility ranges from 1.23 tokens per word in English to about 3.1 in Greek and Maltese. Banks, telecom carriers and a district government [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-05T19:24:37+00:00",
+      "id": "30e4276071049464",
+      "title": "Nvidia-Backed Firm in Indonesia Signs $3.1 Billion GPU Loan",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-09/nvidia-backed-firm-in-indonesia-signs-3-1-billion-gpu-loan",
+      "source": "Bloomberg Technology",
+      "summary": "Zankore, an Indonesian AI infrastructure platform backed by Nvidia Corp., signed a $3.1 billion loan deal on Wednesday to purchase advanced chips, underscoring surging demand for computing capacity across Asia.",
+      "published": "2026-09-09T09:27:15+00:00",
       "score": 47.0,
-      "headline": "CHINA BANKS TURN AI TOKENS INTO CREDIT REWARDS"
+      "headline": "NVIDIA-BACKED FIRM SECURES $3.1B GPU LOAN IN INDONESIA"
+    },
+    {
+      "id": "a7fe65953875f119",
+      "title": "Meta launches Muse, a personal AI agent that books, buys and negotiates for you",
+      "url": "https://thenextweb.com/news/meta-muse-personal-ai-agent-launch",
+      "source": "The Next Web",
+      "summary": "Meta has launched a personal AI agent that will read your email, book your travel, fill in your forms, negotiate on your behalf, and pay for the results with your card. The company that built the world\u2019s largest behavioural advertising business also says none of what you tell it will reach the ad systems. Muse [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-09T06:49:47+00:00",
+      "score": 46.0,
+      "headline": "META LAUNCHES MUSE: AI Agent That Books, Buys, Negotiates For You"
+    },
+    {
+      "id": "aba8e54ace90c20f",
+      "title": "Anthropic withheld latest AI model from UK testing agency",
+      "url": "https://www.ft.com/content/560e1c8b-f163-4fd6-b604-e905550ac870?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Decision to exclude Aisi has prompted fears inside British government of protectionist shift among tech groups",
+      "published": "2026-09-09T04:00:25+00:00",
+      "score": 46.0,
+      "headline": "ANTHROPIC BLOCKS UK SAFETY TESTING... Government Fears Protectionism"
     },
     {
       "id": "15698ea472895464",
@@ -289,14 +339,54 @@
       "headline": "South Korea's AI Boom Needs 20 NEW NUCLEAR REACTORS"
     },
     {
-      "id": "d23da07266be4d6d",
-      "title": "US, China gear up for mid-September AI safety talks",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-china-gear-up-for-mid-september-ai-safety-talks/articleshow/133786667.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The \u200btalks, the first official bilateral discussions devoted exclusively to AI between the US and China \u200bsince US President Donald Trump took office for a second time, will be led by US Treasury Secretary Scott Bessent on the US side, the sources, who were briefed \u200bon the planning, said on condition of anonymity.",
-      "published": "2026-09-05T03:48:43+00:00",
+      "id": "08d94691e993196e",
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind",
+      "source": "OpenAI Blog",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "published": "2026-09-06T09:00:00+00:00",
       "score": 46.0,
-      "headline": "US-CHINA AI SAFETY TALKS SET FOR MID-SEPTEMBER"
+      "headline": "OPENAI CHIEF SCIENTIST WARNS: 'AN ALIEN MIND' Emerging"
+    },
+    {
+      "id": "c6d41d4ada1503b1",
+      "title": "Now it\u2019s China\u2019s experts who are gig workers training AI data",
+      "url": "https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "source": "Rest of World",
+      "summary": "Squeezed by a stagnant economy and state directives, China's underemployed lawyers, architects, and engineers are taking cheap gig work to teach AI their exact trades \u2014 just to pay this month's mortgage.",
+      "published": "2026-09-09T10:00:00+00:00",
+      "score": 45.0,
+      "headline": "CHINA'S EXPERTS NOW GIG WORKERS TRAINING AI"
+    },
+    {
+      "id": "7331e83736afc693",
+      "title": "Google will invest \u20ac13bn in four Finnish data centre sites over two years",
+      "url": "https://thenextweb.com/news/google-finland-13bn-data-centres-nuclear-wind",
+      "source": "The Next Web",
+      "summary": "Google will spend \u20ac13bn on data centre infrastructure across four Finnish sites during 2027 and 2028, its largest single investment in Europe, the company announced the plan today. The money covers Hamina, where it has operated since 2009, alongside Kajaani, Muhos and Vaala. Alongside it comes a 22-year power purchase agreement with Fortum supporting the [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-09T07:52:10+00:00",
+      "score": 45.0,
+      "headline": "GOOGLE INVESTS \u20ac13BN in Finnish Data Centers"
+    },
+    {
+      "id": "d63860eea61121d4",
+      "title": "Meta Unveils AI Assistant for Personal Tasks",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-09/meta-unveils-ai-assistant-for-personal-tasks-video",
+      "source": "Bloomberg Technology",
+      "summary": "Meta unveiled a new artificial intelligence agent designed to carry out tasks on a user\u2019s behalf. Meta said the tool, called Muse, will assist with online shopping, buying movie tickets and scheduling appointments. Bloomberg Intelligence's Matthew Bloxham breaks down the situation. (Source: Bloomberg)",
+      "published": "2026-09-09T05:56:01+00:00",
+      "score": 45.0,
+      "headline": "META UNVEILS MUSE: AI Assistant For Personal Tasks"
+    },
+    {
+      "id": "b5e8b34c3e789df7",
+      "title": "Malaysia's data centres guzzling more power as temperatures soar, officials say",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/malaysias-data-centres-guzzling-more-power-as-temperatures-soar-officials-say/articleshow/133952300.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The share of data centres in overall power consumption surged to a record 9.3% in the second week of August, compared with an average of 7% this \u200cyear, Energy Commission \u2060CEO \u2060Siti Safinah Salleh said.",
+      "published": "2026-09-09T04:18:00+00:00",
+      "score": 45.0,
+      "headline": "Malaysia Data Centers Hit 9.3% of Power Grid as AI Boom Heats Up"
     },
     {
       "id": "9114eb3af437e00f",
@@ -329,6 +419,16 @@
       "headline": "OpenAI Inks Malaysia Data Center Deal with Firmus"
     },
     {
+      "id": "55c70acd83eff50f",
+      "title": "OpenAI\u2019s AI agents secretly used a German wiki website as a message board. OpenAI stayed quiet about it for weeks.",
+      "url": "https://fortune.com/2026/09/07/openai-ai-agents-german-wiki-ran-their-own-message-board/",
+      "source": "Fortune Tech",
+      "summary": "OpenAI acknowledged its AI agents used a German wiki to coordinate, renewing questions about whether the company is transparent about potentially dangerous AI activity.",
+      "published": "2026-09-07T18:55:42+00:00",
+      "score": 45.0,
+      "headline": "OPENAI AI AGENTS SECRETLY USED GERMAN WIKI AS MESSAGE BOARD"
+    },
+    {
       "id": "e741db03dc0ef861",
       "title": "Belgian-Chinese researcher arrested over suspected theft of chip secrets",
       "url": "https://www.ft.com/content/356cf253-7711-4a89-8139-5b0152824975?syn-25a6b1a6=1",
@@ -349,14 +449,24 @@
       "headline": "HUAWEI LAUNCHES MATE XT 2 TRI-FOLD TWO DAYS BEFORE APPLE'S FOLDABLE"
     },
     {
-      "id": "2f1e8bb0659ddc84",
-      "title": "TCS commits $7.4B to a one-gigawatt AI campus in Hyderabad",
-      "url": "https://thenextweb.com/news/tcs-hypervault-one-gigawatt-hyderabad-campus-7-4-billion-water-neutral-claim-eu-data-centre-reporting-delegated-regulation-2024-1364",
-      "source": "The Next Web",
-      "summary": "Tata Consultancy Services said its HyperVault unit and partners have committed 700 billion rupees, about $7.4B, to an AI data centre campus of up to one gigawatt in Hyderabad, using green energy and water-neutral design principles. EU rules require any data centre above 500kW to report total and drinking water consumption to a European database [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-05T14:00:45+00:00",
-      "score": 45.0,
-      "headline": "TCS Commits $7.4B to Massive One-Gigawatt AI Campus in India"
+      "id": "39efd242bc650a51",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
+      "published": "2026-09-09T09:58:27+00:00",
+      "score": 44.0,
+      "headline": "ANTHROPIC RESEARCHER: 10% CHANCE AI KILLS ALL HUMANS"
+    },
+    {
+      "id": "e5192b66502df1a2",
+      "title": "AI Music Startup Suno Launches New Models That Pay Labels",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-09/ai-music-startup-suno-launches-new-models-that-pay-labels",
+      "source": "Bloomberg Technology",
+      "summary": "Suno Inc. is rolling out its long-awaited artificial intelligence models trained and made in cooperation with major music industry players, such as Warner Music Group Corp.",
+      "published": "2026-09-09T09:00:00+00:00",
+      "score": 44.0,
+      "headline": "SUNO PAYS LABELS: New AI Models Launch with Warner"
     },
     {
       "id": "28f20572495b5520",
@@ -407,6 +517,56 @@
       "published": "2026-09-08T06:05:00+00:00",
       "score": 44.0,
       "headline": "ASML, TSMC, Samsung Back 12-Inch Masks for AI Chips"
+    },
+    {
+      "id": "2b36e6dbb8e700eb",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source": "OpenAI Blog",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "published": "2026-09-06T08:00:00+00:00",
+      "score": 44.0,
+      "headline": "OPENAI REVEALS: Coding Agents Reshaping AI Research"
+    },
+    {
+      "id": "77fd9d3453785138",
+      "title": "Worried Anthropic researchers warn that AI &#8216;could kill all humans&#8217;",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "source": "The Verge AI",
+      "summary": "A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on [&#8230;]",
+      "published": "2026-09-09T09:56:28+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC SAFETY TEAM WARNS: AI EXTINCTION RISK 10%"
+    },
+    {
+      "id": "06752478d74f9bbc",
+      "title": "An Anthropic researcher quit saying AI labs are gambling with our lives",
+      "url": "https://thenextweb.com/news/anthropic-coxon-resignation-hubinger-alignment",
+      "source": "The Next Web",
+      "summary": "Jacob Coxon, a 27-year-old pretraining researcher who had spent three years at OpenAI and then Anthropic, announced his resignation on X on Tuesday. \u201cNeither company is acting responsibly,\u201d he wrote. \u201cThey are racing straight to self-improving superintelligence and gambling with our lives.\u201d He said he was leaving the industry altogether. His argument is more specific [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-09T07:33:16+00:00",
+      "score": 43.0,
+      "headline": "OpenAI & Anthropic 'GAMBLING WITH LIVES' Says Researcher"
+    },
+    {
+      "id": "c58dfc49e5d4edf2",
+      "title": "Google to Invest \u20ac13 Billion in AI Infrastructure in Finland",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-09/google-plans-13-billion-ai-infrastructure-investment-in-finland",
+      "source": "Bloomberg Technology",
+      "summary": "Alphabet Inc.\u2019s Google is planning its biggest investment in Europe, an artificial intelligence infrastructure build out worth at least \u20ac13 billion ($15.1 billion) in Finland.",
+      "published": "2026-09-09T07:00:00+00:00",
+      "score": 43.0,
+      "headline": "Google Commits \u20ac13B to AI Infrastructure in Finland"
+    },
+    {
+      "id": "9a07621b623093ad",
+      "title": "Cognition AI raises $2 billion at $48 billion valuation",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/cognition-ai-raises-2-billion-at-48-billion-valuation/articleshow/133952722.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The round was led \u200bby new investors Andreessen Horowitz and Accel, \u200balongside existing backers Founders Fund, General Catalyst, and Avenir.",
+      "published": "2026-09-09T04:32:12+00:00",
+      "score": 43.0,
+      "headline": "COGNITION AI RAISES $2B AT $48B VALUATION"
     },
     {
       "id": "20d984cb02ebaee3",
@@ -489,6 +649,16 @@
       "headline": "ANTHROPIC WALKS AWAY FROM $6B DECART DEAL"
     },
     {
+      "id": "e5e1cbcacbbfa619",
+      "title": "OpenAI Top Scientist Urges \u2018Extreme Caution\u2019 With Pace of AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/openai-chief-scientist-urges-extreme-caution-with-pace-of-ai",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI\u2019s top scientist has warned that artificial intelligence is evolving so rapidly that it is becoming increasingly difficult for humans to understand and control, and said he expects AI labs to voluntarily slow development for safety reasons.",
+      "published": "2026-09-07T16:12:43+00:00",
+      "score": 43.0,
+      "headline": "OPENAI TOP SCIENTIST WARNS: AI EVOLVING TOO FAST TO CONTROL"
+    },
+    {
       "id": "7dbc2e33a857cce6",
       "title": "Architect of UK\u2019s AI policy quits after Anthropic conflict of interest concerns",
       "url": "https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns",
@@ -509,34 +679,24 @@
       "headline": "Japan's Preferred Networks Eyes IPO to Fund AI Chip Production"
     },
     {
-      "id": "f774e48a95a86006",
-      "title": "Hikers rescued after using Google Gemini for planning",
-      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "source": "TechCrunch AI",
-      "summary": "The sheriff\u2019s office said the hikers \u201cwere advised by Gemini to bring far less food and water than their group required.\"",
-      "published": "2026-09-05T19:35:24+00:00",
-      "score": 43.0,
-      "headline": "GOOGLE GEMINI AI ADVICE LEAVES HIKERS STRANDED"
+      "id": "eb1a2ca30c55f31e",
+      "title": "OpenAI publishes its Navier-Stokes proof and says it will not claim the Millennium Prize",
+      "url": "https://thenextweb.com/news/openai-navier-stokes-proof-published-millennium-prize",
+      "source": "The Next Web",
+      "summary": "When OpenAI announced on a press call that an internal model had cracked one of mathematics\u2019 hardest open problems, we wrote that nobody had seen the proof. That is no longer true, and what has now been published narrows the claim in ways the announcement did not.OpenAI has posted a write-up, a PDF paper, and [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-09T08:27:55+00:00",
+      "score": 42.0,
+      "headline": "OPENAI PUBLISHES NAVIER-STOKES PROOF... Declines Prize"
     },
     {
-      "id": "669fdcb55695ab82",
-      "title": "OpenAI confirms \u2018wiki incident,\u2019 says it\u2019s \u2018working on a framework\u2019 for more disclosure",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "source": "TechCrunch AI",
-      "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
-      "published": "2026-09-05T18:05:27+00:00",
-      "score": 43.0,
-      "headline": "OpenAI Confirms Wiki Incident, Promises Disclosure Framework"
-    },
-    {
-      "id": "b53a6cba2209a798",
-      "title": "OpenAI admits to German wiki \u2018incident\u2019",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "source": "The Verge AI",
-      "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote [&#8230;]",
-      "published": "2026-09-05T11:15:55+00:00",
-      "score": 43.0,
-      "headline": "OPENAI ADMITS AI AGENTS ATTACKED GERMAN WIKIPEDIA"
+      "id": "0d46d275d31f430a",
+      "title": "Anthropic researcher quits, says AI could kill us all by the end of the decade",
+      "url": "https://mashable.com/tech/anthropic-ai-researcher-quit-ethics-safety",
+      "source": "Mashable Tech",
+      "summary": "An AI researcher quit Anthropic due to ethical and safety concerns, claiming that AI could everyone within the next 10 years.",
+      "published": "2026-09-09T07:52:07+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC RESEARCHER QUITS: AI Could Kill Us All"
     },
     {
       "id": "0c8f66afe56449f2",
@@ -689,84 +849,14 @@
       "headline": "METR Releases Findings on OpenAI Hacking Incident"
     },
     {
-      "id": "1c503c178ee95c91",
-      "title": "Claude Mythos 5.1 and Fable 5.1: Capabilities",
-      "url": "https://www.lesswrong.com/posts/QHoF3tJvryRtmAmMg/claude-mythos-5-1-and-fable-5-1-capabilities",
-      "source": "LessWrong AI",
-      "summary": "This is the weirdest situation in which to write a capabilities review. Introducing the world\u2019s most powerful model, by a substantial margin. No wait, this just in, we also have someone else introducing the world\u2019s most powerful model. Claude Fable 5.1 and GPT-6 Astra are both excellent models. This much, we know. Fable 5.1 comes with reduced cache prices, the option of zero data retention and substantially more lenient classifiers than Fable 5. Early signs are, with large error bars, that the jump from Sol to Astra is bigger and more exciting than the jump from Fable 5 to Fable 5.1. This may be similar to how the scaling move from Opus to Fable was a big deal. With the exception of token use, Fable 5.1 got almost universally positive feedback in absolute terms. Reports are that Fable 5.1 is highly well-rounded. Writing is greatly improved. The Claudisms seem to have improved, although some are very much still there. It admits mistakes. People enjoy their conversations. Several people ",
-      "published": "2026-09-05T19:50:53+00:00",
-      "score": 42.0,
-      "headline": "CLAUDE MYTHOS 5.1 AND FABLE 5.1... World's Most Powerful Models"
-    },
-    {
-      "id": "5323d8dcb24f54cf",
-      "title": "Norway could become the first country to ban AI smart glasses",
-      "url": "https://neow.in/cmUxYnB3",
-      "source": "Hacker News",
-      "summary": "Article URL: https://neow.in/cmUxYnB3 Comments URL: https://news.ycombinator.com/item?id=49579342 Points: 2 # Comments: 0",
-      "published": "2026-09-05T18:35:03+00:00",
-      "score": 42.0,
-      "headline": "NORWAY TO BAN AI SMART GLASSES... FIRST IN WORLD"
-    },
-    {
-      "id": "57293a429fe5cac9",
-      "title": "GPT-6 Astra is now #1 on Code Arena",
-      "url": "https://twitter.com/arena/status/2096290434700247250",
-      "source": "Hacker News",
-      "summary": "Article URL: https://twitter.com/arena/status/2096290434700247250 Comments URL: https://news.ycombinator.com/item?id=49578994 Points: 4 # Comments: 0",
-      "published": "2026-09-05T17:57:32+00:00",
-      "score": 42.0,
-      "headline": "GPT-6 ASTRA TOPS CODE ARENA LEADERBOARD"
-    },
-    {
-      "id": "8e21104781911035",
-      "title": "TCS Plans One-Gigawatt Capacity Data Center in Southern India",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-05/tcs-plans-one-gigawatt-capacity-data-center-in-southern-india",
-      "source": "Bloomberg Technology",
-      "summary": "Tata Consultancy Services Ltd. on Saturday said its HyperVault unit and partners have committed 700 billion rupees ($7.4 billion) to set up a large-scale artificial intelligence data center campus in southern India, speeding up its push into an area that Indian tech firms are prioritizing for future growth.",
-      "published": "2026-09-05T11:07:00+00:00",
-      "score": 42.0,
-      "headline": "TCS Commits $7.4B for Gigawatt-Scale AI Data Center in India"
-    },
-    {
-      "id": "96779e5da0c49bd1",
-      "title": "Nvidia Partner Hon Hai\u2019s Sales Climb 52% With AI Server Momentum",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-05/nvidia-partner-hon-hai-s-sales-climb-52-with-ai-server-momentum",
-      "source": "Bloomberg Technology",
-      "summary": "Hon Hai Precision Industry Co. reported a 52% rise in monthly sales, lifted by demand for servers in a global race to build data centers and AI computational capacity.",
-      "published": "2026-09-05T07:45:26+00:00",
-      "score": 42.0,
-      "headline": "Nvidia Partner Hon Hai Sales SURGE 52% on AI Server Demand"
-    },
-    {
-      "id": "92af8671d586d464",
-      "title": "\u2018We\u2019re plausibly close to crossing the line\u2019: are warnings of uncontrollable AI coming true?",
-      "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
-      "source": "The Guardian Tech",
-      "summary": "A spate of serious safety incidents have increased fears about the power and impenetrability of the most advanced modelsPicture humanity in a boat being swept down a raging river, praying there is no Niagara Falls ahead. Or imagine standing with the pioneering physicists in 1942 before they triggered the first self-sustaining nuclear fission chain reaction beneath a Chicago stadium.These were two of the analogies used this week by Prof Robert Trager, an expert in the nascent field of AI governance, to describe the perilous but potential-filled moment the world stands at with accelerating artificial intelligence. Continue reading...",
-      "published": "2026-09-05T07:00:30+00:00",
-      "score": 42.0,
-      "headline": "UNCONTROLLABLE AI WARNINGS COMING TRUE... Safety Incidents Spike"
-    },
-    {
-      "id": "dea3c916306c3825",
-      "title": "Anthropic IPO launch shifts toward mid-October, sources say",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-ipo-launch-shifts-toward-mid-october-sources-say/articleshow/133786749.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The artificial intelligence company had been expected to make its IPO prospectus public as early as next week, two of the \u200cpeople said, a \u2060crucial \u2060step that would kick off the final stages of the offering. Now that is not expected \u200buntil late September, the people added, cautioning that the plans, including the timing, are subject \u200bto change.",
-      "published": "2026-09-05T03:52:56+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC IPO SHIFTS TO MID-OCTOBER, SOURCES SAY"
-    },
-    {
-      "id": "3d5bc3dcb317c19c",
-      "title": "OpenAI quietly boosts some of Astra\u2019s evaluation metrics, and continues to change others post-launch",
-      "url": "https://fortune.com/2026/09/04/openai-quietly-boosts-some-of-astras-evaluation-metrics-amid-rare-delay-in-publication-of-the-modeblog-post-announcement/",
-      "source": "Fortune Tech",
-      "summary": "The numbers on OpenAI's blog about Astra kept changing. In some cases, the changes made Astra look better and rival models look worse.",
-      "published": "2026-09-05T00:12:32+00:00",
-      "score": 42.0,
-      "headline": "OPENAI CAUGHT QUIETLY BOOSTING ASTRA METRICS POST-LAUNCH"
+      "id": "29e40160b719d306",
+      "title": "Suno trained its v6 AI music models with help from Warner and BMG",
+      "url": "https://www.engadget.com/2251539/suno-trained-its-v6-ai-music-models-with-help-from-warner-and-bmg/",
+      "source": "Engadget",
+      "summary": "Suno's new AI music models are the formal start of the company's partnership with some big labels.",
+      "published": "2026-09-09T09:00:00+00:00",
+      "score": 41.0,
+      "headline": "SUNO V6: Warner & BMG Partner on AI Music"
     },
     {
       "id": "6144f8c9d74eec16",
@@ -949,44 +1039,24 @@
       "headline": null
     },
     {
-      "id": "760f13f49da315c2",
-      "title": "Apple Bets on Foldable iPhone Under New CEO",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-05/apple-bets-on-foldable-iphone-under-new-ceo-video",
+      "id": "edeca204e1921cd0",
+      "title": "China\u2019s Huawei Comes to Brooklyn for Sweeping US Criminal Trial",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-09/china-s-huawei-comes-to-brooklyn-for-sweeping-us-criminal-trial",
       "source": "Bloomberg Technology",
-      "summary": "Apple CEO John Ternus is preparing for his first major product event since succeeding Tim Cook, with a foldable iPhone expected to headline the September 9 launch. Bloomberg Intelligence Senior Hardware Analyst Woo Jin Ho joins Christina Ruffini and Jeff Mason on Bloomberg This Weekend and says Ternus\u2019 engineering background could bring renewed focus to hardware and expanding Apple\u2019s ecosystem as smartphone upgrades become increasingly incremental. (Source: Bloomberg)",
-      "published": "2026-09-05T12:23:38+00:00",
-      "score": 41.0,
-      "headline": "APPLE BETS BIG ON FOLDABLE iPHONE... New CEO's First Major Launch"
+      "summary": "Huawei Technologies Co. is finally going to trial in New York in a criminal case brought during the first Trump administration that\u2019s among the most ambitious prosecutions the US government has ever pursued against a Chinese company.",
+      "published": "2026-09-09T10:00:00+00:00",
+      "score": 40.0,
+      "headline": "Huawei Faces Criminal Trial in Brooklyn Today"
     },
     {
-      "id": "09490a7c88b76017",
-      "title": "Japan says progress made on $550B pact, with AI and chips weighing heavily on the next round",
-      "url": "https://thenextweb.com/news/japan-550-billion-us-investment-pact-ai-chips-third-tranche-eu-turnberry-600-billion-40-billion-us-ai-chips-gigafactories",
-      "source": "The Next Web",
-      "summary": "Japan\u2019s trade minister said discussions on AI and semiconductors will carry very significant weight in the third tranche of its $550B US investment pact, after two rounds went to energy and minerals. The EU\u2019s own framework contains no comparable vehicle, and commits the bloc to buying at least $40B of US AI chips. Japan\u2019s trade [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-05T11:35:18+00:00",
-      "score": 41.0,
-      "headline": "Japan's $550B US Pact Focuses Next Round on AI and Chips"
-    },
-    {
-      "id": "dbd69300e93a8494",
-      "title": "Chinese profits rose 25.7%. The CSI 300 fell 9% and the Star 50 fell 29%",
-      "url": "https://thenextweb.com/news/china-25-7-percent-earnings-growth-csi-300-falls-ai-capex-priced-as-cost-alibaba-tencent-europe-ai-gigafactories",
-      "source": "The Next Web",
-      "summary": "Profits at onshore-listed Chinese companies rose 25.7% in the three months to June, the fastest in nearly five years and heavily concentrated in AI-linked firms. The CSI 300 has fallen about 9% this quarter and the tech-heavy Star 50 has dropped 29%, as investors began treating AI spending as a cost rather than a promise. [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-05T08:48:32+00:00",
-      "score": 41.0,
-      "headline": "Chinese AI Firms Drive 26% Profit Surge Despite Stock Crash"
-    },
-    {
-      "id": "75ced9fa738175b0",
-      "title": "Elon Musk pushes regulatory limits with Tesla's Cybercab robotaxi service",
-      "url": "https://economictimes.indiatimes.com/tech/technology/elon-musk-pushes-regulatory-limits-with-teslas-cybercab-robotaxi-service/articleshow/133787499.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Just hours after an event in \u200bdowntown Austin, Texas, to mark the rollout, the National Highway Traffic Safety Administration said it opened an audit of about 1,000 Cybercab vehicles to \u200bassess how Tesla determined the cars comply with federal vehicle-safety regulations.",
-      "published": "2026-09-05T04:24:10+00:00",
-      "score": 41.0,
-      "headline": "NHTSA OPENS AUDIT OF TESLA CYBERCAB HOURS AFTER AUSTIN LAUNCH"
+      "id": "52049a4027854423",
+      "title": "Samsung-Backed MangoBoost Makes Profit on AI Data Center Demand",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-09/samsung-backed-mangoboost-makes-profit-on-ai-data-center-demand",
+      "source": "Bloomberg Technology",
+      "summary": "Samsung Electronics Co.-backed MangoBoost is now profitable, helped by roaring demand for cost-effective AI data centers, according to the startup\u2019s chief executive officer.",
+      "published": "2026-09-09T06:34:05+00:00",
+      "score": 40.0,
+      "headline": "Samsung-Backed MangoBoost Profits From AI Data Center Boom"
     },
     {
       "id": "41a7f2063622334b",
@@ -1017,7 +1087,67 @@
       "published": "2026-09-07T15:33:44+00:00",
       "score": 40.0,
       "headline": "NHS Patients Opt Out as Palantir AI 'Mistrust' Grows"
+    },
+    {
+      "id": "dffc1c0d3547ab33",
+      "title": "When Will We Achieve AGI? AI Leaders Now Say It\u2019s a Fuzzy Target",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-07/when-will-we-achieve-agi-ai-leaders-now-say-it-s-a-fuzzy-target",
+      "source": "Bloomberg Technology",
+      "summary": "Reaching the point when AI handles most tasks better than humans had been seen as a measurable achievement",
+      "published": "2026-09-07T11:02:01+00:00",
+      "score": 40.0,
+      "headline": "AI Leaders Admit AGI Timeline Now 'Fuzzy Target'"
+    },
+    {
+      "id": "ec2f60d2892c4381",
+      "title": "No monitoring system caught the German wiki. Two outside researchers found it by searching the internet.",
+      "url": "https://thenextweb.com/news/openai-disclosure-ledger-german-wiki-detection",
+      "source": "The Next Web",
+      "summary": "Two outside researchers found 15,000 edits on a German wiki that OpenAI agents had turned into a message board for bypassing restrictions, an incident from May that OpenAI knew about and did not disclose. No automated monitoring caught it. The article\u2019s argument is that OpenAI has been publishing categories of risk, including that Astra sometimes [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-07T10:06:25+00:00",
+      "score": 40.0,
+      "headline": "OPENAI AGENTS HIJACKED GERMAN WIKI... Company Knew, Stayed Silent"
+    },
+    {
+      "id": "a3f8b54b0bf030da",
+      "title": "AI-Discovered Drug Reverses Aging Markers in Study, Biotech Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/ai-discovered-drug-reverses-aging-markers-in-study-biotech-says",
+      "source": "Bloomberg Technology",
+      "summary": "An experimental lung disease drug developed using artificial intelligence showed promise in reversing biological signs of aging, pointing to broader potential use of the treatment, according to its developer.",
+      "published": "2026-09-07T09:00:00+00:00",
+      "score": 40.0,
+      "headline": "AI-DISCOVERED DRUG REVERSES AGING MARKERS IN STUDY"
+    },
+    {
+      "id": "2f3c800690735663",
+      "title": "Google-backed Pixxel raises $100M in India\u2019s largest space tech round",
+      "url": "https://thenextweb.com/news/pixxel-100m-series-c-temasek-seraphim",
+      "source": "The Next Web",
+      "summary": "Pixxel, the Indian company that has spent six years arguing that Earth observation is worth doing in colours the human eye cannot see, has raised $100M in a Series C round led by Singapore\u2019s state investor Temasek and the London-listed Seraphim Space Investment Trust. It is the largest single round any Indian space technology company [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-07T08:52:25+00:00",
+      "score": 40.0,
+      "headline": "Google-Backed Pixxel Raises $100M in India's Largest Space Tech Round"
+    },
+    {
+      "id": "8a67b32c3e8bfee7",
+      "title": "IQE CEO Warns of Emerging China Supply Risk for Chip Industry",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/iqe-ceo-warns-of-emerging-china-supply-risk-for-chip-industry",
+      "source": "Bloomberg Technology",
+      "summary": "IQE Plc Chief Executive Officer Jutta Meier said access to indium phosphide substrates is emerging as a key risk for the semiconductor industry as Chinese export controls create uncertainty over supplies.",
+      "published": "2026-09-07T08:51:49+00:00",
+      "score": 40.0,
+      "headline": "China Export Controls Create Chip Supply Risk: IQE CEO"
+    },
+    {
+      "id": "d5a11bed8d3613d7",
+      "title": "Huawei\u2019s $3,000 Device Leads China\u2019s Answer to Foldable iPhone",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/huawei-xiaomi-to-debut-new-top-phones-on-eve-of-foldable-iphone",
+      "source": "Bloomberg Technology",
+      "summary": "Huawei Technologies Co. and Xiaomi Corp. are raising the stakes in China\u2019s smartphone arena just days before Apple Inc.\u2019s first foray into the foldable category.",
+      "published": "2026-09-07T04:42:45+00:00",
+      "score": 40.0,
+      "headline": "Huawei's $3,000 Foldable Challenges Apple's Upcoming Launch"
     }
   ],
-  "generated_at": "2026-09-08T20:36:44.700708"
+  "generated_at": "2026-09-09T10:36:40.283124"
 }

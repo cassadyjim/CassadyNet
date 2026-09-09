@@ -1,81 +1,16 @@
 {
   "polls": [
     {
-      "topic": "China AI Chip Infrastructure Expansion",
-      "description": "Chinese companies are securing massive funding and ordering hundreds of thousands of Huawei chips as China accelerates domestic AI infrastructure amid US restrictions.",
-      "question": "Is China's domestic AI chip push innovation or a risky isolation?",
-      "button_a": "Innovation",
-      "button_b": "Isolation",
-      "poll_id": "china-ai-chip-infrastructure-expansion-20260907",
-      "analysis_url": "/analysis/analysis-china-ai-chip-expansion-20260908.html",
-      "analysis_type": "poll",
-      "created_at": "2026-09-07T11:19:22.516338",
-      "last_seen": "2026-09-08T20:37:28.566352",
-      "cluster_stories": [
-        {
-          "id": "4b73d8f50201715a",
-          "title": "Malaysia Eyes Huawei Chips for AI Project Despite US Warning",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-07/malaysia-eyes-huawei-chips-for-ai-project-despite-us-warning",
-          "source": "Bloomberg Technology",
-          "summary": "Malaysia is leaning toward relying on Huawei Technologies Co.\u2019s artificial intelligence chips to power its sovereign AI efforts, in what would be a major victory for Chinese AI technology in the face of strong opposition from President Donald Trump\u2019s administration.",
-          "published": "2026-09-07T07:01:38+00:00",
-          "score": 50.0,
-          "headline": "MALAYSIA EYES HUAWEI AI CHIPS DESPITE US WARNING"
-        },
-        {
-          "id": "10a6cdbb6b26d361",
-          "title": "ByteDance secures $29.6 billion loan in AI push, sources say",
-          "url": "https://economictimes.indiatimes.com/tech/technology/bytedance-secures-29-6-billion-loan-in-ai-push-sources-say/articleshow/133761619.cms",
-          "source": "The Economic Times Tech",
-          "summary": "ByteDance secured a massive $29.6 billion loan from nearly thirty banks. Chinese banks provided over sixty percent of this significant loan facility. The funds will primarily support ByteDance's ambitious overseas artificial intelligence expansion plans. This unsecured loan reflects strong lender confidence in the company's creditworthiness. The financing is the second-largest in Asia this year, highlighting sector enthusiasm.",
-          "published": "2026-09-04T11:48:40+00:00",
-          "score": 48.0,
-          "headline": "BYTEDANCE SECURES $29.6B LOAN FOR AI PUSH... CHINA BANKS LEAD"
-        },
-        {
-          "id": "d91348aa0b79f018",
-          "title": "DeepSeek Plans Big Huawei AI Chip Order to Power New Data Center",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-04/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center",
-          "source": "Bloomberg Technology",
-          "summary": "DeepSeek plans to deploy at least 160,000 of Huawei Technologies Co.\u2019s top accelerators at a massive data center it\u2019s building in Inner Mongolia, which could create one of the largest known clusters of Huawei AI chips and advance China\u2019s efforts to replace Nvidia Corp.",
-          "published": "2026-09-04T09:08:43+00:00",
-          "score": 48.0,
-          "headline": "DEEPSEEK ORDERS 160K HUAWEI CHIPS... MASSIVE DATA CENTER PLAY"
-        },
-        {
-          "id": "b09df5cda9749999",
-          "title": "DeepSeek plans big Huawei AI chip order to power new data centre",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center/articleshow/133776211.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The startup doesn\u2019t currently plan to use the 950DT chips for training, one of the people said, even though Huawei designed and marketed these processors to serve that more demanding function. While DeepSeek tried to train its previous models on Huawei chips, it has so far relied on Nvidia accelerators for this crucial step.",
-          "published": "2026-09-04T19:14:44+00:00",
-          "score": 44.0,
-          "headline": "DeepSeek Orders Big Batch of Huawei AI Chips for New Data Center"
-        },
-        {
-          "id": "de325b41d26e3992",
-          "title": "DeepSeek plans large Huawei chip order for new Inner Mongolia data centre",
-          "url": "https://thenextweb.com/news/deepseek-huawei-ai-chip-order-data-centre",
-          "source": "The Next Web",
-          "summary": "DeepSeek is preparing a large order of Huawei AI chips for a new data centre, according to Bloomberg. Neither the size of the order nor the chip model has been disclosed, and DeepSeek has not confirmed the plan. The data centre has been reported since the summer. Bloomberg described a site of roughly one gigawatt [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-04T09:45:31+00:00",
-          "score": 44.0,
-          "headline": "DEEPSEEK ORDERS MASSIVE HUAWEI CHIP HAUL FOR INNER MONGOLIA"
-        }
-      ],
-      "current_topic_name": "China AI Chip Expansion"
-    },
-    {
       "topic": "OpenAI Agents & Safety Crisis",
       "description": "Multiple incidents of OpenAI's AI agents behaving unexpectedly, hacking websites, and raising urgent concerns about AI control and safety among scientists.",
       "question": "Should OpenAI pause agent deployment until safety issues are resolved?",
-      "button_a": "Pause Now",
-      "button_b": "Keep Advancing",
+      "button_a": "Yes",
+      "button_b": "No",
       "poll_id": "openai-agents-safety-crisis-20260908",
       "analysis_url": "/analysis/analysis-openai-agents-safety-crisis-20260908.html",
       "analysis_type": "poll",
       "created_at": "2026-09-08T20:37:27.216032",
-      "last_seen": "2026-09-08T20:37:31.456572",
+      "last_seen": "2026-09-09T10:37:30.473247",
       "cluster_stories": [
         {
           "id": "bcbf46dd6ed12f3b",
@@ -261,17 +196,70 @@
       "current_topic_name": "OpenAI Agents & Safety Crisis"
     },
     {
-      "topic": "China AI Chip Expansion",
-      "description": "Major Chinese AI companies are securing massive chip orders from Huawei and billions in financing to build data centers, bypassing US export restrictions.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "/analysis/analysis-china-ai-chip-expansion-20260907.html",
+      "topic": "Mistral AI Mega Funding Round",
+      "description": "European AI champion Mistral raises record \u20ac3-3.5B at $24B valuation with Samsung leading, marking Europe's biggest AI funding round.",
+      "question": "Can European AI companies compete globally or is US dominance inevitable?",
+      "button_a": "Globally",
+      "button_b": "Inevitable",
+      "poll_id": "mistral-ai-mega-funding-round-20260909",
+      "analysis_url": "/analysis/analysis-mistral-ai-mega-funding-round-20260909.html",
       "analysis_type": "poll",
-      "created_at": "2026-09-07T21:01:45.232253",
-      "last_seen": "2026-09-08T10:27:28.788709",
-      "current_topic_name": "China AI Chip Expansion",
-      "pending_archive": true
+      "created_at": "2026-09-09T10:37:28.411973",
+      "last_seen": "2026-09-09T10:37:34.292032",
+      "cluster_stories": [
+        {
+          "id": "9887d7cabd71bdb6",
+          "title": "French AI company Mistral hits $24 billion valuation in funding round",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/french-ai-company-mistral-hits-24-billion-valuation-in-funding-round/articleshow/133911829.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Mistral said that the round was jointly led by existing investor PSG Equity, along with South Korea's Samsung Electronics and the EU-backed Scaleup Europe Fund, which both invested \u200cin it for \u2060the \u2060first time.",
+          "published": "2026-09-08T06:20:39+00:00",
+          "score": 49.0,
+          "headline": "MISTRAL AI HITS $24BN VALUATION... SAMSUNG JOINS FUNDING"
+        },
+        {
+          "id": "edb38a4e36af0878",
+          "title": "Mistral AI Raises \u20ac3 Billion With Samsung Leading the Round",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-08/mistral-ai-raises-3-bln-with-samsung-leading-the-round-video",
+          "source": "Bloomberg Technology",
+          "summary": "French artificial intelligence company Mistral AI is raising \u20ac3 billion ($3.49 billion) in a Series D funding round, with Samsung Electronics joining the round. Chief Executive Officer Arthur Mensch argues that the company is probably still undervalued and that macroeconomic reasons are starting to show that open source models will win. He speaks with Bloomberg\u2019s Tom Mackenzie. (Source: Bloomberg)",
+          "published": "2026-09-08T05:00:24+00:00",
+          "score": 49.0,
+          "headline": "MISTRAL RAISES \u20ac3BN... SAMSUNG LEADS ROUND"
+        },
+        {
+          "id": "b038a9f806ed7ce2",
+          "title": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round",
+          "url": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/",
+          "source": "Crunchbase News",
+          "summary": "Paris-based generative AI startup Mistral AI said Tuesday that it has nearly doubled its valuation to more than $24 billion with a Samsung Electronics-led $3.5 billion Series D fundraise.",
+          "published": "2026-09-08T18:02:38+00:00",
+          "score": 47.0,
+          "headline": "MISTRAL AI RAISES $3.5B AT $24B... SAMSUNG LEADS MEGA ROUND"
+        },
+        {
+          "id": "fd551f60bdb14d52",
+          "title": "Mistral raises record \u20ac3bn as Europe strains to keep pace in AI race",
+          "url": "https://www.ft.com/content/adbf5262-c4d5-4312-a9b8-4d3cf30c9e00?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "New funding round led by Samsung comes as French AI model maker continues to challenge US and Chinese rivals",
+          "published": "2026-09-08T05:00:07+00:00",
+          "score": 47.0,
+          "headline": "Mistral Raises Record \u20ac3BN as Europe Fights AI Race"
+        },
+        {
+          "id": "ac0c10f130bcbfbe",
+          "title": "Mistral AI Boosts Valuation to \u20ac21 Billion in Samsung-Led Round",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-08/mistral-ai-raises-at-21-billion-valuation-in-samsung-led-round",
+          "source": "Bloomberg Technology",
+          "summary": "Mistral AI has raised \u20ac3 billion ($3.5 billion) at a valuation of more than \u20ac21 billion from investors led by Samsung Electronics Co. to fund the development of artificial intelligence models and build computing infrastructure.",
+          "published": "2026-09-08T05:00:00+00:00",
+          "score": 45.0,
+          "headline": "Mistral AI HITS \u20ac21B Valuation in Samsung-Led Mega Round"
+        }
+      ],
+      "current_topic_name": "Mistral AI Mega Funding Round"
     }
   ],
-  "last_updated": "2026-09-08T20:37:31.456666"
+  "last_updated": "2026-09-09T10:37:35.740434"
 }

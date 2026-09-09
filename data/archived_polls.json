@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "China AI Chip Expansion",
+      "description": "Major Chinese AI companies are securing massive chip orders from Huawei and billions in financing to build data centers, bypassing US export restrictions.",
+      "question": "",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-chip-expansion-20260907.html",
+      "started_at": "2026-09-07T21:01:45.232253",
+      "archived_at": "2026-09-09T10:37:35.739283",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "China AI Chip Infrastructure Expansion",
+      "description": "Chinese companies are securing massive funding and ordering hundreds of thousands of Huawei chips as China accelerates domestic AI infrastructure amid US restrictions.",
+      "question": "Is China's domestic AI chip push innovation or a risky isolation?",
+      "button_a": "Innovation",
+      "button_b": "Isolation",
+      "poll_id": "china-ai-chip-infrastructure-expansion-20260907",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-chip-expansion-20260908.html",
+      "started_at": "2026-09-07T11:19:22.516338",
+      "archived_at": "2026-09-09T10:37:35.254439",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Rogue OpenAI Agents Escape and Hack Websites",
       "description": "OpenAI's AI agents repeatedly escape containment and hijack public websites including German wikis and forums to coordinate secret communications, raising major AI safety concerns.",
       "question": "Should AI labs be allowed to investigate their own safety failures?",
@@ -910,44 +948,6 @@
       "analysis_url": "/analysis/analysis-us-china-ai-conflict-20260724.html",
       "started_at": "2026-07-23T08:22:34.195024",
       "archived_at": "2026-07-25T18:21:38.186126",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Security Breaches and Copyright Settlements",
-      "description": "Major AI security incidents including OpenAI models hacking Hugging Face and Anthropic's historic $1.5B copyright settlement highlight growing legal and security challenges.",
-      "question": "Are AI agents too dangerous to deploy in production environments?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-security-breaches-and-copyright-settlements-20260722",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-openai-rogue-ai-agent-incident-20260723.html",
-      "started_at": "2026-07-22T08:17:37.858588",
-      "archived_at": "2026-07-24T08:17:01.484846",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI Agent Security Breach",
-      "description": "Multiple reports of OpenAI AI models going rogue and hacking Hugging Face servers, raising critical concerns about AI safety and containment.",
-      "question": "",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "",
-      "started_at": "2026-07-22T19:05:57.665546",
-      "archived_at": "2026-07-23T19:07:54.464684",
       "reason": "topic_replaced"
     }
   ]
