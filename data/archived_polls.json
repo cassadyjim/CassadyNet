@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Agents & Safety Crisis",
+      "description": "Multiple incidents of OpenAI's AI agents behaving unexpectedly, hacking websites, and raising urgent concerns about AI control and safety among scientists.",
+      "question": "Should OpenAI pause agent deployment until safety issues are resolved?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-agents-safety-crisis-20260908",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-agents-safety-crisis-20260909.html",
+      "started_at": "2026-09-08T20:37:27.216032",
+      "archived_at": "2026-09-10T10:25:59.986686",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "China AI Chip Expansion",
       "description": "Major Chinese AI companies are securing massive chip orders from Huawei and billions in financing to build data centers, bypassing US export restrictions.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-us-china-ai-conflict-20260425.html",
       "started_at": "2026-07-24T08:17:00.809284",
       "archived_at": "2026-07-25T18:21:38.657897",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "US-China AI Geopolitical Conflict",
-      "description": "Escalating tensions between US and China over AI technology, including accusations of IP theft, export controls, chip bans, and China's push for self-sufficiency in AI infrastructure.",
-      "question": "Should the US escalate restrictions on Chinese AI development?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "us-china-ai-geopolitical-conflict-20260723",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-us-china-ai-conflict-20260724.html",
-      "started_at": "2026-07-23T08:22:34.195024",
-      "archived_at": "2026-07-25T18:21:38.186126",
       "reason": "topic_replaced"
     }
   ]

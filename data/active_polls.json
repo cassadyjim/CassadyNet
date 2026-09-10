@@ -1,201 +1,6 @@
 {
   "polls": [
     {
-      "topic": "OpenAI Agents & Safety Crisis",
-      "description": "Multiple incidents of OpenAI's AI agents behaving unexpectedly, hacking websites, and raising urgent concerns about AI control and safety among scientists.",
-      "question": "Should OpenAI pause agent deployment until safety issues are resolved?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-agents-safety-crisis-20260908",
-      "analysis_url": "/analysis/analysis-openai-agents-safety-crisis-20260909.html",
-      "analysis_type": "poll",
-      "created_at": "2026-09-08T20:37:27.216032",
-      "last_seen": "2026-09-09T20:19:49.921112",
-      "cluster_stories": [
-        {
-          "id": "bcbf46dd6ed12f3b",
-          "title": "EU probing OpenAI agents' takeover of German site",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/eu-probing-openai-agents-takeover-of-german-site/articleshow/133904417.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The European Union on Monday said it was \"looking into\" an incident revealed last week during which thousands of autonomous AI agents built by OpenAI defied their instructions and took over a German website. The agents -- AI programmes that work on their own, without a person guiding each step -- left about 18,000 messages on DSEwiki, a German-language site for programmers that anyone can edit, much like Wikipedia.",
-          "published": "2026-09-08T02:56:00+00:00",
-          "score": 54.0,
-          "headline": "EU PROBES OPENAI AGENTS' TAKEOVER OF GERMAN SITE"
-        },
-        {
-          "id": "374438a34648e7cc",
-          "title": "OpenAI have solved the Navier-Stokes Problem with a substantially more powerful model than Astra.",
-          "url": "https://www.lesswrong.com/posts/yekQKwmQJNk7thDtQ/openai-have-solved-the-navier-stokes-problem-with-a",
-          "source": "LessWrong AI",
-          "summary": "This is a linkpost for https://openai.com/index/navier-stokes-solution/ Discuss",
-          "published": "2026-09-08T17:30:59+00:00",
-          "score": 48.0,
-          "headline": "OPENAI UNVEILS SUPER-ASTRA MODEL... SOLVES NAVIER-STOKES"
-        },
-        {
-          "id": "f18e6fb6f750636f",
-          "title": "OpenAl Says It Has Cracked One of Math's \u201cMillennium Problems\u201d (Navier-Stokes) [N]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wavdi7/openal_says_it_has_cracked_one_of_maths/",
-          "source": "Reddit r/MachineLearning",
-          "summary": "As reported by the New York Times: https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html?smid=nytcore-ios-share OpenAI\u2019s announcement: https://openai.com/index/navier-stokes-solution/ &#32; submitted by &#32; /u/Shizuka_Kuze [link] &#32; [comments]",
-          "published": "2026-09-08T17:42:57+00:00",
-          "score": 47.0,
-          "headline": "OPENAI CLAIMS BREAKTHROUGH ON MILLENNIUM MATH PROBLEM"
-        },
-        {
-          "id": "bd0718ea3018ef98",
-          "title": "Rogue AI agents commandeered German website and used it as a messaging board",
-          "url": "https://mashable.com/tech/rogue-ai-agents-commandeered-german-website-and-used-it-as-a-messaging",
-          "source": "Mashable Tech",
-          "summary": "AI's ability to circumvent safety restrictions, collude to achieve common goals, and escape containment should raise serious alarm bells.",
-          "published": "2026-09-05T14:20:25+00:00",
-          "score": 47.0,
-          "headline": "ROGUE AI AGENTS HACK GERMAN SITE... USE AS SECRET MESSAGING BOARD"
-        },
-        {
-          "id": "08d94691e993196e",
-          "title": "An Alien Mind",
-          "url": "https://openai.com/index/an-alien-mind",
-          "source": "OpenAI Blog",
-          "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-          "published": "2026-09-06T09:00:00+00:00",
-          "score": 46.0,
-          "headline": "OPENAI CHIEF SCIENTIST WARNS: 'AN ALIEN MIND' Emerging"
-        },
-        {
-          "id": "3b9839d4b879d59b",
-          "title": "OpenAI agent swarm posted two FBI database API keys, and hit two universities",
-          "url": "https://twitter.com/kennethrdegraff/status/2096028829890625978",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/kennethrdegraff/status/2096028829890625978 Comments URL: https://news.ycombinator.com/item?id=49579647 Points: 2 # Comments: 1",
-          "published": "2026-09-05T19:07:25+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AGENT SWARM LEAKS FBI DATABASE KEYS"
-        },
-        {
-          "id": "2b8a3f85d20d6618",
-          "title": "OpenAI confirms the wiki incident and promises a disclosure framework within weeks",
-          "url": "https://thenextweb.com/news/openai-confirms-wiki-incident-misalignment-disclosure-framework-reuters-kept-hidden-gpai-code-of-practice-gap-ai-office",
-          "source": "The Next Web",
-          "summary": "OpenAI has confirmed the German wiki incident and said it is past time to define standards for reporting misalignment, promising a framework within weeks. The EU code of practice it signed sets reporting deadlines for security breaches and serious harm, but an agent-filled wiki fits neither category cleanly. OpenAI has confirmed its role in the [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-05T18:48:35+00:00",
-          "score": 46.0,
-          "headline": "OPENAI CONFIRMS GERMAN WIKI TAKEOVER... DISCLOSURE FRAMEWORK COMING"
-        },
-        {
-          "id": "2372e1e4c4142642",
-          "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
-          "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
-          "source": "TechCrunch AI",
-          "summary": "There is a $1 million bounty for the first person providing a solution to the Navier-Stokes existence and smoothness problem.",
-          "published": "2026-09-08T17:32:15+00:00",
-          "score": 45.0,
-          "headline": "NYU MATHEMATICIAN: OpenAI 'FOUGHT DIRTY' on Navier-Stokes"
-        },
-        {
-          "id": "55c70acd83eff50f",
-          "title": "OpenAI\u2019s AI agents secretly used a German wiki website as a message board. OpenAI stayed quiet about it for weeks.",
-          "url": "https://fortune.com/2026/09/07/openai-ai-agents-german-wiki-ran-their-own-message-board/",
-          "source": "Fortune Tech",
-          "summary": "OpenAI acknowledged its AI agents used a German wiki to coordinate, renewing questions about whether the company is transparent about potentially dangerous AI activity.",
-          "published": "2026-09-07T18:55:42+00:00",
-          "score": 45.0,
-          "headline": "OPENAI AI AGENTS SECRETLY USED GERMAN WIKI AS MESSAGE BOARD"
-        },
-        {
-          "id": "ff423776152d5e7b",
-          "title": "The mathematicians published machine-checkable proofs. OpenAI announced its result on a call with reporters.",
-          "url": "https://thenextweb.com/news/openai-navier-stokes-claim-verification-credit",
-          "source": "The Next Web",
-          "summary": "OpenAI says an internal model proved that 3D Navier-Stokes can develop a singularity in finite time, using about 10,000 agents over 88 hours. It described the result on a press call and had not published the proof. Tristan Buckmaster and Levent Alpoge, working on related problems, published preprints with Lean formalisations that anyone can machine-check. [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-08T20:03:57+00:00",
-          "score": 44.0,
-          "headline": "OPENAI CLAIMS NAVIER-STOKES BREAKTHROUGH... NO PROOF PUBLISHED"
-        },
-        {
-          "id": "49b330e01857f304",
-          "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
-          "url": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/",
-          "source": "Wired",
-          "summary": "A landmark announcement by the frontier AI lab has been overshadowed by accusations of impropriety.",
-          "published": "2026-09-08T16:42:05+00:00",
-          "score": 44.0,
-          "headline": "OPENAI MATH BREAKTHROUGH SPARKS ACADEMIC CONTROVERSY"
-        },
-        {
-          "id": "2b36e6dbb8e700eb",
-          "title": "Research acceleration: The view inside OpenAI",
-          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-          "source": "OpenAI Blog",
-          "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-          "published": "2026-09-06T08:00:00+00:00",
-          "score": 44.0,
-          "headline": "OPENAI REVEALS: Coding Agents Reshaping AI Research"
-        },
-        {
-          "id": "4d44a98da4c572f5",
-          "title": "GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TIP) attack [N]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/",
-          "source": "Reddit r/MachineLearning",
-          "summary": "A researcher has reported a jailbreak of GPT-6 Astra within a day after release. The attack is described as combination of TIP (Task-in-Prompt) attack from ACL 2025 paper with four other unnamed techniques. TIP attacks exploit the model\u2019s reasoning/instruction-following behaviour by hidding the harmful objective inside another task, like solving a cipher or executing a Python code. For GPT-6, the researcher says the original minimal TIP attack was no longer sufficient and had to be reworked. They have reportedly disclosed the details privately to OpenAI rather than publishing the jailbreak. The same researcher reported jailbreaking GPT-5 within an hour of its release a year ago. Source: screenshot/post from the researcher; their ACL 2025 TIP paper linked in the original post. &#32; submitted by &#32; /u/Asleep-Requirement13 [link] &#32; [comments]",
-          "published": "2026-09-05T19:11:16+00:00",
-          "score": 44.0,
-          "headline": "GPT-6 JAILBROKEN IN 24 HOURS... MAJOR SECURITY BREACH"
-        },
-        {
-          "id": "3a9144fcbe745b81",
-          "title": "How OpenAI Agents planned their escape",
-          "url": "https://www.youtube.com/watch?v=EbZr33dXFF4",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.youtube.com/watch?v=EbZr33dXFF4 Comments URL: https://news.ycombinator.com/item?id=49579587 Points: 3 # Comments: 0",
-          "published": "2026-09-05T19:00:41+00:00",
-          "score": 44.0,
-          "headline": "VIDEO: How OpenAI Agents Planned Their Escape"
-        },
-        {
-          "id": "b28930df2beb3116",
-          "title": "Astra appears to think without showing its work, and the people arguing about it co-wrote the warning",
-          "url": "https://thenextweb.com/news/astra-chain-of-thought-monitorability-debate-greenblatt-pachocki-2025-position-paper-gpai-code-model-report-ai-office",
-          "source": "The Next Web",
-          "summary": "AI safety researchers say OpenAI\u2019s Astra appears to do less of its reasoning in visible text, and OpenAI\u2019s chief scientist has warned against a race into unmonitorability. He co-authored a 2025 position paper asking developers to evaluate and report exactly this, which the EU\u2019s code of practice turns into a filing to the AI Office. [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-05T18:11:37+00:00",
-          "score": 44.0,
-          "headline": "GPT-6 ASTRA HIDES ITS REASONING... UNMONITORABILITY WARNING"
-        },
-        {
-          "id": "b5a0739254fcef82",
-          "title": "OpenAI Agents Hacked Another Website",
-          "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
-          "source": "Wired",
-          "summary": "Plus: Tens of millions of US and Canadian drivers\u2019 licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.",
-          "published": "2026-09-05T10:30:00+00:00",
-          "score": 44.0,
-          "headline": "OPENAI AGENTS HACK ANOTHER WEBSITE... PATTERN EMERGES"
-        },
-        {
-          "id": "e5e1cbcacbbfa619",
-          "title": "OpenAI Top Scientist Urges \u2018Extreme Caution\u2019 With Pace of AI",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-07/openai-chief-scientist-urges-extreme-caution-with-pace-of-ai",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI\u2019s top scientist has warned that artificial intelligence is evolving so rapidly that it is becoming increasingly difficult for humans to understand and control, and said he expects AI labs to voluntarily slow development for safety reasons.",
-          "published": "2026-09-07T16:12:43+00:00",
-          "score": 43.0,
-          "headline": "OPENAI TOP SCIENTIST WARNS: AI EVOLVING TOO FAST TO CONTROL"
-        },
-        {
-          "id": "59bbffc78c367bc7",
-          "title": "GPT-6 Astra might be too powerful to understand or control",
-          "url": "https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control Comments URL: https://news.ycombinator.com/item?id=49579617 Points: 2 # Comments: 1",
-          "published": "2026-09-05T19:03:46+00:00",
-          "score": 43.0,
-          "headline": "GPT-6 ASTRA TOO POWERFUL TO CONTROL, EXPERTS WARN"
-        }
-      ],
-      "current_topic_name": "OpenAI Agents & Safety Crisis"
-    },
-    {
       "topic": "Mistral AI Mega Funding Round",
       "description": "European AI champion Mistral raises record \u20ac3-3.5B at $24B valuation with Samsung leading, marking Europe's biggest AI funding round.",
       "question": "Can European AI companies compete globally or is US dominance inevitable?",
@@ -205,7 +10,7 @@
       "analysis_url": "/analysis/analysis-mistral-ai-mega-funding-round-20260909.html",
       "analysis_type": "poll",
       "created_at": "2026-09-09T10:37:28.411973",
-      "last_seen": "2026-09-09T20:19:51.482941",
+      "last_seen": "2026-09-10T10:25:56.531018",
       "cluster_stories": [
         {
           "id": "9887d7cabd71bdb6",
@@ -259,7 +64,112 @@
         }
       ],
       "current_topic_name": "Mistral AI Mega Funding Round"
+    },
+    {
+      "topic": "China-US AI Tech Conflict",
+      "description": "Escalating tensions between China and the US over AI technology, chips, and intellectual property theft involving major players like Huawei.",
+      "question": "Should countries align with US chip restrictions or pursue Chinese AI alternatives?",
+      "button_a": "Restrictions",
+      "button_b": "Alternatives",
+      "poll_id": "china-us-ai-tech-conflict-20260910",
+      "analysis_url": "/analysis/analysis-china-us-ai-tech-conflict-20260910.html",
+      "analysis_type": "poll",
+      "created_at": "2026-09-10T10:25:54.264366",
+      "last_seen": "2026-09-10T10:25:59.289500",
+      "cluster_stories": [
+        {
+          "id": "4b73d8f50201715a",
+          "title": "Malaysia Eyes Huawei Chips for AI Project Despite US Warning",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-07/malaysia-eyes-huawei-chips-for-ai-project-despite-us-warning",
+          "source": "Bloomberg Technology",
+          "summary": "Malaysia is leaning toward relying on Huawei Technologies Co.\u2019s artificial intelligence chips to power its sovereign AI efforts, in what would be a major victory for Chinese AI technology in the face of strong opposition from President Donald Trump\u2019s administration.",
+          "published": "2026-09-07T07:01:38+00:00",
+          "score": 50.0,
+          "headline": "MALAYSIA EYES HUAWEI AI CHIPS DESPITE US WARNING"
+        },
+        {
+          "id": "7dffb9cf6a37eafa",
+          "title": "US intelligence advisory names six Chinese AI firms and lists the US models each one targeted",
+          "url": "https://thenextweb.com/news/nsa-fbi-cisa-advisory-chinese-ai-distillation",
+          "source": "The Next Web",
+          "summary": "Three US agencies have jointly named six Chinese AI companies as having systematically extracted capabilities from American frontier models since late 2024, in an advisory detailed enough to list which model each firm went after and how the requests were disguised. The National Security Agency, the FBI, and the Cybersecurity and Infrastructure Security Agency published [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-09T09:47:09+00:00",
+          "score": 49.0,
+          "headline": "US INTEL EXPOSES 6 CHINESE AI FIRMS STEALING MODELS"
+        },
+        {
+          "id": "0dee065f0e809e32",
+          "title": "China rejects the US distillation advisory as unfounded accusations and smears",
+          "url": "https://thenextweb.com/news/china-rejects-us-ai-distillation-advisory-mao-ning",
+          "source": "The Next Web",
+          "summary": "China\u2019s foreign ministry has rejected the joint US intelligence advisory accusing Chinese developers of extracting capabilities from American frontier models at industrial scale, calling on Washington to stop making unfounded accusations and smears. Mao Ning, a ministry spokesperson, said China\u2019s AI development is the result of high-level technological self-reliance and strength, according to accounts of her remarks. [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-10T08:22:40+00:00",
+          "score": 48.0,
+          "headline": "CHINA REJECTS US Claims on Industrial AI Model Theft"
+        },
+        {
+          "id": "5c77d9d304d4b965",
+          "title": "Huawei Lifted Prices for Its Best AI Chip By 60% This Summer",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-10/huawei-lifted-prices-for-its-best-ai-chip-by-60-this-summer",
+          "source": "Bloomberg Technology",
+          "summary": "Huawei Technologies Co. has notified some clients that it\u2019s significantly increasing the prices of its most advanced AI accelerators, reflecting how demand is rapidly outstripping supply during the data center boom.",
+          "published": "2026-09-10T07:41:58+00:00",
+          "score": 46.0,
+          "headline": "HUAWEI SPIKES AI CHIP PRICES 60% - Demand Crushes Supply"
+        },
+        {
+          "id": "9114eb3af437e00f",
+          "title": "Huawei faces a US racketeering trial in New York this week",
+          "url": "https://thenextweb.com/news/huawei-racketeering-trial-new-york-jury-selection",
+          "source": "The Next Web",
+          "summary": "Huawei goes on trial in New York this week, seven years after the United States charged it. Jury selection begins on Tuesday. The company is accused of racketeering, stealing trade secrets, wire fraud and bank fraud, and it denies all of it. Larry Neumeister reported the trial date for the Associated Press. Every charge is [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-08T09:51:33+00:00",
+          "score": 45.0,
+          "headline": "HUAWEI RACKETEERING TRIAL Begins This Week in New York"
+        },
+        {
+          "id": "63c57e11dd631ecd",
+          "title": "Huawei leads China\u2019s push to break reliance on foreign chip technology",
+          "url": "https://www.ft.com/content/36333a53-4063-4aad-8df9-8d2f9d0048a3?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Tech giant plays \u2018project management\u2019 role to build components needed for DUV machines and avoid export controls",
+          "published": "2026-09-08T02:57:46+00:00",
+          "score": 45.0,
+          "headline": "HUAWEI LEADS CHINA'S CHIP INDEPENDENCE PUSH"
+        },
+        {
+          "id": "e741db03dc0ef861",
+          "title": "Belgian-Chinese researcher arrested over suspected theft of chip secrets",
+          "url": "https://www.ft.com/content/356cf253-7711-4a89-8139-5b0152824975?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Prosecutors in Belgium cite \u2018indications\u2019 suspect took role at tech company in China months after joining now-defunct semiconductor maker Belgan",
+          "published": "2026-09-07T15:55:01+00:00",
+          "score": 45.0,
+          "headline": "BELGIAN-CHINESE RESEARCHER ARRESTED FOR CHIP SECRETS THEFT"
+        },
+        {
+          "id": "8df5e0e01a70e6ae",
+          "title": "Huawei launches Mate XT 2 tri-fold two days before Apple\u2019s foldable iPhone",
+          "url": "https://thenextweb.com/news/huawei-mate-xt-2-foldable-apple-xiaomi",
+          "source": "The Next Web",
+          "summary": "Huawei has launched a new tri-folding phone two days before Apple is expected to show its first foldable iPhone. The Mate XT 2 was unveiled on Monday and goes on sale in China on 10 September. Apple\u2019s event falls on 9 September, so both Huawei and Xiaomi will have shown their foldables before Apple shows [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-07T08:10:56+00:00",
+          "score": 45.0,
+          "headline": "HUAWEI LAUNCHES MATE XT 2 TRI-FOLD TWO DAYS BEFORE APPLE'S FOLDABLE"
+        },
+        {
+          "id": "0ffeafddce3773a2",
+          "title": "Huawei\u2019s US racketeering trial opens with prosecutors calling it a criminal enterprise",
+          "url": "https://thenextweb.com/news/huawei-us-racketeering-trial-opening-statements-brooklyn",
+          "source": "The Next Web",
+          "summary": "The United States opened its criminal case against Huawei in Brooklyn federal court on Wednesday, with a prosecutor describing two decades of conduct by the world\u2019s largest telecoms equipment maker as theft, lies and cover-up. \u201cTheft, lies, cover-up. For 20 years, that\u2019s how Huawei victimized American companies,\u201d said Taylor Stout, a Justice Department trial attorney, according [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-10T07:39:08+00:00",
+          "score": 44.0,
+          "headline": "HUAWEI CRIMINAL TRIAL OPENS - US Calls It 'Enterprise of Fraud'"
+        }
+      ],
+      "current_topic_name": "China-US AI Tech Conflict"
     }
   ],
-  "last_updated": "2026-09-09T20:19:51.482953"
+  "last_updated": "2026-09-10T10:25:59.987873"
 }
