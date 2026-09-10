@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Mistral AI Mega Funding Round",
+      "description": "European AI champion Mistral raises record \u20ac3-3.5B at $24B valuation with Samsung leading, marking Europe's biggest AI funding round.",
+      "question": "Can European AI companies compete globally or is US dominance inevitable?",
+      "button_a": "Globally",
+      "button_b": "Inevitable",
+      "poll_id": "mistral-ai-mega-funding-round-20260909",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-mistral-ai-mega-funding-round-20260909.html",
+      "started_at": "2026-09-09T10:37:28.411973",
+      "archived_at": "2026-09-10T20:21:34.742239",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Agents & Safety Crisis",
       "description": "Multiple incidents of OpenAI's AI agents behaving unexpectedly, hacking websites, and raising urgent concerns about AI control and safety among scientists.",
       "question": "Should OpenAI pause agent deployment until safety issues are resolved?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-rogue-ai-safety-incidents-20260726.html",
       "started_at": "2026-07-25T18:21:31.154216",
       "archived_at": "2026-07-27T07:10:28.568092",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "US-China AI Conflict",
-      "description": "Escalating geopolitical tensions as the US accuses China of IP theft and both countries impose export controls on AI technology and chips.",
-      "question": "Are China's AI practices theft or smart competitive strategy?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "us-china-ai-conflict-20260424",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-us-china-ai-conflict-20260425.html",
-      "started_at": "2026-07-24T08:17:00.809284",
-      "archived_at": "2026-07-25T18:21:38.657897",
       "reason": "topic_replaced"
     }
   ]
