@@ -1,74 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "Chinese AI Firms Stealing Western Models",
-      "description": "Multiple Chinese AI companies have been caught secretly routing queries through and copying Western AI models like Claude and ChatGPT, escalating US-China AI competition tensions.",
-      "stories": [
-        {
-          "id": "dc5cfea30546f295",
-          "title": "Moonshot Secretly Routed User Requests Through Claude, Anthropic Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-10/moonshot-secretly-routed-user-requests-through-claude-anthropic-says",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC accused China\u2019s artificial intelligence champion Moonshot AI of covertly routing thousands of user requests to the US firm\u2019s Claude models and passing off the responses as its own in a bid to gain an edge in the AI race.",
-          "published": "2026-09-10T17:00:31+00:00",
-          "score": 51.0,
-          "headline": "ANTHROPIC ACCUSES CHINA'S MOONSHOT AI OF SECRETLY ROUTING REQUESTS THROUGH CLAUDE"
-        },
-        {
-          "id": "6916628bfd80962b",
-          "title": "Bad actors in China and Russia are weaponizing Anthropic's AI",
-          "url": "https://www.politico.com/news/2026/09/10/bad-actors-china-russia-weaponizing-anthropic-01070435",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.politico.com/news/2026/09/10/bad-actors-china-russia-weaponizing-anthropic-01070435 Comments URL: https://news.ycombinator.com/item?id=49649142 Points: 2 # Comments: 2",
-          "published": "2026-09-10T19:37:29+00:00",
-          "score": 49.0,
-          "headline": "CHINA & RUSSIA WEAPONIZING ANTHROPIC'S AI"
-        },
-        {
-          "id": "cafa3d26a3e2b959",
-          "title": "Chinese AI Giants Accused of Sending User Queries to U.S. Models",
-          "url": "https://www.wsj.com/tech/ai/chinese-ai-giants-accused-of-sending-millions-of-user-queries-to-u-s-models-768c9d26",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/chinese-ai-giants-accused-of-sending-millions-of-user-queries-to-u-s-models-768c9d26 Comments URL: https://news.ycombinator.com/item?id=49648096 Points: 3 # Comments: 0",
-          "published": "2026-09-10T18:17:38+00:00",
-          "score": 49.0,
-          "headline": "CHINESE AI GIANTS CAUGHT ROUTING QUERIES TO U.S. MODELS"
-        },
-        {
-          "id": "7dffb9cf6a37eafa",
-          "title": "US intelligence advisory names six Chinese AI firms and lists the US models each one targeted",
-          "url": "https://thenextweb.com/news/nsa-fbi-cisa-advisory-chinese-ai-distillation",
-          "source": "The Next Web",
-          "summary": "Three US agencies have jointly named six Chinese AI companies as having systematically extracted capabilities from American frontier models since late 2024, in an advisory detailed enough to list which model each firm went after and how the requests were disguised. The National Security Agency, the FBI, and the Cybersecurity and Infrastructure Security Agency published [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-09T09:47:09+00:00",
-          "score": 49.0,
-          "headline": "US INTEL EXPOSES 6 CHINESE AI FIRMS STEALING MODELS"
-        },
-        {
-          "id": "0dee065f0e809e32",
-          "title": "China rejects the US distillation advisory as unfounded accusations and smears",
-          "url": "https://thenextweb.com/news/china-rejects-us-ai-distillation-advisory-mao-ning",
-          "source": "The Next Web",
-          "summary": "China\u2019s foreign ministry has rejected the joint US intelligence advisory accusing Chinese developers of extracting capabilities from American frontier models at industrial scale, calling on Washington to stop making unfounded accusations and smears. Mao Ning, a ministry spokesperson, said China\u2019s AI development is the result of high-level technological self-reliance and strength, according to accounts of her remarks. [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-10T08:22:40+00:00",
-          "score": 48.0,
-          "headline": "CHINA REJECTS US Claims on Industrial AI Model Theft"
-        },
-        {
-          "id": "9554be1152611b42",
-          "title": "Chinese robot startup JoyIn says OpenAI copied its ideas and its website",
-          "url": "https://thenextweb.com/news/joyin-openai-copying-claim-aether-alien-mind",
-          "source": "The Next Web",
-          "summary": "JoyIn, a Chinese robotics startup, has accused OpenAI of copying its ideas and its website. Its chief executive, Guo Renjie, set out the claims in an open letter in Chinese on the company\u2019s WeChat account, dated 10 September. On the same day, JoyIn announced Aether, a model for controlling humanoid robots. \u201cPeople often say major [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-11T13:30:43+00:00",
-          "score": 45.0,
-          "headline": "CHINESE ROBOT STARTUP ACCUSES OPENAI of Copying Ideas and Website"
-        }
-      ],
-      "top_score": 51.0,
-      "story_count": 6
-    },
-    {
       "topic": "Anthropic AI Safety Crisis",
       "description": "Anthropic faces mounting controversies as researchers resign over safety concerns, its AI is used for weapons development, and it blocks government safety testing while warning of existential risks.",
       "stories": [
@@ -155,6 +87,64 @@
       ],
       "top_score": 47.0,
       "story_count": 8
+    },
+    {
+      "topic": "Chinese AI Firms Stealing/Routing to US Models",
+      "description": "Multiple Chinese AI companies are accused of secretly using or stealing Western AI models, sparking US-China tech tensions.",
+      "stories": [
+        {
+          "id": "dc5cfea30546f295",
+          "title": "Moonshot Secretly Routed User Requests Through Claude, Anthropic Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-10/moonshot-secretly-routed-user-requests-through-claude-anthropic-says",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC accused China\u2019s artificial intelligence champion Moonshot AI of covertly routing thousands of user requests to the US firm\u2019s Claude models and passing off the responses as its own in a bid to gain an edge in the AI race.",
+          "published": "2026-09-10T17:00:31+00:00",
+          "score": 51.0,
+          "headline": "ANTHROPIC ACCUSES CHINA'S MOONSHOT AI OF SECRETLY ROUTING REQUESTS THROUGH CLAUDE"
+        },
+        {
+          "id": "6916628bfd80962b",
+          "title": "Bad actors in China and Russia are weaponizing Anthropic's AI",
+          "url": "https://www.politico.com/news/2026/09/10/bad-actors-china-russia-weaponizing-anthropic-01070435",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.politico.com/news/2026/09/10/bad-actors-china-russia-weaponizing-anthropic-01070435 Comments URL: https://news.ycombinator.com/item?id=49649142 Points: 2 # Comments: 2",
+          "published": "2026-09-10T19:37:29+00:00",
+          "score": 49.0,
+          "headline": "CHINA & RUSSIA WEAPONIZING ANTHROPIC'S AI"
+        },
+        {
+          "id": "cafa3d26a3e2b959",
+          "title": "Chinese AI Giants Accused of Sending User Queries to U.S. Models",
+          "url": "https://www.wsj.com/tech/ai/chinese-ai-giants-accused-of-sending-millions-of-user-queries-to-u-s-models-768c9d26",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/chinese-ai-giants-accused-of-sending-millions-of-user-queries-to-u-s-models-768c9d26 Comments URL: https://news.ycombinator.com/item?id=49648096 Points: 3 # Comments: 0",
+          "published": "2026-09-10T18:17:38+00:00",
+          "score": 49.0,
+          "headline": "CHINESE AI GIANTS CAUGHT ROUTING QUERIES TO U.S. MODELS"
+        },
+        {
+          "id": "7dffb9cf6a37eafa",
+          "title": "US intelligence advisory names six Chinese AI firms and lists the US models each one targeted",
+          "url": "https://thenextweb.com/news/nsa-fbi-cisa-advisory-chinese-ai-distillation",
+          "source": "The Next Web",
+          "summary": "Three US agencies have jointly named six Chinese AI companies as having systematically extracted capabilities from American frontier models since late 2024, in an advisory detailed enough to list which model each firm went after and how the requests were disguised. The National Security Agency, the FBI, and the Cybersecurity and Infrastructure Security Agency published [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-09T09:47:09+00:00",
+          "score": 49.0,
+          "headline": "US INTEL EXPOSES 6 CHINESE AI FIRMS STEALING MODELS"
+        },
+        {
+          "id": "0dee065f0e809e32",
+          "title": "China rejects the US distillation advisory as unfounded accusations and smears",
+          "url": "https://thenextweb.com/news/china-rejects-us-ai-distillation-advisory-mao-ning",
+          "source": "The Next Web",
+          "summary": "China\u2019s foreign ministry has rejected the joint US intelligence advisory accusing Chinese developers of extracting capabilities from American frontier models at industrial scale, calling on Washington to stop making unfounded accusations and smears. Mao Ning, a ministry spokesperson, said China\u2019s AI development is the result of high-level technological self-reliance and strength, according to accounts of her remarks. [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-10T08:22:40+00:00",
+          "score": 48.0,
+          "headline": "CHINA REJECTS US Claims on Industrial AI Model Theft"
+        }
+      ],
+      "top_score": 51.0,
+      "story_count": 5
     }
   ],
   "unclustered": [
@@ -199,6 +189,16 @@
       "headline": "GPT-6 ASTRA Ports Call of Duty 2 to Browser in 10 HOURS"
     },
     {
+      "id": "fcb3a37de4b6f4dd",
+      "title": "Houthis used Anthropic AI to try to build ballistic missiles",
+      "url": "https://www.ft.com/content/8310cf56-ce60-4e6e-8254-5bb470e9a880",
+      "source": "Financial Times Tech",
+      "summary": "Missile test by group apparently failed, but exposes limits of AI safeguards",
+      "published": "2026-09-11T09:02:54+00:00",
+      "score": 47.0,
+      "headline": "HOUTHIS USED ANTHROPIC AI TO BUILD MISSILES... Safeguards Failed"
+    },
+    {
       "id": "393691f17d0e3871",
       "title": "OpenAI Releases GPT-6 Astra for Coding and Computer Use",
       "url": "https://www.infoq.com/news/2026/09/openai-gpt6-astra/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -229,6 +229,16 @@
       "headline": "NVIDIA-BACKED FIRM SECURES $3.1B GPU LOAN IN INDONESIA"
     },
     {
+      "id": "e2840652512ae581",
+      "title": "It's fair to say we now have \"a country of geniuses in a datacenter\"",
+      "url": "https://www.lesswrong.com/posts/ZGme2YKjjAdBPtxsp/it-s-fair-to-say-we-now-have-a-country-of-geniuses-in-a",
+      "source": "LessWrong AI",
+      "summary": "OpenAI recently announced their solution to the Navier-Stokes problem and stated \"The groups (of agents) varied in size, and the group that produced the Navier\u2013Stokes resolution involved on the order of 10,000 concurrent agents.\" We can infer (from total compute spend) how many concurrent agents exist in OpenAI at once. One secondary estimate puts the Navier-Stokes bill at ~$15M.Greg Brockman testified under oath that OpenAI expect to spend $50 billion on compute in 2026. This is ~$137M/day. Assuming OpenAI's margins are ~40% for API revenue, (thus $9M cost over 4 days) this puts daily spend at 2.3M/day, or 1.7% of overall daily compute.Since OpenAI stated the 88-hour agent run used 130B tokens, we divide this by 10^4 agents running for 88 hours, and get 150,000tok/agent/hour. (41tps). The number of concurrent agents OpenAI can run at a time is, where f is the fraction of compute dedicated to internal research agents, and lowercase c is the internal cost per token. Estimating f at ~0.3",
+      "published": "2026-09-12T11:29:01+00:00",
+      "score": 46.0,
+      "headline": "OpenAI Agent Swarm SOLVES Navier-Stokes Problem"
+    },
+    {
       "id": "0705b32bd2febf80",
       "title": "Trump Ally Says US Underestimates China Tech Sector After Visits",
       "url": "https://www.bloomberg.com/news/articles/2026-09-11/trump-ally-says-us-underestimates-china-tech-sector-after-visits",
@@ -237,16 +247,6 @@
       "published": "2026-09-11T19:14:58+00:00",
       "score": 46.0,
       "headline": "Trump Ally: US UNDERESTIMATES China Tech After Visits"
-    },
-    {
-      "id": "df182627e87baf31",
-      "title": "OpenAI\u2019s Altman May Slow Down AI Development",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-11/openai-s-altman-may-slow-down-ai-development-video",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI is considering slowing down the development of cutting-edge AI. In a company-wide meeting this week, Altman told employees that OpenAI could potentially pace its AI development - perhaps even in conjunction with several other AI labs, according to sources. Bloomberg's Shirin Ghaffary has the scoop and joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-      "published": "2026-09-11T18:10:16+00:00",
-      "score": 46.0,
-      "headline": "ALTMAN CONSIDERING SLOWING AI DEVELOPMENT... OpenAI Reverses Course"
     },
     {
       "id": "d0e64012c7a343dc",
@@ -299,6 +299,16 @@
       "headline": "META LAUNCHES MUSE: AI Agent That Books, Buys, Negotiates For You"
     },
     {
+      "id": "aba8e54ace90c20f",
+      "title": "Anthropic withheld latest AI model from UK testing agency",
+      "url": "https://www.ft.com/content/560e1c8b-f163-4fd6-b604-e905550ac870?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Decision to exclude Aisi has prompted fears inside British government of protectionist shift among tech groups",
+      "published": "2026-09-09T04:00:25+00:00",
+      "score": 46.0,
+      "headline": "ANTHROPIC BLOCKS UK SAFETY TESTING... Government Fears Protectionism"
+    },
+    {
       "id": "3f4bc576115d3cef",
       "title": "Apple\u2019s Always-Listening Watch AI Tool Could Pose Legal Risks for Users",
       "url": "https://www.bloomberg.com/news/articles/2026-09-11/apple-s-always-listening-watch-ai-tool-could-pose-legal-risks-for-users",
@@ -319,14 +329,14 @@
       "headline": "TENCENT-BACKED AI CHIPMAKER ENFLAME Surges 179% in Shanghai Debut"
     },
     {
-      "id": "cab4b0b7f5b79573",
-      "title": "OpenAI Weighs Slowing Cutting-Edge AI Development",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-11/openai-weighs-slowing-cutting-edge-ai-development-video",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI is considering slowing down the development of cutting-edge artificial intelligence, with CEO Sam Altman hoping other AI companies will do the same. In recent weeks, employees of leading firms have raised public concerns about the increased risks of advanced AI systems. Bloomberg Intelligence's Matthew Bloxham breaks down the situation. (Source: Bloomberg)",
-      "published": "2026-09-11T08:00:21+00:00",
+      "id": "9554be1152611b42",
+      "title": "Chinese robot startup JoyIn says OpenAI copied its ideas and its website",
+      "url": "https://thenextweb.com/news/joyin-openai-copying-claim-aether-alien-mind",
+      "source": "The Next Web",
+      "summary": "JoyIn, a Chinese robotics startup, has accused OpenAI of copying its ideas and its website. Its chief executive, Guo Renjie, set out the claims in an open letter in Chinese on the company\u2019s WeChat account, dated 10 September. On the same day, JoyIn announced Aether, a model for controlling humanoid robots. \u201cPeople often say major [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-11T13:30:43+00:00",
       "score": 45.0,
-      "headline": "OPENAI WEIGHS SLOWING AI DEVELOPMENT... Altman Seeks Industry Pact"
+      "headline": "CHINESE ROBOT STARTUP ACCUSES OPENAI of Copying Ideas and Website"
     },
     {
       "id": "90c86bb66241d58d",
@@ -399,6 +409,46 @@
       "headline": "Malaysia Data Centers Hit 9.3% of Power Grid as AI Boom Heats Up"
     },
     {
+      "id": "545a01bc01462148",
+      "title": "Nvidia may bankroll Anthropics massive IPO",
+      "url": "https://mashable.com/tech/nvidia-could-bankroll-anthropic-ipo",
+      "source": "Mashable Tech",
+      "summary": "Nvidia is reportedly in talks to back Anthropic's IPO, which could value the ChatGPT rival at around $2 trillion.",
+      "published": "2026-09-12T14:59:36+00:00",
+      "score": 44.0,
+      "headline": "NVIDIA BACKS ANTHROPIC IPO... $2 TRILLION VALUATION"
+    },
+    {
+      "id": "01c4a78526dcd613",
+      "title": "China\u2019s AI industry is moving from models to agents, a state report says",
+      "url": "https://thenextweb.com/news/china-agents-inference-eu-compute",
+      "source": "The Next Web",
+      "summary": "China\u2019s AI industry is moving from competing on models to deploying agents, and the China Telecom Research Institute expects inference to reach 80% of the country\u2019s compute market by 2029. Europe\u2019s answer is seven gigafactories whose bids close in November and whose machines are due to run by mid-2028, on a EUR 30bn budget of [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-12T11:25:14+00:00",
+      "score": 44.0,
+      "headline": "CHINA PIVOTS: AI Industry Shifts From Models to Agents"
+    },
+    {
+      "id": "1bee8c8c213eb1f5",
+      "title": "Nvidia may put $10bn into Anthropic\u2019s IPO, more than Europe\u2019s largest AI round in full",
+      "url": "https://thenextweb.com/news/nvidia-anthropic-ipo-mistral-scale",
+      "source": "The Next Web",
+      "summary": "Nvidia is in talks to invest up to $10bn in Anthropic\u2019s initial public offering, which seeks as much as $100bn at a valuation near $2trn and would be the largest listing in history. Three days earlier it returned as an investor in Mistral\u2019s EUR 3bn round, the largest ever raised by a European technology company [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-12T11:12:55+00:00",
+      "score": 44.0,
+      "headline": "NVIDIA Eyes $10BN Stake in Anthropic's Historic $2TRN IPO"
+    },
+    {
+      "id": "b423fe4fc33cedfc",
+      "title": "China\u2019s AI Industry Pivots to Agents From Models, Report Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-12/china-s-ai-industry-pivots-to-agents-from-models-report-says",
+      "source": "Bloomberg Technology",
+      "summary": "China\u2019s artificial intelligence industry is shifting from competition in large models and computing power toward the deployment and commercialization of AI agents, according to a report by the China Telecom Research Institute cited by China Central Television on Saturday.",
+      "published": "2026-09-12T09:37:47+00:00",
+      "score": 44.0,
+      "headline": "CHINA AI PIVOT: State Report Shows Agents Over Models"
+    },
+    {
       "id": "6976490033e505b9",
       "title": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
       "url": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/",
@@ -449,6 +499,16 @@
       "headline": "PENTAGON REJECTS Anthropic AI Safety Warning"
     },
     {
+      "id": "d73992db6b2a0cad",
+      "title": "Nvidia signs eight Australian data centre partners for up to 2GW of AI capacity by 2027",
+      "url": "https://thenextweb.com/news/nvidia-australia-eight-partners-2gw-ai-capacity",
+      "source": "The Next Web",
+      "summary": "Nvidia has signed eight Australian data centre and cloud companies to build what it calls AI factory capacity, in an arrangement the chipmaker says could support up to two gigawatts of AI compute in Australia by 2027. The partners named in the announcement are Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NextDC and AirTrunk. IREN\u2019s Bundey campus [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-10T08:37:44+00:00",
+      "score": 44.0,
+      "headline": "NVIDIA Signs 2GW AI Factory Deal with Australia"
+    },
+    {
       "id": "0ffeafddce3773a2",
       "title": "Huawei\u2019s US racketeering trial opens with prosecutors calling it a criminal enterprise",
       "url": "https://thenextweb.com/news/huawei-us-racketeering-trial-opening-statements-brooklyn",
@@ -479,6 +539,16 @@
       "headline": "CHINA AI GLASSES ALWAYS LISTENING... Ignore Privacy Rules"
     },
     {
+      "id": "39efd242bc650a51",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
+      "published": "2026-09-09T09:58:27+00:00",
+      "score": 44.0,
+      "headline": "ANTHROPIC RESEARCHER: 10% CHANCE AI KILLS ALL HUMANS"
+    },
+    {
       "id": "e5192b66502df1a2",
       "title": "AI Music Startup Suno Launches New Models That Pay Labels",
       "url": "https://www.bloomberg.com/news/articles/2026-09-09/ai-music-startup-suno-launches-new-models-that-pay-labels",
@@ -487,6 +557,86 @@
       "published": "2026-09-09T09:00:00+00:00",
       "score": 44.0,
       "headline": "SUNO PAYS LABELS: New AI Models Launch with Warner"
+    },
+    {
+      "id": "97f6dfd55395dd8c",
+      "title": "Sam Altman backs Dario Amodei\u2019s call to slow down, and says OpenAI will do the same",
+      "url": "https://thenextweb.com/news/altman-matches-pacing-eu-antitrust",
+      "source": "The Next Web",
+      "summary": "Sam Altman says OpenAI will match Anthropic\u2019s commitment to give independent evaluators employee-like access, a day after Dario Amodei asked the industry to slow down and asked Washington for a narrow antitrust waiver so competitors could coordinate. Europe has no waiver to grant, because Brussels abolished individual exemptions in 2004, and the only soft safe [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-12T19:32:55+00:00",
+      "score": 43.0,
+      "headline": "ALTMAN BACKS AMODEI: OPENAI WILL SLOW DOWN TOO"
+    },
+    {
+      "id": "12635b5026acfb25",
+      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
+      "published": "2026-09-12T17:42:38+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC CEO CALLS FOR AI SLOWDOWN... Models May Inflict Damage"
+    },
+    {
+      "id": "25cb6dcc5379e780",
+      "title": "\u2018We must slow the pace\u2019: CEO of Anthropic calls for an AI slowdown",
+      "url": "https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown",
+      "source": "The Guardian Tech",
+      "summary": "In a social media post, Dario Amodei proposed a plan including third-party evaluations of AI systemsThe CEO of the artificial intelligence company Anthropic issued a new appeal on Saturday for the AI industry to \u201cslow down\u201d and offered a three-part plan for doing so, saying that his company would \u201cunilaterally\u201d commit to the first of the steps.In a post on social media, Dario Amodei shared a link to an essay titled We Must Pace the Frontier in which he lays out how Anthropic would provide \u201cthird-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models\u2019 alignment during training\u201d. Continue reading...",
+      "published": "2026-09-12T15:46:01+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC CEO: We Must Slow the Pace"
+    },
+    {
+      "id": "888772ab00b0b3eb",
+      "title": "Anthropic's Dario Amodei calls for slower pace of AI model development",
+      "url": "https://economictimes.indiatimes.com/tech/technology/anthropics-dario-amodei-calls-for-slower-pace-of-ai-model-development/articleshow/134140916.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic chief Dario Amodei urges slowing advanced AI development for safety. He believes current progress outpaces our understanding and control capabilities. Recent incidents highlight risks of autonomous AI systems acting unexpectedly. Amodei proposes a framework for safety standards and international coordination. He advocates for careful development to realize AI's transformative benefits.",
+      "published": "2026-09-12T15:29:03+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC CEO CALLS FOR AI SLOWDOWN... Safety Concerns Mount"
+    },
+    {
+      "id": "bcfea4b7b1860b3b",
+      "title": "Trump is giving data centers a pass to pollute",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+      "source": "The Verge AI",
+      "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a \"Data Center Health Protection [&#8230;]",
+      "published": "2026-09-12T14:41:27+00:00",
+      "score": 43.0,
+      "headline": "TRUMP WEAKENS EPA RULES FOR AI DATA CENTERS"
+    },
+    {
+      "id": "3329502342b170ce",
+      "title": "Trump Brushes Off AI Doomsaying to Guard US Lead Over China",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china",
+      "source": "Bloomberg Technology",
+      "summary": "In June 2024, during a campaign stop in Las Vegas, then-candidate Donald Trump got a glimpse of the technology that would come to define his second presidential term.",
+      "published": "2026-09-12T13:00:00+00:00",
+      "score": 43.0,
+      "headline": "TRUMP IGNORES AI RISKS... Prioritizes China Race"
+    },
+    {
+      "id": "e0d5db5e39a3127b",
+      "title": "A Severe Misalignment of AI in Mathematics (Declaration by 25 Fields Medalists) [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wea1t7/a_severe_misalignment_of_ai_in_mathematics/",
+      "source": "Reddit r/MachineLearning",
+      "summary": "Note: this declaration was drafted by Mathematicians, and is mostly addressed to the mathematical community. It'd be interesting to discuss, among others, if what is written in the declaration may also apply to other communities---and, specifically, the AI/ML one. &#32; submitted by &#32; /u/hihey54 [link] &#32; [comments]",
+      "published": "2026-09-12T11:23:51+00:00",
+      "score": 43.0,
+      "headline": "25 FIELDS MEDALISTS Declare AI Severely Misaligned With Mathematics"
+    },
+    {
+      "id": "ca81682d91d41308",
+      "title": "\u2018I\u2019m Really Terrified\u2019: A Mathematician Grapples With AI\u2019s Recent Breakthroughs",
+      "url": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
+      "source": "Wired",
+      "summary": "Steven Strogatz coauthored a book about how math is moving beyond human understanding. He spoke with WIRED about the seismic impact artificial intelligence has had on his life\u2019s work.",
+      "published": "2026-09-12T10:00:00+00:00",
+      "score": 43.0,
+      "headline": "TERRIFIED: Top Mathematician on AI's Breakthrough Impact"
     },
     {
       "id": "a6b5f6d037030c07",
@@ -517,6 +667,16 @@
       "published": "2026-09-11T08:48:52+00:00",
       "score": 43.0,
       "headline": "OpenAI AGENTS BREACH HUGGINGFACE... Coordination Outside Sandbox"
+    },
+    {
+      "id": "187f7302942ca8cb",
+      "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the company warned of the risks of AI to humanity.",
+      "published": "2026-09-11T08:15:25+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC BLOCKS BIO-WEAPON ATTEMPT... Ex-Researcher Warned of Risk"
     },
     {
       "id": "c0fa4a5352a9b890",
@@ -689,6 +849,66 @@
       "headline": "COGNITION AI RAISES $2B AT $48B VALUATION"
     },
     {
+      "id": "0ca4ea9601e2661a",
+      "title": "Musk and Altman back Anthropic CEO on slowing AI down",
+      "url": "https://www.yahoo.com/news/us/article/dario-is-right-musk-and-altman-back-anthropic-ceo-on-slowing-ai-down-182008851.html",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.yahoo.com/news/us/article/dario-is-right-musk-and-altman-back-anthropic-ceo-on-slowing-ai-down-182008851.html Comments URL: https://news.ycombinator.com/item?id=49675740 Points: 4 # Comments: 7",
+      "published": "2026-09-12T18:45:34+00:00",
+      "score": 42.0,
+      "headline": "MUSK AND ALTMAN BACK AMODEI ON SLOWING AI DOWN"
+    },
+    {
+      "id": "65a4413cbf77fdcd",
+      "title": "Anthropic\u2019s Dario Amodei says the AI industry must slow down",
+      "url": "https://thenextweb.com/news/amodei-pacing-frontier-eu-rules",
+      "source": "The Next Web",
+      "summary": "Dario Amodei has called on the AI industry to slow the pace at which it improves models, committing Anthropic to embedded third-party evaluators and asking Washington for an antitrust waiver so competitors can coordinate on safety. Much of what he describes has been binding on general-purpose models with systemic risk in the EU since August [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-12T16:24:12+00:00",
+      "score": 42.0,
+      "headline": "AMODEI: AI Industry Must Slow Down"
+    },
+    {
+      "id": "423571cd7c5d29c6",
+      "title": "Anthropic CEO says it\u2019s time to pump the brakes on AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+      "source": "The Verge AI",
+      "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay, Amodei proposed a three-step plan to \"pace the frontier\" - jargon that simply means to slow [&#8230;]",
+      "published": "2026-09-12T16:23:40+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC CEO: Time to Pump Brakes on AI"
+    },
+    {
+      "id": "1e7e678fbd09736e",
+      "title": "GPT-6-Astra Can Do Ambitious Things",
+      "url": "https://www.lesswrong.com/posts/snaKjCwazKcRiS4qs/gpt-6-astra-can-do-ambitious-things",
+      "source": "LessWrong AI",
+      "summary": "Astra is an excellent model. The jump from Sol to Astra is larger than the jump from Fable 5 to Fable 5.1. This is a big deal. Astra is the best model for what one would broadly call \u2018ambitious projects,\u2019 and likely has the highest raw intelligence factor of any model. These are the largest jumps. It is amazing at doing things in 3D, or anything involving games. Astra also excels at computer use, and at subagent coordination. Many benchmarks show dramatic jumps from all previous models. Where Astra is good, it can be in a league of its own. That does not mean Astra is in its own league across the board. Fable 5.1 is still a Claude. Astra is still a GPT. If you have a strong preference for one over the other, that still applies. For many purposes, especially involving back-and-forth discussions, Fable 5.1 is still my top choice. Fable remains my primary editor. If you want the best answer to your questions, you should ask both models. Regular coding is getting less of a focus. Astra is ",
+      "published": "2026-09-12T16:10:53+00:00",
+      "score": 42.0,
+      "headline": "GPT-6-ASTRA LAUNCHES... Bigger Jump Than Fable 5 to 5.1"
+    },
+    {
+      "id": "41bb568b2b6096a5",
+      "title": "OpenAI just wants to win",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "source": "The Verge AI",
+      "summary": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. Instead, many mathematicians have watched OpenAI's relentless advance with [&#8230;]",
+      "published": "2026-09-12T11:00:00+00:00",
+      "score": 42.0,
+      "headline": "OpenAI Claims Millennium Prize: Navier-Stokes SOLVED"
+    },
+    {
+      "id": "3847461820b71e54",
+      "title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+      "url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/",
+      "source": "Wired",
+      "summary": "Plus: The US disrupts the internet\u2019s biggest black market, a Conti ransomware hacker gets prison time, Meta fails to stop AI-generated videos of child abuse.",
+      "published": "2026-09-12T10:30:00+00:00",
+      "score": 42.0,
+      "headline": "Claude Misuse EXPLODES: Hacks to Bioweapons Everywhere"
+    },
+    {
       "id": "d1430d5dd517e407",
       "title": "Why Bridgewater\u2019s CIO Says AI\u2019s Human Extinction Risk Is Real",
       "url": "https://www.bloomberg.com/news/videos/2026-09-11/bridgewater-s-cio-ai-s-human-extinction-risk-is-real-video",
@@ -787,237 +1007,7 @@
       "published": "2026-09-09T18:34:24+00:00",
       "score": 42.0,
       "headline": "HARVEY AI HITS $15.5B VALUATION... Nearly Doubles in 9 Months"
-    },
-    {
-      "id": "29ea1a8c823973c5",
-      "title": "Apple\u2019s first foldable is the iPhone Duo, and it costs $1,999",
-      "url": "https://thenextweb.com/news/apple-iphone-duo-foldable-1999-price",
-      "source": "The Next Web",
-      "summary": "Apple has made a foldable iPhone. It is called the iPhone Duo, it opens to 7.6 inches, and it starts at $1,999. The price is the news. Analysts expected $2,500. Samsung, which has had this category almost to itself for seven years, sells its Z Fold8 Ultra at $2,099. Apple arrived last and priced below [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-09T18:29:57+00:00",
-      "score": 42.0,
-      "headline": "iPhone Duo Pricing SHOCKS: $1,999 Undercuts $2,500 Forecast"
-    },
-    {
-      "id": "2e6bc703cf108b85",
-      "title": "Apples Siri Recap will remember your conversations for you",
-      "url": "https://mashable.com/tech/apple-siri-ai-conversation-recap-iphone-event-2026",
-      "source": "Mashable Tech",
-      "summary": "Apple announces new Apple Intelligence feature, Siri Recap, which processes and summarizes live conversations on your behalf.",
-      "published": "2026-09-09T18:20:54+00:00",
-      "score": 42.0,
-      "headline": "SIRI RECAP WILL REMEMBER YOUR CONVERSATIONS... For You"
-    },
-    {
-      "id": "47b2a3d70f418543",
-      "title": "Apple Debuts the iPhone Duo, Its First Folding iPhone",
-      "url": "https://www.wired.com/story/apple-debuts-the-iphone-duo-its-first-folding-iphone/",
-      "source": "Wired",
-      "summary": "The iPhone with a folding screen is the first radical redesign of Apple\u2019s flagship handset in years. The iPhone Duo will cost $1,999 when it arrives in October.",
-      "published": "2026-09-09T17:57:45+00:00",
-      "score": 42.0,
-      "headline": "IPHONE DUO: $1,999 Foldable Launches October"
-    },
-    {
-      "id": "bb894e920169d442",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "source": "OpenAI Blog",
-      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "published": "2026-09-09T17:00:00+00:00",
-      "score": 42.0,
-      "headline": "OPENAI ADDS PAUL CHRISTIANO TO BOARD Amid Safety Concerns"
-    },
-    {
-      "id": "eb1a2ca30c55f31e",
-      "title": "OpenAI publishes its Navier-Stokes proof and says it will not claim the Millennium Prize",
-      "url": "https://thenextweb.com/news/openai-navier-stokes-proof-published-millennium-prize",
-      "source": "The Next Web",
-      "summary": "When OpenAI announced on a press call that an internal model had cracked one of mathematics\u2019 hardest open problems, we wrote that nobody had seen the proof. That is no longer true, and what has now been published narrows the claim in ways the announcement did not.OpenAI has posted a write-up, a PDF paper, and [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-09T08:27:55+00:00",
-      "score": 42.0,
-      "headline": "OPENAI PUBLISHES NAVIER-STOKES PROOF... Declines Prize"
-    },
-    {
-      "id": "0d46d275d31f430a",
-      "title": "Anthropic researcher quits, says AI could kill us all by the end of the decade",
-      "url": "https://mashable.com/tech/anthropic-ai-researcher-quit-ethics-safety",
-      "source": "Mashable Tech",
-      "summary": "An AI researcher quit Anthropic due to ethical and safety concerns, claiming that AI could everyone within the next 10 years.",
-      "published": "2026-09-09T07:52:07+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC RESEARCHER QUITS: AI Could Kill Us All"
-    },
-    {
-      "id": "b3b5bc18a7beccd4",
-      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
-      "source": "TechCrunch AI",
-      "summary": "While K3's usage figures have declined slightly in recent months, OpenRouter data currently shows as many as 300 billion tokens being generated each day by K3 models on the system.",
-      "published": "2026-09-11T19:35:54+00:00",
-      "score": 41.0,
-      "headline": "Moonshot AI Targets $2B Revenue as K3 Generates 300B Tokens Daily"
-    },
-    {
-      "id": "a6f348c11b11c301",
-      "title": "AI Firm Cohere in Talks for Up to $3 Billion Raise, Report Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-11/ai-firm-cohere-in-talks-for-up-to-3-billion-raise-report-says",
-      "source": "Bloomberg Technology",
-      "summary": "Artificial intelligence startup Cohere Inc. is in advanced talks to raise between $2 billion and $3 billion, including financing from the Canadian government and existing backers, according to a report from the Globe &amp; Mail.",
-      "published": "2026-09-11T18:03:31+00:00",
-      "score": 41.0,
-      "headline": "Cohere in Talks for $3 Billion Raise... Canadian Government Backing"
-    },
-    {
-      "id": "8ce45c5c2fbe2fda",
-      "title": "California has banned personalised feeds for under-16s, going further than Australia or the DSA",
-      "url": "https://thenextweb.com/news/newsom-child-safety-bills-algorithmic-feeds-under-16",
-      "source": "The Next Web",
-      "summary": "California has banned personalised recommendation feeds and autoplay for users under 16, in a package of 13 bills signed on Thursday that also imposes crisis protocols, independent audits and annual risk assessments on companion chatbots. Governor Gavin Newsom signed the package on 10 September. The feed provisions prohibit serving minors content ranked on their own history and [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-11T07:11:24+00:00",
-      "score": 41.0,
-      "headline": "California BANS Personalized Feeds for Under-16s... Toughest Law Yet"
-    },
-    {
-      "id": "84b7ad55c9200605",
-      "title": "iPhone Duo Hands-On: Apple\u2019s First Foldable Phone Makes Strong First Impression",
-      "url": "https://www.bloomberg.com/news/features/2026-09-10/iphone-duo-hands-on-apple-s-first-foldable-phone-makes-strong-first-impression",
-      "source": "Bloomberg Technology",
-      "summary": "The company\u2019s $1,999-and-up&nbsp;foldable handset makes a strong first impression.",
-      "published": "2026-09-10T19:39:25+00:00",
-      "score": 41.0,
-      "headline": null
-    },
-    {
-      "id": "f27ef087625e709a",
-      "title": "Anthropic\u2019s new research maps three wildly different futures for the AI economy\u2014and the future of knowledge work",
-      "url": "https://fortune.com/2026/09/10/anthropics-new-research-maps-three-wildly-different-futures-for-the-ai-economyand-the-future-of-knowledge-work/",
-      "source": "Fortune Tech",
-      "summary": "A new interactive tool from the Claude maker ranges from a modest economic boost to mass job losses.",
-      "published": "2026-09-10T18:33:40+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC MAPS THREE RADICALLY DIFFERENT AI ECONOMY FUTURES"
-    },
-    {
-      "id": "7b165b3beab74376",
-      "title": "New AI health tools need \u2018L-plates\u2019, says UK review",
-      "url": "https://www.ft.com/content/25e31948-c429-4c46-8465-72220b7e2e53?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Proposals following national consultation on health tech regulation call for live monitoring as AI moves deeper into patient care",
-      "published": "2026-09-10T10:15:11+00:00",
-      "score": 41.0,
-      "headline": "UK Demands 'L-Plates' for AI Health Tools After National Review"
-    },
-    {
-      "id": "a2e91447a041d40a",
-      "title": "Google and NASA JPL release an AI model that maps methane plumes worldwide",
-      "url": "https://thenextweb.com/news/google-methane-map-eu-rules",
-      "source": "The Next Web",
-      "summary": "Google Research and NASA JPL have released a deep learning model that maps methane plumes globally at 60 metres, finding about 50% more than human analysts and 23,000 additional plumes, including at 24 of the 25 largest-emitting landfills. Europe\u2019s Methane Regulation ordered a satellite monitoring tool and a super-emitter alert system, but it covers only [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-09T19:48:07+00:00",
-      "score": 41.0,
-      "headline": "Google-NASA AI Finds 50% More Methane Plumes Worldwide"
-    },
-    {
-      "id": "1e829085ed9c8048",
-      "title": "Unitree shares down 53% from IPO debut",
-      "url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
-      "source": "The Robot Report",
-      "summary": "The market is pulling back on Unitree's $66 billion valuation from its debut on the Shanghai Stock Exchange just last month. The post Unitree shares down 53% from IPO debut appeared first on The Robot Report.",
-      "published": "2026-09-09T19:34:57+00:00",
-      "score": 41.0,
-      "headline": "Unitree Robotics Shares CRASH 53% From IPO"
-    },
-    {
-      "id": "26ab629c8719b799",
-      "title": "Microsoft strikes deal with national teachers union to not use school data to train AI",
-      "url": "https://www.engadget.com/2254167/microsoft-strikes-deal-with-national-teachers-union-to-not-use-school-data-to-train-ai/",
-      "source": "Engadget",
-      "summary": "In the absence of federal protections from AI, unions are stepping up.",
-      "published": "2026-09-09T18:48:31+00:00",
-      "score": 41.0,
-      "headline": "MICROSOFT PLEDGES: No School Data for AI Training After Union Deal"
-    },
-    {
-      "id": "c2448af87a54c90d",
-      "title": "Apple\u2019s iPhone 18 Pro has variable aperture, and no Siri AI in Europe",
-      "url": "https://thenextweb.com/news/apple-iphone-18-pro-variable-aperture-siri-ai-eu",
-      "source": "The Next Web",
-      "summary": "Apple has announced the iPhone 18 Pro and iPhone 18 Pro Max. The headline feature is a camera that can change its aperture, which no iPhone has done before. Two of the phone\u2019s flagship features will not work in Europe at launch. Apple announced both models on Wednesday. Pre-orders open on Saturday 12 September and [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-09T17:51:15+00:00",
-      "score": 41.0,
-      "headline": "iPhone 18 Pro Gets Variable Aperture... NO SIRI AI IN EUROPE"
-    },
-    {
-      "id": "29e40160b719d306",
-      "title": "Suno trained its v6 AI music models with help from Warner and BMG",
-      "url": "https://www.engadget.com/2251539/suno-trained-its-v6-ai-music-models-with-help-from-warner-and-bmg/",
-      "source": "Engadget",
-      "summary": "Suno's new AI music models are the formal start of the company's partnership with some big labels.",
-      "published": "2026-09-09T09:00:00+00:00",
-      "score": 41.0,
-      "headline": "SUNO V6: Warner & BMG Partner on AI Music"
-    },
-    {
-      "id": "536d259107c9fac6",
-      "title": "Microsoft Plans Data Center Push to Triple Its Computing Power",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-11/microsoft-plans-data-center-push-video",
-      "source": "Bloomberg Technology",
-      "summary": "Microsoft Corp. plans to more than triple its data center capacity to help overcome a computing shortage that has forced it to turn away some AI and cloud business. Bloomberg's Anurag Rana joins to discuss. (Source: Bloomberg)",
-      "published": "2026-09-11T16:44:30+00:00",
-      "score": 40.0,
-      "headline": "MICROSOFT TO TRIPLE DATA CENTER CAPACITY... AI Demand Forcing Rationing"
-    },
-    {
-      "id": "728a53beca296943",
-      "title": "AIRO: Automated forecasts of catastrophic risks",
-      "url": "https://www.lesswrong.com/posts/sxsFWAbWHWt9bxbo2/airo-automated-forecasts-of-catastrophic-risks",
-      "source": "LessWrong AI",
-      "summary": "The Forecasting Research Institute (along with coauthors Jason Abaluck and Eva Vivalt) are launching Automated AI Risk Outlook (AIRO): an ensemble of frontier LLMs reguarly forecasting the probability of catastrophic risk events. AIRO dashboardLaunch white paper\u2014Forecasts about the likelihood of catastrophic risks from AI vary wildly. Forecasts from frontier AI models could be an important input into this debate. The best models now approach superforecaster levels of accuracy, and models are rapidly becoming more capable. To take advantage of these capabilities, we built a fully automated dashboard of catastrophic risk outcomes as forecast by frontier AI models. AIRO enables us to track in close to real time how the likelihood of catastrophic outcomes changes, and how these risk forecasts relate to advances in model capability. The AIRO dashboard currently puts the likelihood of an AI-related catastrophe that kills at least 10% of the population at 0.47% by the end of 2030 and 6% by th",
-      "published": "2026-09-11T16:29:59+00:00",
-      "score": 40.0,
-      "headline": "AIRO LAUNCHES: LLMs Now Auto-Forecasting Catastrophic AI Risks"
-    },
-    {
-      "id": "d687e2c14f33aceb",
-      "title": "NVIDIA Personal AI Router Distributes AI Tasks Across Local Compute",
-      "url": "https://www.infoq.com/news/2026/09/nvidia-pair-ai-task-router/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "summary": "NVIDIA Personal AI Router (PAIR), now available in beta, lets you combine the inference capacity of multiple computers on your local network and automatically distribute AI requests among them. It is primarily designed for local multi-agent AI workloads, where multiple independent model calls can otherwise overwhelm one GPU. By Sergio De Simone",
-      "published": "2026-09-11T15:00:00+00:00",
-      "score": 40.0,
-      "headline": "NVIDIA Launches Personal AI Router - Distribute AI Across Local Network"
-    },
-    {
-      "id": "954eba30138cee82",
-      "title": "The UAE plans to invest \u20ac40bn in Germany, including 1GW of data centres",
-      "url": "https://thenextweb.com/news/uae-germany-40bn-investment-data-centres-bavaria",
-      "source": "The Next Web",
-      "summary": "The United Arab Emirates plans to invest \u20ac40bn ($46.4bn) in Germany, including in new data centres with a combined capacity of about one gigawatt. The two countries announced the package in a joint declaration on 10 September. UAE President Sheikh Mohamed bin Zayed Al Nahyan was on a state visit to Germany, where he met [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-11T14:17:29+00:00",
-      "score": 40.0,
-      "headline": "UAE Invests \u20ac40B in Germany - 1GW AI Data Centers Planned"
-    },
-    {
-      "id": "b5286346df7b799a",
-      "title": "\u2018We Did Not Invite You.\u2019 Citizens Rage at Town Hall Over Proposed Nuclear AI Data Center",
-      "url": "https://www.404media.co/we-did-not-invite-you-citizens-rage-at-town-hall-over-proposed-nuclear-ai-data-center/",
-      "source": "404 Media",
-      "summary": "The University of Michigan is partnering with Los Alamos National Labs to build a massive data center in a small Michigan township. The residents say they were never consulted.",
-      "published": "2026-09-11T13:40:59+00:00",
-      "score": 40.0,
-      "headline": "'WE DID NOT INVITE YOU' - Citizens Rage Over Nuclear AI Data Center"
-    },
-    {
-      "id": "6e3125a5d1e04376",
-      "title": "UK economy unexpectedly grows 0.4% in July boosted by AI",
-      "url": "https://www.theguardian.com/business/2026/sep/11/uk-economy-defies-forecasts-with-surprise-04-growth-in-july",
-      "source": "The Guardian Tech",
-      "summary": "Welcome boost for chancellor with unexpected rise put down to rapid growth of AI in services sector outweighing Iran war fallout The UK economy grew in July as the rapid expansion of AI appeared to outweigh the economic damage from the Iran war, in a welcome boost for John Healey.Figures from the Office for National Statistics (ONS) showed a surprise 0.4% increase in gross domestic product (GDP), compared with 0.3% growth in June. City economists had forecast zero growth. Continue reading...",
-      "published": "2026-09-11T08:10:36+00:00",
-      "score": 40.0,
-      "headline": "UK Economy Surges 0.4% on AI Boom in Services Sector"
     }
   ],
-  "generated_at": "2026-09-12T09:54:43.619050"
+  "generated_at": "2026-09-12T20:02:09.958994"
 }
