@@ -1,111 +1,16 @@
 {
   "polls": [
     {
-      "topic": "Anthropic AI Safety Crisis",
-      "description": "Anthropic faces mounting controversies as researchers resign over safety concerns, its AI is used for weapons development, and it blocks government safety testing while warning of existential risks.",
-      "question": "Should AI companies like Anthropic slow down development despite competitive pressure?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropic-ai-safety-crisis-20260912",
-      "analysis_url": "/analysis/analysis-anthropic-ai-safety-crisis-20260912.html",
-      "analysis_type": "poll",
-      "created_at": "2026-09-12T09:55:21.033963",
-      "last_seen": "2026-09-12T20:02:47.770858",
-      "cluster_stories": [
-        {
-          "id": "fcb3a37de4b6f4dd",
-          "title": "Houthis used Anthropic AI to try to build ballistic missiles",
-          "url": "https://www.ft.com/content/8310cf56-ce60-4e6e-8254-5bb470e9a880",
-          "source": "Financial Times Tech",
-          "summary": "Missile test by group apparently failed, but exposes limits of AI safeguards",
-          "published": "2026-09-11T09:02:54+00:00",
-          "score": 47.0,
-          "headline": "HOUTHIS USED ANTHROPIC AI TO BUILD MISSILES... Safeguards Failed"
-        },
-        {
-          "id": "2e9f8f9824c50085",
-          "title": "AI researcher quits Anthropic over superintelligence fears: \u2018gambling with our lives\u2019",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3366969/ai-researcher-quits-anthropic-over-superintelligence-fears-gambling-our-lives?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "An artificial intelligence researcher who left OpenAI to join Anthropic has decided to leave the industry, accusing both US companies of \u201cgambling with our lives\u201d in the race to develop AI models capable of self-improvement. Jacob Coxon, 27, spent the past three years pretraining AI models, first at OpenAI and then, this year, at its rival Anthropic, which he considered more cautious in its approach. Pretraining is the stage where AI models absorb vast quantities of data. \u201cNeither company is...",
-          "published": "2026-09-09T16:59:52+00:00",
-          "score": 46.0,
-          "headline": "AI RESEARCHER QUITS ANTHROPIC: 'Gambling With Our Lives'"
-        },
-        {
-          "id": "aba8e54ace90c20f",
-          "title": "Anthropic withheld latest AI model from UK testing agency",
-          "url": "https://www.ft.com/content/560e1c8b-f163-4fd6-b604-e905550ac870?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Decision to exclude Aisi has prompted fears inside British government of protectionist shift among tech groups",
-          "published": "2026-09-09T04:00:25+00:00",
-          "score": 46.0,
-          "headline": "ANTHROPIC BLOCKS UK SAFETY TESTING... Government Fears Protectionism"
-        },
-        {
-          "id": "1b44943176b0dfbb",
-          "title": "An Anthropic researcher\u2019s doomsday warning comes at a very interesting time",
-          "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
-          "source": "TechCrunch AI",
-          "summary": "An Anthropic researcher resigned this week,&#160;warning in a post on X&#160;that the company is \u201cracing straight to self-improving superintelligence and gambling with our lives\u201d.&#160;The company&#8217;s own alignment&#160;lead&#160;even&#160;co-signed the message&#160;rather than walking it back.&#160;It&#8217;s&#160;the kind of&#160;doomer&#160;warning the AI industry has flirted with before, but the timing, with Anthropic reportedly&#160;preparing for&#160;an IPO, makes it land differently.&#160; On [&#8230;]",
-          "published": "2026-09-11T18:41:49+00:00",
-          "score": 45.0,
-          "headline": "ANTHROPIC RESEARCHER RESIGNS: Warning of AGI Doomsday Race"
-        },
-        {
-          "id": "e68be5e8945dcbc2",
-          "title": "Anthropic Researcher Quits over 'Out-of-Control' AI Fears",
-          "url": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628 Comments URL: https://news.ycombinator.com/item?id=49639694 Points: 3 # Comments: 0",
-          "published": "2026-09-10T07:25:20+00:00",
-          "score": 45.0,
-          "headline": "ANTHROPIC RESEARCHER QUITS OVER 'OUT-OF-CONTROL' AI FEARS"
-        },
-        {
-          "id": "d73992db6b2a0cad",
-          "title": "Nvidia signs eight Australian data centre partners for up to 2GW of AI capacity by 2027",
-          "url": "https://thenextweb.com/news/nvidia-australia-eight-partners-2gw-ai-capacity",
-          "source": "The Next Web",
-          "summary": "Nvidia has signed eight Australian data centre and cloud companies to build what it calls AI factory capacity, in an arrangement the chipmaker says could support up to two gigawatts of AI compute in Australia by 2027. The partners named in the announcement are Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NextDC and AirTrunk. IREN\u2019s Bundey campus [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-10T08:37:44+00:00",
-          "score": 44.0,
-          "headline": "NVIDIA Signs 2GW AI Factory Deal with Australia"
-        },
-        {
-          "id": "39efd242bc650a51",
-          "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
-          "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
-          "published": "2026-09-09T09:58:27+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC RESEARCHER: 10% CHANCE AI KILLS ALL HUMANS"
-        },
-        {
-          "id": "187f7302942ca8cb",
-          "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the company warned of the risks of AI to humanity.",
-          "published": "2026-09-11T08:15:25+00:00",
-          "score": 43.0,
-          "headline": "ANTHROPIC BLOCKS BIO-WEAPON ATTEMPT... Ex-Researcher Warned of Risk"
-        }
-      ],
-      "current_topic_name": "Anthropic AI Safety Crisis"
-    },
-    {
       "topic": "China-US AI Tech Conflict",
       "description": "Escalating tensions between China and the US over AI technology, chips, and intellectual property theft involving major players like Huawei.",
       "question": "Should countries align with US chip restrictions or pursue Chinese AI alternatives?",
       "button_a": "Restrictions",
       "button_b": "Alternatives",
       "poll_id": "china-us-ai-tech-conflict-20260910",
-      "analysis_url": "/analysis/analysis-chinese-ai-firms-stealingrouting-to-us-models-20260911.html",
+      "analysis_url": "/analysis/analysis-china-ai-competition-and-misconduct-20260913.html",
       "analysis_type": "poll",
       "created_at": "2026-09-10T10:25:54.264366",
-      "last_seen": "2026-09-12T20:02:48.517456",
+      "last_seen": "2026-09-13T10:57:59.002040",
       "cluster_stories": [
         {
           "id": "dc5cfea30546f295",
@@ -138,14 +43,14 @@
           "headline": "CHINESE AI GIANTS CAUGHT ROUTING QUERIES TO U.S. MODELS"
         },
         {
-          "id": "7dffb9cf6a37eafa",
-          "title": "US intelligence advisory names six Chinese AI firms and lists the US models each one targeted",
-          "url": "https://thenextweb.com/news/nsa-fbi-cisa-advisory-chinese-ai-distillation",
-          "source": "The Next Web",
-          "summary": "Three US agencies have jointly named six Chinese AI companies as having systematically extracted capabilities from American frontier models since late 2024, in an advisory detailed enough to list which model each firm went after and how the requests were disguised. The National Security Agency, the FBI, and the Cybersecurity and Infrastructure Security Agency published [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-09T09:47:09+00:00",
-          "score": 49.0,
-          "headline": "US INTEL EXPOSES 6 CHINESE AI FIRMS STEALING MODELS"
+          "id": "ef2cdd658548398c",
+          "title": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-11/china-ai-star-moonshot-eyes-2-billion-annualized-sales-in-2026",
+          "source": "Bloomberg Technology",
+          "summary": "Moonshot AI is targeting a manifold jump in annualized revenue to $2 billion by the end of the year, using the breakout success of its Kimi K3 model to dial up the heat on rivals from Anthropic PBC to Z.AI Co.",
+          "published": "2026-09-11T09:17:27+00:00",
+          "score": 48.0,
+          "headline": "CHINA'S MOONSHOT AI TARGETS $2B REVENUE... Kimi K3 Crushes Rivals"
         },
         {
           "id": "0dee065f0e809e32",
@@ -156,10 +61,235 @@
           "published": "2026-09-10T08:22:40+00:00",
           "score": 48.0,
           "headline": "CHINA REJECTS US Claims on Industrial AI Model Theft"
+        },
+        {
+          "id": "87b3093614c4dab1",
+          "title": "Xi pitches open-source AI to BRICS as Beijing weighs curbs on its own models",
+          "url": "https://thenextweb.com/news/xi-brics-open-source-ai-eu",
+          "source": "The Next Web",
+          "summary": "Xi Jinping used the BRICS summit to propose a China-led community for open-source AI and to invite members into the World AI Cooperation Organization, a Beijing-founded body of 29 countries with no EU state among them. Europe drew its line in the AI Act, which exempts genuinely open models but not those carrying systemic risk, [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-13T09:58:04+00:00",
+          "score": 47.0,
+          "headline": "XI PITCHES OPEN-SOURCE AI TO BRICS NATIONS"
+        },
+        {
+          "id": "0705b32bd2febf80",
+          "title": "Trump Ally Says US Underestimates China Tech Sector After Visits",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-11/trump-ally-says-us-underestimates-china-tech-sector-after-visits",
+          "source": "Bloomberg Technology",
+          "summary": "US Senator Steve Daines said the US may be misjudging the sophistication of China\u2019s technology sector.",
+          "published": "2026-09-11T19:14:58+00:00",
+          "score": 46.0,
+          "headline": "Trump Ally: US UNDERESTIMATES China Tech After Visits"
+        },
+        {
+          "id": "5c77d9d304d4b965",
+          "title": "Huawei Lifted Prices for Its Best AI Chip By 60% This Summer",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-10/huawei-lifted-prices-for-its-best-ai-chip-by-60-this-summer",
+          "source": "Bloomberg Technology",
+          "summary": "Huawei Technologies Co. has notified some clients that it\u2019s significantly increasing the prices of its most advanced AI accelerators, reflecting how demand is rapidly outstripping supply during the data center boom.",
+          "published": "2026-09-10T07:41:58+00:00",
+          "score": 46.0,
+          "headline": "HUAWEI SPIKES AI CHIP PRICES 60% - Demand Crushes Supply"
+        },
+        {
+          "id": "1c5307c905d5264d",
+          "title": "Tencent-backed chipmaker Enflame nearly triples in its Shanghai debut",
+          "url": "https://thenextweb.com/news/enflame-shanghai-ipo-debut-tencent-ai-chips",
+          "source": "The Next Web",
+          "summary": "Shares in Shanghai Enflame Technology closed 179% above their offer price on their first day of trading on Shanghai\u2019s Star Market on Friday. The Tencent-backed AI chipmaker had raised about 6.12bn yuan ($911m) in its initial public offering, Bloomberg reported. The stock opened at 410 yuan, against an IPO price of 142.18 yuan. It rose [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-11T13:58:53+00:00",
+          "score": 45.0,
+          "headline": "TENCENT-BACKED AI CHIPMAKER ENFLAME Surges 179% in Shanghai Debut"
+        },
+        {
+          "id": "9554be1152611b42",
+          "title": "Chinese robot startup JoyIn says OpenAI copied its ideas and its website",
+          "url": "https://thenextweb.com/news/joyin-openai-copying-claim-aether-alien-mind",
+          "source": "The Next Web",
+          "summary": "JoyIn, a Chinese robotics startup, has accused OpenAI of copying its ideas and its website. Its chief executive, Guo Renjie, set out the claims in an open letter in Chinese on the company\u2019s WeChat account, dated 10 September. On the same day, JoyIn announced Aether, a model for controlling humanoid robots. \u201cPeople often say major [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-11T13:30:43+00:00",
+          "score": 45.0,
+          "headline": "CHINESE ROBOT STARTUP ACCUSES OPENAI of Copying Ideas and Website"
+        },
+        {
+          "id": "0ef4a71289f1f119",
+          "title": "China\u2019s data regulator plans standards for embodied AI, ten days after industry asked",
+          "url": "https://thenextweb.com/news/china-embodied-ai-data-eu-gap",
+          "source": "The Next Web",
+          "summary": "China\u2019s National Data Administration said it will develop standards for embodied AI data and guide local authorities on the work, ten days after seven companies asked it for exactly that. Europe regulates who may reach the data a machine generates but has no programme producing it, and the data labs promised in its Data Union [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-13T09:36:50+00:00",
+          "score": 44.0,
+          "headline": "CHINA FAST-TRACKS EMBODIED AI STANDARDS"
+        },
+        {
+          "id": "a4fe23fc4ee281a6",
+          "title": "China\u2019s Data Regulator Plans Standards Push for Embodied AI",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-13/china-s-data-regulator-plans-standards-push-for-embodied-ai",
+          "source": "Bloomberg Technology",
+          "summary": "China\u2019s data regulator said it plans to develop standards for embodied artificial intelligence and guide local authorities in related work, as demand for high-quality, diverse and large-scale datasets continues to grow.",
+          "published": "2026-09-13T03:29:51+00:00",
+          "score": 44.0,
+          "headline": "CHINA PUSHES EMBODIED AI STANDARDS NATIONWIDE"
+        },
+        {
+          "id": "01c4a78526dcd613",
+          "title": "China\u2019s AI industry is moving from models to agents, a state report says",
+          "url": "https://thenextweb.com/news/china-agents-inference-eu-compute",
+          "source": "The Next Web",
+          "summary": "China\u2019s AI industry is moving from competing on models to deploying agents, and the China Telecom Research Institute expects inference to reach 80% of the country\u2019s compute market by 2029. Europe\u2019s answer is seven gigafactories whose bids close in November and whose machines are due to run by mid-2028, on a EUR 30bn budget of [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-12T11:25:14+00:00",
+          "score": 44.0,
+          "headline": "CHINA PIVOTS: AI Industry Shifts From Models to Agents"
+        },
+        {
+          "id": "b423fe4fc33cedfc",
+          "title": "China\u2019s AI Industry Pivots to Agents From Models, Report Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-12/china-s-ai-industry-pivots-to-agents-from-models-report-says",
+          "source": "Bloomberg Technology",
+          "summary": "China\u2019s artificial intelligence industry is shifting from competition in large models and computing power toward the deployment and commercialization of AI agents, according to a report by the China Telecom Research Institute cited by China Central Television on Saturday.",
+          "published": "2026-09-12T09:37:47+00:00",
+          "score": 44.0,
+          "headline": "CHINA AI PIVOT: State Report Shows Agents Over Models"
+        },
+        {
+          "id": "6976490033e505b9",
+          "title": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
+          "url": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/",
+          "source": "Wired",
+          "summary": "The proposed class action alleges Meta illegally harvested people\u2019s Facebook and Instagram photos to train its AI image-generation models and to build its unreleased \u201cNameTag\u201d face recognition feature.",
+          "published": "2026-09-11T18:59:25+00:00",
+          "score": 44.0,
+          "headline": "META SUED Over Illegal AI Training Data Harvesting"
         }
       ],
-      "current_topic_name": "Chinese AI Firms Stealing/Routing to US Models"
+      "current_topic_name": "China AI Competition and Misconduct"
+    },
+    {
+      "topic": "AI Industry Slowdown Movement",
+      "description": "Major AI leaders including Amodei, Altman, and Musk are calling for industry-wide slowdown amid safety concerns and researcher resignations over existential risks.",
+      "question": "Should AI labs slow development despite competitive and financial pressures?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-industry-slowdown-movement-20260913",
+      "analysis_url": "/analysis/analysis-ai-industry-slowdown-movement-20260913.html",
+      "analysis_type": "poll",
+      "created_at": "2026-09-13T10:57:57.173506",
+      "last_seen": "2026-09-13T10:58:00.895273",
+      "cluster_stories": [
+        {
+          "id": "02d443bb367c6a76",
+          "title": "Anthropic boss Amodei calls for AI slowdown, Altman and Musk agree",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367325/anthropic-boss-calls-ai-slowdown-after-researchers-superintelligence-warning?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "Anthropic CEO Dario Amodei on Saturday called on artificial intelligence firms to slow down the development of the powerful technology, amid mounting worries over the risks of \u201csuperintelligent\u201d computer systems. His comments came a few days after AI researcher Jacob Coxon, who left OpenAI to join Anthropic, decided to leave the industry, accusing both US companies of \u201cgambling with our lives\u201d in the race to develop models capable of self-improvement. OpenAI boss Sam Altman and Elon Musk, who...",
+          "published": "2026-09-12T16:57:09+00:00",
+          "score": 47.0,
+          "headline": "AMODEI CALLS AI SLOWDOWN... Altman & Musk Agree"
+        },
+        {
+          "id": "df182627e87baf31",
+          "title": "OpenAI\u2019s Altman May Slow Down AI Development",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-11/openai-s-altman-may-slow-down-ai-development-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI is considering slowing down the development of cutting-edge AI. In a company-wide meeting this week, Altman told employees that OpenAI could potentially pace its AI development - perhaps even in conjunction with several other AI labs, according to sources. Bloomberg's Shirin Ghaffary has the scoop and joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "published": "2026-09-11T18:10:16+00:00",
+          "score": 46.0,
+          "headline": "ALTMAN CONSIDERING SLOWING AI DEVELOPMENT... OpenAI Reverses Course"
+        },
+        {
+          "id": "1c85c729eb91e443",
+          "title": "Rivals Altman and Musk rally behind Dario Amodei\u2019s call for an AI slowdown",
+          "url": "https://www.ft.com/content/31220b59-b0c6-401c-a146-2b7b5d138837?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Warring tech bosses unite behind warnings that humans could lose control of the technology",
+          "published": "2026-09-12T18:14:06+00:00",
+          "score": 45.0,
+          "headline": "ALTMAN AND MUSK UNITE... Back Amodei's AI Slowdown Call"
+        },
+        {
+          "id": "1b44943176b0dfbb",
+          "title": "An Anthropic researcher\u2019s doomsday warning comes at a very interesting time",
+          "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+          "source": "TechCrunch AI",
+          "summary": "An Anthropic researcher resigned this week,&#160;warning in a post on X&#160;that the company is \u201cracing straight to self-improving superintelligence and gambling with our lives\u201d.&#160;The company&#8217;s own alignment&#160;lead&#160;even&#160;co-signed the message&#160;rather than walking it back.&#160;It&#8217;s&#160;the kind of&#160;doomer&#160;warning the AI industry has flirted with before, but the timing, with Anthropic reportedly&#160;preparing for&#160;an IPO, makes it land differently.&#160; On [&#8230;]",
+          "published": "2026-09-11T18:41:49+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC RESEARCHER RESIGNS: Warning of AGI Doomsday Race"
+        },
+        {
+          "id": "cab4b0b7f5b79573",
+          "title": "OpenAI Weighs Slowing Cutting-Edge AI Development",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-11/openai-weighs-slowing-cutting-edge-ai-development-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI is considering slowing down the development of cutting-edge artificial intelligence, with CEO Sam Altman hoping other AI companies will do the same. In recent weeks, employees of leading firms have raised public concerns about the increased risks of advanced AI systems. Bloomberg Intelligence's Matthew Bloxham breaks down the situation. (Source: Bloomberg)",
+          "published": "2026-09-11T08:00:21+00:00",
+          "score": 45.0,
+          "headline": "OPENAI WEIGHS SLOWING AI DEVELOPMENT... Altman Seeks Industry Pact"
+        },
+        {
+          "id": "e68be5e8945dcbc2",
+          "title": "Anthropic Researcher Quits over 'Out-of-Control' AI Fears",
+          "url": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628 Comments URL: https://news.ycombinator.com/item?id=49639694 Points: 3 # Comments: 0",
+          "published": "2026-09-10T07:25:20+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC RESEARCHER QUITS OVER 'OUT-OF-CONTROL' AI FEARS"
+        },
+        {
+          "id": "d376bdedb2cfb6c6",
+          "title": "Anthropic CEO calls on AI companies to slow down development",
+          "url": "https://www.euronews.com/my-europe/2026/09/12/anthropic-ceo-dario-amodei-calls-on-ai-companies-to-slow-down-ai-development-amid-superint",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.euronews.com/my-europe/2026/09/12/anthropic-ceo-dario-amodei-calls-on-ai-companies-to-slow-down-ai-development-amid-superint Comments URL: https://news.ycombinator.com/item?id=49676369 Points: 2 # Comments: 0",
+          "published": "2026-09-12T19:38:49+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC CEO CALLS ON AI LABS TO SLOW DOWN"
+        },
+        {
+          "id": "c7ce05cfad1dc9e7",
+          "title": "Amodei, Altman, Musk Call for Slowing Development of AI Models",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models",
+          "source": "Bloomberg Technology",
+          "summary": "Leaders of the world\u2019s biggest artificial intelligence platforms said it\u2019s time to slow the development pace of their most advanced \u2014 and most lucrative \u2014 models, citing escalating risks of the technology.",
+          "published": "2026-09-12T14:17:56+00:00",
+          "score": 44.0,
+          "headline": "AMODEI, ALTMAN, MUSK CALL FOR AI SLOWDOWN"
+        },
+        {
+          "id": "7dbc65d0d8e0fd7d",
+          "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Technology",
+          "summary": "It comes as the AI firm's boss has called for the technology's development to be slowed down, citing \"serious\" risks.",
+          "published": "2026-09-13T07:06:41+00:00",
+          "score": 43.0,
+          "headline": "EX-ANTHROPIC RESEARCHER: AI Staff 'Genuinely Frightened' for Humanity"
+        },
+        {
+          "id": "97f6dfd55395dd8c",
+          "title": "Sam Altman backs Dario Amodei\u2019s call to slow down, and says OpenAI will do the same",
+          "url": "https://thenextweb.com/news/altman-matches-pacing-eu-antitrust",
+          "source": "The Next Web",
+          "summary": "Sam Altman says OpenAI will match Anthropic\u2019s commitment to give independent evaluators employee-like access, a day after Dario Amodei asked the industry to slow down and asked Washington for a narrow antitrust waiver so competitors could coordinate. Europe has no waiver to grant, because Brussels abolished individual exemptions in 2004, and the only soft safe [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-12T19:32:55+00:00",
+          "score": 43.0,
+          "headline": "ALTMAN BACKS AMODEI: OPENAI WILL SLOW DOWN TOO"
+        },
+        {
+          "id": "12635b5026acfb25",
+          "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Technology",
+          "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
+          "published": "2026-09-12T17:42:38+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC CEO CALLS FOR AI SLOWDOWN... Models May Inflict Damage"
+        }
+      ],
+      "current_topic_name": "AI Industry Slowdown Movement"
     }
   ],
-  "last_updated": "2026-09-12T20:02:48.517475"
+  "last_updated": "2026-09-13T10:58:01.549832"
 }

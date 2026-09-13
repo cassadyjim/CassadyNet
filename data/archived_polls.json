@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Anthropic AI Safety Crisis",
+      "description": "Anthropic faces mounting controversies as researchers resign over safety concerns, its AI is used for weapons development, and it blocks government safety testing while warning of existential risks.",
+      "question": "Should AI companies like Anthropic slow down development despite competitive pressure?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropic-ai-safety-crisis-20260912",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-anthropic-ai-safety-crisis-20260912.html",
+      "started_at": "2026-09-12T09:55:21.033963",
+      "archived_at": "2026-09-13T10:58:01.548722",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Chinese AI Firms Stealing/Copying Western Models",
       "description": "Multiple Chinese AI companies caught secretly routing queries to or copying U.S. AI models, raising intellectual property and security concerns.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-major-ai-chip-deals-and-manufacturing-20260728.html",
       "started_at": "2026-07-27T07:10:23.347421",
       "archived_at": "2026-07-28T18:33:31.746254",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Samsung/SK Hynix Massive AI Chip Deals",
-      "description": "Korean chipmakers Samsung and SK Hynix are signing unprecedented multi-hundred-billion dollar deals with US tech giants for AI chip manufacturing, reshaping the global semiconductor supply chain.",
-      "question": "Are these massive Korea-US chip deals strengthening or concentrating AI power?",
-      "button_a": "Strengthening",
-      "button_b": "Power",
-      "poll_id": "samsungsk-hynix-massive-ai-chip-deals-20260726",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-chip-manufacturing-mega-deals-20260727.html",
-      "started_at": "2026-07-26T18:23:43.527526",
-      "archived_at": "2026-07-28T18:33:31.289900",
       "reason": "topic_replaced"
     }
   ]
