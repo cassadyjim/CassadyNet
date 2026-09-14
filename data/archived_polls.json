@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "China-US AI Tech Conflict",
+      "description": "Escalating tensions between China and the US over AI technology, chips, and intellectual property theft involving major players like Huawei.",
+      "question": "Should countries align with US chip restrictions or pursue Chinese AI alternatives?",
+      "button_a": "Restrictions",
+      "button_b": "Alternatives",
+      "poll_id": "china-us-ai-tech-conflict-20260910",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-china-ai-expansion-and-us-china-tech-rivalry-20260914.html",
+      "started_at": "2026-09-10T10:25:54.264366",
+      "archived_at": "2026-09-14T21:19:46.991881",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic AI Safety Crisis",
       "description": "Anthropic faces mounting controversies as researchers resign over safety concerns, its AI is used for weapons development, and it blocks government safety testing while warning of existential risks.",
       "question": "Should AI companies like Anthropic slow down development despite competitive pressure?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-chip-manufacturing-mega-deals-20260728.html",
       "started_at": "2026-07-25T18:21:11.274477",
       "archived_at": "2026-07-29T06:57:37.254954",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Major AI Chip Deals and Manufacturing",
-      "description": "Samsung, SK Hynix, and other chipmakers are signing massive multi-hundred-billion dollar deals with US tech giants to secure AI chip supply chains amid global competition.",
-      "question": "Are these massive AI chip deals good for innovation or bad for competition?",
-      "button_a": "Innovation",
-      "button_b": "Competition",
-      "poll_id": "major-ai-chip-deals-and-manufacturing-20260727",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-major-ai-chip-deals-and-manufacturing-20260728.html",
-      "started_at": "2026-07-27T07:10:23.347421",
-      "archived_at": "2026-07-28T18:33:31.746254",
       "reason": "topic_replaced"
     }
   ]
