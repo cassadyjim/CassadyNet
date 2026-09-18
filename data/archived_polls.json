@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "China AI Expansion and Geopolitics",
+      "description": "China is aggressively advancing its AI capabilities through massive investments, BRICS partnerships, and open-source initiatives while pushing back against Western slowdown calls.",
+      "question": "Is China's AI expansion a competitive threat or innovation opportunity?",
+      "button_a": "Threat",
+      "button_b": "Opportunity",
+      "poll_id": "china-ai-expansion-and-geopolitics-20260914",
+      "results": {
+        "pro": 1,
+        "con": 0,
+        "total": 1,
+        "pro_percent": 100,
+        "con_percent": 0
+      },
+      "analysis_url": "/analysis/analysis-us-china-ai-slowdown-tensions-20260917.html",
+      "started_at": "2026-09-14T21:19:43.401148",
+      "archived_at": "2026-09-18T10:25:34.358986",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Company Funding and IPOs",
       "description": "Wave of major AI companies pursuing massive funding rounds and public offerings including Anthropic, OpenAI, and Chinese startups.",
       "question": "Is the AI IPO rush driven by innovation or investor pressure?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-safety-and-security-breaches-20260731.html",
       "started_at": "2026-07-31T07:01:36.434118",
       "archived_at": "2026-08-01T18:23:44.402570",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "China Chip Manufacturing Breakthrough",
-      "description": "China's advancement in domestic chipmaking technology, particularly DUV tools rivaling ASML, is disrupting global semiconductor markets and intensifying US-China tech competition.",
-      "question": "Is China's chipmaking breakthrough a threat or opportunity for global tech?",
-      "button_a": "Threat",
-      "button_b": "Tech",
-      "poll_id": "china-chip-manufacturing-breakthrough-20260728",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-us-china-chip-war-20260731.html",
-      "started_at": "2026-07-28T18:33:08.414885",
-      "archived_at": "2026-07-31T18:40:29.459814",
       "reason": "topic_replaced"
     }
   ]
