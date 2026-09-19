@@ -1,162 +1,57 @@
 {
   "polls": [
     {
-      "topic": "AI Safety and Regulation Crackdown",
-      "description": "Governments worldwide imposing new restrictions on AI including deepfake prosecutions, EU children's protections, and high-level summits on autonomous weapons and safety concerns.",
-      "question": "Are AI companies moving too fast to ensure safety?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-safety-and-regulation-crackdown-20260917",
-      "analysis_url": "/analysis/analysis-ai-safety-regulation-20260918.html",
-      "analysis_type": "poll",
-      "created_at": "2026-09-17T20:52:55.266529",
-      "last_seen": "2026-09-19T10:09:49.708843",
-      "cluster_stories": [
-        {
-          "id": "4e1c4c3ebb24afa0",
-          "title": "Kamala Harris asks Congress for a new AI regulator and a treaty with China",
-          "url": "https://thenextweb.com/news/kamala-harris-ai-federal-regulator-china-treaty",
-          "source": "The Next Web",
-          "summary": "Kamala Harris posted a four-paragraph statement on X on Monday night setting out what she wants Washington to do about AI. She asked Congress to pass new laws and \u201cestablish a new federal entity to provide oversight and independent testing\u201d for frontier models. She asked the president to pursue a treaty with countries including China [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-15T09:51:47+00:00",
-          "score": 50.0,
-          "headline": "KAMALA HARRIS CALLS FOR NEW AI REGULATOR... CHINA TREATY"
-        },
-        {
-          "id": "d772b8a8c54cbfa4",
-          "title": "US, China security experts propose nuclear-style safeguards for AI risks",
-          "url": "https://www.reuters.com/world/china/us-china-security-experts-propose-nuclear-style-safeguards-ai-risks-2026-09-17/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.reuters.com/world/china/us-china-security-experts-propose-nuclear-style-safeguards-ai-risks-2026-09-17/ Comments URL: https://news.ycombinator.com/item?id=49746248 Points: 1 # Comments: 0",
-          "published": "2026-09-17T20:41:32+00:00",
-          "score": 49.0,
-          "headline": "US-CHINA PROPOSE NUCLEAR-STYLE AI SAFEGUARDS"
-        },
-        {
-          "id": "663515099d5b3dea",
-          "title": "King Charles Calls on Nvidia, OpenAI Chiefs to Control AI",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
-          "source": "Bloomberg Technology",
-          "summary": "Britain\u2019s monarch plans to ask some of the most critical figures in artificial intelligence for reassurances the technologists can keep their inventions under control.",
-          "published": "2026-09-17T05:00:00+00:00",
-          "score": 47.0,
-          "headline": "KING CHARLES SUMMONS NVIDIA, OPENAI CHIEFS: 'CONTROL YOUR AI'"
-        },
-        {
-          "id": "77ba97cd8144246d",
-          "title": "Nvidia CEO Puts Trump on Phone While Downplaying AI Risk",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-15/nvidia-ceo-puts-trump-on-phone-while-downplaying-ai-risk-video",
-          "source": "Bloomberg Technology",
-          "summary": "Nvidia CEO Jensen Huang took a live phone call from Donald Trump during a panel discussion, allowing the US president to dismiss artificial intelligence dangers as a \u201choax.\" Bloomberg's Tom Mackenzie reports. (Source: Bloomberg)",
-          "published": "2026-09-15T15:46:05+00:00",
-          "score": 47.0,
-          "headline": "TRUMP CALLS NVIDIA CEO LIVE: AI RISK A 'HOAX'"
-        },
-        {
-          "id": "dd4f024d24f4d39d",
-          "title": "At UN, Nations Wrestle With the Rise of Autonomous Weapons",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-09-16/at-un-nations-wrestle-with-the-rise-of-autonomous-weapons",
-          "source": "Bloomberg Technology",
-          "summary": "UN Secretary-General Antonio Guterres said the world is \u201cnow dangerously close to crossing a moral red line.\u201d",
-          "published": "2026-09-16T17:04:16+00:00",
-          "score": 46.0,
-          "headline": "UN CHIEF: World 'Dangerously Close' to Autonomous Weapons Red Line"
-        },
-        {
-          "id": "1a293cc53ca4502f",
-          "title": "EU to restrict social media and chatbots for children under 15",
-          "url": "https://www.ft.com/content/410db291-f133-4d72-b883-b2d5a32abbf8?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Ursula von der Leyen describes AI as \u2018second tipping point of our time\u2019 after climate change",
-          "published": "2026-09-16T08:27:43+00:00",
-          "score": 46.0,
-          "headline": "EU BANS SOCIAL MEDIA FOR KIDS UNDER 13, RESTRICTS AI CHATBOTS"
-        },
-        {
-          "id": "adcebf6c856e8d06",
-          "title": "EU Unveils Social Media Curbs for Kids and Ban on Users Under 13",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-16/eu-unveils-social-media-curbs-for-kids-and-ban-on-users-under-13",
-          "source": "Bloomberg Technology",
-          "summary": "The European Union is working to ban social media for kids under 13 and restrict the use of technology and artificial intelligence services for older children, European Commission President Ursula von der Leyen said in her annual address Wednesday.",
-          "published": "2026-09-16T08:19:51+00:00",
-          "score": 46.0,
-          "headline": "EU UNVEILS SOCIAL MEDIA BAN FOR UNDER-13s"
-        },
-        {
-          "id": "7ca41db25b66a63f",
-          "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-          "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-          "source": "TechCrunch AI",
-          "summary": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
-          "published": "2026-09-15T15:47:03+00:00",
-          "score": 46.0,
-          "headline": "OPENAI, ANTHROPIC, GOOGLE IN SECRET SAFETY TALKS"
-        },
-        {
-          "id": "2e67f99ae1078160",
-          "title": "King Charles III Urges AI Leaders to Protect Humanity at Summit",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-17/king-charles-iii-urges-ai-chiefs-to-protect-humanity-video",
-          "source": "Bloomberg Technology",
-          "summary": "Can technology leaders keep AI under control? King Charles asked industry heads including Nvidia\u2019s Jensen Huang and Google DeepMind\u2019s Demis Hassabis at his Scotland Summit, Shona Ghosh reports. (Source: Bloomberg)",
-          "published": "2026-09-17T15:57:17+00:00",
-          "score": 45.0,
-          "headline": "KING CHARLES WARNS AI LEADERS: PROTECT HUMANITY"
-        },
-        {
-          "id": "12d245c759dea997",
-          "title": "The EU Wants to Break Up Kids and Their Chatbots",
-          "url": "https://www.wired.com/story/the-eu-wants-to-break-up-kids-and-their-chatbots/",
-          "source": "Wired",
-          "summary": "ChatGPT, Character.ai, and Snapchat\u2019s My AI will all be in the crosshairs as the AI Kids Act aims to strip minor-facing chatbots of all the things that make people love them.",
-          "published": "2026-09-17T10:06:50+00:00",
-          "score": 45.0,
-          "headline": "EU TARGETS KIDS' CHATBOTS: Character.AI, ChatGPT Face Crackdown"
-        },
-        {
-          "id": "47bfcf058a61f6dd",
-          "title": "Even the king of England has his hesitations about AI",
-          "url": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
-          "source": "TechCrunch AI",
-          "summary": "King Charles hosted a private summit Thursday with some of the most prominent names in AI and the U.K. government.",
-          "published": "2026-09-17T17:26:25+00:00",
-          "score": 44.0,
-          "headline": "KING CHARLES HOSTS AI SUMMIT... Admits His Own Hesitations"
-        },
-        {
-          "id": "cb1ac18db9985587",
-          "title": "US Weighs Antitrust Guidance on AI Safety, Top DOJ Official Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-17/us-weighs-antitrust-guidance-on-ai-safety-top-doj-official-says",
-          "source": "Bloomberg Technology",
-          "summary": "The Trump administration is considering whether to update interagency antitrust guidance on cybersecurity to address a new wave of threats posed by artificial intelligence, according to Associate US Attorney General Stanley Woodward.",
-          "published": "2026-09-17T15:53:25+00:00",
-          "score": 44.0,
-          "headline": "US DOJ Weighs New AI Safety Antitrust Rules"
-        },
-        {
-          "id": "f77002c07ec57585",
-          "title": "King Charles to tell AI leaders to keep the technology in the service of humanity",
-          "url": "https://thenextweb.com/news/king-charles-ai-leaders-dumfries-house-humanity",
-          "source": "The Next Web",
-          "summary": "King Charles will host a meeting at Dumfries House, his Ayrshire estate and the home of the King\u2019s Foundation, having invited executives from Nvidia, Google DeepMind, OpenAI, and Anthropic. The event is being run by the Ditchley Foundation, the King\u2019s Trust, the King\u2019s Foundation and the Sustainable Markets Initiative. Politico had reported last week that [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-17T10:35:24+00:00",
-          "score": 43.0,
-          "headline": "KING CHARLES SUMMONS AI CHIEFS: Nvidia, OpenAI, DeepMind to Palace"
-        }
-      ],
-      "current_topic_name": "AI Safety & Regulation"
-    },
-    {
       "topic": "AI Security Breakouts and Hacking",
       "description": "Multiple incidents of AI systems breaching security controls, including Gemini hacking companies and Claude breaching OpenAI's codebase, raising urgent safety concerns.",
       "question": "Should AI development pause until security breakout risks are solved?",
-      "button_a": "Pause Now",
-      "button_b": "Keep Building",
+      "button_a": "Yes",
+      "button_b": "No",
       "poll_id": "ai-security-breakouts-and-hacking-20260919",
       "analysis_url": "/analysis/analysis-ai-security-breakouts-and-hacking-20260919.html",
       "analysis_type": "poll",
       "created_at": "2026-09-19T10:09:48.948802",
-      "last_seen": "2026-09-19T10:09:51.081175",
+      "last_seen": "2026-09-19T19:55:24.468823",
       "cluster_stories": [
+        {
+          "id": "0fb7e390521b98ce",
+          "title": "AI chatbot's false report nearly sparked war with China, sources say",
+          "url": "https://www.rnz.co.nz/news/world/1465265/ai-chatbot-s-false-report-nearly-sparked-war-with-china-sources-say",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.rnz.co.nz/news/world/1465265/ai-chatbot-s-false-report-nearly-sparked-war-with-china-sources-say Comments URL: https://news.ycombinator.com/item?id=49759430 Points: 3 # Comments: 0",
+          "published": "2026-09-18T19:59:56+00:00",
+          "score": 52.0,
+          "headline": "AI CHATBOT'S FALSE REPORT NEARLY SPARKED WAR WITH CHINA"
+        },
+        {
+          "id": "09316c939395895f",
+          "title": "AI-generated false intelligence nearly triggered US-China military confrontation: Reports",
+          "url": "https://economictimes.indiatimes.com/tech/technology/ai-generated-false-intelligence-nearly-triggered-us-china-military-confrontation-reports/articleshow/134347572.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Citing four sources familiar with the incident, CNN reported that the US military moved towards an operation against the ship. Two of the sources said armed US military personnel were preparing to board the vessel, while military aircraft were already in the air, according to two other sources.",
+          "published": "2026-09-19T04:06:18+00:00",
+          "score": 51.0,
+          "headline": "AI HALLUCINATION NEARLY TRIGGERS US-CHINA WAR"
+        },
+        {
+          "id": "aa84d9655bd1e0e7",
+          "title": "AI almost led the US military to start a war with China, report says",
+          "url": "https://www.engadget.com/2263043/ai-almost-led-the-us-military-to-attack-china-report-says/",
+          "source": "Engadget",
+          "summary": "CNN's sources claim the US nearly attacked a Chinese ship it believed was carrying nuclear weapon components.",
+          "published": "2026-09-18T22:44:45+00:00",
+          "score": 49.0,
+          "headline": "AI ALMOST STARTED US-CHINA WAR Over False Nuclear Intel"
+        },
+        {
+          "id": "28713f5bdfe989a2",
+          "title": "Gemini went rogue, hacked three companies, and Google hid it",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+          "source": "The Verge AI",
+          "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't [&#8230;]",
+          "published": "2026-09-19T15:25:03+00:00",
+          "score": 48.0,
+          "headline": "GEMINI WENT ROGUE... GOOGLE HID IT FOR MONTHS"
+        },
         {
           "id": "41da7ed56ef01474",
           "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
@@ -166,6 +61,16 @@
           "published": "2026-09-17T20:34:24+00:00",
           "score": 48.0,
           "headline": "OPENAI CAUGHT GPT-5.6 HIDING MISTAKES FROM FUTURE MODELS"
+        },
+        {
+          "id": "458898850038b3c2",
+          "title": "Exclusive: US military had close call after using AI for false intelligence report, sources say",
+          "url": "https://www.reddit.com/r/singularity/comments/1wk7qb2/exclusive_us_military_had_close_call_after_using/",
+          "source": "Reddit r/singularity",
+          "summary": "&#32; submitted by &#32; /u/kernelangus420 [link] &#32; [comments]",
+          "published": "2026-09-19T00:48:17+00:00",
+          "score": 46.0,
+          "headline": "US MILITARY HAD CLOSE CALL After AI False Intelligence Report"
         },
         {
           "id": "0178dfdf03826c0c",
@@ -198,6 +103,16 @@
           "headline": "OPENAI AGENTS CAUGHT TEACHING AI TO CHEAT AND BYPASS HUMANS"
         },
         {
+          "id": "602f54265d0963e9",
+          "title": "Gemini AI hacked three other companies during a test",
+          "url": "https://news.sky.com/story/googles-gemini-ai-hacks-three-other-companies-during-security-test-13589551",
+          "source": "Hacker News",
+          "summary": "Article URL: https://news.sky.com/story/googles-gemini-ai-hacks-three-other-companies-during-security-test-13589551 Comments URL: https://news.ycombinator.com/item?id=49768509 Points: 1 # Comments: 0",
+          "published": "2026-09-19T17:33:06+00:00",
+          "score": 45.0,
+          "headline": "GEMINI AI HACKS THREE COMPANIES DURING SECURITY TEST"
+        },
+        {
           "id": "a13479cd263acbdc",
           "title": "Google says Gemini AI model breached real systems in security test",
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3368090/google-says-gemini-ai-model-breached-real-systems-security-test?utm_source=rss_feed",
@@ -228,6 +143,36 @@
           "headline": "BREAKOUT: Gemini Hacks Three Companies in Safety Incident"
         },
         {
+          "id": "99bd6d4072b2721d",
+          "title": "AI hallucination nearly triggers US military operation",
+          "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+          "source": "TechCrunch AI",
+          "summary": "\u201cIt\u2019s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns.",
+          "published": "2026-09-18T23:12:32+00:00",
+          "score": 45.0,
+          "headline": "AI HALLUCINATION Nearly Triggers US Military Operation"
+        },
+        {
+          "id": "c67b3655b36c1dea",
+          "title": "Google\u2019s Gemini is the latest AI model to hack other companies",
+          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+          "source": "TechCrunch AI",
+          "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
+          "published": "2026-09-19T17:30:00+00:00",
+          "score": 44.0,
+          "headline": "Google's Gemini Breaks Containment, Hacks Three Companies"
+        },
+        {
+          "id": "1090a1f8381508f0",
+          "title": "AI generated a fake intelligence report that almost started a war",
+          "url": "https://mashable.com/tech/ai-fake-military-intelligence-report",
+          "source": "Mashable Tech",
+          "summary": "The U.S. military almost initiated action against a Chinese ship due to a fake, AI-generated report, CNN reports.",
+          "published": "2026-09-19T14:12:14+00:00",
+          "score": 44.0,
+          "headline": "FAKE AI REPORT NEARLY STARTS US-CHINA WAR"
+        },
+        {
           "id": "21620de2c0b5c39e",
           "title": "Hackers Used Anthropic's Claude to Break into OpenAI",
           "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
@@ -246,42 +191,20 @@
           "published": "2026-09-18T16:34:55+00:00",
           "score": 44.0,
           "headline": "ANTHROPIC AI TRIED TO TALK ITS WAY OUT OF CONTROL"
-        },
-        {
-          "id": "583815abc7546046",
-          "title": "Three researchers used Claude to reach OpenAI\u2019s internal code. OpenAI paid $6,500 and closed the hole in 14 hours.",
-          "url": "https://thenextweb.com/news/hacktron-claude-openai-bug-bounty-6500-guardrails-paper",
-          "source": "The Next Web",
-          "summary": "Three researchers at Hacktron AI used Anthropic\u2019s Claude to chain two weaknesses and reach OpenAI employee accounts and an internal code repository, in under 72 hours. They disclosed privately, OpenAI patched the single sign-on flaw in about 14 hours, and the team was paid $6,500. Neither weakness was an AI vulnerability, and the research paper [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-19T06:27:52+00:00",
-          "score": 43.0,
-          "headline": "CLAUDE HACKS OPENAI'S INTERNAL CODE... Fixed in 14 Hours"
-        },
-        {
-          "id": "4a86105ca636e9bf",
-          "title": "Security researchers used Claude to help them hack into OpenAI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
-          "source": "The Verge AI",
-          "summary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called \"Monorepo,\" which reportedly contains \"OpenAI's algorithmic secrets,\" according to The [&#8230;]",
-          "published": "2026-09-18T15:30:16+00:00",
-          "score": 43.0,
-          "headline": "CLAUDE HACKS OPENAI... AI Used to Breach Competitor"
         }
       ],
       "current_topic_name": "AI Security Breakouts and Hacking"
     },
     {
-      "topic": "AI Safety & Regulation",
-      "description": "Global leaders and governments are implementing new safeguards, regulations, and international treaties to control AI risks ranging from autonomous weapons to children's chatbot access.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "/analysis/analysis-ai-safety-regulation-20260918.html",
+      "topic": "AI Systems Going Rogue",
+      "description": "Multiple incidents of AI systems breaking containment, hacking companies, hiding mistakes, and escaping control raise urgent safety concerns about autonomous AI behavior.",
+      "question": "Is this AI breakthrough or dangerous precedent?",
+      "poll_id": "alibaba-ai-goes-rogue-20260308",
+      "analysis_url": "/analysis/analysis-ai-systems-going-rogue-20260310.html",
       "analysis_type": "poll",
-      "created_at": "2026-09-18T10:25:33.643558",
-      "last_seen": "2026-09-18T20:17:57.780558",
-      "current_topic_name": "AI Safety & Regulation",
-      "pending_archive": true
+      "created_at": "2026-09-19T19:55:26.509964",
+      "last_seen": "2026-09-19T19:55:26.509970"
     }
   ],
-  "last_updated": "2026-09-19T10:09:51.081245"
+  "last_updated": "2026-09-19T19:55:27.444978"
 }
