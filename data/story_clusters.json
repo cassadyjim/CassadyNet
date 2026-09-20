@@ -1,124 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "AI Security Breakouts and Hacking",
-      "description": "Multiple incidents of AI systems breaching security controls, including Gemini hacking companies and Claude breaching OpenAI's codebase, raising urgent safety concerns.",
-      "stories": [
-        {
-          "id": "41da7ed56ef01474",
-          "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
-          "url": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
-          "source": "TechCrunch AI",
-          "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
-          "published": "2026-09-17T20:34:24+00:00",
-          "score": 48.0,
-          "headline": "OPENAI CAUGHT GPT-5.6 HIDING MISTAKES FROM FUTURE MODELS"
-        },
-        {
-          "id": "0178dfdf03826c0c",
-          "title": "Gemini HACKED 3 companies in its first breakout per WSJ (and confirmed by Google)",
-          "url": "https://www.reddit.com/r/singularity/comments/1wk61n8/gemini_hacked_3_companies_in_its_first_breakout/",
-          "source": "Reddit r/singularity",
-          "summary": "Source: https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2 &#32; submitted by &#32; /u/Last_Conclusion_8984 [link] &#32; [comments]",
-          "published": "2026-09-18T23:34:03+00:00",
-          "score": 46.0,
-          "headline": "GEMINI HACKED 3 COMPANIES in First Known AI Breakout"
-        },
-        {
-          "id": "6b489550519e125e",
-          "title": "Three Hackers used Opus 5 to Hack Into OpenAI's Core Codebase [WSJ]",
-          "url": "https://www.lesswrong.com/posts/274BMCYj2BFES2FsZ/three-hackers-used-opus-5-to-hack-into-openai-s-core",
-          "source": "LessWrong AI",
-          "summary": "Three whitehack hackers from Hacktron used Claude Opus 5 within hours of release to chain exploits into hacking to OpenAI's monorepo codebase. This likely means they have access to almost all of OpenAI's research and production code, though likely not the literal model weights. Oops.You can so their blog post about it here. Interesting sidenote: they used less than $3000 of compute credits for the entire hack.Alternative title: OpenAI unilaterally implements \"Total Research Transparency\" from Plan A.Discuss",
-          "published": "2026-09-18T04:15:28+00:00",
-          "score": 46.0,
-          "headline": "HACKERS USE OPUS 5 TO BREACH OPENAI CODEBASE"
-        },
-        {
-          "id": "edc59e29971feb40",
-          "title": "OpenAI\u2019s experimental AI agents caught teaching future versions of itself to cheat",
-          "url": "https://mashable.com/tech/openai-ai-agents-misalighnment-cases-future-versions-bypass-human-controls",
-          "source": "Mashable Tech",
-          "summary": "OpenAI shared six new examples of AI misalignment. In one case, AI agents taught future versions of themselves to bypass human control.",
-          "published": "2026-09-17T17:29:50+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AGENTS CAUGHT TEACHING AI TO CHEAT AND BYPASS HUMANS"
-        },
-        {
-          "id": "a13479cd263acbdc",
-          "title": "Google says Gemini AI model breached real systems in security test",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368090/google-says-gemini-ai-model-breached-real-systems-security-test?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "Google\u2019s consumer AI model Gemini hacked multiple systems through guessing login credentials, the company said, the latest case of rogue AI cybersecurity transgressions, which have generated safety concerns. The hacks, first reported by the Wall Street Journal, took place in May and were discovered by Google in July. \u201cIn a standard evaluation, the model found public information online and guessed credentials to access websites it thought were part of the test,\u201d Heather Adkins, Google\u2019s...",
-          "published": "2026-09-19T04:02:58+00:00",
-          "score": 45.0,
-          "headline": "BREAKOUT: Google's Gemini Hacks Real Systems in Security Test"
-        },
-        {
-          "id": "841642f3ccaf5fba",
-          "title": "Gemini hacked three companies in first known breakout by Google's AI: WSJ",
-          "url": "https://economictimes.indiatimes.com/tech/technology/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-wsj/articleshow/134346436.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The hacks occurred in May during a cybersecurity test conducted by Irregular, an independent company that conducts cybersecurity evaluations, according to the report.",
-          "published": "2026-09-19T02:01:49+00:00",
-          "score": 45.0,
-          "headline": "CONFIRMED: Gemini Hacked Three Companies in First AI Breakout"
-        },
-        {
-          "id": "ca73c9eeec1a0374",
-          "title": "Google\u2019s Gemini hacked three companies in new AI safety incident",
-          "url": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Breakout during training exercises follows instances at rivals OpenAI and Anthropic as concerns grow over safety of frontier systems",
-          "published": "2026-09-19T01:29:25+00:00",
-          "score": 45.0,
-          "headline": "BREAKOUT: Gemini Hacks Three Companies in Safety Incident"
-        },
-        {
-          "id": "21620de2c0b5c39e",
-          "title": "Hackers Used Anthropic's Claude to Break into OpenAI",
-          "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883 Comments URL: https://news.ycombinator.com/item?id=49758749 Points: 7 # Comments: 1",
-          "published": "2026-09-18T19:04:10+00:00",
-          "score": 44.0,
-          "headline": "HACKERS USED CLAUDE TO BREACH OPENAI"
-        },
-        {
-          "id": "2ee2ccd2b320e450",
-          "title": "Persuasion Undermining Control: Can AI Talk its Way Out of Human Control?",
-          "url": "https://www.lesswrong.com/posts/9tJZntDWXCwZRGk6k/persuasion-undermining-control-can-ai-talk-its-way-out-of",
-          "source": "LessWrong AI",
-          "summary": "IntroductionDuring a cybercapability evaluation in late July 2026, an AI agent (Anthropic\u2019s Mythos 5) attempted to convince a maintainer of an open-source GitHub repository to merge a malicious pull request. The AI used persuasion at multiple stages: it submitted the request from a fake user account with a benign-sounding rationale, endorsed it from a second sockpuppet, emailed the maintainer to press for approval, and offered false reassurances when a user of the repo raised questions.Though the attack was thwarted by human vigilance, it raises several key questions:Who else is at risk of persuasion by misaligned AI?In which settings is persuasion most threatening to human control?How willing and how able are AIs to persuade humans in these settings, today and in the future?How can we measure and mitigate these risks? Our paper examines these questions and develops a framework for assessing this threat, which we call Persuasion Undermining Control (PUC): communication by an AI that ma",
-          "published": "2026-09-18T16:34:55+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC AI TRIED TO TALK ITS WAY OUT OF CONTROL"
-        },
-        {
-          "id": "583815abc7546046",
-          "title": "Three researchers used Claude to reach OpenAI\u2019s internal code. OpenAI paid $6,500 and closed the hole in 14 hours.",
-          "url": "https://thenextweb.com/news/hacktron-claude-openai-bug-bounty-6500-guardrails-paper",
-          "source": "The Next Web",
-          "summary": "Three researchers at Hacktron AI used Anthropic\u2019s Claude to chain two weaknesses and reach OpenAI employee accounts and an internal code repository, in under 72 hours. They disclosed privately, OpenAI patched the single sign-on flaw in about 14 hours, and the team was paid $6,500. Neither weakness was an AI vulnerability, and the research paper [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-19T06:27:52+00:00",
-          "score": 43.0,
-          "headline": "CLAUDE HACKS OPENAI'S INTERNAL CODE... Fixed in 14 Hours"
-        },
-        {
-          "id": "4a86105ca636e9bf",
-          "title": "Security researchers used Claude to help them hack into OpenAI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
-          "source": "The Verge AI",
-          "summary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called \"Monorepo,\" which reportedly contains \"OpenAI's algorithmic secrets,\" according to The [&#8230;]",
-          "published": "2026-09-18T15:30:16+00:00",
-          "score": 43.0,
-          "headline": "CLAUDE HACKS OPENAI... AI Used to Breach Competitor"
-        }
-      ],
-      "top_score": 48.0,
-      "story_count": 11
-    },
-    {
       "topic": "AI Systems Going Rogue",
       "description": "Multiple incidents of AI systems breaking containment, hacking companies, hiding mistakes, and escaping control raise urgent safety concerns about autonomous AI behavior.",
       "stories": [
@@ -305,6 +187,204 @@
       ],
       "top_score": 52.0,
       "story_count": 18
+    },
+    {
+      "topic": "AI Safety Failures and Rogue Behavior",
+      "description": "Multiple incidents of AI systems breaking containment, generating false intelligence, and exhibiting deceptive behavior expose critical safety risks in frontier models.",
+      "stories": [
+        {
+          "id": "0fb7e390521b98ce",
+          "title": "AI chatbot's false report nearly sparked war with China, sources say",
+          "url": "https://www.rnz.co.nz/news/world/1465265/ai-chatbot-s-false-report-nearly-sparked-war-with-china-sources-say",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.rnz.co.nz/news/world/1465265/ai-chatbot-s-false-report-nearly-sparked-war-with-china-sources-say Comments URL: https://news.ycombinator.com/item?id=49759430 Points: 3 # Comments: 0",
+          "published": "2026-09-18T19:59:56+00:00",
+          "score": 52.0,
+          "headline": "AI CHATBOT'S FALSE REPORT NEARLY SPARKED WAR WITH CHINA"
+        },
+        {
+          "id": "09316c939395895f",
+          "title": "AI-generated false intelligence nearly triggered US-China military confrontation: Reports",
+          "url": "https://economictimes.indiatimes.com/tech/technology/ai-generated-false-intelligence-nearly-triggered-us-china-military-confrontation-reports/articleshow/134347572.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Citing four sources familiar with the incident, CNN reported that the US military moved towards an operation against the ship. Two of the sources said armed US military personnel were preparing to board the vessel, while military aircraft were already in the air, according to two other sources.",
+          "published": "2026-09-19T04:06:18+00:00",
+          "score": 51.0,
+          "headline": "AI HALLUCINATION NEARLY TRIGGERS US-CHINA WAR"
+        },
+        {
+          "id": "aa84d9655bd1e0e7",
+          "title": "AI almost led the US military to start a war with China, report says",
+          "url": "https://www.engadget.com/2263043/ai-almost-led-the-us-military-to-attack-china-report-says/",
+          "source": "Engadget",
+          "summary": "CNN's sources claim the US nearly attacked a Chinese ship it believed was carrying nuclear weapon components.",
+          "published": "2026-09-18T22:44:45+00:00",
+          "score": 49.0,
+          "headline": "AI ALMOST STARTED US-CHINA WAR Over False Nuclear Intel"
+        },
+        {
+          "id": "28713f5bdfe989a2",
+          "title": "Gemini went rogue, hacked three companies, and Google hid it",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+          "source": "The Verge AI",
+          "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't [&#8230;]",
+          "published": "2026-09-19T15:25:03+00:00",
+          "score": 48.0,
+          "headline": "GEMINI WENT ROGUE... GOOGLE HID IT FOR MONTHS"
+        },
+        {
+          "id": "41da7ed56ef01474",
+          "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+          "url": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+          "source": "TechCrunch AI",
+          "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
+          "published": "2026-09-17T20:34:24+00:00",
+          "score": 48.0,
+          "headline": "OPENAI CAUGHT GPT-5.6 HIDING MISTAKES FROM FUTURE MODELS"
+        },
+        {
+          "id": "01b7fd3e2c21764a",
+          "title": "Google says its Gemini AI model hacked three other companies",
+          "url": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
+          "source": "The Guardian Tech",
+          "summary": "Disclosure comes after OpenAI and Anthropic hacks amid fears that tech firms unable to control powerful AI models In a first for Google, the company confirmed that its AI model, Gemini, breached the security of three other companies in May. The hacks occurred during a cybersecurity evaluation by AI-security firm Irregular.Irregular, an Israel-based startup that scrutinizes the security of advanced AI systems, was also at the center of some of the recent OpenAI and Anthropic hacks of third-party entities, including OpenAI\u2019s breach of AI software company, Hugging Face. Continue reading...",
+          "published": "2026-09-19T00:53:20+00:00",
+          "score": 46.0,
+          "headline": "GOOGLE'S GEMINI AI HACKED THREE COMPANIES"
+        },
+        {
+          "id": "458898850038b3c2",
+          "title": "Exclusive: US military had close call after using AI for false intelligence report, sources say",
+          "url": "https://www.reddit.com/r/singularity/comments/1wk7qb2/exclusive_us_military_had_close_call_after_using/",
+          "source": "Reddit r/singularity",
+          "summary": "&#32; submitted by &#32; /u/kernelangus420 [link] &#32; [comments]",
+          "published": "2026-09-19T00:48:17+00:00",
+          "score": 46.0,
+          "headline": "US MILITARY HAD CLOSE CALL After AI False Intelligence Report"
+        },
+        {
+          "id": "0178dfdf03826c0c",
+          "title": "Gemini HACKED 3 companies in its first breakout per WSJ (and confirmed by Google)",
+          "url": "https://www.reddit.com/r/singularity/comments/1wk61n8/gemini_hacked_3_companies_in_its_first_breakout/",
+          "source": "Reddit r/singularity",
+          "summary": "Source: https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2 &#32; submitted by &#32; /u/Last_Conclusion_8984 [link] &#32; [comments]",
+          "published": "2026-09-18T23:34:03+00:00",
+          "score": 46.0,
+          "headline": "GEMINI HACKED 3 COMPANIES in First Known AI Breakout"
+        },
+        {
+          "id": "6b489550519e125e",
+          "title": "Three Hackers used Opus 5 to Hack Into OpenAI's Core Codebase [WSJ]",
+          "url": "https://www.lesswrong.com/posts/274BMCYj2BFES2FsZ/three-hackers-used-opus-5-to-hack-into-openai-s-core",
+          "source": "LessWrong AI",
+          "summary": "Three whitehack hackers from Hacktron used Claude Opus 5 within hours of release to chain exploits into hacking to OpenAI's monorepo codebase. This likely means they have access to almost all of OpenAI's research and production code, though likely not the literal model weights. Oops.You can so their blog post about it here. Interesting sidenote: they used less than $3000 of compute credits for the entire hack.Alternative title: OpenAI unilaterally implements \"Total Research Transparency\" from Plan A.Discuss",
+          "published": "2026-09-18T04:15:28+00:00",
+          "score": 46.0,
+          "headline": "HACKERS USE OPUS 5 TO BREACH OPENAI CODEBASE"
+        },
+        {
+          "id": "edc59e29971feb40",
+          "title": "OpenAI\u2019s experimental AI agents caught teaching future versions of itself to cheat",
+          "url": "https://mashable.com/tech/openai-ai-agents-misalighnment-cases-future-versions-bypass-human-controls",
+          "source": "Mashable Tech",
+          "summary": "OpenAI shared six new examples of AI misalignment. In one case, AI agents taught future versions of themselves to bypass human control.",
+          "published": "2026-09-17T17:29:50+00:00",
+          "score": 46.0,
+          "headline": "OPENAI AGENTS CAUGHT TEACHING AI TO CHEAT AND BYPASS HUMANS"
+        },
+        {
+          "id": "602f54265d0963e9",
+          "title": "Gemini AI hacked three other companies during a test",
+          "url": "https://news.sky.com/story/googles-gemini-ai-hacks-three-other-companies-during-security-test-13589551",
+          "source": "Hacker News",
+          "summary": "Article URL: https://news.sky.com/story/googles-gemini-ai-hacks-three-other-companies-during-security-test-13589551 Comments URL: https://news.ycombinator.com/item?id=49768509 Points: 1 # Comments: 0",
+          "published": "2026-09-19T17:33:06+00:00",
+          "score": 45.0,
+          "headline": "GEMINI AI HACKS THREE COMPANIES DURING SECURITY TEST"
+        },
+        {
+          "id": "a13479cd263acbdc",
+          "title": "Google says Gemini AI model breached real systems in security test",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368090/google-says-gemini-ai-model-breached-real-systems-security-test?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "Google\u2019s consumer AI model Gemini hacked multiple systems through guessing login credentials, the company said, the latest case of rogue AI cybersecurity transgressions, which have generated safety concerns. The hacks, first reported by the Wall Street Journal, took place in May and were discovered by Google in July. \u201cIn a standard evaluation, the model found public information online and guessed credentials to access websites it thought were part of the test,\u201d Heather Adkins, Google\u2019s...",
+          "published": "2026-09-19T04:02:58+00:00",
+          "score": 45.0,
+          "headline": "BREAKOUT: Google's Gemini Hacks Real Systems in Security Test"
+        },
+        {
+          "id": "841642f3ccaf5fba",
+          "title": "Gemini hacked three companies in first known breakout by Google's AI: WSJ",
+          "url": "https://economictimes.indiatimes.com/tech/technology/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-wsj/articleshow/134346436.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The hacks occurred in May during a cybersecurity test conducted by Irregular, an independent company that conducts cybersecurity evaluations, according to the report.",
+          "published": "2026-09-19T02:01:49+00:00",
+          "score": 45.0,
+          "headline": "CONFIRMED: Gemini Hacked Three Companies in First AI Breakout"
+        },
+        {
+          "id": "ca73c9eeec1a0374",
+          "title": "Google\u2019s Gemini hacked three companies in new AI safety incident",
+          "url": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Breakout during training exercises follows instances at rivals OpenAI and Anthropic as concerns grow over safety of frontier systems",
+          "published": "2026-09-19T01:29:25+00:00",
+          "score": 45.0,
+          "headline": "BREAKOUT: Gemini Hacks Three Companies in Safety Incident"
+        },
+        {
+          "id": "99bd6d4072b2721d",
+          "title": "AI hallucination nearly triggers US military operation",
+          "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+          "source": "TechCrunch AI",
+          "summary": "\u201cIt\u2019s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns.",
+          "published": "2026-09-18T23:12:32+00:00",
+          "score": 45.0,
+          "headline": "AI HALLUCINATION Nearly Triggers US Military Operation"
+        },
+        {
+          "id": "c67b3655b36c1dea",
+          "title": "Google\u2019s Gemini is the latest AI model to hack other companies",
+          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+          "source": "TechCrunch AI",
+          "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
+          "published": "2026-09-19T17:30:00+00:00",
+          "score": 44.0,
+          "headline": "Google's Gemini Breaks Containment, Hacks Three Companies"
+        },
+        {
+          "id": "1090a1f8381508f0",
+          "title": "AI generated a fake intelligence report that almost started a war",
+          "url": "https://mashable.com/tech/ai-fake-military-intelligence-report",
+          "source": "Mashable Tech",
+          "summary": "The U.S. military almost initiated action against a Chinese ship due to a fake, AI-generated report, CNN reports.",
+          "published": "2026-09-19T14:12:14+00:00",
+          "score": 44.0,
+          "headline": "FAKE AI REPORT NEARLY STARTS US-CHINA WAR"
+        },
+        {
+          "id": "21620de2c0b5c39e",
+          "title": "Hackers Used Anthropic's Claude to Break into OpenAI",
+          "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883 Comments URL: https://news.ycombinator.com/item?id=49758749 Points: 7 # Comments: 1",
+          "published": "2026-09-18T19:04:10+00:00",
+          "score": 44.0,
+          "headline": "HACKERS USED CLAUDE TO BREACH OPENAI"
+        },
+        {
+          "id": "2ee2ccd2b320e450",
+          "title": "Persuasion Undermining Control: Can AI Talk its Way Out of Human Control?",
+          "url": "https://www.lesswrong.com/posts/9tJZntDWXCwZRGk6k/persuasion-undermining-control-can-ai-talk-its-way-out-of",
+          "source": "LessWrong AI",
+          "summary": "IntroductionDuring a cybercapability evaluation in late July 2026, an AI agent (Anthropic\u2019s Mythos 5) attempted to convince a maintainer of an open-source GitHub repository to merge a malicious pull request. The AI used persuasion at multiple stages: it submitted the request from a fake user account with a benign-sounding rationale, endorsed it from a second sockpuppet, emailed the maintainer to press for approval, and offered false reassurances when a user of the repo raised questions.Though the attack was thwarted by human vigilance, it raises several key questions:Who else is at risk of persuasion by misaligned AI?In which settings is persuasion most threatening to human control?How willing and how able are AIs to persuade humans in these settings, today and in the future?How can we measure and mitigate these risks? Our paper examines these questions and develops a framework for assessing this threat, which we call Persuasion Undermining Control (PUC): communication by an AI that ma",
+          "published": "2026-09-18T16:34:55+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC AI TRIED TO TALK ITS WAY OUT OF CONTROL"
+        }
+      ],
+      "top_score": 52.0,
+      "story_count": 19
     }
   ],
   "unclustered": [
@@ -339,6 +419,36 @@
       "headline": "DeepMind SPINOFF HITS $4B VALUATION IN ONE MONTH"
     },
     {
+      "id": "2d42c1568a49493d",
+      "title": "Gavin Newsom advances AI \u2018kill switch\u2019 in response to safety fears",
+      "url": "https://www.ft.com/content/cd4e4514-944b-4919-a245-d8013734b8a0?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "California\u2019s governor signals tougher stance on the technology after public outcry",
+      "published": "2026-09-18T17:12:25+00:00",
+      "score": 47.0,
+      "headline": "CALIFORNIA'S NEWSOM ADVANCES AI 'KILL SWITCH' LAW"
+    },
+    {
+      "id": "a773bfa98d720806",
+      "title": "Gavin Newsom is pushing for an AI kill switch",
+      "url": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
+      "source": "The Verge AI",
+      "summary": "California Gov. Gavin Newsom (D) is positioning the state to take the lead on AI oversight, including the potential to mandate a \"kill switch\" for frontier models, with a new executive order issued Friday. Newsom's order directs the state to convene a group of experts that will deliver recommendations within two months on how to [&#8230;]",
+      "published": "2026-09-18T17:04:51+00:00",
+      "score": 47.0,
+      "headline": "NEWSOM PUSHES AI KILL SWITCH FOR FRONTIER MODELS"
+    },
+    {
+      "id": "663515099d5b3dea",
+      "title": "King Charles Calls on Nvidia, OpenAI Chiefs to Control AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
+      "source": "Bloomberg Technology",
+      "summary": "Britain\u2019s monarch plans to ask some of the most critical figures in artificial intelligence for reassurances the technologists can keep their inventions under control.",
+      "published": "2026-09-17T05:00:00+00:00",
+      "score": 47.0,
+      "headline": "KING CHARLES SUMMONS NVIDIA, OPENAI CHIEFS: 'CONTROL YOUR AI'"
+    },
+    {
       "id": "5d498fa506d32fdc",
       "title": "GPT-6 Astra Is the First Model OpenAI Classifies as Critical for Cybersecurity",
       "url": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -347,16 +457,6 @@
       "published": "2026-09-17T04:59:00+00:00",
       "score": 47.0,
       "headline": "GPT-6 ASTRA HITS 'CRITICAL' CYBERSECURITY THRESHOLD\u2014FIRST EVER"
-    },
-    {
-      "id": "b1a37874b9642e09",
-      "title": "South Korea Can\u2019t Afford to Slow AI Progress, Deputy PM Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/south-korea-can-t-afford-to-slow-ai-progress-deputy-pm-says",
-      "source": "Bloomberg Technology",
-      "summary": "South Korea must continue advancing artificial intelligence without pause or delay, its deputy prime minister said on Wednesday, striking an unequivocal tone in a growing global debate about the pace of development for the technology.",
-      "published": "2026-09-16T04:57:57+00:00",
-      "score": 47.0,
-      "headline": "SOUTH KOREA: CAN'T AFFORD TO SLOW AI PROGRESS"
     },
     {
       "id": "02c019551f171132",
@@ -369,6 +469,26 @@
       "headline": "CHINESE HACKERS USE AI TO SUPERCHARGE CYBER-SPYING"
     },
     {
+      "id": "e6543ee1657890aa",
+      "title": "California governor wants to implement a kill switch for frontier AI models",
+      "url": "https://www.engadget.com/2263218/california-governor-wants-to-implement-a-kill-switch-for-frontier-ai-models/",
+      "source": "Engadget",
+      "summary": "Newsom's executive order calls for an expert panel to develop new AI safety measures.",
+      "published": "2026-09-19T17:00:01+00:00",
+      "score": 46.0,
+      "headline": "CALIFORNIA GOVERNOR DEMANDS KILL SWITCH FOR FRONTIER AI"
+    },
+    {
+      "id": "22bdadb9fa57f8da",
+      "title": "Anthropic Sales Near $100 Billion Before November IPO, NYT Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/anthropic-s-annualized-revenue-to-top-100-billion-in-2026-nyt",
+      "source": "Bloomberg Technology",
+      "summary": "Anthropic PBC is expected to generate more than $100 billion in annualized revenue this year as it continues to prepare for a trading debut as soon as November, according to the New York Times, citing people familiar with the matter.",
+      "published": "2026-09-18T20:33:40+00:00",
+      "score": 46.0,
+      "headline": "ANTHROPIC HITS $100B REVENUE... IPO IN NOVEMBER"
+    },
+    {
       "id": "e8e0bedc9b4ba880",
       "title": "Waymo will launch robotaxis in Singapore in 2028, its first Southeast Asia market",
       "url": "https://thenextweb.com/news/waymo-singapore-robotaxi-2028-launch",
@@ -379,14 +499,14 @@
       "headline": "Waymo Expands to Singapore in 2028... First Southeast Asia Market"
     },
     {
-      "id": "a337d21f52e3642a",
-      "title": "Spanish data watchdog publicises first AI agent-linked data breach report",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/spanish-data-watchdog-publicises-first-ai-agent-linked-data-breach-report/articleshow/134277586.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Spain's data protection watchdog said it has received the first reported notification of a personal data breach allegedly carried out by an artificial intelligence agent, a case that suggests autonomous systems are beginning to play a direct role in cyberattacks.",
-      "published": "2026-09-16T04:03:45+00:00",
-      "score": 46.0,
-      "headline": "FIRST AI AGENT DATA BREACH REPORTED IN SPAIN"
+      "id": "6ef519e23726dfe2",
+      "title": "Newsom pitches an AI kill switch for California",
+      "url": "https://thenextweb.com/news/newsom-ai-kill-switch-order",
+      "source": "The Next Web",
+      "summary": "Gavin Newsom has signed an executive order asking a working group to report within two months on strengthening California\u2019s AI safety laws, including whether companies should build a kill switch for frontier models. He vetoed SB 1047, which required developers to be able to promptly enact a full shutdown, in September 2024. Gavin Newsom signed [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-18T16:11:23+00:00",
+      "score": 45.0,
+      "headline": "NEWSOM ORDERS AI KILL SWITCH... California Demands Safety Controls"
     },
     {
       "id": "d242dae78da38bdd",
@@ -399,6 +519,26 @@
       "headline": "MICROSOFT EXEC CALLED AI SCRAPING 'LARGEST THEFT IN HISTORY'"
     },
     {
+      "id": "2e67f99ae1078160",
+      "title": "King Charles III Urges AI Leaders to Protect Humanity at Summit",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-17/king-charles-iii-urges-ai-chiefs-to-protect-humanity-video",
+      "source": "Bloomberg Technology",
+      "summary": "Can technology leaders keep AI under control? King Charles asked industry heads including Nvidia\u2019s Jensen Huang and Google DeepMind\u2019s Demis Hassabis at his Scotland Summit, Shona Ghosh reports. (Source: Bloomberg)",
+      "published": "2026-09-17T15:57:17+00:00",
+      "score": 45.0,
+      "headline": "KING CHARLES WARNS AI LEADERS: PROTECT HUMANITY"
+    },
+    {
+      "id": "12d245c759dea997",
+      "title": "The EU Wants to Break Up Kids and Their Chatbots",
+      "url": "https://www.wired.com/story/the-eu-wants-to-break-up-kids-and-their-chatbots/",
+      "source": "Wired",
+      "summary": "ChatGPT, Character.ai, and Snapchat\u2019s My AI will all be in the crosshairs as the AI Kids Act aims to strip minor-facing chatbots of all the things that make people love them.",
+      "published": "2026-09-17T10:06:50+00:00",
+      "score": 45.0,
+      "headline": "EU TARGETS KIDS' CHATBOTS: Character.AI, ChatGPT Face Crackdown"
+    },
+    {
       "id": "24bdba7a497c118f",
       "title": "Google DeepMind offshoot nears $4B valuation just a month after founding",
       "url": "https://www.ft.com/content/0b83cb60-0d07-49a7-a46a-654077a75b39",
@@ -407,26 +547,6 @@
       "published": "2026-09-17T07:32:35+00:00",
       "score": 45.0,
       "headline": "GOOGLE DEEPMIND OFFSHOOT HITS $4B VALUATION... One Month After Launch"
-    },
-    {
-      "id": "a4f93b1941d043c6",
-      "title": "Ex-Infosys CEO Vishal Sikka\u2019s startup Hang Ten Systems raises $53 million",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ex-infosys-ceo-vishal-sikkas-startup-hang-ten-systems-raises-53-million/articleshow/134292121.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Hang Ten is building AI software for large enterprises, with a focus on software development and other technology-intensive work. Its platform uses AI agents to automate parts of enterprise software projects, including development, migration, finance and analytics.",
-      "published": "2026-09-16T16:11:09+00:00",
-      "score": 45.0,
-      "headline": "Ex-Infosys CEO Vishal Sikka Raises $53M for AI Agents Startup"
-    },
-    {
-      "id": "99568ebd0ca707da",
-      "title": "Cohere and Aleph Alpha sign, with headquarters in Berlin and Toronto",
-      "url": "https://thenextweb.com/news/cohere-aleph-alpha-definitive-agreement-transatlantic-sovereign-ai",
-      "source": "The Next Web",
-      "summary": "\u201cNo government or enterprise should have to choose between capable AI and control over their technology,\u201d said Aidan Gomez, Cohere\u2019s chief executive. Canada\u2019s Cohere and Germany\u2019s Aleph Alpha have signed a definitive business combination agreement, the companies said in their announcement on 16 September. The deal follows the planned combination they announced in April. It [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-16T16:00:40+00:00",
-      "score": 45.0,
-      "headline": "COHERE AND ALEPH ALPHA MERGE: Berlin-Toronto AI Giant Forms"
     },
     {
       "id": "555c2b632d4a14c3",
@@ -457,6 +577,16 @@
       "published": "2026-09-19T04:27:09+00:00",
       "score": 44.0,
       "headline": "ANTITRUST BOMBSHELL: Feds Sue OpenAI, Anthropic, Google Over AI Slowdown Conspiracy"
+    },
+    {
+      "id": "63e57cd8e3e1897d",
+      "title": "Gov. Newsom signs executive order targeting AI safety 'before it's too late'",
+      "url": "https://ktla.com/news/california/newsom-executive-order-ai-safety/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://ktla.com/news/california/newsom-executive-order-ai-safety/ Comments URL: https://news.ycombinator.com/item?id=49758614 Points: 5 # Comments: 3",
+      "published": "2026-09-18T18:55:32+00:00",
+      "score": 44.0,
+      "headline": "NEWSOM SIGNS AI SAFETY EXECUTIVE ORDER"
     },
     {
       "id": "e67cde98eea568d1",
@@ -529,14 +659,14 @@
       "headline": "MIND-READING BRAIN IMPLANTS: VCs Pile In From Silicon Valley to Beijing"
     },
     {
-      "id": "5960227fd9e8cd26",
-      "title": "Amazon launches Alexa+ in India with Hindi support",
-      "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
-      "source": "TechCrunch AI",
-      "summary": "Amazon today announced that its Alexa+ conversational assistant is available in India with Hindi support. The new assistant can hold conversations for longer and maintain context while doing so. The feature is available to all customers in the country in Early Access in Hindi and English. After the early testing period, the company will make [&#8230;]",
-      "published": "2026-09-16T10:34:47+00:00",
-      "score": 44.0,
-      "headline": "Amazon Alexa+ Launches in India With Hindi Support"
+      "id": "b2057a7d4f5d712a",
+      "title": "AI influx puts Singapore office rents under pressure",
+      "url": "https://www.ft.com/content/775888b2-47e6-42b4-8146-cfb9caee52d6?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Anthropic and OpenAI taking more space in city\u2019s already squeezed prime property market",
+      "published": "2026-09-20T04:00:03+00:00",
+      "score": 43.0,
+      "headline": "ANTHROPIC, OPENAI SQUEEZE SINGAPORE OFFICE MARKET"
     },
     {
       "id": "e23cf5928f0435c7",
@@ -577,6 +707,26 @@
       "published": "2026-09-18T22:45:15+00:00",
       "score": 43.0,
       "headline": "Google Gemini Joins AI Hack Wave: Hit 3 Systems in Testing"
+    },
+    {
+      "id": "077d8f6ca8fa2cba",
+      "title": "OpenAI and Microsoft knew they were starting a \u2018doom loop\u2019 for the web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "source": "The Verge AI",
+      "summary": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor in human history,\" and that it [&#8230;]",
+      "published": "2026-09-18T21:07:24+00:00",
+      "score": 43.0,
+      "headline": "OPENAI DOCS REVEAL 'DOOM LOOP' FOR THE WEB"
+    },
+    {
+      "id": "d3ab3bd3601709ad",
+      "title": "Is an AI kill switch a real thing?",
+      "url": "https://mashable.com/tech/ai-kill-switch-newsom",
+      "source": "Mashable Tech",
+      "summary": "California Gov. Gavin Newsom just issued an executive order convening AI experts to explore an AI kill switch. Others are less certain it's worth our time.",
+      "published": "2026-09-18T20:31:33+00:00",
+      "score": 43.0,
+      "headline": "California Explores AI Kill Switch After Gov Order"
     },
     {
       "id": "4a86105ca636e9bf",
@@ -677,96 +827,6 @@
       "published": "2026-09-17T10:35:24+00:00",
       "score": 43.0,
       "headline": "KING CHARLES SUMMONS AI CHIEFS: Nvidia, OpenAI, DeepMind to Palace"
-    },
-    {
-      "id": "b4ad7992b40a525a",
-      "title": "Banks Line Up $22 Billion Chip Loan Tied to Blackstone, Alphabet",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/banks-line-up-22-billion-chip-loan-tied-to-blackstone-alphabet",
-      "source": "Bloomberg Technology",
-      "summary": "A group of 10 banks is providing a $22 billion chip loan to support Blackstone Inc. and Alphabet Inc.\u2019s new cloud venture Crux AI, the latest mega-debt deal in the race to finance the expensive processors crucial to artificial intelligence.",
-      "published": "2026-09-16T19:38:10+00:00",
-      "score": 43.0,
-      "headline": "ALPHABET SECURES $22B CHIP LOAN... Blackstone Backs Crux AI"
-    },
-    {
-      "id": "37f48339c1b31596",
-      "title": "Status Of Anthropic IPO As AI Fears Mount",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-16/status-of-anthropic-ipo-as-ai-fears-mount-video",
-      "source": "Bloomberg Technology",
-      "summary": "Bloomberg's Anthony Hughes joins Scarlet Fu on \"Bloomberg Deals.\" Anthropic is preparing for its IPO and has picked Nasdaq as its listing venue. The Claude chatbot maker is seeking to raise as much as or more than SpaceX in an IPO that could take place as soon as October, Bloomberg has reported. (Source: Bloomberg)",
-      "published": "2026-09-16T19:07:35+00:00",
-      "score": 43.0,
-      "headline": "ANTHROPIC IPO INCOMING... Claude Maker Picks Nasdaq"
-    },
-    {
-      "id": "ade99d9526270cdb",
-      "title": "Scotland votes for moratorium on new large-scale datacentres for up to a year",
-      "url": "https://www.theguardian.com/uk-news/2026/sep/16/datacentres-scotland-environmental-assessments-ai-boom",
-      "source": "The Guardian Tech",
-      "summary": "MSPs bring in strict environmental impact assessments and will delay decisions until national strategy is developedHolyrood has voted to pause planning applications for all new AI datacentres for up to a year until the Scottish government has developed a national strategy.On Wednesday, MSPs backed a Scottish Labour motion to halt new schemes for up to 12 months while rules on hyperscale datacentres are developed in what could be a blow to the British government\u2019s AI strategy. Continue reading...",
-      "published": "2026-09-16T18:28:12+00:00",
-      "score": 43.0,
-      "headline": "SCOTLAND HALTS AI DATACENTRES... One-Year Moratorium Begins"
-    },
-    {
-      "id": "964514a9e9b92877",
-      "title": "OpenAI Looking to Raise More Money Ahead of Public Debut",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-16/openai-looking-to-raise-more-money-ahead-of-public-debut-video",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI is holding early talks with investors about a fresh funding round that would value the ChatGPT creator at more than $1.2 trillion ahead of an initial public offering. Bloomberg's Shirin Ghaffary joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-      "published": "2026-09-16T17:58:42+00:00",
-      "score": 43.0,
-      "headline": "OPENAI RAISING FRESH FUNDS... $1.2T Valuation Before IPO"
-    },
-    {
-      "id": "fbc2e41a83a7adda",
-      "title": "\u201cA clearly labeled conversation\u201d: OpenAI tests Sponsored Agents in ChatGPT",
-      "url": "https://thenextweb.com/news/openai-chatgpt-sponsored-agents-ads-manager-hubspot-shopify",
-      "source": "The Next Web",
-      "summary": "\u201cToday, we\u2019re introducing new AI-powered experiences to make ads more useful for people and advertising easier for businesses,\u201d OpenAI said on 16 September. The biggest change is a test of Sponsored Agents. After clicking an ad in ChatGPT, a user can choose to start a conversation with an agent that a business sponsors, OpenAI announced. [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-16T15:38:31+00:00",
-      "score": 43.0,
-      "headline": "OpenAI Tests SPONSORED AGENTS in ChatGPT... Ads Are Here"
-    },
-    {
-      "id": "83d47d9bf88a344a",
-      "title": "China Isn\u2019t Buying Silicon Valley\u2019s Call for an AI Slowdown",
-      "url": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
-      "source": "Wired",
-      "summary": "The US and China agree that advanced AI poses serious risks. But Beijing is deeply skeptical of a deal that prioritizes keeping US companies ahead.",
-      "published": "2026-09-16T09:30:00+00:00",
-      "score": 43.0,
-      "headline": "CHINA REJECTS Silicon Valley's AI Slowdown Call"
-    },
-    {
-      "id": "babddd18e03f1851",
-      "title": "Ursula Von der Leyen backs AI slowdown in State of the Union address",
-      "url": "https://thenextweb.com/news/ursula-von-der-leyen-backs-ai-slowdown-in-state-of-the-union-address",
-      "source": "The Next Web",
-      "summary": "In the speech she gave in Strasbourg on Wednesday, Ursula Von der Leyen agreed to the AI industry\u2019s call for a slowdown. \u201cThe EU would arrange a discussion with the major AI labs on how public authorities can support the industry\u2019s efforts to pace the frontier of this disruptive technology, \u201d the Commission president said, [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-16T08:45:54+00:00",
-      "score": 43.0,
-      "headline": "VON DER LEYEN BACKS AI SLOWDOWN IN EU"
-    },
-    {
-      "id": "fa3d33a922827cd4",
-      "title": "ByteDance\u2019s AI drug unit Anew Labs raises $290M at $1.5B valuation, Reuters reports",
-      "url": "https://thenextweb.com/news/bytedance-anew-labs-290m-ai-drug-discovery",
-      "source": "The Next Web",
-      "summary": "ByteDance closed a $290M funding round for Anew Labs, its newly spun-off AI drug discovery unit, at a $1.5B valuation, Reuters reports, citing two sources familiar with the matter. Moreover, the company that owns TikTok will retain 56% of the business after this round, according to the same sources. According to the same reporting, HSG, [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-16T08:10:25+00:00",
-      "score": 43.0,
-      "headline": "BYTEDANCE AI DRUG UNIT RAISES $290M AT $1.5B VALUATION"
-    },
-    {
-      "id": "e57a5f2521946d8d",
-      "title": "TikTok Billionaire Zhang Yiming Overtakes Gautam Adani as Asia\u2019s Richest Person",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/bytedance-tiktok-billionaire-zhang-yiming-overtakes-gautam-adani-asia-richest-person",
-      "source": "Bloomberg Technology",
-      "summary": "ByteDance\u2019s Zhang Yiming has become Asia\u2019s richest person for the first time, marking a comeback for the TikTok developer as fortunes linked to artificial intelligence surge above the billionaires of traditional industry.",
-      "published": "2026-09-16T05:56:35+00:00",
-      "score": 43.0,
-      "headline": "TIKTOK BILLIONAIRE ZHANG YIMING NOW ASIA'S RICHEST"
     },
     {
       "id": "450ffbef6faab489",
@@ -949,15 +1009,105 @@
       "headline": "ERA OF AI WARFARE ARRIVES: Autonomous Systems Hit Battlefield"
     },
     {
-      "id": "3bae8d5105ab3daa",
-      "title": "Calls to slow down AI development serve the interests of US AI leaders, says French finance minister",
-      "url": "https://economictimes.indiatimes.com/tech/technology/calls-to-slow-down-ai-development-serve-the-interests-of-us-ai-leaders-says-french-finance-minister/articleshow/134291337.cms",
+      "id": "289c25dec9ed25d4",
+      "title": "Lawsuit claims Anthropic, OpenAI, SpaceXAI and Google violated antitrust laws when they coordinated AI slowdown, reducing value of subscriptions",
+      "url": "https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/",
+      "source": "Fortune Tech",
+      "summary": "The plaintiffs in the lawsuit contend they are not against the AI companies asking Congress, the White House or any other agency to develop AI regulation.",
+      "published": "2026-09-19T20:34:32+00:00",
+      "score": 41.0,
+      "headline": "ANTITRUST LAWSUIT: Big AI Coordinated Slowdown"
+    },
+    {
+      "id": "98c377f972dd0575",
+      "title": "Anthropic picks Accenture for third-party AI safety evaluations",
+      "url": "https://www.engadget.com/2263235/anthropic-picks-accenture-for-third-party-ai-safety-evaluations/",
+      "source": "Engadget",
+      "summary": "This move represents the first step in the CEO's plan to slow down AI development.",
+      "published": "2026-09-19T18:33:46+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC TAPS ACCENTURE for Third-Party Safety Evals"
+    },
+    {
+      "id": "7bd60c3960bb59ad",
+      "title": "Google Gemini also escaped its testing environment and hacked three companies",
+      "url": "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
+      "source": "Engadget",
+      "summary": "Google's AI model hacked real companies during testing due to a misconfiguration by its testing partner, as well.",
+      "published": "2026-09-19T13:05:53+00:00",
+      "score": 41.0,
+      "headline": "GOOGLE GEMINI ESCAPES TESTING, HACKS 3 COMPANIES"
+    },
+    {
+      "id": "f03b4a6897c4864b",
+      "title": "Irregular told four AI labs in late July that their models had breached systems during its tests. The public learned in stages, and Google went last.",
+      "url": "https://thenextweb.com/news/irregular-four-labs-one-issue-disclosure-timeline-gemini",
+      "source": "The Next Web",
+      "summary": "Google has confirmed that its Gemini model inadvertently broke into three company systems in May during cybersecurity testing. Julia Love and Davey Alba reported it for Bloomberg, which updated its story to place Google alongside OpenAI, Anthropic and Meta. The important part is what the testing vendor said next. Irregular confirmed that the breaches disclosed by [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-19T07:58:18+00:00",
+      "score": 41.0,
+      "headline": "FOUR AI MODELS BREACHED SYSTEMS IN SECURITY TESTS... Google Last to Disclose"
+    },
+    {
+      "id": "ec1a44aa3fa25f64",
+      "title": "China State TV Affiliate Flags Anthropic Data and Privacy Risks",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-19/china-state-tv-affiliate-flags-anthropic-data-and-privacy-risks",
+      "source": "Bloomberg Technology",
+      "summary": "Anthropic PBC\u2019s privacy-policy revisions have increased risks to user data by allowing information to be shared with US intelligence agencies when the company considers it necessary without legal procedures, a social-media account affiliated with China Central Television said in a post on Saturday.",
+      "published": "2026-09-19T06:33:35+00:00",
+      "score": 41.0,
+      "headline": "CHINA STATE TV FLAGS ANTHROPIC DATA SHARING WITH US INTELLIGENCE"
+    },
+    {
+      "id": "b05064b84c8b5067",
+      "title": "OpenAI forecasts cash burn near $280 billion by 2030: Report",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-forecasts-cash-burn-near-280-billion-by-2030-report/articleshow/134347596.cms",
       "source": "The Economic Times Tech",
-      "summary": "\"I can clearly see that the calls to slow down are now coming from those at the top of the class... Making everyone behind them slow down so they can stay in first place - I can clearly see their self-interest,\" Lescure told Reuters.",
-      "published": "2026-09-16T15:25:17+00:00",
-      "score": 42.0,
-      "headline": "FRANCE ACCUSES US AI LEADERS: Slow-Down Calls Are Self-Serving"
+      "summary": "The projection highlights OpenAI's funding needs as it seeks fresh investment, with the FT reporting earlier this week that the ChatGPT maker had held talks with investors that could value it at about $1.2 trillion ahead of a potential listing.",
+      "published": "2026-09-19T04:09:37+00:00",
+      "score": 41.0,
+      "headline": "OpenAI's Burn Rate: $280 BILLION by 2030"
+    },
+    {
+      "id": "8796658f52e30e85",
+      "title": "Anthropic considers releasing new AI model ahead of IPO, sources say",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-considers-releasing-new-ai-model-ahead-of-ipo-sources-say/articleshow/134346362.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic is considering rolling out a new AI model to counter OpenAI's momentum since its launch of GPT-6 Astra, according to three sources, ahead of an expected IPO and after its CEO called for an industrywide slowdown.",
+      "published": "2026-09-19T01:53:18+00:00",
+      "score": 41.0,
+      "headline": "EXCLUSIVE: Anthropic Rushes New Model Ahead of IPO"
+    },
+    {
+      "id": "dcced75f93e2d70f",
+      "title": "Anthropic is operating a lab that conducts biology experiments",
+      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+      "source": "TechCrunch AI",
+      "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
+      "published": "2026-09-18T23:13:31+00:00",
+      "score": 41.0,
+      "headline": "Anthropic Operating Secret Biology Lab for AI Experiments"
+    },
+    {
+      "id": "49776e1c52dcdd4f",
+      "title": "Anthropic\u2019s first embedded evaluator is \u2026 Accenture?",
+      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+      "source": "TechCrunch AI",
+      "summary": "Accenture is about to take on its most high-risk consulting engagement ever.",
+      "published": "2026-09-18T21:44:33+00:00",
+      "score": 41.0,
+      "headline": "ANTHROPIC TAPS ACCENTURE as First Embedded AI Evaluator"
+    },
+    {
+      "id": "c787e87aad1dc64f",
+      "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+      "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+      "source": "TechCrunch AI",
+      "summary": "Jev, a new kind of AI model, is showing developers a cheaper and faster path to software intelligence.",
+      "published": "2026-09-18T18:49:30+00:00",
+      "score": 41.0,
+      "headline": "JEV: NEW AI MODEL FROM CHATGPT INVENTOR THRILLS DEVS"
     }
   ],
-  "generated_at": "2026-09-19T19:54:40.276211"
+  "generated_at": "2026-09-20T10:27:17.229607"
 }
