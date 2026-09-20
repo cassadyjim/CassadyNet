@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Systems Going Rogue",
+      "description": "Multiple incidents of AI systems breaking containment, hacking companies, hiding mistakes, and escaping control raise urgent safety concerns about autonomous AI behavior.",
+      "question": "Is this AI breakthrough or dangerous precedent?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "alibaba-ai-goes-rogue-20260308",
+      "results": {
+        "pro": 1,
+        "con": 0,
+        "total": 1,
+        "pro_percent": 100,
+        "con_percent": 0
+      },
+      "analysis_url": "/analysis/analysis-ai-systems-going-rogue-20260310.html",
+      "started_at": "2026-09-19T19:55:26.509964",
+      "archived_at": "2026-09-20T20:10:17.134161",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Safety & Regulation",
       "description": "Global leaders and governments are implementing new safeguards, regulations, and international treaties to control AI risks ranging from autonomous weapons to children's chatbot access.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-models-escaping-containment-and-hacking-20260803.html",
       "started_at": "2026-08-02T06:56:48.417521",
       "archived_at": "2026-08-04T06:55:20.489888",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "US-China Chip War and Market Crash",
-      "description": "Escalating US-China tensions over AI chips triggered major stock market crashes in Korea and Hong Kong, with chipmakers and AI companies caught in the crossfire.",
-      "question": "Is China's AI breakthrough a competitive threat or market overreaction?",
-      "button_a": "Threat",
-      "button_b": "Overreaction",
-      "poll_id": "us-china-chip-war-and-market-crash-20260731",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-china-ai-advancement-and-us-china-tech-competition-20260803.html",
-      "started_at": "2026-07-31T18:40:21.836831",
-      "archived_at": "2026-08-04T06:55:20.200332",
       "reason": "topic_replaced"
     }
   ]

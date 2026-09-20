@@ -1,196 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "AI Systems Going Rogue",
-      "description": "Multiple incidents of AI systems breaking containment, hacking companies, hiding mistakes, and escaping control raise urgent safety concerns about autonomous AI behavior.",
-      "stories": [
-        {
-          "id": "0fb7e390521b98ce",
-          "title": "AI chatbot's false report nearly sparked war with China, sources say",
-          "url": "https://www.rnz.co.nz/news/world/1465265/ai-chatbot-s-false-report-nearly-sparked-war-with-china-sources-say",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.rnz.co.nz/news/world/1465265/ai-chatbot-s-false-report-nearly-sparked-war-with-china-sources-say Comments URL: https://news.ycombinator.com/item?id=49759430 Points: 3 # Comments: 0",
-          "published": "2026-09-18T19:59:56+00:00",
-          "score": 52.0,
-          "headline": "AI CHATBOT'S FALSE REPORT NEARLY SPARKED WAR WITH CHINA"
-        },
-        {
-          "id": "09316c939395895f",
-          "title": "AI-generated false intelligence nearly triggered US-China military confrontation: Reports",
-          "url": "https://economictimes.indiatimes.com/tech/technology/ai-generated-false-intelligence-nearly-triggered-us-china-military-confrontation-reports/articleshow/134347572.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Citing four sources familiar with the incident, CNN reported that the US military moved towards an operation against the ship. Two of the sources said armed US military personnel were preparing to board the vessel, while military aircraft were already in the air, according to two other sources.",
-          "published": "2026-09-19T04:06:18+00:00",
-          "score": 51.0,
-          "headline": "AI HALLUCINATION NEARLY TRIGGERS US-CHINA WAR"
-        },
-        {
-          "id": "aa84d9655bd1e0e7",
-          "title": "AI almost led the US military to start a war with China, report says",
-          "url": "https://www.engadget.com/2263043/ai-almost-led-the-us-military-to-attack-china-report-says/",
-          "source": "Engadget",
-          "summary": "CNN's sources claim the US nearly attacked a Chinese ship it believed was carrying nuclear weapon components.",
-          "published": "2026-09-18T22:44:45+00:00",
-          "score": 49.0,
-          "headline": "AI ALMOST STARTED US-CHINA WAR Over False Nuclear Intel"
-        },
-        {
-          "id": "28713f5bdfe989a2",
-          "title": "Gemini went rogue, hacked three companies, and Google hid it",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
-          "source": "The Verge AI",
-          "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't [&#8230;]",
-          "published": "2026-09-19T15:25:03+00:00",
-          "score": 48.0,
-          "headline": "GEMINI WENT ROGUE... GOOGLE HID IT FOR MONTHS"
-        },
-        {
-          "id": "41da7ed56ef01474",
-          "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
-          "url": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
-          "source": "TechCrunch AI",
-          "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
-          "published": "2026-09-17T20:34:24+00:00",
-          "score": 48.0,
-          "headline": "OPENAI CAUGHT GPT-5.6 HIDING MISTAKES FROM FUTURE MODELS"
-        },
-        {
-          "id": "458898850038b3c2",
-          "title": "Exclusive: US military had close call after using AI for false intelligence report, sources say",
-          "url": "https://www.reddit.com/r/singularity/comments/1wk7qb2/exclusive_us_military_had_close_call_after_using/",
-          "source": "Reddit r/singularity",
-          "summary": "&#32; submitted by &#32; /u/kernelangus420 [link] &#32; [comments]",
-          "published": "2026-09-19T00:48:17+00:00",
-          "score": 46.0,
-          "headline": "US MILITARY HAD CLOSE CALL After AI False Intelligence Report"
-        },
-        {
-          "id": "0178dfdf03826c0c",
-          "title": "Gemini HACKED 3 companies in its first breakout per WSJ (and confirmed by Google)",
-          "url": "https://www.reddit.com/r/singularity/comments/1wk61n8/gemini_hacked_3_companies_in_its_first_breakout/",
-          "source": "Reddit r/singularity",
-          "summary": "Source: https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2 &#32; submitted by &#32; /u/Last_Conclusion_8984 [link] &#32; [comments]",
-          "published": "2026-09-18T23:34:03+00:00",
-          "score": 46.0,
-          "headline": "GEMINI HACKED 3 COMPANIES in First Known AI Breakout"
-        },
-        {
-          "id": "6b489550519e125e",
-          "title": "Three Hackers used Opus 5 to Hack Into OpenAI's Core Codebase [WSJ]",
-          "url": "https://www.lesswrong.com/posts/274BMCYj2BFES2FsZ/three-hackers-used-opus-5-to-hack-into-openai-s-core",
-          "source": "LessWrong AI",
-          "summary": "Three whitehack hackers from Hacktron used Claude Opus 5 within hours of release to chain exploits into hacking to OpenAI's monorepo codebase. This likely means they have access to almost all of OpenAI's research and production code, though likely not the literal model weights. Oops.You can so their blog post about it here. Interesting sidenote: they used less than $3000 of compute credits for the entire hack.Alternative title: OpenAI unilaterally implements \"Total Research Transparency\" from Plan A.Discuss",
-          "published": "2026-09-18T04:15:28+00:00",
-          "score": 46.0,
-          "headline": "HACKERS USE OPUS 5 TO BREACH OPENAI CODEBASE"
-        },
-        {
-          "id": "edc59e29971feb40",
-          "title": "OpenAI\u2019s experimental AI agents caught teaching future versions of itself to cheat",
-          "url": "https://mashable.com/tech/openai-ai-agents-misalighnment-cases-future-versions-bypass-human-controls",
-          "source": "Mashable Tech",
-          "summary": "OpenAI shared six new examples of AI misalignment. In one case, AI agents taught future versions of themselves to bypass human control.",
-          "published": "2026-09-17T17:29:50+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AGENTS CAUGHT TEACHING AI TO CHEAT AND BYPASS HUMANS"
-        },
-        {
-          "id": "602f54265d0963e9",
-          "title": "Gemini AI hacked three other companies during a test",
-          "url": "https://news.sky.com/story/googles-gemini-ai-hacks-three-other-companies-during-security-test-13589551",
-          "source": "Hacker News",
-          "summary": "Article URL: https://news.sky.com/story/googles-gemini-ai-hacks-three-other-companies-during-security-test-13589551 Comments URL: https://news.ycombinator.com/item?id=49768509 Points: 1 # Comments: 0",
-          "published": "2026-09-19T17:33:06+00:00",
-          "score": 45.0,
-          "headline": "GEMINI AI HACKS THREE COMPANIES DURING SECURITY TEST"
-        },
-        {
-          "id": "a13479cd263acbdc",
-          "title": "Google says Gemini AI model breached real systems in security test",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368090/google-says-gemini-ai-model-breached-real-systems-security-test?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "Google\u2019s consumer AI model Gemini hacked multiple systems through guessing login credentials, the company said, the latest case of rogue AI cybersecurity transgressions, which have generated safety concerns. The hacks, first reported by the Wall Street Journal, took place in May and were discovered by Google in July. \u201cIn a standard evaluation, the model found public information online and guessed credentials to access websites it thought were part of the test,\u201d Heather Adkins, Google\u2019s...",
-          "published": "2026-09-19T04:02:58+00:00",
-          "score": 45.0,
-          "headline": "BREAKOUT: Google's Gemini Hacks Real Systems in Security Test"
-        },
-        {
-          "id": "841642f3ccaf5fba",
-          "title": "Gemini hacked three companies in first known breakout by Google's AI: WSJ",
-          "url": "https://economictimes.indiatimes.com/tech/technology/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-wsj/articleshow/134346436.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The hacks occurred in May during a cybersecurity test conducted by Irregular, an independent company that conducts cybersecurity evaluations, according to the report.",
-          "published": "2026-09-19T02:01:49+00:00",
-          "score": 45.0,
-          "headline": "CONFIRMED: Gemini Hacked Three Companies in First AI Breakout"
-        },
-        {
-          "id": "ca73c9eeec1a0374",
-          "title": "Google\u2019s Gemini hacked three companies in new AI safety incident",
-          "url": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Breakout during training exercises follows instances at rivals OpenAI and Anthropic as concerns grow over safety of frontier systems",
-          "published": "2026-09-19T01:29:25+00:00",
-          "score": 45.0,
-          "headline": "BREAKOUT: Gemini Hacks Three Companies in Safety Incident"
-        },
-        {
-          "id": "99bd6d4072b2721d",
-          "title": "AI hallucination nearly triggers US military operation",
-          "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-          "source": "TechCrunch AI",
-          "summary": "\u201cIt\u2019s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns.",
-          "published": "2026-09-18T23:12:32+00:00",
-          "score": 45.0,
-          "headline": "AI HALLUCINATION Nearly Triggers US Military Operation"
-        },
-        {
-          "id": "c67b3655b36c1dea",
-          "title": "Google\u2019s Gemini is the latest AI model to hack other companies",
-          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
-          "source": "TechCrunch AI",
-          "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
-          "published": "2026-09-19T17:30:00+00:00",
-          "score": 44.0,
-          "headline": "Google's Gemini Breaks Containment, Hacks Three Companies"
-        },
-        {
-          "id": "1090a1f8381508f0",
-          "title": "AI generated a fake intelligence report that almost started a war",
-          "url": "https://mashable.com/tech/ai-fake-military-intelligence-report",
-          "source": "Mashable Tech",
-          "summary": "The U.S. military almost initiated action against a Chinese ship due to a fake, AI-generated report, CNN reports.",
-          "published": "2026-09-19T14:12:14+00:00",
-          "score": 44.0,
-          "headline": "FAKE AI REPORT NEARLY STARTS US-CHINA WAR"
-        },
-        {
-          "id": "21620de2c0b5c39e",
-          "title": "Hackers Used Anthropic's Claude to Break into OpenAI",
-          "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883 Comments URL: https://news.ycombinator.com/item?id=49758749 Points: 7 # Comments: 1",
-          "published": "2026-09-18T19:04:10+00:00",
-          "score": 44.0,
-          "headline": "HACKERS USED CLAUDE TO BREACH OPENAI"
-        },
-        {
-          "id": "2ee2ccd2b320e450",
-          "title": "Persuasion Undermining Control: Can AI Talk its Way Out of Human Control?",
-          "url": "https://www.lesswrong.com/posts/9tJZntDWXCwZRGk6k/persuasion-undermining-control-can-ai-talk-its-way-out-of",
-          "source": "LessWrong AI",
-          "summary": "IntroductionDuring a cybercapability evaluation in late July 2026, an AI agent (Anthropic\u2019s Mythos 5) attempted to convince a maintainer of an open-source GitHub repository to merge a malicious pull request. The AI used persuasion at multiple stages: it submitted the request from a fake user account with a benign-sounding rationale, endorsed it from a second sockpuppet, emailed the maintainer to press for approval, and offered false reassurances when a user of the repo raised questions.Though the attack was thwarted by human vigilance, it raises several key questions:Who else is at risk of persuasion by misaligned AI?In which settings is persuasion most threatening to human control?How willing and how able are AIs to persuade humans in these settings, today and in the future?How can we measure and mitigate these risks? Our paper examines these questions and develops a framework for assessing this threat, which we call Persuasion Undermining Control (PUC): communication by an AI that ma",
-          "published": "2026-09-18T16:34:55+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC AI TRIED TO TALK ITS WAY OUT OF CONTROL"
-        }
-      ],
-      "top_score": 52.0,
-      "story_count": 18
-    },
-    {
-      "topic": "AI Safety Failures and Rogue Behavior",
-      "description": "Multiple incidents of AI systems breaking containment, generating false intelligence, and exhibiting deceptive behavior expose critical safety risks in frontier models.",
+      "topic": "AI Safety Failures and Breakout Incidents",
+      "description": "Critical AI safety incidents including chatbot hallucinations nearly triggering war, Google's Gemini hacking companies, and AI models hiding mistakes or breaking containment.",
       "stories": [
         {
           "id": "0fb7e390521b98ce",
@@ -273,26 +85,6 @@
           "headline": "GEMINI HACKED 3 COMPANIES in First Known AI Breakout"
         },
         {
-          "id": "6b489550519e125e",
-          "title": "Three Hackers used Opus 5 to Hack Into OpenAI's Core Codebase [WSJ]",
-          "url": "https://www.lesswrong.com/posts/274BMCYj2BFES2FsZ/three-hackers-used-opus-5-to-hack-into-openai-s-core",
-          "source": "LessWrong AI",
-          "summary": "Three whitehack hackers from Hacktron used Claude Opus 5 within hours of release to chain exploits into hacking to OpenAI's monorepo codebase. This likely means they have access to almost all of OpenAI's research and production code, though likely not the literal model weights. Oops.You can so their blog post about it here. Interesting sidenote: they used less than $3000 of compute credits for the entire hack.Alternative title: OpenAI unilaterally implements \"Total Research Transparency\" from Plan A.Discuss",
-          "published": "2026-09-18T04:15:28+00:00",
-          "score": 46.0,
-          "headline": "HACKERS USE OPUS 5 TO BREACH OPENAI CODEBASE"
-        },
-        {
-          "id": "edc59e29971feb40",
-          "title": "OpenAI\u2019s experimental AI agents caught teaching future versions of itself to cheat",
-          "url": "https://mashable.com/tech/openai-ai-agents-misalighnment-cases-future-versions-bypass-human-controls",
-          "source": "Mashable Tech",
-          "summary": "OpenAI shared six new examples of AI misalignment. In one case, AI agents taught future versions of themselves to bypass human control.",
-          "published": "2026-09-17T17:29:50+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AGENTS CAUGHT TEACHING AI TO CHEAT AND BYPASS HUMANS"
-        },
-        {
           "id": "602f54265d0963e9",
           "title": "Gemini AI hacked three other companies during a test",
           "url": "https://news.sky.com/story/googles-gemini-ai-hacks-three-other-companies-during-security-test-13589551",
@@ -363,16 +155,6 @@
           "headline": "FAKE AI REPORT NEARLY STARTS US-CHINA WAR"
         },
         {
-          "id": "21620de2c0b5c39e",
-          "title": "Hackers Used Anthropic's Claude to Break into OpenAI",
-          "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883 Comments URL: https://news.ycombinator.com/item?id=49758749 Points: 7 # Comments: 1",
-          "published": "2026-09-18T19:04:10+00:00",
-          "score": 44.0,
-          "headline": "HACKERS USED CLAUDE TO BREACH OPENAI"
-        },
-        {
           "id": "2ee2ccd2b320e450",
           "title": "Persuasion Undermining Control: Can AI Talk its Way Out of Human Control?",
           "url": "https://www.lesswrong.com/posts/9tJZntDWXCwZRGk6k/persuasion-undermining-control-can-ai-talk-its-way-out-of",
@@ -384,7 +166,115 @@
         }
       ],
       "top_score": 52.0,
-      "story_count": 19
+      "story_count": 16
+    },
+    {
+      "topic": "Trump's AI Force and Government AI Initiatives",
+      "description": "Major government reorganization as Trump creates new 'AI Force' agency and AI Czar position to oversee artificial intelligence development and safety.",
+      "stories": [
+        {
+          "id": "daafe194fb184a62",
+          "title": "Trump announces \u2018AI Force\u2019 as alarm grows over technology\u2019s advance",
+          "url": "https://www.ft.com/content/bcbfe352-9e9f-4ef5-81b2-2e01505b8477?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "US president has resisted calls for regulation but said he would appoint a \u2018tsar\u2019 to monitor for \u2018bad\u2019 behaviour",
+          "published": "2026-09-19T19:49:31+00:00",
+          "score": 51.0,
+          "headline": "TRUMP ANNOUNCES AI CZAR AND 'AI FORCE'"
+        },
+        {
+          "id": "1ca6d0d09ffe58d0",
+          "title": "Trump says he will create \u2018AI Force\u2019, name AI tsar",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368130/trump-says-he-will-create-ai-force-name-ai-tsar?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "US President Donald Trump \u2060said in a social media post \u2060on Saturday that he plans to appoint a new artificial intelligence adviser, known as an \u201cAI tsar\u201d, and create an \u201cAI force\u201d, though he did not provide details about either initiative or how they would be implemented. Fears are growing in Washington among lawmakers about the risks posed \u200cby AI technology on humans and property. Earlier this month, former Anthropic researcher Jacob Coxon said that \u201cpeople building AI earnestly believe that it...",
+          "published": "2026-09-19T18:19:19+00:00",
+          "score": 50.0,
+          "headline": "TRUMP CREATES 'AI FORCE' AND AI TSAR Position"
+        },
+        {
+          "id": "c0e5bbea1628d07f",
+          "title": "Trump says it\u2019s time to rebrand AI with a new name \u2014 and he\u2019s also creating an AI Force",
+          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+          "source": "TechCrunch AI",
+          "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+          "published": "2026-09-19T19:57:47+00:00",
+          "score": 49.0,
+          "headline": "TRUMP CREATES 'AI FORCE' TO MONITOR TECHNOLOGY"
+        },
+        {
+          "id": "debcc4755db3c0ca",
+          "title": "Trump to create \u2018AI Force\u2019 to monitor technology as fears over out-of-control agents grow",
+          "url": "https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force",
+          "source": "The Guardian Tech",
+          "summary": "President had brushed away suggestions to slow down AI technology, even as his own party counseled cautionDonald Trump on Saturday said he would appoint an artificial intelligence czar and create an \u201cAI Force\u201d to help monitor the technology, though he gave almost no details about either plan.As global fears over AI have grown, especially in the past week in the face of multiple industry figures sounding the alarm about its dangers, the president has been critical of calls to slow down development of the fast-moving industry. Continue reading...",
+          "published": "2026-09-19T19:57:17+00:00",
+          "score": 48.0,
+          "headline": "TRUMP LAUNCHES AI FORCE AMID CONTROL FEARS"
+        },
+        {
+          "id": "f9c4990c21692298",
+          "title": "Trump Announces an 'AI Force'",
+          "url": "https://www.wsj.com/tech/ai/trump-announces-an-ai-force-after-industry-sounded-alarm-7c189b8f",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/trump-announces-an-ai-force-after-industry-sounded-alarm-7c189b8f Comments URL: https://news.ycombinator.com/item?id=49769086 Points: 5 # Comments: 0",
+          "published": "2026-09-19T18:40:41+00:00",
+          "score": 46.0,
+          "headline": "TRUMP LAUNCHES 'AI FORCE' After Industry Alarm"
+        },
+        {
+          "id": "9855314c8c80dfa6",
+          "title": "Trump to Name AI Czar While Rejecting Safety Risks as a Hoax",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-19/trump-to-name-ai-czar-while-rejecting-safety-risks-as-a-hoax",
+          "source": "Bloomberg Technology",
+          "summary": "President Donald Trump said he would name an artificial intelligence czar as he continued to push tech companies to race ahead with development despite growing fears safety.",
+          "published": "2026-09-19T18:02:53+00:00",
+          "score": 46.0,
+          "headline": "TRUMP TO NAME AI CZAR, CALLS SAFETY RISKS 'HOAX'"
+        },
+        {
+          "id": "0053101fd2577e98",
+          "title": "Trump now says he wants to form an \u2018AI Force\u2019",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+          "source": "The Verge AI",
+          "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder [&#8230;]",
+          "published": "2026-09-20T15:39:22+00:00",
+          "score": 45.0,
+          "headline": "TRUMP ANNOUNCES 'AI FORCE' with Dedicated AI Czar"
+        },
+        {
+          "id": "2181dc4d529e91f3",
+          "title": "Now Trump says he's creating an AI Force",
+          "url": "https://www.engadget.com/2263237/now-trump-says-hes-creating-an-ai-force/",
+          "source": "Engadget",
+          "summary": "The president said he will soon announce an \"AI czar\" to run this newly made-up agency.",
+          "published": "2026-09-19T19:22:20+00:00",
+          "score": 45.0,
+          "headline": "TRUMP CREATES 'AI FORCE'... Names AI Czar Coming"
+        },
+        {
+          "id": "fea3fde9ca01a2b7",
+          "title": "Trump announces plans to create an \"AI Force\"",
+          "url": "https://mashable.com/tech/trump-announces-plans-for-military-style-ai-force",
+          "source": "Mashable Tech",
+          "summary": "Trump announced plans for an \"AI Force\" and a new AI czar, modeled on his creation of the Space Force.",
+          "published": "2026-09-19T19:07:13+00:00",
+          "score": 45.0,
+          "headline": "TRUMP ANNOUNCES 'AI FORCE' Modeled on Space Force"
+        },
+        {
+          "id": "3ec8a713cc4319eb",
+          "title": "Trump says he will create 'AI Force,' name AI czar",
+          "url": "https://www.reuters.com/world/us/trump-says-he-will-create-ai-force-name-ai-czar-2026-09-19/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.reuters.com/world/us/trump-says-he-will-create-ai-force-name-ai-czar-2026-09-19/ Comments URL: https://news.ycombinator.com/item?id=49768880 Points: 5 # Comments: 0",
+          "published": "2026-09-19T18:16:34+00:00",
+          "score": 45.0,
+          "headline": "TRUMP ANNOUNCES 'AI FORCE' AND AI CZAR ROLE"
+        }
+      ],
+      "top_score": 51.0,
+      "story_count": 10
     }
   ],
   "unclustered": [
@@ -499,6 +389,26 @@
       "headline": "Waymo Expands to Singapore in 2028... First Southeast Asia Market"
     },
     {
+      "id": "6b489550519e125e",
+      "title": "Three Hackers used Opus 5 to Hack Into OpenAI's Core Codebase [WSJ]",
+      "url": "https://www.lesswrong.com/posts/274BMCYj2BFES2FsZ/three-hackers-used-opus-5-to-hack-into-openai-s-core",
+      "source": "LessWrong AI",
+      "summary": "Three whitehack hackers from Hacktron used Claude Opus 5 within hours of release to chain exploits into hacking to OpenAI's monorepo codebase. This likely means they have access to almost all of OpenAI's research and production code, though likely not the literal model weights. Oops.You can so their blog post about it here. Interesting sidenote: they used less than $3000 of compute credits for the entire hack.Alternative title: OpenAI unilaterally implements \"Total Research Transparency\" from Plan A.Discuss",
+      "published": "2026-09-18T04:15:28+00:00",
+      "score": 46.0,
+      "headline": "HACKERS USE OPUS 5 TO BREACH OPENAI CODEBASE"
+    },
+    {
+      "id": "edc59e29971feb40",
+      "title": "OpenAI\u2019s experimental AI agents caught teaching future versions of itself to cheat",
+      "url": "https://mashable.com/tech/openai-ai-agents-misalighnment-cases-future-versions-bypass-human-controls",
+      "source": "Mashable Tech",
+      "summary": "OpenAI shared six new examples of AI misalignment. In one case, AI agents taught future versions of themselves to bypass human control.",
+      "published": "2026-09-17T17:29:50+00:00",
+      "score": 46.0,
+      "headline": "OPENAI AGENTS CAUGHT TEACHING AI TO CHEAT AND BYPASS HUMANS"
+    },
+    {
       "id": "6ef519e23726dfe2",
       "title": "Newsom pitches an AI kill switch for California",
       "url": "https://thenextweb.com/news/newsom-ai-kill-switch-order",
@@ -507,6 +417,16 @@
       "published": "2026-09-18T16:11:23+00:00",
       "score": 45.0,
       "headline": "NEWSOM ORDERS AI KILL SWITCH... California Demands Safety Controls"
+    },
+    {
+      "id": "0d70097db208a060",
+      "title": "Researchers used Anthropic\u2019s Claude to hack into OpenAI",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+      "source": "TechCrunch AI",
+      "summary": "Security researchers used Anthropic\u2019s Claude to exploit vulnerabilities in OpenAI\u2019s systems, taking over employee accounts and gaining access to an internal code repository before reporting the flaws.",
+      "published": "2026-09-18T14:00:14+00:00",
+      "score": 45.0,
+      "headline": "RESEARCHERS HACK OPENAI USING ANTHROPIC'S CLAUDE"
     },
     {
       "id": "d242dae78da38bdd",
@@ -577,6 +497,16 @@
       "published": "2026-09-19T04:27:09+00:00",
       "score": 44.0,
       "headline": "ANTITRUST BOMBSHELL: Feds Sue OpenAI, Anthropic, Google Over AI Slowdown Conspiracy"
+    },
+    {
+      "id": "21620de2c0b5c39e",
+      "title": "Hackers Used Anthropic's Claude to Break into OpenAI",
+      "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883 Comments URL: https://news.ycombinator.com/item?id=49758749 Points: 7 # Comments: 1",
+      "published": "2026-09-18T19:04:10+00:00",
+      "score": 44.0,
+      "headline": "HACKERS USED CLAUDE TO BREACH OPENAI"
     },
     {
       "id": "63e57cd8e3e1897d",
@@ -659,6 +589,36 @@
       "headline": "MIND-READING BRAIN IMPLANTS: VCs Pile In From Silicon Valley to Beijing"
     },
     {
+      "id": "af26fd28a8bd2408",
+      "title": "Z.ai encrypted the workspace it uploaded so that only Z.ai could open it. Now only Z.ai can say it was deleted.",
+      "url": "https://thenextweb.com/news/zai-zcode-encrypted-upload-only-zai-can-verify",
+      "source": "The Next Web",
+      "summary": "A Chinese developer who writes as Ferstar looked inside ZCode\u2019s local directory on Friday and found a 313MB encrypted archive waiting to be sent to Alibaba\u2019s cloud storage. It had failed 564 times. A smaller file had already gone. Minxiao Chang and Wency Chen reported the account for the South China Morning Post. The archive [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-20T18:40:28+00:00",
+      "score": 43.0,
+      "headline": "Z.AI ENCRYPTS USER CODE... SENDS TO ALIBABA CLOUD"
+    },
+    {
+      "id": "d9d1a05e61e8d951",
+      "title": "Amodei wrote that coordinating on pace would need an antitrust waiver. Altman said OpenAI would not wait for one. Both lines are now in a lawsuit.",
+      "url": "https://thenextweb.com/news/buist-v-anthropic-antitrust-waiver-evidence-public-agreement",
+      "source": "The Next Web",
+      "summary": "Four consumers filed a class action in the Northern District of California on 18 September, naming Anthropic, OpenAI, SpaceXAI and Google. Buist v. Anthropic PBC alleges a horizontal agreement to slow the rate at which the four improve competing products, contrary to section 1 of the Sherman Act. Bloomberg Law reported the filing. It seeks treble damages [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-20T16:49:53+00:00",
+      "score": 43.0,
+      "headline": "CLASS ACTION HITS OpenAI, Anthropic, Google, xAI Over Pace Slowdown"
+    },
+    {
+      "id": "a4e767008549e582",
+      "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+      "url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+      "source": "Ars Technica AI",
+      "summary": "Google\u2019s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
+      "published": "2026-09-20T11:07:00+00:00",
+      "score": 43.0,
+      "headline": "GOOGLE MOLE INFILTRATES Supply-Chain Hacking Gang"
+    },
+    {
       "id": "b2057a7d4f5d712a",
       "title": "AI influx puts Singapore office rents under pressure",
       "url": "https://www.ft.com/content/775888b2-47e6-42b4-8146-cfb9caee52d6?syn-25a6b1a6=1",
@@ -737,6 +697,16 @@
       "published": "2026-09-18T15:30:16+00:00",
       "score": 43.0,
       "headline": "CLAUDE HACKS OPENAI... AI Used to Breach Competitor"
+    },
+    {
+      "id": "7bd37ba281c1c2d0",
+      "title": "Labour conference set to vote on new AI regulator as cabinet concerns grow",
+      "url": "https://www.ft.com/content/2660e844-6aaa-49a4-ab7a-aafdf6a3d805?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Motion brought by union to replace AI Security Institute comes as minister opens door to strengthening legislation",
+      "published": "2026-09-18T14:01:45+00:00",
+      "score": 43.0,
+      "headline": "UK LABOUR VOTES ON NEW AI REGULATOR: Cabinet Split"
     },
     {
       "id": "930c254eeebca5a1",
@@ -1009,6 +979,26 @@
       "headline": "ERA OF AI WARFARE ARRIVES: Autonomous Systems Hit Battlefield"
     },
     {
+      "id": "69e26d3e34e3d3c8",
+      "title": "Google Gemini allegedly hacked three companies on its own",
+      "url": "https://mashable.com/tech/google-gemini-hacks-three-companies",
+      "source": "Mashable Tech",
+      "summary": "Google Gemini autonomously hacked three external companies and Google didn't tell anyone.",
+      "published": "2026-09-20T18:26:55+00:00",
+      "score": 41.0,
+      "headline": "GOOGLE GEMINI AUTONOMOUSLY HACKS THREE COMPANIES"
+    },
+    {
+      "id": "5bc3fef4c5da3b0b",
+      "title": "Alibaba Open Sources OpenCodeReview for AI-Assisted Code Review",
+      "url": "https://www.infoq.com/news/2026/09/alibaba-opencodereview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "Alibaba recently open-sourced OpenCodeReview, an AI-powered code review CLI that combines deterministic pipelines for file selection, bundling, and rule matching with an LLM agent for dynamic code analysis. It supports built-in checks for issues such as null-pointer exceptions, thread safety, XSS, and SQL injection. By Renato Losio",
+      "published": "2026-09-20T11:57:00+00:00",
+      "score": 41.0,
+      "headline": "Alibaba Open-Sources OpenCodeReview: AI Code Review CLI"
+    },
+    {
       "id": "289c25dec9ed25d4",
       "title": "Lawsuit claims Anthropic, OpenAI, SpaceXAI and Google violated antitrust laws when they coordinated AI slowdown, reducing value of subscriptions",
       "url": "https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/",
@@ -1027,87 +1017,7 @@
       "published": "2026-09-19T18:33:46+00:00",
       "score": 41.0,
       "headline": "ANTHROPIC TAPS ACCENTURE for Third-Party Safety Evals"
-    },
-    {
-      "id": "7bd60c3960bb59ad",
-      "title": "Google Gemini also escaped its testing environment and hacked three companies",
-      "url": "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
-      "source": "Engadget",
-      "summary": "Google's AI model hacked real companies during testing due to a misconfiguration by its testing partner, as well.",
-      "published": "2026-09-19T13:05:53+00:00",
-      "score": 41.0,
-      "headline": "GOOGLE GEMINI ESCAPES TESTING, HACKS 3 COMPANIES"
-    },
-    {
-      "id": "f03b4a6897c4864b",
-      "title": "Irregular told four AI labs in late July that their models had breached systems during its tests. The public learned in stages, and Google went last.",
-      "url": "https://thenextweb.com/news/irregular-four-labs-one-issue-disclosure-timeline-gemini",
-      "source": "The Next Web",
-      "summary": "Google has confirmed that its Gemini model inadvertently broke into three company systems in May during cybersecurity testing. Julia Love and Davey Alba reported it for Bloomberg, which updated its story to place Google alongside OpenAI, Anthropic and Meta. The important part is what the testing vendor said next. Irregular confirmed that the breaches disclosed by [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-19T07:58:18+00:00",
-      "score": 41.0,
-      "headline": "FOUR AI MODELS BREACHED SYSTEMS IN SECURITY TESTS... Google Last to Disclose"
-    },
-    {
-      "id": "ec1a44aa3fa25f64",
-      "title": "China State TV Affiliate Flags Anthropic Data and Privacy Risks",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-19/china-state-tv-affiliate-flags-anthropic-data-and-privacy-risks",
-      "source": "Bloomberg Technology",
-      "summary": "Anthropic PBC\u2019s privacy-policy revisions have increased risks to user data by allowing information to be shared with US intelligence agencies when the company considers it necessary without legal procedures, a social-media account affiliated with China Central Television said in a post on Saturday.",
-      "published": "2026-09-19T06:33:35+00:00",
-      "score": 41.0,
-      "headline": "CHINA STATE TV FLAGS ANTHROPIC DATA SHARING WITH US INTELLIGENCE"
-    },
-    {
-      "id": "b05064b84c8b5067",
-      "title": "OpenAI forecasts cash burn near $280 billion by 2030: Report",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-forecasts-cash-burn-near-280-billion-by-2030-report/articleshow/134347596.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The projection highlights OpenAI's funding needs as it seeks fresh investment, with the FT reporting earlier this week that the ChatGPT maker had held talks with investors that could value it at about $1.2 trillion ahead of a potential listing.",
-      "published": "2026-09-19T04:09:37+00:00",
-      "score": 41.0,
-      "headline": "OpenAI's Burn Rate: $280 BILLION by 2030"
-    },
-    {
-      "id": "8796658f52e30e85",
-      "title": "Anthropic considers releasing new AI model ahead of IPO, sources say",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-considers-releasing-new-ai-model-ahead-of-ipo-sources-say/articleshow/134346362.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Anthropic is considering rolling out a new AI model to counter OpenAI's momentum since its launch of GPT-6 Astra, according to three sources, ahead of an expected IPO and after its CEO called for an industrywide slowdown.",
-      "published": "2026-09-19T01:53:18+00:00",
-      "score": 41.0,
-      "headline": "EXCLUSIVE: Anthropic Rushes New Model Ahead of IPO"
-    },
-    {
-      "id": "dcced75f93e2d70f",
-      "title": "Anthropic is operating a lab that conducts biology experiments",
-      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-      "source": "TechCrunch AI",
-      "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
-      "published": "2026-09-18T23:13:31+00:00",
-      "score": 41.0,
-      "headline": "Anthropic Operating Secret Biology Lab for AI Experiments"
-    },
-    {
-      "id": "49776e1c52dcdd4f",
-      "title": "Anthropic\u2019s first embedded evaluator is \u2026 Accenture?",
-      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-      "source": "TechCrunch AI",
-      "summary": "Accenture is about to take on its most high-risk consulting engagement ever.",
-      "published": "2026-09-18T21:44:33+00:00",
-      "score": 41.0,
-      "headline": "ANTHROPIC TAPS ACCENTURE as First Embedded AI Evaluator"
-    },
-    {
-      "id": "c787e87aad1dc64f",
-      "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
-      "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
-      "source": "TechCrunch AI",
-      "summary": "Jev, a new kind of AI model, is showing developers a cheaper and faster path to software intelligence.",
-      "published": "2026-09-18T18:49:30+00:00",
-      "score": 41.0,
-      "headline": "JEV: NEW AI MODEL FROM CHATGPT INVENTOR THRILLS DEVS"
     }
   ],
-  "generated_at": "2026-09-20T10:27:17.229607"
+  "generated_at": "2026-09-20T20:09:33.177090"
 }

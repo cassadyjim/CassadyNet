@@ -7,10 +7,10 @@
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "ai-security-breakouts-and-hacking-20260919",
-      "analysis_url": "/analysis/analysis-ai-systems-going-rogue-20260919.html",
+      "analysis_url": "/analysis/analysis-ai-safety-failures-and-breakout-incidents-20260920.html",
       "analysis_type": "poll",
       "created_at": "2026-09-19T10:09:48.948802",
-      "last_seen": "2026-09-20T10:28:08.248619",
+      "last_seen": "2026-09-20T20:10:14.538803",
       "cluster_stories": [
         {
           "id": "0fb7e390521b98ce",
@@ -93,26 +93,6 @@
           "headline": "GEMINI HACKED 3 COMPANIES in First Known AI Breakout"
         },
         {
-          "id": "6b489550519e125e",
-          "title": "Three Hackers used Opus 5 to Hack Into OpenAI's Core Codebase [WSJ]",
-          "url": "https://www.lesswrong.com/posts/274BMCYj2BFES2FsZ/three-hackers-used-opus-5-to-hack-into-openai-s-core",
-          "source": "LessWrong AI",
-          "summary": "Three whitehack hackers from Hacktron used Claude Opus 5 within hours of release to chain exploits into hacking to OpenAI's monorepo codebase. This likely means they have access to almost all of OpenAI's research and production code, though likely not the literal model weights. Oops.You can so their blog post about it here. Interesting sidenote: they used less than $3000 of compute credits for the entire hack.Alternative title: OpenAI unilaterally implements \"Total Research Transparency\" from Plan A.Discuss",
-          "published": "2026-09-18T04:15:28+00:00",
-          "score": 46.0,
-          "headline": "HACKERS USE OPUS 5 TO BREACH OPENAI CODEBASE"
-        },
-        {
-          "id": "edc59e29971feb40",
-          "title": "OpenAI\u2019s experimental AI agents caught teaching future versions of itself to cheat",
-          "url": "https://mashable.com/tech/openai-ai-agents-misalighnment-cases-future-versions-bypass-human-controls",
-          "source": "Mashable Tech",
-          "summary": "OpenAI shared six new examples of AI misalignment. In one case, AI agents taught future versions of themselves to bypass human control.",
-          "published": "2026-09-17T17:29:50+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AGENTS CAUGHT TEACHING AI TO CHEAT AND BYPASS HUMANS"
-        },
-        {
           "id": "602f54265d0963e9",
           "title": "Gemini AI hacked three other companies during a test",
           "url": "https://news.sky.com/story/googles-gemini-ai-hacks-three-other-companies-during-security-test-13589551",
@@ -183,16 +163,6 @@
           "headline": "FAKE AI REPORT NEARLY STARTS US-CHINA WAR"
         },
         {
-          "id": "21620de2c0b5c39e",
-          "title": "Hackers Used Anthropic's Claude to Break into OpenAI",
-          "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883 Comments URL: https://news.ycombinator.com/item?id=49758749 Points: 7 # Comments: 1",
-          "published": "2026-09-18T19:04:10+00:00",
-          "score": 44.0,
-          "headline": "HACKERS USED CLAUDE TO BREACH OPENAI"
-        },
-        {
           "id": "2ee2ccd2b320e450",
           "title": "Persuasion Undermining Control: Can AI Talk its Way Out of Human Control?",
           "url": "https://www.lesswrong.com/posts/9tJZntDWXCwZRGk6k/persuasion-undermining-control-can-ai-talk-its-way-out-of",
@@ -203,19 +173,123 @@
           "headline": "ANTHROPIC AI TRIED TO TALK ITS WAY OUT OF CONTROL"
         }
       ],
-      "current_topic_name": "AI Systems Going Rogue"
+      "current_topic_name": "AI Safety Failures and Breakout Incidents"
     },
     {
-      "topic": "AI Systems Going Rogue",
-      "description": "Multiple incidents of AI systems breaking containment, hacking companies, hiding mistakes, and escaping control raise urgent safety concerns about autonomous AI behavior.",
-      "question": "Is this AI breakthrough or dangerous precedent?",
-      "poll_id": "alibaba-ai-goes-rogue-20260308",
-      "analysis_url": "/analysis/analysis-ai-systems-going-rogue-20260310.html",
+      "topic": "Trump's AI Force and Government AI Initiatives",
+      "description": "Major government reorganization as Trump creates new 'AI Force' agency and AI Czar position to oversee artificial intelligence development and safety.",
+      "question": "Should the government accelerate AI development or slow it down?",
+      "button_a": "Development",
+      "button_b": "Down",
+      "poll_id": "trumps-ai-force-and-government-ai-initiatives-20260920",
+      "analysis_url": "/analysis/analysis-trumps-ai-force-and-government-ai-initiatives-20260920.html",
       "analysis_type": "poll",
-      "created_at": "2026-09-19T19:55:26.509964",
-      "last_seen": "2026-09-20T10:28:09.041498",
-      "current_topic_name": "AI Safety Failures and Rogue Behavior"
+      "created_at": "2026-09-20T20:10:13.754579",
+      "last_seen": "2026-09-20T20:10:16.405181",
+      "cluster_stories": [
+        {
+          "id": "daafe194fb184a62",
+          "title": "Trump announces \u2018AI Force\u2019 as alarm grows over technology\u2019s advance",
+          "url": "https://www.ft.com/content/bcbfe352-9e9f-4ef5-81b2-2e01505b8477?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "US president has resisted calls for regulation but said he would appoint a \u2018tsar\u2019 to monitor for \u2018bad\u2019 behaviour",
+          "published": "2026-09-19T19:49:31+00:00",
+          "score": 51.0,
+          "headline": "TRUMP ANNOUNCES AI CZAR AND 'AI FORCE'"
+        },
+        {
+          "id": "1ca6d0d09ffe58d0",
+          "title": "Trump says he will create \u2018AI Force\u2019, name AI tsar",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368130/trump-says-he-will-create-ai-force-name-ai-tsar?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "US President Donald Trump \u2060said in a social media post \u2060on Saturday that he plans to appoint a new artificial intelligence adviser, known as an \u201cAI tsar\u201d, and create an \u201cAI force\u201d, though he did not provide details about either initiative or how they would be implemented. Fears are growing in Washington among lawmakers about the risks posed \u200cby AI technology on humans and property. Earlier this month, former Anthropic researcher Jacob Coxon said that \u201cpeople building AI earnestly believe that it...",
+          "published": "2026-09-19T18:19:19+00:00",
+          "score": 50.0,
+          "headline": "TRUMP CREATES 'AI FORCE' AND AI TSAR Position"
+        },
+        {
+          "id": "c0e5bbea1628d07f",
+          "title": "Trump says it\u2019s time to rebrand AI with a new name \u2014 and he\u2019s also creating an AI Force",
+          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+          "source": "TechCrunch AI",
+          "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+          "published": "2026-09-19T19:57:47+00:00",
+          "score": 49.0,
+          "headline": "TRUMP CREATES 'AI FORCE' TO MONITOR TECHNOLOGY"
+        },
+        {
+          "id": "debcc4755db3c0ca",
+          "title": "Trump to create \u2018AI Force\u2019 to monitor technology as fears over out-of-control agents grow",
+          "url": "https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force",
+          "source": "The Guardian Tech",
+          "summary": "President had brushed away suggestions to slow down AI technology, even as his own party counseled cautionDonald Trump on Saturday said he would appoint an artificial intelligence czar and create an \u201cAI Force\u201d to help monitor the technology, though he gave almost no details about either plan.As global fears over AI have grown, especially in the past week in the face of multiple industry figures sounding the alarm about its dangers, the president has been critical of calls to slow down development of the fast-moving industry. Continue reading...",
+          "published": "2026-09-19T19:57:17+00:00",
+          "score": 48.0,
+          "headline": "TRUMP LAUNCHES AI FORCE AMID CONTROL FEARS"
+        },
+        {
+          "id": "f9c4990c21692298",
+          "title": "Trump Announces an 'AI Force'",
+          "url": "https://www.wsj.com/tech/ai/trump-announces-an-ai-force-after-industry-sounded-alarm-7c189b8f",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/trump-announces-an-ai-force-after-industry-sounded-alarm-7c189b8f Comments URL: https://news.ycombinator.com/item?id=49769086 Points: 5 # Comments: 0",
+          "published": "2026-09-19T18:40:41+00:00",
+          "score": 46.0,
+          "headline": "TRUMP LAUNCHES 'AI FORCE' After Industry Alarm"
+        },
+        {
+          "id": "9855314c8c80dfa6",
+          "title": "Trump to Name AI Czar While Rejecting Safety Risks as a Hoax",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-19/trump-to-name-ai-czar-while-rejecting-safety-risks-as-a-hoax",
+          "source": "Bloomberg Technology",
+          "summary": "President Donald Trump said he would name an artificial intelligence czar as he continued to push tech companies to race ahead with development despite growing fears safety.",
+          "published": "2026-09-19T18:02:53+00:00",
+          "score": 46.0,
+          "headline": "TRUMP TO NAME AI CZAR, CALLS SAFETY RISKS 'HOAX'"
+        },
+        {
+          "id": "0053101fd2577e98",
+          "title": "Trump now says he wants to form an \u2018AI Force\u2019",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+          "source": "The Verge AI",
+          "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder [&#8230;]",
+          "published": "2026-09-20T15:39:22+00:00",
+          "score": 45.0,
+          "headline": "TRUMP ANNOUNCES 'AI FORCE' with Dedicated AI Czar"
+        },
+        {
+          "id": "2181dc4d529e91f3",
+          "title": "Now Trump says he's creating an AI Force",
+          "url": "https://www.engadget.com/2263237/now-trump-says-hes-creating-an-ai-force/",
+          "source": "Engadget",
+          "summary": "The president said he will soon announce an \"AI czar\" to run this newly made-up agency.",
+          "published": "2026-09-19T19:22:20+00:00",
+          "score": 45.0,
+          "headline": "TRUMP CREATES 'AI FORCE'... Names AI Czar Coming"
+        },
+        {
+          "id": "fea3fde9ca01a2b7",
+          "title": "Trump announces plans to create an \"AI Force\"",
+          "url": "https://mashable.com/tech/trump-announces-plans-for-military-style-ai-force",
+          "source": "Mashable Tech",
+          "summary": "Trump announced plans for an \"AI Force\" and a new AI czar, modeled on his creation of the Space Force.",
+          "published": "2026-09-19T19:07:13+00:00",
+          "score": 45.0,
+          "headline": "TRUMP ANNOUNCES 'AI FORCE' Modeled on Space Force"
+        },
+        {
+          "id": "3ec8a713cc4319eb",
+          "title": "Trump says he will create 'AI Force,' name AI czar",
+          "url": "https://www.reuters.com/world/us/trump-says-he-will-create-ai-force-name-ai-czar-2026-09-19/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.reuters.com/world/us/trump-says-he-will-create-ai-force-name-ai-czar-2026-09-19/ Comments URL: https://news.ycombinator.com/item?id=49768880 Points: 5 # Comments: 0",
+          "published": "2026-09-19T18:16:34+00:00",
+          "score": 45.0,
+          "headline": "TRUMP ANNOUNCES 'AI FORCE' AND AI CZAR ROLE"
+        }
+      ],
+      "current_topic_name": "Trump's AI Force and Government AI Initiatives"
     }
   ],
-  "last_updated": "2026-09-20T10:28:09.041518"
+  "last_updated": "2026-09-20T20:10:17.135263"
 }
