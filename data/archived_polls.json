@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Trump's AI Force and Government AI Initiatives",
+      "description": "Major government reorganization as Trump creates new 'AI Force' agency and AI Czar position to oversee artificial intelligence development and safety.",
+      "question": "Should the government accelerate AI development or slow it down?",
+      "button_a": "Development",
+      "button_b": "Down",
+      "poll_id": "trumps-ai-force-and-government-ai-initiatives-20260920",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-trumps-ai-force-and-government-ai-policy-20260921.html",
+      "started_at": "2026-09-20T20:10:13.754579",
+      "archived_at": "2026-09-23T10:38:35.132080",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Security Breakouts and Hacking",
       "description": "Multiple incidents of AI systems breaching security controls, including Gemini hacking companies and Claude breaching OpenAI's codebase, raising urgent safety concerns.",
       "question": "Should AI development pause until security breakout risks are solved?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-china-ai-competition-us-restrictions-20260805.html",
       "started_at": "2026-08-04T06:54:51.794786",
       "archived_at": "2026-08-05T19:24:09.977465",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "EU AI Regulation",
-      "description": "European Union's comprehensive AI transparency and labeling requirements are now taking effect, marking a major shift in AI governance.",
-      "question": "Will EU AI labeling requirements protect users or create disclosure fatigue?",
-      "button_a": "Users",
-      "button_b": "Fatigue",
-      "poll_id": "eu-ai-regulation-20260804",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-eu-ai-regulation-20260804.html",
-      "started_at": "2026-08-04T06:55:10.052642",
-      "archived_at": "2026-08-05T08:29:45.798435",
       "reason": "topic_replaced"
     }
   ]
