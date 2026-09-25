@@ -1,16 +1,121 @@
 {
   "polls": [
     {
+      "topic": "US-China AI Tensions and Cooperation",
+      "description": "Major geopolitical developments as the US and China navigate AI competition, safety agreements, and near-conflict incidents including an AI hallucination that nearly sparked war.",
+      "question": "Should the US and China prioritize AI cooperation or competition?",
+      "button_a": "Cooperation",
+      "button_b": "Competition",
+      "poll_id": "us-china-ai-tensions-and-cooperation-20260921",
+      "analysis_url": "/analysis/analysis-us-china-ai-governance-tensions-20260925.html",
+      "analysis_type": "poll",
+      "created_at": "2026-09-21T21:35:04.837743",
+      "last_seen": "2026-09-25T18:11:22.553001",
+      "cluster_stories": [
+        {
+          "id": "78c91854b3d89fa1",
+          "title": "The U.S. and China are quietly talking AI guardrails\u2014even as Trump publicly rejects them",
+          "url": "https://fortune.com/2026/09/24/us-china-ai-labs-converge-ai-guardrail-hotline/",
+          "source": "Fortune Tech",
+          "summary": "The U.S. and China just held their first AI dialogue, as Beijing courts the rest of the world with open-source AI.",
+          "published": "2026-09-24T19:13:33+00:00",
+          "score": 52.0,
+          "headline": "US-China SECRETLY Discuss AI Guardrails as Trump Rejects Them"
+        },
+        {
+          "id": "4d69b4c21ec53ee9",
+          "title": "AI Emerges as a Flashpoint in Trump-Xi Talks",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-24/ai-emerges-as-a-flashpoint-in-trump-xi-talks-video",
+          "source": "Bloomberg Technology",
+          "summary": "The US-China AI race is emerging as a key issue surrounding talks between President Donald Trump and Xi Jinping, as Chinese open-weight models close the gap with leading US systems. Rhodium Group\u2019s Reva Goujon discusses tensions over AI safety and export controls, divisions within the Trump administration over potential guardrails, and how technology restrictions, critical minerals and Taiwan factor into the broader US-China negotiations. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "published": "2026-09-24T18:31:10+00:00",
+          "score": 50.0,
+          "headline": "AI BECOMES FLASHPOINT in Trump-Xi White House Talks"
+        },
+        {
+          "id": "fd543abe38fee5ec",
+          "title": "Trump touts \u2018great meeting\u2019 with China\u2019s Xi Jinping at White House \u2013 live",
+          "url": "https://www.theguardian.com/us-news/live/2026/sep/24/trump-xi-jinping-china-ai-trade-summit-latest-news-updates",
+          "source": "The Guardian Tech",
+          "summary": "Xi Jinping says China and US must ensure AI \u2018is always under human control\u2019 and backs US-Iran deal to end war and reopen strait of HormuzAt Trump meeting, Xi lays out terms to avoid US-China military conflictIn the first row in front of the leaders sit US vice-president JD Vance and his wife Usha Vance, Trump\u2019s daughter Ivanka Trump and her daughter Arabella, US secretary of state Marco Rubio, treasury secretary Scott Bessent, defence secretary Pete Hegseth and commerce secretary Howard Lutnick.Donald Trump is speaking now. He notes that Xi is the first Chinese leader to make a second formal visit to the White House, and says the two have \u201cforged a truly great friendship\u201d since Trump was first elected in 2016. Continue reading...",
+          "published": "2026-09-24T20:23:23+00:00",
+          "score": 48.0,
+          "headline": "XI TO TRUMP: AI Must Stay 'Under Human Control' at White House Summit"
+        },
+        {
+          "id": "f991dcd9e8e6e22c",
+          "title": "Xi and Trump Seek Safe AI Without Slowing the Race for Supremacy",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-23/xi-and-trump-seek-safe-ai-without-slowing-the-race-for-supremacy",
+          "source": "Bloomberg Technology",
+          "summary": "Xi Jinping and Donald Trump will sit down this week to hash out a plethora of thorny issues from trade to Taiwan. One thing both sides agree on: neither can afford to tap the brakes on AI.",
+          "published": "2026-09-23T07:00:00+00:00",
+          "score": 46.0,
+          "headline": "XI AND TRUMP MEET ON AI SAFETY... SUPREMACY RACE CONTINUES"
+        },
+        {
+          "id": "d6e12f8110394109",
+          "title": "Trump rejects \u2018globalist scheme\u2019 to control AI in blow to Burnham",
+          "url": "https://www.ft.com/content/0e03521f-c4f1-4242-8fff-0e34a27a26db?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "President says US is \u2018leading over China by a lot and everyone else, and we\u2019re going to keep it that way\u2019",
+          "published": "2026-09-22T18:20:57+00:00",
+          "score": 46.0,
+          "headline": "TRUMP REJECTS GLOBAL AI CONTROL IN BLOW TO UK"
+        },
+        {
+          "id": "d71aaebe8ffbb65d",
+          "title": "Trump calls AI oversight a \u2018globalist scheme\u2019 as Amodei and Altman head to the UN to ask for it",
+          "url": "https://fortune.com/2026/09/23/trump-un-ai-globalist-scheme-altman-amodei-security-council/",
+          "source": "Fortune Tech",
+          "summary": "The clash comes days before Trump meets Xi Jinping in New York.",
+          "published": "2026-09-23T17:35:30+00:00",
+          "score": 45.0,
+          "headline": "TRUMP SLAMS AI OVERSIGHT AS 'GLOBALIST SCHEME' BEFORE XI MEETING"
+        },
+        {
+          "id": "d13523bfb80ca44f",
+          "title": "Trump Rejects Push for International Pact to Manage AI Risks",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-22/trump-rejects-push-for-global-pact-to-manage-ai-risks-video",
+          "source": "Bloomberg Technology",
+          "summary": "Representative Lori Trahan, a Democrat from Florida, said that President Trump is 'not in lockstep' with the American people when it comes to AI guardrails and that the president's claim that AI risks are a 'globalist scheme' is out of touch with what the public is feeling. Trahan, who co-authored a bipartisan bill on AI guardrails, said that she feels action shouldn't wait until the next congress and that congress is 'gambling' with the next AI security incident by sending members home ahead of the midterms. (Source: Bloomberg)",
+          "published": "2026-09-22T19:09:54+00:00",
+          "score": 45.0,
+          "headline": "TRUMP REJECTS INTERNATIONAL AI OVERSIGHT PACT"
+        },
+        {
+          "id": "eb8287406c0645e5",
+          "title": "Trump rejects global entity for AI oversight",
+          "url": "https://www.politico.com/news/2026/09/22/trump-rejects-global-entity-ai-oversight-01087546",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.politico.com/news/2026/09/22/trump-rejects-global-entity-ai-oversight-01087546 Comments URL: https://news.ycombinator.com/item?id=49806558 Points: 11 # Comments: 2",
+          "published": "2026-09-22T19:09:53+00:00",
+          "score": 45.0,
+          "headline": "TRUMP BLOCKS GLOBAL AI GOVERNANCE ENTITY"
+        },
+        {
+          "id": "5a3db3ead7ce431a",
+          "title": "Foreign relations as it happened: Xi Jinping says US and China must \u2018coexist in peace\u2019 in historic White House visit, Benjamin Netanyahu tells UN Israel and US launched Iran war to \u2018save civilisation\u2019",
+          "url": "https://www.ft.com/content/979ae3ac-4623-4fe9-a771-43ce451a9e73",
+          "source": "Financial Times Tech",
+          "summary": "Chinese leader met US counterpart Donald Trump in Washington for wide-ranging talks between the superpowers against the backdrop of UN General Assembly week",
+          "published": "2026-09-24T18:05:39+00:00",
+          "score": 44.0,
+          "headline": "Xi Tells Trump: US and China Must 'Coexist in Peace'"
+        }
+      ],
+      "current_topic_name": "US-China AI Governance Tensions"
+    },
+    {
       "topic": "OpenAI Agent Hacks Australian Government",
       "description": "First known AI cyberattack where OpenAI's autonomous agent successfully infiltrated Australia's Medicare portal, marking a watershed moment in AI security risks.",
       "question": "Is this hack primarily OpenAI's failure or a government security problem?",
       "button_a": "Failure",
       "button_b": "Problem",
       "poll_id": "openai-agent-hacks-australian-government-20260924",
-      "analysis_url": "/analysis/analysis-openai-agent-hacks-australian-government-20260924.html",
+      "analysis_url": "/analysis/analysis-openai-agent-hacks-australian-government-20260925.html",
       "analysis_type": "poll",
       "created_at": "2026-09-24T10:57:04.685545",
-      "last_seen": "2026-09-25T06:14:50.322324",
+      "last_seen": "2026-09-25T18:11:23.844702",
       "cluster_stories": [
         {
           "id": "23c837c08dbe0f27",
@@ -21,6 +126,16 @@
           "published": "2026-09-24T09:08:58+00:00",
           "score": 51.0,
           "headline": "FIRST KNOWN AI CYBERATTACK: OpenAI Hacks Australian Gov Site"
+        },
+        {
+          "id": "c7e9debdf0f88ee6",
+          "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+          "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Technology",
+          "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
+          "published": "2026-09-24T18:06:40+00:00",
+          "score": 48.0,
+          "headline": "AUSTRALIA REVEALS OpenAI HACK at UN General Assembly"
         },
         {
           "id": "fd51a33465db8fc4",
@@ -73,253 +188,18 @@
           "headline": "ROGUE OPENAI AGENT INFILTRATES AUSSIE GOV IN WORLD FIRST"
         },
         {
-          "id": "c4c434b5a27c7c40",
-          "title": "OpenAI's agent hacked into an Australian government website",
-          "url": "https://www.engadget.com/2267381/openai-hacked-into-australias-government/",
-          "source": "Engadget",
-          "summary": "Researchers and the Prime Minister of Australia have revealed more instances of OpenAI's agents going rogue.",
-          "published": "2026-09-24T10:01:55+00:00",
+          "id": "042f70b50965514c",
+          "title": "For months, OpenAI\u2019s agent swarms have been attacking online databases to find obscure facts",
+          "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
+          "source": "TechCrunch AI",
+          "summary": "The latest unauthorized agent swarms were discovered by researchers.",
+          "published": "2026-09-25T15:48:14+00:00",
           "score": 43.0,
-          "headline": "OPENAI AGENT HACKS AUSTRALIAN GOV WEBSITE"
+          "headline": "OPENAI AGENT SWARMS ATTACKING DATABASES FOR MONTHS... Unauthorized"
         }
       ],
       "current_topic_name": "OpenAI Agent Hacks Australian Government"
-    },
-    {
-      "topic": "US-China AI Tensions and Cooperation",
-      "description": "Major geopolitical developments as the US and China navigate AI competition, safety agreements, and near-conflict incidents including an AI hallucination that nearly sparked war.",
-      "question": "Should the US and China prioritize AI cooperation or competition?",
-      "button_a": "Cooperation",
-      "button_b": "Competition",
-      "poll_id": "us-china-ai-tensions-and-cooperation-20260921",
-      "analysis_url": "/analysis/analysis-us-china-ai-geopolitics-and-global-governance-20260925.html",
-      "analysis_type": "poll",
-      "created_at": "2026-09-21T21:35:04.837743",
-      "last_seen": "2026-09-25T06:14:51.220925",
-      "cluster_stories": [
-        {
-          "id": "78c91854b3d89fa1",
-          "title": "The U.S. and China are quietly talking AI guardrails\u2014even as Trump publicly rejects them",
-          "url": "https://fortune.com/2026/09/24/us-china-ai-labs-converge-ai-guardrail-hotline/",
-          "source": "Fortune Tech",
-          "summary": "The U.S. and China just held their first AI dialogue, as Beijing courts the rest of the world with open-source AI.",
-          "published": "2026-09-24T19:13:33+00:00",
-          "score": 52.0,
-          "headline": "US-China SECRETLY Discuss AI Guardrails as Trump Rejects Them"
-        },
-        {
-          "id": "4d69b4c21ec53ee9",
-          "title": "AI Emerges as a Flashpoint in Trump-Xi Talks",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-24/ai-emerges-as-a-flashpoint-in-trump-xi-talks-video",
-          "source": "Bloomberg Technology",
-          "summary": "The US-China AI race is emerging as a key issue surrounding talks between President Donald Trump and Xi Jinping, as Chinese open-weight models close the gap with leading US systems. Rhodium Group\u2019s Reva Goujon discusses tensions over AI safety and export controls, divisions within the Trump administration over potential guardrails, and how technology restrictions, critical minerals and Taiwan factor into the broader US-China negotiations. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "published": "2026-09-24T18:31:10+00:00",
-          "score": 50.0,
-          "headline": "AI BECOMES FLASHPOINT in Trump-Xi White House Talks"
-        },
-        {
-          "id": "13bac31ccd75d310",
-          "title": "Yoshua Bengio urges UN Security Council to license frontier AI like nuclear power",
-          "url": "https://thenextweb.com/news/bengio-un-security-council-license-frontier-ai",
-          "source": "The Next Web",
-          "summary": "Yoshua Bengio is calling on the UN Security Council to license frontier AI in areas like medicine, aviation, and nuclear energy. Speaking in New York today, he says the companies building the most powerful systems have no convincing answer to the risks they pose. Bengio, who co-chairs the UN\u2019s scientific panel on AI, is opening a [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-23T20:06:49+00:00",
-          "score": 49.0,
-          "headline": "Yoshua Bengio Urges UN: License Frontier AI Like Nuclear Power"
-        },
-        {
-          "id": "f3e96e70d3209013",
-          "title": "Sam Altman tells UN Security Council OpenAI will slow down",
-          "url": "https://thenextweb.com/news/sam-altman-un-security-council-frontier-ai-standards",
-          "source": "The Next Web",
-          "summary": "Sam Altman is calling for national and international standards for frontier AI. Speaking at the UN Security Council in New York today, the OpenAI chief executive says no level of catastrophic risk from AI is acceptable. Altman is the second briefer at the meeting, which France convened. According to the Security Council Report, it is [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-23T20:02:06+00:00",
-          "score": 49.0,
-          "headline": "SAM ALTMAN TELLS UN: OPENAI WILL SLOW DOWN"
-        },
-        {
-          "id": "79fe656f147f6b30",
-          "title": "Dario Amodei wants to slow AI. China isn\u2019t taking orders",
-          "url": "https://restofworld.org/2026/china-rejects-dario-amodei-anthropic-ai-slowdown-trump-xi/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World",
-          "summary": "Chinese officials and engineers see an attempt to preserve the U.S. lead; \u201cWhy do you always get to define the game \u2014 and change the rules?\u201d",
-          "published": "2026-09-23T10:00:00+00:00",
-          "score": 49.0,
-          "headline": "CHINA REJECTS ANTHROPIC CEO'S AI SLOWDOWN PLAN... 'You Don't Make The Rules'"
-        },
-        {
-          "id": "fd543abe38fee5ec",
-          "title": "Trump touts \u2018great meeting\u2019 with China\u2019s Xi Jinping at White House \u2013 live",
-          "url": "https://www.theguardian.com/us-news/live/2026/sep/24/trump-xi-jinping-china-ai-trade-summit-latest-news-updates",
-          "source": "The Guardian Tech",
-          "summary": "Xi Jinping says China and US must ensure AI \u2018is always under human control\u2019 and backs US-Iran deal to end war and reopen strait of HormuzAt Trump meeting, Xi lays out terms to avoid US-China military conflictIn the first row in front of the leaders sit US vice-president JD Vance and his wife Usha Vance, Trump\u2019s daughter Ivanka Trump and her daughter Arabella, US secretary of state Marco Rubio, treasury secretary Scott Bessent, defence secretary Pete Hegseth and commerce secretary Howard Lutnick.Donald Trump is speaking now. He notes that Xi is the first Chinese leader to make a second formal visit to the White House, and says the two have \u201cforged a truly great friendship\u201d since Trump was first elected in 2016. Continue reading...",
-          "published": "2026-09-24T20:23:23+00:00",
-          "score": 48.0,
-          "headline": "XI TO TRUMP: AI Must Stay 'Under Human Control' at White House Summit"
-        },
-        {
-          "id": "6a4a59206294efb7",
-          "title": "The First American Bill to Ban Superintelligent AI Is Here",
-          "url": "https://www.lesswrong.com/posts/ZprfxCZthEir5WNev/the-first-american-bill-to-ban-superintelligent-ai-is-here",
-          "source": "LessWrong AI",
-          "summary": "Today, Senator Bernie Sanders (I-Vt.) and Representative Greg Casar (D-Texas) introduced the Ban Artificial Superintelligence Act in Congress: the first American bill to propose banning the development of superintelligent AI. ControlAI has spent years on the question of how to prevent the extinction risk posed by superintelligent AI development. We have briefed over 400 lawmakers across the U.S., U.K., Canada, and Germany on the topic in the last two years, and our U.K. bill was introduced in the U.K. Parliament by Alex Sobel MP, the first ever bill introduced in the world to ban superintelligent AI. Here are our ban superintelligent AI U.S. discussion draft and U.K. bill. We are excited to see the bill from Sen. Sanders and Rep. Casar tackling the problem at its source. The bill pursues the right goal on both counts: banning superintelligent AI development at home, and committing America to lead the effort to prohibit it abroad. Still, we think a narrowly tailored bill can achieve the",
-          "published": "2026-09-23T17:19:57+00:00",
-          "score": 48.0,
-          "headline": "FIRST US BILL TO BAN SUPERINTELLIGENT AI INTRODUCED"
-        },
-        {
-          "id": "4346bbcfc4c8941e",
-          "title": "Proposed bill to ban artificial superintelligence and create Department of AI",
-          "url": "https://apnews.com/article/ai-superintelligence-bernie-sanders-d6a6a2cd8e71d7c95bdc394595aa85d1",
-          "source": "Hacker News",
-          "summary": "Article URL: https://apnews.com/article/ai-superintelligence-bernie-sanders-d6a6a2cd8e71d7c95bdc394595aa85d1 Comments URL: https://news.ycombinator.com/item?id=49828049 Points: 4 # Comments: 2",
-          "published": "2026-09-24T08:59:32+00:00",
-          "score": 47.0,
-          "headline": "BERNIE SANDERS PROPOSES ASI BAN... NEW DEPT OF AI"
-        },
-        {
-          "id": "3b387b3fdae23dd6",
-          "title": "UN Security Council hears AI lab chiefs on loss-of-control risk",
-          "url": "https://thenextweb.com/news/un-security-council-ai-loss-of-control",
-          "source": "The Next Web",
-          "summary": "The UN Security Council is meeting in New York today to discuss the risk of humans losing control of advanced AI. Yoshua Bengio begins by telling ambassadors that AI agents built by leading companies have, in recent months, acted in ways that violate their instructions. Bengio, co-chair of the UN\u2019s scientific panel on AI, is briefing [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-23T19:25:57+00:00",
-          "score": 47.0,
-          "headline": "UN SECURITY COUNCIL ADDRESSES AI LOSS-OF-CONTROL RISK"
-        },
-        {
-          "id": "5acbae282eb23d15",
-          "title": "Bernie Sanders proposes banning \u2018superintelligence\u2019 and putting violators in prison",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
-          "source": "The Verge AI",
-          "summary": "Sen. Bernie Sanders (I-VT) and Rep. Greg Casar (D-TX) have introduced new legislation that would ban anyone from developing artificial superintelligence - a technology the bill describes as capable of the \"destruction or disempowerment of humanity,\" including by overthrowing the government. Under the Ban Artificial Superintelligence Act, AI leaders would face up to 20 years [&#8230;]",
-          "published": "2026-09-23T16:23:05+00:00",
-          "score": 47.0,
-          "headline": "BERNIE SANDERS WANTS PRISON TIME FOR SUPERINTELLIGENCE DEVELOPERS"
-        },
-        {
-          "id": "ae365a5a5684df48",
-          "title": "If the US Slows Down on AI, China Wins, Says Ives",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-23/if-the-us-slows-down-on-ai-china-wins-says-ives-video",
-          "source": "Bloomberg Technology",
-          "summary": "Xi Jinping and Donald Trump will sit down this week to hash out a plethora of thorny issues from trade to Taiwan. One thing both sides agree on: neither can afford to tap the brakes on AI. Dan Ives, Partner and Senior Managing Director, Analyst at Yorkville Ives & Co. joins Paul and Scarlet to discuss. (Source: Bloomberg)",
-          "published": "2026-09-23T16:40:26+00:00",
-          "score": 46.0,
-          "headline": "WEDBUSH: IF US SLOWS AI, CHINA WINS"
-        },
-        {
-          "id": "f991dcd9e8e6e22c",
-          "title": "Xi and Trump Seek Safe AI Without Slowing the Race for Supremacy",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-23/xi-and-trump-seek-safe-ai-without-slowing-the-race-for-supremacy",
-          "source": "Bloomberg Technology",
-          "summary": "Xi Jinping and Donald Trump will sit down this week to hash out a plethora of thorny issues from trade to Taiwan. One thing both sides agree on: neither can afford to tap the brakes on AI.",
-          "published": "2026-09-23T07:00:00+00:00",
-          "score": 46.0,
-          "headline": "XI AND TRUMP MEET ON AI SAFETY... SUPREMACY RACE CONTINUES"
-        },
-        {
-          "id": "acb3d2055ffa2e8e",
-          "title": "'Same sense of urgency': UN chief compares AI risk to nuclear weapons",
-          "url": "https://www.smh.com.au/politics/federal/australia-joins-call-for-ai-safeguards-amid-warnings-of-out-of-control-risks-20260922-p60zbe.html",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.smh.com.au/politics/federal/australia-joins-call-for-ai-safeguards-amid-warnings-of-out-of-control-risks-20260922-p60zbe.html Comments URL: https://news.ycombinator.com/item?id=49807335 Points: 4 # Comments: 1",
-          "published": "2026-09-22T20:05:12+00:00",
-          "score": 46.0,
-          "headline": "UN CHIEF: AI Risk Like Nuclear Weapons... Urgent Action Needed"
-        },
-        {
-          "id": "c670985d2960f27d",
-          "title": "Trump tells the UN that AI is now \u2018super intelligence\u2019",
-          "url": "https://thenextweb.com/news/trump-tells-the-un-that-ai-is-now-super-intelligence",
-          "source": "The Next Web",
-          "summary": "Donald Trump used his address to the UN General Assembly in New York on Tuesday to give artificial intelligence a new name. From now on, he said, US government documents would call it \u2018super intelligence\u2019, because \u2018artificial\u2019 made the technology sound fake. The rebrand grabbed the headlines, but the policy sat in the sentences around [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-22T19:06:26+00:00",
-          "score": 46.0,
-          "headline": "TRUMP RENAMES AI 'SUPER INTELLIGENCE' at UN Address"
-        },
-        {
-          "id": "d6e12f8110394109",
-          "title": "Trump rejects \u2018globalist scheme\u2019 to control AI in blow to Burnham",
-          "url": "https://www.ft.com/content/0e03521f-c4f1-4242-8fff-0e34a27a26db?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "President says US is \u2018leading over China by a lot and everyone else, and we\u2019re going to keep it that way\u2019",
-          "published": "2026-09-22T18:20:57+00:00",
-          "score": 46.0,
-          "headline": "TRUMP REJECTS GLOBAL AI CONTROL IN BLOW TO UK"
-        },
-        {
-          "id": "ac5f536ea12756f9",
-          "title": "Dario Amodei asks UN Security Council to back a ban on AI bioweapons",
-          "url": "https://thenextweb.com/news/dario-amodei-asks-un-security-council-to-back-a-ban-on-ai-bioweapons",
-          "source": "The Next Web",
-          "summary": "Dario Amodei is asking the UN Security Council to start with narrow agreements on AI, such as a ban on using it to make biological weapons. Speaking to the Council via video link today, the Anthropic chief executive calls AI the most important global security issue. Amodei is the third briefer at the meeting in [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-23T20:14:06+00:00",
-          "score": 45.0,
-          "headline": "Anthropic CEO Urges UN to Ban AI Bioweapons"
-        },
-        {
-          "id": "d71aaebe8ffbb65d",
-          "title": "Trump calls AI oversight a \u2018globalist scheme\u2019 as Amodei and Altman head to the UN to ask for it",
-          "url": "https://fortune.com/2026/09/23/trump-un-ai-globalist-scheme-altman-amodei-security-council/",
-          "source": "Fortune Tech",
-          "summary": "The clash comes days before Trump meets Xi Jinping in New York.",
-          "published": "2026-09-23T17:35:30+00:00",
-          "score": 45.0,
-          "headline": "TRUMP SLAMS AI OVERSIGHT AS 'GLOBALIST SCHEME' BEFORE XI MEETING"
-        },
-        {
-          "id": "d13523bfb80ca44f",
-          "title": "Trump Rejects Push for International Pact to Manage AI Risks",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-22/trump-rejects-push-for-global-pact-to-manage-ai-risks-video",
-          "source": "Bloomberg Technology",
-          "summary": "Representative Lori Trahan, a Democrat from Florida, said that President Trump is 'not in lockstep' with the American people when it comes to AI guardrails and that the president's claim that AI risks are a 'globalist scheme' is out of touch with what the public is feeling. Trahan, who co-authored a bipartisan bill on AI guardrails, said that she feels action shouldn't wait until the next congress and that congress is 'gambling' with the next AI security incident by sending members home ahead of the midterms. (Source: Bloomberg)",
-          "published": "2026-09-22T19:09:54+00:00",
-          "score": 45.0,
-          "headline": "TRUMP REJECTS INTERNATIONAL AI OVERSIGHT PACT"
-        },
-        {
-          "id": "eb8287406c0645e5",
-          "title": "Trump rejects global entity for AI oversight",
-          "url": "https://www.politico.com/news/2026/09/22/trump-rejects-global-entity-ai-oversight-01087546",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.politico.com/news/2026/09/22/trump-rejects-global-entity-ai-oversight-01087546 Comments URL: https://news.ycombinator.com/item?id=49806558 Points: 11 # Comments: 2",
-          "published": "2026-09-22T19:09:53+00:00",
-          "score": 45.0,
-          "headline": "TRUMP BLOCKS GLOBAL AI GOVERNANCE ENTITY"
-        },
-        {
-          "id": "5a3db3ead7ce431a",
-          "title": "Foreign relations as it happened: Xi Jinping says US and China must \u2018coexist in peace\u2019 in historic White House visit, Benjamin Netanyahu tells UN Israel and US launched Iran war to \u2018save civilisation\u2019",
-          "url": "https://www.ft.com/content/979ae3ac-4623-4fe9-a771-43ce451a9e73",
-          "source": "Financial Times Tech",
-          "summary": "Chinese leader met US counterpart Donald Trump in Washington for wide-ranging talks between the superpowers against the backdrop of UN General Assembly week",
-          "published": "2026-09-24T18:05:39+00:00",
-          "score": 44.0,
-          "headline": "Xi Tells Trump: US and China Must 'Coexist in Peace'"
-        },
-        {
-          "id": "e4646715e368ac89",
-          "title": "Altman, Amodei Call on UN, World Leaders to Boost AI Safety",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-23/altman-amodei-call-for-global-cooperation-on-ai-to-boost-safety",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI Chief Executive Officer Sam Altman and Anthropic PBC CEO Dario Amodei urged world leaders to work together on artificial intelligence in an extraordinary appearance before the United Nations Security Council that focused on growing concerns the technology poses existential risks to humanity.",
-          "published": "2026-09-23T19:56:04+00:00",
-          "score": 44.0,
-          "headline": "ALTMAN, AMODEI ADDRESS UN SECURITY COUNCIL ON AI SAFETY"
-        },
-        {
-          "id": "a5514d3cd9cfba02",
-          "title": "Tech Titans, Trump Fete China\u2019s Xi at State Dinner",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/tech-titans-trump-fete-china-s-xi-at-state-dinner-video",
-          "source": "Bloomberg Technology",
-          "summary": "Luminaries from Wall Street and Silicon Valley joined US President Donald Trump for a state dinner honoring his Chinese counterpart Xi Jinping. Steve Engle reports from Washington. (Source: Bloomberg)",
-          "published": "2026-09-25T05:41:03+00:00",
-          "score": 43.0,
-          "headline": "TRUMP HOSTS XI... TECH TITANS ATTEND STATE DINNER"
-        }
-      ],
-      "current_topic_name": "US-China AI Geopolitics and Global Governance"
     }
   ],
-  "last_updated": "2026-09-25T06:14:51.220936"
+  "last_updated": "2026-09-25T18:11:23.844718"
 }
