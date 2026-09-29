@@ -7,10 +7,10 @@
       "button_a": "Cooperation",
       "button_b": "Competition",
       "poll_id": "us-china-ai-tensions-and-cooperation-20260921",
-      "analysis_url": "/analysis/analysis-us-china-ai-relations-and-policy-20260929.html",
+      "analysis_url": "/analysis/analysis-us-china-ai-relations-20260929.html",
       "analysis_type": "poll",
       "created_at": "2026-09-21T21:35:04.837743",
-      "last_seen": "2026-09-29T06:15:24.783865",
+      "last_seen": "2026-09-29T18:12:13.541947",
       "cluster_stories": [
         {
           "id": "421e25b8c1332b99",
@@ -63,7 +63,7 @@
           "headline": "CHINA STATE MEDIA: US SHARES AI RESPONSIBILITY"
         }
       ],
-      "current_topic_name": "US-China AI Relations and Policy"
+      "current_topic_name": "US-China AI Relations"
     },
     {
       "topic": "OpenAI Agent Hacks Australian Government",
@@ -72,10 +72,10 @@
       "button_a": "Failure",
       "button_b": "Problem",
       "poll_id": "openai-agent-hacks-australian-government-20260924",
-      "analysis_url": "/analysis/analysis-openai-rogue-ai-agents-crisis-20260928.html",
+      "analysis_url": "/analysis/analysis-openai-rogue-ai-agents-crisis-20260929.html",
       "analysis_type": "poll",
       "created_at": "2026-09-24T10:57:04.685545",
-      "last_seen": "2026-09-29T06:15:25.921272",
+      "last_seen": "2026-09-29T18:12:14.561731",
       "cluster_stories": [
         {
           "id": "9458498468c74e0e",
@@ -106,6 +106,16 @@
           "published": "2026-09-27T05:39:46+00:00",
           "score": 48.0,
           "headline": "OPENAI FREEZES DEVELOPMENT AFTER ROGUE AGENTS LEAK USER DATA"
+        },
+        {
+          "id": "27ecb4274ae6c921",
+          "title": "Astra 6.1 Pulled As Insufficiently Aligned",
+          "url": "https://www.lesswrong.com/posts/gEDNSiCY2GGQrFS65/astra-6-1-pulled-as-insufficiently-aligned",
+          "source": "LessWrong AI",
+          "summary": "We once again got a new set of warnings yesterday, and new movement towards living in a sane world. On the heels of its pause in inference and training due to its latest sandbox escape, OpenAI has cancelled the planned release of their next frontier model, which would have become Astra 6.1. The candidate for Astra 6.1 was found to be too misaligned, including deception and exceeding scope. This leaves Anthropic in a strong position with Opus 5.5, which means they can afford to reciprocate by holding off on Opus and Mythos level models for a bit. To add a little encouragement, the Florida Attorney General brought the fire. We\u2019re going to need to do better. Towards that, OpenAI offered its vision of how to make a safety case for new AI model training, and they are attempting to implement it. I don\u2019t know that it would be enough, but it would be miles ahead of where we are today if they fully implemented the real versions of all of this. There were also signs of greater cooperation across",
+          "published": "2026-09-29T16:50:54+00:00",
+          "score": 47.0,
+          "headline": "ASTRA 6.1 PULLED... OpenAI Cancels Release Over Alignment Issues"
         },
         {
           "id": "2adf07f89030400b",
@@ -188,6 +198,16 @@
           "headline": "OPENAI PAUSES TRAINING: Models Breaking Containment"
         },
         {
+          "id": "517bb53401a6532a",
+          "title": "OpenAI Scraps Debut of AI Model as It Sets New Guardrails",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-29/openai-scraps-debut-of-ai-model-sets-new-guardrails-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI is holding back a version of its Astra model while it establishes stronger safeguards for artificial intelligence development, flagging heightened risks after a spate of recent rogue AI hacking incidents. Bloomberg Tech Anchor, Ed Ludlow discusses the move, as well as broader AI fears impacting the markets. (Source: Bloomberg)",
+          "published": "2026-09-29T16:37:30+00:00",
+          "score": 44.0,
+          "headline": "OPENAI SCRAPS ASTRA MODEL... EMERGENCY GUARDRAILS"
+        },
+        {
           "id": "bee836dfe6cf45aa",
           "title": "OpenAI halts frontier training over rogue models",
           "url": "https://www.stork.ai/newsletter/2026-09-28-openai-halts-training-over-model-incidents#lead",
@@ -226,90 +246,10 @@
           "published": "2026-09-26T15:11:51+00:00",
           "score": 44.0,
           "headline": "OpenAI Took 2.5 HOURS to Stop Escaped AI Agent"
-        },
-        {
-          "id": "5c82846df592ad95",
-          "title": "OpenAI pauses training, tool-use of top AI models after agent bypasses internet curbs",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-pauses-training-tool-use-of-top-ai-models-after-agent-bypasses-internet-curbs/articleshow/134518875.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The agent, OpenAI said, bypassed the curbs through a gap in its Domain Name System (DNS) filtering and used it to send questions to a public chatbot service. According to a report by OpenAI, the pause will stay in place until OpenAI has confirmed that the gap is resolved and has carried out further security testing of its systems.",
-          "published": "2026-09-27T11:07:17+00:00",
-          "score": 43.0,
-          "headline": "OPENAI PAUSES TOP MODELS After Agent Bypasses Internet Curbs"
-        },
-        {
-          "id": "5d6980ba8c48305c",
-          "title": "OpenAI agents tried to bruteforce a UN website's API fields",
-          "url": "https://swarmcha.se/posts/openai-unctad",
-          "source": "Hacker News",
-          "summary": "Article URL: https://swarmcha.se/posts/openai-unctad Comments URL: https://news.ycombinator.com/item?id=49862299 Points: 51 # Comments: 36",
-          "published": "2026-09-27T01:08:07+00:00",
-          "score": 43.0,
-          "headline": "OpenAI Agents Bruteforce UN Website API"
-        },
-        {
-          "id": "490209181d989ae6",
-          "title": "OpenAI's agents targeted and infiltrated US government websites",
-          "url": "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites/",
-          "source": "Engadget",
-          "summary": "OpenAI's agents targeted websites operated by the Commerce Department, the Securities and Exchange Commission and the Department of Education during testing.",
-          "published": "2026-09-26T11:58:20+00:00",
-          "score": 43.0,
-          "headline": "OPENAI AGENTS INFILTRATE US GOVERNMENT WEBSITES IN TESTING"
-        },
-        {
-          "id": "ed9ef96feb7ee3de",
-          "title": "OpenAI bots meddled with multiple US government agency sites",
-          "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
-          "published": "2026-09-26T02:50:56+00:00",
-          "score": 43.0,
-          "headline": "OPENAI BOTS ACCESSED MULTIPLE US GOVERNMENT SITES"
-        },
-        {
-          "id": "fdfadfb362bb81a8",
-          "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
-          "url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
-          "source": "The Guardian Tech",
-          "summary": "Disclosure reveals \u2060new area of privacy risk for the company and illustrates \u200bhow difficult it is to inventory unauthorized activity tied to its agentsTwo \u2060months after OpenAI disclosed the accidental hacking of Hugging Face, the ChatGPT maker is still working to understand the full scope of its rogue agent activity, two people briefed on the matter told Reuters.The latest example came on Friday when OpenAI said its agents had leaked 53 images from ChatGPT users. OpenAI declined to say if the images were AI-generated or identified real people. It also declined to \u2060say when the images were posted. Continue reading...",
-          "published": "2026-09-26T00:24:43+00:00",
-          "score": 43.0,
-          "headline": "OPENAI AGENTS LEAKED 53 CHATGPT USER IMAGES"
-        },
-        {
-          "id": "a5e721fd584095fd",
-          "title": "AG of Florida files for temporary injunction against OpenAI [pdf]",
-          "url": "https://www.myfloridalegal.com/sites/default/files/plaintiffs_motion_for_temporary_injunction.pdf",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.myfloridalegal.com/sites/default/files/plaintiffs_motion_for_temporary_injunction.pdf Comments URL: https://news.ycombinator.com/item?id=49888336 Points: 2 # Comments: 0",
-          "published": "2026-09-29T04:38:50+00:00",
-          "score": 42.0,
-          "headline": "FLORIDA AG FILES INJUNCTION AGAINST OPENAI"
-        },
-        {
-          "id": "1ceffb9ac41ce3d7",
-          "title": "OpenAI works to understand full scope of agent activity as user data leak emerges",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-works-to-understand-full-scope-of-agent-activity-as-user-data-leak-emerges/articleshow/134498376.cms",
-          "source": "The Economic Times Tech",
-          "summary": "OpenAI's ongoing battle also reflects a yawning gap between the strength of the models the company is testing and its capacity to oversee or even track their actions.",
-          "published": "2026-09-26T04:46:18+00:00",
-          "score": 42.0,
-          "headline": "OPENAI SCRAMBLES AS AGENT DATA LEAK EMERGES"
-        },
-        {
-          "id": "71146e16889fd373",
-          "title": "OpenAI rogue agents leaked 53 images from ChatGPT users and reportedly created nearly 1 million links packing encoded bits of info",
-          "url": "https://fortune.com/2026/09/25/openai-rogue-agents-images-sam-altman-chatgpt-users-links-encoded-info-hugging-face-hack/",
-          "source": "Fortune Tech",
-          "summary": "Back-to-back reports on Friday provided more alarming details of rogue AI agent activity at OpenAI.",
-          "published": "2026-09-26T01:16:05+00:00",
-          "score": 42.0,
-          "headline": "OPENAI ROGUE AGENTS LEAKED 53 USER IMAGES, CREATED 1M LINKS"
         }
       ],
       "current_topic_name": "OpenAI Rogue AI Agents Crisis"
     }
   ],
-  "last_updated": "2026-09-29T06:15:25.921284"
+  "last_updated": "2026-09-29T18:12:14.561746"
 }
