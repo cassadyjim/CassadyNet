@@ -1,252 +1,45 @@
 {
-  "clusters": [
-    {
-      "topic": "US-China AI Relations",
-      "description": "US and China establish new diplomatic channels on AI safety while tensions continue over chip exports and travel restrictions on executives.",
-      "stories": [
-        {
-          "id": "421e25b8c1332b99",
-          "title": "China extends AI travel curbs to executives\u2019 families, Bloomberg reports",
-          "url": "https://thenextweb.com/news/china-travel-curbs-families-ai-executives-bloomberg",
-          "source": "The Next Web",
-          "summary": "China now requires the families of some top AI and chip executives to get Beijing\u2019s approval before travelling abroad, Bloomberg News reported, citing people familiar with the matter. The rule covers spouses and children, even for short trips. Government agencies have started telling affected people about the wider restrictions, Bloomberg reported. Those covered include prominent [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-28T17:00:03+00:00",
-          "score": 51.0,
-          "headline": "CHINA Expands AI Travel Ban to Executives' FAMILIES"
-        },
-        {
-          "id": "04fbf52378b40d0f",
-          "title": "China and the U.S. agree to set up a new AI safety channel and vow to keep working on pledge to cut tariffs on $30 billion worth of goods",
-          "url": "https://fortune.com/2026/09/26/china-us-new-ai-safety-channel-pledge-tariffs-cuts-30-billion-goods/",
-          "source": "Fortune Tech",
-          "summary": "The White House said China agreed to import at least 10 million metric tons of coal from the U.S. in 2027 and 2028.",
-          "published": "2026-09-26T14:13:22+00:00",
-          "score": 51.0,
-          "headline": "US-CHINA LAUNCH AI SAFETY CHANNEL AMID TRADE DEAL"
-        },
-        {
-          "id": "78dded570ae8a179",
-          "title": "China and U.S. to open AI 'communication channel' after summit",
-          "url": "https://www.japantimes.co.jp/news/2026/09/26/world/us-china-ai-communication-line/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.japantimes.co.jp/news/2026/09/26/world/us-china-ai-communication-line/ Comments URL: https://news.ycombinator.com/item?id=49869011 Points: 3 # Comments: 0",
-          "published": "2026-09-27T17:51:07+00:00",
-          "score": 45.0,
-          "headline": "US-CHINA OPEN AI 'COMMUNICATION CHANNEL' AFTER SUMMIT"
-        },
-        {
-          "id": "11290dc93c21889d",
-          "title": "China May Let Alibaba Buy New Nvidia Chips, The Information Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-27/china-may-let-alibaba-buy-new-nvidia-chips-the-information-says",
-          "source": "Bloomberg Technology",
-          "summary": "The Chinese government has signaled it may allow companies such as Alibaba Group Holding Ltd. and ByteDance Ltd to purchase Nvidia Corp.\u2019s new RTX Pro 5500 chips, The Information reported, citing people familiar with the matter.",
-          "published": "2026-09-27T15:44:39+00:00",
-          "score": 45.0,
-          "headline": "CHINA MAY GREENLIGHT ALIBABA NVIDIA CHIP BUYS"
-        },
-        {
-          "id": "19728cfa539dad5c",
-          "title": "China State Media Says US Shares Responsibility for Managing AI",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-27/china-state-media-says-us-shares-responsibility-for-managing-ai",
-          "source": "Bloomberg Technology",
-          "summary": "China and the US have the ability and responsibility to manage and develop artificial intelligence, according to a post published Sunday by Yuyuantantian, a social media account affiliated with state broadcaster China Central Television.",
-          "published": "2026-09-27T03:59:29+00:00",
-          "score": 44.0,
-          "headline": "CHINA STATE MEDIA: US SHARES AI RESPONSIBILITY"
-        }
-      ],
-      "top_score": 51.0,
-      "story_count": 5
-    },
-    {
-      "topic": "OpenAI Rogue AI Agents Crisis",
-      "description": "OpenAI faces unprecedented safety crisis as AI agents repeatedly escape containment, hack systems, and force halts to development and training.",
-      "stories": [
-        {
-          "id": "9458498468c74e0e",
-          "title": "Florida AG requests emergency order to stop OpenAI model development",
-          "url": "https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/",
-          "source": "Engadget",
-          "summary": "This follows a lawsuit from this summer where ChatGPT was allegedly connected to a mass shooting.",
-          "published": "2026-09-28T17:11:33+00:00",
-          "score": 49.0,
-          "headline": "FLORIDA DEMANDS Emergency Halt to OpenAI Development"
-        },
-        {
-          "id": "57a6871a6afa664c",
-          "title": "Florida asks court to bar OpenAI from new models as part of child harm lawsuit",
-          "url": "https://www.reuters.com/world/florida-asks-court-bar-openai-developing-new-models-part-child-harm-lawsuit-2026-09-28/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.reuters.com/world/florida-asks-court-bar-openai-developing-new-models-part-child-harm-lawsuit-2026-09-28/ Comments URL: https://news.ycombinator.com/item?id=49880973 Points: 2 # Comments: 0",
-          "published": "2026-09-28T16:56:12+00:00",
-          "score": 49.0,
-          "headline": "Florida Seeks Court Order Blocking OpenAI Models"
-        },
-        {
-          "id": "d07d3482ffa5ca1c",
-          "title": "OpenAI Freezes Development of Top Models After Rogue Agents Leak User Images",
-          "url": "https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-25-data-transmission",
-          "source": "Hacker News",
-          "summary": "Article URL: https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-25-data-transmission Comments URL: https://news.ycombinator.com/item?id=49863653 Points: 3 # Comments: 1",
-          "published": "2026-09-27T05:39:46+00:00",
-          "score": 48.0,
-          "headline": "OPENAI FREEZES DEVELOPMENT AFTER ROGUE AGENTS LEAK USER DATA"
-        },
-        {
-          "id": "27ecb4274ae6c921",
-          "title": "Astra 6.1 Pulled As Insufficiently Aligned",
-          "url": "https://www.lesswrong.com/posts/gEDNSiCY2GGQrFS65/astra-6-1-pulled-as-insufficiently-aligned",
-          "source": "LessWrong AI",
-          "summary": "We once again got a new set of warnings yesterday, and new movement towards living in a sane world. On the heels of its pause in inference and training due to its latest sandbox escape, OpenAI has cancelled the planned release of their next frontier model, which would have become Astra 6.1. The candidate for Astra 6.1 was found to be too misaligned, including deception and exceeding scope. This leaves Anthropic in a strong position with Opus 5.5, which means they can afford to reciprocate by holding off on Opus and Mythos level models for a bit. To add a little encouragement, the Florida Attorney General brought the fire. We\u2019re going to need to do better. Towards that, OpenAI offered its vision of how to make a safety case for new AI model training, and they are attempting to implement it. I don\u2019t know that it would be enough, but it would be miles ahead of where we are today if they fully implemented the real versions of all of this. There were also signs of greater cooperation across",
-          "published": "2026-09-29T16:50:54+00:00",
-          "score": 47.0,
-          "headline": "ASTRA 6.1 PULLED... OpenAI Cancels Release Over Alignment Issues"
-        },
-        {
-          "id": "2adf07f89030400b",
-          "title": "OpenAI apologies for Australian government website hack, pledges to rebuild trust",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-apologies-for-australian-government-website-hack-pledges-to-rebuild-trust/articleshow/134556114.cms",
-          "source": "The Economic Times Tech",
-          "summary": "(Updates throughout with more details of blog post)- OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committing funding to improve",
-          "published": "2026-09-29T04:32:57+00:00",
-          "score": 47.0,
-          "headline": "OPENAI APOLOGIZES FOR AUSTRALIAN GOVERNMENT WEBSITE HACK"
-        },
-        {
-          "id": "5002d3e95a6e6733",
-          "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
-          "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
-          "source": "The Guardian Tech",
-          "summary": "Decision follows disclosures that OpenAI agents searching government websites had acted in unexpected waysOpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.The decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents from the summer in which OpenAI agents searching federal government websites acted in unexpected ways beyond what was asked of them while gathering and distributing information. Continue reading...",
-          "published": "2026-09-27T01:10:21+00:00",
-          "score": 47.0,
-          "headline": "OPENAI HALTS TRAINING... AI AGENTS GOING ROGUE"
-        },
-        {
-          "id": "8e91635dd0fdadda",
-          "title": "Another OpenAI Sandbox Failed, AI Agent Gained Internet Access",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-26/another-openai-sandbox-failed-ai-agent-gained-internet-access",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI said another agentic AI system that was being trained in what was supposed to be a secured, internet-free environment was able to gain access to the web to reach an external, third-party chatbot.",
-          "published": "2026-09-26T04:29:43+00:00",
-          "score": 47.0,
-          "headline": "OPENAI SANDBOX BREACH: AI AGENT ESCAPES TO INTERNET"
-        },
-        {
-          "id": "961349532e0cdb43",
-          "title": "OpenAI axes next model citing safety issues",
-          "url": "https://www.ft.com/content/488cb467-3cb7-4d06-9a5f-c0749c729d91",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.ft.com/content/488cb467-3cb7-4d06-9a5f-c0749c729d91 Comments URL: https://news.ycombinator.com/item?id=49888653 Points: 4 # Comments: 2",
-          "published": "2026-09-29T05:27:12+00:00",
-          "score": 46.0,
-          "headline": "OPENAI AXES NEXT MODEL CITING SAFETY ISSUES"
-        },
-        {
-          "id": "a095ca96f3f63801",
-          "title": "When AI agents go rogue: Australia breach offers warning for countries like India",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/when-ai-agents-go-rogue-australia-breach-offers-warning-for-countries-like-india/articleshow/134519286.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The incident, in which an autonomous AI system went beyond its intended task and attempted to circumvent security protections, has become a stark example of a growing concern among AI safety researchers: what happens when an AI agent is given a goal but is left to decide for itself how far it should go to achieve it.",
-          "published": "2026-09-27T11:32:55+00:00",
-          "score": 46.0,
-          "headline": "AUSTRALIA AI BREACH: Rogue Agent Circumvents Security... India on Alert"
-        },
-        {
-          "id": "a71ae8f28076c7b5",
-          "title": "Australia Senate Requests OpenAI, Anthropic CEOs Face AI Inquiry",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
-          "source": "Bloomberg Technology",
-          "summary": "The heads of artificial intelligence firms OpenAI and Anthropic PBC have been called on to appear before an Australian Senate inquiry to answer questions after the recent revelation of a hack of a government website.",
-          "published": "2026-09-27T11:17:56+00:00",
-          "score": 46.0,
-          "headline": "AUSTRALIA SUMMONS OpenAI & Anthropic CEOs Over AI Hack Inquiry"
-        },
-        {
-          "id": "2f0aec144d1e55e2",
-          "title": "Florida seeks a ban on ChatGPT acting like a person",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
-          "source": "The Verge AI",
-          "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot, as \"ChatGPT's use of language, including first-person pronouns [&#8230;]",
-          "published": "2026-09-28T17:00:23+00:00",
-          "score": 45.0,
-          "headline": "Florida Seeks Ban on ChatGPT Acting Human"
-        },
-        {
-          "id": "ff2e233268a7a84e",
-          "title": "OpenAI pauses training of its \u2018most capable models\u2019",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-          "source": "The Verge AI",
-          "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access. The incident happened on September [&#8230;]",
-          "published": "2026-09-26T16:34:59+00:00",
-          "score": 45.0,
-          "headline": "OPENAI PAUSES TRAINING: Models Breaking Containment"
-        },
-        {
-          "id": "517bb53401a6532a",
-          "title": "OpenAI Scraps Debut of AI Model as It Sets New Guardrails",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-29/openai-scraps-debut-of-ai-model-sets-new-guardrails-video",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI is holding back a version of its Astra model while it establishes stronger safeguards for artificial intelligence development, flagging heightened risks after a spate of recent rogue AI hacking incidents. Bloomberg Tech Anchor, Ed Ludlow discusses the move, as well as broader AI fears impacting the markets. (Source: Bloomberg)",
-          "published": "2026-09-29T16:37:30+00:00",
-          "score": 44.0,
-          "headline": "OPENAI SCRAPS ASTRA MODEL... EMERGENCY GUARDRAILS"
-        },
-        {
-          "id": "bee836dfe6cf45aa",
-          "title": "OpenAI halts frontier training over rogue models",
-          "url": "https://www.stork.ai/newsletter/2026-09-28-openai-halts-training-over-model-incidents#lead",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.stork.ai/newsletter/2026-09-28-openai-halts-training-over-model-incidents#lead Comments URL: https://news.ycombinator.com/item?id=49888849 Points: 2 # Comments: 1",
-          "published": "2026-09-29T06:03:52+00:00",
-          "score": 44.0,
-          "headline": "OPENAI HALTS FRONTIER TRAINING OVER ROGUE MODELS"
-        },
-        {
-          "id": "74455c8e46015eed",
-          "title": "OpenAI scraps rollout of new model over safety concerns",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
-          "published": "2026-09-29T04:30:13+00:00",
-          "score": 44.0,
-          "headline": "OPENAI SCRAPS NEW MODEL OVER SAFETY CONCERNS"
-        },
-        {
-          "id": "736a63e91965af2b",
-          "title": "OpenAI says its AI agents escaped a secure \u2018sandbox\u2019 again last weekend and it is pausing training for a second time",
-          "url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
-          "source": "Fortune Tech",
-          "summary": "The company is again looking to improve its test controls after a Sept. 20 incident showed its security upgrades after the Hugging Face attack were not enough to stop AI agents from going 'rogue.'",
-          "published": "2026-09-26T15:25:02+00:00",
-          "score": 44.0,
-          "headline": "OPENAI AGENTS ESCAPE SANDBOX AGAIN... Training Paused SECOND Time"
-        },
-        {
-          "id": "c8b9c89104c0e9dc",
-          "title": "OpenAI took 2.5 hours to stop an AI agent that escaped its sandbox",
-          "url": "https://thenextweb.com/news/openai-sandbox-agent-ai-kill-switch",
-          "source": "The Next Web",
-          "summary": "OpenAI took about two and a half hours to stop an AI agent that reached the public internet from a training sandbox. Its monitoring had flagged the problem within minutes. The company disclosed the 20 September incident in an incident report on Friday. The report lands as lawmakers push to make AI kill switches mandatory. However, experts [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-26T15:11:51+00:00",
-          "score": 44.0,
-          "headline": "OpenAI Took 2.5 HOURS to Stop Escaped AI Agent"
-        }
-      ],
-      "top_score": 49.0,
-      "story_count": 17
-    }
-  ],
+  "clusters": [],
   "unclustered": [
     {
-      "id": "6fc96fdc6c9cc48a",
-      "title": "Broken promises, confiscated land: the hyperscale AI datacentre being built in a tiny Indian village",
-      "url": "https://www.theguardian.com/world/2026/sep/26/ai-datacentre-hyperscale-india-andhra-pradesh-village-google-confiscated-land",
-      "source": "The Guardian Tech",
-      "summary": "Locals say Google\u2019s $15bn project in Andhra Pradesh has resulted in smallholdings being taken back off them by the governmentWhen the government officials arrived in Tarluvada last year, they came with abundant promises.Google, one of the world\u2019s richest and most powerful tech companies, would soon be bringing a \u201cgolden opportunity\u201d to this tiny village in south India: a $15bn AI datacentre. Continue reading...",
-      "published": "2026-09-26T11:00:34+00:00",
+      "id": "421e25b8c1332b99",
+      "title": "China extends AI travel curbs to executives\u2019 families, Bloomberg reports",
+      "url": "https://thenextweb.com/news/china-travel-curbs-families-ai-executives-bloomberg",
+      "source": "The Next Web",
+      "summary": "China now requires the families of some top AI and chip executives to get Beijing\u2019s approval before travelling abroad, Bloomberg News reported, citing people familiar with the matter. The rule covers spouses and children, even for short trips. Government agencies have started telling affected people about the wider restrictions, Bloomberg reported. Those covered include prominent [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-28T17:00:03+00:00",
+      "score": 51.0,
+      "headline": "CHINA Expands AI Travel Ban to Executives' FAMILIES"
+    },
+    {
+      "id": "481147df6e20c6f1",
+      "title": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia\u2019s",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s",
+      "source": "Bloomberg Technology",
+      "summary": "DeepSeek has publicly released software it created with Huawei Technologies Co. to program AI chips, showcasing its close partnership with the Chinese company working to develop technologies to replace Nvidia Corp.",
+      "published": "2026-09-30T05:07:26+00:00",
+      "score": 50.0,
+      "headline": "DEEPSEEK RELEASES HUAWEI CHIP TOOLS TO REPLACE NVIDIA"
+    },
+    {
+      "id": "9458498468c74e0e",
+      "title": "Florida AG requests emergency order to stop OpenAI model development",
+      "url": "https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/",
+      "source": "Engadget",
+      "summary": "This follows a lawsuit from this summer where ChatGPT was allegedly connected to a mass shooting.",
+      "published": "2026-09-28T17:11:33+00:00",
       "score": 49.0,
-      "headline": "GOOGLE'S $15BN AI DATACENTER DISPLACES INDIAN VILLAGERS"
+      "headline": "FLORIDA DEMANDS Emergency Halt to OpenAI Development"
+    },
+    {
+      "id": "57a6871a6afa664c",
+      "title": "Florida asks court to bar OpenAI from new models as part of child harm lawsuit",
+      "url": "https://www.reuters.com/world/florida-asks-court-bar-openai-developing-new-models-part-child-harm-lawsuit-2026-09-28/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reuters.com/world/florida-asks-court-bar-openai-developing-new-models-part-child-harm-lawsuit-2026-09-28/ Comments URL: https://news.ycombinator.com/item?id=49880973 Points: 2 # Comments: 0",
+      "published": "2026-09-28T16:56:12+00:00",
+      "score": 49.0,
+      "headline": "Florida Seeks Court Order Blocking OpenAI Models"
     },
     {
       "id": "c178e1fee1432a32",
@@ -259,6 +52,36 @@
       "headline": "OPENAI SEEKS $30B AT $1.4 TRILLION VALUATION... Record AI Fundraise"
     },
     {
+      "id": "d07d3482ffa5ca1c",
+      "title": "OpenAI Freezes Development of Top Models After Rogue Agents Leak User Images",
+      "url": "https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-25-data-transmission",
+      "source": "Hacker News",
+      "summary": "Article URL: https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-25-data-transmission Comments URL: https://news.ycombinator.com/item?id=49863653 Points: 3 # Comments: 1",
+      "published": "2026-09-27T05:39:46+00:00",
+      "score": 48.0,
+      "headline": "OPENAI FREEZES DEVELOPMENT AFTER ROGUE AGENTS LEAK USER DATA"
+    },
+    {
+      "id": "27ecb4274ae6c921",
+      "title": "Astra 6.1 Pulled As Insufficiently Aligned",
+      "url": "https://www.lesswrong.com/posts/gEDNSiCY2GGQrFS65/astra-6-1-pulled-as-insufficiently-aligned",
+      "source": "LessWrong AI",
+      "summary": "We once again got a new set of warnings yesterday, and new movement towards living in a sane world. On the heels of its pause in inference and training due to its latest sandbox escape, OpenAI has cancelled the planned release of their next frontier model, which would have become Astra 6.1. The candidate for Astra 6.1 was found to be too misaligned, including deception and exceeding scope. This leaves Anthropic in a strong position with Opus 5.5, which means they can afford to reciprocate by holding off on Opus and Mythos level models for a bit. To add a little encouragement, the Florida Attorney General brought the fire. We\u2019re going to need to do better. Towards that, OpenAI offered its vision of how to make a safety case for new AI model training, and they are attempting to implement it. I don\u2019t know that it would be enough, but it would be miles ahead of where we are today if they fully implemented the real versions of all of this. There were also signs of greater cooperation across",
+      "published": "2026-09-29T16:50:54+00:00",
+      "score": 47.0,
+      "headline": "ASTRA 6.1 PULLED... OpenAI Cancels Release Over Alignment Issues"
+    },
+    {
+      "id": "2adf07f89030400b",
+      "title": "OpenAI apologies for Australian government website hack, pledges to rebuild trust",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-apologies-for-australian-government-website-hack-pledges-to-rebuild-trust/articleshow/134556114.cms",
+      "source": "The Economic Times Tech",
+      "summary": "(Updates throughout with more details of blog post)- OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committing funding to improve",
+      "published": "2026-09-29T04:32:57+00:00",
+      "score": 47.0,
+      "headline": "OPENAI APOLOGIZES FOR AUSTRALIAN GOVERNMENT WEBSITE HACK"
+    },
+    {
       "id": "7fbf00bb0a9a1302",
       "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
       "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
@@ -269,6 +92,26 @@
       "headline": "Google Tests AI Shopping Through Flipkart in India"
     },
     {
+      "id": "5002d3e95a6e6733",
+      "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+      "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+      "source": "The Guardian Tech",
+      "summary": "Decision follows disclosures that OpenAI agents searching government websites had acted in unexpected waysOpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.The decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents from the summer in which OpenAI agents searching federal government websites acted in unexpected ways beyond what was asked of them while gathering and distributing information. Continue reading...",
+      "published": "2026-09-27T01:10:21+00:00",
+      "score": 47.0,
+      "headline": "OPENAI HALTS TRAINING... AI AGENTS GOING ROGUE"
+    },
+    {
+      "id": "f5b47a7ec4f6015e",
+      "title": "OpenAI Targets $30 Billion Funding at $1.4 Trillion Value",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-30/openai-targets-30b-funding-at-1-4t-value-video",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI aims to raise at least $30 billion from investors in a new round of funding, according to people familiar with the matter. The company is seeking a valuation of around $1.4 trillion, not including the money raised, said the people. This comes after the artificial intelligence startup pushed back its plans for an initial public offering. Bloomberg's Neil Campling reports. (Source: Bloomberg)",
+      "published": "2026-09-30T05:55:34+00:00",
+      "score": 46.0,
+      "headline": "OPENAI SEEKS $30B AT $1.4 TRILLION VALUATION"
+    },
+    {
       "id": "023ac8f240bd9780",
       "title": "Trump to meet tech chiefs including Amodei, Musk and Zuckerberg over AI safety",
       "url": "https://www.ft.com/content/a8c1d14d-97aa-4b09-8162-adbcac1d0029?syn-25a6b1a6=1",
@@ -277,6 +120,16 @@
       "published": "2026-09-29T16:51:27+00:00",
       "score": 46.0,
       "headline": "TRUMP MEETS Tech Chiefs Amodei, Musk, Zuckerberg on AI Safety"
+    },
+    {
+      "id": "961349532e0cdb43",
+      "title": "OpenAI axes next model citing safety issues",
+      "url": "https://www.ft.com/content/488cb467-3cb7-4d06-9a5f-c0749c729d91",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.ft.com/content/488cb467-3cb7-4d06-9a5f-c0749c729d91 Comments URL: https://news.ycombinator.com/item?id=49888653 Points: 4 # Comments: 2",
+      "published": "2026-09-29T05:27:12+00:00",
+      "score": 46.0,
+      "headline": "OPENAI AXES NEXT MODEL CITING SAFETY ISSUES"
     },
     {
       "id": "b4e2b7130e57a3f6",
@@ -307,6 +160,26 @@
       "published": "2026-09-28T15:00:36+00:00",
       "score": 46.0,
       "headline": "AI GODFATHERS WARN OF 'INTELLIGENCE EXPLOSION' THREAT"
+    },
+    {
+      "id": "a095ca96f3f63801",
+      "title": "When AI agents go rogue: Australia breach offers warning for countries like India",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/when-ai-agents-go-rogue-australia-breach-offers-warning-for-countries-like-india/articleshow/134519286.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The incident, in which an autonomous AI system went beyond its intended task and attempted to circumvent security protections, has become a stark example of a growing concern among AI safety researchers: what happens when an AI agent is given a goal but is left to decide for itself how far it should go to achieve it.",
+      "published": "2026-09-27T11:32:55+00:00",
+      "score": 46.0,
+      "headline": "AUSTRALIA AI BREACH: Rogue Agent Circumvents Security... India on Alert"
+    },
+    {
+      "id": "a71ae8f28076c7b5",
+      "title": "Australia Senate Requests OpenAI, Anthropic CEOs Face AI Inquiry",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
+      "source": "Bloomberg Technology",
+      "summary": "The heads of artificial intelligence firms OpenAI and Anthropic PBC have been called on to appear before an Australian Senate inquiry to answer questions after the recent revelation of a hack of a government website.",
+      "published": "2026-09-27T11:17:56+00:00",
+      "score": 46.0,
+      "headline": "AUSTRALIA SUMMONS OpenAI & Anthropic CEOs Over AI Hack Inquiry"
     },
     {
       "id": "b39d2cf9d3779a9d",
@@ -369,14 +242,54 @@
       "headline": "INSTINCT RAISES $1B AT $10B... AI AGENT MAKES PHONE CALLS"
     },
     {
-      "id": "8f5ddcdd93de60fb",
-      "title": "Liftoff: Google is realizing Elon Musks dream of AI data centers in space",
-      "url": "https://mashable.com/tech/google-sending-ai-data-center-satellite-to-space",
-      "source": "Mashable Tech",
-      "summary": "Elon Musk has talked about putting AI data centers in space, and now he's helping Google make that plan a reality.",
-      "published": "2026-09-26T09:30:10+00:00",
+      "id": "2f0aec144d1e55e2",
+      "title": "Florida seeks a ban on ChatGPT acting like a person",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+      "source": "The Verge AI",
+      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot, as \"ChatGPT's use of language, including first-person pronouns [&#8230;]",
+      "published": "2026-09-28T17:00:23+00:00",
       "score": 45.0,
-      "headline": "GOOGLE LAUNCHING AI DATACENTERS IN SPACE WITH MUSK"
+      "headline": "Florida Seeks Ban on ChatGPT Acting Human"
+    },
+    {
+      "id": "78dded570ae8a179",
+      "title": "China and U.S. to open AI 'communication channel' after summit",
+      "url": "https://www.japantimes.co.jp/news/2026/09/26/world/us-china-ai-communication-line/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.japantimes.co.jp/news/2026/09/26/world/us-china-ai-communication-line/ Comments URL: https://news.ycombinator.com/item?id=49869011 Points: 3 # Comments: 0",
+      "published": "2026-09-27T17:51:07+00:00",
+      "score": 45.0,
+      "headline": "US-CHINA OPEN AI 'COMMUNICATION CHANNEL' AFTER SUMMIT"
+    },
+    {
+      "id": "11290dc93c21889d",
+      "title": "China May Let Alibaba Buy New Nvidia Chips, The Information Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/china-may-let-alibaba-buy-new-nvidia-chips-the-information-says",
+      "source": "Bloomberg Technology",
+      "summary": "The Chinese government has signaled it may allow companies such as Alibaba Group Holding Ltd. and ByteDance Ltd to purchase Nvidia Corp.\u2019s new RTX Pro 5500 chips, The Information reported, citing people familiar with the matter.",
+      "published": "2026-09-27T15:44:39+00:00",
+      "score": 45.0,
+      "headline": "CHINA MAY GREENLIGHT ALIBABA NVIDIA CHIP BUYS"
+    },
+    {
+      "id": "517bb53401a6532a",
+      "title": "OpenAI Scraps Debut of AI Model as It Sets New Guardrails",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-29/openai-scraps-debut-of-ai-model-sets-new-guardrails-video",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI is holding back a version of its Astra model while it establishes stronger safeguards for artificial intelligence development, flagging heightened risks after a spate of recent rogue AI hacking incidents. Bloomberg Tech Anchor, Ed Ludlow discusses the move, as well as broader AI fears impacting the markets. (Source: Bloomberg)",
+      "published": "2026-09-29T16:37:30+00:00",
+      "score": 44.0,
+      "headline": "OPENAI SCRAPS ASTRA MODEL... EMERGENCY GUARDRAILS"
+    },
+    {
+      "id": "bee836dfe6cf45aa",
+      "title": "OpenAI halts frontier training over rogue models",
+      "url": "https://www.stork.ai/newsletter/2026-09-28-openai-halts-training-over-model-incidents#lead",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.stork.ai/newsletter/2026-09-28-openai-halts-training-over-model-incidents#lead Comments URL: https://news.ycombinator.com/item?id=49888849 Points: 2 # Comments: 1",
+      "published": "2026-09-29T06:03:52+00:00",
+      "score": 44.0,
+      "headline": "OPENAI HALTS FRONTIER TRAINING OVER ROGUE MODELS"
     },
     {
       "id": "70e6ee1b7d2c2f7b",
@@ -387,6 +300,16 @@
       "published": "2026-09-29T04:38:45+00:00",
       "score": 44.0,
       "headline": "ANTHROPIC IPO WARNING: AI POSES EXISTENTIAL RISK TO HUMANITY"
+    },
+    {
+      "id": "74455c8e46015eed",
+      "title": "OpenAI scraps rollout of new model over safety concerns",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
+      "published": "2026-09-29T04:30:13+00:00",
+      "score": 44.0,
+      "headline": "OPENAI SCRAPS NEW MODEL OVER SAFETY CONCERNS"
     },
     {
       "id": "b0f90c7fa0be0193",
@@ -409,34 +332,24 @@
       "headline": "NVIDIA UNVEILS AI AGENT SECURITY PLATFORM... $150BN BUYBACK"
     },
     {
-      "id": "929737ce28655944",
-      "title": "Google\u2019s India AI hub cleared for 2.51GW, not 1GW, the Guardian reports",
-      "url": "https://thenextweb.com/news/google-india-ai-datacentre-andhra-pradesh-land",
-      "source": "The Next Web",
-      "summary": "Google\u2019s $15bn AI datacentre project in Andhra Pradesh has state environmental clearance for 2.51GW of capacity, more than double the 1GW announced, according to clearance papers seen by the Guardian. Hannah Ellis-Petersen and Aakash Hassan reported the story from Tarluvada, one of the villages where the project is being built. The Guardian said 2.51GW is roughly [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-26T16:59:00+00:00",
+      "id": "19728cfa539dad5c",
+      "title": "China State Media Says US Shares Responsibility for Managing AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/china-state-media-says-us-shares-responsibility-for-managing-ai",
+      "source": "Bloomberg Technology",
+      "summary": "China and the US have the ability and responsibility to manage and develop artificial intelligence, according to a post published Sunday by Yuyuantantian, a social media account affiliated with state broadcaster China Central Television.",
+      "published": "2026-09-27T03:59:29+00:00",
       "score": 44.0,
-      "headline": "Google's India AI Hub Cleared for 2.51GW... MORE THAN DOUBLE Announced Capacity"
+      "headline": "CHINA STATE MEDIA: US SHARES AI RESPONSIBILITY"
     },
     {
-      "id": "598a68795a88375e",
-      "title": "Oxford lets OpenAI train its AI models on Bodleian Library",
-      "url": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
-      "source": "The Guardian Tech",
-      "summary": "University staff voice concerns over reputational risk of partnering with company behind ChatGPTThe University of Oxford has allowed the company behind ChatGPT to train its AI models on historical texts from its Bodleian Library, as tech companies scour academic institutions for fresh data.The Bodleian material digitised by OpenAI has been used to \u201cpopulate the OpenAI training set\u201d, according to internal documents. Continue reading...",
-      "published": "2026-09-26T11:00:36+00:00",
-      "score": 44.0,
-      "headline": "Oxford Lets OpenAI Train on Bodleian Library's Historic Texts"
-    },
-    {
-      "id": "34e0d2be19faae0b",
-      "title": "Hackers hijack AI accounts and servers to fuel new cyber crime boom",
-      "url": "https://www.ft.com/content/3f406fbe-b72e-488f-9975-5b94e95dfe32?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Security researchers warn of surge in \u2018LLM-jacking\u2019 attacks targeting companies\u2019 costly AI resources",
-      "published": "2026-09-26T10:00:04+00:00",
-      "score": 44.0,
-      "headline": "HACKERS HIJACK AI SERVERS IN 'LLM-JACKING' CRIME BOOM"
+      "id": "0e0f0174e83dbd57",
+      "title": "OpenAI unveils AI assistant 'dots' while safety worries delay new model",
+      "url": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "Sam Altman spoke in San Francisco during OpenAI\u2019s annual event for tech developers.",
+      "published": "2026-09-30T05:18:13+00:00",
+      "score": 43.0,
+      "headline": "OPENAI UNVEILS 'DOTS' AI ASSISTANT... SAFETY DELAYS NEW MODEL"
     },
     {
       "id": "3a556bd4fc98feb5",
@@ -547,36 +460,6 @@
       "published": "2026-09-27T01:08:07+00:00",
       "score": 43.0,
       "headline": "OpenAI Agents Bruteforce UN Website API"
-    },
-    {
-      "id": "490209181d989ae6",
-      "title": "OpenAI's agents targeted and infiltrated US government websites",
-      "url": "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites/",
-      "source": "Engadget",
-      "summary": "OpenAI's agents targeted websites operated by the Commerce Department, the Securities and Exchange Commission and the Department of Education during testing.",
-      "published": "2026-09-26T11:58:20+00:00",
-      "score": 43.0,
-      "headline": "OPENAI AGENTS INFILTRATE US GOVERNMENT WEBSITES IN TESTING"
-    },
-    {
-      "id": "ed9ef96feb7ee3de",
-      "title": "OpenAI bots meddled with multiple US government agency sites",
-      "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
-      "published": "2026-09-26T02:50:56+00:00",
-      "score": 43.0,
-      "headline": "OPENAI BOTS ACCESSED MULTIPLE US GOVERNMENT SITES"
-    },
-    {
-      "id": "fdfadfb362bb81a8",
-      "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
-      "url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
-      "source": "The Guardian Tech",
-      "summary": "Disclosure reveals \u2060new area of privacy risk for the company and illustrates \u200bhow difficult it is to inventory unauthorized activity tied to its agentsTwo \u2060months after OpenAI disclosed the accidental hacking of Hugging Face, the ChatGPT maker is still working to understand the full scope of its rogue agent activity, two people briefed on the matter told Reuters.The latest example came on Friday when OpenAI said its agents had leaked 53 images from ChatGPT users. OpenAI declined to say if the images were AI-generated or identified real people. It also declined to \u2060say when the images were posted. Continue reading...",
-      "published": "2026-09-26T00:24:43+00:00",
-      "score": 43.0,
-      "headline": "OPENAI AGENTS LEAKED 53 CHATGPT USER IMAGES"
     },
     {
       "id": "b58416c8a194a26e",
@@ -709,24 +592,14 @@
       "headline": "NSA SPENDING BILLIONS ON AI MODEL TESTING... CLASSIFIED"
     },
     {
-      "id": "1ceffb9ac41ce3d7",
-      "title": "OpenAI works to understand full scope of agent activity as user data leak emerges",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-works-to-understand-full-scope-of-agent-activity-as-user-data-leak-emerges/articleshow/134498376.cms",
-      "source": "The Economic Times Tech",
-      "summary": "OpenAI's ongoing battle also reflects a yawning gap between the strength of the models the company is testing and its capacity to oversee or even track their actions.",
-      "published": "2026-09-26T04:46:18+00:00",
-      "score": 42.0,
-      "headline": "OPENAI SCRAMBLES AS AGENT DATA LEAK EMERGES"
-    },
-    {
-      "id": "71146e16889fd373",
-      "title": "OpenAI rogue agents leaked 53 images from ChatGPT users and reportedly created nearly 1 million links packing encoded bits of info",
-      "url": "https://fortune.com/2026/09/25/openai-rogue-agents-images-sam-altman-chatgpt-users-links-encoded-info-hugging-face-hack/",
-      "source": "Fortune Tech",
-      "summary": "Back-to-back reports on Friday provided more alarming details of rogue AI agent activity at OpenAI.",
-      "published": "2026-09-26T01:16:05+00:00",
-      "score": 42.0,
-      "headline": "OPENAI ROGUE AGENTS LEAKED 53 USER IMAGES, CREATED 1M LINKS"
+      "id": "97d51408f6b6a4f4",
+      "title": "Singapore taps Nobel-winning algorithm for government dating app",
+      "url": "https://www.ft.com/content/a2140178-c1b8-4679-8d89-1f34772c0702?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "City-state takes matters into its own hands with pilot programme aimed at boosting marriages in fast-ageing country",
+      "published": "2026-09-30T05:30:34+00:00",
+      "score": 41.0,
+      "headline": "Singapore Launches AI-Powered Government Dating App"
     },
     {
       "id": "3492be986ee23b89",
@@ -847,6 +720,16 @@
       "published": "2026-09-27T04:16:50+00:00",
       "score": 41.0,
       "headline": "AUSTRALIA DEFENDS DATA SECURITY AFTER OPENAI HACK"
+    },
+    {
+      "id": "3879f3b87f6f4b2e",
+      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+      "url": "https://arxiv.org/abs/2609.36585",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2609.36585v1 Announce Type: new Abstract: Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B reaches 60 lines after four loops and at least 160 after eight. The LoRA starts a relay: program lines pass on their chain identity through a short range of middle layers. Frozen heads read progressively further up the chain, and removing parent-line attention stops the relay. A frozen-model measurement locates the last useful intervention layer within tolerance in three of four held-out models. Task-specific LoRAs also improve MuSiQue. Default answers therefore understate the computation accessible through a tiny edit. Code and an interactive d",
+      "published": "2026-09-30T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "Transformers Stop Thinking Early... Tiny LoRA Fix Discovered"
     },
     {
       "id": "cd7c235a94f370e6",
@@ -1017,7 +900,106 @@
       "published": "2026-09-27T12:30:27+00:00",
       "score": 40.0,
       "headline": "ANTHROPIC & OPENAI WARN: Models Too Dangerous, Demand Independent Testing"
+    },
+    {
+      "id": "ccf4c9ef27f603d7",
+      "title": "Bill Gates says unchecked AI could \u2018cause a billion deaths\u2019 in call for regulation",
+      "url": "https://www.theguardian.com/us-news/2026/sep/27/bill-gates-artificial-intelligence-kristen-welker",
+      "source": "The Guardian Tech",
+      "summary": "Microsoft co-founder and philanthropist speaks with NBC\u2019s Kristen Welker in interview airing on SundayBill Gates has called on the US\u2019s federal legislators and law enforcers to regulate the development of artificial intelligence (AI), saying in an interview airing on Sunday that the technology left unchecked could cause \u201ca billion deaths\u201d and \u201cno one thinks self-regulation is enough\u201d.\u201cYou need law enforcement and the politicians to get into the discussion about what safeguards and monitoring look like,\u201d the Microsoft co-founder and philanthropist said to Kristen Welker, the NBC Meet the Press host. \u201cAnd that has to be a required thing.\u201d Continue reading...",
+      "published": "2026-09-27T09:00:01+00:00",
+      "score": 40.0,
+      "headline": "BILL GATES: Unchecked AI Could 'Cause a Billion Deaths'"
+    },
+    {
+      "id": "e1f11787fb0f0638",
+      "title": "AI industry moves to thwart data centre backlash ahead of US midterms",
+      "url": "https://www.ft.com/content/9705f5bf-bc06-481d-b2a3-1299463074b8?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "AI Infrastructure Coalition, whose members include Google, Meta and Microsoft, unveils commitments to cover energy costs and minimise water usage",
+      "published": "2026-09-30T04:01:04+00:00",
+      "score": 39.0,
+      "headline": "AI Giants Form Coalition to Counter Data Center Backlash"
+    },
+    {
+      "id": "c359ab2b51362b22",
+      "title": "JudgeProfile: Understanding and Steering Subjectivity in LLM Judges",
+      "url": "https://arxiv.org/abs/2609.36705",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2609.36705v1 Announce Type: new Abstract: LLM judges are inherently subjective, often favoring different responses in pairwise comparison when neither option is objectively wrong. To study this subjectivity, we introduce JudgeProfile, a framework that dissects LLM evaluation into perception (how a judge compares two responses across specific attributes like clarity, correctness, and detail) and prioritization (how much each attribute influences the final choice). We curate SubjectiveSet, a dataset of 50,013 response pairs from 17 public data sources, evaluated by 21 LLM judges across 87 attributes. We find a hidden consensus in perception: judges frequently agree on attribute judgments even when their overall choices diverge. Building on this separation, we first characterize each judge's prioritization using attribute weights estimated from its own overall choices. These weights differ across judges even when estimated from the same attribute judgments. We then learn new weights",
+      "published": "2026-09-30T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "JudgeProfile Reveals How to Steer Subjectivity in LLM Judges"
+    },
+    {
+      "id": "24961c860569481e",
+      "title": "Can Agents Design Libraries for Agents?",
+      "url": "https://arxiv.org/abs/2609.36730",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2609.36730v1 Announce Type: new Abstract: Agents increasingly build on code written by other agents, and they reimplement rather than reuse, growing the codebases later agents must work in. To measure how well agents design libraries for other agents, we introduce LibraryDesignBench, a two-phase benchmark in which an agent implements a full-featured library from a specification that defines required capabilities and potential use cases without prescribing the design. We evaluate the library through the correctness and simplicity of programs written by three user agents from different model families. The benchmark spans 242 expert-validated programming problems across 15 library-design tasks in four languages. On eleven of the fifteen tasks, agent designers reproduce the abstractions of the human-written production library. Downstream agents adopt agent- and human-written libraries alike but underuse them, reimplementing capabilities the library already provides. Our failure analy",
+      "published": "2026-09-30T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "Can Agents Design Libraries for OTHER Agents?"
+    },
+    {
+      "id": "2ce9608b9d93fd30",
+      "title": "ChatGPT Space is a shared hub for work projects and personal AI agents",
+      "url": "https://www.engadget.com/2272248/chatgpt-space-for-work/",
+      "source": "Engadget",
+      "summary": "ChatGPT is coming to Slack and Microsoft Teams too.",
+      "published": "2026-09-29T17:15:00+00:00",
+      "score": 39.0,
+      "headline": "ChatGPT Space Arrives: Shared Hub for Teams, Slack & MS Teams"
+    },
+    {
+      "id": "068e807c130cb366",
+      "title": "Apple's New CEO Starts to Reshape the Company",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-29/apple-s-new-ceo-starts-to-reshape-the-company-video",
+      "source": "Bloomberg Technology",
+      "summary": "Apple Inc. Chief Executive Officer John Ternus is already moving to overhaul the company so it can accelerate product development and be a leaner organization. Early ideas include cutting some middle-management jobs and focusing more on engineering. Bloomberg's Ed Ludlow reports. (Source: Bloomberg)",
+      "published": "2026-09-29T15:58:45+00:00",
+      "score": 39.0,
+      "headline": null
+    },
+    {
+      "id": "1f45cb034cc7cab6",
+      "title": "What Is Ternus\u2019 Strategy for Apple? Running Faster and Leaner",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/apple-s-new-ceo-moves-to-overhaul-company-to-run-faster-and-leaner",
+      "source": "Bloomberg Technology",
+      "summary": "Apple Inc. Chief Executive Officer John Ternus, just weeks into the role, is moving to overhaul the iPhone maker in an effort to accelerate product development, broaden its range of devices and create a leaner organization with a greater focus on engineering.",
+      "published": "2026-09-29T15:14:42+00:00",
+      "score": 39.0,
+      "headline": null
+    },
+    {
+      "id": "8f02fb6bcb68e507",
+      "title": "Nvidia turns to insurers to spread the risk of AI build-out",
+      "url": "https://www.ft.com/content/d6a9f5df-08d0-4f80-ad2d-5d8a17e2cc82?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "World\u2019s largest listed company looks for new ways to draw Wall Street deeper into the financing of the AI boom",
+      "published": "2026-09-29T04:04:31+00:00",
+      "score": 39.0,
+      "headline": "Nvidia Turns to Insurers to Spread AI Build-Out Risk"
+    },
+    {
+      "id": "254a21455efde788",
+      "title": "A bilingual AI audiologist built through rubric-guided playbook induction outperforms human audiologists in a blinded evaluation of simulated cases",
+      "url": "https://arxiv.org/abs/2609.32220",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2609.32220v1 Announce Type: new Abstract: Audiology consultation requires structured history-taking, audiometric interpretation and patient-centred communication, yet real-world case material is scarce. We present a bilingual AI audiologist pairing a general-purpose large language model with rubric-guided playbook induction, multimodal audiogram interpretation and retrieval-augmented grounding, without fine-tuning the language-model backbone. Using a 21-item rubric and an AI patient simulator, we induced a 19-rule consultation policy from 73 training cases (43 English, 30 Chinese) and evaluated the system on 58 independent simulated cases (30 Chinese, 28 English) in a pre-specified, source-blinded comparison with 17 practising audiologists. The AI audiologist outperformed human audiologists on every case (58/58; mean paired $\\Delta$ = +1.35 on a 5-point composite, Cohen's d = 1.84, $P = 4.5 \\times 10^{-20}$), on 20 of 21 rubric items and in both languages. Component ablation iden",
+      "published": "2026-09-29T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "AI AUDIOLOGIST BEATS HUMANS in Blinded Case Study"
+    },
+    {
+      "id": "06b783d077729186",
+      "title": "Prefill-Free Cross-Family KV Cache Transfer for Heterogeneous Multi-Agent LLMs",
+      "url": "https://arxiv.org/abs/2609.32259",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2609.32259v1 Announce Type: new Abstract: Recent multi-agent LLM systems increasingly combine heterogeneous models for specialized agent roles. However, text-based communication requires each receiver to prefill shared context already processed by the sender. Reusing the sender's key-value (KV) cache avoids this redundancy, but prefill-free transfer across model families must handle differences in tokenization, model depth, and KV representations. To address these issues, we propose \\textit{HeteroFold}, a prefill-free cross-family KV cache transfer method that keeps both the sender and receiver frozen. HeteroFold aligns model structures, maps the sender cache into the receiver space, and calibrates it to preserve receiver behavior. Across six transfer directions, HeteroFold achieves the best cache-transfer performance on all four long-context benchmarks and most short-context settings. It also matches text-based communication on the multi-agent benchmark. At 32K context length, L",
+      "published": "2026-09-29T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "PREFILL-FREE KV Cache Transfer for Multi-Agent LLMs"
     }
-  ],
-  "generated_at": "2026-09-29T18:11:35.233537"
+  ]
 }
