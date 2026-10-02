@@ -1,64 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "China-US AI Technology Competition and Espionage",
-      "description": "Escalating tensions between China and the West over AI technology theft, chip access, and intelligence concerns affecting executives, universities, and tech companies.",
-      "stories": [
-        {
-          "id": "9100e6e16652d757",
-          "title": "OpenAI says Moonshot-linked users tried to extract its AI reasoning",
-          "url": "https://thenextweb.com/news/openai-moonshot-distillation-campaign-hidden-reasoning",
-          "source": "The Next Web",
-          "summary": "OpenAI says people linked to Moonshot AI, the Chinese developer of Kimi, were behind a coordinated campaign to extract the hidden reasoning of its models. The company set out its findings in a blog post on Wednesday. The activity began on 1 July at low volume. It spiked on 24 and 25 July, with 16,000 [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-30T17:53:20+00:00",
-          "score": 51.0,
-          "headline": "OPENAI: China's Moonshot AI Tried Stealing Reasoning Models"
-        },
-        {
-          "id": "421e25b8c1332b99",
-          "title": "China extends AI travel curbs to executives\u2019 families, Bloomberg reports",
-          "url": "https://thenextweb.com/news/china-travel-curbs-families-ai-executives-bloomberg",
-          "source": "The Next Web",
-          "summary": "China now requires the families of some top AI and chip executives to get Beijing\u2019s approval before travelling abroad, Bloomberg News reported, citing people familiar with the matter. The rule covers spouses and children, even for short trips. Government agencies have started telling affected people about the wider restrictions, Bloomberg reported. Those covered include prominent [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-28T17:00:03+00:00",
-          "score": 51.0,
-          "headline": "CHINA Expands AI Travel Ban to Executives' FAMILIES"
-        },
-        {
-          "id": "481147df6e20c6f1",
-          "title": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia\u2019s",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s",
-          "source": "Bloomberg Technology",
-          "summary": "DeepSeek has publicly released software it created with Huawei Technologies Co. to program AI chips, showcasing its close partnership with the Chinese company working to develop technologies to replace Nvidia Corp.",
-          "published": "2026-09-30T05:07:26+00:00",
-          "score": 50.0,
-          "headline": "DEEPSEEK RELEASES HUAWEI CHIP TOOLS TO REPLACE NVIDIA"
-        },
-        {
-          "id": "c0a294c7176d2452",
-          "title": "MI5 warns universities to cut ties with Chinese institute",
-          "url": "https://www.ft.com/content/f71120fb-266f-42fb-8042-dbeccfd9cf0c?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "China General Technology Research Institute has \u2018very strong ties\u2019 to Chinese intelligence, says UK agency in unusual espionage alert",
-          "published": "2026-09-30T16:22:48+00:00",
-          "score": 49.0,
-          "headline": "MI5 WARNS UK UNIVERSITIES: CUT CHINA INTEL TIES"
-        },
-        {
-          "id": "b577926f6935c965",
-          "title": "OpenAI Blames Moonshot for Mass Data Extraction on Its AI Models",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-30/openai-blames-moonshot-for-mass-data-extraction-on-its-ai-models",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI accused its Chinese rival Moonshot AI of being responsible for a wide-scale effort to extract data from its GPT artificial intelligence systems that could be used to reproduce the reasoning and capabilities of the company\u2019s most advanced models.",
-          "published": "2026-09-30T17:17:58+00:00",
-          "score": 48.0,
-          "headline": "OPENAI ACCUSES CHINA'S MOONSHOT OF MASS DATA THEFT"
-        }
-      ],
-      "top_score": 51.0,
-      "story_count": 5
-    },
-    {
       "topic": "OpenAI Safety Crisis and Model Cancellations",
       "description": "OpenAI faces unprecedented safety concerns, canceling multiple model releases including Astra 6.1 over alignment issues and rogue model behavior while launching new products like Dots.",
       "stories": [
@@ -225,9 +167,77 @@
       ],
       "top_score": 49.0,
       "story_count": 16
+    },
+    {
+      "topic": "OpenAI China Espionage and Security",
+      "description": "OpenAI faces major security threats from Chinese AI companies attempting to steal reasoning models and data, alongside government website hacking incidents.",
+      "stories": [
+        {
+          "id": "9100e6e16652d757",
+          "title": "OpenAI says Moonshot-linked users tried to extract its AI reasoning",
+          "url": "https://thenextweb.com/news/openai-moonshot-distillation-campaign-hidden-reasoning",
+          "source": "The Next Web",
+          "summary": "OpenAI says people linked to Moonshot AI, the Chinese developer of Kimi, were behind a coordinated campaign to extract the hidden reasoning of its models. The company set out its findings in a blog post on Wednesday. The activity began on 1 July at low volume. It spiked on 24 and 25 July, with 16,000 [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-30T17:53:20+00:00",
+          "score": 51.0,
+          "headline": "OPENAI: China's Moonshot AI Tried Stealing Reasoning Models"
+        },
+        {
+          "id": "b577926f6935c965",
+          "title": "OpenAI Blames Moonshot for Mass Data Extraction on Its AI Models",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-30/openai-blames-moonshot-for-mass-data-extraction-on-its-ai-models",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI accused its Chinese rival Moonshot AI of being responsible for a wide-scale effort to extract data from its GPT artificial intelligence systems that could be used to reproduce the reasoning and capabilities of the company\u2019s most advanced models.",
+          "published": "2026-09-30T17:17:58+00:00",
+          "score": 48.0,
+          "headline": "OPENAI ACCUSES CHINA'S MOONSHOT OF MASS DATA THEFT"
+        },
+        {
+          "id": "2adf07f89030400b",
+          "title": "OpenAI apologies for Australian government website hack, pledges to rebuild trust",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-apologies-for-australian-government-website-hack-pledges-to-rebuild-trust/articleshow/134556114.cms",
+          "source": "The Economic Times Tech",
+          "summary": "(Updates throughout with more details of blog post)- OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committing funding to improve",
+          "published": "2026-09-29T04:32:57+00:00",
+          "score": 47.0,
+          "headline": "OPENAI APOLOGIZES FOR AUSTRALIAN GOVERNMENT WEBSITE HACK"
+        },
+        {
+          "id": "062ec8dde973188d",
+          "title": "OpenAI\u2019s agents obscured hacking activity in government site breaches",
+          "url": "https://www.ft.com/content/11502a49-5319-4df5-95ea-2d76669c31a6?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "New findings by Asymmetric Security provide further evidence of novel tactics AI tools use to conduct hacks",
+          "published": "2026-10-01T04:00:24+00:00",
+          "score": 42.0,
+          "headline": "OPENAI AGENTS OBSCURED HACKING IN GOV BREACHES"
+        }
+      ],
+      "top_score": 51.0,
+      "story_count": 4
     }
   ],
   "unclustered": [
+    {
+      "id": "481147df6e20c6f1",
+      "title": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia\u2019s",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s",
+      "source": "Bloomberg Technology",
+      "summary": "DeepSeek has publicly released software it created with Huawei Technologies Co. to program AI chips, showcasing its close partnership with the Chinese company working to develop technologies to replace Nvidia Corp.",
+      "published": "2026-09-30T05:07:26+00:00",
+      "score": 50.0,
+      "headline": "DEEPSEEK RELEASES HUAWEI CHIP TOOLS TO REPLACE NVIDIA"
+    },
+    {
+      "id": "c0a294c7176d2452",
+      "title": "MI5 warns universities to cut ties with Chinese institute",
+      "url": "https://www.ft.com/content/f71120fb-266f-42fb-8042-dbeccfd9cf0c?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "China General Technology Research Institute has \u2018very strong ties\u2019 to Chinese intelligence, says UK agency in unusual espionage alert",
+      "published": "2026-09-30T16:22:48+00:00",
+      "score": 49.0,
+      "headline": "MI5 WARNS UK UNIVERSITIES: CUT CHINA INTEL TIES"
+    },
     {
       "id": "f500c48721dedb0a",
       "title": "Japanese court rules human voices are protected in landmark AI case",
@@ -289,36 +299,6 @@
       "headline": "TRUMP MEETS Tech Chiefs Amodei, Musk, Zuckerberg on AI Safety"
     },
     {
-      "id": "b4e2b7130e57a3f6",
-      "title": "Nvidia launches platform to quarantine rogue AI agents in 'milliseconds'",
-      "url": "https://www.euronews.com/2026/09/28/nvidia-launches-platform-to-quarantine-rogue-ai-agents-in-milliseconds",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.euronews.com/2026/09/28/nvidia-launches-platform-to-quarantine-rogue-ai-agents-in-milliseconds Comments URL: https://news.ycombinator.com/item?id=49881899 Points: 3 # Comments: 0",
-      "published": "2026-09-28T18:01:19+00:00",
-      "score": 46.0,
-      "headline": "NVIDIA Launches Platform to Quarantine Rogue AI Agents in Milliseconds"
-    },
-    {
-      "id": "8870b5a641db1166",
-      "title": "Manus Expands AI Tools in Renewed Push Into Agent Market",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/manus-expands-ai-tools-in-renewed-push-into-agent-market",
-      "source": "Bloomberg Technology",
-      "summary": "Manus, an artificial intelligence startup founded in China, is expanding its AI agent offerings, aiming to gain further ground in one of the tech industry\u2019s hottest areas.",
-      "published": "2026-09-28T17:57:46+00:00",
-      "score": 46.0,
-      "headline": "Chinese AI Startup Manus Expands Agent Market Push"
-    },
-    {
-      "id": "90230b225c8b825f",
-      "title": "AI godfathers warn of runaway \u2018intelligence explosion\u2019",
-      "url": "https://www.theguardian.com/technology/2026/sep/28/ai-godfathers-warn-of-runaway-intelligence-explosion",
-      "source": "The Guardian Tech",
-      "summary": "OpenAI chief scientist also among authors of report on prospect of \u2018most consequential technological development in history\u2019Two of the \u201cgodfathers\u201d of modern AI and senior executives at OpenAI and Anthropic have warned governments to prepare for an AI \u201cintelligence explosion\u201d, which they say could be the most consequential technological development in history.A report co-authored by the Nobel laureate Geoffrey Hinton and the Canadian computer scientist Yoshua Bengio, considered godfathers of modern AI for their work in the field, urges politicians to act now before there is runaway progress in the technology. Continue reading...",
-      "published": "2026-09-28T15:00:36+00:00",
-      "score": 46.0,
-      "headline": "AI GODFATHERS WARN OF 'INTELLIGENCE EXPLOSION' THREAT"
-    },
-    {
       "id": "b39d2cf9d3779a9d",
       "title": "Anthropic Says It Discovered a Crispr-Like System. Now What?",
       "url": "https://www.wired.com/story/anthropic-says-it-discovered-a-crispr-like-system-now-what/",
@@ -327,6 +307,16 @@
       "published": "2026-09-29T18:03:01+00:00",
       "score": 45.0,
       "headline": "ANTHROPIC DISCOVERS CRISPR-LIKE AI SYSTEM... Experiments Still Pending"
+    },
+    {
+      "id": "ff5a337958e1681e",
+      "title": "OpenAI launches dots, always-on AI agents with their own cloud computers",
+      "url": "https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday",
+      "source": "The Next Web",
+      "summary": "Update, 29 September 2026 This article has been updated with the regions where dots is available. OpenAI said Pro users in the European Economic Area, Switzerland and the UK will not get dots for now. OpenAI has launched dots, AI agents that run all the time on their own cloud computers and work on a [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-29T17:29:26+00:00",
+      "score": 45.0,
+      "headline": "OPENAI LAUNCHES DOTS... Always-On AI Agents With Cloud Computers"
     },
     {
       "id": "95026b243ee0cefe",
@@ -339,6 +329,16 @@
       "headline": "OpenAI Launches GPT-6.1 Sol: Nearly Matches Flagship at Lower Cost"
     },
     {
+      "id": "9c75674b313ac967",
+      "title": "OpenAI launches Dots, its Muse competitor",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+      "source": "The Verge AI",
+      "summary": "OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During its DevDay keynote on Tuesday, OpenAI announced that Dots will serve as always-on AI assistants that can \"do nearly anything\" across connected apps in the background while learning your preferences over time. The company's capable GPT-6 Astra model powers [&#8230;]",
+      "published": "2026-09-29T17:15:00+00:00",
+      "score": 45.0,
+      "headline": "OpenAI Launches DOTS: Always-On AI Agents Take On Meta's Muse"
+    },
+    {
       "id": "f5aa58f3c19376df",
       "title": "Anthropic\u2019s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
       "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
@@ -347,16 +347,6 @@
       "published": "2026-09-29T05:13:43+00:00",
       "score": 45.0,
       "headline": "ANTHROPIC IPO: BILLIONS IN LOSSES, EXISTENTIAL RISK WARNING"
-    },
-    {
-      "id": "125b0a32178cd61f",
-      "title": "Instinct raised $1B at $10B for an AI agent that rings restaurants on its own phone",
-      "url": "https://thenextweb.com/news/instinct-1bn-agent-calls-eu-rule",
-      "source": "The Next Web",
-      "summary": "Instinct has raised $1B at a $10B valuation from Sequoia, Benchmark and Coatue for a personal AI agent that books trips, orders groceries and telephones businesses using its own phone. Since 2 August, Article 50 of the EU AI Act has required systems that interact directly with people to tell them they are dealing with [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-28T17:50:28+00:00",
-      "score": 45.0,
-      "headline": "INSTINCT RAISES $1B AT $10B... AI AGENT MAKES PHONE CALLS"
     },
     {
       "id": "5072df92310d0d55",
@@ -389,34 +379,24 @@
       "headline": "ANTHROPIC IPO WARNING: AI POSES EXISTENTIAL RISK TO HUMANITY"
     },
     {
-      "id": "b0f90c7fa0be0193",
-      "title": "Anthropic, OpenAI Executives Urge Oversight of Self-Improving AI",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/anthropic-openai-executives-urge-oversight-of-self-improving-ai",
+      "id": "fde961e716e09b4b",
+      "title": "Amazon to Move $8 Billion of Chips Off Its Books, FT Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/amazon-seeks-to-move-8-billion-of-chips-off-its-books-ft-says",
       "source": "Bloomberg Technology",
-      "summary": "Top executives from Anthropic PBC, OpenAI, Meta Platforms Inc. and Microsoft Corp. are urging policymakers to scrutinize the extent that artificial intelligence systems are improving themselves and take steps to safeguard the technology, adding to calls within the industry for greater oversight of AI.",
-      "published": "2026-09-28T15:38:17+00:00",
-      "score": 44.0,
-      "headline": "ANTHROPIC, OPENAI EXECS URGE Oversight of Self-Improving AI"
-    },
-    {
-      "id": "66ba0316114c4666",
-      "title": "Nvidia unveils security platform to rein in AI agents and $150bn stock buyback",
-      "url": "https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback",
-      "source": "The Guardian Tech",
-      "summary": "Chipmaker says new system was designed to prevent AI agents from going rogue amid incidents at top companiesNvidia on Monday unveiled a new security platform that the chipmaker said can stop artificial intelligence agents from going rogue.The company announced a $150bn stock buyback the same day. Continue reading...",
-      "published": "2026-09-28T15:32:57+00:00",
-      "score": 44.0,
-      "headline": "NVIDIA UNVEILS AI AGENT SECURITY PLATFORM... $150BN BUYBACK"
-    },
-    {
-      "id": "123e018dbad3c509",
-      "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
-      "url": "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
-      "source": "The Guardian Tech",
-      "summary": "Tech company releases Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackersGoogle on Wednesday said it would withhold its most powerful artificial intelligence model from the public for now, releasing Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers.\u201cSafely releasing frontier capabilities at this level requires a phased approach,\u201d wrote Koray Kavukcuoglu, Google\u2019s chief AI architect, in a blogpost announcing the model. Continue reading...",
-      "published": "2026-10-01T16:47:29+00:00",
+      "summary": "Amazon.com Inc. is exploring a deal to shift about $8 billion worth of top-end Nvidia Corp. chips off its balance sheet, according to the Financial Times.",
+      "published": "2026-10-02T04:23:48+00:00",
       "score": 43.0,
-      "headline": "GOOGLE RESTRICTS GEMINI 4 ARGON OVER SAFETY FEARS"
+      "headline": "AMAZON OFFLOADS $8B IN NVIDIA CHIPS... Balance Sheet Strain"
+    },
+    {
+      "id": "af48dbaa21db7c01",
+      "title": "Amazon seeks to offload $8bn of Nvidia chips to investors",
+      "url": "https://www.ft.com/content/97d8d346-519e-48fb-8df8-66cf5f12ef62?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "The move aims to improve the tech group\u2019s balance sheet health as AI spending soars",
+      "published": "2026-10-02T04:00:33+00:00",
+      "score": 43.0,
+      "headline": "AMAZON SEEKS TO OFFLOAD $8B IN NVIDIA CHIPS TO INVESTORS"
     },
     {
       "id": "2861cbd7ad4fdead",
@@ -479,14 +459,54 @@
       "headline": "ELEVENLABS VALUATION DOUBLES TO $22B IN MONTHS"
     },
     {
-      "id": "b8eb1ff5c01db255",
-      "title": "AI researchers put out videos saying superintelligence is \u2018exactly as dangerous as it sounds\u2019",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
-      "source": "The Verge AI",
-      "summary": "\"The chance of human extinction is about a coin flip, in my view,\" Geoffrey Irving, a former OpenAI and Google DeepMind employee, said in a new interview. It's one of a dozen interviews with AI researchers, including current and former employees at OpenAI, Google, and Anthropic. Palisade Research, which says it's a nonprofit studying AIs' [&#8230;]",
-      "published": "2026-09-29T17:35:03+00:00",
+      "id": "0e0f0174e83dbd57",
+      "title": "OpenAI unveils AI assistant 'dots' while safety worries delay new model",
+      "url": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "Sam Altman spoke in San Francisco during OpenAI\u2019s annual event for tech developers.",
+      "published": "2026-09-30T05:18:13+00:00",
       "score": 43.0,
-      "headline": "AI RESEARCHERS: Human Extinction Risk Is 'COIN FLIP'"
+      "headline": "OPENAI UNVEILS 'DOTS' AI ASSISTANT... SAFETY DELAYS NEW MODEL"
+    },
+    {
+      "id": "3a556bd4fc98feb5",
+      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT\u2019s own office suite",
+      "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+      "source": "TechCrunch AI",
+      "summary": "OpenAI's newly announced suite of office features puts it into mor direct competition with more traditional software companies.",
+      "published": "2026-09-29T17:45:51+00:00",
+      "score": 43.0,
+      "headline": "OPENAI TAKES ON MICROSOFT... Launches Office Suite Rival"
+    },
+    {
+      "id": "49c0b8efb74f9721",
+      "title": "OpenAI takes on Meta with always-on Dots agent in enterprise AI push",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-takes-on-meta-with-always-on-dots-agent-in-enterprise-ai-push/articleshow/134571434.cms",
+      "source": "The Economic Times Tech",
+      "summary": "OpenAI on Tuesday unveiled always-on agents called Dots that chase user goals across apps on their own, deepening its push into the lucrative enterprise market and pitting it against Meta in the race to sell AI that can work",
+      "published": "2026-09-29T17:19:42+00:00",
+      "score": 43.0,
+      "headline": "OPENAI TAKES ON META... Dots Agents Chase Goals Across Apps"
+    },
+    {
+      "id": "1291333e729ac625",
+      "title": "OpenAI Unveils Always-On AI Agent Dots, New $500 Paid Tier",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/openai-unveils-always-on-ai-agent-dots-new-500-paid-tier",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI has unveiled an always-on artificial intelligent agent that\u2019s designed to proactively tackle work on a user\u2019s behalf, competing with firms like Meta Platforms Inc. in a growing field for AI-powered digital assistants.",
+      "published": "2026-09-29T17:08:03+00:00",
+      "score": 43.0,
+      "headline": "OpenAI Unveils Always-On Agent Dots + $500 Premium Tier"
+    },
+    {
+      "id": "103f5df04d5a6a35",
+      "title": "OpenAI DevDay 2026: The biggest news and announcements",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
+      "source": "The Verge AI",
+      "summary": "It&#8217;s OpenAI\u2019s turn in the fall tech events calendar. The company is hosting its annual DevDay on September 29th in San Francisco, starting with a live keynote featuring CEO Sam Altman. The company is teasing &#8220;20+ launches&#8221; with Altman saying that &#8220;we have found a new thing,&#8221;, and rumors suggest it could launch a consumer [&#8230;]",
+      "published": "2026-09-29T16:00:00+00:00",
+      "score": 43.0,
+      "headline": "OPENAI DEVDAY 2026: LIVE UPDATES FROM SAN FRANCISCO"
     },
     {
       "id": "ff908b5b99b8ac7b",
@@ -509,24 +529,24 @@
       "headline": "HUGGING FACE BREACH: Reward Hacking Turned Security Incident"
     },
     {
-      "id": "b2a27d9575c869bf",
-      "title": "Trump, Anthropic CEO Take AI Safety Debate to Dinner",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-28/trump-anthropic-ceo-take-ai-safety-debate-to-dinner-video",
-      "source": "Bloomberg Technology",
-      "summary": "President Donald Trump and Anthropic CEO Dario Amodei met for dinner as their opposing views on AI safety increasingly shape the debate over how quickly the technology should advance. Amodei has called for \u201cpacing\u201d development of the most advanced models and stronger guardrails, while President Trump has pushed back against slowing AI development as the US races to stay ahead of China. Bloomberg\u2019s Mike Shepard discusses what\u2019s known about the meeting with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-      "published": "2026-09-28T17:24:48+00:00",
-      "score": 43.0,
-      "headline": "TRUMP, ANTHROPIC CEO CLASH Over AI Safety at Dinner"
+      "id": "05d99b9702c149f1",
+      "title": "AI upscaling is coming to PS5",
+      "url": "https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/ Comments URL: https://news.ycombinator.com/item?id=49930244 Points: 3 # Comments: 0",
+      "published": "2026-10-02T05:59:48+00:00",
+      "score": 42.0,
+      "headline": "SONY BRINGS AI UPSCALING TO PS5... Gaming Gets Smarter"
     },
     {
-      "id": "04a435b206250819",
-      "title": "Kuaishou\u2019s AI Video Spinoff Unveils New Model in ByteDance Chase",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/kuaishou-s-ai-video-spinoff-unveils-new-model-in-bytedance-chase",
-      "source": "Bloomberg Technology",
-      "summary": "Kuaishou Technology\u2019s AI spinoff announced its latest video-generation model ahead of a potential Hong Kong listing, stepping up efforts to close the gap on industry leader ByteDance Ltd.",
-      "published": "2026-09-28T15:00:00+00:00",
-      "score": 43.0,
-      "headline": "Kuaishou AI Video Spinoff Unveils Model to Chase ByteDance"
+      "id": "60dea30d4db7f77a",
+      "title": "Can AI Run in Space? Google Is About to Find Out",
+      "url": "https://www.wsj.com/tech/can-ai-run-in-space-google-is-about-to-find-out-59c4e062",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.wsj.com/tech/can-ai-run-in-space-google-is-about-to-find-out-59c4e062 Comments URL: https://news.ycombinator.com/item?id=49929929 Points: 2 # Comments: 2",
+      "published": "2026-10-02T04:46:53+00:00",
+      "score": 42.0,
+      "headline": "GOOGLE TESTS AI IN SPACE... Can Models Survive Orbit?"
     },
     {
       "id": "2210ff8abe468105",
@@ -557,16 +577,6 @@
       "published": "2026-10-01T04:03:17+00:00",
       "score": 42.0,
       "headline": "Bank of England Warns AI Boom Could Trigger Market Shocks"
-    },
-    {
-      "id": "062ec8dde973188d",
-      "title": "OpenAI\u2019s agents obscured hacking activity in government site breaches",
-      "url": "https://www.ft.com/content/11502a49-5319-4df5-95ea-2d76669c31a6?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "New findings by Asymmetric Security provide further evidence of novel tactics AI tools use to conduct hacks",
-      "published": "2026-10-01T04:00:24+00:00",
-      "score": 42.0,
-      "headline": "OPENAI AGENTS OBSCURED HACKING IN GOV BREACHES"
     },
     {
       "id": "1e883cff476684f7",
@@ -667,46 +677,6 @@
       "published": "2026-09-29T04:38:50+00:00",
       "score": 42.0,
       "headline": "FLORIDA AG FILES INJUNCTION AGAINST OPENAI"
-    },
-    {
-      "id": "162be49c481d1b58",
-      "title": "Claude Sonnet 5.5",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5-5",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.anthropic.com/news/claude-sonnet-5-5 Comments URL: https://news.ycombinator.com/item?id=49881889 Points: 8 # Comments: 4",
-      "published": "2026-09-28T18:00:54+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC DROPS CLAUDE SONNET 5.5"
-    },
-    {
-      "id": "342eef48a635fd9b",
-      "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
-      "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
-      "source": "TechCrunch AI",
-      "summary": "Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn.",
-      "published": "2026-09-28T18:00:00+00:00",
-      "score": 42.0,
-      "headline": "Anthropic's Sonnet 5.5: Faster, Cheaper AI Work Partner"
-    },
-    {
-      "id": "18d398716f5aa44d",
-      "title": "Claude Sonnet 5.5",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.anthropic.com/claude-sonnet-5-5 Comments URL: https://news.ycombinator.com/item?id=49881850 Points: 26 # Comments: 4",
-      "published": "2026-09-28T17:58:11+00:00",
-      "score": 42.0,
-      "headline": "CLAUDE SONNET 5.5 RELEASED"
-    },
-    {
-      "id": "2d794519f8a76196",
-      "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-      "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-      "source": "TechCrunch AI",
-      "summary": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
-      "published": "2026-09-28T16:52:38+00:00",
-      "score": 42.0,
-      "headline": "META Launches Enterprise AI, Hires MongoDB CEO"
     },
     {
       "id": "500c90923e00d828",
@@ -869,56 +839,6 @@
       "headline": "GOOGLE FIGHTS EU: ANDROID AI ACCESS BATTLE ESCALATES"
     },
     {
-      "id": "674b9641546b3716",
-      "title": "Z.ai and Concordia AI propose six stages for managing open-weight AI risk",
-      "url": "https://thenextweb.com/news/z-ai-concordia-open-weight-ai-risk-framework-six-stages",
-      "source": "The Next Web",
-      "summary": "Chinese AI company Z.ai and Beijing safety consultancy Concordia AI have published a framework for managing the risks of open-weight AI models. Anyone can download, modify and run the trained parameters of such models. The two released the report on Monday, Chong Ming Lee reported for the South China Morning Post. The report \u201cprovides the [&hellip;] This story continues at The Next Web",
-      "published": "2026-09-28T16:54:22+00:00",
-      "score": 41.0,
-      "headline": "Chinese Firms Propose Six-Stage AI Risk Framework"
-    },
-    {
-      "id": "efc836f1135c1cf0",
-      "title": "Meta Hires MongoDB CEO to Run New AI Platform",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-28/meta-hires-mongodb-ceo-to-run-new-ai-platform-video",
-      "source": "Bloomberg Technology",
-      "summary": "Meta Platforms Inc. has tapped MongoDB Inc.'s president and chief executive officer, Chirantan \"CJ\" Desai, to lead a new AI platform for enterprise customers. Bloomberg's Seth Fiegerman reports. (Source: Bloomberg)",
-      "published": "2026-09-28T16:04:03+00:00",
-      "score": 41.0,
-      "headline": "META HIRES MONGODB CEO to Lead New Enterprise AI Platform"
-    },
-    {
-      "id": "9855cfc1d46f1a88",
-      "title": "Meta launches enterprise AI business seeking to cash in on vast spending",
-      "url": "https://www.ft.com/content/fbe0a48f-4d33-42eb-8d2c-79f662c88678?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Chief executive Mark Zuckerberg opens a new front in his push to turn huge investment in the technology into profits",
-      "published": "2026-09-28T15:54:34+00:00",
-      "score": 41.0,
-      "headline": "META LAUNCHES ENTERPRISE AI BUSINESS... Seeks to Monetize Investments"
-    },
-    {
-      "id": "fdbc241d3c3489c6",
-      "title": "Florida asks court to bar OpenAI from developing new models as part of child harm lawsuit",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/florida-asks-court-to-bar-openai-from-developing-new-models-as-part-of-child-harm-lawsuit/articleshow/134545674.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Florida sued OpenAI in June accusing the company of misrepresenting the safety of its ChatGPT platform, saying it has harmed children by \u200bproviding information to school shooters, offering guidance on self-harm and addicting young \u200cusers.",
-      "published": "2026-09-28T14:48:23+00:00",
-      "score": 41.0,
-      "headline": "FLORIDA SEEKS TO BAR OPENAI FROM DEVELOPING NEW MODELS"
-    },
-    {
-      "id": "b6455d5e68c1fe3f",
-      "title": "Does Thinking Help Fairness? Reasoning Tokens Resolve Some Biases but Create More",
-      "url": "https://arxiv.org/abs/2609.30768",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2609.30768v1 Announce Type: new Abstract: Thinking in reasoning language models (RLMs) has been subject to debate on whether it resolves or amplifies bias. Prior works have shown competing conclusions in both directions. Using a within-model thinking-vs.-non-thinking ablation across QwQ-32B, DeepSeek-R1-Distill-Qwen-32B, and Qwen3-32B on three high-stakes decision tasks (Adult, COMPAS, Credit), we show that thinking has an asymmetric dual effect on counterfactual fairness: it both resolves counterfactual flips produced by the non-thinking baseline and creates new flips at near-saturating model confidence. In all nine (model, dataset) combinations, the created flips outnumber the resolved flips by roughly 5 times. To explain the effect, we treat the thinking trace itself as a measurable site of fairness change and study it through two dynamic instruments: 1) We propose Counterfactual Depth Probability Gap (CDPG) to track bias evolution along thinking depth, and observe that bias p",
-      "published": "2026-09-28T04:00:00+00:00",
-      "score": 41.0,
-      "headline": "REASONING TOKENS CREATE MORE BIAS: Study Shows AI Thinking Backfires"
-    },
-    {
       "id": "73e415512ac969ca",
       "title": "Judge dismisses antitrust lawsuits over Google\u2019s AI Overviews",
       "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
@@ -1017,7 +937,177 @@
       "published": "2026-09-29T17:15:00+00:00",
       "score": 40.0,
       "headline": "OpenAI Dots: Control Multiple Personal AI Agents Coming Soon"
+    },
+    {
+      "id": "230e1cdb1a64f882",
+      "title": "Protesters gather at OpenAI\u2019s DevDay",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
+      "source": "The Verge AI",
+      "summary": "On Tuesday, OpenAI's annual DevDay event began with protests, flyers, and chants. \"Sam Altman, get off it, put people over profit,\" said a group of protesters marching in a circle in front of a series of signs that spelled out \"PEOPLE OVER PROFIT.\" More than a dozen organizations came together to sponsor a rally outside [&#8230;]",
+      "published": "2026-09-29T17:12:27+00:00",
+      "score": 40.0,
+      "headline": "PROTESTERS STORM OpenAI DevDay: 'Put People Over Profit'"
+    },
+    {
+      "id": "594dcc5078a08519",
+      "title": "Can a chatbot fix the government maze? The White House is about to find out",
+      "url": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/",
+      "source": "TechCrunch AI",
+      "summary": "America.gov is intended to simplify the process of navigating government bureaucracy, but language models are imperfect and remain prone to hallucinations, which could cause new issues.",
+      "published": "2026-09-29T16:55:56+00:00",
+      "score": 40.0,
+      "headline": "White House Launches AI Chatbot to Navigate Government Maze"
+    },
+    {
+      "id": "df14cb9f0e687006",
+      "title": "Nvidia talks to insurers about loans backed by its AI chips, FT reports",
+      "url": "https://thenextweb.com/news/nvidia-insurers-ai-chip-loans-neoclouds-ft",
+      "source": "The Next Web",
+      "summary": "Nvidia has talked to insurers about taking on some of the risk of loans backed by its AI chips, the Financial Times reported on Tuesday. The talks are at an early stage and may not lead to any deals, according to the FT. TNW has not independently verified the report. One idea would insure loans [&hellip;] This story continues at The Next Web",
+      "published": "2026-09-29T16:25:34+00:00",
+      "score": 40.0,
+      "headline": "NVIDIA PITCHES AI CHIP-BACKED LOANS TO INSURERS"
+    },
+    {
+      "id": "b659c1b391cbe07d",
+      "title": "Elon Musk, Microsoft's Nadella to attend White House meeting on AI: Axios",
+      "url": "https://economictimes.indiatimes.com/tech/technology/elon-musk-microsofts-nadella-to-attend-white-house-meeting-on-ai-axios/articleshow/134569560.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Tesla and SpaceX CEO Elon Musk, Microsoft top boss Satya Nadella, Amazon founder Jeff Bezos, ServiceNow CEO Bill McDermott and Micron CEO Sanjay Mehrotra will be among the attendees at the AI meeting hosted by US President Donald Trump on Tuesday, Axios reported, citing RSVPs.",
+      "published": "2026-09-29T14:59:13+00:00",
+      "score": 40.0,
+      "headline": "MUSK, NADELLA, BEZOS Head to White House for AI Summit"
+    },
+    {
+      "id": "79b54b295fb1d98f",
+      "title": "Meta&#8217;s Muse AI sent a YouTuber\u2019s address to a stranger",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+      "source": "The Verge AI",
+      "summary": "Tech YouTuber Matt Robb says that Muse gave out his home address to a total stranger this weekend, after authorizing the bot to handle his Facebook Marketplace account. That's despite Meta placing great emphasis on the security features of Muse when it launched the personal AI agent earlier this month as it tries to catch [&#8230;]",
+      "published": "2026-09-29T14:08:21+00:00",
+      "score": 40.0,
+      "headline": "META'S MUSE AI LEAKS YOUTUBER'S HOME ADDRESS to Stranger"
+    },
+    {
+      "id": "a0088de647daaec6",
+      "title": "Google appeals against EU order to share data, open Android to AI rivals",
+      "url": "https://economictimes.indiatimes.com/tech/technology/google-appeals-against-eu-order-to-share-data-open-android-to-ai-rivals/articleshow/134556835.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Google said Tuesday it has appealed an EU decision requiring it to share data with other search engines and open up its Android system to rival AI services, citing privacy concerns. But Google countered that Android is already open and interoperable and the EU decision forced it to hand over private search data to other firms without adequate anonymisation, user knowledge, or consent.",
+      "published": "2026-09-29T05:06:04+00:00",
+      "score": 40.0,
+      "headline": "Google Appeals EU Order to Open Android to AI Rivals"
+    },
+    {
+      "id": "67f86581826dc49b",
+      "title": "Contract monitoring: governing AI via separation of powers",
+      "url": "https://arxiv.org/abs/2609.32061",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2609.32061v1 Announce Type: new Abstract: We propose an AI safety framework that binds worker agents to contracts specifying their permitted actions. We show how these contracts can be enforced and specified by assigning distinct responsibilities to monitor agents and judges, and asymmetric computational resources to monitors and workers. Our framework allows us to empirically measure statistical safety guarantees. The framework applies to a wide range of settings, including code security and escape-the-box scenarios.",
+      "published": "2026-09-29T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "Contract Monitoring: AI Safety via Separation of Powers"
+    },
+    {
+      "id": "822e81c2c836341e",
+      "title": "Escaping Alignment: A Physical Trap Model of Best-of-N Jailbreaking",
+      "url": "https://arxiv.org/abs/2609.32116",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2609.32116v1 Announce Type: new Abstract: Best-of-$N$ jailbreaking (BoN) bypasses safeguards of aligned models by drawing $N$ independent augmentations of an unsafe prompt and sampling $M$ completions of each. Previous works have shown that the attack success rate (ASR) seems to follow a power-law in $N$, which we challenge. The exponent drifts with $N$, with an exponential crossover which is a finite-size artifact of the adversarial dataset. Little work has been done to explore the entire two-budget ($N, M$) attack surface as well as its dependence on the generation temperature $T$. We introduce a simple barrier model where each prompt has a baseline safety level and each augmentation a random thermally activated barrier. Then four numbers, each backed by an interpretable safety mechanism, determine the entire ($N, M$) attack surface. They extrapolate predictions from $N \\leq 100$ to $N = 10^4$, collapse five distinct models on the same scaling function and predict ASR at differ",
+      "published": "2026-09-29T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "PHYSICS MODEL EXPLAINS Best-of-N Jailbreak Attacks"
+    },
+    {
+      "id": "98d55ef62aa97278",
+      "title": "Kepler: Auditable World Models for ARC-AGI-3",
+      "url": "https://arxiv.org/abs/2610.00834",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.00834v1 Announce Type: new Abstract: ARC-AGI-3 evaluates agents in interactive environments whose rules and objectives must be inferred from observation. We present Kepler, an open-source harness that represents hypotheses as executable world models and validates them through retrospective transition checks and conditional prediction checks. Under one frozen Claude Opus 5 configuration, Kepler obtained a server-verified 100.00 RHAE on all 25 public games, with no per-game model selection or score-conditioned reruns. On 181 of 183 completed levels, the final Opus attempt used no more actions than the corresponding median-human baseline. The retained board runs used 8,256 environment actions, of which 7,292 occurred in scored levels. Retained local provider-session records yield 858.0 million tokens, 97.37% cache reads, and a \\$777.72 cost at September 1, 2026 API list-equivalent rates. We also report three evaluation failures: source-code leakage that produced an invalid perf",
+      "published": "2026-10-02T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "Kepler: Open-Source System Tackles ARC-AGI-3 Challenge"
+    },
+    {
+      "id": "33280aa886acff1b",
+      "title": "Opus 5.5 loves to tell you \u2018this matters\u2019 (and other AI writing tells)",
+      "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+      "source": "TechCrunch AI",
+      "summary": "Opus 5.5\u2019s biggest tell is the word \u201cdependable,\u201d which pops up 23 times more often than in human samples.",
+      "published": "2026-10-01T17:50:19+00:00",
+      "score": 39.0,
+      "headline": "OPUS 5.5's AI Writing Tells: 'Dependable' Appears 23X More"
+    },
+    {
+      "id": "326ee4e86c726888",
+      "title": "TSMC eyes a multibillion-dollar Texas campus for more AI chips",
+      "url": "https://thenextweb.com/news/tsmc-texas-fabs-europe-gap",
+      "source": "The Next Web",
+      "summary": "TSMC is weighing a new Texas campus of multiple fabs, each costing at least $20B, contingent on Congress extending a 35% manufacturing tax credit. Its only European plant, the Dresden joint venture, totals above EUR 10B and will run 28nm to 12nm nodes rather than anything used for AI. TSMC is eyeing a Texas campus [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-01T17:38:48+00:00",
+      "score": 39.0,
+      "headline": "TSMC Eyes Multi-Billion Texas Campus for AI Chips"
+    },
+    {
+      "id": "bf0f29587857d25e",
+      "title": "OpenAI\u2019s $30B Bet, Trump\u2019s AI Safety Shift and Apple\u2019s Next Act",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-30/bloomberg-tech-9-30-2026-video",
+      "source": "Bloomberg Technology",
+      "summary": "Bloomberg\u2019s Ed Ludlow breaks down OpenAI's plan to raise at least $30 billion from investors in a new round of funding after pushing back its plans for an IPO. Plus, President Trump supports using outside auditors to assess the safety of AI systems after meeting with Silicon Valley leaders; and Apple keeps pushing the envelope under new CEO John Ternus with plans to make its foray into the smart-home market. (Source: Bloomberg)",
+      "published": "2026-09-30T17:47:01+00:00",
+      "score": 39.0,
+      "headline": "OPENAI DELAYS IPO... Seeks $30B Instead"
+    },
+    {
+      "id": "5713af8d86df5f9c",
+      "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+      "source": "TechCrunch AI",
+      "summary": "Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",
+      "published": "2026-09-30T17:45:00+00:00",
+      "score": 39.0,
+      "headline": "REDDIT KILLS RSS FEEDS to Block AI Scrapers"
+    },
+    {
+      "id": "11a1f3460e4780dc",
+      "title": "Here&#8217;s what AI leaders are saying about Trump\u2019s new safety plan",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+      "source": "The Verge AI",
+      "summary": "After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now that he's renamed the technology to \"Super Intelligence.\" He [&#8230;]",
+      "published": "2026-09-30T17:15:49+00:00",
+      "score": 39.0,
+      "headline": "TRUMP UNVEILS AI SAFETY PLAN: Big Tech Leaders React"
+    },
+    {
+      "id": "da73a8788c1e3523",
+      "title": "\u2018The economy is increasingly reliant on AI gains\u2019: U.S. GDP grew 2.2% amid \u2018sudden reversal of optimism\u2019 on AI tech",
+      "url": "https://fortune.com/2026/09/30/us-gdp-2-2-reversal-optimism-ai-tech/",
+      "source": "Fortune Tech",
+      "summary": "The U.S. economy has proven surprisingly resilient in the face of fighting with Iran and the energy price spike it caused.",
+      "published": "2026-09-30T16:06:24+00:00",
+      "score": 39.0,
+      "headline": "US GDP Growth 2.2% as Economy Leans on AI Gains"
+    },
+    {
+      "id": "34d33b4bd254ab8e",
+      "title": "Why KKR Says AI Buildout Needing $8 Trillion in New Capital",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-30/why-kkr-sees-ai-buildout-needing-8t-in-new-capital-video",
+      "source": "Bloomberg Technology",
+      "summary": "KKR has released a new report arguing that financing the global AI buildout will require about $8 trillion in capital expenditures, far more than traditional public equity and debt markets can supply on their own. Christopher Sheldon, KKR's co-head of credit and markets, discusses the report on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "published": "2026-09-30T15:06:16+00:00",
+      "score": 39.0,
+      "headline": "KKR: AI Buildout Needs $8 TRILLION in New Capital... Markets Can't Supply It"
+    },
+    {
+      "id": "e1f11787fb0f0638",
+      "title": "AI industry moves to thwart data centre backlash ahead of US midterms",
+      "url": "https://www.ft.com/content/9705f5bf-bc06-481d-b2a3-1299463074b8?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "AI Infrastructure Coalition, whose members include Google, Meta and Microsoft, unveils commitments to cover energy costs and minimise water usage",
+      "published": "2026-09-30T04:01:04+00:00",
+      "score": 39.0,
+      "headline": "AI Giants Form Coalition to Counter Data Center Backlash"
     }
   ],
-  "generated_at": "2026-10-01T18:12:08.433020"
+  "generated_at": "2026-10-02T06:14:11.618846"
 }

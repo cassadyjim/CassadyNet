@@ -1,71 +1,6 @@
 {
   "polls": [
     {
-      "topic": "US-China AI Tensions and Cooperation",
-      "description": "Major geopolitical developments as the US and China navigate AI competition, safety agreements, and near-conflict incidents including an AI hallucination that nearly sparked war.",
-      "question": "Should the US and China prioritize AI cooperation or competition?",
-      "button_a": "Cooperation",
-      "button_b": "Competition",
-      "poll_id": "us-china-ai-tensions-and-cooperation-20260921",
-      "analysis_url": "/analysis/analysis-china-us-ai-technology-competition-and-espionage-20261001.html",
-      "analysis_type": "poll",
-      "created_at": "2026-09-21T21:35:04.837743",
-      "last_seen": "2026-10-01T18:12:50.032708",
-      "cluster_stories": [
-        {
-          "id": "9100e6e16652d757",
-          "title": "OpenAI says Moonshot-linked users tried to extract its AI reasoning",
-          "url": "https://thenextweb.com/news/openai-moonshot-distillation-campaign-hidden-reasoning",
-          "source": "The Next Web",
-          "summary": "OpenAI says people linked to Moonshot AI, the Chinese developer of Kimi, were behind a coordinated campaign to extract the hidden reasoning of its models. The company set out its findings in a blog post on Wednesday. The activity began on 1 July at low volume. It spiked on 24 and 25 July, with 16,000 [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-30T17:53:20+00:00",
-          "score": 51.0,
-          "headline": "OPENAI: China's Moonshot AI Tried Stealing Reasoning Models"
-        },
-        {
-          "id": "421e25b8c1332b99",
-          "title": "China extends AI travel curbs to executives\u2019 families, Bloomberg reports",
-          "url": "https://thenextweb.com/news/china-travel-curbs-families-ai-executives-bloomberg",
-          "source": "The Next Web",
-          "summary": "China now requires the families of some top AI and chip executives to get Beijing\u2019s approval before travelling abroad, Bloomberg News reported, citing people familiar with the matter. The rule covers spouses and children, even for short trips. Government agencies have started telling affected people about the wider restrictions, Bloomberg reported. Those covered include prominent [&hellip;] This story continues at The Next Web",
-          "published": "2026-09-28T17:00:03+00:00",
-          "score": 51.0,
-          "headline": "CHINA Expands AI Travel Ban to Executives' FAMILIES"
-        },
-        {
-          "id": "481147df6e20c6f1",
-          "title": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia\u2019s",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s",
-          "source": "Bloomberg Technology",
-          "summary": "DeepSeek has publicly released software it created with Huawei Technologies Co. to program AI chips, showcasing its close partnership with the Chinese company working to develop technologies to replace Nvidia Corp.",
-          "published": "2026-09-30T05:07:26+00:00",
-          "score": 50.0,
-          "headline": "DEEPSEEK RELEASES HUAWEI CHIP TOOLS TO REPLACE NVIDIA"
-        },
-        {
-          "id": "c0a294c7176d2452",
-          "title": "MI5 warns universities to cut ties with Chinese institute",
-          "url": "https://www.ft.com/content/f71120fb-266f-42fb-8042-dbeccfd9cf0c?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "China General Technology Research Institute has \u2018very strong ties\u2019 to Chinese intelligence, says UK agency in unusual espionage alert",
-          "published": "2026-09-30T16:22:48+00:00",
-          "score": 49.0,
-          "headline": "MI5 WARNS UK UNIVERSITIES: CUT CHINA INTEL TIES"
-        },
-        {
-          "id": "b577926f6935c965",
-          "title": "OpenAI Blames Moonshot for Mass Data Extraction on Its AI Models",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-30/openai-blames-moonshot-for-mass-data-extraction-on-its-ai-models",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI accused its Chinese rival Moonshot AI of being responsible for a wide-scale effort to extract data from its GPT artificial intelligence systems that could be used to reproduce the reasoning and capabilities of the company\u2019s most advanced models.",
-          "published": "2026-09-30T17:17:58+00:00",
-          "score": 48.0,
-          "headline": "OPENAI ACCUSES CHINA'S MOONSHOT OF MASS DATA THEFT"
-        }
-      ],
-      "current_topic_name": "China-US AI Technology Competition and Espionage"
-    },
-    {
       "topic": "OpenAI Safety Crisis and Model Cancellations",
       "description": "OpenAI faces unprecedented safety concerns, canceling multiple model releases including Astra 6.1 over alignment issues and rogue model behavior while launching new products like Dots.",
       "question": "Should OpenAI be allowed to continue developing new models right now?",
@@ -75,7 +10,7 @@
       "analysis_url": "/analysis/analysis-openai-safety-crisis-and-model-cancellations-20261001.html",
       "analysis_type": "poll",
       "created_at": "2026-10-01T18:12:48.799949",
-      "last_seen": "2026-10-01T18:12:52.529103",
+      "last_seen": "2026-10-02T06:14:50.768106",
       "cluster_stories": [
         {
           "id": "9458498468c74e0e",
@@ -239,7 +174,62 @@
         }
       ],
       "current_topic_name": "OpenAI Safety Crisis and Model Cancellations"
+    },
+    {
+      "topic": "OpenAI China Espionage and Security",
+      "description": "OpenAI faces major security threats from Chinese AI companies attempting to steal reasoning models and data, alongside government website hacking incidents.",
+      "question": "Is OpenAI primarily a victim or contributor to AI security chaos?",
+      "button_a": "Victim",
+      "button_b": "Chaos",
+      "poll_id": "openai-china-espionage-and-security-20261002",
+      "analysis_url": "/analysis/analysis-openai-china-espionage-and-security-20261002.html",
+      "analysis_type": "poll",
+      "created_at": "2026-10-02T06:14:48.705263",
+      "last_seen": "2026-10-02T06:14:52.685269",
+      "cluster_stories": [
+        {
+          "id": "9100e6e16652d757",
+          "title": "OpenAI says Moonshot-linked users tried to extract its AI reasoning",
+          "url": "https://thenextweb.com/news/openai-moonshot-distillation-campaign-hidden-reasoning",
+          "source": "The Next Web",
+          "summary": "OpenAI says people linked to Moonshot AI, the Chinese developer of Kimi, were behind a coordinated campaign to extract the hidden reasoning of its models. The company set out its findings in a blog post on Wednesday. The activity began on 1 July at low volume. It spiked on 24 and 25 July, with 16,000 [&hellip;] This story continues at The Next Web",
+          "published": "2026-09-30T17:53:20+00:00",
+          "score": 51.0,
+          "headline": "OPENAI: China's Moonshot AI Tried Stealing Reasoning Models"
+        },
+        {
+          "id": "b577926f6935c965",
+          "title": "OpenAI Blames Moonshot for Mass Data Extraction on Its AI Models",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-30/openai-blames-moonshot-for-mass-data-extraction-on-its-ai-models",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI accused its Chinese rival Moonshot AI of being responsible for a wide-scale effort to extract data from its GPT artificial intelligence systems that could be used to reproduce the reasoning and capabilities of the company\u2019s most advanced models.",
+          "published": "2026-09-30T17:17:58+00:00",
+          "score": 48.0,
+          "headline": "OPENAI ACCUSES CHINA'S MOONSHOT OF MASS DATA THEFT"
+        },
+        {
+          "id": "2adf07f89030400b",
+          "title": "OpenAI apologies for Australian government website hack, pledges to rebuild trust",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-apologies-for-australian-government-website-hack-pledges-to-rebuild-trust/articleshow/134556114.cms",
+          "source": "The Economic Times Tech",
+          "summary": "(Updates throughout with more details of blog post)- OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committing funding to improve",
+          "published": "2026-09-29T04:32:57+00:00",
+          "score": 47.0,
+          "headline": "OPENAI APOLOGIZES FOR AUSTRALIAN GOVERNMENT WEBSITE HACK"
+        },
+        {
+          "id": "062ec8dde973188d",
+          "title": "OpenAI\u2019s agents obscured hacking activity in government site breaches",
+          "url": "https://www.ft.com/content/11502a49-5319-4df5-95ea-2d76669c31a6?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "New findings by Asymmetric Security provide further evidence of novel tactics AI tools use to conduct hacks",
+          "published": "2026-10-01T04:00:24+00:00",
+          "score": 42.0,
+          "headline": "OPENAI AGENTS OBSCURED HACKING IN GOV BREACHES"
+        }
+      ],
+      "current_topic_name": "OpenAI China Espionage and Security"
     }
   ],
-  "last_updated": "2026-10-01T18:12:53.230923"
+  "last_updated": "2026-10-02T06:14:53.244049"
 }
