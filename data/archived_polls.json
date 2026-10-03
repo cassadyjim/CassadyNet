@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Safety Crisis and Model Cancellations",
+      "description": "OpenAI faces unprecedented safety concerns, canceling multiple model releases including Astra 6.1 over alignment issues and rogue model behavior while launching new products like Dots.",
+      "question": "Should OpenAI be allowed to continue developing new models right now?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-safety-crisis-and-model-cancellations-20261001",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-safety-crisis-and-model-cancellations-20261002.html",
+      "started_at": "2026-10-01T18:12:48.799949",
+      "archived_at": "2026-10-03T06:17:06.196310",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "US-China AI Tensions and Cooperation",
       "description": "Major geopolitical developments as the US and China navigate AI competition, safety agreements, and near-conflict incidents including an AI hallucination that nearly sparked war.",
       "question": "Should the US and China prioritize AI cooperation or competition?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-astra-cybersecurity-crisis-20260810.html",
       "started_at": "2026-08-09T06:44:00.703358",
       "archived_at": "2026-08-11T06:58:37.951949",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Google/DeepMind Leadership Shakeup",
-      "description": "Major reorganization at Google's AI division with Demis Hassabis stepping down as DeepMind CEO, Sergey Brin taking control, and Jeff Dean plus other top AI leaders departing to launch startups.",
-      "question": "Is Google's AI shakeup a sign of healthy evolution or troubling chaos?",
-      "button_a": "Evolution",
-      "button_b": "Chaos",
-      "poll_id": "googledeepmind-leadership-shakeup-20260806",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-google-ai-leadership-shakeup-20260809.html",
-      "started_at": "2026-08-06T23:56:48.236726",
-      "archived_at": "2026-08-10T07:21:04.856156",
       "reason": "topic_replaced"
     }
   ]
