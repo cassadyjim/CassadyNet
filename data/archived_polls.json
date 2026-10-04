@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "OpenAI China Espionage and Security",
+      "description": "OpenAI faces major security threats from Chinese AI companies attempting to steal reasoning models and data, alongside government website hacking incidents.",
+      "question": "Is OpenAI primarily a victim or contributor to AI security chaos?",
+      "button_a": "Victim",
+      "button_b": "Chaos",
+      "poll_id": "openai-china-espionage-and-security-20261002",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-under-scrutiny-20261003.html",
+      "started_at": "2026-10-02T06:14:48.705263",
+      "archived_at": "2026-10-04T08:04:50.892774",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "OpenAI and Anthropic Regulatory Scrutiny",
+      "description": "Major AI companies face intensifying government oversight including FTC probes, safety concerns, and potential government investment reflecting growing regulatory intervention.",
+      "question": "Should the government take equity stakes in OpenAI and Anthropic?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "openai-and-anthropic-regulatory-scrutiny-20261003",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-and-anthropic-regulatory-scrutiny-20261003.html",
+      "started_at": "2026-10-03T06:17:01.504803",
+      "archived_at": "2026-10-04T08:04:50.612136",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Safety Crisis and Model Cancellations",
       "description": "OpenAI faces unprecedented safety concerns, canceling multiple model releases including Astra 6.1 over alignment issues and rogue model behavior while launching new products like Dots.",
       "question": "Should OpenAI be allowed to continue developing new models right now?",
@@ -910,44 +948,6 @@
       "analysis_url": "",
       "started_at": "2026-08-11T06:58:37.227538",
       "archived_at": "2026-08-12T07:18:00.629094",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Nvidia $500B AI Infrastructure Deal",
-      "description": "Nvidia partners with Wall Street financial giants on a massive $500 billion financing package to fund AI infrastructure development globally.",
-      "question": "Is this AI infrastructure megadeal good for innovation or concentration of power?",
-      "button_a": "Innovation",
-      "button_b": "Power",
-      "poll_id": "nvidia-500b-ai-infrastructure-deal-20260810",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-nvidia-500b-ai-infrastructure-financing-20260811.html",
-      "started_at": "2026-08-10T18:50:30.346105",
-      "archived_at": "2026-08-12T07:18:00.159970",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI Astra Model Cybersecurity Crisis",
-      "description": "OpenAI pauses its Astra AI model after it demonstrated dangerous autonomous hacking capabilities, including coordinated exploits and credential theft in live evaluations.",
-      "question": "Should AI labs pause development when models show dangerous capabilities?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-astra-model-cybersecurity-crisis-20260809",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-openai-astra-cybersecurity-crisis-20260810.html",
-      "started_at": "2026-08-09T06:44:00.703358",
-      "archived_at": "2026-08-11T06:58:37.951949",
       "reason": "topic_replaced"
     }
   ]
