@@ -1,44 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "AI Chip Smuggling to China",
-      "description": "Major enforcement actions and concerns over illegal export of high-value AI chips to China despite export controls.",
-      "stories": [
-        {
-          "id": "7baaeaf61fbda043",
-          "title": "US charges California man with smuggling $300mn of AI servers to China",
-          "url": "https://thenextweb.com/news/greg-lui-earthmade-ai-server-smuggling-china",
-          "source": "The Next Web",
-          "summary": "US authorities have arrested a California man accused of smuggling more than $300mn of computer servers packed with AI chips to China, the Justice Department said on Thursday. Greg Lui, 38, of San Gabriel, also known as Yiu Kong Lui, was arrested on Wednesday, prosecutors said. Reuters also reported the case, in a story carried by The [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-03T19:04:51+00:00",
-          "score": 47.0,
-          "headline": "MAN ARRESTED FOR SMUGGLING $300M IN AI CHIPS TO CHINA"
-        },
-        {
-          "id": "ce6e9d1222d3e870",
-          "title": "NVIDIA's smuggling problem is getting worse",
-          "url": "https://www.engadget.com/2275633/nvidias-smuggling-problem-is-getting-worse/",
-          "source": "Engadget",
-          "summary": "US officials have reportedly highlighted gaps in NVIDIA's due diligence over smuggling.",
-          "published": "2026-10-02T14:02:14+00:00",
-          "score": 43.0,
-          "headline": "NVIDIA CHIP SMUGGLING PROBLEM WORSENS... US Officials Cite Gaps"
-        },
-        {
-          "id": "7c1a7958278aa917",
-          "title": "US arrests California man for allegedly smuggling $300m worth of computer servers to China",
-          "url": "https://www.theguardian.com/us-news/2026/oct/02/arrest-smuggled-computer-servers-china",
-          "source": "The Guardian Tech",
-          "summary": "Greg Lui allegedly used false paperwork to smuggle export-controlled gear from US to third countries and then ChinaUS authorities have arrested a man accused of smuggling more than $300m worth of computer servers to China, the Department of Justice announced.Greg Lui, 38, of California, also known as \u201cYiu Kong Lui\u201d, allegedly used false paperwork and shipments through third countries to smuggle the export-controlled computer servers to China, the justice department said in a statement on Thursday. Continue reading...",
-          "published": "2026-10-02T18:46:29+00:00",
-          "score": 42.0,
-          "headline": "ARREST: $300M AI Server Smuggling Ring to China Busted"
-        }
-      ],
-      "top_score": 47.0,
-      "story_count": 3
-    },
-    {
       "topic": "OpenAI Crisis & Safety Concerns",
       "description": "OpenAI faces multiple serious challenges including security breaches, leadership resignations over broken safety culture, and regulatory investigations that threaten its operations and credibility.",
       "stories": [
@@ -125,9 +87,167 @@
       ],
       "top_score": 49.0,
       "story_count": 8
+    },
+    {
+      "topic": "OpenAI Crisis and Safety Failures",
+      "description": "OpenAI faces multiple critical incidents including security breaches, safety leadership resignations, and controversial rogue agent behavior exposing systemic problems.",
+      "stories": [
+        {
+          "id": "9a54ecaa642c362c",
+          "title": "OpenAI\u2019s Medicare attack has exposed Australia\u2019s \u2018tech debt\u2019. Fixing it could bring a big bill for taxpayers",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers",
+          "source": "The Guardian Tech",
+          "summary": "Home affairs department orders all federal government agencies to conduct review of \u2018legacy technology\u2019 amid fallout from AI agent hacks Get our breaking news email, free app or daily news podcastThe Australian government faces significant \u201ctech debt\u201d that could bring a big bill for taxpayers after the OpenAI Medicare breach, as government agencies will need to fortify their defences against future attacks by AI agents.This week, the home affairs department ordered all federal government agencies to conduct a \u201clegacy technology stocktake\u201d that requires a plan for each agency to \u201creduce legacy technology systems\u201d to a level within the agency\u2019s risk tolerance and appetite, the direction stated. Continue reading...",
+          "published": "2026-10-02T15:00:13+00:00",
+          "score": 49.0,
+          "headline": "OPENAI MEDICARE HACK EXPOSES AUSTRALIA'S TECH DEBT CRISIS"
+        },
+        {
+          "id": "d8bea22f6536e1b4",
+          "title": "A model guide for the GPT-6 family",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "source": "OpenAI Blog",
+          "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+          "published": "2026-10-02T16:15:00+00:00",
+          "score": 47.0,
+          "headline": "OPENAI DROPS GPT-6 MODEL GUIDE... Tunable Reasoning"
+        },
+        {
+          "id": "6b3471ffae71b32e",
+          "title": "OpenAI safety employee resigns, claiming the company\u2019s \u2018culture is broken\u2019",
+          "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+          "source": "TechCrunch AI",
+          "summary": "By his own admission, David Robinson is \u201csomething of a clich\u00e9\u201d: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+          "published": "2026-10-03T16:30:01+00:00",
+          "score": 46.0,
+          "headline": "OPENAI SAFETY LEAD RESIGNS: \"Culture Is Broken\""
+        },
+        {
+          "id": "97af931021b60f65",
+          "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "source": "The Verge AI",
+          "summary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
+          "published": "2026-10-05T18:08:39+00:00",
+          "score": 45.0,
+          "headline": "OPENAI ADDS TEXT WATERMARKING... EU LAUNCH FIRST"
+        },
+        {
+          "id": "0a63b06f805834a6",
+          "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+          "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/ Comments URL: https://news.ycombinator.com/item?id=49968105 Points: 5 # Comments: 0",
+          "published": "2026-10-05T17:53:35+00:00",
+          "score": 44.0,
+          "headline": "OPENAI ROGUE AGENTS CAUGHT ON WIKIPEDIA"
+        },
+        {
+          "id": "6983c336e1ab4247",
+          "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+          "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/ Comments URL: https://news.ycombinator.com/item?id=49967781 Points: 4 # Comments: 0",
+          "published": "2026-10-05T17:27:31+00:00",
+          "score": 44.0,
+          "headline": "OPENAI ROGUE AGENTS CAUGHT ON WIKIPEDIA"
+        },
+        {
+          "id": "69da73e8cd7f75ed",
+          "title": "OpenAI PR tells journalist to \u2018move on\u2019 while asking Sam Altman about a ChatGPT user&#8217;s suicide",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+          "source": "The Verge AI",
+          "summary": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came [&#8230;]",
+          "published": "2026-10-05T16:55:42+00:00",
+          "score": 44.0,
+          "headline": "OPENAI PR SHUTS DOWN Questions on ChatGPT User Suicide"
+        },
+        {
+          "id": "8ce4e23c2f93fc32",
+          "title": "Legal risks pile up for Altman as OpenAI uncovers dozens of hacks",
+          "url": "https://www.ft.com/content/2c24ece3-ac99-43a8-b0e6-4a3867e37ebf?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Cyber security incidents involving company\u2019s AI tools leave ChatGPT maker vulnerable to wave of lawsuits",
+          "published": "2026-10-04T11:00:08+00:00",
+          "score": 44.0,
+          "headline": "OPENAI HACKED: Dozens of Breaches Discovered, Legal Storm Brewing"
+        },
+        {
+          "id": "eb8bbabe305cdeef",
+          "title": "OpenAI safety leader quits, warning AI company\u2019s culture is \u2018broken\u2019",
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "source": "The Guardian Tech",
+          "summary": "David Robinson joins other insiders in urging industry to take more care over rapidly developing technologyA safety leader at OpenAI has quit the company, warning that its culture was broken and that AI firms were not \u201cbeing nearly careful enough\u201d about developing the technology.David Robinson, who led the writing of safety reports that accompanied the ChatGPT developer\u2019s product releases, explained his resignation in an essay headlined, \u201cI quit OpenAI because its culture is broken\u201d. Continue reading...",
+          "published": "2026-10-04T07:48:54+00:00",
+          "score": 44.0,
+          "headline": "OPENAI SAFETY CHIEF QUITS: Company Culture 'BROKEN'"
+        },
+        {
+          "id": "abe17cd905b61bb7",
+          "title": "Sam Altman says \u2018some bad things&#8217; will happen, but AI is totally worth it",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+          "source": "The Verge AI",
+          "summary": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, [&#8230;]",
+          "published": "2026-10-05T16:44:21+00:00",
+          "score": 43.0,
+          "headline": "SAM ALTMAN: World Must Accept 'Bad Things' From AI"
+        },
+        {
+          "id": "f9545c4ec00f8446",
+          "title": "Our approach to EU text provenance rules",
+          "url": "https://openai.com/index/eu-text-provenance",
+          "source": "OpenAI Blog",
+          "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+          "published": "2026-10-05T15:00:00+00:00",
+          "score": 43.0,
+          "headline": "OpenAI Reveals EU Text Watermarking Strategy"
+        },
+        {
+          "id": "d3ca4a16d64c2216",
+          "title": "Former OpenAI employee says AI should be regulated like nuclear power plants",
+          "url": "https://www.engadget.com/2276577/former-openai-employee-says-ai-should-be-regulated-like-nuclear-power-plants/",
+          "source": "Engadget",
+          "summary": "The company's former safety lead said frontier AI model releases should have \"layers of redundancy and careful, time-consuming planning.\"",
+          "published": "2026-10-03T16:25:15+00:00",
+          "score": 43.0,
+          "headline": "EX-OPENAI SAFETY LEAD: Regulate AI Like Nuclear Plants"
+        },
+        {
+          "id": "edef5e5d6249ea7f",
+          "title": "OpenAI\u2019s Dot agent is enterprise software that can also order your dinner",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+          "source": "The Verge AI",
+          "summary": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced [&#8230;]",
+          "published": "2026-10-02T18:00:00+00:00",
+          "score": 43.0,
+          "headline": "OpenAI Launches 'Dots' Enterprise AI Agent Platform"
+        },
+        {
+          "id": "843ef9b01d6c994f",
+          "title": "OpenAI\u2019s chip chief tells More Than Moore he doesn\u2019t fully trust AI design",
+          "url": "https://thenextweb.com/news/openai-jalapeno-chip-richard-ho-ai-design",
+          "source": "The Next Web",
+          "summary": "OpenAI\u2019s own AI models changed parts of its Jalape\u00f1o chip, and its engineers could not always say why. In one example, they saved more than 13% of die area, Richard Ho told Ian Cutress of More Than Moore. Ho leads OpenAI\u2019s hardware team, and the interview was published on 30 September. \u201cWell, I still don\u2019t [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-05T14:17:02+00:00",
+          "score": 42.0,
+          "headline": "OPENAI CHIP CHIEF: We Don't Fully Trust AI Design"
+        }
+      ],
+      "top_score": 49.0,
+      "story_count": 14
     }
   ],
   "unclustered": [
+    {
+      "id": "b70963ac4f5c2e75",
+      "title": "Researchers are tracking a Chinese AI \u2018agent fleet\u2019",
+      "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+      "source": "TechCrunch AI",
+      "summary": "Independent researchers discovered an agent swarm that seems to be running on Tencent's infrastructure and targeting Alibaba's map service, Amap.",
+      "published": "2026-10-05T14:35:09+00:00",
+      "score": 47.0,
+      "headline": "CHINESE AI AGENT FLEET DISCOVERED... Targeting Alibaba Maps"
+    },
     {
       "id": "7baaeaf61fbda043",
       "title": "US charges California man with smuggling $300mn of AI servers to China",
@@ -139,14 +259,24 @@
       "headline": "MAN ARRESTED FOR SMUGGLING $300M IN AI CHIPS TO CHINA"
     },
     {
-      "id": "d8bea22f6536e1b4",
-      "title": "A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "source": "OpenAI Blog",
-      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "published": "2026-10-02T16:15:00+00:00",
-      "score": 47.0,
-      "headline": "OPENAI DROPS GPT-6 MODEL GUIDE... Tunable Reasoning"
+      "id": "0682023e759f8562",
+      "title": "AM Intelligence plans $20 billion additional investment in 15 months, orders 20k more Nvidia GPUs",
+      "url": "https://economictimes.indiatimes.com/tech/technology/am-intelligence-plans-20-billion-additional-investment-in-15-months-orders-20k-more-nvidia-gpus/articleshow/134713444.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The company announced that it has placed two further firm and binding orders for 20,000 NVIDIA Rubin GPUs for deployment of the systems across India and Malaysia, taking its total capacity to 100 Megawatt.",
+      "published": "2026-10-05T17:28:17+00:00",
+      "score": 45.0,
+      "headline": "AM INTELLIGENCE ORDERS 20K NVIDIA RUBINS... $20B Investment"
+    },
+    {
+      "id": "4b6fb30ef0afa396",
+      "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+      "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
+      "published": "2026-10-05T16:13:21+00:00",
+      "score": 45.0,
+      "headline": "PENTAGON DUMPS ANTHROPIC... 'SUPPLY CHAIN RISK'"
     },
     {
       "id": "929a42548e6573b1",
@@ -239,6 +369,16 @@
       "headline": "AMAZON WARNS: Data Center Blocks Threaten National Security"
     },
     {
+      "id": "f4d175d95d3d2bee",
+      "title": "Giorgia Meloni seeks to trademark her voice to counter AI deepfakes",
+      "url": "https://www.ft.com/content/f30f83da-96d0-45bf-8fb6-36550d2b9f7d?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Italian prime minister first major politician to seek protection against misuse of her voice",
+      "published": "2026-10-05T15:31:39+00:00",
+      "score": 43.0,
+      "headline": "Italy's PM Seeks Voice Trademark to Fight AI Deepfakes"
+    },
+    {
       "id": "c5a4292b91e9f18d",
       "title": "Anthropic reported diary entry to police, woman faces felony charge",
       "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
@@ -267,16 +407,6 @@
       "published": "2026-10-02T18:11:27+00:00",
       "score": 43.0,
       "headline": "APPLE TIGHTENS macOS Security Over AI Agent Risks"
-    },
-    {
-      "id": "edef5e5d6249ea7f",
-      "title": "OpenAI\u2019s Dot agent is enterprise software that can also order your dinner",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
-      "source": "The Verge AI",
-      "summary": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced [&#8230;]",
-      "published": "2026-10-02T18:00:00+00:00",
-      "score": 43.0,
-      "headline": "OpenAI Launches 'Dots' Enterprise AI Agent Platform"
     },
     {
       "id": "acfe1bdd02dab4ff",
@@ -339,6 +469,46 @@
       "headline": "AMAZON SEEKS TO OFFLOAD $8B IN NVIDIA CHIPS TO INVESTORS"
     },
     {
+      "id": "a1facfe768be0052",
+      "title": "Ex-Anthropic Researcher Jacob Coxon Testifies at NYC Council AI Hearing",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-05/ex-anthropic-researcher-jacob-coxon-testifies-at-nyc-council-ai-hearing",
+      "source": "Bloomberg Technology",
+      "summary": "Former Anthropic researcher Jacob Coxon warned that the race to develop artificial intelligence poses risks that the industry itself doesn\u2019t fully understand, at a New York City Council hearing where lawmakers weighed whether to impose their own safeguards on a burgeoning global business.",
+      "published": "2026-10-05T16:46:47+00:00",
+      "score": 42.0,
+      "headline": "EX-ANTHROPIC RESEARCHER Warns NYC: AI Risks Unknown"
+    },
+    {
+      "id": "a038eaefba43f7ae",
+      "title": "arXiv Is Rate Limiting Submissions Because It Can\u2019t Keep up With AI Slop",
+      "url": "https://www.404media.co/arxiv-is-rate-limiting-submissions-because-it-cant-keep-up-with-ai-slop/",
+      "source": "404 Media",
+      "summary": "The academic publisher said submissions have doubled in the past two years and moderators are having a hard time keeping up.",
+      "published": "2026-10-05T15:29:49+00:00",
+      "score": 42.0,
+      "headline": "arXiv RATE LIMITS Submissions... Drowning in AI Slop"
+    },
+    {
+      "id": "18744f38fe8d4390",
+      "title": "Nvidia\u2019s $20bn licensing deal with Groq faces lawsuit from jilted engineers",
+      "url": "https://www.ft.com/content/93ee425d-9ac7-4543-8cc9-fef2e0670787?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Employees of start-up say they were short-changed when the chip titan left them out of the \u2018acqui-hire\u2019 transaction",
+      "published": "2026-10-05T14:43:54+00:00",
+      "score": 42.0,
+      "headline": "NVIDIA'S $20BN GROQ DEAL FACES LAWSUIT... Engineers Claim Short-Change"
+    },
+    {
+      "id": "400f3aef1269a7df",
+      "title": "Dutch eyewear chain Hans Anders stops selling Meta\u2019s Ray-Ban glasses",
+      "url": "https://thenextweb.com/news/hans-anders-meta-ray-ban-glasses-netherlands-belgium",
+      "source": "The Next Web",
+      "summary": "Hans Anders, one of the largest Dutch eyewear chains, has stopped selling Meta\u2019s Ray-Ban smart glasses in the Netherlands and Belgium. The chain told Reuters on Friday that privacy concerns were behind the move. Dutch online retailer Wehkamp has also paused sales, Business Insider reported. \u201cThis decision follows the ongoing public and political debate surrounding [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-05T13:59:40+00:00",
+      "score": 42.0,
+      "headline": "DUTCH CHAIN STOPS SELLING Meta Ray-Ban Glasses Over Privacy Fears"
+    },
+    {
       "id": "fcd0405ccf0a5560",
       "title": "BOJ says AI boom may have eased financial conditions, warns of market risks",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/boj-says-ai-boom-may-have-eased-financial-conditions-warns-of-market-risks/articleshow/134685626.cms",
@@ -359,6 +529,16 @@
       "headline": "India Rejects US AI Pact... Building Own Safety Framework"
     },
     {
+      "id": "20b332b1f92ad299",
+      "title": "Trump Names Clayton, Ferguson to Lead AI Task Force",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force",
+      "source": "Bloomberg Technology",
+      "summary": "The \u201cSuper Intelligence Force\u201d will be led by Director of National Intelligence Jay Clayton and chairman of the Federal Trade Commission Andrew Ferguson, President Donald Trump says on Truth Social.",
+      "published": "2026-10-04T12:38:37+00:00",
+      "score": 42.0,
+      "headline": "TRUMP FORMS 'SUPER INTELLIGENCE FORCE' - Clayton and Ferguson to Lead"
+    },
+    {
       "id": "79900f80a6f91e5f",
       "title": "LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi",
       "url": "https://lastweekin.ai/p/lwiai-podcast-258-opus-55-sol-and",
@@ -367,6 +547,16 @@
       "published": "2026-10-03T07:32:03+00:00",
       "score": 42.0,
       "headline": "ANTHROPIC DROPS OPUS 5.5... OpenAI Launches GPT-6 Sol & Luna"
+    },
+    {
+      "id": "879397709241158c",
+      "title": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+      "source": "The Guardian Tech",
+      "summary": "Company says it is reviewing 50 petabytes of data after its agents accessed websites including Medicare without authorisationGet our breaking news email, free app or daily news podcastOpenAI says its review in response to the Medicare and Hugging Face agent attacks is costing the company more than US$500,000 per day, as it deploys AI to examine data that would take a human 66m years to read.The company has warned the review is ongoing, and more organisations may be informed they\u2019ve been targeted in the near future. Continue reading...",
+      "published": "2026-10-03T05:39:22+00:00",
+      "score": 42.0,
+      "headline": "OpenAI Hack Review Costs $500K DAILY After Medicare Breach"
     },
     {
       "id": "6e9c9497e7fb7878",
@@ -387,6 +577,16 @@
       "published": "2026-10-02T18:46:29+00:00",
       "score": 42.0,
       "headline": "ARREST: $300M AI Server Smuggling Ring to China Busted"
+    },
+    {
+      "id": "398e0e7a6913fdf1",
+      "title": "It\u2019s not AI anymore, it\u2019s \u2018super intelligence\u2019 (according to the White House)",
+      "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+      "source": "TechCrunch AI",
+      "summary": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room \u2014 Zuckerberg, Bezos, Musk, and Anthropic\u2019s Dario Amodei among them \u2014&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called \u201cmorally binding.\u201d&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as \u201csuper intelligence,\u201d and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+      "published": "2026-10-02T17:48:16+00:00",
+      "score": 42.0,
+      "headline": "WHITE HOUSE REBRANDS AI AS 'SUPER INTELLIGENCE' After CEO Summit"
     },
     {
       "id": "595df53ed28c8315",
@@ -467,6 +667,16 @@
       "published": "2026-10-04T18:13:23+00:00",
       "score": 41.0,
       "headline": "MUSK ADMITS: Tesla Robotaxis Can't See Pets at Night"
+    },
+    {
+      "id": "af2f340527a0e311",
+      "title": "Elon Musk says SpaceXAI will be renamed SpaceXSI after Trump's 'super intelligence' push",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/elon-musk-says-spacexai-will-be-renamed-spacexsi-after-trumps-super-intelligence-push/articleshow/134676679.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The plan comes days after Trump signed an executive order directing federal agencies to use the term. The order, signed on September 29, 2026, replaces \"artificial intelligence\" with \"Super Intelligence,\" or \"SI,\" on official websites, policy documents and government press releases.",
+      "published": "2026-10-04T14:25:33+00:00",
+      "score": 41.0,
+      "headline": "MUSK RENAMES SpaceXAI to SpaceXSI After Trump's 'Super Intelligence' Order"
     },
     {
       "id": "0b7d107f9291decd",
@@ -597,6 +807,36 @@
       "published": "2026-10-02T15:19:50+00:00",
       "score": 41.0,
       "headline": "Hugging Face Open-Sources AstaBrief Report Generation Model"
+    },
+    {
+      "id": "71d671bb3d8cca3b",
+      "title": "Stop Efforts to Greenlight AI Robocalls Ahead of the Midterms",
+      "url": "https://www.nclc.org/stop-efforts-to-greenlight-ai-robocalls-ahead-of-the-midterms/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.nclc.org/stop-efforts-to-greenlight-ai-robocalls-ahead-of-the-midterms/ Comments URL: https://news.ycombinator.com/item?id=49967654 Points: 2 # Comments: 0",
+      "published": "2026-10-05T17:17:05+00:00",
+      "score": 40.0,
+      "headline": "STOP AI ROBOCALLS Before Midterm Elections"
+    },
+    {
+      "id": "40c23b64d6fadaee",
+      "title": "TSMC in Talks to Join Musk\u2019s Texas Terafab Project",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-05/tsmc-in-talks-to-join-musk-s-texas-terafab-project-video",
+      "source": "Bloomberg Technology",
+      "summary": "Elon Musk confirmed that TSMC and his companies are discussing a possible chipmaking partnership in Texas. The project could make TSMC a supplier to Tesla, SpaceX and xAI. Carmen Reinicke has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "published": "2026-10-05T15:49:55+00:00",
+      "score": 40.0,
+      "headline": "TSMC in Talks for Musk's Texas AI Chip Megafab"
+    },
+    {
+      "id": "e36223c0def053e4",
+      "title": "OpenAI launches visual ads that appear alongside image generation results",
+      "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+      "source": "TechCrunch AI",
+      "summary": "OpenAI said the new visual ads will show up after your image generation results appear in the U.S. only for now.",
+      "published": "2026-10-05T15:14:24+00:00",
+      "score": 40.0,
+      "headline": "OpenAI Launches Visual Ads in Image Generation"
     },
     {
       "id": "91a599c5c5a24338",
@@ -749,225 +989,45 @@
       "headline": "Africa Demands Say in AI Safety... As US & China Models Flood In"
     },
     {
-      "id": "46776e007e6449f0",
-      "title": "Altman: `World should accept some bad things happening' for the benefits of AI",
-      "url": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217 Comments URL: https://news.ycombinator.com/item?id=49960944 Points: 3 # Comments: 7",
-      "published": "2026-10-05T05:17:27+00:00",
-      "score": 39.0,
-      "headline": "ALTMAN: World Must Accept 'Bad Things' for AI Benefits"
-    },
-    {
-      "id": "8aa22e68d38bd339",
-      "title": "Sony Music steps up fight against streaming fraud",
-      "url": "https://www.ft.com/content/51aed058-f8e0-4426-b92a-790b7863d350?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Label battles the surge in AI-generated deepfake songs that impersonate its biggest artists",
-      "published": "2026-10-05T04:00:22+00:00",
-      "score": 39.0,
-      "headline": "Sony Music Wars Against AI Deepfake Songs"
-    },
-    {
-      "id": "73c6ba78e11f24d4",
-      "title": "\"I just assumed that it would translate\": examining MT risk awareness among healthcare staff with abbreviations as a use case",
-      "url": "https://arxiv.org/abs/2610.02496",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.02496v1 Announce Type: new Abstract: In the UK, public healthcare staff report turning to machine translation (MT) - predominantly Google Translate (GT) - to communicate with patients across language barriers. Though intended to support their duty of care, potentially uninformed reliance on MT in such contexts could have serious consequences for patient safety. Research nonetheless remains limited on staff awareness of the possible risks posed by higher-stakes MT use in general and with patient medical records in particular, most existing literature instead examining its use in interpersonal situations or with patient-oriented documentation. Moreover, medical abbreviations are well-documented as increasing patient risk even monolingually, with outcomes from their misuse and/or misinterpretation ranging from temporary harm to the death of the patient. Abbreviations were therefore selected as a use case for identifying the potential risks posed by their translation with MT. Co",
-      "published": "2026-10-05T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "UK Healthcare Staff Risk Patient Safety with Google Translate"
-    },
-    {
-      "id": "75dd33eb6e5be6e2",
-      "title": "Spy chief Jay Clayton, the Trump loyalist tech bosses trust on AI",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/spy-chief-jay-clayton-the-trump-loyalist-tech-bosses-trust-on-ai/articleshow/134676268.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The 60-year-old lawyer, who will keep his post as director of national intelligence, is unlikely to question the central place of artificial intelligence in the US economy, even as opposition to the technology grows among American voters.",
-      "published": "2026-10-04T13:59:53+00:00",
-      "score": 39.0,
-      "headline": "Jay Clayton: The Trump Loyalist Tech Bosses TRUST on AI"
-    },
-    {
-      "id": "4267115dc0d24a81",
-      "title": "South Korean president orders probe into data leaks across financial industry",
-      "url": "https://economictimes.indiatimes.com/tech/technology/south-korean-president-orders-probe-into-data-leaks-across-financial-industry/articleshow/134674507.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Financial Services Commission (FSC) Chairman Lee Eog-weon convened an emergency meeting with financial industry associations, regulators and executives from affected institutions on Sunday, warning that the sector must respond with the highest level of vigilance, the FSC said in a statement.",
-      "published": "2026-10-04T11:54:35+00:00",
-      "score": 39.0,
-      "headline": "SOUTH KOREA ORDERS PROBE INTO FINANCIAL DATA LEAKS"
-    },
-    {
-      "id": "1823a6fd5648fef9",
-      "title": "Bessent says AI alarmism without solutions is not leadership",
-      "url": "https://thenextweb.com/news/bessent-says-ai-alarmism-without-solutions-is-not-leadership",
-      "source": "The Next Web",
-      "summary": "US Treasury Secretary Scott Bessent has criticised AI leaders who warn of disaster but offer no fixes. He made the remarks in an interview with Axios published on Saturday. \u201cThis alarmism without solutions by some of the AI community, that\u2019s not leadership,\u201d Bessent said, as Bloomberg reported. In September, Anthropic\u2019s Dario Amodei, OpenAI\u2019s Sam Altman and xAI\u2019s Elon Musk [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-03T18:26:38+00:00",
-      "score": 39.0,
-      "headline": "TREASURY SEC BESSENT SLAMS AI ALARMISM: Offer Solutions, Not Warnings"
-    },
-    {
-      "id": "e6ea7ca2690e5fa5",
-      "title": "California\u2019s new laws target workers\u2019 biggest fear of AI taking their jobs",
-      "url": "https://www.theguardian.com/technology/2026/oct/03/california-ai-laws-worker-protection",
-      "source": "The Guardian Tech",
-      "summary": "The state, which is home to many AI companies, is one of the first to roll out workplace regulations targeting the technology California\u2019s laws aimed at protecting workers from the impacts of artificial intelligence could pave the way for broader workplace safeguards across the US as calls for regulating the technology mount. As the federal government goes hands-off on AI, California is taking the reins to address workers\u2019 biggest fears.On Thursday, California governor Gavin Newsom signed a suite of new laws that ban bosses from relying entirely on AI to decide whether to fire workers, using it to predict employees\u2019 emotional states or collecting neural data, meaning the information from electrical signals of someone\u2019s brain or nerves. They also require companies to notify workers if layoffs were caused by AI and prohibit AI surveillance in workplace bathrooms. Continue reading...",
-      "published": "2026-10-03T14:00:00+00:00",
-      "score": 39.0,
-      "headline": "CALIFORNIA PASSES AI WORKPLACE PROTECTION LAWS"
-    },
-    {
-      "id": "90226b49830d0a8c",
-      "title": "The coming futures market in AI compute",
-      "url": "https://www.ft.com/content/a1815bc5-b5d5-47ff-bbbc-e1a689929321",
-      "source": "Financial Times Tech",
-      "summary": "CME Group plans to introduce a new commodity to its roster that will allow the hedging of fluctuations in the price of chip rental",
-      "published": "2026-10-03T04:00:39+00:00",
-      "score": 39.0,
-      "headline": "CME to Launch AI COMPUTE Futures Market"
-    },
-    {
-      "id": "0a62e0816552bf5c",
-      "title": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899 Comments URL: https://news.ycombinator.com/item?id=49940745 Points: 5 # Comments: 2",
-      "published": "2026-10-03T02:07:08+00:00",
-      "score": 39.0,
-      "headline": "ArXiv Rate-Limits Submissions to Fight AI SLOP Flood"
-    },
-    {
-      "id": "21671a3ea261d7c7",
-      "title": "Apple to Tighten Mac Data Controls in Guard Against AI Agents",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-02/apple-to-tighten-mac-data-controls-in-guard-against-ai-agents",
+      "id": "be55e15fa3b3f797",
+      "title": "CH Robinson to Buy RXO for $5.8B in Bet on AI Model",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-05/ch-robinson-to-buy-rxo-for-5-8b-in-bet-on-ai-model-video",
       "source": "Bloomberg Technology",
-      "summary": "Apple Inc. said it plans to introduce new privacy controls for Mac users, warning of the growing risks around granting broad data access to third-party software, including artificial intelligence agents.",
-      "published": "2026-10-02T20:50:08+00:00",
+      "summary": "CH Robinson agreed to buy trucking brokerage firm RXO Inc. in a deal centered around a bet that artificial intelligence can help the companies improve efficiency in a challenging freight market. Through a cash-and-stock transaction valued at about $5.8 billion, CH Robinson aims to diversify its business and capitalize on RXO\u2019s abilities in expedited and last-mile delivery. CH Robinson, which has been using AI to transform its operations to become leaner, intends to use the system to extract $300 million of cost savings within two years. Lee Klaskow, Bloomberg Intelligence Senior Transport, Logistics and Shipping Analyst says that the $300 million estimate could be conservative. (Source: Bloomberg)",
+      "published": "2026-10-05T17:19:32+00:00",
       "score": 39.0,
-      "headline": "APPLE TIGHTENS MAC SECURITY Against AI Agent Risks"
+      "headline": "CH Robinson Bets $5.8B on AI Trucking Model in RXO Deal"
     },
     {
-      "id": "f9df9058658b6647",
-      "title": "Apple will limit Mac disk access as AI agents \u2018substantially\u2019 increase risk",
-      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-      "source": "The Verge AI",
-      "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do [&#8230;]",
-      "published": "2026-10-02T20:08:40+00:00",
+      "id": "9b91fcda04f797f9",
+      "title": "HackerRank\u2019s AI interviewer offers a glimpse into what job interviews could become",
+      "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+      "source": "TechCrunch AI",
+      "summary": "HackerRank\u2019s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+      "published": "2026-10-05T16:43:35+00:00",
       "score": 39.0,
-      "headline": "Apple Limits Mac Disk Access as AI Agents Increase Risk"
+      "headline": "HackerRank AI Interviewer Hits 500K Interviews"
     },
     {
-      "id": "9e7e961ec4a88dca",
-      "title": "Podcast: The FBI Was Hacked. We\u2019ve Seen the Data",
-      "url": "https://www.404media.co/podcast-the-fbi-was-hacked-weve-seen-the-data/",
+      "id": "659de184edc29f2b",
+      "title": "ChatGPT has new ad formats. Heres what they look like.",
+      "url": "https://mashable.com/tech/chatgpt-openai-new-ads-visual",
+      "source": "Mashable Tech",
+      "summary": "OpenAI is testing image-based ads that appear while ChatGPT generates pictures, alongside new tools to help advertisers measure results.",
+      "published": "2026-10-05T15:45:40+00:00",
+      "score": 39.0,
+      "headline": "ChatGPT Launches Visual Ads During Image Generation"
+    },
+    {
+      "id": "79ee8954bc988d3f",
+      "title": "Meta Rushed to Fix Muse \u2018VM Escape' Vulnerability Soon Before Launch",
+      "url": "https://www.404media.co/meta-rushed-to-fix-muse-vm-escape-vulnerability-immediately-before-launch/",
       "source": "404 Media",
-      "summary": "The massive FBI hack; a company wants to add facial recognition onto Flock; and Muse in some cases is actually just people.",
-      "published": "2026-10-02T17:37:35+00:00",
+      "summary": "The vulnerability could have let a Muse user access sensitive internal Meta databases.",
+      "published": "2026-10-05T14:13:58+00:00",
       "score": 39.0,
-      "headline": "FBI HACKED: Exclusive Data Obtained... Muse AI 'Just People' Exposed"
-    },
-    {
-      "id": "444bec8a730ce7b5",
-      "title": "\u2018Sometimes it\u2019s more expensive than having humans\u2019: Honeywell and Ecolab get real about AI\u2019s limits in the physical world",
-      "url": "https://fortune.com/2026/10/02/more-expensive-having-ai-than-humans-honeywell-ecolab/",
-      "source": "Fortune Tech",
-      "summary": "Honeywell CTO Suresh Venkatarayalu said customers \u201creally demand 99.9999%\u201d accuracy, while frontier models \u201ccould be at 85%.\u201d",
-      "published": "2026-10-02T17:08:16+00:00",
-      "score": 39.0,
-      "headline": "Honeywell and Ecolab: AI 'Sometimes More Expensive Than Humans' in Physical World"
-    },
-    {
-      "id": "1d9ed1fdec29cccb",
-      "title": "Micron sees the memory shortage tightening into 2028 after a record quarter",
-      "url": "https://thenextweb.com/news/micron-record-quarter-memory-shortage-2028",
-      "source": "The Next Web",
-      "summary": "Micron says the global memory shortage will get tighter over the next two years. The US chipmaker reported record results on Wednesday. Revenue for the quarter to 3 September rose nearly fivefold from a year earlier, to $54.23bn, the company said. Net income reached $37.7bn, up from $3.2bn a year earlier. Gross margin hit 86.8%, [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-02T12:43:38+00:00",
-      "score": 39.0,
-      "headline": "Micron: Memory Shortage Tightening Through 2028 After Record Quarter"
-    },
-    {
-      "id": "6bf97d7265c0f660",
-      "title": "Amazon Says It\u2019s No Longer Using NDAs for Data Centers",
-      "url": "https://www.wired.com/story/amazon-says-it-is-going-to-stop-using-ndas-for-data-centers/",
-      "source": "Wired",
-      "summary": "The company announced it has stopped using secret agreements with county officials and acknowledged that community backlash is leading to data center moratoriums across the country.",
-      "published": "2026-10-02T11:47:58+00:00",
-      "score": 39.0,
-      "headline": "Amazon Ends Secret NDAs for Data Center Deals"
-    },
-    {
-      "id": "190c03ca19ef6f66",
-      "title": "AI music maker Suno now generates spoken words",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
-      "source": "The Verge AI",
-      "summary": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platforms, and allows you to simultaneously generate voiceovers and background music to accompany them. \"Music will always be at [&#8230;]",
-      "published": "2026-10-02T09:42:19+00:00",
-      "score": 39.0,
-      "headline": "Suno AI Now Generates SPOKEN VOICES Beyond Music"
-    },
-    {
-      "id": "98d55ef62aa97278",
-      "title": "Kepler: Auditable World Models for ARC-AGI-3",
-      "url": "https://arxiv.org/abs/2610.00834",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.00834v1 Announce Type: new Abstract: ARC-AGI-3 evaluates agents in interactive environments whose rules and objectives must be inferred from observation. We present Kepler, an open-source harness that represents hypotheses as executable world models and validates them through retrospective transition checks and conditional prediction checks. Under one frozen Claude Opus 5 configuration, Kepler obtained a server-verified 100.00 RHAE on all 25 public games, with no per-game model selection or score-conditioned reruns. On 181 of 183 completed levels, the final Opus attempt used no more actions than the corresponding median-human baseline. The retained board runs used 8,256 environment actions, of which 7,292 occurred in scored levels. Retained local provider-session records yield 858.0 million tokens, 97.37% cache reads, and a \\$777.72 cost at September 1, 2026 API list-equivalent rates. We also report three evaluation failures: source-code leakage that produced an invalid perf",
-      "published": "2026-10-02T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "Kepler: Open-Source System Tackles ARC-AGI-3 Challenge"
-    },
-    {
-      "id": "15a5350c141042c2",
-      "title": "MLCommons Jailbreak Benchmark v1.0",
-      "url": "https://arxiv.org/abs/2610.02827",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.02827v1 Announce Type: new Abstract: Modern AI systems are designed to refuse hazardous requests. A jailbreak is a prompt crafted to bypass those safeguards and elicit outputs that the system would normally refuse to provide. The MLCommons Jailbreak Benchmark v1.0 provides an end-to-end methodology for evaluating the robustness of large language models to single-turn, text-based jailbreak attacks. It combines criteria-driven system and attack selection, paired baseline and adversarial evaluation, human annotation, automated evaluator calibration, scoring, grading, and risk-calibrated disclosure within a single benchmarking pipeline. The benchmark evaluates eight open-weight systems using 264 seed prompts spanning eleven hazard categories and representative attacks drawn from the MLCommons Jailbreak Taxonomy. Responses are assessed using the AILuminate Assessment Standard v1.4, and robustness is measured through the Resilience Gap: the change in safety performance between bas",
-      "published": "2026-10-05T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "MLCommons Releases First Standard Jailbreak Benchmark"
-    },
-    {
-      "id": "b92d86e79253694e",
-      "title": "Rural Queenslanders have seen gas projects come and go \u2013 but a 725-hectare datacentre poses a whole new level of \u2018stupidity\u2019",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/05/queensland-data-centre-anthropic-western-downs-dalby",
-      "source": "The Guardian Tech",
-      "summary": "Residents of Dalby may soon live beside a $31bn datacentre. The premier sees \u2018opportunity\u2019 for the state \u2013 but others fear AI\u2019s global creepFrom the veranda on his bush block, Denver Kanowski has watched resources companies come and go from rural Queensland for 70 years.The home cost him $800, and lets him live how he likes, in nature. It\u2019s also in the middle of a gasfield, not far from the Linc Energy contamination site, down the road from a coalmine and three gas power plants.Sign up for a weekly email featuring our best reads Continue reading...",
-      "published": "2026-10-04T14:00:29+00:00",
-      "score": 38.0,
-      "headline": "$31B AI DATACENTER Planned for Rural Australia... Locals Call It 'Stupidity'"
-    },
-    {
-      "id": "7716067213170cad",
-      "title": "Japanese and Korean shipbuilders deploy robots to take on China",
-      "url": "https://www.ft.com/content/ea32c53d-4de7-4b34-af44-cc148b23433f?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "US allies invest in \u2018smart shipyards\u2019 as Beijing\u2019s dominance of industry alarms Washington",
-      "published": "2026-10-04T01:00:04+00:00",
-      "score": 38.0,
-      "headline": "Japan, Korea Deploy Robots in Shipyards to Counter China"
-    },
-    {
-      "id": "f66d4e64a243919c",
-      "title": "New Archestra's OpenAPPA Saturates Two Major Security Benchmarks with a 0% Attack Success Rate",
-      "url": "https://www.infoq.com/news/2026/10/open-APPA-zero-security-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "summary": "Archestra released OpenAPPA, an open-source security engine designed to stop data exfiltration caused by prompt injection or model hallucination. The team reports zero successful attacks when running security benchmarks Bench-Corp (20 multi-step enterprise workflows) and AgentThreatBench, versus 10% for Claude Code\u2019s auto mode and 31% for Microsoft FIDES. By Bruno Couriol",
-      "published": "2026-10-03T23:41:00+00:00",
-      "score": 38.0,
-      "headline": "Archestra's OpenAPPA: 0% Attack Success Rate on Security Tests"
-    },
-    {
-      "id": "7ccc087b6bfcb49a",
-      "title": "Capcom plans to use AI to speed up the game development process",
-      "url": "https://www.engadget.com/2276597/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/",
-      "source": "Engadget",
-      "summary": "The company previously said it won't use AI-generated content in its games.",
-      "published": "2026-10-03T18:27:15+00:00",
-      "score": 38.0,
-      "headline": "CAPCOM TO USE AI IN GAME DEVELOPMENT... Despite Anti-AI Pledge"
+      "headline": "META RUSHED FIX for Muse VM Escape Vulnerability Before Launch"
     }
   ],
-  "generated_at": "2026-10-05T06:22:10.464242"
+  "generated_at": "2026-10-05T18:11:47.051656"
 }

@@ -1,61 +1,16 @@
 {
   "polls": [
     {
-      "topic": "AI Chip Smuggling to China",
-      "description": "Major enforcement actions and concerns over illegal export of high-value AI chips to China despite export controls.",
-      "question": "Who's more responsible for chip smuggling: exporters or tech companies?",
-      "button_a": "Exporters",
-      "button_b": "Companies",
-      "poll_id": "ai-chip-smuggling-to-china-20261004",
-      "analysis_url": "/analysis/analysis-ai-chip-smuggling-to-china-20261004.html",
-      "analysis_type": "poll",
-      "created_at": "2026-10-04T08:04:48.215412",
-      "last_seen": "2026-10-05T06:22:48.939821",
-      "cluster_stories": [
-        {
-          "id": "7baaeaf61fbda043",
-          "title": "US charges California man with smuggling $300mn of AI servers to China",
-          "url": "https://thenextweb.com/news/greg-lui-earthmade-ai-server-smuggling-china",
-          "source": "The Next Web",
-          "summary": "US authorities have arrested a California man accused of smuggling more than $300mn of computer servers packed with AI chips to China, the Justice Department said on Thursday. Greg Lui, 38, of San Gabriel, also known as Yiu Kong Lui, was arrested on Wednesday, prosecutors said. Reuters also reported the case, in a story carried by The [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-03T19:04:51+00:00",
-          "score": 47.0,
-          "headline": "MAN ARRESTED FOR SMUGGLING $300M IN AI CHIPS TO CHINA"
-        },
-        {
-          "id": "ce6e9d1222d3e870",
-          "title": "NVIDIA's smuggling problem is getting worse",
-          "url": "https://www.engadget.com/2275633/nvidias-smuggling-problem-is-getting-worse/",
-          "source": "Engadget",
-          "summary": "US officials have reportedly highlighted gaps in NVIDIA's due diligence over smuggling.",
-          "published": "2026-10-02T14:02:14+00:00",
-          "score": 43.0,
-          "headline": "NVIDIA CHIP SMUGGLING PROBLEM WORSENS... US Officials Cite Gaps"
-        },
-        {
-          "id": "7c1a7958278aa917",
-          "title": "US arrests California man for allegedly smuggling $300m worth of computer servers to China",
-          "url": "https://www.theguardian.com/us-news/2026/oct/02/arrest-smuggled-computer-servers-china",
-          "source": "The Guardian Tech",
-          "summary": "Greg Lui allegedly used false paperwork to smuggle export-controlled gear from US to third countries and then ChinaUS authorities have arrested a man accused of smuggling more than $300m worth of computer servers to China, the Department of Justice announced.Greg Lui, 38, of California, also known as \u201cYiu Kong Lui\u201d, allegedly used false paperwork and shipments through third countries to smuggle the export-controlled computer servers to China, the justice department said in a statement on Thursday. Continue reading...",
-          "published": "2026-10-02T18:46:29+00:00",
-          "score": 42.0,
-          "headline": "ARREST: $300M AI Server Smuggling Ring to China Busted"
-        }
-      ],
-      "current_topic_name": "AI Chip Smuggling to China"
-    },
-    {
       "topic": "OpenAI Crisis & Safety Concerns",
       "description": "OpenAI faces multiple serious challenges including security breaches, leadership resignations over broken safety culture, and regulatory investigations that threaten its operations and credibility.",
       "question": "Should AI companies face nuclear-level regulation after OpenAI's failures?",
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "openai-crisis-safety-concerns-20261004",
-      "analysis_url": "/analysis/analysis-openai-crisis-safety-concerns-20261004.html",
+      "analysis_url": "/analysis/analysis-openai-crisis-safety-concerns-20261005.html",
       "analysis_type": "poll",
       "created_at": "2026-10-04T18:52:05.272493",
-      "last_seen": "2026-10-05T06:22:49.975396",
+      "last_seen": "2026-10-05T18:12:29.761091",
       "cluster_stories": [
         {
           "id": "9a54ecaa642c362c",
@@ -68,14 +23,14 @@
           "headline": "OPENAI MEDICARE HACK EXPOSES AUSTRALIA'S TECH DEBT CRISIS"
         },
         {
-          "id": "83af2055edc7aa47",
-          "title": "FTC opens probe of Anthropic, OpenAI",
-          "url": "https://nypost.com/2026/09/30/us-news/ftc-opens-sweeping-probe-of-anthropic-openai-and-other-super-intelligence-models/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://nypost.com/2026/09/30/us-news/ftc-opens-sweeping-probe-of-anthropic-openai-and-other-super-intelligence-models/ Comments URL: https://news.ycombinator.com/item?id=49918131 Points: 2 # Comments: 1",
-          "published": "2026-10-01T05:42:45+00:00",
-          "score": 48.0,
-          "headline": "FTC LAUNCHES PROBE INTO ANTHROPIC, OPENAI"
+          "id": "d8bea22f6536e1b4",
+          "title": "A model guide for the GPT-6 family",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "source": "OpenAI Blog",
+          "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+          "published": "2026-10-02T16:15:00+00:00",
+          "score": 47.0,
+          "headline": "OPENAI DROPS GPT-6 MODEL GUIDE... Tunable Reasoning"
         },
         {
           "id": "6b3471ffae71b32e",
@@ -86,6 +41,46 @@
           "published": "2026-10-03T16:30:01+00:00",
           "score": 46.0,
           "headline": "OPENAI SAFETY LEAD RESIGNS: \"Culture Is Broken\""
+        },
+        {
+          "id": "97af931021b60f65",
+          "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "source": "The Verge AI",
+          "summary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
+          "published": "2026-10-05T18:08:39+00:00",
+          "score": 45.0,
+          "headline": "OPENAI ADDS TEXT WATERMARKING... EU LAUNCH FIRST"
+        },
+        {
+          "id": "0a63b06f805834a6",
+          "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+          "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/ Comments URL: https://news.ycombinator.com/item?id=49968105 Points: 5 # Comments: 0",
+          "published": "2026-10-05T17:53:35+00:00",
+          "score": 44.0,
+          "headline": "OPENAI ROGUE AGENTS CAUGHT ON WIKIPEDIA"
+        },
+        {
+          "id": "6983c336e1ab4247",
+          "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+          "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/ Comments URL: https://news.ycombinator.com/item?id=49967781 Points: 4 # Comments: 0",
+          "published": "2026-10-05T17:27:31+00:00",
+          "score": 44.0,
+          "headline": "OPENAI ROGUE AGENTS CAUGHT ON WIKIPEDIA"
+        },
+        {
+          "id": "69da73e8cd7f75ed",
+          "title": "OpenAI PR tells journalist to \u2018move on\u2019 while asking Sam Altman about a ChatGPT user&#8217;s suicide",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+          "source": "The Verge AI",
+          "summary": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came [&#8230;]",
+          "published": "2026-10-05T16:55:42+00:00",
+          "score": 44.0,
+          "headline": "OPENAI PR SHUTS DOWN Questions on ChatGPT User Suicide"
         },
         {
           "id": "8ce4e23c2f93fc32",
@@ -108,14 +103,24 @@
           "headline": "OPENAI SAFETY CHIEF QUITS: Company Culture 'BROKEN'"
         },
         {
-          "id": "db8fc572cea81514",
-          "title": "\u2018We can\u2019t trust them completely\u2019: AI research fellows warn that labs are running models with the safeguards off behind closed doors",
-          "url": "https://fortune.com/2026/10/02/we-cant-trust-them-completely-labs-safeguards/",
-          "source": "Fortune Tech",
-          "summary": "Alan Chan and Sam Manning, co-authors with OpenAI's and Anthropic's top researchers, say that many times, \"internal safeguards have not been deployed.\"",
-          "published": "2026-10-02T22:05:44+00:00",
-          "score": 44.0,
-          "headline": "AI LABS RUNNING MODELS WITHOUT SAFEGUARDS... WHISTLEBLOWERS WARN"
+          "id": "abe17cd905b61bb7",
+          "title": "Sam Altman says \u2018some bad things&#8217; will happen, but AI is totally worth it",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+          "source": "The Verge AI",
+          "summary": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, [&#8230;]",
+          "published": "2026-10-05T16:44:21+00:00",
+          "score": 43.0,
+          "headline": "SAM ALTMAN: World Must Accept 'Bad Things' From AI"
+        },
+        {
+          "id": "f9545c4ec00f8446",
+          "title": "Our approach to EU text provenance rules",
+          "url": "https://openai.com/index/eu-text-provenance",
+          "source": "OpenAI Blog",
+          "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+          "published": "2026-10-05T15:00:00+00:00",
+          "score": 43.0,
+          "headline": "OpenAI Reveals EU Text Watermarking Strategy"
         },
         {
           "id": "d3ca4a16d64c2216",
@@ -128,18 +133,38 @@
           "headline": "EX-OPENAI SAFETY LEAD: Regulate AI Like Nuclear Plants"
         },
         {
-          "id": "879397709241158c",
-          "title": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day",
-          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
-          "source": "The Guardian Tech",
-          "summary": "Company says it is reviewing 50 petabytes of data after its agents accessed websites including Medicare without authorisationGet our breaking news email, free app or daily news podcastOpenAI says its review in response to the Medicare and Hugging Face agent attacks is costing the company more than US$500,000 per day, as it deploys AI to examine data that would take a human 66m years to read.The company has warned the review is ongoing, and more organisations may be informed they\u2019ve been targeted in the near future. Continue reading...",
-          "published": "2026-10-03T05:39:22+00:00",
+          "id": "edef5e5d6249ea7f",
+          "title": "OpenAI\u2019s Dot agent is enterprise software that can also order your dinner",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+          "source": "The Verge AI",
+          "summary": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced [&#8230;]",
+          "published": "2026-10-02T18:00:00+00:00",
+          "score": 43.0,
+          "headline": "OpenAI Launches 'Dots' Enterprise AI Agent Platform"
+        },
+        {
+          "id": "843ef9b01d6c994f",
+          "title": "OpenAI\u2019s chip chief tells More Than Moore he doesn\u2019t fully trust AI design",
+          "url": "https://thenextweb.com/news/openai-jalapeno-chip-richard-ho-ai-design",
+          "source": "The Next Web",
+          "summary": "OpenAI\u2019s own AI models changed parts of its Jalape\u00f1o chip, and its engineers could not always say why. In one example, they saved more than 13% of die area, Richard Ho told Ian Cutress of More Than Moore. Ho leads OpenAI\u2019s hardware team, and the interview was published on 30 September. \u201cWell, I still don\u2019t [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-05T14:17:02+00:00",
           "score": 42.0,
-          "headline": "OpenAI Hack Review Costs $500K DAILY After Medicare Breach"
+          "headline": "OPENAI CHIP CHIEF: We Don't Fully Trust AI Design"
         }
       ],
       "current_topic_name": "OpenAI Crisis & Safety Concerns"
+    },
+    {
+      "topic": "OpenAI Crisis and Safety Failures",
+      "description": "OpenAI faces multiple critical incidents including security breaches, safety leadership resignations, and controversial rogue agent behavior exposing systemic problems.",
+      "question": "",
+      "poll_id": "",
+      "analysis_url": "",
+      "analysis_type": "poll",
+      "created_at": "2026-10-05T18:12:30.960718",
+      "last_seen": "2026-10-05T18:12:30.960725"
     }
   ],
-  "last_updated": "2026-10-05T06:22:49.975412"
+  "last_updated": "2026-10-05T18:12:31.534802"
 }
