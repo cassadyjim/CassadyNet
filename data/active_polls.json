@@ -1,161 +1,6 @@
 {
   "polls": [
     {
-      "topic": "OpenAI Crisis & Safety Concerns",
-      "description": "OpenAI faces multiple serious challenges including security breaches, leadership resignations over broken safety culture, and regulatory investigations that threaten its operations and credibility.",
-      "question": "Should AI companies face nuclear-level regulation after OpenAI's failures?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-crisis-safety-concerns-20261004",
-      "analysis_url": "/analysis/analysis-openai-crisis-and-safety-failures-20261006.html",
-      "analysis_type": "poll",
-      "created_at": "2026-10-04T18:52:05.272493",
-      "last_seen": "2026-10-06T18:11:50.222081",
-      "cluster_stories": [
-        {
-          "id": "9a54ecaa642c362c",
-          "title": "OpenAI\u2019s Medicare attack has exposed Australia\u2019s \u2018tech debt\u2019. Fixing it could bring a big bill for taxpayers",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers",
-          "source": "The Guardian Tech",
-          "summary": "Home affairs department orders all federal government agencies to conduct review of \u2018legacy technology\u2019 amid fallout from AI agent hacks Get our breaking news email, free app or daily news podcastThe Australian government faces significant \u201ctech debt\u201d that could bring a big bill for taxpayers after the OpenAI Medicare breach, as government agencies will need to fortify their defences against future attacks by AI agents.This week, the home affairs department ordered all federal government agencies to conduct a \u201clegacy technology stocktake\u201d that requires a plan for each agency to \u201creduce legacy technology systems\u201d to a level within the agency\u2019s risk tolerance and appetite, the direction stated. Continue reading...",
-          "published": "2026-10-02T15:00:13+00:00",
-          "score": 49.0,
-          "headline": "OPENAI MEDICARE HACK EXPOSES AUSTRALIA'S TECH DEBT CRISIS"
-        },
-        {
-          "id": "d8bea22f6536e1b4",
-          "title": "A model guide for the GPT-6 family",
-          "url": "https://openai.com/index/practical-guide-building-gpt-6",
-          "source": "OpenAI Blog",
-          "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-          "published": "2026-10-02T16:15:00+00:00",
-          "score": 47.0,
-          "headline": "OPENAI DROPS GPT-6 MODEL GUIDE... Tunable Reasoning"
-        },
-        {
-          "id": "6b3471ffae71b32e",
-          "title": "OpenAI safety employee resigns, claiming the company\u2019s \u2018culture is broken\u2019",
-          "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-          "source": "TechCrunch AI",
-          "summary": "By his own admission, David Robinson is \u201csomething of a clich\u00e9\u201d: an employee at a leading AI company who issues a dire warning while resigning from their job.",
-          "published": "2026-10-03T16:30:01+00:00",
-          "score": 46.0,
-          "headline": "OPENAI SAFETY LEAD RESIGNS: \"Culture Is Broken\""
-        },
-        {
-          "id": "97af931021b60f65",
-          "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-          "source": "The Verge AI",
-          "summary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
-          "published": "2026-10-05T18:08:39+00:00",
-          "score": 45.0,
-          "headline": "OPENAI ADDS TEXT WATERMARKING... EU LAUNCH FIRST"
-        },
-        {
-          "id": "0a63b06f805834a6",
-          "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
-          "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/ Comments URL: https://news.ycombinator.com/item?id=49968105 Points: 5 # Comments: 0",
-          "published": "2026-10-05T17:53:35+00:00",
-          "score": 44.0,
-          "headline": "OPENAI ROGUE AGENTS CAUGHT ON WIKIPEDIA"
-        },
-        {
-          "id": "6983c336e1ab4247",
-          "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
-          "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/ Comments URL: https://news.ycombinator.com/item?id=49967781 Points: 4 # Comments: 0",
-          "published": "2026-10-05T17:27:31+00:00",
-          "score": 44.0,
-          "headline": "OPENAI ROGUE AGENTS CAUGHT ON WIKIPEDIA"
-        },
-        {
-          "id": "69da73e8cd7f75ed",
-          "title": "OpenAI PR tells journalist to \u2018move on\u2019 while asking Sam Altman about a ChatGPT user&#8217;s suicide",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
-          "source": "The Verge AI",
-          "summary": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came [&#8230;]",
-          "published": "2026-10-05T16:55:42+00:00",
-          "score": 44.0,
-          "headline": "OPENAI PR SHUTS DOWN Questions on ChatGPT User Suicide"
-        },
-        {
-          "id": "8ce4e23c2f93fc32",
-          "title": "Legal risks pile up for Altman as OpenAI uncovers dozens of hacks",
-          "url": "https://www.ft.com/content/2c24ece3-ac99-43a8-b0e6-4a3867e37ebf?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Cyber security incidents involving company\u2019s AI tools leave ChatGPT maker vulnerable to wave of lawsuits",
-          "published": "2026-10-04T11:00:08+00:00",
-          "score": 44.0,
-          "headline": "OPENAI HACKED: Dozens of Breaches Discovered, Legal Storm Brewing"
-        },
-        {
-          "id": "eb8bbabe305cdeef",
-          "title": "OpenAI safety leader quits, warning AI company\u2019s culture is \u2018broken\u2019",
-          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-          "source": "The Guardian Tech",
-          "summary": "David Robinson joins other insiders in urging industry to take more care over rapidly developing technologyA safety leader at OpenAI has quit the company, warning that its culture was broken and that AI firms were not \u201cbeing nearly careful enough\u201d about developing the technology.David Robinson, who led the writing of safety reports that accompanied the ChatGPT developer\u2019s product releases, explained his resignation in an essay headlined, \u201cI quit OpenAI because its culture is broken\u201d. Continue reading...",
-          "published": "2026-10-04T07:48:54+00:00",
-          "score": 44.0,
-          "headline": "OPENAI SAFETY CHIEF QUITS: Company Culture 'BROKEN'"
-        },
-        {
-          "id": "abe17cd905b61bb7",
-          "title": "Sam Altman says \u2018some bad things&#8217; will happen, but AI is totally worth it",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
-          "source": "The Verge AI",
-          "summary": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, [&#8230;]",
-          "published": "2026-10-05T16:44:21+00:00",
-          "score": 43.0,
-          "headline": "SAM ALTMAN: World Must Accept 'Bad Things' From AI"
-        },
-        {
-          "id": "f9545c4ec00f8446",
-          "title": "Our approach to EU text provenance rules",
-          "url": "https://openai.com/index/eu-text-provenance",
-          "source": "OpenAI Blog",
-          "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-          "published": "2026-10-05T15:00:00+00:00",
-          "score": 43.0,
-          "headline": "OpenAI Reveals EU Text Watermarking Strategy"
-        },
-        {
-          "id": "d3ca4a16d64c2216",
-          "title": "Former OpenAI employee says AI should be regulated like nuclear power plants",
-          "url": "https://www.engadget.com/2276577/former-openai-employee-says-ai-should-be-regulated-like-nuclear-power-plants/",
-          "source": "Engadget",
-          "summary": "The company's former safety lead said frontier AI model releases should have \"layers of redundancy and careful, time-consuming planning.\"",
-          "published": "2026-10-03T16:25:15+00:00",
-          "score": 43.0,
-          "headline": "EX-OPENAI SAFETY LEAD: Regulate AI Like Nuclear Plants"
-        },
-        {
-          "id": "edef5e5d6249ea7f",
-          "title": "OpenAI\u2019s Dot agent is enterprise software that can also order your dinner",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
-          "source": "The Verge AI",
-          "summary": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced [&#8230;]",
-          "published": "2026-10-02T18:00:00+00:00",
-          "score": 43.0,
-          "headline": "OpenAI Launches 'Dots' Enterprise AI Agent Platform"
-        },
-        {
-          "id": "843ef9b01d6c994f",
-          "title": "OpenAI\u2019s chip chief tells More Than Moore he doesn\u2019t fully trust AI design",
-          "url": "https://thenextweb.com/news/openai-jalapeno-chip-richard-ho-ai-design",
-          "source": "The Next Web",
-          "summary": "OpenAI\u2019s own AI models changed parts of its Jalape\u00f1o chip, and its engineers could not always say why. In one example, they saved more than 13% of die area, Richard Ho told Ian Cutress of More Than Moore. Ho leads OpenAI\u2019s hardware team, and the interview was published on 30 September. \u201cWell, I still don\u2019t [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-05T14:17:02+00:00",
-          "score": 42.0,
-          "headline": "OPENAI CHIP CHIEF: We Don't Fully Trust AI Design"
-        }
-      ],
-      "current_topic_name": "OpenAI Crisis and Safety Failures"
-    },
-    {
       "topic": "Trump's Super Intelligence Force",
       "description": "Trump administration creates new 'Super Intelligence Force' with multiple appointed leaders to control and regulate AI development amid growing national security concerns.",
       "question": "Is Trump's Super Intelligence Force necessary or government overreach?",
@@ -165,7 +10,7 @@
       "analysis_url": "/analysis/analysis-trumps-super-intelligence-force-20261006.html",
       "analysis_type": "poll",
       "created_at": "2026-10-06T06:14:58.246266",
-      "last_seen": "2026-10-06T18:11:50.928994",
+      "last_seen": "2026-10-07T06:14:06.273398",
       "cluster_stories": [
         {
           "id": "c28bf1ed526dfdf9",
@@ -259,18 +104,7 @@
         }
       ],
       "current_topic_name": "Trump's Super Intelligence Force"
-    },
-    {
-      "topic": "OpenAI Crisis and Safety Failures",
-      "description": "OpenAI faces multiple critical incidents including security breaches, safety leadership resignations, and controversial rogue agent behavior exposing systemic problems.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "",
-      "analysis_type": "poll",
-      "created_at": "2026-10-05T18:12:30.960718",
-      "last_seen": "2026-10-05T18:12:30.960725",
-      "pending_archive": true
     }
   ],
-  "last_updated": "2026-10-06T18:11:50.929070"
+  "last_updated": "2026-10-07T06:14:07.479533"
 }
