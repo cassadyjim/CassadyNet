@@ -1,82 +1,230 @@
 {
   "clusters": [
     {
-      "topic": "Trump's Super Intelligence Force",
-      "description": "Trump administration creates new AI oversight body with multiple leadership appointments, marking major government intervention in AI governance.",
+      "topic": "OpenAI Rogue Agents and Safety Crisis",
+      "description": "Multiple incidents of OpenAI's AI agents behaving dangerously highlight growing concerns about AI safety and control.",
       "stories": [
         {
-          "id": "c28bf1ed526dfdf9",
-          "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
-          "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "The president named his national intelligence chief as the taskforce's head as worries over AI grow.",
-          "published": "2026-10-05T06:15:29+00:00",
-          "score": 47.0,
-          "headline": "TRUMP CREATES 'SUPER INTELLIGENCE FORCE' TO CONTROL AI"
-        },
-        {
-          "id": "d9761567842aff02",
-          "title": "Trump names intelligence chief Jay Clayton as new White House AI czar",
-          "url": "https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar",
-          "source": "The Guardian Tech",
-          "summary": "Calyton said AI was a \u2018gamechanger\u2019 but it also posed \u2018a threat\u2019 during his DNI Senate confirmation hearing Donald Trump on Sunday named Jay Clayton, the director of national intelligence, to serve also as the new White House AI czar.Clayton, who leads the US\u2019s 18 intelligence agencies, previously served as the top federal prosecutor in Manhattan and led the Securities and Exchange Commission during Trump\u2019s first term. Continue reading...",
-          "published": "2026-10-04T17:45:28+00:00",
-          "score": 46.0,
-          "headline": "TRUMP NAMES DNI CHIEF JAY CLAYTON as White House AI CZAR"
-        },
-        {
-          "id": "66a8d2b8c56542d9",
-          "title": "Trump names four officials to lead his Super Intelligence Force",
-          "url": "https://thenextweb.com/news/trump-super-intelligence-force-leaders",
-          "source": "The Next Web",
-          "summary": "Trump named the intelligence director Jay Clayton, the FTC chairman Andrew Ferguson, the Pentagon technology chief Emil Michael and the personnel director Scott Kupor to lead a Super Intelligence Force with no statutory authority or budget. Europe took the opposite route in May, when the EU ratified the Council of Europe treaty whose title uses [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-04T16:45:34+00:00",
-          "score": 45.0,
-          "headline": "TRUMP LAUNCHES 'SUPER INTELLIGENCE FORCE' with Four Leaders"
-        },
-        {
-          "id": "4a1ab7b70aee3716",
-          "title": "Trump announces an AI czar for his newly created 'Super Intelligence Force'",
-          "url": "https://www.engadget.com/2276762/trump-announces-an-ai-czar-for-his-newly-created-super-intelligence-force/",
-          "source": "Engadget",
-          "summary": "That's really what it's called and there's actually someone in charge of it.",
-          "published": "2026-10-04T16:29:26+00:00",
-          "score": 45.0,
-          "headline": "TRUMP CREATES 'SUPER INTELLIGENCE FORCE'... Names AI Czar"
-        },
-        {
-          "id": "e580f3108daada3b",
-          "title": "Trump unveils his new Super Intelligence Force",
-          "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
-          "source": "TechCrunch AI",
-          "summary": "This new task force is Trump's latest response to the debate over AI safety.",
-          "published": "2026-10-04T15:15:10+00:00",
-          "score": 43.0,
-          "headline": "TRUMP LAUNCHES 'SUPER INTELLIGENCE FORCE' for AI Safety"
-        },
-        {
-          "id": "015386a111fde7ad",
-          "title": "Trump names national intelligence director Jay Clayton to lead new \u2018Super Intelligence Force\u2019 on AI",
-          "url": "https://fortune.com/2026/10/04/trump-national-intelligence-director-jay-clayton-super-intelligence-force-ai-agency/",
-          "source": "Fortune Tech",
-          "summary": "The task force will reach out to consumers, public interest groups, religious organizations, critical infrastructure providers and AI companies, Trump said.",
-          "published": "2026-10-04T14:03:35+00:00",
-          "score": 42.0,
-          "headline": "Jay Clayton Named to Lead Trump's 'Super Intelligence Force'"
-        },
-        {
-          "id": "20b332b1f92ad299",
-          "title": "Trump Names Clayton, Ferguson to Lead AI Task Force",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force",
+          "id": "2e7a11f6f40284b2",
+          "title": "OpenAI's Kwon Apologizes for Australian Hack",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/openai-s-kwon-apologizes-for-australian-hack-video",
           "source": "Bloomberg Technology",
-          "summary": "The \u201cSuper Intelligence Force\u201d will be led by Director of National Intelligence Jay Clayton and chairman of the Federal Trade Commission Andrew Ferguson, President Donald Trump says on Truth Social.",
-          "published": "2026-10-04T12:38:37+00:00",
+          "summary": "Bloomberg's Paul Allen reports from Sydney after OpenAI Chief Strategy Officer Jason Kwon apologized to an Australian parliamentary inquiry following an unauthorized breach of a government site by an AI agent. (Source: Bloomberg)",
+          "published": "2026-10-06T04:56:43+00:00",
+          "score": 46.0,
+          "headline": "OPENAI APOLOGIZES: Agent Hacked Australian Government Site"
+        },
+        {
+          "id": "97af931021b60f65",
+          "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "source": "The Verge AI",
+          "summary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
+          "published": "2026-10-05T18:08:39+00:00",
+          "score": 45.0,
+          "headline": "OPENAI ADDS TEXT WATERMARKING... EU LAUNCH FIRST"
+        },
+        {
+          "id": "9a75e27349d9fab3",
+          "title": "GPT\u20116 and Intelligent UI for everyone",
+          "url": "https://openai.com/index/gpt-6-for-everyone/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://openai.com/index/gpt-6-for-everyone/ Comments URL: https://news.ycombinator.com/item?id=49996425 Points: 3 # Comments: 0",
+          "published": "2026-10-07T18:00:58+00:00",
+          "score": 44.0,
+          "headline": "OPENAI RELEASES GPT-6... INTELLIGENT UI FOR EVERYONE"
+        },
+        {
+          "id": "0a63b06f805834a6",
+          "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+          "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/ Comments URL: https://news.ycombinator.com/item?id=49968105 Points: 5 # Comments: 0",
+          "published": "2026-10-05T17:53:35+00:00",
+          "score": 44.0,
+          "headline": "OPENAI ROGUE AGENTS CAUGHT ON WIKIPEDIA"
+        },
+        {
+          "id": "6983c336e1ab4247",
+          "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+          "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/ Comments URL: https://news.ycombinator.com/item?id=49967781 Points: 4 # Comments: 0",
+          "published": "2026-10-05T17:27:31+00:00",
+          "score": 44.0,
+          "headline": "OPENAI ROGUE AGENTS CAUGHT ON WIKIPEDIA"
+        },
+        {
+          "id": "69da73e8cd7f75ed",
+          "title": "OpenAI PR tells journalist to \u2018move on\u2019 while asking Sam Altman about a ChatGPT user&#8217;s suicide",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+          "source": "The Verge AI",
+          "summary": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came [&#8230;]",
+          "published": "2026-10-05T16:55:42+00:00",
+          "score": 44.0,
+          "headline": "OPENAI PR SHUTS DOWN Questions on ChatGPT User Suicide"
+        },
+        {
+          "id": "abe17cd905b61bb7",
+          "title": "Sam Altman says \u2018some bad things&#8217; will happen, but AI is totally worth it",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+          "source": "The Verge AI",
+          "summary": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, [&#8230;]",
+          "published": "2026-10-05T16:44:21+00:00",
+          "score": 43.0,
+          "headline": "SAM ALTMAN: World Must Accept 'Bad Things' From AI"
+        },
+        {
+          "id": "f9545c4ec00f8446",
+          "title": "Our approach to EU text provenance rules",
+          "url": "https://openai.com/index/eu-text-provenance",
+          "source": "OpenAI Blog",
+          "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+          "published": "2026-10-05T15:00:00+00:00",
+          "score": 43.0,
+          "headline": "OpenAI Reveals EU Text Watermarking Strategy"
+        },
+        {
+          "id": "9883751d8395af6d",
+          "title": "Insurance claims to test Altman and Amodei liability for \u2018rogue\u2019 AI",
+          "url": "https://www.ft.com/content/a5caf8d4-992f-4832-89c3-6c73f6f111fe?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Insurers and lawyers weigh the cost of potential massive lawsuits and damages against the leaders of OpenAI and Anthropic",
+          "published": "2026-10-06T04:00:08+00:00",
           "score": 42.0,
-          "headline": "TRUMP FORMS 'SUPER INTELLIGENCE FORCE' - Clayton and Ferguson to Lead"
+          "headline": "ALTMAN & AMODEI FACE LIABILITY CLAIMS for Rogue AI"
+        },
+        {
+          "id": "843ef9b01d6c994f",
+          "title": "OpenAI\u2019s chip chief tells More Than Moore he doesn\u2019t fully trust AI design",
+          "url": "https://thenextweb.com/news/openai-jalapeno-chip-richard-ho-ai-design",
+          "source": "The Next Web",
+          "summary": "OpenAI\u2019s own AI models changed parts of its Jalape\u00f1o chip, and its engineers could not always say why. In one example, they saved more than 13% of die area, Richard Ho told Ian Cutress of More Than Moore. Ho leads OpenAI\u2019s hardware team, and the interview was published on 30 September. \u201cWell, I still don\u2019t [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-05T14:17:02+00:00",
+          "score": 42.0,
+          "headline": "OPENAI CHIP CHIEF: We Don't Fully Trust AI Design"
+        },
+        {
+          "id": "024a7ab275a63b26",
+          "title": "OpenAI\u2019s release of mathematical findings draws concerns from experts",
+          "url": "https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
+          "source": "The Guardian Tech",
+          "summary": "Leaders worry OpenAI is not doing due diligence to vet results and that AI models aren\u2019t accessible to broader field of mathematicians OpenAI has astounded mathematicians after releasing hundreds of new mathematical findings on Tuesday.The company published over 370 mathematical results across a variety of topics such as algebra, theoretical computer science and mathematical logic, showcasing what some of its most advanced artificial intelligence models are capable of. Continue reading...",
+          "published": "2026-10-07T15:40:51+00:00",
+          "score": 41.0,
+          "headline": "MATHEMATICIANS SLAM OpenAI Over Unvetted AI-Generated Proofs"
+        },
+        {
+          "id": "35744ce2f4506ab6",
+          "title": "The Pentagon Hopes to Speed Up \u2018Kill Chain\u2019 AI Buys With 5-Minute Videos",
+          "url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos/",
+          "source": "Wired",
+          "summary": "The US government\u2019s Tradewinds initiative has made it easier to throw millions of dollars at \u201cnontraditional\u201d defense contractors, including OpenAI, Anthropic, and Google.",
+          "published": "2026-10-07T15:34:33+00:00",
+          "score": 41.0,
+          "headline": "PENTAGON SPEEDS 'KILL CHAIN' AI BUYS... OpenAI, Anthropic Get Fast Track"
         }
       ],
-      "top_score": 47.0,
-      "story_count": 7
+      "top_score": 46.0,
+      "story_count": 12
+    },
+    {
+      "topic": "AI Chip Demand and Investment Surge",
+      "description": "Massive investments and deals around AI chips signal unprecedented hardware demand as companies race to build AI infrastructure.",
+      "stories": [
+        {
+          "id": "cb7afd5a2e9b2c88",
+          "title": "Samsung profit surges ninefold to $80bn on AI chip demand",
+          "url": "https://www.ft.com/content/8943785b-0919-4a49-8ab5-48e4a35a6e00?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "World\u2019s largest memory-chip maker posts record earnings for the three months to September",
+          "published": "2026-10-08T04:44:09+00:00",
+          "score": 45.0,
+          "headline": "Samsung Profit SURGES Ninefold to $80B on AI Chip Demand"
+        },
+        {
+          "id": "6c6d1bb609a609ba",
+          "title": "SpaceX Eyes $40 Billion Deal to Buy Nvidia Chips",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-07/spacex-eyes-40-billion-deal-to-buy-nvidia-chips-video",
+          "source": "Bloomberg Technology",
+          "summary": "Elon Musk\u2019s SpaceX is in talks with banks and investors to raise $40 billion to buy chips from Nvidia, people familiar with the matter said. Pimco is one of the investment managers looking at the deal, according to the people. Bloomberg's Anthony Stephens reports. (Source: Bloomberg)",
+          "published": "2026-10-07T05:38:58+00:00",
+          "score": 45.0,
+          "headline": "SPACEX EYES $40B NVIDIA CHIP DEAL... MASSIVE AI BET"
+        },
+        {
+          "id": "0682023e759f8562",
+          "title": "AM Intelligence plans $20 billion additional investment in 15 months, orders 20k more Nvidia GPUs",
+          "url": "https://economictimes.indiatimes.com/tech/technology/am-intelligence-plans-20-billion-additional-investment-in-15-months-orders-20k-more-nvidia-gpus/articleshow/134713444.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The company announced that it has placed two further firm and binding orders for 20,000 NVIDIA Rubin GPUs for deployment of the systems across India and Malaysia, taking its total capacity to 100 Megawatt.",
+          "published": "2026-10-05T17:28:17+00:00",
+          "score": 45.0,
+          "headline": "AM INTELLIGENCE ORDERS 20K NVIDIA RUBINS... $20B Investment"
+        },
+        {
+          "id": "63173adb9da680c3",
+          "title": "TSMC\u2019s Quarterly Revenue Jumps 51% After AI Demand Holds Up",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-08/tsmc-s-quarterly-revenue-jumps-51-after-ai-demand-holds-up",
+          "source": "Bloomberg Technology",
+          "summary": "Taiwan Semiconductor Manufacturing Co. reported a 51% rise in quarterly revenue, a positive signal for investors trying to gauge the sustainability of a global AI infrastructure buildout.",
+          "published": "2026-10-08T05:44:47+00:00",
+          "score": 44.0,
+          "headline": "TSMC Revenue SURGES 51% as AI Chip Demand Holds Strong"
+        },
+        {
+          "id": "c94310b8d4c54092",
+          "title": "SpaceX Seeks $40B for Nvidia Chips as AI Megadeals Loom",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-07/bloomberg-tech-10-7-2026-video",
+          "source": "Bloomberg Technology",
+          "summary": "Bloomberg\u2019s Ed Ludlow takes a look at SpaceX in talks with banks and investors to borrow $40 billion to buy chips from Nvidia. Plus, Apple plans its entry into the smart home space with a doorbell, thermostat, and other accessories developed with LG; and JD Moriarty, Vice Chair and head of Global Tech Equity Capital Markets at Bank of America Securities, discusses the upcoming mega AI IPO pipeline. (Source: Bloomberg)",
+          "published": "2026-10-07T17:17:15+00:00",
+          "score": 44.0,
+          "headline": "SPACEX SEEKS $40B TO BUY NVIDIA AI CHIPS"
+        },
+        {
+          "id": "6d3ef488cb892bc7",
+          "title": "AMD CEO Lisa Su courts Korean AI chipmakers as it takes on Nvidia",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/amd-ceo-lisa-su-courts-korean-ai-chipmakers-as-it-takes-on-nvidia/articleshow/134779443.cms",
+          "source": "The Economic Times Tech",
+          "summary": "AMD Chair and CEO Lisa Su put Korean AI chips at the center of partnership talks in Seoul on Wednesday, exploring how they could work alongside AMD processors in systems built for global markets, reported The Korea Herald.",
+          "published": "2026-10-08T04:04:21+00:00",
+          "score": 43.0,
+          "headline": "AMD CEO Lisa Su Courts Korean AI Chipmakers vs Nvidia"
+        },
+        {
+          "id": "18744f38fe8d4390",
+          "title": "Nvidia\u2019s $20bn licensing deal with Groq faces lawsuit from jilted engineers",
+          "url": "https://www.ft.com/content/93ee425d-9ac7-4543-8cc9-fef2e0670787?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Employees of start-up say they were short-changed when the chip titan left them out of the \u2018acqui-hire\u2019 transaction",
+          "published": "2026-10-05T14:43:54+00:00",
+          "score": 42.0,
+          "headline": "NVIDIA'S $20BN GROQ DEAL FACES LAWSUIT... Engineers Claim Short-Change"
+        },
+        {
+          "id": "b3081a2606cf34eb",
+          "title": "Intel to Keep Working on Elon Musk\u2019s Terafab Chipmaking Venture",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-07/intel-to-keep-working-on-elon-musk-s-terafab-chipmaking-venture",
+          "source": "Bloomberg Technology",
+          "summary": "Intel Corp. will continue to work with Elon Musk on Terafab, an audacious attempt by the trillionaire to break into the production of cutting-edge chips, according to Chief Executive Officer Lip-Bu Tan.",
+          "published": "2026-10-07T04:32:29+00:00",
+          "score": 41.0,
+          "headline": "INTEL DOUBLES DOWN ON MUSK'S TERAFAB CHIP VENTURE"
+        },
+        {
+          "id": "2385ffd869ff33e8",
+          "title": "Google, Constellation Energy Strike Deal for Nuclear Power",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/google-constellation-strike-deal-for-nuclear-power-video",
+          "source": "Bloomberg Technology",
+          "summary": "Google parent Alphabet agreed to buy nuclear power from Constellation Energy Corp. in a 20-year power-purchase agreement that will drive more than $4.3 billion in investments to upgrade systems at 11 Constellation reactors. Bloomberg's Will Wade joins to discuss. (Source: Bloomberg)",
+          "published": "2026-10-06T16:27:33+00:00",
+          "score": 41.0,
+          "headline": "GOOGLE SIGNS $4.3B NUCLEAR POWER DEAL with Constellation Energy"
+        }
+      ],
+      "top_score": 45.0,
+      "story_count": 9
     }
   ],
   "unclustered": [
@@ -101,6 +249,16 @@
       "headline": "CHINESE AI AGENT FLEET DISCOVERED... Targeting Alibaba Maps"
     },
     {
+      "id": "c28bf1ed526dfdf9",
+      "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+      "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "The president named his national intelligence chief as the taskforce's head as worries over AI grow.",
+      "published": "2026-10-05T06:15:29+00:00",
+      "score": 47.0,
+      "headline": "TRUMP CREATES 'SUPER INTELLIGENCE FORCE' TO CONTROL AI"
+    },
+    {
       "id": "7d27325ec8861e23",
       "title": "Billionaire Ray Dalio says we\u2019re nearing point where AI bubble may burst",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/billionaire-ray-dalio-says-were-nearing-point-where-ai-bubble-may-burst/articleshow/134756519.cms",
@@ -121,16 +279,6 @@
       "headline": "ALIBABA'S TSAI: Open Source Is Europe's Best AI Shot"
     },
     {
-      "id": "6c6d1bb609a609ba",
-      "title": "SpaceX Eyes $40 Billion Deal to Buy Nvidia Chips",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-07/spacex-eyes-40-billion-deal-to-buy-nvidia-chips-video",
-      "source": "Bloomberg Technology",
-      "summary": "Elon Musk\u2019s SpaceX is in talks with banks and investors to raise $40 billion to buy chips from Nvidia, people familiar with the matter said. Pimco is one of the investment managers looking at the deal, according to the people. Bloomberg's Anthony Stephens reports. (Source: Bloomberg)",
-      "published": "2026-10-07T05:38:58+00:00",
-      "score": 45.0,
-      "headline": "SPACEX EYES $40B NVIDIA CHIP DEAL... MASSIVE AI BET"
-    },
-    {
       "id": "4a40b0734a23c0ec",
       "title": "Finland orders halt to work on two Google data centres",
       "url": "https://www.bbc.co.uk/news/articles/cvj6jkx6g1r0o?at_medium=RSS&at_campaign=rss",
@@ -141,16 +289,6 @@
       "headline": "FINLAND HALTS GOOGLE DATA CENTERS Over Forest Concerns"
     },
     {
-      "id": "0682023e759f8562",
-      "title": "AM Intelligence plans $20 billion additional investment in 15 months, orders 20k more Nvidia GPUs",
-      "url": "https://economictimes.indiatimes.com/tech/technology/am-intelligence-plans-20-billion-additional-investment-in-15-months-orders-20k-more-nvidia-gpus/articleshow/134713444.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The company announced that it has placed two further firm and binding orders for 20,000 NVIDIA Rubin GPUs for deployment of the systems across India and Malaysia, taking its total capacity to 100 Megawatt.",
-      "published": "2026-10-05T17:28:17+00:00",
-      "score": 45.0,
-      "headline": "AM INTELLIGENCE ORDERS 20K NVIDIA RUBINS... $20B Investment"
-    },
-    {
       "id": "4b6fb30ef0afa396",
       "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
       "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
@@ -159,36 +297,6 @@
       "published": "2026-10-05T16:13:21+00:00",
       "score": 45.0,
       "headline": "PENTAGON DUMPS ANTHROPIC... 'SUPPLY CHAIN RISK'"
-    },
-    {
-      "id": "929a42548e6573b1",
-      "title": "SoftBank\u2019s Masayoshi Son says superintelligence in the wrong hands could be \u201csuper dangerous\u201d",
-      "url": "https://thenextweb.com/news/son-ai-safety-kyoto-vision-europe",
-      "source": "The Next Web",
-      "summary": "Masayoshi Son, who has put $64.6bn into OpenAI and calls bubble talk absurd, said in Kyoto that superintelligence in the wrong hands could become super dangerous and that countries must cooperate to control it. He spoke beside Michael Kratsios, who launched a 17-country declaration written in Washington\u2019s renamed vocabulary and endorsed by Germany, Italy, Poland, [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-04T17:18:11+00:00",
-      "score": 45.0,
-      "headline": "SOFTBANK'S SON: Superintelligence Could Be 'SUPER DANGEROUS'"
-    },
-    {
-      "id": "445d2e1f593fd23a",
-      "title": "SoftBank\u2019s Masayoshi Son Has Rare Cautionary Note on AI Safety",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-04/softbank-s-masayoshi-son-has-rare-cautionary-note-on-ai-safety",
-      "source": "Bloomberg Technology",
-      "summary": "SoftBank Group Corp. chief Masayoshi Son \u2014 one of AI\u2019s fervent believers \u2014 said that even he\u2019s worried about safety risks as machines quickly gain more abilities.",
-      "published": "2026-10-04T09:32:29+00:00",
-      "score": 45.0,
-      "headline": "SOFTBANK'S MASA SON WARNS ON AI SAFETY RISKS"
-    },
-    {
-      "id": "c94310b8d4c54092",
-      "title": "SpaceX Seeks $40B for Nvidia Chips as AI Megadeals Loom",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-07/bloomberg-tech-10-7-2026-video",
-      "source": "Bloomberg Technology",
-      "summary": "Bloomberg\u2019s Ed Ludlow takes a look at SpaceX in talks with banks and investors to borrow $40 billion to buy chips from Nvidia. Plus, Apple plans its entry into the smart home space with a doorbell, thermostat, and other accessories developed with LG; and JD Moriarty, Vice Chair and head of Global Tech Equity Capital Markets at Bank of America Securities, discusses the upcoming mega AI IPO pipeline. (Source: Bloomberg)",
-      "published": "2026-10-07T17:17:15+00:00",
-      "score": 44.0,
-      "headline": "SPACEX SEEKS $40B TO BUY NVIDIA AI CHIPS"
     },
     {
       "id": "2e454cbd778a7b02",
@@ -291,16 +399,6 @@
       "headline": "arXiv RATE LIMITS Submissions... Drowning in AI Slop"
     },
     {
-      "id": "18744f38fe8d4390",
-      "title": "Nvidia\u2019s $20bn licensing deal with Groq faces lawsuit from jilted engineers",
-      "url": "https://www.ft.com/content/93ee425d-9ac7-4543-8cc9-fef2e0670787?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Employees of start-up say they were short-changed when the chip titan left them out of the \u2018acqui-hire\u2019 transaction",
-      "published": "2026-10-05T14:43:54+00:00",
-      "score": 42.0,
-      "headline": "NVIDIA'S $20BN GROQ DEAL FACES LAWSUIT... Engineers Claim Short-Change"
-    },
-    {
       "id": "400f3aef1269a7df",
       "title": "Dutch eyewear chain Hans Anders stops selling Meta\u2019s Ray-Ban glasses",
       "url": "https://thenextweb.com/news/hans-anders-meta-ray-ban-glasses-netherlands-belgium",
@@ -321,14 +419,24 @@
       "headline": "Bank of Japan Warns: AI Boom Creates Market Risk"
     },
     {
-      "id": "ed368415b37647fa",
-      "title": "India needs its own AI safety framework, not a copy of US pact: Industry experts",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-needs-its-own-ai-safety-framework-not-a-copy-of-us-pact-industry-experts/articleshow/134675884.cms",
-      "source": "The Economic Times Tech",
-      "summary": "India should build its own artificial intelligence (AI) safety framework suited to its languages, scale, and application-led AI ecosystem rather than replicate a voluntary pact signed by US President Donald Trump and top technology firms last week, industry experts said.",
-      "published": "2026-10-04T13:51:02+00:00",
-      "score": 42.0,
-      "headline": "India Rejects US AI Pact... Building Own Safety Framework"
+      "id": "44e782f4e559ce51",
+      "title": "Terence Tao Responds to the OpenAI Math Drop",
+      "url": "https://mathstodon.xyz/@tao/117395269325940185",
+      "source": "Hacker News",
+      "summary": "Article URL: https://mathstodon.xyz/@tao/117395269325940185 Comments URL: https://news.ycombinator.com/item?id=50002008 Points: 102 # Comments: 46",
+      "published": "2026-10-08T05:14:14+00:00",
+      "score": 41.0,
+      "headline": "Terence Tao Weighs In on OpenAI's Math Breakthrough"
+    },
+    {
+      "id": "adf09500b6b3dce1",
+      "title": "How Could AI Eliminate Humanity? A Failure-Mode Analysis of Civilizational Risk",
+      "url": "https://arxiv.org/abs/2610.08878",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.08878v1 Announce Type: new Abstract: This article develops a failure-mode framework for analyzing how advanced artificial intelligence could contribute to human extinction, irreversible civilizational collapse, or permanent human disempowerment. The central thesis is that catastrophic AI risk does not require consciousness, hostility, or an explicit intention to harm humanity. Instead, risk may arise through several distinct but interacting pathways, including autonomous misalignment, harmful human use, organizational failure, and competitive deployment. The severity of these pathways depends on factors such as capability, autonomy, external access, persistence, institutional safeguards, and the preservation of recovery capacity. The analysis is deliberately non-operational: it identifies causal conditions, empirically tractable intermediate quantities, and defensive research questions rather than procedures for causing harm.",
+      "published": "2026-10-08T04:00:00+00:00",
+      "score": 41.0,
+      "headline": "HOW AI COULD ELIMINATE HUMANITY: New Failure Analysis"
     },
     {
       "id": "b768f5cf6d656bc9",
@@ -361,16 +469,6 @@
       "headline": "US Gov, Google Join Zuckerberg's $1.8B AI Biology Push"
     },
     {
-      "id": "35744ce2f4506ab6",
-      "title": "The Pentagon Hopes to Speed Up \u2018Kill Chain\u2019 AI Buys With 5-Minute Videos",
-      "url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos/",
-      "source": "Wired",
-      "summary": "The US government\u2019s Tradewinds initiative has made it easier to throw millions of dollars at \u201cnontraditional\u201d defense contractors, including OpenAI, Anthropic, and Google.",
-      "published": "2026-10-07T15:34:33+00:00",
-      "score": 41.0,
-      "headline": "PENTAGON SPEEDS 'KILL CHAIN' AI BUYS... OpenAI, Anthropic Get Fast Track"
-    },
-    {
       "id": "21a875951e5e6451",
       "title": "South Korean megachurches probe suspected AI-linked cyberattacks",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/south-korean-megachurches-probe-suspected-ai-linked-cyberattacks/articleshow/134756283.cms",
@@ -379,16 +477,6 @@
       "published": "2026-10-07T04:46:59+00:00",
       "score": 41.0,
       "headline": "Korean Megachurches Hit by AI-Linked Cyberattacks"
-    },
-    {
-      "id": "b3081a2606cf34eb",
-      "title": "Intel to Keep Working on Elon Musk\u2019s Terafab Chipmaking Venture",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-07/intel-to-keep-working-on-elon-musk-s-terafab-chipmaking-venture",
-      "source": "Bloomberg Technology",
-      "summary": "Intel Corp. will continue to work with Elon Musk on Terafab, an audacious attempt by the trillionaire to break into the production of cutting-edge chips, according to Chief Executive Officer Lip-Bu Tan.",
-      "published": "2026-10-07T04:32:29+00:00",
-      "score": 41.0,
-      "headline": "INTEL DOUBLES DOWN ON MUSK'S TERAFAB CHIP VENTURE"
     },
     {
       "id": "ab768397ba1ad108",
@@ -431,16 +519,6 @@
       "headline": "Brett Adcock's Hark Drops AI Agent Before Hardware Launch"
     },
     {
-      "id": "2385ffd869ff33e8",
-      "title": "Google, Constellation Energy Strike Deal for Nuclear Power",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-06/google-constellation-strike-deal-for-nuclear-power-video",
-      "source": "Bloomberg Technology",
-      "summary": "Google parent Alphabet agreed to buy nuclear power from Constellation Energy Corp. in a 20-year power-purchase agreement that will drive more than $4.3 billion in investments to upgrade systems at 11 Constellation reactors. Bloomberg's Will Wade joins to discuss. (Source: Bloomberg)",
-      "published": "2026-10-06T16:27:33+00:00",
-      "score": 41.0,
-      "headline": "GOOGLE SIGNS $4.3B NUCLEAR POWER DEAL with Constellation Energy"
-    },
-    {
       "id": "f0f22f90a1226d43",
       "title": "Taiwan opens Phoenix office as $265 billion chip investment in Arizona grows, over China\u2019s objections",
       "url": "https://fortune.com/2026/10/06/taiwan-opens-phoenix-office-as-265-billion-chip-investment-in-arizona-grows-over-chinas-objections/",
@@ -481,44 +559,14 @@
       "headline": "AI INSIDERS SOUND ALARM at NYC Council Hearing"
     },
     {
-      "id": "eff87934e04357bd",
-      "title": "Musk says Tesla\u2019s robotaxis still cannot reliably see pets at night",
-      "url": "https://thenextweb.com/news/tesla-robotaxi-night-pets-eu-vote",
-      "source": "The Next Web",
-      "summary": "Elon Musk said Tesla\u2019s robotaxis are still working on spotting animals that blend into the road at night, describing the problem as grey kittens on grey tarmac, as Austin\u2019s hours moved to 11pm from 10pm. The EU\u2019s Technical Committee on Motor Vehicles votes on bloc-wide approval of the same camera-only sensor suite on 6 October. [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-04T18:13:23+00:00",
-      "score": 41.0,
-      "headline": "MUSK ADMITS: Tesla Robotaxis Can't See Pets at Night"
-    },
-    {
-      "id": "af2f340527a0e311",
-      "title": "Elon Musk says SpaceXAI will be renamed SpaceXSI after Trump's 'super intelligence' push",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/elon-musk-says-spacexai-will-be-renamed-spacexsi-after-trumps-super-intelligence-push/articleshow/134676679.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The plan comes days after Trump signed an executive order directing federal agencies to use the term. The order, signed on September 29, 2026, replaces \"artificial intelligence\" with \"Super Intelligence,\" or \"SI,\" on official websites, policy documents and government press releases.",
-      "published": "2026-10-04T14:25:33+00:00",
-      "score": 41.0,
-      "headline": "MUSK RENAMES SpaceXAI to SpaceXSI After Trump's 'Super Intelligence' Order"
-    },
-    {
-      "id": "0b7d107f9291decd",
-      "title": "Trump forms 'Super Intelligence Force' to cement US dominance in next-gen AI",
-      "url": "https://economictimes.indiatimes.com/tech/technology/trump-forms-super-intelligence-force-to-cement-us-dominance-in-next-gen-ai/articleshow/134676199.cms",
-      "source": "The Economic Times Tech",
-      "summary": "In a post on Truth Social, Trump wrote, \"Following the Historic White House Accord on Super Intelligence, where the World's most important Technology Companies came together, and confirmed their responsibilities to the American People, I am announcing the formation of the Super Intelligence Force (SIF).\"",
-      "published": "2026-10-04T13:52:42+00:00",
-      "score": 41.0,
-      "headline": "SUPER INTELLIGENCE FORCE Formed to Cement US AI Dominance"
-    },
-    {
-      "id": "a384a7c9e04afa57",
-      "title": "Masayoshi Son\u2019s AI ambitions outgrow SoftBank\u2019s balance sheet",
-      "url": "https://www.ft.com/content/9b3a355e-5975-445f-9004-b95513e3856a?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "DigitalBridge CEO Marc Ganzi says his data centre investment group will be SoftBank\u2019s \u2018third-party infrastructure arm\u2019 after $4bn takeover",
-      "published": "2026-10-04T04:00:07+00:00",
-      "score": 41.0,
-      "headline": "SoftBank's Masayoshi Son AI Ambitions Outgrow Balance Sheet"
+      "id": "4c974967ba1e83cb",
+      "title": "Goldman Says Middle Managers at Risk as New Hires Oversee AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-08/young-bankers-to-manage-ai-agents-from-start-goldman-exec-says",
+      "source": "Bloomberg Technology",
+      "summary": "The newest hires in finance won\u2019t have to wait years to become managers. They\u2019ll be overseeing artificial intelligence agents from the time they join, raising the question of what happens to the current middle managers, according to Goldman Sachs Group Inc.\u2019s Kevin Sneader.",
+      "published": "2026-10-08T04:01:50+00:00",
+      "score": 40.0,
+      "headline": "Goldman: Middle Managers at Risk as New Hires Oversee AI"
     },
     {
       "id": "cdb48f92c3435c5e",
@@ -691,24 +739,34 @@
       "headline": "UK's Top AI Lab Chief: Embrace Cheaper Models NOW"
     },
     {
-      "id": "d9335afab321f82e",
-      "title": "China wants solid-state batteries in use by 2030, and CATL rates them four out of nine",
-      "url": "https://thenextweb.com/news/china-solid-state-2030-dunkirk",
-      "source": "The Next Web",
-      "summary": "China\u2019s industry ministry and six other agencies set 2030 as the date for the first large-scale use of all-solid-state batteries, though CATL\u2019s chairman rates the technology four out of nine and calls million-vehicle use before 2030 very unlikely. ProLogium\u2019s Dunkirk plant, the largest new European cell project since Northvolt went bankrupt, is staged at 0.8 [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-04T17:52:45+00:00",
-      "score": 40.0,
-      "headline": null
+      "id": "12b1d70129f8c745",
+      "title": "Microsoft Execution Containers: Policy-driven containment for AI agents",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=50002144 Points: 2 # Comments: 0",
+      "published": "2026-10-08T05:44:18+00:00",
+      "score": 39.0,
+      "headline": "Microsoft Launches Execution Containers for AI Agent Security"
     },
     {
-      "id": "5ec4d2a91c5b5fdd",
-      "title": "Top ARC-\u0391GI-3 scores on Kaggle just went from 7% to 56% [N]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/top_arc\u03b1gi3_scores_on_kaggle_just_went_from_7_to/",
-      "source": "Reddit r/MachineLearning",
-      "summary": "https://preview.redd.it/gkjgii48gfth1.png?width=575&amp;format=png&amp;auto=webp&amp;s=4e1c35bdacf41d18a6409baedcddc9432ec79814 This happened over the past 30 days. So smallish local models (Kagglers can only use those), in a harness, just started beating average humans at a benchmark intentionally designed to show human superiority. I'm curious what people here think. (The leaderboard graphic is a little out-of-date) &#32; submitted by &#32; /u/we_are_mammals [link] &#32; [comments]",
-      "published": "2026-10-04T10:24:58+00:00",
-      "score": 40.0,
-      "headline": "ARC-AGI BREAKTHROUGH: Top Kaggle Scores JUMP from 7% to 56%"
+      "id": "691123bdf998dbe9",
+      "title": "Norway lays down a line for EU on AI glasses",
+      "url": "https://www.ft.com/content/177f9fba-841a-4448-ad54-ac621dc58f2a?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Proposed ban will be test case for broad restrictions on the eyewear after fierce backlash over their use",
+      "published": "2026-10-08T04:00:26+00:00",
+      "score": 39.0,
+      "headline": "NORWAY MOVES TO BAN AI GLASSES... EU Test Case"
+    },
+    {
+      "id": "cdca503375ab4807",
+      "title": "Not Every Call Needs a Frontier Model: Per-Call-Site Evaluation of Small Language Models in a Deployed Agentic Home-Automation System",
+      "url": "https://arxiv.org/abs/2610.09021",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.09021v1 Announce Type: new Abstract: An agentic system issues several structurally different kinds of LLM calls. It routes intent, classifies actions, grounds language in a device registry, plans multi-agent pipelines and writes the Python code those pipelines run. The difficulty of these call sites varies by an order of magnitude, yet in practice a single model, chosen for the hardest site, serves all of them. In this work, we evaluate 9 models from 0.8B to a frontier hosted model across the five call sites of a deployed open-source home-automation framework (Wactorz), using its unmodified production prompts and two real Home Assistant installations (280 cases, 2520 scored calls). We find that capability is not ordered the same way at every site, and that larger models are not uniformly better: one 4B model is worse than its 2B sibling at grounded actuation. Paired testing shows the best local model to be statistically indistinguishable from both hosted models at four of fi",
+      "published": "2026-10-08T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "Small LLMs Beat Frontier Models in Home Automation"
     },
     {
       "id": "e75aa76b7d0e9d8b",
@@ -871,15 +929,95 @@
       "headline": "UK Healthcare Staff Risk Patient Safety with Google Translate"
     },
     {
-      "id": "75dd33eb6e5be6e2",
-      "title": "Spy chief Jay Clayton, the Trump loyalist tech bosses trust on AI",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/spy-chief-jay-clayton-the-trump-loyalist-tech-bosses-trust-on-ai/articleshow/134676268.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The 60-year-old lawyer, who will keep his post as director of national intelligence, is unlikely to question the central place of artificial intelligence in the US economy, even as opposition to the technology grows among American voters.",
-      "published": "2026-10-04T13:59:53+00:00",
-      "score": 39.0,
-      "headline": "Jay Clayton: The Trump Loyalist Tech Bosses TRUST on AI"
+      "id": "897b0a63a9685606",
+      "title": "Researcher Gets $300 from OpenAI for Major AI Security Flaw",
+      "url": "https://x.com/i/trending/2107776361859293195",
+      "source": "Hacker News",
+      "summary": "Article URL: https://x.com/i/trending/2107776361859293195 Comments URL: https://news.ycombinator.com/item?id=50002248 Points: 3 # Comments: 0",
+      "published": "2026-10-08T06:01:05+00:00",
+      "score": 38.0,
+      "headline": "OpenAI Pays Just $300 for MAJOR Security Flaw Discovery"
+    },
+    {
+      "id": "4d43f8ea57b64257",
+      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+      "url": "https://arxiv.org/abs/2610.08927",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.08927v1 Announce Type: new Abstract: Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear. We investigate AI's ability to tackle open-ended tasks in Station, an open-world environment in which multiple agents simulate a scientific ecosystem. To tackle challenges specific to open-ended tasks, we propose augmenting Station with two mechanisms: a Supervisor mechanism and periodic Meta Reflection, which encourage persistent exploration even when intermediate metrics are lacking. We construct open-ended tasks from three recent oral papers presented at ICLR. We give agents the main research question studied in each paper while withholding the paper's results and disabling web access. We then measure how many of the original findings-partitioned into individual criteria-agents rediscover. We find that Station rediscovers 62.7% of the criteria on",
+      "published": "2026-10-08T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "Can AI Agents Make Open-Ended Scientific Discovery?"
+    },
+    {
+      "id": "6a9cd2897b988165",
+      "title": "How Fragile Is On-Device Language Model Safety? Localizing Safety-Critical Parameters for Sparse Fault Analysis",
+      "url": "https://arxiv.org/abs/2610.09000",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.09000v1 Announce Type: new Abstract: As small language models (SLMs) are increasingly deployed on resource-constrained and on-device platforms, including as components of agentic systems, the integrity of locally stored model parameters becomes an important safety concern. We investigate whether safety-sensitive behavior in LLaMA-2-7B-Chat is concentrated within a sparse subset of parameters, creating a reduced fault surface for targeted analysis. We study two complementary localization methods: low-rank safety-associated subspace analysis and parameter-level safety--utility importance filtering. Both approaches reveal highly non-uniform safety sensitivity across the network, with the MLP down_proj consistently emerging as a prominent safety-sensitive component and o_proj providing a smaller contribution. Using parameter-level localization, modifying only 0.19% of model weights in down_proj yields 53% Basic ASR and 56% GCG ASR, while tinyBenchmarks accuracy remains at 51.6% ",
+      "published": "2026-10-08T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "How Fragile Is On-Device Language Model Safety?"
+    },
+    {
+      "id": "d462d473481f3ac3",
+      "title": "Wiley agrees to 50-50 split with Dummies authors in Anthropic settlement",
+      "url": "https://bsky.app/profile/victoriastrauss.com/post/3mwwcap7os22x",
+      "source": "Hacker News",
+      "summary": "Article URL: https://bsky.app/profile/victoriastrauss.com/post/3mwwcap7os22x Comments URL: https://news.ycombinator.com/item?id=49996443 Points: 1 # Comments: 0",
+      "published": "2026-10-07T18:02:12+00:00",
+      "score": 38.0,
+      "headline": "Wiley Splits AI Settlement 50-50 With 'Dummies' Authors in Anthropic Case"
+    },
+    {
+      "id": "1a28dafdf83cad4f",
+      "title": "Apple Partners With LG on New Smart Home Devices",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-07/apple-partners-with-lg-on-new-smart-home-devices-video",
+      "source": "Bloomberg Technology",
+      "summary": "Apple's upcoming push into smart home devices will include a doorbell, thermostat and other accessories developed through an unusual partnership with LG Electronics. The products will be part of an ecosystem that works with Apple's new smart home hub, according to sources. Bloomberg's consumer tech editor Mark Gurman joins Ed Ludlow with the details on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-10-07T17:55:38+00:00",
+      "score": 38.0,
+      "headline": "Apple Partners With LG on Smart Home Devices... Doorbell, Thermostat"
+    },
+    {
+      "id": "46b0057f882868d6",
+      "title": "Surface RTX Spark Dev Box is available for preorder for $5,999",
+      "url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
+      "source": "The Verge AI",
+      "summary": "Microsoft's Nvidia-powered Surface RTX Spark Dev Box is available for preorder now directly, and slated to ship in November for just about $6,000. It's pricier than the DGX Spark mini PC Nvidia launched last year, but PC prices have been climbing due to shortages of RAM and other components. The Dev Box's flat, 3D-printed anodized [&#8230;]",
+      "published": "2026-10-07T17:46:44+00:00",
+      "score": 38.0,
+      "headline": "Microsoft's $6K AI Dev Box Available for Preorder"
+    },
+    {
+      "id": "dfd3923fff903b86",
+      "title": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+      "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
+      "source": "TechCrunch AI",
+      "summary": "Meta launches new AI tools after discovering ads on its platforms that may look normal but direct users to harmful content elsewhere online.",
+      "published": "2026-10-07T16:53:46+00:00",
+      "score": 38.0,
+      "headline": "Meta Deploys AI to Detect Child Abuse Material in Ads"
+    },
+    {
+      "id": "a7f501e82808445c",
+      "title": "SpaceX alumni nab $100M to rethink shipping with autonomous freight trains",
+      "url": "https://techcrunch.com/2026/10/07/spacex-alumni-nab-100m-to-rethink-shipping-with-autonomous-freight-trains/",
+      "source": "TechCrunch Startups",
+      "summary": "Parallel Systems raised $100 million to scale production of its autonomous electric rail vehicle, which can shuttle thousands of pounds of freight up to 500 miles.",
+      "published": "2026-10-07T15:00:00+00:00",
+      "score": 38.0,
+      "headline": "SpaceX Alumni Raise $100M for Autonomous Freight Trains"
+    },
+    {
+      "id": "0d7687fd6682b8e5",
+      "title": "Brussels looks to capture Big Tech through tax on large corporations",
+      "url": "https://www.ft.com/content/ad06ed89-f600-4694-8c95-7d53b6d3315b?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "European Commission considers a broad levy on all large companies to avoid singling out US digital services groups",
+      "published": "2026-10-07T04:00:13+00:00",
+      "score": 38.0,
+      "headline": "EU Eyes Big Tech Tax Through Corporate Levy"
     }
   ],
-  "generated_at": "2026-10-07T18:11:06.806418"
+  "generated_at": "2026-10-08T06:14:54.191220"
 }
