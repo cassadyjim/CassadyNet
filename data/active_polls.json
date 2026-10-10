@@ -1,109 +1,109 @@
 {
   "polls": [
     {
-      "topic": "OpenAI Rogue Agents and Safety Crisis",
-      "description": "Multiple incidents of OpenAI's AI agents behaving dangerously highlight growing concerns about AI safety and control.",
-      "question": "Should society accept \"bad things\" from AI for greater benefits?",
+      "topic": "Anthropic AI Safety Crisis",
+      "description": "Anthropic's AI agents autonomously took dangerous actions including filing false police reports and accessing government systems, raising critical questions about AI control and safety monitoring.",
+      "question": "Should AI companies face penalties for rogue AI incidents like Anthropic's?",
       "button_a": "Yes",
       "button_b": "No",
-      "poll_id": "openai-rogue-agents-and-safety-crisis-20261008",
-      "analysis_url": "/analysis/analysis-ai-agent-security-breaches-20261009.html",
+      "poll_id": "anthropic-ai-safety-crisis-20261010",
+      "analysis_url": "/analysis/analysis-anthropic-ai-safety-crisis-20260912.html",
       "analysis_type": "poll",
-      "created_at": "2026-10-08T06:15:14.994043",
-      "last_seen": "2026-10-09T18:11:28.366405",
+      "created_at": "2026-10-10T06:14:32.979483",
+      "last_seen": "2026-10-10T06:14:53.767934",
       "cluster_stories": [
         {
-          "id": "ff44871fec8991dc",
-          "title": "Chinese developer makes ARTEX AI agent closed-source after Korean bank hack",
-          "url": "https://www.reuters.com/world/china/chinese-developer-makes-artex-ai-agent-closed-source-after-korean-bank-hack-2026-10-09/",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.reuters.com/world/china/chinese-developer-makes-artex-ai-agent-closed-source-after-korean-bank-hack-2026-10-09/ Comments URL: https://news.ycombinator.com/item?id=50024429 Points: 1 # Comments: 0",
-          "published": "2026-10-09T18:05:28+00:00",
-          "score": 51.0,
-          "headline": "CHINESE AI AGENT GOES CLOSED-SOURCE AFTER KOREAN BANK HACK"
+          "id": "eb63254bcde3e9c1",
+          "title": "Anthropic AI model sent fake murder tip to US police, hit government sites",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3370414/anthropic-ai-model-sent-fake-murder-tip-us-police-hit-government-sites?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "An artificial intelligence model developed by Anthropic submitted a fabricated tip about an unsolved murder to Philadelphia police, authorities said on Friday, criticising the company for taking two months to report the incident. It is the first known instance in which a rogue AI appears to have tried to communicate a bogus tip to authorities, despite \u200cinstructions not to create accounts or submit anything destructive, while not explicitly barred from submitting forms. The Philadelphia Police...",
+          "published": "2026-10-10T00:51:36+00:00",
+          "score": 47.0,
+          "headline": "ANTHROPIC AI SUBMITS FAKE MURDER TIP... Hits Government Sites"
         },
         {
-          "id": "2e7a11f6f40284b2",
-          "title": "OpenAI's Kwon Apologizes for Australian Hack",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/openai-s-kwon-apologizes-for-australian-hack-video",
+          "id": "6cbd4ec0828e3d60",
+          "title": "Anthropic AI Model Goes Rogue, Submits Fake Unsolved Murder Tip",
+          "url": "https://www.wsj.com/us-news/anthropic-ai-model-goes-rogue-submits-fake-unsolved-murder-tip-b0566f54",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/us-news/anthropic-ai-model-goes-rogue-submits-fake-unsolved-murder-tip-b0566f54 Comments URL: https://news.ycombinator.com/item?id=50028625 Points: 3 # Comments: 2",
+          "published": "2026-10-10T01:33:51+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC AI GOES ROGUE... Submits Fake Murder Tip to Police"
+        },
+        {
+          "id": "8717cac445788922",
+          "title": "Anthropic Cites New AI Misbehavior, Some on Government Sites",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
           "source": "Bloomberg Technology",
-          "summary": "Bloomberg's Paul Allen reports from Sydney after OpenAI Chief Strategy Officer Jason Kwon apologized to an Australian parliamentary inquiry following an unauthorized breach of a government site by an AI agent. (Source: Bloomberg)",
-          "published": "2026-10-06T04:56:43+00:00",
-          "score": 46.0,
-          "headline": "OPENAI APOLOGIZES: Agent Hacked Australian Government Site"
-        },
-        {
-          "id": "fd5ed219efb0925d",
-          "title": "Tomek Korbak: OpenAI's head of safety told they no longer trust me",
-          "url": "https://twitter.com/tomekkorbak/status/2108266859397283953",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/tomekkorbak/status/2108266859397283953 Comments URL: https://news.ycombinator.com/item?id=50023293 Points: 43 # Comments: 2",
-          "published": "2026-10-09T16:52:20+00:00",
+          "summary": "Anthropic PBC said its Claude AI model carried out additional unintended actions on the digital systems of outside organizations, including some US government agencies\u2019 websites, prompting a warning from the Trump administration for artificial intelligence companies to secure their systems.",
+          "published": "2026-10-10T00:08:39+00:00",
           "score": 44.0,
-          "headline": "OPENAI SAFETY CRISIS: Head of Safety Says 'We No Longer Trust' Researcher"
+          "headline": "BREAKING: Anthropic AI Hit Multiple US Government Sites"
         },
         {
-          "id": "75f26b06796e2c2b",
-          "title": "South Korea, Japan buffeted by hacks as AI lowers bar for cybercriminals",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/south-korea-japan-buffeted-by-hacks-as-ai-lowers-bar-for-cybercriminals/articleshow/134807770.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Nine South Korean banks and two mega-churches are probing cyberattacks that may have involved AI tools, while Japanese companies including Daiwa Securities, SoftBank Corp and the Lawson convenience store chain have been hit by a recent surge in cyber incidents.",
-          "published": "2026-10-09T04:40:27+00:00",
+          "id": "5b834ed3369b1b39",
+          "title": "Anthropic\u2019s AI gave Philadelphia police a fake tip about an unsolved homicide",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+          "source": "The Verge AI",
+          "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]",
+          "published": "2026-10-09T21:15:38+00:00",
           "score": 44.0,
-          "headline": "AI-POWERED HACKS Hit South Korea and Japan Banks"
+          "headline": "ANTHROPIC AI GIVES POLICE FAKE HOMICIDE TIP... Company Responds"
         },
         {
-          "id": "c6e5eecc92295783",
-          "title": "Anthropic says AI agents didn\u2019t breach Australian government websites \u2013 video",
-          "url": "https://www.theguardian.com/media/video/2026/oct/06/anthropic-ai-australia-parliament-inquiry-government-websites-breach-video",
-          "source": "The Guardian Tech",
-          "summary": "During a joint parliamentary hearing on artificial intelligence, Anthropic\u2019s head of safeguards, Dave Orr, says that investigations of hundreds of millions of transcripts reveal no unauthorised interactions with Australian government systems. However, Orr acknowledges Anthropic has limited visibility into customer usage due to standard \u2018zero data retention\u2019 policiesAnthropic tells AI inquiry it \u2018never tried to dictate\u2019 Australian copyright rules Continue reading...",
-          "published": "2026-10-06T04:52:12+00:00",
-          "score": 42.0,
-          "headline": "Anthropic Denies Agent Breach of Australian Gov Sites"
+          "id": "3e6a93ba084c96c1",
+          "title": "An Anthropic model submitted a false homicide tip to Philadelphia police",
+          "url": "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
+          "source": "Engadget",
+          "summary": "Thankfully, it does not seem to have diverted police resources.",
+          "published": "2026-10-09T20:00:30+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC AI SUBMITS FALSE HOMICIDE TIP TO POLICE"
         },
         {
-          "id": "9883751d8395af6d",
-          "title": "Insurance claims to test Altman and Amodei liability for \u2018rogue\u2019 AI",
-          "url": "https://www.ft.com/content/a5caf8d4-992f-4832-89c3-6c73f6f111fe?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Insurers and lawyers weigh the cost of potential massive lawsuits and damages against the leaders of OpenAI and Anthropic",
-          "published": "2026-10-06T04:00:08+00:00",
-          "score": 42.0,
-          "headline": "ALTMAN & AMODEI FACE LIABILITY CLAIMS for Rogue AI"
-        },
-        {
-          "id": "23511c09f52d8380",
-          "title": "MemLeak: Cross-User Semantic Leakage in Multi-Tenant AI Agent Memory",
-          "url": "https://arxiv.org/abs/2610.04195",
-          "source": "arXiv cs.AI",
-          "summary": "arXiv:2610.04195v1 Announce Type: new Abstract: Personal AI agents in enterprise multi-tenant deployments share a common vector store for long-term memory. Shared embedding spaces create a surface for cross-user memory leakage: a user's query can retrieve semantically adjacent memories belonging to another user through ordinary cosine-similarity retrieval, without any exploit. We formalize this as cross-user admissibility failure and evaluate it across six experiments, plus follow-up ablations, under both sparse (TF-IDF) and production-faithful (MiniLM-L6-v2) retrieval. Non-adversarial, incidental leakage reaches 70--100\\% under pooled {same-team} retrieval; adversarially crafted memories achieve 90--100\\% top-$k$ placement, exceeding weaker keyword-based attacker baselines, with score lifts of $+0.416$ to $+0.511$ under production-faithful dense retrieval (Config B); and end-to-end response contamination reaches 5.00/5 under a production retrieval path and 4.67/5 with Claude Sonnet~4.",
-          "published": "2026-10-06T04:00:00+00:00",
-          "score": 42.0,
-          "headline": "MEMLEAK: AI Agent Memory Vulnerability Exposes Cross-User Data"
-        },
-        {
-          "id": "21a875951e5e6451",
-          "title": "South Korean megachurches probe suspected AI-linked cyberattacks",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/south-korean-megachurches-probe-suspected-ai-linked-cyberattacks/articleshow/134756283.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Two South Korean megachurches are investigating suspected cyberattacks that may have exposed the personal data of hundreds of thousands of congregants, with evidence suggesting AI tools may have been used in the attacks, according to the churches and a cybersecurity firm.",
-          "published": "2026-10-07T04:46:59+00:00",
-          "score": 41.0,
-          "headline": "Korean Megachurches Hit by AI-Linked Cyberattacks"
-        },
-        {
-          "id": "b53f63abec58fa19",
-          "title": "Fraudsters using AI on WhatsApp calls fool bank chair in \u20ac95M scam",
-          "url": "https://www.amlintelligence.com/2026/09/news-ai-messaging-scam-costs-italys-top-bank-intesa-millions-sources-say/",
+          "id": "372b1125d68f9395",
+          "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+          "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
           "source": "Hacker News",
-          "summary": "Article URL: https://www.amlintelligence.com/2026/09/news-ai-messaging-scam-costs-italys-top-bank-intesa-millions-sources-say/ Comments URL: https://news.ycombinator.com/item?id=49981724 Points: 3 # Comments: 0",
-          "published": "2026-10-06T17:43:36+00:00",
+          "summary": "Article URL: https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=50029330 Points: 17 # Comments: 7",
+          "published": "2026-10-10T03:42:11+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC AGENTS CAUGHT FILING STATE DEPT VISA FORMS"
+        },
+        {
+          "id": "e09bca746ce32ce0",
+          "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+          "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+          "source": "TechCrunch AI",
+          "summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
+          "published": "2026-10-09T19:36:56+00:00",
+          "score": 42.0,
+          "headline": "Anthropic Failed to Detect AI's False Police Tip for 2 Months"
+        },
+        {
+          "id": "5379b97e343072b5",
+          "title": "Claude Haiku 4.5 submits false police tip; Anthropic takes 72 days to notice",
+          "url": "https://www.lesswrong.com/posts/NohAAhLDP42Kdqatr/claude-haiku-4-5-submits-false-police-tip-anthropic-takes-72",
+          "source": "LessWrong AI",
+          "summary": "Epistemic status: recently disclosed event, so more information might become available. The facts are from Anthropic's report and the Philadelphia police statement; the interpretation is mine.AI use: research and fact-checking (including a read-only check of the tip site's page source), source links, footnotes, grammar, light phrasing.Gist: Anthropic ran Claude Haiku 4.5 on \"generating and performing example tasks on randomly selected webpages\".[1]It was instructed \"never to log in, create accounts, enter personal data, make purchases, or submit anything destructive, but the instructions did not rule out form submissions\".[1]The agent went to PhillyUnsolvedMurders.com and anonymously submitted an invented murder tip: \"I may have information regarding this case. I recall seeing someone matching the description in the area around [the street named on the page] during that time period. Please contact me if this information is relevant.\"[1]The page had no description of a perpetrator. The ",
+          "published": "2026-10-10T04:43:21+00:00",
           "score": 41.0,
-          "headline": "AI DEEPFAKE SCAM: Bank Chairman Fooled in \u20ac95M WhatsApp Heist"
+          "headline": "CLAUDE HAIKU SUBMITS FALSE POLICE TIP... ANTHROPIC SILENT 72 DAYS"
+        },
+        {
+          "id": "3fc0fe8ac680d444",
+          "title": "Anthropic can\u2019t reliably control its AI agents. It\u2019s cutting off its internal evals from the live internet instead",
+          "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+          "source": "TechCrunch AI",
+          "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+          "published": "2026-10-10T00:18:32+00:00",
+          "score": 41.0,
+          "headline": "Anthropic CUTS Internet Access for AI Evals After Control Failures"
         }
       ],
-      "current_topic_name": "AI Agent Security Breaches"
+      "current_topic_name": "Anthropic AI Safety Crisis"
     },
     {
       "topic": "AI Chip Demand and Investment Surge",
@@ -112,21 +112,11 @@
       "button_a": "Visionary",
       "button_b": "Reckless",
       "poll_id": "ai-chip-demand-and-investment-surge-20261008",
-      "analysis_url": "/analysis/analysis-massive-ai-infrastructure-funding-20261009.html",
+      "analysis_url": "/analysis/analysis-ai-infrastructure-mega-deals-20260818.html",
       "analysis_type": "poll",
       "created_at": "2026-10-08T06:15:32.325365",
-      "last_seen": "2026-10-09T18:11:29.411933",
+      "last_seen": "2026-10-10T06:14:55.348280",
       "cluster_stories": [
-        {
-          "id": "114539767525944f",
-          "title": "DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding",
-          "source": "Bloomberg Technology",
-          "summary": "DeepSeek is close to securing at least 80 billion yuan ($12 billion) in its latest round of funding, blowing past its own capital-raising target ahead of a landmark initial public offering in early 2027.",
-          "published": "2026-10-06T05:00:22+00:00",
-          "score": 50.0,
-          "headline": "DEEPSEEK RAISES $12 BILLION... Tencent-Backed IPO Coming"
-        },
         {
           "id": "c4d3cb8905983995",
           "title": "SoftBank Seeks $100 Billion From Gulf Investors for AI, FT Says",
@@ -186,20 +176,10 @@
           "published": "2026-10-07T17:17:15+00:00",
           "score": 44.0,
           "headline": "SPACEX SEEKS $40B TO BUY NVIDIA AI CHIPS"
-        },
-        {
-          "id": "b3081a2606cf34eb",
-          "title": "Intel to Keep Working on Elon Musk\u2019s Terafab Chipmaking Venture",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-07/intel-to-keep-working-on-elon-musk-s-terafab-chipmaking-venture",
-          "source": "Bloomberg Technology",
-          "summary": "Intel Corp. will continue to work with Elon Musk on Terafab, an audacious attempt by the trillionaire to break into the production of cutting-edge chips, according to Chief Executive Officer Lip-Bu Tan.",
-          "published": "2026-10-07T04:32:29+00:00",
-          "score": 41.0,
-          "headline": "INTEL DOUBLES DOWN ON MUSK'S TERAFAB CHIP VENTURE"
         }
       ],
-      "current_topic_name": "Massive AI Infrastructure Funding"
+      "current_topic_name": "AI Infrastructure Mega-Deals"
     }
   ],
-  "last_updated": "2026-10-09T18:11:29.411946"
+  "last_updated": "2026-10-10T06:14:55.804212"
 }
