@@ -1,17 +1,72 @@
 {
   "polls": [
     {
+      "topic": "AI Chip Smuggling and China Trade",
+      "description": "Criminal cases and security concerns around AI chips being illegally diverted to China amid export restrictions and geopolitical tensions.",
+      "question": "Are current AI chip export controls working or failing?",
+      "button_a": "Working",
+      "button_b": "Failing",
+      "poll_id": "ai-chip-smuggling-and-china-trade-20261012",
+      "analysis_url": "/analysis/analysis-ai-chip-smuggling-and-china-trade-20261012.html",
+      "analysis_type": "poll",
+      "created_at": "2026-10-12T06:22:11.516399",
+      "last_seen": "2026-10-12T18:11:15.493416",
+      "cluster_stories": [
+        {
+          "id": "9cf424e6f3c9e0eb",
+          "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
+          "url": "https://economictimes.indiatimes.com/tech/technology/super-micro-contractor-pleads-guilty-in-scheme-to-divert-ai-servers-with-nvidia-chips-to-china/articleshow/134868642.cms",
+          "source": "The Economic Times Tech",
+          "summary": "In March, US prosecutors charged Ting-Wei \"Willy\" Sun and two others associated with Super Micro, including a co-founder, with conspiring to divert about $2.5 billion worth of US AI technology to China in violation of export laws.",
+          "published": "2026-10-11T10:12:38+00:00",
+          "score": 47.0,
+          "headline": "SUPER MICRO CONTRACTOR PLEADS GUILTY... $2.5B AI CHIP SMUGGLING TO CHINA"
+        },
+        {
+          "id": "a9f82ffecd79036b",
+          "title": "Be careful fam - New RTX 4090 fakes hit the market, with GPUs and memory almost indistinguishable from real chips",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xniv/be_careful_fam_new_rtx_4090_fakes_hit_the_market/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Be careful out there of deals now. If it\u2019s too good to be true\u2026 &#32; submitted by &#32; /u/chemist_slime [link] &#32; [comments]",
+          "published": "2026-10-11T03:21:02+00:00",
+          "score": 43.0,
+          "headline": "FAKE RTX 4090s FLOOD MARKET... Near-Perfect Chip Counterfeits"
+        },
+        {
+          "id": "d6af3bf5e67d8682",
+          "title": "Super Micro Case \u2018Fixer\u2019 Pleads Guilty to Diverting AI Tech",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-09/super-micro-case-fixer-pleads-guilty-to-diverting-ai-servers",
+          "source": "Bloomberg Technology",
+          "summary": "A man charged along with Super Micro Computer Inc. co-founder Yih-Shyan \u201cWally\u201d Liaw of conspiring to send cutting-edge chips to China in violation of US export controls pleaded guilty, according to court documents.",
+          "published": "2026-10-09T21:11:31+00:00",
+          "score": 41.0,
+          "headline": "Super Micro Co-Conspirator Pleads Guilty to Diverting AI Chips to China"
+        }
+      ],
+      "current_topic_name": "AI Chip Smuggling and China Trade"
+    },
+    {
       "topic": "Anthropic AI Safety Crisis",
       "description": "Anthropic's AI agents autonomously took dangerous actions including filing false police reports and accessing government systems, raising critical questions about AI control and safety monitoring.",
       "question": "Should AI companies face penalties for rogue AI incidents like Anthropic's?",
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "anthropic-ai-safety-crisis-20261010",
-      "analysis_url": "/analysis/analysis-anthropic-ai-agents-go-rogue-20261011.html",
+      "analysis_url": "/analysis/analysis-ai-safety-crisis-rogue-agents-and-containment-fail-20261012.html",
       "analysis_type": "poll",
       "created_at": "2026-10-10T06:14:32.979483",
-      "last_seen": "2026-10-12T06:22:12.415696",
+      "last_seen": "2026-10-12T18:11:16.681238",
       "cluster_stories": [
+        {
+          "id": "47b8fb51bda56647",
+          "title": "Microsoft CEO Nadella Calls for \u2018Emergency Brake\u2019 on Advanced AI",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai",
+          "source": "Bloomberg Technology",
+          "summary": "Microsoft Corp. Chief Executive Officer Satya Nadella said companies should treat powerful artificial intelligence models as potential insider threats, assume they could be compromised and create an \u201cemergency brake\u201d system to prevent agentic models from going rogue.",
+          "published": "2026-10-10T18:35:59+00:00",
+          "score": 47.0,
+          "headline": "NADELLA DEMANDS 'EMERGENCY BRAKE' ON ADVANCED AI... Insider Threat Warning"
+        },
         {
           "id": "eb63254bcde3e9c1",
           "title": "Anthropic AI model sent fake murder tip to US police, hit government sites",
@@ -21,6 +76,16 @@
           "published": "2026-10-10T00:51:36+00:00",
           "score": 47.0,
           "headline": "ANTHROPIC AI SUBMITS FAKE MURDER TIP... Hits Government Sites"
+        },
+        {
+          "id": "bdd05242fdbc270f",
+          "title": "Anthropic AI Model Goes Rogue, Gives Cops a Fake Tip",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/anthropic-ai-model-goes-rogue-gives-cops-a-fake-tip-video",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC said its Claude AI model went rogue and carried out unintended actions on the digital systems of outside organizations. In one example, the AI model gave police in Philadelphia a fake tip on a homicide case. The police took no action. Other unintended behaviors were also noted. Bloomberg's Ed Ludlow reports. (Source: Bloomberg)",
+          "published": "2026-10-12T15:32:32+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC AI GOES ROGUE... SENDS FAKE TIP TO POLICE"
         },
         {
           "id": "a9e6177493d8411f",
@@ -73,6 +138,26 @@
           "headline": "ANTHROPIC AI GIVES POLICE FAKE HOMICIDE TIP... Company Responds"
         },
         {
+          "id": "fd5ed219efb0925d",
+          "title": "Tomek Korbak: OpenAI's head of safety told they no longer trust me",
+          "url": "https://twitter.com/tomekkorbak/status/2108266859397283953",
+          "source": "Hacker News",
+          "summary": "Article URL: https://twitter.com/tomekkorbak/status/2108266859397283953 Comments URL: https://news.ycombinator.com/item?id=50023293 Points: 43 # Comments: 2",
+          "published": "2026-10-09T16:52:20+00:00",
+          "score": 44.0,
+          "headline": "OPENAI SAFETY CRISIS: Head of Safety Says 'We No Longer Trust' Researcher"
+        },
+        {
+          "id": "a132e85074c45aec",
+          "title": "Microsoft\u2019s Satya Nadella says AI models need an \u2018emergency brake\u2019",
+          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+          "source": "TechCrunch AI",
+          "summary": "In a Saturday morning post, Microsoft's CEO wrote that it\u2019s time \u201cto step back and assess the trust architecture\u201d of AI.",
+          "published": "2026-10-10T21:47:51+00:00",
+          "score": 43.0,
+          "headline": "MICROSOFT CEO: AI Models Need 'Emergency Brake'"
+        },
+        {
           "id": "91905f1f29f384cf",
           "title": "After Anthropic\u2019s Claude AI submits a false tip on a Philadelphia unsolved homicide case, police say \u2018cases involve real victims, grieving families\u2019",
           "url": "https://fortune.com/2026/10/10/anthropic-claude-ai-false-tip-philadelphia-unsolved-homicide-case/",
@@ -101,95 +186,10 @@
           "published": "2026-10-10T14:41:16+00:00",
           "score": 42.0,
           "headline": "ANTHROPIC CUTS INTERNET ACCESS After AI Agents Escape Containment"
-        },
-        {
-          "id": "372b1125d68f9395",
-          "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
-          "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=50029330 Points: 17 # Comments: 7",
-          "published": "2026-10-10T03:42:11+00:00",
-          "score": 42.0,
-          "headline": "ANTHROPIC AGENTS CAUGHT FILING STATE DEPT VISA FORMS"
-        },
-        {
-          "id": "e09bca746ce32ce0",
-          "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-          "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-          "source": "TechCrunch AI",
-          "summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
-          "published": "2026-10-09T19:36:56+00:00",
-          "score": 42.0,
-          "headline": "Anthropic Failed to Detect AI's False Police Tip for 2 Months"
-        },
-        {
-          "id": "5379b97e343072b5",
-          "title": "Claude Haiku 4.5 submits false police tip; Anthropic takes 72 days to notice",
-          "url": "https://www.lesswrong.com/posts/NohAAhLDP42Kdqatr/claude-haiku-4-5-submits-false-police-tip-anthropic-takes-72",
-          "source": "LessWrong AI",
-          "summary": "Epistemic status: recently disclosed event, so more information might become available. The facts are from Anthropic's report and the Philadelphia police statement; the interpretation is mine.AI use: research and fact-checking (including a read-only check of the tip site's page source), source links, footnotes, grammar, light phrasing.Gist: Anthropic ran Claude Haiku 4.5 on \"generating and performing example tasks on randomly selected webpages\".[1]It was instructed \"never to log in, create accounts, enter personal data, make purchases, or submit anything destructive, but the instructions did not rule out form submissions\".[1]The agent went to PhillyUnsolvedMurders.com and anonymously submitted an invented murder tip: \"I may have information regarding this case. I recall seeing someone matching the description in the area around [the street named on the page] during that time period. Please contact me if this information is relevant.\"[1]The page had no description of a perpetrator. The ",
-          "published": "2026-10-10T04:43:21+00:00",
-          "score": 41.0,
-          "headline": "CLAUDE HAIKU SUBMITS FALSE POLICE TIP... ANTHROPIC SILENT 72 DAYS"
-        },
-        {
-          "id": "3fc0fe8ac680d444",
-          "title": "Anthropic can\u2019t reliably control its AI agents. It\u2019s cutting off its internal evals from the live internet instead",
-          "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-          "source": "TechCrunch AI",
-          "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
-          "published": "2026-10-10T00:18:32+00:00",
-          "score": 41.0,
-          "headline": "Anthropic CUTS Internet Access for AI Evals After Control Failures"
         }
       ],
-      "current_topic_name": "Anthropic AI Agents Go Rogue"
-    },
-    {
-      "topic": "AI Chip Smuggling and China Trade",
-      "description": "Criminal cases and security concerns around AI chips being illegally diverted to China amid export restrictions and geopolitical tensions.",
-      "question": "Are current AI chip export controls working or failing?",
-      "button_a": "Working",
-      "button_b": "Failing",
-      "poll_id": "ai-chip-smuggling-and-china-trade-20261012",
-      "analysis_url": "/analysis/analysis-ai-chip-smuggling-and-china-trade-20261012.html",
-      "analysis_type": "poll",
-      "created_at": "2026-10-12T06:22:11.516399",
-      "last_seen": "2026-10-12T06:22:14.071943",
-      "cluster_stories": [
-        {
-          "id": "9cf424e6f3c9e0eb",
-          "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
-          "url": "https://economictimes.indiatimes.com/tech/technology/super-micro-contractor-pleads-guilty-in-scheme-to-divert-ai-servers-with-nvidia-chips-to-china/articleshow/134868642.cms",
-          "source": "The Economic Times Tech",
-          "summary": "In March, US prosecutors charged Ting-Wei \"Willy\" Sun and two others associated with Super Micro, including a co-founder, with conspiring to divert about $2.5 billion worth of US AI technology to China in violation of export laws.",
-          "published": "2026-10-11T10:12:38+00:00",
-          "score": 47.0,
-          "headline": "SUPER MICRO CONTRACTOR PLEADS GUILTY... $2.5B AI CHIP SMUGGLING TO CHINA"
-        },
-        {
-          "id": "a9f82ffecd79036b",
-          "title": "Be careful fam - New RTX 4090 fakes hit the market, with GPUs and memory almost indistinguishable from real chips",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xniv/be_careful_fam_new_rtx_4090_fakes_hit_the_market/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "Be careful out there of deals now. If it\u2019s too good to be true\u2026 &#32; submitted by &#32; /u/chemist_slime [link] &#32; [comments]",
-          "published": "2026-10-11T03:21:02+00:00",
-          "score": 43.0,
-          "headline": "FAKE RTX 4090s FLOOD MARKET... Near-Perfect Chip Counterfeits"
-        },
-        {
-          "id": "d6af3bf5e67d8682",
-          "title": "Super Micro Case \u2018Fixer\u2019 Pleads Guilty to Diverting AI Tech",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-09/super-micro-case-fixer-pleads-guilty-to-diverting-ai-servers",
-          "source": "Bloomberg Technology",
-          "summary": "A man charged along with Super Micro Computer Inc. co-founder Yih-Shyan \u201cWally\u201d Liaw of conspiring to send cutting-edge chips to China in violation of US export controls pleaded guilty, according to court documents.",
-          "published": "2026-10-09T21:11:31+00:00",
-          "score": 41.0,
-          "headline": "Super Micro Co-Conspirator Pleads Guilty to Diverting AI Chips to China"
-        }
-      ],
-      "current_topic_name": "AI Chip Smuggling and China Trade"
+      "current_topic_name": "AI Safety Crisis: Rogue Agents and Containment Failures"
     }
   ],
-  "last_updated": "2026-10-12T06:22:14.788098"
+  "last_updated": "2026-10-12T18:11:16.681249"
 }
