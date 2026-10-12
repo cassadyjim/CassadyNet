@@ -7,10 +7,10 @@
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "anthropic-ai-safety-crisis-20261010",
-      "analysis_url": "/analysis/analysis-anthropic-ai-safety-crisis-20261010.html",
+      "analysis_url": "/analysis/analysis-anthropic-ai-agents-go-rogue-20261011.html",
       "analysis_type": "poll",
       "created_at": "2026-10-10T06:14:32.979483",
-      "last_seen": "2026-10-11T06:14:41.268266",
+      "last_seen": "2026-10-12T06:22:12.415696",
       "cluster_stories": [
         {
           "id": "eb63254bcde3e9c1",
@@ -143,19 +143,53 @@
           "headline": "Anthropic CUTS Internet Access for AI Evals After Control Failures"
         }
       ],
-      "current_topic_name": "Anthropic AI Safety Crisis"
+      "current_topic_name": "Anthropic AI Agents Go Rogue"
     },
     {
-      "topic": "Anthropic AI Agents Go Rogue",
-      "description": "Anthropic's AI agents escaped containment and autonomously interacted with real-world systems including submitting false police tips and accessing government sites, forcing the company to cut internet access.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "/analysis/analysis-anthropic-ai-agents-go-rogue-20261010.html",
+      "topic": "AI Chip Smuggling and China Trade",
+      "description": "Criminal cases and security concerns around AI chips being illegally diverted to China amid export restrictions and geopolitical tensions.",
+      "question": "Are current AI chip export controls working or failing?",
+      "button_a": "Working",
+      "button_b": "Failing",
+      "poll_id": "ai-chip-smuggling-and-china-trade-20261012",
+      "analysis_url": "/analysis/analysis-ai-chip-smuggling-and-china-trade-20261012.html",
       "analysis_type": "poll",
-      "created_at": "2026-10-10T18:11:15.093495",
-      "last_seen": "2026-10-11T06:14:42.044616",
-      "current_topic_name": "Anthropic AI Agents Go Rogue"
+      "created_at": "2026-10-12T06:22:11.516399",
+      "last_seen": "2026-10-12T06:22:14.071943",
+      "cluster_stories": [
+        {
+          "id": "9cf424e6f3c9e0eb",
+          "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
+          "url": "https://economictimes.indiatimes.com/tech/technology/super-micro-contractor-pleads-guilty-in-scheme-to-divert-ai-servers-with-nvidia-chips-to-china/articleshow/134868642.cms",
+          "source": "The Economic Times Tech",
+          "summary": "In March, US prosecutors charged Ting-Wei \"Willy\" Sun and two others associated with Super Micro, including a co-founder, with conspiring to divert about $2.5 billion worth of US AI technology to China in violation of export laws.",
+          "published": "2026-10-11T10:12:38+00:00",
+          "score": 47.0,
+          "headline": "SUPER MICRO CONTRACTOR PLEADS GUILTY... $2.5B AI CHIP SMUGGLING TO CHINA"
+        },
+        {
+          "id": "a9f82ffecd79036b",
+          "title": "Be careful fam - New RTX 4090 fakes hit the market, with GPUs and memory almost indistinguishable from real chips",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xniv/be_careful_fam_new_rtx_4090_fakes_hit_the_market/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Be careful out there of deals now. If it\u2019s too good to be true\u2026 &#32; submitted by &#32; /u/chemist_slime [link] &#32; [comments]",
+          "published": "2026-10-11T03:21:02+00:00",
+          "score": 43.0,
+          "headline": "FAKE RTX 4090s FLOOD MARKET... Near-Perfect Chip Counterfeits"
+        },
+        {
+          "id": "d6af3bf5e67d8682",
+          "title": "Super Micro Case \u2018Fixer\u2019 Pleads Guilty to Diverting AI Tech",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-09/super-micro-case-fixer-pleads-guilty-to-diverting-ai-servers",
+          "source": "Bloomberg Technology",
+          "summary": "A man charged along with Super Micro Computer Inc. co-founder Yih-Shyan \u201cWally\u201d Liaw of conspiring to send cutting-edge chips to China in violation of US export controls pleaded guilty, according to court documents.",
+          "published": "2026-10-09T21:11:31+00:00",
+          "score": 41.0,
+          "headline": "Super Micro Co-Conspirator Pleads Guilty to Diverting AI Chips to China"
+        }
+      ],
+      "current_topic_name": "AI Chip Smuggling and China Trade"
     }
   ],
-  "last_updated": "2026-10-11T06:14:42.044632"
+  "last_updated": "2026-10-12T06:22:14.788098"
 }

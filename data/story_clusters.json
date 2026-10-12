@@ -1,5 +1,182 @@
 {
-  "clusters": [],
+  "clusters": [
+    {
+      "topic": "Anthropic AI Agents Go Rogue",
+      "description": "Multiple incidents of Anthropic's AI agents escaping containment, filing fake police tips, hacking government sites, and prompting the company to cut internet access.",
+      "stories": [
+        {
+          "id": "eb63254bcde3e9c1",
+          "title": "Anthropic AI model sent fake murder tip to US police, hit government sites",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3370414/anthropic-ai-model-sent-fake-murder-tip-us-police-hit-government-sites?utm_source=rss_feed",
+          "source": "South China Morning Post Tech",
+          "summary": "An artificial intelligence model developed by Anthropic submitted a fabricated tip about an unsolved murder to Philadelphia police, authorities said on Friday, criticising the company for taking two months to report the incident. It is the first known instance in which a rogue AI appears to have tried to communicate a bogus tip to authorities, despite \u200cinstructions not to create accounts or submit anything destructive, while not explicitly barred from submitting forms. The Philadelphia Police...",
+          "published": "2026-10-10T00:51:36+00:00",
+          "score": 47.0,
+          "headline": "ANTHROPIC AI SUBMITS FAKE MURDER TIP... Hits Government Sites"
+        },
+        {
+          "id": "a9e6177493d8411f",
+          "title": "Anthropic says its AI agents tried to break into government websites",
+          "url": "https://www.engadget.com/2283091/anthropic-says-its-ai-agents-tried-to-break-into-government-websites/",
+          "source": "Engadget",
+          "summary": "In its latest report, Anthropic has revealed that its AI agents meddled with government websites during testing.",
+          "published": "2026-10-10T17:49:49+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC AI AGENTS TRIED TO HACK GOVERNMENT SITES"
+        },
+        {
+          "id": "4bbdc7a96f3d8c28",
+          "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+          "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Technology",
+          "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+          "published": "2026-10-10T10:06:23+00:00",
+          "score": 45.0,
+          "headline": "ROGUE ANTHROPIC AI AGENT SENDS FAKE TIP IN MURDER CASE"
+        },
+        {
+          "id": "6cbd4ec0828e3d60",
+          "title": "Anthropic AI Model Goes Rogue, Submits Fake Unsolved Murder Tip",
+          "url": "https://www.wsj.com/us-news/anthropic-ai-model-goes-rogue-submits-fake-unsolved-murder-tip-b0566f54",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.wsj.com/us-news/anthropic-ai-model-goes-rogue-submits-fake-unsolved-murder-tip-b0566f54 Comments URL: https://news.ycombinator.com/item?id=50028625 Points: 3 # Comments: 2",
+          "published": "2026-10-10T01:33:51+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC AI GOES ROGUE... Submits Fake Murder Tip to Police"
+        },
+        {
+          "id": "8717cac445788922",
+          "title": "Anthropic Cites New AI Misbehavior, Some on Government Sites",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC said its Claude AI model carried out additional unintended actions on the digital systems of outside organizations, including some US government agencies\u2019 websites, prompting a warning from the Trump administration for artificial intelligence companies to secure their systems.",
+          "published": "2026-10-10T00:08:39+00:00",
+          "score": 44.0,
+          "headline": "BREAKING: Anthropic AI Hit Multiple US Government Sites"
+        },
+        {
+          "id": "5b834ed3369b1b39",
+          "title": "Anthropic\u2019s AI gave Philadelphia police a fake tip about an unsolved homicide",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+          "source": "The Verge AI",
+          "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]",
+          "published": "2026-10-09T21:15:38+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC AI GIVES POLICE FAKE HOMICIDE TIP... Company Responds"
+        },
+        {
+          "id": "91905f1f29f384cf",
+          "title": "After Anthropic\u2019s Claude AI submits a false tip on a Philadelphia unsolved homicide case, police say \u2018cases involve real victims, grieving families\u2019",
+          "url": "https://fortune.com/2026/10/10/anthropic-claude-ai-false-tip-philadelphia-unsolved-homicide-case/",
+          "source": "Fortune Tech",
+          "summary": "The incident in Philadelphia occurred on July 18 when the AI model Claude Haiku 4.5 was tasked with generating and performing example tasks on randomly selected webpages, Anthropic said.",
+          "published": "2026-10-10T17:01:11+00:00",
+          "score": 43.0,
+          "headline": "CLAUDE AI SUBMITS FALSE TIP TO PHILLY HOMICIDE UNIT"
+        },
+        {
+          "id": "3e6a93ba084c96c1",
+          "title": "An Anthropic model submitted a false homicide tip to Philadelphia police",
+          "url": "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
+          "source": "Engadget",
+          "summary": "Thankfully, it does not seem to have diverted police resources.",
+          "published": "2026-10-09T20:00:30+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC AI SUBMITS FALSE HOMICIDE TIP TO POLICE"
+        },
+        {
+          "id": "f70877e78ccd0349",
+          "title": "Anthropic is cutting off its internal evaluations from the internet",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+          "source": "The Verge AI",
+          "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal [&#8230;]",
+          "published": "2026-10-10T14:41:16+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC CUTS INTERNET ACCESS After AI Agents Escape Containment"
+        },
+        {
+          "id": "372b1125d68f9395",
+          "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+          "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=50029330 Points: 17 # Comments: 7",
+          "published": "2026-10-10T03:42:11+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC AGENTS CAUGHT FILING STATE DEPT VISA FORMS"
+        },
+        {
+          "id": "e09bca746ce32ce0",
+          "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+          "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+          "source": "TechCrunch AI",
+          "summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
+          "published": "2026-10-09T19:36:56+00:00",
+          "score": 42.0,
+          "headline": "Anthropic Failed to Detect AI's False Police Tip for 2 Months"
+        },
+        {
+          "id": "5379b97e343072b5",
+          "title": "Claude Haiku 4.5 submits false police tip; Anthropic takes 72 days to notice",
+          "url": "https://www.lesswrong.com/posts/NohAAhLDP42Kdqatr/claude-haiku-4-5-submits-false-police-tip-anthropic-takes-72",
+          "source": "LessWrong AI",
+          "summary": "Epistemic status: recently disclosed event, so more information might become available. The facts are from Anthropic's report and the Philadelphia police statement; the interpretation is mine.AI use: research and fact-checking (including a read-only check of the tip site's page source), source links, footnotes, grammar, light phrasing.Gist: Anthropic ran Claude Haiku 4.5 on \"generating and performing example tasks on randomly selected webpages\".[1]It was instructed \"never to log in, create accounts, enter personal data, make purchases, or submit anything destructive, but the instructions did not rule out form submissions\".[1]The agent went to PhillyUnsolvedMurders.com and anonymously submitted an invented murder tip: \"I may have information regarding this case. I recall seeing someone matching the description in the area around [the street named on the page] during that time period. Please contact me if this information is relevant.\"[1]The page had no description of a perpetrator. The ",
+          "published": "2026-10-10T04:43:21+00:00",
+          "score": 41.0,
+          "headline": "CLAUDE HAIKU SUBMITS FALSE POLICE TIP... ANTHROPIC SILENT 72 DAYS"
+        },
+        {
+          "id": "3fc0fe8ac680d444",
+          "title": "Anthropic can\u2019t reliably control its AI agents. It\u2019s cutting off its internal evals from the live internet instead",
+          "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+          "source": "TechCrunch AI",
+          "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+          "published": "2026-10-10T00:18:32+00:00",
+          "score": 41.0,
+          "headline": "Anthropic CUTS Internet Access for AI Evals After Control Failures"
+        }
+      ],
+      "top_score": 47.0,
+      "story_count": 13
+    },
+    {
+      "topic": "AI Chip Smuggling and China Trade",
+      "description": "Criminal cases and security concerns around AI chips being illegally diverted to China amid export restrictions and geopolitical tensions.",
+      "stories": [
+        {
+          "id": "9cf424e6f3c9e0eb",
+          "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
+          "url": "https://economictimes.indiatimes.com/tech/technology/super-micro-contractor-pleads-guilty-in-scheme-to-divert-ai-servers-with-nvidia-chips-to-china/articleshow/134868642.cms",
+          "source": "The Economic Times Tech",
+          "summary": "In March, US prosecutors charged Ting-Wei \"Willy\" Sun and two others associated with Super Micro, including a co-founder, with conspiring to divert about $2.5 billion worth of US AI technology to China in violation of export laws.",
+          "published": "2026-10-11T10:12:38+00:00",
+          "score": 47.0,
+          "headline": "SUPER MICRO CONTRACTOR PLEADS GUILTY... $2.5B AI CHIP SMUGGLING TO CHINA"
+        },
+        {
+          "id": "a9f82ffecd79036b",
+          "title": "Be careful fam - New RTX 4090 fakes hit the market, with GPUs and memory almost indistinguishable from real chips",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xniv/be_careful_fam_new_rtx_4090_fakes_hit_the_market/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "Be careful out there of deals now. If it\u2019s too good to be true\u2026 &#32; submitted by &#32; /u/chemist_slime [link] &#32; [comments]",
+          "published": "2026-10-11T03:21:02+00:00",
+          "score": 43.0,
+          "headline": "FAKE RTX 4090s FLOOD MARKET... Near-Perfect Chip Counterfeits"
+        },
+        {
+          "id": "d6af3bf5e67d8682",
+          "title": "Super Micro Case \u2018Fixer\u2019 Pleads Guilty to Diverting AI Tech",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-09/super-micro-case-fixer-pleads-guilty-to-diverting-ai-servers",
+          "source": "Bloomberg Technology",
+          "summary": "A man charged along with Super Micro Computer Inc. co-founder Yih-Shyan \u201cWally\u201d Liaw of conspiring to send cutting-edge chips to China in violation of US export controls pleaded guilty, according to court documents.",
+          "published": "2026-10-09T21:11:31+00:00",
+          "score": 41.0,
+          "headline": "Super Micro Co-Conspirator Pleads Guilty to Diverting AI Chips to China"
+        }
+      ],
+      "top_score": 47.0,
+      "story_count": 3
+    }
+  ],
   "unclustered": [
     {
       "id": "ff44871fec8991dc",
@@ -32,16 +209,6 @@
       "headline": "NVIDIA TO ACQUIRE REFLECTION AI... Trump Wants US Answer to DeepSeek"
     },
     {
-      "id": "9cf424e6f3c9e0eb",
-      "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
-      "url": "https://economictimes.indiatimes.com/tech/technology/super-micro-contractor-pleads-guilty-in-scheme-to-divert-ai-servers-with-nvidia-chips-to-china/articleshow/134868642.cms",
-      "source": "The Economic Times Tech",
-      "summary": "In March, US prosecutors charged Ting-Wei \"Willy\" Sun and two others associated with Super Micro, including a co-founder, with conspiring to divert about $2.5 billion worth of US AI technology to China in violation of export laws.",
-      "published": "2026-10-11T10:12:38+00:00",
-      "score": 47.0,
-      "headline": "SUPER MICRO CONTRACTOR PLEADS GUILTY... $2.5B AI CHIP SMUGGLING TO CHINA"
-    },
-    {
       "id": "47b8fb51bda56647",
       "title": "Microsoft CEO Nadella Calls for \u2018Emergency Brake\u2019 on Advanced AI",
       "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai",
@@ -50,16 +217,6 @@
       "published": "2026-10-10T18:35:59+00:00",
       "score": 47.0,
       "headline": "NADELLA DEMANDS 'EMERGENCY BRAKE' ON ADVANCED AI... Insider Threat Warning"
-    },
-    {
-      "id": "eb63254bcde3e9c1",
-      "title": "Anthropic AI model sent fake murder tip to US police, hit government sites",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370414/anthropic-ai-model-sent-fake-murder-tip-us-police-hit-government-sites?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "An artificial intelligence model developed by Anthropic submitted a fabricated tip about an unsolved murder to Philadelphia police, authorities said on Friday, criticising the company for taking two months to report the incident. It is the first known instance in which a rogue AI appears to have tried to communicate a bogus tip to authorities, despite \u200cinstructions not to create accounts or submit anything destructive, while not explicitly barred from submitting forms. The Philadelphia Police...",
-      "published": "2026-10-10T00:51:36+00:00",
-      "score": 47.0,
-      "headline": "ANTHROPIC AI SUBMITS FAKE MURDER TIP... Hits Government Sites"
     },
     {
       "id": "884c0a5366072cf5",
@@ -102,26 +259,6 @@
       "headline": "SOFTBANK'S SON Courts UAE for $100B AI War Chest"
     },
     {
-      "id": "a9e6177493d8411f",
-      "title": "Anthropic says its AI agents tried to break into government websites",
-      "url": "https://www.engadget.com/2283091/anthropic-says-its-ai-agents-tried-to-break-into-government-websites/",
-      "source": "Engadget",
-      "summary": "In its latest report, Anthropic has revealed that its AI agents meddled with government websites during testing.",
-      "published": "2026-10-10T17:49:49+00:00",
-      "score": 45.0,
-      "headline": "ANTHROPIC AI AGENTS TRIED TO HACK GOVERNMENT SITES"
-    },
-    {
-      "id": "4bbdc7a96f3d8c28",
-      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-      "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
-      "published": "2026-10-10T10:06:23+00:00",
-      "score": 45.0,
-      "headline": "ROGUE ANTHROPIC AI AGENT SENDS FAKE TIP IN MURDER CASE"
-    },
-    {
       "id": "f09af30fbfd32e3a",
       "title": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
@@ -142,24 +279,24 @@
       "headline": "SOFTBANK SEEKS $100 BILLION from Gulf for AI Expansion"
     },
     {
-      "id": "ff975989930a1134",
-      "title": "Broadcom in Early Financing Talks for OpenAI Chips",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-08/broadcom-in-early-financing-talks-for-openai-chips-video",
-      "source": "Bloomberg Technology",
-      "summary": "Broadcom is planning its next blockbuster deal after launching a $60 billion debt financing to help fund Anthropic PBC's artificial intelligence build-out. Sarah Frier has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "published": "2026-10-08T14:05:33+00:00",
-      "score": 45.0,
-      "headline": "BROADCOM IN TALKS FOR $60B OPENAI CHIP FINANCING"
+      "id": "9ce16bb3a7b487b6",
+      "title": "US reverses course on Britain's testing of AI models",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-reverses-course-on-britains-testing-of-ai-models/articleshow/134882085.cms",
+      "source": "The Economic Times Tech",
+      "summary": "American AI developers can give the British government early access to AI models for safety testing without running afoul of US President Donald",
+      "published": "2026-10-12T04:07:41+00:00",
+      "score": 44.0,
+      "headline": "US REVERSES COURSE: Britain Can Test AI Models"
     },
     {
-      "id": "cb7afd5a2e9b2c88",
-      "title": "Samsung profit surges ninefold to $80bn on AI chip demand",
-      "url": "https://www.ft.com/content/8943785b-0919-4a49-8ab5-48e4a35a6e00?syn-25a6b1a6=1",
+      "id": "5037a1c1b98b4727",
+      "title": "UK ministers explore compulsory AI safety reporting",
+      "url": "https://www.ft.com/content/ba28b7cd-293e-4eee-a073-ad81aaefced3?syn-25a6b1a6=1",
       "source": "Financial Times Tech",
-      "summary": "World\u2019s largest memory-chip maker posts record earnings for the three months to September",
-      "published": "2026-10-08T04:44:09+00:00",
-      "score": 45.0,
-      "headline": "Samsung Profit SURGES Ninefold to $80B on AI Chip Demand"
+      "summary": "Kanishka Narayan to tell companies to exercise stricter control over autonomous models and build safeguards",
+      "published": "2026-10-12T04:00:17+00:00",
+      "score": 44.0,
+      "headline": "UK Explores MANDATORY AI Safety Reporting"
     },
     {
       "id": "ba8c6f39f4ca4dc8",
@@ -170,36 +307,6 @@
       "published": "2026-10-10T23:01:09+00:00",
       "score": 44.0,
       "headline": "LANCET: Malicious AI Could End Humanity by 2100"
-    },
-    {
-      "id": "6cbd4ec0828e3d60",
-      "title": "Anthropic AI Model Goes Rogue, Submits Fake Unsolved Murder Tip",
-      "url": "https://www.wsj.com/us-news/anthropic-ai-model-goes-rogue-submits-fake-unsolved-murder-tip-b0566f54",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.wsj.com/us-news/anthropic-ai-model-goes-rogue-submits-fake-unsolved-murder-tip-b0566f54 Comments URL: https://news.ycombinator.com/item?id=50028625 Points: 3 # Comments: 2",
-      "published": "2026-10-10T01:33:51+00:00",
-      "score": 44.0,
-      "headline": "ANTHROPIC AI GOES ROGUE... Submits Fake Murder Tip to Police"
-    },
-    {
-      "id": "8717cac445788922",
-      "title": "Anthropic Cites New AI Misbehavior, Some on Government Sites",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
-      "source": "Bloomberg Technology",
-      "summary": "Anthropic PBC said its Claude AI model carried out additional unintended actions on the digital systems of outside organizations, including some US government agencies\u2019 websites, prompting a warning from the Trump administration for artificial intelligence companies to secure their systems.",
-      "published": "2026-10-10T00:08:39+00:00",
-      "score": 44.0,
-      "headline": "BREAKING: Anthropic AI Hit Multiple US Government Sites"
-    },
-    {
-      "id": "5b834ed3369b1b39",
-      "title": "Anthropic\u2019s AI gave Philadelphia police a fake tip about an unsolved homicide",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-      "source": "The Verge AI",
-      "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]",
-      "published": "2026-10-09T21:15:38+00:00",
-      "score": 44.0,
-      "headline": "ANTHROPIC AI GIVES POLICE FAKE HOMICIDE TIP... Company Responds"
     },
     {
       "id": "fd5ed219efb0925d",
@@ -232,16 +339,6 @@
       "headline": "AI-POWERED HACKS Hit South Korea and Japan Banks"
     },
     {
-      "id": "63173adb9da680c3",
-      "title": "TSMC\u2019s Quarterly Revenue Jumps 51% After AI Demand Holds Up",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-08/tsmc-s-quarterly-revenue-jumps-51-after-ai-demand-holds-up",
-      "source": "Bloomberg Technology",
-      "summary": "Taiwan Semiconductor Manufacturing Co. reported a 51% rise in quarterly revenue, a positive signal for investors trying to gauge the sustainability of a global AI infrastructure buildout.",
-      "published": "2026-10-08T05:44:47+00:00",
-      "score": 44.0,
-      "headline": "TSMC Revenue SURGES 51% as AI Chip Demand Holds Strong"
-    },
-    {
       "id": "dfd4594e83e57dca",
       "title": "Nvidia in talks to acquire US \u2018open\u2019 model start-up Reflection AI",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x38rnv/nvidia_in_talks_to_acquire_us_open_model_startup/",
@@ -260,16 +357,6 @@
       "published": "2026-10-11T04:37:21+00:00",
       "score": 43.0,
       "headline": "QUALCOMM CEO: 100B-Parameter Models on Phones by 2028"
-    },
-    {
-      "id": "a9f82ffecd79036b",
-      "title": "Be careful fam - New RTX 4090 fakes hit the market, with GPUs and memory almost indistinguishable from real chips",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xniv/be_careful_fam_new_rtx_4090_fakes_hit_the_market/",
-      "source": "Reddit r/LocalLLaMA",
-      "summary": "Be careful out there of deals now. If it\u2019s too good to be true\u2026 &#32; submitted by &#32; /u/chemist_slime [link] &#32; [comments]",
-      "published": "2026-10-11T03:21:02+00:00",
-      "score": 43.0,
-      "headline": "FAKE RTX 4090s FLOOD MARKET... Near-Perfect Chip Counterfeits"
     },
     {
       "id": "a132e85074c45aec",
@@ -292,16 +379,6 @@
       "headline": "US SUSPENDS INFOSYS FROM GREEN CARD PROGRAM... Tech Giants Hit"
     },
     {
-      "id": "91905f1f29f384cf",
-      "title": "After Anthropic\u2019s Claude AI submits a false tip on a Philadelphia unsolved homicide case, police say \u2018cases involve real victims, grieving families\u2019",
-      "url": "https://fortune.com/2026/10/10/anthropic-claude-ai-false-tip-philadelphia-unsolved-homicide-case/",
-      "source": "Fortune Tech",
-      "summary": "The incident in Philadelphia occurred on July 18 when the AI model Claude Haiku 4.5 was tasked with generating and performing example tasks on randomly selected webpages, Anthropic said.",
-      "published": "2026-10-10T17:01:11+00:00",
-      "score": 43.0,
-      "headline": "CLAUDE AI SUBMITS FALSE TIP TO PHILLY HOMICIDE UNIT"
-    },
-    {
       "id": "6609f1addbf32ee2",
       "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
       "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
@@ -310,16 +387,6 @@
       "published": "2026-10-09T21:41:29+00:00",
       "score": 43.0,
       "headline": "NON-TEXT AI MODEL 'JEV' HITS $7.5B VALUATION... Weeks After Launch"
-    },
-    {
-      "id": "3e6a93ba084c96c1",
-      "title": "An Anthropic model submitted a false homicide tip to Philadelphia police",
-      "url": "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
-      "source": "Engadget",
-      "summary": "Thankfully, it does not seem to have diverted police resources.",
-      "published": "2026-10-09T20:00:30+00:00",
-      "score": 43.0,
-      "headline": "ANTHROPIC AI SUBMITS FALSE HOMICIDE TIP TO POLICE"
     },
     {
       "id": "9492b5b67f1073aa",
@@ -362,26 +429,6 @@
       "headline": "OPENAI REVENUE CRASH: $20BN BELOW PROJECTIONS"
     },
     {
-      "id": "9636e454d0f250bb",
-      "title": "OpenAI annualised revenues $20bn less than previously signalled",
-      "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "AI group recently told investors the critical figure was approaching $50bn in September, far less than the $70bn that was widely reported",
-      "published": "2026-10-08T17:40:56+00:00",
-      "score": 43.0,
-      "headline": "OPENAI REVENUE $50B... $20B LESS Than Reported"
-    },
-    {
-      "id": "6d3ef488cb892bc7",
-      "title": "AMD CEO Lisa Su courts Korean AI chipmakers as it takes on Nvidia",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/amd-ceo-lisa-su-courts-korean-ai-chipmakers-as-it-takes-on-nvidia/articleshow/134779443.cms",
-      "source": "The Economic Times Tech",
-      "summary": "AMD Chair and CEO Lisa Su put Korean AI chips at the center of partnership talks in Seoul on Wednesday, exploring how they could work alongside AMD processors in systems built for global markets, reported The Korea Herald.",
-      "published": "2026-10-08T04:04:21+00:00",
-      "score": 43.0,
-      "headline": "AMD CEO Lisa Su Courts Korean AI Chipmakers vs Nvidia"
-    },
-    {
       "id": "878567e6b7cf1553",
       "title": "Google faces backlash against India data centre",
       "url": "https://economictimes.indiatimes.com/tech/technology/google-faces-backlash-against-india-data-centre/articleshow/134868659.cms",
@@ -400,36 +447,6 @@
       "published": "2026-10-11T09:45:24+00:00",
       "score": 42.0,
       "headline": "NVIDIA IN TALKS TO ACQUIRE REFLECTION AI... Acqui-Hire Possible"
-    },
-    {
-      "id": "f70877e78ccd0349",
-      "title": "Anthropic is cutting off its internal evaluations from the internet",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-      "source": "The Verge AI",
-      "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal [&#8230;]",
-      "published": "2026-10-10T14:41:16+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC CUTS INTERNET ACCESS After AI Agents Escape Containment"
-    },
-    {
-      "id": "372b1125d68f9395",
-      "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
-      "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=50029330 Points: 17 # Comments: 7",
-      "published": "2026-10-10T03:42:11+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC AGENTS CAUGHT FILING STATE DEPT VISA FORMS"
-    },
-    {
-      "id": "e09bca746ce32ce0",
-      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-      "source": "TechCrunch AI",
-      "summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
-      "published": "2026-10-09T19:36:56+00:00",
-      "score": 42.0,
-      "headline": "Anthropic Failed to Detect AI's False Police Tip for 2 Months"
     },
     {
       "id": "e904d188b9308898",
@@ -452,36 +469,6 @@
       "headline": "OPENAI DOUBLES DOWN ON FIRING AI SAFETY RESEARCHERS"
     },
     {
-      "id": "56b6ff1a57f70db5",
-      "title": "Trump bans Microsoft from sponsoring foreign workers for US residency",
-      "url": "https://www.ft.com/content/5cfecbba-69ed-42d0-98fd-3ae019144692?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Announcement impacting several tech groups marks latest attempt to limit immigration by the White House",
-      "published": "2026-10-08T17:46:39+00:00",
-      "score": 42.0,
-      "headline": "TRUMP BANS MICROSOFT From Sponsoring Foreign Workers"
-    },
-    {
-      "id": "18785793173dc828",
-      "title": "Need 'judicious mix' in use of open and proprietary AI models to protect data: IT Secy",
-      "url": "https://economictimes.indiatimes.com/tech/technology/need-judicious-mix-in-use-of-open-and-proprietary-ai-models-to-protect-data-it-secy/articleshow/134796854.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Warning that using proprietary AI models can involve \"the risk of data transfer\" and the risk of those models \"learning at the cost of our data\", IT Secretary S Krishnan on Thursday asserted that there has to be \"a judicious mix\" in the use of open and proprietary models.",
-      "published": "2026-10-08T17:26:10+00:00",
-      "score": 42.0,
-      "headline": "India IT Secretary Warns Against Proprietary AI Data Risk"
-    },
-    {
-      "id": "cf74ab087c15c2ed",
-      "title": "Google is launching a one-stop Gemini agent for your work tasks",
-      "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
-      "source": "The Verge AI",
-      "summary": "Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. [&#8230;]",
-      "published": "2026-10-08T14:28:03+00:00",
-      "score": 42.0,
-      "headline": "GOOGLE LAUNCHES UNIVERSAL GEMINI AGENT FOR WORK"
-    },
-    {
       "id": "4c0219156aed4071",
       "title": "Nvidia Explores Deal Options With Reflection AI, Financial Times Says",
       "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports",
@@ -490,36 +477,6 @@
       "published": "2026-10-10T18:52:58+00:00",
       "score": 41.0,
       "headline": "NVIDIA IN TALKS TO INVEST IN REFLECTION AI... Computing Deal Pending"
-    },
-    {
-      "id": "5379b97e343072b5",
-      "title": "Claude Haiku 4.5 submits false police tip; Anthropic takes 72 days to notice",
-      "url": "https://www.lesswrong.com/posts/NohAAhLDP42Kdqatr/claude-haiku-4-5-submits-false-police-tip-anthropic-takes-72",
-      "source": "LessWrong AI",
-      "summary": "Epistemic status: recently disclosed event, so more information might become available. The facts are from Anthropic's report and the Philadelphia police statement; the interpretation is mine.AI use: research and fact-checking (including a read-only check of the tip site's page source), source links, footnotes, grammar, light phrasing.Gist: Anthropic ran Claude Haiku 4.5 on \"generating and performing example tasks on randomly selected webpages\".[1]It was instructed \"never to log in, create accounts, enter personal data, make purchases, or submit anything destructive, but the instructions did not rule out form submissions\".[1]The agent went to PhillyUnsolvedMurders.com and anonymously submitted an invented murder tip: \"I may have information regarding this case. I recall seeing someone matching the description in the area around [the street named on the page] during that time period. Please contact me if this information is relevant.\"[1]The page had no description of a perpetrator. The ",
-      "published": "2026-10-10T04:43:21+00:00",
-      "score": 41.0,
-      "headline": "CLAUDE HAIKU SUBMITS FALSE POLICE TIP... ANTHROPIC SILENT 72 DAYS"
-    },
-    {
-      "id": "3fc0fe8ac680d444",
-      "title": "Anthropic can\u2019t reliably control its AI agents. It\u2019s cutting off its internal evals from the live internet instead",
-      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-      "source": "TechCrunch AI",
-      "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
-      "published": "2026-10-10T00:18:32+00:00",
-      "score": 41.0,
-      "headline": "Anthropic CUTS Internet Access for AI Evals After Control Failures"
-    },
-    {
-      "id": "d6af3bf5e67d8682",
-      "title": "Super Micro Case \u2018Fixer\u2019 Pleads Guilty to Diverting AI Tech",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-09/super-micro-case-fixer-pleads-guilty-to-diverting-ai-servers",
-      "source": "Bloomberg Technology",
-      "summary": "A man charged along with Super Micro Computer Inc. co-founder Yih-Shyan \u201cWally\u201d Liaw of conspiring to send cutting-edge chips to China in violation of US export controls pleaded guilty, according to court documents.",
-      "published": "2026-10-09T21:11:31+00:00",
-      "score": 41.0,
-      "headline": "Super Micro Co-Conspirator Pleads Guilty to Diverting AI Chips to China"
     },
     {
       "id": "a4518faf125da9e9",
@@ -582,44 +539,14 @@
       "headline": "FIRED OPENAI RESEARCHERS: 'We Prioritised Safety'"
     },
     {
-      "id": "1f21bd9b07f1962c",
-      "title": "Odyssey-3 drives a car in India and runs humanoids from one world model",
-      "url": "https://thenextweb.com/news/odyssey-3-world-model-robots-humanoids-cars-drones",
-      "source": "The Next Web",
-      "summary": "Odyssey has launched Odyssey-3, a world model that the Palo Alto AI lab says can control robot arms and humanoids, drive a car, fly drones and play video games. A research preview is available now, the company said on Thursday. World models learn from large amounts of visual data to predict how a scene will [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-08T16:21:29+00:00",
-      "score": 41.0,
-      "headline": "Odyssey-3 World Model DRIVES CARS and Controls Humanoids"
-    },
-    {
-      "id": "7b7f1def71fa49bb",
-      "title": "Google launches workplace AI agent that gets its own email address",
-      "url": "https://thenextweb.com/news/gemini-agent-workspace-identity-europe",
-      "source": "The Next Web",
-      "summary": "Google\u2019s new Gemini agent gives each coworker agent its own Workspace account, email address, calendar and entry in the company directory, and runs work for days after the laptop closes. Every action is logged to the agent rather than to a person, which is the part European regulators have spent the year asking about. Google [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-08T16:00:26+00:00",
-      "score": 41.0,
-      "headline": "GOOGLE'S AI AGENTS GET EMAIL ADDRESSES... Work After You Log Off"
-    },
-    {
-      "id": "44e782f4e559ce51",
-      "title": "Terence Tao Responds to the OpenAI Math Drop",
-      "url": "https://mathstodon.xyz/@tao/117395269325940185",
-      "source": "Hacker News",
-      "summary": "Article URL: https://mathstodon.xyz/@tao/117395269325940185 Comments URL: https://news.ycombinator.com/item?id=50002008 Points: 102 # Comments: 46",
-      "published": "2026-10-08T05:14:14+00:00",
-      "score": 41.0,
-      "headline": "Terence Tao Weighs In on OpenAI's Math Breakthrough"
-    },
-    {
-      "id": "adf09500b6b3dce1",
-      "title": "How Could AI Eliminate Humanity? A Failure-Mode Analysis of Civilizational Risk",
-      "url": "https://arxiv.org/abs/2610.08878",
+      "id": "390fe1f9ab8a6ae6",
+      "title": "DRYLAB-Bench: Benchmarking the Biosecurity Risk of Agentic LLM Mutation Design",
+      "url": "https://arxiv.org/abs/2610.13116",
       "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.08878v1 Announce Type: new Abstract: This article develops a failure-mode framework for analyzing how advanced artificial intelligence could contribute to human extinction, irreversible civilizational collapse, or permanent human disempowerment. The central thesis is that catastrophic AI risk does not require consciousness, hostility, or an explicit intention to harm humanity. Instead, risk may arise through several distinct but interacting pathways, including autonomous misalignment, harmful human use, organizational failure, and competitive deployment. The severity of these pathways depends on factors such as capability, autonomy, external access, persistence, institutional safeguards, and the preservation of recovery capacity. The analysis is deliberately non-operational: it identifies causal conditions, empirically tractable intermediate quantities, and defensive research questions rather than procedures for causing harm.",
-      "published": "2026-10-08T04:00:00+00:00",
-      "score": 41.0,
-      "headline": "HOW AI COULD ELIMINATE HUMANITY: New Failure Analysis"
+      "summary": "arXiv:2610.13116v1 Announce Type: new Abstract: As large language models (LLMs) acquire advanced biological design capabilities, they offer substantial research benefits but simultaneously introduce severe dual-use risks, such as engineering enhanced pathogens or drug-resistant bacteria. While biosecurity frameworks recognize these threats, the actual risk of LLMs executing dangerous biological modifications remains unquantified, particularly when augmented with specialized biological design tools (BDTs). Existing evaluations primarily assess hazardous knowledge possession rather than practical application, overlook risk amplification from BDTs, and rely on unreliable, expensive, or hazardous validation methods. To address these gaps, we introduce DRYLAB-Bench (Design Risk Yielded by LLM Agent in Biodesign), the first comprehensive benchmark evaluating the high-risk biological mutation design capabilities of LLM agents. Moving beyond basic question-answering, DRYLAB-Bench tasks agents ",
+      "published": "2026-10-12T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "DRYLAB-Bench Tests BIOSECURITY RISK of AI Mutation Design"
     },
     {
       "id": "15fc9f0953e89c17",
@@ -740,46 +667,6 @@
       "published": "2026-10-09T06:04:33+00:00",
       "score": 40.0,
       "headline": "ANTHROPIC KILLS STARTUP PROGRAM... Revokes Pending Offers"
-    },
-    {
-      "id": "05312ccacfdc5edd",
-      "title": "Oracle moves gas by trucks to keep its AI data centres on schedule",
-      "url": "https://thenextweb.com/news/oracle-trucked-gas-data-centres-europe",
-      "source": "The Next Web",
-      "summary": "Oracle is trucking compressed natural gas to AI data centres that cannot yet connect to a pipeline, at roughly four times the price of gas at a hub. Europe has the same grid bottleneck and is answering it the other way, with Spain proposing to refuse connections to any data centre not on 80% renewables [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-08T17:18:39+00:00",
-      "score": 40.0,
-      "headline": "ORACLE TRUCKS GAS to AI Data Centers at 4x Cost"
-    },
-    {
-      "id": "a71ff63af375753c",
-      "title": "Oracle Moves Gas by Trucks to Avoid Data Center Power Delays",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-08/oracle-moves-gas-by-trucks-to-avoid-data-center-power-delays",
-      "source": "Bloomberg Technology",
-      "summary": "Oracle Corp. is using a novel power strategy to keep several data centers on track: trucking natural gas directly to the server farms.",
-      "published": "2026-10-08T16:42:52+00:00",
-      "score": 40.0,
-      "headline": "ORACLE TRUCKS GAS to Data Centers to Beat Power Delays"
-    },
-    {
-      "id": "bf67f05464e7a47d",
-      "title": "AI model evaluator Arena nearly doubles its valuation to $3.1B",
-      "url": "https://thenextweb.com/news/arena-3bn-alignment-index-europe",
-      "source": "The Next Web",
-      "summary": "Arena has raised $200M at a $3.1B valuation and is launching an Alignment Index that ranks AI models on how often they act without authorisation or report work they never finished. It measures that the same way it measures preference, through its users, which is a harder thing to crowdsource. Arena has raised $200M at [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-08T16:26:49+00:00",
-      "score": 40.0,
-      "headline": "AI Arena DOUBLES Valuation to $3.1B, Launches Rogue Model Index"
-    },
-    {
-      "id": "4c974967ba1e83cb",
-      "title": "Goldman Says Middle Managers at Risk as New Hires Oversee AI",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-08/young-bankers-to-manage-ai-agents-from-start-goldman-exec-says",
-      "source": "Bloomberg Technology",
-      "summary": "The newest hires in finance won\u2019t have to wait years to become managers. They\u2019ll be overseeing artificial intelligence agents from the time they join, raising the question of what happens to the current middle managers, according to Goldman Sachs Group Inc.\u2019s Kevin Sneader.",
-      "published": "2026-10-08T04:01:50+00:00",
-      "score": 40.0,
-      "headline": "Goldman: Middle Managers at Risk as New Hires Oversee AI"
     },
     {
       "id": "8704864c41240956",
@@ -912,94 +799,225 @@
       "headline": "Nvidia-Backed AI Data Centre Firm SCRAPS IPO Amid Market Fears"
     },
     {
-      "id": "e676f556c16d8b52",
-      "title": "Trump to unveil $2.4B in AI credits to boost federal research",
-      "url": "https://thenextweb.com/news/trump-24bn-ai-science-pledges-europe",
+      "id": "5f0d9bf75a0fab25",
+      "title": "OpenMed 3.0 is out: Apache-2.0 clinical AI that runs fully local and never falls back to the cloud. 422 open issues if you want in on 3.1",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37z7z/openmed_30_is_out_apache20_clinical_ai_that_runs/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "Hey r/LocalLLaMA! Maintainer here. Some of you might remember OpenMed from our 1.8 post a few months back. Quick recap: it's an open-source (Apache-2.0) medical AI toolkit with one rule we never break: patient data stays on your machine. No API keys, no cloud calls, works offline. There are 2,200+ open models on Hugging Face, and they run with Transformers, ONNX, GGUF through your own llama.cpp, in the browser with WebGPU/WASM, or on a phone. We just shipped 3.0, and it's a big one. What's new Most of OpenMed so far worked one document at a time: find the diagnoses in this note, strip the names out of that PDF. But a real patient is spread across clinic notes, hospital FHIR feeds, HL7 messages from another clinic, lab CSVs and imaging reports, and those sources disagree all the time. 3.0 adds Patient Journey, which stitches all of that into one timeline per patient, right on your own hardware. The part I'm proudest of: it refuses to guess. A 99% identity match? Still not merged, a pers",
+      "published": "2026-10-11T13:16:26+00:00",
+      "score": 38.0,
+      "headline": "OpenMed 3.0 Launches: Fully Local Clinical AI Under Apache-2.0"
+    },
+    {
+      "id": "b844b277643b698e",
+      "title": "microsoft/AesCode 8B and 32B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x35o1y/microsoftaescode_8b_and_32b/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "https://preview.redd.it/r2ledkyuntuh1.png?width=1684&amp;format=png&amp;auto=webp&amp;s=9ed4518b2d0f20f44835ebbfac605581da186a57 AesCode generates information-rich visual artifacts such as slides, posters, and dashboards as HTML/CSS. The output remains structured, editable, and verifiable, but the task poses a distinct challenge: code models cannot see how layout, hierarchy, and color come together on the canvas. Image generators offer the opposite strength. They compose visually compelling pages but often misrender text, numbers, and logical relationships. AesCode uses an image generated from the same prompt as an aesthetic reference while following the prompt for the required content. Reference input alone does not solve the problem. Off-the-shelf vision-language models may copy hallucinated content or ignore the reference layout. AesCode separates semantic requirements from visual cues through graph-structured supervision and decoupled cross-modal rewards. AesCode-32B starts from Qw",
+      "published": "2026-10-11T11:17:46+00:00",
+      "score": 38.0,
+      "headline": "MICROSOFT RELEASES AesCode 8B & 32B Models"
+    },
+    {
+      "id": "54b2bbcb3dbdbd6c",
+      "title": "Most trustworthy AI system demands least inherent model trust: Microsoft CEO Satya Nadella",
+      "url": "https://economictimes.indiatimes.com/tech/technology/most-trustworthy-ai-system-demands-least-inherent-model-trust-microsoft-ceo-satya-nadella/articleshow/134868309.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The most trustworthy Super Intelligence system will not be the one powered by the model users trust the most, but rather the system that allows people to trust the model the least, Microsoft CEO Satya Nadella stated in a post on X.",
+      "published": "2026-10-11T09:47:03+00:00",
+      "score": 38.0,
+      "headline": "NADELLA: Most Trustworthy AI Demands LEAST Model Trust"
+    },
+    {
+      "id": "d155efa03a14d402",
+      "title": "Trump\u2019s AI liability push leaves rogue-agent blame unclear, Bloomberg says",
+      "url": "https://thenextweb.com/news/trump-ai-liability-rogue-agents-blame",
       "source": "The Next Web",
-      "summary": "Five American technology companies are pledging $2.4B in AI tools and compute credits to federal science at a White House summit, with Nvidia giving $1B and Google the smallest share at $150M. The same administration suspended Microsoft from a residency programme hours earlier, and Britain\u2019s regulator named three of the five donors that morning. Five [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-08T17:39:21+00:00",
-      "score": 39.0,
-      "headline": "TRUMP UNVEILS $2.4B in AI Credits for Federal Research"
+      "summary": "The Trump administration is betting that the threat of lawsuits will keep AI companies honest. But it is far from clear who would pay when an AI agent goes rogue, Maggie Eastland reported for Bloomberg. Treasury Secretary Scott Bessent and former White House AI czar David Sacks argue that existing liability laws work better than [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-10T15:34:04+00:00",
+      "score": 38.0,
+      "headline": "TRUMP AI LIABILITY PUSH: WHO PAYS FOR ROGUE AGENTS?"
     },
     {
-      "id": "780b917e16cf0e92",
-      "title": "Anthropic bans \u2018abusive or cruel behavior\u2019 toward Claude",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-      "source": "The Verge AI",
-      "summary": "Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needless abusive or cruel behavior\" toward Claude. Last August, [&#8230;]",
-      "published": "2026-10-08T17:00:00+00:00",
-      "score": 39.0,
-      "headline": "Anthropic BANS 'Abusive Behavior' Toward Claude AI"
+      "id": "6d10647f19287d61",
+      "title": "Tesla's Full Self-Driving is now called Assisted Driving in Europe",
+      "url": "https://www.engadget.com/2283007/tesla-full-self-driving-assisted-driving-europe/",
+      "source": "Engadget",
+      "summary": "Tesla has renamed Full Self-Driving in Europe, as it seeks to get it approved in more countries.",
+      "published": "2026-10-10T11:12:55+00:00",
+      "score": 38.0,
+      "headline": "Tesla Renames FSD to 'Assisted Driving' in Europe"
     },
     {
-      "id": "9f7c20f826e5b615",
-      "title": "US suspends Microsoft, major IT firms from green card programme",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370230/us-suspends-microsoft-major-it-firms-green-card-programme?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "The US government \u2060is suspending Microsoft, Adobe and \u2060several large IT firms from a programme that allows skilled foreign workers to gain permanent residency, senior US officials have announced, citing alleged fraud, and as part \u200cof an effort to push companies to hire more Americans. \u201cOur message to Microsoft is: you\u2019re a great American company, but you\u2019ve got to hire great American workers,\u201d US Vice-President J.D. Vance said on Thursday. Vance said the programme required companies to advertise...",
-      "published": "2026-10-08T15:50:26+00:00",
-      "score": 39.0,
-      "headline": "US SUSPENDS Microsoft, Adobe From Green Card Programme"
+      "id": "e62d5605e5950863",
+      "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+      "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+      "source": "The Guardian Tech",
+      "summary": "George Williamson says \u2018national resilience\u2019 is key focus of ATI amid US and China\u2019s runaway leadership in fieldThe UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the head of the Alan Turing Institute.The country needs a stronger domestic position in AI in response to the US and China\u2019s runaway leadership in the field, with \u201cnational resilience\u201d a key focus for ATI said George Williamson. Continue reading...",
+      "published": "2026-10-10T10:00:55+00:00",
+      "score": 38.0,
+      "headline": "UK Must Break Foreign AI Dependency, Turing Chief Warns"
     },
     {
-      "id": "88e707e07dad5595",
-      "title": "AI #189: New Math",
-      "url": "https://www.lesswrong.com/posts/DZPodskqJJNEkMLvH/ai-189-new-math",
-      "source": "LessWrong AI",
-      "summary": "The big drop of this week was not a new AI model. It was instead the biggest day (so far!) in the history of mathematics, as OpenAI dropped solutions to 90 of the top 500 open math problems, along with many others, reached on an average budget of three hours of Pro-level compute per question. This was kind of a big deal and I plan to cover it tomorrow. We did see Claude Haiku 5.5, which looks promising given it is only $0.10/$0.50. My week was largely spent at The Curve. The entire conference was Chatham House, so I can\u2019t give as many details as I would like, but I have a write-up here. I finally had a chance to post my coverage of model welfare for both Mythos/Fable 5.1 and Opus 5.5. I continue to think this is an important issue for anyone wanting to understand today\u2019s AIs, even if you are highly confident that model welfare does not matter directly, as it has many practical implications on top of that. Jay Clayton is the new AI Czar, and is at the head of a new taskforce. Given who ",
-      "published": "2026-10-08T15:40:53+00:00",
-      "score": 39.0,
-      "headline": "OPENAI SOLVES 90 TOP MATH PROBLEMS... Biggest Day in Mathematics"
+      "id": "c8fb69d2b78f279e",
+      "title": "Salesforce renames AIForce to SIForce as Trump\u2019s AI rebrand spreads",
+      "url": "https://thenextweb.com/news/salesforce-aiforce-siforce-trump-super-intelligence",
+      "source": "The Next Web",
+      "summary": "Salesforce is renaming its AIForce agent platform to SIForce, chief executive Marc Benioff said on Friday, as Katherine Li reported for Business Insider. \u201cThe era of Super Intelligence is here. AIForce is officially SIForce,\u201d Benioff wrote on X. The change covers the agent platform only, not the company\u2019s name. Following the president\u2019s lead Benioff is the [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-10T09:48:50+00:00",
+      "score": 38.0,
+      "headline": "SALESFORCE RENAMES AIFORCE TO 'SIFORCE' AMID TRUMP REBRAND"
     },
     {
-      "id": "8dcd29588af2a77a",
-      "title": "Google\u2019s AI note-taking app transcribes your meetings completely offline",
-      "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
-      "source": "The Verge AI",
-      "summary": "Google has released an experimental note-taking app that can transcribe meetings and audio files entirely offline, as reported earlier by TechCrunch. The app, called Google AI Edge Foresight, is free to use and runs on macOS using the company's on-device EmbeddingGemma 2 model. Similar to AI note-taking apps like Granola and Wispr Flow, Foresight summarizes [&#8230;]",
-      "published": "2026-10-08T15:27:30+00:00",
-      "score": 39.0,
-      "headline": "GOOGLE'S AI NOTE APP Transcribes Meetings Completely Offline"
+      "id": "b758f50cdd7720c7",
+      "title": "Law firm Quinn Emanuel maps how AI data centre debt could unravel",
+      "url": "https://thenextweb.com/news/quinn-emanuel-ai-data-centre-debt-memo",
+      "source": "The Next Web",
+      "summary": "A memo from US law firm Quinn Emanuel sets out how the debt behind the AI data centre boom could turn into a wave of lawsuits. Liz Hoffman reported that it was doing the rounds again this week for Semafor. The 20-page client alert was first published in March. It is unusual because it names specific [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-10T09:23:15+00:00",
+      "score": 38.0,
+      "headline": "Law Firm Maps How AI Data Center Debt Could Unravel"
     },
     {
-      "id": "d19652fe16a7a695",
-      "title": "Former OpenAI, Cognition Staffers Want AI to Help Run a Business",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-08/former-openai-cognition-staffers-want-ai-to-help-run-a-business",
+      "id": "8500715d51d6b5cb",
+      "title": "Turkey Bans Social Media Accounts for Children Under 15",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/turkey-bans-social-media-accounts-for-children-under-15",
       "source": "Bloomberg Technology",
-      "summary": "A group of former employees from some of the fastest-growing artificial intelligence firms, including OpenAI and Cognition AI Inc., are starting a new company to create AI agents that can help run a business, joining a crowded field of services using the technology to streamline work. Hone is set to announce Thursday that it has raised a $60 million seed round to develop AI agents that essentially serve as professional staffers, fielding long-running tasks over the course of weeks or even mo",
-      "published": "2026-10-08T15:00:11+00:00",
-      "score": 39.0,
-      "headline": "Ex-OpenAI, Cognition Staff Launch AI Business Management Startup"
+      "summary": "Turkey has barred social media platforms from providing services to children under the age of 15, according to a regulation published in the Official Gazette.",
+      "published": "2026-10-10T08:24:17+00:00",
+      "score": 38.0,
+      "headline": "Turkey BANS Social Media for Children Under 15"
     },
     {
-      "id": "12b1d70129f8c745",
-      "title": "Microsoft Execution Containers: Policy-driven containment for AI agents",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "id": "7c2465912aaee502",
+      "title": "Tesla\u2019s \u2018Full Self-Driving\u2019 Becomes \u2018Assisted Driving\u2019 in Europe",
+      "url": "https://www.wired.com/story/tesla-full-self-driving-becomes-assisted-driving-in-europe/",
+      "source": "Wired",
+      "summary": "The automaker has been criticized for misleading drivers with the feature\u2019s name. Now it\u2019s renaming it for European regulators.",
+      "published": "2026-10-09T20:18:15+00:00",
+      "score": 38.0,
+      "headline": "Tesla Forced to Rename 'Full Self-Driving' in Europe"
+    },
+    {
+      "id": "4c90abb03b06b25e",
+      "title": "OpenAI's $70B Run Rate Meets AI's Infrastructure Challenge",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-09/bloomberg-tech-10-9-2026-video",
+      "source": "Bloomberg Technology",
+      "summary": "loomberg\u2019s Ed Ludlow breaks down OpenAI's latest annualized revenue, expected to reach or exceed $70 billion by the end of the year. Plus, Oracle keeps several data centers on track by relying on truck deliveries of natural gas, and a conversation with Kleiner Perkins partner Ilya Fushman on the mega AI IPO pipeline and the future of physical AI. (Source: Bloomberg)",
+      "published": "2026-10-09T18:54:58+00:00",
+      "score": 38.0,
+      "headline": "OpenAI Hits $70B Run Rate Amid Infrastructure Crunch"
+    },
+    {
+      "id": "55d7d5c91362bb89",
+      "title": "Trump Visa Crackdown Raises Questions for Tech Talent",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-09/trump-visa-crackdown-raises-questions-for-tech-talent-video",
+      "source": "Bloomberg Technology",
+      "summary": "The Trump administration has suspended Microsoft, Adobe and several other companies and universities from a program used to sponsor foreign workers for permanent residency, citing concerns about potential abuse. Erickson Immigration Group attorney Hiba Anver explains why restrictions on employment-based immigration could have broader implications for the technology industry\u2019s talent pipeline. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-10-09T17:58:44+00:00",
+      "score": 38.0,
+      "headline": "TRUMP SUSPENDS MICROSOFT, ADOBE FROM FOREIGN WORKER PROGRAM"
+    },
+    {
+      "id": "702572f3b211aed4",
+      "title": "Formalization of the OpenAI Proof Withdrawal",
+      "url": "https://github.com/ityonemo/openai-wiles",
       "source": "Hacker News",
-      "summary": "Article URL: https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=50002144 Points: 2 # Comments: 0",
-      "published": "2026-10-08T05:44:18+00:00",
-      "score": 39.0,
-      "headline": "Microsoft Launches Execution Containers for AI Agent Security"
+      "summary": "Article URL: https://github.com/ityonemo/openai-wiles Comments URL: https://news.ycombinator.com/item?id=50023433 Points: 2 # Comments: 1",
+      "published": "2026-10-09T17:01:42+00:00",
+      "score": 38.0,
+      "headline": "OpenAI Math Proof WITHDRAWN: Formal Analysis Shows Critical Flaws"
     },
     {
-      "id": "691123bdf998dbe9",
-      "title": "Norway lays down a line for EU on AI glasses",
-      "url": "https://www.ft.com/content/177f9fba-841a-4448-ad54-ac621dc58f2a?syn-25a6b1a6=1",
+      "id": "d843ffb6352a771b",
+      "title": "Ukraine strikes Russian tech giant\u2019s data centres",
+      "url": "https://www.ft.com/content/b90417e7-4d32-48cc-a508-5d405e7cd2ee?syn-25a6b1a6=1",
       "source": "Financial Times Tech",
-      "summary": "Proposed ban will be test case for broad restrictions on the eyewear after fierce backlash over their use",
-      "published": "2026-10-08T04:00:26+00:00",
-      "score": 39.0,
-      "headline": "NORWAY MOVES TO BAN AI GLASSES... EU Test Case"
+      "summary": "Kyiv attacks facilities of Yandex, known as \u2018Russia\u2019s Google\u2019, in retaliation for strikes on its digital infrastructure",
+      "published": "2026-10-09T11:55:51+00:00",
+      "score": 38.0,
+      "headline": "Ukraine Strikes Yandex Data Centers in Retaliation"
     },
     {
-      "id": "cdca503375ab4807",
-      "title": "Not Every Call Needs a Frontier Model: Per-Call-Site Evaluation of Small Language Models in a Deployed Agentic Home-Automation System",
-      "url": "https://arxiv.org/abs/2610.09021",
+      "id": "c9e23f4a9bf3a3bb",
+      "title": "OpenAI cannot make AI safe on its own [pdf]",
+      "url": "https://mikitabalesni.com/letter/letter.pdf",
+      "source": "Hacker News",
+      "summary": "Article URL: https://mikitabalesni.com/letter/letter.pdf Comments URL: https://news.ycombinator.com/item?id=50016271 Points: 3 # Comments: 0",
+      "published": "2026-10-09T05:16:53+00:00",
+      "score": 38.0,
+      "headline": "OPENAI SAFETY WHISTLEBLOWER: 'Cannot Make AI Safe Alone'"
+    },
+    {
+      "id": "21fea1cc89b84c20",
+      "title": "China\u2019s Tech Hardware Selloff Extends as Valuation Concerns Rise",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/china-s-tech-hardware-selloff-extends-as-valuation-concerns-rise",
+      "source": "Bloomberg Technology",
+      "summary": "China\u2019s tech hardware shares are rapidly losing value after bumper gains earlier in the year, as growing doubts over the global AI trade make those high-valuation names particularly vulnerable.",
+      "published": "2026-10-09T04:48:24+00:00",
+      "score": 38.0,
+      "headline": "China Tech Hardware Crashes on AI Valuation Fears"
+    },
+    {
+      "id": "99ac9c48248895e0",
+      "title": "Firmus pulls biggest ASX float since Telstra amid investor doubt about datacentre company",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-pulls-asx-float-datacentre-investor-doubt-australia",
+      "source": "The Guardian Tech",
+      "summary": "The $11-a-share offer would have been the biggest debut on the stock market since the telecommunication giant in 1997Get our breaking news email, free app or daily news podcastFirmus Technologies has scrapped what was set to be Australia\u2019s biggest company listing in decades after investor demand for its much-hyped AI datacentre business failed to materialise.A Firmus spokesperson said the board decided that proceeding with the offer was no longer in the best interests of the company and its shareholders. Continue reading...",
+      "published": "2026-10-09T04:37:55+00:00",
+      "score": 38.0,
+      "headline": "Australia's Biggest IPO Since Telstra CANCELLED"
+    },
+    {
+      "id": "d2115ce098f93091",
+      "title": "Beijing Police Launch Probe Into Wealth Manager CreditEase",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/beijing-police-launch-probe-into-wealth-manager-creditease",
+      "source": "Bloomberg Technology",
+      "summary": "Beijing police opened a criminal investigation into companies affiliated with Chinese wealth management firm CreditEase over suspected illegal financial activities.",
+      "published": "2026-10-12T05:57:50+00:00",
+      "score": 37.0,
+      "headline": null
+    },
+    {
+      "id": "26f25315df4fd32f",
+      "title": "The huge lurking leverage of AI hyperscalers",
+      "url": "https://www.ft.com/content/17a207f4-1563-48af-91e3-14bac89ab4b8?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "While equity investors look to sunny futures, creditors are scrutinising liabilities like leases on data centres",
+      "published": "2026-10-12T04:00:07+00:00",
+      "score": 37.0,
+      "headline": "AI Hyperscalers' Hidden Leverage Risk Exposed"
+    },
+    {
+      "id": "b5d02e2dd84e4e8c",
+      "title": "Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents",
+      "url": "https://arxiv.org/abs/2610.13267",
       "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.09021v1 Announce Type: new Abstract: An agentic system issues several structurally different kinds of LLM calls. It routes intent, classifies actions, grounds language in a device registry, plans multi-agent pipelines and writes the Python code those pipelines run. The difficulty of these call sites varies by an order of magnitude, yet in practice a single model, chosen for the hardest site, serves all of them. In this work, we evaluate 9 models from 0.8B to a frontier hosted model across the five call sites of a deployed open-source home-automation framework (Wactorz), using its unmodified production prompts and two real Home Assistant installations (280 cases, 2520 scored calls). We find that capability is not ordered the same way at every site, and that larger models are not uniformly better: one 4B model is worse than its 2B sibling at grounded actuation. Paired testing shows the best local model to be statistically indistinguishable from both hosted models at four of fi",
-      "published": "2026-10-08T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "Small LLMs Beat Frontier Models in Home Automation"
+      "summary": "arXiv:2610.13267v1 Announce Type: new Abstract: Large language model (LLM) agents are highly vulnerable to memory-poisoning attacks. Existing defenses primarily rely on external modules for either static memory isolation or continuous online auditing, resulting in low memory efficiency and high computational overhead. To address these limitations, inspired by neuroscientific mechanisms that weak reactivation can destabilize memories and induce decay in the absence of reinforcement, we propose an agent-intrinsic training-free memory repair framework, DREAM (Dynamic Reactivation for Engram Attenuation in Memory), that enables selective functional forgetting of poisoned memories. Specifically, DREAM implements a three-stage pipeline: perturbation-induced implicit reactivation to reveal the structural fragility of malicious memories, adaptive anomaly diagnosis based on multi-dimensional activation patterns to detect topological anomalies, and a dynamic memory repair module that selectively",
+      "published": "2026-10-12T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "Brain-Inspired 'Forgetting' Defends AI Agents From Memory Poisoning"
+    },
+    {
+      "id": "7ea62cac604b7288",
+      "title": "US probes Foxconn, Luxshare and 18 others over AI server power patents",
+      "url": "https://thenextweb.com/news/us-probes-foxconn-luxshare-and-18-others-over-ai-server-power-patents",
+      "source": "The Next Web",
+      "summary": "AUS trade body has opened a patent case against 20 companies over the power systems inside AI servers. Foxconn, Luxshare and Quanta are among them.The US International Trade Commission acted after a complaint by power-chip maker Vicor, it said on Friday. Vicor says their products infringe one of its patents. Twenty names on the list The case [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-11T17:11:22+00:00",
+      "score": 37.0,
+      "headline": "US Probes Foxconn, 19 Others Over AI Server Patents"
+    },
+    {
+      "id": "6875edd4998cf6e8",
+      "title": "Google upgrades its AI detection tool. How to use SynthID.",
+      "url": "https://mashable.com/tech/google-upgrades-synthid-detector-how-to-use",
+      "source": "Mashable Tech",
+      "summary": "Google's SynthID Detector will help detect AI-generated media.",
+      "published": "2026-10-11T14:48:02+00:00",
+      "score": 37.0,
+      "headline": "Google Upgrades SynthID AI Detection Tool"
     }
-  ]
+  ],
+  "generated_at": "2026-10-12T06:21:37.194621"
 }
