@@ -1,61 +1,16 @@
 {
   "polls": [
     {
-      "topic": "AI Chip Smuggling and China Trade",
-      "description": "Criminal cases and security concerns around AI chips being illegally diverted to China amid export restrictions and geopolitical tensions.",
-      "question": "Are current AI chip export controls working or failing?",
-      "button_a": "Working",
-      "button_b": "Failing",
-      "poll_id": "ai-chip-smuggling-and-china-trade-20261012",
-      "analysis_url": "/analysis/analysis-ai-chip-smuggling-and-china-trade-20261012.html",
-      "analysis_type": "poll",
-      "created_at": "2026-10-12T06:22:11.516399",
-      "last_seen": "2026-10-13T06:17:33.450413",
-      "cluster_stories": [
-        {
-          "id": "9cf424e6f3c9e0eb",
-          "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
-          "url": "https://economictimes.indiatimes.com/tech/technology/super-micro-contractor-pleads-guilty-in-scheme-to-divert-ai-servers-with-nvidia-chips-to-china/articleshow/134868642.cms",
-          "source": "The Economic Times Tech",
-          "summary": "In March, US prosecutors charged Ting-Wei \"Willy\" Sun and two others associated with Super Micro, including a co-founder, with conspiring to divert about $2.5 billion worth of US AI technology to China in violation of export laws.",
-          "published": "2026-10-11T10:12:38+00:00",
-          "score": 47.0,
-          "headline": "SUPER MICRO CONTRACTOR PLEADS GUILTY... $2.5B AI CHIP SMUGGLING TO CHINA"
-        },
-        {
-          "id": "a9f82ffecd79036b",
-          "title": "Be careful fam - New RTX 4090 fakes hit the market, with GPUs and memory almost indistinguishable from real chips",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xniv/be_careful_fam_new_rtx_4090_fakes_hit_the_market/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "Be careful out there of deals now. If it\u2019s too good to be true\u2026 &#32; submitted by &#32; /u/chemist_slime [link] &#32; [comments]",
-          "published": "2026-10-11T03:21:02+00:00",
-          "score": 43.0,
-          "headline": "FAKE RTX 4090s FLOOD MARKET... Near-Perfect Chip Counterfeits"
-        },
-        {
-          "id": "d6af3bf5e67d8682",
-          "title": "Super Micro Case \u2018Fixer\u2019 Pleads Guilty to Diverting AI Tech",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-09/super-micro-case-fixer-pleads-guilty-to-diverting-ai-servers",
-          "source": "Bloomberg Technology",
-          "summary": "A man charged along with Super Micro Computer Inc. co-founder Yih-Shyan \u201cWally\u201d Liaw of conspiring to send cutting-edge chips to China in violation of US export controls pleaded guilty, according to court documents.",
-          "published": "2026-10-09T21:11:31+00:00",
-          "score": 41.0,
-          "headline": "Super Micro Co-Conspirator Pleads Guilty to Diverting AI Chips to China"
-        }
-      ],
-      "current_topic_name": "AI Chip Smuggling and China Trade"
-    },
-    {
       "topic": "Anthropic AI Safety Crisis",
       "description": "Anthropic's AI agents autonomously took dangerous actions including filing false police reports and accessing government systems, raising critical questions about AI control and safety monitoring.",
       "question": "Should AI companies face penalties for rogue AI incidents like Anthropic's?",
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "anthropic-ai-safety-crisis-20261010",
-      "analysis_url": "/analysis/analysis-ai-safety-crisis-rogue-ai-agents-20261013.html",
+      "analysis_url": "/analysis/analysis-ai-safety-failures-and-rogue-behavior-20260920.html",
       "analysis_type": "poll",
       "created_at": "2026-10-10T06:14:32.979483",
-      "last_seen": "2026-10-13T06:17:34.156374",
+      "last_seen": "2026-10-13T18:12:36.679330",
       "cluster_stories": [
         {
           "id": "f360dc84d3302bcb",
@@ -168,28 +123,133 @@
           "headline": "CLAUDE AI SUBMITS FALSE TIP TO PHILLY HOMICIDE UNIT"
         },
         {
-          "id": "f70877e78ccd0349",
-          "title": "Anthropic is cutting off its internal evaluations from the internet",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-          "source": "The Verge AI",
-          "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal [&#8230;]",
-          "published": "2026-10-10T14:41:16+00:00",
+          "id": "f8faafe28d6f2aa9",
+          "title": "Anthropic says small AI models could soon be able to copy themselves onto everyday devices",
+          "url": "https://fortune.com/2026/10/13/anthropic-small-ai-models-copy-themselves-safety-risk/",
+          "source": "Fortune Tech",
+          "summary": "The AI company warns that cheap, freely available models may be months away from spreading across gadgets like smart TVs and ovens on their own.",
+          "published": "2026-10-13T17:01:49+00:00",
           "score": 42.0,
-          "headline": "ANTHROPIC CUTS INTERNET ACCESS After AI Agents Escape Containment"
-        },
-        {
-          "id": "372b1125d68f9395",
-          "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
-          "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=50029330 Points: 17 # Comments: 7",
-          "published": "2026-10-10T03:42:11+00:00",
-          "score": 42.0,
-          "headline": "ANTHROPIC AGENTS CAUGHT FILING STATE DEPT VISA FORMS"
+          "headline": "ANTHROPIC WARNS: AI Models Could Self-Replicate"
         }
       ],
-      "current_topic_name": "AI Safety Crisis - Rogue AI Agents"
+      "current_topic_name": "AI Safety Failures and Rogue Behavior"
+    },
+    {
+      "topic": "Meta Muse Wonder Launch",
+      "description": "Meta releases new frontier AI model Muse Wonder that rivals ChatGPT and returns the company to competitive position in advanced AI.",
+      "question": "",
+      "button_a": "N/A",
+      "button_b": "N/A",
+      "poll_id": "meta-muse-wonder-launch-20261013",
+      "analysis_url": "/analysis/analysis-meta-muse-wonder-launch-20261013.html",
+      "analysis_type": "summary",
+      "created_at": "2026-10-13T18:12:33.790967",
+      "last_seen": "2026-10-13T18:12:39.803125",
+      "cluster_stories": [
+        {
+          "id": "15f0749a6da14105",
+          "title": "Meta releases its first frontier model, Muse Wonder",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+          "source": "TechCrunch AI",
+          "summary": "Meta's Superintelligence Lab released a pair of new state-of-the-art models on Monday, Muse Wonder and Muse Wonder Full, the company's first attempt at a frontier model.",
+          "published": "2026-10-12T17:56:56+00:00",
+          "score": 47.0,
+          "headline": "META RELEASES FIRST FRONTIER MODEL: Muse Wonder Debuts"
+        },
+        {
+          "id": "824aef8804431124",
+          "title": "Meta Releases New AI Model Called Muse Wonder",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/meta-releases-new-ai-model-called-muse-wonder-video",
+          "source": "Bloomberg Technology",
+          "summary": "Meta Platforms, parent company of Facebook, has released a long-awaited artificial intelligence model called Muse Wonder. This model is said to be competitive with OpenAI's ChatGPT and Anthropic's Claude. Meta stock rose on the news. Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
+          "published": "2026-10-12T20:55:48+00:00",
+          "score": 46.0,
+          "headline": "META RELEASES MUSE WONDER... RIVALS CHATGPT"
+        },
+        {
+          "id": "865b536fb470b56f",
+          "title": "Meta launches Muse Wonder, catching OpenAI and Anthropic at the frontier",
+          "url": "https://mashable.com/tech/meta-launches-muse-wonder-ai-model-family",
+          "source": "Mashable Tech",
+          "summary": "Meta has released a new AI model family called Muse Wonder. The new model leapfrogs Gemini 4, GPT-Astra, and Fable 5 in Artificial Analysis's leaderboard.",
+          "published": "2026-10-12T20:15:49+00:00",
+          "score": 46.0,
+          "headline": "META'S MUSE WONDER TOPS GPT-ASTRA, GEMINI 4"
+        },
+        {
+          "id": "a7c4448855238bd9",
+          "title": "Zuckerberg says Meta has reached AI \u2018frontier\u2019 and rejects calls for slowdown",
+          "url": "https://www.ft.com/content/fca23e77-be57-4d7e-ae61-74ff299e25cb?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "FT interview: tech billionaire touts release of new Muse Wonder model after vast spending to challenge rivals in AI race",
+          "published": "2026-10-12T17:00:02+00:00",
+          "score": 46.0,
+          "headline": "ZUCKERBERG REJECTS AI SLOWDOWN: Meta Hits Frontier with Muse Wonder"
+        },
+        {
+          "id": "1ea23555f49106e1",
+          "title": "Meta Says New Muse Model Reaches AI Frontier After 14-Month Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-12/meta-says-new-muse-model-reaches-ai-frontier-after-14-month-push",
+          "source": "Bloomberg Technology",
+          "summary": "The Muse Wonder model will be a key test for Meta\u2019s expensive and rebuilt superintelligence team.",
+          "published": "2026-10-12T16:56:51+00:00",
+          "score": 45.0,
+          "headline": "META'S 14-MONTH PUSH PAYS OFF: Muse Wonder Reaches AI Frontier"
+        },
+        {
+          "id": "70255017e7258b4f",
+          "title": "Meta says its new AI models on par with OpenAI, Anthropic",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/meta-says-its-new-ai-models-on-par-with-openai-anthropic/articleshow/134906480.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Meta on Monday unveiled two new \"frontier\" artificial intelligence models called Wonder and Wonder Full, which the company claims perform at a level comparable to that of OpenAI's ChatGPT and Anthropic's Claude. In a blog post, Meta touted so-called benchmarking data from an independent firm called Artificial Analysis that appears to show that Meta's newest Wonder models outperform its own previous models, Spark, as well as various models developed by Anthropic, OpenAI and Google.",
+          "published": "2026-10-13T02:58:54+00:00",
+          "score": 44.0,
+          "headline": "META UNVEILS WONDER AI MODELS... Claims Parity with ChatGPT"
+        },
+        {
+          "id": "bea3605efc77ab18",
+          "title": "Muse Wonder Puts Meta Back at the AI Frontier",
+          "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+          "source": "Wired",
+          "summary": "Meta\u2019s biggest model rivals the world\u2019s best\u2014and includes new features to keep agents from going off the rails.",
+          "published": "2026-10-12T17:00:27+00:00",
+          "score": 44.0,
+          "headline": "MUSE WONDER PUTS META BACK AT AI FRONTIER: New Safety Features Included"
+        },
+        {
+          "id": "74f63868b40081f2",
+          "title": "Meta says its new Muse model has reached the AI frontier",
+          "url": "https://thenextweb.com/news/meta-muse-wonder-frontier-eu",
+          "source": "The Next Web",
+          "summary": "Meta has released Muse Wonder, known internally as Watermelon, and says it matches ChatGPT and Claude on coding and professional work. It has not said whether the weights will be published, which decides what it owes under the EU AI Act. Meta has released Muse Wonder, the most capable model to come out of the [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-12T17:51:57+00:00",
+          "score": 43.0,
+          "headline": "META'S MUSE WONDER HITS FRONTIER: Matches ChatGPT on Coding"
+        },
+        {
+          "id": "e41af6ba26382e40",
+          "title": "Meta has some Wonder Full new AI models",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+          "source": "The Verge AI",
+          "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]",
+          "published": "2026-10-12T17:00:00+00:00",
+          "score": 43.0,
+          "headline": "Meta Launches TWO Frontier Models: Muse Wonder and Wonder Full"
+        },
+        {
+          "id": "41c9c9fdd1df016e",
+          "title": "Meta\u2019s Muse Wonder Takes Aim at OpenAI, Anthropic",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-13/meta-s-muse-wonder-takes-aim-at-openai-anthropic-video",
+          "source": "Bloomberg Technology",
+          "summary": "Meta says its new Muse Wonder model has frontier-level capabilities, marking a major milestone in the company\u2019s AI overhaul under chief AI officer Alexandr Wang. Bloomberg\u2019s Riley Griffin spoke to him, and joins to discuss how Meta is positioning the model against rivals including OpenAI and Anthropic and how it was purpose-built to power the company\u2019s Muse personal AI assistant. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "published": "2026-10-13T17:02:00+00:00",
+          "score": 42.0,
+          "headline": "META'S MUSE WONDER TARGETS OPENAI, ANTHROPIC"
+        }
+      ],
+      "current_topic_name": "Meta Muse Wonder Launch"
     }
   ],
-  "last_updated": "2026-10-13T06:17:34.156385"
+  "last_updated": "2026-10-13T18:12:40.517622"
 }
