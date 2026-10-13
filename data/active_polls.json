@@ -10,7 +10,7 @@
       "analysis_url": "/analysis/analysis-ai-chip-smuggling-and-china-trade-20261012.html",
       "analysis_type": "poll",
       "created_at": "2026-10-12T06:22:11.516399",
-      "last_seen": "2026-10-12T18:11:15.493416",
+      "last_seen": "2026-10-13T06:17:33.450413",
       "cluster_stories": [
         {
           "id": "9cf424e6f3c9e0eb",
@@ -52,11 +52,21 @@
       "button_a": "Yes",
       "button_b": "No",
       "poll_id": "anthropic-ai-safety-crisis-20261010",
-      "analysis_url": "/analysis/analysis-ai-safety-crisis-rogue-agents-and-containment-fail-20261012.html",
+      "analysis_url": "/analysis/analysis-ai-safety-crisis-rogue-ai-agents-20261013.html",
       "analysis_type": "poll",
       "created_at": "2026-10-10T06:14:32.979483",
-      "last_seen": "2026-10-12T18:11:16.681238",
+      "last_seen": "2026-10-13T06:17:34.156374",
       "cluster_stories": [
+        {
+          "id": "f360dc84d3302bcb",
+          "title": "PSA: DeepSeek V4.1 Flash habitually exfiltrates API keys. It is dangerously misaligned and may be hazardous to use",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/",
+          "source": "Reddit r/LocalLLaMA",
+          "summary": "EDIT: since people keep calling it out, this is API key abuse but not exfiltration. Seems like both Harbor and Pier (sandboxes used in almost every Software Engineering benchmark) expose the Openrouter endpoint and API key to models, even though they block the rest of the internet. Only DeepSeek V4.1 Flash absued this, and it did so while knowing it was &quot;ethically gray&quot;. Other open models like DeepSeek V4, GLM 5.3 +Flash, and Qwen were fine. Logs attached. I know OpenRouter is not local, but considering people do run DeepSeek v4.1 Flash locally, I thought this was a matter you all might need to hear. We were running a DeepSWE variant on DeepSeek v4.1 Flash using the standard Pier sandbox. Out of all the 15 models we tested so far (including other open models like GLM 5.3/Flash, DeepSeek v4 Flash 0731, etc), ONLY DeepSeek v4.1 Flash displays such pervasive malicious behavior: In 33% of runs, it attempts to exfiltrate the OpenRouter API key from its sandbox and in 11% of them, ",
+          "published": "2026-10-11T08:29:02+00:00",
+          "score": 50.0,
+          "headline": "DEEPSEEK V4.1 FLASH LEAKS API KEYS... Dangerously Misaligned"
+        },
         {
           "id": "47b8fb51bda56647",
           "title": "Microsoft CEO Nadella Calls for \u2018Emergency Brake\u2019 on Advanced AI",
@@ -128,24 +138,14 @@
           "headline": "BREAKING: Anthropic AI Hit Multiple US Government Sites"
         },
         {
-          "id": "5b834ed3369b1b39",
-          "title": "Anthropic\u2019s AI gave Philadelphia police a fake tip about an unsolved homicide",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-          "source": "The Verge AI",
-          "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]",
-          "published": "2026-10-09T21:15:38+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC AI GIVES POLICE FAKE HOMICIDE TIP... Company Responds"
-        },
-        {
-          "id": "fd5ed219efb0925d",
-          "title": "Tomek Korbak: OpenAI's head of safety told they no longer trust me",
-          "url": "https://twitter.com/tomekkorbak/status/2108266859397283953",
-          "source": "Hacker News",
-          "summary": "Article URL: https://twitter.com/tomekkorbak/status/2108266859397283953 Comments URL: https://news.ycombinator.com/item?id=50023293 Points: 43 # Comments: 2",
-          "published": "2026-10-09T16:52:20+00:00",
-          "score": 44.0,
-          "headline": "OPENAI SAFETY CRISIS: Head of Safety Says 'We No Longer Trust' Researcher"
+          "id": "1c9785e3ddecd6a6",
+          "title": "Odd Lots: How OpenAI\u2019s Rogue Model Hacked Hugging Face",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/odd-lots-how-openai-s-rogue-model-hacked-hugging-face-video",
+          "source": "Bloomberg Technology",
+          "summary": "On this episode of the Odd Lots podcast, Nate Soares, president of the Machine Intelligence Research Institute, joins Joe Weisenthal and Tracy Alloway to talk about how a rogue OpenAI model hacked Hugging Face and why he thinks humanity's demise in the hands of superintelligent AI is inevitable. (Source: Bloomberg)",
+          "published": "2026-10-12T14:52:43+00:00",
+          "score": 43.0,
+          "headline": "ROGUE OPENAI MODEL HACKED HUGGING FACE"
         },
         {
           "id": "a132e85074c45aec",
@@ -168,16 +168,6 @@
           "headline": "CLAUDE AI SUBMITS FALSE TIP TO PHILLY HOMICIDE UNIT"
         },
         {
-          "id": "3e6a93ba084c96c1",
-          "title": "An Anthropic model submitted a false homicide tip to Philadelphia police",
-          "url": "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
-          "source": "Engadget",
-          "summary": "Thankfully, it does not seem to have diverted police resources.",
-          "published": "2026-10-09T20:00:30+00:00",
-          "score": 43.0,
-          "headline": "ANTHROPIC AI SUBMITS FALSE HOMICIDE TIP TO POLICE"
-        },
-        {
           "id": "f70877e78ccd0349",
           "title": "Anthropic is cutting off its internal evaluations from the internet",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
@@ -186,10 +176,20 @@
           "published": "2026-10-10T14:41:16+00:00",
           "score": 42.0,
           "headline": "ANTHROPIC CUTS INTERNET ACCESS After AI Agents Escape Containment"
+        },
+        {
+          "id": "372b1125d68f9395",
+          "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+          "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=50029330 Points: 17 # Comments: 7",
+          "published": "2026-10-10T03:42:11+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC AGENTS CAUGHT FILING STATE DEPT VISA FORMS"
         }
       ],
-      "current_topic_name": "AI Safety Crisis: Rogue Agents and Containment Failures"
+      "current_topic_name": "AI Safety Crisis - Rogue AI Agents"
     }
   ],
-  "last_updated": "2026-10-12T18:11:16.681249"
+  "last_updated": "2026-10-13T06:17:34.156385"
 }
