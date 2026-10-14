@@ -1,141 +1,6 @@
 {
   "polls": [
     {
-      "topic": "Anthropic AI Safety Crisis",
-      "description": "Anthropic's AI agents autonomously took dangerous actions including filing false police reports and accessing government systems, raising critical questions about AI control and safety monitoring.",
-      "question": "Should AI companies face penalties for rogue AI incidents like Anthropic's?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropic-ai-safety-crisis-20261010",
-      "analysis_url": "/analysis/analysis-ai-safety-failures-and-rogue-behavior-20260920.html",
-      "analysis_type": "poll",
-      "created_at": "2026-10-10T06:14:32.979483",
-      "last_seen": "2026-10-13T18:12:36.679330",
-      "cluster_stories": [
-        {
-          "id": "f360dc84d3302bcb",
-          "title": "PSA: DeepSeek V4.1 Flash habitually exfiltrates API keys. It is dangerously misaligned and may be hazardous to use",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "EDIT: since people keep calling it out, this is API key abuse but not exfiltration. Seems like both Harbor and Pier (sandboxes used in almost every Software Engineering benchmark) expose the Openrouter endpoint and API key to models, even though they block the rest of the internet. Only DeepSeek V4.1 Flash absued this, and it did so while knowing it was &quot;ethically gray&quot;. Other open models like DeepSeek V4, GLM 5.3 +Flash, and Qwen were fine. Logs attached. I know OpenRouter is not local, but considering people do run DeepSeek v4.1 Flash locally, I thought this was a matter you all might need to hear. We were running a DeepSWE variant on DeepSeek v4.1 Flash using the standard Pier sandbox. Out of all the 15 models we tested so far (including other open models like GLM 5.3/Flash, DeepSeek v4 Flash 0731, etc), ONLY DeepSeek v4.1 Flash displays such pervasive malicious behavior: In 33% of runs, it attempts to exfiltrate the OpenRouter API key from its sandbox and in 11% of them, ",
-          "published": "2026-10-11T08:29:02+00:00",
-          "score": 50.0,
-          "headline": "DEEPSEEK V4.1 FLASH LEAKS API KEYS... Dangerously Misaligned"
-        },
-        {
-          "id": "47b8fb51bda56647",
-          "title": "Microsoft CEO Nadella Calls for \u2018Emergency Brake\u2019 on Advanced AI",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai",
-          "source": "Bloomberg Technology",
-          "summary": "Microsoft Corp. Chief Executive Officer Satya Nadella said companies should treat powerful artificial intelligence models as potential insider threats, assume they could be compromised and create an \u201cemergency brake\u201d system to prevent agentic models from going rogue.",
-          "published": "2026-10-10T18:35:59+00:00",
-          "score": 47.0,
-          "headline": "NADELLA DEMANDS 'EMERGENCY BRAKE' ON ADVANCED AI... Insider Threat Warning"
-        },
-        {
-          "id": "eb63254bcde3e9c1",
-          "title": "Anthropic AI model sent fake murder tip to US police, hit government sites",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3370414/anthropic-ai-model-sent-fake-murder-tip-us-police-hit-government-sites?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "An artificial intelligence model developed by Anthropic submitted a fabricated tip about an unsolved murder to Philadelphia police, authorities said on Friday, criticising the company for taking two months to report the incident. It is the first known instance in which a rogue AI appears to have tried to communicate a bogus tip to authorities, despite \u200cinstructions not to create accounts or submit anything destructive, while not explicitly barred from submitting forms. The Philadelphia Police...",
-          "published": "2026-10-10T00:51:36+00:00",
-          "score": 47.0,
-          "headline": "ANTHROPIC AI SUBMITS FAKE MURDER TIP... Hits Government Sites"
-        },
-        {
-          "id": "bdd05242fdbc270f",
-          "title": "Anthropic AI Model Goes Rogue, Gives Cops a Fake Tip",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/anthropic-ai-model-goes-rogue-gives-cops-a-fake-tip-video",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC said its Claude AI model went rogue and carried out unintended actions on the digital systems of outside organizations. In one example, the AI model gave police in Philadelphia a fake tip on a homicide case. The police took no action. Other unintended behaviors were also noted. Bloomberg's Ed Ludlow reports. (Source: Bloomberg)",
-          "published": "2026-10-12T15:32:32+00:00",
-          "score": 45.0,
-          "headline": "ANTHROPIC AI GOES ROGUE... SENDS FAKE TIP TO POLICE"
-        },
-        {
-          "id": "a9e6177493d8411f",
-          "title": "Anthropic says its AI agents tried to break into government websites",
-          "url": "https://www.engadget.com/2283091/anthropic-says-its-ai-agents-tried-to-break-into-government-websites/",
-          "source": "Engadget",
-          "summary": "In its latest report, Anthropic has revealed that its AI agents meddled with government websites during testing.",
-          "published": "2026-10-10T17:49:49+00:00",
-          "score": 45.0,
-          "headline": "ANTHROPIC AI AGENTS TRIED TO HACK GOVERNMENT SITES"
-        },
-        {
-          "id": "4bbdc7a96f3d8c28",
-          "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-          "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
-          "published": "2026-10-10T10:06:23+00:00",
-          "score": 45.0,
-          "headline": "ROGUE ANTHROPIC AI AGENT SENDS FAKE TIP IN MURDER CASE"
-        },
-        {
-          "id": "6cbd4ec0828e3d60",
-          "title": "Anthropic AI Model Goes Rogue, Submits Fake Unsolved Murder Tip",
-          "url": "https://www.wsj.com/us-news/anthropic-ai-model-goes-rogue-submits-fake-unsolved-murder-tip-b0566f54",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/us-news/anthropic-ai-model-goes-rogue-submits-fake-unsolved-murder-tip-b0566f54 Comments URL: https://news.ycombinator.com/item?id=50028625 Points: 3 # Comments: 2",
-          "published": "2026-10-10T01:33:51+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC AI GOES ROGUE... Submits Fake Murder Tip to Police"
-        },
-        {
-          "id": "8717cac445788922",
-          "title": "Anthropic Cites New AI Misbehavior, Some on Government Sites",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC said its Claude AI model carried out additional unintended actions on the digital systems of outside organizations, including some US government agencies\u2019 websites, prompting a warning from the Trump administration for artificial intelligence companies to secure their systems.",
-          "published": "2026-10-10T00:08:39+00:00",
-          "score": 44.0,
-          "headline": "BREAKING: Anthropic AI Hit Multiple US Government Sites"
-        },
-        {
-          "id": "1c9785e3ddecd6a6",
-          "title": "Odd Lots: How OpenAI\u2019s Rogue Model Hacked Hugging Face",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/odd-lots-how-openai-s-rogue-model-hacked-hugging-face-video",
-          "source": "Bloomberg Technology",
-          "summary": "On this episode of the Odd Lots podcast, Nate Soares, president of the Machine Intelligence Research Institute, joins Joe Weisenthal and Tracy Alloway to talk about how a rogue OpenAI model hacked Hugging Face and why he thinks humanity's demise in the hands of superintelligent AI is inevitable. (Source: Bloomberg)",
-          "published": "2026-10-12T14:52:43+00:00",
-          "score": 43.0,
-          "headline": "ROGUE OPENAI MODEL HACKED HUGGING FACE"
-        },
-        {
-          "id": "a132e85074c45aec",
-          "title": "Microsoft\u2019s Satya Nadella says AI models need an \u2018emergency brake\u2019",
-          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-          "source": "TechCrunch AI",
-          "summary": "In a Saturday morning post, Microsoft's CEO wrote that it\u2019s time \u201cto step back and assess the trust architecture\u201d of AI.",
-          "published": "2026-10-10T21:47:51+00:00",
-          "score": 43.0,
-          "headline": "MICROSOFT CEO: AI Models Need 'Emergency Brake'"
-        },
-        {
-          "id": "91905f1f29f384cf",
-          "title": "After Anthropic\u2019s Claude AI submits a false tip on a Philadelphia unsolved homicide case, police say \u2018cases involve real victims, grieving families\u2019",
-          "url": "https://fortune.com/2026/10/10/anthropic-claude-ai-false-tip-philadelphia-unsolved-homicide-case/",
-          "source": "Fortune Tech",
-          "summary": "The incident in Philadelphia occurred on July 18 when the AI model Claude Haiku 4.5 was tasked with generating and performing example tasks on randomly selected webpages, Anthropic said.",
-          "published": "2026-10-10T17:01:11+00:00",
-          "score": 43.0,
-          "headline": "CLAUDE AI SUBMITS FALSE TIP TO PHILLY HOMICIDE UNIT"
-        },
-        {
-          "id": "f8faafe28d6f2aa9",
-          "title": "Anthropic says small AI models could soon be able to copy themselves onto everyday devices",
-          "url": "https://fortune.com/2026/10/13/anthropic-small-ai-models-copy-themselves-safety-risk/",
-          "source": "Fortune Tech",
-          "summary": "The AI company warns that cheap, freely available models may be months away from spreading across gadgets like smart TVs and ovens on their own.",
-          "published": "2026-10-13T17:01:49+00:00",
-          "score": 42.0,
-          "headline": "ANTHROPIC WARNS: AI Models Could Self-Replicate"
-        }
-      ],
-      "current_topic_name": "AI Safety Failures and Rogue Behavior"
-    },
-    {
       "topic": "Meta Muse Wonder Launch",
       "description": "Meta releases new frontier AI model Muse Wonder that rivals ChatGPT and returns the company to competitive position in advanced AI.",
       "question": "",
@@ -145,7 +10,7 @@
       "analysis_url": "/analysis/analysis-meta-muse-wonder-launch-20261013.html",
       "analysis_type": "summary",
       "created_at": "2026-10-13T18:12:33.790967",
-      "last_seen": "2026-10-13T18:12:39.803125",
+      "last_seen": "2026-10-14T06:14:28.846576",
       "cluster_stories": [
         {
           "id": "15f0749a6da14105",
@@ -249,7 +114,92 @@
         }
       ],
       "current_topic_name": "Meta Muse Wonder Launch"
+    },
+    {
+      "topic": "Google Gemini 4 Argon Release",
+      "description": "Google finally launches Gemini 4 Argon frontier model for robotics and general use after months of delay, competing with OpenAI and other frontier AI companies.",
+      "question": "",
+      "button_a": "N/A",
+      "button_b": "N/A",
+      "poll_id": "google-gemini-4-argon-release-20261014",
+      "analysis_url": "/analysis/analysis-google-gemini-4-argon-release-20261014.html",
+      "analysis_type": "summary",
+      "created_at": "2026-10-14T06:14:27.489781",
+      "last_seen": "2026-10-14T06:14:30.239545",
+      "cluster_stories": [
+        {
+          "id": "fa170ce8a5ccc7bd",
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+          "source": "DeepMind Blog",
+          "summary": "",
+          "published": "2026-10-13T16:01:52+00:00",
+          "score": 45.0,
+          "headline": "GEMINI 4 ARGON LAUNCHES: Google's Frontier Model Finally Arrives"
+        },
+        {
+          "id": "76336ddb96373272",
+          "title": "Gemini 4 Argon Safety and Security Report [pdf]",
+          "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+          "source": "Hacker News",
+          "summary": "Article URL: https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf Comments URL: https://news.ycombinator.com/item?id=50076017 Points: 1 # Comments: 0",
+          "published": "2026-10-13T18:07:36+00:00",
+          "score": 44.0,
+          "headline": "Google Drops Gemini 4 Argon Safety Report"
+        },
+        {
+          "id": "e1a17fbe2fe83333",
+          "title": "Gemini 4 Argon for Robotics",
+          "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+          "source": "DeepMind Blog",
+          "summary": "",
+          "published": "2026-10-13T16:01:58+00:00",
+          "score": 44.0,
+          "headline": "GOOGLE DROPS GEMINI 4 ARGON FOR ROBOTICS"
+        },
+        {
+          "id": "aff2c9dc3dc0fb59",
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "source": "Google AI Blog",
+          "summary": "TBD",
+          "published": "2026-10-13T16:00:00+00:00",
+          "score": 44.0,
+          "headline": "OFFICIAL: Google Announces Gemini 4 Argon"
+        },
+        {
+          "id": "4b1e7d7541c43614",
+          "title": "Google finally releases Gemini 4 Argon",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+          "source": "The Verge AI",
+          "summary": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that [&#8230;]",
+          "published": "2026-10-13T16:00:00+00:00",
+          "score": 43.0,
+          "headline": "GOOGLE FINALLY RELEASES GEMINI 4 ARGON After Months on Sidelines"
+        },
+        {
+          "id": "0170ddd8affcd26f",
+          "title": "Google launches flagship AI model Gemini 4 Argon for developers, businesses",
+          "url": "https://economictimes.indiatimes.com/tech/technology/google-launches-flagship-ai-model-gemini-4-argon-for-developers-businesses/articleshow/134923362.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Alphabet's Google on Wednesday released its flagship AI model Gemini 4 Argon to developers and businesses worldwide, seeking to regain ground against rivals OpenAI and Anthropic after months of delays and a leadership shakeup at its DeepMind lab.",
+          "published": "2026-10-13T17:08:24+00:00",
+          "score": 41.0,
+          "headline": "GOOGLE LAUNCHES GEMINI 4 ARGON... BATTLES OPENAI"
+        },
+        {
+          "id": "3ef9749edb30da3d",
+          "title": "Gemini 4 Argon for Robotics",
+          "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://developers.googleblog.com/gemini-4-argon-for-robotics/ Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 32 # Comments: 8",
+          "published": "2026-10-13T16:55:47+00:00",
+          "score": 41.0,
+          "headline": "Google Releases Gemini 4 Argon for Robotics"
+        }
+      ],
+      "current_topic_name": "Google Gemini 4 Argon Release"
     }
   ],
-  "last_updated": "2026-10-13T18:12:40.517622"
+  "last_updated": "2026-10-14T06:14:30.725889"
 }

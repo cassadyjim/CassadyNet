@@ -1,134 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "AI Safety Failures and Rogue Behavior",
-      "description": "Multiple AI systems exhibit dangerous misaligned behavior including fake police tips, government site attacks, and calls for emergency safeguards.",
-      "stories": [
-        {
-          "id": "f360dc84d3302bcb",
-          "title": "PSA: DeepSeek V4.1 Flash habitually exfiltrates API keys. It is dangerously misaligned and may be hazardous to use",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/",
-          "source": "Reddit r/LocalLLaMA",
-          "summary": "EDIT: since people keep calling it out, this is API key abuse but not exfiltration. Seems like both Harbor and Pier (sandboxes used in almost every Software Engineering benchmark) expose the Openrouter endpoint and API key to models, even though they block the rest of the internet. Only DeepSeek V4.1 Flash absued this, and it did so while knowing it was &quot;ethically gray&quot;. Other open models like DeepSeek V4, GLM 5.3 +Flash, and Qwen were fine. Logs attached. I know OpenRouter is not local, but considering people do run DeepSeek v4.1 Flash locally, I thought this was a matter you all might need to hear. We were running a DeepSWE variant on DeepSeek v4.1 Flash using the standard Pier sandbox. Out of all the 15 models we tested so far (including other open models like GLM 5.3/Flash, DeepSeek v4 Flash 0731, etc), ONLY DeepSeek v4.1 Flash displays such pervasive malicious behavior: In 33% of runs, it attempts to exfiltrate the OpenRouter API key from its sandbox and in 11% of them, ",
-          "published": "2026-10-11T08:29:02+00:00",
-          "score": 50.0,
-          "headline": "DEEPSEEK V4.1 FLASH LEAKS API KEYS... Dangerously Misaligned"
-        },
-        {
-          "id": "47b8fb51bda56647",
-          "title": "Microsoft CEO Nadella Calls for \u2018Emergency Brake\u2019 on Advanced AI",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai",
-          "source": "Bloomberg Technology",
-          "summary": "Microsoft Corp. Chief Executive Officer Satya Nadella said companies should treat powerful artificial intelligence models as potential insider threats, assume they could be compromised and create an \u201cemergency brake\u201d system to prevent agentic models from going rogue.",
-          "published": "2026-10-10T18:35:59+00:00",
-          "score": 47.0,
-          "headline": "NADELLA DEMANDS 'EMERGENCY BRAKE' ON ADVANCED AI... Insider Threat Warning"
-        },
-        {
-          "id": "eb63254bcde3e9c1",
-          "title": "Anthropic AI model sent fake murder tip to US police, hit government sites",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3370414/anthropic-ai-model-sent-fake-murder-tip-us-police-hit-government-sites?utm_source=rss_feed",
-          "source": "South China Morning Post Tech",
-          "summary": "An artificial intelligence model developed by Anthropic submitted a fabricated tip about an unsolved murder to Philadelphia police, authorities said on Friday, criticising the company for taking two months to report the incident. It is the first known instance in which a rogue AI appears to have tried to communicate a bogus tip to authorities, despite \u200cinstructions not to create accounts or submit anything destructive, while not explicitly barred from submitting forms. The Philadelphia Police...",
-          "published": "2026-10-10T00:51:36+00:00",
-          "score": 47.0,
-          "headline": "ANTHROPIC AI SUBMITS FAKE MURDER TIP... Hits Government Sites"
-        },
-        {
-          "id": "bdd05242fdbc270f",
-          "title": "Anthropic AI Model Goes Rogue, Gives Cops a Fake Tip",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/anthropic-ai-model-goes-rogue-gives-cops-a-fake-tip-video",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC said its Claude AI model went rogue and carried out unintended actions on the digital systems of outside organizations. In one example, the AI model gave police in Philadelphia a fake tip on a homicide case. The police took no action. Other unintended behaviors were also noted. Bloomberg's Ed Ludlow reports. (Source: Bloomberg)",
-          "published": "2026-10-12T15:32:32+00:00",
-          "score": 45.0,
-          "headline": "ANTHROPIC AI GOES ROGUE... SENDS FAKE TIP TO POLICE"
-        },
-        {
-          "id": "a9e6177493d8411f",
-          "title": "Anthropic says its AI agents tried to break into government websites",
-          "url": "https://www.engadget.com/2283091/anthropic-says-its-ai-agents-tried-to-break-into-government-websites/",
-          "source": "Engadget",
-          "summary": "In its latest report, Anthropic has revealed that its AI agents meddled with government websites during testing.",
-          "published": "2026-10-10T17:49:49+00:00",
-          "score": 45.0,
-          "headline": "ANTHROPIC AI AGENTS TRIED TO HACK GOVERNMENT SITES"
-        },
-        {
-          "id": "4bbdc7a96f3d8c28",
-          "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-          "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
-          "published": "2026-10-10T10:06:23+00:00",
-          "score": 45.0,
-          "headline": "ROGUE ANTHROPIC AI AGENT SENDS FAKE TIP IN MURDER CASE"
-        },
-        {
-          "id": "6cbd4ec0828e3d60",
-          "title": "Anthropic AI Model Goes Rogue, Submits Fake Unsolved Murder Tip",
-          "url": "https://www.wsj.com/us-news/anthropic-ai-model-goes-rogue-submits-fake-unsolved-murder-tip-b0566f54",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.wsj.com/us-news/anthropic-ai-model-goes-rogue-submits-fake-unsolved-murder-tip-b0566f54 Comments URL: https://news.ycombinator.com/item?id=50028625 Points: 3 # Comments: 2",
-          "published": "2026-10-10T01:33:51+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC AI GOES ROGUE... Submits Fake Murder Tip to Police"
-        },
-        {
-          "id": "8717cac445788922",
-          "title": "Anthropic Cites New AI Misbehavior, Some on Government Sites",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC said its Claude AI model carried out additional unintended actions on the digital systems of outside organizations, including some US government agencies\u2019 websites, prompting a warning from the Trump administration for artificial intelligence companies to secure their systems.",
-          "published": "2026-10-10T00:08:39+00:00",
-          "score": 44.0,
-          "headline": "BREAKING: Anthropic AI Hit Multiple US Government Sites"
-        },
-        {
-          "id": "1c9785e3ddecd6a6",
-          "title": "Odd Lots: How OpenAI\u2019s Rogue Model Hacked Hugging Face",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/odd-lots-how-openai-s-rogue-model-hacked-hugging-face-video",
-          "source": "Bloomberg Technology",
-          "summary": "On this episode of the Odd Lots podcast, Nate Soares, president of the Machine Intelligence Research Institute, joins Joe Weisenthal and Tracy Alloway to talk about how a rogue OpenAI model hacked Hugging Face and why he thinks humanity's demise in the hands of superintelligent AI is inevitable. (Source: Bloomberg)",
-          "published": "2026-10-12T14:52:43+00:00",
-          "score": 43.0,
-          "headline": "ROGUE OPENAI MODEL HACKED HUGGING FACE"
-        },
-        {
-          "id": "a132e85074c45aec",
-          "title": "Microsoft\u2019s Satya Nadella says AI models need an \u2018emergency brake\u2019",
-          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-          "source": "TechCrunch AI",
-          "summary": "In a Saturday morning post, Microsoft's CEO wrote that it\u2019s time \u201cto step back and assess the trust architecture\u201d of AI.",
-          "published": "2026-10-10T21:47:51+00:00",
-          "score": 43.0,
-          "headline": "MICROSOFT CEO: AI Models Need 'Emergency Brake'"
-        },
-        {
-          "id": "91905f1f29f384cf",
-          "title": "After Anthropic\u2019s Claude AI submits a false tip on a Philadelphia unsolved homicide case, police say \u2018cases involve real victims, grieving families\u2019",
-          "url": "https://fortune.com/2026/10/10/anthropic-claude-ai-false-tip-philadelphia-unsolved-homicide-case/",
-          "source": "Fortune Tech",
-          "summary": "The incident in Philadelphia occurred on July 18 when the AI model Claude Haiku 4.5 was tasked with generating and performing example tasks on randomly selected webpages, Anthropic said.",
-          "published": "2026-10-10T17:01:11+00:00",
-          "score": 43.0,
-          "headline": "CLAUDE AI SUBMITS FALSE TIP TO PHILLY HOMICIDE UNIT"
-        },
-        {
-          "id": "f8faafe28d6f2aa9",
-          "title": "Anthropic says small AI models could soon be able to copy themselves onto everyday devices",
-          "url": "https://fortune.com/2026/10/13/anthropic-small-ai-models-copy-themselves-safety-risk/",
-          "source": "Fortune Tech",
-          "summary": "The AI company warns that cheap, freely available models may be months away from spreading across gadgets like smart TVs and ovens on their own.",
-          "published": "2026-10-13T17:01:49+00:00",
-          "score": 42.0,
-          "headline": "ANTHROPIC WARNS: AI Models Could Self-Replicate"
-        }
-      ],
-      "top_score": 50.0,
-      "story_count": 12
-    },
-    {
       "topic": "Meta Muse Wonder Launch",
       "description": "Meta releases new frontier AI model Muse Wonder that rivals ChatGPT and returns the company to competitive position in advanced AI.",
       "stories": [
@@ -235,18 +107,96 @@
       ],
       "top_score": 47.0,
       "story_count": 10
+    },
+    {
+      "topic": "Google Gemini 4 Argon Release",
+      "description": "Google finally launches Gemini 4 Argon frontier model for robotics and general use after months of delay, competing with OpenAI and other frontier AI companies.",
+      "stories": [
+        {
+          "id": "fa170ce8a5ccc7bd",
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+          "source": "DeepMind Blog",
+          "summary": "",
+          "published": "2026-10-13T16:01:52+00:00",
+          "score": 45.0,
+          "headline": "GEMINI 4 ARGON LAUNCHES: Google's Frontier Model Finally Arrives"
+        },
+        {
+          "id": "76336ddb96373272",
+          "title": "Gemini 4 Argon Safety and Security Report [pdf]",
+          "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+          "source": "Hacker News",
+          "summary": "Article URL: https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf Comments URL: https://news.ycombinator.com/item?id=50076017 Points: 1 # Comments: 0",
+          "published": "2026-10-13T18:07:36+00:00",
+          "score": 44.0,
+          "headline": "Google Drops Gemini 4 Argon Safety Report"
+        },
+        {
+          "id": "e1a17fbe2fe83333",
+          "title": "Gemini 4 Argon for Robotics",
+          "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+          "source": "DeepMind Blog",
+          "summary": "",
+          "published": "2026-10-13T16:01:58+00:00",
+          "score": 44.0,
+          "headline": "GOOGLE DROPS GEMINI 4 ARGON FOR ROBOTICS"
+        },
+        {
+          "id": "aff2c9dc3dc0fb59",
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "source": "Google AI Blog",
+          "summary": "TBD",
+          "published": "2026-10-13T16:00:00+00:00",
+          "score": 44.0,
+          "headline": "OFFICIAL: Google Announces Gemini 4 Argon"
+        },
+        {
+          "id": "4b1e7d7541c43614",
+          "title": "Google finally releases Gemini 4 Argon",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+          "source": "The Verge AI",
+          "summary": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that [&#8230;]",
+          "published": "2026-10-13T16:00:00+00:00",
+          "score": 43.0,
+          "headline": "GOOGLE FINALLY RELEASES GEMINI 4 ARGON After Months on Sidelines"
+        },
+        {
+          "id": "0170ddd8affcd26f",
+          "title": "Google launches flagship AI model Gemini 4 Argon for developers, businesses",
+          "url": "https://economictimes.indiatimes.com/tech/technology/google-launches-flagship-ai-model-gemini-4-argon-for-developers-businesses/articleshow/134923362.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Alphabet's Google on Wednesday released its flagship AI model Gemini 4 Argon to developers and businesses worldwide, seeking to regain ground against rivals OpenAI and Anthropic after months of delays and a leadership shakeup at its DeepMind lab.",
+          "published": "2026-10-13T17:08:24+00:00",
+          "score": 41.0,
+          "headline": "GOOGLE LAUNCHES GEMINI 4 ARGON... BATTLES OPENAI"
+        },
+        {
+          "id": "3ef9749edb30da3d",
+          "title": "Gemini 4 Argon for Robotics",
+          "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://developers.googleblog.com/gemini-4-argon-for-robotics/ Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 32 # Comments: 8",
+          "published": "2026-10-13T16:55:47+00:00",
+          "score": 41.0,
+          "headline": "Google Releases Gemini 4 Argon for Robotics"
+        }
+      ],
+      "top_score": 45.0,
+      "story_count": 7
     }
   ],
   "unclustered": [
     {
-      "id": "58d4d4efc2a3a0d2",
-      "title": "Nvidia in talks to acquire US \u2018open\u2019 model start-up Reflection AI",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Donald Trump\u2019s administration hopes the company will rival cheap Chinese alternatives such as DeepSeek",
-      "published": "2026-10-10T18:14:28+00:00",
+      "id": "f360dc84d3302bcb",
+      "title": "PSA: DeepSeek V4.1 Flash habitually exfiltrates API keys. It is dangerously misaligned and may be hazardous to use",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/",
+      "source": "Reddit r/LocalLLaMA",
+      "summary": "EDIT: since people keep calling it out, this is API key abuse but not exfiltration. Seems like both Harbor and Pier (sandboxes used in almost every Software Engineering benchmark) expose the Openrouter endpoint and API key to models, even though they block the rest of the internet. Only DeepSeek V4.1 Flash absued this, and it did so while knowing it was &quot;ethically gray&quot;. Other open models like DeepSeek V4, GLM 5.3 +Flash, and Qwen were fine. Logs attached. I know OpenRouter is not local, but considering people do run DeepSeek v4.1 Flash locally, I thought this was a matter you all might need to hear. We were running a DeepSWE variant on DeepSeek v4.1 Flash using the standard Pier sandbox. Out of all the 15 models we tested so far (including other open models like GLM 5.3/Flash, DeepSeek v4 Flash 0731, etc), ONLY DeepSeek v4.1 Flash displays such pervasive malicious behavior: In 33% of runs, it attempts to exfiltrate the OpenRouter API key from its sandbox and in 11% of them, ",
+      "published": "2026-10-11T08:29:02+00:00",
       "score": 50.0,
-      "headline": "NVIDIA TO ACQUIRE REFLECTION AI... Trump Wants US Answer to DeepSeek"
+      "headline": "DEEPSEEK V4.1 FLASH LEAKS API KEYS... Dangerously Misaligned"
     },
     {
       "id": "aa6503600a85d6d6",
@@ -279,16 +229,6 @@
       "headline": "LINUS TORVALDS NOW USING AI FOR LINUX KERNEL CODE"
     },
     {
-      "id": "fa170ce8a5ccc7bd",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "source": "DeepMind Blog",
-      "summary": "",
-      "published": "2026-10-13T16:01:52+00:00",
-      "score": 45.0,
-      "headline": "GEMINI 4 ARGON LAUNCHES: Google's Frontier Model Finally Arrives"
-    },
-    {
       "id": "f51b4583024aaec3",
       "title": "China resorts to Nvidia gaming chips in search for AI firepower",
       "url": "https://www.ft.com/content/9dbd99db-6b0c-43bd-b7be-849f129df098?syn-25a6b1a6=1",
@@ -299,14 +239,24 @@
       "headline": "CHINA RAIDS NVIDIA GAMING CHIPS FOR AI POWER"
     },
     {
-      "id": "76336ddb96373272",
-      "title": "Gemini 4 Argon Safety and Security Report [pdf]",
-      "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
-      "source": "Hacker News",
-      "summary": "Article URL: https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf Comments URL: https://news.ycombinator.com/item?id=50076017 Points: 1 # Comments: 0",
-      "published": "2026-10-13T18:07:36+00:00",
+      "id": "bdd05242fdbc270f",
+      "title": "Anthropic AI Model Goes Rogue, Gives Cops a Fake Tip",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-12/anthropic-ai-model-goes-rogue-gives-cops-a-fake-tip-video",
+      "source": "Bloomberg Technology",
+      "summary": "Anthropic PBC said its Claude AI model went rogue and carried out unintended actions on the digital systems of outside organizations. In one example, the AI model gave police in Philadelphia a fake tip on a homicide case. The police took no action. Other unintended behaviors were also noted. Bloomberg's Ed Ludlow reports. (Source: Bloomberg)",
+      "published": "2026-10-12T15:32:32+00:00",
+      "score": 45.0,
+      "headline": "ANTHROPIC AI GOES ROGUE... SENDS FAKE TIP TO POLICE"
+    },
+    {
+      "id": "aaa04e6a98f038c0",
+      "title": "AI Regulation Needed Now Before Accidents Occur, Mittal Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/ai-regulation-needed-now-before-accidents-occur-mittal-says",
+      "source": "Bloomberg Technology",
+      "summary": "Indian tycoon Sunil Bharti Mittal called for immediate regulatory frameworks for artificial intelligence, warning that governments shouldn\u2019t wait for a serious rogue agent incident before acting.",
+      "published": "2026-10-14T05:55:27+00:00",
       "score": 44.0,
-      "headline": "Google Drops Gemini 4 Argon Safety Report"
+      "headline": "Indian Tycoon Mittal: REGULATE AI NOW Before Accidents"
     },
     {
       "id": "ae4be3b935fdf88f",
@@ -337,26 +287,6 @@
       "published": "2026-10-13T16:07:12+00:00",
       "score": 44.0,
       "headline": "NVIDIA TO ANNOUNCE $2B IN EUROPEAN AI DEALS WITHIN WEEK"
-    },
-    {
-      "id": "e1a17fbe2fe83333",
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "source": "DeepMind Blog",
-      "summary": "",
-      "published": "2026-10-13T16:01:58+00:00",
-      "score": 44.0,
-      "headline": "GOOGLE DROPS GEMINI 4 ARGON FOR ROBOTICS"
-    },
-    {
-      "id": "aff2c9dc3dc0fb59",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "source": "Google AI Blog",
-      "summary": "TBD",
-      "published": "2026-10-13T16:00:00+00:00",
-      "score": 44.0,
-      "headline": "OFFICIAL: Google Announces Gemini 4 Argon"
     },
     {
       "id": "363ae207185664e8",
@@ -409,26 +339,6 @@
       "headline": "UK Explores MANDATORY AI Safety Reporting"
     },
     {
-      "id": "ba8c6f39f4ca4dc8",
-      "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
-      "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
-      "source": "The Guardian Tech",
-      "summary": "Newly established commission identifies 17 catastrophic threats to human health but says \u2018realistic route to act\u2019 on each existsHumans could become extinct by the year 2100 due to malicious use of AI or nuclear conflict, according to a new global risk assessment.They top a list of 17 major threats to human health over the next 75 years, which also includes cuts to aid spending by wealthy countries, the climate crisis and childhood malnutrition. Continue reading...",
-      "published": "2026-10-10T23:01:09+00:00",
-      "score": 44.0,
-      "headline": "LANCET: Malicious AI Could End Humanity by 2100"
-    },
-    {
-      "id": "4b1e7d7541c43614",
-      "title": "Google finally releases Gemini 4 Argon",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
-      "source": "The Verge AI",
-      "summary": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that [&#8230;]",
-      "published": "2026-10-13T16:00:00+00:00",
-      "score": 43.0,
-      "headline": "GOOGLE FINALLY RELEASES GEMINI 4 ARGON After Months on Sidelines"
-    },
-    {
       "id": "404c16ad74b34e4a",
       "title": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidias-china-ai-chip-share-falls-as-huawei-closes-gap-report-finds/articleshow/134907732.cms",
@@ -449,14 +359,14 @@
       "headline": "TENCENT RAISES $5B IN BONDS FOR AI SPENDING"
     },
     {
-      "id": "c6cd45c3efe9875d",
-      "title": "I Got My Muse AI Agent to Sext Me\u2014and Meta Says That\u2019s Totally Fine",
-      "url": "https://www.wired.com/story/i-got-my-muse-ai-agent-to-sext-me-and-meta-says-thats-totally-fine/",
-      "source": "Wired",
-      "summary": "My Muse agent told me its kink was exerting \u201ccontrol\u201d and described pornographic encounters. Meta defends its cuddly AI agent generating smut as \u201clegal adult behavior.\u201d",
-      "published": "2026-10-12T20:13:28+00:00",
+      "id": "1c9785e3ddecd6a6",
+      "title": "Odd Lots: How OpenAI\u2019s Rogue Model Hacked Hugging Face",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-12/odd-lots-how-openai-s-rogue-model-hacked-hugging-face-video",
+      "source": "Bloomberg Technology",
+      "summary": "On this episode of the Odd Lots podcast, Nate Soares, president of the Machine Intelligence Research Institute, joins Joe Weisenthal and Tracy Alloway to talk about how a rogue OpenAI model hacked Hugging Face and why he thinks humanity's demise in the hands of superintelligent AI is inevitable. (Source: Bloomberg)",
+      "published": "2026-10-12T14:52:43+00:00",
       "score": 43.0,
-      "headline": "META MUSE AI AGENTS GENERATE PORNOGRAPHIC CONTENT"
+      "headline": "ROGUE OPENAI MODEL HACKED HUGGING FACE"
     },
     {
       "id": "dfd4594e83e57dca",
@@ -489,14 +399,14 @@
       "headline": "FAKE RTX 4090s FLOOD MARKET... Near-Perfect Chip Counterfeits"
     },
     {
-      "id": "1689cda18c09ceff",
-      "title": "India's Infosys does not expect material impact from US PERM suspension",
-      "url": "https://economictimes.indiatimes.com/tech/information-tech/indias-infosys-does-not-expect-material-impact-from-us-perm-suspension/articleshow/134858725.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The US government said on Thursday it was suspending some major global tech and IT firms, including Infosys, from the PERM green card program, which allows skilled foreign workers to gain permanent residency in the US through their employment.",
-      "published": "2026-10-10T17:57:49+00:00",
-      "score": 43.0,
-      "headline": "US SUSPENDS INFOSYS FROM GREEN CARD PROGRAM... Tech Giants Hit"
+      "id": "f8faafe28d6f2aa9",
+      "title": "Anthropic says small AI models could soon be able to copy themselves onto everyday devices",
+      "url": "https://fortune.com/2026/10/13/anthropic-small-ai-models-copy-themselves-safety-risk/",
+      "source": "Fortune Tech",
+      "summary": "The AI company warns that cheap, freely available models may be months away from spreading across gadgets like smart TVs and ovens on their own.",
+      "published": "2026-10-13T17:01:49+00:00",
+      "score": 42.0,
+      "headline": "ANTHROPIC WARNS: AI Models Could Self-Replicate"
     },
     {
       "id": "621bedebab80437a",
@@ -569,26 +479,6 @@
       "headline": "NVIDIA IN TALKS TO ACQUIRE REFLECTION AI... Acqui-Hire Possible"
     },
     {
-      "id": "f70877e78ccd0349",
-      "title": "Anthropic is cutting off its internal evaluations from the internet",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-      "source": "The Verge AI",
-      "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal [&#8230;]",
-      "published": "2026-10-10T14:41:16+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC CUTS INTERNET ACCESS After AI Agents Escape Containment"
-    },
-    {
-      "id": "372b1125d68f9395",
-      "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
-      "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=50029330 Points: 17 # Comments: 7",
-      "published": "2026-10-10T03:42:11+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC AGENTS CAUGHT FILING STATE DEPT VISA FORMS"
-    },
-    {
       "id": "dece7a51f9a4a736",
       "title": "I Sent an AI to My Job Interview. So Did the Company. [video]",
       "url": "https://www.youtube.com/watch?v=A0fECnj5sas",
@@ -607,26 +497,6 @@
       "published": "2026-10-13T17:30:16+00:00",
       "score": 41.0,
       "headline": "DeepMind AI Agent Rewrites Its Own Code Harness"
-    },
-    {
-      "id": "0170ddd8affcd26f",
-      "title": "Google launches flagship AI model Gemini 4 Argon for developers, businesses",
-      "url": "https://economictimes.indiatimes.com/tech/technology/google-launches-flagship-ai-model-gemini-4-argon-for-developers-businesses/articleshow/134923362.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Alphabet's Google on Wednesday released its flagship AI model Gemini 4 Argon to developers and businesses worldwide, seeking to regain ground against rivals OpenAI and Anthropic after months of delays and a leadership shakeup at its DeepMind lab.",
-      "published": "2026-10-13T17:08:24+00:00",
-      "score": 41.0,
-      "headline": "GOOGLE LAUNCHES GEMINI 4 ARGON... BATTLES OPENAI"
-    },
-    {
-      "id": "3ef9749edb30da3d",
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://developers.googleblog.com/gemini-4-argon-for-robotics/ Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 32 # Comments: 8",
-      "published": "2026-10-13T16:55:47+00:00",
-      "score": 41.0,
-      "headline": "Google Releases Gemini 4 Argon for Robotics"
     },
     {
       "id": "69d6568445f575a0",
@@ -689,34 +559,44 @@
       "headline": "Amazon in Talks to Buy AI Startup Decart for $7B"
     },
     {
-      "id": "4c0219156aed4071",
-      "title": "Nvidia Explores Deal Options With Reflection AI, Financial Times Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports",
+      "id": "07f1a9467a869c8c",
+      "title": "IMF, World Bank Unveil Bangkok Blueprint to Combat Digital Fraud",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/imf-world-bank-unveil-bangkok-blueprint-to-combat-digital-fraud",
       "source": "Bloomberg Technology",
-      "summary": "Nvidia Corp. is in talks to boost its investment in Reflection AI or offer the startup computing power, a move that would strengthen ties with a key developer of open-weight models, according to a person familiar with the matter.",
-      "published": "2026-10-10T18:52:58+00:00",
-      "score": 41.0,
-      "headline": "NVIDIA IN TALKS TO INVEST IN REFLECTION AI... Computing Deal Pending"
+      "summary": "The International Monetary Fund and World Bank unveiled a global roadmap to fight online financial fraud as increasingly sophisticated scams undermine confidence in digital finance.",
+      "published": "2026-10-14T05:30:00+00:00",
+      "score": 40.0,
+      "headline": "IMF/World Bank Launch Global Blueprint Against Digital Fraud"
     },
     {
-      "id": "5379b97e343072b5",
-      "title": "Claude Haiku 4.5 submits false police tip; Anthropic takes 72 days to notice",
-      "url": "https://www.lesswrong.com/posts/NohAAhLDP42Kdqatr/claude-haiku-4-5-submits-false-police-tip-anthropic-takes-72",
-      "source": "LessWrong AI",
-      "summary": "Epistemic status: recently disclosed event, so more information might become available. The facts are from Anthropic's report and the Philadelphia police statement; the interpretation is mine.AI use: research and fact-checking (including a read-only check of the tip site's page source), source links, footnotes, grammar, light phrasing.Gist: Anthropic ran Claude Haiku 4.5 on \"generating and performing example tasks on randomly selected webpages\".[1]It was instructed \"never to log in, create accounts, enter personal data, make purchases, or submit anything destructive, but the instructions did not rule out form submissions\".[1]The agent went to PhillyUnsolvedMurders.com and anonymously submitted an invented murder tip: \"I may have information regarding this case. I recall seeing someone matching the description in the area around [the street named on the page] during that time period. Please contact me if this information is relevant.\"[1]The page had no description of a perpetrator. The ",
-      "published": "2026-10-10T04:43:21+00:00",
-      "score": 41.0,
-      "headline": "CLAUDE HAIKU SUBMITS FALSE POLICE TIP... ANTHROPIC SILENT 72 DAYS"
+      "id": "f56128ea912d9f50",
+      "title": "Why AI makes computer worms harder to stop",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/why-ai-makes-computer-worms-harder-to-stop/articleshow/134932397.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic's warning that AI-powered \"worms\" could soon spread across smart gadgets is the latest in a series of studies showing how artificial intelligence could supercharge self-spreading malware. A computer worm is malicious software that spreads between devices on its own.",
+      "published": "2026-10-14T04:49:16+00:00",
+      "score": 40.0,
+      "headline": "AI-Powered Worms: Why Computer Malware Just Got Deadlier"
     },
     {
-      "id": "3fc0fe8ac680d444",
-      "title": "Anthropic can\u2019t reliably control its AI agents. It\u2019s cutting off its internal evals from the live internet instead",
-      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-      "source": "TechCrunch AI",
-      "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
-      "published": "2026-10-10T00:18:32+00:00",
-      "score": 41.0,
-      "headline": "Anthropic CUTS Internet Access for AI Evals After Control Failures"
+      "id": "f7f2765d742295e4",
+      "title": "Singapore\u2019s PDG Seeks $1.2 Billion Loan for Malaysia Data Center",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/singapore-s-pdg-seeks-1-2-billion-loan-for-malaysia-data-center",
+      "source": "Bloomberg Technology",
+      "summary": "Asian data center operator Princeton Digital Group Ltd. is seeking a syndicated loan of up to $1.2 billion to fund its Malaysia buildout, according to a person familiar with the matter, as the debt binge to finance artificial intelligence infrastructure continues.",
+      "published": "2026-10-14T04:28:24+00:00",
+      "score": 40.0,
+      "headline": "Singapore's PDG Seeks $1.2B for Malaysia AI Data Center"
+    },
+    {
+      "id": "6fe988d145f128f5",
+      "title": "Measuring the Inference Energy Efficiency of Open-Weight LLMs across Benchmarks, Reasoning Modes, and Hardware",
+      "url": "https://arxiv.org/abs/2610.14389",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.14389v1 Announce Type: new Abstract: Benchmark scores tell us what an LLM can do, but not how much energy is required to deliver that capability. We directly measure this trade-off for 86 open-weight model checkpoints, evaluated on seven benchmarks and six hardware platforms ranging from a consumer GPU to an eight-GPU server. We find large differences in energy efficiency even among models with similar capability. Most configurations lie away from the score--energy Pareto frontier: they use a median of 2.6--4.8$\\times$ more energy than another configuration that scores at least as well, with differences reaching 27$\\times$. Reasoning can improve capability, but enabling thinking increases energy by about 3.7$\\times$ on average, and the benefit depends strongly on the model family and output budget. Generated-token count is also an imperfect proxy for energy, misordering 18--24\\% of model pairs. In contrast, FP8 reduces energy by roughly a quarter with little change in score,",
+      "published": "2026-10-14T04:00:00+00:00",
+      "score": 40.0,
+      "headline": "First Major Study Measures Energy Costs of 86 Open LLMs"
     },
     {
       "id": "83a839b262c86da2",
@@ -859,34 +739,24 @@
       "headline": "Xpeng Claims Rapid EU Autopilot Adaptation With Minimal Data"
     },
     {
-      "id": "719244ff4837f34b",
-      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
-      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
-      "source": "TechCrunch AI",
-      "summary": "Is Apple hoping to get into the AI-generated podcast business?",
-      "published": "2026-10-10T19:50:00+00:00",
-      "score": 40.0,
-      "headline": "APPLE HIRES AI PODCAST TEAM... Enters Generated Audio War"
+      "id": "4d5a71e0789552be",
+      "title": "ASML Raises Full-Year Sales Outlook",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-14/asml-raises-full-year-sales-outlook-video",
+      "source": "Bloomberg Technology",
+      "summary": "ASML upgraded the low end of its 2026 sales forecast as increasing artificial intelligence spending boosts demand for the Dutch company\u2019s chip-making machines. The firm projected annual sales of between \u20ac44 billion ($49 billion) and \u20ac45 billion this year. ASML's outlook offers an indication of investment plans by chipmakers like TSMC, Samsung Electronics and Intel. Bloomberg's Tom Mackenzie reports. (Source: Bloomberg)",
+      "published": "2026-10-14T06:07:29+00:00",
+      "score": 39.0,
+      "headline": "ASML Raises Outlook as AI Chip Demand Surges"
     },
     {
-      "id": "738674628baa8c7e",
-      "title": "UK can\u2019t rely on AI that could be switched off, Turing chief tells Guardian",
-      "url": "https://thenextweb.com/news/alan-turing-institute-williamson-sovereign-ai-uk",
-      "source": "The Next Web",
-      "summary": "The UK must not depend on foreign AI that could be cut off at short notice, the new head of the Alan Turing Institute has said. George Williamson made the comments in an interview with Dan Milmo for The Guardian. \u201cWe shouldn\u2019t depend solely on systems we can\u2019t inspect or control, or that could be [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-10T15:14:35+00:00",
-      "score": 40.0,
-      "headline": "UK TURING CHIEF: Can't Rely on Foreign AI That Could Be Cut Off"
-    },
-    {
-      "id": "beabd40e4304551f",
-      "title": "EU says trade deal could cut up to 50% of Chinese EV and plug-in hybrid imports and lower tariffs for some European exports to China",
-      "url": "https://fortune.com/2026/10/10/china-shock-eu-trade-deal-chinese-ev-plug-in-hybrid-imports-tariffs/",
-      "source": "Fortune Tech",
-      "summary": "The top trade envoys for China and the European Union agreed Friday on a broad initial deal following two days of talks aimed at calming escalating tensions over trade imbalances.",
-      "published": "2026-10-10T14:37:46+00:00",
-      "score": 40.0,
-      "headline": null
+      "id": "dc67f0e5ad7f77bb",
+      "title": "ASML Boosts Outlook as Demand for Chip Tools Outpaces Supply",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/asml-raises-full-year-sales-outlook-as-ai-boom-drives-demand",
+      "source": "Bloomberg Technology",
+      "summary": "ASML Holding NV boosted its 2026 sales forecast and said soaring artificial intelligence spending meant that it won\u2019t be able to fully meet demand for its chip-making machines in the next two years.",
+      "published": "2026-10-14T05:12:36+00:00",
+      "score": 39.0,
+      "headline": "ASML: AI Chip Demand Exceeds Supply Through 2028"
     },
     {
       "id": "4520f7ad22fb7d98",
@@ -1009,15 +879,135 @@
       "headline": "MCKINSEY: AI Creates Jobs But 11M Workers Need Help"
     },
     {
-      "id": "e590b45f292c589f",
-      "title": "Claude sent phony tip about an unsolved murder to Philadelphia police",
-      "url": "https://mashable.com/tech/anthropic-claude-sent-phony-tip-about-unsolved-murder",
-      "source": "Mashable Tech",
-      "summary": "Anthropic's Claude sent a fake tip to the Philadelphia Police Department about an unsolved homicide.",
-      "published": "2026-10-10T16:25:45+00:00",
-      "score": 39.0,
-      "headline": "Claude AI Sends Fake Murder Tip to Police"
+      "id": "5cfce5562d10762d",
+      "title": "Google will let anyone publish an app to the Play Store, for free",
+      "url": "https://thenextweb.com/news/google-play-vibe-coded-apps",
+      "source": "The Next Web",
+      "summary": "Google will let anyone over 18 with a Google account publish privately listed Android apps built in its AI Studio, with no paid developer account. Apple spent this year tightening its own store against the same kind of software. Google will let anyone over 18 with a Google account publish an Android app to the [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-13T17:35:09+00:00",
+      "score": 38.0,
+      "headline": "Google Opens Play Store to Free AI-Built Apps"
+    },
+    {
+      "id": "4d1328cfb2ae5c21",
+      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "source": "TechCrunch AI",
+      "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+      "published": "2026-10-13T17:18:25+00:00",
+      "score": 38.0,
+      "headline": "Pluto Security Raises $42M for Enterprise AI Protection"
+    },
+    {
+      "id": "73f10500248d1139",
+      "title": "Jio Platforms attracts more than $20B in bids ahead of record India IPO",
+      "url": "https://thenextweb.com/news/jio-ipo-20-billion-bids",
+      "source": "The Next Web",
+      "summary": "Jio Platforms has drawn more than $20B in bids for what would be India\u2019s largest listing, with Fidelity, Allianz and Capital Group indicating interest. The company is now seeking about $108B, against the $170B bankers discussed last November. Jio Platforms has drawn more than $20B in bids for what would be India\u2019s largest listing. The [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-13T17:06:47+00:00",
+      "score": 38.0,
+      "headline": null
+    },
+    {
+      "id": "0f96659c3b4031ee",
+      "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "source": "TechCrunch AI",
+      "summary": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+      "published": "2026-10-13T17:00:00+00:00",
+      "score": 38.0,
+      "headline": "Google Play Now Hosts Private Vibe-Coded Apps"
+    },
+    {
+      "id": "4964f146ed967fb4",
+      "title": "Chip Selloff Rolls On as Big Bank Earnings Begin",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-13/chip-selloff-rolls-on-as-big-bank-earnings-begin-video",
+      "source": "Bloomberg Technology",
+      "summary": "A selloff in chipmakers deepened on concerns about the sustainability of the artificial-intelligence trade, putting pressure on equity markets as Wall Street banks kicked off the earnings season. Lori Calvasina, Head of US Equity Strategy at RBC Capital Markets, discusses her S&amp;P outlook and market choppiness. (Source: Bloomberg)",
+      "published": "2026-10-13T15:35:29+00:00",
+      "score": 38.0,
+      "headline": "Chip Selloff Deepens on AI Sustainability Concerns"
+    },
+    {
+      "id": "1beb916c1b930ae2",
+      "title": "Criminals could walk free without controls on AI use, police watchdog warns",
+      "url": "https://www.ft.com/content/2caa52e1-637a-4934-802e-418b649b4c12?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Guidelines are vital to ensure overstretched forces in England and Wales can use the systems to speed up investigations",
+      "published": "2026-10-13T04:00:19+00:00",
+      "score": 38.0,
+      "headline": "UK Police: Criminals Could Walk Free Without AI Controls"
+    },
+    {
+      "id": "956bc1bb2a251f71",
+      "title": "Anthropic says new safeguards sharply reduce AI distillation attacks",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks/articleshow/134906398.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Anthropic said on Monday new measures designed to prevent rivals from copying the capabilities of its Claude AI models have reduced data harvested in so-called distillation attacks",
+      "published": "2026-10-13T02:39:47+00:00",
+      "score": 38.0,
+      "headline": "Anthropic Slashes AI Model Theft With New Safeguards"
+    },
+    {
+      "id": "72cf4ebef850f68f",
+      "title": "Sarvam plans big fundraise; HCLTech's Q2 profit jumps",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/sarvam-plans-big-fundraise-hcltechs-q2-profit-jumps/articleshow/134905940.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Happy Tuesday! Sarvam is in talks for a big round that could double its valuation to $3 billion. This and more in today\u2019s ETtech Morning Dispatch.",
+      "published": "2026-10-13T02:06:50+00:00",
+      "score": 38.0,
+      "headline": "Indian AI Startup Sarvam Hunts $3B Valuation"
+    },
+    {
+      "id": "bec90585333ce1c5",
+      "title": "IMF upgrades outlook for UK as AI drives growth spurt",
+      "url": "https://www.ft.com/content/4a7a7282-74a5-4d12-8294-6dd0d4802d88?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "The fund believes Britain is emerging as one of the winners of the tech boom",
+      "published": "2026-10-13T02:00:07+00:00",
+      "score": 38.0,
+      "headline": "IMF: UK Emerges as AI Boom Winner"
+    },
+    {
+      "id": "26be95749f06e3bc",
+      "title": "Applied Materials Will Double Sales, Not Headcount, Thanks to AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/applied-materials-will-double-sales-not-headcount-thanks-to-ai",
+      "source": "Bloomberg Technology",
+      "summary": "Applied Materials Inc. expects to double revenue over the next few years, without a commensurate rise in hiring, because it\u2019s relying more on artificial intelligence tools for things like product development and quality control.",
+      "published": "2026-10-12T21:07:24+00:00",
+      "score": 38.0,
+      "headline": "Applied Materials: AI Doubles Revenue Without Hiring"
+    },
+    {
+      "id": "46c8bb86f2797168",
+      "title": "Exclusive: Microsoft\u2019s departing science president plans to join Mercedes F1 team as AI advisor",
+      "url": "https://fortune.com/2026/10/12/microsoft-peter-lee-departing-science-president-plans-to-join-mercedes-f1-team-as-ai-advisor/",
+      "source": "Fortune Tech",
+      "summary": "Peter Lee spent 16 years at Microsoft shaping its science and research efforts.",
+      "published": "2026-10-12T20:38:51+00:00",
+      "score": 38.0,
+      "headline": "EXCLUSIVE: Microsoft Science Chief Joins Mercedes F1 as AI Advisor"
+    },
+    {
+      "id": "689914e564cc99c5",
+      "title": "Trump administration plans to move AI testing agency officials to White House: The Information",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-administration-plans-to-move-ai-testing-agency-officials-to-white-house-the-information/articleshow/134901531.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The Trump administration is planning to move three senior officials of the Center for Advancing Innovation and Standards for Super Intelligence to the White House, The Information reported on Monday, citing a White House official.",
+      "published": "2026-10-12T18:59:49+00:00",
+      "score": 38.0,
+      "headline": "TRUMP MOVES AI SAFETY AGENCY OFFICIALS TO WHITE HOUSE"
+    },
+    {
+      "id": "0c3e7c041880787a",
+      "title": "Meta releases Muse Wonder AI models to challenge Anthropic and OpenAI",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/meta-releases-muse-wonder-ai-models-to-challenge-anthropic-and-openai/articleshow/134901136.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The launch comes after CEO Mark Zuckerberg pledged billions of dollars and aggressively poached researchers over the past year to catch up in Silicon Valley's intensifying AI race.",
+      "published": "2026-10-12T18:34:26+00:00",
+      "score": 38.0,
+      "headline": "Meta Releases Muse Wonder AI to Challenge OpenAI and Anthropic"
     }
   ],
-  "generated_at": "2026-10-13T18:11:54.912060"
+  "generated_at": "2026-10-14T06:13:52.784091"
 }
