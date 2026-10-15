@@ -1,6 +1,71 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Employee Espionage Scandal",
+      "description": "An OpenAI engineer was arrested for allegedly planting recording devices in the office and leaking secrets, with connections to Saudi Arabia and Apple.",
+      "question": "Is this primarily corporate espionage or insider threat mismanagement?",
+      "button_a": "Espionage",
+      "button_b": "Mismanagement",
+      "poll_id": "openai-employee-espionage-scandal-20261015",
+      "analysis_url": "/analysis/analysis-openai-employee-espionage-scandal-20261015.html",
+      "analysis_type": "poll",
+      "created_at": "2026-10-15T06:15:05.430180",
+      "last_seen": "2026-10-15T18:12:19.524464",
+      "cluster_stories": [
+        {
+          "id": "ece40e253cd77237",
+          "title": "OpenAI Employee Arrested Over Hidden Recording Device",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-14/openai-employee-arrested-over-hidden-recording-device-video",
+          "source": "Bloomberg Technology",
+          "summary": "An OpenAI employee has been arrested and accused of planting a hidden recording device inside an executive conference room at the company\u2019s San Francisco offices. Bloomberg\u2019s Rachel Metz discusses the FBI investigation, how the inexpensive device was discovered and OpenAI\u2019s response. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "published": "2026-10-14T17:28:43+00:00",
+          "score": 45.0,
+          "headline": "OPENAI EMPLOYEE ARRESTED... PLANTED RECORDING DEVICE"
+        },
+        {
+          "id": "c324aba104551282",
+          "title": "Arrested OpenAI Engineer Booked a One-Way Ticket to Saudi Arabia",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/arrested-openai-engineer-booked-a-one-way-ticket-to-saudi-arabia",
+          "source": "Hacker News",
+          "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-10-14/arrested-openai-engineer-booked-a-one-way-ticket-to-saudi-arabia Comments URL: https://news.ycombinator.com/item?id=50099021 Points: 4 # Comments: 0",
+          "published": "2026-10-15T04:07:10+00:00",
+          "score": 43.0,
+          "headline": "ARRESTED OpenAI Engineer Booked One-Way to Saudi Arabia"
+        },
+        {
+          "id": "a47e7e1b8655087e",
+          "title": "FBI says an OpenAI engineer used his wife\u2019s AI chatbot to figure out how to plant a secret recording device at the office",
+          "url": "https://fortune.com/2026/10/14/openai-arrest-engineer-alfozan-fbi-recording-device-ai-chatbot/",
+          "source": "Fortune Tech",
+          "summary": "FBI says Abdulrahman Alfozan, his wife and a third unnamed family member also had one-way tickets to Saudi Arabia via Istanbul.",
+          "published": "2026-10-14T17:12:14+00:00",
+          "score": 43.0,
+          "headline": "FBI: OpenAI Engineer Used Wife's Chatbot to Plan Office Bug"
+        },
+        {
+          "id": "10b34a54c4ebc5b6",
+          "title": "OpenAI claims employee sent secret device information to Apple",
+          "url": "https://www.ft.com/content/18b65495-9e2a-45d6-be85-7641442ab61a?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Tech companies face off in court as ChatGPT maker prepares to unveil AI device designed by Sir Jony Ive",
+          "published": "2026-10-14T15:33:08+00:00",
+          "score": 43.0,
+          "headline": "OPENAI ACCUSES EMPLOYEE OF LEAKING DEVICE SECRETS TO APPLE"
+        },
+        {
+          "id": "9cd14ccb32026dcc",
+          "title": "He linked Saudi Arabia to Silicon Valley. Then OpenAI found a bug wrapped in toilet paper",
+          "url": "https://www.ft.com/content/b71e0dc4-b190-49ec-b000-bd585054ddc8?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Arrest of computer engineer Abdulrahman Alfozan has shocked tech figures in Saudi Arabia, where he is deeply connected",
+          "published": "2026-10-14T14:40:47+00:00",
+          "score": 43.0,
+          "headline": "OPENAI BUG SCANDAL... Saudi Engineer Arrested in Toilet Paper Case"
+        }
+      ],
+      "current_topic_name": "OpenAI Employee Espionage Scandal"
+    },
+    {
       "topic": "Meta Muse Wonder Launch",
       "description": "Meta releases new frontier AI model Muse Wonder that rivals ChatGPT and returns the company to competitive position in advanced AI.",
       "question": "",
@@ -10,7 +75,7 @@
       "analysis_url": "/analysis/analysis-meta-muse-wonder-launch-20261014.html",
       "analysis_type": "summary",
       "created_at": "2026-10-13T18:12:33.790967",
-      "last_seen": "2026-10-15T06:15:06.136737",
+      "last_seen": "2026-10-15T18:12:20.232509",
       "cluster_stories": [
         {
           "id": "15f0749a6da14105",
@@ -113,73 +178,93 @@
           "headline": "Meta Launches TWO Frontier Models: Muse Wonder and Wonder Full"
         }
       ],
-      "current_topic_name": "Meta Muse Wonder Launch"
+      "current_topic_name": "Meta's Muse Wonder Launch"
     },
     {
-      "topic": "OpenAI Employee Espionage Scandal",
-      "description": "An OpenAI engineer was arrested for allegedly planting recording devices in the office and leaking secrets, with connections to Saudi Arabia and Apple.",
-      "question": "Is this primarily corporate espionage or insider threat mismanagement?",
-      "button_a": "Espionage",
-      "button_b": "Mismanagement",
-      "poll_id": "openai-employee-espionage-scandal-20261015",
-      "analysis_url": "/analysis/analysis-openai-employee-espionage-scandal-20261015.html",
-      "analysis_type": "poll",
-      "created_at": "2026-10-15T06:15:05.430180",
-      "last_seen": "2026-10-15T06:15:07.887886",
+      "topic": "Meta's Muse Wonder Launch",
+      "description": "Meta releases its frontier AI model Muse Wonder, claiming parity with ChatGPT and marking its return to the AI frontier after a 14-month development push.",
+      "question": "",
+      "button_a": "N/A",
+      "button_b": "N/A",
+      "poll_id": "metas-muse-wonder-launch-20261015",
+      "analysis_url": "/analysis/analysis-metas-muse-wonder-launch-20261015.html",
+      "analysis_type": "summary",
+      "created_at": "2026-10-15T18:12:17.271817",
+      "last_seen": "2026-10-15T18:12:17.271820",
       "cluster_stories": [
         {
-          "id": "ece40e253cd77237",
-          "title": "OpenAI Employee Arrested Over Hidden Recording Device",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-14/openai-employee-arrested-over-hidden-recording-device-video",
+          "id": "15f0749a6da14105",
+          "title": "Meta releases its first frontier model, Muse Wonder",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+          "source": "TechCrunch AI",
+          "summary": "Meta's Superintelligence Lab released a pair of new state-of-the-art models on Monday, Muse Wonder and Muse Wonder Full, the company's first attempt at a frontier model.",
+          "published": "2026-10-12T17:56:56+00:00",
+          "score": 47.0,
+          "headline": "META RELEASES FIRST FRONTIER MODEL: Muse Wonder Debuts"
+        },
+        {
+          "id": "824aef8804431124",
+          "title": "Meta Releases New AI Model Called Muse Wonder",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/meta-releases-new-ai-model-called-muse-wonder-video",
           "source": "Bloomberg Technology",
-          "summary": "An OpenAI employee has been arrested and accused of planting a hidden recording device inside an executive conference room at the company\u2019s San Francisco offices. Bloomberg\u2019s Rachel Metz discusses the FBI investigation, how the inexpensive device was discovered and OpenAI\u2019s response. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "published": "2026-10-14T17:28:43+00:00",
+          "summary": "Meta Platforms, parent company of Facebook, has released a long-awaited artificial intelligence model called Muse Wonder. This model is said to be competitive with OpenAI's ChatGPT and Anthropic's Claude. Meta stock rose on the news. Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
+          "published": "2026-10-12T20:55:48+00:00",
+          "score": 46.0,
+          "headline": "META RELEASES MUSE WONDER... RIVALS CHATGPT"
+        },
+        {
+          "id": "865b536fb470b56f",
+          "title": "Meta launches Muse Wonder, catching OpenAI and Anthropic at the frontier",
+          "url": "https://mashable.com/tech/meta-launches-muse-wonder-ai-model-family",
+          "source": "Mashable Tech",
+          "summary": "Meta has released a new AI model family called Muse Wonder. The new model leapfrogs Gemini 4, GPT-Astra, and Fable 5 in Artificial Analysis's leaderboard.",
+          "published": "2026-10-12T20:15:49+00:00",
+          "score": 46.0,
+          "headline": "META'S MUSE WONDER TOPS GPT-ASTRA, GEMINI 4"
+        },
+        {
+          "id": "a7c4448855238bd9",
+          "title": "Zuckerberg says Meta has reached AI \u2018frontier\u2019 and rejects calls for slowdown",
+          "url": "https://www.ft.com/content/fca23e77-be57-4d7e-ae61-74ff299e25cb?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "FT interview: tech billionaire touts release of new Muse Wonder model after vast spending to challenge rivals in AI race",
+          "published": "2026-10-12T17:00:02+00:00",
+          "score": 46.0,
+          "headline": "ZUCKERBERG REJECTS AI SLOWDOWN: Meta Hits Frontier with Muse Wonder"
+        },
+        {
+          "id": "1ea23555f49106e1",
+          "title": "Meta Says New Muse Model Reaches AI Frontier After 14-Month Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-12/meta-says-new-muse-model-reaches-ai-frontier-after-14-month-push",
+          "source": "Bloomberg Technology",
+          "summary": "The Muse Wonder model will be a key test for Meta\u2019s expensive and rebuilt superintelligence team.",
+          "published": "2026-10-12T16:56:51+00:00",
           "score": 45.0,
-          "headline": "OPENAI EMPLOYEE ARRESTED... PLANTED RECORDING DEVICE"
+          "headline": "META'S 14-MONTH PUSH PAYS OFF: Muse Wonder Reaches AI Frontier"
         },
         {
-          "id": "c324aba104551282",
-          "title": "Arrested OpenAI Engineer Booked a One-Way Ticket to Saudi Arabia",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-14/arrested-openai-engineer-booked-a-one-way-ticket-to-saudi-arabia",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-10-14/arrested-openai-engineer-booked-a-one-way-ticket-to-saudi-arabia Comments URL: https://news.ycombinator.com/item?id=50099021 Points: 4 # Comments: 0",
-          "published": "2026-10-15T04:07:10+00:00",
-          "score": 43.0,
-          "headline": "ARRESTED OpenAI Engineer Booked One-Way to Saudi Arabia"
+          "id": "70255017e7258b4f",
+          "title": "Meta says its new AI models on par with OpenAI, Anthropic",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/meta-says-its-new-ai-models-on-par-with-openai-anthropic/articleshow/134906480.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Meta on Monday unveiled two new \"frontier\" artificial intelligence models called Wonder and Wonder Full, which the company claims perform at a level comparable to that of OpenAI's ChatGPT and Anthropic's Claude. In a blog post, Meta touted so-called benchmarking data from an independent firm called Artificial Analysis that appears to show that Meta's newest Wonder models outperform its own previous models, Spark, as well as various models developed by Anthropic, OpenAI and Google.",
+          "published": "2026-10-13T02:58:54+00:00",
+          "score": 44.0,
+          "headline": "META UNVEILS WONDER AI MODELS... Claims Parity with ChatGPT"
         },
         {
-          "id": "a47e7e1b8655087e",
-          "title": "FBI says an OpenAI engineer used his wife\u2019s AI chatbot to figure out how to plant a secret recording device at the office",
-          "url": "https://fortune.com/2026/10/14/openai-arrest-engineer-alfozan-fbi-recording-device-ai-chatbot/",
-          "source": "Fortune Tech",
-          "summary": "FBI says Abdulrahman Alfozan, his wife and a third unnamed family member also had one-way tickets to Saudi Arabia via Istanbul.",
-          "published": "2026-10-14T17:12:14+00:00",
-          "score": 43.0,
-          "headline": "FBI: OpenAI Engineer Used Wife's Chatbot to Plan Office Bug"
-        },
-        {
-          "id": "10b34a54c4ebc5b6",
-          "title": "OpenAI claims employee sent secret device information to Apple",
-          "url": "https://www.ft.com/content/18b65495-9e2a-45d6-be85-7641442ab61a?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Tech companies face off in court as ChatGPT maker prepares to unveil AI device designed by Sir Jony Ive",
-          "published": "2026-10-14T15:33:08+00:00",
-          "score": 43.0,
-          "headline": "OPENAI ACCUSES EMPLOYEE OF LEAKING DEVICE SECRETS TO APPLE"
-        },
-        {
-          "id": "9cd14ccb32026dcc",
-          "title": "He linked Saudi Arabia to Silicon Valley. Then OpenAI found a bug wrapped in toilet paper",
-          "url": "https://www.ft.com/content/b71e0dc4-b190-49ec-b000-bd585054ddc8?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Arrest of computer engineer Abdulrahman Alfozan has shocked tech figures in Saudi Arabia, where he is deeply connected",
-          "published": "2026-10-14T14:40:47+00:00",
-          "score": 43.0,
-          "headline": "OPENAI BUG SCANDAL... Saudi Engineer Arrested in Toilet Paper Case"
+          "id": "bea3605efc77ab18",
+          "title": "Muse Wonder Puts Meta Back at the AI Frontier",
+          "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+          "source": "Wired",
+          "summary": "Meta\u2019s biggest model rivals the world\u2019s best\u2014and includes new features to keep agents from going off the rails.",
+          "published": "2026-10-12T17:00:27+00:00",
+          "score": 44.0,
+          "headline": "MUSE WONDER PUTS META BACK AT AI FRONTIER: New Safety Features Included"
         }
       ],
-      "current_topic_name": "OpenAI Employee Espionage Scandal"
+      "pending_archive": true
     }
   ],
-  "last_updated": "2026-10-15T06:15:08.383161"
+  "last_updated": "2026-10-15T18:12:20.232585"
 }
