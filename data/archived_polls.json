@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Employee Espionage Scandal",
+      "description": "An OpenAI engineer was arrested for allegedly planting recording devices in the office and leaking secrets, with connections to Saudi Arabia and Apple.",
+      "question": "Is this primarily corporate espionage or insider threat mismanagement?",
+      "button_a": "Espionage",
+      "button_b": "Mismanagement",
+      "poll_id": "openai-employee-espionage-scandal-20261015",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-employee-espionage-scandal-20261015.html",
+      "started_at": "2026-10-15T06:15:05.430180",
+      "archived_at": "2026-10-16T18:11:35.215200",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Google Gemini 4 Argon Release",
       "description": "Google finally launches Gemini 4 Argon frontier model for robotics and general use after months of delay, competing with OpenAI and other frontier AI companies.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-china-robotics-dominance-20260824.html",
       "started_at": "2026-08-21T06:37:04.121212",
       "archived_at": "2026-08-25T06:38:13.637944",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic IPO Push",
-      "description": "Anthropic is preparing a potentially record-breaking IPO that could exceed SpaceX's valuation, while simultaneously raising massive funding and hiring key talent for custom chip development.",
-      "question": "Is Anthropic's massive IPO justified by AI potential or inflated hype?",
-      "button_a": "Potential",
-      "button_b": "Hype",
-      "poll_id": "anthropic-ipo-push-20260822",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-ipo-push-20260823.html",
-      "started_at": "2026-08-22T18:22:08.935238",
-      "archived_at": "2026-08-23T18:22:46.305380",
       "reason": "topic_replaced"
     }
   ]
