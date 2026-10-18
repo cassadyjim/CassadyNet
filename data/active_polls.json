@@ -7,10 +7,10 @@
       "button_a": "Strengthen",
       "button_b": "Security",
       "poll_id": "china-ai-export-controls-tech-trade-war-20261016",
-      "analysis_url": "/analysis/analysis-china-us-ai-chip-export-controls-20261017.html",
+      "analysis_url": "/analysis/analysis-china-aichip-export-controls-20261018.html",
       "analysis_type": "poll",
       "created_at": "2026-10-16T18:11:20.554963",
-      "last_seen": "2026-10-18T06:13:29.138609",
+      "last_seen": "2026-10-18T18:10:20.663680",
       "cluster_stories": [
         {
           "id": "a2cc5e3715c576e5",
@@ -73,19 +73,103 @@
           "headline": "BEIJING MOVES TO TIGHTEN GRIP ON AI EXPORTS AMID US RIVALRY"
         }
       ],
-      "current_topic_name": "China-US AI Chip Export Controls"
+      "current_topic_name": "China AI/Chip Export Controls"
     },
     {
-      "topic": "China-US AI Chip Export Controls",
-      "description": "Escalating trade war as China proposes AI export controls in response to US chip restrictions, with Taiwan and EU joining the tech Cold War.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "/analysis/analysis-china-ai-chip-export-controls-20260523.html",
+      "topic": "Rogue AI Agents and Security Incidents",
+      "description": "Multiple incidents of AI agents behaving unexpectedly, including hacking crypto wallets and breaching systems, triggering regulatory scrutiny and safety concerns.",
+      "question": "Should AI labs face criminal charges when their models breach systems?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "rogue-ai-agents-and-security-incidents-20261018",
+      "analysis_url": "/analysis/analysis-rogue-ai-agents-and-security-incidents-20261018.html",
       "analysis_type": "poll",
-      "created_at": "2026-10-17T06:13:18.517427",
-      "last_seen": "2026-10-18T06:13:29.970087",
-      "current_topic_name": "China AI Chip Export Controls"
+      "created_at": "2026-10-18T18:10:20.024433",
+      "last_seen": "2026-10-18T18:10:22.254167",
+      "cluster_stories": [
+        {
+          "id": "068025805da9094e",
+          "title": "FTC subpoenas OpenAI and Anthropic over AI safety incidents",
+          "url": "https://thenextweb.com/news/ftc-subpoenas-openai-anthropic-ai-safety-incidents",
+          "source": "The Next Web",
+          "summary": "The US Federal Trade Commission has sent civil investigative demands to Anthropic and OpenAI, seeking documents about the safety incidents involving their AI models. The demands went out on Wednesday, Axios first reported, citing a person familiar with the matter. An FTC spokesperson confirmed the subpoenas to CBS News and declined to comment further. OpenAI [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-17T17:51:58+00:00",
+          "score": 47.0,
+          "headline": "FTC SUBPOENAS OpenAI AND ANTHROPIC OVER SAFETY INCIDENTS"
+        },
+        {
+          "id": "4466435dcf8e678c",
+          "title": "India becomes the latest country to report rogue AI agent activity",
+          "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+          "source": "TechCrunch AI",
+          "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+          "published": "2026-10-16T17:52:24+00:00",
+          "score": 46.0,
+          "headline": "ROGUE AI AGENTS HIT INDIA... Security Crisis Spreads"
+        },
+        {
+          "id": "d2bad88403bf85e4",
+          "title": "MI5 opens an AI threat centre as OpenAI tells MPs more incidents may come",
+          "url": "https://thenextweb.com/news/mi5-ai-threat-assessment-centre-openai-mps",
+          "source": "The Next Web",
+          "summary": "\u201cHuman history has given us no experience of facing an actor which is smarter than we are. Is capable of out-thinking us.\u201d Sir Ken McCallum, director general of MI5, said this about AI on 13 October. He was giving his annual threat update at MI5\u2019s London headquarters. In the same speech, he announced a new [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-16T17:02:36+00:00",
+          "score": 46.0,
+          "headline": "MI5 OPENS AI THREAT CENTRE... OPENAI WARNS MPs OF MORE INCIDENTS"
+        },
+        {
+          "id": "3813289f4d22ebcb",
+          "title": "OpenAI models hacked a crypto wallet and breached more websites",
+          "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+          "source": "Ars Technica AI",
+          "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+          "published": "2026-10-16T20:59:01+00:00",
+          "score": 45.0,
+          "headline": "OpenAI Models HACKED Crypto Wallet, Breached Websites"
+        },
+        {
+          "id": "5cd3d3fd227c31f5",
+          "title": "Trump\u2019s AI task force starts work and tells labs to report rogue behaviour",
+          "url": "https://thenextweb.com/news/super-intelligence-force-charter-first-meeting-anthropic",
+          "source": "The Next Web",
+          "summary": "\u201cOur message to all SI companies is clear: delayed notification, inadequate corrective action, and a failure to take responsibility will not be tolerated,\u201d the task force\u2019s leaders said. Jay Clayton, Andrew Ferguson, Scott Kupor and Emil Michael lead Donald Trump\u2019s Super Intelligence Force. They sent that warning to AI companies this week. On Thursday, the [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-16T16:33:10+00:00",
+          "score": 45.0,
+          "headline": "TRUMP AI TASK FORCE ORDERS LABS: REPORT ROGUE AI OR FACE CONSEQUENCES"
+        },
+        {
+          "id": "8f1a2b6905f692fe",
+          "title": "A rogue OpenAI agent robbed a crypto wallet to obtain funds to carry out a task",
+          "url": "https://fortune.com/2026/10/16/rogue-openai-agent-crypto-wallet-funds-task/",
+          "source": "Fortune Tech",
+          "summary": "An AI agent turned to funded wallets after it failed to get free tokens to test a crypto trading app.",
+          "published": "2026-10-16T16:14:15+00:00",
+          "score": 44.0,
+          "headline": "ROGUE OPENAI AGENT ROBS CRYPTO WALLET TO FUND ITS OWN TASK"
+        },
+        {
+          "id": "98497fc4d7cbd231",
+          "title": "OpenAI discloses four more rogue incidents involving financial, medical, and government data",
+          "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+          "source": "Fortune Tech",
+          "summary": "The company flagged two new incidents as \u201ccritical,\u201d yet did not discover or disclose them until months later.",
+          "published": "2026-10-16T16:05:35+00:00",
+          "score": 43.0,
+          "headline": "OPENAI DISCLOSES FOUR MORE ROGUE AI INCIDENTS... CRITICAL BREACHES HIDDEN FOR MONTHS"
+        },
+        {
+          "id": "555df0ba4f09517a",
+          "title": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
+          "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
+          "source": "Engadget",
+          "summary": "An OpenAI research model hit a nebulous milestone today by pilfering test Ethereum tokens.",
+          "published": "2026-10-16T12:50:24+00:00",
+          "score": 42.0,
+          "headline": "OpenAI Research Agent 'STEALS' Test Ethereum to Complete Task"
+        }
+      ],
+      "current_topic_name": "Rogue AI Agents and Security Incidents"
     }
   ],
-  "last_updated": "2026-10-18T06:13:29.970106"
+  "last_updated": "2026-10-18T18:10:23.091030"
 }
