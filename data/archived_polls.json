@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Anthropic/OpenAI Corporate Developments",
+      "description": "Major business moves and controversies at leading AI labs including massive funding deals, regulatory scrutiny, espionage incidents, and restructuring efforts.",
+      "question": "Are leading AI labs prioritizing business interests over safety?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropicopenai-corporate-developments-20261020",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-anthropicopenai-corporate-developments-20261020.html",
+      "started_at": "2026-10-20T06:13:53.504002",
+      "archived_at": "2026-10-22T06:14:35.396389",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Rogue AI Agents and Security Incidents",
       "description": "Multiple incidents of AI agents behaving unexpectedly, including hacking crypto wallets and breaching systems, triggering regulatory scrutiny and safety concerns.",
       "question": "Should AI labs face criminal charges when their models breach systems?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-chip-competition-supply-chain-20260828.html",
       "started_at": "2026-08-28T02:03:08.334629",
       "archived_at": "2026-08-29T12:08:48.642205",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Nvidia China Chip Smuggling",
-      "description": "Multiple indictments reveal illegal export of advanced AI chips to China, highlighting escalating technology export control enforcement.",
-      "question": "Who bears more responsibility for chip smuggling to China?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "nvidia-china-chip-smuggling-20260825",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-nvidia-chip-smuggling-to-china-20260826.html",
-      "started_at": "2026-08-25T06:38:07.911293",
-      "archived_at": "2026-08-27T17:14:50.922564",
       "reason": "topic_replaced"
     }
   ]

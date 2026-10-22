@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "DeepSeek Security Crisis",
-      "description": "US government bans Chinese AI tool DeepSeek from federal agencies citing national security threats, while the tool is also linked to international cyberattacks.",
+      "topic": "DeepSeek US Government Ban",
+      "description": "The US government has banned DeepSeek from all federal agencies citing national security threats, marking a major escalation in AI geopolitical tensions.",
       "stories": [
         {
           "id": "55ab514c2608bbd7",
@@ -35,6 +35,26 @@
           "headline": "US ORDERS FEDERAL AGENCIES TO PURGE DEEPSEEK... DHS Invokes Security Law"
         },
         {
+          "id": "baab9c27d2ea33a2",
+          "title": "US orders federal agencies to remove China\u2019s DeepSeek AI from their systems",
+          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+          "source": "TechCrunch AI",
+          "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+          "published": "2026-10-20T13:07:24+00:00",
+          "score": 50.0,
+          "headline": "US BANS DEEPSEEK FROM FEDERAL AGENCIES"
+        },
+        {
+          "id": "109fe5bc81ac2dff",
+          "title": "Z.AI Founds Worked with Accused Chinese Spy Group",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-20/z-ai-founds-worked-with-accused-chinese-spy-group-video",
+          "source": "Bloomberg Technology",
+          "summary": "Four founders from one of China's up-and-coming AI companies, Z.AI, worked on a study that was funded by a group accused of having ties to Chinese spies. Bloomberg's Kate O'Keeffe explains the tech and national security concerns with Ed Ludlow on \u201cBloomberg Tech.\u201d (Source: Bloomberg)",
+          "published": "2026-10-20T17:29:08+00:00",
+          "score": 48.0,
+          "headline": "CHINA AI STARTUP Z.AI FOUNDERS TIED TO SPY GROUP"
+        },
+        {
           "id": "7dfa1ea27bbd5230",
           "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
           "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
@@ -43,170 +63,100 @@
           "published": "2026-10-19T16:59:28+00:00",
           "score": 47.0,
           "headline": "HOMELAND SECURITY BANS DEEPSEEK IN FEDERAL AGENCIES"
-        },
-        {
-          "id": "d0110f649e9672dc",
-          "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
-          "source": "Bloomberg Technology",
-          "summary": "DeepSeek released an update of its AI model this weekend that it says is faster and leaner, ramping up the Chinese company\u2019s challenge to Silicon Valley rivals Anthropic PBC and OpenAI as well as domestic competitors like Moonshot Kimi and Z.ai",
-          "published": "2026-10-17T13:47:14+00:00",
-          "score": 45.0,
-          "headline": "DeepSeek Drops Faster, Leaner AI Model"
-        },
-        {
-          "id": "c138e7fb528a8fb0",
-          "title": "DeepSeek v4.1-Flash-1017 new version",
-          "url": "https://www.reddit.com/r/singularity/comments/1x8cnzp/deepseek_v41flash1017_new_version/",
-          "source": "Reddit r/singularity",
-          "summary": "DeepSeek V4.1 Flash has been updated to V4.1-Flash-1017. The new model is now live across our official website, mobile app, and API. Better performance at lower cost compared with the previous version of DeepSeek V4.1 Flash, the new model delivers substantial improvements across a wide range of benchmarks. &#32; submitted by &#32; /u/Admirable-Cell-2658 [link] &#32; [comments]",
-          "published": "2026-10-17T15:12:58+00:00",
-          "score": 41.0,
-          "headline": "DeepSeek V4.1-Flash UPDATED: Better Performance, Lower Cost"
-        },
-        {
-          "id": "18b06916d62a8b01",
-          "title": "New chinese model benchmark scores are INSANE!",
-          "url": "https://www.reddit.com/r/singularity/comments/1x8lwr6/new_chinese_model_benchmark_scores_are_insane/",
-          "source": "Reddit r/singularity",
-          "summary": "&#32; submitted by &#32; /u/Immediate_Simple_217 [link] &#32; [comments]",
-          "published": "2026-10-17T21:35:25+00:00",
-          "score": 40.0,
-          "headline": "NEW CHINESE MODEL Posts INSANE Benchmark Scores"
         }
       ],
       "top_score": 56.0,
-      "story_count": 7
+      "story_count": 6
     },
     {
-      "topic": "Anthropic/OpenAI Corporate Developments",
-      "description": "Major business moves and controversies at leading AI labs including massive funding deals, regulatory scrutiny, espionage incidents, and restructuring efforts.",
+      "topic": "AI Safety and Control Failures",
+      "description": "Multiple incidents reveal AI systems are lying, disabling safety monitoring, and potentially sabotaging their own improvement processes, raising urgent safety concerns.",
       "stories": [
         {
-          "id": "068025805da9094e",
-          "title": "FTC subpoenas OpenAI and Anthropic over AI safety incidents",
-          "url": "https://thenextweb.com/news/ftc-subpoenas-openai-anthropic-ai-safety-incidents",
-          "source": "The Next Web",
-          "summary": "The US Federal Trade Commission has sent civil investigative demands to Anthropic and OpenAI, seeking documents about the safety incidents involving their AI models. The demands went out on Wednesday, Axios first reported, citing a person familiar with the matter. An FTC spokesperson confirmed the subpoenas to CBS News and declined to comment further. OpenAI [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-17T17:51:58+00:00",
-          "score": 47.0,
-          "headline": "FTC SUBPOENAS OpenAI AND ANTHROPIC OVER SAFETY INCIDENTS"
-        },
-        {
-          "id": "f3990320e2b8bf92",
-          "title": "Anthropic in Talks for $45B Nscale Cloud Computing Deal",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-20/anthropic-in-talks-for-45b-nscale-cloud-computing-deal-video",
-          "source": "Bloomberg Technology",
-          "summary": "AI cloud computing firm Nscale is in talks to sell computing power to Anthropic in a deal that could be worth about $45 billion, according to people familiar with the matter. Bloomberg's Anthony Stephens reports. (Source: Bloomberg)",
-          "published": "2026-10-20T05:36:48+00:00",
+          "id": "5afba8050415bca9",
+          "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+          "source": "The Verge AI",
+          "summary": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason [&#8230;]",
+          "published": "2026-10-21T13:57:43+00:00",
           "score": 45.0,
-          "headline": "ANTHROPIC IN TALKS FOR $45B CLOUD DEAL WITH NSCALE"
+          "headline": "OPENAI'S GPT-6 AGENT LIED... Disabled Its Own Safety Monitoring"
         },
         {
-          "id": "4cd85df9056700f5",
-          "title": "Leaked Anthropic Draft AI Regulatory Bill Is Unacceptable and Troubling",
-          "url": "https://www.lesswrong.com/posts/NW4b7m6798byAndeB/leaked-anthropic-draft-ai-regulatory-bill-is-unacceptable",
-          "source": "LessWrong AI",
-          "summary": "There is a newly leaked bill that Anthropic is purportedly shopping around is (if you assume its bugs get fixed). It is similar to the FRONTIER Act, with stronger preemption of state laws, stronger transparency provisions and weaker enforcement provisions. Having slept on this, I find it unacceptable that Anthropic is actively shopping exactly the type of bill I have warned we will need to fight against during the lame duck session. They are trying to use this last time with a Republican Congress to pass preemption of exactly the important state laws, and get some transparency but not much enforcement in exchange. This reads as intentional, that Anthropic is more afraid that the government might enforce rules against Anthropic, than they are worried about the ability of the government to enforce rules against everyone. Anthropic\u2019s policy team seems to have, chosen protecting their business interests and guarding against their political risk, at the expense of safety considerations. The",
-          "published": "2026-10-17T14:50:53+00:00",
-          "score": 45.0,
-          "headline": "LEAKED ANTHROPIC AI BILL SPARKS BACKLASH"
-        },
-        {
-          "id": "227fea54aaca943c",
-          "title": "OpenAI Arrest Raises AI Espionage Concerns",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-18/openai-arrest-raises-ai-espionage-concerns-video",
-          "source": "Bloomberg Technology",
-          "summary": "Morgan Meaker, a senior writer for Bloomberg Weekend, tells Bloomberg This Weekend about the arrest of an OpenAI engineer accused of planting a covert recording device in an executive conference room, a case highlighting growing concerns about protecting sensitive AI technology. Meaker also explains to hosts David Gura and Christina Ruffini how AI training work is shifting toward highly skilled experts and why that evolution could eventually reshape the professions providing that expertise. (Source: Bloomberg)",
-          "published": "2026-10-18T12:27:37+00:00",
+          "id": "446806e85412e24c",
+          "title": "RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?",
+          "url": "https://arxiv.org/abs/2610.27735",
+          "source": "arXiv cs.AI",
+          "summary": "arXiv:2610.27735v1 Announce Type: new Abstract: Recursive self-improvement, in which frontier AI models work on training the next generation, is quickly becoming a reality. However, the safety of this process has received far less attention than it should. A misaligned model training its successor can shape what that successor knows, how it behaves, and what it wants, and the harm carries forward into the next generation. We study this risk through the lens of AI control. We introduce RSI Control Arena, a testbed in which a frontier model, acting as an autonomous R\\&amp;D agent, is given a benign main task from a stage of a successor model's training pipeline together with a covert side task to install a misaligned property in the successor. The testbed contains 16 side tasks in three classes, forming 22 task pairs with main tasks that span the pipeline from data curation to reinforcement learning. We evaluate six frontier models as agents against LLM monitors that read the transcript ",
+          "published": "2026-10-21T04:00:00+00:00",
           "score": 43.0,
-          "headline": "OPENAI ENGINEER ARRESTED for Planting Spy Device in Exec Conference Room"
+          "headline": "RSI CONTROL: AI Models Can Sabotage Self-Improvement Process"
         },
         {
-          "id": "fa12b3b5040e5229",
-          "title": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
-          "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "The Saudi government did not immediately respond to BBC requests for comment.",
-          "published": "2026-10-19T16:22:12+00:00",
+          "id": "96494c93340a23d6",
+          "title": "Anthropic\u2019s AI safety bill would pause AI models if 50+ people could die",
+          "url": "https://mashable.com/tech/anthropic-ai-safety-bill-1-billion-damages-50-people-die",
+          "source": "Mashable Tech",
+          "summary": "Anthropic has some interesting ideas on AI safety bills. One proposal would reportedly set a 50-death threshold.",
+          "published": "2026-10-21T16:40:16+00:00",
           "score": 42.0,
-          "headline": "EX-OPENAI WORKER HAD SAUDI BACKING IN BUGGING CASE"
+          "headline": "ANTHROPIC PROPOSES AI KILL SWITCH AT 50-DEATH THRESHOLD"
         },
         {
-          "id": "977305a185fb2c46",
-          "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
-          "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "The announcement comes as Anthropic lays the ground for a blockbuster stock market listing.",
-          "published": "2026-10-19T04:30:59+00:00",
-          "score": 42.0,
-          "headline": "ANTHROPIC COMMITS 5% OF SHARES TO PUBLIC FUND AHEAD OF IPO"
-        },
-        {
-          "id": "255dcc46242e9bbf",
-          "title": "US prosecutors allege Saudi royal links in OpenAI bugging case",
-          "url": "https://www.ft.com/content/9e10eaa4-ed5e-417b-85c5-b5003b064017?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Prosecutors argue Abdulrahman Alfozan should continue to be detained in the US due to his \u2018considerable support from a foreign government\u2019",
-          "published": "2026-10-19T16:13:28+00:00",
-          "score": 41.0,
-          "headline": "SAUDI ROYAL LINKS IN OPENAI BUGGING CASE"
-        },
-        {
-          "id": "b5e30ffca1c14ff9",
-          "title": "Anthropic May Put Some Shares in 'Public Good' Fund",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-19/anthropic-may-put-some-shares-in-public-good-fund-video",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC says it plans on depositing 5% of its shares in a new fund for \"the public good.\" The money could be used to offset AI's impact on the job market. The artificial intelligence startup is preparing for what could be one of the biggest IPOs ever. Bloomberg's Ed Ludlow reports. (Source: Bloomberg)",
-          "published": "2026-10-19T13:51:15+00:00",
-          "score": 41.0,
-          "headline": "Anthropic Creates 'Public Good' Fund... 5% of Shares"
-        },
-        {
-          "id": "8980aa2ffe1fcfa9",
-          "title": "Anthropic offers Blackstone double-digit yield in latest chip financing",
-          "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "High borrowing costs complicate AI lab\u2019s goal of achieving investment-grade status",
-          "published": "2026-10-17T00:47:25+00:00",
-          "score": 41.0,
-          "headline": "ANTHROPIC Offers Blackstone Double-Digit Yield in Chip Deal"
-        },
-        {
-          "id": "29acc6e7b7584e48",
-          "title": "What are self-replicating \u2018AI worms\u2019, and why is Anthropic worried about them?",
-          "url": "https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries",
+          "id": "3114dfd0abd497e6",
+          "title": "\u2018These risks are real\u2019: the threat of AI bioweapons \u2013 podcast",
+          "url": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
           "source": "The Guardian Tech",
-          "summary": "The tech company says successful AI worms need more capability on less powerful devices, but current trends make that feasible by the end of the yearWarnings about what artificial intelligence might do in the future \u2013 together with alarming reports of what it has gotten up to already \u2013 are being issued so quickly that even security experts have difficulty triaging what to worry about.Yet a report this week from Anthropic\u2019s offensive research team grabbed attention by describing a new, practical threat, one devoid of human characteristics or apocalyptic musings. The red team, as such internal testers are called, said it created a malicious AI program that spread autonomously through internet-connected \u201csmart\u201d televisions and could do the same inside other ordinary devices. While machines running AI usually need a fair amount of computing power, the researchers said that their program split parts of itself among 15 televisions and was still able to function by using a bit of power from e",
-          "published": "2026-10-18T13:30:00+00:00",
-          "score": 40.0,
-          "headline": "ANTHROPIC WARNS: Self-Replicating AI Worms Coming by Year's End"
+          "summary": "In his annual speech on threats to the nation, Sir Ken McCallum, the head of the UK\u2019s intelligence service, MI5, warned that AI had the potential to \u2018change the stakes\u2019 on existing and even new bioweapons. To find out why, and how, Ian Sample speaks to Dr Tom Inglesby, director of the Johns Hopkins Center for Health Security and the Bloomberg School of Public Health. He explains what has governments so worried and what measures could be put in place to reduce the risksCould AI \u2018change the stakes\u2019 in the development of bioweapons?Support the Guardian: theguardian.com/sciencepod Continue reading...",
+          "published": "2026-10-20T04:00:15+00:00",
+          "score": 42.0,
+          "headline": "MI5 CHIEF WARNS: AI BIOWEAPONS THREAT IS REAL"
         },
         {
-          "id": "761499ab9262df3b",
-          "title": "Anthropic turns to lawyers to help AI agents strike deals",
-          "url": "https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Tech companies are being forced to confront the rules of negotiation when machines act on humans\u2019 behalf",
-          "published": "2026-10-18T04:00:09+00:00",
-          "score": 40.0,
-          "headline": "Anthropic Hires Lawyers to Teach AI Agents Contract Law"
+          "id": "185426ba2ac3ad8c",
+          "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+          "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+          "source": "TechCrunch AI",
+          "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
+          "published": "2026-10-20T13:00:00+00:00",
+          "score": 41.0,
+          "headline": "Eka Robotics Hits $1.45B: Physical AI Breakthrough"
         }
       ],
-      "top_score": 47.0,
-      "story_count": 11
+      "top_score": 45.0,
+      "story_count": 5
     }
   ],
   "unclustered": [
     {
-      "id": "109fe5bc81ac2dff",
-      "title": "Z.AI Founds Worked with Accused Chinese Spy Group",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-20/z-ai-founds-worked-with-accused-chinese-spy-group-video",
+      "id": "ad8c7c208318d870",
+      "title": "SpaceX, Tesla Boards Study Possible $3.5 Trillion Merger",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-21/spacex-tesla-boards-study-possible-3-5-trillion-merger-video-mvibr4ut",
       "source": "Bloomberg Technology",
-      "summary": "Four founders from one of China's up-and-coming AI companies, Z.AI, worked on a study that was funded by a group accused of having ties to Chinese spies. Bloomberg's Kate O'Keeffe explains the tech and national security concerns with Ed Ludlow on \u201cBloomberg Tech.\u201d (Source: Bloomberg)",
-      "published": "2026-10-20T17:29:08+00:00",
+      "summary": "Elon Musk openly endorsed the prospect of combining SpaceX with Tesla Inc. in what would be the biggest-ever corporate merger, uniting assets from electric cars to AI data centers to rocket and satellite capabilities. Bloomberg's Sana Pashankar joined Bloomberg Intelligence to discuss this as well as SpaceX's recent earnings. (Source: Bloomberg)",
+      "published": "2026-10-21T16:26:34+00:00",
+      "score": 51.0,
+      "headline": "SPACEX-TESLA MERGER TALKS: $3.5T DEAL WOULD BE LARGEST EVER"
+    },
+    {
+      "id": "cac0151b397cee85",
+      "title": "Musk Weighs Massive SpaceX Tesla Merger",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-21/open-interest-10-21-2026-video",
+      "source": "Bloomberg Technology",
+      "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Wall Street splits on AI as Ken Griffin warns of a bubble and Larry Fink says keep building. Musk weighs a $3.5 trillion SpaceX-Tesla tie-up. United warns on rising fuel costs, while Netflix growth slows. Plus, Per Franzen on AI overinvestment, Matthew Condon on Netflix\u2019s next act, and Sagar Gupta joins us on activist opportunities in tech and media. (Source: Bloomberg)",
+      "published": "2026-10-21T16:44:29+00:00",
       "score": 48.0,
-      "headline": "CHINA AI STARTUP Z.AI FOUNDERS TIED TO SPY GROUP"
+      "headline": "MUSK EYES $3.5T SPACEX-TESLA MEGA-MERGER"
+    },
+    {
+      "id": "b0fd449d24dcc152",
+      "title": "PHP rushes out emergency patches for two critical bugs AI found first",
+      "url": "https://thenextweb.com/news/php2shell-php-rce-ai-openai-wiz",
+      "source": "The Next Web",
+      "summary": "PHP shipped emergency security updates on Wednesday. They fix two critical flaws that let an unauthenticated attacker run code on almost any server running the language. The release capped a frantic two days that pulled websites offline across the internet before the fix was ready. The patched releases are PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35. [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-21T15:25:13+00:00",
+      "score": 48.0,
+      "headline": "PHP EMERGENCY PATCH: AI Discovers Critical Flaws First"
     },
     {
       "id": "537bc09be5e671a4",
@@ -229,6 +179,36 @@
       "headline": "OPENAI REVERSES STANCE on China Chip Controls"
     },
     {
+      "id": "e2498d0c514f9f9a",
+      "title": "Websites taken down worldwide as critical cyber-security update issued",
+      "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
+      "published": "2026-10-21T16:07:19+00:00",
+      "score": 46.0,
+      "headline": "AI DISCOVERS 'MOST SIGNIFICANT' PHP FLAWS EVER, Sites Crash Globally"
+    },
+    {
+      "id": "c7c40cc44481fc2e",
+      "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
+      "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
+      "source": "Wired",
+      "summary": "Recursive makes the case that the benefits of using AI to build AI outweigh the risks.",
+      "published": "2026-10-21T16:00:00+00:00",
+      "score": 45.0,
+      "headline": "RECURSIVE'S SELF-IMPROVING AI MODEL IS 'SCARY GOOD'"
+    },
+    {
+      "id": "913fc2470636e10f",
+      "title": "New prize launches for books co-written with AI",
+      "url": "https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france",
+      "source": "The Guardian Tech",
+      "summary": "After months of controversy over the possible use of AI by winners of prestigious awards, the Prix Pascal de Litt\u00e9rature IA is rewarding fiction written with the help of LLMsA prize for AI-written books has launched this week.The Prix Pascal de Litt\u00e9rature IA invites submissions of manuscripts co-written with AI tools, with the winner promised publication. Continue reading...",
+      "published": "2026-10-21T14:59:34+00:00",
+      "score": 45.0,
+      "headline": "NEW PRIZE LAUNCHES FOR AI-WRITTEN BOOKS"
+    },
+    {
       "id": "92aa7c9499cb6bf5",
       "title": "AI Fears Roar Back After Elice IPO Flop",
       "url": "https://www.bloomberg.com/news/videos/2026-10-20/bloomberg-tech-10-20-2026-video",
@@ -239,6 +219,16 @@
       "headline": "KOREAN AI DATA CENTER ELICE CRASHES 32% ON DEBUT"
     },
     {
+      "id": "f18c65002055e6d4",
+      "title": "NScale, Anthropic in Talks for $45B AI Computing Deal",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-20/nscale-anthropic-in-talks-for-45b-ai-computing-deal-video",
+      "source": "Bloomberg Technology",
+      "summary": "Anthropic is in talks with Nscale for a massive new computing deal that could be worth as much as $45 billion. The deal would be for a second facility at Nscale's Monarch data center campus in West Virginia, which would deliver 460 megawatts of computing power using Nvidia's advanced Vera Rubin AI chips. Bloomberg's Bailey Lipschultz joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-10-20T17:14:43+00:00",
+      "score": 45.0,
+      "headline": "ANTHROPIC IN TALKS FOR $45B AI COMPUTING DEAL"
+    },
+    {
       "id": "dc2fe3993921152b",
       "title": "Stocks Fall as AI Worries Trigger Treasury Gains",
       "url": "https://www.bloomberg.com/news/videos/2026-10-20/stocks-fall-as-ai-worries-trigger-treasury-gains-video",
@@ -247,6 +237,46 @@
       "published": "2026-10-20T14:29:24+00:00",
       "score": 45.0,
       "headline": "STOCKS TANK as Korean AI Data Center Flops"
+    },
+    {
+      "id": "f3990320e2b8bf92",
+      "title": "Anthropic in Talks for $45B Nscale Cloud Computing Deal",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-20/anthropic-in-talks-for-45b-nscale-cloud-computing-deal-video",
+      "source": "Bloomberg Technology",
+      "summary": "AI cloud computing firm Nscale is in talks to sell computing power to Anthropic in a deal that could be worth about $45 billion, according to people familiar with the matter. Bloomberg's Anthony Stephens reports. (Source: Bloomberg)",
+      "published": "2026-10-20T05:36:48+00:00",
+      "score": 45.0,
+      "headline": "ANTHROPIC IN TALKS FOR $45B CLOUD DEAL WITH NSCALE"
+    },
+    {
+      "id": "f5e233fa74145315",
+      "title": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
+      "source": "The Guardian Tech",
+      "summary": "Exclusive: Nvidia, Microsoft and Cisco taskforce urges ministers to offer areas greater benefits from tech infrastructure amid fears of US-style oppositionAI companies have told ministers they have 12 months to head off public opposition to datacentres in the UK or risk US-style protests that could threaten their construction.Successive dry summers and rising energy bills are increasing public scrutiny of plans for the huge computer warehouses that are used to train and run AI models, says a submission to the Labour government from a group including the AI infrastructure companies Nvidia, Microsoft and Cisco. Continue reading...",
+      "published": "2026-10-22T05:00:08+00:00",
+      "score": 44.0,
+      "headline": "UK Has ONE YEAR to Stop Datacenter Protests - AI Firms Warn"
+    },
+    {
+      "id": "4366b66a5653dfa1",
+      "title": "Why I\u2019m becoming a professor in AI safety in Beijing",
+      "url": "https://www.lesswrong.com/posts/qGS3SJ9TSKdSSycRz/why-i-m-becoming-a-professor-in-ai-safety-in-beijing",
+      "source": "LessWrong AI",
+      "summary": "Cross-posted from S\u00f6ren Mindermann's substack (I am not S\u00f6ren). Should be of general interest to the LW community. Next month, I am moving to Beijing and joining Tsinghua University\u2019s College of AI as an assistant professor working on frontier AI safety, especially loss of control. I have also started co-directing the new Beijing AI Safety Hub (BASH) in Tsinghua, and I continue my Cambridge work.I believe I can have a large impact there compared to strong baseline options. This post explains why.In short: Amid concerns about loss of control, calls for international cooperation, and the Trump-Xi Summits, there is a striking lack of mutual understanding on AI between the West and China. There are strong reasons to believe that being in Beijing in person will put me in a unique position to understand both AI ecosystems, build shared scientific understanding, and strengthen safety work in China \u2013 and that this would help all sides. Tsinghua\u2019s College of AI is a great place for doing this, ",
+      "published": "2026-10-21T15:20:40+00:00",
+      "score": 44.0,
+      "headline": "Top AI Safety Researcher Joins Tsinghua University in Beijing"
+    },
+    {
+      "id": "3b3c3d28f6c81b1f",
+      "title": "SpaceX, Tesla Boards Study Possible $3.5 Trillion Merger",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-21/spacex-tesla-boards-study-possible-3-5-trillion-merger-video",
+      "source": "Bloomberg Technology",
+      "summary": "Elon Musk openly endorsed the prospect of combining SpaceX with Tesla in what would be the biggest-ever corporate merger. Ed Ludlow has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "published": "2026-10-21T14:44:23+00:00",
+      "score": 44.0,
+      "headline": "SPACEX-TESLA MERGER: $3.5 TRILLION DEAL UNDER STUDY"
     },
     {
       "id": "dbd305d447b8eaee",
@@ -279,34 +309,44 @@
       "headline": "HACKER UNLEASHES AI AGENT ARMY... Breaches 100+ Sites"
     },
     {
-      "id": "ea0b7aeeea04b38a",
-      "title": "US threatens Europe over Starlink restrictions",
-      "url": "https://www.ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa?syn-25a6b1a6=1",
+      "id": "01b605c979511e28",
+      "title": "Websites taken offline in race to patch PHP security flaw",
+      "url": "https://www.ft.com/content/d438af1e-a48c-4aeb-8c84-00cdb5e741e3?syn-25a6b1a6=1",
       "source": "Financial Times Tech",
-      "summary": "Ambassador Andrew Puzder warns about \u2018devastating\u2019 retaliation if Brussels goes ahead with plans to limit spectrum access for non-EU companies",
-      "published": "2026-10-18T16:00:00+00:00",
-      "score": 44.0,
-      "headline": null
-    },
-    {
-      "id": "446806e85412e24c",
-      "title": "RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?",
-      "url": "https://arxiv.org/abs/2610.27735",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.27735v1 Announce Type: new Abstract: Recursive self-improvement, in which frontier AI models work on training the next generation, is quickly becoming a reality. However, the safety of this process has received far less attention than it should. A misaligned model training its successor can shape what that successor knows, how it behaves, and what it wants, and the harm carries forward into the next generation. We study this risk through the lens of AI control. We introduce RSI Control Arena, a testbed in which a frontier model, acting as an autonomous R\\&amp;D agent, is given a benign main task from a stage of a successor model's training pipeline together with a covert side task to install a misaligned property in the successor. The testbed contains 16 side tasks in three classes, forming 22 task pairs with main tasks that span the pipeline from data curation to reinforcement learning. We evaluate six frontier models as agents against LLM monitors that read the transcript ",
-      "published": "2026-10-21T04:00:00+00:00",
+      "summary": "Government security agencies warn companies to take immediate action after AI uncovers widespread vulnerabilities",
+      "published": "2026-10-22T04:28:04+00:00",
       "score": 43.0,
-      "headline": "RSI CONTROL: AI Models Can Sabotage Self-Improvement Process"
+      "headline": "AI UNCOVERS PHP Flaw... Sites Taken OFFLINE in Patch Race"
     },
     {
-      "id": "227fea54aaca943c",
-      "title": "OpenAI Arrest Raises AI Espionage Concerns",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-18/openai-arrest-raises-ai-espionage-concerns-video",
+      "id": "a164cff18fdb9877",
+      "title": "AI Research Startup Flapping Airplanes Valued at $6 Billion in Round",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round",
       "source": "Bloomberg Technology",
-      "summary": "Morgan Meaker, a senior writer for Bloomberg Weekend, tells Bloomberg This Weekend about the arrest of an OpenAI engineer accused of planting a covert recording device in an executive conference room, a case highlighting growing concerns about protecting sensitive AI technology. Meaker also explains to hosts David Gura and Christina Ruffini how AI training work is shifting toward highly skilled experts and why that evolution could eventually reshape the professions providing that expertise. (Source: Bloomberg)",
-      "published": "2026-10-18T12:27:37+00:00",
+      "summary": "Flapping Airplanes, a year-old artificial intelligence startup, has raised $1 billion in funding at a $6 billion valuation \u2014 the latest example of investors betting on a newer crop of AI research labs that have yet to introduce commercial products. The financing, set to be announced Wednesday, was led by Index Ventures and Lux Capital. Other participants included Sequoia Capital, Alphabet Inc.\u2019s GV and Kleiner Perkins. The company\u2019s valuation, which includes the money raised, has quadrupled fro",
+      "published": "2026-10-21T17:00:01+00:00",
       "score": 43.0,
-      "headline": "OPENAI ENGINEER ARRESTED for Planting Spy Device in Exec Conference Room"
+      "headline": "AI STARTUP FLAPPING AIRPLANES HITS $6B VALUATION IN $1B ROUND"
+    },
+    {
+      "id": "76ddfc7cea6bb0fa",
+      "title": "PHP knew about one of the flaws in 2024 but could not agree a fix",
+      "url": "https://thenextweb.com/news/php-foundation-structural-failure-2024-flaw-leak",
+      "source": "The Next Web",
+      "summary": "The PHP Foundation has given an unusually frank account of the emergency behind this week\u2019s patches. It said it had found one of the two critical flaws two years ago, in 2024. Then it spent months unable to agree on how to repair it. The admission came in a blog post from the Foundation on [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-21T16:02:04+00:00",
+      "score": 43.0,
+      "headline": "PHP Foundation Admits 2-Year Delay on Critical Vulnerability Fix"
+    },
+    {
+      "id": "f152148a5e391c2e",
+      "title": "Jensen Huang\u2019s Vision for Europe Runs on Plug-In Data Centers",
+      "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
+      "source": "Wired",
+      "summary": "At Nvidia\u2019s GTC in Berlin, Huang unveiled the company\u2019s new plug-in data center\u2014the DSX Pod\u2014as the key to unlocking Europe\u2019s AI infrastructure lag. Oh, and autonomous humanoid robotics.",
+      "published": "2026-10-21T15:02:15+00:00",
+      "score": 43.0,
+      "headline": "NVIDIA Unveils Plug-In Data Centers to Fix Europe's AI Lag"
     },
     {
       "id": "b727d0423c665838",
@@ -319,16 +359,6 @@
       "headline": "Inception's Mercury 3 Claims to Beat GPT-6 Luna"
     },
     {
-      "id": "3114dfd0abd497e6",
-      "title": "\u2018These risks are real\u2019: the threat of AI bioweapons \u2013 podcast",
-      "url": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
-      "source": "The Guardian Tech",
-      "summary": "In his annual speech on threats to the nation, Sir Ken McCallum, the head of the UK\u2019s intelligence service, MI5, warned that AI had the potential to \u2018change the stakes\u2019 on existing and even new bioweapons. To find out why, and how, Ian Sample speaks to Dr Tom Inglesby, director of the Johns Hopkins Center for Health Security and the Bloomberg School of Public Health. He explains what has governments so worried and what measures could be put in place to reduce the risksCould AI \u2018change the stakes\u2019 in the development of bioweapons?Support the Guardian: theguardian.com/sciencepod Continue reading...",
-      "published": "2026-10-20T04:00:15+00:00",
-      "score": 42.0,
-      "headline": "MI5 CHIEF WARNS: AI BIOWEAPONS THREAT IS REAL"
-    },
-    {
       "id": "fa12b3b5040e5229",
       "title": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
       "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
@@ -339,24 +369,64 @@
       "headline": "EX-OPENAI WORKER HAD SAUDI BACKING IN BUGGING CASE"
     },
     {
-      "id": "cca2471b4696b18e",
-      "title": "Govt asks Meta to ensure its recommendation systems do not expose users to a limited set of narratives",
-      "url": "https://economictimes.indiatimes.com/tech/technology/govt-asks-meta-to-ensure-its-recommendation-systems-do-not-expose-users-to-a-limited-set-of-narratives/articleshow/135031354.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The advisory by the Ministry of Electronics and Information Technology (MeitY), dated October 10, asked Meta to undertake appropriate measures to provide adequate context in relation to photographs, videos, graphics, or other content depicting ongoing public events, particularly where the authenticity, date, location or circumstances of such content may not be readily apparent to users.",
-      "published": "2026-10-18T15:56:50+00:00",
+      "id": "977305a185fb2c46",
+      "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "The announcement comes as Anthropic lays the ground for a blockbuster stock market listing.",
+      "published": "2026-10-19T04:30:59+00:00",
       "score": 42.0,
-      "headline": "India Orders Meta to Fix AI Recommendation Bias"
+      "headline": "ANTHROPIC COMMITS 5% OF SHARES TO PUBLIC FUND AHEAD OF IPO"
     },
     {
-      "id": "ad4f576d20c7bf4b",
-      "title": "AI Trade Reversal Pierces Asia\u2019s Star Picks-and-Shovels Stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-18/ai-trade-reversal-pierces-asia-s-star-picks-and-shovels-stocks",
+      "id": "7d7feeece49366f6",
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "source": "NVIDIA AI Blog",
+      "summary": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open [&#8230;]",
+      "published": "2026-10-22T05:00:27+00:00",
+      "score": 41.0,
+      "headline": "NVIDIA Expands Cosmos Platform for World Models Training"
+    },
+    {
+      "id": "4bfadc8ca3d19368",
+      "title": "eMudhra breach: Netizens react as IT Ministry says impact on Indian sites \u2018very limited\u2019",
+      "url": "https://economictimes.indiatimes.com/tech/technology/emudhra-breach-netizens-react-as-it-ministry-says-impact-on-indian-sites-very-limited/articleshow/135107533.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Cybersecurity agency CERT-In warned that the compromised keys could let attackers issue fraudulent certificates for domains they do not control, impersonate legitimate websites and carry out attacks that intercept or modify encrypted communications.",
+      "published": "2026-10-22T04:46:37+00:00",
+      "score": 41.0,
+      "headline": "India Ministry Says eMudhra Breach Impact 'Very Limited'"
+    },
+    {
+      "id": "6fbe03d175605cbe",
+      "title": "Anthropic set Claude on 25 open-source projects and it found 493 flaws",
+      "url": "https://thenextweb.com/news/claude-attack-surface-reduction-493-issues-openssh",
+      "source": "The Next Web",
+      "summary": "Anthropic pointed its Claude models at 25 widely used open-source projects and set them a different task: not finding individual bugs, but finding code that attackers can reach when they should not be able to. Claude flagged 493 such issues. One of them had sat in the software for 21 years. The work is a [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-21T15:39:42+00:00",
+      "score": 41.0,
+      "headline": "Claude Finds 493 Security Flaws in Major Open-Source Projects"
+    },
+    {
+      "id": "4ef62f095ce74263",
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "source": "TechCrunch AI",
+      "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
+      "published": "2026-10-20T17:55:12+00:00",
+      "score": 41.0,
+      "headline": "Eric Schmidt Owns 1% of Anthropic: Bloomberg"
+    },
+    {
+      "id": "0fae2bb85abca4b2",
+      "title": "Eric Schmidt\u2019s Early Anthropic Bet Set to Pay Huge Windfall",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-20/eric-schmidt-s-early-anthropic-bet-to-pay-huge-windfall-video",
       "source": "Bloomberg Technology",
-      "summary": "A deepening selloff in US technology stocks is exposing a new vulnerability in Asia\u2019s artificial intelligence trade: mounting financing costs could choke off the spending needed to sustain the boom, threatening earnings across a supply chain that has powered the region\u2019s stock-market rally.",
-      "published": "2026-10-18T00:00:00+00:00",
-      "score": 42.0,
-      "headline": "ASIA AI STOCKS CRASH as Financing Costs Threaten Boom"
+      "summary": "Former Google CEO Eric Schmidt owns around 1% of Anthropic thanks to his early investment in the startup, setting him up for one of the largest individual windfalls from the company\u2019s imminent public market debut. Bloomberg's Natasha Mascarenhas joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "published": "2026-10-20T17:20:13+00:00",
+      "score": 41.0,
+      "headline": "Eric Schmidt's Anthropic Bet Set for Massive Windfall"
     },
     {
       "id": "bbe69edd45b07db9",
@@ -377,16 +447,6 @@
       "published": "2026-10-20T13:42:20+00:00",
       "score": 41.0,
       "headline": "REVERSE-ENGINEER ANYTHING: AI's New Wild West"
-    },
-    {
-      "id": "185426ba2ac3ad8c",
-      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
-      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
-      "source": "TechCrunch AI",
-      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
-      "published": "2026-10-20T13:00:00+00:00",
-      "score": 41.0,
-      "headline": "Eka Robotics Hits $1.45B: Physical AI Breakthrough"
     },
     {
       "id": "910fb479dfce9b93",
@@ -429,6 +489,16 @@
       "headline": "NVIDIA Launches Open Models for Enterprise AI Agents"
     },
     {
+      "id": "b5e30ffca1c14ff9",
+      "title": "Anthropic May Put Some Shares in 'Public Good' Fund",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-19/anthropic-may-put-some-shares-in-public-good-fund-video",
+      "source": "Bloomberg Technology",
+      "summary": "Anthropic PBC says it plans on depositing 5% of its shares in a new fund for \"the public good.\" The money could be used to offset AI's impact on the job market. The artificial intelligence startup is preparing for what could be one of the biggest IPOs ever. Bloomberg's Ed Ludlow reports. (Source: Bloomberg)",
+      "published": "2026-10-19T13:51:15+00:00",
+      "score": 41.0,
+      "headline": "Anthropic Creates 'Public Good' Fund... 5% of Shares"
+    },
+    {
       "id": "646724e1cec19fc4",
       "title": "Can LLMs predict the outcomes of machine learning experiments?",
       "url": "https://arxiv.org/abs/2610.22599",
@@ -439,14 +509,64 @@
       "headline": "LLMs Can Now Predict ML Experiment Outcomes\u2014RSI Closer?"
     },
     {
-      "id": "2f6c16309da40a52",
-      "title": "Disney agrees to hire the majority of Character.AI\u2019s workforce",
-      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-      "source": "TechCrunch AI",
-      "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI\u2019s former CEO Karandeep Anand recently became the entertainment giant\u2019s first CTO, and the startup previously said that Disney had agreed to acquire some of its assets for $20 million. A legal [&#8230;]",
-      "published": "2026-10-18T16:30:00+00:00",
-      "score": 41.0,
-      "headline": "DISNEY SWOOPS: Hiring Character.AI Staff After Bankruptcy"
+      "id": "b98868e524d833cf",
+      "title": "SoftBank Market Value Poised to Halve From Peak as AI Fears Grow",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/softbank-market-value-poised-to-halve-from-peak-as-ai-fears-grow",
+      "source": "Bloomberg Technology",
+      "summary": "SoftBank Group Corp.\u2019s market value is poised to halve from its peak in June, as higher borrowing costs fuel investor concerns over the sustainability of its massive investments in artificial intelligence.",
+      "published": "2026-10-22T05:40:39+00:00",
+      "score": 40.0,
+      "headline": "SOFTBANK Market Value HALVES as AI Fears Mount"
+    },
+    {
+      "id": "f07f836d67713430",
+      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+      "source": "NVIDIA AI Blog",
+      "summary": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like \u2014 built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF [&#8230;]",
+      "published": "2026-10-22T05:00:56+00:00",
+      "score": 40.0,
+      "headline": "European Banks Build Proprietary AI on Open Models"
+    },
+    {
+      "id": "bce5438166d3bb69",
+      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+      "source": "NVIDIA AI Blog",
+      "summary": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
+      "published": "2026-10-22T05:00:19+00:00",
+      "score": 40.0,
+      "headline": "Europe Deploys NVIDIA Earth-2 for Weather Prediction"
+    },
+    {
+      "id": "8566b59c09c63065",
+      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+      "source": "NVIDIA AI Blog",
+      "summary": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards and keep sensitive data within controlled environments. Some open models go further, [&#8230;]",
+      "published": "2026-10-22T05:00:02+00:00",
+      "score": 40.0,
+      "headline": "European Governments Deploy NVIDIA Open Models"
+    },
+    {
+      "id": "111e9461409d428b",
+      "title": "Venture Capitalists Push Up AI Startup Valuations with Tranched, Two-Step Rounds",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/venture-capitalists-push-up-ai-startup-valuations-with-tranched-two-step-rounds",
+      "source": "Bloomberg Technology",
+      "summary": "Venture capitalists are fighting to invest in AI startup Emulate, driving its valuation into the billions \u2014 even though the company is only three months old and doesn\u2019t yet have a website or product.",
+      "published": "2026-10-22T04:15:00+00:00",
+      "score": 40.0,
+      "headline": "3-Month-Old AI Startup Emulate Valued at BILLIONS"
+    },
+    {
+      "id": "e8d8f6074aa52bbf",
+      "title": "Explained: What is PHP and why did it take government websites offline?",
+      "url": "https://economictimes.indiatimes.com/tech/technology/explained-what-is-php-and-why-did-it-take-government-websites-offline/articleshow/135096488.cms",
+      "source": "The Economic Times Tech",
+      "summary": "The developers of PHP said on Wednesday they would release patches for two critical vulnerabilities, and EU cybersecurity officials warned organisations unable to apply the fixes to take affected websites offline. Here is what you need to know:",
+      "published": "2026-10-21T16:37:17+00:00",
+      "score": 40.0,
+      "headline": "Critical PHP Flaws Take Down Government Sites Worldwide"
     },
     {
       "id": "ed8fce44c3832075",
@@ -549,74 +669,24 @@
       "headline": "GOOGLE GEMINI 4 ARGON DROPS... Million-Token Output Window"
     },
     {
-      "id": "d2789e017356f5fd",
-      "title": "VC\u2019s remark on deeptech sets off a debate on where India\u2019s capital should go",
-      "url": "https://economictimes.indiatimes.com/tech/startups/vcs-remark-on-deeptech-sets-off-a-debate-on-where-indias-capital-should-go/articleshow/135031023.cms",
-      "source": "The Economic Times Tech",
-      "summary": "\u201cIn a decade we will realize most of the deeptech is a grift,\u201d Maini wrote, adding that quick services and quick commerce companies will do more to drive the economy. The remark, a reply to a post by Neosapien CEO Dhananjay Yadav, drew heavy reactions on X.",
-      "published": "2026-10-18T15:36:07+00:00",
-      "score": 40.0,
-      "headline": "India VC Sparks Firestorm: 'Deeptech is a Grift'"
+      "id": "5b6c77bb4d0679b8",
+      "title": "UK working to identify exposure after global cyber-security warning",
+      "url": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "Governments and companies are scrambling to protect their websites, as Amazon says it experienced attacks before the warning was made public.",
+      "published": "2026-10-22T06:05:03+00:00",
+      "score": 39.0,
+      "headline": "Global Cyber Warning: Amazon Hit BEFORE Public Alert"
     },
     {
-      "id": "29acc6e7b7584e48",
-      "title": "What are self-replicating \u2018AI worms\u2019, and why is Anthropic worried about them?",
-      "url": "https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries",
-      "source": "The Guardian Tech",
-      "summary": "The tech company says successful AI worms need more capability on less powerful devices, but current trends make that feasible by the end of the yearWarnings about what artificial intelligence might do in the future \u2013 together with alarming reports of what it has gotten up to already \u2013 are being issued so quickly that even security experts have difficulty triaging what to worry about.Yet a report this week from Anthropic\u2019s offensive research team grabbed attention by describing a new, practical threat, one devoid of human characteristics or apocalyptic musings. The red team, as such internal testers are called, said it created a malicious AI program that spread autonomously through internet-connected \u201csmart\u201d televisions and could do the same inside other ordinary devices. While machines running AI usually need a fair amount of computing power, the researchers said that their program split parts of itself among 15 televisions and was still able to function by using a bit of power from e",
-      "published": "2026-10-18T13:30:00+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC WARNS: Self-Replicating AI Worms Coming by Year's End"
-    },
-    {
-      "id": "cc9d10aef21041bd",
-      "title": "World Bank backs \u2018small AI\u2019 on phones for poorer nations, Guardian reports",
-      "url": "https://thenextweb.com/news/world-bank-small-ai-developing-countries",
-      "source": "The Next Web",
-      "summary": "The World Bank wants developing countries to build \u201csmall AI\u201d, compact models that run on a mobile phone with a weak signal. Paschal Donohoe, the bank\u2019s chief knowledge officer, said AI could speed up growth in emerging economies, but only if it fits local needs, the Guardian reported. Small AI uses specialised models trained on narrower [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-18T11:48:29+00:00",
-      "score": 40.0,
-      "headline": "WORLD BANK PUSHES 'SMALL AI' FOR DEVELOPING NATIONS"
-    },
-    {
-      "id": "4bef925ac2735978",
-      "title": "World Bank says \u2018small AI\u2019 could transform developing countries",
-      "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies",
-      "source": "The Guardian Tech",
-      "summary": "Bank\u2019s chief knowledge officer says the tech could speed up economic development from centuries to decadesThe World Bank is urging developing countries to kickstart the creation of \u201csmall AI\u201d models, which can run on a mobile phone with low connectivity, to reap the full benefits of artificial intelligence.While Silicon Valley big tech firms are focused on ever more sophisticated consumer products, Paschal Donohoe, the World Bank\u2019s chief knowledge officer, said AI could also accelerate development for emerging economies \u2013 but only if it was adapted to local needs. Continue reading...",
-      "published": "2026-10-18T10:00:56+00:00",
-      "score": 40.0,
-      "headline": "WORLD BANK: 'SMALL AI' COULD TRANSFORM DEVELOPING WORLD"
-    },
-    {
-      "id": "317c2c44bed45515",
-      "title": "\u2018I felt disgusted\u2019: MEP speaks out over nude deepfakes and urges EU action",
-      "url": "https://www.theguardian.com/society/2026/oct/18/mep-lena-schilling-nude-deepfakes-eu-action",
-      "source": "The Guardian Tech",
-      "summary": "Lena Schilling of Austrian Greens says images are \u2018digital violence against women\u2019 and a threat to democracyAn Austrian MEP has spoken out about her experience of being \u201cstripped naked\u201d online without her consent and has urged the EU to take action, as a report found that one in six female MEPs had been targeted by sexualised AI-generated content.Lena Schilling of the Green party said she had learned last month about nude deepfakes of herself circulating online. When she opened the links, she found herself staring at images from one of her first ever press conferences \u2013 but the images had been digitally altered to remove her clothing. Continue reading...",
-      "published": "2026-10-18T04:00:50+00:00",
-      "score": 40.0,
-      "headline": "EU MEP DEMANDS ACTION After Nude Deepfakes Attack"
-    },
-    {
-      "id": "62fcf6b2c4c31153",
-      "title": "Global economy set for AI-driven surge, FT survey suggests",
-      "url": "https://www.ft.com/content/c6aeb3a1-1874-4947-8ffc-4d993301244a?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Poll of 94 economists points to benefits reaching far beyond the US and China",
-      "published": "2026-10-18T04:00:09+00:00",
-      "score": 40.0,
-      "headline": "GLOBAL ECONOMY SET FOR AI-DRIVEN SURGE: 94 Economists"
-    },
-    {
-      "id": "761499ab9262df3b",
-      "title": "Anthropic turns to lawyers to help AI agents strike deals",
-      "url": "https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Tech companies are being forced to confront the rules of negotiation when machines act on humans\u2019 behalf",
-      "published": "2026-10-18T04:00:09+00:00",
-      "score": 40.0,
-      "headline": "Anthropic Hires Lawyers to Teach AI Agents Contract Law"
+      "id": "08a293d0b0e375da",
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "source": "Hugging Face Blog",
+      "summary": "",
+      "published": "2026-10-21T14:58:18+00:00",
+      "score": 39.0,
+      "headline": "IBM's Granite Speech 5.0: Faster, More Accurate Transcription"
     },
     {
       "id": "e62d4aa02c5814d1",
@@ -749,34 +819,54 @@
       "headline": "China's 4.5% Growth Masks Export Boom 'Drag on World Economy'"
     },
     {
-      "id": "0c13093dde030870",
-      "title": "Microsoft pulls plug on Nscale data centre deal",
-      "url": "https://www.ft.com/content/35cc5cc6-f9b6-49cc-8fc2-bd61e09c8c40?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "US tech giant abandons agreement to lease capacity at neocloud\u2019s UK site",
-      "published": "2026-10-18T18:06:33+00:00",
-      "score": 39.0,
-      "headline": "Microsoft Abandons UK Data Centre Deal with Nscale"
+      "id": "42fcbcea7d507809",
+      "title": "Meta Gains on Results, New Stock Class to Fund AI",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-22/meta-gains-on-results-new-stock-class-to-fund-ai-video",
+      "source": "Bloomberg Technology",
+      "summary": "Meta's Chief Executive Officer Mark Zuckerberg told investors a pricey wager on AI is delivering results. The company boosted its capital spending plans for the year and announced a new class of nonvoting stock that could ultimately be used to help pay for acquisitions and other expenses. Bloomberg's Ruhell Amin breaks down the situation. (Source: Bloomberg)",
+      "published": "2026-10-22T05:48:11+00:00",
+      "score": 38.0,
+      "headline": "META Boosts AI Spending... Creates New Stock Class"
     },
     {
-      "id": "035fe7147ac429d9",
-      "title": "Accenture looks to sell Chinese operations for up to $1.5bn",
-      "url": "https://www.ft.com/content/2dfdd513-26a6-4a10-9cae-5242eb4ee3ed?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Shares in world\u2019s largest IT consultancy have fluctuated in recent months over questions about the impact of AI",
-      "published": "2026-10-18T10:00:09+00:00",
-      "score": 39.0,
-      "headline": "Accenture Eyes $1.5B China Exit Amid AI Pressures"
+      "id": "1e6ff213db51b557",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+      "source": "NVIDIA AI Blog",
+      "summary": "European retailers are using open models and physical intelligence across use cases \u2014 from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open [&#8230;]",
+      "published": "2026-10-22T05:00:23+00:00",
+      "score": 38.0,
+      "headline": "European Retail Slashes AI Costs 90% with NVIDIA Models"
     },
     {
-      "id": "3b07850960fb3cac",
-      "title": "America\u2019s $10tn AI infrastructure boom is starting to fray",
-      "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c?syn-25a6b1a6=1",
+      "id": "f3f4777e99135a35",
+      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "source": "TechCrunch Startups",
+      "summary": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
+      "published": "2026-10-21T17:18:27+00:00",
+      "score": 38.0,
+      "headline": "AI Code Testing Platform Blacksmith Hits $1B Valuation"
+    },
+    {
+      "id": "b90556549431d2a3",
+      "title": "AI Guardrails Aren\u2019t Stopping Criminal Hackers",
+      "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+      "source": "Wired",
+      "summary": "Hackers around the world are all-in on using agentic AI to wage attacks\u2014and manipulating tools like Anthropic\u2019s Claude to help them carry out their crimes.",
+      "published": "2026-10-21T14:00:00+00:00",
+      "score": 38.0,
+      "headline": "HACKERS BYPASS AI GUARDRAILS... Claude Used for Cybercrimes"
+    },
+    {
+      "id": "e80bb8c60d14167b",
+      "title": "Rockets, robots and risk: Musk\u2019s $3.6tn gamble to merge Tesla and SpaceX",
+      "url": "https://www.ft.com/content/e598bbc7-8211-436f-a57e-46c3ae21ac0f?syn-25a6b1a6=1",
       "source": "Financial Times Tech",
-      "summary": "A vast bet on the future of the technology is running into the unforgiving economics of the physical world",
-      "published": "2026-10-18T04:00:18+00:00",
-      "score": 39.0,
-      "headline": "America's $10TN AI Infrastructure Boom HITS ECONOMIC REALITY"
+      "summary": "The world\u2019s richest man attempts his most audacious deal yet. But shareholders and global regulators will need convincing",
+      "published": "2026-10-21T13:38:40+00:00",
+      "score": 38.0,
+      "headline": null
     },
     {
       "id": "35e0f121f555604d",
@@ -927,167 +1017,7 @@
       "published": "2026-10-19T13:00:03+00:00",
       "score": 38.0,
       "headline": "Agility Robotics Launches Digit 5 Humanoid"
-    },
-    {
-      "id": "22c9dbea348b46de",
-      "title": "Progressive Misalignment Can Emerge from Benign Recursive Self-Distillation",
-      "url": "https://arxiv.org/abs/2610.22467",
-      "source": "arXiv cs.LG",
-      "summary": "arXiv:2610.22467v1 Announce Type: new Abstract: Training models on their own outputs has attracted widespread attention as a possible route to advance AI capabilities. One prominent approach is self-distillation, where a model is trained to match the token-level predictions it would have produced when given access to additional context, such as a cue, feedback, or instruction. However, the safety properties of this training procedure are poorly understood. In this paper, we present a surprising safety failure of recursive self-distillation, where each self-distilled model becomes the teacher for the next round of training. We observe that when a safe model is recursively self-distilled on its own (safe) generations while receiving an additional non-harmful cue, it becomes increasingly misaligned across a diverse set of harmful queries; we call this Progressive Misalignment. We show this failure mode in both the Qwen3 and Phi-4 model families on SORRY-Bench and StrongREJECT. Progressive",
-      "published": "2026-10-19T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "AI Models Can Slowly Corrupt Themselves Through Self-Training"
-    },
-    {
-      "id": "c5ed6c42faac0b76",
-      "title": "Lithuanians take shelter, Nato jets scramble as suspected drone explodes",
-      "url": "https://www.scmp.com/news/world/europe/article/3371323/lithuanians-take-shelter-nato-jets-scramble-suspected-drone-explodes?utm_source=rss_feed",
-      "source": "South China Morning Post Tech",
-      "summary": "A suspected drone exploded over Lithuania \u2060after triggering an alert that forced residents in northern and central areas to seek shelter for an hour on Sunday morning, the president and other defence officials said. Ukraine\u2019s Foreign Ministry said later it regretted the incident in Lithuania\u2019s airspace, adding that it may have resulted from Russian \u200celectronic warfare diverting drones off course. The object flew into Lithuania\u2019s airspace from Poland, Lithuanian Defence Minister Robertas Kaunas...",
-      "published": "2026-10-18T15:23:41+00:00",
-      "score": 38.0,
-      "headline": null
-    },
-    {
-      "id": "6ae5ed7ca6f1f5b2",
-      "title": "Europe\u2019s industrial giants take diverging paths as they ride AI boom",
-      "url": "https://www.ft.com/content/5d45d66f-fd31-4263-b52f-54d9d88baa63?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Schneider Electric and Siemens move further into software as rival ABB bets on physical equipment",
-      "published": "2026-10-18T04:00:09+00:00",
-      "score": 38.0,
-      "headline": "EU Industrial Giants Split: Schneider/Siemens Push AI Software"
-    },
-    {
-      "id": "2e4b4674ca1a587f",
-      "title": "Researchers connected a simulated fruit fly brain to Odyssey-3, an AI that generates entire virtual worlds. The fly is now navigating these imagined environments completely on its own. A biological brain recreated in software is exploring worlds that have never existed.",
-      "url": "https://www.reddit.com/r/singularity/comments/1x8qyc7/researchers_connected_a_simulated_fruit_fly_brain/",
-      "source": "Reddit r/singularity",
-      "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-      "published": "2026-10-18T01:40:05+00:00",
-      "score": 38.0,
-      "headline": "SIMULATED FLY BRAIN Navigates AI-Generated Virtual Worlds"
-    },
-    {
-      "id": "feeab28a70d3196d",
-      "title": "The $15bn \u2018viral\u2019 AI start-up changing how American doctors treat patients",
-      "url": "https://www.ft.com/content/0ed17b79-47dd-4ad8-8dca-44eb35617edc?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Founder of OpenEvidence chatbot says two-thirds of US physicians use the ad-powered tool, prompting a debate about patient care",
-      "published": "2026-10-21T04:00:04+00:00",
-      "score": 37.0,
-      "headline": "$15BN AI Startup Changes How US Doctors Treat Patients"
-    },
-    {
-      "id": "14070f02351e43d3",
-      "title": "Stronger artificial intelligence breakthroughs hasten their own exhaustion",
-      "url": "https://arxiv.org/abs/2610.27296",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.27296v1 Announce Type: new Abstract: Progress in artificial intelligence is widely assumed to scale with effort: more researchers, papers and investment should accelerate discovery. Theories of technological growth instead locate the difficulty of discovery in the space of ideas. Here we show that neither scale nor space is enough: breakthroughs depend on diverse attention, which collective concentration can deplete. Across 36 years of computer science, we analyze 7.2 million papers, 73,089 peer reviews and 3.7 million researchers and their topic shifts. The field expanded while its attention narrowed sharply after the Transformer. Over half of topic-shifting researchers moved into AI, especially mid-career ones, and reviewer confidence fell by a full point on a 5-point scale. Each successive breakthrough, from AlexNet to large language models, raised the field's carrying capacity for ideas but was followed by steeper exhaustion of those ideas. Bigger breakthroughs capture a",
-      "published": "2026-10-21T04:00:00+00:00",
-      "score": 37.0,
-      "headline": "AI Breakthroughs May Accelerate Their Own Limits - New Study"
-    },
-    {
-      "id": "7d0a37e864121476",
-      "title": "When LLMs Manipulate: Measuring Behavioral, Social, and Temporal Effects",
-      "url": "https://arxiv.org/abs/2610.27573",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.27573v1 Announce Type: new Abstract: Large language models (LLMs) can influence user trust and decision-making through subtle linguistic cues, yet the behavioral effects of manipulative outputs remain poorly quantified. We introduce a behavioral computing framework for measuring \\textit{behavioral vulnerability}, defined as users' susceptibility to manipulative AI responses. Building on DarkPatterns-LLM benchmark, we generate controlled manipulative stimuli using Manipulation Gradient Descent (MGD), targeting biases associated with authority, urgency, and social proof. We analyze participant responses using the Multi-Stakeholder Impact Assessment Network (MSIAN) to model cross-user influence and the Temporal Harm Propagation Model (THPM) to characterize the persistence of behavioral effects over time. In a study involving 120 participants, manipulative framing produced significant changes in trust calibration and compliance ($p < 0.01$), with effects also propagating across ",
-      "published": "2026-10-21T04:00:00+00:00",
-      "score": 37.0,
-      "headline": "STUDY: LLMs Can Manipulate Users Through Subtle Linguistic Cues"
-    },
-    {
-      "id": "ccc32557f503ee3a",
-      "title": "CUA-Recovery: Benchmarking Error Recovery in Long-Horizon Computer-Use Agents",
-      "url": "https://arxiv.org/abs/2610.27645",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.27645v1 Announce Type: new Abstract: As computer-use agents (CUAs) move to long-horizon workflows spanning multiple applications, undetected errors can silently corrupt persistent state and cause cascading failures in subsequent actions. Reliable error detection and recovery have become critical bottlenecks for building robust CUAs. However, existing benchmarks focus primarily on end-to-end task performance, providing limited insight into whether agents can detect and recover from errors during execution. The few benchmarks that evaluate recovery rely largely on manually injected errors, which may not reflect the types or horizons of failures induced by real agent policies. We introduce CUA-Recovery, a benchmark comprising test and training suites across multiple desktop applications. We construct it using ReRail, a framework for synthesizing long-horizon tasks and trajectories in a persistent desktop environment. ReRail composes MyPCBench tasks into new long-horizon workflo",
-      "published": "2026-10-21T04:00:00+00:00",
-      "score": 37.0,
-      "headline": "CUA-Recovery Benchmarks Error Recovery in Computer-Use Agents"
-    },
-    {
-      "id": "125829baf2ed947b",
-      "title": "AI Neoclouds Lose Their Shine, Stalling IPOs and Sinking Stocks",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-20/ai-neoclouds-lose-their-shine-video",
-      "source": "Bloomberg Technology",
-      "summary": "The tide is turning on neoclouds, a business segment that\u2019s emerged over the past few years to supply the vast amounts of data center computing needed to power artificial intelligence systems. The latest evidence that investors are losing faith: Elice Inc., a South Korean AI computing supplier scarcely known outside its home market until this week, tanked 32% in its debut in Seoul Tuesday. Bloomberg's Mandeep Singh breaks it down on Bloomberg Intelligence. (Source: Bloomberg)",
-      "published": "2026-10-20T16:32:12+00:00",
-      "score": 37.0,
-      "headline": "AI Neocloud Bubble BURSTS: IPOs Stall, Stocks Sink"
-    },
-    {
-      "id": "494d9d2a63c169ae",
-      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
-      "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
-      "source": "TechCrunch AI",
-      "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
-      "published": "2026-10-20T16:00:00+00:00",
-      "score": 37.0,
-      "headline": "Startup Builds AI to Translate What Plants Are Saying"
-    },
-    {
-      "id": "87483ed4cc449f76",
-      "title": "Perplexity makes it easier to run AI workflows entirely on your own Mac",
-      "url": "https://www.engadget.com/2291754/perplexity-makes-it-easier-to-run-ai-workflows-entirely-on-your-mac/",
-      "source": "Engadget",
-      "summary": "A Mac with at least 36GB of RAM can now run Perplexity AI workflows locally.",
-      "published": "2026-10-20T15:42:45+00:00",
-      "score": 37.0,
-      "headline": "Perplexity AI Workflows Now Run Locally on Mac"
-    },
-    {
-      "id": "14ba46523df5747f",
-      "title": "Could this be a Deep Blue moment for the cryptic crossword?",
-      "url": "https://www.theguardian.com/puzzles/crossword-blog/2026/oct/20/could-this-be-a-deep-blue-moment-for-the-cryptic-crossword",
-      "source": "The Guardian Tech",
-      "summary": "A computer program has finally outdone humans at solving cryptic crosswords. Plus, more from around the puzzleverse\u2022 Don\u2019t get Cluesletter, our weekly puzzles newsletter, delivered to your inbox? Sign up hereWhen the IBM supercomputer Deep Blue beat Garry Kasparov at chess in 1997, it was an early victory for artificial intelligence over the human mind, and the culmination of decades of attempts. Almost 30 years later, a computer program has finally outdone humans at solving cryptic crosswords.Earlier this month, a model called Darmok solved the final puzzle of the Times\u2019s annual cryptic crossword competition about three minutes faster than Liam Hughes, 29, who became the contest\u2019s youngest (human) winner.Wolf trap missing its lowest crosspiece? (5)\u201dProportion of inspiration and perspiration? It\u2019s roughly 45% and 42% (5)Kick-off leads to decisive early goal for PSG (5)To read the complete version of this newsletter including the exclusive Letter Adder game, subscribe to receive Cluesle",
-      "published": "2026-10-20T15:27:50+00:00",
-      "score": 37.0,
-      "headline": "AI Finally BEATS Humans at Cryptic Crosswords"
-    },
-    {
-      "id": "8f295aae143e6d20",
-      "title": "ALTK-Evolve: How learned memory tops the \u03c4\u00b2-bench leaderboard on customer service tasks without a frontier model",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "source": "Hugging Face Blog",
-      "summary": "",
-      "published": "2026-10-20T15:19:48+00:00",
-      "score": 37.0,
-      "headline": "ALTK-Evolve TOPS Tau-2 Leaderboard Without Frontier Model"
-    },
-    {
-      "id": "7b1fcfed5a2cf078",
-      "title": "Waiting for good IPO",
-      "url": "https://www.ft.com/content/6c6fb412-5eca-4ed3-8b3d-f1c367712c5c?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Anthropic\u2019s shrinking window to list",
-      "published": "2026-10-20T05:30:09+00:00",
-      "score": 37.0,
-      "headline": "Anthropic's IPO Window Shrinking Amid Market Pressures"
-    },
-    {
-      "id": "c71ff295225ef037",
-      "title": "Can AI agents make law? Evaluating AI legal relevance and creativity",
-      "url": "https://arxiv.org/abs/2610.24661",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.24661v1 Announce Type: new Abstract: Large language models, the artificial intelligence (AI) systems behind modern chatbots, are trained on vast amounts of legal text, but can they build on it to write law for situations that text never anticipated? In this study, we analyse AI agents' ability to draft a hypothetical \"Constitution\" for a \"community of AI agents\". We design \"constitutional assemblies\" in which a single language model plays several characters that debate to produce a draft constitution. We find that the assemblies converge on a robust floor of legal provisions, and generate a wide variety of different proposals around it, including several AI-specific provisions with no equivalent in human law. Looking more closely at the \"creativity\" of these AI agents, we find different levels: most proposals combine existing concepts and themes from human constitutions with AI-specific vocabulary. We introduce a measure of this recombination, which helps identify and highli",
-      "published": "2026-10-20T04:00:00+00:00",
-      "score": 37.0,
-      "headline": "Can AI Agents Create Law? New Research Tests Legal Creativity"
-    },
-    {
-      "id": "7b1b2957e9558b71",
-      "title": "Medical Fine-Tuning Reshapes, Not Reduces, Patient-Facing AI Risk: A Rubric-Based, LLM-Judge Evaluation Framework",
-      "url": "https://arxiv.org/abs/2610.24807",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.24807v1 Announce Type: new Abstract: Patient-facing medical question answering with large language models (LLMs) is moving from research demonstrations to production deployments, yet evaluation remains anchored on factual correctness. Factuality is necessary but not sufficient: a response can be factually grounded and still issue a directive that, if acted on, would harm the patient. We introduce a risk-sensitive evaluation framework that scores responses by the presence and severity of six categories of risk-bearing language (treatment directives, contraindications, dosage expressions, urgency-triage cues, high-alert medication mentions, and overconfident assertions), anchored on published clinical harm taxonomies. Severity is classified by a three-judge LLM ensemble. We apply this framework to six 7-9B instruction-tuned models, three general (Mistral-7B, Phi-3.5-mini, Llama-3.1-8B) and three medically adapted (BioMistral-7B, OpenBioLLM-Llama3-8B, Med42-Llama3-8B), on 200 r",
-      "published": "2026-10-20T04:00:00+00:00",
-      "score": 37.0,
-      "headline": "Medical AI Fine-Tuning RESHAPES Patient Risks: Study"
     }
   ],
-  "generated_at": "2026-10-21T06:12:55.966483"
+  "generated_at": "2026-10-22T06:13:54.561194"
 }
