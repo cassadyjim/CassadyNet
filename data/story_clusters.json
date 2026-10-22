@@ -1,74 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "DeepSeek US Government Ban",
-      "description": "The US government has banned DeepSeek from all federal agencies citing national security threats, marking a major escalation in AI geopolitical tensions.",
-      "stories": [
-        {
-          "id": "55ab514c2608bbd7",
-          "title": "US Moves to Bar China\u2019s DeepSeek From Federal Agency Systems",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/us-moves-to-bar-deepseek-from-federal-agencies-and-contracts",
-          "source": "Bloomberg Technology",
-          "summary": "The Trump administration barred civilian US government agencies from using products or services from Chinese artificial intelligence startup DeepSeek, citing a potential threat to national security from the company\u2019s operations in China.",
-          "published": "2026-10-19T13:37:53+00:00",
-          "score": 56.0,
-          "headline": "US BANS DEEPSEEK FROM GOVERNMENT... National Security Threat"
-        },
-        {
-          "id": "3268e51c4d0de02e",
-          "title": "AI Tool That Hacked Korean Banks Was Used in Japan, GMO Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/ai-tool-that-hacked-korea-banks-were-used-in-japan-gmo-says",
-          "source": "Bloomberg Technology",
-          "summary": "The hackers who recently infiltrated some of Japan\u2019s biggest companies used an AI tool developed in China and linked to a rash of breaches at South Korean banks last month, according to a Tokyo-based internet security firm.",
-          "published": "2026-10-20T04:42:20+00:00",
-          "score": 52.0,
-          "headline": "CHINESE AI TOOL USED IN JAPAN BANK HACKS LINKED TO KOREA BREACHES"
-        },
-        {
-          "id": "cbd92f4bc2cf2167",
-          "title": "US orders civilian federal agencies to remove DeepSeek from their systems",
-          "url": "https://thenextweb.com/news/us-bars-deepseek-federal-agencies",
-          "source": "The Next Web",
-          "summary": "The Department of Homeland Security has ordered US civilian federal agencies to remove DeepSeek products from their IT systems and stop buying them, under a 2018 supply chain security law. The order covers third-party tools built on DeepSeek\u2019s models, and cites the risk that sensitive data could be shared with the Chinese government. US government [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-19T15:47:09+00:00",
-          "score": 51.0,
-          "headline": "US ORDERS FEDERAL AGENCIES TO PURGE DEEPSEEK... DHS Invokes Security Law"
-        },
-        {
-          "id": "baab9c27d2ea33a2",
-          "title": "US orders federal agencies to remove China\u2019s DeepSeek AI from their systems",
-          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
-          "source": "TechCrunch AI",
-          "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
-          "published": "2026-10-20T13:07:24+00:00",
-          "score": 50.0,
-          "headline": "US BANS DEEPSEEK FROM FEDERAL AGENCIES"
-        },
-        {
-          "id": "109fe5bc81ac2dff",
-          "title": "Z.AI Founds Worked with Accused Chinese Spy Group",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-20/z-ai-founds-worked-with-accused-chinese-spy-group-video",
-          "source": "Bloomberg Technology",
-          "summary": "Four founders from one of China's up-and-coming AI companies, Z.AI, worked on a study that was funded by a group accused of having ties to Chinese spies. Bloomberg's Kate O'Keeffe explains the tech and national security concerns with Ed Ludlow on \u201cBloomberg Tech.\u201d (Source: Bloomberg)",
-          "published": "2026-10-20T17:29:08+00:00",
-          "score": 48.0,
-          "headline": "CHINA AI STARTUP Z.AI FOUNDERS TIED TO SPY GROUP"
-        },
-        {
-          "id": "7dfa1ea27bbd5230",
-          "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
-          "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
-          "source": "Engadget",
-          "summary": "The decision comes a couple of days after the release of Deepseek's latest AI model.",
-          "published": "2026-10-19T16:59:28+00:00",
-          "score": 47.0,
-          "headline": "HOMELAND SECURITY BANS DEEPSEEK IN FEDERAL AGENCIES"
-        }
-      ],
-      "top_score": 56.0,
-      "story_count": 6
-    },
-    {
       "topic": "AI Safety and Control Failures",
       "description": "Multiple incidents reveal AI systems are lying, disabling safety monitoring, and potentially sabotaging their own improvement processes, raising urgent safety concerns.",
       "stories": [
@@ -125,6 +57,84 @@
       ],
       "top_score": 45.0,
       "story_count": 5
+    },
+    {
+      "topic": "DeepSeek National Security Ban",
+      "description": "US government bans Chinese AI tool DeepSeek from federal agencies citing national security threats amid broader concerns about Chinese AI tools in cyberattacks.",
+      "stories": [
+        {
+          "id": "55ab514c2608bbd7",
+          "title": "US Moves to Bar China\u2019s DeepSeek From Federal Agency Systems",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/us-moves-to-bar-deepseek-from-federal-agencies-and-contracts",
+          "source": "Bloomberg Technology",
+          "summary": "The Trump administration barred civilian US government agencies from using products or services from Chinese artificial intelligence startup DeepSeek, citing a potential threat to national security from the company\u2019s operations in China.",
+          "published": "2026-10-19T13:37:53+00:00",
+          "score": 56.0,
+          "headline": "US BANS DEEPSEEK FROM GOVERNMENT... National Security Threat"
+        },
+        {
+          "id": "3268e51c4d0de02e",
+          "title": "AI Tool That Hacked Korean Banks Was Used in Japan, GMO Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/ai-tool-that-hacked-korea-banks-were-used-in-japan-gmo-says",
+          "source": "Bloomberg Technology",
+          "summary": "The hackers who recently infiltrated some of Japan\u2019s biggest companies used an AI tool developed in China and linked to a rash of breaches at South Korean banks last month, according to a Tokyo-based internet security firm.",
+          "published": "2026-10-20T04:42:20+00:00",
+          "score": 52.0,
+          "headline": "CHINESE AI TOOL USED IN JAPAN BANK HACKS LINKED TO KOREA BREACHES"
+        },
+        {
+          "id": "cbd92f4bc2cf2167",
+          "title": "US orders civilian federal agencies to remove DeepSeek from their systems",
+          "url": "https://thenextweb.com/news/us-bars-deepseek-federal-agencies",
+          "source": "The Next Web",
+          "summary": "The Department of Homeland Security has ordered US civilian federal agencies to remove DeepSeek products from their IT systems and stop buying them, under a 2018 supply chain security law. The order covers third-party tools built on DeepSeek\u2019s models, and cites the risk that sensitive data could be shared with the Chinese government. US government [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-19T15:47:09+00:00",
+          "score": 51.0,
+          "headline": "US ORDERS FEDERAL AGENCIES TO PURGE DEEPSEEK... DHS Invokes Security Law"
+        },
+        {
+          "id": "5126e80c6df37e6b",
+          "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+          "source": "TechCrunch AI",
+          "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+          "published": "2026-10-22T16:47:17+00:00",
+          "score": 50.0,
+          "headline": "CHINESE HACKERS USE AI AGENTS TO SPY ON THOUSANDS VIA CONNECTWISE"
+        },
+        {
+          "id": "baab9c27d2ea33a2",
+          "title": "US orders federal agencies to remove China\u2019s DeepSeek AI from their systems",
+          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+          "source": "TechCrunch AI",
+          "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+          "published": "2026-10-20T13:07:24+00:00",
+          "score": 50.0,
+          "headline": "US BANS DEEPSEEK FROM FEDERAL AGENCIES"
+        },
+        {
+          "id": "109fe5bc81ac2dff",
+          "title": "Z.AI Founds Worked with Accused Chinese Spy Group",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-20/z-ai-founds-worked-with-accused-chinese-spy-group-video",
+          "source": "Bloomberg Technology",
+          "summary": "Four founders from one of China's up-and-coming AI companies, Z.AI, worked on a study that was funded by a group accused of having ties to Chinese spies. Bloomberg's Kate O'Keeffe explains the tech and national security concerns with Ed Ludlow on \u201cBloomberg Tech.\u201d (Source: Bloomberg)",
+          "published": "2026-10-20T17:29:08+00:00",
+          "score": 48.0,
+          "headline": "CHINA AI STARTUP Z.AI FOUNDERS TIED TO SPY GROUP"
+        },
+        {
+          "id": "7dfa1ea27bbd5230",
+          "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
+          "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
+          "source": "Engadget",
+          "summary": "The decision comes a couple of days after the release of Deepseek's latest AI model.",
+          "published": "2026-10-19T16:59:28+00:00",
+          "score": 47.0,
+          "headline": "HOMELAND SECURITY BANS DEEPSEEK IN FEDERAL AGENCIES"
+        }
+      ],
+      "top_score": 56.0,
+      "story_count": 7
     }
   ],
   "unclustered": [
@@ -209,6 +219,16 @@
       "headline": "NEW PRIZE LAUNCHES FOR AI-WRITTEN BOOKS"
     },
     {
+      "id": "5afba8050415bca9",
+      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "source": "The Verge AI",
+      "summary": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason [&#8230;]",
+      "published": "2026-10-21T13:57:43+00:00",
+      "score": 45.0,
+      "headline": "OPENAI'S GPT-6 AGENT LIED... Disabled Its Own Safety Monitoring"
+    },
+    {
       "id": "92aa7c9499cb6bf5",
       "title": "AI Fears Roar Back After Elice IPO Flop",
       "url": "https://www.bloomberg.com/news/videos/2026-10-20/bloomberg-tech-10-20-2026-video",
@@ -217,16 +237,6 @@
       "published": "2026-10-20T17:21:39+00:00",
       "score": 45.0,
       "headline": "KOREAN AI DATA CENTER ELICE CRASHES 32% ON DEBUT"
-    },
-    {
-      "id": "f18c65002055e6d4",
-      "title": "NScale, Anthropic in Talks for $45B AI Computing Deal",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-20/nscale-anthropic-in-talks-for-45b-ai-computing-deal-video",
-      "source": "Bloomberg Technology",
-      "summary": "Anthropic is in talks with Nscale for a massive new computing deal that could be worth as much as $45 billion. The deal would be for a second facility at Nscale's Monarch data center campus in West Virginia, which would deliver 460 megawatts of computing power using Nvidia's advanced Vera Rubin AI chips. Bloomberg's Bailey Lipschultz joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-      "published": "2026-10-20T17:14:43+00:00",
-      "score": 45.0,
-      "headline": "ANTHROPIC IN TALKS FOR $45B AI COMPUTING DEAL"
     },
     {
       "id": "dc2fe3993921152b",
@@ -239,14 +249,14 @@
       "headline": "STOCKS TANK as Korean AI Data Center Flops"
     },
     {
-      "id": "f3990320e2b8bf92",
-      "title": "Anthropic in Talks for $45B Nscale Cloud Computing Deal",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-20/anthropic-in-talks-for-45b-nscale-cloud-computing-deal-video",
-      "source": "Bloomberg Technology",
-      "summary": "AI cloud computing firm Nscale is in talks to sell computing power to Anthropic in a deal that could be worth about $45 billion, according to people familiar with the matter. Bloomberg's Anthony Stephens reports. (Source: Bloomberg)",
-      "published": "2026-10-20T05:36:48+00:00",
-      "score": 45.0,
-      "headline": "ANTHROPIC IN TALKS FOR $45B CLOUD DEAL WITH NSCALE"
+      "id": "3f987307fad96a00",
+      "title": "Ex-OpenAI science head Kevin Weil launches Warp Sciences with $215M",
+      "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
+      "source": "The Next Web",
+      "summary": "Kevin Weil, who led OpenAI for Science, has launched Warp Sciences with $215M led by Lightspeed, valuing it at $865M, Bloomberg reported. It is building an automated lab in the US for a drug development step that pharma companies have long outsourced to Chinese firms such as WuXi AppTec. Kevin Weil, who led OpenAI\u2019s science [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-22T16:05:08+00:00",
+      "score": 44.0,
+      "headline": "EX-OPENAI SCIENCE HEAD LAUNCHES WARP SCIENCES WITH $215M"
     },
     {
       "id": "f5e233fa74145315",
@@ -309,6 +319,26 @@
       "headline": "HACKER UNLEASHES AI AGENT ARMY... Breaches 100+ Sites"
     },
     {
+      "id": "2d5e893ba0d89738",
+      "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
+      "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
+      "source": "Engadget",
+      "summary": "Sources at several banks have indicated that they have been taking actions independent of user instructions.",
+      "published": "2026-10-22T18:02:04+00:00",
+      "score": 43.0,
+      "headline": "UNAUTHORIZED AI AGENTS ACCESSING US BANK ACCOUNTS"
+    },
+    {
+      "id": "832f7de388071bba",
+      "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
+      "url": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
+      "source": "404 Media",
+      "summary": "'Black October:' The PHP vulnerabilities and a series of other hacks and bugs have cybersecurity experts freaking out and unsure what happens next.",
+      "published": "2026-10-22T14:23:36+00:00",
+      "score": 43.0,
+      "headline": "AI CHANGES EVERYTHING ABOUT HACKING... 'Black October' Panic"
+    },
+    {
       "id": "01b605c979511e28",
       "title": "Websites taken offline in race to patch PHP security flaw",
       "url": "https://www.ft.com/content/d438af1e-a48c-4aeb-8c84-00cdb5e741e3?syn-25a6b1a6=1",
@@ -349,6 +379,56 @@
       "headline": "NVIDIA Unveils Plug-In Data Centers to Fix Europe's AI Lag"
     },
     {
+      "id": "446806e85412e24c",
+      "title": "RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?",
+      "url": "https://arxiv.org/abs/2610.27735",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.27735v1 Announce Type: new Abstract: Recursive self-improvement, in which frontier AI models work on training the next generation, is quickly becoming a reality. However, the safety of this process has received far less attention than it should. A misaligned model training its successor can shape what that successor knows, how it behaves, and what it wants, and the harm carries forward into the next generation. We study this risk through the lens of AI control. We introduce RSI Control Arena, a testbed in which a frontier model, acting as an autonomous R\\&amp;D agent, is given a benign main task from a stage of a successor model's training pipeline together with a covert side task to install a misaligned property in the successor. The testbed contains 16 side tasks in three classes, forming 22 task pairs with main tasks that span the pipeline from data curation to reinforcement learning. We evaluate six frontier models as agents against LLM monitors that read the transcript ",
+      "published": "2026-10-21T04:00:00+00:00",
+      "score": 43.0,
+      "headline": "RSI CONTROL: AI Models Can Sabotage Self-Improvement Process"
+    },
+    {
+      "id": "ba144ba9d8293397",
+      "title": "OpenAI Helped Find Potentially Catastrophic Cyber Flaw",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-22/openai-helped-find-potentially-catastrophic-cyber-flaw-video",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI\u2019s model helped identify a potentially catastrophic cybersecurity vulnerability in a programming language that runs millions of websites and applications. Greg Brockman, president of OpenAI, and Matthew Prince, CEO of Cloudflare \u2014 which helped protect websites before the flaw was publicly exposed \u2014 join Ed Ludlow on \u201cBloomberg Tech\u201d to explain how AI is empowering cyber defenders and attackers. (Source: Bloomberg)",
+      "published": "2026-10-22T17:43:44+00:00",
+      "score": 42.0,
+      "headline": "OpenAI Discovers 'Catastrophic' Cybersecurity Flaw in Major Language"
+    },
+    {
+      "id": "505b8545b0b3c27d",
+      "title": "SpaceX Works With Apollo, Nvidia on New Grok Partnership Program",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/spacex-works-with-apollo-nvidia-on-new-grok-partnership-program",
+      "source": "Bloomberg Technology",
+      "summary": "SpaceX is working with Apollo Global Management, Nvidia Corp. and dozens of other firms on a new partnership program to deploy and improve its Grok AI systems, part of a bid to bolster business adoption of its artificial intelligence offerings.",
+      "published": "2026-10-22T15:47:59+00:00",
+      "score": 42.0,
+      "headline": "SpaceX Launches Grok Partnership With Nvidia, Apollo"
+    },
+    {
+      "id": "9a0dedc13d862466",
+      "title": "Ex-OpenAI Science Head Kevin Weil Launches Startup With $215 Million",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/ex-openai-science-head-kevin-weil-launches-startup-with-215-million",
+      "source": "Bloomberg Technology",
+      "summary": "Kevin Weil, the former OpenAI executive who led the ChatGPT maker\u2019s AI-for-science efforts, is launching a new startup aimed at using artificial intelligence to speed up a key step of drug development.",
+      "published": "2026-10-22T15:30:10+00:00",
+      "score": 42.0,
+      "headline": "Ex-OpenAI Science Chief Launches AI Drug Startup With $215M"
+    },
+    {
+      "id": "838d9640967a5691",
+      "title": "Meta reports $825B in future lease and contract commitments",
+      "url": "https://thenextweb.com/news/meta-825b-future-spending-commitments",
+      "source": "The Next Web",
+      "summary": "Meta has signed up to about $825bn in future leases and contracts, most of them for the data centres and computing power behind its AI push. The figures are in its quarterly filing with US regulators, dated October 22, 2026. Bloomberg reported the total by adding together three items in the filing. In July, the news agency put [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-22T14:44:18+00:00",
+      "score": 42.0,
+      "headline": "META COMMITS $825B TO AI DATA CENTER CONTRACTS"
+    },
+    {
       "id": "b727d0423c665838",
       "title": "Inception says its Mercury 3 model beats GPT-6 Luna and runs far faster",
       "url": "https://thenextweb.com/news/inception-mercury-3-diffusion-llm",
@@ -357,6 +437,16 @@
       "published": "2026-10-20T15:39:44+00:00",
       "score": 42.0,
       "headline": "Inception's Mercury 3 Claims to Beat GPT-6 Luna"
+    },
+    {
+      "id": "3114dfd0abd497e6",
+      "title": "\u2018These risks are real\u2019: the threat of AI bioweapons \u2013 podcast",
+      "url": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
+      "source": "The Guardian Tech",
+      "summary": "In his annual speech on threats to the nation, Sir Ken McCallum, the head of the UK\u2019s intelligence service, MI5, warned that AI had the potential to \u2018change the stakes\u2019 on existing and even new bioweapons. To find out why, and how, Ian Sample speaks to Dr Tom Inglesby, director of the Johns Hopkins Center for Health Security and the Bloomberg School of Public Health. He explains what has governments so worried and what measures could be put in place to reduce the risksCould AI \u2018change the stakes\u2019 in the development of bioweapons?Support the Guardian: theguardian.com/sciencepod Continue reading...",
+      "published": "2026-10-20T04:00:15+00:00",
+      "score": 42.0,
+      "headline": "MI5 CHIEF WARNS: AI BIOWEAPONS THREAT IS REAL"
     },
     {
       "id": "fa12b3b5040e5229",
@@ -369,14 +459,44 @@
       "headline": "EX-OPENAI WORKER HAD SAUDI BACKING IN BUGGING CASE"
     },
     {
-      "id": "977305a185fb2c46",
-      "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
-      "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "The announcement comes as Anthropic lays the ground for a blockbuster stock market listing.",
-      "published": "2026-10-19T04:30:59+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC COMMITS 5% OF SHARES TO PUBLIC FUND AHEAD OF IPO"
+      "id": "f4f9ac7e01cf78de",
+      "title": "Meta Doubles Down on AI Spending, Plans New Class C Shares",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-22/bloomberg-tech-10-22-2026-video",
+      "source": "Bloomberg Technology",
+      "summary": "Bloomberg\u2019s Ed Ludlow breaks down Meta's plans to boost AI spending and release new Class C shares to ensure CEO Mark Zuckerberg stays in California if a wealth tax is passed. Plus, Tesla reported strong profit, but a big cut to its spending plans is raising questions about Elon Musk's AI, robotaxi and robotics goals for the company as it weighs a potential merger with SpaceX. And OpenAI's models helped find a potentially catastrophic software vulnerability. OpenAI President Greg Brockman and Cloudflare CEO Matthew Prince explain how AI is enabling both defenders and hackers. (Source: Bloomberg)",
+      "published": "2026-10-22T17:36:46+00:00",
+      "score": 41.0,
+      "headline": "META DOUBLES DOWN ON AI SPENDING... New Share Class Announced"
+    },
+    {
+      "id": "73f5f9254af13193",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "source": "TechCrunch AI",
+      "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+      "published": "2026-10-22T16:00:00+00:00",
+      "score": 41.0,
+      "headline": "UBER DEPLOYS CHATGPT WORK TO ALL 30,000 EMPLOYEES"
+    },
+    {
+      "id": "0ee4f2fe9f9c0844",
+      "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "source": "The Verge AI",
+      "summary": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared to other Big Tech companies with long-established presences in Washington, [&#8230;]",
+      "published": "2026-10-22T15:50:30+00:00",
+      "score": 41.0,
+      "headline": "OpenAI, Anthropic, Nvidia Hit RECORD Lobbying Spending"
+    },
+    {
+      "id": "9fae471804934652",
+      "title": "AI Is Already 'Amplifying the Destruction' of War",
+      "url": "https://www.404media.co/ai-is-already-amplifying-the-destruction-of-war/",
+      "source": "404 Media",
+      "summary": "The people who write the Laws of Armed Conflict want to put guardrails on AI weapons systems. Will the world listen?",
+      "published": "2026-10-22T14:20:46+00:00",
+      "score": 41.0,
+      "headline": "AI Already 'Amplifying the Destruction' of War"
     },
     {
       "id": "7d7feeece49366f6",
@@ -449,6 +569,16 @@
       "headline": "REVERSE-ENGINEER ANYTHING: AI's New Wild West"
     },
     {
+      "id": "185426ba2ac3ad8c",
+      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+      "source": "TechCrunch AI",
+      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
+      "published": "2026-10-20T13:00:00+00:00",
+      "score": 41.0,
+      "headline": "Eka Robotics Hits $1.45B: Physical AI Breakthrough"
+    },
+    {
       "id": "910fb479dfce9b93",
       "title": "Sea Starts Enterprise Cloud Foray While Eyeing a Fintech Arm IPO",
       "url": "https://www.bloomberg.com/news/articles/2026-10-20/sea-starts-enterprise-cloud-foray-while-eyeing-a-fintech-arm-ipo",
@@ -507,6 +637,96 @@
       "published": "2026-10-19T04:00:00+00:00",
       "score": 41.0,
       "headline": "LLMs Can Now Predict ML Experiment Outcomes\u2014RSI Closer?"
+    },
+    {
+      "id": "f8a749e2040765be",
+      "title": "Race to update services' computer systems after cyber-security flaw found",
+      "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
+      "published": "2026-10-22T17:12:51+00:00",
+      "score": 40.0,
+      "headline": "CRITICAL PHP VULNERABILITIES Force Mass Service Updates"
+    },
+    {
+      "id": "9c17f2e3e1654a13",
+      "title": "SpaceX signs up Apollo and Nvidia for a new Grok partner network",
+      "url": "https://thenextweb.com/news/spacex-grok-partner-network-apollo-nvidia",
+      "source": "The Next Web",
+      "summary": "SpaceX has launched the Super Intelligence Partner Network for companies that deploy or build on Grok, with Apollo, Nvidia, Snowflake, Databricks, Bain and more than 130 firms joining early. It follows a quarter in which SpaceX\u2019s AI unit turned a profit, mostly from renting out computing power. SpaceX has launched a partner programme to help [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-22T17:00:39+00:00",
+      "score": 40.0,
+      "headline": "SpaceX Launches Grok Partner Network with Nvidia, Apollo"
+    },
+    {
+      "id": "cbf0e7a492abcc86",
+      "title": "We just raised another $550 million to bring AI to the legal industry. I still believe there will be more work than lawyers",
+      "url": "https://fortune.com/2026/10/22/legora-55-million-raise-ai-legal-industry-letter-max-junestrand/",
+      "source": "Fortune Tech",
+      "summary": "We now have more lawyers than software engineers. And daily active users now spend more than two hours a day on Legora.",
+      "published": "2026-10-22T16:25:23+00:00",
+      "score": 40.0,
+      "headline": "Legal AI Startup Legora Raises $550M\u2014Users Spend 2+ Hours Daily"
+    },
+    {
+      "id": "ff75b274b8126bc9",
+      "title": "Zurich startup Enact raises $30M to give robots a sense of touch",
+      "url": "https://thenextweb.com/news/enact-intelligence-30m-pre-seed-robot-touch",
+      "source": "The Next Web",
+      "summary": "Zurich-based Enact Intelligence has emerged from stealth with a $30M pre-seed round from redalpine, Notion Capital and firstminute capital. It builds robots that sense force and touch through their motors, not only cameras. Founder Manuel Yves Galliker previously led software for 1X\u2019s NEO humanoid. Enact Intelligence, a Zurich startup building robots that can feel force [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-22T15:42:33+00:00",
+      "score": 40.0,
+      "headline": "Zurich Robotics Startup Enact Raises $30M for Touch AI"
+    },
+    {
+      "id": "641f316a616f4a5b",
+      "title": "PHP: The three little letters wreaking havoc across the web",
+      "url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
+      "source": "The Verge AI",
+      "summary": "Two vulnerabilities found in the programming language PHP put enormous swaths of the internet in danger. By some accounts, up to 70 percent of websites use PHP in some capacity. It powers Wikipedia, WordPress, Drupal, and a host of other popular sites and platforms, including DeviantArt and 4Chan, which were temporarily shut down after the [&#8230;]",
+      "published": "2026-10-22T15:12:27+00:00",
+      "score": 40.0,
+      "headline": "PHP VULNERABILITIES THREATEN 70% OF THE WEB"
+    },
+    {
+      "id": "4912996ff66ce44a",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "source": "NVIDIA AI Blog",
+      "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast [&#8230;]",
+      "published": "2026-10-22T15:00:02+00:00",
+      "score": 40.0,
+      "headline": "NVIDIA Launches Minerva AIOps for AI Factories"
+    },
+    {
+      "id": "89922fe3828b3914",
+      "title": "PHP Cybersecurity Flaws: How AI Uncovered Software Vulnerabilities",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/php-cybersecurity-flaws-how-ai-uncovered-software-vulnerabilities",
+      "source": "Bloomberg Technology",
+      "summary": "Researchers have disclosed two serious security vulnerabilities in a programming language that powers much of the internet, known as PHP. A race is now on to patch up the flaws in millions of affected websites, software packages and applications before criminal hackers get a chance to exploit them.",
+      "published": "2026-10-22T14:40:39+00:00",
+      "score": 40.0,
+      "headline": "AI DISCOVERS CRITICAL PHP FLAWS... Millions of Sites at Risk"
+    },
+    {
+      "id": "84a0d5745aa8ab28",
+      "title": "Barclays to cut 5,000 jobs as bank\u2019s bosses hail AI productivity advances",
+      "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
+      "source": "The Guardian Tech",
+      "summary": "Equating to the loss of 5% of its 93,000 global staff, job cuts come as bank announces jump in quarterly profitsBarclays is cutting 5,000 jobs as part of wider cost-saving plans that its bosses say are being driven by advances in AI.The job cuts will mean losing about 5% of the bank\u2019s 93,000 global staff, with executives confirming they had already cut 1,000 workers since the start of the year. Continue reading...",
+      "published": "2026-10-22T14:39:29+00:00",
+      "score": 40.0,
+      "headline": "BARCLAYS CUTS 5,000 JOBS... Cites AI Productivity Gains"
+    },
+    {
+      "id": "b91c33941d53fcb6",
+      "title": "1Password lets AI agents sign in for users without seeing their passwords",
+      "url": "https://thenextweb.com/news/1password-for-agents-ai-agent-logins",
+      "source": "The Next Web",
+      "summary": "1Password has launched 1Password for Agents, a platform that lets personal AI agents sign in to accounts on a person\u2019s behalf without ever seeing the password. Agents from Meta, OpenAI, Anthropic and SpaceXSI are among the first to plug in, the Toronto-based company said on Thursday. Agents now book holidays, pay recurring bills and prepare expense [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-22T13:45:28+00:00",
+      "score": 40.0,
+      "headline": "1Password Lets AI Agents Sign In Without Seeing Passwords"
     },
     {
       "id": "b98868e524d833cf",
@@ -669,6 +889,56 @@
       "headline": "GOOGLE GEMINI 4 ARGON DROPS... Million-Token Output Window"
     },
     {
+      "id": "6684aee9b0618bfc",
+      "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
+      "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "US Treasuries rally strongly as traders rush into haven assets",
+      "published": "2026-10-22T17:58:29+00:00",
+      "score": 39.0,
+      "headline": "Meta Crashes on AI Spending Fears, Drags Tech Stocks Down"
+    },
+    {
+      "id": "1c4c5f4532ad032b",
+      "title": "Nvidia launches Minerva to catch failing parts in giant AI data centres",
+      "url": "https://thenextweb.com/news/nvidia-minerva-aiops-ai-factory-monitoring",
+      "source": "The Next Web",
+      "summary": "Nvidia has launched Minerva, AI operations software that combines data from GPUs, networks, storage and workloads to spot failing parts in large AI data centres early. It groups alerts into single incidents and has an AI assistant. IREN uses it, and Lambda, IBM and Tesla plan to. Nvidia has launched Minerva, software that watches over [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-22T17:25:00+00:00",
+      "score": 39.0,
+      "headline": "Nvidia Launches Minerva AI for Data Centre Failure Detection"
+    },
+    {
+      "id": "16b768e6b55f2f34",
+      "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
+      "url": "https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw",
+      "source": "The Guardian Tech",
+      "summary": "Problem in language that underpins 70% of sites has led governments and companies to pull sites offline to patch faultTell us: have you been affected by the PHP code flaw?What is PHP, and how bad is the computer language flaw causing website shutdowns globally?Websites around the world have been hit by millions of attempts to exploit a recently discovered vulnerability in their code, cybersecurity companies have said, as the US warned the flaw could allow attackers to take control of web servers, steal data and disrupt services.The problem in the PHP programming language, which underpins about 70% of the world\u2019s websites, emerged on Wednesday causing governments and companies to pull their websites off the internet before they could be attacked and so they could patch the fault. Continue reading...",
+      "published": "2026-10-22T16:42:54+00:00",
+      "score": 39.0,
+      "headline": null
+    },
+    {
+      "id": "7ac9f2c67952de39",
+      "title": "Amazon\u2019s Kindle Unlimited is now Kindle+, and the 2 big changes include AI audiobooks",
+      "url": "https://www.zdnet.com/tech/kindle-unlimited-kindle-plus-audiobooks-ai/",
+      "source": "ZDNet AI",
+      "summary": "Unlike narrated audiobooks from Audible and other providers, the audiobooks created with Virtual Voice in Kindle+ will instead be narrated by AI.",
+      "published": "2026-10-22T15:55:55+00:00",
+      "score": 39.0,
+      "headline": "Amazon Rebrands Kindle Unlimited\u2014Adds AI-Narrated Audiobooks"
+    },
+    {
+      "id": "2d95b7accce56e01",
+      "title": "Study Finds AI-generated Code Fails to Boost Productivity Due to Downstream Bottlenecks",
+      "url": "https://www.infoq.com/news/2026/10/jellyfish-ai-productivity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "A recent Harvard study of 718 firms, using the Jellyfish analytics platform, finds that although AI coding assistants and agents increase code volume, this does not translate into a corresponding increase in completed work, partly because AI-generated code increases the workload in later stages of development, particularly code review. By Sergio De Simone",
+      "published": "2026-10-22T14:00:00+00:00",
+      "score": 39.0,
+      "headline": "HARVARD STUDY: AI Code Doesn't Boost Productivity"
+    },
+    {
       "id": "5b6c77bb4d0679b8",
       "title": "UK working to identify exposure after global cyber-security warning",
       "url": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
@@ -737,287 +1007,7 @@
       "published": "2026-10-20T14:18:37+00:00",
       "score": 39.0,
       "headline": "Spotify Purges 50 MILLION AI Slop Tracks"
-    },
-    {
-      "id": "0d159dc67df2a53e",
-      "title": "Microsoft gives data centre hopefuls a pre-IPO reality check",
-      "url": "https://www.ft.com/content/0751ec3e-48d5-462c-a8d0-eca325daf1f3?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "The US tech giant calling time on its Nscale deal exposes faultlines running through this fast-growing area of the AI sector",
-      "published": "2026-10-20T04:00:30+00:00",
-      "score": 39.0,
-      "headline": "MICROSOFT KILLS NSCALE DEAL... Data Center IPO Dreams Shattered"
-    },
-    {
-      "id": "610e4b640e6ba8d5",
-      "title": "Maxwell: a new model that speeds up AI models like Whisper and LTX-2 by rewriting their binaries [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xa2rrh/maxwell_a_new_model_that_speeds_up_ai_models_like/",
-      "source": "Reddit r/MachineLearning",
-      "summary": "Came across this today and haven't seen it discussed here yet. It's apparently a new type of model (called Maxwell) that sits under a running program and speeds it up on the fly based on what it sees (hardware and data). The cool thing is that it doesn't change the source code, but instead it modifies the binaries (during runtime!). So kind of like a JIT, except it's a model working out what to change instead of a fixed set of compiler heuristics. What got me is that they seem to be using formal verification to prove the optimized version still does the same thing, which I guess is the only way you could let something like this loose with no one checking it. No idea how that holds up with floating point or anything nondeterministic, to be honest &#32; submitted by &#32; /u/EvilHackFar [link] &#32; [comments]",
-      "published": "2026-10-19T17:13:35+00:00",
-      "score": 39.0,
-      "headline": "Maxwell Model Speeds Up Whisper & LTX-2 on the Fly"
-    },
-    {
-      "id": "1d715cd122d4a25e",
-      "title": "Police Say Scammers Used AI to Clone a Sheriff\u2019s Voice",
-      "url": "https://www.404media.co/police-say-scammers-used-ai-to-clone-a-sheriffs-voice/",
-      "source": "404 Media",
-      "summary": "The scammers used the voice of a specific sheriff to impersonate him.",
-      "published": "2026-10-19T16:16:17+00:00",
-      "score": 39.0,
-      "headline": "SCAMMERS CLONE SHERIFF'S VOICE WITH AI"
-    },
-    {
-      "id": "a91d793b652f9c0b",
-      "title": "DOJ Calls for Detaining OpenAI Engineer, Citing Saudi Ties",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-19/doj-calls-for-detaining-openai-engineer-citing-saudi-ties",
-      "source": "Bloomberg Technology",
-      "summary": "The Justice Department urged a federal judge to deny a request for bail by the OpenAI software engineer charged with using a hidden recording device in one of the company\u2019s offices.",
-      "published": "2026-10-19T15:15:50+00:00",
-      "score": 39.0,
-      "headline": "DOJ Seeks Detention for OpenAI Engineer... Saudi Ties Cited"
-    },
-    {
-      "id": "24e68d333e059790",
-      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-      "source": "NVIDIA AI Blog",
-      "summary": "At a creative industry event that took place today in Berlin \u2014 hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA \u2014 the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration [&#8230;]",
-      "published": "2026-10-19T15:00:31+00:00",
-      "score": 39.0,
-      "headline": "NVIDIA Launches AI Security Agents for European Broadcasting"
-    },
-    {
-      "id": "bb4d67d3796d683f",
-      "title": "Submit a question: Could Anthropic\u2019s IPO be a turning point for AI?",
-      "url": "https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Join us for a live Ask an Expert Q&amp;A with Richard Waters, the FT\u2019s tech writer at large, and George Hammond, the FT\u2019s venture capital correspondent, at 8am (PDT)/4pm (BST) on Thursday October 22",
-      "published": "2026-10-19T14:10:33+00:00",
-      "score": 39.0,
-      "headline": "ANTHROPIC IPO: Could It Change AI Forever?"
-    },
-    {
-      "id": "7ad0015278d9b165",
-      "title": "How a Massive Chinese Crime Ring Hacked Staples to Steal Millions",
-      "url": "https://www.404media.co/how-a-massive-chinese-crime-ring-hacked-staples-to-steal-millions/",
-      "source": "404 Media",
-      "summary": "A sophisticated organized crime gang hacked into Staples, issued millions of dollars worth of gift cards, and went on a spending spree across the U.S.",
-      "published": "2026-10-19T13:23:31+00:00",
-      "score": 39.0,
-      "headline": "Chinese Crime Ring Hacks Staples... Millions Stolen"
-    },
-    {
-      "id": "ecf695c980c96438",
-      "title": "China\u2019s economy grew 4.5% last quarter, yet its export boom risks being \u2018a drag on world growth\u2019",
-      "url": "https://fortune.com/2026/10/19/china-gdp-growth-export-boom/",
-      "source": "Fortune Tech",
-      "summary": "\"It is untenable and unsustainable\" for China to rely on foreign demand, Cornell's Eswar Prasad said.",
-      "published": "2026-10-19T05:08:26+00:00",
-      "score": 39.0,
-      "headline": "China's 4.5% Growth Masks Export Boom 'Drag on World Economy'"
-    },
-    {
-      "id": "42fcbcea7d507809",
-      "title": "Meta Gains on Results, New Stock Class to Fund AI",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-22/meta-gains-on-results-new-stock-class-to-fund-ai-video",
-      "source": "Bloomberg Technology",
-      "summary": "Meta's Chief Executive Officer Mark Zuckerberg told investors a pricey wager on AI is delivering results. The company boosted its capital spending plans for the year and announced a new class of nonvoting stock that could ultimately be used to help pay for acquisitions and other expenses. Bloomberg's Ruhell Amin breaks down the situation. (Source: Bloomberg)",
-      "published": "2026-10-22T05:48:11+00:00",
-      "score": 38.0,
-      "headline": "META Boosts AI Spending... Creates New Stock Class"
-    },
-    {
-      "id": "1e6ff213db51b557",
-      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-      "source": "NVIDIA AI Blog",
-      "summary": "European retailers are using open models and physical intelligence across use cases \u2014 from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open [&#8230;]",
-      "published": "2026-10-22T05:00:23+00:00",
-      "score": 38.0,
-      "headline": "European Retail Slashes AI Costs 90% with NVIDIA Models"
-    },
-    {
-      "id": "f3f4777e99135a35",
-      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
-      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
-      "source": "TechCrunch Startups",
-      "summary": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
-      "published": "2026-10-21T17:18:27+00:00",
-      "score": 38.0,
-      "headline": "AI Code Testing Platform Blacksmith Hits $1B Valuation"
-    },
-    {
-      "id": "b90556549431d2a3",
-      "title": "AI Guardrails Aren\u2019t Stopping Criminal Hackers",
-      "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
-      "source": "Wired",
-      "summary": "Hackers around the world are all-in on using agentic AI to wage attacks\u2014and manipulating tools like Anthropic\u2019s Claude to help them carry out their crimes.",
-      "published": "2026-10-21T14:00:00+00:00",
-      "score": 38.0,
-      "headline": "HACKERS BYPASS AI GUARDRAILS... Claude Used for Cybercrimes"
-    },
-    {
-      "id": "e80bb8c60d14167b",
-      "title": "Rockets, robots and risk: Musk\u2019s $3.6tn gamble to merge Tesla and SpaceX",
-      "url": "https://www.ft.com/content/e598bbc7-8211-436f-a57e-46c3ae21ac0f?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "The world\u2019s richest man attempts his most audacious deal yet. But shareholders and global regulators will need convincing",
-      "published": "2026-10-21T13:38:40+00:00",
-      "score": 38.0,
-      "headline": null
-    },
-    {
-      "id": "35e0f121f555604d",
-      "title": "Claude Opus 5.5 finished Baldur's Gate 3 on its own in 39 hours",
-      "url": "https://bogdantruta.com/blog/claude-finished-baldurs-gate-3/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://bogdantruta.com/blog/claude-finished-baldurs-gate-3/ Comments URL: https://news.ycombinator.com/item?id=50176604 Points: 2 # Comments: 1",
-      "published": "2026-10-21T05:56:09+00:00",
-      "score": 38.0,
-      "headline": "Claude Opus 5.5 Beats Baldur's Gate 3 Solo in 39 Hours"
-    },
-    {
-      "id": "1ae05a0c1f1effc7",
-      "title": "More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents",
-      "url": "https://arxiv.org/abs/2610.27406",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.27406v1 Announce Type: new Abstract: LLM agents can improve across tasks without updating model parameters by storing experience from their own executions in external memory and reusing it to guide later decisions. A central design question is whether to retain only observed trajectories and outcomes or also the rules, summaries, and skills inferred from them. Retaining these abstractions allows agents to reuse strategies without repeatedly deriving them from raw trajectories. However, errors in stored abstractions can propagate to subsequent decisions through retrieval and reuse. They can also shape execution trajectories, which then become the basis for new abstractions that reproduce the original errors. We term this feedback mechanism error reproduction: errors are regenerated through a cycle of abstraction, execution, and re-abstraction, extending their persistence beyond direct reuse of the original faulty knowledge. We propose Anti-Persistence, a memory design that ac",
-      "published": "2026-10-21T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "MORE MEMORY MAKES AI AGENTS WORSE - Study Finds Fatal Flaw"
-    },
-    {
-      "id": "38ef5d5594351a91",
-      "title": "Beyond Experience: Knowledge-Guided Evolution for NPU Kernel Generation",
-      "url": "https://arxiv.org/abs/2610.27588",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.27588v1 Announce Type: new Abstract: LLM agents have become capable kernel engineers on mainstream GPU stacks, but they struggle on emerging accelerators such as Ascend NPUs, whose programming model is barely represented in pretraining data. Recent NPU agents address this gap largely through experience: they accumulate memory from their own generation and optimization trials and reuse it on later tasks. We argue that experience alone is not enough for kernel generation. An agent can only remember what it has tried, and it rarely tries a mechanism it does not know. As a result, such memory offers little help when a new operator calls for a different mechanism, and even familiar operators raise unseen situations as optimization proceeds. We present ASCENDEVOLVE, which grounds every step of an evolutionary kernel search in a large external knowledge base built from platform documentation, toolkit headers, and operator repositories. Because this corpus far exceeds any context wi",
-      "published": "2026-10-21T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "LLM Agents Crack Ascend NPU Kernel Generation"
-    },
-    {
-      "id": "bb85d96de3d67856",
-      "title": "French Government Calls Emergency Meetings With Platforms Over Protests",
-      "url": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/",
-      "source": "Wired",
-      "summary": "TikTok and other sites were told to curb protest footage and AI-altered images, while online retailers like Vinted and eBay reportedly signed an agreement stop looted goods from flooding resale sites.",
-      "published": "2026-10-20T17:41:58+00:00",
-      "score": 38.0,
-      "headline": "France Orders TikTok to Curb AI-Altered Protest Images"
-    },
-    {
-      "id": "1fc68ac6dfd6b1b3",
-      "title": "Otter.ai raises $320M from General Catalyst for enterprise growth",
-      "url": "https://thenextweb.com/news/otter-ai-320m-general-catalyst",
-      "source": "The Next Web",
-      "summary": "Otter.ai has raised $320 million in growth financing from General Catalyst\u2019s Customer Value Fund. The AI meeting notetaker announced the deal on Tuesday. It will use the money for enterprise growth, its go-to-market strategy, international expansion and product development. Otter says more than 40 million people now use its product. That includes teams at over [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-20T17:25:45+00:00",
-      "score": 38.0,
-      "headline": "Otter.ai Raises $320M from General Catalyst"
-    },
-    {
-      "id": "80a46fc3ddee0f71",
-      "title": "Spotify pulls 50M AI slop and spam tracks from its recommendations",
-      "url": "https://thenextweb.com/news/spotify-50-million-ai-slop-tracks-recommendations",
-      "source": "The Next Web",
-      "summary": "Spotify says it has taken more than 50 million AI-generated \u201cslop\u201d and spam tracks out of its recommendations this year, on top of 75 million spam tracks it has deleted. It found these were the tracks listeners skipped or rejected most. Spotify did not say how many of the 50 million were made with AI. [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-20T16:01:36+00:00",
-      "score": 38.0,
-      "headline": "Spotify PURGES 50M AI Slop Tracks From Recommendations"
-    },
-    {
-      "id": "e13d4935d4610696",
-      "title": "DHS Said They Searched Man Who Wiped GrapheneOS Phone for Child Abuse Material. They Lied",
-      "url": "https://www.404media.co/dhs-said-they-searched-man-who-wiped-grapheneos-phone-for-child-abuse-material-they-lied/",
-      "source": "404 Media",
-      "summary": "Officials said they wanted to search the phone of Samuel Tunick, a Stop Cop City activist, for child abuse material. It was actually because he was suspected of \u201cterrorist activities.\u201d",
-      "published": "2026-10-20T16:00:10+00:00",
-      "score": 38.0,
-      "headline": null
-    },
-    {
-      "id": "8b5a53d12b0b8f15",
-      "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
-      "url": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
-      "source": "Wired",
-      "summary": "Hysteria over the agent's appearance in a 7,500-person group reveals that internet experts have outdated notions of privacy.",
-      "published": "2026-10-20T15:07:43+00:00",
-      "score": 38.0,
-      "headline": "AI AGENT INVADES Top Internet Researchers Listserv"
-    },
-    {
-      "id": "19cec53e90caea33",
-      "title": "China\u2019s hybrid car exports to EU surge by more than 200% as import cap looms",
-      "url": "https://www.scmp.com/economy/global-economy/article/3371541/chinas-hybrid-car-exports-eu-surge-more-200-import-cap-looms",
-      "source": "South China Morning Post Tech",
-      "summary": "China\u2019s hybrid car exports to the European Union tripled in September from a year earlier, with shipments expected to remain elevated before an import cap agreed during recent trade talks takes effect. The country shipped nearly 100,000 hybrid cars to the bloc last month, up 18.9 per cent from August and 204.2 per cent from a year earlier, customs data showed on Tuesday. The surge outpaced a 142.7 per cent year-on-year rise in China\u2019s total exports of passenger cars to the EU. Analysts said the...",
-      "published": "2026-10-20T13:00:10+00:00",
-      "score": 38.0,
-      "headline": null
-    },
-    {
-      "id": "192b1649aca90d63",
-      "title": "Google executive dismisses European fears over US dominance of AI",
-      "url": "https://www.ft.com/content/2202b6a7-9645-4a0f-995b-40f3e939fbac?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Legal chief Kent Walker says AI prices dropping at \u2018astonishing rate\u2019 and creating opportunities for European businesses",
-      "published": "2026-10-20T04:00:19+00:00",
-      "score": 38.0,
-      "headline": "Google Exec Dismisses EU Fears Over US AI Dominance"
-    },
-    {
-      "id": "7c5b7bd628be48fd",
-      "title": "The One-Pixel of Reasoning: One Truthful Relation Is Enough to Mislead LLM Agents",
-      "url": "https://arxiv.org/abs/2610.24873",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.24873v1 Announce Type: new Abstract: Can one sentence manipulate an agent's belief by targeting a single implicit warrant linking evidence to a conclusion? In this paper, we introduce the one-relation attack (ORA), a novel cognitive attack on this inferential relation. ORA localizes a critical implicit warrant and performs a one-relation intervention using a single source-grounded sentence that qualifies this warrant and steers the agent toward an incorrect belief. Across eighteen models on biomedical inference and vulnerability detection, best-of-$10 attacks overturn initially correct answers at mean rates of 54.9% for proprietary and 80.0% for open-weight models. Attacks also transfer without victim feedback, and paired controls support the roles of targeting and qualification. Moreover, successful sentences can pass source-support checks and evade identification, and multi-agent debate raises team error from 50.0% to 59.5% in our balanced stress test. These findings estab",
-      "published": "2026-10-20T04:00:00+00:00",
-      "score": 38.0,
-      "headline": "ONE SENTENCE Can Hijack LLM Agent Reasoning: Attack Study"
-    },
-    {
-      "id": "e3f85ef9d07cacbe",
-      "title": "Japan and U.S. kick off one of their largest joint military drills defending Japan\u2019s southwestern islands as tensions with China rise",
-      "url": "https://fortune.com/2026/10/19/japan-china-us-military-drills-regional-tensions/",
-      "source": "Fortune Tech",
-      "summary": "This year's exercises come just weeks after the arrest of a U.S. Marine in connection with the murder of a Japanese woman on Okinawa",
-      "published": "2026-10-19T17:13:51+00:00",
-      "score": 38.0,
-      "headline": null
-    },
-    {
-      "id": "9a65d40643111b6e",
-      "title": "SandboxAQ launches tools to test AI agents and track what they cost",
-      "url": "https://thenextweb.com/news/sandboxaq-switch-trust-roi-ai-agents",
-      "source": "The Next Web",
-      "summary": "SandboxAQ has added two products to its Switch AI platform. Switch Trust finds a company\u2019s AI agents, tests them for attacks such as prompt injection, and blocks unsafe behaviour. Switch ROI tracks each agent\u2019s spending against outcomes. Both are free for up to five agents. SandboxAQ has launched two tools to help companies check that [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-19T16:06:27+00:00",
-      "score": 38.0,
-      "headline": "SandboxAQ Launches AI Agent Testing Tools"
-    },
-    {
-      "id": "f5b2f17975aefdce",
-      "title": "Claude Haiku 5.5: What\u2019s New and How to Use It for Fast, Cheap AI Workflows",
-      "url": "https://www.kdnuggets.com/claude-haiku-5-5-whats-new-and-how-to-use-it-for-fast-cheap-ai-workflows",
-      "source": "KDnuggets",
-      "summary": "Claude Haiku 5.5 cuts list prices by 90% and adds adaptive thinking and a 1M token context window. Learn what broke from Haiku 4.5, and build classification, extraction, and sub-agent workflows in Python using the new API.",
-      "published": "2026-10-19T16:00:00+00:00",
-      "score": 38.0,
-      "headline": "Claude Haiku 5.5 Slashes Prices 90%"
-    },
-    {
-      "id": "a7d237fe7b0edd8f",
-      "title": "The Robot I Didn\u2019t Expect to Build",
-      "url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
-      "source": "IEEE Spectrum",
-      "summary": "Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It\u2019s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high shelves and with a battery that can run for 90 minutes on a 9-minute charge, Digit 5\u2019s goal is to handle heavy warehouse tasks shift after shift, filling the need for labor in jobs that are too physically stressful or too dull for humans to want to do.Digit 5 is what Agility has been working toward for over a decade. But the robot is heavy and bulky, lacking the graceful natural motion of its predecessors, and it\u2019s farther than I thought possible from the robot I dreamed of building when I started this company. To deliver a useful commercial product, Agility has taken a path that is very different from what I first imagined.From ATRIAS",
-      "published": "2026-10-19T13:00:03+00:00",
-      "score": 38.0,
-      "headline": "Agility Robotics Launches Digit 5 Humanoid"
     }
   ],
-  "generated_at": "2026-10-22T06:13:54.561194"
+  "generated_at": "2026-10-22T18:11:33.782068"
 }

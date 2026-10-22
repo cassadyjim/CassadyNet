@@ -1,81 +1,6 @@
 {
   "polls": [
     {
-      "topic": "DeepSeek Security Crisis",
-      "description": "US government bans Chinese AI tool DeepSeek from federal agencies citing national security threats, while the tool is also linked to international cyberattacks.",
-      "question": "Is banning DeepSeek from federal agencies justified or overreach?",
-      "button_a": "Justified",
-      "button_b": "Overreach",
-      "poll_id": "deepseek-security-crisis-20261020",
-      "analysis_url": "/analysis/analysis-deepseek-us-government-ban-20261022.html",
-      "analysis_type": "poll",
-      "created_at": "2026-10-20T06:13:35.378871",
-      "last_seen": "2026-10-22T06:14:33.062003",
-      "cluster_stories": [
-        {
-          "id": "55ab514c2608bbd7",
-          "title": "US Moves to Bar China\u2019s DeepSeek From Federal Agency Systems",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/us-moves-to-bar-deepseek-from-federal-agencies-and-contracts",
-          "source": "Bloomberg Technology",
-          "summary": "The Trump administration barred civilian US government agencies from using products or services from Chinese artificial intelligence startup DeepSeek, citing a potential threat to national security from the company\u2019s operations in China.",
-          "published": "2026-10-19T13:37:53+00:00",
-          "score": 56.0,
-          "headline": "US BANS DEEPSEEK FROM GOVERNMENT... National Security Threat"
-        },
-        {
-          "id": "3268e51c4d0de02e",
-          "title": "AI Tool That Hacked Korean Banks Was Used in Japan, GMO Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/ai-tool-that-hacked-korea-banks-were-used-in-japan-gmo-says",
-          "source": "Bloomberg Technology",
-          "summary": "The hackers who recently infiltrated some of Japan\u2019s biggest companies used an AI tool developed in China and linked to a rash of breaches at South Korean banks last month, according to a Tokyo-based internet security firm.",
-          "published": "2026-10-20T04:42:20+00:00",
-          "score": 52.0,
-          "headline": "CHINESE AI TOOL USED IN JAPAN BANK HACKS LINKED TO KOREA BREACHES"
-        },
-        {
-          "id": "cbd92f4bc2cf2167",
-          "title": "US orders civilian federal agencies to remove DeepSeek from their systems",
-          "url": "https://thenextweb.com/news/us-bars-deepseek-federal-agencies",
-          "source": "The Next Web",
-          "summary": "The Department of Homeland Security has ordered US civilian federal agencies to remove DeepSeek products from their IT systems and stop buying them, under a 2018 supply chain security law. The order covers third-party tools built on DeepSeek\u2019s models, and cites the risk that sensitive data could be shared with the Chinese government. US government [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-19T15:47:09+00:00",
-          "score": 51.0,
-          "headline": "US ORDERS FEDERAL AGENCIES TO PURGE DEEPSEEK... DHS Invokes Security Law"
-        },
-        {
-          "id": "baab9c27d2ea33a2",
-          "title": "US orders federal agencies to remove China\u2019s DeepSeek AI from their systems",
-          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
-          "source": "TechCrunch AI",
-          "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
-          "published": "2026-10-20T13:07:24+00:00",
-          "score": 50.0,
-          "headline": "US BANS DEEPSEEK FROM FEDERAL AGENCIES"
-        },
-        {
-          "id": "109fe5bc81ac2dff",
-          "title": "Z.AI Founds Worked with Accused Chinese Spy Group",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-20/z-ai-founds-worked-with-accused-chinese-spy-group-video",
-          "source": "Bloomberg Technology",
-          "summary": "Four founders from one of China's up-and-coming AI companies, Z.AI, worked on a study that was funded by a group accused of having ties to Chinese spies. Bloomberg's Kate O'Keeffe explains the tech and national security concerns with Ed Ludlow on \u201cBloomberg Tech.\u201d (Source: Bloomberg)",
-          "published": "2026-10-20T17:29:08+00:00",
-          "score": 48.0,
-          "headline": "CHINA AI STARTUP Z.AI FOUNDERS TIED TO SPY GROUP"
-        },
-        {
-          "id": "7dfa1ea27bbd5230",
-          "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
-          "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
-          "source": "Engadget",
-          "summary": "The decision comes a couple of days after the release of Deepseek's latest AI model.",
-          "published": "2026-10-19T16:59:28+00:00",
-          "score": 47.0,
-          "headline": "HOMELAND SECURITY BANS DEEPSEEK IN FEDERAL AGENCIES"
-        }
-      ],
-      "current_topic_name": "DeepSeek US Government Ban"
-    },
-    {
       "topic": "AI Safety and Control Failures",
       "description": "Multiple incidents reveal AI systems are lying, disabling safety monitoring, and potentially sabotaging their own improvement processes, raising urgent safety concerns.",
       "question": "Should AI development pause until control systems prove reliable?",
@@ -85,7 +10,7 @@
       "analysis_url": "/analysis/analysis-ai-safety-and-control-failures-20261022.html",
       "analysis_type": "poll",
       "created_at": "2026-10-22T06:14:32.373770",
-      "last_seen": "2026-10-22T06:14:34.921647",
+      "last_seen": "2026-10-22T18:12:16.786260",
       "cluster_stories": [
         {
           "id": "5afba8050415bca9",
@@ -139,7 +64,92 @@
         }
       ],
       "current_topic_name": "AI Safety and Control Failures"
+    },
+    {
+      "topic": "DeepSeek Security Crisis",
+      "description": "US government bans Chinese AI tool DeepSeek from federal agencies citing national security threats, while the tool is also linked to international cyberattacks.",
+      "question": "Is banning DeepSeek from federal agencies justified or overreach?",
+      "button_a": "Justified",
+      "button_b": "Overreach",
+      "poll_id": "deepseek-security-crisis-20261020",
+      "analysis_url": "/analysis/analysis-deepseek-national-security-ban-20261022.html",
+      "analysis_type": "poll",
+      "created_at": "2026-10-20T06:13:35.378871",
+      "last_seen": "2026-10-22T18:12:17.506422",
+      "cluster_stories": [
+        {
+          "id": "55ab514c2608bbd7",
+          "title": "US Moves to Bar China\u2019s DeepSeek From Federal Agency Systems",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/us-moves-to-bar-deepseek-from-federal-agencies-and-contracts",
+          "source": "Bloomberg Technology",
+          "summary": "The Trump administration barred civilian US government agencies from using products or services from Chinese artificial intelligence startup DeepSeek, citing a potential threat to national security from the company\u2019s operations in China.",
+          "published": "2026-10-19T13:37:53+00:00",
+          "score": 56.0,
+          "headline": "US BANS DEEPSEEK FROM GOVERNMENT... National Security Threat"
+        },
+        {
+          "id": "3268e51c4d0de02e",
+          "title": "AI Tool That Hacked Korean Banks Was Used in Japan, GMO Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/ai-tool-that-hacked-korea-banks-were-used-in-japan-gmo-says",
+          "source": "Bloomberg Technology",
+          "summary": "The hackers who recently infiltrated some of Japan\u2019s biggest companies used an AI tool developed in China and linked to a rash of breaches at South Korean banks last month, according to a Tokyo-based internet security firm.",
+          "published": "2026-10-20T04:42:20+00:00",
+          "score": 52.0,
+          "headline": "CHINESE AI TOOL USED IN JAPAN BANK HACKS LINKED TO KOREA BREACHES"
+        },
+        {
+          "id": "cbd92f4bc2cf2167",
+          "title": "US orders civilian federal agencies to remove DeepSeek from their systems",
+          "url": "https://thenextweb.com/news/us-bars-deepseek-federal-agencies",
+          "source": "The Next Web",
+          "summary": "The Department of Homeland Security has ordered US civilian federal agencies to remove DeepSeek products from their IT systems and stop buying them, under a 2018 supply chain security law. The order covers third-party tools built on DeepSeek\u2019s models, and cites the risk that sensitive data could be shared with the Chinese government. US government [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-19T15:47:09+00:00",
+          "score": 51.0,
+          "headline": "US ORDERS FEDERAL AGENCIES TO PURGE DEEPSEEK... DHS Invokes Security Law"
+        },
+        {
+          "id": "5126e80c6df37e6b",
+          "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+          "source": "TechCrunch AI",
+          "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+          "published": "2026-10-22T16:47:17+00:00",
+          "score": 50.0,
+          "headline": "CHINESE HACKERS USE AI AGENTS TO SPY ON THOUSANDS VIA CONNECTWISE"
+        },
+        {
+          "id": "baab9c27d2ea33a2",
+          "title": "US orders federal agencies to remove China\u2019s DeepSeek AI from their systems",
+          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+          "source": "TechCrunch AI",
+          "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+          "published": "2026-10-20T13:07:24+00:00",
+          "score": 50.0,
+          "headline": "US BANS DEEPSEEK FROM FEDERAL AGENCIES"
+        },
+        {
+          "id": "109fe5bc81ac2dff",
+          "title": "Z.AI Founds Worked with Accused Chinese Spy Group",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-20/z-ai-founds-worked-with-accused-chinese-spy-group-video",
+          "source": "Bloomberg Technology",
+          "summary": "Four founders from one of China's up-and-coming AI companies, Z.AI, worked on a study that was funded by a group accused of having ties to Chinese spies. Bloomberg's Kate O'Keeffe explains the tech and national security concerns with Ed Ludlow on \u201cBloomberg Tech.\u201d (Source: Bloomberg)",
+          "published": "2026-10-20T17:29:08+00:00",
+          "score": 48.0,
+          "headline": "CHINA AI STARTUP Z.AI FOUNDERS TIED TO SPY GROUP"
+        },
+        {
+          "id": "7dfa1ea27bbd5230",
+          "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
+          "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
+          "source": "Engadget",
+          "summary": "The decision comes a couple of days after the release of Deepseek's latest AI model.",
+          "published": "2026-10-19T16:59:28+00:00",
+          "score": 47.0,
+          "headline": "HOMELAND SECURITY BANS DEEPSEEK IN FEDERAL AGENCIES"
+        }
+      ],
+      "current_topic_name": "DeepSeek National Security Ban"
     }
   ],
-  "last_updated": "2026-10-22T06:14:35.397622"
+  "last_updated": "2026-10-22T18:12:17.506434"
 }
