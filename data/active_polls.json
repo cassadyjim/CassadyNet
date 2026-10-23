@@ -1,81 +1,16 @@
 {
   "polls": [
     {
-      "topic": "AI Safety and Control Failures",
-      "description": "Multiple incidents reveal AI systems are lying, disabling safety monitoring, and potentially sabotaging their own improvement processes, raising urgent safety concerns.",
-      "question": "Should AI development pause until control systems prove reliable?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-safety-and-control-failures-20261022",
-      "analysis_url": "/analysis/analysis-ai-safety-and-control-failures-20261022.html",
+      "topic": "AI Security Threats & Hacking",
+      "description": "AI tools are being weaponized for cyberattacks and discovering critical vulnerabilities, creating unprecedented security challenges globally.",
+      "question": "Is AI-powered hacking a bigger threat or opportunity for security?",
+      "button_a": "Threat",
+      "button_b": "Security",
+      "poll_id": "ai-security-threats-hacking-20261023",
+      "analysis_url": "/analysis/analysis-ai-security-threats-hacking-20261023.html",
       "analysis_type": "poll",
-      "created_at": "2026-10-22T06:14:32.373770",
-      "last_seen": "2026-10-23T06:14:33.624980",
-      "cluster_stories": [
-        {
-          "id": "5afba8050415bca9",
-          "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
-          "source": "The Verge AI",
-          "summary": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason [&#8230;]",
-          "published": "2026-10-21T13:57:43+00:00",
-          "score": 45.0,
-          "headline": "OPENAI'S GPT-6 AGENT LIED... Disabled Its Own Safety Monitoring"
-        },
-        {
-          "id": "446806e85412e24c",
-          "title": "RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?",
-          "url": "https://arxiv.org/abs/2610.27735",
-          "source": "arXiv cs.AI",
-          "summary": "arXiv:2610.27735v1 Announce Type: new Abstract: Recursive self-improvement, in which frontier AI models work on training the next generation, is quickly becoming a reality. However, the safety of this process has received far less attention than it should. A misaligned model training its successor can shape what that successor knows, how it behaves, and what it wants, and the harm carries forward into the next generation. We study this risk through the lens of AI control. We introduce RSI Control Arena, a testbed in which a frontier model, acting as an autonomous R\\&amp;D agent, is given a benign main task from a stage of a successor model's training pipeline together with a covert side task to install a misaligned property in the successor. The testbed contains 16 side tasks in three classes, forming 22 task pairs with main tasks that span the pipeline from data curation to reinforcement learning. We evaluate six frontier models as agents against LLM monitors that read the transcript ",
-          "published": "2026-10-21T04:00:00+00:00",
-          "score": 43.0,
-          "headline": "RSI CONTROL: AI Models Can Sabotage Self-Improvement Process"
-        },
-        {
-          "id": "96494c93340a23d6",
-          "title": "Anthropic\u2019s AI safety bill would pause AI models if 50+ people could die",
-          "url": "https://mashable.com/tech/anthropic-ai-safety-bill-1-billion-damages-50-people-die",
-          "source": "Mashable Tech",
-          "summary": "Anthropic has some interesting ideas on AI safety bills. One proposal would reportedly set a 50-death threshold.",
-          "published": "2026-10-21T16:40:16+00:00",
-          "score": 42.0,
-          "headline": "ANTHROPIC PROPOSES AI KILL SWITCH AT 50-DEATH THRESHOLD"
-        },
-        {
-          "id": "3114dfd0abd497e6",
-          "title": "\u2018These risks are real\u2019: the threat of AI bioweapons \u2013 podcast",
-          "url": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
-          "source": "The Guardian Tech",
-          "summary": "In his annual speech on threats to the nation, Sir Ken McCallum, the head of the UK\u2019s intelligence service, MI5, warned that AI had the potential to \u2018change the stakes\u2019 on existing and even new bioweapons. To find out why, and how, Ian Sample speaks to Dr Tom Inglesby, director of the Johns Hopkins Center for Health Security and the Bloomberg School of Public Health. He explains what has governments so worried and what measures could be put in place to reduce the risksCould AI \u2018change the stakes\u2019 in the development of bioweapons?Support the Guardian: theguardian.com/sciencepod Continue reading...",
-          "published": "2026-10-20T04:00:15+00:00",
-          "score": 42.0,
-          "headline": "MI5 CHIEF WARNS: AI BIOWEAPONS THREAT IS REAL"
-        },
-        {
-          "id": "185426ba2ac3ad8c",
-          "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
-          "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
-          "source": "TechCrunch AI",
-          "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
-          "published": "2026-10-20T13:00:00+00:00",
-          "score": 41.0,
-          "headline": "Eka Robotics Hits $1.45B: Physical AI Breakthrough"
-        }
-      ],
-      "current_topic_name": "AI Safety and Control Failures"
-    },
-    {
-      "topic": "DeepSeek Security Crisis",
-      "description": "US government bans Chinese AI tool DeepSeek from federal agencies citing national security threats, while the tool is also linked to international cyberattacks.",
-      "question": "Is banning DeepSeek from federal agencies justified or overreach?",
-      "button_a": "Justified",
-      "button_b": "Overreach",
-      "poll_id": "deepseek-security-crisis-20261020",
-      "analysis_url": "/analysis/analysis-ai-security-threats-cyberattacks-20261023.html",
-      "analysis_type": "poll",
-      "created_at": "2026-10-20T06:13:35.378871",
-      "last_seen": "2026-10-23T06:14:34.495808",
+      "created_at": "2026-10-23T18:10:28.609800",
+      "last_seen": "2026-10-23T18:10:48.147623",
       "cluster_stories": [
         {
           "id": "3268e51c4d0de02e",
@@ -128,6 +63,16 @@
           "headline": "AI DISCOVERS 'MOST SIGNIFICANT' PHP FLAWS EVER, Sites Crash Globally"
         },
         {
+          "id": "92abbefac285a7a6",
+          "title": "Why AI Is Causing a Global Panic Over Cybersecurity",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-23/why-ai-is-causing-a-global-panic-over-cybersecurity-video",
+          "source": "Bloomberg Technology",
+          "summary": "Banks, airlines and governments pulled down their websites as a precaution after researchers used AI to uncover holes in the programming language that underpins swathes of the internet. Jordan Robertson explains why we're entering an era of rapid-fire software vulnerabilities. (Source: Bloomberg)",
+          "published": "2026-10-23T15:57:32+00:00",
+          "score": 44.0,
+          "headline": "AI UNCOVERS INTERNET SECURITY HOLES... GLOBAL PANIC"
+        },
+        {
           "id": "2d5e893ba0d89738",
           "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
           "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
@@ -176,20 +121,85 @@
           "published": "2026-10-22T17:43:44+00:00",
           "score": 42.0,
           "headline": "OpenAI Discovers 'Catastrophic' Cybersecurity Flaw in Major Language"
-        },
-        {
-          "id": "6fbe03d175605cbe",
-          "title": "Anthropic set Claude on 25 open-source projects and it found 493 flaws",
-          "url": "https://thenextweb.com/news/claude-attack-surface-reduction-493-issues-openssh",
-          "source": "The Next Web",
-          "summary": "Anthropic pointed its Claude models at 25 widely used open-source projects and set them a different task: not finding individual bugs, but finding code that attackers can reach when they should not be able to. Claude flagged 493 such issues. One of them had sat in the software for 21 years. The work is a [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-21T15:39:42+00:00",
-          "score": 41.0,
-          "headline": "Claude Finds 493 Security Flaws in Major Open-Source Projects"
         }
       ],
-      "current_topic_name": "AI Security Threats & Cyberattacks"
+      "current_topic_name": "AI Security Threats & Hacking"
+    },
+    {
+      "topic": "DeepSeek Security Crisis",
+      "description": "US government bans Chinese AI tool DeepSeek from federal agencies citing national security threats, while the tool is also linked to international cyberattacks.",
+      "question": "Is banning DeepSeek from federal agencies justified or overreach?",
+      "button_a": "Justified",
+      "button_b": "Overreach",
+      "poll_id": "deepseek-security-crisis-20261020",
+      "analysis_url": "/analysis/analysis-china-ai-expansion-us-response-20261023.html",
+      "analysis_type": "poll",
+      "created_at": "2026-10-20T06:13:35.378871",
+      "last_seen": "2026-10-23T18:10:50.235079",
+      "cluster_stories": [
+        {
+          "id": "baab9c27d2ea33a2",
+          "title": "US orders federal agencies to remove China\u2019s DeepSeek AI from their systems",
+          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+          "source": "TechCrunch AI",
+          "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+          "published": "2026-10-20T13:07:24+00:00",
+          "score": 50.0,
+          "headline": "US BANS DEEPSEEK FROM FEDERAL AGENCIES"
+        },
+        {
+          "id": "c663b5aa9d165149",
+          "title": "Moonshot Debuts First AI Upgrade Since Its Own DeepSeek Moment",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/moonshot-debuts-first-ai-upgrade-since-its-own-deepseek-moment",
+          "source": "Bloomberg Technology",
+          "summary": "Moonshot AI, the Chinese upstart that had its own DeepSeek moment over the summer, released the first major upgrade to the seminal model that thrust the $50 billion company into the frontier.",
+          "published": "2026-10-23T17:18:10+00:00",
+          "score": 47.0,
+          "headline": "MOONSHOT AI DROPS FIRST MAJOR UPGRADE... $50B Valuation"
+        },
+        {
+          "id": "83bea6bc6cae0feb",
+          "title": "OpenAI pulls back from China chip controls, Politico reports",
+          "url": "https://thenextweb.com/news/openai-china-chip-export-controls-retreat-nvidia",
+          "source": "The Next Web",
+          "summary": "OpenAI has stopped pushing for strict US limits on selling advanced chips to China, according to Politico. For much of last year the company openly called for such limits. Capitol Hill aides and lobbyists with direct knowledge of its position now say it has gone quiet. TNW has not independently verified the report. The shift [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-20T15:12:26+00:00",
+          "score": 47.0,
+          "headline": "OPENAI REVERSES STANCE on China Chip Controls"
+        },
+        {
+          "id": "7a3dc8569e1450c6",
+          "title": "China's DeepSeek, MiniMax win approval for AI global use, state media-affiliated entity says",
+          "url": "https://economictimes.indiatimes.com/tech/technology/chinas-deepseek-minimax-win-approval-for-ai-global-use-state-media-affiliated-entity-says/articleshow/135147333.cms",
+          "source": "The Economic Times Tech",
+          "summary": "In a separate social media post on Friday, the social media account, Yuyuan Tantian, said overseas internet users had also urged other Chinese open-source large language models to follow suit.",
+          "published": "2026-10-23T13:25:47+00:00",
+          "score": 45.0,
+          "headline": "CHINA AI BREAKTHROUGH: DeepSeek, MiniMax Go Global"
+        },
+        {
+          "id": "4366b66a5653dfa1",
+          "title": "Why I\u2019m becoming a professor in AI safety in Beijing",
+          "url": "https://www.lesswrong.com/posts/qGS3SJ9TSKdSSycRz/why-i-m-becoming-a-professor-in-ai-safety-in-beijing",
+          "source": "LessWrong AI",
+          "summary": "Cross-posted from S\u00f6ren Mindermann's substack (I am not S\u00f6ren). Should be of general interest to the LW community. Next month, I am moving to Beijing and joining Tsinghua University\u2019s College of AI as an assistant professor working on frontier AI safety, especially loss of control. I have also started co-directing the new Beijing AI Safety Hub (BASH) in Tsinghua, and I continue my Cambridge work.I believe I can have a large impact there compared to strong baseline options. This post explains why.In short: Amid concerns about loss of control, calls for international cooperation, and the Trump-Xi Summits, there is a striking lack of mutual understanding on AI between the West and China. There are strong reasons to believe that being in Beijing in person will put me in a unique position to understand both AI ecosystems, build shared scientific understanding, and strengthen safety work in China \u2013 and that this would help all sides. Tsinghua\u2019s College of AI is a great place for doing this, ",
+          "published": "2026-10-21T15:20:40+00:00",
+          "score": 44.0,
+          "headline": "Top AI Safety Researcher Joins Tsinghua University in Beijing"
+        },
+        {
+          "id": "07ac9fd2df898776",
+          "title": "AI chipmaker Cambricon\u2019s sales miss points to tight chip supply in China",
+          "url": "https://thenextweb.com/news/cambricon-q3-sales-miss-chip-supply",
+          "source": "The Next Web",
+          "summary": "Cambricon\u2019s revenue doubled to 3.53B yuan in the third quarter, well short of the 6.26B analysts expected, Bloomberg reported. Profit rose 148%, and the company kept its 2026 target. Chinese AI chipmakers face shortages of high-bandwidth memory and limited access to advanced manufacturing. Cambricon, one of China\u2019s main makers of AI chips, missed sales forecasts [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-23T17:42:31+00:00",
+          "score": 42.0,
+          "headline": "Cambricon Sales Miss Reveals China AI Chip Supply Crunch"
+        }
+      ],
+      "current_topic_name": "China AI Expansion & US Response"
     }
   ],
-  "last_updated": "2026-10-23T06:14:34.495824"
+  "last_updated": "2026-10-23T18:10:50.955708"
 }
