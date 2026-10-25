@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI-Discovered Security Vulnerabilities",
+      "description": "AI systems are discovering critical security flaws at unprecedented scale, triggering a global 'Black October' crisis as websites crash and organizations scramble to patch vulnerabilities.",
+      "question": "",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-discovered-security-vulnerabilities-20261024.html",
+      "started_at": "2026-10-24T06:14:07.998903",
+      "archived_at": "2026-10-25T18:10:41.941883",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "DeepSeek Security Crisis",
       "description": "US government bans Chinese AI tool DeepSeek from federal agencies citing national security threats, while the tool is also linked to international cyberattacks.",
       "question": "Is banning DeepSeek from federal agencies justified or overreach?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-anthropic-legal-battle-with-pentagon-20260831.html",
       "started_at": "2026-08-29T12:08:33.583556",
       "archived_at": "2026-09-01T10:59:12.398641",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI-Cursor Split",
-      "description": "OpenAI terminates its partnership with Cursor following SpaceX's $60B acquisition, escalating tensions in the Musk-Altman rivalry and raising questions about AI tool access.",
-      "question": "Is OpenAI justified in cutting off Cursor after the SpaceX acquisition?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-cursor-split-20260830",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-openai-cuts-off-cursor-after-spacex-acquisition-20260831.html",
-      "started_at": "2026-08-30T11:03:59.405514",
-      "archived_at": "2026-08-31T22:19:32.271575",
       "reason": "topic_replaced"
     }
   ]

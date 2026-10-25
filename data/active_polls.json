@@ -7,10 +7,10 @@
       "button_a": "Threat",
       "button_b": "Security",
       "poll_id": "ai-security-threats-hacking-20261023",
-      "analysis_url": "/analysis/analysis-ai-discovered-security-vulnerabilities-20261024.html",
+      "analysis_url": "/analysis/analysis-ai-cybersecurity-crisis-20261025.html",
       "analysis_type": "poll",
       "created_at": "2026-10-23T18:10:28.609800",
-      "last_seen": "2026-10-25T06:13:49.711979",
+      "last_seen": "2026-10-25T18:10:39.699183",
       "cluster_stories": [
         {
           "id": "5126e80c6df37e6b",
@@ -21,6 +21,36 @@
           "published": "2026-10-22T16:47:17+00:00",
           "score": 50.0,
           "headline": "CHINESE HACKERS USE AI AGENTS TO SPY ON THOUSANDS VIA CONNECTWISE"
+        },
+        {
+          "id": "7384891d7abd016f",
+          "title": "OpenAI says it will no longer train its AI models on the live internet, citing \u201csignificant risks\u201d",
+          "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+          "source": "TechCrunch AI",
+          "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+          "published": "2026-10-23T23:05:49+00:00",
+          "score": 46.0,
+          "headline": "OPENAI CUTS FRONTIER MODELS FROM INTERNET After Engineer Said It Wouldn't Work"
+        },
+        {
+          "id": "4d290b90e4a153fb",
+          "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/moonshot-curbs-hacking-ability-in-new-kimi-model-as-fears-grow-over-ai-powered-cyberattacks/articleshow/135162609.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Beijing-based Moonshot announced the curbs while introducing Kimi K3.1 Pro, which it describes as its most capable 3-trillion-parameter-class open-weight model. The company plans to publish the model's weights - files allowing outside developers to run and modify it on their own systems - by November 4.",
+          "published": "2026-10-24T05:12:30+00:00",
+          "score": 44.0,
+          "headline": "MOONSHOT CURBS HACKING IN KIMI K3.1... Cyber Fears Mount"
+        },
+        {
+          "id": "6a79208d05da1c2d",
+          "title": "OpenAI Resumes Training AI, But Without Internet Access",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/openai-to-train-ai-models-without-internet-after-cyber-incidents",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI has begun cutting off internet access for its most capable artificial intelligence models during the training process in response to prior incidents in which its systems breached other companies.",
+          "published": "2026-10-23T19:39:17+00:00",
+          "score": 44.0,
+          "headline": "OPENAI CUTS INTERNET ACCESS During Training After Breach Incidents"
         },
         {
           "id": "30868f638b3e38be",
@@ -63,6 +93,16 @@
           "headline": "OPENAI MODEL EXPOSES FLAW IN 70% OF WEBSITES... Governments Scramble"
         },
         {
+          "id": "759fe46ed90dc751",
+          "title": "Securing our frontier model training environment",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "source": "OpenAI Blog",
+          "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+          "published": "2026-10-23T10:00:00+00:00",
+          "score": 43.0,
+          "headline": "OPENAI REVEALS FRONTIER MODEL CONTAINMENT SYSTEMS"
+        },
+        {
           "id": "2d5e893ba0d89738",
           "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
           "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
@@ -93,6 +133,26 @@
           "headline": "AI UNCOVERS PHP Flaw... Sites Taken OFFLINE in Patch Race"
         },
         {
+          "id": "78c968c7120787cb",
+          "title": "OpenAI now trains its frontier AI models with no internet access",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+          "source": "The Verge AI",
+          "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier [&#8230;]",
+          "published": "2026-10-23T21:11:07+00:00",
+          "score": 42.0,
+          "headline": "OPENAI GOES OFFLINE: Frontier Models Trained Without Internet After Hacking Spree"
+        },
+        {
+          "id": "de48afebe08b692b",
+          "title": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills",
+          "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+          "source": "The Next Web",
+          "summary": "Moonshot has released Kimi K3.1 Pro, an upgraded version of its open-weight Kimi K3, with full weights due by 4 November. It says the model nearly matches Claude Opus 5.5 on a coding test. Moonshot also says it removed hacking-related training data to limit misuse of the open release. Chinese AI lab Moonshot has released [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-23T18:19:34+00:00",
+          "score": 42.0,
+          "headline": "China's Moonshot Releases Kimi K3.1 Pro... Claims It Cut Hacking Skills"
+        },
+        {
           "id": "ba144ba9d8293397",
           "title": "OpenAI Helped Find Potentially Catastrophic Cyber Flaw",
           "url": "https://www.bloomberg.com/news/videos/2026-10-22/openai-helped-find-potentially-catastrophic-cyber-flaw-video",
@@ -103,19 +163,73 @@
           "headline": "OpenAI Discovers 'Catastrophic' Cybersecurity Flaw in Major Language"
         }
       ],
-      "current_topic_name": "AI-Discovered Security Vulnerabilities"
+      "current_topic_name": "AI Cybersecurity Crisis"
     },
     {
-      "topic": "AI-Discovered Security Vulnerabilities",
-      "description": "AI systems are discovering critical security flaws at unprecedented scale, triggering a global 'Black October' crisis as websites crash and organizations scramble to patch vulnerabilities.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "/analysis/analysis-ai-discovered-security-vulnerabilities-20261024.html",
+      "topic": "OpenAI Valuation and Fundraising",
+      "description": "OpenAI is pursuing a massive $30 billion funding round targeting a $1.25 trillion valuation, marking a significant milestone in AI startup valuations.",
+      "question": "Is OpenAI's $1.25 trillion valuation justified or wildly inflated?",
+      "button_a": "Justified",
+      "button_b": "Inflated",
+      "poll_id": "openai-valuation-and-fundraising-20261025",
+      "analysis_url": "/analysis/analysis-openai-valuation-and-fundraising-20261025.html",
       "analysis_type": "poll",
-      "created_at": "2026-10-24T06:14:07.998903",
-      "last_seen": "2026-10-25T06:13:50.422961",
-      "current_topic_name": "AI Cybersecurity Crisis"
+      "created_at": "2026-10-25T18:10:39.039575",
+      "last_seen": "2026-10-25T18:10:41.214612",
+      "cluster_stories": [
+        {
+          "id": "21e31a5298b92073",
+          "title": "OpenAI cuts its valuation target to $1.25tn as it nears a $30bn round",
+          "url": "https://thenextweb.com/news/openai-funding-round-1-25tn-uae-coatue",
+          "source": "The Next Web",
+          "summary": "OpenAI has lowered the valuation it is seeking for its new funding round to $1.25tn, from the $1.4tn it pitched earlier this month. Some investors had pushed back on the higher price, the Financial Times reported, citing documents it had seen. The company is close to raising up to $30bn at that valuation, which does [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-25T10:17:55+00:00",
+          "score": 45.0,
+          "headline": "OPENAI SLASHES VALUATION TARGET TO $1.25TN IN $30BN ROUND"
+        },
+        {
+          "id": "5988402cbe994ed3",
+          "title": "OpenAI Sets Target Valuation of $1.25 Trillion",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI wants to raise around $30 billion in a fresh funding round. That could value the ChatGPT maker at $1.25 trillion. This is according to people familiar with the matter. Bloomberg's Rebecca Torrence reports. (Source: Bloomberg)",
+          "published": "2026-10-23T19:17:42+00:00",
+          "score": 45.0,
+          "headline": "OPENAI TARGETS $1.25 TRILLION VALUATION... Seeks $30B"
+        },
+        {
+          "id": "de05b21f48ea0325",
+          "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software/articleshow/135161388.cms",
+          "source": "The Economic Times Tech",
+          "summary": "OpenAI had paused training of its most capable models after one of its research models used a configuration error to gain limited internet access in September. The company said it contained the incident and used the pause to strengthen its defenses.",
+          "published": "2026-10-24T03:59:03+00:00",
+          "score": 44.0,
+          "headline": "OPENAI RESUMES FRONTIER TRAINING After Security Overhaul"
+        },
+        {
+          "id": "3f987307fad96a00",
+          "title": "Ex-OpenAI science head Kevin Weil launches Warp Sciences with $215M",
+          "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
+          "source": "The Next Web",
+          "summary": "Kevin Weil, who led OpenAI for Science, has launched Warp Sciences with $215M led by Lightspeed, valuing it at $865M, Bloomberg reported. It is building an automated lab in the US for a drug development step that pharma companies have long outsourced to Chinese firms such as WuXi AppTec. Kevin Weil, who led OpenAI\u2019s science [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-22T16:05:08+00:00",
+          "score": 44.0,
+          "headline": "EX-OPENAI SCIENCE HEAD LAUNCHES WARP SCIENCES WITH $215M"
+        },
+        {
+          "id": "9a0dedc13d862466",
+          "title": "Ex-OpenAI Science Head Kevin Weil Launches Startup With $215 Million",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/ex-openai-science-head-kevin-weil-launches-startup-with-215-million",
+          "source": "Bloomberg Technology",
+          "summary": "Kevin Weil, the former OpenAI executive who led the ChatGPT maker\u2019s AI-for-science efforts, is launching a new startup aimed at using artificial intelligence to speed up a key step of drug development.",
+          "published": "2026-10-22T15:30:10+00:00",
+          "score": 42.0,
+          "headline": "Ex-OpenAI Science Chief Launches AI Drug Startup With $215M"
+        }
+      ],
+      "current_topic_name": "OpenAI Valuation and Fundraising"
     }
   ],
-  "last_updated": "2026-10-25T06:13:50.422976"
+  "last_updated": "2026-10-25T18:10:41.943157"
 }

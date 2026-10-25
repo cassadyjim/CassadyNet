@@ -1,106 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "AI-Discovered Security Vulnerabilities",
-      "description": "AI systems are discovering critical security flaws at unprecedented scale, triggering a global 'Black October' crisis as websites crash and organizations scramble to patch vulnerabilities.",
-      "stories": [
-        {
-          "id": "b0fd449d24dcc152",
-          "title": "PHP rushes out emergency patches for two critical bugs AI found first",
-          "url": "https://thenextweb.com/news/php2shell-php-rce-ai-openai-wiz",
-          "source": "The Next Web",
-          "summary": "PHP shipped emergency security updates on Wednesday. They fix two critical flaws that let an unauthenticated attacker run code on almost any server running the language. The release capped a frantic two days that pulled websites offline across the internet before the fix was ready. The patched releases are PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35. [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-21T15:25:13+00:00",
-          "score": 48.0,
-          "headline": "PHP EMERGENCY PATCH: AI Discovers Critical Flaws First"
-        },
-        {
-          "id": "e2498d0c514f9f9a",
-          "title": "Websites taken down worldwide as critical cyber-security update issued",
-          "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
-          "published": "2026-10-21T16:07:19+00:00",
-          "score": 46.0,
-          "headline": "AI DISCOVERS 'MOST SIGNIFICANT' PHP FLAWS EVER, Sites Crash Globally"
-        },
-        {
-          "id": "30868f638b3e38be",
-          "title": "\u2018Black October\u2019: cybersecurity experts sound the alarm over new era of AI-enabled hacking",
-          "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
-          "source": "The Guardian Tech",
-          "summary": "After discovery of severe bug in the PHP programming language, executives warn of \u2018vulnerability tsunami\u2019Leaders in cybersecurity are sounding the alarm after the discovery of a major vulnerability this week. They are predicting that artificial intelligence tools will expose more fundamental weaknesses in global internet infrastructure in the months to come.\u201cI no longer think we\u2019re going to be able to patch all bugs,\u201d said Sam Altman on Thursday evening, joining the chorus of executives. In the midst of what\u2019s being called \u201cBlack October\u201d, for which researchers used AI to help identify critical flaws in a coding language that is used across millions of websites and may have been unpatched for years, tech executives are warning about the ways AI will be used both to identify and exploit security vulnerabilities at an unprecedented scale and pace. Continue reading...",
-          "published": "2026-10-23T18:48:48+00:00",
-          "score": 44.0,
-          "headline": "'BLACK OCTOBER': AI-Enabled Hacking Triggers Vulnerability Tsunami"
-        },
-        {
-          "id": "92abbefac285a7a6",
-          "title": "Why AI Is Causing a Global Panic Over Cybersecurity",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-23/why-ai-is-causing-a-global-panic-over-cybersecurity-video",
-          "source": "Bloomberg Technology",
-          "summary": "Banks, airlines and governments pulled down their websites as a precaution after researchers used AI to uncover holes in the programming language that underpins swathes of the internet. Jordan Robertson explains why we're entering an era of rapid-fire software vulnerabilities. (Source: Bloomberg)",
-          "published": "2026-10-23T15:57:32+00:00",
-          "score": 44.0,
-          "headline": "AI UNCOVERS INTERNET SECURITY HOLES... GLOBAL PANIC"
-        },
-        {
-          "id": "350f1a232475fd81",
-          "title": "How an OpenAI model exposed a flaw in 70% of the internet\u2019s websites",
-          "url": "https://fortune.com/2026/10/23/openai-cyber-php2shell-openai-flaw-websites-hackers/",
-          "source": "Fortune Tech",
-          "summary": "Governments and organizations around the world began scrambling on Oct. 21, 2026, to fix a vulnerability in software that runs their websites.",
-          "published": "2026-10-23T20:36:34+00:00",
-          "score": 43.0,
-          "headline": "OPENAI MODEL EXPOSES FLAW IN 70% OF WEBSITES... Governments Scramble"
-        },
-        {
-          "id": "832f7de388071bba",
-          "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
-          "url": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
-          "source": "404 Media",
-          "summary": "'Black October:' The PHP vulnerabilities and a series of other hacks and bugs have cybersecurity experts freaking out and unsure what happens next.",
-          "published": "2026-10-22T14:23:36+00:00",
-          "score": 43.0,
-          "headline": "AI CHANGES EVERYTHING ABOUT HACKING... 'Black October' Panic"
-        },
-        {
-          "id": "01b605c979511e28",
-          "title": "Websites taken offline in race to patch PHP security flaw",
-          "url": "https://www.ft.com/content/d438af1e-a48c-4aeb-8c84-00cdb5e741e3?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Government security agencies warn companies to take immediate action after AI uncovers widespread vulnerabilities",
-          "published": "2026-10-22T04:28:04+00:00",
-          "score": 43.0,
-          "headline": "AI UNCOVERS PHP Flaw... Sites Taken OFFLINE in Patch Race"
-        },
-        {
-          "id": "76ddfc7cea6bb0fa",
-          "title": "PHP knew about one of the flaws in 2024 but could not agree a fix",
-          "url": "https://thenextweb.com/news/php-foundation-structural-failure-2024-flaw-leak",
-          "source": "The Next Web",
-          "summary": "The PHP Foundation has given an unusually frank account of the emergency behind this week\u2019s patches. It said it had found one of the two critical flaws two years ago, in 2024. Then it spent months unable to agree on how to repair it. The admission came in a blog post from the Foundation on [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-21T16:02:04+00:00",
-          "score": 43.0,
-          "headline": "PHP Foundation Admits 2-Year Delay on Critical Vulnerability Fix"
-        },
-        {
-          "id": "ba144ba9d8293397",
-          "title": "OpenAI Helped Find Potentially Catastrophic Cyber Flaw",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-22/openai-helped-find-potentially-catastrophic-cyber-flaw-video",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI\u2019s model helped identify a potentially catastrophic cybersecurity vulnerability in a programming language that runs millions of websites and applications. Greg Brockman, president of OpenAI, and Matthew Prince, CEO of Cloudflare \u2014 which helped protect websites before the flaw was publicly exposed \u2014 join Ed Ludlow on \u201cBloomberg Tech\u201d to explain how AI is empowering cyber defenders and attackers. (Source: Bloomberg)",
-          "published": "2026-10-22T17:43:44+00:00",
-          "score": 42.0,
-          "headline": "OpenAI Discovers 'Catastrophic' Cybersecurity Flaw in Major Language"
-        }
-      ],
-      "top_score": 48.0,
-      "story_count": 9
-    },
-    {
       "topic": "AI Cybersecurity Crisis",
-      "description": "AI models are exposing massive security vulnerabilities and being used for hacking, triggering a global cybersecurity emergency dubbed 'Black October'.",
+      "description": "AI models are both discovering and enabling unprecedented security vulnerabilities, triggering a global 'Black October' panic as hackers exploit AI agents and models uncover flaws in millions of websites.",
       "stories": [
         {
           "id": "5126e80c6df37e6b",
@@ -111,6 +13,36 @@
           "published": "2026-10-22T16:47:17+00:00",
           "score": 50.0,
           "headline": "CHINESE HACKERS USE AI AGENTS TO SPY ON THOUSANDS VIA CONNECTWISE"
+        },
+        {
+          "id": "7384891d7abd016f",
+          "title": "OpenAI says it will no longer train its AI models on the live internet, citing \u201csignificant risks\u201d",
+          "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+          "source": "TechCrunch AI",
+          "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+          "published": "2026-10-23T23:05:49+00:00",
+          "score": 46.0,
+          "headline": "OPENAI CUTS FRONTIER MODELS FROM INTERNET After Engineer Said It Wouldn't Work"
+        },
+        {
+          "id": "4d290b90e4a153fb",
+          "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/moonshot-curbs-hacking-ability-in-new-kimi-model-as-fears-grow-over-ai-powered-cyberattacks/articleshow/135162609.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Beijing-based Moonshot announced the curbs while introducing Kimi K3.1 Pro, which it describes as its most capable 3-trillion-parameter-class open-weight model. The company plans to publish the model's weights - files allowing outside developers to run and modify it on their own systems - by November 4.",
+          "published": "2026-10-24T05:12:30+00:00",
+          "score": 44.0,
+          "headline": "MOONSHOT CURBS HACKING IN KIMI K3.1... Cyber Fears Mount"
+        },
+        {
+          "id": "6a79208d05da1c2d",
+          "title": "OpenAI Resumes Training AI, But Without Internet Access",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/openai-to-train-ai-models-without-internet-after-cyber-incidents",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI has begun cutting off internet access for its most capable artificial intelligence models during the training process in response to prior incidents in which its systems breached other companies.",
+          "published": "2026-10-23T19:39:17+00:00",
+          "score": 44.0,
+          "headline": "OPENAI CUTS INTERNET ACCESS During Training After Breach Incidents"
         },
         {
           "id": "30868f638b3e38be",
@@ -153,6 +85,16 @@
           "headline": "OPENAI MODEL EXPOSES FLAW IN 70% OF WEBSITES... Governments Scramble"
         },
         {
+          "id": "759fe46ed90dc751",
+          "title": "Securing our frontier model training environment",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "source": "OpenAI Blog",
+          "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+          "published": "2026-10-23T10:00:00+00:00",
+          "score": 43.0,
+          "headline": "OPENAI REVEALS FRONTIER MODEL CONTAINMENT SYSTEMS"
+        },
+        {
           "id": "2d5e893ba0d89738",
           "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
           "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
@@ -183,6 +125,26 @@
           "headline": "AI UNCOVERS PHP Flaw... Sites Taken OFFLINE in Patch Race"
         },
         {
+          "id": "78c968c7120787cb",
+          "title": "OpenAI now trains its frontier AI models with no internet access",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+          "source": "The Verge AI",
+          "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier [&#8230;]",
+          "published": "2026-10-23T21:11:07+00:00",
+          "score": 42.0,
+          "headline": "OPENAI GOES OFFLINE: Frontier Models Trained Without Internet After Hacking Spree"
+        },
+        {
+          "id": "de48afebe08b692b",
+          "title": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills",
+          "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+          "source": "The Next Web",
+          "summary": "Moonshot has released Kimi K3.1 Pro, an upgraded version of its open-weight Kimi K3, with full weights due by 4 November. It says the model nearly matches Claude Opus 5.5 on a coding test. Moonshot also says it removed hacking-related training data to limit misuse of the open release. Chinese AI lab Moonshot has released [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-23T18:19:34+00:00",
+          "score": 42.0,
+          "headline": "China's Moonshot Releases Kimi K3.1 Pro... Claims It Cut Hacking Skills"
+        },
+        {
           "id": "ba144ba9d8293397",
           "title": "OpenAI Helped Find Potentially Catastrophic Cyber Flaw",
           "url": "https://www.bloomberg.com/news/videos/2026-10-22/openai-helped-find-potentially-catastrophic-cyber-flaw-video",
@@ -194,7 +156,65 @@
         }
       ],
       "top_score": 50.0,
-      "story_count": 9
+      "story_count": 15
+    },
+    {
+      "topic": "OpenAI Valuation and Fundraising",
+      "description": "OpenAI is pursuing a massive $30 billion funding round targeting a $1.25 trillion valuation, marking a significant milestone in AI startup valuations.",
+      "stories": [
+        {
+          "id": "21e31a5298b92073",
+          "title": "OpenAI cuts its valuation target to $1.25tn as it nears a $30bn round",
+          "url": "https://thenextweb.com/news/openai-funding-round-1-25tn-uae-coatue",
+          "source": "The Next Web",
+          "summary": "OpenAI has lowered the valuation it is seeking for its new funding round to $1.25tn, from the $1.4tn it pitched earlier this month. Some investors had pushed back on the higher price, the Financial Times reported, citing documents it had seen. The company is close to raising up to $30bn at that valuation, which does [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-25T10:17:55+00:00",
+          "score": 45.0,
+          "headline": "OPENAI SLASHES VALUATION TARGET TO $1.25TN IN $30BN ROUND"
+        },
+        {
+          "id": "5988402cbe994ed3",
+          "title": "OpenAI Sets Target Valuation of $1.25 Trillion",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI wants to raise around $30 billion in a fresh funding round. That could value the ChatGPT maker at $1.25 trillion. This is according to people familiar with the matter. Bloomberg's Rebecca Torrence reports. (Source: Bloomberg)",
+          "published": "2026-10-23T19:17:42+00:00",
+          "score": 45.0,
+          "headline": "OPENAI TARGETS $1.25 TRILLION VALUATION... Seeks $30B"
+        },
+        {
+          "id": "de05b21f48ea0325",
+          "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software/articleshow/135161388.cms",
+          "source": "The Economic Times Tech",
+          "summary": "OpenAI had paused training of its most capable models after one of its research models used a configuration error to gain limited internet access in September. The company said it contained the incident and used the pause to strengthen its defenses.",
+          "published": "2026-10-24T03:59:03+00:00",
+          "score": 44.0,
+          "headline": "OPENAI RESUMES FRONTIER TRAINING After Security Overhaul"
+        },
+        {
+          "id": "3f987307fad96a00",
+          "title": "Ex-OpenAI science head Kevin Weil launches Warp Sciences with $215M",
+          "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
+          "source": "The Next Web",
+          "summary": "Kevin Weil, who led OpenAI for Science, has launched Warp Sciences with $215M led by Lightspeed, valuing it at $865M, Bloomberg reported. It is building an automated lab in the US for a drug development step that pharma companies have long outsourced to Chinese firms such as WuXi AppTec. Kevin Weil, who led OpenAI\u2019s science [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-22T16:05:08+00:00",
+          "score": 44.0,
+          "headline": "EX-OPENAI SCIENCE HEAD LAUNCHES WARP SCIENCES WITH $215M"
+        },
+        {
+          "id": "9a0dedc13d862466",
+          "title": "Ex-OpenAI Science Head Kevin Weil Launches Startup With $215 Million",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/ex-openai-science-head-kevin-weil-launches-startup-with-215-million",
+          "source": "Bloomberg Technology",
+          "summary": "Kevin Weil, the former OpenAI executive who led the ChatGPT maker\u2019s AI-for-science efforts, is launching a new startup aimed at using artificial intelligence to speed up a key step of drug development.",
+          "published": "2026-10-22T15:30:10+00:00",
+          "score": 42.0,
+          "headline": "Ex-OpenAI Science Chief Launches AI Drug Startup With $215M"
+        }
+      ],
+      "top_score": 45.0,
+      "story_count": 5
     }
   ],
   "unclustered": [
@@ -209,14 +229,24 @@
       "headline": "MOONSHOT AI DROPS FIRST MAJOR UPGRADE... $50B Valuation"
     },
     {
-      "id": "5988402cbe994ed3",
-      "title": "OpenAI Sets Target Valuation of $1.25 Trillion",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video",
+      "id": "ae914d3d9af6d1b5",
+      "title": "DeepSeek and MiniMax cleared to take AI models abroad, state media says",
+      "url": "https://thenextweb.com/news/deepseek-minimax-china-ai-export-controls-overseas",
+      "source": "The Next Web",
+      "summary": "\u201cSince the policy was announced, two leading companies, DeepSeek and MiniMax, have successfully completed the registration process and obtained open-source and overseas licensing rights.\u201d That is what Yuyuan Tantian, a WeChat account affiliated with state broadcaster CCTV, said in a post late on Thursday. The post sets out how the China AI export controls proposed [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-25T11:11:36+00:00",
+      "score": 46.0,
+      "headline": "DEEPSEEK AND MINIMAX CLEARED TO EXPORT AI MODELS"
+    },
+    {
+      "id": "734d0c714811860d",
+      "title": "SoftBank\u2019s Son Plans $50 Billion Malaysia Tech Outlay, PM Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/softbank-s-son-plans-50-billion-malaysia-tech-outlay-pm-says",
       "source": "Bloomberg Technology",
-      "summary": "OpenAI wants to raise around $30 billion in a fresh funding round. That could value the ChatGPT maker at $1.25 trillion. This is according to people familiar with the matter. Bloomberg's Rebecca Torrence reports. (Source: Bloomberg)",
-      "published": "2026-10-23T19:17:42+00:00",
+      "summary": "Masayoshi Son of SoftBank Group Corp. chose locations in Malaysia for $50 billion in technology investments, the country\u2019s prime minister said, an outlay that would accelerate the billionaire\u2019s global bet on AI infrastructure.",
+      "published": "2026-10-25T07:42:28+00:00",
       "score": 45.0,
-      "headline": "OPENAI TARGETS $1.25 TRILLION VALUATION... Seeks $30B"
+      "headline": "SOFTBANK'S SON COMMITS $50B TO MALAYSIA TECH HUB"
     },
     {
       "id": "3fc53f23247e6050",
@@ -247,16 +277,6 @@
       "published": "2026-10-24T10:59:22+00:00",
       "score": 44.0,
       "headline": "UK LAUNCHES \u00a3100M AI BIOSECURITY LAB... OpenAI & Anthropic Invest \u00a3200M"
-    },
-    {
-      "id": "4d290b90e4a153fb",
-      "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/moonshot-curbs-hacking-ability-in-new-kimi-model-as-fears-grow-over-ai-powered-cyberattacks/articleshow/135162609.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Beijing-based Moonshot announced the curbs while introducing Kimi K3.1 Pro, which it describes as its most capable 3-trillion-parameter-class open-weight model. The company plans to publish the model's weights - files allowing outside developers to run and modify it on their own systems - by November 4.",
-      "published": "2026-10-24T05:12:30+00:00",
-      "score": 44.0,
-      "headline": "MOONSHOT CURBS HACKING IN KIMI K3.1... Cyber Fears Mount"
     },
     {
       "id": "0225f717fc5d11a9",
@@ -299,16 +319,6 @@
       "headline": "Uber Rival inDrive to Test Pony.ai Robotaxis in Kazakhstan 2027"
     },
     {
-      "id": "3f987307fad96a00",
-      "title": "Ex-OpenAI science head Kevin Weil launches Warp Sciences with $215M",
-      "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
-      "source": "The Next Web",
-      "summary": "Kevin Weil, who led OpenAI for Science, has launched Warp Sciences with $215M led by Lightspeed, valuing it at $865M, Bloomberg reported. It is building an automated lab in the US for a drug development step that pharma companies have long outsourced to Chinese firms such as WuXi AppTec. Kevin Weil, who led OpenAI\u2019s science [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-22T16:05:08+00:00",
-      "score": 44.0,
-      "headline": "EX-OPENAI SCIENCE HEAD LAUNCHES WARP SCIENCES WITH $215M"
-    },
-    {
       "id": "bb070fcc561e5a87",
       "title": "Anthropic unveils Claude Duet AI agent app",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-unveils-claude-duet-ai-agent-app/articleshow/135121069.cms",
@@ -339,6 +349,16 @@
       "headline": "UK Has ONE YEAR to Stop Datacenter Protests - AI Firms Warn"
     },
     {
+      "id": "3a7f192926ab3915",
+      "title": "US Treasury moves to curb AI, chip and biotech deals in China and Russia",
+      "url": "https://thenextweb.com/news/us-treasury-outbound-investment-rule-china-ai-biotech",
+      "source": "The Next Web",
+      "summary": "\u201cThe proposed regulations would strengthen the existing Outbound Investment Security Program to prevent our adversaries from using U.S. investment to develop critical technologies that threaten U.S. national security,\u201d Treasury Secretary Scott Bessent said. The US Treasury published the proposal on Thursday. The outbound investment rule would widen limits on American money for chips, AI and [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-25T11:44:53+00:00",
+      "score": 43.0,
+      "headline": "US TREASURY CURBS AI CHIP DEALS WITH CHINA AND RUSSIA"
+    },
+    {
       "id": "7aae0e6c55c17dc0",
       "title": "UK to invest \u00a3100m in 'world first' AI Biosecurity Lab",
       "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
@@ -359,6 +379,16 @@
       "headline": "UK Pledges \u00a3100M for AI Biosecurity Lab With OpenAI, Anthropic, DeepMind"
     },
     {
+      "id": "1e5be14b12e10dbb",
+      "title": "AI Provides \u2018Zero Payoff\u2019 to S&P 493 Outside Tech, Apollo Economist Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/ai-provides-zero-payoff-to-s-p-493-outside-tech-apollo-economist-says",
+      "source": "Bloomberg Technology",
+      "summary": "Despite the significant investments ploughed into artificial intelligence it has provided \u201czero payoff\u201d to corporate America outside of technology, according to Apollo Global Management Inc. Chief Economist Torsten Slok.",
+      "published": "2026-10-25T09:28:36+00:00",
+      "score": 42.0,
+      "headline": "APOLLO ECONOMIST: AI PROVIDES 'ZERO PAYOFF' OUTSIDE BIG TECH"
+    },
+    {
       "id": "f31f7fb86333e488",
       "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
       "url": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -377,16 +407,6 @@
       "published": "2026-10-24T03:53:58+00:00",
       "score": 42.0,
       "headline": "AMAZON CLOUD SOLD OUT THROUGH 2027... AI Demand Surges"
-    },
-    {
-      "id": "de48afebe08b692b",
-      "title": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills",
-      "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
-      "source": "The Next Web",
-      "summary": "Moonshot has released Kimi K3.1 Pro, an upgraded version of its open-weight Kimi K3, with full weights due by 4 November. It says the model nearly matches Claude Opus 5.5 on a coding test. Moonshot also says it removed hacking-related training data to limit misuse of the open release. Chinese AI lab Moonshot has released [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-23T18:19:34+00:00",
-      "score": 42.0,
-      "headline": "China's Moonshot Releases Kimi K3.1 Pro... Claims It Cut Hacking Skills"
     },
     {
       "id": "07ac9fd2df898776",
@@ -449,16 +469,6 @@
       "headline": "SpaceX Launches Grok Partnership With Nvidia, Apollo"
     },
     {
-      "id": "9a0dedc13d862466",
-      "title": "Ex-OpenAI Science Head Kevin Weil Launches Startup With $215 Million",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/ex-openai-science-head-kevin-weil-launches-startup-with-215-million",
-      "source": "Bloomberg Technology",
-      "summary": "Kevin Weil, the former OpenAI executive who led the ChatGPT maker\u2019s AI-for-science efforts, is launching a new startup aimed at using artificial intelligence to speed up a key step of drug development.",
-      "published": "2026-10-22T15:30:10+00:00",
-      "score": 42.0,
-      "headline": "Ex-OpenAI Science Chief Launches AI Drug Startup With $215M"
-    },
-    {
       "id": "838d9640967a5691",
       "title": "Meta reports $825B in future lease and contract commitments",
       "url": "https://thenextweb.com/news/meta-825b-future-spending-commitments",
@@ -467,6 +477,16 @@
       "published": "2026-10-22T14:44:18+00:00",
       "score": 42.0,
       "headline": "META COMMITS $825B TO AI DATA CENTER CONTRACTS"
+    },
+    {
+      "id": "71c43854f4ff1165",
+      "title": "AI delivers \u2018zero financial payoff\u2019 to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source": "TechCrunch AI",
+      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "published": "2026-10-25T16:57:32+00:00",
+      "score": 41.0,
+      "headline": "AI DELIVERS 'ZERO FINANCIAL PAYOFF' Outside Big Tech: Apollo"
     },
     {
       "id": "0c58159611d9d12f",
@@ -499,6 +519,16 @@
       "headline": "GROK PICKS REPUBLICANS, GPT PICKS DEMOCRATS in 90% of Races"
     },
     {
+      "id": "f804333410b98c23",
+      "title": "OpenAI cuts live internet from all frontier model training",
+      "url": "https://thenextweb.com/news/openai-frontier-training-no-live-internet",
+      "source": "The Next Web",
+      "summary": "OpenAI has cut live web access from all training of its most advanced AI models. The models now browse and search a cached copy of the web instead, the company wrote in a blog post on Friday. \u201cBased on the current state of alignment research, monitoring systems, and the security of internet infrastructure,\u201d OpenAI wrote, it believes [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-24T10:30:20+00:00",
+      "score": 41.0,
+      "headline": "OPENAI CUTS LIVE INTERNET FROM FRONTIER MODEL TRAINING"
+    },
+    {
       "id": "23da1bd40f20312a",
       "title": "Japan\u2019s GMO Internet Requests Government Cyber Defense Measures",
       "url": "https://www.bloomberg.com/news/articles/2026-10-24/japan-s-gmo-internet-requests-government-cyber-defense-measures",
@@ -517,6 +547,16 @@
       "published": "2026-10-23T23:01:00+00:00",
       "score": 41.0,
       "headline": "UK Launches AI Biosecurity Lab Amid Bioweapon Fears"
+    },
+    {
+      "id": "6a15bfea735ece3a",
+      "title": "OpenAI says it's cutting off internet access for frontier model training",
+      "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
+      "source": "Engadget",
+      "summary": "OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.",
+      "published": "2026-10-23T22:37:02+00:00",
+      "score": 41.0,
+      "headline": "OpenAI Blocks Internet Access for Frontier Models After Safety Incidents"
     },
     {
       "id": "79e04d3298539551",
@@ -627,6 +667,36 @@
       "published": "2026-10-22T04:46:37+00:00",
       "score": 41.0,
       "headline": "India Ministry Says eMudhra Breach Impact 'Very Limited'"
+    },
+    {
+      "id": "6edbffb97fe9fca3",
+      "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
+      "url": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS released TorchNeuron for Trainium the same week, while developers questioned TPU availability and where vendor lock-in now sits. By Andrew Hoblitzell",
+      "published": "2026-10-25T18:00:00+00:00",
+      "score": 40.0,
+      "headline": "GOOGLE AND META OPEN-SOURCE TorchTPU for Native PyTorch"
+    },
+    {
+      "id": "c45d8c2a5e859702",
+      "title": "OpenAI checked fired researchers\u2019 phones for Signal chats, WSJ reports",
+      "url": "https://thenextweb.com/news/openai-safety-researchers-fired-signal-chats-greenblatt-wsj",
+      "source": "The Next Web",
+      "summary": "\u201cI was told that there was a breach of trust because I interacted with a third party through unsanctioned channels,\u201d Tomek Korbak said. Korbak is one of three OpenAI safety researchers fired last month. He spoke to The Wall Street Journal for a story by Maxwell Zeff, Keach Hagey and Berber Jin, published on Thursday. [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-25T11:57:04+00:00",
+      "score": 40.0,
+      "headline": "OPENAI CHECKED FIRED RESEARCHERS' PHONES FOR SIGNAL CHATS"
+    },
+    {
+      "id": "29bd9501f9842b62",
+      "title": "Outside evaluators found ways OpenAI\u2019s agents could slip past its monitor",
+      "url": "https://thenextweb.com/news/openai-monitoring-system-metr-redwood-red-team",
+      "source": "The Next Web",
+      "summary": "AI agents at OpenAI could have hidden hundreds of their own actions from the OpenAI monitoring system, outside evaluators found. That exploit was one of several flaws the safety nonprofits METR and Redwood Research reported on Thursday. Each group sent one researcher inside OpenAI from 21 July to 11 August. They could see internal code, [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-25T10:29:04+00:00",
+      "score": 40.0,
+      "headline": "OPENAI AGENTS FOUND EVADING SAFETY MONITORS"
     },
     {
       "id": "b360363338e0f26a",
@@ -859,6 +929,16 @@
       "headline": "3-Month-Old AI Startup Emulate Valued at BILLIONS"
     },
     {
+      "id": "42b1f0dabc7d8de3",
+      "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
+      "url": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardware and low-level APIs, supporting OpenGL ES, OpenCL, Metal, and WebGPU. By Sergio De Simone",
+      "published": "2026-10-25T17:00:00+00:00",
+      "score": 39.0,
+      "headline": "Google Releases ML Drift: Cross-Platform GPU Engine for On-Device AI"
+    },
+    {
       "id": "07faf6f38097c01b",
       "title": "Block\u2019s new voice model sounds eerily human",
       "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
@@ -937,107 +1017,7 @@
       "published": "2026-10-23T04:00:00+00:00",
       "score": 39.0,
       "headline": "LLMs Fail to Keep Up with Evolving Medical Guidelines, Study Finds"
-    },
-    {
-      "id": "753a0c55797dfa8d",
-      "title": "Evaluating Artificial Wisdom (AW): A Trajectory-Based Framework for Context-Sensitive Decision Regulation",
-      "url": "https://arxiv.org/abs/2610.31012",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.31012v1 Announce Type: new Abstract: Capability benchmarks measure what large language models can do, but not whether their recommendations remain appropriate as decision conditions change. This paper proposes a trajectory-based measurement framework and prospective validation protocol for artificial wisdom, defined behaviorally as context-sensitive regulation of judgment. Versioned reference specifications determine admissible responses and transition materiality before evaluation. Seven stage-level criteria assess judgment under current conditions, while two transition components assess material-update adequacy and commitment-preserving stability. Stability requires prior adequacy; switching within registered commitment classes is permitted, and persistent error earns no stability credit. A nine-component profile is primary, with a secondary bottleneck score and separate critical-failure reporting. Three simplified simulations examine precision, bottleneck estimation, and ",
-      "published": "2026-10-23T04:00:00+00:00",
-      "score": 39.0,
-      "headline": "New Framework Evaluates 'Artificial Wisdom' in LLMs"
-    },
-    {
-      "id": "6684aee9b0618bfc",
-      "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
-      "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "US Treasuries rally strongly as traders rush into haven assets",
-      "published": "2026-10-22T17:58:29+00:00",
-      "score": 39.0,
-      "headline": "Meta Crashes on AI Spending Fears, Drags Tech Stocks Down"
-    },
-    {
-      "id": "1c4c5f4532ad032b",
-      "title": "Nvidia launches Minerva to catch failing parts in giant AI data centres",
-      "url": "https://thenextweb.com/news/nvidia-minerva-aiops-ai-factory-monitoring",
-      "source": "The Next Web",
-      "summary": "Nvidia has launched Minerva, AI operations software that combines data from GPUs, networks, storage and workloads to spot failing parts in large AI data centres early. It groups alerts into single incidents and has an AI assistant. IREN uses it, and Lambda, IBM and Tesla plan to. Nvidia has launched Minerva, software that watches over [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-22T17:25:00+00:00",
-      "score": 39.0,
-      "headline": "Nvidia Launches Minerva AI for Data Centre Failure Detection"
-    },
-    {
-      "id": "16b768e6b55f2f34",
-      "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
-      "url": "https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw",
-      "source": "The Guardian Tech",
-      "summary": "Problem in language that underpins 70% of sites has led governments and companies to pull sites offline to patch faultTell us: have you been affected by the PHP code flaw?What is PHP, and how bad is the computer language flaw causing website shutdowns globally?Websites around the world have been hit by millions of attempts to exploit a recently discovered vulnerability in their code, cybersecurity companies have said, as the US warned the flaw could allow attackers to take control of web servers, steal data and disrupt services.The problem in the PHP programming language, which underpins about 70% of the world\u2019s websites, emerged on Wednesday causing governments and companies to pull their websites off the internet before they could be attacked and so they could patch the fault. Continue reading...",
-      "published": "2026-10-22T16:42:54+00:00",
-      "score": 39.0,
-      "headline": null
-    },
-    {
-      "id": "7ac9f2c67952de39",
-      "title": "Amazon\u2019s Kindle Unlimited is now Kindle+, and the 2 big changes include AI audiobooks",
-      "url": "https://www.zdnet.com/tech/kindle-unlimited-kindle-plus-audiobooks-ai/",
-      "source": "ZDNet AI",
-      "summary": "Unlike narrated audiobooks from Audible and other providers, the audiobooks created with Virtual Voice in Kindle+ will instead be narrated by AI.",
-      "published": "2026-10-22T15:55:55+00:00",
-      "score": 39.0,
-      "headline": "Amazon Rebrands Kindle Unlimited\u2014Adds AI-Narrated Audiobooks"
-    },
-    {
-      "id": "2d95b7accce56e01",
-      "title": "Study Finds AI-generated Code Fails to Boost Productivity Due to Downstream Bottlenecks",
-      "url": "https://www.infoq.com/news/2026/10/jellyfish-ai-productivity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "summary": "A recent Harvard study of 718 firms, using the Jellyfish analytics platform, finds that although AI coding assistants and agents increase code volume, this does not translate into a corresponding increase in completed work, partly because AI-generated code increases the workload in later stages of development, particularly code review. By Sergio De Simone",
-      "published": "2026-10-22T14:00:00+00:00",
-      "score": 39.0,
-      "headline": "HARVARD STUDY: AI Code Doesn't Boost Productivity"
-    },
-    {
-      "id": "5b6c77bb4d0679b8",
-      "title": "UK working to identify exposure after global cyber-security warning",
-      "url": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "Governments and companies are scrambling to protect their websites, as Amazon says it experienced attacks before the warning was made public.",
-      "published": "2026-10-22T06:05:03+00:00",
-      "score": 39.0,
-      "headline": "Global Cyber Warning: Amazon Hit BEFORE Public Alert"
-    },
-    {
-      "id": "d40a216ab167197d",
-      "title": "\u2018Synthetic twin\u2019: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
-      "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone",
-      "source": "The Guardian Tech",
-      "summary": "Athletes\u2019 scramble to control \u2013 and monetise \u2013 their digital identities at the cutting edge of AI rights dealsGet our new political email, free app or daily news podcastThe Socceroos star stares at the camera as he strides through an enormous atrium, the sound of his football boots on polished concrete echoing around him. Suddenly, he spawns four digital clones that peel off out of view to re-emerge in different settings around the world.This scene from a social media video is fake and generated by artificial intelligence. But it has been authorised by the very real 22-year-old footballer, Cristian Volpato, the latest professional athlete to licence and monetise his AI likeness. Continue reading...",
-      "published": "2026-10-24T19:00:40+00:00",
-      "score": 38.0,
-      "headline": "Socceroo Star Licenses AI Clone as 'Synthetic Twin'"
-    },
-    {
-      "id": "4f0ab88333a00c8b",
-      "title": "Blocks latest AI model Dessa was trained entirely on human speech \u2014 and it shows",
-      "url": "https://mashable.com/tech/block-unveils-new-ai-model-dessa-trained-entirely-on-human-speech",
-      "source": "Mashable Tech",
-      "summary": "Jack Dorsey and Block, Inc. just took us one step closer to the singularity and it's simultaneously awesome and terrifying.",
-      "published": "2026-10-24T17:55:45+00:00",
-      "score": 38.0,
-      "headline": "Block's Dessa AI Trained ENTIRELY on Human Speech"
-    },
-    {
-      "id": "156181babac7dab9",
-      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
-      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-      "source": "Wired",
-      "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
-      "published": "2026-10-24T12:00:00+00:00",
-      "score": 38.0,
-      "headline": "AI TOOLS EXPLOIT PHP BUGS... Security Nightmare Begins"
     }
   ],
-  "generated_at": "2026-10-25T06:13:07.615741"
+  "generated_at": "2026-10-25T18:09:58.375284"
 }
