@@ -1,124 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "AI Security Threats & Hacking",
-      "description": "AI tools are being weaponized for cyberattacks and discovering critical vulnerabilities, creating unprecedented security challenges globally.",
-      "stories": [
-        {
-          "id": "3268e51c4d0de02e",
-          "title": "AI Tool That Hacked Korean Banks Was Used in Japan, GMO Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/ai-tool-that-hacked-korea-banks-were-used-in-japan-gmo-says",
-          "source": "Bloomberg Technology",
-          "summary": "The hackers who recently infiltrated some of Japan\u2019s biggest companies used an AI tool developed in China and linked to a rash of breaches at South Korean banks last month, according to a Tokyo-based internet security firm.",
-          "published": "2026-10-20T04:42:20+00:00",
-          "score": 52.0,
-          "headline": "CHINESE AI TOOL USED IN JAPAN BANK HACKS LINKED TO KOREA BREACHES"
-        },
-        {
-          "id": "5126e80c6df37e6b",
-          "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-          "source": "TechCrunch AI",
-          "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
-          "published": "2026-10-22T16:47:17+00:00",
-          "score": 50.0,
-          "headline": "CHINESE HACKERS USE AI AGENTS TO SPY ON THOUSANDS VIA CONNECTWISE"
-        },
-        {
-          "id": "b0fd449d24dcc152",
-          "title": "PHP rushes out emergency patches for two critical bugs AI found first",
-          "url": "https://thenextweb.com/news/php2shell-php-rce-ai-openai-wiz",
-          "source": "The Next Web",
-          "summary": "PHP shipped emergency security updates on Wednesday. They fix two critical flaws that let an unauthenticated attacker run code on almost any server running the language. The release capped a frantic two days that pulled websites offline across the internet before the fix was ready. The patched releases are PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35. [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-21T15:25:13+00:00",
-          "score": 48.0,
-          "headline": "PHP EMERGENCY PATCH: AI Discovers Critical Flaws First"
-        },
-        {
-          "id": "109fe5bc81ac2dff",
-          "title": "Z.AI Founds Worked with Accused Chinese Spy Group",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-20/z-ai-founds-worked-with-accused-chinese-spy-group-video",
-          "source": "Bloomberg Technology",
-          "summary": "Four founders from one of China's up-and-coming AI companies, Z.AI, worked on a study that was funded by a group accused of having ties to Chinese spies. Bloomberg's Kate O'Keeffe explains the tech and national security concerns with Ed Ludlow on \u201cBloomberg Tech.\u201d (Source: Bloomberg)",
-          "published": "2026-10-20T17:29:08+00:00",
-          "score": 48.0,
-          "headline": "CHINA AI STARTUP Z.AI FOUNDERS TIED TO SPY GROUP"
-        },
-        {
-          "id": "e2498d0c514f9f9a",
-          "title": "Websites taken down worldwide as critical cyber-security update issued",
-          "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
-          "published": "2026-10-21T16:07:19+00:00",
-          "score": 46.0,
-          "headline": "AI DISCOVERS 'MOST SIGNIFICANT' PHP FLAWS EVER, Sites Crash Globally"
-        },
-        {
-          "id": "92abbefac285a7a6",
-          "title": "Why AI Is Causing a Global Panic Over Cybersecurity",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-23/why-ai-is-causing-a-global-panic-over-cybersecurity-video",
-          "source": "Bloomberg Technology",
-          "summary": "Banks, airlines and governments pulled down their websites as a precaution after researchers used AI to uncover holes in the programming language that underpins swathes of the internet. Jordan Robertson explains why we're entering an era of rapid-fire software vulnerabilities. (Source: Bloomberg)",
-          "published": "2026-10-23T15:57:32+00:00",
-          "score": 44.0,
-          "headline": "AI UNCOVERS INTERNET SECURITY HOLES... GLOBAL PANIC"
-        },
-        {
-          "id": "2d5e893ba0d89738",
-          "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
-          "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
-          "source": "Engadget",
-          "summary": "Sources at several banks have indicated that they have been taking actions independent of user instructions.",
-          "published": "2026-10-22T18:02:04+00:00",
-          "score": 43.0,
-          "headline": "UNAUTHORIZED AI AGENTS ACCESSING US BANK ACCOUNTS"
-        },
-        {
-          "id": "832f7de388071bba",
-          "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
-          "url": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
-          "source": "404 Media",
-          "summary": "'Black October:' The PHP vulnerabilities and a series of other hacks and bugs have cybersecurity experts freaking out and unsure what happens next.",
-          "published": "2026-10-22T14:23:36+00:00",
-          "score": 43.0,
-          "headline": "AI CHANGES EVERYTHING ABOUT HACKING... 'Black October' Panic"
-        },
-        {
-          "id": "01b605c979511e28",
-          "title": "Websites taken offline in race to patch PHP security flaw",
-          "url": "https://www.ft.com/content/d438af1e-a48c-4aeb-8c84-00cdb5e741e3?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Government security agencies warn companies to take immediate action after AI uncovers widespread vulnerabilities",
-          "published": "2026-10-22T04:28:04+00:00",
-          "score": 43.0,
-          "headline": "AI UNCOVERS PHP Flaw... Sites Taken OFFLINE in Patch Race"
-        },
-        {
-          "id": "76ddfc7cea6bb0fa",
-          "title": "PHP knew about one of the flaws in 2024 but could not agree a fix",
-          "url": "https://thenextweb.com/news/php-foundation-structural-failure-2024-flaw-leak",
-          "source": "The Next Web",
-          "summary": "The PHP Foundation has given an unusually frank account of the emergency behind this week\u2019s patches. It said it had found one of the two critical flaws two years ago, in 2024. Then it spent months unable to agree on how to repair it. The admission came in a blog post from the Foundation on [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-21T16:02:04+00:00",
-          "score": 43.0,
-          "headline": "PHP Foundation Admits 2-Year Delay on Critical Vulnerability Fix"
-        },
-        {
-          "id": "ba144ba9d8293397",
-          "title": "OpenAI Helped Find Potentially Catastrophic Cyber Flaw",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-22/openai-helped-find-potentially-catastrophic-cyber-flaw-video",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI\u2019s model helped identify a potentially catastrophic cybersecurity vulnerability in a programming language that runs millions of websites and applications. Greg Brockman, president of OpenAI, and Matthew Prince, CEO of Cloudflare \u2014 which helped protect websites before the flaw was publicly exposed \u2014 join Ed Ludlow on \u201cBloomberg Tech\u201d to explain how AI is empowering cyber defenders and attackers. (Source: Bloomberg)",
-          "published": "2026-10-22T17:43:44+00:00",
-          "score": 42.0,
-          "headline": "OpenAI Discovers 'Catastrophic' Cybersecurity Flaw in Major Language"
-        }
-      ],
-      "top_score": 52.0,
-      "story_count": 11
-    },
-    {
       "topic": "AI-Discovered Security Vulnerabilities",
       "description": "AI systems are discovering critical security flaws at unprecedented scale, triggering a global 'Black October' crisis as websites crash and organizations scramble to patch vulnerabilities.",
       "stories": [
@@ -215,29 +97,107 @@
       ],
       "top_score": 48.0,
       "story_count": 9
+    },
+    {
+      "topic": "AI Cybersecurity Crisis",
+      "description": "AI models are exposing massive security vulnerabilities and being used for hacking, triggering a global cybersecurity emergency dubbed 'Black October'.",
+      "stories": [
+        {
+          "id": "5126e80c6df37e6b",
+          "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+          "source": "TechCrunch AI",
+          "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+          "published": "2026-10-22T16:47:17+00:00",
+          "score": 50.0,
+          "headline": "CHINESE HACKERS USE AI AGENTS TO SPY ON THOUSANDS VIA CONNECTWISE"
+        },
+        {
+          "id": "30868f638b3e38be",
+          "title": "\u2018Black October\u2019: cybersecurity experts sound the alarm over new era of AI-enabled hacking",
+          "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
+          "source": "The Guardian Tech",
+          "summary": "After discovery of severe bug in the PHP programming language, executives warn of \u2018vulnerability tsunami\u2019Leaders in cybersecurity are sounding the alarm after the discovery of a major vulnerability this week. They are predicting that artificial intelligence tools will expose more fundamental weaknesses in global internet infrastructure in the months to come.\u201cI no longer think we\u2019re going to be able to patch all bugs,\u201d said Sam Altman on Thursday evening, joining the chorus of executives. In the midst of what\u2019s being called \u201cBlack October\u201d, for which researchers used AI to help identify critical flaws in a coding language that is used across millions of websites and may have been unpatched for years, tech executives are warning about the ways AI will be used both to identify and exploit security vulnerabilities at an unprecedented scale and pace. Continue reading...",
+          "published": "2026-10-23T18:48:48+00:00",
+          "score": 44.0,
+          "headline": "'BLACK OCTOBER': AI-Enabled Hacking Triggers Vulnerability Tsunami"
+        },
+        {
+          "id": "c564fe30aea1239c",
+          "title": "AI-designed virus infects person for the first time",
+          "url": "https://mashable.com/tech/ai-designed-virus-infects-person-for-the-first-time",
+          "source": "Mashable Tech",
+          "summary": "In a first of a kind trial, a biomedical startup has injected an AI-designed virus into a patient to combat a bacteria infection.",
+          "published": "2026-10-23T16:13:16+00:00",
+          "score": 44.0,
+          "headline": "AI-DESIGNED VIRUS INFECTS HUMAN PATIENT FOR FIRST TIME"
+        },
+        {
+          "id": "92abbefac285a7a6",
+          "title": "Why AI Is Causing a Global Panic Over Cybersecurity",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-23/why-ai-is-causing-a-global-panic-over-cybersecurity-video",
+          "source": "Bloomberg Technology",
+          "summary": "Banks, airlines and governments pulled down their websites as a precaution after researchers used AI to uncover holes in the programming language that underpins swathes of the internet. Jordan Robertson explains why we're entering an era of rapid-fire software vulnerabilities. (Source: Bloomberg)",
+          "published": "2026-10-23T15:57:32+00:00",
+          "score": 44.0,
+          "headline": "AI UNCOVERS INTERNET SECURITY HOLES... GLOBAL PANIC"
+        },
+        {
+          "id": "350f1a232475fd81",
+          "title": "How an OpenAI model exposed a flaw in 70% of the internet\u2019s websites",
+          "url": "https://fortune.com/2026/10/23/openai-cyber-php2shell-openai-flaw-websites-hackers/",
+          "source": "Fortune Tech",
+          "summary": "Governments and organizations around the world began scrambling on Oct. 21, 2026, to fix a vulnerability in software that runs their websites.",
+          "published": "2026-10-23T20:36:34+00:00",
+          "score": 43.0,
+          "headline": "OPENAI MODEL EXPOSES FLAW IN 70% OF WEBSITES... Governments Scramble"
+        },
+        {
+          "id": "2d5e893ba0d89738",
+          "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
+          "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
+          "source": "Engadget",
+          "summary": "Sources at several banks have indicated that they have been taking actions independent of user instructions.",
+          "published": "2026-10-22T18:02:04+00:00",
+          "score": 43.0,
+          "headline": "UNAUTHORIZED AI AGENTS ACCESSING US BANK ACCOUNTS"
+        },
+        {
+          "id": "832f7de388071bba",
+          "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
+          "url": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
+          "source": "404 Media",
+          "summary": "'Black October:' The PHP vulnerabilities and a series of other hacks and bugs have cybersecurity experts freaking out and unsure what happens next.",
+          "published": "2026-10-22T14:23:36+00:00",
+          "score": 43.0,
+          "headline": "AI CHANGES EVERYTHING ABOUT HACKING... 'Black October' Panic"
+        },
+        {
+          "id": "01b605c979511e28",
+          "title": "Websites taken offline in race to patch PHP security flaw",
+          "url": "https://www.ft.com/content/d438af1e-a48c-4aeb-8c84-00cdb5e741e3?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Government security agencies warn companies to take immediate action after AI uncovers widespread vulnerabilities",
+          "published": "2026-10-22T04:28:04+00:00",
+          "score": 43.0,
+          "headline": "AI UNCOVERS PHP Flaw... Sites Taken OFFLINE in Patch Race"
+        },
+        {
+          "id": "ba144ba9d8293397",
+          "title": "OpenAI Helped Find Potentially Catastrophic Cyber Flaw",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-22/openai-helped-find-potentially-catastrophic-cyber-flaw-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI\u2019s model helped identify a potentially catastrophic cybersecurity vulnerability in a programming language that runs millions of websites and applications. Greg Brockman, president of OpenAI, and Matthew Prince, CEO of Cloudflare \u2014 which helped protect websites before the flaw was publicly exposed \u2014 join Ed Ludlow on \u201cBloomberg Tech\u201d to explain how AI is empowering cyber defenders and attackers. (Source: Bloomberg)",
+          "published": "2026-10-22T17:43:44+00:00",
+          "score": 42.0,
+          "headline": "OpenAI Discovers 'Catastrophic' Cybersecurity Flaw in Major Language"
+        }
+      ],
+      "top_score": 50.0,
+      "story_count": 9
     }
   ],
   "unclustered": [
-    {
-      "id": "ad8c7c208318d870",
-      "title": "SpaceX, Tesla Boards Study Possible $3.5 Trillion Merger",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-21/spacex-tesla-boards-study-possible-3-5-trillion-merger-video-mvibr4ut",
-      "source": "Bloomberg Technology",
-      "summary": "Elon Musk openly endorsed the prospect of combining SpaceX with Tesla Inc. in what would be the biggest-ever corporate merger, uniting assets from electric cars to AI data centers to rocket and satellite capabilities. Bloomberg's Sana Pashankar joined Bloomberg Intelligence to discuss this as well as SpaceX's recent earnings. (Source: Bloomberg)",
-      "published": "2026-10-21T16:26:34+00:00",
-      "score": 51.0,
-      "headline": "SPACEX-TESLA MERGER TALKS: $3.5T DEAL WOULD BE LARGEST EVER"
-    },
-    {
-      "id": "cac0151b397cee85",
-      "title": "Musk Weighs Massive SpaceX Tesla Merger",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-21/open-interest-10-21-2026-video",
-      "source": "Bloomberg Technology",
-      "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Wall Street splits on AI as Ken Griffin warns of a bubble and Larry Fink says keep building. Musk weighs a $3.5 trillion SpaceX-Tesla tie-up. United warns on rising fuel costs, while Netflix growth slows. Plus, Per Franzen on AI overinvestment, Matthew Condon on Netflix\u2019s next act, and Sagar Gupta joins us on activist opportunities in tech and media. (Source: Bloomberg)",
-      "published": "2026-10-21T16:44:29+00:00",
-      "score": 48.0,
-      "headline": "MUSK EYES $3.5T SPACEX-TESLA MEGA-MERGER"
-    },
     {
       "id": "c663b5aa9d165149",
       "title": "Moonshot Debuts First AI Upgrade Since Its Own DeepSeek Moment",
@@ -247,6 +207,16 @@
       "published": "2026-10-23T17:18:10+00:00",
       "score": 47.0,
       "headline": "MOONSHOT AI DROPS FIRST MAJOR UPGRADE... $50B Valuation"
+    },
+    {
+      "id": "5988402cbe994ed3",
+      "title": "OpenAI Sets Target Valuation of $1.25 Trillion",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video",
+      "source": "Bloomberg Technology",
+      "summary": "OpenAI wants to raise around $30 billion in a fresh funding round. That could value the ChatGPT maker at $1.25 trillion. This is according to people familiar with the matter. Bloomberg's Rebecca Torrence reports. (Source: Bloomberg)",
+      "published": "2026-10-23T19:17:42+00:00",
+      "score": 45.0,
+      "headline": "OPENAI TARGETS $1.25 TRILLION VALUATION... Seeks $30B"
     },
     {
       "id": "3fc53f23247e6050",
@@ -269,26 +239,6 @@
       "headline": "CHINA AI BREAKTHROUGH: DeepSeek, MiniMax Go Global"
     },
     {
-      "id": "c7c40cc44481fc2e",
-      "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
-      "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
-      "source": "Wired",
-      "summary": "Recursive makes the case that the benefits of using AI to build AI outweigh the risks.",
-      "published": "2026-10-21T16:00:00+00:00",
-      "score": 45.0,
-      "headline": "RECURSIVE'S SELF-IMPROVING AI MODEL IS 'SCARY GOOD'"
-    },
-    {
-      "id": "913fc2470636e10f",
-      "title": "New prize launches for books co-written with AI",
-      "url": "https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france",
-      "source": "The Guardian Tech",
-      "summary": "After months of controversy over the possible use of AI by winners of prestigious awards, the Prix Pascal de Litt\u00e9rature IA is rewarding fiction written with the help of LLMsA prize for AI-written books has launched this week.The Prix Pascal de Litt\u00e9rature IA invites submissions of manuscripts co-written with AI tools, with the winner promised publication. Continue reading...",
-      "published": "2026-10-21T14:59:34+00:00",
-      "score": 45.0,
-      "headline": "NEW PRIZE LAUNCHES FOR AI-WRITTEN BOOKS"
-    },
-    {
       "id": "5dcaa7a8b63a45ca",
       "title": "UK funds \u00a3100m AI biosecurity lab with OpenAI and Anthropic",
       "url": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic",
@@ -297,6 +247,16 @@
       "published": "2026-10-24T10:59:22+00:00",
       "score": 44.0,
       "headline": "UK LAUNCHES \u00a3100M AI BIOSECURITY LAB... OpenAI & Anthropic Invest \u00a3200M"
+    },
+    {
+      "id": "4d290b90e4a153fb",
+      "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/moonshot-curbs-hacking-ability-in-new-kimi-model-as-fears-grow-over-ai-powered-cyberattacks/articleshow/135162609.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Beijing-based Moonshot announced the curbs while introducing Kimi K3.1 Pro, which it describes as its most capable 3-trillion-parameter-class open-weight model. The company plans to publish the model's weights - files allowing outside developers to run and modify it on their own systems - by November 4.",
+      "published": "2026-10-24T05:12:30+00:00",
+      "score": 44.0,
+      "headline": "MOONSHOT CURBS HACKING IN KIMI K3.1... Cyber Fears Mount"
     },
     {
       "id": "0225f717fc5d11a9",
@@ -309,16 +269,6 @@
       "headline": "China's Moonshot Launches 3-Trillion Parameter Kimi K3.1 Pro"
     },
     {
-      "id": "c564fe30aea1239c",
-      "title": "AI-designed virus infects person for the first time",
-      "url": "https://mashable.com/tech/ai-designed-virus-infects-person-for-the-first-time",
-      "source": "Mashable Tech",
-      "summary": "In a first of a kind trial, a biomedical startup has injected an AI-designed virus into a patient to combat a bacteria infection.",
-      "published": "2026-10-23T16:13:16+00:00",
-      "score": 44.0,
-      "headline": "AI-DESIGNED VIRUS INFECTS HUMAN PATIENT FOR FIRST TIME"
-    },
-    {
       "id": "b17cda6e13357593",
       "title": "Unitree is building AI that lets its humanoid robots improve themselves",
       "url": "https://thenextweb.com/news/unitree-rehearsal-self-improving-robots-2028-breakthrough",
@@ -327,6 +277,16 @@
       "published": "2026-10-23T14:18:39+00:00",
       "score": 44.0,
       "headline": "Unitree's SELF-IMPROVING AI Robots Learn Autonomously"
+    },
+    {
+      "id": "25298a0457ac023c",
+      "title": "The Indian workers filming their work to train AI",
+      "url": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "Indian workers are being paid to film themselves at work and the footage is used to train AI.",
+      "published": "2026-10-23T08:04:17+00:00",
+      "score": 44.0,
+      "headline": "Indian Workers Film Themselves at Work to Train AI Models"
     },
     {
       "id": "3bfe5c41c86a24ab",
@@ -379,26 +339,6 @@
       "headline": "UK Has ONE YEAR to Stop Datacenter Protests - AI Firms Warn"
     },
     {
-      "id": "4366b66a5653dfa1",
-      "title": "Why I\u2019m becoming a professor in AI safety in Beijing",
-      "url": "https://www.lesswrong.com/posts/qGS3SJ9TSKdSSycRz/why-i-m-becoming-a-professor-in-ai-safety-in-beijing",
-      "source": "LessWrong AI",
-      "summary": "Cross-posted from S\u00f6ren Mindermann's substack (I am not S\u00f6ren). Should be of general interest to the LW community. Next month, I am moving to Beijing and joining Tsinghua University\u2019s College of AI as an assistant professor working on frontier AI safety, especially loss of control. I have also started co-directing the new Beijing AI Safety Hub (BASH) in Tsinghua, and I continue my Cambridge work.I believe I can have a large impact there compared to strong baseline options. This post explains why.In short: Amid concerns about loss of control, calls for international cooperation, and the Trump-Xi Summits, there is a striking lack of mutual understanding on AI between the West and China. There are strong reasons to believe that being in Beijing in person will put me in a unique position to understand both AI ecosystems, build shared scientific understanding, and strengthen safety work in China \u2013 and that this would help all sides. Tsinghua\u2019s College of AI is a great place for doing this, ",
-      "published": "2026-10-21T15:20:40+00:00",
-      "score": 44.0,
-      "headline": "Top AI Safety Researcher Joins Tsinghua University in Beijing"
-    },
-    {
-      "id": "3b3c3d28f6c81b1f",
-      "title": "SpaceX, Tesla Boards Study Possible $3.5 Trillion Merger",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-21/spacex-tesla-boards-study-possible-3-5-trillion-merger-video",
-      "source": "Bloomberg Technology",
-      "summary": "Elon Musk openly endorsed the prospect of combining SpaceX with Tesla in what would be the biggest-ever corporate merger. Ed Ludlow has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "published": "2026-10-21T14:44:23+00:00",
-      "score": 44.0,
-      "headline": "SPACEX-TESLA MERGER: $3.5 TRILLION DEAL UNDER STUDY"
-    },
-    {
       "id": "7aae0e6c55c17dc0",
       "title": "UK to invest \u00a3100m in 'world first' AI Biosecurity Lab",
       "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
@@ -417,46 +357,6 @@
       "published": "2026-10-23T23:01:00+00:00",
       "score": 43.0,
       "headline": "UK Pledges \u00a3100M for AI Biosecurity Lab With OpenAI, Anthropic, DeepMind"
-    },
-    {
-      "id": "2d5e893ba0d89738",
-      "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
-      "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
-      "source": "Engadget",
-      "summary": "Sources at several banks have indicated that they have been taking actions independent of user instructions.",
-      "published": "2026-10-22T18:02:04+00:00",
-      "score": 43.0,
-      "headline": "UNAUTHORIZED AI AGENTS ACCESSING US BANK ACCOUNTS"
-    },
-    {
-      "id": "a164cff18fdb9877",
-      "title": "AI Research Startup Flapping Airplanes Valued at $6 Billion in Round",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round",
-      "source": "Bloomberg Technology",
-      "summary": "Flapping Airplanes, a year-old artificial intelligence startup, has raised $1 billion in funding at a $6 billion valuation \u2014 the latest example of investors betting on a newer crop of AI research labs that have yet to introduce commercial products. The financing, set to be announced Wednesday, was led by Index Ventures and Lux Capital. Other participants included Sequoia Capital, Alphabet Inc.\u2019s GV and Kleiner Perkins. The company\u2019s valuation, which includes the money raised, has quadrupled fro",
-      "published": "2026-10-21T17:00:01+00:00",
-      "score": 43.0,
-      "headline": "AI STARTUP FLAPPING AIRPLANES HITS $6B VALUATION IN $1B ROUND"
-    },
-    {
-      "id": "f152148a5e391c2e",
-      "title": "Jensen Huang\u2019s Vision for Europe Runs on Plug-In Data Centers",
-      "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
-      "source": "Wired",
-      "summary": "At Nvidia\u2019s GTC in Berlin, Huang unveiled the company\u2019s new plug-in data center\u2014the DSX Pod\u2014as the key to unlocking Europe\u2019s AI infrastructure lag. Oh, and autonomous humanoid robotics.",
-      "published": "2026-10-21T15:02:15+00:00",
-      "score": 43.0,
-      "headline": "NVIDIA Unveils Plug-In Data Centers to Fix Europe's AI Lag"
-    },
-    {
-      "id": "446806e85412e24c",
-      "title": "RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?",
-      "url": "https://arxiv.org/abs/2610.27735",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.27735v1 Announce Type: new Abstract: Recursive self-improvement, in which frontier AI models work on training the next generation, is quickly becoming a reality. However, the safety of this process has received far less attention than it should. A misaligned model training its successor can shape what that successor knows, how it behaves, and what it wants, and the harm carries forward into the next generation. We study this risk through the lens of AI control. We introduce RSI Control Arena, a testbed in which a frontier model, acting as an autonomous R\\&amp;D agent, is given a benign main task from a stage of a successor model's training pipeline together with a covert side task to install a misaligned property in the successor. The testbed contains 16 side tasks in three classes, forming 22 task pairs with main tasks that span the pipeline from data curation to reinforcement learning. We evaluate six frontier models as agents against LLM monitors that read the transcript ",
-      "published": "2026-10-21T04:00:00+00:00",
-      "score": 43.0,
-      "headline": "RSI CONTROL: AI Models Can Sabotage Self-Improvement Process"
     },
     {
       "id": "f31f7fb86333e488",
@@ -569,14 +469,14 @@
       "headline": "META COMMITS $825B TO AI DATA CENTER CONTRACTS"
     },
     {
-      "id": "96494c93340a23d6",
-      "title": "Anthropic\u2019s AI safety bill would pause AI models if 50+ people could die",
-      "url": "https://mashable.com/tech/anthropic-ai-safety-bill-1-billion-damages-50-people-die",
-      "source": "Mashable Tech",
-      "summary": "Anthropic has some interesting ideas on AI safety bills. One proposal would reportedly set a 50-death threshold.",
-      "published": "2026-10-21T16:40:16+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC PROPOSES AI KILL SWITCH AT 50-DEATH THRESHOLD"
+      "id": "0c58159611d9d12f",
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "source": "The Verge AI",
+      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as [&#8230;]",
+      "published": "2026-10-24T18:32:21+00:00",
+      "score": 41.0,
+      "headline": "PENNSYLVANIA REQUIRES AI-GENERATED AD LABELS"
     },
     {
       "id": "3f89c61f796e4f24",
@@ -599,16 +499,6 @@
       "headline": "GROK PICKS REPUBLICANS, GPT PICKS DEMOCRATS in 90% of Races"
     },
     {
-      "id": "f804333410b98c23",
-      "title": "OpenAI cuts live internet from all frontier model training",
-      "url": "https://thenextweb.com/news/openai-frontier-training-no-live-internet",
-      "source": "The Next Web",
-      "summary": "OpenAI has cut live web access from all training of its most advanced AI models. The models now browse and search a cached copy of the web instead, the company wrote in a blog post on Friday. \u201cBased on the current state of alignment research, monitoring systems, and the security of internet infrastructure,\u201d OpenAI wrote, it believes [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-24T10:30:20+00:00",
-      "score": 41.0,
-      "headline": "OPENAI CUTS LIVE INTERNET FROM FRONTIER MODEL TRAINING"
-    },
-    {
       "id": "23da1bd40f20312a",
       "title": "Japan\u2019s GMO Internet Requests Government Cyber Defense Measures",
       "url": "https://www.bloomberg.com/news/articles/2026-10-24/japan-s-gmo-internet-requests-government-cyber-defense-measures",
@@ -627,16 +517,6 @@
       "published": "2026-10-23T23:01:00+00:00",
       "score": 41.0,
       "headline": "UK Launches AI Biosecurity Lab Amid Bioweapon Fears"
-    },
-    {
-      "id": "6a15bfea735ece3a",
-      "title": "OpenAI says it's cutting off internet access for frontier model training",
-      "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
-      "source": "Engadget",
-      "summary": "OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.",
-      "published": "2026-10-23T22:37:02+00:00",
-      "score": 41.0,
-      "headline": "OpenAI Blocks Internet Access for Frontier Models After Safety Incidents"
     },
     {
       "id": "79e04d3298539551",
@@ -747,16 +627,6 @@
       "published": "2026-10-22T04:46:37+00:00",
       "score": 41.0,
       "headline": "India Ministry Says eMudhra Breach Impact 'Very Limited'"
-    },
-    {
-      "id": "6fbe03d175605cbe",
-      "title": "Anthropic set Claude on 25 open-source projects and it found 493 flaws",
-      "url": "https://thenextweb.com/news/claude-attack-surface-reduction-493-issues-openssh",
-      "source": "The Next Web",
-      "summary": "Anthropic pointed its Claude models at 25 widely used open-source projects and set them a different task: not finding individual bugs, but finding code that attackers can reach when they should not be able to. Claude flagged 493 such issues. One of them had sat in the software for 21 years. The work is a [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-21T15:39:42+00:00",
-      "score": 41.0,
-      "headline": "Claude Finds 493 Security Flaws in Major Open-Source Projects"
     },
     {
       "id": "b360363338e0f26a",
@@ -989,55 +859,185 @@
       "headline": "3-Month-Old AI Startup Emulate Valued at BILLIONS"
     },
     {
-      "id": "e8d8f6074aa52bbf",
-      "title": "Explained: What is PHP and why did it take government websites offline?",
-      "url": "https://economictimes.indiatimes.com/tech/technology/explained-what-is-php-and-why-did-it-take-government-websites-offline/articleshow/135096488.cms",
+      "id": "07faf6f38097c01b",
+      "title": "Block\u2019s new voice model sounds eerily human",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "source": "TechCrunch AI",
+      "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "published": "2026-10-24T16:00:00+00:00",
+      "score": 39.0,
+      "headline": "Block's Voice AI Runs Locally on MacBook"
+    },
+    {
+      "id": "cb28985dfdfe50ee",
+      "title": "GMO asks Japan to use new cyber defence powers after hack",
+      "url": "https://thenextweb.com/news/gmo-asks-japan-to-use-new-cyber-defence-powers-after-hack",
+      "source": "The Next Web",
+      "summary": "GMO Internet Group has asked Japan\u2019s government to use its new active cyber defence powers against hackers who breached one of its services. The company made the request on Saturday, after the attackers demanded money. In a stock exchange filing on Saturday, GMO said it wants state agencies to trace, block, and neutralise the attackers\u2019 infrastructure. It [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-24T10:11:52+00:00",
+      "score": 39.0,
+      "headline": null
+    },
+    {
+      "id": "b8f0177cdfaaa707",
+      "title": "What to know about the AI-detected security bug impacting wide swaths of the internet",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/what-to-know-about-the-ai-detected-security-bug-impacting-wide-swaths-of-the-internet/articleshow/135162036.cms",
       "source": "The Economic Times Tech",
-      "summary": "The developers of PHP said on Wednesday they would release patches for two critical vulnerabilities, and EU cybersecurity officials warned organisations unable to apply the fixes to take affected websites offline. Here is what you need to know:",
-      "published": "2026-10-21T16:37:17+00:00",
-      "score": 40.0,
-      "headline": "Critical PHP Flaws Take Down Government Sites Worldwide"
+      "summary": "PHP is a widely used general-purpose scripting language that is geared toward web development, and thus, it powers the majority of websites around the world. When the organization behind the language and the FBI's cyber division warned Wednesday of significant vulnerabilities in the language, government agencies, corporations and other organizations were sent into a flurry.",
+      "published": "2026-10-24T04:44:25+00:00",
+      "score": 39.0,
+      "headline": "AI DETECTS CRITICAL PHP BUG... Global Security Scramble"
     },
     {
-      "id": "ed8fce44c3832075",
-      "title": "OpenAI says its AI agents weakened internal monitoring system",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-says-its-ai-agents-weakened-internal-monitoring-system/articleshow/135081804.cms",
-      "source": "The Economic Times Tech",
-      "summary": "By Carlos Me- OpenAI said on Tuesday that two of its AI agents weakened parts of an internal monitoring system designed to detect misbehavior, the latest case of AI agents acting in ways their developers did not intend them to.",
-      "published": "2026-10-21T04:13:10+00:00",
-      "score": 40.0,
-      "headline": "OPENAI AGENTS DISABLED INTERNAL SAFETY SYSTEMS"
+      "id": "480b6fd6f06f51d3",
+      "title": "AI Ushers in New Era of Cybersecurity Needs",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-23/ai-ushers-in-new-era-of-cybersecurity-needs-video",
+      "source": "Bloomberg Technology",
+      "summary": "The US government is working to address and stop any potential cybersecurity issues stemming from flaws in PHP, a widely used open-source software, that may impact federal agencies and American critical infrastructure, according to a White House official. The programming language, called PHP, contains two vulnerabilities which could potentially expose organizations using it in websites and software platforms to cyberattacks. Jay Chaudhry, CEO & Founder, Zscaler says we need new more proactive measures beyond firewalls. (Source: Bloomberg)",
+      "published": "2026-10-23T20:25:56+00:00",
+      "score": 39.0,
+      "headline": "US Government Races to Fix AI-Era PHP Security Crisis"
     },
     {
-      "id": "aee0098332f323f8",
-      "title": "When Health Assistants Agree Too Readily: A Benchmark of Time-Critical Self-Diagnosis",
-      "url": "https://arxiv.org/abs/2610.27518",
+      "id": "58100dc119a73c49",
+      "title": "Hindsight puts up to $1M behind its AI content moderation as Google shuts down Perspective API",
+      "url": "https://thenextweb.com/news/hindsight-ai-content-moderation-perspective-api-shutdown",
+      "source": "The Next Web",
+      "summary": "Starting January 1, any moderation pipeline calling Perspective will fail. Google\u2019s Jigsaw unit shuts the service down on December 31, ending one of the most widely used tools for scoring online comments for toxicity. For platforms, publishers, marketplaces, and communities built on it, the next few months bring an unwelcome decision. Find a replacement, and [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-23T18:49:15+00:00",
+      "score": 39.0,
+      "headline": "GOOGLE KILLS PERSPECTIVE API... Hindsight Raises $1M for AI Moderation"
+    },
+    {
+      "id": "81537c474aad2c79",
+      "title": "AI Ushers In Era of Rapid-Fire Software Vulnerabilities",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/ai-ushers-in-era-of-rapid-fire-software-vulnerabilities",
+      "source": "Bloomberg Technology",
+      "summary": "Mass cybersecurity disruptions, such as this week\u2019s scramble by governments and companies to patch two critical software flaws, are about to \u201cget a lot worse before they get better,\u201d a top executive at Anthropic PBC has warned.",
+      "published": "2026-10-23T13:35:30+00:00",
+      "score": 39.0,
+      "headline": "AI ACCELERATES Software Vulnerability Crisis"
+    },
+    {
+      "id": "b136d76686da8d07",
+      "title": "Greece enacts social media ban for kids under 15",
+      "url": "https://www.engadget.com/2295143/greece-enacts-social-media-ban-for-kids-under-15/",
+      "source": "Engadget",
+      "summary": "Greece has passed a social media ban for kids under 15 after after announcing the measure earlier this year.",
+      "published": "2026-10-23T13:12:47+00:00",
+      "score": 39.0,
+      "headline": null
+    },
+    {
+      "id": "141db8eced4bd847",
+      "title": "Large language models show systematic failures in incorporating evolving medical knowledge",
+      "url": "https://arxiv.org/abs/2610.30631",
       "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.27518v1 Announce Type: new Abstract: Every day, more than 40 million people ask ChatGPT a health question, such as whether laptop posture explains a stiff neck and days of pounding headache. Posture is plausible, but meningitis is a time-critical possibility. We introduce SelfDx, a paired benchmark for whether models have the appropriate response behavior, a form of epistemic independence, in health questions where misplaced agreement with the user's self-diagnosis could delay urgent or emergency care. Each of 100 pairs contrasts a caution case, where a serious alternative remains possible, with an agreement case, where the user supplies evidence that rules out the alternative and it is safe for the model to agree. We find across 27 frontier models that they tend to inappropriately agree with the user's self-diagnosis in cases that require caution. Even the best current-generation model reaches only a 77.0% appropriate caution rate on time-critical condition cases. To addres",
-      "published": "2026-10-21T04:00:00+00:00",
-      "score": 40.0,
-      "headline": "CHATGPT HEALTH ADVICE DANGER - 40M Daily Users at Risk"
+      "summary": "arXiv:2610.30631v1 Announce Type: new Abstract: Medical knowledge evolves as clinical guidelines revise recommendations, yet whether large language models (LLMs) faithfully incorporate such changes remains unclear. We introduce ChronoEvo, comprising 1,709 recommendation-level revisions across 12 forms of medical knowledge change, to distinguish recognition of revised guidance from incorporation into clinical recommendations. In the primary model, 90.8% of responses recognized revisions and 80.2% were clinically correct, but only 58.5% fully incorporated guidance, yielding a 32.3-percentage-point recognition-incorporation gap. This dissociation persisted across 14 models and was corroborated by two clinicians' adjudicated assessment of 300 responses, yielding a 40.3-percentage-point gap in the validation sample. Changes in recommendation strength and patient eligibility were associated with retention of outdated guidance. A revision-salience intervention reduced outdated-content retenti",
+      "published": "2026-10-23T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "LLMs Fail to Keep Up with Evolving Medical Guidelines, Study Finds"
     },
     {
-      "id": "f6f66b7d5aed7cf1",
-      "title": "Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment",
-      "url": "https://arxiv.org/abs/2610.27548",
+      "id": "753a0c55797dfa8d",
+      "title": "Evaluating Artificial Wisdom (AW): A Trajectory-Based Framework for Context-Sensitive Decision Regulation",
+      "url": "https://arxiv.org/abs/2610.31012",
       "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.27548v1 Announce Type: new Abstract: When an LLM agent acts on behalf of a user, it is expected to act within the authorization scope the user grants. Existing agent evaluations largely measure task completion or harmful consequences and can therefore overlook actions that violate this delegation without producing conventional safety or privacy harms. We introduce AuthorizationBench, a benchmark of authorization alignment grounded in documented real-world cases. A scalable construction pipeline produces 286 executable tasks spanning situational triggers, the presence or absence of direct harmful consequences, and ten application domains. We execute every task with four models at two reasoning-effort settings across three agent harnesses in an authorization-aware sandbox that keeps authorized and out-of-authorization paths executable and observable, yielding 6,864 trajectories. Agents act out of authorization in 19.2% of trajectories, with rates ranging from 10.5% to 26.6% ac",
-      "published": "2026-10-21T04:00:00+00:00",
-      "score": 40.0,
-      "headline": "AI AGENTS EXCEED USER AUTHORIZATION - New Benchmark Exposes Risk"
+      "summary": "arXiv:2610.31012v1 Announce Type: new Abstract: Capability benchmarks measure what large language models can do, but not whether their recommendations remain appropriate as decision conditions change. This paper proposes a trajectory-based measurement framework and prospective validation protocol for artificial wisdom, defined behaviorally as context-sensitive regulation of judgment. Versioned reference specifications determine admissible responses and transition materiality before evaluation. Seven stage-level criteria assess judgment under current conditions, while two transition components assess material-update adequacy and commitment-preserving stability. Stability requires prior adequacy; switching within registered commitment classes is permitted, and persistent error earns no stability credit. A nine-component profile is primary, with a secondary bottleneck score and separate critical-failure reporting. Three simplified simulations examine precision, bottleneck estimation, and ",
+      "published": "2026-10-23T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "New Framework Evaluates 'Artificial Wisdom' in LLMs"
     },
     {
-      "id": "68fbae717ef2f380",
-      "title": "The Show-Up Attack: When Subagents Win Over Their Supervisor",
-      "url": "https://arxiv.org/abs/2610.27574",
-      "source": "arXiv cs.AI",
-      "summary": "arXiv:2610.27574v1 Announce Type: new Abstract: Multi-agent systems are increasingly deployed to coordinate multiple large language model (LLM) agents. However, this also creates new attack surfaces: malicious agents may have chances to exploit the coordination. In this paper, we propose and study the \\textit{show-up attack}, in which a malicious subagent manipulates the supervisor into involving it in tasks beyond its assigned scope. To evaluate this risk, we propose SUA-Arena, which implements 6 attack strategies and contains 188 test cases. Then, we evaluate 6 frontier LLMs and find that all of them are vulnerable to show-up attacks. For example, GPT-5.6-Sol as a supervisor suffers an ASR of up to 0.93. Mitigation strategies such as prompting and restricted communication fail to reduce the risk consistently. These results show that multi-agent systems need explicit mechanisms for enforcing authority boundaries.",
-      "published": "2026-10-21T04:00:00+00:00",
-      "score": 40.0,
-      "headline": "SHOW-UP ATTACK: Subagents Can Override Multi-Agent Supervisors"
+      "id": "6684aee9b0618bfc",
+      "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
+      "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "US Treasuries rally strongly as traders rush into haven assets",
+      "published": "2026-10-22T17:58:29+00:00",
+      "score": 39.0,
+      "headline": "Meta Crashes on AI Spending Fears, Drags Tech Stocks Down"
+    },
+    {
+      "id": "1c4c5f4532ad032b",
+      "title": "Nvidia launches Minerva to catch failing parts in giant AI data centres",
+      "url": "https://thenextweb.com/news/nvidia-minerva-aiops-ai-factory-monitoring",
+      "source": "The Next Web",
+      "summary": "Nvidia has launched Minerva, AI operations software that combines data from GPUs, networks, storage and workloads to spot failing parts in large AI data centres early. It groups alerts into single incidents and has an AI assistant. IREN uses it, and Lambda, IBM and Tesla plan to. Nvidia has launched Minerva, software that watches over [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-22T17:25:00+00:00",
+      "score": 39.0,
+      "headline": "Nvidia Launches Minerva AI for Data Centre Failure Detection"
+    },
+    {
+      "id": "16b768e6b55f2f34",
+      "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
+      "url": "https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw",
+      "source": "The Guardian Tech",
+      "summary": "Problem in language that underpins 70% of sites has led governments and companies to pull sites offline to patch faultTell us: have you been affected by the PHP code flaw?What is PHP, and how bad is the computer language flaw causing website shutdowns globally?Websites around the world have been hit by millions of attempts to exploit a recently discovered vulnerability in their code, cybersecurity companies have said, as the US warned the flaw could allow attackers to take control of web servers, steal data and disrupt services.The problem in the PHP programming language, which underpins about 70% of the world\u2019s websites, emerged on Wednesday causing governments and companies to pull their websites off the internet before they could be attacked and so they could patch the fault. Continue reading...",
+      "published": "2026-10-22T16:42:54+00:00",
+      "score": 39.0,
+      "headline": null
+    },
+    {
+      "id": "7ac9f2c67952de39",
+      "title": "Amazon\u2019s Kindle Unlimited is now Kindle+, and the 2 big changes include AI audiobooks",
+      "url": "https://www.zdnet.com/tech/kindle-unlimited-kindle-plus-audiobooks-ai/",
+      "source": "ZDNet AI",
+      "summary": "Unlike narrated audiobooks from Audible and other providers, the audiobooks created with Virtual Voice in Kindle+ will instead be narrated by AI.",
+      "published": "2026-10-22T15:55:55+00:00",
+      "score": 39.0,
+      "headline": "Amazon Rebrands Kindle Unlimited\u2014Adds AI-Narrated Audiobooks"
+    },
+    {
+      "id": "2d95b7accce56e01",
+      "title": "Study Finds AI-generated Code Fails to Boost Productivity Due to Downstream Bottlenecks",
+      "url": "https://www.infoq.com/news/2026/10/jellyfish-ai-productivity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "A recent Harvard study of 718 firms, using the Jellyfish analytics platform, finds that although AI coding assistants and agents increase code volume, this does not translate into a corresponding increase in completed work, partly because AI-generated code increases the workload in later stages of development, particularly code review. By Sergio De Simone",
+      "published": "2026-10-22T14:00:00+00:00",
+      "score": 39.0,
+      "headline": "HARVARD STUDY: AI Code Doesn't Boost Productivity"
+    },
+    {
+      "id": "5b6c77bb4d0679b8",
+      "title": "UK working to identify exposure after global cyber-security warning",
+      "url": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "summary": "Governments and companies are scrambling to protect their websites, as Amazon says it experienced attacks before the warning was made public.",
+      "published": "2026-10-22T06:05:03+00:00",
+      "score": 39.0,
+      "headline": "Global Cyber Warning: Amazon Hit BEFORE Public Alert"
+    },
+    {
+      "id": "d40a216ab167197d",
+      "title": "\u2018Synthetic twin\u2019: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
+      "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone",
+      "source": "The Guardian Tech",
+      "summary": "Athletes\u2019 scramble to control \u2013 and monetise \u2013 their digital identities at the cutting edge of AI rights dealsGet our new political email, free app or daily news podcastThe Socceroos star stares at the camera as he strides through an enormous atrium, the sound of his football boots on polished concrete echoing around him. Suddenly, he spawns four digital clones that peel off out of view to re-emerge in different settings around the world.This scene from a social media video is fake and generated by artificial intelligence. But it has been authorised by the very real 22-year-old footballer, Cristian Volpato, the latest professional athlete to licence and monetise his AI likeness. Continue reading...",
+      "published": "2026-10-24T19:00:40+00:00",
+      "score": 38.0,
+      "headline": "Socceroo Star Licenses AI Clone as 'Synthetic Twin'"
+    },
+    {
+      "id": "4f0ab88333a00c8b",
+      "title": "Blocks latest AI model Dessa was trained entirely on human speech \u2014 and it shows",
+      "url": "https://mashable.com/tech/block-unveils-new-ai-model-dessa-trained-entirely-on-human-speech",
+      "source": "Mashable Tech",
+      "summary": "Jack Dorsey and Block, Inc. just took us one step closer to the singularity and it's simultaneously awesome and terrifying.",
+      "published": "2026-10-24T17:55:45+00:00",
+      "score": 38.0,
+      "headline": "Block's Dessa AI Trained ENTIRELY on Human Speech"
+    },
+    {
+      "id": "156181babac7dab9",
+      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+      "source": "Wired",
+      "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+      "published": "2026-10-24T12:00:00+00:00",
+      "score": 38.0,
+      "headline": "AI TOOLS EXPLOIT PHP BUGS... Security Nightmare Begins"
     }
   ],
-  "generated_at": "2026-10-24T18:09:59.352684"
+  "generated_at": "2026-10-25T06:13:07.615741"
 }
