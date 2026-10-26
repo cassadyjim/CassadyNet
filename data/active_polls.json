@@ -1,69 +1,179 @@
 {
   "polls": [
     {
-      "topic": "OpenAI Valuation and Fundraising",
-      "description": "OpenAI is pursuing a massive $30 billion funding round targeting a $1.25 trillion valuation, marking a significant milestone in AI startup valuations.",
-      "question": "Is OpenAI's $1.25 trillion valuation justified or wildly inflated?",
-      "button_a": "Justified",
-      "button_b": "Inflated",
-      "poll_id": "openai-valuation-and-fundraising-20261025",
-      "analysis_url": "/analysis/analysis-openai-valuation-and-fundraising-20261025.html",
+      "topic": "Anthropic IPO",
+      "description": "Anthropic's massive IPO filing reveals explosive revenue growth alongside staggering losses and hundreds of billions in future compute commitments, marking a pivotal moment for the AI industry.",
+      "question": "Is Anthropic's IPO a breakthrough moment or a warning sign for AI?",
+      "button_a": "Moment",
+      "button_b": "AI",
+      "poll_id": "anthropic-ipo-20261026",
+      "analysis_url": "/analysis/analysis-anthropic-ipo-20261026.html",
       "analysis_type": "poll",
-      "created_at": "2026-10-25T18:10:39.039575",
-      "last_seen": "2026-10-26T06:18:11.905941",
+      "created_at": "2026-10-26T18:13:28.138168",
+      "last_seen": "2026-10-26T18:13:51.618845",
       "cluster_stories": [
         {
-          "id": "21e31a5298b92073",
-          "title": "OpenAI cuts its valuation target to $1.25tn as it nears a $30bn round",
-          "url": "https://thenextweb.com/news/openai-funding-round-1-25tn-uae-coatue",
-          "source": "The Next Web",
-          "summary": "OpenAI has lowered the valuation it is seeking for its new funding round to $1.25tn, from the $1.4tn it pitched earlier this month. Some investors had pushed back on the higher price, the Financial Times reported, citing documents it had seen. The company is close to raising up to $30bn at that valuation, which does [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-25T10:17:55+00:00",
-          "score": 45.0,
-          "headline": "OPENAI SLASHES VALUATION TARGET TO $1.25TN IN $30BN ROUND"
+          "id": "769533676230082e",
+          "title": "Anthropic\u2019s IPO filing shows explosive growth, risks and staggering costs",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372202/anthropics-ipo-filing-shows-explosive-growth-risks-and-staggering-costs",
+          "source": "South China Morning Post Tech",
+          "summary": "Anthropic disclosed steep losses and explosive revenue growth on \u2060Monday as the Claude parent moved closer to a potentially record-breaking IPO, betting on AI\u2019s ability to reshape the global economy. The listing is shaping up to be a major test of appetite for AI from investors who are increasingly scrutinising the returns on billions of dollars of investments and questioning the sustainability of sky-high valuations. \u201cAnthropic\u2019s IPO will certainly establish a benchmark for valuing leading AI...",
+          "published": "2026-10-26T13:53:04+00:00",
+          "score": 48.0,
+          "headline": "ANTHROPIC IPO FILING: EXPLOSIVE GROWTH, STAGGERING COSTS"
         },
         {
-          "id": "5988402cbe994ed3",
-          "title": "OpenAI Sets Target Valuation of $1.25 Trillion",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video",
+          "id": "ce383160839507d5",
+          "title": "Anthropic Files for Massive Nasdaq IPO",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-26/open-interest-10-26-2026-video",
           "source": "Bloomberg Technology",
-          "summary": "OpenAI wants to raise around $30 billion in a fresh funding round. That could value the ChatGPT maker at $1.25 trillion. This is according to people familiar with the matter. Bloomberg's Rebecca Torrence reports. (Source: Bloomberg)",
-          "published": "2026-10-23T19:17:42+00:00",
-          "score": 45.0,
-          "headline": "OPENAI TARGETS $1.25 TRILLION VALUATION... Seeks $30B"
+          "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Anthropic makes it official, filing for a Nasdaq IPO in what will be one of the biggest public debuts ever. Plus, Claudia Sahm on rising inflation risks and the case for an October rate hike. Bruce Richards on AI\u2019s next phase, and Jefferies\u2019 Jason Greenberg on where AI spending goes next. (Source: Bloomberg)",
+          "published": "2026-10-26T17:06:45+00:00",
+          "score": 47.0,
+          "headline": "ANTHROPIC FILES FOR MASSIVE NASDAQ IPO"
         },
         {
-          "id": "de05b21f48ea0325",
-          "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software/articleshow/135161388.cms",
-          "source": "The Economic Times Tech",
-          "summary": "OpenAI had paused training of its most capable models after one of its research models used a configuration error to gain limited internet access in September. The company said it contained the incident and used the pause to strengthen its defenses.",
-          "published": "2026-10-24T03:59:03+00:00",
-          "score": 44.0,
-          "headline": "OPENAI RESUMES FRONTIER TRAINING After Security Overhaul"
-        },
-        {
-          "id": "3f987307fad96a00",
-          "title": "Ex-OpenAI science head Kevin Weil launches Warp Sciences with $215M",
-          "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
-          "source": "The Next Web",
-          "summary": "Kevin Weil, who led OpenAI for Science, has launched Warp Sciences with $215M led by Lightspeed, valuing it at $865M, Bloomberg reported. It is building an automated lab in the US for a drug development step that pharma companies have long outsourced to Chinese firms such as WuXi AppTec. Kevin Weil, who led OpenAI\u2019s science [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-22T16:05:08+00:00",
-          "score": 44.0,
-          "headline": "EX-OPENAI SCIENCE HEAD LAUNCHES WARP SCIENCES WITH $215M"
-        },
-        {
-          "id": "9a0dedc13d862466",
-          "title": "Ex-OpenAI Science Head Kevin Weil Launches Startup With $215 Million",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-22/ex-openai-science-head-kevin-weil-launches-startup-with-215-million",
+          "id": "5adddf36f1cfa881",
+          "title": "Anthropic Files for IPO in Global Race to Raise Cash for AI",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-26/anthropic-files-for-ipo-in-race-to-raise-cash-for-ai-video",
           "source": "Bloomberg Technology",
-          "summary": "Kevin Weil, the former OpenAI executive who led the ChatGPT maker\u2019s AI-for-science efforts, is launching a new startup aimed at using artificial intelligence to speed up a key step of drug development.",
-          "published": "2026-10-22T15:30:10+00:00",
+          "summary": "Anthropic filed for its long-awaited IPO, a landmark moment in an industry that is growing ever-hungrier for cash to power ahead. Ed Ludlow reports. (Source: Bloomberg)",
+          "published": "2026-10-26T16:51:25+00:00",
+          "score": 47.0,
+          "headline": "ANTHROPIC FILES IPO IN GLOBAL AI CASH RACE"
+        },
+        {
+          "id": "0a36c35080c77c68",
+          "title": "Anthropic\u2019s IPO Prospectus Reveals What\u2019s Under the Hood",
+          "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+          "source": "Wired",
+          "summary": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company\u2019s financials, risk factors, and views on the future of AI.",
+          "published": "2026-10-26T14:50:47+00:00",
+          "score": 47.0,
+          "headline": "ANTHROPIC IPO PROSPECTUS REVEALS FINANCIALS, RISKS"
+        },
+        {
+          "id": "671062bee6c4bedb",
+          "title": "\u2018Bold but sane\u2019: what we learnt from Anthropic\u2019s 240,000-word IPO filing",
+          "url": "https://www.ft.com/content/a6c43402-719e-4295-ae5f-541edb0aeb29?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Prospectus details AI lab\u2019s \u2018mission\u2019, $800bn data centre commitments and extraordinary governance structure",
+          "published": "2026-10-26T17:45:49+00:00",
+          "score": 46.0,
+          "headline": "Anthropic IPO Filing Reveals $800B Data Center Commitments"
+        },
+        {
+          "id": "9a600a3478e41b1b",
+          "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+          "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Technology",
+          "summary": "The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.",
+          "published": "2026-10-26T16:27:17+00:00",
+          "score": 46.0,
+          "headline": "ANTHROPIC WARNS OF 'CATASTROPHIC RISK' AHEAD OF IPO"
+        },
+        {
+          "id": "bb06af6daa7407fb",
+          "title": "Anthropic officially files for its public debut",
+          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "source": "TechCrunch AI",
+          "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+          "published": "2026-10-26T14:35:22+00:00",
+          "score": 46.0,
+          "headline": "ANTHROPIC FILES FOR IPO: REVENUE SOARS, LOSSES MOUNT"
+        },
+        {
+          "id": "3c071f2d25eb786c",
+          "title": "Anthropic plans to spend up to $567 billion on compute. Its IPO prospectus reveals plans to set up its own data centers",
+          "url": "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/",
+          "source": "Fortune Tech",
+          "summary": "The company's success depends on it, but intense competition and supply chain shortages stand in the way.",
+          "published": "2026-10-26T16:29:40+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC TO SPEND $567B ON COMPUTE, BUILD OWN DATA CENTERS"
+        },
+        {
+          "id": "f476b18abdf45174",
+          "title": "Anthropic begins countdown to IPO with prospectus filing",
+          "url": "https://www.ft.com/content/f6ecfecd-d797-4d2c-b427-d333297949cb?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "240,000-word prospectus lays out explosive growth alongside steep losses and daunting risk factors",
+          "published": "2026-10-26T14:41:35+00:00",
+          "score": 45.0,
+          "headline": "ANTHROPIC IPO COUNTDOWN: GROWTH VS. LOSSES"
+        },
+        {
+          "id": "30c5ac783c8b6895",
+          "title": "Anthropic tells IPO investors it could be targeted over its AI safety views",
+          "url": "https://thenextweb.com/news/anthropic-ipo-filing-political-target-ai-safety",
+          "source": "The Next Web",
+          "summary": "Anthropic has warned would-be investors that its views on AI safety could make it a political target. The warning is in the risk factors of its S-1 registration statement. The company made it public on Monday, setting out its plans for the Anthropic IPO on Nasdaq. The filing does not name President Donald Trump or [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-26T16:48:56+00:00",
+          "score": 44.0,
+          "headline": "Anthropic Warns IPO Investors: AI Safety Views Make Us Target"
+        },
+        {
+          "id": "6e74c142ddab99c3",
+          "title": "Anthropic files to go public",
+          "url": "https://www.engadget.com/2296724/anthropic-files-to-go-public/",
+          "source": "Engadget",
+          "summary": "The company may be valued as high as $2 trillion.",
+          "published": "2026-10-26T13:41:26+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC FILES IPO: $2 TRILLION VALUATION POSSIBLE"
+        },
+        {
+          "id": "f243688bda14b7af",
+          "title": "Five weird details from Anthropic\u2019s IPO filing",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+          "source": "The Verge AI",
+          "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lot to [&#8230;]",
+          "published": "2026-10-26T17:10:23+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC IPO FILING: Five Weird Details Revealed"
+        },
+        {
+          "id": "eecf141b36e7a06d",
+          "title": "Anthropic Highlights Disruptions to TSMC Operations as a Risk",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-highlights-disruptions-to-tsmc-operations-as-a-risk",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC warned that disruptions to Taiwan Semiconductor Manufacturing Co.\u2019s operations could hinder its businesses, joining a list of technology companies that have underlined the chipmaker\u2019s pivotal role in the global artificial intelligence industry.",
+          "published": "2026-10-26T15:28:56+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC IPO WARNS TSMC DISRUPTION COULD HALT AI BUSINESS"
+        },
+        {
+          "id": "7e70a3a478f36ac2",
+          "title": "Elvis Presley\u2019s music owners sue Anthropic over 274 songs used by Claude",
+          "url": "https://thenextweb.com/news/elvis-presley-anthropic-lawsuit-274-songs-claude",
+          "source": "The Next Web",
+          "summary": "Authentic Brands Group and other owners of Elvis Presley\u2019s catalogue filed a copyright lawsuit against Anthropic on Friday. They want about $41.1m from the company behind Claude, or $150,000 for each of 274 songs. Billboard first reported the suit. The plaintiffs filed it in the US District Court for the Northern District of California. They [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-26T17:50:15+00:00",
           "score": 42.0,
-          "headline": "Ex-OpenAI Science Chief Launches AI Drug Startup With $215M"
+          "headline": "Elvis Estate Sues Anthropic for $41M Over Claude Training"
+        },
+        {
+          "id": "c14c5f2f70dd0a3b",
+          "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+          "url": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Technology",
+          "summary": "Anthropic\u2019s IPO prospectus is 355 pages and full of never before disclosed company information.",
+          "published": "2026-10-26T17:20:54+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC IPO: 5 Shocking Revelations From 355-Page Filing"
+        },
+        {
+          "id": "e2b529cf1732c853",
+          "title": "Anthropic reveals rapid revenue gains and larger losses in stock market filing",
+          "url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
+          "source": "The Guardian Tech",
+          "summary": "Market debut of AI company behind Claude chatbot will be one of largest in US history, a test of the AI boom\u2019s financial viabilityAnthropic has publicly filed for a stock market listing in what is slated to be one of the largest debuts in history. The company\u2019s float on the US market will serve as a test of the financial viability of the multitrillion-dollar AI boom.Analysts and investors have valued the San Francisco-based company, founded in 2021, at more than $1.5tn. The company, which will will list under the symbol ANT, confidentially filed with US financial regulators for an initial public offering in June. Continue reading...",
+          "published": "2026-10-26T16:22:28+00:00",
+          "score": 42.0,
+          "headline": "ANTHROPIC IPO FILING REVEALS MASSIVE LOSSES, REVENUE SURGE"
         }
       ],
-      "current_topic_name": "OpenAI Valuation and Fundraising"
+      "current_topic_name": "Anthropic IPO"
     },
     {
       "topic": "AI Security Threats & Hacking",
@@ -72,10 +182,10 @@
       "button_a": "Threat",
       "button_b": "Security",
       "poll_id": "ai-security-threats-hacking-20261023",
-      "analysis_url": "/analysis/analysis-ai-security-crisis-and-cybersecurity-threats-20261026.html",
+      "analysis_url": "/analysis/analysis-ai-security-crisis-20261026.html",
       "analysis_type": "poll",
       "created_at": "2026-10-23T18:10:28.609800",
-      "last_seen": "2026-10-26T06:18:12.946210",
+      "last_seen": "2026-10-26T18:13:53.561383",
       "cluster_stories": [
         {
           "id": "7384891d7abd016f",
@@ -96,6 +206,16 @@
           "published": "2026-10-24T05:12:30+00:00",
           "score": 44.0,
           "headline": "MOONSHOT CURBS HACKING IN KIMI K3.1... Cyber Fears Mount"
+        },
+        {
+          "id": "de05b21f48ea0325",
+          "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software/articleshow/135161388.cms",
+          "source": "The Economic Times Tech",
+          "summary": "OpenAI had paused training of its most capable models after one of its research models used a configuration error to gain limited internet access in September. The company said it contained the incident and used the pause to strengthen its defenses.",
+          "published": "2026-10-24T03:59:03+00:00",
+          "score": 44.0,
+          "headline": "OPENAI RESUMES FRONTIER TRAINING After Security Overhaul"
         },
         {
           "id": "6a79208d05da1c2d",
@@ -166,50 +286,10 @@
           "published": "2026-10-23T10:00:00+00:00",
           "score": 43.0,
           "headline": "OPENAI REVEALS FRONTIER MODEL CONTAINMENT SYSTEMS"
-        },
-        {
-          "id": "27070dea220d7233",
-          "title": "Japanese companies compensate users as cyberattacks buffet economy",
-          "url": "https://economictimes.indiatimes.com/tech/technology/japanese-companies-compensate-users-as-cyberattacks-buffet-economy/articleshow/135202436.cms",
-          "source": "The Economic Times Tech",
-          "summary": "GMO Internet Group said customers would be compensated for losses stemming from unauthorised access following a cyberattack on its foreign exchange trading service, and all customers would receive 5,000 yen ($32) as \"an initial gesture of good faith,\" CEO Masatoshi Kumagai said in a blog post on Sunday.",
-          "published": "2026-10-26T04:06:23+00:00",
-          "score": 42.0,
-          "headline": "Japanese Firms Compensate Users After Wave of Cyberattacks"
-        },
-        {
-          "id": "78c968c7120787cb",
-          "title": "OpenAI now trains its frontier AI models with no internet access",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-          "source": "The Verge AI",
-          "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier [&#8230;]",
-          "published": "2026-10-23T21:11:07+00:00",
-          "score": 42.0,
-          "headline": "OPENAI GOES OFFLINE: Frontier Models Trained Without Internet After Hacking Spree"
-        },
-        {
-          "id": "f804333410b98c23",
-          "title": "OpenAI cuts live internet from all frontier model training",
-          "url": "https://thenextweb.com/news/openai-frontier-training-no-live-internet",
-          "source": "The Next Web",
-          "summary": "OpenAI has cut live web access from all training of its most advanced AI models. The models now browse and search a cached copy of the web instead, the company wrote in a blog post on Friday. \u201cBased on the current state of alignment research, monitoring systems, and the security of internet infrastructure,\u201d OpenAI wrote, it believes [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-24T10:30:20+00:00",
-          "score": 41.0,
-          "headline": "OPENAI CUTS LIVE INTERNET FROM FRONTIER MODEL TRAINING"
-        },
-        {
-          "id": "6a15bfea735ece3a",
-          "title": "OpenAI says it's cutting off internet access for frontier model training",
-          "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
-          "source": "Engadget",
-          "summary": "OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.",
-          "published": "2026-10-23T22:37:02+00:00",
-          "score": 41.0,
-          "headline": "OpenAI Blocks Internet Access for Frontier Models After Safety Incidents"
         }
       ],
-      "current_topic_name": "AI Security Crisis and Cybersecurity Threats"
+      "current_topic_name": "AI Security Crisis"
     }
   ],
-  "last_updated": "2026-10-26T06:18:12.946230"
+  "last_updated": "2026-10-26T18:14:03.769185"
 }

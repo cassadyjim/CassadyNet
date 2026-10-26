@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "OpenAI Valuation and Fundraising",
+      "description": "OpenAI is pursuing a massive $30 billion funding round targeting a $1.25 trillion valuation, marking a significant milestone in AI startup valuations.",
+      "question": "Is OpenAI's $1.25 trillion valuation justified or wildly inflated?",
+      "button_a": "Justified",
+      "button_b": "Inflated",
+      "poll_id": "openai-valuation-and-fundraising-20261025",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-openai-valuation-and-fundraising-20261025.html",
+      "started_at": "2026-10-25T18:10:39.039575",
+      "archived_at": "2026-10-26T18:14:03.767880",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI-Discovered Security Vulnerabilities",
       "description": "AI systems are discovering critical security flaws at unprecedented scale, triggering a global 'Black October' crisis as websites crash and organizations scramble to patch vulnerabilities.",
       "question": "",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-bank-of-england-ai-financial-stability-warnings-20260901.html",
       "started_at": "2026-08-31T22:19:28.137011",
       "archived_at": "2026-09-02T10:25:49.897656",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic Legal Victory and Major Deals",
-      "description": "Anthropic won court battles against Trump administration Pentagon ban while securing massive $45B compute deal and expanding AI capabilities.",
-      "question": "Was the Trump administration right to flag Anthropic as a security risk?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropic-legal-victory-and-major-deals-20260829",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-legal-battle-with-pentagon-20260831.html",
-      "started_at": "2026-08-29T12:08:33.583556",
-      "archived_at": "2026-09-01T10:59:12.398641",
       "reason": "topic_replaced"
     }
   ]
