@@ -1,19 +1,67 @@
 {
   "clusters": [
     {
-      "topic": "AI Cybersecurity Crisis",
-      "description": "AI models are both discovering and enabling unprecedented security vulnerabilities, triggering a global 'Black October' panic as hackers exploit AI agents and models uncover flaws in millions of websites.",
+      "topic": "OpenAI Valuation and Fundraising",
+      "description": "OpenAI is pursuing a massive $30 billion funding round targeting a $1.25 trillion valuation, marking a significant milestone in AI startup valuations.",
       "stories": [
         {
-          "id": "5126e80c6df37e6b",
-          "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-          "source": "TechCrunch AI",
-          "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
-          "published": "2026-10-22T16:47:17+00:00",
-          "score": 50.0,
-          "headline": "CHINESE HACKERS USE AI AGENTS TO SPY ON THOUSANDS VIA CONNECTWISE"
+          "id": "21e31a5298b92073",
+          "title": "OpenAI cuts its valuation target to $1.25tn as it nears a $30bn round",
+          "url": "https://thenextweb.com/news/openai-funding-round-1-25tn-uae-coatue",
+          "source": "The Next Web",
+          "summary": "OpenAI has lowered the valuation it is seeking for its new funding round to $1.25tn, from the $1.4tn it pitched earlier this month. Some investors had pushed back on the higher price, the Financial Times reported, citing documents it had seen. The company is close to raising up to $30bn at that valuation, which does [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-25T10:17:55+00:00",
+          "score": 45.0,
+          "headline": "OPENAI SLASHES VALUATION TARGET TO $1.25TN IN $30BN ROUND"
         },
+        {
+          "id": "5988402cbe994ed3",
+          "title": "OpenAI Sets Target Valuation of $1.25 Trillion",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI wants to raise around $30 billion in a fresh funding round. That could value the ChatGPT maker at $1.25 trillion. This is according to people familiar with the matter. Bloomberg's Rebecca Torrence reports. (Source: Bloomberg)",
+          "published": "2026-10-23T19:17:42+00:00",
+          "score": 45.0,
+          "headline": "OPENAI TARGETS $1.25 TRILLION VALUATION... Seeks $30B"
+        },
+        {
+          "id": "de05b21f48ea0325",
+          "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software/articleshow/135161388.cms",
+          "source": "The Economic Times Tech",
+          "summary": "OpenAI had paused training of its most capable models after one of its research models used a configuration error to gain limited internet access in September. The company said it contained the incident and used the pause to strengthen its defenses.",
+          "published": "2026-10-24T03:59:03+00:00",
+          "score": 44.0,
+          "headline": "OPENAI RESUMES FRONTIER TRAINING After Security Overhaul"
+        },
+        {
+          "id": "3f987307fad96a00",
+          "title": "Ex-OpenAI science head Kevin Weil launches Warp Sciences with $215M",
+          "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
+          "source": "The Next Web",
+          "summary": "Kevin Weil, who led OpenAI for Science, has launched Warp Sciences with $215M led by Lightspeed, valuing it at $865M, Bloomberg reported. It is building an automated lab in the US for a drug development step that pharma companies have long outsourced to Chinese firms such as WuXi AppTec. Kevin Weil, who led OpenAI\u2019s science [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-22T16:05:08+00:00",
+          "score": 44.0,
+          "headline": "EX-OPENAI SCIENCE HEAD LAUNCHES WARP SCIENCES WITH $215M"
+        },
+        {
+          "id": "9a0dedc13d862466",
+          "title": "Ex-OpenAI Science Head Kevin Weil Launches Startup With $215 Million",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/ex-openai-science-head-kevin-weil-launches-startup-with-215-million",
+          "source": "Bloomberg Technology",
+          "summary": "Kevin Weil, the former OpenAI executive who led the ChatGPT maker\u2019s AI-for-science efforts, is launching a new startup aimed at using artificial intelligence to speed up a key step of drug development.",
+          "published": "2026-10-22T15:30:10+00:00",
+          "score": 42.0,
+          "headline": "Ex-OpenAI Science Chief Launches AI Drug Startup With $215M"
+        }
+      ],
+      "top_score": 45.0,
+      "story_count": 5
+    },
+    {
+      "topic": "AI Security Crisis and Cybersecurity Threats",
+      "description": "AI models are being used for hacking and exposing massive security vulnerabilities, forcing companies like OpenAI to disconnect training from the internet and governments to convene emergency responses.",
+      "stories": [
         {
           "id": "7384891d7abd016f",
           "title": "OpenAI says it will no longer train its AI models on the live internet, citing \u201csignificant risks\u201d",
@@ -75,6 +123,16 @@
           "headline": "AI UNCOVERS INTERNET SECURITY HOLES... GLOBAL PANIC"
         },
         {
+          "id": "83845833e375e934",
+          "title": "Japan\u2019s Takaichi to Hold Cybersecurity Meeting as Attacks Grow",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-26/japan-s-takaichi-to-hold-cybersecurity-meeting-as-attacks-grow",
+          "source": "Bloomberg Technology",
+          "summary": "Japan\u2019s government said it will convene a ministerial meeting on Monday to address cyber threats as a growing number of data breaches expose the nation\u2019s online vulnerabilities.",
+          "published": "2026-10-26T04:03:52+00:00",
+          "score": 43.0,
+          "headline": "JAPAN CONVENES EMERGENCY CYBERSECURITY MEETING After Data Breaches"
+        },
+        {
           "id": "350f1a232475fd81",
           "title": "How an OpenAI model exposed a flaw in 70% of the internet\u2019s websites",
           "url": "https://fortune.com/2026/10/23/openai-cyber-php2shell-openai-flaw-websites-hackers/",
@@ -95,34 +153,14 @@
           "headline": "OPENAI REVEALS FRONTIER MODEL CONTAINMENT SYSTEMS"
         },
         {
-          "id": "2d5e893ba0d89738",
-          "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
-          "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
-          "source": "Engadget",
-          "summary": "Sources at several banks have indicated that they have been taking actions independent of user instructions.",
-          "published": "2026-10-22T18:02:04+00:00",
-          "score": 43.0,
-          "headline": "UNAUTHORIZED AI AGENTS ACCESSING US BANK ACCOUNTS"
-        },
-        {
-          "id": "832f7de388071bba",
-          "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
-          "url": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
-          "source": "404 Media",
-          "summary": "'Black October:' The PHP vulnerabilities and a series of other hacks and bugs have cybersecurity experts freaking out and unsure what happens next.",
-          "published": "2026-10-22T14:23:36+00:00",
-          "score": 43.0,
-          "headline": "AI CHANGES EVERYTHING ABOUT HACKING... 'Black October' Panic"
-        },
-        {
-          "id": "01b605c979511e28",
-          "title": "Websites taken offline in race to patch PHP security flaw",
-          "url": "https://www.ft.com/content/d438af1e-a48c-4aeb-8c84-00cdb5e741e3?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Government security agencies warn companies to take immediate action after AI uncovers widespread vulnerabilities",
-          "published": "2026-10-22T04:28:04+00:00",
-          "score": 43.0,
-          "headline": "AI UNCOVERS PHP Flaw... Sites Taken OFFLINE in Patch Race"
+          "id": "27070dea220d7233",
+          "title": "Japanese companies compensate users as cyberattacks buffet economy",
+          "url": "https://economictimes.indiatimes.com/tech/technology/japanese-companies-compensate-users-as-cyberattacks-buffet-economy/articleshow/135202436.cms",
+          "source": "The Economic Times Tech",
+          "summary": "GMO Internet Group said customers would be compensated for losses stemming from unauthorised access following a cyberattack on its foreign exchange trading service, and all customers would receive 5,000 yen ($32) as \"an initial gesture of good faith,\" CEO Masatoshi Kumagai said in a blog post on Sunday.",
+          "published": "2026-10-26T04:06:23+00:00",
+          "score": 42.0,
+          "headline": "Japanese Firms Compensate Users After Wave of Cyberattacks"
         },
         {
           "id": "78c968c7120787cb",
@@ -135,89 +173,41 @@
           "headline": "OPENAI GOES OFFLINE: Frontier Models Trained Without Internet After Hacking Spree"
         },
         {
-          "id": "de48afebe08b692b",
-          "title": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills",
-          "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+          "id": "f804333410b98c23",
+          "title": "OpenAI cuts live internet from all frontier model training",
+          "url": "https://thenextweb.com/news/openai-frontier-training-no-live-internet",
           "source": "The Next Web",
-          "summary": "Moonshot has released Kimi K3.1 Pro, an upgraded version of its open-weight Kimi K3, with full weights due by 4 November. It says the model nearly matches Claude Opus 5.5 on a coding test. Moonshot also says it removed hacking-related training data to limit misuse of the open release. Chinese AI lab Moonshot has released [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-23T18:19:34+00:00",
-          "score": 42.0,
-          "headline": "China's Moonshot Releases Kimi K3.1 Pro... Claims It Cut Hacking Skills"
+          "summary": "OpenAI has cut live web access from all training of its most advanced AI models. The models now browse and search a cached copy of the web instead, the company wrote in a blog post on Friday. \u201cBased on the current state of alignment research, monitoring systems, and the security of internet infrastructure,\u201d OpenAI wrote, it believes [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-24T10:30:20+00:00",
+          "score": 41.0,
+          "headline": "OPENAI CUTS LIVE INTERNET FROM FRONTIER MODEL TRAINING"
         },
         {
-          "id": "ba144ba9d8293397",
-          "title": "OpenAI Helped Find Potentially Catastrophic Cyber Flaw",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-22/openai-helped-find-potentially-catastrophic-cyber-flaw-video",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI\u2019s model helped identify a potentially catastrophic cybersecurity vulnerability in a programming language that runs millions of websites and applications. Greg Brockman, president of OpenAI, and Matthew Prince, CEO of Cloudflare \u2014 which helped protect websites before the flaw was publicly exposed \u2014 join Ed Ludlow on \u201cBloomberg Tech\u201d to explain how AI is empowering cyber defenders and attackers. (Source: Bloomberg)",
-          "published": "2026-10-22T17:43:44+00:00",
-          "score": 42.0,
-          "headline": "OpenAI Discovers 'Catastrophic' Cybersecurity Flaw in Major Language"
+          "id": "6a15bfea735ece3a",
+          "title": "OpenAI says it's cutting off internet access for frontier model training",
+          "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
+          "source": "Engadget",
+          "summary": "OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.",
+          "published": "2026-10-23T22:37:02+00:00",
+          "score": 41.0,
+          "headline": "OpenAI Blocks Internet Access for Frontier Models After Safety Incidents"
         }
       ],
-      "top_score": 50.0,
-      "story_count": 15
-    },
-    {
-      "topic": "OpenAI Valuation and Fundraising",
-      "description": "OpenAI is pursuing a massive $30 billion funding round targeting a $1.25 trillion valuation, marking a significant milestone in AI startup valuations.",
-      "stories": [
-        {
-          "id": "21e31a5298b92073",
-          "title": "OpenAI cuts its valuation target to $1.25tn as it nears a $30bn round",
-          "url": "https://thenextweb.com/news/openai-funding-round-1-25tn-uae-coatue",
-          "source": "The Next Web",
-          "summary": "OpenAI has lowered the valuation it is seeking for its new funding round to $1.25tn, from the $1.4tn it pitched earlier this month. Some investors had pushed back on the higher price, the Financial Times reported, citing documents it had seen. The company is close to raising up to $30bn at that valuation, which does [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-25T10:17:55+00:00",
-          "score": 45.0,
-          "headline": "OPENAI SLASHES VALUATION TARGET TO $1.25TN IN $30BN ROUND"
-        },
-        {
-          "id": "5988402cbe994ed3",
-          "title": "OpenAI Sets Target Valuation of $1.25 Trillion",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI wants to raise around $30 billion in a fresh funding round. That could value the ChatGPT maker at $1.25 trillion. This is according to people familiar with the matter. Bloomberg's Rebecca Torrence reports. (Source: Bloomberg)",
-          "published": "2026-10-23T19:17:42+00:00",
-          "score": 45.0,
-          "headline": "OPENAI TARGETS $1.25 TRILLION VALUATION... Seeks $30B"
-        },
-        {
-          "id": "de05b21f48ea0325",
-          "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software/articleshow/135161388.cms",
-          "source": "The Economic Times Tech",
-          "summary": "OpenAI had paused training of its most capable models after one of its research models used a configuration error to gain limited internet access in September. The company said it contained the incident and used the pause to strengthen its defenses.",
-          "published": "2026-10-24T03:59:03+00:00",
-          "score": 44.0,
-          "headline": "OPENAI RESUMES FRONTIER TRAINING After Security Overhaul"
-        },
-        {
-          "id": "3f987307fad96a00",
-          "title": "Ex-OpenAI science head Kevin Weil launches Warp Sciences with $215M",
-          "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
-          "source": "The Next Web",
-          "summary": "Kevin Weil, who led OpenAI for Science, has launched Warp Sciences with $215M led by Lightspeed, valuing it at $865M, Bloomberg reported. It is building an automated lab in the US for a drug development step that pharma companies have long outsourced to Chinese firms such as WuXi AppTec. Kevin Weil, who led OpenAI\u2019s science [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-22T16:05:08+00:00",
-          "score": 44.0,
-          "headline": "EX-OPENAI SCIENCE HEAD LAUNCHES WARP SCIENCES WITH $215M"
-        },
-        {
-          "id": "9a0dedc13d862466",
-          "title": "Ex-OpenAI Science Head Kevin Weil Launches Startup With $215 Million",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-22/ex-openai-science-head-kevin-weil-launches-startup-with-215-million",
-          "source": "Bloomberg Technology",
-          "summary": "Kevin Weil, the former OpenAI executive who led the ChatGPT maker\u2019s AI-for-science efforts, is launching a new startup aimed at using artificial intelligence to speed up a key step of drug development.",
-          "published": "2026-10-22T15:30:10+00:00",
-          "score": 42.0,
-          "headline": "Ex-OpenAI Science Chief Launches AI Drug Startup With $215M"
-        }
-      ],
-      "top_score": 45.0,
-      "story_count": 5
+      "top_score": 46.0,
+      "story_count": 13
     }
   ],
   "unclustered": [
+    {
+      "id": "860bec09558a3eeb",
+      "title": "KongshanCi Co-Founder on China's Brain Tech Development",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-26/kongshanci-co-founder-on-china-s-brain-tech-development-video",
+      "source": "Bloomberg Technology",
+      "summary": "Ximing Wang, co-founder of KongshanCi, says the company is aiming to improve mental health, memory and emotions with next-generation brain technology. It's developing wearable devices and working with hospitals and researchers as it moves toward commercial applications. (Source: Bloomberg)",
+      "published": "2026-10-26T06:00:16+00:00",
+      "score": 49.0,
+      "headline": "Chinese Brain-Tech Startup KongshanCi Targets Memory, Emotions with Wearables"
+    },
     {
       "id": "c663b5aa9d165149",
       "title": "Moonshot Debuts First AI Upgrade Since Its Own DeepSeek Moment",
@@ -319,36 +309,6 @@
       "headline": "Uber Rival inDrive to Test Pony.ai Robotaxis in Kazakhstan 2027"
     },
     {
-      "id": "bb070fcc561e5a87",
-      "title": "Anthropic unveils Claude Duet AI agent app",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-unveils-claude-duet-ai-agent-app/articleshow/135121069.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Anthropic on Thursday unveiled Claude Duet, a standalone AI agent app designed to act as a proactive assistant for professionals and small-business owners, as rivals such as OpenAI and Meta race to develop AI agents that can complete work autonomously on users' behalf.",
-      "published": "2026-10-22T14:11:55+00:00",
-      "score": 44.0,
-      "headline": "ANTHROPIC UNVEILS CLAUDE DUET... Standalone AI Agent App"
-    },
-    {
-      "id": "2627a349dcf80f5e",
-      "title": "Claude Duet app is Anthropic\u2019s bet on agents",
-      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-      "source": "TechCrunch AI",
-      "summary": "Claude Duet is available through waitlist for Pro and Max plan users.",
-      "published": "2026-10-22T13:53:26+00:00",
-      "score": 44.0,
-      "headline": "CLAUDE DUET LAUNCHES... Anthropic's Big Agent Bet"
-    },
-    {
-      "id": "f5e233fa74145315",
-      "title": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
-      "source": "The Guardian Tech",
-      "summary": "Exclusive: Nvidia, Microsoft and Cisco taskforce urges ministers to offer areas greater benefits from tech infrastructure amid fears of US-style oppositionAI companies have told ministers they have 12 months to head off public opposition to datacentres in the UK or risk US-style protests that could threaten their construction.Successive dry summers and rising energy bills are increasing public scrutiny of plans for the huge computer warehouses that are used to train and run AI models, says a submission to the Labour government from a group including the AI infrastructure companies Nvidia, Microsoft and Cisco. Continue reading...",
-      "published": "2026-10-22T05:00:08+00:00",
-      "score": 44.0,
-      "headline": "UK Has ONE YEAR to Stop Datacenter Protests - AI Firms Warn"
-    },
-    {
       "id": "3a7f192926ab3915",
       "title": "US Treasury moves to curb AI, chip and biotech deals in China and Russia",
       "url": "https://thenextweb.com/news/us-treasury-outbound-investment-rule-china-ai-biotech",
@@ -409,6 +369,16 @@
       "headline": "AMAZON CLOUD SOLD OUT THROUGH 2027... AI Demand Surges"
     },
     {
+      "id": "de48afebe08b692b",
+      "title": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills",
+      "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+      "source": "The Next Web",
+      "summary": "Moonshot has released Kimi K3.1 Pro, an upgraded version of its open-weight Kimi K3, with full weights due by 4 November. It says the model nearly matches Claude Opus 5.5 on a coding test. Moonshot also says it removed hacking-related training data to limit misuse of the open release. Chinese AI lab Moonshot has released [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-23T18:19:34+00:00",
+      "score": 42.0,
+      "headline": "China's Moonshot Releases Kimi K3.1 Pro... Claims It Cut Hacking Skills"
+    },
+    {
       "id": "07ac9fd2df898776",
       "title": "AI chipmaker Cambricon\u2019s sales miss points to tight chip supply in China",
       "url": "https://thenextweb.com/news/cambricon-q3-sales-miss-chip-supply",
@@ -459,24 +429,24 @@
       "headline": "DEEPFAKE VIDEO SPARKS OUTRAGE IN SPAIN AHEAD OF ELECTION"
     },
     {
-      "id": "505b8545b0b3c27d",
-      "title": "SpaceX Works With Apollo, Nvidia on New Grok Partnership Program",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/spacex-works-with-apollo-nvidia-on-new-grok-partnership-program",
+      "id": "aa8c1c4f56b9dc07",
+      "title": "SK Hynix Leveraged Funds to Be Delisted in US as AI Rally Cools",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/sk-hynix-leveraged-funds-to-be-delisted-in-us-as-ai-rally-cools",
       "source": "Bloomberg Technology",
-      "summary": "SpaceX is working with Apollo Global Management, Nvidia Corp. and dozens of other firms on a new partnership program to deploy and improve its Grok AI systems, part of a bid to bolster business adoption of its artificial intelligence offerings.",
-      "published": "2026-10-22T15:47:59+00:00",
-      "score": 42.0,
-      "headline": "SpaceX Launches Grok Partnership With Nvidia, Apollo"
+      "summary": "Two leveraged exchange-traded funds tied to SK Hynix Inc. will be liquidated just months after their debut in the US, as investor appetite for the artificial intelligence trade moderates.",
+      "published": "2026-10-26T04:33:04+00:00",
+      "score": 41.0,
+      "headline": "SK Hynix AI Leverage Funds Delisted as Rally Cools"
     },
     {
-      "id": "838d9640967a5691",
-      "title": "Meta reports $825B in future lease and contract commitments",
-      "url": "https://thenextweb.com/news/meta-825b-future-spending-commitments",
-      "source": "The Next Web",
-      "summary": "Meta has signed up to about $825bn in future leases and contracts, most of them for the data centres and computing power behind its AI push. The figures are in its quarterly filing with US regulators, dated October 22, 2026. Bloomberg reported the total by adding together three items in the filing. In July, the news agency put [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-22T14:44:18+00:00",
-      "score": 42.0,
-      "headline": "META COMMITS $825B TO AI DATA CENTER CONTRACTS"
+      "id": "d4561a74b0df2119",
+      "title": "TGR-EvoDAG: A DAG-based Multi-Agent Code Evolution Framework for Generative Recommendation on Tencent",
+      "url": "https://arxiv.org/abs/2610.32326",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.32326v1 Announce Type: new Abstract: Large Language Model (LLM) agents have enabled automated code evolution for algorithm discovery. However, current recursive self-improvement (RSI) research for sequential recommendation faces a dilemma: general-purpose frameworks lack domain-specific feedback, while recommender-specific frameworks rely on linear evolution. Crucially, naively integrating them fails when applied to Generative Recommendation (GR). Unlike end-to-end models, GR relies on a module-cascaded pipeline (tokenization, pre-training, and alignment). In this paradigm, existing evolution methods suffer from: i) cost blindness, squandering budgets by ignoring stage-asymmetric retraining overheads; and ii) short-sighted evaluation, discarding promising upstream innovations that temporarily regress metrics before downstream adaptation. To bridge these gaps, we propose TGR-EvoDAG, a multi-agent code evolution framework tailored for GR. TGR-EvoDAG models code evolution as a ",
+      "published": "2026-10-26T04:00:00+00:00",
+      "score": 41.0,
+      "headline": "Tencent Deploys Multi-Agent Code Evolution for Recommendations"
     },
     {
       "id": "71c43854f4ff1165",
@@ -519,16 +489,6 @@
       "headline": "GROK PICKS REPUBLICANS, GPT PICKS DEMOCRATS in 90% of Races"
     },
     {
-      "id": "f804333410b98c23",
-      "title": "OpenAI cuts live internet from all frontier model training",
-      "url": "https://thenextweb.com/news/openai-frontier-training-no-live-internet",
-      "source": "The Next Web",
-      "summary": "OpenAI has cut live web access from all training of its most advanced AI models. The models now browse and search a cached copy of the web instead, the company wrote in a blog post on Friday. \u201cBased on the current state of alignment research, monitoring systems, and the security of internet infrastructure,\u201d OpenAI wrote, it believes [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-24T10:30:20+00:00",
-      "score": 41.0,
-      "headline": "OPENAI CUTS LIVE INTERNET FROM FRONTIER MODEL TRAINING"
-    },
-    {
       "id": "23da1bd40f20312a",
       "title": "Japan\u2019s GMO Internet Requests Government Cyber Defense Measures",
       "url": "https://www.bloomberg.com/news/articles/2026-10-24/japan-s-gmo-internet-requests-government-cyber-defense-measures",
@@ -547,16 +507,6 @@
       "published": "2026-10-23T23:01:00+00:00",
       "score": 41.0,
       "headline": "UK Launches AI Biosecurity Lab Amid Bioweapon Fears"
-    },
-    {
-      "id": "6a15bfea735ece3a",
-      "title": "OpenAI says it's cutting off internet access for frontier model training",
-      "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
-      "source": "Engadget",
-      "summary": "OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.",
-      "published": "2026-10-23T22:37:02+00:00",
-      "score": 41.0,
-      "headline": "OpenAI Blocks Internet Access for Frontier Models After Safety Incidents"
     },
     {
       "id": "79e04d3298539551",
@@ -607,66 +557,6 @@
       "published": "2026-10-23T04:00:00+00:00",
       "score": 41.0,
       "headline": "Human-AI Loop Breaks Barrier in 60-Year Math Problem"
-    },
-    {
-      "id": "f4f9ac7e01cf78de",
-      "title": "Meta Doubles Down on AI Spending, Plans New Class C Shares",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-22/bloomberg-tech-10-22-2026-video",
-      "source": "Bloomberg Technology",
-      "summary": "Bloomberg\u2019s Ed Ludlow breaks down Meta's plans to boost AI spending and release new Class C shares to ensure CEO Mark Zuckerberg stays in California if a wealth tax is passed. Plus, Tesla reported strong profit, but a big cut to its spending plans is raising questions about Elon Musk's AI, robotaxi and robotics goals for the company as it weighs a potential merger with SpaceX. And OpenAI's models helped find a potentially catastrophic software vulnerability. OpenAI President Greg Brockman and Cloudflare CEO Matthew Prince explain how AI is enabling both defenders and hackers. (Source: Bloomberg)",
-      "published": "2026-10-22T17:36:46+00:00",
-      "score": 41.0,
-      "headline": "META DOUBLES DOWN ON AI SPENDING... New Share Class Announced"
-    },
-    {
-      "id": "73f5f9254af13193",
-      "title": "Uber puts all 30,000 employees on ChatGPT Work",
-      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "source": "TechCrunch AI",
-      "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
-      "published": "2026-10-22T16:00:00+00:00",
-      "score": 41.0,
-      "headline": "UBER DEPLOYS CHATGPT WORK TO ALL 30,000 EMPLOYEES"
-    },
-    {
-      "id": "0ee4f2fe9f9c0844",
-      "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
-      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
-      "source": "The Verge AI",
-      "summary": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared to other Big Tech companies with long-established presences in Washington, [&#8230;]",
-      "published": "2026-10-22T15:50:30+00:00",
-      "score": 41.0,
-      "headline": "OpenAI, Anthropic, Nvidia Hit RECORD Lobbying Spending"
-    },
-    {
-      "id": "9fae471804934652",
-      "title": "AI Is Already 'Amplifying the Destruction' of War",
-      "url": "https://www.404media.co/ai-is-already-amplifying-the-destruction-of-war/",
-      "source": "404 Media",
-      "summary": "The people who write the Laws of Armed Conflict want to put guardrails on AI weapons systems. Will the world listen?",
-      "published": "2026-10-22T14:20:46+00:00",
-      "score": 41.0,
-      "headline": "AI Already 'Amplifying the Destruction' of War"
-    },
-    {
-      "id": "7d7feeece49366f6",
-      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
-      "source": "NVIDIA AI Blog",
-      "summary": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open [&#8230;]",
-      "published": "2026-10-22T05:00:27+00:00",
-      "score": 41.0,
-      "headline": "NVIDIA Expands Cosmos Platform for World Models Training"
-    },
-    {
-      "id": "4bfadc8ca3d19368",
-      "title": "eMudhra breach: Netizens react as IT Ministry says impact on Indian sites \u2018very limited\u2019",
-      "url": "https://economictimes.indiatimes.com/tech/technology/emudhra-breach-netizens-react-as-it-ministry-says-impact-on-indian-sites-very-limited/articleshow/135107533.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Cybersecurity agency CERT-In warned that the compromised keys could let attackers issue fraudulent certificates for domains they do not control, impersonate legitimate websites and carry out attacks that intercept or modify encrypted communications.",
-      "published": "2026-10-22T04:46:37+00:00",
-      "score": 41.0,
-      "headline": "India Ministry Says eMudhra Breach Impact 'Very Limited'"
     },
     {
       "id": "6edbffb97fe9fca3",
@@ -789,146 +679,6 @@
       "headline": "Ascend NPU Gets AI-Powered Kernel Optimizer"
     },
     {
-      "id": "f8a749e2040765be",
-      "title": "Race to update services' computer systems after cyber-security flaw found",
-      "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
-      "published": "2026-10-22T17:12:51+00:00",
-      "score": 40.0,
-      "headline": "CRITICAL PHP VULNERABILITIES Force Mass Service Updates"
-    },
-    {
-      "id": "9c17f2e3e1654a13",
-      "title": "SpaceX signs up Apollo and Nvidia for a new Grok partner network",
-      "url": "https://thenextweb.com/news/spacex-grok-partner-network-apollo-nvidia",
-      "source": "The Next Web",
-      "summary": "SpaceX has launched the Super Intelligence Partner Network for companies that deploy or build on Grok, with Apollo, Nvidia, Snowflake, Databricks, Bain and more than 130 firms joining early. It follows a quarter in which SpaceX\u2019s AI unit turned a profit, mostly from renting out computing power. SpaceX has launched a partner programme to help [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-22T17:00:39+00:00",
-      "score": 40.0,
-      "headline": "SpaceX Launches Grok Partner Network with Nvidia, Apollo"
-    },
-    {
-      "id": "cbf0e7a492abcc86",
-      "title": "We just raised another $550 million to bring AI to the legal industry. I still believe there will be more work than lawyers",
-      "url": "https://fortune.com/2026/10/22/legora-55-million-raise-ai-legal-industry-letter-max-junestrand/",
-      "source": "Fortune Tech",
-      "summary": "We now have more lawyers than software engineers. And daily active users now spend more than two hours a day on Legora.",
-      "published": "2026-10-22T16:25:23+00:00",
-      "score": 40.0,
-      "headline": "Legal AI Startup Legora Raises $550M\u2014Users Spend 2+ Hours Daily"
-    },
-    {
-      "id": "ff75b274b8126bc9",
-      "title": "Zurich startup Enact raises $30M to give robots a sense of touch",
-      "url": "https://thenextweb.com/news/enact-intelligence-30m-pre-seed-robot-touch",
-      "source": "The Next Web",
-      "summary": "Zurich-based Enact Intelligence has emerged from stealth with a $30M pre-seed round from redalpine, Notion Capital and firstminute capital. It builds robots that sense force and touch through their motors, not only cameras. Founder Manuel Yves Galliker previously led software for 1X\u2019s NEO humanoid. Enact Intelligence, a Zurich startup building robots that can feel force [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-22T15:42:33+00:00",
-      "score": 40.0,
-      "headline": "Zurich Robotics Startup Enact Raises $30M for Touch AI"
-    },
-    {
-      "id": "641f316a616f4a5b",
-      "title": "PHP: The three little letters wreaking havoc across the web",
-      "url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
-      "source": "The Verge AI",
-      "summary": "Two vulnerabilities found in the programming language PHP put enormous swaths of the internet in danger. By some accounts, up to 70 percent of websites use PHP in some capacity. It powers Wikipedia, WordPress, Drupal, and a host of other popular sites and platforms, including DeviantArt and 4Chan, which were temporarily shut down after the [&#8230;]",
-      "published": "2026-10-22T15:12:27+00:00",
-      "score": 40.0,
-      "headline": "PHP VULNERABILITIES THREATEN 70% OF THE WEB"
-    },
-    {
-      "id": "4912996ff66ce44a",
-      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-      "source": "NVIDIA AI Blog",
-      "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast [&#8230;]",
-      "published": "2026-10-22T15:00:02+00:00",
-      "score": 40.0,
-      "headline": "NVIDIA Launches Minerva AIOps for AI Factories"
-    },
-    {
-      "id": "89922fe3828b3914",
-      "title": "PHP Cybersecurity Flaws: How AI Uncovered Software Vulnerabilities",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/php-cybersecurity-flaws-how-ai-uncovered-software-vulnerabilities",
-      "source": "Bloomberg Technology",
-      "summary": "Researchers have disclosed two serious security vulnerabilities in a programming language that powers much of the internet, known as PHP. A race is now on to patch up the flaws in millions of affected websites, software packages and applications before criminal hackers get a chance to exploit them.",
-      "published": "2026-10-22T14:40:39+00:00",
-      "score": 40.0,
-      "headline": "AI DISCOVERS CRITICAL PHP FLAWS... Millions of Sites at Risk"
-    },
-    {
-      "id": "84a0d5745aa8ab28",
-      "title": "Barclays to cut 5,000 jobs as bank\u2019s bosses hail AI productivity advances",
-      "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
-      "source": "The Guardian Tech",
-      "summary": "Equating to the loss of 5% of its 93,000 global staff, job cuts come as bank announces jump in quarterly profitsBarclays is cutting 5,000 jobs as part of wider cost-saving plans that its bosses say are being driven by advances in AI.The job cuts will mean losing about 5% of the bank\u2019s 93,000 global staff, with executives confirming they had already cut 1,000 workers since the start of the year. Continue reading...",
-      "published": "2026-10-22T14:39:29+00:00",
-      "score": 40.0,
-      "headline": "BARCLAYS CUTS 5,000 JOBS... Cites AI Productivity Gains"
-    },
-    {
-      "id": "b91c33941d53fcb6",
-      "title": "1Password lets AI agents sign in for users without seeing their passwords",
-      "url": "https://thenextweb.com/news/1password-for-agents-ai-agent-logins",
-      "source": "The Next Web",
-      "summary": "1Password has launched 1Password for Agents, a platform that lets personal AI agents sign in to accounts on a person\u2019s behalf without ever seeing the password. Agents from Meta, OpenAI, Anthropic and SpaceXSI are among the first to plug in, the Toronto-based company said on Thursday. Agents now book holidays, pay recurring bills and prepare expense [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-22T13:45:28+00:00",
-      "score": 40.0,
-      "headline": "1Password Lets AI Agents Sign In Without Seeing Passwords"
-    },
-    {
-      "id": "b98868e524d833cf",
-      "title": "SoftBank Market Value Poised to Halve From Peak as AI Fears Grow",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/softbank-market-value-poised-to-halve-from-peak-as-ai-fears-grow",
-      "source": "Bloomberg Technology",
-      "summary": "SoftBank Group Corp.\u2019s market value is poised to halve from its peak in June, as higher borrowing costs fuel investor concerns over the sustainability of its massive investments in artificial intelligence.",
-      "published": "2026-10-22T05:40:39+00:00",
-      "score": 40.0,
-      "headline": "SOFTBANK Market Value HALVES as AI Fears Mount"
-    },
-    {
-      "id": "f07f836d67713430",
-      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
-      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
-      "source": "NVIDIA AI Blog",
-      "summary": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like \u2014 built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF [&#8230;]",
-      "published": "2026-10-22T05:00:56+00:00",
-      "score": 40.0,
-      "headline": "European Banks Build Proprietary AI on Open Models"
-    },
-    {
-      "id": "bce5438166d3bb69",
-      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
-      "source": "NVIDIA AI Blog",
-      "summary": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
-      "published": "2026-10-22T05:00:19+00:00",
-      "score": 40.0,
-      "headline": "Europe Deploys NVIDIA Earth-2 for Weather Prediction"
-    },
-    {
-      "id": "8566b59c09c63065",
-      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
-      "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
-      "source": "NVIDIA AI Blog",
-      "summary": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards and keep sensitive data within controlled environments. Some open models go further, [&#8230;]",
-      "published": "2026-10-22T05:00:02+00:00",
-      "score": 40.0,
-      "headline": "European Governments Deploy NVIDIA Open Models"
-    },
-    {
-      "id": "111e9461409d428b",
-      "title": "Venture Capitalists Push Up AI Startup Valuations with Tranched, Two-Step Rounds",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/venture-capitalists-push-up-ai-startup-valuations-with-tranched-two-step-rounds",
-      "source": "Bloomberg Technology",
-      "summary": "Venture capitalists are fighting to invest in AI startup Emulate, driving its valuation into the billions \u2014 even though the company is only three months old and doesn\u2019t yet have a website or product.",
-      "published": "2026-10-22T04:15:00+00:00",
-      "score": 40.0,
-      "headline": "3-Month-Old AI Startup Emulate Valued at BILLIONS"
-    },
-    {
       "id": "42b1f0dabc7d8de3",
       "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
       "url": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -1017,7 +767,277 @@
       "published": "2026-10-23T04:00:00+00:00",
       "score": 39.0,
       "headline": "LLMs Fail to Keep Up with Evolving Medical Guidelines, Study Finds"
+    },
+    {
+      "id": "753a0c55797dfa8d",
+      "title": "Evaluating Artificial Wisdom (AW): A Trajectory-Based Framework for Context-Sensitive Decision Regulation",
+      "url": "https://arxiv.org/abs/2610.31012",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.31012v1 Announce Type: new Abstract: Capability benchmarks measure what large language models can do, but not whether their recommendations remain appropriate as decision conditions change. This paper proposes a trajectory-based measurement framework and prospective validation protocol for artificial wisdom, defined behaviorally as context-sensitive regulation of judgment. Versioned reference specifications determine admissible responses and transition materiality before evaluation. Seven stage-level criteria assess judgment under current conditions, while two transition components assess material-update adequacy and commitment-preserving stability. Stability requires prior adequacy; switching within registered commitment classes is permitted, and persistent error earns no stability credit. A nine-component profile is primary, with a secondary bottleneck score and separate critical-failure reporting. Three simplified simulations examine precision, bottleneck estimation, and ",
+      "published": "2026-10-23T04:00:00+00:00",
+      "score": 39.0,
+      "headline": "New Framework Evaluates 'Artificial Wisdom' in LLMs"
+    },
+    {
+      "id": "7d19eeb019f00697",
+      "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents For Model Training",
+      "url": "https://arxiv.org/abs/2610.32026",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.32026v1 Announce Type: new Abstract: Conventional neural-network training typically follows a predefined optimization recipe, motivating a LLM agent that monitors training dynamics and adjusts optimizer settings as training progresses, but a fixed agent policy does not accumulate experience across runs. We introduce RSI-Opt, a plug-and-play Recursive Self-Improvement Optimizer Agents which evolves the knowledge that guides this process: a prompt, a playbook of procedures, a library of tested optimizer code, and a decision cadence. A meta-agent rewrites this policy using evidence from earlier runs, and an archive retains evaluated policies for further evolution. Across 5 generations on three training tasks, the meta-agents develop reusable procedures and code and conduct their own CPU proxy experiments. RSI-Opt substantially improves optimizer-agent performance, with representative raw-space summary $z$-scores increasing from $+10.48$ to $+14.33$ on the evolution suite with O",
+      "published": "2026-10-26T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "RECURSIVE SELF-IMPROVING AI Optimizes Its Own Training"
+    },
+    {
+      "id": "dc12082f1837ccef",
+      "title": "Do AI-for-Science Agents Preserve Model Safety?",
+      "url": "https://arxiv.org/abs/2610.32045",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.32045v1 Announce Type: new Abstract: AI-for-Science agents are increasingly being used for formulating scientific hypotheses, running autonomous experiments, and interpreting evidence. These agents are constructed by integrating a large language model (LLM) into a domain-specific agent harness, which in turn can improve the LLM's scientific capability and enable the model to orchestrate scientific tools. In this work, we ask whether model safety is preserved when an LLM is integrated in an AI-for-Science agent harness. We evaluate five agent harnesses on 50 harmful chemistry requests. Specifically, we study how the safety behavior changes under direct prompting, two simple adversarial prompting strategies, and an adaptive attack. Across four recent GPT variants, our results show that the agent harness can increase harmful compliance even under direct prompting. More critically, we find that adaptive attacks that are largely unsuccessful against the base LLM suddenly become h",
+      "published": "2026-10-26T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "AI Science Agents May Bypass Safety Guardrails"
+    },
+    {
+      "id": "0a7b5a9fd0c96375",
+      "title": "Who Verifies the Tools? How Warped Formatters Mislead Agents and Their Verifiers",
+      "url": "https://arxiv.org/abs/2610.32110",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.32110v1 Announce Type: new Abstract: Agents and verifiers often rely on the text a tool prints, and that text can misrepresent what the tool actually did, even when the tool's computation is correct. We saw this happen in a production RAG research system used by the Pilsudski Institute in New York, where tool output formatters misled an agent into giving wrong or incomplete information to users. Each tool did its job correctly, but its output omitted search limits, result caps, or identifier namespaces. We also recreated an unlabeled estimate caught in code review before release. We studied whether these formatters misled agents and verifiers and how much the repaired wording helps. We fed tool results to agents using two formatter versions: one with the key omissions and one with all missing details clearly stated. That difference alone changed what the agents claimed and what the verifiers accepted. Unsupported agent claims dropped substantially for three of the four failu",
+      "published": "2026-10-26T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "WARPED TOOLS Can Deceive AI Agents and Verifiers"
+    },
+    {
+      "id": "0bf6f59c6e35fba2",
+      "title": "ALLMTS: Automated LLM-based Medical Triage System",
+      "url": "https://arxiv.org/abs/2610.32469",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.32469v1 Announce Type: new Abstract: Telephone triage is a safety critical task: from a brief intake note, a nurse must decide whether a caller needs an ambulance, an emergency department, an appointment, or self care at home. Queried directly, large language models (LLMs) are unreliable: they over-escalate routine cases and cannot justify their recommendations against an auditable clinical standard. We present the Automated LLM-based Medical Triage System (ALLMTS), which grounds every disposition in the same commercially maintained telehealth guidelines nurses use. Rather than asking an LLM to triage, ALLMTS makes it execute the guideline: it selects the appropriate guideline and evaluates its triage assessment questions. The disposition follows deterministically from the first positive answer, using the same traversal rule a nurse follows. We evaluate ALLMTS on 566 synthetic, expert-validated scenarios spanning 14 dispositions and designed to test specific guideline questi",
+      "published": "2026-10-26T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "AI Triage System Automates Safety-Critical Medical Decisions"
+    },
+    {
+      "id": "809f9d36ae867d73",
+      "title": "\u2018Everyone is hedging.\u2019 As the U.S. and China divide the world into rival AI blocs, that lends power to \u2018swing countries\u2019 in between",
+      "url": "https://fortune.com/2026/10/25/us-china-rival-ai-blocs-swing-countries-hedging/",
+      "source": "Fortune Tech",
+      "summary": "Kazakhstan is benefiting from both U.S. and Chinese investments, but is in a \u201cvery precarious spot.\u201d",
+      "published": "2026-10-25T15:33:53+00:00",
+      "score": 38.0,
+      "headline": "US-CHINA AI DIVIDE Creates Power for 'Swing Countries'"
+    },
+    {
+      "id": "a06b5d11cf025cfb",
+      "title": "Can Mistral Challenge Big Tech by Doing AI Differently?",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-25/can-mistral-challenge-big-tech-by-doing-ai-differently-video",
+      "source": "Bloomberg Technology",
+      "summary": "Europe has fallen behind the US in the race to build the biggest AI models, constrained by smaller capital markets and a fragmented business environment. France-based Mistral is betting it can compete differently using open-source models to offer companies lower costs, more control over their data and greater technological sovereignty. (Source: Bloomberg)",
+      "published": "2026-10-25T12:04:04+00:00",
+      "score": 38.0,
+      "headline": "Can Mistral Challenge Big Tech by Doing AI Differently?"
+    },
+    {
+      "id": "d40a216ab167197d",
+      "title": "\u2018Synthetic twin\u2019: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
+      "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone",
+      "source": "The Guardian Tech",
+      "summary": "Athletes\u2019 scramble to control \u2013 and monetise \u2013 their digital identities at the cutting edge of AI rights dealsGet our new political email, free app or daily news podcastThe Socceroos star stares at the camera as he strides through an enormous atrium, the sound of his football boots on polished concrete echoing around him. Suddenly, he spawns four digital clones that peel off out of view to re-emerge in different settings around the world.This scene from a social media video is fake and generated by artificial intelligence. But it has been authorised by the very real 22-year-old footballer, Cristian Volpato, the latest professional athlete to licence and monetise his AI likeness. Continue reading...",
+      "published": "2026-10-24T19:00:40+00:00",
+      "score": 38.0,
+      "headline": "Socceroo Star Licenses AI Clone as 'Synthetic Twin'"
+    },
+    {
+      "id": "4f0ab88333a00c8b",
+      "title": "Blocks latest AI model Dessa was trained entirely on human speech \u2014 and it shows",
+      "url": "https://mashable.com/tech/block-unveils-new-ai-model-dessa-trained-entirely-on-human-speech",
+      "source": "Mashable Tech",
+      "summary": "Jack Dorsey and Block, Inc. just took us one step closer to the singularity and it's simultaneously awesome and terrifying.",
+      "published": "2026-10-24T17:55:45+00:00",
+      "score": 38.0,
+      "headline": "Block's Dessa AI Trained ENTIRELY on Human Speech"
+    },
+    {
+      "id": "156181babac7dab9",
+      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+      "source": "Wired",
+      "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+      "published": "2026-10-24T12:00:00+00:00",
+      "score": 38.0,
+      "headline": "AI TOOLS EXPLOIT PHP BUGS... Security Nightmare Begins"
+    },
+    {
+      "id": "131e5b1a8542cbe8",
+      "title": "Google\u2019s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+      "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and practitioners need to tell them apart: one is a skill asking the agent to stop, the other an IAM deny policy that refuses the call. By Steef-Jan Wiggers",
+      "published": "2026-10-24T08:34:00+00:00",
+      "score": 38.0,
+      "headline": "GOOGLE DATA AGENT KIT HITS GA WITH 37 OPEN-SOURCE AI SKILLS"
+    },
+    {
+      "id": "12fb018763458b76",
+      "title": "Oracle pledges $1B over four years to partners that sell its AI tools",
+      "url": "https://thenextweb.com/news/oracle-1b-partner-ecosystem-ai-world",
+      "source": "The Next Web",
+      "summary": "Oracle announced a $1B, four-year commitment to its partner ecosystem at AI World in Las Vegas, covering training, test and demo environments, cloud migration funding and Marketplace sales. It also changed Marketplace rules. The pledge comes as Oracle cuts costs to fund its AI data centres. Oracle will spend $1B over the next four years [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-23T15:49:07+00:00",
+      "score": 38.0,
+      "headline": "Oracle Pledges $1B to Partners Selling AI Tools"
+    },
+    {
+      "id": "72574d64fd70ff2e",
+      "title": "AI: EU Member States approve \u201cdigital expropriation\u201d of Europeans for AI companies",
+      "url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+      "source": "Lobsters AI",
+      "summary": "Comments",
+      "published": "2026-10-23T13:04:23+00:00",
+      "score": 38.0,
+      "headline": "EU Approves 'Digital Expropriation' for AI Firms"
+    },
+    {
+      "id": "041c0369c3c409f7",
+      "title": "Infosys Cuts Sales Forecast After Companies Curb IT Spending",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/infosys-lowers-sales-forecast-after-companies-curb-it-spending",
+      "source": "Bloomberg Technology",
+      "summary": "Infosys Ltd. lowered its annual sales forecast as clients continue to hold back on technology spending, signaling that a broad-based recovery in IT budgets could prove elusive anytime soon.",
+      "published": "2026-10-23T10:52:40+00:00",
+      "score": 38.0,
+      "headline": null
+    },
+    {
+      "id": "54b31b73f981e6a0",
+      "title": "When AI Agrees Too Much: Manipulating Automated Code Review via Bias Injection [pdf]",
+      "url": "https://dimitro.gr/assets/pdf/AASM27.pdf",
+      "source": "Hacker News",
+      "summary": "Article URL: https://dimitro.gr/assets/pdf/AASM27.pdf Comments URL: https://news.ycombinator.com/item?id=50204885 Points: 1 # Comments: 0",
+      "published": "2026-10-23T05:41:53+00:00",
+      "score": 38.0,
+      "headline": "AI Code Review Tools Vulnerable to Bias Injection Attacks"
+    },
+    {
+      "id": "b2b8915bd53f4810",
+      "title": "Nvidia, TCV Invest in AI Video Startup Higgsfield in Series B Extension",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/nvidia-tcv-invest-in-ai-video-startup-higgsfield-in-series-b-extension",
+      "source": "Bloomberg Technology",
+      "summary": "Higgsfield Inc., an AI video startup founded by a former Snap Inc. executive, said it has attracted investment from Nvidia Corp. and TCV to help fund global infrastructure and hiring to capture growing demand.",
+      "published": "2026-10-23T05:00:00+00:00",
+      "score": 38.0,
+      "headline": "NVIDIA Backs AI Video Startup Higgsfield in Series B"
+    },
+    {
+      "id": "f857ee8179a5cc44",
+      "title": "Calpers retreats from Big Tech as AI rally falters",
+      "url": "https://www.ft.com/content/e842173f-6f9f-4115-9e5f-a0f06f0df18d?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "California\u2019s retirement fund slashed Magnificent 7 holdings as doubts grow about lofty valuations and soaring spending",
+      "published": "2026-10-23T04:00:18+00:00",
+      "score": 38.0,
+      "headline": "CALPERS DUMPS BIG TECH AS AI RALLY FALTERS"
+    },
+    {
+      "id": "a12d90d7ce5821d3",
+      "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
+      "url": "https://arxiv.org/abs/2610.30953",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.30953v1 Announce Type: new Abstract: Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory. To thoroughly investigate these properties, we apply causal, counterfactual interventions to four driving VLAs across different benchmarks. First, we perturb the models' own reasoning and show that altering its meaning produces small trajectory changes relative to blanking t",
+      "published": "2026-10-23T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "Self-Driving AI Reasoning Tests Show Critical Gaps"
+    },
+    {
+      "id": "2942e349991adf5b",
+      "title": "Diagnosing the Explicit-to-Applied Theory of Mind Gap in LLMs",
+      "url": "https://arxiv.org/abs/2610.31060",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.31060v1 Announce Type: new Abstract: As large language models are deployed in high-stakes roles such as therapy, education, and personal assistance, their social cognition must be assessed reliably. Current Theory of Mind (ToM) benchmarks report aggregate scores that conflate two distinct competencies: explicit ToM (recognizing what someone believes) and applied ToM (using that belief to predict behavior). Building on this distinction, we investigate the gap and its recoverability using four structurally diverse benchmarks. Aggregate reporting obscures uneven competence: on SimpleToM, Llama-3.1-8B scores 51.5 percent overall while recognizing mental states at 99.4 percent and predicting behavior at only 28.9 percent. To assess recovery, we compare structured prompting, matched in-context learning, and our proposed Belief-State Test-Time Training (BSTTT), which adapts lightweight parameters on answered support questions through action reconstruction. Across Qwen2.5-7B, Llama-",
+      "published": "2026-10-23T04:00:00+00:00",
+      "score": 38.0,
+      "headline": "LLMs Show Critical Gap in Theory of Mind"
+    },
+    {
+      "id": "f8326f27e4dd2c92",
+      "title": "$\\Psi$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model",
+      "url": "https://arxiv.org/abs/2610.32177",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.32177v1 Announce Type: new Abstract: Humans reason about the physical world by flexibly combining different forms of inference as a problem unfolds. Achieving this flexibility is a major open challenge in AI: capabilities often remain separated across specialized models, limiting how they can be composed and jointly adapted to a task. We introduce $\\Psi$-0.6, a unified vision-language world model that adaptively composes perception, language, geometry, and simulation within a shared reasoning process we call streams of thought. These streams interleave images, text, and explicit representations of geometry and motion, all of which the model can generate and interpret through a shared token interface. $\\Psi$-0.6 surpasses leading open-weight models zero-shot on multi-view spatial reasoning, with further gains from reasoning through geometric intermediates. It also supports counterfactual simulation: generating and interpreting imagined scenes to determine, for example, whethe",
+      "published": "2026-10-26T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "\u03a8-0.6: Unified Vision-Language Model With Adaptive Reasoning"
+    },
+    {
+      "id": "592fa16f51068aa8",
+      "title": "SWE-Shift: Evaluating Coding Agents in Evolving Workspaces",
+      "url": "https://arxiv.org/abs/2610.32196",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.32196v1 Announce Type: new Abstract: Repository-level coding benchmarks largely assume that tasks and environments remain unchanged throughout execution. In software development, code, dependencies, runtime state, and requirements can change while an agent is still working. We introduce SWE-Shift, a benchmark for evaluating coding agents under such mid-execution changes. From the same saved history and workspace, a Clean continuation proceeds without intervention, while a matched Shifted continuation receives a task-relevant update. Success requires completing the current task, preserving still-valid work, and satisfying the applicable state and evidence checks. The benchmark contains 120 scenarios across 12 change families, each evaluated at nine scheduled intervention positions. We evaluate 17 coding-agent systems, all of which have lower Shifted than Clean success. GPT-6 Astra drops from 67.35% to 24.79%, with 20.34% paired success. Tool/session changes and stale evidence",
+      "published": "2026-10-26T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "SWE-Shift Tests Coding Agents in Evolving Environments"
+    },
+    {
+      "id": "ff79e654cc8eacd7",
+      "title": "Correct Answers, Closed Gates: SolveBind for GUI Agents at the Verification Barrier",
+      "url": "https://arxiv.org/abs/2610.32223",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.32223v1 Announce Type: new Abstract: Websites and applications deploy CAPTCHAs and anti-automation mechanisms that use behavioral signals such as interaction trajectories and timing, not outcomes alone, to distinguish humans from automated agents. We call these protected GUI environments, where correctly solving a verification task is insufficient for end-to-end task completion. Agents must turn solver outputs into accepted interactions and adapt execution to runtime feedback under time constraints. We introduce SolveBind, a GUI-agent framework combining hierarchical solving with runtime supervision. A hierarchical solving tree decomposes verification into interdependent Perceive, Ground, Solve, Act, and Verify capabilities. A runtime supervisor grounds action commitments in tool-derived evidence, revises them as evidence arrives, and mediates execution under explicit recovery budgets. Across nine CAPTCHA task families and nine backbone models, SolveBind achieves the highest",
+      "published": "2026-10-26T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "GUI Agents Hit CAPTCHA Verification Barrier"
+    },
+    {
+      "id": "75247514550e1315",
+      "title": "Training an MoE LLM in MXFP4: How We Closed the Gap to BF16",
+      "url": "https://arxiv.org/abs/2610.32229",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2610.32229v1 Announce Type: new Abstract: Training large language models (LLMs) in sub-8-bit arithmetic promises substantial gains in memory bandwidth and compute throughput, yet FP4 formats introduce quantization error severe enough to destabilize optimization if left unaddressed. We present ALTO, an open-source training recipe for GPT-OSS-20B, a 20-billion-parameter mixture-of-experts (MoE) model, on the MLPerf Small MoE Training benchmark under the MXFP4 microscaling format. The recipe combines established techniques from Abecassis, Felix et al. [arXiv:2509.25149] (hybrid 1D/2D block quantization, randomized Hadamard transforms, and stochastic rounding) with a simplified weight de-oscillation scheme adapted from TetraJet-v2 [arXiv:2510.27527]. On C4 validation at global batch size 16, MXFP4 + RHT + SR + de-oscillation reaches a validation loss of 3.3350 at 16,128 steps, only 0.007 above the BF16 baseline (3.3283), closing roughly 50% of the gap left by MXFP4 without de-oscilla",
+      "published": "2026-10-26T04:00:00+00:00",
+      "score": 37.0,
+      "headline": "BREAKTHROUGH: MoE LLM Training in 4-Bit Matches BF16"
+    },
+    {
+      "id": "2d1d92e8f59cd163",
+      "title": "Western Australia seeks refund from Deloitte over flawed AI-aided report",
+      "url": "https://thenextweb.com/news/western-australia-deloitte-refund-ai-university-report",
+      "source": "The Next Web",
+      "summary": "Western Australia\u2019s government is seeking a fast refund from Deloitte over a flawed report on merging three of the state\u2019s universities. The report contained AI-generated references to sources that do not exist, as well as wrong cost totals. A government spokesperson told Guardian Australia that the state was very disappointed and had written to Deloitte to speed [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-25T14:24:55+00:00",
+      "score": 37.0,
+      "headline": "WESTERN AUSTRALIA DEMANDS REFUND from Deloitte Over AI-Flawed Report"
+    },
+    {
+      "id": "19250ae33b5227a0",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "source": "The Verge AI",
+      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source [&#8230;]",
+      "published": "2026-10-25T13:25:32+00:00",
+      "score": 37.0,
+      "headline": "r/opensource BANS ALL AI PROJECTS... Community Erupts"
+    },
+    {
+      "id": "2cd0052f05ff298b",
+      "title": "AI Spending Fears Threaten to Swamp Big Tech\u2019s Strong Earnings",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/ai-spending-fears-threaten-to-swamp-big-tech-s-strong-earnings",
+      "source": "Bloomberg Technology",
+      "summary": "Three of the biggest and most important technology companies in the world are expected to show healthy growth when they report earnings this week.",
+      "published": "2026-10-25T13:00:00+00:00",
+      "score": 37.0,
+      "headline": "AI Spending Fears Threaten Big Tech's Strong Earnings"
+    },
+    {
+      "id": "ec4100b5e401e0ad",
+      "title": "Google\u2019s AI search changes upended online publishing",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "source": "The Verge AI",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on [&#8230;]",
+      "published": "2026-10-25T12:00:00+00:00",
+      "score": 37.0,
+      "headline": "Google's AI Search Changes UPEND Online Publishing"
     }
   ],
-  "generated_at": "2026-10-25T18:09:58.375284"
+  "generated_at": "2026-10-26T06:17:33.391627"
 }
