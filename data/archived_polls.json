@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Security Threats & Hacking",
+      "description": "AI tools are being weaponized for cyberattacks and discovering critical vulnerabilities, creating unprecedented security challenges globally.",
+      "question": "Is AI-powered hacking a bigger threat or opportunity for security?",
+      "button_a": "Threat",
+      "button_b": "Security",
+      "poll_id": "ai-security-threats-hacking-20261023",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-security-crisis-20261026.html",
+      "started_at": "2026-10-23T18:10:28.609800",
+      "archived_at": "2026-10-27T06:15:17.559469",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "OpenAI Valuation and Fundraising",
       "description": "OpenAI is pursuing a massive $30 billion funding round targeting a $1.25 trillion valuation, marking a significant milestone in AI startup valuations.",
       "question": "Is OpenAI's $1.25 trillion valuation justified or wildly inflated?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-eu-ai-regulation-crackdown-20260901.html",
       "started_at": "2026-09-01T10:59:07.519442",
       "archived_at": "2026-09-02T20:25:55.722897",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Bank of England AI Financial Stability Warnings",
-      "description": "Bank of England and G20 officials warn that AI models pose systemic risks to global financial stability and could trigger economic downturns.",
-      "question": "Should governments restrict frontier AI models to protect financial stability?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "bank-of-england-ai-financial-stability-warnings-20260831",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-bank-of-england-ai-financial-stability-warnings-20260901.html",
-      "started_at": "2026-08-31T22:19:28.137011",
-      "archived_at": "2026-09-02T10:25:49.897656",
       "reason": "topic_replaced"
     }
   ]
