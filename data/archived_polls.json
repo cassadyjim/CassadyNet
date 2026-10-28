@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Anthropic IPO",
+      "description": "Anthropic's massive IPO filing reveals explosive revenue growth alongside staggering losses and hundreds of billions in future compute commitments, marking a pivotal moment for the AI industry.",
+      "question": "Is Anthropic's IPO a breakthrough moment or a warning sign for AI?",
+      "button_a": "Moment",
+      "button_b": "AI",
+      "poll_id": "anthropic-ipo-20261026",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-anthropic-ipo-20261027.html",
+      "started_at": "2026-10-26T18:13:28.138168",
+      "archived_at": "2026-10-28T06:12:04.700544",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Security Threats & Hacking",
       "description": "AI tools are being weaponized for cyberattacks and discovering critical vulnerabilities, creating unprecedented security challenges globally.",
       "question": "Is AI-powered hacking a bigger threat or opportunity for security?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-astra-cybersecurity-concerns-20260903.html",
       "started_at": "2026-09-02T10:25:43.931848",
       "archived_at": "2026-09-03T20:25:41.356601",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "EU AI Regulation Crackdown",
-      "description": "European Union enforces new digital regulations targeting major AI companies including OpenAI, with ChatGPT designated as search engine under DSA rules.",
-      "question": "Should AI chatbots like ChatGPT face search engine regulations?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "eu-ai-regulation-crackdown-20260901",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-eu-ai-regulation-crackdown-20260901.html",
-      "started_at": "2026-09-01T10:59:07.519442",
-      "archived_at": "2026-09-02T20:25:55.722897",
       "reason": "topic_replaced"
     }
   ]
