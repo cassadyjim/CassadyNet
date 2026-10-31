@@ -1,74 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "AI Chip Export Controls & Geopolitics",
-      "description": "Global tensions escalate over AI chip access as countries impose export controls and seize shipments amid US-China tech rivalry.",
-      "stories": [
-        {
-          "id": "804bc5d490b80e76",
-          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-          "source": "TechCrunch AI",
-          "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
-          "published": "2026-10-29T16:42:32+00:00",
-          "score": 49.0,
-          "headline": "US PROBED CHINESE SPY PLOT Targeting Nvidia CEO"
-        },
-        {
-          "id": "57310806e424289d",
-          "title": "Malaysia intercepted $12.2 million shipment of servers with AI chips suspected of violating export controls",
-          "url": "https://fortune.com/2026/10/28/malaysia-intercepted-ai-chips-shipment-export-controls-china/",
-          "source": "Fortune Tech",
-          "summary": "Malaysia introduced permit requirements for shipping AI chips of U.S. origin last year, under pressure from the U.S. to prevent rerouting to China",
-          "published": "2026-10-28T15:51:24+00:00",
-          "score": 49.0,
-          "headline": "Malaysia Seizes $12.2M AI Chip Shipment... Export Control Violation Suspected"
-        },
-        {
-          "id": "c28da6337765cc3d",
-          "title": "Indian AI Firm Seeks $3 Billion Financing for Nvidia Chips Order",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-30/indian-ai-firm-seeks-3-billion-financing-for-nvidia-chips-order",
-          "source": "Bloomberg Technology",
-          "summary": "Indian AI infrastructure firm AM Intelligence is seeking to raise as much as $3 billion to fund a previously announced purchase of Nvidia Corp.\u2019s next-generation chips, according to people familiar with the matter, the latest sign that the technology\u2019s boom is driving a debt binge.",
-          "published": "2026-10-30T01:34:10+00:00",
-          "score": 46.0,
-          "headline": "INDIAN AI FIRM SEEKS $3B TO FUND NVIDIA CHIP ORDER"
-        },
-        {
-          "id": "40c9d5abc03375da",
-          "title": "China's new export curbs draw a line around its AI crown jewels",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-new-export-curbs-draw-a-line-around-its-ai-crown-jewels/articleshow/135289950.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The draft rules, released on October 16, distinguish between foreign customers using Chinese AI services and foreign companies obtaining the models, data or expertise needed to operate or reproduce them independently.",
-          "published": "2026-10-29T04:25:01+00:00",
-          "score": 44.0,
-          "headline": "CHINA DRAWS LINE Around AI Crown Jewels With Export Curbs"
-        },
-        {
-          "id": "f19ecfe84df997c5",
-          "title": "US DOJ is inquiring about Nvidia's purchase of Hugging Face",
-          "url": "https://economictimes.indiatimes.com/tech/technology/us-doj-is-inquiring-about-nvidias-purchase-of-hugging-face/articleshow/135287206.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The Justice Department's recent questioning covers Nvidia's acquisitions, investments, sales practices, and whether the chip designer has exerted pressure on its customers, the two people said.",
-          "published": "2026-10-29T02:47:26+00:00",
-          "score": 43.0,
-          "headline": "DOJ PROBES Nvidia's Hugging Face Purchase"
-        },
-        {
-          "id": "8951346db9e9d5fc",
-          "title": "China\u2019s CXMT will make AI memory despite yields as low as 20%, Reuters says",
-          "url": "https://thenextweb.com/news/cxmt-hbm3e-ai-memory-low-yields-reuters",
-          "source": "The Next Web",
-          "summary": "China\u2019s biggest memory chipmaker, CXMT, plans to start making HBM3E, an advanced memory used in AI chips, even though only 20% to 30% of the chips it makes are usable. Two people familiar with the matter told Reuters, which reported the details on Wednesday, 28 October. TNW has not independently verified the report. CXMT has [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-28T20:04:49+00:00",
-          "score": 43.0,
-          "headline": "China's CXMT to Make AI Memory Despite 20% Yields"
-        }
-      ],
-      "top_score": 49.0,
-      "story_count": 6
-    },
-    {
       "topic": "Google AI Products & Market Crisis",
       "description": "Google's major AI product launches (Gemini 4, Genie 4) coincided with massive stock collapse and investor concerns about AI monetization and spending.",
       "stories": [
@@ -145,9 +77,107 @@
       ],
       "top_score": 50.0,
       "story_count": 7
+    },
+    {
+      "topic": "AI Chip Geopolitics & Export Controls",
+      "description": "Growing tensions around AI chip supply chains with Chinese spy plots, export violations, and companies navigating chip shortages amid geopolitical restrictions.",
+      "stories": [
+        {
+          "id": "804bc5d490b80e76",
+          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+          "source": "TechCrunch AI",
+          "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+          "published": "2026-10-29T16:42:32+00:00",
+          "score": 49.0,
+          "headline": "US PROBED CHINESE SPY PLOT Targeting Nvidia CEO"
+        },
+        {
+          "id": "57310806e424289d",
+          "title": "Malaysia intercepted $12.2 million shipment of servers with AI chips suspected of violating export controls",
+          "url": "https://fortune.com/2026/10/28/malaysia-intercepted-ai-chips-shipment-export-controls-china/",
+          "source": "Fortune Tech",
+          "summary": "Malaysia introduced permit requirements for shipping AI chips of U.S. origin last year, under pressure from the U.S. to prevent rerouting to China",
+          "published": "2026-10-28T15:51:24+00:00",
+          "score": 49.0,
+          "headline": "Malaysia Seizes $12.2M AI Chip Shipment... Export Control Violation Suspected"
+        },
+        {
+          "id": "2804e5319d9a5ac9",
+          "title": "OpenAI\u2019s Altman Meets Samsung Executives as Chip Crunch Deepens",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-31/openai-sam-altman-samsung-executives-memory-crunch-deepens",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI Chief Executive Officer Sam Altman met with Samsung Group\u2019s top executives in South Korea on Saturday to deepen cooperation on memory chips and AI infrastructure as global shortages intensify.",
+          "published": "2026-10-31T06:40:29+00:00",
+          "score": 46.0,
+          "headline": "OPENAI'S ALTMAN MEETS SAMSUNG EXECS AS AI CHIP CRUNCH DEEPENS"
+        },
+        {
+          "id": "c28da6337765cc3d",
+          "title": "Indian AI Firm Seeks $3 Billion Financing for Nvidia Chips Order",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/indian-ai-firm-seeks-3-billion-financing-for-nvidia-chips-order",
+          "source": "Bloomberg Technology",
+          "summary": "Indian AI infrastructure firm AM Intelligence is seeking to raise as much as $3 billion to fund a previously announced purchase of Nvidia Corp.\u2019s next-generation chips, according to people familiar with the matter, the latest sign that the technology\u2019s boom is driving a debt binge.",
+          "published": "2026-10-30T01:34:10+00:00",
+          "score": 46.0,
+          "headline": "INDIAN AI FIRM SEEKS $3B TO FUND NVIDIA CHIP ORDER"
+        },
+        {
+          "id": "40c9d5abc03375da",
+          "title": "China's new export curbs draw a line around its AI crown jewels",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-new-export-curbs-draw-a-line-around-its-ai-crown-jewels/articleshow/135289950.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The draft rules, released on October 16, distinguish between foreign customers using Chinese AI services and foreign companies obtaining the models, data or expertise needed to operate or reproduce them independently.",
+          "published": "2026-10-29T04:25:01+00:00",
+          "score": 44.0,
+          "headline": "CHINA DRAWS LINE Around AI Crown Jewels With Export Curbs"
+        },
+        {
+          "id": "07898c017b3be767",
+          "title": "Sam Altman meets Samsung\u2019s presidents days after his DRAM remark",
+          "url": "https://thenextweb.com/news/sam-altman-dram-samsung-presidents-cheeky-pint",
+          "source": "The Next Web",
+          "summary": "Samsung hosted OpenAI chief executive Sam Altman for talks with about 50 of its presidents on Saturday. Two days earlier, a podcast went out in which Sam Altman said it is \u201cquite terrible\u201d for the world\u2019s limited DRAM to sit in people\u2019s own computers. DRAM is the memory chip Samsung makes. Samsung set out the [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-31T12:03:14+00:00",
+          "score": 43.0,
+          "headline": "SAM ALTMAN MEETS SAMSUNG CHIEFS AFTER DRAM CRITIQUE"
+        },
+        {
+          "id": "f19ecfe84df997c5",
+          "title": "US DOJ is inquiring about Nvidia's purchase of Hugging Face",
+          "url": "https://economictimes.indiatimes.com/tech/technology/us-doj-is-inquiring-about-nvidias-purchase-of-hugging-face/articleshow/135287206.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The Justice Department's recent questioning covers Nvidia's acquisitions, investments, sales practices, and whether the chip designer has exerted pressure on its customers, the two people said.",
+          "published": "2026-10-29T02:47:26+00:00",
+          "score": 43.0,
+          "headline": "DOJ PROBES Nvidia's Hugging Face Purchase"
+        }
+      ],
+      "top_score": 49.0,
+      "story_count": 7
     }
   ],
   "unclustered": [
+    {
+      "id": "05b8a9f5907e55fb",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "DeepMind Blog",
+      "summary": "",
+      "published": "2026-10-28T17:00:58+00:00",
+      "score": 50.0,
+      "headline": "GOOGLE DROPS GEMINI 4 CARBON... NEXT FRONTIER MODEL"
+    },
+    {
+      "id": "3b83c0d70d08942c",
+      "title": "A Claude agent ran inside a Pentagon network for two months, WIRED reports",
+      "url": "https://thenextweb.com/news/accenture-contractor-claude-agent-pentagon-network-wired",
+      "source": "The Next Web",
+      "summary": "An Accenture contractor connected a sensitive Pentagon system to their personal Claude Code account. The AI agent then ran on a Defense Department network for two months, Vittoria Elliott reported for WIRED on Thursday 29 October, citing sources. The agent appears to have sent login credentials and a network map to a high-risk website, the [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-31T11:15:07+00:00",
+      "score": 47.0,
+      "headline": "PENTAGON DEPLOYS CLAUDE AGENT... SECURITY BREACH ROCKS DOD"
+    },
     {
       "id": "213530535d276c52",
       "title": "Canada, Nvidia Back Cohere at Over $20 Billion Valuation",
@@ -207,6 +237,16 @@
       "published": "2026-10-28T21:58:32+00:00",
       "score": 47.0,
       "headline": "MICROSOFT REVEALS Azure Revenue: $33.2B... Closing on AWS"
+    },
+    {
+      "id": "0071adadbf072bbf",
+      "title": "An AI Agent Injected Drugs Into a Live Mouse\u2019s Brain",
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "source": "Wired",
+      "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+      "published": "2026-10-31T10:00:00+00:00",
+      "score": 46.0,
+      "headline": "AI AGENT INJECTS GENE THERAPY INTO LIVE MOUSE BRAIN"
     },
     {
       "id": "8668c2e4732f8c7c",
@@ -279,6 +319,26 @@
       "headline": "AI MATHS BREAKTHROUGH Threatens Global Encryption"
     },
     {
+      "id": "f1487175a5fc56a4",
+      "title": "Trump declares robot imports a national security threat",
+      "url": "https://thenextweb.com/news/trump-robot-imports-national-security-section-232",
+      "source": "The Next Web",
+      "summary": "US President Donald Trump has ordered trade talks on robot imports. A Commerce Department investigation found that foreign-made robots and industrial machinery threaten national security. He signed the proclamation on Wednesday 28 October. It sets no tariffs for now. The proclamation uses Section 232 of the Trade Expansion Act of 1962. The law lets the [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-31T10:10:27+00:00",
+      "score": 45.0,
+      "headline": "TRUMP DECLARES ROBOT IMPORTS NATIONAL SECURITY THREAT"
+    },
+    {
+      "id": "8bdc1d3d9ec7a6e4",
+      "title": "Google launches Gemini 4 Carbon with a \u2018significant leap\u2019 in cybersecurity",
+      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "source": "The Verge AI",
+      "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over [&#8230;]",
+      "published": "2026-10-28T20:03:00+00:00",
+      "score": 45.0,
+      "headline": "GOOGLE LAUNCHES GEMINI 4 CARBON: Major Leap in Cybersecurity"
+    },
+    {
       "id": "12bc8c3d95780deb",
       "title": "Anthropic Weighs Offering 15%-20% of IPO to Retail Investors",
       "url": "https://www.bloomberg.com/news/videos/2026-10-28/anthropic-said-to-pick-jpmorgan-to-lead-ipo-video",
@@ -309,14 +369,14 @@
       "headline": "UK TOP JUDGE: AI Should Decide Court Cases"
     },
     {
-      "id": "ca454b17aa62e34b",
-      "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
-      "url": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "ChatGPT maker is now seeking about $20bn at a $1.25tn valuation as it tempers its ambitions",
-      "published": "2026-10-31T00:05:08+00:00",
-      "score": 44.0,
-      "headline": "BREAKING: OpenAI Slashes Funding Target $10B to $20B"
+      "id": "4a95320836fa6fb3",
+      "title": "AI chip giant SK hynix says quarterly operating profit soars 630%",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-chip-giant-sk-hynix-says-quarterly-operating-profit-soars-630/articleshow/135252393.cms",
+      "source": "The Economic Times Tech",
+      "summary": "South Korean chip giant SK hynix said Wednesday its third-quarter operating profit soared 632 percent on-year, largely driven by the artificial intelligence industry's explosive demand for its advanced memory chips. The memory chip giant said it had posted record revenue and operating profit for six straight quarters since the second quarter of last year.",
+      "published": "2026-10-28T04:45:52+00:00",
+      "score": 45.0,
+      "headline": "SK Hynix Profit SOARS 630% on AI Chip Demand"
     },
     {
       "id": "741b79c3e66cc000",
@@ -389,14 +449,24 @@
       "headline": "Jio Adds $36B After India's Biggest IPO Ever"
     },
     {
-      "id": "0b0e853b9837d451",
-      "title": "OpenAI Funding Target Cut by $10 Billion as AI Slumps, FT Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-31/openai-funding-goal-cut-by-10-billion-as-ai-stocks-dip-ft-says",
-      "source": "Bloomberg Technology",
-      "summary": "OpenAI has cut its fundraising target by $10 billion as an AI stock selloff and rival Anthropic PBC\u2019s impending public listing complicate its efforts to secure investor commitments, the Financial Times reported.",
-      "published": "2026-10-31T04:00:40+00:00",
+      "id": "7ab438a93b461edc",
+      "title": "Samsung keeps shattering profit records as AI boom lifts chip demand",
+      "url": "https://economictimes.indiatimes.com/tech/technology/samsung-keeps-shattering-profit-records-as-ai-boom-lifts-chip-demand/articleshow/135289645.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Revenue for the July-September period rose to an all-time high at 195.3 trillion won (USD 146 billion), marking the company's fourth straight quarter of record profit and revenue.",
+      "published": "2026-10-29T04:16:40+00:00",
+      "score": 44.0,
+      "headline": "Samsung Shatters Records as AI Boom Lifts Chip Demand"
+    },
+    {
+      "id": "73d98880d86258f3",
+      "title": "Spooky New Infostealer Malware Uses AI to \u2018Autodox\u2019 Victims",
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "source": "Wired",
+      "summary": "Named \u201cVolta-Autodoxer,\u201d the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+      "published": "2026-10-31T12:00:00+00:00",
       "score": 43.0,
-      "headline": "OPENAI SLASHES FUNDING TARGET BY $10B... AI Bubble Fears Mount"
+      "headline": "NEW AI-POWERED MALWARE 'AUTODOXES' VICTIMS"
     },
     {
       "id": "ddc37ba70c3eac1c",
@@ -429,6 +499,16 @@
       "headline": "Korean AI Chip Startup Furiosa Hits $2.9B Valuation"
     },
     {
+      "id": "8951346db9e9d5fc",
+      "title": "China\u2019s CXMT will make AI memory despite yields as low as 20%, Reuters says",
+      "url": "https://thenextweb.com/news/cxmt-hbm3e-ai-memory-low-yields-reuters",
+      "source": "The Next Web",
+      "summary": "China\u2019s biggest memory chipmaker, CXMT, plans to start making HBM3E, an advanced memory used in AI chips, even though only 20% to 30% of the chips it makes are usable. Two people familiar with the matter told Reuters, which reported the details on Wednesday, 28 October. TNW has not independently verified the report. CXMT has [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-28T20:04:49+00:00",
+      "score": 43.0,
+      "headline": "China's CXMT to Make AI Memory Despite 20% Yields"
+    },
+    {
       "id": "abf65ccc4a3949cf",
       "title": "Physical Intelligence in talks at a $20bn valuation, Bloomberg reports",
       "url": "https://thenextweb.com/news/physical-intelligence-20bn-valuation-talks-bloomberg",
@@ -457,6 +537,36 @@
       "published": "2026-10-28T05:00:06+00:00",
       "score": 43.0,
       "headline": "Anthropic Founders Tighten Control Before BLOCKBUSTER IPO"
+    },
+    {
+      "id": "69e40ba23242b1b0",
+      "title": "Anthropic denies breach as tampered Claude Code extension hits Cursor users",
+      "url": "https://thenextweb.com/news/tampered-claude-code-extension-cursor-ssh-backdoor",
+      "source": "The Next Web",
+      "summary": "A tampered copy of Anthropic\u2019s Claude Code extension sat in Cursor\u2019s extension marketplace for about 11 hours on Thursday 29 October. It reached up to 5,000 users. The malicious versions tried to plant an SSH backdoor on developers\u2019 machines, Cursor said in a security notice. Anthropic says nobody breached its own systems. A security firm [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-31T11:27:53+00:00",
+      "score": 42.0,
+      "headline": "MALICIOUS CLAUDE EXTENSION HITS 5,000 CURSOR USERS"
+    },
+    {
+      "id": "6a138c5d94321b45",
+      "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+      "url": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only after deterministic validators successfully reproduce the exploit against a running application. By Renato Losio",
+      "published": "2026-10-31T06:20:00+00:00",
+      "score": 42.0,
+      "headline": "GOOGLE'S AI AGENT FINDS 500+ SECURITY BUGS"
+    },
+    {
+      "id": "a36d74d6a91ef69c",
+      "title": "North Korean hackers linked to crypto thefts among world's best, experts say",
+      "url": "https://economictimes.indiatimes.com/tech/technology/north-korean-hackers-linked-to-crypto-thefts-among-worlds-best-experts-say/articleshow/135391045.cms",
+      "source": "The Economic Times Tech",
+      "summary": "Blockchain investigation firms TRM Labs and Chainalysis attribute the heist to a North Korean hacking group known as \"TraderTraitor,\" a name used in a 2022 joint warning from the FBI, CISA and US Treasury that described how hackers used malicious software and other tricks to target software developers and IT staff at cryptocurrency companies.",
+      "published": "2026-10-31T06:18:03+00:00",
+      "score": 42.0,
+      "headline": null
     },
     {
       "id": "dfd2f32dc2a3562e",
@@ -849,6 +959,36 @@
       "headline": "AI-Generated Content RESHAPES 5M+ Web Pages in Under 5 Years"
     },
     {
+      "id": "75f1c40705631871",
+      "title": "Sam Altman is upset at you for hoarding RAM in your own computer",
+      "url": "https://www.engadget.com/2303266/sam-altman-says-its-terrible-dram-computer/",
+      "source": "Engadget",
+      "summary": "Sam Altman, in an interview, said it's 'terrible' for people to have 'a bunch of the world's limited supply of DRAM' that they barely use.",
+      "published": "2026-10-31T15:07:10+00:00",
+      "score": 40.0,
+      "headline": "SAM ALTMAN UPSET: Stop Hoarding RAM in Your Computer"
+    },
+    {
+      "id": "46b36ba0858eea0f",
+      "title": "Google, Microsoft, OpenAI and Anthropic back one AI training opt-out",
+      "url": "https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic",
+      "source": "The Next Web",
+      "summary": "Google, Microsoft, OpenAI and Anthropic will honour one shared AI training opt-out in robots.txt. It lets a website keep its content out of generative AI training with a single rule. Today, a site that wants to say no has to write separate rules for each company\u2019s crawler. The shared signal comes from an IETF draft [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-31T12:24:36+00:00",
+      "score": 40.0,
+      "headline": "GOOGLE, MICROSOFT, OPENAI BACK SHARED AI OPT-OUT"
+    },
+    {
+      "id": "f7563ac7cc885221",
+      "title": "Nvidia in talks to guarantee debt for Nscale\u2019s Anthropic data centre",
+      "url": "https://thenextweb.com/news/nvidia-nscale-anthropic-data-centre-debt-guarantee",
+      "source": "The Next Web",
+      "summary": "Nvidia is in talks to guarantee billions of dollars of debt for Nscale, the UK AI cloud company. The money would build a West Virginia data centre that Anthropic plans to use. Phoebe Liu first reported the talks for The Information on Thursday 29 October. The deal is not signed, and its terms could still [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-31T10:23:26+00:00",
+      "score": 40.0,
+      "headline": "NVIDIA GUARANTEES BILLIONS FOR ANTHROPIC DATA CENTER"
+    },
+    {
       "id": "4660ca57c5766f46",
       "title": "S&amp;P Global revises outlook on Meta to negative on cashflow concerns",
       "url": "https://economictimes.indiatimes.com/tech/technology/sp-global-revises-outlook-on-meta-to-negative-on-cashflow-concerns/articleshow/135385073.cms",
@@ -857,157 +997,7 @@
       "published": "2026-10-31T02:39:45+00:00",
       "score": 40.0,
       "headline": "S&P DOWNGRADES META OUTLOOK... AI Spending Crushes Cash Flow"
-    },
-    {
-      "id": "a632ab5dce4d9731",
-      "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-      "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
-      "published": "2026-10-31T02:12:19+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "1cd71530fd14c011",
-      "title": "S&P turns negative on Meta as AI spending eats into its cash",
-      "url": "https://thenextweb.com/news/meta-sp-outlook-negative-ai-spending",
-      "source": "The Next Web",
-      "summary": "S&amp;P lowered the outlook on Meta\u2019s AA- credit rating to negative from stable, citing heavy AI spending. It expects Meta\u2019s leverage to rise above 1.0x as soon as 2027, from about 0.1x last year. Meta says it disagrees. S&amp;P Global Ratings has cut its outlook on Meta\u2019s AA- credit rating to negative from stable, warning [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-30T22:51:07+00:00",
-      "score": 40.0,
-      "headline": "S&P Downgrades Meta Outlook as AI Spending Crushes Balance Sheet"
-    },
-    {
-      "id": "c98c0e8e486bc001",
-      "title": "Amazon can now borrow up to $80B against the AI hardware it buys",
-      "url": "https://thenextweb.com/news/amazon-80b-supplier-loan-facility-ai-hardware",
-      "source": "The Next Web",
-      "summary": "Amazon has set up a supplier financing facility to borrow up to $80B against the hardware it buys, usable from 2027 to late 2028. It had a $42.4B free cash outflow in the year to September, and its spending commitments reached $883B. Amazon has set up a loan facility that lets it borrow up to [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-30T22:32:26+00:00",
-      "score": 40.0,
-      "headline": "Amazon Secures $80B Credit Line Against AI Hardware Purchases"
-    },
-    {
-      "id": "47421af63594f7b3",
-      "title": "Meta\u2019s Rating Outlook Cut to Negative by S&P on AI Spending",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-30/meta-s-credit-rating-outlook-downgraded-to-negative-by-s-p",
-      "source": "Bloomberg Technology",
-      "summary": "S&amp;P Global Ratings took an early step toward potentially downgrading Meta Platforms Inc.\u2019s credit rating within the next two years, amid growing pressure on the tech company\u2019s balance sheet stemming from elevated spending tied to artificial intelligence.",
-      "published": "2026-10-30T21:56:00+00:00",
-      "score": 40.0,
-      "headline": "Meta Rating Outlook Cut to Negative on AI Spending Spiral"
-    },
-    {
-      "id": "d12607a6e4746ac3",
-      "title": "Anthropic expected to receive high \u2018junk\u2019 rating from credit agencies following IPO, FT report says",
-      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-      "source": "TechCrunch AI",
-      "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
-      "published": "2026-10-30T21:52:03+00:00",
-      "score": 40.0,
-      "headline": "Anthropic Expected to Get 'Junk' Rating After IPO"
-    },
-    {
-      "id": "d2ae3dfb1d7fd7f4",
-      "title": "Cracks are emerging in the AI spending boom",
-      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
-      "source": "TechCrunch AI",
-      "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
-      "published": "2026-10-30T21:17:40+00:00",
-      "score": 40.0,
-      "headline": "CRACKS EMERGE in AI Spending Boom... Debt and Doubts Mount"
-    },
-    {
-      "id": "22e8c569cc060b0a",
-      "title": "Sam Altman says it\u2019s better for RAM to be in a data center than on your desk",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
-      "source": "The Verge AI",
-      "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lot of people want [&#8230;]",
-      "published": "2026-10-30T20:48:43+00:00",
-      "score": 40.0,
-      "headline": "ALTMAN: RAM Should Be in Data Centers, Not Your PC"
-    },
-    {
-      "id": "e54bc6e56e86cb43",
-      "title": "Cognizant puts 25,000 staff behind OpenAI, days after a Gemini push",
-      "url": "https://thenextweb.com/news/cognizant-openai-frontier-capability-group-25000",
-      "source": "The Next Web",
-      "summary": "Cognizant formed an OpenAI Frontier Capability Group of more than 25,000 staff to deploy Codex and ChatGPT for clients. It will focus on software engineering, updating old systems and customer service. The move comes 11 days after Cognizant put 18,000 staff behind Google\u2019s Gemini. Cognizant has formed a group of more than 25,000 staff to [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-30T18:15:18+00:00",
-      "score": 40.0,
-      "headline": "Cognizant Deploys 25,000 Staff on OpenAI After Gemini Push"
-    },
-    {
-      "id": "7906a744806560d3",
-      "title": "MecAgent (AI agent for SolidWorks) scans drives for CAD files and uploads them",
-      "url": "https://www.reddit.com/r/SolidWorks/comments/1xjhrvz/psa_mecagent_ai_agent_for_solidworks_scans_your/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.reddit.com/r/SolidWorks/comments/1xjhrvz/psa_mecagent_ai_agent_for_solidworks_scans_your/ Comments URL: https://news.ycombinator.com/item?id=50307597 Points: 3 # Comments: 0",
-      "published": "2026-10-30T17:50:43+00:00",
-      "score": 40.0,
-      "headline": "MECAGENT AI SCANS DRIVES, UPLOADS CAD FILES WITHOUT CONSENT"
-    },
-    {
-      "id": "d8859e68e122bb25",
-      "title": "Reddit CEO admits Google's AI Mode is choking off its search traffic",
-      "url": "https://twitter.com/kouhxp/status/2116218737237840261",
-      "source": "Hacker News",
-      "summary": "Article URL: https://twitter.com/kouhxp/status/2116218737237840261 Comments URL: https://news.ycombinator.com/item?id=50307137 Points: 4 # Comments: 2",
-      "published": "2026-10-30T17:22:21+00:00",
-      "score": 40.0,
-      "headline": "REDDIT CEO: Google's AI Mode Choking Off Search Traffic"
-    },
-    {
-      "id": "f872887276430b7c",
-      "title": "Proton to re-interview staff on AI, with jobs at stake, 404 Media reports",
-      "url": "https://thenextweb.com/news/proton-ai-re-interviews-staff-andy-yen-404-media",
-      "source": "The Next Web",
-      "summary": "Proton, the Swiss company behind Proton Mail, will \u201cre-interview\u201d some of its staff about how they use AI at work. The results may affect who keeps their job. Internal messages show chief executive Andy Yen telling engineers to stop hand-writing code and use AI instead, 404 Media reported. Joseph Cox revealed the plan for 404 [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-30T16:50:56+00:00",
-      "score": 40.0,
-      "headline": "PROTON TO 'RE-INTERVIEW' STAFF ON AI USE... Jobs at Stake"
-    },
-    {
-      "id": "07d0c0a8a56d53b4",
-      "title": "Anthropic spent $2.75m guarding Dario Amodei, four times his salary",
-      "url": "https://thenextweb.com/news/dario-amodei-security-cost-philanthropy-pledge-anthropic-ipo",
-      "source": "The Next Web",
-      "summary": "Anthropic spent $2,745,874 on personal security for chief executive Dario Amodei in 2025, more than four times his $654,167 salary. The figure is in the company\u2019s IPO filing. The filing also says its co-founders\u2019 pledge to give away 80% of their stakes is not legally binding. Bilin Lin first highlighted the security costs for Fortune, [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-30T16:28:53+00:00",
-      "score": 40.0,
-      "headline": "Anthropic Spent $2.75M Guarding CEO Amodei... IPO Filing Reveals"
-    },
-    {
-      "id": "1eed2fdadd1e756d",
-      "title": "Binance\u2019s $6.3 Billion Cyber Heist Shows Crypto Vulnerabilities",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-30/binance-s-6-3b-cyber-heist-shows-crypto-vulnerabilities-video",
-      "source": "Bloomberg Technology",
-      "summary": "Binance, the world\u2019s largest cryptocurrency exchange, has suffered the industry\u2019s biggest-ever hack, with $6.3 billion worth of funds affected and $3 billion in crypto frozen. The company will cover all losses and \u201cuser funds are safe,\u201d it said, and withdrawals are expected to resume by Sunday as it works with law enforcement and completes a security revamp. Bloomberg's Emily Nicolle joins to discuss. (Source: Bloomberg)",
-      "published": "2026-10-30T16:23:47+00:00",
-      "score": 40.0,
-      "headline": null
-    },
-    {
-      "id": "dce453b29e9cfde6",
-      "title": "Did Anthropic value itself at $1.2tn in August?",
-      "url": "https://www.ft.com/content/60fb40ed-f1bf-416e-982b-1b9b80582ab4",
-      "source": "Financial Times Tech",
-      "summary": "Not quite Navier-Stokes",
-      "published": "2026-10-30T12:36:54+00:00",
-      "score": 40.0,
-      "headline": "ANTHROPIC VALUED ITSELF AT $1.2 TRILLION IN AUGUST?"
-    },
-    {
-      "id": "f63e60c3f4240863",
-      "title": "Big Tech\u2019s $750 Billion AI Bet Collides With Slowing Core Growth",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-30/big-tech-s-750-billion-ai-bet-collides-with-slowing-core-growth",
-      "source": "Bloomberg Technology",
-      "summary": "The core businesses of America\u2019s technology giants \u2014 the advertising, consumer and retail machines propping up a collective $750 billion in AI spending this year \u2014 are starting to show signs of slowing. In some cases, they\u2019re being cannibalized by the very technology the firms are betting the house on.",
-      "published": "2026-10-30T01:43:55+00:00",
-      "score": 40.0,
-      "headline": "BIG TECH'S $750B AI BET COLLIDES WITH SLOWING CORE GROWTH"
     }
   ],
-  "generated_at": "2026-10-31T06:08:49.661640"
+  "generated_at": "2026-10-31T18:07:53.968015"
 }
