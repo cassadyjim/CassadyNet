@@ -1,175 +1,145 @@
 {
   "polls": [
     {
-      "topic": "Google AI Products & Market Crisis",
-      "description": "Google's major AI product launches (Gemini 4, Genie 4) coincided with massive stock collapse and investor concerns about AI monetization and spending.",
-      "question": "Is Google's massive AI spending strategic investment or reckless overspending?",
-      "button_a": "Investment",
-      "button_b": "Overspending",
-      "poll_id": "google-ai-products-market-crisis-20261030",
-      "analysis_url": "/analysis/analysis-google-ai-products-market-crisis-20261031.html",
+      "topic": "AI Security Breaches",
+      "description": "Multiple major security incidents including Pentagon Claude deployment breach and Anthropic developer tool compromise expose critical AI security vulnerabilities.",
+      "question": "Who bears more responsibility for these AI security breaches?",
+      "button_a": "AI Companies",
+      "button_b": "Users/Contractors",
+      "poll_id": "ai-security-breaches-20261101",
+      "analysis_url": "/analysis/analysis-ai-security-breaches-20261101.html",
       "analysis_type": "poll",
-      "created_at": "2026-10-30T18:08:54.583305",
-      "last_seen": "2026-10-31T18:08:31.951375",
+      "created_at": "2026-11-01T06:10:13.294966",
+      "last_seen": "2026-11-01T06:10:33.746780",
       "cluster_stories": [
         {
-          "id": "05b8a9f5907e55fb",
-          "title": "Gemini 4 Carbon: Our next frontier model",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-          "source": "DeepMind Blog",
-          "summary": "",
-          "published": "2026-10-28T17:00:58+00:00",
-          "score": 50.0,
-          "headline": "GOOGLE DROPS GEMINI 4 CARBON... NEXT FRONTIER MODEL"
+          "id": "3b83c0d70d08942c",
+          "title": "A Claude agent ran inside a Pentagon network for two months, WIRED reports",
+          "url": "https://thenextweb.com/news/accenture-contractor-claude-agent-pentagon-network-wired",
+          "source": "The Next Web",
+          "summary": "An Accenture contractor connected a sensitive Pentagon system to their personal Claude Code account. The AI agent then ran on a Defense Department network for two months, Vittoria Elliott reported for WIRED on Thursday 29 October, citing sources. The agent appears to have sent login credentials and a network map to a high-risk website, the [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-31T11:15:07+00:00",
+          "score": 47.0,
+          "headline": "PENTAGON DEPLOYS CLAUDE AGENT... SECURITY BREACH ROCKS DOD"
         },
         {
-          "id": "39155253f5851c22",
-          "title": "Genie 4: A new generation of world simulation",
-          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-          "source": "DeepMind Blog",
-          "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-          "published": "2026-10-27T16:01:38+00:00",
+          "id": "143c5bd0ebf99d06",
+          "title": "Anthropic hacked to deliver remote access trojan to Claude developer laptops",
+          "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2?postPublishedType=initial",
+          "source": "Hacker News",
+          "summary": "Article URL: https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2?postPublishedType=initial Comments URL: https://news.ycombinator.com/item?id=50307475 Points: 4 # Comments: 2",
+          "published": "2026-10-30T17:43:30+00:00",
           "score": 46.0,
-          "headline": "GENIE 4 RELEASED: DeepMind's Next-Gen World Simulator"
+          "headline": "ANTHROPIC HACKED: TROJAN DELIVERED TO CLAUDE DEVELOPERS WORLDWIDE"
         },
         {
-          "id": "d56cec35d68f7d0a",
-          "title": "Alphabet shares fall 12% after Google says AI Mode searches earn less",
-          "url": "https://thenextweb.com/news/alphabet-shares-fall-google-ai-mode-search-ads",
-          "source": "The Next Web",
-          "summary": "By 9:35am in New York on Thursday, Alphabet had lost $511bn in market value, Julia Love and Davey Alba reported for Bloomberg. The shares were down more than 12%. It was the company\u2019s biggest market value loss on record. A close more than 9.77% lower would be Alphabet\u2019s worst reaction to results since its 2004 [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-29T17:11:59+00:00",
-          "score": 45.0,
-          "headline": "GOOGLE LOSES $511B: AI Mode Searches Earn LESS"
+          "id": "0697c0d6577e4ad4",
+          "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+          "source": "Ars Technica AI",
+          "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+          "published": "2026-10-30T21:09:54+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC CURSOR EXTENSION BACKDOORED for 12 Hours"
         },
         {
-          "id": "cfc6ca2646e42c21",
-          "title": "Google Erases a Record $500 Billion as AI Eats Into Sales",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-29/google-erases-a-record-500b-as-ai-eats-into-sales-video",
-          "source": "Bloomberg Technology",
-          "summary": "Alphabet Inc.\u2019s shares fell more than 13%, erasing more than $500 billion in its biggest-ever market plunge, after the company reported disappointing search and advertising sales that reinforced investor concerns about AI\u2019s threat to its core business. Bloomberg's Mandeep Singh joins to discuss this as well as the possible Marvell and Lumentum Holdings deal as well as DoorDash buying Instacart. (Source: Bloomberg)",
-          "published": "2026-10-29T17:08:07+00:00",
-          "score": 45.0,
-          "headline": "GOOGLE ERASES $500B IN SINGLE DAY... AI BACKFIRE"
-        },
-        {
-          "id": "8bdc1d3d9ec7a6e4",
-          "title": "Google launches Gemini 4 Carbon with a \u2018significant leap\u2019 in cybersecurity",
-          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
-          "source": "The Verge AI",
-          "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over [&#8230;]",
-          "published": "2026-10-28T20:03:00+00:00",
-          "score": 45.0,
-          "headline": "GOOGLE LAUNCHES GEMINI 4 CARBON: Major Leap in Cybersecurity"
-        },
-        {
-          "id": "028c0eba91ea1a49",
-          "title": "Alphabet\u2019s AI commitments pass $1tn, its quarterly filing shows",
-          "url": "https://thenextweb.com/news/alphabet-commitments-1tn-ai-agents-10-q",
-          "source": "The Next Web",
-          "summary": "Alphabet\u2019s quarterly filing, published on Thursday, puts its future payments for computing, energy and data centres at more than $1tn. These Alphabet commitments do not appear on its balance sheet, the filing says. Davey Alba reported the figures for Bloomberg. Chief financial officer Anat Ashkenazi had given the $1tn-plus total on Wednesday\u2019s earnings call, Bloomberg [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-29T17:16:37+00:00",
+          "id": "ddc37ba70c3eac1c",
+          "title": "How a Contractor\u2019s Claude Agent Got Into the Pentagon",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+          "source": "Wired",
+          "summary": "This week on Uncanny Valley, we also discuss Anthropic\u2019s IPO filing and the volunteers gearing up to counter ICE at the midterms.",
+          "published": "2026-10-30T21:19:26+00:00",
           "score": 43.0,
-          "headline": "ALPHABET'S AI SPENDING HITS $1 TRILLION"
+          "headline": "PENTAGON DEPLOYS CLAUDE AGENT... How Contractor Got AI Inside"
         },
         {
-          "id": "3ddb9b3e3bda7311",
-          "title": "Google\u2019s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
-          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-          "source": "TechCrunch AI",
-          "summary": "Google DeepMind released Genie 4, a world model with real-time audio, more realistic simulations, and mid-simulation text prompts, in research preview for trusted testers.",
-          "published": "2026-10-27T16:30:57+00:00",
-          "score": 43.0,
-          "headline": "Google's Genie 4 World Model Adds Real-Time Audio & Steering"
+          "id": "69e40ba23242b1b0",
+          "title": "Anthropic denies breach as tampered Claude Code extension hits Cursor users",
+          "url": "https://thenextweb.com/news/tampered-claude-code-extension-cursor-ssh-backdoor",
+          "source": "The Next Web",
+          "summary": "A tampered copy of Anthropic\u2019s Claude Code extension sat in Cursor\u2019s extension marketplace for about 11 hours on Thursday 29 October. It reached up to 5,000 users. The malicious versions tried to plant an SSH backdoor on developers\u2019 machines, Cursor said in a security notice. Anthropic says nobody breached its own systems. A security firm [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-31T11:27:53+00:00",
+          "score": 42.0,
+          "headline": "MALICIOUS CLAUDE EXTENSION HITS 5,000 CURSOR USERS"
         }
       ],
-      "current_topic_name": "Google AI Products & Market Crisis"
+      "current_topic_name": "AI Security Breaches"
     },
     {
-      "topic": "AI Chip Trade & Export Controls",
-      "description": "Growing tensions over AI chip exports to China as governments impose restrictions and seize shipments amid the global race for AI hardware dominance.",
-      "question": "Are AI chip export controls protecting security or hindering progress?",
-      "button_a": "Security",
-      "button_b": "Progress",
-      "poll_id": "ai-chip-trade-export-controls-20261029",
-      "analysis_url": "/analysis/analysis-ai-chip-geopolitics-export-controls-20261031.html",
+      "topic": "OpenAI Funding Crisis",
+      "description": "OpenAI's dramatic $10B reduction in fundraising target signals potential AI investment bubble concerns and market cooling.",
+      "question": "Is OpenAI's $10B funding cut a smart correction or a warning sign?",
+      "button_a": "Correction",
+      "button_b": "Sign",
+      "poll_id": "openai-funding-crisis-20261101",
+      "analysis_url": "/analysis/analysis-openai-funding-crisis-20261101.html",
       "analysis_type": "poll",
-      "created_at": "2026-10-29T06:11:44.291385",
-      "last_seen": "2026-10-31T18:08:32.928214",
+      "created_at": "2026-11-01T06:10:31.306445",
+      "last_seen": "2026-11-01T06:10:35.904584",
       "cluster_stories": [
         {
-          "id": "804bc5d490b80e76",
-          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-          "source": "TechCrunch AI",
-          "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
-          "published": "2026-10-29T16:42:32+00:00",
-          "score": 49.0,
-          "headline": "US PROBED CHINESE SPY PLOT Targeting Nvidia CEO"
-        },
-        {
-          "id": "57310806e424289d",
-          "title": "Malaysia intercepted $12.2 million shipment of servers with AI chips suspected of violating export controls",
-          "url": "https://fortune.com/2026/10/28/malaysia-intercepted-ai-chips-shipment-export-controls-china/",
+          "id": "3c48dac0060b69e1",
+          "title": "AI boom hits a wall on Wall Street as OpenAI cuts fundraising target while Meta gets a credit warning over its cash flow, spending and monetization",
+          "url": "https://fortune.com/2026/10/31/ai-boom-bust-openai-fundraising-target-meta-credit-warning-cash-flow-capex/",
           "source": "Fortune Tech",
-          "summary": "Malaysia introduced permit requirements for shipping AI chips of U.S. origin last year, under pressure from the U.S. to prevent rerouting to China",
-          "published": "2026-10-28T15:51:24+00:00",
-          "score": 49.0,
-          "headline": "Malaysia Seizes $12.2M AI Chip Shipment... Export Control Violation Suspected"
+          "summary": "S&#038;P Global cut its outlook on Meta to \"negative\" from \"stable\" late Friday.",
+          "published": "2026-10-31T16:41:35+00:00",
+          "score": 45.0,
+          "headline": "AI BOOM HITS WALL: OpenAI Cuts Fundraising... Meta Gets Credit Warning"
         },
         {
-          "id": "2804e5319d9a5ac9",
-          "title": "OpenAI\u2019s Altman Meets Samsung Executives as Chip Crunch Deepens",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-31/openai-sam-altman-samsung-executives-memory-crunch-deepens",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI Chief Executive Officer Sam Altman met with Samsung Group\u2019s top executives in South Korea on Saturday to deepen cooperation on memory chips and AI infrastructure as global shortages intensify.",
-          "published": "2026-10-31T06:40:29+00:00",
-          "score": 46.0,
-          "headline": "OPENAI'S ALTMAN MEETS SAMSUNG EXECS AS AI CHIP CRUNCH DEEPENS"
-        },
-        {
-          "id": "c28da6337765cc3d",
-          "title": "Indian AI Firm Seeks $3 Billion Financing for Nvidia Chips Order",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-30/indian-ai-firm-seeks-3-billion-financing-for-nvidia-chips-order",
-          "source": "Bloomberg Technology",
-          "summary": "Indian AI infrastructure firm AM Intelligence is seeking to raise as much as $3 billion to fund a previously announced purchase of Nvidia Corp.\u2019s next-generation chips, according to people familiar with the matter, the latest sign that the technology\u2019s boom is driving a debt binge.",
-          "published": "2026-10-30T01:34:10+00:00",
-          "score": 46.0,
-          "headline": "INDIAN AI FIRM SEEKS $3B TO FUND NVIDIA CHIP ORDER"
-        },
-        {
-          "id": "40c9d5abc03375da",
-          "title": "China's new export curbs draw a line around its AI crown jewels",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-new-export-curbs-draw-a-line-around-its-ai-crown-jewels/articleshow/135289950.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The draft rules, released on October 16, distinguish between foreign customers using Chinese AI services and foreign companies obtaining the models, data or expertise needed to operate or reproduce them independently.",
-          "published": "2026-10-29T04:25:01+00:00",
+          "id": "149be8f7454bcbde",
+          "title": "OpenAI reportedly lowers funding target for new round",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "source": "TechCrunch AI",
+          "summary": "OpenAI\u2019s latest funding round doesn't seem to be living up to expectations.",
+          "published": "2026-10-31T16:12:55+00:00",
           "score": 44.0,
-          "headline": "CHINA DRAWS LINE Around AI Crown Jewels With Export Curbs"
+          "headline": "OPENAI LOWERS FUNDING TARGET... Fundraising Round Disappoints"
         },
         {
-          "id": "07898c017b3be767",
-          "title": "Sam Altman meets Samsung\u2019s presidents days after his DRAM remark",
-          "url": "https://thenextweb.com/news/sam-altman-dram-samsung-presidents-cheeky-pint",
+          "id": "a1a8549da830999d",
+          "title": "OpenAI cuts its funding round target to $20bn, FT reports",
+          "url": "https://thenextweb.com/news/openai-funding-round-20bn-target-cut-ft",
           "source": "The Next Web",
-          "summary": "Samsung hosted OpenAI chief executive Sam Altman for talks with about 50 of its presidents on Saturday. Two days earlier, a podcast went out in which Sam Altman said it is \u201cquite terrible\u201d for the world\u2019s limited DRAM to sit in people\u2019s own computers. DRAM is the memory chip Samsung makes. Samsung set out the [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-31T12:03:14+00:00",
-          "score": 43.0,
-          "headline": "SAM ALTMAN MEETS SAMSUNG CHIEFS AFTER DRAM CRITIQUE"
+          "summary": "OpenAI has cut the target for its latest funding round by $10bn, to about $20bn. The Financial Times reported the cut on Friday 30 October, citing people with knowledge of the matter. Some investors reduced their commitments as AI stocks sold off, according to the report. The round values OpenAI at $1.25tn. The company had [&hellip;] This story continues at The Next Web",
+          "published": "2026-10-31T11:38:52+00:00",
+          "score": 44.0,
+          "headline": "OPENAI SLASHES FUNDING TARGET BY $10BN"
         },
         {
-          "id": "f19ecfe84df997c5",
-          "title": "US DOJ is inquiring about Nvidia's purchase of Hugging Face",
-          "url": "https://economictimes.indiatimes.com/tech/technology/us-doj-is-inquiring-about-nvidias-purchase-of-hugging-face/articleshow/135287206.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The Justice Department's recent questioning covers Nvidia's acquisitions, investments, sales practices, and whether the chip designer has exerted pressure on its customers, the two people said.",
-          "published": "2026-10-29T02:47:26+00:00",
+          "id": "ca454b17aa62e34b",
+          "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
+          "url": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "ChatGPT maker is now seeking about $20bn at a $1.25tn valuation as it tempers its ambitions",
+          "published": "2026-10-31T00:05:08+00:00",
+          "score": 44.0,
+          "headline": "BREAKING: OpenAI Slashes Funding Target $10B to $20B"
+        },
+        {
+          "id": "0b0e853b9837d451",
+          "title": "OpenAI Funding Target Cut by $10 Billion as AI Slumps, FT Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-31/openai-funding-goal-cut-by-10-billion-as-ai-stocks-dip-ft-says",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI has cut its fundraising target by $10 billion as an AI stock selloff and rival Anthropic PBC\u2019s impending public listing complicate its efforts to secure investor commitments, the Financial Times reported.",
+          "published": "2026-10-31T04:00:40+00:00",
           "score": 43.0,
-          "headline": "DOJ PROBES Nvidia's Hugging Face Purchase"
+          "headline": "OPENAI SLASHES FUNDING TARGET BY $10B... AI Bubble Fears Mount"
+        },
+        {
+          "id": "dfd2f32dc2a3562e",
+          "title": "OpenAI cuts funding target by $10 billion: FT",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-cuts-funding-target-by-10-billion-ft/articleshow/135384941.cms",
+          "source": "The Economic Times Tech",
+          "summary": "AI startup OpenAI has slashed the target for its latest funding round by $10 billion and is now seeking to raise $20 billion at a $1.25 trillion valuation, the Financial Times",
+          "published": "2026-10-31T02:35:12+00:00",
+          "score": 42.0,
+          "headline": "OPENAI CUTS FUNDING BY $10B as AI Market Wobbles"
         }
       ],
-      "current_topic_name": "AI Chip Geopolitics & Export Controls"
+      "current_topic_name": "OpenAI Funding Crisis"
     }
   ],
-  "last_updated": "2026-10-31T18:08:33.670985"
+  "last_updated": "2026-11-01T06:10:37.077988"
 }
