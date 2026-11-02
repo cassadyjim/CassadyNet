@@ -1,8 +1,8 @@
 {
   "clusters": [
     {
-      "topic": "AI Security Breaches",
-      "description": "Multiple major security incidents including Pentagon Claude deployment breach and Anthropic developer tool compromise expose critical AI security vulnerabilities.",
+      "topic": "AI Security Breaches and Cyberthreats",
+      "description": "Major security incidents including Anthropic's Claude being hacked, North Korean crypto heists, and malicious AI-powered malware highlight growing cybersecurity risks in AI systems.",
       "stories": [
         {
           "id": "3b83c0d70d08942c",
@@ -25,6 +25,26 @@
           "headline": "ANTHROPIC HACKED: TROJAN DELIVERED TO CLAUDE DEVELOPERS WORLDWIDE"
         },
         {
+          "id": "3b58246047dd0bfe",
+          "title": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes",
+          "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+          "source": "Wired",
+          "summary": "Multiple crypto-tracing firms say notorious North Korean hackers TraderTraitor may be behind the largest digital heist in history\u2014with billions of crypto likely gone for good.",
+          "published": "2026-10-30T11:36:52+00:00",
+          "score": 45.0,
+          "headline": null
+        },
+        {
+          "id": "ba6604f0d8a5a142",
+          "title": "North Korean hackers used AI in crypto heists record $6bn Binance theft",
+          "url": "https://thenextweb.com/news/north-korean-hackers-ai-crypto-heists-binance",
+          "source": "The Next Web",
+          "summary": "North Korean hackers may be using AI to plan and carry out cryptocurrency thefts, according to security experts cited in a Bloomberg report published on Monday. They point to the growing complexity and precision of recent attacks, including last week\u2019s record theft from Binance. The use of AI has not been confirmed, and Bloomberg presents [&hellip;] This story continues at The Next Web",
+          "published": "2026-11-02T11:11:10+00:00",
+          "score": 44.0,
+          "headline": "NORTH KOREA USING AI FOR $6BN BINANCE CRYPTO HEIST"
+        },
+        {
           "id": "0697c0d6577e4ad4",
           "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
           "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
@@ -35,14 +55,14 @@
           "headline": "ANTHROPIC CURSOR EXTENSION BACKDOORED for 12 Hours"
         },
         {
-          "id": "ddc37ba70c3eac1c",
-          "title": "How a Contractor\u2019s Claude Agent Got Into the Pentagon",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+          "id": "73d98880d86258f3",
+          "title": "Spooky New Infostealer Malware Uses AI to \u2018Autodox\u2019 Victims",
+          "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
           "source": "Wired",
-          "summary": "This week on Uncanny Valley, we also discuss Anthropic\u2019s IPO filing and the volunteers gearing up to counter ICE at the midterms.",
-          "published": "2026-10-30T21:19:26+00:00",
+          "summary": "Named \u201cVolta-Autodoxer,\u201d the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+          "published": "2026-10-31T12:00:00+00:00",
           "score": 43.0,
-          "headline": "PENTAGON DEPLOYS CLAUDE AGENT... How Contractor Got AI Inside"
+          "headline": "NEW AI-POWERED MALWARE 'AUTODOXES' VICTIMS"
         },
         {
           "id": "69e40ba23242b1b0",
@@ -53,14 +73,34 @@
           "published": "2026-10-31T11:27:53+00:00",
           "score": 42.0,
           "headline": "MALICIOUS CLAUDE EXTENSION HITS 5,000 CURSOR USERS"
+        },
+        {
+          "id": "a36d74d6a91ef69c",
+          "title": "North Korean hackers linked to crypto thefts among world's best, experts say",
+          "url": "https://economictimes.indiatimes.com/tech/technology/north-korean-hackers-linked-to-crypto-thefts-among-worlds-best-experts-say/articleshow/135391045.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Blockchain investigation firms TRM Labs and Chainalysis attribute the heist to a North Korean hacking group known as \"TraderTraitor,\" a name used in a 2022 joint warning from the FBI, CISA and US Treasury that described how hackers used malicious software and other tricks to target software developers and IT staff at cryptocurrency companies.",
+          "published": "2026-10-31T06:18:03+00:00",
+          "score": 42.0,
+          "headline": null
+        },
+        {
+          "id": "862a8457731d7d21",
+          "title": "Binance Hack Shows Power of Suspected North Korean Hackers",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/binance-heist-shows-power-of-suspected-north-korean-hackers",
+          "source": "Bloomberg Technology",
+          "summary": "The record-setting $6.3 billion hack of Binance, the world\u2019s biggest cryptocurrency exchange, has been blamed on alleged North Korean hackers, who have become infamous for preying on the digital-asset industry.",
+          "published": "2026-10-30T15:52:32+00:00",
+          "score": 42.0,
+          "headline": null
         }
       ],
       "top_score": 47.0,
-      "story_count": 5
+      "story_count": 9
     },
     {
-      "topic": "OpenAI Funding Crisis",
-      "description": "OpenAI's dramatic $10B reduction in fundraising target signals potential AI investment bubble concerns and market cooling.",
+      "topic": "OpenAI Financial Struggles",
+      "description": "OpenAI dramatically slashes fundraising target by $10 billion amid mounting concerns about AI spending sustainability and broader market fears about the AI investment bubble.",
       "stories": [
         {
           "id": "3c48dac0060b69e1",
@@ -121,62 +161,42 @@
           "published": "2026-10-31T02:35:12+00:00",
           "score": 42.0,
           "headline": "OPENAI CUTS FUNDING BY $10B as AI Market Wobbles"
+        },
+        {
+          "id": "175ce188bce5f406",
+          "title": "Tech Stocks Tumble as Amazon Adds to AI Spending Fears",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/tech-stocks-poised-to-drop-after-amazon-adds-to-ai-spending-fear",
+          "source": "Bloomberg Technology",
+          "summary": "Tech stocks plunged on Friday for the second day in a row as fears around AI spending collide with disappointing earnings in big tech\u2019s core businesses.",
+          "published": "2026-10-30T10:30:09+00:00",
+          "score": 42.0,
+          "headline": "TECH STOCKS CRASH AS AI SPENDING FEARS MOUNT"
+        },
+        {
+          "id": "4a559a5077ab627b",
+          "title": "Big Tech sheds nearly $900bn in rout over soaring AI spending",
+          "url": "https://www.ft.com/content/c695558e-11e6-494c-aeee-0f9fb5c75afc?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Cash burn at Google, Amazon and Meta leads Wall Street to question price of AI boom",
+          "published": "2026-10-30T10:00:02+00:00",
+          "score": 42.0,
+          "headline": "BIG TECH LOSES $900BN ON AI SPENDING FEARS"
         }
       ],
       "top_score": 45.0,
-      "story_count": 6
+      "story_count": 8
     }
   ],
   "unclustered": [
     {
-      "id": "804bc5d490b80e76",
-      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-      "source": "TechCrunch AI",
-      "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
-      "published": "2026-10-29T16:42:32+00:00",
-      "score": 49.0,
-      "headline": "US PROBED CHINESE SPY PLOT Targeting Nvidia CEO"
-    },
-    {
-      "id": "213530535d276c52",
-      "title": "Canada, Nvidia Back Cohere at Over $20 Billion Valuation",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-29/canada-nvidia-back-cohere-in-round-at-over-20-billion-value",
-      "source": "Bloomberg Technology",
-      "summary": "Cohere Inc., an artificial intelligence model maker, is in the process of raising a large funding round at a $20.5 billion valuation, roughly tripling its value from a year ago.",
-      "published": "2026-10-29T15:45:41+00:00",
-      "score": 47.0,
-      "headline": "COHERE TRIPLES VALUATION TO $20B With Canada, Nvidia Backing"
-    },
-    {
-      "id": "0fc880ed7580605c",
-      "title": "Mistral Says Its AI Model \u2018Le Chonk\u2019 Has Leapfrogged China in the Open-Weight Race",
-      "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+      "id": "c0d1942a9a565b61",
+      "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+      "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
       "source": "Wired",
-      "summary": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
-      "published": "2026-10-29T14:00:00+00:00",
-      "score": 47.0,
-      "headline": "MISTRAL CLAIMS 'LE CHONK' LEAPFROGS CHINA in Open-Weight Race"
-    },
-    {
-      "id": "eb0dc70deff270bb",
-      "title": "New York passes law restricting children's use of AI chatbots",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/new-york-passes-law-restricting-childrens-use-of-ai-chatbots/articleshow/135289429.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The governor of New York state signed a new law Wednesday preventing minors from using AI chatbots that act as companions, in one of the broadest moves yet for restricting consumer-facing models. \"No longer will minors have access to chatbots that pretend to be their friends, boyfriends and girlfriends,\" New York Governor Kathy Hochul said at a signing ceremony Wednesday.",
-      "published": "2026-10-29T04:07:17+00:00",
-      "score": 47.0,
-      "headline": "NEW YORK BANS Minors From AI Companion Chatbots"
-    },
-    {
-      "id": "e15fbbb8ba5ea5a2",
-      "title": "DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train latest models: report",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-moonshot-used-openais-gpt-6-astra-to-train-latest-models-report/articleshow/135286994.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Chinese AI developers DeepSeek and Moonshot AI relied heavily on outputs from OpenAI's powerful GPT-6 Astra model to train their latest models, The Information reported on Wednesday, citing people with direct knowledge of the matter.",
-      "published": "2026-10-29T02:36:21+00:00",
-      "score": 47.0,
-      "headline": "DEEPSEEK CAUGHT Training Models on OpenAI's GPT-6"
+      "summary": "WIRED uncovered some 400 apps and websites linked to Chinese-language developers that look like regular AI tools but had secret features that let users create violent AI-generated images and video.",
+      "published": "2026-11-02T10:00:00+00:00",
+      "score": 49.0,
+      "headline": "400 AI APPS HIDING DEEPFAKE ABUSE FEATURES... Linked to China"
     },
     {
       "id": "d1f8a60f61727d0d",
@@ -259,36 +279,6 @@
       "headline": "TRUMP DECLARES ROBOT IMPORTS NATIONAL SECURITY THREAT"
     },
     {
-      "id": "3b58246047dd0bfe",
-      "title": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes",
-      "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
-      "source": "Wired",
-      "summary": "Multiple crypto-tracing firms say notorious North Korean hackers TraderTraitor may be behind the largest digital heist in history\u2014with billions of crypto likely gone for good.",
-      "published": "2026-10-30T11:36:52+00:00",
-      "score": 45.0,
-      "headline": null
-    },
-    {
-      "id": "d56cec35d68f7d0a",
-      "title": "Alphabet shares fall 12% after Google says AI Mode searches earn less",
-      "url": "https://thenextweb.com/news/alphabet-shares-fall-google-ai-mode-search-ads",
-      "source": "The Next Web",
-      "summary": "By 9:35am in New York on Thursday, Alphabet had lost $511bn in market value, Julia Love and Davey Alba reported for Bloomberg. The shares were down more than 12%. It was the company\u2019s biggest market value loss on record. A close more than 9.77% lower would be Alphabet\u2019s worst reaction to results since its 2004 [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-29T17:11:59+00:00",
-      "score": 45.0,
-      "headline": "GOOGLE LOSES $511B: AI Mode Searches Earn LESS"
-    },
-    {
-      "id": "cfc6ca2646e42c21",
-      "title": "Google Erases a Record $500 Billion as AI Eats Into Sales",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-29/google-erases-a-record-500b-as-ai-eats-into-sales-video",
-      "source": "Bloomberg Technology",
-      "summary": "Alphabet Inc.\u2019s shares fell more than 13%, erasing more than $500 billion in its biggest-ever market plunge, after the company reported disappointing search and advertising sales that reinforced investor concerns about AI\u2019s threat to its core business. Bloomberg's Mandeep Singh joins to discuss this as well as the possible Marvell and Lumentum Holdings deal as well as DoorDash buying Instacart. (Source: Bloomberg)",
-      "published": "2026-10-29T17:08:07+00:00",
-      "score": 45.0,
-      "headline": "GOOGLE ERASES $500B IN SINGLE DAY... AI BACKFIRE"
-    },
-    {
       "id": "d6064e30caafe51c",
       "title": "Pope Leo urges a ban on lethal autonomous weapons before Geneva talks",
       "url": "https://thenextweb.com/news/pope-leo-disarm-ai-lethal-autonomous-weapons-geneva",
@@ -337,56 +327,6 @@
       "published": "2026-10-30T10:23:52+00:00",
       "score": 44.0,
       "headline": "WAYMO TOYOTA ROBOTAXIS LAUNCH IN JAPAN 2027"
-    },
-    {
-      "id": "af666c65cd7f8aba",
-      "title": "29-Year-Old Female Founder Breaths Life Into Next Generation Home-Help Robots",
-      "url": "https://www.bloomberg.com/news/features/2026-10-29/29-year-old-female-founder-breaths-life-into-next-generation-home-help-robots",
-      "source": "Bloomberg Technology",
-      "summary": "Dreame\u2019s Huo is working on artificial intelligence algorithms and humanoid machines to handle cleaning, washing and other chores.",
-      "published": "2026-10-29T23:30:10+00:00",
-      "score": 44.0,
-      "headline": "29-Year-Old Dreame Founder Building AI Home Robots"
-    },
-    {
-      "id": "cedcf6b5d184423c",
-      "title": "Anthropic\u2019s business plan: Build God or die trying",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
-      "source": "The Verge AI",
-      "summary": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT [&#8230;]",
-      "published": "2026-10-29T13:30:00+00:00",
-      "score": 44.0,
-      "headline": "ANTHROPIC'S PLAN: Build God or Die Trying"
-    },
-    {
-      "id": "88acae22a441ea85",
-      "title": "Jio Platforms Adds $36 Billion in Value After India IPO Surge",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-29/jio-platforms-adds-36-billion-in-value-after-india-ipo-surge",
-      "source": "Bloomberg Technology",
-      "summary": "Jio Platforms Ltd. has added almost $36 billion in market value in two trading sessions, extending its blistering run after India\u2019s biggest-ever initial public offering and underscoring investor appetite for direct exposure to the telecom and digital-services giant.",
-      "published": "2026-10-29T05:12:25+00:00",
-      "score": 44.0,
-      "headline": "Jio Adds $36B After India's Biggest IPO Ever"
-    },
-    {
-      "id": "40c9d5abc03375da",
-      "title": "China's new export curbs draw a line around its AI crown jewels",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-new-export-curbs-draw-a-line-around-its-ai-crown-jewels/articleshow/135289950.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The draft rules, released on October 16, distinguish between foreign customers using Chinese AI services and foreign companies obtaining the models, data or expertise needed to operate or reproduce them independently.",
-      "published": "2026-10-29T04:25:01+00:00",
-      "score": 44.0,
-      "headline": "CHINA DRAWS LINE Around AI Crown Jewels With Export Curbs"
-    },
-    {
-      "id": "7ab438a93b461edc",
-      "title": "Samsung keeps shattering profit records as AI boom lifts chip demand",
-      "url": "https://economictimes.indiatimes.com/tech/technology/samsung-keeps-shattering-profit-records-as-ai-boom-lifts-chip-demand/articleshow/135289645.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Revenue for the July-September period rose to an all-time high at 195.3 trillion won (USD 146 billion), marking the company's fourth straight quarter of record profit and revenue.",
-      "published": "2026-10-29T04:16:40+00:00",
-      "score": 44.0,
-      "headline": "Samsung Shatters Records as AI Boom Lifts Chip Demand"
     },
     {
       "id": "b3b684e8addeaf17",
@@ -439,44 +379,24 @@
       "headline": "Murata Invests $6.4B to Double Capacitor Output for AI Datacenters"
     },
     {
-      "id": "028c0eba91ea1a49",
-      "title": "Alphabet\u2019s AI commitments pass $1tn, its quarterly filing shows",
-      "url": "https://thenextweb.com/news/alphabet-commitments-1tn-ai-agents-10-q",
-      "source": "The Next Web",
-      "summary": "Alphabet\u2019s quarterly filing, published on Thursday, puts its future payments for computing, energy and data centres at more than $1tn. These Alphabet commitments do not appear on its balance sheet, the filing says. Davey Alba reported the figures for Bloomberg. Chief financial officer Anat Ashkenazi had given the $1tn-plus total on Wednesday\u2019s earnings call, Bloomberg [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-29T17:16:37+00:00",
-      "score": 43.0,
-      "headline": "ALPHABET'S AI SPENDING HITS $1 TRILLION"
-    },
-    {
-      "id": "b64ccc9facb3d6f9",
-      "title": "US tech stocks set to fall after earnings fuel AI spending concerns",
-      "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Nasdaq 100 to open 1.3% down after Google parent Alphabet and Microsoft report lower than expected capex",
-      "published": "2026-10-29T04:48:20+00:00",
-      "score": 43.0,
-      "headline": "TECH STOCKS PLUNGE ON AI SPENDING FEARS After Google, Microsoft Earnings"
-    },
-    {
-      "id": "def111d739f7b16b",
-      "title": "Furiosa AI CEO on $2.9B Valuation",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-29/furiosa-ai-ceo-on-2-9b-valuation-video",
+      "id": "9e0a6f6ce483d600",
+      "title": "Marvell Reaches $115 Billion Deal for Lumentum Holdings",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/marvell-reaches-115-billion-deal-for-lumentum-holdings",
       "source": "Bloomberg Technology",
-      "summary": "June Paik, Founder and CEO of South Korean AI Chip startup FuriosaAI, discusses the firm's $620 million Series D fundraising round, quadrupling the firm's valuation. He also discusses the company's business growth plans. He speaks with Shery Ahn on \"Bloomberg: The Asia Trade\". (Source: Bloomberg)",
-      "published": "2026-10-29T03:33:08+00:00",
-      "score": 43.0,
-      "headline": "Korean AI Chip Startup Furiosa Hits $2.9B Valuation"
+      "summary": "Marvell Technology Inc. has reached a deal to buy data center optics maker Lumentum Holdings Inc. at an enterprise value of $115 billion, one of the biggest tech tie-ups ever, in a race to capitalize on the artificial intelligence boom.",
+      "published": "2026-11-02T12:15:11+00:00",
+      "score": 42.0,
+      "headline": "MARVELL BUYS LUMENTUM FOR $115B... One of Biggest Tech Deals Ever"
     },
     {
-      "id": "f19ecfe84df997c5",
-      "title": "US DOJ is inquiring about Nvidia's purchase of Hugging Face",
-      "url": "https://economictimes.indiatimes.com/tech/technology/us-doj-is-inquiring-about-nvidias-purchase-of-hugging-face/articleshow/135287206.cms",
-      "source": "The Economic Times Tech",
-      "summary": "The Justice Department's recent questioning covers Nvidia's acquisitions, investments, sales practices, and whether the chip designer has exerted pressure on its customers, the two people said.",
-      "published": "2026-10-29T02:47:26+00:00",
-      "score": 43.0,
-      "headline": "DOJ PROBES Nvidia's Hugging Face Purchase"
+      "id": "0b05b739c4b0eb0e",
+      "title": "Startups recalibrate Chinese AI for the West",
+      "url": "https://restofworld.org/2026/western-startups-realigning-chinese-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "source": "Rest of World",
+      "summary": "A growing number of startups are editing powerful Chinese open-weight models for Western businesses that are concerned about censorship and security.",
+      "published": "2026-11-02T11:00:00+00:00",
+      "score": 42.0,
+      "headline": "Western Startups Strip Censorship From Chinese AI Models"
     },
     {
       "id": "6a138c5d94321b45",
@@ -487,16 +407,6 @@
       "published": "2026-10-31T06:20:00+00:00",
       "score": 42.0,
       "headline": "GOOGLE'S AI AGENT FINDS 500+ SECURITY BUGS"
-    },
-    {
-      "id": "a36d74d6a91ef69c",
-      "title": "North Korean hackers linked to crypto thefts among world's best, experts say",
-      "url": "https://economictimes.indiatimes.com/tech/technology/north-korean-hackers-linked-to-crypto-thefts-among-worlds-best-experts-say/articleshow/135391045.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Blockchain investigation firms TRM Labs and Chainalysis attribute the heist to a North Korean hacking group known as \"TraderTraitor,\" a name used in a 2022 joint warning from the FBI, CISA and US Treasury that described how hackers used malicious software and other tricks to target software developers and IT staff at cryptocurrency companies.",
-      "published": "2026-10-31T06:18:03+00:00",
-      "score": 42.0,
-      "headline": null
     },
     {
       "id": "b119c6eeb05f2544",
@@ -517,16 +427,6 @@
       "published": "2026-10-30T17:13:07+00:00",
       "score": 42.0,
       "headline": "NEW YORK BANS AI CHATBOTS FROM POSING AS HUMAN TO KIDS"
-    },
-    {
-      "id": "862a8457731d7d21",
-      "title": "Binance Hack Shows Power of Suspected North Korean Hackers",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-30/binance-heist-shows-power-of-suspected-north-korean-hackers",
-      "source": "Bloomberg Technology",
-      "summary": "The record-setting $6.3 billion hack of Binance, the world\u2019s biggest cryptocurrency exchange, has been blamed on alleged North Korean hackers, who have become infamous for preying on the digital-asset industry.",
-      "published": "2026-10-30T15:52:32+00:00",
-      "score": 42.0,
-      "headline": null
     },
     {
       "id": "430bae36ab7c8300",
@@ -559,26 +459,6 @@
       "headline": "FCC Moves to Ban Chinese Telecoms From US Phone Numbers"
     },
     {
-      "id": "175ce188bce5f406",
-      "title": "Tech Stocks Tumble as Amazon Adds to AI Spending Fears",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-30/tech-stocks-poised-to-drop-after-amazon-adds-to-ai-spending-fear",
-      "source": "Bloomberg Technology",
-      "summary": "Tech stocks plunged on Friday for the second day in a row as fears around AI spending collide with disappointing earnings in big tech\u2019s core businesses.",
-      "published": "2026-10-30T10:30:09+00:00",
-      "score": 42.0,
-      "headline": "TECH STOCKS CRASH AS AI SPENDING FEARS MOUNT"
-    },
-    {
-      "id": "4a559a5077ab627b",
-      "title": "Big Tech sheds nearly $900bn in rout over soaring AI spending",
-      "url": "https://www.ft.com/content/c695558e-11e6-494c-aeee-0f9fb5c75afc?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Cash burn at Google, Amazon and Meta leads Wall Street to question price of AI boom",
-      "published": "2026-10-30T10:00:02+00:00",
-      "score": 42.0,
-      "headline": "BIG TECH LOSES $900BN ON AI SPENDING FEARS"
-    },
-    {
       "id": "8e0cdb85fe96a8cf",
       "title": "India could become digital colony without sovereign AI, says Sarvam\u2019s Vivek Raghavan",
       "url": "https://www.ft.com/content/b662e99e-764c-42cc-a2df-391214b2a56f?syn-25a6b1a6=1",
@@ -589,54 +469,14 @@
       "headline": "INDIA RISKS BECOMING 'DIGITAL COLONY' WITHOUT SOVEREIGN AI"
     },
     {
-      "id": "7b1f6b6c18ff7523",
-      "title": "Serval raises $150m at $3bn valuation to replace ServiceNow with AI agents",
-      "url": "https://thenextweb.com/news/serval-series-c-150m-3bn-valuation-sequoia",
-      "source": "The Next Web",
-      "summary": "Serval has raised $150m in a Series C round led by Sequoia, valuing the San Francisco company at $3bn. That is three times the $1bn valuation it reached in December, when it raised $75m. Serval announced the round on Thursday in a blog post and a press release. Co-founder and chief executive Jake Stauch spoke [&hellip;] This story continues at The Next Web",
-      "published": "2026-10-29T17:45:20+00:00",
-      "score": 42.0,
-      "headline": "SERVAL RAISES $150M AT $3BN TO REPLACE SERVICENOW WITH AI AGENTS"
-    },
-    {
-      "id": "0e31a3d2713600b6",
-      "title": "AI #192: Anthropic Is Going Public",
-      "url": "https://thezvi.substack.com/p/ai-192-anthropic-is-going-public",
-      "source": "Hacker News",
-      "summary": "Article URL: https://thezvi.substack.com/p/ai-192-anthropic-is-going-public Comments URL: https://news.ycombinator.com/item?id=50292704 Points: 1 # Comments: 0",
-      "published": "2026-10-29T17:23:18+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC GOING PUBLIC: Major AI Lab IPO Incoming"
-    },
-    {
-      "id": "f4c693735de3b606",
-      "title": "Two fears will decide the fate of Anthropic\u2019s giant IPO",
-      "url": "https://www.ft.com/content/9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "Investors must weigh missing out on extraordinary AI growth against potential pitfalls that include \u201cexistential\u201d risks to humanity",
-      "published": "2026-10-29T14:41:41+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC'S GIANT IPO: Two Fears That Could Sink It"
-    },
-    {
-      "id": "cdb96e8c1dd2bf20",
-      "title": "Anthropic is asking Wall Street to believe in AGI",
-      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-      "source": "The Verge AI",
-      "summary": "Today on Decoder, I\u2019m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing \u2014 a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start [&#8230;]",
-      "published": "2026-10-29T14:00:00+00:00",
-      "score": 42.0,
-      "headline": "ANTHROPIC IPO: Asking Wall Street to Bet on AGI"
-    },
-    {
-      "id": "23c0aebf4e2ad90a",
-      "title": "Samsung shares slide on lack of detail about investor returns",
-      "url": "https://www.ft.com/content/0d692019-82b6-4d1f-bd4b-8cc85482c976?syn-25a6b1a6=1",
-      "source": "Financial Times Tech",
-      "summary": "World\u2019s largest memory-chip maker offers bullish outlook as quarterly profits fall just short of analyst estimates",
-      "published": "2026-10-29T04:09:06+00:00",
-      "score": 42.0,
-      "headline": "Samsung Shares Slide Despite Bullish AI Chip Outlook"
+      "id": "fb4c7bc4b17b8411",
+      "title": "Palantir AI tech unused or little used by 29 NHS trusts said to be benefiting from it",
+      "url": "https://www.theguardian.com/technology/2026/nov/02/palantir-unused-nhs-hospital-trusts",
+      "source": "The Guardian Tech",
+      "summary": "Exclusive: Gap between NHS claim and trusts\u2019 comments described as \u2018very misleading\u2019 by senior health officialMore than two dozen hospital trusts the NHS claims have benefited from Palantir\u2019s medical data platform are not using all or most of the AI-powered technology, the Guardian can reveal.The 29 hospital trusts that NHS England publicly lists as \u201crealising benefits\u201d from the controversial \u00a3330m federated data platform (FDP) have said the system is not live or they are not using any of its applications. The apparent gap between the NHS claim and the trusts\u2019 understanding was described as \u201cvery misleading\u201d by one senior health official. Continue reading...",
+      "published": "2026-11-02T10:19:46+00:00",
+      "score": 41.0,
+      "headline": "29 NHS Trusts Not Using Palantir AI Despite Official Claims"
     },
     {
       "id": "3e1e4eecc6eff543",
@@ -779,54 +619,44 @@
       "headline": "ALPHABET'S WORST DAY EVER: Google Search Valued Like Fossil Fuels"
     },
     {
-      "id": "751fae2220392909",
-      "title": "Binance Suspends Deposits, Withdrawals After $6.3 Billion Hack Shakes Industry",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-29/binance-founder-says-possible-hack-of-exchange-bitcoin-falls",
-      "source": "Bloomberg Technology",
-      "summary": "Binance, the world\u2019s largest crypto exchange, said $6.3 billion of funds are involved in what the industry is describing as crypto\u2019s biggest-ever hack. Digital tokens fell.",
-      "published": "2026-10-29T21:25:33+00:00",
-      "score": 41.0,
-      "headline": null
+      "id": "15ec5f98587c8cc0",
+      "title": "Marvell to buy data centre component maker Lumentum in $115bn AI bet",
+      "url": "https://www.ft.com/content/92322fad-f293-48b8-a14b-00506d78eb3b?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Silicon Valley companies said all-stock deal would create a \u2018leader in AI connectivity\u2019",
+      "published": "2026-11-02T14:07:40+00:00",
+      "score": 40.0,
+      "headline": "MARVELL BUYS LUMENTUM FOR $115BN IN AI BET"
     },
     {
-      "id": "88a4d21d70b194c8",
-      "title": "Canada to invest up to $1.6B in Toronto-based AI company Cohere",
-      "url": "https://www.cbc.ca/news/business/canada-cohere-ai-investment-9.7401367",
+      "id": "d91ffe351adfae17",
+      "title": "Altman signs four Abu Dhabi deals, from permits to Mubadala investments",
+      "url": "https://thenextweb.com/news/openai-abu-dhabi-deals-machine-readable-government-mubadala",
+      "source": "The Next Web",
+      "summary": "Abu Dhabi is using OpenAI\u2019s models to help officials check permit and certificate applications against its rules. The pilot turns a set of government policies and regulations into a form that AI systems can read. It is already running on food imports. It is one of four OpenAI Abu Dhabi deals signed on Monday, the [&hellip;] This story continues at The Next Web",
+      "published": "2026-11-02T13:46:20+00:00",
+      "score": 40.0,
+      "headline": "OpenAI Signs Four Abu Dhabi Deals Including Mubadala"
+    },
+    {
+      "id": "3339b3506bf32fec",
+      "title": "Marvell to buy Nvidia-backed Lumentum in a $115bn all-stock deal",
+      "url": "https://thenextweb.com/news/marvell-lumentum-acquisition-115bn-all-stock",
+      "source": "The Next Web",
+      "summary": "Marvell Technology has agreed to buy Lumentum in an all-stock deal. Lumentum makes lasers and other optical parts for AI data centres. The two companies valued Lumentum at $115bn, including debt, when they announced the deal on Monday. Lumentum shareholders will get 4.5 Marvell shares for each share they own, the companies said in a [&hellip;] This story continues at The Next Web",
+      "published": "2026-11-02T13:07:13+00:00",
+      "score": 40.0,
+      "headline": "MARVELL BUYS Nvidia-Backed Lumentum in $115B Deal"
+    },
+    {
+      "id": "bd8635251d24b043",
+      "title": "Last night an AI agent performed brain surgery on a mouse",
+      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
       "source": "Hacker News",
-      "summary": "Article URL: https://www.cbc.ca/news/business/canada-cohere-ai-investment-9.7401367 Comments URL: https://news.ycombinator.com/item?id=50293004 Points: 3 # Comments: 1",
-      "published": "2026-10-29T17:41:15+00:00",
-      "score": 41.0,
-      "headline": "CANADA INVESTS $1.6B IN AI COMPANY COHERE"
-    },
-    {
-      "id": "f1ba09a7e6ae16ab",
-      "title": "Alphabet Miss Revives AI Fears",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-29/open-interest-10-29-2026-video",
-      "source": "Bloomberg Technology",
-      "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Alphabet\u2019s sales miss reignites AI fears, while Microsoft defies the gloom. AI jitters spread beyond Big Tech, hitting Caterpillar as investors question the spending boom. The Fed holds fire, the ECB is next, and the race to replace Lagarde heats up. Plus, White House NEC Director Kevin Hassett on inflation and the Fed\u2019s next move. (Source: Bloomberg)",
-      "published": "2026-10-29T16:55:33+00:00",
-      "score": 41.0,
-      "headline": "Alphabet Miss Revives Wall Street AI Fears"
-    },
-    {
-      "id": "e27a14625bfef0d3",
-      "title": "Microsoft\u2019s AI future has fewer jobs",
-      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
-      "source": "The Verge AI",
-      "summary": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to around 60,000 employees across the US, UK, Canada, and [&#8230;]",
-      "published": "2026-10-29T16:00:00+00:00",
-      "score": 41.0,
-      "headline": "MICROSOFT'S AI FUTURE HAS FEWER JOBS"
-    },
-    {
-      "id": "f4d2fa0b488ed855",
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-      "source": "TechCrunch AI",
-      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
-      "published": "2026-10-29T14:00:00+00:00",
-      "score": 41.0,
-      "headline": "MISTRAL Drops Trillion-Parameter Model Targeting Cybersecurity"
+      "summary": "Article URL: https://twitter.com/OcanaSantero/status/2115442964574908902 Comments URL: https://news.ycombinator.com/item?id=50336138 Points: 37 # Comments: 33",
+      "published": "2026-11-02T12:50:59+00:00",
+      "score": 40.0,
+      "headline": "AI AGENT PERFORMS BRAIN SURGERY ON MOUSE... First Autonomous Medical Procedure"
     },
     {
       "id": "d5b77529eaa8723e",
@@ -1007,7 +837,187 @@
       "published": "2026-10-30T18:15:18+00:00",
       "score": 40.0,
       "headline": "Cognizant Deploys 25,000 Staff on OpenAI After Gemini Push"
+    },
+    {
+      "id": "7906a744806560d3",
+      "title": "MecAgent (AI agent for SolidWorks) scans drives for CAD files and uploads them",
+      "url": "https://www.reddit.com/r/SolidWorks/comments/1xjhrvz/psa_mecagent_ai_agent_for_solidworks_scans_your/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reddit.com/r/SolidWorks/comments/1xjhrvz/psa_mecagent_ai_agent_for_solidworks_scans_your/ Comments URL: https://news.ycombinator.com/item?id=50307597 Points: 3 # Comments: 0",
+      "published": "2026-10-30T17:50:43+00:00",
+      "score": 40.0,
+      "headline": "MECAGENT AI SCANS DRIVES, UPLOADS CAD FILES WITHOUT CONSENT"
+    },
+    {
+      "id": "d8859e68e122bb25",
+      "title": "Reddit CEO admits Google's AI Mode is choking off its search traffic",
+      "url": "https://twitter.com/kouhxp/status/2116218737237840261",
+      "source": "Hacker News",
+      "summary": "Article URL: https://twitter.com/kouhxp/status/2116218737237840261 Comments URL: https://news.ycombinator.com/item?id=50307137 Points: 4 # Comments: 2",
+      "published": "2026-10-30T17:22:21+00:00",
+      "score": 40.0,
+      "headline": "REDDIT CEO: Google's AI Mode Choking Off Search Traffic"
+    },
+    {
+      "id": "f872887276430b7c",
+      "title": "Proton to re-interview staff on AI, with jobs at stake, 404 Media reports",
+      "url": "https://thenextweb.com/news/proton-ai-re-interviews-staff-andy-yen-404-media",
+      "source": "The Next Web",
+      "summary": "Proton, the Swiss company behind Proton Mail, will \u201cre-interview\u201d some of its staff about how they use AI at work. The results may affect who keeps their job. Internal messages show chief executive Andy Yen telling engineers to stop hand-writing code and use AI instead, 404 Media reported. Joseph Cox revealed the plan for 404 [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-30T16:50:56+00:00",
+      "score": 40.0,
+      "headline": "PROTON TO 'RE-INTERVIEW' STAFF ON AI USE... Jobs at Stake"
+    },
+    {
+      "id": "07d0c0a8a56d53b4",
+      "title": "Anthropic spent $2.75m guarding Dario Amodei, four times his salary",
+      "url": "https://thenextweb.com/news/dario-amodei-security-cost-philanthropy-pledge-anthropic-ipo",
+      "source": "The Next Web",
+      "summary": "Anthropic spent $2,745,874 on personal security for chief executive Dario Amodei in 2025, more than four times his $654,167 salary. The figure is in the company\u2019s IPO filing. The filing also says its co-founders\u2019 pledge to give away 80% of their stakes is not legally binding. Bilin Lin first highlighted the security costs for Fortune, [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-30T16:28:53+00:00",
+      "score": 40.0,
+      "headline": "Anthropic Spent $2.75M Guarding CEO Amodei... IPO Filing Reveals"
+    },
+    {
+      "id": "1eed2fdadd1e756d",
+      "title": "Binance\u2019s $6.3 Billion Cyber Heist Shows Crypto Vulnerabilities",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-30/binance-s-6-3b-cyber-heist-shows-crypto-vulnerabilities-video",
+      "source": "Bloomberg Technology",
+      "summary": "Binance, the world\u2019s largest cryptocurrency exchange, has suffered the industry\u2019s biggest-ever hack, with $6.3 billion worth of funds affected and $3 billion in crypto frozen. The company will cover all losses and \u201cuser funds are safe,\u201d it said, and withdrawals are expected to resume by Sunday as it works with law enforcement and completes a security revamp. Bloomberg's Emily Nicolle joins to discuss. (Source: Bloomberg)",
+      "published": "2026-10-30T16:23:47+00:00",
+      "score": 40.0,
+      "headline": null
+    },
+    {
+      "id": "dce453b29e9cfde6",
+      "title": "Did Anthropic value itself at $1.2tn in August?",
+      "url": "https://www.ft.com/content/60fb40ed-f1bf-416e-982b-1b9b80582ab4",
+      "source": "Financial Times Tech",
+      "summary": "Not quite Navier-Stokes",
+      "published": "2026-10-30T12:36:54+00:00",
+      "score": 40.0,
+      "headline": "ANTHROPIC VALUED ITSELF AT $1.2 TRILLION IN AUGUST?"
+    },
+    {
+      "id": "62deaf73d869952b",
+      "title": "Maine\u2019s data center revolt will decide who controls the Senate",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "source": "The Verge AI",
+      "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst, tying the man to her Democratic challenger, [&#8230;]",
+      "published": "2026-10-30T11:00:00+00:00",
+      "score": 40.0,
+      "headline": "MAINE DATA CENTER REVOLT THREATENS SENATE CONTROL"
+    },
+    {
+      "id": "f63e60c3f4240863",
+      "title": "Big Tech\u2019s $750 Billion AI Bet Collides With Slowing Core Growth",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/big-tech-s-750-billion-ai-bet-collides-with-slowing-core-growth",
+      "source": "Bloomberg Technology",
+      "summary": "The core businesses of America\u2019s technology giants \u2014 the advertising, consumer and retail machines propping up a collective $750 billion in AI spending this year \u2014 are starting to show signs of slowing. In some cases, they\u2019re being cannibalized by the very technology the firms are betting the house on.",
+      "published": "2026-10-30T01:43:55+00:00",
+      "score": 40.0,
+      "headline": "BIG TECH'S $750B AI BET COLLIDES WITH SLOWING CORE GROWTH"
+    },
+    {
+      "id": "4585bce5af537649",
+      "title": "You don\u2019t need to believe in a god to get a religious exemption from using AI at work",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "source": "TechCrunch AI",
+      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "published": "2026-10-30T01:20:48+00:00",
+      "score": 40.0,
+      "headline": "WORKER GETS RELIGIOUS EXEMPTION FROM USING AI AT WORK"
+    },
+    {
+      "id": "6363a4c39386c0a3",
+      "title": "Binance reportedly hacked, billions in crypto stolen",
+      "url": "https://mashable.com/tech/binance-hack-cryptocurrency-billions",
+      "source": "Mashable Tech",
+      "summary": "Binance may have been hacked, freezing withdrawals after an apparent hacker stole over $5.7 billion in cryptocurrency.",
+      "published": "2026-10-30T00:19:42+00:00",
+      "score": 40.0,
+      "headline": null
+    },
+    {
+      "id": "f07f243d4b51e520",
+      "title": "Josh Kushner's Thrive and OpenAI to buy home security firm ADT",
+      "url": "https://www.ft.com/content/f88e30a0-1252-4695-97b0-03da22e5fd42",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.ft.com/content/f88e30a0-1252-4695-97b0-03da22e5fd42 Comments URL: https://news.ycombinator.com/item?id=50298118 Points: 6 # Comments: 0",
+      "published": "2026-10-30T00:10:09+00:00",
+      "score": 40.0,
+      "headline": "OPENAI AND THRIVE TO BUY HOME SECURITY GIANT ADT"
+    },
+    {
+      "id": "064b91c8dc93bac3",
+      "title": "STT Global\u2019s India biz on the block; micro occasions power qcomm",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/stt-globals-india-biz-on-the-block-micro-occasions-power-qcomm/articleshow/135463594.cms",
+      "source": "The Economic Times Tech",
+      "summary": "KKR, Singtel, and the Tatas are preparing to sell STT GDC India, a major data centre platform. This and more in today\u2019s ETtech Top 5.",
+      "published": "2026-11-02T13:43:09+00:00",
+      "score": 39.0,
+      "headline": "KKR, Singtel Exit Major India Data Centre Play"
+    },
+    {
+      "id": "8870e2837a71935b",
+      "title": "AI Is Making Employees Work Longer Days, New Data Shows",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-02/ai-is-making-employees-work-longer-days-new-data-shows",
+      "source": "Bloomberg Technology",
+      "summary": "AI is supposed to shorten the work week. It doesn\u2019t appear to be working that way so far.",
+      "published": "2026-11-02T11:28:01+00:00",
+      "score": 39.0,
+      "headline": "AI MAKING WORKERS WORK LONGER, NOT SHORTER"
+    },
+    {
+      "id": "280b40991a66e971",
+      "title": "Meta reportedly built a humanoid robot prototype that can do household chores",
+      "url": "https://www.engadget.com/2303434/meta-reportedly-built-a-humanoid-robot-prototype-that-can-do-household-chores/",
+      "source": "Engadget",
+      "summary": "A report said the company is already working on the second version that's codenamed Max 2.",
+      "published": "2026-11-01T17:17:42+00:00",
+      "score": 39.0,
+      "headline": "META BUILDS HUMANOID ROBOT FOR HOUSEHOLD CHORES"
+    },
+    {
+      "id": "172cdf5f0334311d",
+      "title": "Salesforce to buy Rune in its most significant national security deal",
+      "url": "https://thenextweb.com/news/salesforce-rune-technologies-acquisition-missionforce-defence",
+      "source": "The Next Web",
+      "summary": "Salesforce has agreed to buy Rune Technologies. The US startup\u2019s AI software helps the military plan supplies near the front line. Salesforce announced the deal on Thursday. Rune will join Missionforce, the defence business Salesforce launched a year ago. Salesforce did not disclose the price. It is paying $375m in cash and shares, Margaux MacColl [&hellip;] This story continues at The Next Web",
+      "published": "2026-11-01T12:27:39+00:00",
+      "score": 39.0,
+      "headline": "SALESFORCE ACQUIRES RUNE... AI For Military Supply Chain Planning"
+    },
+    {
+      "id": "ede23459d41977ba",
+      "title": "Computer Science Programs Lose Students as AI Replaces Jobs",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/computer-science-degree-programs-lose-students-as-ai-takes-jobs",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-10-29/computer-science-degree-programs-lose-students-as-ai-takes-jobs Comments URL: https://news.ycombinator.com/item?id=50321065 Points: 21 # Comments: 15",
+      "published": "2026-10-31T22:57:27+00:00",
+      "score": 39.0,
+      "headline": "CS PROGRAMS HEMORRHAGE STUDENTS AS AI TAKES JOBS"
+    },
+    {
+      "id": "2088e8d0a50b60c0",
+      "title": "Big Tech buybacks fall 83% as AI spending eats the cash, Reuters reports",
+      "url": "https://thenextweb.com/news/big-tech-buybacks-fall-ai-spending-reuters",
+      "source": "The Next Web",
+      "summary": "Microsoft, Alphabet, Amazon, Meta and Oracle handed 9.3% of the cash their businesses made back to shareholders. That covers the first nine months of 2026. That is the smallest share in at least 15 years, down from 27.4% a year earlier. The figures come from a Reuters analysis of LSEG data and company reports by [&hellip;] This story continues at The Next Web",
+      "published": "2026-10-31T22:21:38+00:00",
+      "score": 39.0,
+      "headline": "BIG TECH BUYBACKS CRASH 83% AS AI SPENDING DEVOURS CASH"
+    },
+    {
+      "id": "074200a4b01cd52d",
+      "title": "Quad not \u2018anti-China\u2019, says Rubio as first summit in two years set before Trump-Xi talks",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3372852/quad-diplomats-finalise-first-leaders-summit-two-years-trump-xi-meeting",
+      "source": "South China Morning Post Tech",
+      "summary": "US Secretary of State Marco Rubio said on Saturday that the Quadrilateral Security Dialogue, or the Quad, was not an \u201canti-China\u201d coalition, as the grouping\u2019s top diplomats finalised preparations for the leaders\u2019 summit in the Philippines next month. Rubio\u2019s statement comes just weeks before US President Donald Trump is scheduled to meet Chinese leader Xi Jinping in Shenzhen, China. \u201cIt is not an anti-China or anti-anybody coalition,\u201d Rubio said at a press conference on the sidelines of the...",
+      "published": "2026-10-31T16:17:17+00:00",
+      "score": 39.0,
+      "headline": null
     }
   ],
-  "generated_at": "2026-11-01T21:36:59.609137"
+  "generated_at": "2026-11-02T14:30:15.531528"
 }
