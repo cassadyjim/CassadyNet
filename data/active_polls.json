@@ -1,16 +1,16 @@
 {
   "polls": [
     {
-      "topic": "AI Security Threats and Cyberattacks",
-      "description": "Growing wave of AI-powered malware, deepfake abuse apps, and nation-state cyberattacks targeting critical infrastructure and users.",
-      "question": "Should governments prioritize offense or defense against AI-powered cyberattacks?",
-      "button_a": "Offense",
-      "button_b": "Cyberattacks",
-      "poll_id": "ai-security-threats-and-cyberattacks-20261103",
-      "analysis_url": "/analysis/analysis-ai-security-threats-and-cyberattacks-20261103.html",
+      "topic": "DeepSeek & Chinese AI Competition",
+      "description": "Chinese AI startup DeepSeek is raising record funding and launching products that directly challenge Western AI leaders, while geopolitical tensions affect China-related AI deals.",
+      "question": "Should Western companies use Chinese AI models despite security concerns?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "deepseek-chinese-ai-competition-20261104",
+      "analysis_url": "/analysis/analysis-deepseek-chinese-ai-competition-20261104.html",
       "analysis_type": "poll",
-      "created_at": "2026-11-03T00:20:01.489386",
-      "last_seen": "2026-11-03T22:48:41.129089",
+      "created_at": "2026-11-04T13:39:33.100006",
+      "last_seen": "2026-11-04T13:39:52.698828",
       "cluster_stories": [
         {
           "id": "c0d1942a9a565b61",
@@ -23,79 +23,113 @@
           "headline": "400 AI APPS HIDING DEEPFAKE ABUSE FEATURES... Linked to China"
         },
         {
-          "id": "d1930724069a554b",
-          "title": "AI-powered malware \u2018highly likely\u2019 to be used to hack UK infrastructure by 2028",
-          "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
-          "source": "The Guardian Tech",
-          "summary": "National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitalsAI-powered malicious software is \u201chighly likely\u201d to be used in hacking attacks against the UK\u2019s power stations, airports and hospitals by 2028, according to the state cybersecurity body.The National Cyber Security Centre (NCSC) said AI will probably enable a ransomware attack against critical national infrastructure [CNI] between now and 2028. The UK\u2019s definition of CNI covers a range of facilities and services across sectors including energy, transport, defence, food, health and finance. Continue reading...",
-          "published": "2026-11-03T00:01:32+00:00",
+          "id": "5a9536c644c19571",
+          "title": "Oracle abandons $7 billion Tencent AI deal under Trump pressure: FT",
+          "url": "https://economictimes.indiatimes.com/tech/technology/oracle-abandons-7-billion-tencent-ai-deal-under-trump-pressure-ft/articleshow/135532578.cms",
+          "source": "The Economic Times Tech",
+          "summary": "US officials approached Oracle to raise concerns about the Tencent deal, the newspaper said, citing people familiar with the matter.",
+          "published": "2026-11-04T08:50:40+00:00",
+          "score": 47.0,
+          "headline": "ORACLE KILLS $7B Tencent AI Deal Under Trump Pressure"
+        },
+        {
+          "id": "04350b1ca3b4f8ea",
+          "title": "China\u2019s Largest Startup Deal Ever Lifts Global Venture Funding To $59B In October",
+          "url": "https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek/",
+          "source": "Crunchbase News",
+          "summary": "Global venture funding in October totaled $59 billion, a 45% jump from a year earlier, per Crunchbase data, in large part due to a record-setting $15.9 billion funding round for China\u2019s DeepSeek.",
+          "published": "2026-11-03T12:00:44+00:00",
+          "score": 47.0,
+          "headline": "DEEPSEEK RAISES $15.9B... LARGEST STARTUP DEAL EVER"
+        },
+        {
+          "id": "d1f8a60f61727d0d",
+          "title": "DeepSeek Drops Enhanced Coding Agent With Aim to Rival Anthropic",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
+          "source": "Bloomberg Technology",
+          "summary": "DeepSeek has released a prototype of a more autonomous coding agent as it seeks to challenge Anthropic PBC\u2019s popular Claude Code.",
+          "published": "2026-11-01T03:48:18+00:00",
           "score": 46.0,
-          "headline": "UK CYBER CHIEF: AI MALWARE ATTACKS 'HIGHLY LIKELY' BY 2028"
+          "headline": "DeepSeek Launches Coding Agent to Challenge Anthropic Claude"
         },
         {
-          "id": "ba6604f0d8a5a142",
-          "title": "North Korean hackers used AI in crypto heists record $6bn Binance theft",
-          "url": "https://thenextweb.com/news/north-korean-hackers-ai-crypto-heists-binance",
-          "source": "The Next Web",
-          "summary": "North Korean hackers may be using AI to plan and carry out cryptocurrency thefts, according to security experts cited in a Bloomberg report published on Monday. They point to the growing complexity and precision of recent attacks, including last week\u2019s record theft from Binance. The use of AI has not been confirmed, and Bloomberg presents [&hellip;] This story continues at The Next Web",
-          "published": "2026-11-02T11:11:10+00:00",
-          "score": 44.0,
-          "headline": "NORTH KOREA USING AI FOR $6BN BINANCE CRYPTO HEIST"
-        },
-        {
-          "id": "454b56d2ee95841f",
-          "title": "\u2018A serious failure\u2019: CPS prosecutor cites imaginary case to high court after AI search",
-          "url": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
-          "source": "The Guardian Tech",
-          "summary": "Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedingsA senior crown prosecutor acting in a high court case cited an imaginary legal precedent in an error that has sparked fresh concerns about AI hallucinations infecting the justice system.Ravinder Dhillon, representing the Crown Prosecution Service (CPS), referenced an entirely made-up case during a dispute over whether a child should be prosecuted for the rape of his younger sister, court documents have revealed. Continue reading...",
-          "published": "2026-11-03T06:00:40+00:00",
-          "score": 43.0,
-          "headline": "UK PROSECUTOR CITES FAKE AI CASE IN RAPE TRIAL"
-        },
-        {
-          "id": "73d98880d86258f3",
-          "title": "Spooky New Infostealer Malware Uses AI to \u2018Autodox\u2019 Victims",
-          "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
-          "source": "Wired",
-          "summary": "Named \u201cVolta-Autodoxer,\u201d the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
-          "published": "2026-10-31T12:00:00+00:00",
-          "score": 43.0,
-          "headline": "NEW AI-POWERED MALWARE 'AUTODOXES' VICTIMS"
-        },
-        {
-          "id": "69e40ba23242b1b0",
-          "title": "Anthropic denies breach as tampered Claude Code extension hits Cursor users",
-          "url": "https://thenextweb.com/news/tampered-claude-code-extension-cursor-ssh-backdoor",
-          "source": "The Next Web",
-          "summary": "A tampered copy of Anthropic\u2019s Claude Code extension sat in Cursor\u2019s extension marketplace for about 11 hours on Thursday 29 October. It reached up to 5,000 users. The malicious versions tried to plant an SSH backdoor on developers\u2019 machines, Cursor said in a security notice. Anthropic says nobody breached its own systems. A security firm [&hellip;] This story continues at The Next Web",
-          "published": "2026-10-31T11:27:53+00:00",
+          "id": "0b05b739c4b0eb0e",
+          "title": "Startups recalibrate Chinese AI for the West",
+          "url": "https://restofworld.org/2026/western-startups-realigning-chinese-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World",
+          "summary": "A growing number of startups are editing powerful Chinese open-weight models for Western businesses that are concerned about censorship and security.",
+          "published": "2026-11-02T11:00:00+00:00",
           "score": 42.0,
-          "headline": "MALICIOUS CLAUDE EXTENSION HITS 5,000 CURSOR USERS"
-        },
-        {
-          "id": "6a138c5d94321b45",
-          "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
-          "url": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-          "source": "InfoQ AI/ML",
-          "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only after deterministic validators successfully reproduce the exploit against a running application. By Renato Losio",
-          "published": "2026-10-31T06:20:00+00:00",
-          "score": 42.0,
-          "headline": "GOOGLE'S AI AGENT FINDS 500+ SECURITY BUGS"
+          "headline": "Western Startups Strip Censorship From Chinese AI Models"
         }
       ],
-      "current_topic_name": "AI Security Threats and Cyberattacks"
+      "current_topic_name": "DeepSeek & Chinese AI Competition"
     },
     {
-      "topic": "AI Security Threats & Malicious Use",
-      "description": "Growing concerns about AI-enabled cyber attacks, malware, and abuse tools, with warnings from security chiefs and evidence of state actors weaponizing AI technology.",
-      "question": "",
-      "poll_id": "",
-      "analysis_url": "/analysis/analysis-ai-security-threats-malicious-use-20261103.html",
+      "topic": "Anthropic's Growth & IPO Plans",
+      "description": "Anthropic is advancing toward a major IPO while warning about approaching AGI thresholds and facing financial pressures from high compute costs.",
+      "question": "Should Anthropic go public now despite worsening margins and AGI warnings?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropics-growth-ipo-plans-20261104",
+      "analysis_url": "/analysis/analysis-anthropics-growth-ipo-plans-20261104.html",
       "analysis_type": "poll",
-      "created_at": "2026-11-03T13:28:28.594146",
-      "last_seen": "2026-11-03T22:48:41.776564",
-      "current_topic_name": "AI Security Threats & Malicious Use"
+      "created_at": "2026-11-04T13:39:50.354450",
+      "last_seen": "2026-11-04T13:39:54.676568",
+      "cluster_stories": [
+        {
+          "id": "b86b88ec9ca0ed8c",
+          "title": "Anthropic warns that it\u2019s very close to RSI capability, aka self-building AI",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "source": "TechCrunch AI",
+          "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+          "published": "2026-11-02T22:14:50+00:00",
+          "score": 48.0,
+          "headline": "ANTHROPIC WARNS: SELF-BUILDING AI 'VERY CLOSE'... RSI Threshold Near"
+        },
+        {
+          "id": "678d2bb2cde885d0",
+          "title": "Anthropic Taps Macquarie, CommSec for Australia IPO Retail Offer",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-taps-macquarie-commsec-for-australia-ipo-retail-offer",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC has tapped eight firms including Macquarie Group Ltd. and Commonwealth Bank of Australia\u2019s CommSec unit for its Australian retail offer ahead of its highly anticipated Nasdaq debut that\u2019s set to be among the largest ever initial public offerings.",
+          "published": "2026-11-02T22:23:53+00:00",
+          "score": 44.0,
+          "headline": "ANTHROPIC TAPS AUSSIE BANKS FOR IPO RETAIL OFFER... Nasdaq Debut Imminent"
+        },
+        {
+          "id": "bf81805a5ae860b9",
+          "title": "Anthropic is working on a system to prove AI models\u2019 identity",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+          "source": "TechCrunch AI",
+          "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+          "published": "2026-11-03T22:41:03+00:00",
+          "score": 43.0,
+          "headline": "ANTHROPIC LAUNCHES FlashProve: AI Model Identity Verification System"
+        },
+        {
+          "id": "741c3465b3a0806b",
+          "title": "Anthropic is still grappling with the economics of compute",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+          "source": "TechCrunch AI",
+          "summary": "At a moment when Anthropic's compute margins should be getting better, they\u2019re getting worse.",
+          "published": "2026-11-03T17:07:01+00:00",
+          "score": 41.0,
+          "headline": "Anthropic's Compute Margins WORSENING Despite Scale"
+        },
+        {
+          "id": "bbc8a202f42eaa66",
+          "title": "Dario Amodei wants \u2018a country of geniuses in a data center.\u2019 Realizing that vision requires risky financial mechanics, Anthropic\u2019s IPO filing shows",
+          "url": "https://fortune.com/2026/11/04/dario-amodei-wants-a-country-of-geniuses-in-a-data-center-realizing-that-vision-requires-tricky-financial-mechanics-anthropics-ipo-filing-shows/",
+          "source": "Fortune Tech",
+          "summary": "The company has used convertible notes and a complex financing deal with Broadcom to backstop its AI infrastructure buildout. But analysts question whether it will be able to continue to tap funding at competitive interest rates.",
+          "published": "2026-11-04T11:22:55+00:00",
+          "score": 40.0,
+          "headline": "ANTHROPIC IPO REVEALS RISKY FINANCING... Broadcom Deal Questioned"
+        }
+      ],
+      "current_topic_name": "Anthropic's Growth & IPO Plans"
     }
   ],
-  "last_updated": "2026-11-03T22:48:41.776580"
+  "last_updated": "2026-11-04T13:40:14.863420"
 }
