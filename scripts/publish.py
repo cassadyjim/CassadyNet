@@ -780,6 +780,12 @@ def main():
     if polls_script.exists():
         run_step("Generate polls page", ["python3", str(polls_script)])
 
+    # Step 6b: Generate full archive page (every analysis page ever published)
+    logger.info("Step 6b: Generating archive page...")
+    archive_script = BASE_DIR / "scripts" / "generate_archive_page.py"
+    if archive_script.exists():
+        run_step("Generate archive page", ["python3", str(archive_script)])
+
     # Step 7: Generate RSS feed
     logger.info("Step 7: Generating RSS feed...")
     rss_script = BASE_DIR / "scripts" / "generate_rss.py"

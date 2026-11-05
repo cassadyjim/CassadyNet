@@ -100,6 +100,7 @@ def upload_site():
         OUTPUT_DIR / "sources.html",
         OUTPUT_DIR / "feed.xml",
         OUTPUT_DIR / "polls.html",
+        OUTPUT_DIR / "archive.html",
         OUTPUT_DIR / "sitemap.xml",
         OUTPUT_DIR / "robots.txt",
     ]

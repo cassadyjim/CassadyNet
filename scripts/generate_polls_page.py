@@ -263,6 +263,7 @@ PREVIOUS_POLLS_TEMPLATE = """<!DOCTYPE html>
         <div>CassadyNet · AI-Powered News Analysis</div>
         <div class="footer-links">
             <a href="/">Home</a>
+            <a href="/archive.html">Archive</a>
             <a href="/about.html">About</a>
             <a href="/sources.html">Sources</a>
             <a href="/privacy.html">Privacy</a>

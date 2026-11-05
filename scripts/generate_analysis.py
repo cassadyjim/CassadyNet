@@ -609,6 +609,7 @@ ANALYSIS_TEMPLATE = """<!DOCTYPE html>
         <div class="footer-links">
             <a href="/">Home</a>
             <a href="/polls.html">Previous Polls</a>
+            <a href="/archive.html">Archive</a>
             <a href="/about.html">About</a>
             <a href="/sources.html">Sources</a>
             <a href="/privacy.html">Privacy</a>
