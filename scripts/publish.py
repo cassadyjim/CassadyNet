@@ -45,6 +45,73 @@ def get_paywalled_sources() -> set:
     return {f['name'] for f in data.get('feeds', []) if f.get('paywall')}
 
 
+# feeds/sources.json's category slugs, mapped to the display labels used in
+# the homepage "Our Sources" strip. Several small slugs are folded into one
+# label so the footer doesn't end up with a dozen near-empty categories.
+SOURCE_CATEGORY_LABELS = {
+    'tech_news': 'Tech News',
+    'research': 'Research & Academic',
+    'ai_labs': 'AI Labs & Companies',
+    'international': 'Global & International',
+    'social': 'Community & Social',
+    'business': 'Business & Finance',
+    'finance': 'Business & Finance',
+    'funding': 'Business & Finance',
+    'newsletter': 'Newsletters',
+    'ai_safety': 'AI Safety & Policy',
+    'policy': 'AI Safety & Policy',
+    'developer': 'Developer & Technical',
+    'robotics': 'Robotics',
+    'healthcare': 'Other',
+}
+
+
+def generate_sources_section() -> str:
+    """Builds the dense "Our Sources" strip for the homepage footer directly
+    from feeds/sources.json - the same file fetch_feeds.py reads - so this
+    list can never drift out of sync with what's actually being pulled,
+    the way a hand-copied list would."""
+    if not FEEDS_FILE.exists():
+        return ''
+    with open(FEEDS_FILE) as f:
+        data = json.load(f)
+    feeds = [f for f in data.get('feeds', []) if f.get('enabled', True) and f.get('name') and f.get('url')]
+    if not feeds:
+        return ''
+
+    grouped: dict = {}
+    for feed in feeds:
+        label = SOURCE_CATEGORY_LABELS.get(feed.get('category', ''), 'Other')
+        grouped.setdefault(label, []).append(feed)
+
+    categories_html = ""
+    for label in sorted(grouped, key=lambda l: -len(grouped[l])):
+        links_html = ""
+        for feed in sorted(grouped[label], key=lambda f: f['name'].lower()):
+            name = escape(feed['name'])
+            parsed = urlparse(feed['url'])
+            # Link to the outlet's homepage, not the raw RSS/XML feed URL -
+            # sources.json only stores the feed endpoint, and the homepage
+            # origin is always a valid, working link even when a per-feed
+            # category-page URL isn't available to derive.
+            link = safe_url(f"{parsed.scheme}://{parsed.netloc}") if parsed.scheme else '#'
+            links_html += f'<a href="{link}" target="_blank" class="source-link">{name}</a>'
+        categories_html += f"""
+        <div class="source-category">
+            <div class="source-category-title">{escape(label)}</div>
+            <div class="source-grid">{links_html}</div>
+        </div>
+        """
+
+    return f"""
+    <section class="sources-section">
+        <h2 class="headlines-header">Our Sources</h2>
+        <p class="sources-subtitle">{len(feeds)} active feeds across {len(grouped)} categories &middot; <a href="/sources.html">full list &amp; methodology →</a></p>
+        {categories_html}
+    </section>
+    """
+
+
 def dedupe_similar_stories(stories: list, title_threshold: float = 0.6) -> list:
     """Drop stories whose (normalized) title is a close match to one already kept.
     Stories should already be sorted best-first (e.g. by score) so the first of
@@ -543,6 +610,7 @@ def generate_homepage():
     html = html.replace('{{TOP_STORIES_SECTION}}', top_stories_section)
     html = html.replace('{{STORY_CLUSTERS}}', clusters_html)
     html = html.replace('{{ALL_STORIES}}', all_stories_html)
+    html = html.replace('{{SOURCES_SECTION}}', generate_sources_section())
     utc_now = datetime.now(timezone.utc)
     et_fallback = utc_now.astimezone(ZoneInfo('America/New_York')).strftime('%I:%M %p ET')
     html = html.replace('{{LAST_UPDATED}}', f'<span class="local-time" data-utc="{utc_now.strftime("%Y-%m-%dT%H:%M:%SZ")}">{et_fallback}</span>')
