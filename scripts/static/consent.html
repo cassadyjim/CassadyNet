@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SMS Consent & Messaging Policy for CassadyNet">
+    <title>SMS Consent & Messaging Policy - CassadyNet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --text-primary: #0f172a;
+            --text-secondary: #64748b;
+            --accent: #3b82f6;
+            --border: #e2e8f0;
+            --gradient-start: #3b82f6;
+            --gradient-end: #8b5cf6;
+            --success-green: #10b981;
+        }
+        
+        body {
+            background-color: var(--bg-primary);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--text-primary);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 24px;
+        }
+        
+        .site-logo-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        
+        .site-logo {
+            width: 42px;
+            height: 42px;
+            border-radius: 8px;
+        }
+        
+        .site-title {
+            font-size: 42px;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+            letter-spacing: -2px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .back-link:hover { text-decoration: underline; }
+        
+        .content {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 40px;
+            border: 1px solid var(--border);
+        }
+        
+        h1 {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+        
+        .meta {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        
+        p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+        
+        ul {
+            margin-bottom: 16px;
+            padding-left: 24px;
+            color: var(--text-secondary);
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .consent-box {
+            background: #f0fdf4;
+            border: 2px solid var(--success-green);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+        
+        .consent-box h2 {
+            color: #166534;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+        
+        .consent-box p {
+            color: #166534;
+            font-weight: 500;
+        }
+        
+        .consent-statement {
+            background: #ffffff;
+            border: 1px solid var(--success-green);
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 16px 0;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .highlight-box {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 16px 0;
+            font-family: monospace;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-align: center;
+        }
+        
+        .message-types {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 16px 0;
+        }
+        
+        .message-types h3 {
+            color: #1e40af;
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+        
+        .message-types ul {
+            color: #1e40af;
+            margin-bottom: 0;
+        }
+        
+        .contact-box {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 24px;
+        }
+        
+        .contact-box p {
+            margin-bottom: 8px;
+        }
+        
+        .contact-box a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        
+        .last-updated {
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+        
+        .footer a { color: var(--accent); text-decoration: none; }
+        .footer-links a { margin: 0 12px; }
+        
+        @media (max-width: 600px) {
+            .content { padding: 24px; }
+            h1 { font-size: 24px; }
+            .site-title { font-size: 32px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="site-logo-link">
+            <img src="/logo.png" alt="CassadyNet" class="site-logo">
+            <span class="site-title">CassadyNet</span>
+        </a>
+    </header>
+    
+    <a href="/" class="back-link">← Back to Home</a>
+    
+    <div class="content">
+        <h1>SMS Text Message Consent & Messaging Policy</h1>
+        <div class="meta">
+            <strong>Company:</strong> CassadyNet<br>
+            <strong>Website:</strong> <a href="https://www.cassadynet.com">www.cassadynet.com</a><br>
+            <strong>Purpose:</strong> SMS text message notifications and alerts
+        </div>
+        
+        <!-- EXPLICIT CONSENT SECTION - PROMINENTLY DISPLAYED -->
+        <div class="consent-box">
+            <h2>📱 SMS Text Message Consent</h2>
+            <p>By providing your phone number and opting in to receive SMS text messages from CassadyNet, you expressly consent to the following:</p>
+            
+            <div class="consent-statement">
+                "I agree to receive SMS text messages from CassadyNet at the phone number I have provided. I understand that message and data rates may apply. I can opt out at any time by replying STOP."
+            </div>
+            
+            <p>This consent is separate from any other agreements, including our Privacy Policy and Terms of Service.</p>
+        </div>
+        
+        <h2>What You Are Agreeing To Receive</h2>
+        <p>By opting in, you agree to receive the following types of <strong>SMS text messages</strong> from CassadyNet:</p>
+        
+        <div class="message-types">
+            <h3>Types of SMS Text Messages You Will Receive:</h3>
+            <ul>
+                <li><strong>System Notifications</strong> – Alerts about account activity or system status</li>
+                <li><strong>Reminder Messages</strong> – Time-sensitive reminders and updates</li>
+                <li><strong>Workflow Alerts</strong> – Automated notifications based on your preferences</li>
+                <li><strong>Service Updates</strong> – Important information about CassadyNet services</li>
+            </ul>
+        </div>
+        
+        <p><strong>Message Frequency:</strong> Message frequency varies. You may receive up to 10 SMS text messages per month depending on your notification preferences and account activity.</p>
+        
+        <h2>How to Opt-In to SMS Text Messages</h2>
+        <p>You may opt-in to receive SMS text messages from CassadyNet through the following methods:</p>
+        <ul>
+            <li><strong>Web Form:</strong> By entering your phone number and checking the SMS consent checkbox on our website</li>
+            <li><strong>Keyword Opt-In:</strong> By texting JOIN to our designated phone number</li>
+            <li><strong>Account Registration:</strong> By providing your phone number during account setup and agreeing to receive SMS messages</li>
+        </ul>
+        <p>In each case, you will receive a confirmation SMS text message verifying your opt-in.</p>
+        
+        <h2>How to Opt-Out of SMS Text Messages</h2>
+        <p>You may opt out of receiving SMS text messages at any time by replying:</p>
+        <div class="highlight-box">STOP</div>
+        <p>After opting out, you will receive a final confirmation message and will no longer receive SMS text messages from CassadyNet.</p>
+        
+        <h2>How to Get Help</h2>
+        <p>For assistance with SMS text messages, reply:</p>
+        <div class="highlight-box">HELP</div>
+        <p>You will receive instructions and contact information for further support.</p>
+        
+        <h2>Message and Data Rates</h2>
+        <p><strong>Standard message and data rates may apply.</strong> Please contact your mobile carrier for details about your text messaging plan. CassadyNet is not responsible for any charges from your mobile carrier.</p>
+        
+        <h2>Supported Carriers</h2>
+        <p>SMS text messages are supported on all major US carriers including AT&T, Verizon, T-Mobile, Sprint, and others. Carriers are not liable for delayed or undelivered messages.</p>
+        
+        <h2>Privacy and Data Protection</h2>
+        <p>Your phone number and SMS messaging data:</p>
+        <ul>
+            <li>Will only be used to send you the SMS text messages you have consented to receive</li>
+            <li>Will <strong>NOT</strong> be sold, rented, or shared with third parties for marketing purposes</li>
+            <li>Will be stored securely in accordance with our <a href="/privacy.html">Privacy Policy</a></li>
+        </ul>
+        
+        <h2>No Purchase Required</h2>
+        <p>Consent to receive SMS text messages is not a condition of any purchase. You may use CassadyNet services without opting in to SMS messaging.</p>
+        
+        <div class="contact-box">
+            <h2 style="margin-top: 0;">Contact Information</h2>
+            <p>For questions about SMS text messaging or this consent policy:</p>
+            <p><strong>Email:</strong> <a href="mailto:privacy@cassadynet.com">privacy@cassadynet.com</a></p>
+            <p><strong>Website:</strong> <a href="https://www.cassadynet.com">www.cassadynet.com</a></p>
+        </div>
+        
+        <div class="last-updated">
+            <strong>Last Updated:</strong> January 2026
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div>CassadyNet · AI-Powered News Analysis</div>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/sources.html">Sources</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/consent.html">SMS Consent</a>
+        </div>
+    </footer>
+</body>
+</html>

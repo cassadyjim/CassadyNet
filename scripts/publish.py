@@ -508,7 +508,15 @@ def main():
         import shutil
         shutil.copy(robots_src, robots_dst)
         logger.info("Copied robots.txt to output")
-    
+
+    # Step 9b: Copy hand-maintained static pages (tracked in git, unlike output/)
+    static_dir = BASE_DIR / "scripts" / "static"
+    if static_dir.exists():
+        import shutil
+        for static_file in static_dir.glob("*.html"):
+            shutil.copy(static_file, OUTPUT_DIR / static_file.name)
+        logger.info("Copied static pages (about/sources/privacy/consent) to output")
+
     # Step 10: Upload
     if not args.skip_upload and not args.local_only:
         logger.info("Step 10: Uploading to server...")
