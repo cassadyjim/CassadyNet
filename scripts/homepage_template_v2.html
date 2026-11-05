@@ -457,8 +457,10 @@
             color: var(--accent);
         }
 
-        /* Sources - dense credibility strip, built from the live feed list
-           so it can't drift out of sync with what's actually being fetched */
+        /* Sources - same look as sources.html (page-title, stats-bar,
+           bordered category titles, 3-column grid), just tightened up:
+           built from the live feed list so it can't drift out of sync
+           with what's actually being fetched */
         .sources-section {
             background: var(--bg-secondary);
             border-radius: 12px;
@@ -467,20 +469,44 @@
             margin-bottom: 28px;
         }
 
-        .sources-subtitle {
-            font-size: 13px;
-            color: var(--text-light);
-            margin: -8px 0 18px;
+        .sources-title {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 6px;
         }
 
-        .sources-subtitle a {
+        .sources-intro {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stats-bar {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 16px;
+            padding: 14px;
+            background: var(--bg-primary);
+            border-radius: 8px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 28px;
+            font-weight: 800;
             color: var(--accent);
-            text-decoration: none;
-            font-weight: 500;
         }
 
-        .sources-subtitle a:hover {
-            text-decoration: underline;
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
         .source-category {
@@ -492,31 +518,51 @@
         }
 
         .source-category-title {
-            font-size: 11px;
-            font-weight: 700;
+            font-size: 14px;
+            font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            color: var(--text-secondary);
-            margin-bottom: 6px;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            padding-bottom: 6px;
+            border-bottom: 3px solid var(--text-primary);
         }
 
         .source-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 3px 16px;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 4px 20px;
         }
 
-        .source-link {
-            display: block;
-            font-size: 12.5px;
+        .source-item {
+            font-size: 13px;
             color: var(--text-secondary);
-            text-decoration: none;
-            padding: 2px 0;
-            line-height: 1.5;
+            padding: 3px 0;
         }
 
-        .source-link:hover {
+        .source-item a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .source-item a:hover {
             color: var(--accent);
+        }
+
+        .sources-footer-link {
+            font-size: 13px;
+            margin-top: 4px;
+        }
+
+        .sources-footer-link a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .sources-footer-link a:hover {
+            text-decoration: underline;
         }
 
         /* Footer */
@@ -560,12 +606,23 @@
                 grid-template-columns: repeat(2, 1fr);
             }
 
+            .stats-bar {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
             .main-link {
                 font-size: 24px;
             }
             
             .site-title {
                 font-size: 40px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .source-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>

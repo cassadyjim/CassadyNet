@@ -86,7 +86,7 @@ def generate_sources_section() -> str:
 
     categories_html = ""
     for label in sorted(grouped, key=lambda l: -len(grouped[l])):
-        links_html = ""
+        items_html = ""
         for feed in sorted(grouped[label], key=lambda f: f['name'].lower()):
             name = escape(feed['name'])
             parsed = urlparse(feed['url'])
@@ -95,19 +95,38 @@ def generate_sources_section() -> str:
             # origin is always a valid, working link even when a per-feed
             # category-page URL isn't available to derive.
             link = safe_url(f"{parsed.scheme}://{parsed.netloc}") if parsed.scheme else '#'
-            links_html += f'<a href="{link}" target="_blank" class="source-link">{name}</a>'
+            items_html += f'<div class="source-item"><a href="{link}" target="_blank">{name}</a></div>'
         categories_html += f"""
         <div class="source-category">
-            <div class="source-category-title">{escape(label)}</div>
-            <div class="source-grid">{links_html}</div>
+            <h3 class="source-category-title">{escape(label)}</h3>
+            <div class="source-grid">{items_html}</div>
         </div>
         """
 
+    # Numbers are computed live (not the static sources.html page's stale
+    # "105+ sources / 15 categories / 12 countries") so this can't go stale
+    # the way a hand-written stat would - "countries" is dropped entirely
+    # since feeds/sources.json has no country field to back that claim.
     return f"""
     <section class="sources-section">
-        <h2 class="headlines-header">Our Sources</h2>
-        <p class="sources-subtitle">{len(feeds)} active feeds across {len(grouped)} categories &middot; <a href="/sources.html">full list &amp; methodology →</a></p>
+        <h2 class="sources-title">Our Sources</h2>
+        <p class="sources-intro">CassadyNet aggregates AI news from {len(feeds)} sources worldwide. Stories are scored by AI for newsworthiness, and only the top stories make it to our homepage.</p>
+        <div class="stats-bar">
+            <div class="stat">
+                <div class="stat-number">{len(feeds)}</div>
+                <div class="stat-label">RSS Feeds</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">{len(grouped)}</div>
+                <div class="stat-label">Categories</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">2x</div>
+                <div class="stat-label">Daily Updates</div>
+            </div>
+        </div>
         {categories_html}
+        <p class="sources-footer-link"><a href="/sources.html">Full list &amp; methodology →</a></p>
     </section>
     """
 
