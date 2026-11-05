@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "version": "2.1",
+    "version": "2.2",
     "description": "CassadyNet AI News Aggregator - RSS Feed Sources",
     "last_updated": "2026-11-05",
-    "total_feeds": 104,
-    "enabled_feeds": 80
+    "total_feeds": 109,
+    "enabled_feeds": 84
   },
   "feeds": [
     {
@@ -651,6 +651,28 @@
       "enabled": true
     },
     {
+      "name": "Don't Worry About the Vase",
+      "url": "https://thezvi.substack.com/feed",
+      "category": "newsletter",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "Interconnects",
+      "url": "https://www.interconnects.ai/feed",
+      "category": "newsletter",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "name": "TLDR AI",
+      "url": "https://tldr.tech/api/rss/ai",
+      "category": "newsletter",
+      "tier": 2,
+      "enabled": true,
+      "max_items": 10
+    },
+    {
       "name": "Alignment Forum",
       "url": "https://www.alignmentforum.org/feed.xml",
       "category": "ai_safety",
@@ -684,6 +706,13 @@
       "url": "https://futureoflife.org/feed/",
       "category": "ai_safety",
       "tier": 2,
+      "enabled": true
+    },
+    {
+      "name": "METR",
+      "url": "https://metr.org/feed.xml",
+      "category": "ai_safety",
+      "tier": 1,
       "enabled": true
     },
     {
@@ -725,6 +754,14 @@
       "tier": 2,
       "enabled": false,
       "disabled_reason": "HTTP 403 on both curl and aiohttp as of 2026-11-05; newly bot-blocked"
+    },
+    {
+      "name": "BioWorld AI",
+      "url": "https://www.bioworld.com/rss/topic/326-artificial-intelligence",
+      "category": "healthcare",
+      "tier": 2,
+      "enabled": false,
+      "disabled_reason": "Returns valid XML (200) but hasn't published a new entry since March 2026 - feed appears abandoned, would never pass the 7-day freshness cutoff"
     },
     {
       "name": "AI in Finance",
