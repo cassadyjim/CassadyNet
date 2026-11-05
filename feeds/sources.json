@@ -1,9 +1,10 @@
 {
   "metadata": {
-    "version": "2.0",
+    "version": "2.1",
     "description": "CassadyNet AI News Aggregator - RSS Feed Sources",
-    "last_updated": "2026-01-13",
-    "total_feeds": 105
+    "last_updated": "2026-11-05",
+    "total_feeds": 104,
+    "enabled_feeds": 80
   },
   "feeds": [
     {
@@ -116,7 +117,8 @@
       "url": "https://www.semafor.com/feed/tech",
       "category": "tech_news",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "HTTP 404 on all paths tried"
     },
     {
       "name": "Rest of World",
@@ -137,7 +139,8 @@
       "url": "https://www.anthropic.com/rss.xml",
       "category": "ai_labs",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "No official RSS feed found (404); anthropic.com/news has none"
     },
     {
       "name": "Google AI Blog",
@@ -158,11 +161,12 @@
       "url": "https://ai.meta.com/blog/rss/",
       "category": "ai_labs",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "No official RSS feed found (404)"
     },
     {
       "name": "Microsoft AI Blog",
-      "url": "https://blogs.microsoft.com/ai/feed/",
+      "url": "https://news.microsoft.com/source/topics/ai/feed/",
       "category": "ai_labs",
       "tier": 1,
       "enabled": true
@@ -193,7 +197,8 @@
       "url": "https://stability.ai/blog/rss.xml",
       "category": "ai_labs",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "Feed URL now redirects to a plain HTML news page; no RSS available"
     },
     {
       "name": "Cohere Blog",
@@ -207,14 +212,16 @@
       "url": "https://www.ai21.com/blog/rss.xml",
       "category": "ai_labs",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "Blocks the Python/aiohttp client specifically (403); succeeds via curl with the same headers, so it's network/TLS-level bot management"
     },
     {
       "name": "Mistral AI Blog",
       "url": "https://mistral.ai/feed.xml",
       "category": "ai_labs",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "No official RSS feed found (404)"
     },
     {
       "name": "Replicate Blog",
@@ -235,14 +242,16 @@
       "url": "https://www.perplexity.ai/hub/rss.xml",
       "category": "ai_labs",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "No official RSS feed found (404)"
     },
     {
       "name": "Runway Blog",
       "url": "https://runwayml.com/blog/rss/",
       "category": "ai_labs",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "No official RSS feed found (404/500 on all tried paths)"
     },
     {
       "name": "arXiv cs.AI",
@@ -302,7 +311,7 @@
     },
     {
       "name": "MIT CSAIL News",
-      "url": "https://www.csail.mit.edu/news/rss.xml",
+      "url": "https://www.csail.mit.edu/rss.xml",
       "category": "research",
       "tier": 2,
       "enabled": true
@@ -312,7 +321,8 @@
       "url": "https://hai.stanford.edu/news/rss.xml",
       "category": "research",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "URL now serves the JS-rendered news page, not an XML feed"
     },
     {
       "name": "CMU ML Blog",
@@ -333,7 +343,8 @@
       "url": "https://www.nature.com/natmachintell.rss",
       "category": "research",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "Serves 404 to the Python/aiohttp client but 200 via curl; network/TLS-level bot management, not a missing header"
     },
     {
       "name": "Science Robotics",
@@ -358,14 +369,14 @@
     },
     {
       "name": "Nikkei Asia Tech",
-      "url": "https://asia.nikkei.com/rss/feed/Technology",
+      "url": "https://asia.nikkei.com/rss/feed/nar",
       "category": "international",
       "tier": 1,
       "enabled": true
     },
     {
       "name": "Japan Times Tech",
-      "url": "https://www.japantimes.co.jp/feed/tech/",
+      "url": "https://www.japantimes.co.jp/feed/",
       "category": "international",
       "tier": 2,
       "enabled": true
@@ -403,21 +414,24 @@
       "url": "https://www.reuters.com/technology/rss",
       "category": "business",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "HTTP 401 - Reuters now requires an authenticated feed API"
     },
     {
       "name": "AP Technology",
       "url": "https://apnews.com/technology.rss",
       "category": "business",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "HTTP 403 on all paths tried, even with an honest User-Agent"
     },
     {
       "name": "Bloomberg Technology",
       "url": "https://feeds.bloomberg.com/technology/news.rss",
       "category": "business",
       "tier": 1,
-      "enabled": true
+      "enabled": true,
+      "paywall": true
     },
     {
       "name": "CNBC Technology",
@@ -431,18 +445,20 @@
       "url": "https://feeds.a.dj.com/rss/RSSWSJD.xml",
       "category": "business",
       "tier": 1,
-      "enabled": true
+      "enabled": true,
+      "paywall": true
     },
     {
       "name": "Financial Times Tech",
       "url": "https://www.ft.com/technology?format=rss",
       "category": "business",
       "tier": 1,
-      "enabled": true
+      "enabled": true,
+      "paywall": true
     },
     {
       "name": "Forbes AI",
-      "url": "https://www.forbes.com/ai/feed/",
+      "url": "https://www.forbes.com/innovation/feed/",
       "category": "business",
       "tier": 2,
       "enabled": true
@@ -473,7 +489,8 @@
       "url": "https://pitchbook.com/news/rss",
       "category": "funding",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "HTTP 403 even with an honest User-Agent"
     },
     {
       "name": "Hacker News",
@@ -557,7 +574,8 @@
       "url": "https://www.automate.org/news/rss",
       "category": "robotics",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "HTTP 403 even with an honest User-Agent"
     },
     {
       "name": "Import AI",
@@ -571,11 +589,12 @@
       "url": "https://www.deeplearning.ai/the-batch/feed/",
       "category": "newsletter",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "No official RSS feed; newsletter is email-only"
     },
     {
       "name": "Ben's Bites",
-      "url": "https://bensbites.beehiiv.com/feed",
+      "url": "https://bensbites.com/feed",
       "category": "newsletter",
       "tier": 1,
       "enabled": true
@@ -585,7 +604,8 @@
       "url": "https://www.theneurondaily.com/feed",
       "category": "newsletter",
       "tier": 1,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "HTTP 403 even with an honest User-Agent"
     },
     {
       "name": "The Rundown AI",
@@ -613,7 +633,8 @@
       "url": "https://davissummarizesai.substack.com/feed",
       "category": "newsletter",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "HTTP 404 on all paths tried; newsletter may be discontinued"
     },
     {
       "name": "Last Week in AI",
@@ -641,7 +662,8 @@
       "url": "https://www.safe.ai/blog/rss.xml",
       "category": "ai_safety",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "No official RSS feed found (404 on all paths tried)"
     },
     {
       "name": "AI Snake Oil",
@@ -662,35 +684,40 @@
       "url": "https://www.brookings.edu/topic/artificial-intelligence/feed/",
       "category": "policy",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "URL now redirects to a plain HTML page, not an XML feed"
     },
     {
       "name": "Lawfare AI",
       "url": "https://www.lawfaremedia.org/taxonomy/term/12776/feed",
       "category": "policy",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "HTTP 403 even with an honest User-Agent"
     },
     {
       "name": "CSET Georgetown",
       "url": "https://cset.georgetown.edu/feed/",
       "category": "policy",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "Blocks the Python/aiohttp client specifically (403); succeeds via curl with the same headers, so it's network/TLS-level bot management"
     },
     {
       "name": "Healthcare IT News AI",
       "url": "https://www.healthcareitnews.com/taxonomy/term/53946/feed",
       "category": "healthcare",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "HTTP 403/404 on all paths tried, even with an honest User-Agent"
     },
     {
       "name": "MobiHealthNews",
       "url": "https://www.mobihealthnews.com/feed",
       "category": "healthcare",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "HTTP 403 on both curl and aiohttp as of 2026-11-05; newly bot-blocked"
     },
     {
       "name": "AI in Finance",
@@ -732,7 +759,8 @@
       "url": "https://pytorch.org/blog/feed.xml",
       "category": "developer",
       "tier": 2,
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "Blocks the Python/aiohttp client specifically (403) even with a proper User-Agent; same request succeeds via curl, so this is network/TLS-level bot management, not a missing header"
     }
   ]
 }

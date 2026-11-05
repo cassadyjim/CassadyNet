@@ -30,6 +30,14 @@ BASE_DIR = Path(__file__).parent.parent
 FEEDS_FILE = BASE_DIR / "feeds" / "sources.json"
 DB_FILE = BASE_DIR / "data" / "stories.db"
 
+# aiohttp's default User-Agent ("Python/x.y aiohttp/x.y") is blocked by many
+# publishers' CDNs outright. Identifying honestly as a feed reader (rather than
+# spoofing a browser) clears most of those blocks.
+REQUEST_HEADERS = {
+    "User-Agent": "CassadyNet-RSSReader/1.0 (+https://cassadynet.com)",
+    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+}
+
 # Ensure data directory exists
 DB_FILE.parent.mkdir(parents=True, exist_ok=True)
 
@@ -78,8 +86,8 @@ def load_feeds() -> List[Dict]:
     
     with open(FEEDS_FILE) as f:
         data = json.load(f)
-    
-    return data.get("feeds", [])
+
+    return [f for f in data.get("feeds", []) if f.get("enabled", True)]
 
 
 def generate_story_id(url: str) -> str:
@@ -172,7 +180,7 @@ async def fetch_feed(session: aiohttp.ClientSession, feed: Dict) -> List[Dict]:
     logger.info(f"Fetching: {feed_name}")
     
     try:
-        async with session.get(feed_url, timeout=aiohttp.ClientTimeout(total=30)) as response:
+        async with session.get(feed_url, headers=REQUEST_HEADERS, timeout=aiohttp.ClientTimeout(total=30)) as response:
             if response.status != 200:
                 raise Exception(f"HTTP {response.status}")
             

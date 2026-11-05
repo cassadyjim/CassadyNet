@@ -7,6 +7,7 @@ Generates the homepage HTML with story clusters and uploads to server.
 import sqlite3
 import json
 import re
+import difflib
 import subprocess
 import os
 import logging
@@ -29,9 +30,34 @@ BASE_DIR = Path(__file__).parent.parent
 DB_FILE = BASE_DIR / "data" / "stories.db"
 CLUSTERS_FILE = BASE_DIR / "data" / "story_clusters.json"
 ANALYSIS_INDEX_FILE = BASE_DIR / "data" / "analysis_index.json"
+FEEDS_FILE = BASE_DIR / "feeds" / "sources.json"
 TEMPLATE_FILE = BASE_DIR / "scripts" / "homepage_template_v2.html"
 TEMPLATE_FILE_FALLBACK = BASE_DIR / "scripts" / "homepage_template.html"
 OUTPUT_DIR = BASE_DIR / "output"
+
+
+def get_paywalled_sources() -> set:
+    """Feed names flagged "paywall": true in feeds/sources.json"""
+    if not FEEDS_FILE.exists():
+        return set()
+    with open(FEEDS_FILE) as f:
+        data = json.load(f)
+    return {f['name'] for f in data.get('feeds', []) if f.get('paywall')}
+
+
+def dedupe_similar_stories(stories: list, title_threshold: float = 0.6) -> list:
+    """Drop stories whose (normalized) title is a close match to one already kept.
+    Stories should already be sorted best-first (e.g. by score) so the first of
+    each near-duplicate group - the highest-scoring one - is the one kept."""
+    kept = []
+    kept_norm_titles = []
+    for story in stories:
+        norm = re.sub(r'[^a-z0-9 ]', '', (story.get('headline') or story['title']).lower())
+        if any(difflib.SequenceMatcher(None, norm, seen).ratio() >= title_threshold for seen in kept_norm_titles):
+            continue
+        kept.append(story)
+        kept_norm_titles.append(norm)
+    return kept
 
 
 def is_safe_url(url: str) -> bool:
@@ -134,20 +160,25 @@ def get_analysis_info(topic: str, analysis_index: dict) -> tuple:
 
 
 def get_top_stories(limit: int = 50) -> list:
-    """Get top scored stories"""
+    """Get top scored stories, excluding paywalled sources"""
     conn = sqlite3.connect(DB_FILE)
-    
-    stories = conn.execute("""
+
+    paywalled = get_paywalled_sources()
+    placeholders = ",".join("?" * len(paywalled))
+    exclude_clause = f"AND source NOT IN ({placeholders})" if paywalled else ""
+
+    stories = conn.execute(f"""
         SELECT id, title, url, source, score, headline, published, category
         FROM stories
         WHERE score >= 25
         AND published > datetime('now', '-72 hours')
+        {exclude_clause}
         ORDER BY score DESC, published DESC
         LIMIT ?
-    """, (limit,)).fetchall()
-    
+    """, (*paywalled, limit)).fetchall()
+
     conn.close()
-    
+
     return [
         {
             'id': s[0],
@@ -302,6 +333,12 @@ def generate_homepage():
     cluster_data = load_clusters()
     clusters = cluster_data.get('clusters', [])
 
+    # Strip paywalled stories out of the featured clusters too
+    paywalled_sources = get_paywalled_sources()
+    for cluster in clusters:
+        cluster['stories'] = [s for s in cluster.get('stories', []) if s.get('source') not in paywalled_sources]
+        cluster['story_count'] = len(cluster['stories'])
+
     analysis_index = load_analysis_index()
 
     logger.info(f"Loaded {len(clusters)} clusters from story_clusters.json")
@@ -321,6 +358,15 @@ def generate_homepage():
         logger.info(f"  DB returned no fresh stories — falling back to story_clusters.json unclustered list")
     else:
         logger.info(f"  Using {len(unclustered)} fresh stories from DB")
+
+    # The JSON fallback above can predate the paywall list, so filter here too
+    unclustered = [s for s in unclustered if s.get('source') not in paywalled_sources]
+
+    # Drop near-duplicate coverage of the same story (keeps the highest-scored copy)
+    before_dedup = len(unclustered)
+    unclustered = dedupe_similar_stories(unclustered)
+    if before_dedup != len(unclustered):
+        logger.info(f"  Deduplicated {before_dedup - len(unclustered)} near-duplicate stories")
     
     # Load active polls to ensure 24-hour minimum display
     active_polls_file = BASE_DIR / "data" / "active_polls.json"
