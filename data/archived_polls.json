@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "Anthropic's Growth & IPO Plans",
+      "description": "Anthropic is advancing toward a major IPO while warning about approaching AGI thresholds and facing financial pressures from high compute costs.",
+      "question": "Should Anthropic go public now despite worsening margins and AGI warnings?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropics-growth-ipo-plans-20261104",
+      "results": {
+        "pro": 1,
+        "con": 0,
+        "total": 1,
+        "pro_percent": 100,
+        "con_percent": 0
+      },
+      "analysis_url": "/analysis/analysis-anthropics-growth-ipo-plans-20261104.html",
+      "started_at": "2026-11-04T13:39:50.354450",
+      "archived_at": "2026-11-05T13:47:39.259584",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "DeepSeek & Chinese AI Competition",
+      "description": "Chinese AI startup DeepSeek is raising record funding and launching products that directly challenge Western AI leaders, while geopolitical tensions affect China-related AI deals.",
+      "question": "Should Western companies use Chinese AI models despite security concerns?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "deepseek-chinese-ai-competition-20261104",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-deepseek-chinese-ai-competition-20261104.html",
+      "started_at": "2026-11-04T13:39:33.100006",
+      "archived_at": "2026-11-05T13:47:38.959876",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Security Threats & Malicious Use",
       "description": "Growing concerns about AI-enabled cyber attacks, malware, and abuse tools, with warnings from security chiefs and evidence of state actors weaponizing AI technology.",
       "question": "",
@@ -910,44 +948,6 @@
       "analysis_url": "/analysis/analysis-china-ai-expansion-and-us-china-tech-rivalry-20260914.html",
       "started_at": "2026-09-10T10:25:54.264366",
       "archived_at": "2026-09-14T21:19:46.991881",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Anthropic AI Safety Crisis",
-      "description": "Anthropic faces mounting controversies as researchers resign over safety concerns, its AI is used for weapons development, and it blocks government safety testing while warning of existential risks.",
-      "question": "Should AI companies like Anthropic slow down development despite competitive pressure?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropic-ai-safety-crisis-20260912",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-anthropic-ai-safety-crisis-20260912.html",
-      "started_at": "2026-09-12T09:55:21.033963",
-      "archived_at": "2026-09-13T10:58:01.548722",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Chinese AI Firms Stealing/Copying Western Models",
-      "description": "Multiple Chinese AI companies caught secretly routing queries to or copying U.S. AI models, raising intellectual property and security concerns.",
-      "question": "",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "",
-      "started_at": "2026-09-10T20:21:34.073702",
-      "archived_at": "2026-09-12T09:55:24.895600",
       "reason": "topic_replaced"
     }
   ]
