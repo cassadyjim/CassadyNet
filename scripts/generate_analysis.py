@@ -1102,10 +1102,17 @@ def generate_analysis_page(cluster: dict, existing_poll: dict = None) -> dict:
         </div>
         """
     
-    # Generate page
-    slug = slugify(cluster['topic'])
-    filename = f"analysis-{slug}-{datetime.now().strftime('%Y%m%d')}.html"
-    page_url = f"/analysis/{filename}"
+    # Generate page — reuse the existing file/URL when this cluster matched an
+    # active poll, so re-clustering with slightly different topic wording
+    # updates the same page instead of spawning a duplicate (same story, new
+    # slug each run otherwise).
+    if existing_poll and existing_poll.get('analysis_url'):
+        page_url = existing_poll['analysis_url']
+        filename = page_url.rsplit('/', 1)[-1]
+    else:
+        slug = slugify(cluster['topic'])
+        filename = f"analysis-{slug}-{datetime.now().strftime('%Y%m%d')}.html"
+        page_url = f"/analysis/{filename}"
     full_url = f"https://cassadynet.com{page_url}"
     
     # Share text for social - stronger call to action
