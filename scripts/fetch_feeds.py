@@ -195,8 +195,14 @@ async def fetch_feed(session: aiohttp.ClientSession, feed: Dict) -> List[Dict]:
         stories = []
         now = datetime.now(timezone.utc)
         cutoff = now - timedelta(days=7)
-        
-        for entry in parsed.entries:
+
+        # High-volume feeds (Reddit/HN) can submit far more raw items per run than
+        # a lab blog does, which skews the scoring queue toward "social" by sheer
+        # volume. max_items caps how many of a feed's newest entries we even look at.
+        max_items = feed.get("max_items")
+        entries = parsed.entries[:max_items] if max_items else parsed.entries
+
+        for entry in entries:
             try:
                 # Get URL
                 url = entry.get("link", "")

@@ -41,13 +41,12 @@ SCORING CRITERIA (1-10 each):
 2. IMPACT - How significant? (10=industry-shifting, 5=moderate interest, 1=minimal)
 3. EXCLUSIVITY - Are we adding value? (10=underreported, 5=few outlets, 1=viral rehash)
 4. CREDIBILITY - Can we trust this? (10=official source, 6=reputable blog, 2=rumor)
-5. HEADLINE_POTENTIAL - Will this drive clicks? (10=dramatic, 5=solid, 1=boring)
+5. HEADLINE_POTENTIAL - Will this drive clicks? (10=compelling, 5=solid, 1=boring)
 
-BONUSES: China/Asia AI news +5, EU/regulatory +3, First English coverage +5
-PENALTIES: Research papers without news angle: cap at 25. Opinion pieces: -5. PR fluff: cap at 15.
+PENALTIES: Research papers without a news angle: cap at 25. Opinion pieces: -5. PR fluff: cap at 15.
 
-HEADLINE STYLE: Short, punchy. Use caps for drama. Examples:
-- "PENTAGON DEPLOYS GROK... GLOBAL BACKLASH"
+HEADLINE STYLE: Short and punchy, but factual - no ALL-CAPS, no escalation words ("GLOBAL BACKLASH", "SHOCKING"). Examples:
+- "Pentagon Deploys Grok Amid Internal Backlash"
 - "DeepSeek's New Model Beats Claude on Coding"
 - "Senate Passes AI Deepfake Bill"
 
@@ -56,10 +55,9 @@ OUTPUT FORMAT - Return ONLY valid JSON array:
   {
     "story_id": "xxx",
     "scores": {"breaking": X, "impact": X, "exclusivity": X, "credibility": X, "headline_potential": X},
-    "bonuses": X,
     "penalties": X,
     "total_score": X,
-    "headline": "PUNCHY HEADLINE",
+    "headline": "Short punchy headline",
     "skip": false
   }
 ]
@@ -73,13 +71,16 @@ def get_unscored_stories(hours: int = 24, limit: int = 100) -> List[Dict]:
     with sqlite3.connect(DB_FILE) as conn:
         conn.row_factory = sqlite3.Row
         
+        # Oldest-pending-first: under high volume, newest-first would keep
+        # bumping the same near-the-cutoff stories run after run until they
+        # age out of the `hours` window and never get scored at all.
         query = """
             SELECT id, title, url, source, category, published, summary
-            FROM stories 
+            FROM stories
             WHERE fetched_at > datetime('now', ?)
             AND score = 0
             AND status = 'new'
-            ORDER BY published DESC
+            ORDER BY published ASC
             LIMIT ?
         """
         

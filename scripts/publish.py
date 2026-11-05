@@ -226,15 +226,23 @@ def get_analysis_info(topic: str, analysis_index: dict) -> tuple:
     return None, None
 
 
+# No single category (e.g. "social" / Reddit+HN) may fill more than this
+# share of the homepage slate, so high-volume sources can't crowd out
+# lower-volume ones like ai_labs or research just by submitting more raw items.
+MAX_CATEGORY_SHARE = 0.4
+
+
 def get_top_stories(limit: int = 50) -> list:
-    """Get top scored stories, excluding paywalled sources"""
+    """Get top scored stories, excluding paywalled sources, capped per category"""
     conn = sqlite3.connect(DB_FILE)
 
     paywalled = get_paywalled_sources()
     placeholders = ",".join("?" * len(paywalled))
     exclude_clause = f"AND source NOT IN ({placeholders})" if paywalled else ""
 
-    stories = conn.execute(f"""
+    # Pull a wider candidate pool than `limit` so capping a category still
+    # leaves enough other stories to fill the slate.
+    rows = conn.execute(f"""
         SELECT id, title, url, source, score, headline, published, category
         FROM stories
         WHERE score >= 25
@@ -242,11 +250,11 @@ def get_top_stories(limit: int = 50) -> list:
         {exclude_clause}
         ORDER BY score DESC, published DESC
         LIMIT ?
-    """, (*paywalled, limit)).fetchall()
+    """, (*paywalled, limit * 4)).fetchall()
 
     conn.close()
 
-    return [
+    candidates = [
         {
             'id': s[0],
             'title': s[1],
@@ -257,8 +265,32 @@ def get_top_stories(limit: int = 50) -> list:
             'published': s[6],
             'category': s[7]
         }
-        for s in stories
+        for s in rows
     ]
+
+    max_per_category = max(1, int(limit * MAX_CATEGORY_SHARE))
+    selected = []
+    category_counts = {}
+    for story in candidates:
+        if category_counts.get(story['category'], 0) >= max_per_category:
+            continue
+        selected.append(story)
+        category_counts[story['category']] = category_counts.get(story['category'], 0) + 1
+        if len(selected) >= limit:
+            break
+
+    # Backfill with whatever's left (ignoring the cap) if capping left the
+    # slate short - a partially-capped homepage beats an incomplete one.
+    if len(selected) < limit:
+        chosen_ids = {s['id'] for s in selected}
+        for story in candidates:
+            if story['id'] in chosen_ids:
+                continue
+            selected.append(story)
+            if len(selected) >= limit:
+                break
+
+    return selected
 
 
 def format_time_ago(published: str) -> tuple:
@@ -691,7 +723,7 @@ def main():
         logger.info("Step 2: Scoring stories...")
         score_script = BASE_DIR / "scripts" / "score_stories.py"
         if score_script.exists():
-            rc = run_step("Score stories", ["python3", str(score_script), "--hours", "48", "--limit", "100"])
+            rc = run_step("Score stories", ["python3", str(score_script), "--hours", "72", "--limit", "100"])
             if rc != 0:
                 logger.error("  → Scoring failed. Check that ANTHROPIC_API_KEY is set in GitHub Secrets.")
 

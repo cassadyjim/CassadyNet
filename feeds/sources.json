@@ -497,49 +497,56 @@
       "url": "https://hnrss.org/newest?q=AI+OR+GPT+OR+LLM+OR+OpenAI+OR+Anthropic+OR+DeepMind+OR+Claude+OR+Gemini",
       "category": "social",
       "tier": 1,
-      "enabled": true
+      "enabled": true,
+      "max_items": 15
     },
     {
       "name": "Reddit r/MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/hot/.rss",
       "category": "social",
       "tier": 1,
-      "enabled": true
+      "enabled": true,
+      "max_items": 10
     },
     {
       "name": "Reddit r/LocalLLaMA",
       "url": "https://www.reddit.com/r/LocalLLaMA/hot/.rss",
       "category": "social",
       "tier": 1,
-      "enabled": true
+      "enabled": true,
+      "max_items": 10
     },
     {
       "name": "Reddit r/artificial",
       "url": "https://www.reddit.com/r/artificial/hot/.rss",
       "category": "social",
       "tier": 2,
-      "enabled": true
+      "enabled": true,
+      "max_items": 10
     },
     {
       "name": "Reddit r/OpenAI",
       "url": "https://www.reddit.com/r/OpenAI/hot/.rss",
       "category": "social",
       "tier": 2,
-      "enabled": true
+      "enabled": true,
+      "max_items": 10
     },
     {
       "name": "Reddit r/singularity",
       "url": "https://www.reddit.com/r/singularity/hot/.rss",
       "category": "social",
       "tier": 2,
-      "enabled": true
+      "enabled": true,
+      "max_items": 10
     },
     {
       "name": "Reddit r/StableDiffusion",
       "url": "https://www.reddit.com/r/StableDiffusion/hot/.rss",
       "category": "social",
       "tier": 2,
-      "enabled": true
+      "enabled": true,
+      "max_items": 10
     },
     {
       "name": "Lobsters AI",
