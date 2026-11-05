@@ -209,16 +209,18 @@ class ImageBudget:
         self.remaining = limit
 
 
-def get_story_thumb_html(story: dict, is_fresh: bool, image_budget: 'ImageBudget' = None) -> str:
-    """Returns an <img> tag for a fresh story's thumbnail, or '' if the story
-    isn't fresh, the fetch budget is spent, or no image could be found."""
-    if not is_fresh or image_budget is None or image_budget.remaining <= 0:
+def get_story_thumb_html(story: dict, eligible: bool, image_budget: 'ImageBudget' = None, css_class: str = 'story-thumb') -> str:
+    """Returns an <img> tag for a story's thumbnail, or '' if the story isn't
+    eligible (the caller decides: "is fresh" for the JUST IN accent, or
+    always-True for Breaking News / Top Stories), the fetch budget is spent,
+    or no image could be found."""
+    if not eligible or image_budget is None or image_budget.remaining <= 0:
         return ''
     image_budget.remaining -= 1
     image_url = fetch_og_image(story.get('url', ''))
     if not image_url:
         return ''
-    return f'<img class="story-thumb" src="{escape(image_url)}" alt="" loading="lazy" onerror="this.remove()">'
+    return f'<img class="{css_class}" src="{escape(image_url)}" alt="" loading="lazy" onerror="this.remove()">'
 
 
 def load_clusters() -> dict:
@@ -568,20 +570,12 @@ def generate_homepage():
         all_stories = get_top_stories(50)
         unclustered = all_stories
     
-    # Shared across the whole page so "JUST IN" thumbnails stay a rare accent
-    # rather than a per-section budget that could add up to dozens of fetches.
-    image_budget = ImageBudget()
+    # Shared across the whole page, so the limited number of og:image fetches
+    # can't balloon into dozens of requests. Breaking News and Top Stories
+    # claim their thumbnails first (below), before clusters/headlines get a
+    # shot at the remaining budget for their "JUST IN" accents.
+    image_budget = ImageBudget(limit=10)
 
-    # Build clusters HTML - LIMIT TO 2 CLUSTERS MAX
-    clusters_html = ""
-    if final_clusters:
-        clusters_html = '<section class="clusters-section"><div class="clusters-grid">'
-        for cluster in final_clusters[:2]:  # Only top 2 clusters
-            analysis_url, analysis_type = get_analysis_info(cluster['topic'], analysis_index)
-            clusters_html += generate_cluster_html(cluster, analysis_url, analysis_type, image_budget)
-        clusters_html += '</div></section>'
-        logger.info(f"Generated HTML for {min(len(final_clusters), 2)} clusters")
-    
     # Get main headline (top unclustered story)
     main_story = None
     if unclustered:
@@ -589,20 +583,24 @@ def generate_homepage():
         remaining_stories = unclustered[1:]
     else:
         remaining_stories = []
-    
+
     if main_story:
         main_headline = escape(main_story['headline'] or main_story['title'])
         main_url = safe_url(main_story['url'])
         main_source = escape(main_story['source'])
         main_time, main_is_fresh = format_time_ago(main_story.get('published', ''))
         main_time_class = 'time-fresh' if main_is_fresh else ''
+        # Unlike the "JUST IN" accent elsewhere, the single breaking headline
+        # always gets a thumbnail attempt regardless of how old it is.
+        main_thumb = get_story_thumb_html(main_story, True, image_budget, css_class='breaking-thumb')
     else:
         main_headline = "Welcome to CassadyNet"
         main_url = "#"
         main_source = ""
         main_time = ""
         main_time_class = ""
-    
+        main_thumb = ""
+
     # Top stories row (next 3 after main) - with XSS protection
     top_stories = remaining_stories[:3]
     top_html = ""
@@ -614,7 +612,8 @@ def generate_homepage():
 
         just_in = '<span class="just-in-badge">JUST IN</span>' if is_fresh else ''
         time_class = 'time-fresh' if is_fresh else ''
-        thumb = get_story_thumb_html(story, is_fresh, image_budget)
+        # Every Top Story gets a thumbnail attempt, not just fresh ones.
+        thumb = get_story_thumb_html(story, True, image_budget)
 
         if thumb:
             top_html += f"""
@@ -646,6 +645,16 @@ def generate_homepage():
     </section>
     """
 
+    # Build clusters HTML - LIMIT TO 2 CLUSTERS MAX
+    clusters_html = ""
+    if final_clusters:
+        clusters_html = '<section class="clusters-section"><div class="clusters-grid">'
+        for cluster in final_clusters[:2]:  # Only top 2 clusters
+            analysis_url, analysis_type = get_analysis_info(cluster['topic'], analysis_index)
+            clusters_html += generate_cluster_html(cluster, analysis_url, analysis_type, image_budget)
+        clusters_html += '</div></section>'
+        logger.info(f"Generated HTML for {min(len(final_clusters), 2)} clusters")
+
     # All remaining stories (single grid, no categories)
     all_stories_html = ""
     for story in remaining_stories[3:30]:
@@ -654,6 +663,7 @@ def generate_homepage():
     # Replace placeholders
     html = template
     html = html.replace('{{MAIN_HEADLINE}}', main_headline)
+    html = html.replace('{{MAIN_THUMB}}', main_thumb)
     html = html.replace('{{MAIN_URL}}', main_url)
     html = html.replace('{{MAIN_SOURCE}}', main_source)
     html = html.replace('{{MAIN_TIME}}', main_time)
