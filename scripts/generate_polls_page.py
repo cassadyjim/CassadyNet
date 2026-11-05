@@ -28,6 +28,16 @@ PREVIOUS_POLLS_TEMPLATE = """<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Previous poll results from CassadyNet AI news analysis">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cassadynet.com/polls.html">
+    <meta property="og:title" content="Previous Polls - CassadyNet">
+    <meta property="og:description" content="Previous poll results from CassadyNet AI news analysis">
+    <meta property="og:url" content="https://cassadynet.com/polls.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CassadyNet">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Previous Polls - CassadyNet">
+    <meta name="twitter:description" content="Previous poll results from CassadyNet AI news analysis">
     <title>Previous Polls - CassadyNet</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">

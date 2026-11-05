@@ -169,7 +169,7 @@ def generate_cluster_html(cluster: dict, analysis_url: str = None, analysis_type
     html = f"""
     <div class="story-cluster">
         <div class="cluster-header">
-            <div class="cluster-topic">{topic}</div>
+            <h3 class="cluster-topic">{topic}</h3>
             <div class="cluster-count">{len(stories)} stories</div>
         </div>
         <div class="cluster-stories">

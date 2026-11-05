@@ -8,6 +8,16 @@
     <meta name="author" content="CassadyNet">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://cassadynet.com/">
+    <meta property="og:title" content="CassadyNet - AI News Aggregator">
+    <meta property="og:description" content="CassadyNet - Breaking AI news from around the globe. Fast. Comprehensive. No fluff.">
+    <meta property="og:url" content="https://cassadynet.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CassadyNet">
+    <meta property="og:image" content="https://cassadynet.com/logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="CassadyNet - AI News Aggregator">
+    <meta name="twitter:description" content="CassadyNet - Breaking AI news from around the globe. Fast. Comprehensive. No fluff.">
+    <meta name="twitter:image" content="https://cassadynet.com/logo.png">
     <title>CassadyNet - AI News Aggregator</title>
     <link rel="alternate" type="application/rss+xml" title="CassadyNet RSS Feed" href="https://cassadynet.com/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -503,7 +513,7 @@
     <header class="header">
         <a href="/" class="site-logo-link">
             <img src="/logo.png" alt="CassadyNet" class="site-logo">
-            <span class="site-title">CassadyNet</span>
+            <h1 class="site-title">CassadyNet</h1>
         </a>
         <div class="tagline">Breaking AI News · Global Coverage · No Fluff</div>
         <div class="last-updated">Updated {{LAST_UPDATED}}</div>
@@ -511,7 +521,7 @@
     
     <section class="breaking-section">
         <div class="breaking-label">BREAKING NEWS</div>
-        <a href="{{MAIN_URL}}" target="_blank" class="main-link">{{MAIN_HEADLINE}}</a>
+        <h2><a href="{{MAIN_URL}}" target="_blank" class="main-link">{{MAIN_HEADLINE}}</a></h2>
         <div class="breaking-meta">
             <span class="breaking-source">{{MAIN_SOURCE}}</span>
             <span class="breaking-time {{MAIN_TIME_CLASS}}">{{MAIN_TIME}}</span>
@@ -531,7 +541,7 @@
     </section>
     
     <section class="headlines-section">
-        <div class="headlines-header">More Headlines</div>
+        <h2 class="headlines-header">More Headlines</h2>
         <div class="headlines-grid">
             {{ALL_STORIES}}
         </div>

@@ -56,11 +56,11 @@ def generate_sitemap():
     urls = []
     today = datetime.now().strftime('%Y-%m-%d')
     
-    # Homepage - highest priority, changes hourly
+    # Homepage - highest priority, refreshed by the publish pipeline (currently 2x/day)
     urls.append(URL_TEMPLATE.format(
         loc=f"{SITE_URL}/",
         lastmod=today,
-        changefreq="hourly",
+        changefreq="daily",
         priority="1.0"
     ))
     
