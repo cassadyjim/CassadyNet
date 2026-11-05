@@ -349,13 +349,24 @@
         }
         
         /* Top Stories Row */
+        .top-row-header {
+            font-size: 14px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid var(--text-primary);
+        }
+
         .top-row {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
             margin-bottom: 28px;
         }
-        
+
         .top-story {
             background: var(--bg-secondary);
             border-radius: 10px;
@@ -363,16 +374,16 @@
             border: 1px solid var(--border);
             transition: all 0.2s ease;
         }
-        
+
         .top-story:hover {
             border-color: var(--accent);
             box-shadow: 0 4px 12px var(--accent-glow);
         }
-        
+
         .top-story a {
             display: block;
-            font-size: 15px;
-            font-weight: 600;
+            font-size: 16px;
+            font-weight: 700;
             color: var(--text-primary);
             text-decoration: none;
             line-height: 1.4;
@@ -408,6 +419,27 @@
         .time-fresh {
             color: var(--breaking-red) !important;
             font-weight: 600;
+        }
+
+        /* Story thumbnails - only on fresh "JUST IN" stories */
+        .story-row {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+        }
+
+        .story-thumb {
+            width: 72px;
+            height: 54px;
+            object-fit: cover;
+            border-radius: 6px;
+            flex-shrink: 0;
+            background: var(--border-light);
+        }
+
+        .story-text {
+            flex: 1;
+            min-width: 0;
         }
         
         /* Headlines Section - No subheaders */
@@ -536,9 +568,7 @@
         </a>
     </div>
     
-    <section class="top-row">
-        {{TOP_STORIES}}
-    </section>
+    {{TOP_STORIES_SECTION}}
     
     <section class="headlines-section">
         <h2 class="headlines-header">More Headlines</h2>

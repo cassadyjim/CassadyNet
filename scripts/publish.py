@@ -6,9 +6,11 @@ Generates the homepage HTML with story clusters and uploads to server.
 
 import sqlite3
 import json
+import re
 import subprocess
 import os
 import logging
+import requests
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from html import escape
@@ -46,6 +48,65 @@ def is_safe_url(url: str) -> bool:
 def safe_url(url: str) -> str:
     """Return URL if safe, otherwise return '#' placeholder"""
     return url if is_safe_url(url) else '#'
+
+
+# Thumbnails are a "just a few, like Drudge" accent, not a redesign to a photo
+# grid — only "JUST IN" (< 3h old) stories get one, and only up to this many
+# per homepage build, so a slow/blocked source can't stall the whole publish.
+MAX_IMAGE_FETCHES = 6
+
+OG_IMAGE_RE = re.compile(
+    r'<meta[^>]+(?:property|name)=["\'](?:og:image|twitter:image)["\'][^>]+content=["\']([^"\']+)["\']'
+    r'|<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\'](?:og:image|twitter:image)["\']',
+    re.IGNORECASE,
+)
+
+
+def fetch_og_image(url: str, timeout: float = 4.0) -> str:
+    """Best-effort fetch of a story's og:image/twitter:image for a 'JUST IN'
+    thumbnail. Returns '' on any failure (blocked, no meta tag, timeout,
+    non-HTML response) — callers must treat a missing image as normal, not
+    an error."""
+    try:
+        resp = requests.get(
+            url,
+            timeout=timeout,
+            headers={'User-Agent': 'Mozilla/5.0 (compatible; CassadyNetBot/1.0)'},
+            stream=True,
+        )
+        try:
+            if resp.status_code != 200 or 'html' not in resp.headers.get('Content-Type', '').lower():
+                return ''
+            raw = resp.raw.read(200_000, decode_content=True)
+        finally:
+            resp.close()
+        match = OG_IMAGE_RE.search(raw.decode('utf-8', errors='ignore'))
+        if not match:
+            return ''
+        image_url = match.group(1) or match.group(2)
+        return image_url if is_safe_url(image_url) else ''
+    except Exception:
+        return ''
+
+
+class ImageBudget:
+    """Caps the total number of og:image fetches across one homepage build,
+    shared across clusters/top-row/headlines so the limit applies site-wide."""
+
+    def __init__(self, limit: int = MAX_IMAGE_FETCHES):
+        self.remaining = limit
+
+
+def get_story_thumb_html(story: dict, is_fresh: bool, image_budget: 'ImageBudget' = None) -> str:
+    """Returns an <img> tag for a fresh story's thumbnail, or '' if the story
+    isn't fresh, the fetch budget is spent, or no image could be found."""
+    if not is_fresh or image_budget is None or image_budget.remaining <= 0:
+        return ''
+    image_budget.remaining -= 1
+    image_url = fetch_og_image(story.get('url', ''))
+    if not image_url:
+        return ''
+    return f'<img class="story-thumb" src="{escape(image_url)}" alt="" loading="lazy" onerror="this.remove()">'
 
 
 def load_clusters() -> dict:
@@ -131,7 +192,7 @@ def format_time_ago(published: str) -> tuple:
         return "", False
 
 
-def generate_cluster_html(cluster: dict, analysis_url: str = None, analysis_type: str = "poll") -> str:
+def generate_cluster_html(cluster: dict, analysis_url: str = None, analysis_type: str = "poll", image_budget: 'ImageBudget' = None) -> str:
     """Generate HTML for a story cluster"""
 
     topic = escape(cluster['topic'])
@@ -147,8 +208,22 @@ def generate_cluster_html(cluster: dict, analysis_url: str = None, analysis_type
 
         just_in = '<span class="just-in-badge">JUST IN</span>' if is_fresh else ''
         time_class = 'time-fresh' if is_fresh else ''
+        thumb = get_story_thumb_html(story, is_fresh, image_budget)
 
-        stories_html += f"""
+        if thumb:
+            stories_html += f"""
+            <div class="cluster-story">
+                <div class="story-row">
+                    {thumb}
+                    <div class="story-text">
+                        <a href="{url}" target="_blank">{just_in}{title}</a>
+                        <span class="cluster-story-meta">{source} · <span class="{time_class}">{time_ago}</span></span>
+                    </div>
+                </div>
+            </div>
+        """
+        else:
+            stories_html += f"""
             <div class="cluster-story">
                 <a href="{url}" target="_blank">{just_in}{title}</a>
                 <span class="cluster-story-meta">{source} · <span class="{time_class}">{time_ago}</span></span>
@@ -182,7 +257,7 @@ def generate_cluster_html(cluster: dict, analysis_url: str = None, analysis_type
     return html
 
 
-def generate_story_html(story: dict) -> str:
+def generate_story_html(story: dict, image_budget: 'ImageBudget' = None) -> str:
     """Generate HTML for a single story (with XSS protection)"""
     title = escape(story['headline'] or story['title'])
     url = safe_url(story['url'])
@@ -191,7 +266,20 @@ def generate_story_html(story: dict) -> str:
 
     just_in = '<span class="just-in-badge">JUST IN</span>' if is_fresh else ''
     time_class = 'time-fresh' if is_fresh else ''
+    thumb = get_story_thumb_html(story, is_fresh, image_budget)
 
+    if thumb:
+        return f"""
+        <div class="story-item">
+            <div class="story-row">
+                {thumb}
+                <div class="story-text">
+                    <a href="{url}" target="_blank">{just_in}{title}</a>
+                    <span class="story-meta">{source} · <span class="{time_class}">{time_ago}</span></span>
+                </div>
+            </div>
+        </div>
+    """
     return f"""
         <div class="story-item">
             <a href="{url}" target="_blank">{just_in}{title}</a>
@@ -316,13 +404,17 @@ def generate_homepage():
         all_stories = get_top_stories(50)
         unclustered = all_stories
     
+    # Shared across the whole page so "JUST IN" thumbnails stay a rare accent
+    # rather than a per-section budget that could add up to dozens of fetches.
+    image_budget = ImageBudget()
+
     # Build clusters HTML - LIMIT TO 2 CLUSTERS MAX
     clusters_html = ""
     if final_clusters:
         clusters_html = '<section class="clusters-section"><div class="clusters-grid">'
         for cluster in final_clusters[:2]:  # Only top 2 clusters
             analysis_url, analysis_type = get_analysis_info(cluster['topic'], analysis_index)
-            clusters_html += generate_cluster_html(cluster, analysis_url, analysis_type)
+            clusters_html += generate_cluster_html(cluster, analysis_url, analysis_type, image_budget)
         clusters_html += '</div></section>'
         logger.info(f"Generated HTML for {min(len(final_clusters), 2)} clusters")
     
@@ -358,19 +450,43 @@ def generate_homepage():
 
         just_in = '<span class="just-in-badge">JUST IN</span>' if is_fresh else ''
         time_class = 'time-fresh' if is_fresh else ''
+        thumb = get_story_thumb_html(story, is_fresh, image_budget)
 
-        top_html += f"""
+        if thumb:
+            top_html += f"""
+            <div class="top-story">
+                <div class="story-row">
+                    {thumb}
+                    <div class="story-text">
+                        <a href="{url}" target="_blank">{just_in}{title}</a>
+                        <span class="story-meta">{source} · <span class="{time_class}">{time_ago}</span></span>
+                    </div>
+                </div>
+            </div>
+        """
+        else:
+            top_html += f"""
             <div class="top-story">
                 <a href="{url}" target="_blank">{just_in}{title}</a>
                 <span class="story-meta">{source} · <span class="{time_class}">{time_ago}</span></span>
             </div>
         """
-    
+
+    # Only show the "Top Stories" header when there's actually a row to label
+    top_stories_section = ""
+    if top_html:
+        top_stories_section = f"""
+    <h2 class="top-row-header">Top Stories</h2>
+    <section class="top-row">
+        {top_html}
+    </section>
+    """
+
     # All remaining stories (single grid, no categories)
     all_stories_html = ""
     for story in remaining_stories[3:30]:
-        all_stories_html += generate_story_html(story)
-    
+        all_stories_html += generate_story_html(story, image_budget)
+
     # Replace placeholders
     html = template
     html = html.replace('{{MAIN_HEADLINE}}', main_headline)
@@ -378,7 +494,7 @@ def generate_homepage():
     html = html.replace('{{MAIN_SOURCE}}', main_source)
     html = html.replace('{{MAIN_TIME}}', main_time)
     html = html.replace('{{MAIN_TIME_CLASS}}', main_time_class)
-    html = html.replace('{{TOP_STORIES}}', top_html)
+    html = html.replace('{{TOP_STORIES_SECTION}}', top_stories_section)
     html = html.replace('{{STORY_CLUSTERS}}', clusters_html)
     html = html.replace('{{ALL_STORIES}}', all_stories_html)
     utc_now = datetime.now(timezone.utc)
