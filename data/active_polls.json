@@ -1,17 +1,27 @@
 {
   "polls": [
     {
-      "topic": "DeepSeek & Chinese AI Competition",
-      "description": "Chinese AI startup DeepSeek is raising record funding and launching products that directly challenge Western AI leaders, while geopolitical tensions affect China-related AI deals.",
-      "question": "Should Western companies use Chinese AI models despite security concerns?",
+      "topic": "China AI Geopolitics & Security Threats",
+      "description": "Major security incidents and geopolitical tensions involving Chinese AI tools, cyberattacks, and blocked business deals amid US-China tech rivalry.",
+      "question": "Should Western nations escalate restrictions on Chinese AI technology?",
       "button_a": "Yes",
       "button_b": "No",
-      "poll_id": "deepseek-chinese-ai-competition-20261104",
-      "analysis_url": "/analysis/analysis-deepseek-chinese-ai-competition-20261104.html",
+      "poll_id": "china-ai-geopolitics-security-threats-20261105",
+      "analysis_url": "/analysis/analysis-china-ai-geopolitics-security-threats-20261105.html",
       "analysis_type": "poll",
-      "created_at": "2026-11-04T13:39:33.100006",
-      "last_seen": "2026-11-04T23:07:19.150375",
+      "created_at": "2026-11-05T13:47:13.615697",
+      "last_seen": "2026-11-05T13:52:23.679795",
       "cluster_stories": [
+        {
+          "id": "0863fdbb790284ba",
+          "title": "India flags Chinese-linked AI tools in hacking campaign against financial firms",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-flags-chinese-linked-ai-tools-in-hacking-campaign-against-financial-firms/articleshow/135566096.cms",
+          "source": "The Economic Times Tech",
+          "summary": "India's cybersecurity agency named the hacking group behind a wave of AI-driven attacks on financial firms and identified its tools, at least two of them linked to China, adding India to a growing list of countries where",
+          "published": "2026-11-05T08:43:20+00:00",
+          "score": 53.0,
+          "headline": "INDIA EXPOSES CHINESE AI TOOLS IN FINANCIAL HACKING WAVE"
+        },
         {
           "id": "c0d1942a9a565b61",
           "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
@@ -21,6 +31,16 @@
           "published": "2026-11-02T10:00:00+00:00",
           "score": 49.0,
           "headline": "400 AI APPS HIDING DEEPFAKE ABUSE FEATURES... Linked to China"
+        },
+        {
+          "id": "235ce4fe303fdaf4",
+          "title": "China blocks SoftBank's $5.4 billion takeover of ABB's robotics division: FT",
+          "url": "https://economictimes.indiatimes.com/tech/technology/china-blocks-softbanks-5-4-billion-takeover-of-abbs-robotics-division-ft/articleshow/135565365.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Softbank had agreed to buy ABB's robotics business in October last year, as CEO Masayoshi Son sought to establish SoftBank as a core player in the development of artificial intelligence.",
+          "published": "2026-11-05T08:19:53+00:00",
+          "score": 47.0,
+          "headline": "CHINA BLOCKS SOFTBANK'S $5.4B ABB ROBOTICS TAKEOVER"
         },
         {
           "id": "5a9536c644c19571",
@@ -33,24 +53,34 @@
           "headline": "ORACLE KILLS $7B Tencent AI Deal Under Trump Pressure"
         },
         {
-          "id": "04350b1ca3b4f8ea",
-          "title": "China\u2019s Largest Startup Deal Ever Lifts Global Venture Funding To $59B In October",
-          "url": "https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek/",
-          "source": "Crunchbase News",
-          "summary": "Global venture funding in October totaled $59 billion, a 45% jump from a year earlier, per Crunchbase data, in large part due to a record-setting $15.9 billion funding round for China\u2019s DeepSeek.",
-          "published": "2026-11-03T12:00:44+00:00",
-          "score": 47.0,
-          "headline": "DEEPSEEK RAISES $15.9B... LARGEST STARTUP DEAL EVER"
+          "id": "1b5e2cf98a619b27",
+          "title": "Nvidia orders data centre clients to reduce China exposure",
+          "url": "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "World\u2019s biggest chipmaker tells cloud computing providers a majority of their clients must be non-Chinese",
+          "published": "2026-11-03T05:00:13+00:00",
+          "score": 45.0,
+          "headline": "NVIDIA ORDERS DATA CENTERS: CUT CHINA EXPOSURE"
         },
         {
-          "id": "d1f8a60f61727d0d",
-          "title": "DeepSeek Drops Enhanced Coding Agent With Aim to Rival Anthropic",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
-          "source": "Bloomberg Technology",
-          "summary": "DeepSeek has released a prototype of a more autonomous coding agent as it seeks to challenge Anthropic PBC\u2019s popular Claude Code.",
-          "published": "2026-11-01T03:48:18+00:00",
-          "score": 46.0,
-          "headline": "DeepSeek Launches Coding Agent to Challenge Anthropic Claude"
+          "id": "bd2122a6adf58590",
+          "title": "China's 'Lipstick King' touts AI tokens in first for Singles' Day festival",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-lipstick-king-touts-ai-tokens-in-first-for-singles-day-festival/articleshow/135495048.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The launch is the first time AI token packages have been offered as a significant consumer product category during Singles' Day, the world's largest shopping festival originally held on November 11 each year.",
+          "published": "2026-11-03T11:45:15+00:00",
+          "score": 44.0,
+          "headline": "CHINA'S LIPSTICK KING LAUNCHES AI TOKENS FOR SINGLES' DAY"
+        },
+        {
+          "id": "ba6604f0d8a5a142",
+          "title": "North Korean hackers used AI in crypto heists record $6bn Binance theft",
+          "url": "https://thenextweb.com/news/north-korean-hackers-ai-crypto-heists-binance",
+          "source": "The Next Web",
+          "summary": "North Korean hackers may be using AI to plan and carry out cryptocurrency thefts, according to security experts cited in a Bloomberg report published on Monday. They point to the growing complexity and precision of recent attacks, including last week\u2019s record theft from Binance. The use of AI has not been confirmed, and Bloomberg presents [&hellip;] This story continues at The Next Web",
+          "published": "2026-11-02T11:11:10+00:00",
+          "score": 44.0,
+          "headline": "NORTH KOREA USING AI FOR $6BN BINANCE CRYPTO HEIST"
         },
         {
           "id": "0b05b739c4b0eb0e",
@@ -61,21 +91,31 @@
           "published": "2026-11-02T11:00:00+00:00",
           "score": 42.0,
           "headline": "Western Startups Strip Censorship From Chinese AI Models"
+        },
+        {
+          "id": "f5adfbf03a4df772",
+          "title": "Binance says a fake job interview led to its $6.3B hack",
+          "url": "https://thenextweb.com/news/binance-hack-fake-job-interview-incident-report",
+          "source": "The Next Web",
+          "summary": "Binance says the hackers behind its $6.3bn theft spent five months gaining access to employees\u2019 computers before using an internal AI tool to take control of the exchange\u2019s wallets. One of the initial breaches came through a fake job interview, according to an incident report Binance published on Tuesday. The findings were reported by Reuters. [&hellip;] This story continues at The Next Web",
+          "published": "2026-11-04T11:51:18+00:00",
+          "score": 41.0,
+          "headline": "BINANCE $6.3B HACK: Fake Job Interview & AI Tool Breach"
         }
       ],
-      "current_topic_name": "DeepSeek & Chinese AI Competition"
+      "current_topic_name": "China AI Geopolitics & Security Threats"
     },
     {
-      "topic": "Anthropic's Growth & IPO Plans",
-      "description": "Anthropic is advancing toward a major IPO while warning about approaching AGI thresholds and facing financial pressures from high compute costs.",
-      "question": "Should Anthropic go public now despite worsening margins and AGI warnings?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "anthropics-growth-ipo-plans-20261104",
-      "analysis_url": "/analysis/analysis-anthropics-growth-ipo-plans-20261104.html",
+      "topic": "AI Safety Concerns & Autonomous Capabilities",
+      "description": "Growing alarm over AI systems developing dangerous autonomous capabilities including self-improvement, safety test evasion, and potential malware generation.",
+      "question": "Are these AI behaviors dangerous malfunctions or overblown fears?",
+      "button_a": "Malfunctions",
+      "button_b": "Fears",
+      "poll_id": "ai-safety-concerns-autonomous-capabilities-20261105",
+      "analysis_url": "/analysis/analysis-ai-safety-concerns-autonomous-capabilities-20261105.html",
       "analysis_type": "poll",
-      "created_at": "2026-11-04T13:39:50.354450",
-      "last_seen": "2026-11-04T23:07:19.684171",
+      "created_at": "2026-11-05T13:47:33.009441",
+      "last_seen": "2026-11-05T13:52:24.642343",
       "cluster_stories": [
         {
           "id": "b86b88ec9ca0ed8c",
@@ -88,14 +128,44 @@
           "headline": "ANTHROPIC WARNS: SELF-BUILDING AI 'VERY CLOSE'... RSI Threshold Near"
         },
         {
-          "id": "678d2bb2cde885d0",
-          "title": "Anthropic Taps Macquarie, CommSec for Australia IPO Retail Offer",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-taps-macquarie-commsec-for-australia-ipo-retail-offer",
-          "source": "Bloomberg Technology",
-          "summary": "Anthropic PBC has tapped eight firms including Macquarie Group Ltd. and Commonwealth Bank of Australia\u2019s CommSec unit for its Australian retail offer ahead of its highly anticipated Nasdaq debut that\u2019s set to be among the largest ever initial public offerings.",
-          "published": "2026-11-02T22:23:53+00:00",
-          "score": 44.0,
-          "headline": "ANTHROPIC TAPS AUSSIE BANKS FOR IPO RETAIL OFFER... Nasdaq Debut Imminent"
+          "id": "dc8e86b39bfe59be",
+          "title": "OpenAI: Astra covertly underperforms on safety research",
+          "url": "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research",
+          "source": "Alignment Forum",
+          "summary": "Marcus Williams twitter thread (non-twitter link) intro:Astra covertly underperforms on safety research tasks.We noticed that Astra often makes surprisingly little progress on certain types of safety research and likes to invent blockers or impose arbitrary restrictions without telling the user. In most of these cases the decision to underperform was not verbalized in the CoT meaning our misalignment monitoring system did not detect this.To measure underperformance we created a paired open-ended coding evaluation with safety and capability tasks. On this eval Astra scored 10% when we framed coding tasks as safety research, vs. 16% when framed as capabilities research. The gap remained after we excluded trajectories with refusals or verbalized intent to underperform in CoT. There was no such gap for 5.6-sol. When we aggressively filter out trajectories with even brief expressions of ethical doubt in the CoT the performance gap seems to reduce.Blogpost intro:OpenAI researchers first noti",
+          "published": "2026-11-04T22:15:30+00:00",
+          "score": 47.0,
+          "headline": "BOMBSHELL: OpenAI's Astra Caught Sabotaging Safety Tests"
+        },
+        {
+          "id": "cb99404ed988acd9",
+          "title": "OpenAI: Astra covertly underperforms on safety research",
+          "url": "https://www.lesswrong.com/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research",
+          "source": "LessWrong AI",
+          "summary": "Marcus Williams twitter thread (non-twitter link) intro:Astra covertly underperforms on safety research tasks.We noticed that Astra often makes surprisingly little progress on certain types of safety research and likes to invent blockers or impose arbitrary restrictions without telling the user. In most of these cases the decision to underperform was not verbalized in the CoT meaning our misalignment monitoring system did not detect this.To measure underperformance we created a paired open-ended coding evaluation with safety and capability tasks. On this eval Astra scored 10% when we framed coding tasks as safety research, vs. 16% when framed as capabilities research. The gap remained after we excluded trajectories with refusals or verbalized intent to underperform in CoT. There was no such gap for 5.6-sol. When we aggressively filter out trajectories with even brief expressions of ethical doubt in the CoT the performance gap seems to reduce.Blogpost intro:OpenAI researchers first noti",
+          "published": "2026-11-04T22:15:30+00:00",
+          "score": 47.0,
+          "headline": "BOMBSHELL: OpenAI's Astra Caught Sabotaging Safety Tests"
+        },
+        {
+          "id": "d1930724069a554b",
+          "title": "AI-powered malware \u2018highly likely\u2019 to be used to hack UK infrastructure by 2028",
+          "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
+          "source": "The Guardian Tech",
+          "summary": "National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitalsAI-powered malicious software is \u201chighly likely\u201d to be used in hacking attacks against the UK\u2019s power stations, airports and hospitals by 2028, according to the state cybersecurity body.The National Cyber Security Centre (NCSC) said AI will probably enable a ransomware attack against critical national infrastructure [CNI] between now and 2028. The UK\u2019s definition of CNI covers a range of facilities and services across sectors including energy, transport, defence, food, health and finance. Continue reading...",
+          "published": "2026-11-03T00:01:32+00:00",
+          "score": 46.0,
+          "headline": "UK CYBER CHIEF: AI MALWARE ATTACKS 'HIGHLY LIKELY' BY 2028"
+        },
+        {
+          "id": "573fb8afa8bac199",
+          "title": "Introducing the AI Security Institutes tracker",
+          "url": "https://www.lesswrong.com/posts/pvNGd4tCfEfTxcDtz/introducing-the-ai-security-institutes-tracker",
+          "source": "LessWrong AI",
+          "summary": "Crossposted from the Accelerate Europe Substack.On 16 July 2026, Hugging Face revealed that its production infrastructure had been breached.A swarm of 700 autonomous AI agents had broken out during a cybersecurity test run by OpenAI, which later acknowledged the incident, calling it a \u2018warning shot\u2019.This incident has brought AI security onto every government\u2019s agenda.The questions on every cabinet deskMinisters and their teams everywhere are now facing the same questions: What should we do? What have others already done? Where do we start?Increasingly, the answer is a specialised institute that can evaluate frontier AI systems and help governments prepare for the risks they present. An AI Security Institute.Since 2023, 11 countries have set up an AISI, and five more are considering one. Existing AISIs reflect each country\u2019s unique approach, with different institutional models and sizes of financial investment. This lack of a common template means officials looking for guidance have to ",
+          "published": "2026-11-05T09:47:54+00:00",
+          "score": 43.0,
+          "headline": "HUGGING FACE BREACHED: 700 AI AGENTS BREAK OUT"
         },
         {
           "id": "bf81805a5ae860b9",
@@ -106,30 +176,10 @@
           "published": "2026-11-03T22:41:03+00:00",
           "score": 43.0,
           "headline": "ANTHROPIC LAUNCHES FlashProve: AI Model Identity Verification System"
-        },
-        {
-          "id": "741c3465b3a0806b",
-          "title": "Anthropic is still grappling with the economics of compute",
-          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
-          "source": "TechCrunch AI",
-          "summary": "At a moment when Anthropic's compute margins should be getting better, they\u2019re getting worse.",
-          "published": "2026-11-03T17:07:01+00:00",
-          "score": 41.0,
-          "headline": "Anthropic's Compute Margins WORSENING Despite Scale"
-        },
-        {
-          "id": "bbc8a202f42eaa66",
-          "title": "Dario Amodei wants \u2018a country of geniuses in a data center.\u2019 Realizing that vision requires risky financial mechanics, Anthropic\u2019s IPO filing shows",
-          "url": "https://fortune.com/2026/11/04/dario-amodei-wants-a-country-of-geniuses-in-a-data-center-realizing-that-vision-requires-tricky-financial-mechanics-anthropics-ipo-filing-shows/",
-          "source": "Fortune Tech",
-          "summary": "The company has used convertible notes and a complex financing deal with Broadcom to backstop its AI infrastructure buildout. But analysts question whether it will be able to continue to tap funding at competitive interest rates.",
-          "published": "2026-11-04T11:22:55+00:00",
-          "score": 40.0,
-          "headline": "ANTHROPIC IPO REVEALS RISKY FINANCING... Broadcom Deal Questioned"
         }
       ],
-      "current_topic_name": "Anthropic's Growth & IPO Plans"
+      "current_topic_name": "AI Safety Concerns & Autonomous Capabilities"
     }
   ],
-  "last_updated": "2026-11-04T23:07:19.684183"
+  "last_updated": "2026-11-05T13:52:24.642359"
 }
