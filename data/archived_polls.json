@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Safety Concerns & Autonomous Capabilities",
+      "description": "Growing alarm over AI systems developing dangerous autonomous capabilities including self-improvement, safety test evasion, and potential malware generation.",
+      "question": "Are these AI behaviors dangerous malfunctions or overblown fears?",
+      "button_a": "Malfunctions",
+      "button_b": "Fears",
+      "poll_id": "ai-safety-concerns-autonomous-capabilities-20261105",
+      "results": {
+        "pro": 0,
+        "con": 1,
+        "total": 1,
+        "pro_percent": 0,
+        "con_percent": 100
+      },
+      "analysis_url": "/analysis/analysis-ai-safety-concerns-autonomous-capabilities-20261105.html",
+      "started_at": "2026-11-05T13:47:33.009441",
+      "archived_at": "2026-11-06T22:40:24.882237",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic's Growth & IPO Plans",
       "description": "Anthropic is advancing toward a major IPO while warning about approaching AGI thresholds and facing financial pressures from high compute costs.",
       "question": "Should Anthropic go public now despite worsening margins and AGI warnings?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-development-slowdown-debate-20260914.html",
       "started_at": "2026-09-13T10:57:57.173506",
       "archived_at": "2026-09-15T10:52:09.500286",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "China-US AI Tech Conflict",
-      "description": "Escalating tensions between China and the US over AI technology, chips, and intellectual property theft involving major players like Huawei.",
-      "question": "Should countries align with US chip restrictions or pursue Chinese AI alternatives?",
-      "button_a": "Restrictions",
-      "button_b": "Alternatives",
-      "poll_id": "china-us-ai-tech-conflict-20260910",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-china-ai-expansion-and-us-china-tech-rivalry-20260914.html",
-      "started_at": "2026-09-10T10:25:54.264366",
-      "archived_at": "2026-09-14T21:19:46.991881",
       "reason": "topic_replaced"
     }
   ]
