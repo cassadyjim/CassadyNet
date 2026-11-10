@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "AI Data Center Backlash",
+      "description": "Major public opposition and regulatory concerns are forcing tech companies to reconsider massive AI infrastructure investments globally.",
+      "question": "Should communities have veto power over AI data center projects?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-data-center-backlash-20261108",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-data-center-backlash-20261108.html",
+      "started_at": "2026-11-08T12:38:21.294462",
+      "archived_at": "2026-11-10T01:05:47.043170",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "China AI Geopolitics & Security Threats",
+      "description": "Major security incidents and geopolitical tensions involving Chinese AI tools, cyberattacks, and blocked business deals amid US-China tech rivalry.",
+      "question": "Should Western nations escalate restrictions on Chinese AI technology?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "china-ai-geopolitics-security-threats-20261105",
+      "results": {
+        "pro": 1,
+        "con": 0,
+        "total": 1,
+        "pro_percent": 100,
+        "con_percent": 0
+      },
+      "analysis_url": "/analysis/analysis-china-tech-restrictions-20260712.html",
+      "started_at": "2026-11-05T13:47:13.615697",
+      "archived_at": "2026-11-10T01:05:46.563694",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Massive AI Infrastructure Investment",
       "description": "Record-breaking funding rounds and infrastructure spending signal an AI investment boom despite growing concerns about costs and sustainability.",
       "question": "Is the AI infrastructure spending boom sustainable or heading for a crash?",
@@ -910,44 +948,6 @@
       "analysis_url": "/analysis/analysis-us-china-ai-slowdown-tensions-20260917.html",
       "started_at": "2026-09-14T21:19:43.401148",
       "archived_at": "2026-09-18T10:25:34.358986",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Company Funding and IPOs",
-      "description": "Wave of major AI companies pursuing massive funding rounds and public offerings including Anthropic, OpenAI, and Chinese startups.",
-      "question": "Is the AI IPO rush driven by innovation or investor pressure?",
-      "button_a": "Innovation",
-      "button_b": "Pressure",
-      "poll_id": "ai-company-funding-and-ipos-20260916",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-company-funding-and-ipos-20260916.html",
-      "started_at": "2026-09-16T20:47:44.801802",
-      "archived_at": "2026-09-17T20:52:59.875882",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "US-China AI Rivalry",
-      "description": "Escalating tensions as China attacks Western AI slowdown proposals as Cold War tactics while both nations compete for AI dominance with different strategies.",
-      "question": "Are export controls effectively protecting US tech interests from China?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "china-tech-deals-and-us-export-controls-20260711",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-us-china-ai-rivalry-20260915.html",
-      "started_at": "2026-09-15T10:52:08.850115",
-      "archived_at": "2026-09-16T20:47:49.202937",
       "reason": "topic_replaced"
     }
   ]
