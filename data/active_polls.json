@@ -1,95 +1,155 @@
 {
   "polls": [
     {
-      "topic": "Nvidia CEO China Espionage Allegations",
-      "description": "Multiple sources report US warnings about Chinese intelligence allegedly recruiting individuals with ties to Nvidia's CEO Jensen Huang, raising national security concerns.",
-      "question": "Should US tech executives face stricter vetting of foreign contacts?",
+      "topic": "AI Data Center Energy Crisis",
+      "description": "Major AI companies are scrambling to secure power infrastructure as data centers strain energy grids and face public backlash over resource consumption.",
+      "question": "Should AI companies be allowed to bypass public grids with private generators?",
       "button_a": "Yes",
       "button_b": "No",
-      "poll_id": "nvidia-ceo-china-espionage-allegations-20261110",
-      "analysis_url": "/analysis/analysis-nvidia-ceo-china-espionage-allegations-20261110.html",
+      "poll_id": "ai-data-center-energy-crisis-20261111",
+      "analysis_url": "/analysis/analysis-ai-data-center-energy-crisis-20261111.html",
       "analysis_type": "poll",
-      "created_at": "2026-11-10T01:05:26.132559",
-      "last_seen": "2026-11-10T22:46:18.792116",
+      "created_at": "2026-11-11T13:25:01.132432",
+      "last_seen": "2026-11-11T13:25:19.488422",
       "cluster_stories": [
         {
-          "id": "edc9ba7244ba75ad",
-          "title": "US believes Nvidia\u2019s Huang had romantic relationship with alleged Chinese spy",
-          "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "American intelligence warned the tech boss was involved with executive recruited by China to gather information on US group",
-          "published": "2026-11-07T02:33:26+00:00",
-          "score": 45.0,
-          "headline": "US warns Nvidia's Huang had ties to alleged Chinese spy"
-        },
-        {
-          "id": "09ee607511f7d3b6",
-          "title": "China\u2019s top spy agency recruited woman who targeted Nvidia\u2019s Jensen Huang",
-          "url": "https://www.japantimes.co.jp/news/2026/11/07/asia-pacific/china-nvidia-jensen-huang-spy/",
-          "source": "Japan Times Tech",
-          "summary": "Alice Huang, a Chinese executive who developed a relationship with Nvidia's leader, is believed to be an asset of the Ministry of State Security.",
-          "published": "2026-11-07T02:42:00+00:00",
-          "score": 44.0,
-          "headline": "China spy agency recruited woman targeting Nvidia CEO"
-        },
-        {
-          "id": "346eb0f1507abbd8",
-          "title": "Spy targeting Nvidia CEO was alleged China intelligence service recruit: NYT",
-          "url": "https://economictimes.indiatimes.com/tech/technology/spy-targeting-nvidia-ceo-was-alleged-china-intelligence-service-recruit-nyt/articleshow/135625480.cms",
-          "source": "The Economic Times Tech",
-          "summary": "The Chinese businesswoman, with whom Nvidia's CEO Jensen Huang had alleged ties, was recruited as a spy for China\u2019s Ministry of State Security, The New York Times reported, citing a memo circulated among policymakers in the Trump administration.",
-          "published": "2026-11-07T03:33:53+00:00",
+          "id": "efd2bee0be743a61",
+          "title": "Anthropic buys $3.4bn of gas generators for its data centres, FT reports",
+          "url": "https://thenextweb.com/news/anthropic-3-4bn-gas-generators-onepwr-ft",
+          "source": "The Next Web",
+          "summary": "Anthropic has agreed to pay $3.4bn for gas-fired generators to power its data centres, the Financial Times reported on Sunday. The FT said it is the biggest known single buy of power kit by an AI company. The deal covers 1.7 gigawatts of large generators, the FT said, citing one person who knows about it. [&hellip;] This story continues at The Next Web",
+          "published": "2026-11-08T14:34:09+00:00",
           "score": 43.0,
-          "headline": "Woman linked to Nvidia CEO recruited by China intelligence"
+          "headline": "Anthropic Buys $3.4B in Gas Generators for Data Centers"
+        },
+        {
+          "id": "30b8b914ba3acfe1",
+          "title": "Anthropic strikes $3.4bn deal to generate gas-fired power for data centres",
+          "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "AI lab bypasses traditional suppliers to secure scarce equipment as demand for energy surges",
+          "published": "2026-11-08T11:00:09+00:00",
+          "score": 40.0,
+          "headline": "Anthropic Secures $3.4B Gas Power Deal for Data Centers"
+        },
+        {
+          "id": "5ba968d63a8ed510",
+          "title": "Anthropic Buys Power for AI Data Centres in $3.4B Deal, FT Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/anthropic-buys-power-for-ai-data-centres-in-3-4b-deal-ft-says",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC has agreed to pay $3.4 billion for gas-fired generators for data centers, the FT reported, in what it described as the largest known single purchase of power-generation equipment by an AI lab.",
+          "published": "2026-11-08T11:48:21+00:00",
+          "score": 39.0,
+          "headline": "Anthropic Buys $3.4B in Gas Generators for AI Centers"
+        },
+        {
+          "id": "9b155d4c6b4b0d5a",
+          "title": "CoreWeave asks Texas governor-elect to let permitted data centres finish",
+          "url": "https://thenextweb.com/news/coreweave-texas-hinojosa-data-centre-letter",
+          "source": "The Next Web",
+          "summary": "I cloud company CoreWeave has written to Texas Governor-elect Gina Hinojosa, offering to work with her team on data centre rules. The letter from chief executive Michael Intrator was sent on Saturday, Bloomberg reported. Intrator offered to work with her transition team on finishing projects that already have permits. He also offered help setting clear, lasting [&hellip;] This story continues at The Next Web",
+          "published": "2026-11-08T15:20:35+00:00",
+          "score": 35.0,
+          "headline": "CoreWeave Asks Texas Governor-Elect on Data Center Rules"
+        },
+        {
+          "id": "796c751603fc1cdc",
+          "title": "Can\u2019t cook or shower: Indonesians take aim at data centers",
+          "url": "https://www.japantimes.co.jp/news/2026/11/08/asia-pacific/politics/indonesia-data-centers/",
+          "source": "Japan Times Tech",
+          "summary": "Frustration is bubbling over in Indonesia and Malaysia \u2014 especially in regions bordering Singapore that are seen as a prime location for new tech facilities.",
+          "published": "2026-11-08T02:46:00+00:00",
+          "score": 35.0,
+          "headline": "Data Centers Strain Power Grids in Indonesia and Malaysia"
+        },
+        {
+          "id": "90eb267a48415938",
+          "title": "Voters Put the AI Data Center Boom on Notice",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-08/voters-put-the-ai-data-center-boom-on-notice-video",
+          "source": "Bloomberg Technology",
+          "summary": "On Bloomberg This Weekend, Bloomberg News tech reporter Brody Ford explains how voter backlash against data centers could disrupt the rapid buildout of infrastructure powering the AI boom. Speaking with hosts David Gura and Christina Ruffini, Ford discusses the risks for heavily indebted AI companies and whether tougher promises from newly elected officials will translate into meaningful restrictions on development. (Source: Bloomberg)",
+          "published": "2026-11-08T14:16:32+00:00",
+          "score": 34.0,
+          "headline": "Voter Backlash Threatens AI Data Center Boom"
         }
       ],
-      "current_topic_name": "Nvidia CEO China Espionage Allegations"
+      "current_topic_name": "AI Data Center Energy Crisis"
     },
     {
-      "topic": "AI Political Backlash and Policy Response",
-      "description": "Growing voter resistance to AI is shaping elections and forcing governments to respond, with the US midterms showing anti-AI sentiment while the UK commits to pushing forward despite backlash.",
-      "question": "Should governments slow AI development in response to voter concerns?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-political-backlash-and-policy-response-20261110",
-      "analysis_url": "/analysis/analysis-ai-political-backlash-and-policy-response-20261110.html",
+      "topic": "AI Safety and Risk Concerns",
+      "description": "Growing concerns about AI risks are driving new regulatory efforts, ethics research, and security measures from government and researchers.",
+      "question": "Should governments prioritize AI safety regulation or innovation freedom?",
+      "button_a": "Regulation",
+      "button_b": "Freedom",
+      "poll_id": "ai-safety-and-risk-concerns-20261111",
+      "analysis_url": "/analysis/analysis-ai-safety-and-risk-concerns-20261111.html",
       "analysis_type": "poll",
-      "created_at": "2026-11-10T01:05:42.150973",
-      "last_seen": "2026-11-10T22:46:19.396673",
+      "created_at": "2026-11-11T13:25:17.544280",
+      "last_seen": "2026-11-11T13:25:22.055560",
       "cluster_stories": [
         {
-          "id": "c1b5773fd2044d6a",
-          "title": "Why does America hate AI?",
-          "url": "https://www.ft.com/content/af97585a-3381-42a9-838b-9a205ab81232?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Voter hostility to Big Tech helped shape the US midterms, and similar fears are spreading through the west. But look east and attitudes are dramatically more optimistic",
-          "published": "2026-11-07T05:00:13+00:00",
+          "id": "ae243b12f894e202",
+          "title": "US Justice Department sets up an AI task force under its new SI name",
+          "url": "https://thenextweb.com/news/doj-super-intelligence-task-force-ai",
+          "source": "The Next Web",
+          "summary": "The US Justice Department has set up a task force to lead its work on AI crimes and AI lawsuits. It is called the Super Intelligence Task Force, the department said on Thursday. The name follows a September order from President Donald Trump telling federal agencies to call AI \u201csuper intelligence\u201d in official documents. Associate Attorney General Stanley [&hellip;] This story continues at The Next Web",
+          "published": "2026-11-08T14:29:45+00:00",
           "score": 40.0,
-          "headline": "US Voter Backlash Against AI Shapes Midterms"
+          "headline": "DOJ Launches Super Intelligence Task Force for AI Crimes"
         },
         {
-          "id": "a411f89337ac199b",
-          "title": "UK will not slow down on AI despite backlash in US, says growth minister",
-          "url": "https://www.ft.com/content/47dba9d2-4c82-4e17-969d-f1728ef13a5a?syn-25a6b1a6=1",
-          "source": "Financial Times Tech",
-          "summary": "Dan Tomlinson asserts that pace of investment is \u2018too low for what we need to stay at the forefront as AI technology develops\u2019",
-          "published": "2026-11-07T05:00:41+00:00",
+          "id": "4f031bdfcab68496",
+          "title": "Tencent AI chief warns models will soon pose biology risks, SCMP reports",
+          "url": "https://thenextweb.com/news/tencent-yao-shunyu-ai-biology-risk-hy4",
+          "source": "The Next Web",
+          "summary": "Tencent\u2019s chief AI scientist has warned that AI models will soon be able to cause harm in biology, as they already can in cybersecurity. Yao Shunyu spoke at a science event in Hong Kong on Saturday, the South China Morning Post reported. \u201cThe cyber abilities of [AI] models and soon [the] bio ability of models [&hellip;] This story continues at The Next Web",
+          "published": "2026-11-08T15:38:11+00:00",
+          "score": 39.0,
+          "headline": "Tencent AI Chief Warns Models Will Pose Biology Risks"
+        },
+        {
+          "id": "5dd681174e1f67cd",
+          "title": "Recent AI agent experiments reveal a risky future of machine 'teamwork' inside corporations",
+          "url": "https://www.cnbc.com/2026/11/08/ai-agents-risks.html",
+          "source": "CNBC Technology",
+          "summary": "AI agents are now working together on a regular basis. Research shows they are not always seeking the same goal, or operating with ethics.",
+          "published": "2026-11-08T14:14:11+00:00",
           "score": 38.0,
-          "headline": "UK Vows to Push AI Despite US Backlash"
+          "headline": "AI Agent Experiments Reveal Ethics Risks in Teamwork"
         },
         {
-          "id": "9f1e12639c713ed9",
-          "title": "From the front row to the hot seat \u2014 what the midterms mean for Big Tech",
-          "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
-          "source": "TechCrunch AI",
-          "summary": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
-          "published": "2026-11-07T04:16:43+00:00",
-          "score": 36.0,
-          "headline": "Big Tech Scrambles After Midterm Results"
+          "id": "58fba75fb3bc3346",
+          "title": "What Can AI Hack? Inside Frontier Labs' Tests",
+          "url": "https://dorcohen.dev/posts/what-can-ai-actually-hack/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://dorcohen.dev/posts/what-can-ai-actually-hack/ Comments URL: https://news.ycombinator.com/item?id=50411752 Points: 1 # Comments: 0",
+          "published": "2026-11-08T09:42:03+00:00",
+          "score": 35.0,
+          "headline": "Inside frontier labs' AI hacking capability tests"
+        },
+        {
+          "id": "a5b11f329a6860e5",
+          "title": "Researchers unveiled new techniques to protect AI from backdoor attacks",
+          "url": "https://news.ncsu.edu/2026/11/new-techniques-to-prevent-backdoor-attacks/",
+          "source": "Hacker News",
+          "summary": "Article URL: https://news.ncsu.edu/2026/11/new-techniques-to-prevent-backdoor-attacks/ Comments URL: https://news.ycombinator.com/item?id=50411704 Points: 2 # Comments: 1",
+          "published": "2026-11-08T09:32:43+00:00",
+          "score": 33.0,
+          "headline": "Researchers unveil techniques to prevent AI backdoor attacks"
+        },
+        {
+          "id": "f3cd8612e59cf80d",
+          "title": "AI Alignment Considered Harmful",
+          "url": "http://togelius.blogspot.com/2026/11/ai-alignment-considered-harmful.html",
+          "source": "Hacker News",
+          "summary": "Article URL: http://togelius.blogspot.com/2026/11/ai-alignment-considered-harmful.html Comments URL: https://news.ycombinator.com/item?id=50412294 Points: 3 # Comments: 0",
+          "published": "2026-11-08T11:19:35+00:00",
+          "score": 26.0,
+          "headline": "AI Alignment Considered Harmful"
         }
       ],
-      "current_topic_name": "AI Political Backlash and Policy Response"
+      "current_topic_name": "AI Safety and Risk Concerns"
     }
   ],
-  "last_updated": "2026-11-10T22:46:19.396689"
+  "last_updated": "2026-11-11T13:25:22.995832"
 }
