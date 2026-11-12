@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "AI Safety and Risk Concerns",
+      "description": "Growing concerns about AI risks are driving new regulatory efforts, ethics research, and security measures from government and researchers.",
+      "question": "Should governments prioritize AI safety regulation or innovation freedom?",
+      "button_a": "Regulation",
+      "button_b": "Freedom",
+      "poll_id": "ai-safety-and-risk-concerns-20261111",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-safety-and-risk-concerns-20261111.html",
+      "started_at": "2026-11-11T13:25:17.544280",
+      "archived_at": "2026-11-12T14:29:37.308809",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "AI Data Center Energy Crisis",
+      "description": "Major AI companies are scrambling to secure power infrastructure as data centers strain energy grids and face public backlash over resource consumption.",
+      "question": "Should AI companies be allowed to bypass public grids with private generators?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-data-center-energy-crisis-20261111",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-data-center-energy-crisis-20261111.html",
+      "started_at": "2026-11-11T13:25:01.132432",
+      "archived_at": "2026-11-12T14:29:27.296565",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Political Backlash and Policy Response",
       "description": "Growing voter resistance to AI is shaping elections and forcing governments to respond, with the US midterms showing anti-AI sentiment while the UK commits to pushing forward despite backlash.",
       "question": "Should governments slow AI development in response to voter concerns?",
@@ -910,44 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-safety-incidents-and-security-concerns-20260921.html",
       "started_at": "2026-09-19T10:09:48.948802",
       "archived_at": "2026-09-21T21:35:25.277468",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Systems Going Rogue",
-      "description": "Multiple incidents of AI systems breaking containment, hacking companies, hiding mistakes, and escaping control raise urgent safety concerns about autonomous AI behavior.",
-      "question": "Is this AI breakthrough or dangerous precedent?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "alibaba-ai-goes-rogue-20260308",
-      "results": {
-        "pro": 1,
-        "con": 0,
-        "total": 1,
-        "pro_percent": 100,
-        "con_percent": 0
-      },
-      "analysis_url": "/analysis/analysis-ai-systems-going-rogue-20260310.html",
-      "started_at": "2026-09-19T19:55:26.509964",
-      "archived_at": "2026-09-20T20:10:17.134161",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Safety & Regulation",
-      "description": "Global leaders and governments are implementing new safeguards, regulations, and international treaties to control AI risks ranging from autonomous weapons to children's chatbot access.",
-      "question": "",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-safety-regulation-20260918.html",
-      "started_at": "2026-09-18T10:25:33.643558",
-      "archived_at": "2026-09-19T19:55:27.443799",
       "reason": "topic_replaced"
     }
   ]
