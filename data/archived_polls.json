@@ -1,6 +1,44 @@
 {
   "polls": [
     {
+      "topic": "LLM Security and Safety Research",
+      "description": "Growing focus on protecting large language models from adversarial attacks including jailbreaks, prompt injections, and manipulation of reasoning systems.",
+      "question": "Should LLM safety focus on defensive guards or adversarial-resistant training?",
+      "button_a": "Guards",
+      "button_b": "Training",
+      "poll_id": "llm-security-and-safety-research-20261112",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-llm-security-and-safety-research-20261112.html",
+      "started_at": "2026-11-12T14:29:13.163907",
+      "archived_at": "2026-11-13T23:10:05.369871",
+      "reason": "topic_replaced"
+    },
+    {
+      "topic": "Nvidia CEO Jensen Huang Scandal",
+      "description": "Major corporate governance crisis as Nvidia's board investigates CEO over foreign intelligence allegations and personal conduct issues, impacting stock prices and company operations.",
+      "question": "Should Jensen Huang remain as Nvidia's CEO during the investigation?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "nvidia-ceo-jensen-huang-scandal-20261112",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-nvidia-ceo-jensen-huang-scandal-20261112.html",
+      "started_at": "2026-11-12T14:28:54.060834",
+      "archived_at": "2026-11-13T23:09:55.357034",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Safety and Risk Concerns",
       "description": "Growing concerns about AI risks are driving new regulatory efforts, ethics research, and security measures from government and researchers.",
       "question": "Should governments prioritize AI safety regulation or innovation freedom?",
@@ -910,44 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-and-anthropic-price-war-20260923.html",
       "started_at": "2026-09-23T10:38:30.857060",
       "archived_at": "2026-09-24T10:57:19.520269",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "Trump's AI Force and Government AI Initiatives",
-      "description": "Major government reorganization as Trump creates new 'AI Force' agency and AI Czar position to oversee artificial intelligence development and safety.",
-      "question": "Should the government accelerate AI development or slow it down?",
-      "button_a": "Development",
-      "button_b": "Down",
-      "poll_id": "trumps-ai-force-and-government-ai-initiatives-20260920",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-trumps-ai-force-and-government-ai-policy-20260921.html",
-      "started_at": "2026-09-20T20:10:13.754579",
-      "archived_at": "2026-09-23T10:38:35.132080",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Security Breakouts and Hacking",
-      "description": "Multiple incidents of AI systems breaching security controls, including Gemini hacking companies and Claude breaching OpenAI's codebase, raising urgent safety concerns.",
-      "question": "Should AI development pause until security breakout risks are solved?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-security-breakouts-and-hacking-20260919",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-safety-incidents-and-security-concerns-20260921.html",
-      "started_at": "2026-09-19T10:09:48.948802",
-      "archived_at": "2026-09-21T21:35:25.277468",
       "reason": "topic_replaced"
     }
   ]

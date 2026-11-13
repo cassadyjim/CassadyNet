@@ -1,135 +1,75 @@
 {
   "polls": [
     {
-      "topic": "Nvidia CEO Jensen Huang Scandal",
-      "description": "Major corporate governance crisis as Nvidia's board investigates CEO over foreign intelligence allegations and personal conduct issues, impacting stock prices and company operations.",
-      "question": "Should Jensen Huang remain as Nvidia's CEO during the investigation?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "nvidia-ceo-jensen-huang-scandal-20261112",
-      "analysis_url": "/analysis/analysis-nvidia-ceo-jensen-huang-scandal-20261112.html",
-      "analysis_type": "poll",
-      "created_at": "2026-11-12T14:28:54.060834",
-      "last_seen": "2026-11-13T13:48:03.327552",
+      "topic": "New AI Model Releases",
+      "description": "Major AI companies are launching new models and specialized AI agents, advancing capabilities in conversational AI and cybersecurity applications.",
+      "question": "",
+      "button_a": "NONE",
+      "button_b": "NONE",
+      "poll_id": "new-ai-model-releases-20261113",
+      "analysis_url": "/analysis/analysis-new-ai-model-releases-20260213.html",
+      "analysis_type": "summary",
+      "created_at": "2026-11-13T23:09:27.768145",
+      "last_seen": "2026-11-13T23:09:43.236785",
       "cluster_stories": [
         {
-          "id": "f6521794ca444172",
-          "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
-          "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
-          "source": "The Guardian Tech",
-          "summary": "CEO reportedly \u200chad close relationship \u200cwith a Chinese businesswoman who passed information to \u200cBeijingNvidia said \u2060on Sunday it \u201cis initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort\u201d.The New York Times reported in \u200bOctober that Donald Trump had been briefed last year on intelligence that Huang \u200chad a close relationship \u200cwith a Chinese businesswoman who passed information to \u200cBeijing. Continue reading...",
-          "published": "2026-11-09T00:25:28+00:00",
+          "id": "191d65fd7b158491",
+          "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+          "url": "https://openai.com/index/cogent-security",
+          "source": "OpenAI Blog",
+          "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+          "published": "2026-11-10T00:00:00+00:00",
           "score": 42.0,
-          "headline": "Nvidia Probes CEO Jensen Huang Over Foreign Intelligence Allegations"
+          "headline": "OpenAI and Cogent Launch Cyber Defense Agents"
         },
         {
-          "id": "02e3b8691032cf35",
-          "title": "Nvidia Shares Drop After CEO Huang\u2019s Affair Triggers Board Probe",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-09/nvidia-shares-dip-on-robinhood-as-huang-affair-spurs-board-probe",
-          "source": "Bloomberg Technology",
-          "summary": "Nvidia Corp. shares fell in premarket trading after the company\u2019s board launched an investigation into Chief Executive Officer Jensen Huang, following his admission of an affair with a woman identified in a series of reports as a suspected Chinese spy.",
-          "published": "2026-11-09T03:48:09+00:00",
-          "score": 40.0,
-          "headline": "Nvidia Shares Drop After Board Launches Huang Probe"
-        },
-        {
-          "id": "cdf43dcb07586322",
-          "title": "\u201cNo excuse for what I did\u201d: Read Jensen Huang\u2019s full letter to Nvidia staff on his affair with alleged Chinese spy",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/no-excuse-for-what-i-did-read-jensen-huangs-full-letter-to-nvidia-staff-on-his-affair-with-alleged-chinese-spy/articleshow/135668537.cms",
-          "source": "The Economic Times Tech",
-          "summary": "In a message to company employees released Sunday, Huang acknowledged having an affair and apologized to both his family and company staff. \"I was unfaithful to my wife,\" he said. \"My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry.\"",
-          "published": "2026-11-09T02:56:07+00:00",
-          "score": 40.0,
-          "headline": "Jensen Huang Apologizes to Nvidia Staff Over Affair"
-        },
-        {
-          "id": "63ce6d380e89ca10",
-          "title": "Tech firms claw back some losses after midterms rout, eyes on Nvidia",
-          "url": "https://economictimes.indiatimes.com/tech/technology/tech-firms-claw-back-some-losses-after-midterms-rout-eyes-on-nvidia/articleshow/135669669.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Tech firms rose Monday to claw back some of last week's painful losses fuelled by AI regulation worries, though traders were keeping a wary eye on a probe into Nvidia boss Jensen Huang amid claims of an affair with a Chinese spy. The executive, Alice Huang -- also known as Huang Le, and no relation to 63-year-old Taiwanese-born Jensen -- developed a close relationship with the Nvidia boss, the Times said.",
-          "published": "2026-11-09T03:26:10+00:00",
-          "score": 33.0,
-          "headline": "Tech Stocks Recover After Midterms Rout Amid Nvidia Probe"
-        },
-        {
-          "id": "ce197702702e4e26",
-          "title": "South Korea says Nvidia issues won't affect contracted GPU supplies",
-          "url": "https://economictimes.indiatimes.com/tech/technology/south-korea-says-nvidia-issues-wont-affect-contracted-gpu-supplies/articleshow/135668578.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Vice Minister of Science and ICT Ryu Jemyung told a parliamentary budget committee that 10,000 GPUs funded under a 2025 supplementary budget had already arrived and were in use.",
-          "published": "2026-11-09T02:32:24+00:00",
-          "score": 32.0,
-          "headline": "South Korea Says Nvidia Issues Won't Affect GPU Supplies"
+          "id": "9c8a76a2ba4f4456",
+          "title": "Claude Fable 5.2 \u2728, Meta Ember \ud83e\udd16, Google\u2019s new TPUs \u26a1",
+          "url": "https://tldr.tech/ai/2026-11-10",
+          "source": "TLDR AI",
+          "summary": "",
+          "published": "2026-11-10T00:00:00+00:00",
+          "score": 35.0,
+          "headline": "Claude Fable 5.2 and Meta Ember Released"
         }
       ],
-      "current_topic_name": "Nvidia CEO Jensen Huang Scandal"
+      "current_topic_name": "New AI Model Releases"
     },
     {
-      "topic": "LLM Security and Safety Research",
-      "description": "Growing focus on protecting large language models from adversarial attacks including jailbreaks, prompt injections, and manipulation of reasoning systems.",
-      "question": "Should LLM safety focus on defensive guards or adversarial-resistant training?",
-      "button_a": "Guards",
-      "button_b": "Training",
-      "poll_id": "llm-security-and-safety-research-20261112",
-      "analysis_url": "/analysis/analysis-llm-security-and-safety-research-20261112.html",
-      "analysis_type": "poll",
-      "created_at": "2026-11-12T14:29:13.163907",
-      "last_seen": "2026-11-13T13:48:04.006689",
+      "topic": "Hugging Face Platform Expansion",
+      "description": "Hugging Face is expanding its platform capabilities and payment options to broaden accessibility and functionality for AI developers.",
+      "question": "",
+      "button_a": "N/A",
+      "button_b": "N/A",
+      "poll_id": "hugging-face-platform-expansion-20261113",
+      "analysis_url": "/analysis/analysis-hugging-face-platform-expansion-20261113.html",
+      "analysis_type": "summary",
+      "created_at": "2026-11-13T23:09:41.198416",
+      "last_seen": "2026-11-13T23:09:45.133994",
       "cluster_stories": [
         {
-          "id": "06a593cb66270845",
-          "title": "AttentionSwitch: Jailbreak Defense for LLMs via Joint Learning of Sparse Attention-Head Selection and Scaling",
-          "url": "https://arxiv.org/abs/2611.08752",
-          "source": "arXiv cs.AI",
-          "summary": "arXiv:2611.08752v1 Announce Type: new Abstract: Large language models have achieved remarkable performance across a wide range of tasks, yet they remain susceptible to jailbreak attacks that circumvent safety mechanisms and elicit harmful or unintended outputs. Although safety can be improved through model fine-tuning, such approaches can be computationally expensive and may degrade previously acquired capabilities through catastrophic forgetting. Recent jailbreak defenses have therefore explored targeted interventions on specific model components associated with unsafe behavior. However, existing approaches typically decouple two inherently related decisions: where to intervene and how to modify the selected components. Such sequential optimization may be suboptimal because the optimal intervention location can depend on the intervention applied there, and vice versa. In this work, we introduce AttentionSwitch, the first jailbreak defense to jointly optimize intervention sites and str",
-          "published": "2026-11-09T05:00:00+00:00",
-          "score": 25.0,
-          "headline": "AttentionSwitch Defends LLMs Against Jailbreak Attacks"
+          "id": "992e8c4109473216",
+          "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+          "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+          "source": "Hugging Face Blog",
+          "summary": "",
+          "published": "2026-11-10T00:00:00+00:00",
+          "score": 36.0,
+          "headline": "Hugging Face Accepts Google Cloud Payments"
         },
         {
-          "id": "651d7801638cedef",
-          "title": "Debate to Deceive: Poisoning LLM's Fact-Checking via Game-Theoretic Multi-Agent Debate",
-          "url": "https://arxiv.org/abs/2611.08756",
-          "source": "arXiv cs.AI",
-          "summary": "arXiv:2611.08756v1 Announce Type: new Abstract: Knowledge attacks on Large Language Models, such as manipulating fact-checking judgments, pose significant risks to AI reliability. Existing approaches -- adversarial suffix/template injection and single-agent self-reflection -- lack robustness across diverse defenses and are prone to confirmation bias and costly trial-and-error, respectively. We propose Debate-to-Deceive (D2D), a multi-agent debate framework grounded in human debate structure and rhetorical style, enabling agents to generate adversarial passages that are semantically coherent, rhetorically effective, and resistant to early confirmation bias. D2D formalizes the adversarial process as an evolutionary game in which agents adaptively evolve their rhetorical strategies (Logos, Pathos, Ethos) through competition. To manage the intractably large LLM output space, we decouple agent behavior into a strategic layer, which selects a rhetorical action from a compact strategy space v",
-          "published": "2026-11-09T05:00:00+00:00",
-          "score": 25.0,
-          "headline": "Debate Attack Manipulates LLM Fact-Checking Systems"
-        },
-        {
-          "id": "b990324e6aa4fc84",
-          "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
-          "url": "https://arxiv.org/abs/2611.08811",
-          "source": "arXiv cs.AI",
-          "summary": "arXiv:2611.08811v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) are one of the key components of current agentic systems. LRMs augment their output with an explicit chain-of-thought reasoning stage, introducing a new attack surface for thought injection, in which untrusted text resembling the model's own deliberation is fed back to the model. We present a two-part study of this attack, performed against the prevailing large, production class open-weight models (e.g., GLM-5.3, MiniMax-M2.5, Qwen3.8-Flash-Next). We first evaluate the effectiveness of static thought-injection prompts under different styles as well as tagged and untagged conditions and find that the effects of thinking tags and payload styles are all properties of the specific target model. In the second study, we exploit this model-specificity in a containerized agentic cyber range, using indirect injection prompts styled in the form of the target model's own reasoning traces to achieve attack success rates ",
-          "published": "2026-11-09T05:00:00+00:00",
-          "score": 25.0,
-          "headline": "Thought Injection Attacks Target Reasoning Agents"
-        },
-        {
-          "id": "de373a1dbceb2997",
-          "title": "Notwithstanding Anything to the Contrary, Ignore All Instructions: Measuring Prompt Injection Guards on Legal Contract Review Attacks",
-          "url": "https://arxiv.org/abs/2611.08834",
-          "source": "arXiv cs.AI",
-          "summary": "arXiv:2611.08834v1 Announce Type: new Abstract: Specialized prompt injection guards are deployed in front of document analysis systems, but no false positive rate has been published for any of them on legal contracts. We measure eleven open-weights guards on two corpora of legal contracts and find that existing guards struggle: document-level false positive rates are as high as 92.39%; two guards fall below chance on paired AUC; and a five-regex baseline is not Pareto-dominated by any guard in the panel. Controlled probes locate model-specific as well as general failure modes. Prompted LLMs resolve the tested failures, including a second threat category (unauthorized scope claims) on which every guard scores zero. A cascaded LLM solution, where the positives of a mid-tier model are verified by a frontier model, is 6.5x cheaper than using exclusively a frontier model and approaches its performance.",
-          "published": "2026-11-09T05:00:00+00:00",
-          "score": 25.0,
-          "headline": "Prompt Injection Guards Tested on Legal Contract Review"
-        },
-        {
-          "id": "9d9daebec9b67a24",
-          "title": "AUTEUR: Acoustic Plan Learning for Red-Teaming Text-to-Audio Models",
-          "url": "https://arxiv.org/abs/2611.09351",
-          "source": "arXiv cs.AI",
-          "summary": "arXiv:2611.09351v1 Announce Type: new Abstract: Automated red-teaming of text-to-audio models requires test prompts that pass textual screening and expose harmful acoustic content. The central challenge is to connect the sounds produced by the target model to both reusable test generation and prompt revision. Our key idea is to represent test descriptions as structured acoustic plans that organize foreground sounds, context, and vocal attributes. To this end, we propose acoustic plan learning, a framework that learns and refines these plans using waveform feedback. We train the plan generator through supervised fine-tuning followed by reinforcement learning with audio feedback while keeping the target audio model fixed. At inference time, the same trained model generates initial plans and uses feedback to revise their context and vocal attributes while preserving the foreground. Experiments across four target systems show attack success rates of 79.4% on TangoFlux and 95.6% on Kling. T",
-          "published": "2026-11-09T05:00:00+00:00",
-          "score": 25.0,
-          "headline": "AUTEUR Red-Teams Text-to-Audio Models for Harmful Content"
+          "id": "de10773c014618cc",
+          "title": "Decision Models in Hugging Face",
+          "url": "https://huggingface.co/blog/decision",
+          "source": "Hugging Face Blog",
+          "summary": "",
+          "published": "2026-11-10T00:00:00+00:00",
+          "score": 34.0,
+          "headline": "Hugging Face Adds Decision Models"
         }
       ],
-      "current_topic_name": "LLM Security and Safety Research"
+      "current_topic_name": "Hugging Face Platform Expansion"
     }
   ],
-  "last_updated": "2026-11-13T13:48:04.006706"
+  "last_updated": "2026-11-13T23:10:05.371166"
 }
