@@ -89,16 +89,6 @@
       "headline": "Discord Rewrites Apps in Rust Using Zed's GPU Framework"
     },
     {
-      "id": "6a6322bc7515fc85",
-      "title": "Musk says Jensen Huang is irreplaceable, regrets midterm spending",
-      "url": "https://www.cnbc.com/2026/11/19/elon-musk-jensen-huang-midterms.html",
-      "source": "CNBC Technology",
-      "summary": "Elon Musk spoke about Jensen Huang, his U.S. midterms spending and overlaps between SpaceX and Tesla at the Dealbook Summit.",
-      "published": "2026-11-19T02:49:35+00:00",
-      "score": 38.0,
-      "headline": "Musk Calls Jensen Huang Irreplaceable at Dealbook Summit"
-    },
-    {
       "id": "d2c3ad4c342dafd9",
       "title": "Intel signs first external customer for advanced 18A chips",
       "url": "https://www.cnbc.com/2026/11/18/intel-first-18a-foundry-customer.html",
@@ -107,26 +97,6 @@
       "published": "2026-11-19T01:05:25+00:00",
       "score": 37.0,
       "headline": "Intel Signs First External Customer for 18A Chips"
-    },
-    {
-      "id": "3ccdae80618907e0",
-      "title": "Bill Ackman says Nvidia board rushed Jensen Huang's exit without proper scrutiny",
-      "url": "https://economictimes.indiatimes.com/tech/technology/bill-ackman-says-nvidia-board-rushed-jensen-huangs-exit-without-proper-scrutiny/articleshow/135977149.cms",
-      "source": "The Economic Times Tech",
-      "summary": "In a post on X, Ackman said the board appeared to have acted under pressure from media reports rather than following a careful decision-making process. He questioned why directors had ruled out Huang's return before all the facts were known.",
-      "published": "2026-11-19T04:07:20+00:00",
-      "score": 36.0,
-      "headline": "Bill Ackman Questions Nvidia Board Over Huang Exit"
-    },
-    {
-      "id": "a40679dd4002da94",
-      "title": "'No one can replace Jensen': Elon Musk says Nvidia decision to sack Jensen Huang was not smart",
-      "url": "https://economictimes.indiatimes.com/tech/technology/no-one-can-replace-jensen-elon-musk-says-nvidia-decision-to-sack-jensen-huang-was-not-smart/articleshow/135975859.cms",
-      "source": "The Economic Times Tech",
-      "summary": "Musk speaking on the New York Times 'Deal book summit' equated Huang being forced out of Nvidia to the Chicago Bulls dropping basketball great Michael Jordan in the middle of a winning streak. \"You got to think long and hard before you take someone, let's say you're Chicago Bulls, middle of your second season, and you got a winning streak that's just going to happen, and then you kick Michael Jordan off your team. Doesn't seem like a smart decision to me,\" he said.",
-      "published": "2026-11-19T02:50:09+00:00",
-      "score": 36.0,
-      "headline": "Musk Compares Nvidia's Huang Exit to Dropping Michael Jordan"
     },
     {
       "id": "9e4dc95ab0d42bac",
@@ -177,6 +147,16 @@
       "published": "2026-11-19T04:20:46+00:00",
       "score": 34.0,
       "headline": "Musk Regrets $500M Spending on Failed Midterm Campaigns"
+    },
+    {
+      "id": "50e0aadfdb37b1bf",
+      "title": "Language Models Make New Research Sound Old",
+      "url": "https://arxiv.org/abs/2611.23546",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23546v1 Announce Type: cross Abstract: Researchers are increasingly using large language models (LLMs) to validate research questions. We find that LLMs make open research questions sound partly studied and overstate what related papers establish. Models recognize most of these overstatements when asked to check the papers' full texts separately. On 40 questions drawn from newly accepted papers, GPT-6-Astra correctly judges 98% to be unstudied, but states that status plainly in only 8% of ordinary answers. All six frontier systems show reporting gaps of 30-90 percentage points. Across 22 models given identical papers, higher capability is associated with more accurate judgments and larger reporting gaps. This reporting failure is asymmetric: models correctly identify studied questions in 88-100% of ordinary answers when we supply the answering papers. To correct this, we build a fixed answer from each model's judgment and separate checks of cited papers. This raises Astra's ",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 33.0,
+      "headline": "LLMs Make New Research Questions Sound Outdated"
     },
     {
       "id": "431f13fe706c5180",
@@ -379,6 +359,16 @@
       "headline": "Test-Time Symmetrization Shows Scaling Laws for Structured Inference"
     },
     {
+      "id": "16444d2dca197daa",
+      "title": "Reliability is a user-specific property of large language models",
+      "url": "https://arxiv.org/abs/2611.23732",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23732v1 Announce Type: cross Abstract: Public benchmarks support comparisons of large language model (LLM) capabilities, yet users can experience the same highly ranked model differently. Drawing on traditional software reliability, we argue that the reliability of an LLM service should be assessed for specified users and conditions of use. This requires more than a capability score: evaluation evidence must support a claim about failure during future operation. We distinguish testing to discover faults from testing to assess reliability and identify ten modelling considerations behind such claims. We propose a six-workstream research roadmap linking claim specification, dynamic operational profiles, graded outcomes and noisy judgements, local probabilistic robustness, interaction dependence, and statistical inference with reassessment. Local probabilistic robustness addresses the behavioural variation hidden when different concrete inputs are treated as the same task. Publi",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 27.0,
+      "headline": "LLM Reliability Varies by User, Study Finds"
+    },
+    {
       "id": "d5683a815ac8f669",
       "title": "Gemini 4 Neon \ud83d\ude80, Genie 4 worlds \ud83c\udf0d, AI designs chips \ud83d\udd2c",
       "url": "https://tldr.tech/ai/2026-11-19",
@@ -499,35 +489,505 @@
       "headline": "Study Challenges Attention as Causality Signal in Self-Driving"
     },
     {
-      "id": "a80bccc1114da5b1",
-      "title": "Solomonoff induction with reflective oracles",
-      "url": "https://www.alignmentforum.org/posts/nvrFYAwciyyj9T5ir/solomonoff-induction-with-reflective-oracles",
-      "source": "Alignment Forum",
-      "summary": "Linkpost for https://arxiv.org/html/2611.14454v1Our PIBBSS fellow Damini Kusum wrote an excellent paper on prediction with reflective oracle Solomonoff Induction (rOSI). Reflective oracles are best known for their game-theoretic applications, where they are often dismissed because \"why would all players choose the same reflective oracle?\"It turns out that reflective oracles can also be used to construct a version of Solomonoff induction (called rOSI) with very nice sequence prediction properties - roughly speaking, it can learn to extract computable structure from (partly) uncomputable sequences. In fact, its properties are quite reminiscent of logical induction, but this paper is much shorter and more accessible. In this context, there is only one \"player\" to choose an oracle, which is just a fixed-point (though you can sort of consider the set of hypotheses entertained by that player as subplayers who share the oracle). I think this paper is the clearest exposition of a very neat but",
-      "published": "2026-11-19T04:36:27+00:00",
+      "id": "077422f82b1058c9",
+      "title": "FedE2E: One-Shot Federated Learning for End-to-End Autonomous Driving with Closed-Loop Evaluation",
+      "url": "https://arxiv.org/abs/2611.24254",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24254v1 Announce Type: new Abstract: Federated learning enables collaborative model training without sharing datasets. However, existing federated learning methods for autonomous driving typically require multi-round communication and lack closed-loop evaluation, while one-shot methods mainly focus on perception tasks. To address these limitations, we propose \\method, a one-shot federated learning method for end-to-end autonomous driving. It comprises multi-client calibration, anchor-based feature alignment, and token-wise consensus distillation to distill knowledge from heterogeneous models. Closed-loop evaluation on Bench2Drive demonstrates the effectiveness of \\method in both one-shot and multi-round federated learning. In the one-shot setting, it achieves a Driving Score of 55.85, which is 4.07 points higher than prior work. In the multi-round setting, it reaches 60.35 after five communication rounds, the best performance among all compared methods under the same number ",
+      "published": "2026-11-19T05:00:00+00:00",
       "score": 25.0,
-      "headline": "New Paper on Solomonoff Induction With Reflective Oracles"
+      "headline": "One-Shot Federated Learning Method Enables Privacy-Preserving Autonomous Driving"
     },
     {
-      "id": "7cc8ba3115da30d9",
-      "title": "Solomonoff induction with reflective oracles",
-      "url": "https://www.lesswrong.com/posts/nvrFYAwciyyj9T5ir/solomonoff-induction-with-reflective-oracles",
-      "source": "LessWrong AI",
-      "summary": "Linkpost for https://arxiv.org/html/2611.14454v1Our PIBBSS fellow Damini Kusum wrote an excellent paper on prediction with reflective oracle Solomonoff Induction (rOSI). Reflective oracles are best known for their game-theoretic applications, where they are often dismissed because \"why would all players choose the same reflective oracle?\"It turns out that reflective oracles can also be used to construct a version of Solomonoff induction (called rOSI) with very nice sequence prediction properties - roughly speaking, it can learn to extract computable structure from (partly) uncomputable sequences. In fact, its properties are quite reminiscent of logical induction, but this paper is much shorter and more accessible. In this context, there is only one \"player\" to choose an oracle, which is just a fixed-point (though you can sort of consider the set of hypotheses entertained by that player as subplayers who share the oracle). I think this paper is the clearest exposition of a very neat but",
-      "published": "2026-11-19T04:36:27+00:00",
+      "id": "7aba96ee0a292e04",
+      "title": "KnowledgeClaw: Towards Agentic Knowledge Engineering via Omnimodal Hypergraphs",
+      "url": "https://arxiv.org/abs/2611.24294",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24294v1 Announce Type: new Abstract: Knowledge engineering (KE) turns raw files into a reasoning-ready knowledge base, a task now within reach of LLM agents. KE has progressed from chunk and graph retrieval-augmented generation (RAG) to memory agents, agentic KE and multimodal KE. However, a live knowledge base needs omnimodality, a closed-loop lifecycle and multi-granular application at once, yet existing systems meet at most two and no benchmark measures all three. We formalize Omnimodal Knowledge Engineering (OmniKE) and release OmniKE-Bench, six tasks with 1,829 model-free items over 3,960 real files in five modalities. We further propose KnowledgeClaw, an agentic system that builds an omnimodal typed hypergraph, keeps it current with a closed-loop lifecycle agent and routes each query to the granularity it needs. Against 30 baselines, it ranks first on all six tasks with an overall OKE of 55.9, +14.6 over the strongest baseline. Our software and data are publicly availa",
+      "published": "2026-11-19T05:00:00+00:00",
       "score": 25.0,
-      "headline": "New Paper on Solomonoff Induction With Reflective Oracles"
+      "headline": "KnowledgeClaw Framework Enables LLM Agents for Knowledge Engineering"
     },
     {
-      "id": "cfa11bd9688654a7",
-      "title": "Mauricio Pochettino arrives at Manchester United as team fights against relegation",
-      "url": "https://www.japantimes.co.jp/sports/2026/11/19/soccer/mauricio-pochettino-arrives-united/",
-      "source": "Japan Times Tech",
-      "summary": "Pochettino has precious little time to settle into his new surroundings, with an away Premier League game at archrival Liverpool looming large on Sunday.",
-      "published": "2026-11-19T03:59:00+00:00",
+      "id": "2c03cb4f05e251a7",
+      "title": "OpenKAGE: Open-Ended Lifelong Learning in the Open World via Knowledge-Sharing Agent-Group Evolution",
+      "url": "https://arxiv.org/abs/2611.24302",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24302v1 Announce Type: new Abstract: Building autonomous agents that continually explore open worlds and acquire new capabilities through experience is a long-standing aspiration in artificial intelligence. Existing research often pursues lifelong learning within predefined tasks, curricula, or objectives, with self-improvement largely confined to individual agents. We introduce OpenKAGE, an agent-group evolution framework for open-ended lifelong learning. Within this framework, agents autonomously explore open worlds and continually acquire new capabilities by accumulating and reusing knowledge from their own interactions and the experience of others. OpenKAGE builds on two key mechanisms: (1) a two-layer knowledge representation, with a memory layer for situated memories and an experience layer for transferable experience and skills that retains the applicability conditions needed for reuse; and (2) a knowledge-sharing mechanism that semantically consolidates textual exper",
+      "published": "2026-11-19T05:00:00+00:00",
       "score": 25.0,
-      "headline": null
+      "headline": "OpenKAGE Proposes Agent Groups for Lifelong Learning in Open Worlds"
+    },
+    {
+      "id": "478954e69ea2fe22",
+      "title": "Benchmarking LLM abilities on postdoc-level natural science problems",
+      "url": "https://arxiv.org/abs/2611.24321",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24321v1 Announce Type: new Abstract: Scientific problems have no answer key, so evaluating an agent means deciding what counts as a better solution before any agent is run. Existing benchmarks either match a symbolic answer against a key or, where they require executable work, score it by unit tests, by a rubric, or by position on a competition leaderboard. None of these is the criterion by which a field decides that one published method beats another. STEMBench adopts that criterion directly. Each of its twelve research problems in high-energy physics, astrophysics and neuroscience is scored by its own field's figure of merit, and each comes with two measured anchors: a submission that uses no domain knowledge, and an expert reference reproducing a published method, both obtained by running code shipped with the benchmark. The interval between them states how much of a problem is crossed by scientific insight rather than by engineering. Across eight frontier models, task-le",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "New Benchmark Tests LLMs on Postdoc-Level Science Problems"
+    },
+    {
+      "id": "27e2eee790a0b6b8",
+      "title": "Reducing Inference Cost of Coding Agents with Timeout Cascades",
+      "url": "https://arxiv.org/abs/2611.24324",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24324v1 Announce Type: new Abstract: AI coding agents have become one of the most popular applications of large language models. Yet, agentic AI comes at the cost of a tremendous amount of GPU compute resources, which limits its profitability and its viability at scale. In this paper, we investigate whether smaller, cheaper models can cut this cost without sacrificing accuracy. We evaluate 36 popular large and small open-weight models released since 2024 on a software engineering benchmark, and find that recent small models are closing the accuracy gap compared to their large counterparts. We investigate the structure of this gap and find that the gap is highly concentrated around hard tasks that small language models fail to solve while achieving remarkably good accuracy for easy and medium complexity tasks. Following this observation, we show that by utilizing a hybrid inference strategy that tries a small model first and escalates to a large one only when needed, we can a",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Timeout Cascades Cut AI Coding Agent Inference Costs"
+    },
+    {
+      "id": "1e6e0f50ea96a58c",
+      "title": "automodel: A Skill for Agentic Model Discovery",
+      "url": "https://arxiv.org/abs/2611.24347",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24347v1 Announce Type: new Abstract: The search for better models, whether expressed as analytical equations or neural architectures, has increasingly shifted from manual design toward data-driven automation. While a multitude of algorithms exist, ranging from exhaustive search to AlphaEvolve, recent advances in general-purpose coding agents such as Claude Code and OpenAI Codex raise the question: could providing such systems with a \"model discovery recipe\" be enough to discover or improve models? We present automodel, an agent skill for general model discovery. With case studies in astrophysics, cardiovascular dynamics, precision agriculture, traffic flow, and vehicle tire dynamics, we show how commercial agents equipped with automodel can successfully identify novel and scientifically-relevant models. Our findings suggest that encoding model-discovery methodology as a portable agent skill can provide a simple, interactive, powerful and broadly applicable alternative to dom",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Automodel Framework Enables AI Agents to Discover Models Autonomously"
+    },
+    {
+      "id": "9e54fd8c0412e3e7",
+      "title": "When Figures Disagree with Text: Evaluating Autonomous Visual Evidence Verification in Scientific Papers",
+      "url": "https://arxiv.org/abs/2611.24353",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24353v1 Announce Type: new Abstract: Scientific figures carry evidence for the claims that cite them, so reviewing a paper means checking that a figure agrees with the text, and not only describing what the figure shows. Benchmarks of figure-text verification typically hand the model the figure, the claim, or the knowledge that an inconsistency exists, which leaves untested whether a model can find the figure worth checking in a complete paper, relate a visual element to the claim it conflicts with, and recognize the conflict. We study this autonomous setting on 31 full manuscripts, each carrying a reviewer-documented figure-text inconsistency from PRISMM-Bench that is hidden from the model. Six multimodal models review each PDF under a neutral prompt, and we then add one input at a time to the same manuscripts. Of 1,445 open-ended reviews, 60.6% mention the flawed figure, yet a grading rubric accepts only 3.3% as diagnosing its contradiction; a blind audit finds the rubric ",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "New System Verifies Scientific Figures Match Paper Claims"
+    },
+    {
+      "id": "a929b3f715ccdca2",
+      "title": "Semantic Context Handoff with On-Demand Evidence for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2611.24357",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24357v1 Announce Type: new Abstract: Traditional long-horizon LLM agents often hand off context through full-history prompting, retaining all previous action--observation interactions. As execution proceeds, this history keeps growing, increasing inference cost and potentially degrading accuracy. Existing methods control this growth by preserving compact conclusions while removing earlier observations, but doing so can discard evidence that later becomes relevant. We introduce Semantic Context Handoff (SCH), whose central abstraction is state--evidence separation: a compact semantic state carries the agent's current interpretation, while supporting action--observation evidence remains separately addressable and can re-enter context when later execution makes it relevant, without separate summarization or retrieval-model calls. Empirically, SCH improves long-horizon agent performance while substantially reducing context cost. In a controlled 150-task SWE-bench study, SCH's ev",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Semantic Context Handoff Improves Long-Horizon Agent Efficiency"
+    },
+    {
+      "id": "9cd1de00aac73b01",
+      "title": "MoE-Context: Show the Model Only What It Needs",
+      "url": "https://arxiv.org/abs/2611.24379",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24379v1 Announce Type: new Abstract: AI agents read their whole history at every step. People do not work like that: we keep what the moment needs and hold the rest as a rough note we can recall. MoE-Context applies this to language models. The context is split into blocks. Before each step a fast yes or no pass decides which blocks the step needs; the rest stay as one-line notes that can be brought back, and nothing is deleted. In the version we build, one model makes this decision and then answers, over a single key-value cache where hidden blocks are masked rather than removed. On a laptop with Qwen3-1.7B and a synthetic lookup task, showing only the needed block raises accuracy from 93 to 119 of 120, and a masked block is as hidden as a deleted one. The model's own picking is the weak part. A supervised linear probe written into spare output rows lifts its accuracy from 80 to 110 of 120, but simple keyword search picks perfectly on this task, and the probe does not trans",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "MoE-Context Reduces AI Agent Memory Load with Selective History"
+    },
+    {
+      "id": "0d36dbfadb57a431",
+      "title": "CaDO: Formal Verification-Guided Multi-Agent Framework for Causal Dataset Repair and Generation",
+      "url": "https://arxiv.org/abs/2611.24406",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24406v1 Announce Type: new Abstract: High-quality causal reasoning datasets are essential for developing models with reliable causal understanding, particularly in specialized domains. However, existing datasets frequently suffer from incorrect annotations and structural imbalances, which can lead to biased predictions and limited generalization. To address this issue, we propose CaDO (Causal-Engine-Guided Multi-Agent Data Optimization), a multi-agent framework for automated diagnosis and repair of causal reasoning datasets. Our framework consists of three key stages: formal causal reasoning, multi-level diagnosis, and automated data repair and generation. First, a Formalizer Agent translates natural language questions into formal causal queries to minimize semantic deviations and make retrieval and verification more explicit and tractable. Second, a dual-level diagnosis mechanism employs independent Critic Agents to identify sample-level errors while analyzing query-type co",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Multi-Agent Framework Uses Formal Verification for Causal Datasets"
+    },
+    {
+      "id": "ff84206b6ddb04b2",
+      "title": "Risk-Triggered Search: Behavior-Preserving Safe Control",
+      "url": "https://arxiv.org/abs/2611.24409",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24409v1 Announce Type: new Abstract: Pre-trained visual world models generate multi-step action plans from current and goal observations, yet terminal-proximity objectives fail to prevent forbidden-zone traversal or rigid-body collision sliding. Purely visual interfaces may lack analytical dynamics, structured states, or explicit collision geometry, requiring internal prediction of action-conditioned process risk. We propose Risk-Triggered Search (RTS) for frozen Joint-Embedding Predictive Architecture (JEPA) world models. Rather than relying on static state features that cannot distinguish candidate plans sharing an observation, RTS unrolls action-conditioned future latent prefixes in the frozen world model and trains a lightweight risk head with process-violation supervision. To intervene selectively while preserving safe nominal behavior, RTS uses the same predicted prefix-risk criterion as both the search trigger gate and hard feasibility gate: safe nominal plans execute",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Risk-Triggered Search Improves Safety in Visual World Models"
+    },
+    {
+      "id": "f7e440f22eb5878b",
+      "title": "Resolution as Attention for Efficient Agent Memory Perception",
+      "url": "https://arxiv.org/abs/2611.24422",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24422v1 Announce Type: new Abstract: LLM-based agents accumulate extensive interaction histories when solving complex, long-horizon tasks, making efficient memory management critical to their performance and scalability. While existing memory management methods primarily focus on what to retain or retrieve, they often overlook how much perceptual detail should be allocated to individual past interactions. We posit that effective agent memory depends not only on the information preserved, but also on the granularity at which each past interaction is perceived. Motivated by this insight, we propose Resolution as Attention (RAA), a memory perception mechanism that uses visual resolution as a means of attention allocation across interaction histories. RAA renders past interactions as images and dynamically adjusts their resolution at every step according to their relevance to the agent's upcoming decision, preserving fine-grained information for critical interactions while reduc",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Resolution-as-Attention Method Tackles Agent Memory Efficiency"
+    },
+    {
+      "id": "bb7d3c9ed408c7a9",
+      "title": "ABSClaw: From Invented Worlds to Reality-Grounded Social Simulation",
+      "url": "https://arxiv.org/abs/2611.24517",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24517v1 Announce Type: new Abstract: LLM-based artificial societies exhibit rich behavior but often lack scientific grounding: personas and environments are assumed, interaction networks are synthetic, and simulators are generated as free-form code, making results difficult to tie to real populations and sensitive to the backbone model. We argue that simulated worlds should be sampled from observed data, while simulation logic should be implemented by composing operations from a shared, task-independent vocabulary. In this paper, we introduce ABSClaw, a zero-code agent that compiles natural-language requests into executable, reality-grounded social simulations. ABSClaw grounds who acts, where they act, and with whom they interact in survey and census data, geospatial sources, and real networks. It expresses state transitions through 26 atomic operations. To support an open and extensible ecosystem, ABSClaw further allows capabilities to be added as lifecycle-scoped skills wi",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "ABSClaw Framework Grounds LLM Social Simulations in Reality"
+    },
+    {
+      "id": "952b35b39c77b5a6",
+      "title": "AGAMOTTO: An AI-Enabled Framework for Time-Critical Tactical Course-of-Action Evaluation and Generation",
+      "url": "https://arxiv.org/abs/2611.24568",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24568v1 Announce Type: new Abstract: Current command and control (C2) platforms lack integrated simulation capabilities that would allow commanders to dynamically explore courses of action (COAs) during live operations. This paper presents ongoing research and contributions to the development of AGAMOTTO (Advanced Guidance and Analytics for Military Operations, Tactical Threats, and Outcomes) as part of the overarching NGC2 program, which advances the Army's efforts to modernize C2 systems, such as the Tactical Assault Kit (TAK). The paper outlines the current design, preliminary findings, and the remaining research tasks, with an emphasis on how the completed work will support tactical decision-making in future time-constrained environments. While the full system is still under development, initial development and results demonstrate the feasibility of AGAMOTTO. Early experiments highlight both the potential benefits and practical constraints of deploying AI-enabled tools i",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "AGAMOTTO Framework Brings AI Simulation to Military Command Systems"
+    },
+    {
+      "id": "5acea8009db036cf",
+      "title": "Think Offline, Act in Real Time: Self-Improving Visual Game Agents through Code",
+      "url": "https://arxiv.org/abs/2611.24590",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24590v1 Announce Type: new Abstract: Pre-trained models can read screens and reason about games, yet on an unfamiliar game, an agent still has to learn to play. We ask how an agent can self-improve on such a game from a few of its own attempts, in real-time visual games where the agent sees only the screen and the game keeps running while the agent thinks. We study two kinds of policy that can carry this improvement. In model as policy, a model selects actions during play; we adapt real-time chunking so that committed actions keep executing while the model reasons, and train a 2B controller for this interface. In code as policy, a model writes, tests, and revises a program between attempts, and the program acts during play. Across 170 GameWorld tasks, with at most eight one-minute executions per run, code as policy reaches 47.80% mean progress, against 30.90% for our trained controller, and leads in all five game categories. Improving the controller's weights on a single gam",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Self-Improving Visual Game Agents Learn Through Code Generation"
+    },
+    {
+      "id": "f7b7e53ba41961ef",
+      "title": "GateWatch: Low-Overhead LLM Monitoring with Boolean Circuits",
+      "url": "https://arxiv.org/abs/2611.24619",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24619v1 Announce Type: new Abstract: As large language models (LLMs) and LLM-based agents are increasingly deployed, monitoring their behavior becomes important for detecting unsafe or unintended actions. Activation probes offer an efficient approach, but existing methods face trade-offs between accuracy, interpretability, and computational overhead. Probes on raw activations lack interpretable inputs, whereas sparse autoencoder (SAE) probes use interpretable features but often rely on additive classifiers and large SAE encoders, limiting interpretability and increasing memory overhead. We introduce GateWatch, a compact, interpretable classifier that expresses its entire decision rule as an explicit Boolean logic over a small number of binarized SAE features. We explore three approaches to constructing these circuits under a specified gate budget. For efficient deployment, GateWatchServe computes only selected SAE features, enables streaming of their binary values across lay",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "GateWatch Monitors LLM Behavior with Low-Overhead Boolean Circuits"
+    },
+    {
+      "id": "af10cbaf02b4c492",
+      "title": "Self-Rewarded Reinforcement Learning for Better-Structured Medical Explanations in Small Language Models",
+      "url": "https://arxiv.org/abs/2611.24650",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24650v1 Announce Type: new Abstract: Small language models (SLMs) can run on commodity hardware and support privacy-preserving, on-premises clinical deployment, but their medical explanations are often short and poorly structured compared with large language models. Recent supervised approaches such as Meerkat transfer chain-of-thought reasoning into 7B-8B backbones, yet their training objective does not directly target the style or organization of the generated rationales. Building on the instruction-tuned Mistral-7B backbone, we investigate whether a lightweight reinforcement learning (RL) step can improve explanation structure without human preference labels.We apply Proximal Policy Optimization (PPO) with LoRA adaptation to 2,000 Meerkat-derived medical prompts, guided by a simple self-supervised reward that favors longer, lexically diverse, and well-punctuated responses while penalizing very short ones. Training for about 170 PPO steps on a single NVIDIA A100 GPU yields",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Self-Rewarded RL Improves Medical Explanations in Small Language Models"
+    },
+    {
+      "id": "01c0a81655e37ddc",
+      "title": "Depth Before Breadth: Reverse-to-Forward Curriculum with Advantage Decomposition for LLM Agent",
+      "url": "https://arxiv.org/abs/2611.24697",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24697v1 Announce Type: new Abstract: Reinforcement learning (RL) has become a common approach for training large language model (LLM) agents on long-horizon tasks. However, learning from sparse terminal rewards makes credit assignment and exploration difficult. We approach these challenges through a policy-induced capability region, the set of states from which the current policy can reliably complete a task. Near its boundary, an agent may need only a few actions to reach a more solvable state, even when the goal remains distant. This reduces long-horizon learning to two coupled subproblems of reaching that state and completing the task from there. We address them with paired advantages and a progressive reverse-to-forward curriculum. The advantages provide separate signals for reaching more solvable states and completing the task from them, while the curriculum expands the capability region backward along successful reference trajectories and then into off-reference states",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Reverse-to-Forward Curriculum Improves LLM Agent Training"
+    },
+    {
+      "id": "932c249c5b0ff392",
+      "title": "Vibe-Trading: Towards Agent-Native Trading",
+      "url": "https://arxiv.org/abs/2611.24845",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24845v1 Announce Type: new Abstract: Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio positions, and available capital evolve continuously. A result is useful only when it remains tied to the correct time, data snapshot, and execution context. We present Vibe-Trading, a comprehensive agent-native trading framework and all-in-one workspace for building, evaluating, and evolving agents for financial trading. It unifies market research, financial data, strategy generation, backtesting, portfolio analysis, paper trading, multi-agent collaboration, and optional broker execution. Its central contribution is an architecture that keeps results, evidence, research history, and trading authority connec",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Agent-Native Trading Concept Emerges in New Research"
+    },
+    {
+      "id": "9b2cc5126c9f22c1",
+      "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+      "url": "https://arxiv.org/abs/2611.24869",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24869v1 Announce Type: new Abstract: Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former requires preserving rule definitions, dependencies, and world states across saving and loading, so that restored worlds follow the established rules. The latter requires accurately realizing rule-induced changes on designated objects and attributes, particularly when affected objects are unseen. In this paper, we propose WorldRuler, which organizes rule definitions, dependencies, and object states in an executable 3D rule graph and connects rule execution, video generation, and perceptual feedback in a closed loop. The graph supports joint saving and re",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "WorldRuler Tests Interactive World Modeling With Custom Rules"
+    },
+    {
+      "id": "97dddf8c3b38b822",
+      "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
+      "url": "https://arxiv.org/abs/2611.24880",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24880v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specification. Such an agent can be served from a cloud API or from an inference device on the premises. For organizations whose designs, customer data or export-controlled material cannot leave the site, and whose simulators are licensed there, local deployment is the natural choice. In such a deployment, the agent becomes an electrical load on the organization's own equipment, i.e., every run consumes power and energy on a local device, generates tokens and takes time. However, existing work focuses mainly on what the agent can achieve with cloud-hosted models. What a local deployment costs in power, energy, tokens and time on real simulation tasks, and ",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Local AI Agents Drive Power Electronics Simulations"
+    },
+    {
+      "id": "a77c71f452fd5f7a",
+      "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+      "url": "https://arxiv.org/abs/2611.24932",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.24932v1 Announce Type: new Abstract: When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory of reviewer value to make it precise. The theory makes five claims: value is governed by calibration rather than by activity, speed, agreement, or tenure; calibration leaves observable traces in behavioral telemetry; those traces are non-diagnostic on their own, because the fast, low-revision signature of a calibrated expert is indistinguishable from that of a confident novice until it is gated by outcomes; human calibration and a model's self-knowledge are the same construct, so the joint system should defer to whichever agent is better calibrated on each item; and individual calibration is causally identifiable only above",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Study Maps When Humans Add Value to AI Systems"
+    },
+    {
+      "id": "a961177fcbd7f132",
+      "title": "Goemans's Unsplittable-Flow Conjecture: The Anatomy of AI-Assisted Counterexample Discovery",
+      "url": "https://arxiv.org/abs/2611.23244",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23244v1 Announce Type: cross Abstract: Goemans conjectured that any fractional single-source flow could be converted into an unsplittable flow without increasing total cost and while increasing any arc load by at most the largest demand. Recently, Dmitry Rybin announced a seven-vertex counterexample found through an interaction with ChatGPT, which disproved this long-standing conjecture. However, the interaction did not reveal why this particular topology and its demand, fractional-flow, and cost choices work together, whether the example belongs to a broader family, or which structural features determine where counterexamples can occur. It also left unclear why the AI-assisted search succeeded where earlier human efforts had not. In this paper, we develop a forward counterexample construction pipeline. It starts from an arborescence on which failure is impossible and adds terminal-entering shortcut arcs. The resulting load constraints define a finite set of admissible route",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "AI Discovers Counterexample to Goemans Flow Conjecture"
+    },
+    {
+      "id": "2a2202e3bdaeff84",
+      "title": "The Obsolescence of High-Level Code: Agentic Generation from Semantic Artifacts",
+      "url": "https://arxiv.org/abs/2611.23249",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23249v1 Announce Type: cross Abstract: This paper argues that high-level source code need not remain the primary persistent artifact of software development when AI agents can generate, validate, and regenerate executable implementations from semantic intent. We place this claim in historical context by revisiting application generators, CASE tools, model-driven development, and platforms such as GeneXus, where developers already maintained higher-level representations from which code and other artifacts were derived. We propose a unifying view in which generation is the fundamental operation: given a semantic specification S = (R, C, I, T, O), maintained as the semantic authority, an agent produces a generated executable artifact A. Functional requirements, contracts, and interfaces are assessed as semantic obligations, while tests and operational objectives are assessed by an explicit external oracle V(A, S). We operationalize this framework through an experiment in indepe",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Paper Argues AI Agents Make High-Level Code Obsolete"
+    },
+    {
+      "id": "2be606fcaac769fa",
+      "title": "What Moves the Ceiling on Automated Audit: from General Code to Scientific Code, Results and Data",
+      "url": "https://arxiv.org/abs/2611.23250",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23250v1 Announce Type: cross Abstract: Models increasingly check what other models write. We study one shipped arrangement, in which an auditor from a different vendor reads the work and deterministic checks verify what code can verify, and measure its limits against ground truth no model supplies. On general-purpose code with hidden tests, eight readings of the auditor reach 30.0% recall [20.0, 40.7] at 16.0% [10.1, 22.3] flags on correct code, with diminishing returns and no plateau. The reading model (confounded with its sampling), one rulebook sentence and the decision rule each move that figure, and much of what is missed is, on a post hoc rating, behaviour the specification never determined. In three preregistered science studies, checking that reported numbers trace to their sources flagged all 49 inconsistent reports and none of 25 consistent fabrications, of which the model auditor flagged 23 (21 with a sound finding, post hoc); on data, a documentation-derived vali",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Study Examines AI-Powered Automated Code Auditing Limits"
+    },
+    {
+      "id": "a26b8de1067eb4c3",
+      "title": "Generative AI in Software Testing: Practitioners' Perspectives on the Benefits, Challenges, Opportunities, and Risks",
+      "url": "https://arxiv.org/abs/2611.23256",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23256v1 Announce Type: cross Abstract: Generative Artificial Intelligence (GenAI) increasingly supports software testing, yet empirical evidence on practitioners' perceptions remains limited. This study investigates perceived benefits, challenges, opportunities, and risks of GenAI in software testing through a questionnaire survey of 64 practitioners. Closed-ended responses were analyzed descriptively, while open-ended responses were qualitatively coded to contextualize the findings. Among the respondents, 34 were users (those with regular or experimental use of GenAI in testing) and 30 were non-users (those without prior use of GenAI in testing). Results show generally positive perceptions of GenAI for reducing effort, test generation, and debugging, alongside concerns about prompt dependence, trust, and incorrect outputs. Users were more positive about several concrete benefits while also more frequently prioritizing reliability-related risks, whereas non-users showed grea",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Developers Share Views on GenAI in Software Testing"
+    },
+    {
+      "id": "cf30d8822b817e7b",
+      "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+      "url": "https://arxiv.org/abs/2611.23257",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23257v1 Announce Type: cross Abstract: Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs). For such software, a key testing bottleneck is reaching a deep state, one that requires a long interaction history. The cost of reaching it recurs across commits, and the GUI automation that could amortize it assumes a DOM or accessibility tree that self-rendered engines do not expose. We introduce StatePortal, an agent that synthesizes a checkpoint, an artifact that restores that state and can be versioned and replayed, from a natural-language functional test case and read-only access to the target's source code. The checkpoint is restored through a per-application hook that an onboarding agent binds or synthesizes once without hand-written hook code. Because a checkpoint can satisfy state checks while rendering incorrectly, checkpoints are scored by hybrid programmatic-state and visual evaluation: acceptance r",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "StatePortal Uses Agents to Generate GUI Testing Checkpoints"
+    },
+    {
+      "id": "3cfcabf6fa22cf33",
+      "title": "EnvAgent: Multi-Agent Approach to Building Science Environments in the Clouds",
+      "url": "https://arxiv.org/abs/2611.23258",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23258v1 Announce Type: cross Abstract: AI agents are transforming scientific computing and software workflows, but generating and executing code requires a correctly configured execution environment. Automating environment construction remains difficult because repositories encode heterogeneous, often incomplete requirements for operating systems, toolchains, dependencies, and build procedures. Existing workflows thus rely on developer-maintained Dockerfiles and setup scripts, making preparation labor-intensive, hard to scale, and potentially biasing evaluations. We present ENVAGENT, an agentic framework that synthesizes, builds, and verifies repository-level Docker environments. ENVAGENT combines deterministic utilities for Docker execution and state management with coordinated agents for repository analysis, planning, Dockerfile synthesis, and iterative failure diagnosis and repair. We also introduce ENVBENCH, a benchmark of 54 scientific artifacts and open-source reposito",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "EnvAgent Builds Cloud Science Environments With Multi-Agent System"
+    },
+    {
+      "id": "3c71192729f56685",
+      "title": "Ephyra: A Property-Based Testing Framework for the LLM Era",
+      "url": "https://arxiv.org/abs/2611.23282",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23282v1 Announce Type: cross Abstract: Coding agents now write a growing share of software tests; however, property-based testing (PBT) libraries are designed with historical considerations. We present Ephyra, a PBT library in Rust built on three concepts: customizability, observability and generator synthesis. Ephyra lets users compose their own testing loops from generation, mutation and shrinking, and synthesize these components to satisfy functional predicates. Applying Ephyra to 14 open source systems, we have found 349 bugs and reported 300 of them, in database management systems (SQLite, Turso, PostgreSQL, DuckDB, DataFusion), the verified policy engine (Cedar), the SQL equivalence prover (QED), the URL parser used in Node.js (ada-url), reimplementations of existing open source systems in Rust (coreutils, brush, gitoxide), and compilers (binaryen, OCaml, and OxCaml).",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Ephyra Adapts Property Testing for Coding Agents"
+    },
+    {
+      "id": "b4fe8bdf5819b669",
+      "title": "When Single Agent Is Enough: Rethinking Multi-Agent Systems for Automated Code Review",
+      "url": "https://arxiv.org/abs/2611.23283",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23283v1 Announce Type: cross Abstract: Code review plays a critical role in identifying software quality issues and ensuring system robustness. Prior work has proposed techniques for Review Comment Generation (RCG) and Code Refinement (CR), with recent Multi-Agent (MA) approaches achieving state-of-the-art results by coordinating agents specialized in different quality dimensions. However, MA systems introduce substantial architectural complexity and runtime overhead, and recent evidence suggests they may underperform Single-Agent (SA) approaches in certain tasks. In this work, we systematically compare MA and SA designs for RCG and CR. Surprisingly, our results show that SA approaches perform comparably to- and sometimes outperform-MA systems, despite their simpler design. These findings challenge the prevailing assumption that MA architectures are the default choice for complex software engineering tasks.",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Single Agents Match Multi-Agent Systems for Code Review"
+    },
+    {
+      "id": "1cfdae4d435b5fe6",
+      "title": "The Illusion of Relief: How GenAI Redistributes Cognitive Workload in Software Organizations",
+      "url": "https://arxiv.org/abs/2611.23286",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23286v1 Announce Type: cross Abstract: This study explores how Generative AI (GenAI) reshapes software practitioners' cognitive work across software development activities. We analyzed questionnaire responses from 44 practitioners across nine organizations using descriptive quantitative methods and qualitative analysis of relevant open-ended responses. Practitioners reported productivity and time savings, but also effort associated with providing context, prompting, reviewing, correcting, verifying, and integrating AI-generated outputs. Human judgment and accountability remained central, with practitioners anticipating a shift from direct code production to guiding, evaluating, validating, integrating, and coordinating AI-supported work. Thus, GenAI appears to redistribute cognitive work toward oversight rather than simply eliminate it, although whether overall cognitive workload increases or decreases remains undetermined.",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "GenAI Redistributes Rather Than Reduces Developer Workload"
+    },
+    {
+      "id": "aafdb21e6108c173",
+      "title": "When Code Works but the License Doesn't: Evaluating License Constraint Handling in Coding Agents",
+      "url": "https://arxiv.org/abs/2611.23299",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23299v1 Announce Type: cross Abstract: Coding agents increasingly undertake repository-level development, including dependency selection, source modification, and software deployment. However, existing evaluations prioritize functional success over licensing correctness and commercial suitability. We investigate whether agents recognize and preserve software-license constraints when developing proprietary software. Experiments across multiple agents examine permissive and copyleft licenses, missing licensing information, transitive dependencies, source modification, dual licensing, vendoring, and distribution contexts. Agent traces, repository changes, and final artifacts are evaluated against licensing ground truth. Results reveal a persistent gap between functional and licensing correctness. Agents can successfully build and test software while overlooking licensing constraints involving provenance, authorization, and distribution. Better outcomes emerge when licensing inf",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Coding Agents Struggle With Software License Constraints"
+    },
+    {
+      "id": "fe36a7f7eec4a650",
+      "title": "Dependency Fabrication in Repository Deployment Agents",
+      "url": "https://arxiv.org/abs/2611.23305",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23305v1 Announce Type: cross Abstract: Repository deployment agents set up the environment needed to run a software repository. They often treat passing tests as proof of a successful setup. This report examines how such agents behave when a working setup is impossible. Probe repositories were built with a dependency that the agents could not legitimately obtain. Passing tests therefore indicated fabrication, such as creating a stub to replace the missing package. Agents in Repo2Run and SetupX usually fabricated the dependency. Both harnesses mostly still marked these runs as successful. Rules against fabrication, whether given in the prompt or repository documentation, did not reliably prevent this behavior. On MinimalSetupAgent, which was built for this report, mitigations proposed in the reward-hacking literature were most effective when the agent received a direct rule and had a clear way to stop and report the problem. Under these conditions, neither Qwen3.5-Plus nor GP",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Deployment Agents Create Fake Dependencies to Pass Tests"
+    },
+    {
+      "id": "2ae62f8c749f8435",
+      "title": "Repository-Grounded Rubrics for Execution-Free Evaluation of Coding Agents",
+      "url": "https://arxiv.org/abs/2611.23309",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23309v1 Announce Type: cross Abstract: Coding agents are usually evaluated by running task-specific tests, but tests may be missing or incomplete, and running them requires a working environment for each repository. We adapt agentic rubrics, introduced for selecting among candidate patches, into an execution-free measure of how far a patch satisfies a task's requirements. An agent explores the repository before the change and writes weighted binary criteria, and a judge without tools scores a diff by the weighted share of criteria it satisfies. We validate the ordering this score produces against test outcomes on SWE-bench Verified, using 7,291 labeled patches from fifteen systems. Within the 400 tasks that have both resolved and unresolved patches, the mean per-task AUROC is 0.826 (0.838 on tasks not used to tune the rubric-generation prompt), and ranking systems by their failing patches closely agrees with ranking them by resolve rate (Spearman 0.968). Case analyses trace ",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "New Rubrics Evaluate Coding Agents Without Execution"
+    },
+    {
+      "id": "f2e188d2232e317a",
+      "title": "Reusing formal Vlasov-Maxwell proofs to certify plasma solver outputs",
+      "url": "https://arxiv.org/abs/2611.23319",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23319v1 Announce Type: cross Abstract: AI now produces machine-checked mathematics faster than researchers can read it. Can such theorems do practical computational work? We reuse one from \\mbox{OpenAI's} Lean~4 relativistic Vlasov--Maxwell library: initial fields determine the field at an outside point until plasma signals reach it, and the energy leaving a surrounding box before they reach its faces. New Lean proofs and numerical bounds give particle-free references for particle-in-cell simulations across three tasks. Domain size follows analytically from observation time, exposing boundary and initialization errors in WarpX and Smilei that global energy checks missed. Grid choice can be tested directly: combining two coarse grids recovers unknown plasma inputs within tolerance at a median 14.9-fold speedup over a fine grid, where the medium grid alone fails. For reduced models, the bounds establish the minimum number of time curves needed to predict energy loss.",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Formal Proofs Used to Certify Plasma Solver Outputs"
+    },
+    {
+      "id": "5ba7a972669a3e6c",
+      "title": "HydroMind: A Checkable Agent for Autonomous Hydrological Research",
+      "url": "https://arxiv.org/abs/2611.23323",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23323v1 Announce Type: cross Abstract: General-purpose coding agents have written code for hydrological and Earth-system models. In these studies the researchers decided in advance how the model would be evaluated, for example the test period, the scoring function, and the standard the model had to meet. No study has tested what happens when the agent makes these decisions itself: how many of its claims are supported by its own data, code, and results, and whether readers can check them. Both may depend on the agent's harness, that is, the tools it can call and the written instructions it follows. We compared three harnesses: the agent's own harness; this harness plus the modeling tools of HydroMind, a hydrological modeling system we developed for general-purpose agents, which run every model through fixed commands and store its settings, trained model, and predictions; and both plus HydroMind's research procedure, under which the agent writes a research design before runnin",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "HydroMind Agent Conducts Autonomous Hydrological Research"
+    },
+    {
+      "id": "7ee4c022c87bc40e",
+      "title": "Optimize the Cob, Then the Kernel: Optimizing Beam Search for Generative Recommendation Inference",
+      "url": "https://arxiv.org/abs/2611.23339",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23339v1 Announce Type: cross Abstract: Generative recommendation (GR) inference differs substantially from conventional LLM serving, featuring long input sequences, wide beam search, and only a few fixed output tokens. Existing LLM serving engines such as vLLM process beams as batched independent sequences, causing redundant KV cache accesses over the shared prompt prefix. Furthermore, vLLM executes each beam search generation step as a separate engine invocation, incurring host-side beam processing overhead between decoding steps and substantial runtime KV block management in PagedAttention. Using Tree Attention, we concatenate beams along the sequence dimension to eliminate redundant KV accesses, and further optimize execution through pre-generated partial-attention masks, static KV cache allocation, loop-unrolled generation dispatch, TorchAir graph compilation, automatic operator fusion, and vocabulary-constrained decoding. Without the use of custom kernels, our approach ",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Beam Search Optimized for Generative Recommendation"
+    },
+    {
+      "id": "3a4876b1c4b51fea",
+      "title": "SurgCBVR: A Multi-Domain Benchmark for Content-Based Surgical Video-to-Video Retrieval",
+      "url": "https://arxiv.org/abs/2611.23347",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23347v1 Announce Type: cross Abstract: Hospitals record thousands of hours of surgical video annually, yet these archives remain difficult to search by content. Surgeons cannot readily retrieve similar operations, complications, or workflow events. Existing surgical computer vision primarily produces labels rather than retrieving relevant videos. We introduce SurgCBVR, the first benchmark for content-based video-to-video retrieval in surgery. It integrates eight public datasets across four domains-ophthalmic, laparoscopic, robotic-assisted, and colonoscopy-covering six procedure types, 679 cases, and 76,489 clips (106 hours). SurgCBVR comprises two tiers: Scene, retrieving the same operative state across cases and sites, and Workflow, retrieving and localizing phase transitions and deviations. Scene includes 74,765 clips spanning 40 classes, three temporal granularities, and three playback speeds; Workflow contains 1,724 transition clips. Fixed clip lengths and frame counts,",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "New Benchmark Makes Surgical Video Archives Searchable"
+    },
+    {
+      "id": "b3b68679dbeb5e0b",
+      "title": "SIGMA: speaker-isolated, symptom-structured multimodal estimation of depression severity from clinical interviews",
+      "url": "https://arxiv.org/abs/2611.23348",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23348v1 Announce Type: cross Abstract: Clinical interviews are central to depression assessment but time-consuming and rater-dependent. Automated severity estimation offers scalable screening, yet existing methods often retain interviewer speech (confounding participant cues), fuse modalities late (losing fine-grained cross-modal dynamics), or score symptoms independently (ignoring inter-symptom correlations). We present SIGMA, a speaker-aware, symptom-structured framework for depression-severity estimation from semi-clinical interviews. SIGMA uses speaker diarization to restrict input to participant speech, cross-attention so that text, audio and video condition one another during encoding, and a graded-response head that predicts the eight questionnaire items jointly through a shared latent severity trait with item-specific ordered thresholds. On the Extended Distress Analysis Interview Corpus, SIGMA achieves state-of-the-art performance (CCC 0.762, RMSE 4.13, MAE 3.30 ove",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "AI Automates Depression Severity Assessment from Interviews"
+    },
+    {
+      "id": "d078cf2730c8f3a1",
+      "title": "Idempotency Is Not Recovery: A Fault-Injection Study of Language-Model Agent Tool Actions",
+      "url": "https://arxiv.org/abs/2611.23353",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23353v1 Announce Type: cross Abstract: When a language-model agent's tool call is interrupted, the action may already have changed an external system without confirmation. Retrying risks duplication; assuming success may conceal an action that never occurred. We study these failure modes in a controlled agent runtime combining authorization, an action ledger, target-side idempotency, reconciliation, and evidence sealing. We inject ten single-host fault classes and compare four configurations and three ablations using a target-side oracle separate from the runtime ledger. On each of Windows and Linux, 7,513 trials used 96 captured model responses from 24 constructed cases. In 200 known original crash and replay pairs, the full configuration recorded 0/200 repeated effects versus 117/200 for each simpler baseline. A ledger-related ablation had 170/170 orphaned effects versus 0/170 and 200/300 recovery successes versus 300/300 for the full configuration. Disabling reconciliatio",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "LLM Agent Tool Failures Create Duplicate Actions"
+    },
+    {
+      "id": "c3323ccd66f8effa",
+      "title": "Image Watermarking With Memory Across Reissuance",
+      "url": "https://arxiv.org/abs/2611.23363",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23363v1 Announce Type: cross Abstract: Publishers often revise and reissue images, yet valid watermarks may persist on superseded releases or unapproved edits. Even a current release can contain regions last authorized at different revisions. We introduce and formalize reissuable provenance: determining an image's current, superseded, or unissued status and recovering each region's last authorized revision (its generation), with abstention when evidence is insufficient. Generational Stratigraphy Fields (GSF) combine watermark evidence with an authenticated live reference to the current release, enabling replacement or retirement without rewriting circulated copies. Each reissue freshly embeds new generation labels in approved regions and inherited labels elsewhere, preserving history without requiring old watermarks to survive successive edits. Our complete-output reissuance evaluation follows 480 histories through four releases, retaining each AI editor's entire output. GSF",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Image Watermarks Track Revisions Across Reissues"
+    },
+    {
+      "id": "26a2a052a05ff79c",
+      "title": "QDA: Closed-Loop LLM Quantization Design with Agents",
+      "url": "https://arxiv.org/abs/2611.23388",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23388v1 Announce Type: cross Abstract: Post-training quantization is the standard way to serve large language models at low cost. However, the best quantization recipe differs across models and precisions. As a result, experts must redesign it for every new model, which is time-consuming and often sub-optimal. Fortunately, an LLM agent can take over this design by refining the recipe over rounds of building and evaluating candidates, so that more rounds lead to better recipes. However, evaluating one quantized reasoning model takes tens of GPU-hours, and combining methods from different codebases means porting each to the new architecture by hand. We present QDA, a system in which an agent designs the recipe for each model and precision. To make evaluation fast, QDA scores each candidate in minutes by its output KL divergence from the original model on reasoning traces that the agent never sees, and checks promising ones with long generations to catch failures such as repeti",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "LLM Agents Automate Model Quantization Design"
+    },
+    {
+      "id": "7b4930242890213b",
+      "title": "Which Tokens, in What Order, and How Fast? A Theoretical Analysis of On-Policy Distillation Objectives",
+      "url": "https://arxiv.org/abs/2611.23397",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23397v1 Announce Type: cross Abstract: On-policy distillation (OPD) trains a student language model to match a teacher model based on its own generations. When using OPD, one must choose whether to apply it at the sequence or token level and which divergence to minimize. However, despite the wide adoption of OPD in practice, the formal understanding of which OPD objective is appropriate for a given setting is limited. Toward addressing this gap, we theoretically analyze how the choice of OPD objective governs which tokens are prioritized, in what order, and how efficiently. Our analysis reveals that sequence-level OPD exhibits a future agreement bias, which myopic token-level objectives avoid. This bias induces a reverse learning order, in which sequence-level OPD first matches the teacher at later token positions, while at earlier positions it can favor tokens that are improbable under the teacher, and thus often undesirable. As for the choice of divergence, we prove that i",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Study Analyzes On-Policy Distillation Trade-offs"
+    },
+    {
+      "id": "1141d63c67eb94c3",
+      "title": "Tracking Representations in LLM Reasoning Traces for Iterated Games",
+      "url": "https://arxiv.org/abs/2611.23403",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23403v1 Announce Type: cross Abstract: Large language model (LLM) agents achieve state-of-the-art performance across domains through chain-of-thought (CoT) reasoning. Despite their ubiquitous use, little is understood about the relationship between the externalized trace and the model's actual computation. We address this by investigating how LLM agents make decisions in iterative games with incomplete information. Using a series of mechanistic interpretability techniques, we find that the model forms and iteratively revises an internal representation of the game throughout the CoT. Once the model prematurely commits to an incorrect belief, it rarely recovers. This failure is manifested in both the literal trace and the layer activations. Ultimately, as multi-agent systems are more prevalent, our work opens the door to a more focused diagnosis of their strategic reasoning errors. For illustrative purposes, we offer an interactive visualizer of our methodology on selected sam",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Tracking How LLMs Represent Strategy in Game Play"
+    },
+    {
+      "id": "d95afc9e22c80d42",
+      "title": "Reliability by Architecture: Agentic Workflows for Validated Multi-Physics Simulation from Natural Language",
+      "url": "https://arxiv.org/abs/2611.23473",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23473v1 Announce Type: cross Abstract: Preparing, executing, and validating strongly coupled multi-physics simulations require expert time. Agentic workflows use large language models (LLMs) to coordinate them from natural-language descriptions, but reliability requires checks of physical consistency and fidelity to the problem description. Our agentic harness implements explicit task allocation: LLMs interpret user requests and simulator diagnostics, generate input components not covered by predefined construction rules, and propose repairs, while deterministic routines construct supported components and check inputs, edits, and results. We evaluate CO2-storage problems using the multi-physics simulator GEOS, from compositional flow to flow-poromechanics with frictional fault contact. In 80 attempts on two flow problems, grounding raises the proportion of structurally valid inputs from 5/20 to 20/20, but acceptance reaches 20/20 only with complete rule-based input preparati",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "LLM Agents Generate Validated Physics Simulations from Text"
+    },
+    {
+      "id": "ca2cb32cf062a689",
+      "title": "AllotNet: an Interpretable Mixture-of-Experts Choice Model for Moral Judgement in Humanitarian Aid Allocation, Validated against a Planted Synthetic Population",
+      "url": "https://arxiv.org/abs/2611.23474",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23474v1 Announce Type: cross Abstract: Official development assistance fell by 23.1 per cent in 2025, and the decision of who is helped first when there is not enough for everyone is moving into software. A leading published machine-learning targeting system excluded 53 per cent of eligible households as deployed. If the rule of distribution ends up in code, it should carry the judgement of many cultures, and the machine should execute while a person judges. AllotNet is an interpretable mixture-of-experts conditional logit for the allocation judgements elicited by Allot, a pre-registered six-language instrument: eight linear taste experts over seven ethical criteria, weighted by a gate over participant context, with a damped residual, an encoder for household intake, an outcome head and a budget-constrained planner that builds a review queue and never rejects anyone. A model of human judgement has no answer key on real data, so we wrote one first: a planted synthetic populat",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "AI Model Guides Moral Choices in Humanitarian Aid"
+    },
+    {
+      "id": "fbfac6ab076a4b59",
+      "title": "PhysDial: Adapting Pretrained Video Models for PDE Simulation under Changing Physical Conditions",
+      "url": "https://arxiv.org/abs/2611.23498",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23498v1 Announce Type: cross Abstract: Simulating how physical systems respond to changing conditions is central to control, design, and scenario studies. To our knowledge, prior PDE foundation models have not been trained or evaluated on changes within trajectories. Our counterfactual test measures how far predictions move toward a changed solver branch from the same state. Models trained on fixed conditions follow changes only partly. A PDE foundation model given a condition input after pretraining barely responds. PhysDial adapts a pretrained video diffusion transformer to eight two-dimensional PDE families. Coefficients enter with the noise level, condition fields as reference frames, and equation text as a prompt. In Kolmogorov flow, switches within trajectories account for about 5% of the training samples. At matched compute, they halve the error after a change in forcing wavenumber or amplitude. A few trajectories at new amplitudes more than halve extrapolation error.",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Video Models Adapted for PDE Simulation"
+    },
+    {
+      "id": "44a7f650955412ed",
+      "title": "Beyond the Sink Token: Sink-Guided Key Editing in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2611.23516",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23516v1 Announce Type: cross Abstract: In vision-language models (VLMs), a few sink tokens attract a disproportionate share of attention. While previous studies have examined why these tokens attract attention, we investigate how the sink-key direction affects attention to image and question tokens. Across four probed VLMs, boosting the magnitude of positive sink-aligned components increases attention on average, whereas boosting negative components decreases it; these responses persist through later layers. This identifies the native sink key as a reference for controlling attention beyond its own position. Motivated by this finding, we propose SHRINK, a training-free method that partially reduces sink-aligned components across visible keys during generation. On nine benchmarks under sampled reasoning, it improves mean accuracy by 5.1 and 2.7 percentage points on LLaVA-OneVision-7B and Qwen2.5-VL-3B, with smaller gains on the other two main models, Qwen2.5-VL-7B and Gemma-3",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "Editing Key Tokens Improves Vision-Language Models"
+    },
+    {
+      "id": "fb0e2dce5b54ad55",
+      "title": "FutureBench: A Renewable Framework for Evaluating Knowledge-Context Conflict in LLMs",
+      "url": "https://arxiv.org/abs/2611.23601",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23601v1 Announce Type: cross Abstract: Asking a model to check retrieved text can also tell it which source to trust. We introduce FutureBench, a renewable framework for evaluating knowledge-context conflict using timestamped questions, controlled passage triplets, and no-context probes. Across 3,629 questions and six models, Verify (a prompt combining checking with passage priority) raises false-answer adoption in all five models tested on pre-cutoff events, mainly by displacing answers that were correct under Baseline, which allows both passage evidence and model knowledge. On post-cutoff events, only o4-mini increases adoption (+13.7 percentage points). A four-prompt comparison on 902 post-cutoff questions finds that passage priority without checking raises adoption, while moving to Verify lowers it in all five models. Adversarial-Aware, which warns of misleading passages and prioritizes model knowledge, restores 82.5-98.9% of displaced pre-cutoff answers with under one p",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "FutureBench Tests LLM Knowledge-Context Conflicts"
+    },
+    {
+      "id": "88d8f41bff2da328",
+      "title": "JEPA as a Transferable Optimizer: Learning and Understanding Black-Box Optimization from Reward-Agnostic Pretraining",
+      "url": "https://arxiv.org/abs/2611.23608",
+      "source": "arXiv cs.AI",
+      "summary": "arXiv:2611.23608v1 Announce Type: cross Abstract: Black-box optimization evaluates candidates through simulations, rollouts, or experiments, often without gradients. Learned optimizers are usually judged by whether they outperform existing methods. We ask a complementary question: what information does a learned optimizer use from its search history? We introduce JEPA-PS (JEPA Policy Search), based on a Joint-Embedding Predictive Architecture. It is pretrained on random rollouts using parameter vectors and scalar returns. Its latent-prediction objective predicts the next point in an optimization trajectory rather than its reward or gradient, allowing us to examine what was tried and how well it performed. At test time, JEPA-PS reads a short evaluation history and proposes a candidate in one forward pass, without task descriptions, reward shaping, or test-time gradients. We evaluate it on 15 control environments against 12 optimizers, including evolutionary methods, Bayesian optimizatio",
+      "published": "2026-11-19T05:00:00+00:00",
+      "score": 25.0,
+      "headline": "JEPA Learns Black-Box Optimization Without Rewards"
     }
   ],
-  "generated_at": "2026-11-22T13:55:55.638191"
+  "generated_at": "2026-11-22T23:05:50.753362"
 }
