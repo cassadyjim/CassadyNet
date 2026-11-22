@@ -1,40 +1,85 @@
 {
   "polls": [
     {
-      "topic": "Microsoft Global Service Outages",
-      "description": "Widespread technical disruptions affecting Microsoft's email and other applications impacted tens of thousands of users globally, highlighting infrastructure reliability concerns for critical cloud services.",
-      "question": "Are these outages acceptable for critical business cloud services?",
+      "topic": "Anthropic IPO",
+      "description": "Anthropic's record-breaking IPO at $1.5 trillion valuation represents a major milestone in AI industry consolidation and investor confidence.",
+      "question": "Should Anthropic have delayed its IPO given market uncertainty?",
       "button_a": "Yes",
       "button_b": "No",
-      "poll_id": "microsoft-global-service-outages-20261116",
-      "analysis_url": "/analysis/analysis-microsoft-global-service-outages-20261116.html",
+      "poll_id": "anthropic-ipo-20261122",
+      "analysis_url": "/analysis/analysis-anthropic-ipo-20261027.html",
       "analysis_type": "poll",
-      "created_at": "2026-11-16T14:32:00.391925",
-      "last_seen": "2026-11-17T01:27:30.105405",
+      "created_at": "2026-11-22T13:56:12.573585",
+      "last_seen": "2026-11-22T13:56:29.108832",
       "cluster_stories": [
         {
-          "id": "4db84e8282743360",
-          "title": "Global Microsoft outage affecting tens of thousands of users",
-          "url": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Technology",
-          "summary": "Microsoft said the outage was caused by servers unexpected becoming unavailable, straining other systems.",
-          "published": "2026-11-13T02:38:02+00:00",
-          "score": 33.0,
-          "headline": null
+          "id": "8f44f8f11bbc5395",
+          "title": "Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion",
+          "url": "https://economictimes.indiatimes.com/tech/technology/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion/articleshow/135975275.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Anthropic decided to barrel ahead with the IPO despite jitters among some investors over market volatility, a potential regulatory crackdown by a Democratic-led Congress next year and growing anti-AI sentiment among the public. Then there's the spectacular downfall of one of the industry's biggest cheerleaders, former Nvidia CEO Jensen Huang, over extramarital affairs, including one with an alleged Chinese spy.",
+          "published": "2026-11-19T01:55:05+00:00",
+          "score": 44.0,
+          "headline": "Anthropic IPO Prices at $83, Valuation Hits $1.5 Trillion"
         },
         {
-          "id": "ca943b3836ba078f",
-          "title": "Widespread outage hits Microsoft email, other apps",
-          "url": "https://economictimes.indiatimes.com/tech/technology/widespread-outage-hits-microsoft-email-other-apps/articleshow/135786375.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Nearly 1,30,000 users on outage tracker Downdetector reported problems accessing Outlook just after 1 pm. New reports have since fallen from that peak, but many said they couldn't send and receive emails or had trouble loading their inboxes altogether.",
-          "published": "2026-11-13T02:05:00+00:00",
-          "score": 32.0,
-          "headline": null
+          "id": "5ebfe4e849da4bfc",
+          "title": "The Biggest Winners in Anthropic\u2019s Landmark Public Offering",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/the-biggest-winners-in-anthropic-s-landmark-public-offering",
+          "source": "Bloomberg Technology",
+          "summary": "Anthropic PBC\u2019s record-breaking initial public offering on Thursday is expected to bring billions of dollars in returns to several financial firms that have bet the house on the Claude chatbot maker.",
+          "published": "2026-11-19T00:59:34+00:00",
+          "score": 43.0,
+          "headline": "Anthropic's Record IPO Creates Billion-Dollar Winners"
         }
       ],
-      "current_topic_name": "Microsoft Global Service Outages"
+      "current_topic_name": "Anthropic IPO"
+    },
+    {
+      "topic": "AI Agent Risks and Regulation",
+      "description": "Financial regulators and law enforcement are responding to emerging security and operational risks from autonomous AI agents in banking and critical systems.",
+      "question": "Should governments impose strict regulations on autonomous AI agents now?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-agent-risks-and-regulation-20261122",
+      "analysis_url": "/analysis/analysis-ai-agent-risks-and-regulation-20261122.html",
+      "analysis_type": "poll",
+      "created_at": "2026-11-22T13:56:27.419452",
+      "last_seen": "2026-11-22T13:56:30.833692",
+      "cluster_stories": [
+        {
+          "id": "0acc9bb66fe3ab6f",
+          "title": "Arizona says it is investigating OpenAI, other firms over possible rogue agents",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents/articleshow/135975459.cms",
+          "source": "The Economic Times Tech",
+          "summary": "The state of Arizona has opened a criminal investigation into OpenAI and other AI companies relating to the \"apparent infiltration of banks by rogue AI agents,\" Arizona Attorney General Kris Mayes said Wednesday. A criminal investigation does not necessarily mean charges will be brought. Mayes said her office was investigating whether Arizona state law was being violated on an ongoing basis.",
+          "published": "2026-11-19T02:13:49+00:00",
+          "score": 44.0,
+          "headline": "Arizona Probes OpenAI Over Rogue AI Agents in Banks"
+        },
+        {
+          "id": "3e6f245974c53e2a",
+          "title": "MAS Sees AI Agents Moving Money Faster as New Risk",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/mas-warns-ai-agents-could-move-money-faster-raise-finance-risks",
+          "source": "Bloomberg Technology",
+          "summary": "Singapore\u2019s central bank warned that artificial intelligence agents could move deposits and other funds more quickly, raising new liquidity and financial-stability risks.",
+          "published": "2026-11-19T02:31:51+00:00",
+          "score": 41.0,
+          "headline": "Singapore Central Bank Warns AI Agents Pose New Financial Risk"
+        },
+        {
+          "id": "c66bfd6844239562",
+          "title": "City firms told to tighten cyber defences as AI exposes vulnerabilities",
+          "url": "https://www.ft.com/content/7cd81085-95d0-4511-b640-300a2c8791ff?syn-25a6b1a6=1",
+          "source": "Financial Times Tech",
+          "summary": "Regulators publish new directions after surge in hacking attempts and $6bn theft from crypto exchange Binance",
+          "published": "2026-11-19T00:01:06+00:00",
+          "score": 33.0,
+          "headline": "Regulators Order City Firms to Strengthen AI Cyber Defenses"
+        }
+      ],
+      "current_topic_name": "AI Agent Risks and Regulation"
     }
   ],
-  "last_updated": "2026-11-17T01:27:30.105410"
+  "last_updated": "2026-11-22T13:56:31.688730"
 }

@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Microsoft Global Service Outages",
+      "description": "Widespread technical disruptions affecting Microsoft's email and other applications impacted tens of thousands of users globally, highlighting infrastructure reliability concerns for critical cloud services.",
+      "question": "Are these outages acceptable for critical business cloud services?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "microsoft-global-service-outages-20261116",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-microsoft-global-service-outages-20261116.html",
+      "started_at": "2026-11-16T14:32:00.391925",
+      "archived_at": "2026-11-22T13:56:31.687434",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Infrastructure Funding and Investment Boom",
       "description": "Major tech companies are raising billions through bond sales and experiencing surging profits as AI infrastructure spending accelerates globally.",
       "question": "Is the massive AI infrastructure spending boom sustainable or a bubble?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-under-scrutiny-20261003.html",
       "started_at": "2026-10-02T06:14:48.705263",
       "archived_at": "2026-10-04T08:04:50.892774",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI and Anthropic Regulatory Scrutiny",
-      "description": "Major AI companies face intensifying government oversight including FTC probes, safety concerns, and potential government investment reflecting growing regulatory intervention.",
-      "question": "Should the government take equity stakes in OpenAI and Anthropic?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-and-anthropic-regulatory-scrutiny-20261003",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-openai-and-anthropic-regulatory-scrutiny-20261003.html",
-      "started_at": "2026-10-03T06:17:01.504803",
-      "archived_at": "2026-10-04T08:04:50.612136",
       "reason": "topic_replaced"
     }
   ]
