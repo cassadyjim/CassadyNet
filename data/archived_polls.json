@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "AI Agent Risks and Regulation",
+      "description": "Financial regulators and law enforcement are responding to emerging security and operational risks from autonomous AI agents in banking and critical systems.",
+      "question": "Should governments impose strict regulations on autonomous AI agents now?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-agent-risks-and-regulation-20261122",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-ai-agent-risks-and-regulation-20261122.html",
+      "started_at": "2026-11-22T13:56:27.419452",
+      "archived_at": "2026-11-24T03:44:03.894533",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Microsoft Global Service Outages",
       "description": "Widespread technical disruptions affecting Microsoft's email and other applications impacted tens of thousands of users globally, highlighting infrastructure reliability concerns for critical cloud services.",
       "question": "Are these outages acceptable for critical business cloud services?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-ai-chip-smuggling-to-china-20261004.html",
       "started_at": "2026-10-04T08:04:48.215412",
       "archived_at": "2026-10-05T18:12:31.533523",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI China Espionage and Security",
-      "description": "OpenAI faces major security threats from Chinese AI companies attempting to steal reasoning models and data, alongside government website hacking incidents.",
-      "question": "Is OpenAI primarily a victim or contributor to AI security chaos?",
-      "button_a": "Victim",
-      "button_b": "Chaos",
-      "poll_id": "openai-china-espionage-and-security-20261002",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-openai-under-scrutiny-20261003.html",
-      "started_at": "2026-10-02T06:14:48.705263",
-      "archived_at": "2026-10-04T08:04:50.892774",
       "reason": "topic_replaced"
     }
   ]
