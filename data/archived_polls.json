@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Anthropic IPO",
+      "description": "Anthropic's record-breaking IPO at $1.5 trillion valuation represents a major milestone in AI industry consolidation and investor confidence.",
+      "question": "Should Anthropic have delayed its IPO given market uncertainty?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "anthropic-ipo-20261122",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-anthropic-ipo-20261027.html",
+      "started_at": "2026-11-22T13:56:12.573585",
+      "archived_at": "2026-11-25T01:51:30.407119",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "AI Agent Risks and Regulation",
       "description": "Financial regulators and law enforcement are responding to emerging security and operational risks from autonomous AI agents in banking and critical systems.",
       "question": "Should governments impose strict regulations on autonomous AI agents now?",
@@ -929,25 +948,6 @@
       "analysis_url": "/analysis/analysis-openai-crisis-and-safety-failures-20261006.html",
       "started_at": "2026-10-04T18:52:05.272493",
       "archived_at": "2026-10-07T06:14:07.031284",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "AI Chip Smuggling to China",
-      "description": "Major enforcement actions and concerns over illegal export of high-value AI chips to China despite export controls.",
-      "question": "Who's more responsible for chip smuggling: exporters or tech companies?",
-      "button_a": "Exporters",
-      "button_b": "Companies",
-      "poll_id": "ai-chip-smuggling-to-china-20261004",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-ai-chip-smuggling-to-china-20261004.html",
-      "started_at": "2026-10-04T08:04:48.215412",
-      "archived_at": "2026-10-05T18:12:31.533523",
       "reason": "topic_replaced"
     }
   ]
