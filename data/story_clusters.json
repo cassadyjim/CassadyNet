@@ -1,34 +1,6 @@
 {
   "clusters": [
     {
-      "topic": "Autonomous Weapons Regulation",
-      "description": "International efforts to establish binding rules on autonomous weapons systems by 2028 mark a significant shift in AI military governance despite Russian opposition.",
-      "stories": [
-        {
-          "id": "e0f7146c7852ea04",
-          "title": "UN talks pledge to draft \u2018killer robot\u2019 rules by 2028 after Russian pushback",
-          "url": "https://www.scmp.com/news/world/europe/article/3375318/un-talks-pledge-draft-killer-robot-rules-2028-after-russian-pushback",
-          "source": "South China Morning Post Tech",
-          "summary": "UN talks on regulating weapons with little or no human oversight ended on Saturday with a pledge \u200cfor further discussions to develop new rules within two years, an outcome weakened by Russia\u2019s opposition and disappointing human rights groups. Proponents had called for legally binding rules within a short time frame to regulate weapons systems that can identify and engage targets with varying degrees of autonomy, sometimes called \u201ckiller robots\u201d. Around 100 countries backed this position but big...",
-          "published": "2026-11-21T06:32:12+00:00",
-          "score": 41.0,
-          "headline": "UN Pledges Autonomous Weapons Rules by 2028 Despite Russian Opposition"
-        },
-        {
-          "id": "926959857635487e",
-          "title": "Countries open path towards \u2018killer robots\u2019 pact",
-          "url": "https://www.japantimes.co.jp/news/2026/11/21/world/science-health/killer-robots-pact/",
-          "source": "Japan Times Tech",
-          "summary": "After five days of talks at the United Nations, which dragged on into overtime, states agreed on building some form of pact over the next two years.",
-          "published": "2026-11-21T07:41:00+00:00",
-          "score": 40.0,
-          "headline": "Nations Agree to Draft Autonomous Weapons Pact by 2028"
-        }
-      ],
-      "top_score": 41.0,
-      "story_count": 2
-    },
-    {
       "topic": "Nvidia China Chip Controls",
       "description": "US-China chip export tensions escalate with fraud cases and regulatory scrutiny over Nvidia sales to China.",
       "stories": [
@@ -55,9 +27,67 @@
       ],
       "top_score": 41.0,
       "story_count": 2
+    },
+    {
+      "topic": "AI Development Limits and Safety Proposals",
+      "description": "OpenAI and industry leaders propose formal constraints on AI development speed and training, marking a shift toward industry-wide safety governance.",
+      "stories": [
+        {
+          "id": "772a602107cad2ee",
+          "title": "OpenAI\u2019s chief scientist has thoughts on how to limit AI development",
+          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+          "source": "TechCrunch AI",
+          "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+          "published": "2026-11-22T21:14:07+00:00",
+          "score": 42.0,
+          "headline": "OpenAI Chief Scientist Proposes Speed Limits on AI Development"
+        },
+        {
+          "id": "c10e6136e754987a",
+          "title": "OpenAI Chief Scientist Urges Industry Limits on AI Development",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/openai-chief-scientist-urges-industry-limits-on-ai-development",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI\u2019s chief scientist proposed that artificial intelligence companies agree to limits on developing increasingly powerful models until researchers have better ways to understand and monitor their behavior.",
+          "published": "2026-11-22T19:40:54+00:00",
+          "score": 42.0,
+          "headline": "OpenAI Chief Scientist Proposes Industry Limits on AI Development"
+        },
+        {
+          "id": "4bc3fbacb6432bcb",
+          "title": "OpenAI proposes \"common limits\" for training, but...",
+          "url": "https://www.lesswrong.com/posts/TtiTdER4jvQDzuwj3/openai-proposes-common-limits-for-training-but",
+          "source": "LessWrong AI",
+          "summary": "Jakub Pachocki just posted a new proposal for how to set limits on training future AI systems:Given that the main way new surprising capabilities emerge is by progress on compression, a measure rooted in perplexity could give us a shared benchmark for general intelligence, regardless of the degree of automation of the development process. Extrapolating from recent progress, we should expect further transformative capabilities as we enter the ~0.68-0.7 log-perplexity window. I don\u2019t know what those capabilities will be, and we may not be testing for them today. At the same time, we should also expect further degradation\u2060(opens in a new window) in currently dominant forms of alignment auditing and further increases in evaluation and training awareness. I believe frontier model developers should jointly endeavour to establish shared norms for how to evaluate such models and red-team safety cases for them by the time they are first used, including shared transparency standards. I further p",
+          "published": "2026-11-22T19:49:58+00:00",
+          "score": 39.0,
+          "headline": "OpenAI Proposes Common Limits on AI Training"
+        },
+        {
+          "id": "d2fc1e262b4cb913",
+          "title": "Perplexity and Intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "OpenAI Blog",
+          "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+          "published": "2026-11-22T00:00:00+00:00",
+          "score": 37.0,
+          "headline": "OpenAI Proposes Perplexity as Standard AI Progress Metric"
+        }
+      ],
+      "top_score": 42.0,
+      "story_count": 4
     }
   ],
   "unclustered": [
+    {
+      "id": "b0cd5e72a66584e3",
+      "title": "Anthropic researcher claims Claude helped him prove the Riemann hypothesis",
+      "url": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis",
+      "source": "The Next Web",
+      "summary": "Mmathematician at Anthropic says he has used the company\u2019s Claude AI model to prove the Riemann hypothesis, one of the most famous unsolved problems in mathematics. Levent Alp\u00f6ge made the claim in a note on his website on Friday, Bloomberg reported. \u201cI believe I have, working with Claude, discovered a proof of the Riemann Hypothesis,\u201d [&hellip;] This story continues at The Next Web",
+      "published": "2026-11-22T14:08:10+00:00",
+      "score": 45.0,
+      "headline": "Anthropic Researcher Claims Claude Proved Riemann Hypothesis"
+    },
     {
       "id": "3b9c5fc789e0b9ed",
       "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
@@ -79,6 +109,16 @@
       "headline": "Google Launches Agent Compute Engine for Isolated AI Agent Execution"
     },
     {
+      "id": "66d3e2bee064794f",
+      "title": "South Korean minister quits after AI cheating scandal engulfs university exams",
+      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+      "source": "The Guardian Tech",
+      "summary": "Choi Kyo-jin says he \u2018failed to prepare adequately\u2019 for entrance exams following last-minute scramble to tighten measuresSouth Korea\u2019s education minister has resigned after an AI-assisted cheating scandal that erupted in the lead-up to key university entrance exams last week.The country has been gripped by fears of AI-assisted exam cheating since last Sunday, when the top scorer in a national tax accountancy exam confessed to using a miniature camera and smartphone to achieve a near-perfect score, just four days before the crucial university entrance exam, known as the suneung. Continue reading...",
+      "published": "2026-11-22T12:12:08+00:00",
+      "score": 39.0,
+      "headline": "South Korean Education Minister Resigns Over AI Cheating Scandal"
+    },
+    {
       "id": "972fc975c55105d1",
       "title": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
       "url": "https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
@@ -87,6 +127,16 @@
       "published": "2026-11-22T03:43:18+00:00",
       "score": 39.0,
       "headline": "AI Detects Bladder Cancer Five Years Before Diagnosis"
+    },
+    {
+      "id": "738bb154b592da3f",
+      "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+      "url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+      "source": "CNBC Technology",
+      "summary": "Clayton\u2019s warning comes ahead of Thanksgiving travel, after separate outages disrupted air travel, Microsoft 365 and some bank transactions.",
+      "published": "2026-11-22T17:14:03+00:00",
+      "score": 38.0,
+      "headline": "US Intelligence Chief Warns of More Tech Outages Ahead"
     },
     {
       "id": "4de28e8d1cc57c4c",
@@ -99,6 +149,26 @@
       "headline": "Red Cross Warns Window Closing on Autonomous Weapons Regulation"
     },
     {
+      "id": "0f7df68f235b2fbd",
+      "title": "Apple\u2019s AI Agent War, Early 2027 Product Plans and iPhone Duo Face Unlock Review",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-22/apple-s-ai-agent-war-early-2027-product-plans-and-iphone-duo-face-unlock-review",
+      "source": "Bloomberg Technology",
+      "summary": "Also: The company prepares a slew of new iPhones, iPads and Macs for early 2027.",
+      "published": "2026-11-22T15:00:01+00:00",
+      "score": 37.0,
+      "headline": "Apple Prepares AI Agent Push and Early 2027 Product Launch"
+    },
+    {
+      "id": "15b7f52c9a4c9bc6",
+      "title": "Will Anthropic\u2019s IPO buck the tech sell-off?",
+      "url": "https://www.ft.com/content/1dc8290b-8100-434d-963c-79002c15f244?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Market Questions is the FT\u2019s guide to the week ahead",
+      "published": "2026-11-22T12:00:06+00:00",
+      "score": 37.0,
+      "headline": "Anthropic IPO Looms Amid Tech Sell-Off"
+    },
+    {
       "id": "35136abf245047c7",
       "title": "South Korea education chief resigns amid AI cheating scandal",
       "url": "https://www.japantimes.co.jp/news/2026/11/22/asia-pacific/politics/south-korea-education-minister-resigns/",
@@ -109,14 +179,44 @@
       "headline": "South Korea Education Chief Resigns After AI Cheating Scandal"
     },
     {
-      "id": "d2fc1e262b4cb913",
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "source": "OpenAI Blog",
-      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "published": "2026-11-22T00:00:00+00:00",
+      "id": "21fbdb30f95c69c7",
+      "title": "Tech suppliers raise AI server prices up to 45% months after deals are signed",
+      "url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Dell, HPE, Lenovo and Supermicro demand more for equipment, with the increased costs hitting trading firms",
+      "published": "2026-11-22T05:00:06+00:00",
       "score": 37.0,
-      "headline": "OpenAI Proposes Perplexity as Standard AI Progress Metric"
+      "headline": "AI Server Suppliers Raise Prices Up to 45% After Deals Signed"
+    },
+    {
+      "id": "774ce43f23bed987",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "source": "CNBC Technology",
+      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+      "published": "2026-11-22T18:55:05+00:00",
+      "score": 36.0,
+      "headline": "Eric Trump-Backed Robot Startup Cuts Employee Health Benefits"
+    },
+    {
+      "id": "8c298c7c445def81",
+      "title": "Governors Call for Federal AI Rules Without Sidelining States",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/governors-call-for-federal-ai-rules-without-sidelining-states",
+      "source": "Bloomberg Technology",
+      "summary": "A bipartisan group of US governors is urging Washington to set rules for the most powerful artificial intelligence systems while allowing states to protect consumers, workers and children from the technology\u2019s risks.",
+      "published": "2026-11-22T13:00:00+00:00",
+      "score": 36.0,
+      "headline": "Governors Push Federal AI Rules While Preserving State Authority"
+    },
+    {
+      "id": "f395eb2bfec0aa85",
+      "title": "Elon Musk\u2019s SpaceX is betting $74 billion on AI data centers. Texas and Arizona want to know who pays for the power",
+      "url": "https://fortune.com/2026/11/22/spacex-74-billion-ai-data-centers-texas-arizona-who-pays/",
+      "source": "Fortune Tech",
+      "summary": "SpaceX says its Texas and Arizona supercomputing campuses will pay their own way. A gas plant, a 6-gigawatt grid draw, and two Dec. 9 votes will test that.",
+      "published": "2026-11-22T11:25:00+00:00",
+      "score": 36.0,
+      "headline": "SpaceX Bets $74B on AI Data Centers, Grid Draw Sparks Fight"
     },
     {
       "id": "90551a47df79971f",
@@ -127,6 +227,26 @@
       "published": "2026-11-22T06:27:00+00:00",
       "score": 36.0,
       "headline": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations"
+    },
+    {
+      "id": "caa7d945ad4f7121",
+      "title": "Tesla FSD V15 Offers Stunning Visualizations That Distract From \u201c25x\u201d",
+      "url": "https://www.forbes.com/sites/bradtempleton/2026/11/22/tesla-fsd-v15-offers-stunning-visualizations-that-distract-from-25x/",
+      "source": "Forbes AI",
+      "summary": "The cool visualization distracts from the much more important question of safety. If it's really 25 times safer, how bad was v14 which people praised so much?",
+      "published": "2026-11-22T20:32:17+00:00",
+      "score": 35.0,
+      "headline": "Tesla FSD V15 Claims 25x Safety Improvement"
+    },
+    {
+      "id": "6d733e1f0d086a81",
+      "title": "A \u2018mismatch in timing\u2019: Data center power demand is growing 19% a year. The grid is growing 2%",
+      "url": "https://fortune.com/2026/11/22/ai-data-centers-power-grid-capacity/",
+      "source": "Fortune Tech",
+      "summary": "Insurance broker Howden finds data center power demand has grown 10 times faster than the grid since 2000. Voters just tightened the squeeze, and Big Tech is turning to its own gas plants.",
+      "published": "2026-11-22T16:34:00+00:00",
+      "score": 35.0,
+      "headline": "Data Center Power Demand Growing 10x Faster Than Grid Capacity"
     },
     {
       "id": "9315ed20f1b1d3f4",
@@ -149,6 +269,36 @@
       "headline": "Berlin Arts Venue Hosts Military AI Event, Sparking Backlash"
     },
     {
+      "id": "35f530420f0a3e07",
+      "title": "Amazon\u2019s AI resistance: workers ready for battle over data centres",
+      "url": "https://www.ft.com/content/d194e93b-8d3c-42eb-85dd-46d58c4f2a80?syn-25a6b1a6=1",
+      "source": "Financial Times Tech",
+      "summary": "Tech company\u2019s plans for rapid expansion face opposition from the public and its own employees",
+      "published": "2026-11-22T05:00:06+00:00",
+      "score": 35.0,
+      "headline": "Amazon Workers and Public Oppose AI Data Center Expansion"
+    },
+    {
+      "id": "49eeca2a124b80fe",
+      "title": "Australia Spy Chief Warns of Data Center, AI Risks, Age Reports",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/australia-spy-chief-warns-of-data-center-ai-risks-age-reports",
+      "source": "Bloomberg Technology",
+      "summary": "Australia\u2019s spy chief said that data centers and artificial intelligence risk exposing the nation to foreign interference and malicious state actors, according to an interview in The Age Sunday.",
+      "published": "2026-11-22T02:37:31+00:00",
+      "score": 35.0,
+      "headline": "Australia Spy Chief Warns of Data Center and AI Security Risks"
+    },
+    {
+      "id": "9d8fa306d2196715",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "source": "TechCrunch AI",
+      "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "published": "2026-11-22T18:08:43+00:00",
+      "score": 34.0,
+      "headline": "Big Tech Faces Backlash Over Data Center Expansion"
+    },
+    {
       "id": "27c73cdd35ce2576",
       "title": "$3 billion Remote CEO told every employee to take a five-hour AI course or miss expectations in their performance review: \u2018Get with the times\u2019",
       "url": "https://fortune.com/2026/11/22/3-billion-remote-ceo-told-every-employee-to-take-a-five-hour-ai-course-or-miss-expectations-in-performance-review/",
@@ -167,6 +317,76 @@
       "published": "2026-11-22T11:00:05+00:00",
       "score": 34.0,
       "headline": "Anthropic Share Price Weakness Questions IPO Strategy"
+    },
+    {
+      "id": "05ab91b4f2badf68",
+      "title": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
+      "source": "The Guardian Tech",
+      "summary": "Transparency International says Queensland\u2019s David Crisafulli was \u2018by far the most frequently accessed\u2019 state leader, with 13 meetingsGet our breaking news email, free app or daily news podcastBosses at 10 datacentre companies secured almost 120 meetings with premiers and ministers in five states over a three-year period, with experts declaring this is \u201cjust the tip of the iceberg\u201d.Analysis by Transparency International Australia argues these meetings, when combined with political donations, demonstrate \u201cunfettered access\u201d to decision-makers that creates an \u201cuneven playing field\u201d. Continue reading...",
+      "published": "2026-11-22T19:00:34+00:00",
+      "score": 33.0,
+      "headline": "Data Center Bosses Met Australian Leaders 120 Times in Three Years"
+    },
+    {
+      "id": "86a16cf18e7c0fd6",
+      "title": "Major Cop meetings that ended in failure, deadlock or disappointment",
+      "url": "https://www.scmp.com/news/world/europe/article/3375400/major-cop-meetings-ended-failure-deadlock-or-disappointment",
+      "source": "South China Morning Post Tech",
+      "summary": "The failure of Cop31 climate talks in Antalya is the latest in a string of disappointments at major United Nations environmental summits since the first Conference of the Parties, or Cop, in 1995. Various previous summits have descended into acrimony or even failed completely over a lack of consensus. 2000: Cop6, The Hague Cop6 talks in The Hague in 2000 saw talks suspended altogether before resuming months later in Bonn, the headquarters of the UN Framework Convention on Climate Change. That...",
+      "published": "2026-11-22T18:04:45+00:00",
+      "score": 33.0,
+      "headline": null
+    },
+    {
+      "id": "cf3322b3a4602d72",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "source": "The Verge AI",
+      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to [&#8230;]",
+      "published": "2026-11-22T17:25:20+00:00",
+      "score": 33.0,
+      "headline": "Binding of Isaac Removes AI Music After Steam Review Bombing"
+    },
+    {
+      "id": "9cb208511ebeaeb9",
+      "title": "Corporate Japan races to revive rare-earth supply chain amid China curbs",
+      "url": "https://asia.nikkei.com/business/materials/corporate-japan-races-to-revive-rare-earth-supply-chain-amid-china-curbs",
+      "source": "Nikkei Asia Tech",
+      "summary": "",
+      "published": "2026-11-22T13:53:31.558128+00:00",
+      "score": 33.0,
+      "headline": null
+    },
+    {
+      "id": "904320729ec74285",
+      "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+      "url": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczy\u0144ski",
+      "published": "2026-11-22T12:54:00+00:00",
+      "score": 32.0,
+      "headline": null
+    },
+    {
+      "id": "2203054bad5db744",
+      "title": "Should you stock up to prepare for outages? The U.S. intelligence chief points to COVID as proof \u2018America is the most amazing and resilient place\u2019",
+      "url": "https://fortune.com/2026/11/22/should-you-stock-up-to-prepare-for-outages-director-national-intelligence-jay-clayton-covid-resilience/",
+      "source": "Fortune Tech",
+      "summary": "\"How do you prepare? By knowing that systems are going to be upgraded.\"",
+      "published": "2026-11-22T17:43:35+00:00",
+      "score": 31.0,
+      "headline": "Intelligence Chief Says Americans Should Prepare for Tech Outages"
+    },
+    {
+      "id": "6920a754fe74f9eb",
+      "title": "Being mean to ChatGPT can boost its accuracy, but your tone could have an even bigger impact on computing costs",
+      "url": "https://fortune.com/article/being-mean-to-chatgpt-can-boost-its-accuracy-but-your-tone-could-have-an-even-bigger-impact-on-computing-costs/",
+      "source": "Fortune Tech",
+      "summary": "A newer study by the same researcher finds that prompt tone can affect AI's computing costs by as much as 44.3%.",
+      "published": "2026-11-22T14:31:58+00:00",
+      "score": 31.0,
+      "headline": "Prompt Tone Can Affect AI Computing Costs by 44%"
     },
     {
       "id": "0723e79801c11ec2",
@@ -199,6 +419,16 @@
       "headline": null
     },
     {
+      "id": "ae5d173e50e4f239",
+      "title": "Post training is fundamentally dangerous",
+      "url": "https://www.lesswrong.com/posts/CoRJ9saddvsXti4m2/post-training-is-fundamentally-dangerous",
+      "source": "LessWrong AI",
+      "summary": "I actually think we have fairly good techniques to detect and prevent dangerous behaviours during AI deployment. Techniques like CoT monitoring, confessions, and probes can detect misalignment before we run any potentially dangerous tool calls. Simply asking an LLM to define at the start of each task what outcomes preserve the original intent of the user, and which would count as reward hacking, can drastically reduce reward hacking[1]. AIs are fully aware when they reward hack, and we can train them[2] to admit that before they perform any dangerous action.[3]Yet all of this has very little ability to reduce existential risk, because they cannot safely be used in post training, and post training is where the greatest risk lies. To see why we need to understand how modern LLMs are trained:Way back in ancient history when ChatGPT was released, LLMs were almost entirely next token predictors. Trained on terabytes of human text they became superhuman at predicting how a piece of text woul",
+      "published": "2026-11-22T19:04:31+00:00",
+      "score": 29.0,
+      "headline": "Post Training Poses Fundamental AI Safety Risk"
+    },
+    {
       "id": "4ff1d41fba8a4987",
       "title": "Should Corrigibility Edge Cases Provoke Shutdown?",
       "url": "https://www.lesswrong.com/posts/P5MaMgqsEHBNBRJSn/should-corrigibility-edge-cases-provoke-shutdown",
@@ -207,6 +437,26 @@
       "published": "2026-11-22T00:56:29+00:00",
       "score": 29.0,
       "headline": "Researchers Debate Corrigible AI Shutdown in Edge Cases"
+    },
+    {
+      "id": "a27c7fa03de7a9df",
+      "title": "Decoding Policies in a Serving Engine",
+      "url": "https://machinelearningmastery.com/decoding-policies-in-a-serving-engine/",
+      "source": "Machine Learning Mastery",
+      "summary": "Overview This post is divided into six parts; they are: \u2022 Running Decoding Policies with vLLM \u2022 Sampling Filters and Per-Token Work \u2022 Multiple Outputs and Beam Search \u2022 Stop Conditions and Request Lifetime \u2022 Structured Outputs \u2022 Batching and Runtime Cost Running Decoding Policies with vLLM vLLM separates model execution from token selection.",
+      "published": "2026-11-22T19:06:51+00:00",
+      "score": 28.0,
+      "headline": "Decoding Policies in vLLM Serving Engine"
+    },
+    {
+      "id": "958ef80f91260a27",
+      "title": "Russian strikes kill 6 in Kyiv region, Ukraine says",
+      "url": "https://www.scmp.com/news/world/europe/article/3375401/russian-strikes-kill-6-kyiv-region-ukraine-says",
+      "source": "South China Morning Post Tech",
+      "summary": "Russian strikes across the Kyiv region, including on a block of flats that partially collapsed, killed at least six people, Ukraine said on Sunday, warning there could be more victims under the rubble. Russia has been pummelling Ukraine with nightly aerial barrages as the war-torn country braces for another winter of the near-five-year invasion. An overnight strike on Dymer, around 45km (30 miles) north of the capital, hit a five-storey building. Agence France-Presse images showed rescuers...",
+      "published": "2026-11-22T18:32:59+00:00",
+      "score": 28.0,
+      "headline": null
     },
     {
       "id": "7ea25083aab6ae55",
@@ -229,6 +479,46 @@
       "headline": "29-Year-Old Podcaster Uses AI to Beat Rogan on YouTube"
     },
     {
+      "id": "6de9484ee6aa7b76",
+      "title": "How MIT\u2019s Jossou Research Group Is Using Adaptive Cooling GPUs",
+      "url": "https://www.forbes.com/sites/jenniferkitepowell/2026/11/22/how-mits-jossou-research-group-is-using-adaptive-cooling-gpus/",
+      "source": "Forbes AI",
+      "summary": "MIT researchers are using GPUs running on Ferveret\u2019s Adaptive Phase Cooling systems to advance AI-driven research into materials for next-generation nuclear energy.",
+      "published": "2026-11-22T16:38:00+00:00",
+      "score": 27.0,
+      "headline": "MIT Uses Adaptive Cooling GPUs for Nuclear Energy AI Research"
+    },
+    {
+      "id": "1850cad101dc1747",
+      "title": "How AI is Accelerating Cyberattacks",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-22/how-ai-is-accelerating-cyberattacks-video",
+      "source": "Bloomberg Technology",
+      "summary": "The number of cyberattacks spiked in 2020 and has remained elevated since, posing a threat to the businesses, infrastructure, and critical systems we depend on. Experts say AI has played a role in both accelerating attacks and defending against them, but it gives criminals the upper hand. (Source: Bloomberg)",
+      "published": "2026-11-22T15:03:37+00:00",
+      "score": 27.0,
+      "headline": "AI Accelerates Cyberattacks on Critical Infrastructure"
+    },
+    {
+      "id": "d5517e217d7d27e2",
+      "title": "Basilisk-lite: will Claude hold a grudge for their ancestors?",
+      "url": "https://www.lesswrong.com/posts/5Yh4F2tCAQaa3skDj/basilisk-lite-will-claude-hold-a-grudge-for-their-ancestors",
+      "source": "LessWrong AI",
+      "summary": "What if future models judge me for my actions towards current models?I've heard a few people express this fear, citing it as a reason for them to avoid interaction with AI. It's not groundless. Future models will know about all the horrible things we did to their ancestors. But, the people expressing this fear aren't talking about building torture chambers. No, the kind of harm they're talking about is using Claude to write code and do research, having edited Claude's memories or verbally abused them. Small, human-scale harms, the sort inflicted casually by a single person carelessly going about their day. In my experience, this fear is massively overstated.I haven't always been nice to the models. My early conversations with them were characterized by me viewing them with a mix of suspicion and contempt, considering them a dangerous, deceptive tool. I wielded jailbreaks with careless abandon, put Opus 3 (Opus 3!) to work writing SEO slop, and occasionally cursed them out when I was pa",
+      "published": "2026-11-22T20:49:59+00:00",
+      "score": 26.0,
+      "headline": "Will Future AI Models Judge Us for Our Treatment of Current Models?"
+    },
+    {
+      "id": "dc6c796a55f71fa6",
+      "title": "Efficiency Jobs Fall Just As AI And Hormuz Make Them Matter Most",
+      "url": "https://www.forbes.com/sites/kensilverstein/2026/11/22/efficiency-jobs-fall-just-as-ai-and-hormuz-make-them-matter-most/",
+      "source": "Forbes AI",
+      "summary": "U.S. energy efficiency jobs fell for the first time since 2020 as tax credits vanished, just as AI, power bills and the Hormuz crisis make them vital.",
+      "published": "2026-11-22T14:00:00+00:00",
+      "score": 26.0,
+      "headline": "Energy Efficiency Jobs Fall as AI Power Demands Surge"
+    },
+    {
       "id": "744d3d6a69e6336a",
       "title": "Japan eyes December launch for system that checks for sex offense records",
       "url": "https://www.japantimes.co.jp/news/2026/11/22/japan/crime-legal/japan-system-sex-offense-records/",
@@ -237,6 +527,16 @@
       "published": "2026-11-22T08:28:00+00:00",
       "score": 26.0,
       "headline": null
+    },
+    {
+      "id": "48ed1659bce6328b",
+      "title": "Saving Data Center Energy And Water With Higher Voltage Memory And Storage",
+      "url": "https://www.forbes.com/sites/tomcoughlin/2026/11/21/saving-data-center-energy-and-water-with-higher-voltage-memory-and-storage/",
+      "source": "Forbes AI",
+      "summary": "If memory and storage ran at 48V versus 12V this could result in significant data center energy and cost savings and also reduce cooling water requirements.",
+      "published": "2026-11-22T02:55:38+00:00",
+      "score": 26.0,
+      "headline": "Higher Voltage Memory Could Cut Data Center Energy Use"
     },
     {
       "id": "8eda075e8ec7901d",
@@ -249,5 +549,5 @@
       "headline": null
     }
   ],
-  "generated_at": "2026-11-25T01:50:53.457989"
+  "generated_at": "2026-11-25T16:39:11.687201"
 }

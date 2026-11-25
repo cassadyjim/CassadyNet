@@ -1,6 +1,25 @@
 {
   "polls": [
     {
+      "topic": "Autonomous Weapons Regulation",
+      "description": "International efforts to establish binding rules on autonomous weapons systems by 2028 mark a significant shift in AI military governance despite Russian opposition.",
+      "question": "Can binding autonomous weapons rules be achieved by 2028?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "autonomous-weapons-regulation-20261124",
+      "results": {
+        "pro": 0,
+        "con": 0,
+        "total": 0,
+        "pro_percent": 50,
+        "con_percent": 50
+      },
+      "analysis_url": "/analysis/analysis-autonomous-weapons-regulation-20261124.html",
+      "started_at": "2026-11-24T03:44:00.773527",
+      "archived_at": "2026-11-25T16:39:48.756077",
+      "reason": "topic_replaced"
+    },
+    {
       "topic": "Anthropic IPO",
       "description": "Anthropic's record-breaking IPO at $1.5 trillion valuation represents a major milestone in AI industry consolidation and investor confidence.",
       "question": "Should Anthropic have delayed its IPO given market uncertainty?",
@@ -929,25 +948,6 @@
       "analysis_url": "",
       "started_at": "2026-10-05T18:12:30.960718",
       "archived_at": "2026-10-07T06:14:07.478282",
-      "reason": "topic_replaced"
-    },
-    {
-      "topic": "OpenAI Crisis & Safety Concerns",
-      "description": "OpenAI faces multiple serious challenges including security breaches, leadership resignations over broken safety culture, and regulatory investigations that threaten its operations and credibility.",
-      "question": "Should AI companies face nuclear-level regulation after OpenAI's failures?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "openai-crisis-safety-concerns-20261004",
-      "results": {
-        "pro": 0,
-        "con": 0,
-        "total": 0,
-        "pro_percent": 50,
-        "con_percent": 50
-      },
-      "analysis_url": "/analysis/analysis-openai-crisis-and-safety-failures-20261006.html",
-      "started_at": "2026-10-04T18:52:05.272493",
-      "archived_at": "2026-10-07T06:14:07.031284",
       "reason": "topic_replaced"
     }
   ]

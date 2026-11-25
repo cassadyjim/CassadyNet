@@ -1,51 +1,16 @@
 {
   "polls": [
     {
-      "topic": "Autonomous Weapons Regulation",
-      "description": "International efforts to establish binding rules on autonomous weapons systems by 2028 mark a significant shift in AI military governance despite Russian opposition.",
-      "question": "Can binding autonomous weapons rules be achieved by 2028?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "autonomous-weapons-regulation-20261124",
-      "analysis_url": "/analysis/analysis-autonomous-weapons-regulation-20261124.html",
-      "analysis_type": "poll",
-      "created_at": "2026-11-24T03:44:00.773527",
-      "last_seen": "2026-11-25T01:51:27.861593",
-      "cluster_stories": [
-        {
-          "id": "e0f7146c7852ea04",
-          "title": "UN talks pledge to draft \u2018killer robot\u2019 rules by 2028 after Russian pushback",
-          "url": "https://www.scmp.com/news/world/europe/article/3375318/un-talks-pledge-draft-killer-robot-rules-2028-after-russian-pushback",
-          "source": "South China Morning Post Tech",
-          "summary": "UN talks on regulating weapons with little or no human oversight ended on Saturday with a pledge \u200cfor further discussions to develop new rules within two years, an outcome weakened by Russia\u2019s opposition and disappointing human rights groups. Proponents had called for legally binding rules within a short time frame to regulate weapons systems that can identify and engage targets with varying degrees of autonomy, sometimes called \u201ckiller robots\u201d. Around 100 countries backed this position but big...",
-          "published": "2026-11-21T06:32:12+00:00",
-          "score": 41.0,
-          "headline": "UN Pledges Autonomous Weapons Rules by 2028 Despite Russian Opposition"
-        },
-        {
-          "id": "926959857635487e",
-          "title": "Countries open path towards \u2018killer robots\u2019 pact",
-          "url": "https://www.japantimes.co.jp/news/2026/11/21/world/science-health/killer-robots-pact/",
-          "source": "Japan Times Tech",
-          "summary": "After five days of talks at the United Nations, which dragged on into overtime, states agreed on building some form of pact over the next two years.",
-          "published": "2026-11-21T07:41:00+00:00",
-          "score": 40.0,
-          "headline": "Nations Agree to Draft Autonomous Weapons Pact by 2028"
-        }
-      ],
-      "current_topic_name": "Autonomous Weapons Regulation"
-    },
-    {
       "topic": "Nvidia China Chip Controls",
       "description": "US-China chip export tensions escalate with fraud cases and regulatory scrutiny over Nvidia sales to China.",
       "question": "Are current US chip export controls on China strict enough?",
-      "button_a": "Too Weak",
-      "button_b": "Sufficient",
+      "button_a": "Yes",
+      "button_b": "No",
       "poll_id": "nvidia-china-chip-controls-20261125",
       "analysis_url": "/analysis/analysis-nvidia-china-chip-controls-20261125.html",
       "analysis_type": "poll",
       "created_at": "2026-11-25T01:51:26.881312",
-      "last_seen": "2026-11-25T01:51:29.927382",
+      "last_seen": "2026-11-25T16:39:46.686903",
       "cluster_stories": [
         {
           "id": "062441f51cb74a12",
@@ -69,7 +34,62 @@
         }
       ],
       "current_topic_name": "Nvidia China Chip Controls"
+    },
+    {
+      "topic": "AI Development Limits and Safety Proposals",
+      "description": "OpenAI and industry leaders propose formal constraints on AI development speed and training, marking a shift toward industry-wide safety governance.",
+      "question": "Should AI companies adopt formal speed limits on model development?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "ai-development-limits-and-safety-proposals-20261125",
+      "analysis_url": "/analysis/analysis-ai-development-limits-and-safety-proposals-20261125.html",
+      "analysis_type": "poll",
+      "created_at": "2026-11-25T16:39:44.913303",
+      "last_seen": "2026-11-25T16:39:48.131838",
+      "cluster_stories": [
+        {
+          "id": "772a602107cad2ee",
+          "title": "OpenAI\u2019s chief scientist has thoughts on how to limit AI development",
+          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+          "source": "TechCrunch AI",
+          "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+          "published": "2026-11-22T21:14:07+00:00",
+          "score": 42.0,
+          "headline": "OpenAI Chief Scientist Proposes Speed Limits on AI Development"
+        },
+        {
+          "id": "c10e6136e754987a",
+          "title": "OpenAI Chief Scientist Urges Industry Limits on AI Development",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/openai-chief-scientist-urges-industry-limits-on-ai-development",
+          "source": "Bloomberg Technology",
+          "summary": "OpenAI\u2019s chief scientist proposed that artificial intelligence companies agree to limits on developing increasingly powerful models until researchers have better ways to understand and monitor their behavior.",
+          "published": "2026-11-22T19:40:54+00:00",
+          "score": 42.0,
+          "headline": "OpenAI Chief Scientist Proposes Industry Limits on AI Development"
+        },
+        {
+          "id": "4bc3fbacb6432bcb",
+          "title": "OpenAI proposes \"common limits\" for training, but...",
+          "url": "https://www.lesswrong.com/posts/TtiTdER4jvQDzuwj3/openai-proposes-common-limits-for-training-but",
+          "source": "LessWrong AI",
+          "summary": "Jakub Pachocki just posted a new proposal for how to set limits on training future AI systems:Given that the main way new surprising capabilities emerge is by progress on compression, a measure rooted in perplexity could give us a shared benchmark for general intelligence, regardless of the degree of automation of the development process. Extrapolating from recent progress, we should expect further transformative capabilities as we enter the ~0.68-0.7 log-perplexity window. I don\u2019t know what those capabilities will be, and we may not be testing for them today. At the same time, we should also expect further degradation\u2060(opens in a new window) in currently dominant forms of alignment auditing and further increases in evaluation and training awareness. I believe frontier model developers should jointly endeavour to establish shared norms for how to evaluate such models and red-team safety cases for them by the time they are first used, including shared transparency standards. I further p",
+          "published": "2026-11-22T19:49:58+00:00",
+          "score": 39.0,
+          "headline": "OpenAI Proposes Common Limits on AI Training"
+        },
+        {
+          "id": "d2fc1e262b4cb913",
+          "title": "Perplexity and Intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "OpenAI Blog",
+          "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+          "published": "2026-11-22T00:00:00+00:00",
+          "score": 37.0,
+          "headline": "OpenAI Proposes Perplexity as Standard AI Progress Metric"
+        }
+      ],
+      "current_topic_name": "AI Development Limits and Safety Proposals"
     }
   ],
-  "last_updated": "2026-11-25T01:51:30.408580"
+  "last_updated": "2026-11-25T16:39:48.757264"
 }
