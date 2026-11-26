@@ -1,41 +1,6 @@
 {
   "polls": [
     {
-      "topic": "Nvidia China Chip Controls",
-      "description": "US-China chip export tensions escalate with fraud cases and regulatory scrutiny over Nvidia sales to China.",
-      "question": "Are current US chip export controls on China strict enough?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "nvidia-china-chip-controls-20261125",
-      "analysis_url": "/analysis/analysis-nvidia-china-chip-controls-20261125.html",
-      "analysis_type": "poll",
-      "created_at": "2026-11-25T01:51:26.881312",
-      "last_seen": "2026-11-26T01:27:47.504163",
-      "cluster_stories": [
-        {
-          "id": "062441f51cb74a12",
-          "title": "Howard Lutnick has been Trump\u2019s ally for decades. His ties to Nvidia may spell his downfall",
-          "url": "https://www.theguardian.com/us-news/2026/nov/22/howard-lutnick-nvidia-china",
-          "source": "The Guardian Tech",
-          "summary": "Billionaire commerce secretary faces scrutiny after sex scandal reveals his role in sales of chips to ChinaHoward Lutnick, the beleaguered US commerce secretary and close ally of Donald Trump, is emerging as Democrats\u2019 prime target when the party takes control of Congress in January.Lutnick is resisting calls to resign amid a bipartisan outcry over his role in the scandal at artificial intelligence (AI) company Nvidia and the sale of microchips to China, the US\u2019s principal geopolitical rival in the race for AI supremacy. Continue reading...",
-          "published": "2026-11-22T11:00:26+00:00",
-          "score": 41.0,
-          "headline": "Trump Commerce Chief Faces Scrutiny Over Nvidia-China Chip Sales"
-        },
-        {
-          "id": "1ede1f2e59eb9862",
-          "title": "Chinese national Li Ming charged in fraud case in Singapore linked to Megaspeed and Alice Huang: Report",
-          "url": "https://economictimes.indiatimes.com/tech/technology/chinese-national-li-ming-charged-in-fraud-case-in-singapore-linked-to-megaspeed-and-alice-huang-report/articleshow/136073178.cms",
-          "source": "The Economic Times Tech",
-          "summary": "Li Ming, a Chinese national, is facing fraud charges in Singapore regarding alleged transshipment of Nvidia chips. He was involved with Megaspeed, a company linked to Alice Huang, the former romantic partner of Nvidia's CEO Jensen Huang. Li is accused of misleading an American supplier by misrepresenting the intended destination of purchased servers. Following an investigation, Megaspeed was placed on a no sell list by Nvidia.",
-          "published": "2026-11-22T11:15:13+00:00",
-          "score": 38.0,
-          "headline": "Chinese National Charged in Singapore Nvidia Chip Fraud Case"
-        }
-      ],
-      "current_topic_name": "Nvidia China Chip Controls"
-    },
-    {
       "topic": "AI Development Limits and Safety Proposals",
       "description": "OpenAI and industry leaders propose formal constraints on AI development speed and training, marking a shift toward industry-wide safety governance.",
       "question": "Should AI companies adopt formal speed limits on model development?",
@@ -45,7 +10,7 @@
       "analysis_url": "/analysis/analysis-ai-development-limits-and-safety-proposals-20261125.html",
       "analysis_type": "poll",
       "created_at": "2026-11-25T16:39:44.913303",
-      "last_seen": "2026-11-26T01:27:48.369107",
+      "last_seen": "2026-11-26T16:12:58.631941",
       "cluster_stories": [
         {
           "id": "772a602107cad2ee",
@@ -89,7 +54,52 @@
         }
       ],
       "current_topic_name": "AI Development Limits and Safety Proposals"
+    },
+    {
+      "topic": "Nvidia-China Espionage Affair",
+      "description": "Major corporate espionage scandal involving Alice Huang's contacts with Chinese intelligence during her time at Nvidia, followed by her controversial return to the company.",
+      "question": "Should Nvidia have allowed Alice Huang to return to the company?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "nvidia-china-espionage-affair-20261126",
+      "analysis_url": "/analysis/analysis-nvidia-china-espionage-affair-20261126.html",
+      "analysis_type": "poll",
+      "created_at": "2026-11-26T16:12:57.304516",
+      "last_seen": "2026-11-26T16:12:59.791518",
+      "cluster_stories": [
+        {
+          "id": "7c00a34712f3c76a",
+          "title": "U.S. tracked Alice Huang\u2019s contacts with China spy agency during Nvidia affair",
+          "url": "https://www.japantimes.co.jp/business/2026/11/23/tech/us-alice-huang-china-spy-nvidia/",
+          "source": "Japan Times Tech",
+          "summary": "Alice Huang and a man introduced as her husband have both been linked to China's Ministry of State Security, U.S. intelligence is said to show.",
+          "published": "2026-11-23T02:20:00+00:00",
+          "score": 41.0,
+          "headline": "US Tracked Alice Huang's China Spy Contacts During Nvidia Affair"
+        },
+        {
+          "id": "ed66ed3c1b6d1e51",
+          "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO: Report",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alice-huang-in-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-report/articleshow/136087629.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Alice Huang was in touch with an officer from China's Ministry of State Security from the spring of 2025 until the fall of this year, the report said, citing people with knowledge of intelligence reports that describe the encounters.",
+          "published": "2026-11-23T02:54:01+00:00",
+          "score": 40.0,
+          "headline": "Alice Huang Contacted Chinese Spy Agency During Nvidia Affair"
+        },
+        {
+          "id": "c67edbb494f3586f",
+          "title": "Emerging Assets Rebound as Huang Comeback Revives Risk Appetite",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/emerging-market-stocks-set-to-erase-2026-gains-on-ai-selloff",
+          "source": "Bloomberg Technology",
+          "summary": "Emerging-market currencies reversed earlier losses and stocks trimmed their declines after Jensen Huang\u2019s returned to the helm of Nvidia Corp., rekindling the AI trade.",
+          "published": "2026-11-23T01:02:47+00:00",
+          "score": 39.0,
+          "headline": "Huang's Nvidia Return Sparks Market Rally"
+        }
+      ],
+      "current_topic_name": "Nvidia-China Espionage Affair"
     }
   ],
-  "last_updated": "2026-11-26T01:27:48.369122"
+  "last_updated": "2026-11-26T16:13:00.394395"
 }
