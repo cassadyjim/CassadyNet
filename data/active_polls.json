@@ -1,61 +1,6 @@
 {
   "polls": [
     {
-      "topic": "AI Development Limits and Safety Proposals",
-      "description": "OpenAI and industry leaders propose formal constraints on AI development speed and training, marking a shift toward industry-wide safety governance.",
-      "question": "Should AI companies adopt formal speed limits on model development?",
-      "button_a": "Yes",
-      "button_b": "No",
-      "poll_id": "ai-development-limits-and-safety-proposals-20261125",
-      "analysis_url": "/analysis/analysis-ai-development-limits-and-safety-proposals-20261125.html",
-      "analysis_type": "poll",
-      "created_at": "2026-11-25T16:39:44.913303",
-      "last_seen": "2026-11-27T01:25:53.837615",
-      "cluster_stories": [
-        {
-          "id": "772a602107cad2ee",
-          "title": "OpenAI\u2019s chief scientist has thoughts on how to limit AI development",
-          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-          "source": "TechCrunch AI",
-          "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
-          "published": "2026-11-22T21:14:07+00:00",
-          "score": 42.0,
-          "headline": "OpenAI Chief Scientist Proposes Speed Limits on AI Development"
-        },
-        {
-          "id": "c10e6136e754987a",
-          "title": "OpenAI Chief Scientist Urges Industry Limits on AI Development",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/openai-chief-scientist-urges-industry-limits-on-ai-development",
-          "source": "Bloomberg Technology",
-          "summary": "OpenAI\u2019s chief scientist proposed that artificial intelligence companies agree to limits on developing increasingly powerful models until researchers have better ways to understand and monitor their behavior.",
-          "published": "2026-11-22T19:40:54+00:00",
-          "score": 42.0,
-          "headline": "OpenAI Chief Scientist Proposes Industry Limits on AI Development"
-        },
-        {
-          "id": "4bc3fbacb6432bcb",
-          "title": "OpenAI proposes \"common limits\" for training, but...",
-          "url": "https://www.lesswrong.com/posts/TtiTdER4jvQDzuwj3/openai-proposes-common-limits-for-training-but",
-          "source": "LessWrong AI",
-          "summary": "Jakub Pachocki just posted a new proposal for how to set limits on training future AI systems:Given that the main way new surprising capabilities emerge is by progress on compression, a measure rooted in perplexity could give us a shared benchmark for general intelligence, regardless of the degree of automation of the development process. Extrapolating from recent progress, we should expect further transformative capabilities as we enter the ~0.68-0.7 log-perplexity window. I don\u2019t know what those capabilities will be, and we may not be testing for them today. At the same time, we should also expect further degradation\u2060(opens in a new window) in currently dominant forms of alignment auditing and further increases in evaluation and training awareness. I believe frontier model developers should jointly endeavour to establish shared norms for how to evaluate such models and red-team safety cases for them by the time they are first used, including shared transparency standards. I further p",
-          "published": "2026-11-22T19:49:58+00:00",
-          "score": 39.0,
-          "headline": "OpenAI Proposes Common Limits on AI Training"
-        },
-        {
-          "id": "d2fc1e262b4cb913",
-          "title": "Perplexity and Intelligence",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "source": "OpenAI Blog",
-          "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-          "published": "2026-11-22T00:00:00+00:00",
-          "score": 37.0,
-          "headline": "OpenAI Proposes Perplexity as Standard AI Progress Metric"
-        }
-      ],
-      "current_topic_name": "AI Development Limits and Safety Proposals"
-    },
-    {
       "topic": "Nvidia-China Espionage Affair",
       "description": "Major corporate espionage scandal involving Alice Huang's contacts with Chinese intelligence during her time at Nvidia, followed by her controversial return to the company.",
       "question": "Should Nvidia have allowed Alice Huang to return to the company?",
@@ -65,7 +10,7 @@
       "analysis_url": "/analysis/analysis-nvidia-china-espionage-affair-20261126.html",
       "analysis_type": "poll",
       "created_at": "2026-11-26T16:12:57.304516",
-      "last_seen": "2026-11-27T01:25:54.407204",
+      "last_seen": "2026-11-27T15:59:29.804577",
       "cluster_stories": [
         {
           "id": "7c00a34712f3c76a",
@@ -99,7 +44,152 @@
         }
       ],
       "current_topic_name": "Nvidia-China Espionage Affair"
+    },
+    {
+      "topic": "Jensen Huang's Return to Nvidia",
+      "description": "Major corporate governance story involving Nvidia CEO's reinstatement with Trump's involvement, sparking significant market and industry reactions.",
+      "question": "Should Nvidia's board have reinstated Jensen Huang as CEO?",
+      "button_a": "Yes",
+      "button_b": "No",
+      "poll_id": "jensen-huangs-return-to-nvidia-20261127",
+      "analysis_url": "/analysis/analysis-jensen-huangs-return-to-nvidia-20261127.html",
+      "analysis_type": "poll",
+      "created_at": "2026-11-27T15:59:28.177354",
+      "last_seen": "2026-11-27T15:59:31.242430",
+      "cluster_stories": [
+        {
+          "id": "4f8cddae57739f4a",
+          "title": "Jensen Huang cheered by Nvidia employees after return, pledges to be a better CEO",
+          "url": "https://www.cnbc.com/2026/11/23/jensen-huang-nvidia-ceo-return.html",
+          "source": "CNBC Technology",
+          "summary": "Nvidia's Jensen Huang admitted to an affair in a note to employees on Nov. 8 and resigned as CEO on Nov. 12.",
+          "published": "2026-11-24T02:20:44+00:00",
+          "score": 41.0,
+          "headline": "Huang Pledges to Be Better CEO After Return"
+        },
+        {
+          "id": "dc3ab002a0301980",
+          "title": "Inside Nvidia, Not Everyone Is Celebrating Jensen Huang\u2019s Return",
+          "url": "https://www.wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return/",
+          "source": "Wired",
+          "summary": "Some saw Huang\u2019s resignation as an opportunity for culture change at the chip giant. \u201cIf Jensen comes back, I\u2019m not doing any HR trainings ever again,\u201d one employee said.",
+          "published": "2026-11-24T01:35:38+00:00",
+          "score": 40.0,
+          "headline": "Some Nvidia Employees Opposed Huang's Return"
+        },
+        {
+          "id": "4b4c85c29742412b",
+          "title": "Trump\u2019s Role in Huang\u2019s Return",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-24/trump-s-role-in-huang-s-return-video",
+          "source": "Bloomberg Technology",
+          "summary": "Bloomberg's Michael Shepard says Donald Trump played a key role in Jensen Huang\u2019s return to NVIDIA after he was forced to resign amid revelations about multiple extramarital affairs, including with a suspected spy. (Source: Bloomberg)",
+          "published": "2026-11-24T00:46:40+00:00",
+          "score": 40.0,
+          "headline": "Trump Played Key Role in Huang's Nvidia Return"
+        },
+        {
+          "id": "0055385786713e00",
+          "title": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits",
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+          "source": "CNBC Technology",
+          "summary": "Investors piled back into the tech market, following the reinstatement of Nvidia CEO Jensen Huang by its board.",
+          "published": "2026-11-24T02:20:36+00:00",
+          "score": 38.0,
+          "headline": "Asian Nvidia Stocks Jump After Huang's Return"
+        },
+        {
+          "id": "15c9635819875781",
+          "title": "Nvidia\u2019s board was no match for Trump or Jensen Huang\u2019s backers",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidias-board-was-no-match-for-trump-or-jensen-huangs-backers/articleshow/136117463.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Trump even dialed into an Nvidia board meeting to argue for Huang\u2019s return, according to Semafor, citing people familiar with the matter whom it didn\u2019t identify. Asked if Huang would have been put back in place without his intervention, Trump told CNBC, \u201cI believe my intervention was very important.\u201d",
+          "published": "2026-11-24T02:16:44+00:00",
+          "score": 38.0,
+          "headline": "Trump Dialed into Nvidia Board to Back Huang"
+        },
+        {
+          "id": "a782e7b09d099ce6",
+          "title": "Nvidia rejoices at Jensen Huang\u2019s second coming as White House takes victory lap",
+          "url": "https://www.theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo",
+          "source": "The Guardian Tech",
+          "summary": "Huang receives hero\u2019s welcome at firm\u2019s Silicon Valley headquarters as return cements role as key AI figureJensen Huang made his return to Nvidia\u2019s headquarters with a hero\u2019s welcome on Monday. Hours earlier he\u2019d been reinstated as the CEO of the world\u2019s most valuable chip company, following a whiplash series of events that involved a romantic affair with a suspected Chinese spy, a drastic plummet in the stock market, and an intervention from Donald Trump.As Huang entered the company\u2019s Silicon Valley office, wearing his signature dark-colored uniform, crowds of employees rushed to greet him clapping, hollering and chanting: \u201cJensen, Jensen, Jensen!\u201d Continue reading...",
+          "published": "2026-11-24T01:34:39+00:00",
+          "score": 38.0,
+          "headline": "Jensen Huang Returns to Hero's Welcome at Nvidia"
+        },
+        {
+          "id": "145a8e129b9bce72",
+          "title": "The 11 days that brought Jensen Huang back to Nvidia",
+          "url": "https://fortune.com/2026/11/23/the-11-days-that-brought-jensen-huang-back-to-nvidia/",
+          "source": "Fortune Tech",
+          "summary": "Nvidia\u2019s board reinstated Huang as CEO, the company announced Monday.",
+          "published": "2026-11-24T00:07:15+00:00",
+          "score": 37.0,
+          "headline": "Nvidia Reinstates Jensen Huang as CEO"
+        },
+        {
+          "id": "712a71c4c853d497",
+          "title": "Jensen Huang's comeback to Nvidia underscores his outsized grip on AI",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/jensen-huangs-comeback-to-nvidia-underscores-his-outsized-grip-on-ai/articleshow/136117322.cms",
+          "source": "The Economic Times Tech",
+          "summary": "Clad in his trademark black leather jacket, hand on heart, the 63-year-old CEO smiled at cheering employees who packed an atrium and crowded the balconies above.",
+          "published": "2026-11-24T01:58:23+00:00",
+          "score": 36.0,
+          "headline": "Huang's Return Underscores His Grip on AI Industry"
+        },
+        {
+          "id": "370ac862ee496253",
+          "title": "\u2018Jensen Does Whatever He Wants\u2019: Experts Slam Nvidia Over CEO\u2019s Reinstatement",
+          "url": "https://www.forbes.com/sites/richardnieva/2026/11/23/jensen-huang-nvidia-corporate-governance/",
+          "source": "Forbes AI",
+          "summary": "As the Nvidia founder returns, the White House says President Trump was \u201ctotally involved\u201d in his reinstatement. Experts say the way the board has handled the saga is bad corporate governance.",
+          "published": "2026-11-24T00:13:09+00:00",
+          "score": 36.0,
+          "headline": "Experts Criticize Nvidia Board Over Huang Reinstatement"
+        },
+        {
+          "id": "ee87f6b278a8a312",
+          "title": "A selloff, a POTUS, or a recession: What really made Nvidia bring Jensen Huang back as CEO?",
+          "url": "https://fortune.com/2026/11/23/why-did-nvidia-jensen-huang-return-market-selloff-government-intervention-recession-worries/",
+          "source": "Fortune Tech",
+          "summary": "As investors and Huang fans celebrated, broader questions loomed over Monday\u2019s stunning sequence of events.",
+          "published": "2026-11-24T00:44:50+00:00",
+          "score": 34.0,
+          "headline": "What Really Brought Jensen Huang Back to Nvidia"
+        },
+        {
+          "id": "549654d4b3ff7fef",
+          "title": "Japan Stocks Rebound as Huang\u2019s Return Resuscitates AI Trade",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/japan-stocks-rebound-as-huang-s-return-resuscitates-ai-trade",
+          "source": "Bloomberg Technology",
+          "summary": "Japanese stocks rose as Jensen Huang\u2019s return to lead Nvidia Corp. eased concerns about a slowdown in AI investment that had intensified following his departure.",
+          "published": "2026-11-24T00:32:45+00:00",
+          "score": 34.0,
+          "headline": "Japan Stocks Rise on Huang Return to Nvidia"
+        },
+        {
+          "id": "720a8b0fcd7ab62a",
+          "title": "Trump rewrites the lame-duck rules with flex on Nvidia CEO",
+          "url": "https://www.japantimes.co.jp/news/2026/11/24/world/trump-lame-duck-nvidia-ceo/",
+          "source": "Japan Times Tech",
+          "summary": "Despite losing control of Congress to Democrats, the U.S. president's move shows how he can continue to wield power in Washington and beyond.",
+          "published": "2026-11-24T01:50:00+00:00",
+          "score": 31.0,
+          "headline": "Trump Flexes Power with Nvidia CEO Move"
+        },
+        {
+          "id": "579fddc904396aad",
+          "title": "Jensen is back",
+          "url": "https://www.platformer.news/jensen-huang-returns-nvidia/",
+          "source": "Platformer",
+          "summary": "But the Nvidia he's taking charge of looks very different from the one he just left",
+          "published": "2026-11-24T01:37:29+00:00",
+          "score": 31.0,
+          "headline": "Nvidia Looks Different as Huang Returns to Lead"
+        }
+      ],
+      "current_topic_name": "Jensen Huang's Return to Nvidia"
     }
   ],
-  "last_updated": "2026-11-27T01:25:54.407221"
+  "last_updated": "2026-11-27T15:59:31.861152"
 }
